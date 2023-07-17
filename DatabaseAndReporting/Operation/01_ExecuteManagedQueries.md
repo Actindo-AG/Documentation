@@ -24,7 +24,7 @@ Execute the query and preview the results in your browser in CSV or XML format.
 
 - A predefined query has been created, see [Create a query](../Integration/01_ManageQueries.md#create-a-query).
 - The API and download option has been enabled. 
-- The user has been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+- The users have been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 #### Procedure
 
@@ -66,7 +66,7 @@ Execute the query and download the results in a CSV or an XML format file.
 
 - A predefined query has been created, see [Create a query](../Integration/01_ManageQueries.md#create-a-query).
 - The API and download option has been enabled. 
-- The user has been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+- The users have been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 #### Procedure
 

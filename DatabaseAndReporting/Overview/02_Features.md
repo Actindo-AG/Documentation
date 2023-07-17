@@ -11,6 +11,6 @@ Access, retrieve, and manage all your data quickly and centrally with the Actind
 - Write your data into time series databases to track change over time  
     Through the use of InfluxDB technology, connected via driver to the *Actindo Core1 Platform*, your data can be written into time series databases at regular fully-customizable intervals. This allows you to track data evolution over time, as well as to identify and monitor trends.    
 
-- Create data visualizations with Grafana  
-    Last but not least, InfluxDB time series databases can be converted into graphs and visualizations using the Grafana open-source platform, which can be additionally integrated in the *Actindo Core1 Platform*. 
+- Create data visualizations with Grafana&trade;  
+    Last but not least, InfluxDB time series databases can be converted into graphs and visualizations using the Grafana&trade; open-source platform, which can be additionally integrated in the *Actindo Core1 Platform*. 
 

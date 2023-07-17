@@ -14,17 +14,17 @@ The user rights for all modules and plugins installed in your Core1 account are 
 Assign user access rights to control access to specific data. The following access rights must be individually granted to any user group with a role other than administrator:
 
 - **Execute query via API**  
-    The user can execute a managed query via API if this option has been enabled in the query.
+    The users can execute a managed query via API if this option has been enabled in the query.
 - **Queries**   
-    Depending on the access permission type granted, the user can read, create, update, delete, and execute queries. Additionally, access rights must be granted for each individual predefined query.    
+    Depending on the access permission type granted, the users can read, create, update, delete, and execute queries. Additionally, access rights must be granted for each individual predefined query.    
 - **Query categories**  
-    Depending on the access permission type granted, the user can read and save query categories.
+    Depending on the access permission type granted, the users can read and save query categories.
 - **InfluxDB**  
-    Depending on the access permission type granted, the user can create, edit, list, delete, and execute InfluxDB time series.
+    Depending on the access permission type granted, the users can create, edit, list, delete, and execute InfluxDB time series.
 - **Interactive MySQL console**  
-    The user can execute any query in the MySQL interactive console. Bear in mind that this gives the user access and even write access to all available data. 
+    The users can execute any query in the MySQL interactive console. Bear in mind that this gives the users access and even write access to all available data. 
 
-    > [Info] Depending on the access rights granted, the user interface of the *Database and reporting* varies. That is, a user with no access right to MySQL console cannot see the corresponding menu entry in the system.
+    > [Info] Depending on the access rights granted, the user interface of the *Database and reporting* varies. That is, a user with no access right to the MySQL console cannot see the corresponding menu entry in the system.
 
 #### Prerequisites
 

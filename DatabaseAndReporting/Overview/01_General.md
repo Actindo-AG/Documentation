@@ -15,7 +15,7 @@ The *Database and reporting* module offers the following benefits:
 - Creation of predefined queries with restricted access for specific user groups
 - Data output individually configurable in different formats 
 - Creation of time series data to track change over time
-- Visualization of time series data using Grafana
+- Visualization of time series data using Grafana&trade;
 
 
 ## Prerequisites

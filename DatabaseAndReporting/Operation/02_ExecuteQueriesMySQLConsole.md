@@ -5,7 +5,7 @@
 
 The MySQL console allows the users to query any data contained in your *Actindo Core1 Platform*. The queries must be written in SQL syntax. Therefore, SQL knowledge is required.  
 
-All data available in the system can be accessed, retrieved, and modified using MySQL interactive console. For this reason, MySQL interactive console must be handled with extreme caution, and access rights should only be granted to persons with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
+All data available in the system can be accessed, retrieved, and modified using the MySQL interactive console. For this reason, the MySQL interactive console must be handled with extreme caution, and access rights should only be granted to persons with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
 
 [comment]: <> (Julian: Wollen wir hier den Inhalt irgendwie als Expertenwissen markieren/kennzeichnen, wie besprochen?)
 
@@ -45,7 +45,7 @@ Data contained in your system's database can also be modified using the interact
 
 #### Prerequisites
 
-The user has been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+The users have been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 #### Procedure
 

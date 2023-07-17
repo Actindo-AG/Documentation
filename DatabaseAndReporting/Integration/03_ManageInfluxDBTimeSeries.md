@@ -4,9 +4,9 @@
 
 # Manage the InfluxDB time series
 
-After a predefined query has been created to retrieve any required data from your databases, this data can be written to InfluxDB at regular time intervals using an InfluxDB time series, which allows you to collect and process a series of data points over time. For detailed information about InfluxDB, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
+After a predefined query has been created to retrieve any required data from your databases, this data can be written to InfluxDB at regular time intervals using an InfluxDB time series, which allows you to collect and process a series of data points over time. For detailed information about InfluxDB&trade;, see the [InfluxDB&trade; website](https://influxdata.com/).
 
-Once the data has been written to InfluxDB, it can be easily visualized and monitored using Grafana, see [Get started with Grafana and InfluxDB](https://grafana.com/docs/grafana/latest/getting-started/get-started-grafana-influxdb/).
+Once the data has been written to InfluxDB, it can be easily visualized and monitored using Grafana&trade;, see the [Grafana&trade; website](https://grafana.com).
 
 You can create, edit or delete an InfluxDB time series for any predefined query.
 
