@@ -22,7 +22,7 @@ The *Actindo Work Flow Engine* module is a tool that allows you to shape, contro
 The *Currency* module (?) <!---ist das ein Modul?--> provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
 
 **Taxes**   
-The *Taxes* module allows you to configure the system automatic tax feature to match your specific business requirements. You can define specific tax classes applicable to your products, determine different tax zones where you operate, and set up an unlimited number of tax rates, which you can also specify according to their validity period.   
+The *Taxes* module allows you to configure the system automatic tax feature to match your specific business requirements. You can define specific tax classes applicable to your products and determine different tax zones where you operate. Additionally, you can set up an unlimited number of tax rates, which you can also specify according to their validity period.   
 For each tax zone &frasl; tax class combination you can define tax rates. You can determine relevant tax zones based on country, ZIP-code, B2B/B2C, and much more.
 
 **Countries and languages**   
@@ -30,8 +30,8 @@ Provides any country with their ISO code and supports country classifications su
 
 
 **DataHub**   
-The *Data Hub* module offers you the possibility to extend any data model with user-defined custom fields. The ETL-Functionality allows to control the data flow between the different data models. The most modules and plugins are based on Data Hub.  
-This enables you to customize your individual data fields and sources for each process. The *Actindo Data Hub* module is the system’s central data hub and is extended by the following modules:   
+The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The ETL-Functionality allows to control the data flow between the different data models. The most Actindo modules and plugins are based on the *DataHub* module.  
+This enables you to customize your individual data fields and sources for each process. The *Actindo DataHub* module is the system’s central data hub and is extended by the following modules:   
 - DataHub Importer  
 Allows the import of any data from various data sources into DataHub-based entities by uploading the file types csv, json, xml, and edi via the network protocols HTTP and SFTP.
 
