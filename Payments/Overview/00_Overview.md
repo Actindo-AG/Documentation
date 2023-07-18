@@ -12,3 +12,5 @@ In this part of the *Payments* documentation, you will find the following chapte
      - [Managing all payments centrally](./02_Features.md#managing-all-payments-centrally)  
      - [Handling of sensitive data](./02_Features.md#handling-of-sensitive-data)
 - [Processes](./03_Processes.md)
+     - [Payments documentation](./03_Processes.md#payments-documentation)
+     - [Payment in the order process](./03_Processes.md#payments-in-the-order-process)

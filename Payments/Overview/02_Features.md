@@ -32,6 +32,6 @@ To ensure consistent databases and if supported by the payment service provider,
 
 ##  Handling of sensitive data  
 Although you can view and monitor all incoming payments and refunds, you do not have access to any sensitive customer data. In the *Payments* module, all incoming payments and refunds are referenced to the number of the payment service provider transactions.   
-Sensible data such as customer names, bank or credit card details or other data that are protected by a data protection act such as GDPR are not visible in the *Payments* module. 
+Sensible data such as customer names, bank or credit card details or other data protected by a data protection act such as GDPR are not visible in the *Payments* module. 
 The sensitive data remain on the payment server provider side only. In addition, an Actindo user will not be able to redirect a payment to his or her own bank account. The *Payments* transactions are a reference to the communication between the Actindo system and the payment service provider's system only. 
 
