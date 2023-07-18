@@ -15,7 +15,7 @@ Managed queries can be created, edited, and deleted, as well as organized in cat
 
 ## Create a query
 
-Define a query, determine how the data may be accessed and by whom, allow write operations, and, if necessary, insert placeholders to represent any desired variables. The queries must be written in SQL syntax, and therefore SQL knowledge is required. 
+Define a query and determine how the data may be accessed and by whom. Besides, you can allow write operations, and, if necessary, insert placeholders to represent any desired variables. The queries must be written in SQL syntax, and therefore SQL knowledge is required. 
 
 #### Prerequisites 
 
@@ -30,7 +30,7 @@ No prerequisites to fulfill.
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
     The *Create MySQL query* is displayed.
 
-    ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/CreateQuery.png "[Queries]")
+    ![Create query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/CreateQuery.png "[Create query]")
 
 2. Enter a name in the *Name* field.
 
@@ -101,7 +101,7 @@ At least one query has been created, see [Create a query](#create-a-query).
 1. Click the query to be edited in the list of queries. Alternatively, select the checkbox of the query to be edited and click the ![Edit](../../Assets/Icons/Edit01.png) (Edit) button in the editing toolbar.  
     The *Edit MySQL query* view is displayed.
 
-    ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Queries]")
+    ![Edit query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/EditQuery.png "[Edit query]")
 
 2. Edit the query as necessary in the corresponding fields and checkboxes.
     

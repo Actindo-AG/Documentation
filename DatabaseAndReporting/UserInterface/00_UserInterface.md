@@ -12,9 +12,9 @@ In this part of the *Database and reporting* documentation, you will find the fo
         - [Bind query parameters placeholders](./01a_Queries.md#bind-query-parameters-placeholders)
 
 
-- [INFLUXDB TIME SERIES](./01b_InfluxDBTimeSeries.md)  
-    - [Create InfluxDB time series](./01b_InfluxDBTimeSeries.md#create-influxdb-time-series)
-    - [Edit InfluxDB time series](./01b_InfluxDBTimeSeries.md#edit-influxdb-time-series)
+- [TIME SERIES DATABASES](./01b_TimeSeriesDatabases.md)  
+    - [Create time series databases](./01b_TimeSeriesDatabases.md#create-time-series-databases)
+    - [Edit time series databases](./01b_TimeSeriesDatabases.md#edit-time-series-databases)
 
 
 - [Logging](./02_Logging.md)
@@ -32,11 +32,11 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 - [CONNECTIONS](./03a_Connections.md)  
     - [Create connection](./03a_Connections.md#create-connection)  
-    - [Create connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v1)
-    - [Create connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v2)
+    - [Create connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb™-driver-v1)
+    - [Create connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb™-driver-v2)
     - [Edit connection](./03a_Connections.md#edit-connection) 
-    - [Edit connection &ndash; Credentials InfluxDB driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v1) 
-    - [Edit connection &ndash; Credentials InfluxDB driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v2)
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb™-driver-v1) 
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb™-driver-v2)
 
 
 - [QUERY CATEGORIES](./03b_QueryCategories.md)  
@@ -50,3 +50,8 @@ In this part of the *Database and reporting* documentation, you will find the fo
 - [INTERACTIVE CONSOLE](./04a_InteractiveConsole.md)
     - [Warning](./04a_InteractiveConsole.md#warning)
     - [Interactive console with write access](./04a_InteractiveConsole.md#interactive-console-with-write-access)
+
+
+---
+
+**Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

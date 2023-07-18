@@ -2,26 +2,26 @@
 
 # Manage the connections
 
-Establish a connection to InfluxDB in order to write data from your databases to InfluxDB at regular time intervals using an InfluxDB time series.
+Establish a connection to InfluxDB&trade;[^1] in order to write data from your databases to a time series database at regular intervals using the InfluxDB&trade; technology.
 
-The InfluxDB driver is preinstalled with the *Database and reporting* module and is available in two different versions. Depending on the driver version, the credentials differ. All necessary credentials to establish the connection are available by InfluxDB. For detailed information, see [InfluxDB](https://docs.influxdata.com/influxdb/v2.6/).
+The InfluxDB&trade; driver is preinstalled with the *Database and reporting* module and is available in two different versions. Depending on the driver version, the credentials differ. All necessary credentials to establish the connection are provided by InfluxDB&trade;. For detailed information, see the [InfluxDB&trade; website](https://influxdata.com).
 
-The connections can be created, edited and deleted.
+The connections can be created, edited, and deleted.
 
 
 
 ## Create a connection
 
-Create a connection to InfluxDB to be able to write data from your databases to InfluxDB. 
+Create a connection to InfluxDB&trade; to be able to write data from your databases to a time series database. 
 
 
 ### Add a connection
 
-Add a new connection to InfluxDB using one of the available InfluxDB drivers.
+Add a new connection to InfluxDB&trade; using one of the available InfluxDB&trade; drivers.
 
 #### Prerequisites
 
-InfluxDB has been purchased.
+InfluxDB&trade; has been purchased.
 
 #### Procedure
 
@@ -38,33 +38,33 @@ InfluxDB has been purchased.
 
 3. Click the *Driver* drop-down list and select the desired driver. The following options are available:
 
-    - **InfluxDB driver V1**  
-    - **InfluxDB driver V2**  
+    - **InfluxDB&trade; driver V1**  
+    - **InfluxDB&trade; driver V2**  
 
-    Depending on the selected driver, the fields in the *Credentials* section differ. All necessary credentials are provided by InfluxDB.
+    Depending on the selected driver, the fields in the *Credentials* section differ. All necessary credentials are provided by InfluxDB&trade;.
    
-    ![InfluxDB Drivers](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[InfluxDB Drivers]")
+    ![InfluxDB&trade; drivers](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[InfluxDB&trade; drivers]")
 
 4. For the next steps to create a connection, follow the appropriate procedure:
 
-    - [Create a connection with InfluxDB driver V1](#create-a-connection-with-influxdb-driver-v1)
-    - [Create a connection with InfluxDB driver V2](#create-a-connection-with-influxdb-driver-v2) 
+    - [Create a connection with InfluxDB&trade; driver V1](#create-a-connection-with-influxdb™-driver-v1)
+    - [Create a connection with InfluxDB&trade; driver V2](#create-a-connection-with-influxdb™-driver-v2) 
 
 
-### Create a connection with InfluxDB driver V1
+### Create a connection with InfluxDB&trade; driver V1
 
-Enter the credentials als provided by InfluxDB in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB driver V1.
+Enter the credentials als provided by InfluxDB&trade; in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB&trade; driver V1.
 
 #### Prerequisites
 
 - A connection has been added, see [Add a connection](#add-a-connection).
-- The InfluxDB driver V1 has been selected. 
+- The InfluxDB&trade; driver V1 driver V1 has been selected. 
 
 #### Procedure
 
-*Database and reporting > Settings > Tab CONNECTIONS > Add connection > Select InfluxDB driver V1*
+*Database and reporting > Settings > Tab CONNECTIONS > Add connection > Select InfluxDB&trade; driver V1*
 
-![InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[InfluxDB driver V1]")
+![InfluxDB&trade; driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[InfluxDB&trade; driver V1]")
 
 1. Enter the URL path in the *URL* field.
 
@@ -80,20 +80,20 @@ Enter the credentials als provided by InfluxDB in the corresponding fields of th
     ![Connection created](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionsV1.png "[Connection created]")
 
 
-### Create a connection with InfluxDB driver V2
+### Create a connection with InfluxDB&trade; driver V2
 
-Enter the credentials als provided by InfluxDB in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB driver V2.
+Enter the credentials als provided by InfluxDB&trade; in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB&trade; driver V2.
 
 #### Prerequisites
 
 - A connection has been added, see [Add a connection](#add-a-connection).
-- The InfluxDB driver V2 has been selected. 
+- The InfluxDB&trade; driver V2 has been selected. 
 
 #### Procedure
 
-*Database and reporting > Settings > Tab CONNECTIONS > Add connection > Select InfluxDB driver V2*
+*Database and reporting > Settings > Tab CONNECTIONS > Add connection > Select InfluxDB&trade; driver V2*
 
-![InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[InfluxDB driver V2]")
+![InfluxDB&trade; driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[InfluxDB&trade; driver V2]")
 
 1. Enter the URL path in the *URL* field.
 
@@ -164,3 +164,7 @@ At least one connection has been established, see [Create a connection](#create-
     ![Deleted connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/DeletedConnection.png "[Deleted connection]")
 
 [comment]: <> (Delete wird noch eingebaut. Wenn soweit, ggf. Procedure ergänzen/anpassen. Julian, bitte Screenshot einbauen, ziehen und zukommen lassen.)
+
+
+
+[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

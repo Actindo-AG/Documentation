@@ -19,8 +19,8 @@ Assign user access rights to control access to specific data. The following acce
     Depending on the access permission type granted, the users can read, create, update, delete, and execute queries. Additionally, access rights must be granted for each individual predefined query.    
 - **Query categories**  
     Depending on the access permission type granted, the users can read and save query categories.
-- **InfluxDB**  
-    Depending on the access permission type granted, the users can create, edit, list, delete, and execute InfluxDB time series.
+- **InfluxDB&trade;[^1]**  
+    Depending on the access permission type granted, the users can create, edit, list, delete, and execute time series databases.
 - **Interactive MySQL console**  
     The users can execute any query in the MySQL interactive console. Bear in mind that this gives the users access and even write access to all available data. 
 
@@ -71,3 +71,5 @@ Assign user access rights to control access to specific data. The following acce
 8. Select the checkbox of the applicable folder(s) and/or sub-folders.  
    The user group, and all users included in it, have been granted access rights to the selected module functions.
 
+
+[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

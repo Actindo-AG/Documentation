@@ -17,17 +17,17 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Delete a query category](./02_ManageQueryCategories.md#delete-a-query-category)
 
 
-- [Manage the InfluxDB time series](./03_ManageInfluxDBTimeSeries.md)
-    - [Create an InfluxDB time series](./03_ManageInfluxDBTimeSeries.md#create-an-influxdb-time-series)
-    - [Edit an InfluxDB time series](./03_ManageInfluxDBTimeSeries.md#edit-an-influxdb-time-series)
-    - [Delete an InfluxDB time series](./03_ManageInfluxDBTimeSeries.md#delete-an-influxdb-time-series)
+- [Manage the time series databases](./03_ManageTimeSeriesDatabases.md)
+    - [Create a time series database](./03_ManageTimeSeriesDatabases.md#create-a-time-series-database)
+    - [Edit a time series database](./03_ManageTimeSeriesDatabases.md#edit-a-time-series-database)
+    - [Delete a time series database](./03_ManageTimeSeriesDatabases.md#delete-a-time-series-database)
 
 
 - [Manage the connections](./04_ManageConnections.md)
     - [Create a connection](./04_ManageConnections.md#create-a-connection)
         - [Add a connection](./04_ManageConnections.md#add-a-connection)
-        - [Create a connection with InfluxDB driver V1](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v1)
-        - [Create a connection with InfluxDB driver V2](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v2)
+        - [Create a connection with InfluxDB&trade; driver V1](./04_ManageConnections.md#create-a-connection-with-influxdb™-driver-v1)
+        - [Create a connection with InfluxDB&trade; driver V2](./04_ManageConnections.md#create-a-connection-with-influxdb™-driver-v2)
     - [Edit a connection](./04_ManageConnections.md#edit-a-connection)
     - [Delete a connection](./04_ManageConnections.md#delete-a-connection)
 
@@ -36,4 +36,6 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Assign access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group)
     
 
+---
 
+**Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

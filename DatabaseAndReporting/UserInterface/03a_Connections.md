@@ -28,8 +28,8 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *Driver*  
     Driver name. The following options are available:
-    - **InfluxDB driver V1**
-    - **InfluxDB driver V2**
+    - **InfluxDB&trade;[^1] driver V1**
+    - **InfluxDB&trade; driver V2**
 
 - *ID*  
     Connection identification number. The ID number is automatically assigned by the system.
@@ -59,26 +59,26 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *Driver*  
     Click the drop-down list and select the desired driver version. The following options are available:
-    - **InfluxDB driver V1**
-    - **InfluxDB driver V2**
+    - **InfluxDB&trade; driver V1**
+    - **InfluxDB&trade; driver V2**
       
-    > [Info] The InfluxDB drivers V1 and V2 are preinstalled in the *Database and reporting* module.
+    > [Info] The InfluxDB&trade; drivers V1 and V2 are preinstalled in the *Database and reporting* module.
 
     Once a driver is selected, the *Credentials* section is displayed below the *Driver* drop-down list.
 
 **Credentials**
 
 The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-  - [Create connection &ndash; Credentials InfluxDB driver V1](#create-connection-–-credentials-influxdb-driver-v1)   
-  - [Create connection &ndash; Credentials InfluxDB driver V2](#create-connection-–-credentials-influxdb-driver-v2) 
+  - [Create connection &ndash; Credentials InfluxDB&trade; driver V1](#create-connection-–-credentials-influxdb™-driver-v1)   
+  - [Create connection &ndash; Credentials InfluxDB&trade; driver V2](#create-connection-–-credentials-influxdb™-driver-v2) 
     
 
 
-## Create connection &ndash; Credentials InfluxDB driver V1
+## Create connection &ndash; Credentials InfluxDB&trade; driver V1
 
-*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V1*
+*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB&trade; driver V1*
 
-![Create connection InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[Create connection InfluxDB driver V1]")
+![Create connection InfluxDB&trade; driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1.png "[Create connection InfluxDB&trade; driver V1]")
 
 - *URL*  
     Enter your URL path.
@@ -97,11 +97,11 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
     
 
-## Create connection &ndash; Credentials InfluxDB driver V2
+## Create connection &ndash; Credentials InfluxDB&trade; driver V2
 
-*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB driver V2*
+*Database and reporting > Settings > Tab CONNECTIONS > Button Add > Select InfluxDB&trade; driver V2*
 
-![Create connection InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[Create connection InfluxDB driver V2]")
+![Create connection InfluxDB&trade; driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV2.png "[Create connection InfluxDB&trade; driver V2]")
 
 - *URL*  
     Enter your URL path.
@@ -145,16 +145,16 @@ The fields displayed in the *Credentials* section vary depending on the selected
     Selected driver name. This drop-down list is read-only.
 
     The fields displayed in the *Credentials* section vary depending on the selected driver version. For a detailed description of this section and the corresponding functions, see the applicable interface: 
-    - [Edit connection &ndash; Credentials InfluxDB driver V1](#edit-connection-–-credentials-influxdb-driver-v1)   
-    - [Edit connection &ndash; Credentials InfluxDB driver V2](#edit-connection-–-credentials-influxdb-driver-v2) 
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V1](#edit-connection-–-credentials-influxdb™-driver-v1)   
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V2](#edit-connection-–-credentials-influxdb™-driver-v2) 
     
 
 
-## Edit connection &ndash; Credentials InfluxDB driver V1
+## Edit connection &ndash; Credentials InfluxDB&trade; driver V1
 
-*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V1*
+*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB&trade; driver V1*
 
-![Edit credentials InfluxDB driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV1.png "[Edit credentials InfluxDB driver V1]")
+![Edit credentials InfluxDB&trade; driver V1](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV1.png "[Edit credentials InfluxDB&trade; driver V1]")
 
 **Credentials** 
 
@@ -175,11 +175,11 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 
 
-## Edit connection &ndash; Credentials InfluxDB driver V2
+## Edit connection &ndash; Credentials InfluxDB&trade; driver V2
 
-*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB driver V2*
+*Database and reporting > Settings > Tab CONNECTIONS > Select a connection with InfluxDB&trade; driver V2*
 
-![Edit credentials InfluxDB driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV2.png "[Edit credentials InfluxDB driver V2]")
+![Edit credentials InfluxDB&trade; driver V2](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV2.png "[Edit credentials InfluxDB&trade; driver V2]")
 
 **Credentials** 
 
@@ -201,3 +201,5 @@ The fields displayed in the *Credentials* section vary depending on the selected
     
 
 
+
+[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  
