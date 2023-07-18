@@ -7,7 +7,7 @@ The *Actindo Core1 Platform* supports the business of companies in wholesale and
 
 Your company uses an existing ERP system. The *Actindo Core1 Platform* provides complete software for linking existing and legacy IT systems with modern markets in the B2C (business-to-consumer) and B2B (business-to-business) sectors.   
 The average age of running ERP solutions are about 12 years. This means in most cases that you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models are then extremely time-consuming and expensive. Additionally, changes may be risky and can have a bad impact on business transactions that are stable.   
-With the *Actindo Core1 Platform* you can loosely couple a D2C (direct-to-consumer) infrastructure to your legacy IT. The digital operations platform with its core orchestration manages the interaction between channels, 3PL (third-party logistics), PSP (payment service provider), and your legacy ERP. For example, you can exchange the following data:
+With the *Actindo Core1 Platform* you can loosely couple a D2C (direct-to-consumer) infrastructure to your legacy IT. The digital operations platform with its core orchestration manages the interaction between channels, 3PL (third-party logistics), PSP (payment service providers), and your legacy ERP. For example, you can exchange the following data:
 - Material numbers and article master data
 - Invoices and credit notes   
 
@@ -17,7 +17,7 @@ The *Actindo Core1 Platform* supports the transformation to a D2C business with 
 
 ## Outdated and unsustainable ERP system in use
 
-Your company is already established in the market and in B2C (business-to-consumer) business, but your IT infrastructure is completely outdated and not maintainable, because the legacy IT is self-built and highly customized.   
+Your company is already established in the market and in B2C (business-to-consumer) business, but your IT infrastructure is completely outdated and not maintainable, because the legacy IT is self-built and highly customized. You do not know how the business processes are mapped in detail and which data is processed in which way.     
 In this case, you can use the *Actindo Core1 Platform* to replace the existing infrastructure in waves. Actindo analyzes your specific needs and designs modern and useful processes. The process orchestration then makes your processes transparent and removes single points of failure.
 
 

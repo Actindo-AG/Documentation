@@ -29,7 +29,7 @@ For each tax zone &frasl; tax class combination you can define tax rates. You ca
 Provides any country with their ISO code and supports country classifications such as European Union (EU).
 
 
-**DataHub**   
+**Data hub**   
 The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The ETL-Functionality allows to control the data flow between the different data models. The most Actindo modules and plugins are based on the *DataHub* module.  
 This enables you to customize your individual data fields and sources for each process. The *Actindo DataHub* module is the system’s central data hub and is extended by the following modules:   
 - DataHub Importer  
@@ -69,30 +69,29 @@ POS-System with multi location and multi cash register handling
 **Fulfillment**   
 Whether you work with external fulfillment providers or handle shipping yourself, the *Actindo Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.
 
-**Warehousing**   
-Management of stock levels per Material. Allows several kind of bookings like inventory, reservations, picking, sells,...
+**Warehouse Management**   
+The *Warehouse Management* module is the central place on the *Actindo Core1 Platform* for organizing and monitoring warehouse processes. You can manage of stock levels per material. It allows several ways of bookings such as inventory, reservations, pickings, and sells.
 
 **OMS**   
 Manages documents like order confirmations, invoices, delivery notes, returns
 
-**Customer and Suppliers**    
-Manages customers and suppliers
-
+**Customers and Suppliers**    
+After orders are imported from any connected stores and marketplaces, customer master data is automatically created, or existing master data records are recognized and updated as needed.
 
 **Return Management**   
-Manage returns and follow up actions (via defined workflows)
+The *Return management* module of the *Actindo Core1 Platform* offers the necessary basis for the intelligent processing of returns with practical customization and automation options. For example, you can define follow-up actions via customer-specific workflows.
 
+**Accounting**    
+The *Actindo Core1 Platform* is the only digital operations platform worldwide with a complete accounting module integrated. This means that all postings for all orders of the connected channels and accounts are automatically generated and optionally transferred live to a group accounting system. As a result, your data integration is extremely simplified and easy to manage.
 
-**RetailSuiteAccounting**    
-Store any information financial transactions
-
-**RetailSuiteBanking**   
-Receives external payments and tries to match them with open positions. It contains the EBIC (European Banking Industry Committee) interface for importing transactions on bank accounts.
+**Payment Processing**   
+The *Payment processing* module receives external payments and tries to match them with open positions. It contains the EBIC (European Banking Industry Committee) interface for importing transactions on bank accounts.
 
 **Payments**   
-Communication with external payment service providers such as PayPal, Adyen, and Stripe
+The *Payments* module gives you the possibility to exchange data with various payment service providers such as Adyen&trade;, Paypal&trade;, or Stripe&trade;. The module allows fully automated processing of incoming payments and refunds. It acts as a link between payment service providers and an accounting solution.
 
-
+**Business Intelligence**    
+The *Database and reporting* module
 
 
 Email
