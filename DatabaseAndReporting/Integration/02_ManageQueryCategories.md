@@ -6,7 +6,11 @@
 
 Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
-Query categories can be created, edited, deleted, and divided into sub-categories. All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+Query categories can be created, edited, deleted, and divided into sub-categories. For example, a query category can be created to assign all queries related to placed orders per week, while additional query sub-categories can be created to organize these queries according to any desired sub-criteria, for instance the different countries where the orders have been placed. 
+
+All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+
+[comment]: <> (Julian: Beispiel von Category and Sub-category sinnvoll?)
 
 
 
@@ -54,7 +58,7 @@ No prerequisites to fulfill.
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The new query category has been saved to the query categories tree, which is displayed in the *Queries* view.
+    The new query category has been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
     
@@ -110,7 +114,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The new query sub-category has been saved to the query categories tree, which is displayed in the *Queries* view.
+    The new query sub-category has been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
@@ -141,14 +145,14 @@ At least one query category has been created, see [Create a query category](#cre
 2. Rename the query category as necessary.
 
 3. Click the [SAVE] button in the bottom right corner of the query category data window.  
-    The changes have been saved to the query category column. 
+    The changes have been saved in the query category column. 
 
 4. Click the [SAVE] button in the upper right corner.  
      The *Submitting data...* view is displayed while saving. 
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
+    The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
@@ -182,7 +186,7 @@ At least two query categories have been created, see [Create a query category](#
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The new query category order has been saved. The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
+    The new query category order has been saved. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
@@ -221,7 +225,7 @@ At least one query category has been created, see [Create a query category](#cre
 
     ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
 
-    The changes have been saved to the query categories tree, which is displayed in the *Queries* view.
+    The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 

@@ -83,6 +83,8 @@ The fields displayed in the *Credentials* section vary depending on the selected
 - *URL*  
     Enter your URL path.
 
+[comment]: <> (Julian: Ist das die URL der aktuellen Instanz oder der InfluxDB database?)
+
 - *Database*  
     Enter your database identifier.
 
@@ -105,6 +107,8 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 - *URL*  
     Enter your URL path.
+
+[comment]: <> (Julian: Ist das die URL der aktuellen Instanz oder der InfluxDB database?)
 
 - *Organization*  
     Enter your organization name.

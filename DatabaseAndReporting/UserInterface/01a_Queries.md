@@ -14,7 +14,7 @@
 **Query categories tree**
 
  - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Query category that contains query sub-categories. Click the arrow left to the query category to unfold it and display the query sub-categories. Select the query category to display all queries that are assigned to it in the *Queries* list.
+    Query category that contains query sub-categories. Click the arrow *>* left to the query category to unfold it and display the query sub-categories. Select the query category to display all queries that are assigned to it in the *Queries* list.
 
 - ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
     Query sub-category. Click the query sub-category to display all queries that are assigned to it in the *Queries* list.

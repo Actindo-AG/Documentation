@@ -17,7 +17,8 @@ Access and retrieve any data contained in your system's databases using the inte
 
 #### Prerequisites
 
-The users have been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+- The users have been granted the applicable access rights, see [Grant access rights to a user group](../Integration/05_ManageUserRights.md#grant-access-rights-to-a-user-group).
+-  The users have SQL knowledge. 
 
 #### Procedure
 
@@ -26,8 +27,7 @@ The users have been granted the applicable access rights, see [Grant access righ
 ![Interactive console](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/InteractiveConsole.png "[Interactive console]")
 
 1. Enter a valid SQL query, for example **SELECT name FROM datahub_attributes;**, to retrieve all attribute names contained in the *datahub_attributes* table. 
-    > [Info] SQL knowledge is required to perform the queries. For detailed information on SQL, see for instance [SQL Tutorial](https://www.w3schools.com/sql/default.asp).
-    
+      
 2. Press the **ENTER** key.  
     The query results are displayed in the interactive console.    
 

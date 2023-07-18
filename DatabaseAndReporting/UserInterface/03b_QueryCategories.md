@@ -5,7 +5,7 @@
 
 *Database and reporting > Settings > Tab QUERY CATEGORIES*
 
-![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategories.png "[Query categories]")
+![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategoriesCreated.png "[Query categories]")
 
 **Edit tree**
 
@@ -63,6 +63,8 @@ The following buttons and fields are only displayed when you have added a query 
 - *Key*   
     Enter a query category key. The number of characters is limited to 190.
 
+[comment]: <> (Julian: Sollte Key hier schon raus?)
+
 - [CANCEL]   
     Click this button to cancel adding a query category. The *Add element* window is closed.
 
@@ -91,6 +93,8 @@ The following buttons and fields are only displayed when you have added a query 
 
 - *Key*   
     Click the field to edit the query category key. The number of characters is limited to 190.
+
+[comment]: <> (Julian: Sollte Key hier schon raus?)
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to remove the selected query category.
