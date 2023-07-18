@@ -3,7 +3,7 @@ Organize and monitor your incoming payments and refunds:
 - Automated import of payments and refunds
 - Flexible Connection with payment service providers
 - Payment processing and accounting linked
-- Secure Handling of sensitive data  
+- Secure handling of sensitive data  
 
 
 <!---Hallo Stefan, die folgenden Infos sind hauptsächlich von der Website. Ich bin mir da nicht sicher, ob das alles so stimmt-->
