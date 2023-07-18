@@ -32,11 +32,11 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 - [CONNECTIONS](./03a_Connections.md)  
     - [Create connection](./03a_Connections.md#create-connection)  
-    - [Create connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb™-driver-v1)
-    - [Create connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb™-driver-v2)
+    - [Create connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v1)
+    - [Create connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v2)
     - [Edit connection](./03a_Connections.md#edit-connection) 
-    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb™-driver-v1) 
-    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb™-driver-v2)
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v1) 
+    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v2)
 
 
 - [QUERY CATEGORIES](./03b_QueryCategories.md)  

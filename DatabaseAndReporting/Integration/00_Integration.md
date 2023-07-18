@@ -26,8 +26,8 @@ In this part of the *Database and reporting* documentation, you will find the fo
 - [Manage the connections](./04_ManageConnections.md)
     - [Create a connection](./04_ManageConnections.md#create-a-connection)
         - [Add a connection](./04_ManageConnections.md#add-a-connection)
-        - [Create a connection with InfluxDB&trade; driver V1](./04_ManageConnections.md#create-a-connection-with-influxdb™-driver-v1)
-        - [Create a connection with InfluxDB&trade; driver V2](./04_ManageConnections.md#create-a-connection-with-influxdb™-driver-v2)
+        - [Create a connection with InfluxDB&trade; driver V1](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v1)
+        - [Create a connection with InfluxDB&trade; driver V2](./04_ManageConnections.md#create-a-connection-with-influxdb-driver-v2)
     - [Edit a connection](./04_ManageConnections.md#edit-a-connection)
     - [Delete a connection](./04_ManageConnections.md#delete-a-connection)
 

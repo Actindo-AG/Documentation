@@ -47,11 +47,11 @@ InfluxDB&trade; has been purchased.
 
 4. For the next steps to create a connection, follow the appropriate procedure:
 
-    - [Create a connection with InfluxDB&trade; driver V1](#create-a-connection-with-influxdb™-driver-v1)
-    - [Create a connection with InfluxDB&trade; driver V2](#create-a-connection-with-influxdb™-driver-v2) 
+    - [Create a connection with InfluxDB&trade; driver V1](#create-a-connection-with-influxdb-driver-v1)
+    - [Create a connection with InfluxDB&trade; driver V2](#create-a-connection-with-influxdb-driver-v2) 
 
 
-### Create a connection with InfluxDB&trade; driver V1
+### Create a connection with InfluxDB driver V1
 
 Enter the credentials als provided by InfluxDB&trade; in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB&trade; driver V1.
 
@@ -80,7 +80,7 @@ Enter the credentials als provided by InfluxDB&trade; in the corresponding field
     ![Connection created](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/ConnectionsV1.png "[Connection created]")
 
 
-### Create a connection with InfluxDB&trade; driver V2
+### Create a connection with InfluxDB driver V2
 
 Enter the credentials als provided by InfluxDB&trade; in the corresponding fields of the *Credentials* section to create a connection with the InfluxDB&trade; driver V2.
 
