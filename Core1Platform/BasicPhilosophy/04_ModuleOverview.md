@@ -91,7 +91,7 @@ The *Payment processing* module receives external payments and tries to match th
 The *Payments* module gives you the possibility to exchange data with various payment service providers such as Adyen&trade;, Paypal&trade;, or Stripe&trade;. The module allows fully automated processing of incoming payments and refunds. It acts as a link between payment service providers and an accounting solution.
 
 **Business Intelligence**    
-The *Database and reporting* module
+The *Database and reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for Structured Query Language, is used to communicate with your databases. Its applications range from selecting and retrieving data to altering table structures and updating contents, to name just a few. The *Actindo Database and reporting* module also allows you to create predefined queries to determine who can access your data and how. 
 
 
 Email
@@ -120,3 +120,5 @@ Reporting generator
 
 
 Einkauf > Purchasing & Supplier Management?
+
+[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

@@ -89,7 +89,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 ![NewTab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardNewTab.png "[NewTab]")
 
-1. Select the tab of the dashboard to which you want to change the viewport.   
+1. Select the tab of the dashboard of which you want to change the viewport.   
     The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.    
