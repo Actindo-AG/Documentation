@@ -81,22 +81,22 @@ At least one connection has been created, see [Create PSP connection](#create-ps
     The editing toolbar is displayed above the list of connections.
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit") (Edit) button.   
-    The *"Driver name" connection* view is displayed.
+    The *Edit connection* view is displayed.
 
     > [Info] Depending on the driver, the *Credentials* as well as the *Settings* tab are displayed in the view.
 
-    ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[Credentials]")
+    ![Edit connection](../../Assets/Screenshots/Payments/Settings/EditConnectionCredentials.png "[Edit connection]")
 
 3. Edit the desired data of the connection in the corresponding fields in the *Credentials* tab.   
 
 4. If necessary, click the *Settings* tab and edit the desired settings of the connection in the corresponding fields.
 
 5. Click the [SAVE] button.   
-The *Checking credentials...* notice is displayed.
+    The *Checking credentials...* notice is displayed.
 
     ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
 
-    The *"Driver name" connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
+    The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
 
 
 

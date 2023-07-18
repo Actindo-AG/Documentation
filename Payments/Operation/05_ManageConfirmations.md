@@ -105,6 +105,7 @@ After you have checked a confirmation transaction and the reclaim is not justifi
 ## Void confirmation transaction  
 
 You can void a confirmation transaction that is no longer valid for the payment process and invalidate it for the Actindo database. 
+
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the database from faulty entries.  
 
 #### Prerequisites
@@ -120,8 +121,8 @@ You can void a confirmation transaction that is no longer valid for the payment 
 1. Identify the issue that led to the error/failure. To do this, check the confirmation transaction to be voided, see [Check confirmation transaction](#check-confirmation-transaction).
 
 2. Select the confirmation transaction to be voided by clicking the checkbox on the left.   
-The editing toolbar is displayed.   
+    The editing toolbar is displayed.   
 
 3. Click the [VOID] button.  
-A confirmation message is displayed.  
-The confirmation transaction has been removed from the list. It is no longer valid for the Actindo database.
+    A confirmation message is displayed.  
+    The confirmation transaction has been removed from the list. It is no longer valid for the Actindo database.

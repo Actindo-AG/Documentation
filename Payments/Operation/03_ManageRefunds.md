@@ -55,7 +55,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 3. Check the list of attributes, for example, whether the required fields are filled. For detailed information on fields, see [Refund &ndash; Attributes](../UserInterface/03a_ListRefunds.md#refund-–-attributes).
 
 4. Click the *Logs* tab.   
-The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+    The *Logs* tab is displayed and shows the messages that have been created for this issue. 
 
     ![Logs](../../Assets/Screenshots/Payments/Refunds/AttributesRefund.png "[Logs]")
 

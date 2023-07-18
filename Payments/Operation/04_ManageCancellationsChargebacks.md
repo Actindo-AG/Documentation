@@ -66,12 +66,12 @@ In case of errors or failures, there may be a general issue that is caused by th
 3. Check the list of attributes, for example, if the required fields are filled. For detailed information on fields, see [Cancel &ndash; Attributes](../UserInterface/05a_ListCancellationsChargebacks.md#cancel-–-attributes).
 
 4. Click the *Logs* tab.   
-The *Logs* tab is displayed and shows the messages that have been created for this issue. 
+    The *Logs* tab is displayed and shows the messages that have been created for this issue. 
 
    ![Logs](../../Assets/Screenshots/Payments/CancellationsChargebacks/LogCancellationsChargebacks.png "[Logs]")
 
 5. Check the logs, for example, if there is a general communication issue.
-For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
+    For detailed information on fields and functions, see [LIST (Logging)](../UserInterface/07a_ListLogging.md).
 
 6. Return to the list of cancellations and chargebacks and decide how to proceed with the transaction.
 

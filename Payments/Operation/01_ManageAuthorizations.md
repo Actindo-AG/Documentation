@@ -83,8 +83,7 @@ The status of an authorization transaction is **not** "Success". In case of succ
 
 ![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
-1. Check the authorization transactions you want to capture, see [Check authorization transaction]
-(#check-authorization-transaction).
+1. Check the authorization transactions you want to capture, see [Check authorization transaction](#check-authorization-transaction).
 
 2. Select the authorization transactions you want to capture by clicking the checkbox on the left. If desired, you can select several transactions at once.   
     The editing toolbar is displayed.
