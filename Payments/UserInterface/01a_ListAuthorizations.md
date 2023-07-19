@@ -208,8 +208,8 @@ The list displays all authorization transactions. Depending on the payment servi
 
 **Authorization "Authorization ID"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-   Click this button to close the *Authorization "Authorization ID"* view and return to the list of authorizations. 
+![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+Click this button to close the *Authorization "Authorization ID"* view and return to the list of authorizations. 
 
 
 

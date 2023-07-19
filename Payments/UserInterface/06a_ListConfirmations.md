@@ -163,8 +163,8 @@ The list displays all confirmation transactions. Depending on the payment servic
 
 **Confirmation "Refund ID"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Refund ID* view and return to the list of confirmation transactions. 
+![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+Click this button to close the *Refund ID* view and return to the list of confirmation transactions. 
 
 ## Confirmation &ndash; Attributes
 

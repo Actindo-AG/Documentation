@@ -202,8 +202,8 @@ The list displays all refund transactions. Depending on the payment service prov
 
 **Refund "Refund ID"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Refund ID* view and return to the list of refund transactions. 
+![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+Click this button to close the *Refund ID* view and return to the list of refund transactions. 
 
 
 

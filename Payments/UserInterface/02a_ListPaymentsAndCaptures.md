@@ -204,8 +204,8 @@ The list displays all capture transactions. Depending on the payment service pro
 
 **Capture "Capture ID"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Capture ID* view and return to the list of payment and capture transactions. 
+![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+Click this button to close the *Capture ID* view and return to the list of payment and capture transactions. 
 
 ## Capture &ndash; Attributes
 
