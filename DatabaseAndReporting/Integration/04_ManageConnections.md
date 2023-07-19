@@ -38,17 +38,17 @@ InfluxDB&trade; has been purchased.
 
 3. Click the *Driver* drop-down list and select the desired driver. The following options are available:
 
-    - **InfluxDB&trade; driver V1**  
-    - **InfluxDB&trade; driver V2**  
+    - **Driver V1**  
+    - **Driver V2**  
 
     Depending on the selected driver, the fields in the *Credentials* section differ. All necessary credentials are provided by InfluxDB&trade;.
    
-    ![InfluxDB&trade; drivers](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[InfluxDB&trade; drivers]")
+    ![Drivers](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/CreateConnectionInfluxDBDriverV1und2.png "[Drivers]")
 
 4. For the next steps to create a connection, follow the appropriate procedure:
 
-    - [Create a connection with driver V1](#create-a-connection-with-influxdb-driver-v1)
-    - [Create a connection with driver V2](#create-a-connection-with-influxdb-driver-v2) 
+    - [Create a connection with driver V1](#create-a-connection-with-driver-v1)
+    - [Create a connection with driver V2](#create-a-connection-with-driver-v2) 
 
 
 ### Create a connection with driver V1

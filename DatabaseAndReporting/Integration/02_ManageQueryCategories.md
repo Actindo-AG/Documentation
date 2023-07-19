@@ -6,11 +6,11 @@
 
 Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
-Query categories can be created, edited, deleted, and divided into sub-categories. For example, a query category can be created to assign all queries related to placed orders per week, while additional query sub-categories can be created to organize these queries according to any desired sub-criteria, for instance the different countries where the orders have been placed. 
+Query categories can be created, edited, deleted, and divided into sub-categories. For example, a query category can be created to assign all queries related to all new product offers, while additional query sub-categories can be created to organize these queries according to any desired sub-criteria, for instance product group. 
 
 All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
-[comment]: <> (Julian: Beispiel von Category and Sub-category sinnvoll?)
+[comment]: <> (Julian: Ist das Beispiel von Category und Sub-category oben sinnvoll? Hättest du ein konkreteres/besseres Beispiel von Category and Sub-category?)
 
 
 
@@ -118,6 +118,8 @@ At least one query category has been created, see [Create a query category](#cre
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
+[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
+
 [comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
 
@@ -156,12 +158,14 @@ At least one query category has been created, see [Create a query category](#cre
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
+[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
+
 [comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
 
 ### Change the order of query categories
 
-[comment]: <> (Funktioniert nicht einwandfrei, Stand 19.07.23. JS weiß Bescheid.)
+[comment]: <> (Julian: Das funktioniert nicht einwandfrei. Dragging geht aber dropping nicht.)
 
 You can change the order of the query categories if necessary. 
 
@@ -190,7 +194,7 @@ At least two query categories have been created, see [Create a query category](#
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
-[comment]: <> (Wenn Bug behoben, testen and prüfen, ob es stimmt)
+[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
 
 [comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
 
@@ -228,5 +232,7 @@ At least one query category has been created, see [Create a query category](#cre
     The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
+
+[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
 
 [comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)

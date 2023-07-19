@@ -28,8 +28,8 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *Driver*  
     Driver name. The following options are available:
-    - **InfluxDB&trade;[^1] driver V1**
-    - **InfluxDB&trade; driver V2**
+    - **Driver V1**
+    - **Driver V2**
 
 - *ID*  
     Connection identification number. The ID number is automatically assigned by the system.
@@ -59,8 +59,8 @@ The list displays all available connections. Depending on the settings, the disp
 
 - *Driver*  
     Click the drop-down list and select the desired driver version. The following options are available:
-    - **InfluxDB&trade; driver V1**
-    - **InfluxDB&trade; driver V2**
+    - **Driver V1**
+    - **Driver V2**
       
     > [Info] The drivers V1 and V2 are preinstalled in the *Database and reporting* module.
 
@@ -205,5 +205,3 @@ The fields displayed in the *Credentials* section vary depending on the selected
     
 
 
-
-[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

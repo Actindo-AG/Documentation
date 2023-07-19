@@ -58,9 +58,9 @@ No prerequisites to fulfill.
     + Click the [EXECUTE] button.   
         The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
-[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders window eine Formatvorgabe?)
+[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders Fenster eine Formatvorgabe? DD.MM.YYYY? YYYY-MM-DD? Uhrzeit?)
 
-[comment]: <> (ETL use enabled muss noch ausgeblendet werden, laut JS)
+[comment]: <> (Julian: ETL use enabled muss noch ausgeblendet werden)
 
 6. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
 
@@ -117,7 +117,7 @@ At least one query has been created, see [Create a query](#create-a-query).
 
 Delete a query that is no longer needed. It is possible to delete several queries at once.  
 
-[comment]: <> (Julian: Kann es beim Löschen von queries nicht zu Problemen kommen?)
+[comment]: <> (Julian: Kann es beim Löschen von queries zu Problemen kommen?)
 
 #### Prerequisites 
 

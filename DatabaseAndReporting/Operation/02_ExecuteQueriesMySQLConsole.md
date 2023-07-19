@@ -75,6 +75,6 @@ The users have been granted the applicable access rights, see [Grant access righ
 
     ![Query results](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/QueryResults.png "[Query results]")
 
-[comment]: <> (Julian: Bitte, sinnvoller Query für Schritt 3 vorschlagen und evtl. Screenshot with write access ziehen lassen?)
+[comment]: <> (Julian: Bitte, sinnvoller Query für Schritt 3 schreiben und evtl. Screenshot with write access ziehen lassen?)
 
 

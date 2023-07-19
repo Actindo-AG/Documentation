@@ -139,4 +139,4 @@ Execute a query in a web browser using the download link provided in the *Actind
 
     > [Info] If the selected query contains a placeholder, an error message is displayed, as no parameters can be bound. 
 
-[comment]: <> (Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV - URL hat nur CSV drin. Reported, Stand 20.04.2023)
+[comment]: <> (Julian: Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV - URL hat nur CSV drin. Schon besprochen.)

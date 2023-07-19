@@ -38,4 +38,3 @@
 - mysql>  
     Enter your SQL query following the interactive command prompt and press the **ENTER** key to execute it. The results are presented in an ASCII table format in the interactive console.  
 
-[comment]: <> (Stimmt das so?)
