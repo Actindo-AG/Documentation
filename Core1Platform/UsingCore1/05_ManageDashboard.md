@@ -42,7 +42,7 @@ Add the desired dashlets to your dashboard.
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 
@@ -81,7 +81,7 @@ The viewport is saved for a single dashboard, so you can create dashboards with 
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 *Actindo Core1 Platform*
@@ -123,7 +123,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 #### Prerequisites
 
 - A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-dashlet).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
 
@@ -156,8 +156,8 @@ You cannot undo the removal. To recover a dashlet, you have to add it again, see
 
 #### Prerequisites
 
-- A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-dashlet).
+- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
 
 #### Procedure
 
@@ -189,7 +189,7 @@ Be aware that you cannot undo the deletion.
 
 #### Prerequisites
 
-A dashboard has been created, see [Create a dashboard](#create-dashboard).
+A dashboard has been created, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 
