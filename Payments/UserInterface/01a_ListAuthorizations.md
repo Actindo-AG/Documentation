@@ -29,10 +29,10 @@
    - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
       Click this entry to unpublish the view so that it is visible only to you again. This menu entry is only displayed if you have selected and published a view.
 
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
+   - ![Save](../../Assets/Icons/Save.png "[Save]") save  
       Click this entry to save the current view settings in the selected view. This menu entry is only displayed if you have selected a view.    
 
-         > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
+      > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
    - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
       Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if you have selected a view.
