@@ -63,6 +63,8 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
     ![Dashlet picker](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardDashletPicker.png "[Dashlet picker]")
 
+    For detailed information on the standard dashlets, see [Dashlet picker ](../UserInterface/02_Dashboard.md#dashlet-picker).
+
 4. Select the checkboxes of the dashlets you want to add to your dashboard. If you click the checkbox in the header, all dashlets in the list are selected.
 
 5. Click the [ACCEPT] button in the bottom right corner of the window.   
