@@ -101,14 +101,14 @@ The list displays all log messages of the selected intent. Depending on the sett
 
 - *Log level*  
     Log level type. The following levels are available:   
-     - **Debug**
-     - **Info**
-     - **Notice**
-     - **Warning** 
-     - **Error**
-     - **Critical**
-     - **Alert**
-     - **Emergency**
+    - **Debug**
+    - **Info**
+    - **Notice**
+    - **Warning** 
+    - **Error**
+    - **Critical**
+    - **Alert**
+    - **Emergency**
    
 - *Created at*  
     Date and time of the creation.

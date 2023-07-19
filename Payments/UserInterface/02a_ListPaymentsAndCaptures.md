@@ -82,18 +82,18 @@ The list displays all capture transactions. Depending on the payment service pro
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list.  
-      - **1 - Preparing**  
-         The transaction has been created, but is not yet transferred.   
-      - **2 - Unconfirmed**   
-         A refund is reserved but not yet released by an Actindo user.   
-      - **3 - Success**  
-         Actindo as well as the payment service provider has processed the transaction successfully.  
-      - **4 - Failure**   
-         The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.   
-      - **5 - Error**   
-         Errors have been occurred during transfer.   
-      - **6 - Void**   
-         The transaction has been voided, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
+   - **1 - Preparing**  
+      The transaction has been created, but is not yet transferred.   
+   - **2 - Unconfirmed**   
+      A refund is reserved but not yet released by an Actindo user.   
+   - **3 - Success**  
+      Actindo as well as the payment service provider has processed the transaction successfully.  
+   - **4 - Failure**   
+      The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.   
+   - **5 - Error**   
+      Errors have been occurred during transfer.   
+   - **6 - Void**   
+      The transaction has been voided, see [Void payment and capture transaction](../Operation/02_ManagePaymentsAndCaptures.md#void-payment-and-capture-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).

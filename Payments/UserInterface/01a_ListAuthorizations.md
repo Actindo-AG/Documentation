@@ -86,18 +86,18 @@ The list displays all authorization transactions. Depending on the payment servi
 
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
-    - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
-    - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. 
-    - **3 - Success**  
-        Actindo as well as the payment service provider has processed the transaction successfully.
-    - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
-    - **5 - Error**   
-       Errors have been occurred during transfer.
-    - **6 - Void**   
-       The transaction has been voided, see [Void authorization transaction](../Operation/01_ManageAuthorizations.md#void-authorization-transaction).
+   - **1 - Preparing**  
+      The transaction has been created, but is not yet transferred.
+   - **2 - Unconfirmed**   
+      A refund is reserved but not yet released by an Actindo user. 
+   - **3 - Success**  
+      Actindo as well as the payment service provider has processed the transaction successfully.
+   - **4 - Failure**   
+      The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
+   - **5 - Error**   
+      Errors have been occurred during transfer.
+   - **6 - Void**   
+      The transaction has been voided, see [Void authorization transaction](../Operation/01_ManageAuthorizations.md#void-authorization-transaction).
 
 - *Connection*   
    Name of the connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
@@ -276,7 +276,13 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 - [SAVE]   
    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
 
-
+This window can also be accessed via the following tabs in the user interface:
+- [LIST (Payments and captures)](./02a_ListPaymentsAndCaptures.md)
+- [LIST (Refunds)](./03a_ListRefunds.md)
+- [LIST (Cancellations and chargebacks)](./05a_ListCancellationsChargebacks.md)
+- [LIST (Confirmations)](./06a_ListConfirmations.md)
+- [LIST (Logging)](./07a_ListLogging.md)
+- [Connections](./08a_Connections.md)
 
 ## Rename view
 
@@ -292,4 +298,13 @@ In contrast to the messages that are provided with the *Logging* menu entry, you
 
 - [SAVE]   
    Click this button to save the changes and display the new name in the *VIEW* drop-down list. The *Rename view* window is closed.
+
+This window can also be accessed via the following tabs in the user interface:
+- [LIST (Payments and captures)](./02a_ListPaymentsAndCaptures.md)
+- [LIST (Refunds)](./03a_ListRefunds.md)
+- [LIST (Cancellations and chargebacks)](./05a_ListCancellationsChargebacks.md)
+- [LIST (Confirmations)](./06a_ListConfirmations.md)
+- [LIST (Logging)](./07a_ListLogging.md)
+- [Connections](./08a_Connections.md)
+
 

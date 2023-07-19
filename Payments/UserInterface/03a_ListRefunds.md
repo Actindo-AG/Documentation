@@ -79,19 +79,19 @@ The list displays all refund transactions. Depending on the payment service prov
    Description of the transaction status.  
 
 - *Status ID*   
-   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list. 
--   - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
-    - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. 
-    - **3 - Success**  
-        Actindo as well as the payment service provider has processed the transaction successfully.
-    - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.
-    - **5 - Error**   
-       Errors have been occurred during transfer.
-    - **6 - Void**   
-       The transaction has been voided, see [Void refund transaction](../Operation/03_ManageRefunds.md#void-refund-transaction).
+   Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list.  
+   - **1 - Preparing**  
+      The transaction has been created, but is not yet transferred.   
+   - **2 - Unconfirmed**   
+      A refund is reserved but not yet released by an Actindo user.   
+   - **3 - Success**  
+      Actindo as well as the payment service provider has processed the transaction successfully.  
+   - **4 - Failure**   
+      The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.  
+   - **5 - Error**   
+      Errors have been occurred during transfer.  
+   - **6 - Void**   
+      The transaction has been voided, see [Void refund transaction](../Operation/03_ManageRefunds.md#void-refund-transaction).
 
 - *Connection*   
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).

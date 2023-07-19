@@ -67,11 +67,11 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 ## Refund payment and capture transaction
 
-After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture the transaction manually, so that the order process can be cancelled and the payment of the customer, blocked before by the payment service provider, is freed.
+After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture the transaction manually, so that the order process can be cancelled and the payment of the customer, blocked before by the payment service provider, is freed. This might be necessary, if a product cannot be delivered.
 
 #### Prerequisites
 
-The status of a payment and capture transaction is not **Success**. In case of success, further processing has already been continued. <!---ist das richtig-->
+The status of a payment and capture transaction is not **Success**. In case of success, further processing has already been continued. 
 
 #### Procedure
 

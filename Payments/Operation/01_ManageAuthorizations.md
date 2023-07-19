@@ -32,9 +32,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 ![Authorizations](../../Assets/Screenshots/Payments/Authorizations/LISTAuthorizations.png "[Authorizations]")
 
-1. Check the authorization transaction status in the *Status* column. The status displays the current stage in the payment process. 
-
-   > [Info] You can use the status ID prefixed below to filter the list. The following statuses are available:   
+1. Check the authorization transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
 
     - **1 - Preparing**  
         The transaction has been created but is not yet transferred.

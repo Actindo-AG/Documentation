@@ -1,7 +1,7 @@
 [!!Manage confirmations](../Operation/05_ManageConfirmations.md)
 
 
-# LIST (Confirmation)
+# LIST (Confirmations)
 
 *Payments > Confirmation > Tab LIST*
 
