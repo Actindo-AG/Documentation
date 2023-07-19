@@ -1,14 +1,13 @@
 # Manage dashboards
 
-An Actindo dashboard gives an overview of important key figures, statistics and system health information.   
-Depending on the user role, different information might be relevant. While other modules have a predefined dashboard, you can configure multiple customized dashboards for the *Actindo Core1 Platform* that are adopted for different purposes.   
-
-The number of dashboards is unlimited. A set of dashlets to be used is predefined for specific modules. A dashlet is an individual component that can be added or removed from a dashboard.
+An Actindo dashboard gives an overview of important module-specific key figures and statistics with which you can inform the user. 
+Depending on the user role, different information might be relevant, so that you can configure different dashboards for different user groups for the *Actindo Core1 Platform*.   
+The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
 ## Create a dashboard
 
-Create a dashboard to define a specific view on the key figures, statistics and system information that is relevant for a specific user role.
+Create a dashboard to define a specific view key figures and statistics that is relevant for a specific user role.
 
 #### Prerequisites
 
@@ -43,7 +42,7 @@ Add the desired dashlets to your dashboard.
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
 
 #### Procedure
 
@@ -75,14 +74,14 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
     > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
 
-### Change the viewport
+### Change a viewport
 
 Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop or tablet.
 The viewport is saved for a single dashboard, so you can create dashboards with different viewports.
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
 
 #### Procedure
 *Actindo Core1 Platform*
@@ -124,7 +123,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 #### Prerequisites
 
 - A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-dashlet).
 
 #### Procedure
 
@@ -144,7 +143,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 4. Click the dashlet and move it on the desired position on the dashboard using drag and drop. When moving the dashlet across the dashboard, the possible positions on the predefined grid are highlighted.
 
-    ![Move dashlet](../../Assets/Screenshots/DataHub/Overview/MoveDashlet.png "[Move dashlet]")
+    ![Move dashlet](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardDashletMove.png "[Move dashlet]")
 
 5. Click the [SAVE] button.   
     Any changes to the dashboard have been saved. The *Edit tab* view is closed.
@@ -152,18 +151,19 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 ### Remove a dashlet
 
-Remove a dashlet from a dashboard if it is not needed for the purposes or has been added accidentally to the dashboard.
+Remove a dashlet from a dashboard if it is not needed for the purposes or has been added accidentally to the dashboard.   
+You cannot undo the removal. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
 
 #### Prerequisites
 
-- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- A dashboard tab has been created, see [Create a dashboard](#create-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-dashlet).
 
 #### Procedure
 
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo dashboard*
 
-![Tab with dashlets](../../Assets/Screenshots/DataHub/Overview/TabDashlets.png "[[Tab with dashlets]")
+![Tab with dashlets](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTabDashlets.png "[[Tab with dashlets]")
 
 1. Select the tab of the dashboard from which you want to remove a dashlet.   
     The selected dashboard tab is displayed.
@@ -171,12 +171,11 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or has be
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button in the upper right corner.    
     The *Edit tab* view is displayed.
 
-    ![Edit tab](../../Assets/Screenshots/DataHub/Overview/EditTab.png "[EditTab]")
+    ![Edit tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardsMultiple.png "[EditTab]")
 
 3. Click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet you want to delete.    
     The dashlet has been removed from the dashboard.
 
-    > [Info] The removal cannot be undone. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
 
 4. Click the [SAVE] button.   
     Any changes to the dashboard have been saved. The *Edit tab* view is closed.
@@ -185,24 +184,23 @@ Remove a dashlet from a dashboard if it is not needed for the purposes or has be
 
 ## Delete a dashboard
 
-Delete a dashboard that is no longer needed to keep track of the other dashboards.
+Delete a dashboard that is no longer needed to keep track of the other dashboards.     
+Be aware that you cannot undo the deletion.
 
 #### Prerequisites
 
-A dashboard has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard has been created, see [Create a dashboard](#create-dashboard).
 
 #### Procedure
 
-*DataHub > Overview > Tab DASHBOARDS*
+*Actindo dashboard*
 
-![Multiple dashboards](../../Assets/Screenshots/DataHub/Overview/MultipleDashboards.png "[Multiple dashboards]")
+![Multiple dashboards](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardsMultiple.png "[Multiple dashboards]")
 
-1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button on the dashboard you want to delete.   
+1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the name of the dashboard you want to delete.   
     The *Confirm tab deletion* window is displayed.
 
     ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 2. Click the [ACCEPT] button in the bottom right corner.   
     The *Confirm tab deletion* window is closed. The dashboard has been deleted.
-
-    > [Info] Be aware that the dashboard cannot be recovered as the deletion process cannot be undone.
