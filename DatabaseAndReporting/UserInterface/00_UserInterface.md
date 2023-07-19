@@ -13,8 +13,8 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 
 - [TIME SERIES DATABASES](./01b_TimeSeriesDatabases.md)  
-    - [Create time series databases](./01b_TimeSeriesDatabases.md#create-time-series-databases)
-    - [Edit time series databases](./01b_TimeSeriesDatabases.md#edit-time-series-databases)
+    - [Create time series database](./01b_TimeSeriesDatabases.md#create-time-series-database)
+    - [Edit time series database](./01b_TimeSeriesDatabases.md#edit-time-series-database)
 
 
 - [Logging](./02_Logging.md)

@@ -137,6 +137,5 @@ Execute a query in a web browser using the download link provided in the *Actind
 5. Press the [ENTER] key to execute the query in your web browser.  
     The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device.  
 
-    > [Info] If the selected query contains a placeholder, an error message is displayed, as no parameters can be bound. 
 
 [comment]: <> (Julian: Download via public download sollte möglich als CSV und XML Datei. Momentan funktioniert nur als CSV - URL hat nur CSV drin. Schon besprochen.)
