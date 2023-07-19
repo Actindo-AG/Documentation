@@ -32,11 +32,11 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 - [CONNECTIONS](./03a_Connections.md)  
     - [Create connection](./03a_Connections.md#create-connection)  
-    - [Create connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v1)
-    - [Create connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#create-connection-–-credentials-influxdb-driver-v2)
+    - [Create connection &ndash; Credentials driver V1](./03a_Connections.md#create-connection-–-credentials-driver-v1)
+    - [Create connection &ndash; Credentials driver V2](./03a_Connections.md#create-connection-–-credentials-driver-v2)
     - [Edit connection](./03a_Connections.md#edit-connection) 
-    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V1](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v1) 
-    - [Edit connection &ndash; Credentials InfluxDB&trade; driver V2](./03a_Connections.md#edit-connection-–-credentials-influxdb-driver-v2)
+    - [Edit connection &ndash; Credentials driver V1](./03a_Connections.md#edit-connection-–-credentials-driver-v1) 
+    - [Edit connection &ndash; Credentials driver V2](./03a_Connections.md#edit-connection-–-credentials-driver-v2)
 
 
 - [QUERY CATEGORIES](./03b_QueryCategories.md)  
@@ -52,6 +52,3 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Interactive console with write access](./04a_InteractiveConsole.md#interactive-console-with-write-access)
 
 
----
-
-**Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

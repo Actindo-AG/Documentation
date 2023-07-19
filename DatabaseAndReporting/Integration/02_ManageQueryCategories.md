@@ -44,7 +44,7 @@ No prerequisites to fulfill.
 
 4. Enter a key for the query category in the *Key* field.  
 
-[comment]: <> (Key wird hier irgendwann abgebaut)
+[comment]: <> (Julian: Key schon abgebaut? Hier weglassen?)
 
 5. Click the [SAVE] button.   
     The query category has been created. The *Add element* window is closed. The new query category is displayed in the query category column.
@@ -102,7 +102,7 @@ At least one query category has been created, see [Create a query category](#cre
 
 5. Enter a key for the query sub-category in the *Key* field. 
 
-[comment]: <> (Key wird hier irgendwann abgebaut)
+[comment]: <> (Julian: Key schon abgebaut? Hier weglassen?)
 
 6. Click the [SAVE] button.   
     The query sub-category has been created. The *Add element* window is closed. The new query sub-category is displayed in the query sub-category column.
@@ -161,7 +161,7 @@ At least one query category has been created, see [Create a query category](#cre
 
 ### Change the order of query categories
 
-[comment]: <> (Momentan funktioniert es nicht, Stand 18.04.23. JS weiß Bescheid.)
+[comment]: <> (Funktioniert nicht einwandfrei, Stand 19.07.23. JS weiß Bescheid.)
 
 You can change the order of the query categories if necessary. 
 

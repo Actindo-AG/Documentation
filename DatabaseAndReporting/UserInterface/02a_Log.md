@@ -115,7 +115,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Date and time of the creation.
 
 - *Created by*  
-    Name and username of the user who created the intent. 
+    Name and username of the user who caused the intent. 
 
 - *Message*  
     Log message to the intent.

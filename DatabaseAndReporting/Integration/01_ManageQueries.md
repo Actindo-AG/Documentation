@@ -28,7 +28,7 @@ No prerequisites to fulfill.
 ![Queries](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/Queries.png "[Queries]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.  
-    The *Create MySQL query* is displayed.
+    The *Create MySQL query* view is displayed.
 
     ![Create query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/CreateQuery.png "[Create query]")
 

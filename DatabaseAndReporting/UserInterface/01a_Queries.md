@@ -61,7 +61,7 @@
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to delete a query. It is possible to delete several queries at once. This button is displayed if at least one checkbox in the list of queries is selected.       
 
-The list displays all predefined queries. Depending on the settings, the displayed columns may vary. All fields are read-only. If no query has been created yet, the notice *No queries created. Use + button to create one* is displayed.
+The list displays all predefined queries. Depending on the settings, the displayed columns may vary. All fields are read-only. If no query has been created yet, the *No queries created. Use + button to create one* notice is displayed.
 
 - *ID*  
     Query identification number. The ID number is automatically assigned by the system. 

@@ -4,13 +4,13 @@
 
 # Manage the time series databases
 
-After a predefined query has been created to retrieve any required data from your databases, this data can be written to a time series database at regular time intervals using the InfluxDB&trade; technology, which allows you to collect and process a series of data points over time. For detailed information about InfluxDB&trade;[^1], see the [InfluxDB&trade; website](https://influxdata.com/).
+After a predefined query has been created to retrieve any required data from your databases, this data can be written to a time series database at regular time intervals using the InfluxDB&trade;[^1] technology, which allows you to collect and process a series of data points over time. For detailed information about InfluxDB&trade;, see the [InfluxDB&trade; website](https://influxdata.com/).
 
-> [Info] We currently support the versions 1 and 2 of InfluxDB&trade; time series but we are not affiliated with, endorsed or sponsored by InfluxData or its affiliates in any way.
+> [Info] We currently support the versions 1 and 2 of InfluxDB&trade; but we are not affiliated with, endorsed or sponsored by InfluxData or its affiliates in any way.
 
-[comment]: <> (Julian: Prüf mal bitte, ob so ok. Footnote auch unten hinzugefügt, wie von InfluxData trademake policy vorgegeben.)
+Once the data has been written to the time series database, it can be easily visualized and monitored using the Grafana&trade;[^2] technology. For detailed information, see the [Grafana&trade; website](https://grafana.com).
 
-Once the data has been written to the time series database, it can be easily visualized and monitored using Grafana&trade;, see the [Grafana&trade; website](https://grafana.com).
+[comment]: <> (Julian: Prüf mal bitte, ob so ok. Footnote auch unten hinzugefügt, wie von InfluxData and Grafana trademark policy vorgegeben.)
 
 You can create, edit or delete a time series database for any predefined query.
 
@@ -22,7 +22,7 @@ Create a time series database for a specific predefined query.
 
 #### Prerequisites
 
-- A connection to the InfluxDB&trade; has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
+- A connection to InfluxDB&trade; has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
 - At least one query has been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
 
 #### Procedure
@@ -38,7 +38,7 @@ Create a time series database for a specific predefined query.
 
 2. Enter a descriptive name for the time series database in the *Title* field.
 
-3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data are to be written to the time series database. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
+3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data is to be written to the time series database. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
 
     > [Info] Note that each execution puts a certain amount of load on the database. Therefore, it is recommended to execute the query only as often as necessary. As a rule of thumb consider: The more complex the query, the less often the execution.
 
@@ -62,7 +62,9 @@ Create a time series database for a specific predefined query.
 9. Click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Field columns* box.  
     A new input line is displayed.
 
-    > [Info] The fields contain the actual data, that is, the values being measured. The tags, on the other hand, can be used for metadata, that is, to categorize the data. This means that at least one field needs to be specified, whereas tags are optional.
+    > [Info] The fields contain the actual data, that is, the values being measured, for example the orders being placed. The tags, on the other hand, can be used for metadata, that is, to categorize the data, for example the different countries where the orders are being placed. This means that at least one field needs to be specified, whereas tags are optional.
+
+    [comment]: <> (Julian: Bitte prüfen, ob Beispiel ok.)
 
 10. Enter the desired field in the new input line.    
 
@@ -96,7 +98,7 @@ At least one time series database has been created, see [Create a time series da
 [comment]: <> (Screenshot aus NoE test account. OK?)
 
 1. Click the time series database to be edited in the list of time series databases. Alternatively, select the checkbox of the time series database to be edited and click the [EDIT] button in the editing toolbar.  
-    The *Edit time series database* is displayed.
+    The *Edit time series database* view is displayed.
 
     ![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/EditInfluxDBTimeSeries.png "[Edit time series database]")
 
@@ -135,7 +137,9 @@ At least one time series database has been created, see [Create a time series da
 
     ![Deleted time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/DeletedInfluxDBTimeSeries.png "[Deleted time series database]")
 
-[comment]: <> (Julian: Wie besprochen, bitte Screenshot einbauen, ziehen und zukommen lassen.)
+[comment]: <> (Julian: Bitte Screenshot einbauen, ziehen und zukommen lassen.)
 
 
 [^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  
+
+[^2]: **Disclaimer:** The Grafana Labs Marks are trademarks of Grafana Labs, and are used with Grafana Labs’ permission. We are not affiliated with, endorsed or sponsored by Grafana Labs or its affiliates.

@@ -71,5 +71,6 @@ Assign user access rights to control access to specific data. The following acce
 8. Select the checkbox of the applicable folder(s) and/or sub-folders.  
    The user group, and all users included in it, have been granted access rights to the selected module functions.
 
+[comment]: <> (Julian: Sind diese direkt wirksam oder erst nach erneuter Anmeldung des Users im System?)
 
 [^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

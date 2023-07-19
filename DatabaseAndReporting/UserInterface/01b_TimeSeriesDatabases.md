@@ -30,7 +30,7 @@
 - [DELETE]  
     Click this button to delete a selected time series database. It is possible to delete several time series databases at once. This button is displayed if at least one checkbox in the list of time series databases is selected.
 
-[comment]: <> (Funktioniert so wie bei Queries? Bitte bestätigen.)
+[comment]: <> (Julian: Funktioniert es so wie bei Queries? Bitte bestätigen.)
 
 The list displays all time series databases. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 

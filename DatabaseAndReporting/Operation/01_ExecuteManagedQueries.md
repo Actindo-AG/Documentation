@@ -44,7 +44,7 @@ Execute the query and preview the results in your browser in CSV or XML format.
         The query results are displayed in XML format.  
 
 3. Click the ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview) button in the editing toolbar.  
-    The *Execute saved query* is displayed.  
+    The *Execute saved query* window  is displayed.  
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 
@@ -86,7 +86,7 @@ Execute the query and download the results in a CSV or an XML format file.
         The query results are downloaded in an XML file. XML files can be visualized using most web browsers and text editors.
 
 3. Click the ![Download](../../Assets/Icons/Download.png "[Download]") (Download) button in the editing toolbar.  
-    The *Execute saved query* is displayed.  
+    The *Execute saved query* window is displayed.  
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 
