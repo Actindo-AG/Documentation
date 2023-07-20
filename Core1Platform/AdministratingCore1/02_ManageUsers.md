@@ -30,28 +30,30 @@ The *Create user* window is opened.
     
     ![Create user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserCreate.png "[Create user]")
 
-2. Click the *Select active option* drop-down list to select whether the new user will be able to log in or not. The following options are available: 
+3. Click the *Select active option* drop-down list to select whether the new user will be able to log in or not. The following options are available: 
     - **Active, can log in**
     - **Inactive, user is locked**
 
-3. Click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
+4. Click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
     - **Generate password and send via email**  
-      A password is generated automatically and sent to the email address specified below. 
+      A password is generated automatically, and it is sent by Actindo to the email address specified below. 
     - **Enter password and send by email**    
-      You define an individual password and 
-    - **Specify and send password**   
-      You define an individual password and 
+      You define an individual password, and it is sent by Actindo to the email address specified below. 
+    - **Specify and save password**   
+      You define an individual password and save it. It is not sent via email. 
+    -**Do not send password**   
+      Use this option if you want to change the user's data but you do not want to change the password resp. the password to be sent. This option is relevant for editing the user data only.
 
-4. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
+5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
 
-5. Enter the username in the *Login* field. This is the name with which the user must log in.  
+6. Enter the username in the *Login* field. This is the name with which the user must log in.  
 
-6. Enter the name and address of the user. Use the *Address* field to enter street and house number.
+7. Enter the name and address of the user. Use the *Address* field to enter street and house number.
 
-7. Enter the email address of the new user.   
-After you have saved the new user, it will be used to send the password to the user.
+8. Enter the email address of the new user.   
+  After you have saved the new user, it will be used to send the password to the user.
 
-8. If desired, click the *Role in company* drop-down list. The following options are available:
+9. If desired, click the *Role in company* drop-down list. The following options are available:
     - Entwicklung (Development)
     - Buchhaltung (Accounting)
     - Logistik (Logistics)
@@ -60,10 +62,13 @@ After you have saved the new user, it will be used to send the password to the u
     - Marktplätze (Market places)
     - Anderes (Others)
 
-9. Click the [SAVE] button.   
-The new user is created and, if applicable, informed about username and password by email. 
+10. Click the [SAVE] button.   
+  The new user is created and, if applicable, informed about username and password by email. 
+  
+
 
 ## Assign user to user group
+
 Assigning users to a user group is necessary to activate a user on a current instance. A user that is not assigned any group, is not active in the instance. This means in reverse, you have to remove a user from all groups on an instance to deactivate him or her.
 
 ## Prerequisite
@@ -81,12 +86,12 @@ Assigning users to a user group is necessary to activate a user on a current ins
 The *Edit user "user name"* view is displayed. By default, the *Profile* tab is preselected. 
 
 2. Click the *Groups* tab.   
-The groups the user is assigned are listed.
+  The groups the user is assigned are listed.
 
    ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Goups]")  
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The *Add Group* window is displayed.
+  The *Add Group* window is displayed.
 
     ![Add group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserAddGroup.png "[Add user]")   
 
@@ -118,7 +123,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Select the user whose data you want to edit.   
-The *Settings (Einstellungen)*  view is opened.
+The *Settings (Einstellungen)* view is opened.
 
    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
 
@@ -128,19 +133,30 @@ The *Settings (Einstellungen)*  view is opened.
 
 3. If desired, click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
     - **Generate password and send via email**  
-      A password is generated automatically and sent to the email address specified below. 
+      A password is generated automatically, and it is sent by Actindo to the email address specified below. 
     - **Enter password and send by email**    
-      You define an individual password and 
-    - **Specify and send password**   
-      You define an individual password and
+      You define an individual password, and it is sent by Actindo to the email address specified below. 
+    - **Specify and save password**   
+      You define an individual password and save it. It is not sent via email.
+    -**Do not send password**   
+      Use this option if you want to change the user's data but you do not want to change the password resp. the password to be sent. 
 
 4. If desired, disable the *Universal Second Factor (U2F)* toggle.
-If the *Universal Second Factor (U2F)* is disabled, the user will no longer need to use the *Yubikey* to log in. <!---Julian, geht das so einfach oder gibt es dann Probleme?-->
+  If the *Universal Second Factor (U2F)* is disabled, the user will no longer need to use the *Yubikey* to log in. 
 
 5. If desired, edit the user's personal data.
 
 6. Click the [SAVE] button.
 
+
+
+## Remove user from a group
+
+
+### Prerequisites
+
+- You are logged in to a main account or a sandbox
+- You have admin rights
 
 
 ## Invite user to sandbox
@@ -178,12 +194,35 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 5. If necessary, click the ![Add another group](../../Assets/Icons/Plus05.png  "[Add another group]") (Add another group) button to assign further groups.
 
 6. Click the [SAVE] button.   
-Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
+  Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
  
 
 ## Inactivate user in main account
 
-The deletion of users in a main account is not possible. By inactivating a user, 
+The deletion of users in a main account is not possible. By inactivating a user, the user will no longer be able to access the main account or any sandbox. <!---Julian, stimmt das?-->
 
-## Inactivate user in sandbox
-If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group "Remove ser from a group").
+#### Prerequisites
+
+- You are logged in to the main account
+- You have admin rights
+
+#### Procedure
+
+*Settings > Users and groups > Tab User management*
+
+![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
+
+1. Click the user you want to inactivate.
+  The *Edit user "user name"* view is displayed. By default, the Profile tab is preselected.
+
+    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
+
+2. Click the *Select active option* drop-down list and select the **Inactive, user is locked** option.
+
+4. Save the user.
+
+
+## Remove user in sandbox
+
+If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group "Remove user from a group").
+>[INFO] In a sandbox, you will not be able to remove the sandbox owner from the *ActindoAdminGroup*.<!---und was dann?-->

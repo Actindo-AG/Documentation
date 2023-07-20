@@ -1,13 +1,13 @@
 # Manage dashboards
 
-An Actindo dashboard gives an overview of important module-specific key figures and statistics with which you can inform the user. 
-Depending on the user role, different information might be relevant, so that you can configure different dashboards for different user groups for the *Actindo Core1 Platform*.   
+The *Actindo Dashboard* module gives an overview of important module-specific key figures and statistics directly when starting the *Actindo Core1 Platform*. 
+Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes.   
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
 ## Create a dashboard
 
-Create a dashboard to define a specific view key figures and statistics that is relevant for a specific user role.
+Create a dashboard to define a specific view on key figures and statistics.
 
 #### Prerequisites
 
@@ -118,7 +118,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 [comment]: <> (Wenn ich einen anderen viewport wählen, verschwinden alle Dashlets -> BUG-219)
 
 
-### Change the dashlets arrangement
+### Change dashlet arrangement
 
 Change the arrangement of the dashlets on a dashboard to optimize the view for your purposes or another viewport.
 
@@ -151,7 +151,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
     Any changes to the dashboard have been saved. The *Edit tab* view is closed.
 
 
-### Remove a dashlet
+### Remove dashlet
 
 Remove a dashlet from a dashboard if it is not needed for the purposes or has been added accidentally to the dashboard.   
 You cannot undo the removal. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
