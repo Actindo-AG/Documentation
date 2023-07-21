@@ -1,3 +1,6 @@
+[!!LIST views](../UserInterface/03_Views.md)
+
+
 # Work with lists
 A list in the *Actindo Core1 platform* describes a listing of items in a table-like environment. Each item is listed in a row and can be specified by different values in the columns. In contrast to a table, the list has no table border that is firmly separated from the rest of the workspace.
 

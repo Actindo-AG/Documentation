@@ -21,12 +21,12 @@ Users are created in the main account only.
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-The screen is grayed out. A small menu is opened in the bottom right corner.
+  The screen is grayed out. A small menu is opened in the bottom right corner.
 
    ![User management menu](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserAdd.png "[User management menu]")
 
 2. Click the ![Create user](../../Assets/Icons/Edit02.png "[Create user]") (Create user) button.   
-The *Create user* window is opened.    
+  The *Create user* window is opened.    
     
     ![Create user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserCreate.png "[Create user]")
 
@@ -42,7 +42,7 @@ The *Create user* window is opened.
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email. 
     -**Do not send password**   
-      Use this option if you want to change the user's data but you do not want to change the password resp. the password to be sent. This option is relevant for editing the user data only.
+      Use this option if you want to change the user's data but you do not want to edit the password  to be sent. 
 
 5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
 
@@ -69,12 +69,12 @@ The *Create user* window is opened.
 
 ## Assign user to user group
 
-Assigning users to a user group is necessary to activate a user on a current instance. A user that is not assigned any group, is not active in the instance. This means in reverse, you have to remove a user from all groups on an instance to deactivate him or her.
+Assigning users to a user group is necessary to activate a user on a current instance. A user that is not assigned any group, is not active in the instance. This means in reverse, you must remove a user from all groups on an instance to deactivate him or her.
 
 ## Prerequisite
 
 - You have admin rights
-- The user groups are already created. For detailed information, see [Create user group](../AdministratingCore1/03_ManageGroups.md#create-user-group "Create user group")
+- The user groups are already created. For detailed information, see [Create user group](../AdministratingCore1/03_ManageGroups.md#create-user-group "Create user group").
 
 ## Procedure
 
@@ -83,12 +83,12 @@ Assigning users to a user group is necessary to activate a user on a current ins
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Click the user you want to assign a group.   
-The *Edit user "user name"* view is displayed. By default, the *Profile* tab is preselected. 
+  The *Edit user "username"* view is displayed. By default, the *Profile* tab is preselected. 
 
 2. Click the *Groups* tab.   
   The groups the user is assigned are listed.
 
-   ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Goups]")  
+   ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Groups]")  
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
   The *Add Group* window is displayed.
@@ -99,10 +99,11 @@ The *Edit user "user name"* view is displayed. By default, the *Profile* tab is 
 
 5. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Add]") (Calendar) button and select the validity start date in the *Valid from* field.  
 
-6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.
+6. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.   
+   > [INFO] It is not possible to change the validity period later. If you want to delimit the validity period, you must remove the group assignment and assign the user again with a different validity period.
 
 7. Click the [SAVE] button.   
-The *Profile* tab is displayed. The new assigned group is added to the list of groups.
+  The *Profile* tab is displayed. The new assigned group is added to the list of groups.
 
 
 
@@ -123,7 +124,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Select the user whose data you want to edit.   
-The *Settings (Einstellungen)* view is opened.
+  The *Settings (Einstellungen)* view is opened. The *Profile* tab is preselected.
 
    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
 
@@ -152,16 +153,41 @@ The *Settings (Einstellungen)* view is opened.
 
 ## Remove user from a group
 
+When editing a user, you can remove a user from a group to which he or she is assigned.  
+Alternatively, you can remove a user from a group during editing the groups, see [Remove users from a group via the group management](../AdministratingCore1/03_ManageGroups.md#remove-users-from-a-group-via-the-group-management "Remove users from a group via the group management").
 
-### Prerequisites
+#### Prerequisites
 
 - You are logged in to a main account or a sandbox
 - You have admin rights
 
+#### Procedure
+
+*Settings > Users and groups > Tab User management*
+
+![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
+
+1. Click the user you want to remove from a group.   
+  The *Edit user "username"* view is displayed. By default, the *Profile* tab is preselected. 
+
+2. Click the *Groups* tab.   
+  The groups the user is assigned are listed.
+
+   ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Groups]")  
+
+3. Select the group from which you want to remove the user.   
+  The toolbar is displayed.
+
+   ![Select group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserSelectGroup.png "[Select group]")
+
+4. Click the ![Delete](../../Assets/Icons/Trash03.png  "[Delete]") (Delete) button.   
+  The user is removed from the selected group.<!--Julian, gibt es da noch einen Bestätigungsscreen?-->
+
+
 
 ## Invite user to sandbox
 
-It is necessary to invite a user to a sandbox, because users cannot be created there.
+It is necessary to invite a user to a sandbox because users cannot be created there.
 When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then the user is listed in this instance and can access the sandbox. <!---Julian, ist das richtig oder habe ich etwas falsch verstanden? Ist User denn schon in Sandbox, ober prüft system in main account auf Plausibility?-->
 
 #### Prerequisites
@@ -171,6 +197,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 - The user is assigned a group. Only then the user is listed in this account and can access the sandbox.
 
 #### Procedure
+
 *Settings > Users and groups > Tab User management*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
@@ -189,7 +216,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 3. Enter the "Login name" of the user.
 
-4. In the "Assigned groups" section, select a group from the "Select group" drop-down list, and select a user group to which you want assign the user.   
+4. In the "Assigned groups" section, select a group from the "Select group" drop-down list, and select a user group to which you want to assign the user.   
 
 5. If necessary, click the ![Add another group](../../Assets/Icons/Plus05.png  "[Add another group]") (Add another group) button to assign further groups.
 
@@ -224,5 +251,5 @@ The deletion of users in a main account is not possible. By inactivating a user,
 
 ## Remove user in sandbox
 
-If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group "Remove user from a group").
->[INFO] In a sandbox, you will not be able to remove the sandbox owner from the *ActindoAdminGroup*.<!---und was dann?-->
+If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").
+>[INFO] In a sandbox, you will not be able to remove the sandbox owner from the *ActindoAdminGroup*.<!---und was kann man dann machen, kann man den Sandbox-Owner ändern?-->

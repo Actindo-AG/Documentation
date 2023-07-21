@@ -76,15 +76,15 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
 - *Select Viewport*   
     Click the drop-down list to select the view to be applied to the tab. A different view can be selected for each tab. The drop-down list is only displayed in the *Edit tab* view. The following options are available:    
     - **Automatic**   
-        The system automatically detects the appropriate view and applies it to the tab.
+        The system automatically chooses the dashboard that has a suitable size for the current device.
     - **Mobile**   
-        The mobile view is applied to the tab.  
+        The dashboard size is optimized for a mobile device.  
     - **Tablet**   
-        The tablet view is applied to the tab.  
+        The dashboard size is optimized for a tablet device.
     - **Laptop**   
-        The laptop view is applied to the tab.  
+        The dashboard size is optimized for a laptop device. 
     - **Desktop**   
-        The desktop view is applied to the tab.  
+        The dashboard size is optimized for a desktop device.   
 
 
 - [ADD ELEMENT]   

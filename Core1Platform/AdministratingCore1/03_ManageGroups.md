@@ -96,7 +96,8 @@ Add any number of users to a user group in order to assign them rights subsequen
 
      1. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Add]") (Calendar) button and select the validity start date in the *Valid from* field.  
 
-     2. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.
+     2. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.    
+        > [INFO] It is not possible to change the validity period later. If you want to delimit the validity period, you must remove the group assignment and assign the user again with a different validity period.
 
 5. To add further users, click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add user* drop-down list to add a further user.   
     A further drop-down list is displayed. Repeat steps **4** and **5** to add as many users as necessary.
@@ -110,7 +111,7 @@ Add any number of users to a user group in order to assign them rights subsequen
     ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
 
-### Remove user from a group
+### Remove users from a group via the group management
 
 A user is active in an account as long as the user is assigned a user group.    
 If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt mit dem Gültigkeitsdatum? Ich finde keine Funktion, mit der ich das machen könnte-->

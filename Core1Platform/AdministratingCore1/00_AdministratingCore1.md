@@ -8,6 +8,7 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
     - [Create user](./02_ManageUsers.md#create-user)
     - [Assign user to user group](./02_ManageUsers.md#assign-user-to-user-group)
     - [Edit user](./02_ManageUsers.md#edit-user)
+    - [Remove user from a group](./02_ManageUsers.md#remove-user-from-a-group)
     - [Invite user to sandbox](./02_ManageUsers.md#invite-user-to-sandbox)
     - [Inactivate user in main account](./02_ManageUsers.md#inactivate-user-in-main-account)
     - [Inactivate user in a sandbox](./02_ManageUsers.md#inactivate-user-in-sandbox) 
@@ -17,7 +18,7 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
     - [Manage user rights](./03_ManageGroups.md#manage-user-rights)
     - [Create user group](./03_ManageGroups.md#create-user-group)
     - [Edit user group](./03_ManageGroups.md#edit-user-group)
-    - [Remove user from a group](./03_ManageGroups.md#remove-user-from-a-group)
+    - [Remove user from a group via the group management](./03_ManageGroups.md#remove-users-from-a-group-via-the-group-management)
     - [Remove user group](./03_ManageGroups.md#remove-user-group)   
 
 
