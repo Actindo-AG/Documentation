@@ -31,7 +31,7 @@ The user profile contains information to your username, your e-mail address, and
 3. Enter or change your data, if desired.
 
 4. Click the [SAVE] button.   
-Your data are changed and transferred to all other sandboxes or main accounts in which your username exists. 
+   Your data are changed and transferred to all other sandboxes or main accounts in which your username exists. 
 
 ## Change password
 Depending on the user settings, it is possible to change the password for all sandboxes and the main account at the same time.  
@@ -60,7 +60,7 @@ Note, that your global user settings, edited by an administrator, may specify th
 3. Enter your current password in the *aktuelles Passwort (current password)* field.
 
 4. Enter the new password in the *neues Passwort (new password)* field.  
-The quality of the password is displayed as a small red or green bar below the field. Think about a new password if the quality is poor (red bar).
+   The quality of the password is displayed as a small red or green bar below the field. Think about a new password if the quality is poor (red bar).
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
 
@@ -69,15 +69,15 @@ The quality of the password is displayed as a small red or green bar below the f
 5. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. Your entries are not displayed. You can check them by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(visibility off) button.
 
 6. Check your entries by clicking on the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]")(visibility off) button.   
-Your entries are displayed. You can make them invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
+   Your entries are displayed. You can make them invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
 
 7. Click the [SAVE] button.   
-If the entered password is valid, it is saved and the Password saved pop-up window is displayed.  
+   If the entered password is valid, it is saved and the Password saved pop-up window is displayed.  
 
 
    ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
 
-    The new password is now shared between the main account and all sandboxes of you company, so that you must use it for all Actindo logins.
+   The new password is now shared between the main account and all sandboxes of your company, so that you must use it for all Actindo logins.
 
 <!---Ich laufe hier auf einen Fehler. Er sagt, more credentials are needed to complete the authentication request-. Geht es nur, wenn kein U2F?-->
 

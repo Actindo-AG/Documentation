@@ -112,21 +112,21 @@ The vCores are analyzed as average over several seconds. The dashlet displays th
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped. 
+   The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 2. Focus your attention to the dashlet at the first position from the left.  
-The vCore utilization is displayed in a curve diagram.
+   The vCore utilization is displayed in a curve diagram.
 
 3. Check the limit of vCores assigned to the current instance. To do this, move the mouse pointer on the white line.   
-The limit of vCores for this instance is displayed in a callout shape.   
-    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die Dinger heißen?-->   
+   The limit of vCores for this instance is displayed in a callout shape.   
+    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die "callout shapes" heißen?-->   
  
     ![vCore dashlet](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCores.png "[vCore dashlet]")
 
 4. Check the vCores for any deviations. If desired, move the mouse on a peak of the curve.   
-The number of vCores is displayed in a callout shape. Used vCores are shown in green, required vCores above the limit for a given time are shown in red.
+   The number of vCores is displayed in a callout shape. Used vCores are shown in green, required vCores above the limit for a given time are shown in red.
 
     ![Number of vCores](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCoresCurve.png "[Number of vCores]")
 
@@ -135,6 +135,7 @@ The number of vCores is displayed in a callout shape. Used vCores are shown in g
 ## Check database utilization
 
 Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available there.   
+
 Actindo has an eye on the data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, Actindo will contact you.   
 
 #### Prerequisites
@@ -149,20 +150,22 @@ Actindo Core1 Platform > Any workspace*
 
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped. 
+   The engine room is opened. The current workspace is overlapped. 
 
     ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the second position from the left.  
-The data storage utilization is displayed in a circle diagram.
-In the middle of the circle, the current utilization is displayed in percent as well as in gigabyte.
+   The data storage utilization is displayed in a circle diagram.
+   In the middle of the circle, the current utilization is displayed in percent as well as in gigabyte.
 
     ![Data storage](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomDataStorage.png "[Data storage]")
+   >[INFO] Note that these figures are evaluated once a day. If you want to have the current figures, you should click the [Refresh] button.  
+
 
 4. If desired, refresh the current dashlet by clicking the [REFRESH] button.
 
 5. Move your mouse pointer over the circle diagram.   
-The current data storage utilization is displayed in a callout shape.
+   The current data storage utilization is displayed in a callout shape.
     
 
 
@@ -183,23 +186,23 @@ The current data storage utilization is displayed in a callout shape.
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped. 
+   The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the third position from the left.  
-The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors. The x-axis defines the time from 0-7 o'clock.   
-The number of requests is presented in a green curve diagram, the number of errors is presented in a red line diagram.
+   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors. The x-axis defines the time from 0-7 o'clock.   
+   The number of requests is presented in a green curve diagram, the number of errors is presented in a red line diagram.
 
     ![Request statistics](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequestStatistic.png "[Request statisics]")
 
 4. Move your mouse pointer over the green curve diagram.   
-The number of requests is displayed per hour on the x-axis.
+   The number of requests is displayed per hour on the x-axis.
 
     ![Request per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequests.png "[Requests per hour]")
 
 5. Move your mouse pointer over the red line diagram.   
-The number of errors is displayed per hour on the x-axis.
+   The number of errors is displayed per hour on the x-axis.
 
    ![Errors per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomErrors.png "[Errors per hour]")
 
@@ -218,14 +221,14 @@ In the job dashlet, all asynchronous jobs are displayed that are currently runni
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped. 
+   The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the fourth position from the left.
 
 4. Click the *Jobs* tab.   
-The currently running asynchronous jobs as well as the jobs waiting are displayed. On top, the number of jobs is output as well as the percentage ratio of finished jobs. If no jobs are running, the text *No running jobs* is displayed.
+   The currently running asynchronous jobs as well as the jobs waiting are displayed. On top, the number of jobs is output as well as the percentage ratio of finished jobs. If no jobs are running, the text *No running jobs* is displayed.
 
    ![Current jobs](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomJobs.png "[Current jobs]")
 

@@ -127,25 +127,25 @@ If you want to remove a user from the main account or a sandbox, you have to rem
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
 1. Select the group, from which you want to remove a user.   
-The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
    ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button.
-The *Edit group "Group name"* view is opened. By default, the *Users* tab is displayed. 
+    The *Edit group "Group name"* view is opened. By default, the *Users* tab is displayed. 
 
    ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagementUsers.png "[Group selected]")
 
 3. Select a user.   
-The editing toolbar is displayed.
+    The editing toolbar is displayed.
 
    ![User selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupUserSelected.png "[User selected]")
 
 4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
-The selected user is removed from the list.
+    The selected user is removed from the list.
 
 5. Click the [SAVE] button.   
-The *GROUP MANAGEMENT* view is displayed again.
+    The *GROUP MANAGEMENT* view is displayed again.
 
 
 ## Remove user group
@@ -182,6 +182,6 @@ The *Edit group "Group name"* window is opened.
    ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
 
 2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button. 
-The *Group was deleted* pop-up window is displayed. 
+    The *Group was deleted* pop-up window is displayed. 
 
 

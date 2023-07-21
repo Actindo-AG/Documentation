@@ -18,7 +18,7 @@ After U2F has been configured for your Actindo account, you use U2F the next tim
 
 
 1. Login to the *Actindo Core1 Platform* and by entering your username and password, see [Login to the Actindo Core1 Platform ](./01_Login.md#login-to-the-actindo-core1-platform).   
-The *Click here to start the second factor authentication* button is displayed.  
+    The *Click here to start the second factor authentication* button is displayed.  
 
     ![Login U2F](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginU2F.png "[Login U2F]")  
 

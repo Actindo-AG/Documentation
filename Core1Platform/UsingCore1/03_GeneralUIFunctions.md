@@ -16,7 +16,7 @@ You can collapse the navigation menu, if you have not enough space in the workpl
 ![Expanded navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ExpandedNavBar.png "[Expanded navigation menu]")   
 
 1. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") (Collapse) button top left to minimize the navigation menu.   
-The navigation menu space is reduced in size. Only the module icons are displayed.
+    The navigation menu space is reduced in size. Only the module icons are displayed.
 
     ![Collapsed navigation menu](../../Assets/Screenshots/Core1Platform/UsingCore1/CollapsedNavBar.png "[Collapsed navigation menu]")
 
@@ -35,14 +35,15 @@ You can change the sequence of the navigation menu entries. For example, this al
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the *APPS* row (below the *Actindo dashboard* entry).   
-The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed after each module/plugin name.  
+    The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed after each module/plugin name.  
+
 2. Click the ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button and drag the desired menu entry at the position you prefer.   
-The position on which the menu entry will be inserted, is indicated by a dash. 
+    The position on which the menu entry will be inserted, is indicated by a dash. 
 
     ![Sort menu entries](../../Assets/Screenshots/Core1Platform/UsingCore1/SortApps.png "[Sort menu entries]")  
 
 3. Drop the entry at the desired position.  
- The menu entry is inserted at the position on which the dash was displayed before. You have changed the sequence in which the menu entries are displayed.
+    The menu entry is inserted at the position on which the dash was displayed before. You have changed the sequence in which the menu entries are displayed.
 
 
 ## Create ticket 
@@ -64,13 +65,11 @@ This information is mainly relevant for system administrators and especially hel
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Processes running](../../Assets/Icons/ProcessRun.png "[Processes running]") (Processes running) button to have a look on the running processes.   
-A drop down window is opened in which currently running resp. currently waiting processes are listed. This list is permanently refreshed.  
+    A drop down window is opened in which currently running resp. currently waiting processes are listed. This list is permanently refreshed.  
 
     ![Running processes](../../Assets/Screenshots/Core1Platform/UsingCore1/RunningProcesses.png "[Running processes]")
 
-2. Click the [VERWALTEN] (Manage) button to get a more static view on the processes.
 
-**To be continued - es passiert nichts wenn ich da drauf drücke**
 
 ## Check notifications
 
@@ -88,25 +87,25 @@ This information is mainly relevant for system administrators and developers. It
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")   
 
 1. Click the ![Notifications](../../Assets/Icons/Notifications.png "[Notifications]") (Notifications) button.   
-A drop-down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
+    A drop-down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
 
    ![Notifications drop-down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
 2. Click the [SHOW ALL] button to have a look on notifications that have been created recently.   
-A window is opened in which recently created notifications are listed. 
+    A window is opened in which recently created notifications are listed. 
 
    ![Show all notifications](../../Assets/Screenshots/Core1Platform/UsingCore1/NotificationsShowAll.png "[Show all notifications]")   
 
     Each entry has a status information in the *Type* column. The following notification types are available:
-   - Info (indicated by a green dot)   
-     This is an information only.
+    - Info (indicated by a green dot)   
+        This is an information only.
 
-   - Warning (indicated by a yellow dot)   
-    This notification refers to a situation that might be potentially critical. If required, check the situation in the logging menu entry of the affected module/plugin.
+    - Warning (indicated by a yellow dot)   
+        This notification refers to a situation that might be potentially critical. If required, check the situation in the logging menu entry of the affected module/plugin.
 
    - Error (indicated by a red dot)   
-    This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.   
+        This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.   
 
-    > [Info] If warning or error notifications are available, a yellow or a red dot is added to the notifications button.   
+        > [Info] If warning or error notifications are available, a yellow or a red dot is added to the notifications button.   
 
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
 
@@ -138,7 +137,8 @@ The *Actindo Core1 Platform* is currently available in English and German. You c
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right.   
-A dropdown list is opened.  
+    A dropdown list is opened.  
+
 ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/Profile.png "[Profile menu]")
 1. Click the [Language] button.  
     A dropdown list is opened. It contains the language versions that are installed on your system.  
@@ -146,11 +146,11 @@ A dropdown list is opened.
    ![Change language](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileLanguage.png "[Change language]")
 
 2. Select the desired language.   
-The *Change language* pop-up window is opened.
+    The *Change language* pop-up window is opened.
 
      ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguage.png "[Language selection]")
 
 3. Click the [CHANGE LANGUAGE] button to switch to another language.  
-The application is being reloaded. Afterwards, it is available in the selected language.
+    The application is being reloaded. Afterwards, it is available in the selected language.
 
     ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Language selection]")

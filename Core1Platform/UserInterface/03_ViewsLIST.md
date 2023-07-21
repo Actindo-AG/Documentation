@@ -31,11 +31,12 @@ Click the drop-down list to select the view. All created views are displayed in 
 
     > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
 
+
 ## Create view
 
 *Any module > Tab LIST > Button Points > Menu entry create*
 
-![Create view](../../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
+![Create view](../../Assets/Screenshots/Core1Platform/UserInterface/ViewCreate.png "[Create view]")
 
 - *Name*   
     Enter a name for the view.
@@ -45,3 +46,20 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 - [SAVE]   
     Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
+
+
+
+    ## Rename view
+
+*Any module > Tab LIST > Button Points > Menu entry rename*
+
+![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
+
+- *Name*   
+    Click this field to edit the view name.
+
+- [CANCEL]   
+    Click this button to cancel renaming the view. The  *Rename view* window is closed.
+
+- [SAVE]   
+    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.

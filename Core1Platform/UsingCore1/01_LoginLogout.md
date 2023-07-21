@@ -53,4 +53,4 @@ After finishing your tasks in the *Actindo Core1 Platform*, you should log out f
      ![Really log out](../../Assets/Screenshots/Core1Platform/UsingCore1/ReallyLogOut.png "[Really log out]")
 
 3. Click the [LOGOUT] button.   
-You are logged out from the *Actindo Core1 Platform*.
+    You are logged out from the *Actindo Core1 Platform*.

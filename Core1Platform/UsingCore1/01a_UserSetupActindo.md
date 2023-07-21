@@ -30,7 +30,7 @@ After the registration, the *YubiKey* as a login method is valid for all Actindo
 1. Log in to the main account or sandbox, see [Login to the Actindo Core1 Platform ](./01_Login.md#login-to-the-actindo-core1-platform).   
     The *Actindo Dashboard* is displayed.
 
-    ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1Platform.png "[Actindo dashboard]")
+    ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo dashboard]")
 
 3. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
@@ -72,9 +72,6 @@ After the registration, the *YubiKey* as a login method is valid for all Actindo
     > [Info] Note that problems with the connection to the *YubiKey* may occur if you use an adapter or an additional cable to connect the *YubiKey*.
 
 8. Touch the flashing area on your *YubiKey*.    
-
-   > [Info] Depending on the browser configuration, a confirmation message is displayed in the browser window. Click the [Accept] button in the browser window to authorize the website to read the key and close the browser window.    
-
-   The U2F key is added to the list of keys and displayed in the *U2F* tab.  The user side setup for U2F is completed. It is now shared with all Actindo accounts (main account and sandboxes).
-
-> [Info] Note that the U2F login must additionally be enabled by an administrator to be used for the Actindo U2F login.
+    Depending on the browser configuration, a confirmation message is displayed in the browser window. Click the [Accept] button in the browser window to authorize the website to read the key and close the browser window.    
+    The U2F key is added to the list of keys and displayed in the *U2F* tab.  The user side setup for U2F is completed. It is now shared with all Actindo accounts (main account and sandboxes).
+    Note that the U2F login must additionally be enabled by an administrator to be used for the Actindo U2F login.
