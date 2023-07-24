@@ -3,7 +3,7 @@
 # Manage dashboards
 
 The *Actindo Dashboard* module gives an overview of important module-specific key figures and statistics directly when starting the *Actindo Core1 Platform*. 
-Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Note that you configure dashboards for supporting your daily work. They are not visible for other Actindo users.   
+Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Note that you configure dashboards for supporting your own daily work. They are not visible for other Actindo users.   
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
@@ -82,7 +82,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop or tablet.
 The viewport is saved for a single dashboard, so you can create dashboards with different viewports.
-> [INFO] Note that the size of a dashlet is fixed and will not be adjusted to the size of a specific device.
+> [INFO] Note that the size of a dashlet is fixed and will not be adjusted to the size of a specific device. For example, this means that a viewport for a mobile device should show only a few dashlets side by side so that it is not necessary to scroll horizontally to display the dashlets.
 
 #### Prerequisites
 
@@ -103,7 +103,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following viewports are available:
     - **Automatic**   
-        The system automatically chooses the dashboard that has a suitable size for the current device.
+        The system automatically chooses the dashboard that has a suitable size for the current device. For using this function it is necessary that you have created a viewport for all devices on which you use the dashboard.
     - **Mobile**   
         The dashboard size is optimized for a mobile device.  
     - **Tablet**   

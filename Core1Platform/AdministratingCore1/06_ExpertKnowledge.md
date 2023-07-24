@@ -59,7 +59,7 @@ output data.
 
 The Entwicklermodus (Development mode) of the engine room allows to switch on &frasl; off all feature flags at once (see also [Switch on &frasl; off single feature flags](#switch-on-⁄-off-single-feature-flags)).   
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
-This procedure allows you to quickly switch off all feature tags, for example, if you previously locked an account with multiple feature tags.
+This procedure allows you to quickly switch on and off all feature tags, for example, if you previously locked an account with multiple feature tags.
 
 > [WARNING] Switching off module features can result in data not being transferred to third party applications, and in this case it can lead to data loss. If you are not really sure about the consequences of switching off all features, you should not use it. 
 

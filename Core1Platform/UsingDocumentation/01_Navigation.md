@@ -25,17 +25,17 @@ You can open the Actindo documentation site via the Actindo home page. Alternati
 
 
 2. In the navigation panel on top of the page, choose **Resources**.   
-A dropdown list is opened that contains links to further sources of information.
+    A dropdown list is opened that contains links to further sources of information.
 
    ![Actindo home page &ndash; Resources](../../Assets/Screenshots/Core1Platform/UsingDocumentation/Ressources.png "[Actindo home page &ndash; Resources]")
 
 3. In the *HELP & INFORMATION* section, choose **Documentation (EN)**.   
-The *Actindo Documentation* home page is opened.
+    The *Actindo Documentation* home page is opened.
 
    ![Actindo Documentation home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSite.png "[Actindo Documentation home page]")
 
 4. Select the module documentation you want to read. To do this, click the corresponding item.   
-Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
+    Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
     >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the Actindo logo.
 
 
@@ -59,7 +59,7 @@ The *Actindo Documentation* site is opened in a new window.
 ![Actindo Documentation site](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSite.png "[Actindo Documentation site]")
 
 2. Select the module documentation you want to read. To do this, click the corresponding item.   
-Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
+    Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
 
     >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the Actindo logo.
 
@@ -86,8 +86,8 @@ Ae full text search is available that starts a search over the whole Actindo doc
     > [Info] If you want to clear the search, click the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side of the search field. 
 
 2. Press **Enter**.   
-A list with the search results is displayed.   
-A single search result contains the following information:    
+    A list with the search results is displayed.   
+    A single search result contains the following information:    
    - First line: [Module documentation title, for example *TAXES*]- [Title of the chapter, for example *USERINTERFACE*] - [Title of the topic].
    - Second line: Topic section in which the search term is included.
    - Third line: Row in which the search term is included.   
@@ -113,7 +113,7 @@ A full text search is available that starts a search over the module/plugin docu
 ![Actindo module documentation](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageSearch.png "[Actindo module documentation]")
 
  1. In the *Search table of content* field in the left side bar, enter the search characters of the subject you want to search for.
- The search results are directly displayed.   
+    The search results are directly displayed.   
 
     ![Module documentation - Search results](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageSearchResult.png "[Module documentation - Search results]")
 

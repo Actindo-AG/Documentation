@@ -251,5 +251,7 @@ The deletion of users in a main account is not possible. By inactivating a user,
 
 ## Remove user in sandbox
 
-If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").
->[INFO] In a sandbox, you will not be able to remove the sandbox owner from the *ActindoAdminGroup*.<!---und was kann man dann machen, kann man den Sandbox-Owner ändern?-->
+If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").  
+There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he or she is the owner. <!--- Kann man den owner ändern? -->
+
+

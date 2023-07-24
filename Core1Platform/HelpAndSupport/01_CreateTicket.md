@@ -6,7 +6,7 @@ For example, one of the following situations may be a reason to create a ticket:
 - The main account is not reachable
 - Products show incorrect information on the frontend   
 
-> [INFO] Before creating a ticket, it may be useful to first check whether another user has not already reported the discovered issue. To do this, you can check the *Consulting* module.
+> [INFO] Before creating a ticket, it may be useful to first check whether another user has not already reported the discovered issue. To do this, you can check the *Consulting* (MPS agreement (Managed Professional Services)) or the *Support* (older agreement) module.
 
 
 

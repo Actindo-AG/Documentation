@@ -1,4 +1,4 @@
-[!!LIST views](../UserInterface/03_Views.md)
+[!!LIST views](../UserInterface/03_ViewsLIST.md)
 
 
 # Work with lists
@@ -155,44 +155,44 @@ The selected column is applied the *Column* drop-down list. In addition, the *Re
    The following relations are available for *Actindo* LISTS:<!---Bitte prüfen, ob die Angaben zu den Feldtypen stimmen-->
 
      - **between**   
-In most cases, this relation is available for date fields. You can use it to filter the list for values that are between a specific date range, whereby the start and end date is included. For example, a filter between 05/05/2022 and 05/07/2022 displays all values available on 05/05/2022, 05/06/2022, and 05/07/2022.
+         In most cases, this relation is available for date fields. You can use it to filter the list for values that are between a specific date range, whereby the start and end date is included. For example, a filter between 05/05/2022 and 05/07/2022 displays all values available on 05/05/2022, 05/06/2022, and 05/07/2022.
 
         ![Filter relation between](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationBetweeen.png "[Filter relation between]")
 
         > [Info] If a value help for dates is available, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to open the value help, select the value, and click it again to apply the value.
 
      - **equal**   
-This relation is available for character and date fields. You can use it to filter the list for a specific value, for example the date 6/14/2023 or the transaction ID KXQTFDGK4DQ2WN82.
+         This relation is available for character and date fields. You can use it to filter the list for a specific value, for example the date 6/14/2023 or the transaction ID KXQTFDGK4DQ2WN82.
 
        ![Filter relation equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationEqual.png "[Filter relation equal]")
 
      - **greater**   
-This relation is available for numeric and date fields. You can use it to filter the list for values that are greater the value you specified. For example, if you enter the date 6/13/2023, you get all list entries from 6/14/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater the value you specified. For example, if you enter the date 6/13/2023, you get all list entries from 6/14/2023.
 
        ![Filter relation greater](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreater.png "[Filter relation greater]")
 
      - **greater or equal**   
-This relation is available for numeric and date fields. You can use it to filter the list for values that are greater or equal the value you specified. For example, if you enter the date 6/13/2023, you get all list entries from 6/13/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater or equal the value you specified. For example, if you enter the date 6/13/2023, you get all list entries from 6/13/2023.
 
        ![Filter relation greater or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLessEqual.png "[Filter relation greater or equal]")
 
      - **less**   
-This relation is available for numeric and date fields. You can use it to filter the list for values that are less the value you specified. For example, if you enter the date 6/13/2023, you get all list entries until 6/12/2023.  
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are less the value you specified. For example, if you enter the date 6/13/2023, you get all list entries until 6/12/2023.  
 
        ![Filter relation less](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLess.png "[Filter relation less]")
 
      - **less or equal**   
-This relation is available for character and date fields. You can use it to filter the list for values that are less or equal the value you specified. For example, if you enter the date 6/13/2023, you get all list entries until 6/13/2023.
+         This relation is available for character and date fields. You can use it to filter the list for values that are less or equal the value you specified. For example, if you enter the date 6/13/2023, you get all list entries until 6/13/2023.
 
        ![Filter relation less or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLessEqual.png "[Filter relation less or equal]")
 
      - **like**   
-This relation is available for date and character fields. You can use it to filter the list for values that contain a specific string. For example, by filtering an ID that starts with KX, you get all list entries that contain this string in the specified field. Or you want to filter the list for a specific month and enter 2023-05.
+         This relation is available for date and character fields. You can use it to filter the list for values that contain a specific string. For example, by filtering an ID that starts with KX, you get all list entries that contain this string in the specified field. Or you want to filter the list for a specific month and enter 2023-05.
 
        ![Filter relation like](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLike.png "[Filter relation like]")
 
      - **not equal to**   
-     This relation is available for character and date fields. You can use it to remove specific entries from the list, for example entries with a *Transaction date* 06/21/2023 or the *Status ID* **2**.
+         This relation is available for character and date fields. You can use it to remove specific entries from the list, for example entries with a *Transaction date* 06/21/2023 or the *Status ID* **2**.
 
        ![Filter relation not equal to](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationNotEqualTo.png "[Filter relation not equal to]")
 
@@ -204,7 +204,7 @@ This relation is available for date and character fields. You can use it to filt
     > [Info] For some values are value helps available.   
 
 5. Click the [ADD FILTER] button.   
-The filter is applied the list. The applied filter is shown as filter chip above the *Columns* field.   
+   The filter is applied the list. The applied filter is shown as filter chip above the *Columns* field.   
 
    ![List view &ndash; Applied filter](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterApplied.png "[List view &ndash; Applied filter]")
 
@@ -241,11 +241,11 @@ You have opened a LIST in any module
 2. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button to the right of the *VIEW* drop-down list.   
 
 2. Click the  ![rename](../../Assets/Icons/Edit02.png "[Remove ]") [rename] button.   
-The *Rename "view name"* window is displayed.
+   The *Rename "view name"* window is displayed.
 
    ![Rename view](../../Assets/Screenshots/Core1Platform/UsingCore1/RenameView.png "[Rename view]")
 
 3. Enter the new name for the view and click the [SAVE] button.   
-The view is renamed.
+   The view is renamed.
 
 

@@ -2,7 +2,11 @@
 
 In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the *Actindo Core1 Platform* modules, plug ins, technical components ....
 
-## Basic modules
+
+
+## Basic plugins and modules
+
+The following modules and plugins are the basis for the *Actindo Core1 Platform*. Their features control and process the data flow, the data processing, the data mapping as well as the communication with third party applications. In addition, it provides master data needed for a lot of modules.
 
 **Core1 Platform**   
 The *Core1 Platform* is underlying any plugin. It offers basic functions such as the following:
@@ -42,19 +46,32 @@ Allows the export of any data from various data sources into DataHub-based entit
 
 ## Product data
 
-**Warehouse Management**   
+**Cloudinary**  
+The *Actindo Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It allows to output the Cloudinary&trade; images via their URLs in web shops or marketplaces via the ETL mapping in Actindo. It is integrated via the *Actindo DataHub* module.  
+ You can use the integration to upload images to Cloudinary&trade; via Actindo, to import images from Cloudinary&trade; to Actindo, and to delete images in Cloudinary&trade; via Actindo.
+
+
+**PIM**  
+The *Actindo Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The PIM master data are used to provide material master data as well as data needed for the communication with webshops and marketplaces.
+
+
+**Material**   
+Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length that is the basis for warehouse management. These master data does not contain metadata such as shop descriptions or keywords. The warehousing enriches these data with information on stock levels etc.
+
+**Omni-channel**  
+With *Actindos Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;. You can use it to upload offers and to import orders. It allows exporting and importing returns.
+
+**Warehousing**   
 The *Actindo Warehouse Management* stores basic data needed for order management as well as warehouse handling, (for example SKU (stock keeping unit), weight, length) and no meta data such as shop description, keywords. <!---Julian, das war in Deiner Grafik, was bedeutet das?--> 
 
 The *Actindo Warehouse Management* module is the central place on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. It stores basic data needed for order management as well as warehouse handling, such as SKU (stock keeping unit), weight, length. You can plan warehouse locations according to different metrics such as building shapes and sizes, shelves or compartments, as well as manage individual storage bins. 
 
  and no meta data such as shop description, keywords. <!---Julian, in Deiner Grafik, was bedeutet das?--> 
 
-**PIM**  
-The *Actindo Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
 
-**Cloudinary**  
-The *Actindo Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It allows to output the Cloudinary&trade; images via their URLs in web shops or marketplaces via the ETL mapping in Actindo. It is integrated via the *Actindo DataHub* module.  
- You can use the integration to upload images to Cloudinary&trade; via Actindo, to import images from Cloudinary&trade; to Actindo, and to delete images in Cloudinary&trade; via Actindo.
+
+
 
 **Omni-channel**  
 With *Actindos Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;. You can use it to upload offers and to import orders. It allows exporting and importing returns.
@@ -94,31 +111,6 @@ The *Payments* module gives you the possibility to exchange data with various pa
 The *Database and reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for Structured Query Language, is used to communicate with your databases. Its applications range from selecting and retrieving data to altering table structures and updating contents, to name just a few. The *Actindo Database and reporting* module also allows you to create predefined queries to determine who can access your data and how. 
 
 
-Email
 
-
-Consulting
-
-ECM >Enterprise Content Management?
-
-Tasks
-
-Fakturierung
-
-Lager
-
-DB and Reporting   
-
-
-IP Geolocation
-
-Artikelverwaltung
-
-Lager = Warehousing?
-
-Reporting generator
-
-
-Einkauf > Purchasing & Supplier Management?
 
 [^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  

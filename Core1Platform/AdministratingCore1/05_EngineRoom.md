@@ -17,14 +17,18 @@ Access to the engine room is available in any workspace you have opened in the *
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
+<details><summary>Open to see the screenshot</summary>
+  
+  ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
+ </details>
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened with the current workspace overlapped. It contains four dashlets.
+   The engine room is opened with the current workspace overlapped. It contains four dashlets.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 2. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button again to close it.
-The workspace is visible again.
+   The workspace is visible again.
 
 
 
@@ -34,7 +38,7 @@ Clearing the tenant cache removes all entries that are currently in the cache of
 
 #### Prerequisites
 
-- - You have administrator rights for the current instance.
+- You have administrator rights for the current instance.
 
 #### Procedure
   
@@ -121,7 +125,7 @@ The vCores are analyzed as average over several seconds. The dashlet displays th
 
 3. Check the limit of vCores assigned to the current instance. To do this, move the mouse pointer on the white line.   
    The limit of vCores for this instance is displayed in a callout shape.   
-    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die "callout shapes" heißen?-->   
+    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die "callout shapes" richtig heißen, bzw. gibt es einen bekannten Namen dafür? ich habe nur diesen Namen gefunden-->   
  
     ![vCore dashlet](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCores.png "[vCore dashlet]")
 
@@ -159,10 +163,9 @@ Actindo Core1 Platform > Any workspace*
    In the middle of the circle, the current utilization is displayed in percent as well as in gigabyte.
 
     ![Data storage](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomDataStorage.png "[Data storage]")
-   >[INFO] Note that these figures are evaluated once a day. If you want to have the current figures, you should click the [Refresh] button.  
+   >[INFO] Note that these figures are evaluated once a day.   
 
-
-4. If desired, refresh the current dashlet by clicking the [REFRESH] button.
+4. If desired, refresh the current dashlet by clicking the [REFRESH] button to get the current figures.
 
 5. Move your mouse pointer over the circle diagram.   
    The current data storage utilization is displayed in a callout shape.

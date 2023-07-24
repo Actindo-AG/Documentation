@@ -114,7 +114,11 @@ Add any number of users to a user group in order to assign them rights subsequen
 ### Remove users from a group via the group management
 
 A user is active in an account as long as the user is assigned a user group.    
-If you want to remove a user from the main account or a sandbox, you have to remove the user from all groups to which he or she is assigned. Alternatively, you can limit the validity period. <!--- Geht das überhaupt mit dem Gültigkeitsdatum? Ich finde keine Funktion, mit der ich das machen könnte-->
+If you want to remove a user from a sandbox, you have to remove the user from all groups to which he or she is assigned. There are the following limitations:
+- You cannot remove a user from the ActindoAdmingroup in a sandbox of which he or she is the owner. <!--- Kann man den owner ändern? -->
+- You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him or her, see [Inactivate user in main account](./02_ManageUsers.md#inactivate-user-in-main-account).   
+>[INFO] Note that it is not possible to remove a group assignment by delimiting the validity end date to a specific date. If you want to change the validity period, you must remove the group assignment and create a new one with a limited validity end date.
+
 
 #### Prerequisites
 
