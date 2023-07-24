@@ -24,23 +24,27 @@ Create a time series database for a specific predefined query.
 
 - A connection to InfluxDB&trade; has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
 - At least one query has been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
+- A time series group has been created, see [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group).
 
 #### Procedure
 
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES*
 
-![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeries.png "[List of time series databases]")
+![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/ListTimeSeriesDatabases.png "[List of time series databases]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create time series database* view is displayed.
 
-    ![Create time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/CreateInfluxDBTimeSeries.png "[Create time series database]")
+    ![Create time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/CreateTimeSeriesDatabase.png "[Create time series database]")
 
 2. Enter a descriptive name for the time series database in the *Title* field.
 
-3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which data is to be written to the time series database. If you need help creating  a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
+3. Click the *Group* drop-down list and select the applicable time series group. Note that every time series databases must be assigned to a time series group to be executed. All available time series groups are displayed in the list. If the additional option **N/A** is selected, the time series database will not be executed. 
 
-    > [Info] Note that each execution puts a certain amount of load on the database. Therefore, it is recommended to execute the query only as often as necessary. As a rule of thumb consider: The more complex the query, the less often the execution.
+    > [Info] The time series group can be assigned while creating the time series database or later on, after the time series database has been created. To create a time series group, see [Create a time series group](./02_ManageTimeSeriesGroups.md#create-a-time-series-group).  
+    
+ 
+[comment]: <> (Das scheint für mich ilogisch: Warum würde man N/A wählen? Macht die Option da Sinn? Zur temporären Deaktivierung des jeweiligen time series DB?)
 
 4. Enter a description for the table where the data is to be written in the *Measurement* field. 
 
@@ -73,7 +77,7 @@ Create a time series database for a specific predefined query.
 11. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* view is displayed shortly while saving. 
 
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/SubmittingData.png "[Submitting data]")
+    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/SubmittingData.png "[Submitting data]")
 
     [comment]: <> (Screenshot aus NoE test account. OK?)
 
@@ -93,21 +97,21 @@ At least one time series database has been created, see [Create a time series da
 
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASE*
 
-![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of time series databases]")
+![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/ListTimeSeriesDatabases.png "[List of time series databases]")
 
 [comment]: <> (Screenshot aus NoE test account. OK?)
 
 1. Click the time series database to be edited in the list of time series databases. Alternatively, select the checkbox of the time series database to be edited and click the [EDIT] button in the editing toolbar.  
     The *Edit time series database* view is displayed.
 
-    ![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/EditInfluxDBTimeSeries.png "[Edit time series database]")
+    ![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/EditTimeSeriesDatabase.png "[Edit time series database]")
 
 2. Edit the time series database set values as necessary in the corresponding fields.
 
 3. Click the [SAVE] button.   
     The *Submitting data...* view is displayed shortly while saving. 
 
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/SubmittingData.png "[Submitting data]")
+    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/SubmittingData.png "[Submitting data]")
 
     [comment]: <> (Screenshots aus NoE test account)
 
@@ -127,17 +131,17 @@ At least one time series database has been created, see [Create a time series da
 
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES*
 
-![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of time series databases]")
+![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/ListTimeSeriesDatabases.png "[List of time series databases]")
 
 1. Select the checkbox of the time series database to be deleted.   
     The editing toolbar is displayed.
 
 2. Click the [DELETE] button in the editing toolbar.  
-    The *Deleted time series database xxxx* pop-up window is displayed. The *xxxx* indicates the identifier of the deleted time series database as displayed in the *ID* column. The deleted time series database is removed from the list of time series databases.
+    The *Time series has been deleted* pop-up window is displayed. The deleted time series database is removed from the list of time series databases.
 
-    ![Deleted time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/DeletedInfluxDBTimeSeries.png "[Deleted time series database]")
+    ![Deleted time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/TimeSeriesDeleted.png "[Deleted time series database]")
 
-[comment]: <> (Julian: Bitte Screenshot einbauen, ziehen und zukommen lassen.)
+[comment]: <> (Julian: Wollen wir diese Screenshot ähnlich wie bei Queries nennen? The *Deleted time series database xxxx* pop-up window is displayed. The *xxxx* indicates the identifier of the deleted time series database as displayed in the *ID* column.)
 
 
 [^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  
