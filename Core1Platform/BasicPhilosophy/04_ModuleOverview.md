@@ -88,7 +88,7 @@ It provides stock updates for the warehousing.
 The *Warehouse Management* module is the central place on the *Actindo Core1 Platform* for organizing and monitoring warehouse processes. You can manage of stock levels per material. It allows several kinds of postings such as inventory, reservations, pickings, and sells.
 
 **Order Management System**   
-Manages documents like order confirmations, invoices, delivery notes, returns
+Manages documents such as order confirmations, invoices, delivery notes, and returns. It receives return documents from the return management and provides orders for it. It sends delivery notes to the *Actindo Fulfillment* module
 
 **Customers and Suppliers**    
 After orders are imported from any connected stores and marketplaces, customer master data is automatically created, or existing master data records are recognized and updated as needed.
