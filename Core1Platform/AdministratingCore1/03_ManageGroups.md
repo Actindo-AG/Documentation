@@ -172,7 +172,7 @@ If a user group is no longer needed, you can remove it. Note, groups are removed
     ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
 
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button.
-The *Edit group "Group name"* window is opened.  
+    The *Edit group "Group name"* window is opened.  
 
     ![Edit group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png "[Edit group]")
 

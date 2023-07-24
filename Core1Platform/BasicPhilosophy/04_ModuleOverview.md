@@ -1,6 +1,6 @@
 # Module overview
 
-In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the *Actindo Core1 Platform* modules, plug ins, technical components ....
+In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the most important *Actindo Core1 Platform* modules and technical components as well as a description of the data streams between these components.
 
 
 
@@ -55,41 +55,39 @@ The *Actindo Cloudinary* module is an integration of Cloudinary&trade; to Actind
 The *Actindo Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
 The PIM master data are used to provide material master data as well as data needed for the communication with webshops and marketplaces.
 
-
 **Material**   
-Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length that is the basis for warehouse management. These master data does not contain metadata such as shop descriptions or keywords. The warehousing enriches these data with information on stock levels etc.
+Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length is used as basis for warehousing. These master data does not contain metadata such as shop descriptions or keywords. The warehousing enriches these data with information on stock levels etc.
 
 **Omni-channel**  
-With *Actindos Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;. You can use it to upload offers and to import orders. It allows exporting and importing returns.
+The *Actindo Omni-Channel* module uses the product metadata to control the communication of your web store with all relevant marketplaces. Additionally, it controls the communication with POS systems with multi location and multi cash register handling. It is used to upload offers and to import orders from the marketplaces. It allows exporting and importing of returns. 
+With the *Actindo Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;.
+
+## Order management
 
 **Warehousing**   
-The *Actindo Warehouse Management* stores basic data needed for order management as well as warehouse handling, (for example SKU (stock keeping unit), weight, length) and no meta data such as shop description, keywords. <!---Julian, das war in Deiner Grafik, was bedeutet das?--> 
+The *Actindo Warehouse Management* stores basic data needed for order management as well as for warehouse handling. You can use it to manage stock levels per material. It allows several kinds of postings such as inventory, reservation, pickings, sells and much more. 
 
 The *Actindo Warehouse Management* module is the central place on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. It stores basic data needed for order management as well as warehouse handling, such as SKU (stock keeping unit), weight, length. You can plan warehouse locations according to different metrics such as building shapes and sizes, shelves or compartments, as well as manage individual storage bins. 
 
- and no meta data such as shop description, keywords. <!---Julian, in Deiner Grafik, was bedeutet das?--> 
-
-
-
-
-
 **Omni-channel**  
-With *Actindos Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;. You can use it to upload offers and to import orders. It allows exporting and importing returns.
+With *Actindos Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;. You can use it to upload offers and to import orders. It allows exporting and importing returns.   
+It provides orders for the *Actindo Order Management System* (OMS) and authorizations for the *Actindo Payments* module.
 
 **POS**  
 With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *Venduo POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.
-POS-System with multi location and multi cash register handling
+You can integrate POS-Systems with multi location and multi cash register handling. It provides payment data to be posted for the *Actindo Accounting* module. 
 
 
 ## Order Management
 
 **Fulfillment**   
-Whether you work with external fulfillment providers or handle shipping yourself, the *Actindo Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.
+Whether you work with external fulfillment providers or handle shipping yourself, the *Actindo Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.  
+It provides stock updates for the warehousing. 
 
-**Warehouse Management**   
-The *Warehouse Management* module is the central place on the *Actindo Core1 Platform* for organizing and monitoring warehouse processes. You can manage of stock levels per material. It allows several ways of bookings such as inventory, reservations, pickings, and sells.
+**Warehousing**   
+The *Warehouse Management* module is the central place on the *Actindo Core1 Platform* for organizing and monitoring warehouse processes. You can manage of stock levels per material. It allows several kinds of postings such as inventory, reservations, pickings, and sells.
 
-**OMS**   
+**Order Management System**   
 Manages documents like order confirmations, invoices, delivery notes, returns
 
 **Customers and Suppliers**    

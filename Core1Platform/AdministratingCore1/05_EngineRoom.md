@@ -15,12 +15,15 @@ Access to the engine room is available in any workspace you have opened in the *
 #### Procedure
 *Actindo Core1 Platform > Any workspace*
 
-![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
-
-<details><summary>Open to see the screenshot</summary>
+   <details><summary>Open to see the screenshot</summary>
   
-  ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
- </details>
+   ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
+
+   </details>   
+
+   markdown expandable section: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
+
+   <br>
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
    The engine room is opened with the current workspace overlapped. It contains four dashlets.
@@ -48,19 +51,19 @@ Clearing the tenant cache removes all entries that are currently in the cache of
 
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped.
+   The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 2. Click the [CLEAR TENANT CACHE] button top right.   
-The following warning message is displayed:   
+   The following warning message is displayed:   
 
    ![Warning message](../../Assets/Screenshots/Core1Platform/AdministratingCore1/ClearCacheWarning.png "[Warning message]")
 
 3. Click the [ABBRECHEN] (Cancel) button if you want to cancel the action. 
 
 4. If desired, click the [FORTFAHREN] (Continue) button to clear the cache.   
-The cache is cleared. Afterwards, it will be rebuilt again. The processes on the instance are significantly slowed down.
+   The cache is cleared. Afterwards, it will be rebuilt again. The processes on the instance are significantly slowed down.
 
 
 
@@ -76,12 +79,12 @@ The platform console provides instance-relevant notices and warning. In opposite
 
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
-The engine room is opened. The current workspace is overlapped.
+   The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 2. Click the [PLATTFORM-KONSOLE] (Platform console) button.   
-The *Platform Console* window is opened.
+   The *Platform Console* window is opened.
 
    ![Platform console](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomPlatformConsole.png "[Platform console]")
 
