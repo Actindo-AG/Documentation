@@ -1,5 +1,6 @@
 [!!Manage the queries](./01_ManageQueries.md)
 [!!Manage the connection](./04_ManageConnections.md)
+[!!Manage the time series group](./06_ManageTimeSeriesGroups.md)
 [!!User interface Time series databases](../UserInterface/01b_TimeSeriesDatabases.md)
 
 # Manage the time series databases
@@ -24,7 +25,6 @@ Create a time series database for a specific predefined query.
 
 - A connection to InfluxDB&trade; has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
 - At least one query has been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
-- A time series group has been created, see [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group).
 
 #### Procedure
 
@@ -39,22 +39,17 @@ Create a time series database for a specific predefined query.
 
 2. Enter a descriptive name for the time series database in the *Title* field.
 
-3. Click the *Group* drop-down list and select the applicable time series group. Note that every time series databases must be assigned to a time series group to be executed. All available time series groups are displayed in the list. If the additional option **N/A** is selected, the time series database will not be executed. 
+3. Click the *Group* drop-down list and select the applicable time series group. All available time series groups are displayed in the list. Note that every time series database must be assigned to a group to be executed at regular intervals. If you do not want the time series database to be executed at regular intervals within a group, select the **N/A** option. 
 
-    > [Info] The time series group can be assigned while creating the time series database or later on, after the time series database has been created. To create a time series group, see [Create a time series group](./02_ManageTimeSeriesGroups.md#create-a-time-series-group).  
-    
- 
-[comment]: <> (Das scheint für mich ilogisch: Warum würde man N/A wählen? Macht die Option da Sinn? Zur temporären Deaktivierung des jeweiligen time series DB?)
+    > [Info] The time series group can be assigned while creating the time series database or later on, after the time series database has been created. To create a time series group, see [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group).  
 
 4. Enter a description for the table where the data is to be written in the *Measurement* field. 
 
-    > [Info]  If the measurement does not exist yet, it will be created automatically with the specified fields and tags. If the measurement already exists, the fields and tags of the existing table will be added to the specified measurement. 
+    > [Info] If the measurement does not exist yet, it will be created automatically with the specified fields and tags. If the measurement already exists, the fields and tags of the existing table will be added to the specified measurement. 
 
-5. Click the drop-down list and select the appropriate connection.  
-    All available connections established in the *CONNECTIONS* tab of the *Settings* menu entry are displayed in the list.
+5. Click the drop-down list and select the appropriate connection. All available connections are displayed in the list.
 
-6. Click the drop-down list and select the appropriate query.   
-    All available queries predefined in the *QUERIES* tab are displayed in the list.
+6. Click the drop-down list and select the appropriate query. All available predefined queries are displayed in the list.
 
 7. If desired, click the ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add) button in the *Tag columns* box.  
     A new input line is displayed.
@@ -75,13 +70,7 @@ Create a time series database for a specific predefined query.
     > [Info] Repeat steps **9** and **10** to add further fields if necessary.
 
 11. Click the [SAVE] button in the upper right corner.  
-    The *Submitting data...* view is displayed shortly while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/SubmittingData.png "[Submitting data]")
-
-    [comment]: <> (Screenshot aus NoE test account. OK?)
-
-    The times series database has been saved. The *Create time series database* view is closed. The new times series database is displayed in the list of time series database. 
+    The *Submitting data...* view is displayed shortly while saving. The times series database has been saved. The *Create time series database* view is closed. The new times series database is displayed in the list of time series databases. 
 
 
 
@@ -109,13 +98,7 @@ At least one time series database has been created, see [Create a time series da
 2. Edit the time series database set values as necessary in the corresponding fields.
 
 3. Click the [SAVE] button.   
-    The *Submitting data...* view is displayed shortly while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/SubmittingData.png "[Submitting data]")
-
-    [comment]: <> (Screenshots aus NoE test account)
-
-    The changes have been saved. The *Edit time series database* view is closed. The edited time series database is displayed in the list of time series databases. 
+    The *Submitting data...* view is displayed shortly while saving. The changes have been saved. The *Edit time series database* view is closed. The edited time series database is displayed in the list of time series databases. 
 
 
 

@@ -16,7 +16,7 @@
     Click this button to cancel editing the tree structure. Any open element is closed. All changes are rejected. 
 
 - [SAVE]   
-    Click this button to save all changes. The *Submitting data* view is displayed while saving. The changes are displayed in the tree structure.
+    Click this button to save all changes. The *Submitting data* view is displayed shortly while saving. The changes are displayed in the tree structure.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a query category or sub-category. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new query category or sub-category to the selected column. The *Add element* window is displayed, see [Add element](#add-element).    

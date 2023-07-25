@@ -5,7 +5,7 @@
 
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES*
 
-![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/ListInfluxDBTimeSeriesCreated.png "[List of time series databases]")
+![List of time series databases](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/ListTimeSeriesDatabases.png "[List of time series databases]")
 
 **List of time series databases**
 
@@ -19,10 +19,10 @@
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all queries in the list are selected.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all time series databases in the list are selected.
 
 - [EXECUTE]  
-    Click this button to execute the time series database immediately, that is, without waiting for the next scheduled run. This button is only displayed if a single checkbox in the list of time series databases is selected.
+    Click this button to execute the selected time series database immediately, that is, without waiting for the next scheduled run. You can also use this button to execute the time series database manually if it has not been assigned to a group. This button is only displayed if a single checkbox in the list of time series databases is selected.
 
 - [EDIT]  
     Click this button to edit a selected time series database. This button is only displayed if a single checkbox in the list of time series databases is selected. The *Edit time series database* view is displayed, see [Edit time series database](#edit-time-series-database).
@@ -37,11 +37,11 @@ The list displays all time series databases. Depending on the settings, the disp
 - *Title*  
     Description of the time series database.
 
-- *CronLine*  
-    Cron expression used to specify the time interval in which the time series database must be executed.
+- *Group*  
+    Time series group selected to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
 
 - *Connection*  
-    Connection selected to write data to the time series database.
+    Connection selected to write data to the time series database. 
 
 - *Query*  
     Predefined query to be executed in the time series database.
@@ -55,6 +55,14 @@ The list displays all time series databases. Depending on the settings, the disp
 - *Fields*  
     Values specified to be written to the time series database. Fields are mandatory. 
 
+- *CronLine*  
+    CronLine defined in time series group to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
+
+- *Last executed at*  
+    Date and time that the selected time series database has been last executed.
+
+[comment]: <> (Julian: Ich habe auf EXECUTE geklickt, die Spalte zeigt aber nichts. Ich weiß nicht, ob daran liegt, dass meine Dummy-Verbindung nicht richtig funktioniert oder ob es generell ein Bug ist)
+
 - *ID*  
     Time series database identification number. The ID number is automatically assigned by the system.
 
@@ -67,13 +75,15 @@ The list displays all time series databases. Depending on the settings, the disp
 
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES > Button Add*
 
-![Create time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/CreateInfluxDBTimeSeries.png "[Create time series database]")
+![Create time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/CreateTimeSeriesDatabase.png "[Create time series database]")
 
 - *Title*  
     Enter a description for the time series database.
 
-- *CronLine*  
-    Enter a valid cron expression to specify the time interval in which the time series databases must be executed.
+- *Group*  
+    Time series group selected to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
+
+
 
 - *Measurement*  
     Enter the name of the table where the data is to be written. 
@@ -119,7 +129,7 @@ The list displays all time series databases. Depending on the settings, the disp
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES > Select time series database*  
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES > Select time series database checkbox > Button Edit*  
 
-![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/InfluxDBTimeSeries/EditInfluxDBTimeSeries.png "[Edit time series database]")
+![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/EditTimeSeriesDatabase.png "[Edit time series database]")
 
 - *Title*  
     Click this field to edit the description of the time series database.

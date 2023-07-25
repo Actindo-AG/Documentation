@@ -54,11 +54,7 @@ No prerequisites to fulfill.
     > [Info] To add an additional query category, repeat the steps **1** to **5**. To add a query sub-category, see [Create a query sub-category](#create-a-query-sub-category).
 
 6. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
-
-    The new query category has been saved in the query categories tree, which is displayed in the *Queries* view.
+    The *Submitting data...* view is displayed shortly while saving. The new query category has been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
     
@@ -110,11 +106,7 @@ At least one query category has been created, see [Create a query category](#cre
     ![Query sub-category](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QuerySubcategoryCreated.png "[Query sub-category]")
 
 7. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
-
-    The new query sub-category has been saved in the query categories tree, which is displayed in the *Queries* view.
+    The *Submitting data...* view is displayed shortly while saving. The new query sub-category has been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
@@ -150,11 +142,7 @@ At least one query category has been created, see [Create a query category](#cre
     The changes have been saved in the query category column. 
 
 4. Click the [SAVE] button in the upper right corner.  
-     The *Submitting data...* view is displayed while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
-
-    The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
+     The *Submitting data...* view is displayed shortly while saving. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
@@ -186,11 +174,7 @@ At least two query categories have been created, see [Create a query category](#
 2. Move the selected query category to the desired position in the list by using drag and drop.
 
 3. Click the [SAVE] button in the upper right corner.  
-    The *Submitting data...* view is displayed while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
-
-    The new query category order has been saved. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
+    The *Submitting data...* view is displayed shortly while saving. The new query category order has been saved. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
@@ -225,11 +209,7 @@ At least one query category has been created, see [Create a query category](#cre
     The deleted query category has been removed from the query category column.
 
 3. Click the [SAVE] button in the upper right corner.   
-    The *Submitting data...* view is displayed while saving. 
-
-    ![Submitting data](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/SubmittingData.png "[Submitting data]")
-
-    The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
+    The *Submitting data...* view is displayed shortly while saving. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
 
