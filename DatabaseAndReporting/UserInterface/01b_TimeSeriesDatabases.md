@@ -55,6 +55,9 @@ The list displays all time series databases. Depending on the settings, the disp
 - *Fields*  
     Values specified to be written to the time series database. Fields are mandatory. 
 
+- *ID*  
+    Time series database identification number. The ID number is automatically assigned by the system.
+
 - *CronLine*  
     CronLine defined in time series group to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
 
@@ -62,9 +65,6 @@ The list displays all time series databases. Depending on the settings, the disp
     Date and time that the selected time series database has been last executed.
 
 [comment]: <> (Julian: Ich habe auf EXECUTE geklickt, die Spalte zeigt aber nichts. Ich weiß nicht, ob daran liegt, dass meine Dummy-Verbindung nicht richtig funktioniert oder ob es generell ein Bug ist)
-
-- *ID*  
-    Time series database identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a time series database. The *Create time series database* view is displayed, see [Create time series database](#create-time-series-database).  
@@ -81,9 +81,10 @@ The list displays all time series databases. Depending on the settings, the disp
     Enter a description for the time series database.
 
 - *Group*  
-    Time series group selected to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
+    Click the drop-down list and select the desired time series group. If you do not want to assign the time series database to any group, select the **N/A** option. 
 
-
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to refresh the *Group* drop-down list and display any newly created time series groups.
 
 - *Measurement*  
     Enter the name of the table where the data is to be written. 
@@ -119,6 +120,7 @@ The list displays all time series databases. Depending on the settings, the disp
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)  
     Click this button to remove a field from the *Field columns* box. This button is displayed to the right of a newly added input line.
+    
 - [SAVE]  
     Click this button to save the time series database. The *Create time series database* view is closed. The new time series database is displayed in the list of time series databases.
 
@@ -134,8 +136,11 @@ The list displays all time series databases. Depending on the settings, the disp
 - *Title*  
     Click this field to edit the description of the time series database.
 
-- *CronLine*  
-    Click this field to edit the cron expression and specify the time interval in which the time series database must be executed.
+- *Group*  
+    Click the drop-down list and select the desired time series group. If you do not want to assign the time series database to any group, select the **N/A** option. 
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to refresh the *Group* drop-down list and display any newly created time series groups.
 
 - *Measurement*  
     Click this field to edit the name of the table where the data is to be written. 

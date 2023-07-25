@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 
 2. Enter a descriptive name for the time series group in the *Title* field.
 
-3. Enter a valid cron expression in the *Cronline* field to specify the time interval in which the time series databases included in the group are to be executed. If you need help creating a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
+3. Enter a valid cron expression in the *CronLine* field to specify the time interval in which the time series databases included in the group are to be executed. If you need help creating a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
 
 4. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* view is displayed shortly while saving. The times series group has been saved. The *Create time series group* view is closed. The new times series group is displayed in the list of time series groups.  
