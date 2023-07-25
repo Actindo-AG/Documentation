@@ -8,7 +8,7 @@ The *Actindo Core1 Platform* provides you with the following:
 
 There are a lot of ways to do digital commerce, including not only your own online store but also numerous marketplaces. However, managing products separately in each channel requires huge effort.   
 The *Actindo Core1 Platform* enables unified commerce by treating comparably digital and traditional stationary commerce. For example, you can treat a stationary store like a web shop. And a web shop order like a sale process in the POS (point of sale) system.   
-With the *Omni-Channel* module, you can connect your web store and all relevant marketplaces as well as payment service providers directly to the platform and manage them centrally. You can integrate various store systems, such as Shopify or Magento 2.
+With the *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally. You can integrate various store systems, such as Shopify or Magento 2.
 
 ## Process integration 
 
@@ -18,7 +18,7 @@ You can customize your individual data fields and sources for each process and "
 
 ## Process orchestration
 
-The Actindo process orchestration allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes and data can be mapped and made available however and whenever you want. You can use the Actindo *Workflows* module to easily adapt and automate your processes in a graphical way and almost without any code needed.  
+The Actindo process orchestration allows you to design, control, map, and monitor your business processes. Based on your special and individual business rules, you can map your company's processes and data and made it available however and whenever you want. You can use the Actindo *Workflows* module to easily adapt and automate your processes in a graphical way and almost without any code needed.  
 You can model any kind of complex processes and visualize them where they are executed. By doing this, you know the past, future, and present of any entity.
 You can automate and parallelize the business for high volumes.
 
@@ -38,5 +38,5 @@ Optionally, you can use a dashboard enabled by a Grafana&trade;[^1] integration.
 
 <!----Hier vielleicht ein Bild von grafana einfügen?-->
 
-[^1]: **Disclaimer:** The Grafana Labs Marks are trademarks of Grafana Labs, and are used with Grafana Labs’ permission. We are not affiliated with, endorsed or sponsored by Grafana Labs or its affiliates.
+[^1]: **Disclaimer:** The Grafana Labs Marks are trademarks of Grafana Labs and are used with Grafana Labs’ permission. We are not affiliated with, endorsed, or sponsored by Grafana Labs or its affiliates.
 

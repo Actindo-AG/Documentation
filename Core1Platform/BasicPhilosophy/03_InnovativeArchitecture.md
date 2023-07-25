@@ -15,7 +15,8 @@ Companies can accelerate innovation with modern APIs (application programming in
 
 ### Cloud technology
 
-Instead of worrying about maintaining, connecting, and updating a monolithic ERP software, you can use a fail-safe and scalable platform made in Germany. Our cloud servers are compliant with the European General Data Protection Regulation (GDPR). They are located in Germany and can be accessed wherever you are.
+Instead of worrying about maintaining, connecting, and updating a monolithic ERP software, you can use a fail-safe and scalable platform made in Germany. Our cloud servers are compliant with the European General Data Protection Regulation (GDPR). The data is held in Germany in a high-security data center on our own 
+servers (server housing) with a multi-level system for the control of access authorizations. The servers are located in Germany and can be accessed wherever you are.
 
 
 ### Headless Commerce 
