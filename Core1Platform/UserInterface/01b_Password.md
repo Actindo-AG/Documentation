@@ -1,6 +1,6 @@
 # Password
 
-*Avator icon > Menu entry Settings > Tab PASSWORD*
+*Any workspace > Avator icon > Menu entry Settings > Tab PASSWORD*
 
 ![Password](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/Password.png "[Password]")
 

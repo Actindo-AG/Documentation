@@ -1,6 +1,6 @@
 # Profile menu
 
-*Any module > avatar Icon*
+*Any workspace > Avatar icon*
 
 ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
@@ -17,7 +17,7 @@
 
 ## Really log out
 
-*Any module > avatar icon > Menu entry Logout*
+*Any workspace > Avatar icon > Menu entry Logout*
 
 ![Really log out](../../Assets/Screenshots/Core1Platform/UsingCore1/ReallyLogOut.png "[Really log out]")
 
@@ -31,7 +31,7 @@
 
 ## Profile settings
 
-*Any module > Avatar icon > Menu entry Settings*
+*Any workspace > Avatar icon > Menu entry Settings*
 
 ![Profile settings](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile settings]")
 

@@ -18,7 +18,7 @@ In the *Actindo Dashboard*, the custom tabs with composable dashlets are display
 
 ## Add tab
 
-*Actindo dashboard > Button Add*
+*Actindo Dashboard > Button Add*
 
 ![Create new tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Create new tab]")
 
@@ -43,9 +43,9 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 ## Confirm tab deletion
 
-*DataHub > Overview > Tab DASHBOARDS > Button Delete*
+*Actindo Dashboard > Button Delete*
 
-![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
+![Confirm tab deletion](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardConfirmTabDelition.png "[Confirm tab deletion]")
 
 - [CANCEL]   
     Click this button to cancel deleting the selected tab. The *Confirm tab deletion* window is closed.
@@ -96,7 +96,7 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
 - ![Cancel](../../Assets/Icons/Cross02.png "[Cancel]") (Cancel)   
     Click this button to cancel editing the tab. Any changes are rejected. The *Edit tab* view is closed.
 
-- Dashlet   
+- *Dashlet*   
     Hover over a dashlet until the cursor icon changes to the cross arrows cursor. Then move the dashlet on the predefined grid using drag and drop.    
     To remove a dashlet from the tab, click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the dashlet.  
 
@@ -110,20 +110,28 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
 
 - [x]    
     Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox.   
-    By default, the following dashlets are available:
-    > [INFO] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.  
-    Additionally, the *Force cash refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.
+    By default, the following dashlets are available:  
 
-    **Actindo Workflow engine**    <!---Hallo Julian, diese hier habe ich aus bestehender doku, alle außer OMS,die habe ich geraten..-->   
-    - *Current failure count*   
+    > [INFO] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.   
+    Additionally, the *Force cash refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.   
+
+    **Actindo Workflow engine**    
+    For detailed information, see [Dashlet picker](../../ActindoWorkFlow/UserInterface/01a_Overview.md#dashlet-picker "Dashlet picker") in the *Actindo Work Flow Engine* documentation.
+    
+    
+    <!--- to be deleted: *Current failure count*   
             Displays the number of workflows that have currently an *Error* status.	
     - *Workflow count*   
             Displays the number of workflows in the *Workflows* module.
     - *Waiting processes*      
-          Displays the number of processes not yet started.   
+          Displays the number of processes not yet started.   -->
 
-    **Omni-Channel**  <!---Hallo Julian, diese hier habe ich aus bestehender doku--> 
-    - *Channels Status*	   
+    **Omni-Channel**  
+    For detailed information, see [Dashlet picker](../../Channels/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Actindo Channels* documentation.
+    
+    
+
+    <!---- *Channels Status*	   
             Displays the status of each connection. The dashlet displays the period since the last update. You can refresh the data evaluation. With the "more.." references you are able to directly open the related Omni-Channel views.
     - *Statistics by Channel*   
             Displays the statistics of each connection.
@@ -132,10 +140,12 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     - *Statistics over Time*   
             Displays the statistics of each connection over time.
     - *Connection Status*   
-            Displays the status of each connection. You can display all active or inactive connections.
+            Displays the status of each connection. You can display all active or inactive connections.-->
             
-    **Actindo DataHub**   <!---Hallo Julian, diese hier habe ich aus bestehender doku-->
-    - *Attribute Count*   
+    **Actindo DataHub**   
+        For detailed information, see [Dashlet picker](../../DataHub/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Actindo Channels* documentation.
+
+    <!---- *Attribute Count*   
             Displays the number of attributes in the *DataHub* module.
     - *Language Count*   
             Displays the number of languages in the *DataHub* module.
@@ -160,13 +170,13 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     -	*ETL Mapping History*   
             Displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
     -	*DataHub Flow*   
-            Displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.   
+            Displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.   -->
 
     **Fakturierung (Order Management System (OMS))** <!---Hallo Julian, diese hier habe ich mir zusammengereimt--> 
     - *Orders*  
             Displays the number of orders for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.
     - *Dispatched Orders (via AIQS)*   
-            ?   
+            <!---Julian, was ist AIQS?--> 
     - *New customers*   
             Displays the number of new customers for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.  
     - *Average order size (EUR)*   

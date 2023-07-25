@@ -2,7 +2,7 @@
 
 # LIST views
 
-*Any module with a LIST*
+*Any module with a list*
 
 ![LIST](../../Assets/Screenshots/Core1Platform/UserInterface/ViewsLIST.png "[LIST]")
 
@@ -34,7 +34,7 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 ## Create view
 
-*Any module > Tab LIST > Button Points > Menu entry create*
+*Any module with a list > Tab LIST > Button Points > Menu entry create*
 
 ![Create view](../../Assets/Screenshots/Core1Platform/UserInterface/ViewCreate.png "[Create view]")
 
@@ -49,9 +49,9 @@ Click the drop-down list to select the view. All created views are displayed in 
 
 
 
-    ## Rename view
+## Rename view
 
-*Any module > Tab LIST > Button Points > Menu entry rename*
+*Any module with a list > Tab LIST > Button Points > Menu entry rename*
 
 ![Rename view](../../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
 

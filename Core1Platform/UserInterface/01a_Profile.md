@@ -2,7 +2,7 @@
 
 # Profile
 
-*Avator icon > Menu entry Settings > Tab PROFILE*
+*Any workspace > Avator icon > Menu entry Settings > Tab PROFILE*
 
 ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
 
