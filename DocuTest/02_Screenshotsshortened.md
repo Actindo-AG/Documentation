@@ -110,7 +110,7 @@ You can re-export a dispatch note to the fulfiller if the receival has failed in
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
-![Dispatch notes](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
+![Dispatch notes](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes2.png "[Dispatch notes]")
 
 1. Click the checkbox of the dispatch note to be re-exported.   
     The editing toolbar is displayed.
