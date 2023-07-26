@@ -73,7 +73,7 @@ The list displays all time series groups. Depending on the settings, the display
 
 ![Edit time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/EditTimeSeriesGroup.png "[Edit time series group]")
 
-**Edit time series groups**
+**Edit time series group**
 
 - *Title*  
     Click this field to edit the description of the time series group.

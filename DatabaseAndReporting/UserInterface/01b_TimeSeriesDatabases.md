@@ -77,6 +77,8 @@ The list displays all time series databases. Depending on the settings, the disp
 
 ![Create time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/CreateTimeSeriesDatabase.png "[Create time series database]")
 
+**Create time series database**
+
 - *Title*  
     Enter a description for the time series database.
 
@@ -132,6 +134,8 @@ The list displays all time series databases. Depending on the settings, the disp
 *Database and reporting > Managed queries > Tab TIME SERIES DATABASES > Select time series database checkbox > Button Edit*  
 
 ![Edit time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/EditTimeSeriesDatabase.png "[Edit time series database]")
+
+**Edit time series database**
 
 - *Title*  
     Click this field to edit the description of the time series database.
