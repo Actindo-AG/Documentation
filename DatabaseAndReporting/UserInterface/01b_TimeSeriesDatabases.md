@@ -38,7 +38,7 @@ The list displays all time series databases. Depending on the settings, the disp
     Description of the time series database.
 
 - *Group*  
-    Time series group selected to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
+    Time series group selected to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to a group. 
 
 - *Connection*  
     Connection selected to write data to the time series database. 
@@ -59,7 +59,7 @@ The list displays all time series databases. Depending on the settings, the disp
     Time series database identification number. The ID number is automatically assigned by the system.
 
 - *CronLine*  
-    CronLine defined in time series group to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to any group. 
+    CronLine defined in time series group to which the time series database has been assigned. This column is empty if the **N/A** option has been selected, that is, if the time series database has not been assigned to a group. 
 
 - *Last executed at*  
     Date and time that the selected time series database has been last executed.

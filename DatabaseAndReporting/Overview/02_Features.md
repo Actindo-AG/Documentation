@@ -9,7 +9,10 @@ Access, retrieve, and manage all your data quickly and centrally with the Actind
     Specific queries can also be predefined to determine the data that can be accessed by the different user groups. User rights can be individually granted based on user group profiles. Data can be accessed via API or public download and output in XML or CSV format.
 
 - Write your data into time series databases to track change over time  
-    Through the use of InfluxDB&trade;[^1] technology, connected via driver to the *Actindo Core1 Platform*, your data can be written into time series databases at regular fully-customizable intervals. This allows you to track data evolution over time, as well as to identify and monitor trends.    
+    Through the use of InfluxDB&trade;[^1] technology, connected via driver to the *Actindo Core1 Platform*, your data can be written into time series databases at regular fully-customizable intervals. This allows you to track data evolution over time, as well as to identify and monitor trends.  
+
+- Automate completely the execution of time series databases  
+    Time series databases can be group together flexibly to execute them at certain time intervals or under specific scenarios. The time series databases assigned to a group can be changed any time easily to optimize system performance.  
 
 - Create data visualizations with Grafana&trade;[^2] technology  
     Last but not least, time series databases can be converted into graphs and visualizations using the Grafana&trade; open-source platform, which can be additionally integrated in the *Actindo Core1 Platform*. 

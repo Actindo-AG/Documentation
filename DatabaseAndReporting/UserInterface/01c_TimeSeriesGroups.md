@@ -1,4 +1,4 @@
-[!!Manage time series groups](../Integration/03_ManageTimeSeriesGroups.md)
+[!!Manage the time series groups](../Integration/06_ManageTimeSeriesGroups.md)
 
 #  Time series groups
 
@@ -40,7 +40,7 @@ The list displays all time series groups. Depending on the settings, the display
     Cron expression used to specify the time interval in which the time series group must be executed.
 
 - *ID*  
-    Time series database identification number. The ID number is automatically assigned by the system.
+    Time series group identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a time series group. The *Create time series group* view is displayed, see [Create time series group](#create-time-series-group).  
@@ -51,12 +51,12 @@ The list displays all time series groups. Depending on the settings, the display
 
 *Database and reporting > Managed queries > Tab TIME SERIES GROUPS > Button Add*
 
-![Create time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/ListTimeSeriesGroups.png "[Create time series group]")
+![Create time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/CreateTimeSeriesGroup.png "[Create time series group]")
 
 **Create time series group**
 
 - *Title*  
-    Enter a description for the time series database.
+    Enter a description for the time series group.
 
 - *CronLine*  
     Enter a valid cron expression to specify the time interval in which the time series group must be executed.
@@ -71,9 +71,9 @@ The list displays all time series groups. Depending on the settings, the display
 *Database and reporting > Managed queries > Tab TIME SERIES GROUPS > Select time series group*  
 *Database and reporting > Managed queries > Tab TIME SERIES GROUPS > Select time series group checkbox > Button Edit*  
 
-![List of time series groups](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/ListTimeSeriesGroups.png "[List of time series groups]")
+![Edit time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/EditTimeSeriesGroup.png "[Edit time series group]")
 
-**List of time series groups**
+**Edit time series groups**
 
 - *Title*  
     Click this field to edit the description of the time series group.

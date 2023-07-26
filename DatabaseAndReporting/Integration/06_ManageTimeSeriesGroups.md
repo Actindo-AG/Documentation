@@ -1,6 +1,5 @@
 [!!User interface Time series groups](../UserInterface/01c_TimeSeriesGroups.md)
 
-
 # Manage the time series groups
 
 The time series databases can be organized in groups to execute them at certain time intervals or under specific scenarios. The time series databases assigned to a group are then executed sequentially, thereby reducing system load. Different groups running at the same time interval are executed in parallel.  
@@ -61,7 +60,7 @@ At least one time series group has been created, see [Create a time series group
 
 ## Delete a time series group
 
-A time series group can be deleted if it no longer in use.
+A time series group can be deleted if it is no longer in use.
 
 #### Prerequisites
 

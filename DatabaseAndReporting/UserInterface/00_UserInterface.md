@@ -17,6 +17,11 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Edit time series database](./01b_TimeSeriesDatabases.md#edit-time-series-database)
 
 
+- [TIME SERIES GROUPS](./01c_TimeSeriesGroups.md)  
+    - [Create time series group](./01c_TimeSeriesGroups.md#create-time-series-group)
+    - [Edit time series group](./01c_TimeSeriesGroups.md#edit-time-series-group)
+
+
 - [Logging](./02_Logging.md)
 
 
