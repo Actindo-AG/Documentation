@@ -22,11 +22,12 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 <details><summary>Open to see the screenshot</summary>
 
-![Dispatch notes](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
+![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png "[Dispatch notes]")
 
 </details>
 
 <br>
+
 
 1. Check the dispatch note status in the *Status* column. The status displays the current stage in the fulfillment process. The following options are available:  
     - **New dispatch note**  
