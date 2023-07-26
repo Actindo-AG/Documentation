@@ -22,7 +22,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 <details><summary>Open to see the screenshot</summary>
 
-![Dispatch notes](../../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNotes.png "[Dispatch notes]")
+![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png"[Dispatch notes]")
 
 </details>
 
