@@ -128,7 +128,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 
 *Database and reporting > Settings > Tab CONNECTIONS > Select a connection*
 
-![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionv2.png "[Edit connection]")
+![Edit connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/EditConnectionV2.png "[Edit connection]")
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit connection* view and return to the list of connections. All changes are rejected.
