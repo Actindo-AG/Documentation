@@ -20,7 +20,7 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
-<details><summary>Open to see the screenshot</summary>
+<details><summary>Click to see the screenshot</summary>
 
 ![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png "[Dispatch notes]")
 
@@ -73,7 +73,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
-<details><summary>Open to see the screenshot</summary>
+<details><summary>Clickto see the screenshot</summary>
 
 ![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png "[Dispatch notes]")
 
@@ -120,7 +120,7 @@ You can re-export a dispatch note to the fulfiller if the receival has failed in
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
-<details><summary>Open to see the screenshot</summary>
+<details><summary>Click to see the screenshot</summary>
 
 ![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png "[Dispatch notes]")
 
