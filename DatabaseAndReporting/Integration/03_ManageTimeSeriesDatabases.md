@@ -25,6 +25,7 @@ Create a time series database for a specific predefined query.
 
 - A connection to InfluxDB&trade; has been established, see [Create a connection](./04_ManageConnections.md#create-a-connection). 
 - At least one query has been created, see [Create a query](./01_ManageQueries.md#create-a-query). 
+- At least one time series group has been created, see [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group). 
 
 #### Procedure
 
@@ -41,7 +42,7 @@ Create a time series database for a specific predefined query.
 
 3. Click the *Group* drop-down list and select the applicable time series group. All available time series groups are displayed in the list. Note that every time series database must be assigned to a group to be executed at regular intervals. If you do not want the time series database to be executed at regular intervals within a group, select the **N/A** option. 
 
-    > [Info] The time series group can be assigned while creating the time series database or later on, after the time series database has been created. To create a time series group, see [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group).  
+    > [Info] The time series group can be assigned while creating the time series database or later on, and can be edited anytime.  
 
 4. Enter a description for the table where the data is to be written in the *Measurement* field. 
 
@@ -104,7 +105,7 @@ At least one time series database has been created, see [Create a time series da
 
 ## Delete a time series database 
 
-A time series database can be deleted if it no longer in use.
+A time series database can be deleted if it is no longer in use.
 
 #### Prerequisites
 
