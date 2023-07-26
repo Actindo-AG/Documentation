@@ -3,17 +3,17 @@
 The Actindo documentation offers a lot of ways to navigate between module documentations, to navigate within a document, and to navigate between topics within a module/plugin documentation.
 
 
-## Open the Actindo documentation site
+## Open the Actindo Documentation home page
 
+You can access the *Actindo Documentation* home page via the *Actindo* home page or directly via the *Actindo Core1 Platform*. 
 
 ### Open the site via the Actindo home page
 
-You can open the Actindo documentation site via the Actindo home page. Alternatively, you can open the Actindo documentation site directly under the following link: <a href="https://docs.actindo.com/en" target="_blank">https://docs.actindo.com/en</a>.
-
+You can open the *Actindo Documentation* home page in the *Actindo* home page via the *Resources* tab. Alternatively, you can open it directly under the following link: <a href="https://docs.actindo.com/en" target="_blank">https://docs.actindo.com/en</a>.
 
 #### Prerequisites
-- You have internet access.
 
+- You have internet access.
 
 #### Procedure
 
@@ -36,17 +36,18 @@ You can open the Actindo documentation site via the Actindo home page. Alternati
 
 4. Select the module documentation you want to read. To do this, click the corresponding item.   
     Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
+
     >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the Actindo logo.
 
 
 
 ### Open the site via the Actindo Core1 Platform
 
-You can open the Actindo documentation site directly from the *Actindo Core1 Platform* user interface.
+You can open the *Actindo Documentation* home page directly from the *Actindo Core1 Platform* user interface.
 
 #### Prerequisites
-- You are logged in the *Actindo Core1 Platform*.
 
+- You are logged in the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -55,8 +56,8 @@ You can open the Actindo documentation site directly from the *Actindo Core1 Pla
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationHelpLink.png "[Actindo Core1 Platform]")
 
 1. In the navigation menu at, click the ![Help](../../Assets/Icons/Help.png "[Help]") [Help] button down left.   
-The *Actindo Documentation* site is opened in a new window.   
-![Actindo Documentation site](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSite.png "[Actindo Documentation site]")
+    The *Actindo Documentation* home page is opened in a new window.   
+    ![Actindo Documentation home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSite.png "[Actindo Documentation home page]")
 
 2. Select the module documentation you want to read. To do this, click the corresponding item.   
     Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
@@ -66,24 +67,25 @@ The *Actindo Documentation* site is opened in a new window.
 
 
 ## Search the documentation
+
 A full text search is available for the Actindo documentation. You can search the complete documentation as well as search only the selected module documentation.
 
 
 ### Search the whole Actindo documentation
-Ae full text search is available that starts a search over the whole Actindo documentation. The search result list displays all topics containing the specified character string.
+
+A full text search is available that starts a search over the whole *Actindo* documentation. The search result list displays all topics containing the specified character string.
 
 #### Prerequisites
 - You have internet access.
-- You have opened the Actindo Documentation home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).
+- You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).
 
 #### Procedure  
 
-*Actindo Documentation site*
-![Actindo Documentation site](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSiteSearch.png "[Actindo Documentation site]")
+*Actindo Documentation home page*
 
-1. In the *Search Actindo documentation* field in the *Hi, how can we help you?* section, enter the search characters of the subject you want to search for.   
+![Actindo Documentation home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSiteSearch.png "[Actindo Documentation home page]")
 
-    > [Info] If you want to clear the search, click the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side of the search field. 
+1. In the *Search Actindo documentation* field in the *Hi, how can we help you?* section, enter the search characters of the subject you want to search for. 
 
 2. Press **Enter**.   
     A list with the search results is displayed.   
@@ -92,11 +94,11 @@ Ae full text search is available that starts a search over the whole Actindo doc
    - Second line: Topic section in which the search term is included.
    - Third line: Row in which the search term is included.   
 
-       ![Actindo Documentation site](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSiteSearchResult.png "[Actindo Documentation site]")
+       ![Actindo Documentation home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSiteSearchResult.png "[Actindo Documentation home page]")
 
 3. Check the list and select the topic in which you want to find the required information.
 
-    > [Info] If you want to clear the search, click the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side of the search field. 
+    > [Info] If you want to clear the search, click the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side of the search field.  
 
 
 ### Search the module/plugin documentation 
@@ -104,15 +106,15 @@ Ae full text search is available that starts a search over the whole Actindo doc
 A full text search is available that starts a search over the module/plugin documentation that you have recently opened. The search result list displays all topics containing the specified character string.   
 
 #### Prerequisites
-- You have opened the Actindo Documentation site. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
+- You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
 
 #### Procedure
 
-*Actindo Documentation site > Select a module/plugin documentation*
+*Actindo Documentation home page > Select a module/plugin documentation*
 
 ![Actindo module documentation](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageSearch.png "[Actindo module documentation]")
 
- 1. In the *Search table of content* field in the left side bar, enter the search characters of the subject you want to search for.
+ 1. In the *Search table of content* field in the left sidebar, enter the search characters of the subject you want to search for.
     The search results are directly displayed.   
 
     ![Module documentation - Search results](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageSearchResult.png "[Module documentation - Search results]")
@@ -124,15 +126,18 @@ A full text search is available that starts a search over the module/plugin docu
 
 
 ## Explore related content
-The content of some topics can relate to a certain topic in the same chapter, to a topic within another chapter, or even to a topic in another module. On the documentation website, links to such topics are displayed in the *Related content* section of the left sidebar. By following these links, you can get further information on a specific subject.
+
+The content of some topics can relate to a certain topic in the same chapter, to a topic within another chapter, or even to a topic in another module. On the *Actindo Documentation* home page, links to such topics are displayed in the *Related content* section of the left sidebar. By following these links, you can get further information on a specific subject.
 
 #### Prerequisites
-- You have opened the Actindo Documentation site. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
+
+- You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
 - You have opened a module/plugin documentation
 
 
 #### Procedure
-*Actindo Documentation site > Select a module/plugin documentation*
+
+*Actindo Documentation home page > Select a module/plugin documentation*
 
 ![Module documentation - Related content](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageRelatedContent.png "[Module documentation - Related content]")
  
@@ -144,15 +149,16 @@ The content of some topics can relate to a certain topic in the same chapter, to
 
 
 ## Use navigation within a topic
+
 If you are currently reading a topic, you have additional options to move within the topic or within the module/plugin documentation.
 
 #### Prerequisites
 - You have opened a module/plugin documentation.   
-For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
+    For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
 
 #### Procedure
 
-*Actindo Documentation site > Select a module/plugin documentation*
+*Actindo Documentation home page > Select a module/plugin documentation*
 
 ![Navigation options within a topic](../../Assets/Screenshots/Core1Platform/UsingDocumentation/NavigationOptionTopic.png "[Navigation options within a topic]")
 
@@ -173,7 +179,7 @@ If you want to study a screenshot in detail, you can open it in full screen mode
 
 #### Procedure
 
-*Actindo Documentation site > Select a module/plugin documentation*
+*Actindo Documentation home page > Select a module/plugin documentation*
 
 ![Actindo module documentation](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePage.png "[Actindo module documentation]")
 

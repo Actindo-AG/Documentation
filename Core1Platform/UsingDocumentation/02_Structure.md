@@ -3,7 +3,7 @@
 The *Actindo Core1 Platform* documentation pursues the goal that you can quickly find your way around the information that we provide you on the modules or plugins. For this reason, the documentation follows a strong structure so that you can quickly find the information you require.   
 This topic provides you with a description of each section and the content you can expect there.
 
-> [Info] The *Get started* documentation you currently read does not follow these principles, because too much different subjects are described here.  
+> [Info] The *Get started* documentation you currently read does not follow these principles strictly, because too much different subjects are described here.  
 
 The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content:
 
@@ -11,7 +11,7 @@ The Actindo Core1 module/plugin documentation has the following structure, where
 
 ## Overview
 
-The overview chapter provides you with general information on the module/plugin. It describes the overall purpose of the module/plugin as well as the main features. The overview chapter is divided into the following parts:   
+The overview chapter provides you with general information on the module/plugin. It describes the overall purpose of the module/plugin as well as the key features. The overview chapter is divided into the following parts:   
 
 - **General information**   
    This part describes the overall benefits of the module/plugin as well as the version on which the present documentation is based.   
@@ -36,14 +36,16 @@ This section describes the preparatory procedures that are to be executed or set
 
 ## Operation
 
-This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates.
+This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates. Each procedure starts with a path that replaces the first step of the procedure.
+
+![Procedure](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationPathProcedure.png "[Procedure]")
 
 
 
 ## Troubleshooting
 
 This section describes issues and errors that can occur during running the module/plugin. It provides you with workable solutions.   
-This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers.
+This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a path that replaces the first step of the procedure.
 
 
 

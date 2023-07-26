@@ -33,17 +33,17 @@ A menu entry contains one or several tabs that are displayed in the header of th
 A side bar is a bar that is displayed on one side of current view in the workspace. It may contain different content. In contrast to a side menu, the side bar does not contain a menu.
 
 **Toolbar**   
-A toolbar is displayed when you make a selection. The bar contains different buttons to process the currently selected item. Depending on the sort of toolbar, the toolbar might be specified in the documentation, for example as an editing toolbar to edit the selection.
+A toolbar is displayed when you select an item. The toolbar contains different buttons to process the currently selected item. Depending on the sort of toolbar, the toolbar might be specified in the documentation, for example as an editing toolbar to edit the selection.
 
 **List**   
-A list describes a listing of items in a table-like environment. Each item is listed in a row and are specified by different values in the columns. In contrast to a table, the list has not a table border that is firmly separated from the rest of the workspace.   
-For more information, see [Work with lists](../UsingCore1/06_WorkWithLists.md).
+A list describes a listing of items in a table-like environment. Each item is listed in a row and specified by different values in the columns. In contrast to a table, the list has not a table border that is firmly separated from the rest of the workspace.   
+For more information, see [Work with lists](../UsingCore1/04_WorkWithLists.md).
 
 
 
 ## Further workspace elements
 
-![Further workspace elements](../../Assets/Screenshots/Core1Platform/UsingDocumentation/FurtherWorkspaceElementspng.png "[Further workspace elements]")
+![Further workspace elements](../../Assets/Screenshots/Core1Platform/UsingDocumentation/FurtherWorkspaceElements.png "[Further workspace elements]")
 
 **View**   
 The view describes the part in the workspace below the tabs. A tab may contain different views. The view name is indicated in the upper left corner of the view.
