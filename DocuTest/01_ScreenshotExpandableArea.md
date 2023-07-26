@@ -26,8 +26,6 @@ A dispatch note provides numerous order-related details, which may vary dependin
 
 </details>
 
-<br>
-
 
 1. Check the dispatch note status in the *Status* column. The status displays the current stage in the fulfillment process. The following options are available:  
     - **New dispatch note**  
@@ -81,7 +79,6 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 </details>
 
-<br>
 
 1. Click the dispatch note whose status has not been updated.  
     The *Dispatch note "Dispatch note ID"* view is displayed.
@@ -129,7 +126,6 @@ You can re-export a dispatch note to the fulfiller if the receival has failed in
 
 </details>
 
-<br>
 
 1. Click the checkbox of the dispatch note to be re-exported.   
     The editing toolbar is displayed.
