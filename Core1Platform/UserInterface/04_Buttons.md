@@ -9,7 +9,19 @@ The following list shows frequently used buttons in the *Actindo Core1 Platform*
 The following list shows buttons that are frequently used to navigate in the *Actindo Core1 Platform*.    
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) and similar  
-    Use this button to leave the current view.
+    Click this button to leave the current view.
+
+- ![Next page](../../Assets/Icons/NextPage02.png "[Next page]") (Next page) and similar below a list or table   
+    Click this button to step one page further.
+
+- ![Previous page](../../Assets/Icons/PreviousPage02.png "[Previous page]") (Previous page) and similar below a list or table  
+    Click this button to step one page back.
+
+- ![First page](../../Assets/Icons/FirstPage03.png "[Previous page]") (First page) and similar below a list   
+    Click this button to jump to the first page, for example, in lists.
+
+- ![Last page](../../Assets/Icons/LastPage03.png "[Last page]") (Last page) and similar below a list    
+    Click this button to jump to the last page
 
 
 ## Buttons to process items

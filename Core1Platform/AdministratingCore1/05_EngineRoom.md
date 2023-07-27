@@ -197,13 +197,13 @@ Actindo Core1 Platform > Any workspace*
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the third position from the left.  
-   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors. The x-axis defines the time from 0-7 o'clock.   
+   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors. The x-axis defines the time from midnight to the current time in UTC.   
    The number of requests is presented in a green curve diagram, the number of errors is presented in a red line diagram.
 
     ![Request statistics](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequestStatistic.png "[Request statisics]")
 
 4. Move your mouse pointer over the green curve diagram.   
-   The number of requests is displayed per hour on the x-axis.
+   The number of requests is displayed on the x-axis. Depending on the distance to midnight, the figures are displayed per hour or per every second/third hour.
 
     ![Request per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequests.png "[Requests per hour]")
 

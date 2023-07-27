@@ -124,23 +124,23 @@ Users are edited in the main account only. There is one exception: Users are abl
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Select the user whose data you want to edit.   
-  The *Settings (Einstellungen)* view is opened. The *Profile* tab is preselected.
+  The *Edit user "user name"* view is opened. By default, the *Profile* tab is preselected. 
 
    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
 
-2. If desired. Click the *Select active option* drop-down list to select whether the user is to be able to log in or not. The following options are available: 
+2. If desired. Click the *Select active option* drop-down list to select whether the user is able to log in or not. The following options are available: 
     - **Active, can log in**
     - **Inactive, user is locked**
 
-3. If desired, click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:
+3. If desired, click the *Password type* drop-down list to select how the password is to be created and submitted to the user. This password is valid for the main account and is sandboxes. The following options are available:
     - **Generate password and send via email**  
       A password is generated automatically, and it is sent by Actindo to the email address specified below. 
     - **Enter password and send by email**    
       You define an individual password, and it is sent by Actindo to the email address specified below. 
     - **Specify and save password**   
-      You define an individual password and save it. It is not sent via email.
-    -**Do not send password**   
-      Use this option if you want to change the user's data but you do not want to change the password resp. the password to be sent. 
+      You define an individual password and save it. It is not sent via email.   
+    - **Do not send password**   
+      Use this option if you want to change the user's data, but you do not want to change the password resp. the password to be sent. 
 
 4. If desired, disable the *Universal Second Factor (U2F)* toggle.
   If the *Universal Second Factor (U2F)* is disabled, the user will no longer need to use the *Yubikey* to log in. 
@@ -216,7 +216,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 3. Enter the "Login name" of the user.
 
-4. In the "Assigned groups" section, select a group from the "Select group" drop-down list, and select a user group to which you want to assign the user.   
+4. In the "Assigned groups" section, select a group from the "Select group" drop-down list to which you want to assign the user.   
 
 5. If necessary, click the ![Add another group](../../Assets/Icons/Plus05.png  "[Add another group]") (Add another group) button to assign further groups.
 
@@ -224,9 +224,9 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
   Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
  
 
-## Inactivate user in main account
+## Delete user in main account
 
-The deletion of users in a main account is not possible. By inactivating a user, the user will no longer be able to access the main account or any sandbox. <!---Julian, stimmt das?-->
+Delete a user, if he/she works no longer in your company, for example. You can delete a user in the main account only.
 
 #### Prerequisites
 
@@ -239,19 +239,18 @@ The deletion of users in a main account is not possible. By inactivating a user,
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
-1. Click the user you want to inactivate.
-  The *Edit user "user name"* view is displayed. By default, the Profile tab is preselected.
+1. Select the user you want to delete.   
+  The *Edit user "user name"* view is opened. By default, the *Profile* tab is preselected. 
 
-    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
+   ![Edit user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[Edit user]")
 
-2. Click the *Select active option* drop-down list and select the **Inactive, user is locked** option.
-
-4. Save the user.
+2. Click the [DELETE] button down right and confirm the confirmation pop-up window.  
+  The user is deleted.
 
 
 ## Remove user in sandbox
 
 If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").  
-There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he or she is the owner. <!--- Kann man den owner ändern? -->
+There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he/she is the owner. <!--- Kann man den owner ändern? -->
 
 
