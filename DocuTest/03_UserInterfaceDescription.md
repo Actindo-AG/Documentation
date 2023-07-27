@@ -18,9 +18,9 @@ The *Dispatch notes* menu entry offers an overview of all dispatch notes process
 
 **Dispatch notes**
 
-The *Dispatch notes* view contains a LIST view. For detailed information on creating and maintaining a view, see LINK.
+The *Dispatch notes* LIST tab contains a list view. For detailed information on creating and maintaining a view, see LINK.
 
-The following further functions are available in the LIST header of the dispatch notes:       
+The following further functions are available in the list header of the dispatch notes:       
 
 - *Connections*   
     Click the drop-down list to select a connection. The following options are available:
@@ -57,13 +57,8 @@ The following further functions are available in the LIST header of the dispatch
     Click this button to complete a dispatch note. This button is displayed if the checkbox of at least one dispatch note is selected.   
     For detailed information, see [Complete a dispatch note](../Operation/01_ManageDispatchNotes.md#complete-a-dispatch-note). 
 
-The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only.
-
-- *Connection*  
-    Name of the connection to the fulfiller.
-
-- *Document number*  
-    Dispatch note number. This number equals the delivery note number in the *Order management* module.
+**Status information fields**   
+The list displays all dispatch notes. Depending on the settings, the displayed columns may vary. All fields are read-only. The following status information fields are available:
 
 - *Status*  
     Dispatch note status. The following statuses are available:  
@@ -91,19 +86,8 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - ![Error](../Assets/Icons/Warning02.png "[Error]") (Error)    
         The fulfiller has reported a shipment error.
     - Empty  
-        No information on the shipment status has been received from fulfiller.
+        No information on the shipment status has been received from fulfiller.   
 
-- *Description*  
-    Dispatch note description as defined by the user. Numbers, letters or a combination of characters may be used. 
-
-- *Created*  
-    Date and time of the creation.
-
-- *Modified*  
-    Date and time of the last modification.
-
-- *ID*  
-    Dispatch note identification number. The ID number is automatically assigned by the system.
 
 - *Status ID*  
   Dispatch note status identifier. The following options are available:
@@ -120,9 +104,6 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
     - **void**  
         The dispatch note is void, for instance, because of an order cancellation.
 
-- *Carrier*  
-    Carrier identifier.
-
 - *Shipping type*  
     Type of shipment. The following options are available:  
     - **STND**  
@@ -132,11 +113,6 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
     > [Info] The shipping type can be set up in the *PACKAGING TYPES* tab in the *Settings* menu entry, see [Packaging types](./03b_PackagingTypes.md).
 
-- *Shipping method*  
-    Shipping method identifier. Additional services offered as defined by the user.
-
-- *"Attribute name"*    
-    You can add a column for each attribute that is assigned to the dispatch note. The column displays the attribute name, the row displays the corresponding attribute value of the dispatch note.
 
 
 ## Dispatch note &ndash; Attributes

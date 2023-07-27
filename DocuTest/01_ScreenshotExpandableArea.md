@@ -73,7 +73,7 @@ The fulfillers may not notify if an order has been delivered. In this case, the 
 
 *Fulfillment > Dispatch notes > Tab LIST*
 
-<details><summary>Clickto see the screenshot</summary>
+<details><summary>Click to see the screenshot</summary>
 
 ![Dispatch notes](../Assets/Screenshots/DocuTest/DispatchNotes.png "[Dispatch notes]")
 
