@@ -7,7 +7,7 @@ Depending on your user role(s), different information might be relevant, so that
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
-## Create a dashboard
+## Create dashboard
 
 Create a dashboard to define a specific view on key figures and statistics.
 
@@ -33,12 +33,12 @@ No prerequisites to fulfill.
 
 
 
-## Customize a dashboard
+## Customize dashboard
 
 Customize a dashboard to your special needs by adding the desired dashlets, deleting unnecessary dashlets, select the viewport, and define the dashlets' arrangement.
 
 
-### Add a dashlet
+### Add dashlet
 
 Add the desired dashlets to your dashboard.
 
@@ -78,7 +78,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
     > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
 
 
-### Change a viewport
+### Change viewport
 
 Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop, or tablet.
 The viewport is saved for a single dashboard, so you can create dashboards with different viewports.   
@@ -187,7 +187,7 @@ You cannot undo the removal. To recover a dashlet, you have to add it again, see
 
 
 
-## Delete a dashboard
+## Delete dashboard
 
 Delete a dashboard that is no longer needed to keep track of the other dashboards.     
 Be aware that you cannot undo the deletion.
