@@ -12,7 +12,7 @@ Users are created in the main account only.
 #### Prerequisites
 
 - You are logged in to a main account
-- You have admin rights
+- You are granted to create users.
 
 #### Procedure
 
@@ -42,7 +42,7 @@ Users are created in the main account only.
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email. 
     -**Do not send password**   
-      Use this option if you want to change the user's data but you do not want to edit the password  to be sent. 
+      Use this option if you want to change the user's data but you do not want to edit the password to be sent. 
 
 5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
 
@@ -73,7 +73,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
 
 ## Prerequisite
 
-- You have admin rights
+- You are granted to assign users to groups.
 - The user groups are already created. For detailed information, see [Create user group](../AdministratingCore1/03_ManageGroups.md#create-user-group "Create user group").
 
 ## Procedure
@@ -114,7 +114,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 #### Prerequisites
 
 - You are logged in to a main account
-- You have admin rights
+- You are granted to edit users.
 
 
 #### Procedure
@@ -147,7 +147,9 @@ Users are edited in the main account only. There is one exception: Users are abl
 
 5. If desired, edit the user's personal data.
 
-6. Click the [SAVE] button.
+6. Click the [SAVE] button.   
+
+7. If desired, change the group assignment of the user. For detailed information, see [Assign user to user group](#assign-user-to-user-group "Assign user to user group").
 
 
 
@@ -159,7 +161,7 @@ Alternatively, you can remove a user from a group during editing the groups, see
 #### Prerequisites
 
 - You are logged in to a main account or a sandbox
-- You have admin rights
+- You are granted to remover users from groups.
 
 #### Procedure
 
@@ -224,14 +226,22 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
   Depending on the settings, the user gets an email that informs him or her about the invitation. The email contains a button, with which the user can open the sandbox.
  
 
-## Delete user in main account
+
+## Remove user in sandbox
+
+If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").  
+There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he/she is the owner. <!--- Kann man den owner ändern? -->
+ 
+
+
+## Delete user 
 
 Delete a user, if he/she works no longer in your company, for example. You can delete a user in the main account only.
 
 #### Prerequisites
 
 - You are logged in to the main account
-- You have admin rights
+- You are granted to delete users.
 
 #### Procedure
 
@@ -248,9 +258,6 @@ Delete a user, if he/she works no longer in your company, for example. You can d
   The user is deleted.
 
 
-## Remove user in sandbox
 
-If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").  
-There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he/she is the owner. <!--- Kann man den owner ändern? -->
 
 
