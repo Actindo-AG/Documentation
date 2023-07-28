@@ -54,11 +54,8 @@ Create a user group based on a user role to subsequently assign them a specific 
     ![Group created](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group created]")
  
 
-## Edit user group
 
-Edit a user group to add users to it, remove users from it and assign rights to the users included in it. 
-
-### Add user to user group
+## Add user to user group
 
 Add any number of users to a user group to assign them rights subsequently.
 
@@ -111,7 +108,7 @@ Add any number of users to a user group to assign them rights subsequently.
     ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
 
-### Remove users from a group via the group management
+## Remove user from a group via the group management
 
 A user is active in an account as long as the user is assigned a user group.    
 If you want to remove a user from a sandbox, you must remove the user from all groups to which he&frasl;she is assigned. There are the following limitations:

@@ -33,6 +33,11 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
 
 
 - [Manage dashboards](./05_ManageDashboard.md)    
+    - [Create dashboard](./05_ManageDashboard.md#create-dashboard)
+    - [Customize dashboard](./05_ManageDashboard.md#customize-dashboard)    
+    - [Change viewport](./05_ManageDashboard.md#change-viewport)    
+    - [Change dashlet arrangement](./05_ManageDashboard.md#change-dashlet-arrangement)    
+    - [Delete dashboard](./05_ManageDashboard.md#delete-dashboard)    
 
 
 

@@ -1,7 +1,7 @@
 # Module overview
 
-In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the most important *Actindo Core1 Platform* modules and technical components as well as a description of the data streams between these components.
-
+In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the most important *Actindo Core1 Platform* modules and technical components as well as a description of the data streams between these components.   
+See the interaction between the modules also in the overview graphic [Module overview &ndash; Diagram](./04a_GraphicModuleOverview.md).
 
 
 ## Basic plugins and modules
@@ -20,13 +20,13 @@ The *Core1 Platform* is underlying any plugin. It offers basic functions such as
 - and much more...
 
 **Process orchestration**    
-The *Actindo Workflow Engine* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
+The *Workflow* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
 
 **Currency**   
 The *Currency* module (?) <!---ist das ein Modul?--> provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
 
 **Taxes**   
-The *Taxes* module allows you to configure the system automatic tax feature to match your specific business requirements. You can define specific tax classes applicable to your products and determine different tax zones where you operate. Additionally, you can set up an unlimited number of tax rates, which you can also specify according to their validity period.   
+The *Taxes* module allows you to configure the automatic tax feature of the system to match your specific business requirements. You can define specific tax classes applicable to your products and determine different tax zones where you operate. Additionally, you can set up an unlimited number of tax rates, which you can also specify according to their validity period.   
 For each tax zone &frasl; tax class combination you can define tax rates. You can determine relevant tax zones based on country, ZIP-code, B2B/B2C, and much more.
 
 **Countries and languages**   
@@ -34,8 +34,8 @@ Provide any country with their ISO code and supports country classifications suc
 
 
 **Data hub**   
-The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The ETL-Functionality allows to control the data flow between the different data models. The most Actindo modules and plugins are based on the *DataHub* module.  
-This enables you to customize your individual data fields and sources for each process. The *Actindo DataHub* module is the system’s central data hub and is extended by the following modules:   
+The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The integrated ETL function allows to control the data flow between the different data models. The most Actindo modules and plugins are based on the *DataHub* module.  
+This enables you to customize your individual data fields and sources for each process. The *DataHub* module is the system’s central data hub and is extended by the following modules:   
 - DataHub Importer  
 Allows the import of any data from various data sources into DataHub-based entities by uploading csv, json, xml, and edi file types via the network protocols HTTP and SFTP.
 
@@ -47,25 +47,25 @@ Allows the export of any data from various data sources into DataHub-based entit
 ## Product data
 
 **Cloudinary**  
-The *Actindo Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It allows to output the Cloudinary&trade; images via their URLs in web shops or marketplaces via the ETL mapping in Actindo. It is integrated via the *Actindo DataHub* module.  
+The *Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It allows to output the Cloudinary&trade; images via their URLs in web shops or marketplaces via the ETL mapping in Actindo. It is integrated via the *DataHub* module.  
  You can use the integration to upload images to Cloudinary&trade; via Actindo, to import images from Cloudinary&trade; to Actindo, and to delete images in Cloudinary&trade; via Actindo.
 
 
 **PIM**  
-The *Actindo Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly and into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The *Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
 The PIM master data are used to provide material master data as well as data needed for the communication with web shops and marketplaces.
 
 **Material**   
 Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length is used as basis for warehousing. This master data does not contain metadata such as shop descriptions or keywords. The warehousing enriches these data with information on stock levels etc.
 
 **Omni-channel**  
-The *Actindo Omni-Channel* module uses the product metadata to control the communication of your web store with all relevant marketplaces. Additionally, it controls the communication with POS systems with multi location and multi cash register handling. It is used to upload offers and to import orders from the marketplaces. It allows exporting and importing of returns. 
-With the *Actindo Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;.
-It provides orders for the *Actindo Order Management System* (OMS) and authorizations for the *Actindo Payments* module.
+The *Omni-Channel* module uses the product metadata to control the communication of your web store with all relevant marketplaces. Additionally, it controls the communication with POS systems with multi-location and multi cash register handling. It is used to upload offers and to import orders from the marketplaces. It allows exporting and importing of returns. 
+With the *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally from it. You can integrate various store systems such as Shopware 6&trade;, Shopify&trade; or Amazon&trade;.
+It provides orders for the *Order Management System* (OMS) and authorizations for the *Payments* module.
 
 **POS**  
 With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *Venduo POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.
-You can integrate POS-Systems with multi location and multi cash register handling. It provides payment data to be posted for the *Actindo Accounting* module. 
+You can integrate POS-Systems with multi location and multi cash register handling. It provides payment data to be posted in the *Accounting* module. 
 
 
 
@@ -73,8 +73,8 @@ You can integrate POS-Systems with multi location and multi cash register handli
 
 
 **Warehousing**   
-The *Actindo Warehouse Management* is the central point on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It stores basic data needed for order management as well as for warehouse handling. You can use it to manage stock levels per material. It allows several kinds of bookings from the *Order Management System* (OMS) such as inventory, reservation, pickings, sells, and much more. 
-The module provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. You can plan warehouse locations according to different metrics such as building shapes and sizes, shelves or compartments, as well as manage individual storage bins. 
+The *Warehouse Management* is the central point on *Actindo's Core1 platform* for organizing and monitoring warehouse processes. It stores basic data needed for order management as well as for warehouse handling. You can use it to manage stock levels per material. It allows several kinds of bookings from the *Order Management System* (OMS) such as inventory, reservation, pickings, sells, and much more. 
+The module provides a complete inventory overview of all your products and warehouses, as well as inventory tracking in real time. You can plan warehouse locations according to different metrics such as building shapes and sizes, shelves or compartments, as well as manage individual storage bins. The module receives the material master data and provides stock levels for them. It receives stock updates from the *Fulfillment* module.  
 
 **Customers and Suppliers**    
 After orders are imported from any connected stores and marketplaces, customer master data is automatically created, or existing master data records are recognized and updated as needed. It provides customer data for the POS systems and receives updates from it.
@@ -95,14 +95,14 @@ The *Payments* module gives you the possibility to exchange data with various pa
 
 **Order Management System**   
 The *Order Management System* (OMS) module collects and orchestrates customer orders from all connected B2C and B2B sales channels in one place. It enables fast, seamless, and highly accurate processing of your orders by automating processes.  
-The module manages documents such as order confirmations, invoices, delivery notes, and returns. It books products in the *Actindo Warehouse Management* module. It receives return documents from the return management and provides orders for it. It sends delivery notes to the *Actindo Fulfillment* module and ensures with the *Accounting* module that the orders are paid.
+The module manages documents such as order confirmations, invoices, delivery notes, and returns. It books products in the *Warehouse Management* module. It receives return documents from the return management and provides orders for it. The OMS sends delivery notes to the *Fulfillment* module and ensures through updates from the *Accounting* module that the orders are paid.
 
 **Return Management**   
 The *Return management* module of the *Actindo Core1 Platform* offers the necessary basis for intelligent processing of returns with practical customization and automation options. It manages returns and follow-up actions via defined workflows. It gets orders from the *Order Management System* (OMS) and creates return documents for it. 
 
 **Fulfillment**   
-Whether you work with external fulfillment providers or handle shipping yourself, the *Actindo Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.  
-The module gets delivery notes from *Order Management System* (OMS) and provides stock updates for the *Actindo Warehouse Management*. 
+Whether you work with external fulfillment providers or handle shipping yourself, the *Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.  
+The module gets delivery notes from *Order Management System* (OMS) and provides stock updates for the *Warehouse Management* module. 
 
 
 <!--- rauslassen?

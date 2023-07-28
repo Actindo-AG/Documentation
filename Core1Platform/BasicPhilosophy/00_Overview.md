@@ -26,7 +26,11 @@ In this part of the *Actindo Core1 Platform* documentation you will find the fol
      - [Headless commerce](./03_InnovativeArchitecture.md#headless-commerce)   
 
 
-- [Module overview](./04_ModuleOverview)  
+- [Module overview](./04_ModuleOverview)
+     - [Basic plugins and modules](./04_ModuleOverview#basic-plugins-and-modules)
+     - [Product data](./04_ModuleOverview#product-data)
+     - [Order Management](./04_ModuleOverview)
+     - [Module overview &ndash; Diagram](./04a_GraphicModuleOverview.md)
 
       
 
