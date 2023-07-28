@@ -3,20 +3,20 @@
 
 # Set up U2F from the administrator side
 
-For the U2F (Universal Second Factor) setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As an administrator, you must activate U2F as an authorization method for the corresponding user to complete the *U2F* setup. Using U2F provides the following benefits:
+For the U2F (Universal Second Factor) setup of an Actindo account, a user-side setup as well as an administrator-side setup is necessary. As an administrator, you must activate U2F as authorization method for the corresponding user to complete the *U2F* setup. Using U2F provides the following benefits:
 
 - Strong protection     
     The user credentials are protected with strong public key cryptography and bound to the service. Since only the real site can authenticate with a key, this provides a high level of protection against account takeover.  
 
 - No additional apps or software required  
-    The *YubiKey* protects access to computers, networks and online services with a single touch.
+    The *YubiKey* protects access to computers, networks, and online services with a single touch.
 
 - Convenient authentication with just a few steps     
     The authentication code is created via USB between the *YubiKey* and your device without further manual input steps.
 
 #### Prerequisites
 
-- You are logged in the main account of the *Core1 Platform* with a user assigned to the ActindoAdminGroup.
+- You are logged in the main account of the *Core1 Platform* with a user assigned to the *ActindoAdminGroup*.
 
 #### Procedure
 

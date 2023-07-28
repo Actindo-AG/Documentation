@@ -1,12 +1,13 @@
 # Edit profile settings
 
-Your personal settings are stored in the profile settings.  You can change your user data as well as your password. Additionally, you can add or delete the U2F key, see [Set up U2F from the user side](#create-view "Set up U2F from the user side") for detailed information. 
+Your personal settings are stored in the profile settings.  You can change your user data as well as your password. Additionally, you can add, see [Set up U2F from the user side](./01a_UserSetupActindo.md "Set up U2F from the user side") for detailed information. 
 
 > [INFO] The setup of the SSH key is also part of the profile settings. It is relevant for developers only and therefore not subject of this documentation.   
 
 
 
 ## Edit your user profile
+
 The user profile contains information to your username, your e-mail address, and your address. Address data are subject to data protection. Clarify with your contact persons if you should provide your private address data.
 
 #### Prerequisites
@@ -34,8 +35,8 @@ The user profile contains information to your username, your e-mail address, and
    Your data are changed and transferred to all other sandboxes or main accounts in which your username exists. 
 
 ## Change password
-Depending on the user settings, it is possible to change the password for all sandboxes and the main account at the same time.  
-Note, that your global user settings, edited by an administrator, may specify that you are not allowed to change your password. Contact your administrator, if you need to change your password for data security reasons.  
+
+ You can change the password for all sandboxes and the main account at the same time.  
 
 
 #### Prerequisites
@@ -64,21 +65,20 @@ Note, that your global user settings, edited by an administrator, may specify th
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
 
-   > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least 10 characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
+   > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least ten characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
 
-5. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. Your entries are not displayed. You can check them by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(visibility off) button.
+5. If desired, check the password by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
+   Your entry is displayed. You can make it invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
 
-6. Check your entries by clicking on the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]")(visibility off) button.   
-   Your entries are displayed. You can make them invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
+6. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. 
 
 7. Click the [SAVE] button.   
-   If the entered password is valid, it is saved and the Password saved pop-up window is displayed.  
+   If the entered password is valid, it is saved, and the Password saved pop-up window is displayed.  
 
 
    ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
 
    The new password is now shared between the main account and all sandboxes of your company, so that you must use it for all Actindo logins.
 
-<!---Ich laufe hier auf einen Fehler. Er sagt, more credentials are needed to complete the authentication request-. Geht es nur, wenn kein U2F?-->
 
 

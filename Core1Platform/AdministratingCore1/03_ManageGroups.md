@@ -1,7 +1,7 @@
 # Manage user groups
 
 User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. In opposite to the users are user groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
-If you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him/her from all groups.
+If you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him&frasl;her from all groups.
 
 
 
@@ -10,22 +10,22 @@ If you add a user to a group, the user is automatically listed for this sandbox.
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that a user has when working on the *Actindo Core1 Platform*.   
 For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
 
-> [INFO] The standard role "ActindoUsersGroup" is available to grant general accesssing rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
+> [INFO] The standard role "ActindoUsersGroup" is available to grant general accessing rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
 
-The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.  You can create, edit and delete user groups, add specific users to a group, remove users from a group, and assign rights.   
+The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.  You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.   
 
 > [INFO] For assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, for example, if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is relevant especially when using the Actindo admin group, see below.
 
 **Actindo admin group**   
 A special group is the "ActindoAdminGroup". This group has automatically all rights for everything, and you cannot maintain specific rights for it.   
-With regard to the licenses, keep in mind, that each Admin has automatically access to all modules, which means that a license for each module and admin user is counted.
+Regarding the licenses, keep in mind, that each Administrator has automatically access to all modules, which means that a license for each module and admin user is counted.
 
 **Actindo users**   
 Users of the *Actindo AG* do not consume licenses, they are not counted.
 
 ## Create user group
 
-Create a user group based on a user role in order to subsequently assign them a specific set of user rights.
+Create a user group based on a user role to subsequently assign them a specific set of user rights.
 
 #### Prerequisites
 
@@ -60,7 +60,7 @@ Edit a user group to add users to it, remove users from it and assign rights to 
 
 ### Add user to user group
 
-Add any number of users to a user group in order to assign them rights subsequently.
+Add any number of users to a user group to assign them rights subsequently.
 
 #### Prerequisites
 
@@ -114,9 +114,9 @@ Add any number of users to a user group in order to assign them rights subsequen
 ### Remove users from a group via the group management
 
 A user is active in an account as long as the user is assigned a user group.    
-If you want to remove a user from a sandbox, you have to remove the user from all groups to which he/she is assigned. There are the following limitations:
+If you want to remove a user from a sandbox, you must remove the user from all groups to which he&frasl;she is assigned. There are the following limitations:
 - You cannot remove a user from the ActindoAdmingroup in a sandbox of which he or she is the owner. <!--- Kann man den owner ändern? -->
-- You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him/her, see [Edit user](./02_ManageUsers.md#edit-user).   
+- You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him&frasl;her, see [Edit user](./02_ManageUsers.md#edit-user).   
 
 Note that it is not possible to remove a group assignment by delimiting the validity end date to a specific date. If you want to change the validity period, you must remove the group assignment and create a new one with a limited validity end date.
 

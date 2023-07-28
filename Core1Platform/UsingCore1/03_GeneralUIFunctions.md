@@ -23,8 +23,8 @@ You can collapse the navigation menu, if you have not enough space in the workpl
 2. Click the ![Collapse/Expand](../../Assets/Icons/CollapseExpand02.png "[Collapse/Expand]") button top left to expand the navigation menu again.
 
 ## Sort navigation menu entries
-You can change the sequence of the navigation menu entries. For example, this allows you to position often used menu entries at the beginning of the list.   
- > [Info] The list of menu entries contains only those modules/plugins that are in use at your company.
+The list of menu entries contains only those modules/plugins that are in use at your company. You can change the sequence of those entries. For example, this allows you to position often used menu entries at the top of the list.   
+
 
  #### Prerequisites
 - You are logged in the *Actindo Core1 Platform*. 
@@ -32,7 +32,7 @@ You can change the sequence of the navigation menu entries. For example, this al
 #### Procedure
 *Actindo Core1 Platform*
 
-![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
+![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1PlatformComplete.png "[Actindo Core1 Platform]")
 
 1. Click the ![Settings](../../Assets/Icons/Settings03.png "[Settings]") (Settings) button in the *APPS* row (below the *Actindo dashboard* entry).   
     The ![Sort](../../Assets/Icons/Sort04.png "[Sort]") (Sort) button is displayed after each module/plugin name.  
@@ -73,8 +73,8 @@ This information is mainly relevant for system administrators and especially hel
 
 ## Check notifications
 
-Notifications are information on active jobs and other actions that has been done on the *Actindo Core1 Platform*, for example downloads, imports, postings, and much more. 
-This information is mainly relevant for system administrators and developers. It is especially helpful in a testing phase.  
+Notifications are information on active jobs and other actions that has been done on the *Actindo Core1 Platform*, for example downloads, imports, postings, and much more.  If warning or error notifications are available, a yellow or a red dot is added to the notifications button.    
+The notifications are mainly relevant for system administrators and developers. It is especially helpful in a testing phase.  
 
 #### Prerequisites
 
@@ -105,8 +105,6 @@ This information is mainly relevant for system administrators and developers. It
    - Error (indicated by a red dot)   
         This notification refers to a situation that led to an error. Check the situation in the logging menu entry of the affected module/plugin.   
 
-        > [Info] If warning or error notifications are available, a yellow or a red dot is added to the notifications button.   
-
 3. If desired, sort the list to view older entries. To do this, click the *Zeitpunkt (Point of time)* button to sort the list ascending.
 
 
@@ -115,11 +113,11 @@ This information is mainly relevant for system administrators and developers. It
 
 The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right gives you access to the following:
 - **Profile settings**   
- For detailed information, see [Edit profile settings ](./ "Edit profile settings").
+    For detailed information, see [Edit profile settings ](./ "Edit profile settings").
 - **Logout**    
-Click on the [Logout] button to leave the *Actindo Core1 Platform*.
+    Click on the [Logout] button to leave the *Actindo Core1 Platform*.
 - **Change language**   
-For detailed information, see below under [Change language ](./03_GeneralUIFunctions.md#change-language).
+    See below under [Change language ](./03_GeneralUIFunctions.md#change-language).
 
 
 

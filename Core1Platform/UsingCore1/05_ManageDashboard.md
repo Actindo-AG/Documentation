@@ -22,20 +22,20 @@ No prerequisites to fulfill.
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 1. Click the ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add) button in the header.   
-    The *Add a new tab* window is displayed. By default, the *Create new tab* tab is preselected.
+    The *Add tab* window is displayed. By default, the *Create tab* tab is preselected.
 
     ![Add a new tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Add a new tab]")
 
 2. Enter a name for the dashboard tab in the *Tab name* field.
 
 3. Click the [SAVE] button in the bottom right corner.   
-    The *Add a new tab* window is closed. The new dashboard has been saved and is displayed.
+    The *Add tab* window is closed. The new dashboard has been saved and is displayed.
 
 
 
 ## Customize a dashboard
 
-Customize a dashboard to your special needs by adding the desired dashlets, deleting unnecessary dashlets, select the viewport and define the dashlets arrangement.
+Customize a dashboard to your special needs by adding the desired dashlets, deleting unnecessary dashlets, select the viewport, and define the dashlets' arrangement.
 
 
 ### Add a dashlet
@@ -80,9 +80,9 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 ### Change a viewport
 
-Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop or tablet.
-The viewport is saved for a single dashboard, so you can create dashboards with different viewports.
-> [INFO] Note that the size of a dashlet is fixed and will not be adjusted to the size of a specific device. For example, this means that a viewport for a mobile device should show only a few dashlets side by side so that it is not necessary to scroll horizontally to display the dashlets.
+Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop, or tablet.
+The viewport is saved for a single dashboard, so you can create dashboards with different viewports.   
+Note that the size of a dashlet is fixed and will not be adjusted to the size of a specific device. For example, this means that a viewport for a mobile device should show only a few dashlets side by side so that it is not necessary to scroll horizontally to display the dashlets on the mobile device.
 
 #### Prerequisites
 
@@ -103,7 +103,7 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 3. Click the *Select viewport* drop-down list in the upper left corner and select the desired view format. The following viewports are available:
     - **Automatic**   
-        The system automatically chooses the dashboard that has a suitable size for the current device. For using this function it is necessary that you have created a viewport for all devices on which you use the dashboard.
+        The system automatically chooses the dashboard that has a suitable size for the current device. For using this function, it is necessary that you have created a viewport for all devices on which you use the dashboard.
     - **Mobile**   
         The dashboard size is optimized for a mobile device.  
     - **Tablet**   
@@ -144,7 +144,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
     ![Edit tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardEditTab.png "[Edit tab]")
 
-3. Hover over a dashlet until the cursor icon changes to the cross arrows cursor.
+3. Hover over a dashlet until the cursor icon changes to the cross arrow's cursor.
 
 4. Click the dashlet and move it on the desired position on the dashboard using drag and drop. When moving the dashlet across the dashboard, the possible positions on the predefined grid are highlighted.
 
@@ -156,7 +156,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 ### Remove dashlet
 
-Remove a dashlet from a dashboard if it no longer needed for the purposes or has been added accidentally to the dashboard.   
+Remove a dashlet from a dashboard if it is no longer needed for the purposes or has been added accidentally to the dashboard.   
 You cannot undo the removal. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
 
 #### Prerequisites

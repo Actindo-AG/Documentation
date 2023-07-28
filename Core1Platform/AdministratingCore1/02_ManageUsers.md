@@ -124,11 +124,11 @@ Users are edited in the main account only. There is one exception: Users are abl
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Select the user whose data you want to edit.   
-  The *Edit user "user name"* view is opened. By default, the *Profile* tab is preselected. 
+  The *Edit user "username"* view is opened. By default, the *Profile* tab is preselected. 
 
    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
 
-2. If desired. Click the *Select active option* drop-down list to select whether the user is able to log in or not. The following options are available: 
+2. If desired. Click the *Select active option* drop-down list to select whether the user can log in or not. The following options are available: 
     - **Active, can log in**
     - **Inactive, user is locked**
 
@@ -230,13 +230,13 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 ## Remove user in sandbox
 
 If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group "Remove user from a group ").  
-There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he/she is the owner. <!--- Kann man den owner ändern? -->
+There is the following limitation: You cannot remove a user from the *ActindoAdmingroup* in a sandbox of which he&frasl;she is the owner. <!--- Kann man den owner ändern? -->
  
 
 
 ## Delete user 
 
-Delete a user, if he/she works no longer in your company, for example. You can delete a user in the main account only.
+Delete a user, if he&frasl;she works no longer in your company, for example. You can delete a user in the main account only.
 
 #### Prerequisites
 
@@ -250,7 +250,7 @@ Delete a user, if he/she works no longer in your company, for example. You can d
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 1. Select the user you want to delete.   
-  The *Edit user "user name"* view is opened. By default, the *Profile* tab is preselected. 
+  The *Edit user "username"* view is opened. By default, the *Profile* tab is preselected. 
 
    ![Edit user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[Edit user]")
 
