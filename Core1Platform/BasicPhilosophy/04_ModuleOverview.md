@@ -56,7 +56,7 @@ The *Product Information Management* (PIM) module is the master data store for c
 The PIM master data are used to provide material master data as well as data needed for the communication with web shops and marketplaces.
 
 **Material**   
-Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length is used as basis for warehousing. This master data does not contain metadata such as shop descriptions or keywords. The warehousing enriches these data with information on stock levels etc.
+Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length is used as basis for warehousing. This master data does not contain metadata such as shop descriptions or keywords. The *Warehouse Management* enriches these data with information on stock levels etc.
 
 **Omni-channel**  
 The *Omni-Channel* module uses the product metadata to control the communication of your web store with all relevant marketplaces. Additionally, it controls the communication with POS systems with multi-location and multi cash register handling. It is used to upload offers and to import orders from the marketplaces. It allows exporting and importing of returns. 
