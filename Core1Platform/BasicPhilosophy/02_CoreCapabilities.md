@@ -8,7 +8,7 @@ The *Actindo Core1 Platform* provides you with the following:
 
 There are a lot of ways to do digital commerce, including not only your own online store but also numerous marketplaces. However, managing products separately in each channel requires huge effort.   
 The *Actindo Core1 Platform* enables unified commerce by treating comparably digital and traditional stationary commerce. For example, you can treat a stationary store like a web shop. And a web shop order like a sale process in the POS (point of sale) system.   
-With the *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally. You can integrate various store systems, such as Shopify or Magento 2.
+With the *Omni-Channel* module, you can connect your web store and all relevant marketplaces directly to the platform and manage them centrally. You can integrate various store systems such as Shopify&trade; or Magento 2&trade;.
 
 ## Process integration 
 

@@ -6,7 +6,7 @@ For example, one of the following situations may be a reason to create a ticket:
 - The main account is not reachable
 - Products show incorrect information on the frontend   
 
-> [INFO] Before creating a ticket, it may be useful to first check whether another user has not already reported the discovered issue. To do this, you can check the *Consulting* (MPS agreement (Managed Professional Services)) or the *Support* (older agreement) module.
+> [INFO] Before creating a ticket, it may be useful to first check whether another users have not already reported the discovered issue. To do this, you can check the *Consulting* (MPS agreement (Managed Professional Services)) or the *Support* (older agreement) module.
 
 
 
@@ -29,7 +29,7 @@ The *Contact us* window is displayed.
 
    ![Contact us](../../Assets/Screenshots/Core1Platform/UsingCore1/Core1TicketTemplate.png "[Contact us")   
 
-2. Enter e descriptive reason in the *Reason* field. The reason should be as precise as possible, for example "Delivery bills cannot be opened in the invoicing system".  An imprecise/bad example for the same fact would be "Invoicing does not work". 
+2. Enter a descriptive reason in the *Reason* field. The reason description should be as precise as possible, for example "Delivery bills cannot be opened in the invoicing system".  An imprecise/bad example for the same fact would be "Invoicing does not work". 
 
 3. Enter a detailed description of the issue. Include the following information:
      - Under which menu item did the issue occur?

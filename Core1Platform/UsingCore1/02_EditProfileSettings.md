@@ -24,6 +24,11 @@ The user profile contains information to your username, your e-mail address, and
 
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
+2. Click the *Settings* entry in the profile menu.   
+    The *PROFILE* tab is displayed by default.
+
+    ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
+
 2. Click the PROFILE tab.   
    The *Edit user "username"* view is opened.
 
@@ -53,7 +58,7 @@ The user profile contains information to your username, your e-mail address, and
 
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
-2. Open the PASSWORD tab.   
+2. Click the PASSWORD tab.   
    The *Change password* view is opened. Your full name is displayed top left.
 
    ![Change password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileChangePassword.png "[Change password]")

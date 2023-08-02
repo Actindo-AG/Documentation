@@ -30,7 +30,7 @@ The *Taxes* module allows you to configure the automatic tax feature of the syst
 For each tax zone &frasl; tax class combination you can define tax rates. You can determine relevant tax zones based on country, ZIP-code, B2B/B2C, and much more.
 
 **Countries and languages**   
-Provide any country with their ISO code and supports country classifications such as European Union (EU).
+The *Countries and languages* module <!---ist das ein Modul?--> provides any country with their ISO code and supports country classifications such as European Union (EU).
 
 
 **Data hub**   
@@ -52,7 +52,7 @@ The *Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It al
 
 
 **PIM**  
-The *Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly into your existing system landscapes and serves as the basis for efficient unified commerce across all channels.
+The *Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly into your existing system landscapes. It serves as the basis for efficient unified commerce across all channels.
 The PIM master data are used to provide material master data as well as data needed for the communication with web shops and marketplaces.
 
 **Material**   
