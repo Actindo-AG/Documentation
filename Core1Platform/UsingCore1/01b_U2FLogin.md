@@ -3,7 +3,8 @@
 
 # Log in via U2F
 
-After U2F has been configured for your Actindo account, you use U2F the next time you log in to your Actindo instance.
+After U2F has been configured for your Actindo account, you use U2F the next time you log in to your Actindo instance.   
+Note that some keys may require another procedure than the one described here. In this case, ask your contact person for support.
 
 #### Prerequisites
 
@@ -22,7 +23,7 @@ After U2F has been configured for your Actindo account, you use U2F the next tim
 
     ![Login U2F](../../Assets/Screenshots/Core1Platform/UsingCore1/LoginU2F.png "[Login U2F]")  
 
-2. Click the *Click here to start the second factor authentication* button. Note, some keys may require another procedure, for example, you might have to select the *USB security key* option to verify your identity in a browser window.   
+2. Click the *Click here to start the second factor authentication* button.    
     The *Make sure it's you* window is displayed to enter the U2F security key PIN. 
     
     > [INFO] Note that there is a time-out if you do not enter the key in an appropriate time. In this case, restart the application.

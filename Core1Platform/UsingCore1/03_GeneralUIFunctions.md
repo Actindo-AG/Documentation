@@ -7,7 +7,7 @@ The *Actindo Core1 Platform* has general user interface functions that are avail
 You can collapse the navigation menu, if you have not enough space in the workplace to work comfortably.
 
 #### Prerequisites
-- You are logged in the *Actindo Core1 Platform*.
+- You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -27,7 +27,7 @@ The list of menu entries contains only those modules/plugins that are in use at 
 
 
  #### Prerequisites
-- You are logged in the *Actindo Core1 Platform*. 
+- You are logged in to the *Actindo Core1 Platform*. 
 
 #### Procedure
 *Actindo Core1 Platform*
@@ -46,9 +46,12 @@ The list of menu entries contains only those modules/plugins that are in use at 
     The menu entry is inserted at the position on which the dash was displayed before. You have changed the sequence in which the menu entries are displayed.
 
 
+
 ## Create ticket 
 
 The ![Create ticket](../../Assets/Icons/CreateTicket.png "[Create ticket]") (Create ticket) button top right is used to create a support ticket in case that there is an error or an issue with any module/plugin of the *Actindo Core1 Platform*. For detailed information, see [Create ticket ](../HelpAndSupport/01_CreateTicket.md "Create ticket").  
+
+
 
 ## Check processes
 
@@ -56,7 +59,7 @@ The processes ![Processes running](../../Assets/Icons/ProcessRun.png "[Processes
 This information is mainly relevant for system administrators and especially helpful in a testing phase. 
 
 #### Prerequisites
-- You are logged in the *Actindo Core1 Platform*.
+- You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -78,8 +81,7 @@ The notifications are mainly relevant for system administrators and developers. 
 
 #### Prerequisites
 
-- You are logged in the *Actindo Core1 Platform*.
-
+- You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -87,7 +89,7 @@ The notifications are mainly relevant for system administrators and developers. 
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")   
 
 1. Click the ![Notifications](../../Assets/Icons/Notifications.png "[Notifications]") (Notifications) button.   
-    A drop-down list is opened in which you can display currently created notifications. If no actual notifications are available, the text "no new notifications" is displayed.   
+    A drop-down list is opened in which you can display currently created notifications. If no current notifications are available, the text "no new notifications" is displayed.   
 
    ![Notifications drop-down list](../../Assets/Screenshots/Core1Platform/UsingCore1/Notifications.png "[Notifications drop down list]]")
 2. Click the [SHOW ALL] button to have a look on notifications that have been created recently.   
@@ -126,7 +128,7 @@ The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top righ
 The *Actindo Core1 Platform* is currently available in English and German. You can change the language during your current session without the need of a new login.
 
 #### Prerequisites
-- You are logged in the *Actindo Core1 Platform*.
+- You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 

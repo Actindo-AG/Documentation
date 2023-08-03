@@ -1,6 +1,6 @@
 # Edit profile settings
 
-Your personal settings are stored in the profile settings.  You can change your user data as well as your password. Additionally, you can add, see [Set up U2F from the user side](./01a_UserSetupActindo.md "Set up U2F from the user side") for detailed information. 
+Your personal settings are stored in the profile settings.  You can change your user data as well as your password. Additionally, you can set up U2F, see [Set up U2F from the user side](./01a_UserSetupActindo.md "Set up U2F from the user side") for detailed information. 
 
 > [INFO] The setup of the SSH key is also part of the profile settings. It is relevant for developers only and therefore not subject of this documentation.   
 
@@ -8,7 +8,7 @@ Your personal settings are stored in the profile settings.  You can change your 
 
 ## Edit your user profile
 
-The user profile contains information to your username, your e-mail address, and your address. Address data are subject to data protection. Clarify with your contact persons if you should provide your private address data.
+The user profile contains information on your username, your e-mail address, and your address. Note that address data are subject to data protection. Clarify with your contact persons if you should provide your private address data here.
 
 #### Prerequisites
 - You have an active Actindo account in the current sandbox or main account.
@@ -34,10 +34,11 @@ The user profile contains information to your username, your e-mail address, and
 4. Click the [SAVE] button.   
    Your data are changed and transferred to all other sandboxes or main accounts in which your username exists. 
 
+
+
 ## Change password
 
  You can change the password for all sandboxes and the main account at the same time.  
-
 
 #### Prerequisites
 - You have a user in the currently opened sandbox or main account.
@@ -67,11 +68,10 @@ The user profile contains information to your username, your e-mail address, and
 4. Enter your current password in the *aktuelles Passwort (current password)* field.
 
 5. Enter the new password in the *neues Passwort (new password)* field.  
+   Note that a new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least ten characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.   
    The quality of the password is displayed as a small red or green bar below the field. Think about a new password if the quality is poor (red bar).
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
-
-   > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least ten characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
 
 6. If desired, check the password by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
    Your entry is displayed. You can make it invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.

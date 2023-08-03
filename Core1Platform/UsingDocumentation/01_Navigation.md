@@ -47,7 +47,7 @@ You can open the *Actindo Documentation* home page directly from the *Actindo Co
 
 #### Prerequisites
 
-- You are logged in the *Actindo Core1 Platform*.
+- You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 
