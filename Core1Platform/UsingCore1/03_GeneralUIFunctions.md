@@ -137,20 +137,22 @@ The *Actindo Core1 Platform* is currently available in English and German. You c
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo Core1 Platform]")
 
 1. Click the ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top right.   
-    A dropdown list is opened.  
+    A dropdown list is opened. 
 
-![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/Profile.png "[Profile menu]")
-1. Click the [Language] button.  
+    ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
+
+
+2. Click the [Language] button.  
     A dropdown list is opened. It contains the language versions that are installed on your system.  
      
    ![Change language](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileLanguage.png "[Change language]")
 
-2. Select the desired language.   
+3. Select the desired language.   
     The *Change language* pop-up window is opened.
 
      ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguage.png "[Language selection]")
 
-3. Click the [CHANGE LANGUAGE] button to switch to another language.  
+4. Click the [CHANGE LANGUAGE] button to switch to another language.  
     The application is being reloaded. Afterwards, it is available in the selected language.
 
     ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Language selection]")
