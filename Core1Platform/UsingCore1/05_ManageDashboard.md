@@ -3,13 +3,14 @@
 # Manage dashboards
 
 The *Actindo Dashboard* module gives an overview of important module-specific key figures and statistics directly when starting the *Actindo Core1 Platform*. 
-Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Note that you configure dashboards for supporting your own daily work. They are not visible for other Actindo users.   
+Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Alternatively, you can import already existing dashboards. Note that you configure dashboards for supporting your own daily work. They are not visible for other Actindo users.  
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
 ## Create dashboard
 
-Create a dashboard to define a specific view on key figures and statistics.
+Create a dashboard to define a specific view on key figures and statistics. 
+Alternatively, you can import already existing dashboards, see [Import dashboard](#import-dashboard).
 
 #### Prerequisites
 
@@ -44,7 +45,7 @@ Add the desired dashlets to your dashboard.
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+You have created a dashboard tab, see [Create a dashboard](#create-a-dashboard).
 
 #### Procedure
 
@@ -74,11 +75,46 @@ A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
 
 6. Click the [SAVE] button.   
     The dashboard has been saved. The *Edit tab* view is closed.
+    - If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-dashlets-arrangement).
+    - If you want to change the viewport, see [Change viewport](#change-viewport).
 
-    > [Info] If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-the-dashlets-arrangement).
+
+## Import dashboard
+
+Import dashboards that you might have already created for a specific module. This function is available for the Actindo Dashboard only, not for module-specific dashboards.  
+Note that you can add module-specific dashlets to the imported dashboard after the import, but no dashlets from other modules.
+
+#### Prerequisites
+
+- You have created a dashboard for the *DataHub*, *Omni-Channel*, *Workflows*, or the *OMS* module.
 
 
-### Change viewport
+#### Procedure
+
+*Actindo Core1 Platform*
+
+![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
+
+1. Click the ![Add](../../Assets/Icons/Plus06.png "[Add]") (Add) button in the header.   
+    The *Add tab* window is displayed. By default, the *Create tab* tab is preselected.
+
+    ![Add a new tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Add a new tab]")
+
+2. Click the *Import tab* tab.
+
+    ![Import tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardImport.png "[Import tab]")
+
+3. Click the *Dashboard selection* drop-down field.    
+    The drop-down list contains all module-specific dashboards that you have created before.
+
+4. Select the desired dashboard.
+
+5. Click the [OK] button.   
+    The dashboard is added to the Actindo Dashboard.
+
+
+
+## Change viewport
 
 Change the viewport to optimize the view of the dashboard for a specific device, for example, mobile, desktop, or tablet.
 The viewport is saved for a single dashboard, so you can create dashboards with different viewports.   

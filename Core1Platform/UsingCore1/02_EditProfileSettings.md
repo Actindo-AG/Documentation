@@ -25,14 +25,9 @@ The user profile contains information to your username, your e-mail address, and
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
 2. Click the *Settings* entry in the profile menu.   
-    The *PROFILE* tab is displayed by default.
+    The *PROFILE* tab is displayed by default. The *Edit user "username"* view is opened.
 
     ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
-
-2. Click the PROFILE tab.   
-   The *Edit user "username"* view is opened.
-
-   ![Edit user](../../Assets/Screenshots/Core1Platform/UsingCore1/UserProfile.png "[Edit user]")
 
 3. Enter or change your data, if desired.
 
@@ -58,26 +53,32 @@ The user profile contains information to your username, your e-mail address, and
 
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
-2. Click the PASSWORD tab.   
+2. Click the *Settings* entry in the profile menu.   
+    The *PROFILE* tab is displayed by default. 
+
+    ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
+
+
+3. Click the *PASSWORD* tab.   
    The *Change password* view is opened. Your full name is displayed top left.
 
    ![Change password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileChangePassword.png "[Change password]")
 
-3. Enter your current password in the *aktuelles Passwort (current password)* field.
+4. Enter your current password in the *aktuelles Passwort (current password)* field.
 
-4. Enter the new password in the *neues Passwort (new password)* field.  
+5. Enter the new password in the *neues Passwort (new password)* field.  
    The quality of the password is displayed as a small red or green bar below the field. Think about a new password if the quality is poor (red bar).
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
 
    > [Info] A new password must fulfill certain requirements to be accepted. As a rule of thumb, use a password with at least ten characters length and a combination of numbers, symbols (special characters), lowercase letters, and uppercase alphabetic characters. Further, you cannot use a password that you have used before.
 
-5. If desired, check the password by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
+6. If desired, check the password by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
    Your entry is displayed. You can make it invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
 
-6. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. 
+7. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. 
 
-7. Click the [SAVE] button.   
+8. Click the [SAVE] button.   
    If the entered password is valid, it is saved, and the Password saved pop-up window is displayed.  
 
 
