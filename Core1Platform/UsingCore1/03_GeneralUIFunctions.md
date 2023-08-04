@@ -117,7 +117,7 @@ The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button top righ
 - **Profile settings**   
     For detailed information, see [Edit profile settings ](./ "Edit profile settings").
 - **Logout**    
-    Click on the [Logout] button to leave the *Actindo Core1 Platform*.
+    Click the [Logout] button to leave the *Actindo Core1 Platform*.
 - **Change language**   
     See below under [Change language ](./03_GeneralUIFunctions.md#change-language).
 
@@ -142,7 +142,7 @@ The *Actindo Core1 Platform* is currently available in English and German. You c
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
 
-2. Click the [Language] button.  
+2. Click the [Language] drop-down list.  
     A dropdown list is opened. It contains the language versions that are installed on your system.  
      
    ![Change language](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileLanguage.png "[Change language]")
@@ -155,4 +155,4 @@ The *Actindo Core1 Platform* is currently available in English and German. You c
 4. Click the [CHANGE LANGUAGE] button to switch to another language.  
     The application is being reloaded. Afterwards, it is available in the selected language.
 
-    ![Language selection](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Language selection]")
+    ![Initializing](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Initializing]")

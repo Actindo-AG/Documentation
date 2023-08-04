@@ -23,7 +23,7 @@ If you are working in a list, you can create different views on the database. By
    If there is not yet created a view, only the create option is displayed.  
 
    
-2. Click the ![Create](../../Assets/Icons/Plus06.png "[Remove ]") [Create] entry.   
+2. Click the ![Create](../../Assets/Icons/Plus06.png "[Create]") [Create] entry.   
    The *Create view* window is displayed.
 
    ![Create view](../../Assets/Screenshots/Core1Platform/UsingCore1/CreateView.png "[Create view]")
@@ -43,12 +43,13 @@ If you are working in a list, you can create different views on the database. By
 
       - Define the filters you want to apply the view, see [Use filters](#use-filters "Use filters").
 
-5. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.  
-   The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list.   
-   If desired, you can now delete the view by clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and selecting the ![Delete](../../Assets/Icons/Trash01.png "[Points]") [Delete] button.
+5. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.  
+   The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list.    
+   - 
+   - If desired, you can now delete the view by clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and selecting the ![Delete](../../Assets/Icons/Trash01.png "[Points]") [Delete] button.
 
 6. If desired, make the view available for all users. To do this, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![publish](../../Assets/Icons/Publish.png "[publish]") [publish] button.   
-   The view is visible to all users. If you want to unpublish the view, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![unpublish](../../Assets/Icons/Publish.png "[unpublish]") [unpublish] button.  
+   The view is now visible to all users. If you want to unpublish the view again, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![unpublish](../../Assets/Icons/Publish.png "[unpublish]") [unpublish] button.  
 
 
 
@@ -64,13 +65,13 @@ Define the columns that are to be displayed in a list.
 *Actindo Core1 Platform > Any module > LIST view*
 
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
-1. If desired, select the view for which you want to define the columns.  
+1. Select the view for which you want to define the columns.  
    Alternatively, you have the following options:   
-   - You can define the columns for a temporary use without changing.
+   - You can define the columns for a temporary use without changing a view.
    - You can save the changes later in an existing view.
    - You can create a new view with the new defined columns.
 
-2. Consider which columns should be visible without scrolling and which order would make sense.
+2. Consider which columns should be visible without horizontal scrolling and which order is useful.
 
 3. Click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns (x)) button top right of the list. The *x* indicates the number of columns that are currently displayed.   
    A pop-up window is opened in which you can specify the columns.   
@@ -79,9 +80,9 @@ Define the columns that are to be displayed in a list.
 
 4. Check the existing columns.   
     - If desired, change the order of the columns. To do this, drag a column button and drop it at the required position.     
-    - If desired, remove a column. To do this, click the ![Remove](../../Assets/Icons/Cross02.png "[Remove ]") (Remove) button in the column button.
+    - If desired, remove a column. To do this, click the ![Remove](../../Assets/Icons/Cross02.png "[Remove]") (Remove) button in the column button.
    
-5. If you want to add a new column, click on the *Column* drop-down list, and select an entry from the list. The drop-down list contains all entries that are available for the list.
+5. If you want to add a new column, click the *Column* drop-down list, and select an entry from the list. The drop-down list contains all entries that are available for the list.
 
 6. Click the [ADD COLUMN] button.   
    The new column is placed at the end of the column button list. Drag and drop it to the desired position.
@@ -89,7 +90,8 @@ Define the columns that are to be displayed in a list.
 7. Click the [APPLY] button.   
    The new column is applied the view. You have now the following options: 
    -  You can optimize the column size by moving the column separators as desired.   
-   - You can save and publish the view. Alternatively, you can create a new view with your new settings, see [Create view](#create-view "Create view").
+   - You can save and publish the view. Alternatively, you can save your new view setting by creating a new view, see [Create view](#create-view "Create view").
+
 
 
 ## Sort list entries
@@ -114,13 +116,13 @@ For some columns, you can sort list entries ascending and descending. You can sa
 2. Move the mouse pointer over the columns.  
    The mouse pointer is displayed as a little hand at all columns that can be sorted.
 
-3. Click on one of these columns indicated by a little hand and toggle between the ascending, descending, and no sorting state.   
+3. Click one of these columns indicated by a little hand and toggle between the ascending, descending, and no sorting state.   
    The column is sorted ascending, or descending, or not sorted. The sorting is indicated by a small arrow (![Descending](../../Assets/Icons/SortDescending02.png "[Descending]") (Descending) and ![Ascending](../../Assets/Icons/SortAscending02.png "[Ascending]")(Ascending)).
    If no arrow is visible, the view is not sorted by this column.
 
     ![Sorting](../../Assets/Screenshots/Core1Platform/UsingCore1/Sorting.png "[Sorting]")
 
-4. If desired, you can now save and publish the view with the new sorting. Alternatively, you can create a new view with your new sorting, see [Create view](#create-view "Create view").
+4. If desired, you can now save and publish the view with the new sorting. Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view "Create view").
 
 
 
@@ -221,6 +223,8 @@ The selected column is applied the *Column* drop-down list. In addition, the *Re
 6. If desired, add further filters.
 
 7. If desired, save the filter in the view.
+   Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view "Create view").
+
 
 
 ## Rename view
