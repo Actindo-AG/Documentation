@@ -216,8 +216,9 @@ If required, you can save the filters in a view, so that you can provide differe
 
     - You can delete the filter by clicking on the ![Remove](../../Assets/Icons/Cross08.png "[Remove ]") (Remove) button. 
     - You can temporarily remove the filter by clicking on the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
-    - You can edit the filter by clicking on the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.
-    ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedEdit.png "[List view &ndash; Applied filter options]")  
+    - You can edit the filter by clicking on the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.   
+
+      ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedEdit.png "[List view &ndash; Applied filter options]")  
 
 6. If desired, add further filters.
 
