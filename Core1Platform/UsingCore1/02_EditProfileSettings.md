@@ -73,8 +73,8 @@ The user profile contains information on your username, your e-mail address, and
 
      ![Good and poor password](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfilePasswordQuality.png "[Good and poor password]")
 
-6. If desired, check the password by clicking on the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
-   Your entry is displayed. You can make it invisible again by clicking on the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
+6. If desired, check the password by clicking the ![Change password](../../Assets/Icons/visibility_off.png "[Change password]")(Visibility off) button.   
+   Your entry is displayed. You can make it invisible again by clicking the ![Visibility on](../../Assets/Icons/visibility.png "[Visibility on]") (visibility) button.
 
 7. Repeat the new password in the *neues Passwort erneut eingeben (Confirm password)* field. 
 

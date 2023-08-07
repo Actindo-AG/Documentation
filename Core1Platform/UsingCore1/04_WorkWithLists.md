@@ -37,11 +37,11 @@ If you are working in a list, you can create different views on the database. By
 
      ![Standard filters](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterStandard.png "[Standard filters]")
 
-      - Define the columns that are to be displayed in the view, see [Add or remove columns](#add-or-remove-columns "Add or remove columns").   
+   - Define the columns that are to be displayed in the view, see [Add or remove columns](#add-or-remove-columns "Add or remove columns").   
 
-      - Sort the list entries, see [Sort list entries](#sort-list-entries "Sort list entries"). 
+   - Sort the list entries, see [Sort list entries](#sort-list-entries "Sort list entries"). 
 
-      - Define the filters you want to apply the view, see [Use filters](#use-filters "Use filters").  
+   - Define the filters you want to apply the view, see [Use filters](#use-filters "Use filters").  
 
 5. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.   
    The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list. 
@@ -64,13 +64,12 @@ Define the columns that are to be displayed in a list.
 *Actindo Core1 Platform > Any module > LIST view*
 
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
-1. Select the view for which you want to define the columns.  
-   Alternatively, you have the following options:   
-   - You can define the sortings for a temporary use without changing a view.
-   - You can save the changes later in an existing view.
-   - You can create a new view with the new defined sorting.
+1. If desired, select the view for which you want to define the columns.  
+   After adding or removing the columns, you have the following options:   
+   - You can specify the columns for a temporary use without changing the view.
+   - You can create a new view with the new specified columns.
 
-2. Consider which columns should be visible without horizontal scrolling and which order is useful.
+2. Consider which columns should be visible without horizontal scrolling and what order is useful.
 
 3. Click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns (x)) button top right of the list. The *x* indicates the number of columns that are currently displayed.   
    A pop-up window is opened in which you can specify the columns.   
@@ -108,8 +107,7 @@ Sort the list entries depending on an ascending or descending sorted column. For
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 1. If desired, select the view for which you want to define the sorting.  
    Alternatively, you have the following options:   
-   - You can sort a column for a temporary use without changing.
-   - You can save the changes later in an existing view.
+   - You can sort a column for a temporary use without changing the view.
    - You can create a new view with the new sorted column.
 
 2. Move the mouse pointer over the columns.  
@@ -139,17 +137,22 @@ If required, you can save the filters in a view, so that you can provide differe
 
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 
-1. Click the ![Filter](../../Assets/Icons/Filter.png "[Filter]") (Filter (x)) button top right of the list. The *x* indicates the number of filters that are currently active.   
+1. If desired, select the view for which you want to define the filters.  
+   After applying the filters, you have the following options:   
+   - You can apply the filters for a temporary use without changing the view.
+   - You can create a new view with the new applied filters.
+
+2. Click the ![Filter](../../Assets/Icons/Filter.png "[Filter]") (Filter (x)) button top right of the list. The *x* indicates the number of filters that are currently active.   
    A pop-up window is opened in which you can define the filter.  
 
    ![List view &ndash; Filter pop-up ](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterPopUp.png "[List view &ndash; Filter pop-up ]")
 
-2. In the *Column* drop-down list, select the column for which you want to apply a filter.   
+3. In the *Column* drop-down list, select the column for which you want to apply a filter.   
    The selected column is applied the *Column* drop-down list. In addition, the *Relation* field is shown. The relation defines the filter operator, which specifies how the filter criteria are to be related to each other.
  
     ![List view &ndash; Filter relation](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterPopUpRelation.png "[List view &ndash; Filter relation]")
 
-3. Select a relation by using the drop-down list.
+4. Select a relation by using the drop-down list.
    > [Info] The relations you can use depend on the module you are working in and the column you specify.   
    
 
@@ -163,48 +166,48 @@ If required, you can save the filters in a view, so that you can provide differe
         > [Info] If a value help for dates is available, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to open the value help, select the value, and click the button again to apply the value.
 
      - **equal**   
-         This relation is available for character and date fields. You can use it to filter the list for a specific value, for example the date **6/14/2023** or the *Transaction ID* **KXQTFDGK4DQ2WN82**.
+         This relation is available for character and date fields. You can use it to filter the list for a specific value, for example the *Created at* date **6/14/2023** or the *Transaction ID* **KXQTFDGK4DQ2WN82**.
 
-       ![Filter relation equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationEqual.png "[Filter relation equal]")
+         ![Filter relation equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationEqual.png "[Filter relation equal]")
 
      - **greater**   
-         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater the value you specified. For example, if you enter the date **6/13/2023**, you get all list entries from 6/14/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries from 6/14/2023.
 
-       ![Filter relation greater](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreater.png "[Filter relation greater]")
+         ![Filter relation greater](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreater.png "[Filter relation greater]")
 
      - **greater or equal**   
-         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater or equal the value you specified. For example, if you enter the date **6/13/2023**, you get all list entries from 6/13/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater or equal the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries from 6/13/2023.
 
-       ![Filter relation greater or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreaterEqual.png "[Filter relation greater or equal]")
+         ![Filter relation greater or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreaterEqual.png "[Filter relation greater or equal]")
 
      - **less**   
-         This relation is available for numeric and date fields. You can use it to filter the list for values that are less the value you specified. For example, if you enter the date **6/13/2023**, you get all list entries until 6/12/2023.  
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are less the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries until 6/12/2023.  
 
-       ![Filter relation less](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLess.png "[Filter relation less]")
+         ![Filter relation less](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLess.png "[Filter relation less]")
 
      - **less or equal**   
-         This relation is available for numeric and date fields. You can use it to filter the list for values that are less or equal the value you specified. For example, if you enter the date **6/13/2023**, you get all list entries until 6/13/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are less or equal the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries until 6/13/2023.
 
-       ![Filter relation less or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLessEqual.png "[Filter relation less or equal]")
+         ![Filter relation less or equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLessEqual.png "[Filter relation less or equal]")
 
      - **like**   
          This relation is available for date and character fields. You can use it to filter the list for values that contain a specific string. For example, by filtering an ID that starts with **KX**, you get all list entries that contain this string in the specified field. Or you want to filter the list for a specific month and enter **2023-05**.
 
-       ![Filter relation like](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLike.png "[Filter relation like]")
+         ![Filter relation like](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLike.png "[Filter relation like]")
 
      - **not equal to**   
          This relation is available for character and date fields. You can use it to remove specific entries from the list, for example entries with a *Transaction date* 06/21/2023 or the *Status ID* **2**.
 
-       ![Filter relation not equal to](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationNotEqualTo.png "[Filter relation not equal to]")
+         ![Filter relation not equal to](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationNotEqualTo.png "[Filter relation not equal to]")
 
    After selecting a relation, depending on the selected column, a value or one/two date field(s) are shown.
 
    ![List view &ndash; Filter values](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterPopUpValue.png "[List view &ndash; Filter values]")
 
-4. Enter a value or select one/two date(s).
+5. Enter a value or select one/two date(s).
     > [Info] For some columns value helps are available.   
 
-5. Click the [ADD FILTER] button.   
+6. Click the [ADD FILTER] button.   
    The filter is applied the list. The applied filter is shown as filter chip above the *Columns* field.   
 
    ![List view &ndash; Applied filter](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterApplied.png "[List view &ndash; Applied filter]")
@@ -214,15 +217,15 @@ If required, you can save the filters in a view, so that you can provide differe
    ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedChange.png "[List view &ndash; Applied filter options]")  
     
 
-    - You can delete the filter by clicking on the ![Remove](../../Assets/Icons/Cross08.png "[Remove ]") (Remove) button. 
-    - You can temporarily remove the filter by clicking on the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
-    - You can edit the filter by clicking on the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.   
+    - You can delete the filter by clicking the ![Remove](../../Assets/Icons/Cross08.png "[Remove ]") (Remove) button. 
+    - You can temporarily remove the filter by clicking the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
+    - You can edit the filter by clicking the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.   
 
       ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedEdit.png "[List view &ndash; Applied filter options]")  
 
-6. If desired, add further filters.
+7. If desired, add further filters.
 
-7. If desired, save the filter in the view.
+8. If desired, save the filter in the view.
    Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view "Create view").
 
 
