@@ -8,7 +8,7 @@ This section contains procedures that you only should use, if you really know th
 
 The Entwicklermodus (Development mode) of the engine room allows to switch on &frasl; off specific system behavior fundamentally.   
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
-You can use the development mode for testing purposes or, for example, to temporarily switch off a connection, because you are informed about a downtime of a third-party application. Each action in the development mode is logged.
+You can use the development mode for testing purposes or, for example, to temporarily switch off a connection, because you are informed about a third-party application downtime. Each action in the development mode is logged.
 
 > [WARNING] Switching off module features can result in data not being transferred to third party applications, and in this case it can lead to data loss. If you are not really sure about the consequences of switching off a feature, you should not use it. 
 
@@ -50,7 +50,7 @@ output data.
 
    ![Feature flag notification](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomFeatureFlagNotification.png "[Feature flag notification]")
 
-5. Disable the feature flag again by clicking the corresponding feature chip toggle later.   
+5. Switch off the feature flag again by clicking the corresponding feature chip toggle later.   
    The instance works as designed again. This action is logged as well.
 
 
@@ -94,7 +94,7 @@ This procedure allows you to quickly switch on and off all feature tags, for exa
 
 
 4. If desired, click the [OK] button.  
-   All feature flag toggles in the feature flag list are enabled. 
+   All feature flag toggles in the feature flag list are switched on. 
 
    ![Enabled feature chip toggles](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomDevModeAll.png "[Enabled feature chip toggles]")
 
@@ -102,5 +102,5 @@ This procedure allows you to quickly switch on and off all feature tags, for exa
 
    ![Feature flag notification](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomDevModeNotifAll.png "[Feature flag notification]")
 
-5. Disable all feature flag toggles again by clicking the *Entwicklermodus (Develpment mode)* checkbox again.  
+5. Switch off all feature flag toggles again by clicking the *Entwicklermodus (Develpment mode)* checkbox again.  
    The instance works as designed again. This action is logged as well.

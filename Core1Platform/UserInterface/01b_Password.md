@@ -1,3 +1,5 @@
+[!!Edit profile settings](../UsingCore1/02_EditProfileSettings.md)
+
 # Password
 
 *Any workspace > Avator icon > Menu entry Settings > Tab PASSWORD*

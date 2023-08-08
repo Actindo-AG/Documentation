@@ -5,6 +5,7 @@ The engine room contains some dashlets with information on vCore utilization, da
 
 
 ## Open and close the engine room
+
 Access to the engine room is available in any workspace you have opened in the *Core1 Platform*.
 
 
@@ -13,17 +14,10 @@ Access to the engine room is available in any workspace you have opened in the *
 - You have administrator rights for the current instance.
 
 #### Procedure
+
 *Actindo Core1 Platform > Any workspace*
-
-   <details><summary>Open to see the screenshot</summary>
-  
+ 
    ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
-
-   </details>   
-
-   markdown expandable section: https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab
-
-   <br>
 
 1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
    The engine room is opened with the current workspace overlapped. It contains four dashlets.
@@ -36,6 +30,7 @@ Access to the engine room is available in any workspace you have opened in the *
 
 
 ## Clear tenant cache
+
 Clearing the tenant cache removes all entries that are currently in the cache of the instance. It is used if there is a general issue in processing, and if changes are made directly through the database rather than through system logic. It is recommended to use this function only if it is really necessary. Clearing the cache will slow down the instance considerably. 
 
 
@@ -68,6 +63,7 @@ Clearing the tenant cache removes all entries that are currently in the cache of
 
 
 ## Check warnings and notices
+
 The platform console provides instance-relevant notices and warning. In opposite to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications "Check notifications")), these notices and warnings are targeted for developers.
 
 
@@ -94,12 +90,12 @@ The platform console provides instance-relevant notices and warning. In opposite
 
 ## Check vCores
 
-Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times, such as calls waiting for a response from external service providers, are not considered.   
+Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times are not considered, for example calls waiting for a response from external service providers.
 If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that the processing speed is slowed down significantly if the number of vCores assigned is unsufficiently.  
 
 > [INFO] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
-If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available there. The transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
+If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note, the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
 Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, Actindo will contact you.   
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
@@ -141,9 +137,9 @@ The vCores are analyzed as average over several seconds. The dashlet displays th
 
 ## Check database utilization
 
-Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available there.   
+Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available on the main account.   
 
-Actindo has an eye on the data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, Actindo will contact you.   
+Actindo has an eye on your data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, Actindo will contact you.   
 
 #### Prerequisites
 
@@ -178,7 +174,7 @@ Actindo Core1 Platform > Any workspace*
 ## Check request statistics
 
  The request statistics dashlet displays what's going on the current instance. It shows the number of internal requests (jobs) and requests executed from a browser. Additionally, it shows the number of errors occurred during the request processing.   
- The statistic is evaluated per each hour, displayed on a time axis from 00-07 o'clock. Depending on the screen size of your device, the displayed period may vary.
+ The statistic is evaluated per each hour.
  
 
 #### Prerequisites
@@ -197,23 +193,25 @@ Actindo Core1 Platform > Any workspace*
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the third position from the left.  
-   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors. The x-axis defines the time from midnight to the current time in UTC.   
+   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors.   
+   The x-axis defines the time from midnight to the current time in UTC. Depending on the time passed since midnight, the figures are displayed per hour or per every second/third hour.  
    The number of requests is presented in a green curve diagram, the number of errors is presented in a red line diagram.
 
     ![Request statistics](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequestStatistic.png "[Request statisics]")
 
-4. Move your mouse pointer over the green curve diagram.   
-   The number of requests is displayed on the x-axis. Depending on the distance to midnight, the figures are displayed per hour or per every second/third hour.
+4. Move your mouse pointer over the top of green curve diagram.   
+   The number of requests is displayed in a callout shape. 
 
     ![Request per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequests.png "[Requests per hour]")
 
 5. Move your mouse pointer over the red line diagram.   
-   The number of errors is displayed per hour on the x-axis.
+   The number of errors is displayed in a callout shape.
 
    ![Errors per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomErrors.png "[Errors per hour]")
 
 
 ## View current jobs
+
 In the job dashlet, all asynchronous jobs are displayed that are currently running.
 
 #### Prerequisites

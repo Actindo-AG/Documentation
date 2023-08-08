@@ -1,4 +1,4 @@
-[!!Set up U2F from the administrator side](../AdministratingCore1/03_AdminSetupActindo.md)
+[!!Edit profile settings](../UsingCore1/02_EditProfileSettings.md)
 
 # Profile
 
@@ -26,7 +26,7 @@
     Enter the email address of the user.
 
 - *Address*   
-    Enter the address of the user, including the street and the house number.
+    Enter the street and house number of the user's address.
 
 - *ZIP*   
     Enter the ZIP code of the user's address.

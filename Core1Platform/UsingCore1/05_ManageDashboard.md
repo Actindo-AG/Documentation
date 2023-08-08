@@ -29,7 +29,7 @@ No prerequisites to fulfill.
 
 2. Enter a name for the dashboard tab in the *Tab name* field.
 
-3. Click the [SAVE] button in the bottom right corner.   
+3. Click the [OK] button in the bottom right corner.   
     The *Add tab* window is closed. The new dashboard has been saved and is displayed.
 
     ![New tab added](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardNewTab.png "[New tab added]")
@@ -38,7 +38,7 @@ No prerequisites to fulfill.
 
 ## Import dashboard
 
-Import dashboards that you might have already created for a specific module. This function is available for the Actindo Dashboard only, not for module-specific dashboards.  
+Import dashboards that you might have already created for a specific module. This function is available for the *Actindo Dashboard* only, not for module-specific dashboards.  
 Note that you can add module-specific dashlets to the imported dashboard after the import, but no dashlets from other modules.
 
 #### Prerequisites
@@ -66,7 +66,7 @@ Note that you can add module-specific dashlets to the imported dashboard after t
 4. Select the desired dashboard.
 
 5. Click the [OK] button.   
-    The dashboard is added to the Actindo Dashboard.
+    The dashboard is added to the *Actindo Dashboard*.
 
 
 
@@ -173,7 +173,7 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 ![Tab with dashlets](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTabDashlets.png "[[Tab with dashlets]")
 
-1. Select the tab of the dashboard to which you want to change the positioning of dashlets.   
+1. Select the tab of the dashboard for which you want to change the positioning of dashlets.   
     The selected dashboard tab is displayed.
 
 2. Click the ![Settings](../../Assets/Icons/Settings01.png "[Tool]") (Settings) button in the upper right corner.   
@@ -226,7 +226,7 @@ You cannot undo the removal. To recover a dashlet, you have to add it again, see
 
 ## Delete dashboard
 
-Delete a dashboard that is no longer needed to keep track of the other dashboards.     
+Delete a dashboard that you no longer need in order to keep track of the other dashboards.     
 Be aware that you cannot undo the deletion.
 
 #### Prerequisites

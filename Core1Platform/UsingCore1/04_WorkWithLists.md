@@ -7,7 +7,7 @@ A list in the *Actindo Core1 platform* describes a listing of items in a table-l
 
 
 ## Create view
-If you are working in a list, you can create different views on the database. By doing this, you define the columns to be displayed and the filters to be applied. You can define views for your own, but also publish it to make it available for all users.
+If you are working in a list, you can create different views on the database. By doing this, you specify the columns to be displayed and the filters to be applied. You can define views for your own, but also publish it to make it available for all users.
 
 #### Prerequisite
 
@@ -20,7 +20,7 @@ If you are working in a list, you can create different views on the database. By
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 
 1. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button to the right of the *View* drop-down list.   
-   If there is not yet created a view, only the create option is displayed.  
+   If there is not yet created a view, only the **create** option is displayed.  
 
    
 2. Click the ![Create](../../Assets/Icons/Plus06.png "[Create]") [Create] entry.   
@@ -29,7 +29,7 @@ If you are working in a list, you can create different views on the database. By
    ![Create view](../../Assets/Screenshots/Core1Platform/UsingCore1/CreateView.png "[Create view]")
 
 3. Enter a name for the view and click the [SAVE] button.   
-   The new view is automatically selected now.
+   The list is displayed again. The new view is automatically selected.
 
 4. Define how the view is to be displayed.   
    - If applicable, select a standard filter that is placed above the list, for example *Connections*.   
@@ -65,9 +65,9 @@ Define the columns that are to be displayed in a list.
 
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 1. If desired, select the view for which you want to define the columns.  
-   After adding or removing the columns, you have the following options:   
+   Alternatively, you have the following options:   
    - You can specify the columns for a temporary use without changing the view.
-   - You can create a new view with the new specified columns.
+   - After adding or removing columns, you can create a new view with the new specified columns.
 
 2. Consider which columns should be visible without horizontal scrolling and what order is useful.
 
@@ -80,7 +80,7 @@ Define the columns that are to be displayed in a list.
     - If desired, change the order of the columns. To do this, drag a column chip and drop it at the required position.     
     - If desired, remove a column. To do this, click the ![Remove](../../Assets/Icons/Cross02.png "[Remove]") (Remove) button in the column chip.
    
-5. If you want to add a new column, click the *Column* drop-down list, and select an entry from the list. The drop-down list contains all entries that are available for the list.
+5. If you want to add a new column, click the *Column* drop-down list, and select an entry from the list. The drop-down list contains all entries that are available for the list and currently not used.
 
 6. Click the [ADD COLUMN] button.   
    The new column is placed at the end of the column chip list. Drag and drop it to the desired position.
@@ -108,7 +108,7 @@ Sort the list entries depending on an ascending or descending sorted column. For
 1. If desired, select the view for which you want to define the sorting.  
    Alternatively, you have the following options:   
    - You can sort a column for a temporary use without changing the view.
-   - You can create a new view with the new sorted column.
+   - After sorting, you can create a new view with the new sorted column.
 
 2. Move the mouse pointer over the columns.  
    The mouse pointer is displayed as a little hand at all columns that can be sorted.
@@ -140,7 +140,7 @@ If required, you can save the filters in a view, so that you can provide differe
 1. If desired, select the view for which you want to define the filters.  
    After applying the filters, you have the following options:   
    - You can apply the filters for a temporary use without changing the view.
-   - You can create a new view with the new applied filters.
+   - After creating the filters, you can create a new view with the new applied filters.
 
 2. Click the ![Filter](../../Assets/Icons/Filter.png "[Filter]") (Filter (x)) button top right of the list. The *x* indicates the number of filters that are currently active.   
    A pop-up window is opened in which you can define the filter.  
@@ -216,7 +216,6 @@ If required, you can save the filters in a view, so that you can provide differe
 
    ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedChange.png "[List view &ndash; Applied filter options]")  
     
-
     - You can delete the filter by clicking the ![Remove](../../Assets/Icons/Cross08.png "[Remove ]") (Remove) button. 
     - You can temporarily remove the filter by clicking the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
     - You can edit the filter by clicking the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.   
