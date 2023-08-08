@@ -2,6 +2,7 @@
 
 EDI refers to the electronic and fully automatic exchange of data between different application systems. It thus serves as the basis for the digitalization of processes and the transfer of important data, such as orders, order confirmations, delivery notes, or invoices. The EDI integration ensures the automated transfer of data between the *Actindo Core1 Platform* and any external systems, so that you can easily connect your existing IT to them.
 
+
 This documentation provides you with a manual how to edit an INVOIC EDIFACT message that you can use to fulfill the specifications you got from your supplier.
 
 The documenation refers to the *DataHub Exporter* module version 4.1.0. There may be differencies in the UI, features, and operation if your *DataHub Exporter* module is installed in another version.
