@@ -15,7 +15,6 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
 
 
 - [Manage user groups](./03_ManageGroups.md) 
-    - [Manage user rights](./03_ManageGroups.md#manage-user-rights)
     - [Create user group](./03_ManageGroups.md#create-user-group)
     - [Add user to user group](./03_ManageGroups.md#add-user-to-user-group)
     - [Remove user from a group via the group management](./03_ManageGroups.md#remove-user-from-a-group-via-the-group-management)

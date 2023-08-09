@@ -30,13 +30,13 @@ In addition to the topics named above, other topics may be included if required.
 
 ## Integration
 
-This section describes the preparatory procedures that are to be executed or set up to fully use the module/plugin. For example, this section contains information on how to set up a connection to drivers or channels, or information on specific attributes that are to be set up in advance. 
+This section describes the preparatory procedures that are to be executed or to set up to fully use the module/plugin. For example, this section contains information on how to set up a connection to drivers or channels, or information on specific attributes that are to be set up in advance. 
 
 
 
 ## Operation
 
-This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates. Each procedure starts with a path that replaces the first step of the procedure.
+This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates. Each procedure starts with a breadcrumb path that replaces the first step of the procedure.
 
 ![Procedure](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationPathProcedure.png "[Procedure]")
 
@@ -45,11 +45,11 @@ This section describes all executing procedures when using the module/plugin. Fo
 ## Troubleshooting
 
 This section describes issues and errors that can occur during running the module/plugin. It provides you with workable solutions.   
-This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a path that replaces the first step of the procedure.
+This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a breadcrumb path that replaces the first step of the procedure.
 
 
 
 ## User Interface  
 
 This section provides you with a detailed description of the user interface of each menu entry resp. function of a module/plugin. It contains a detailed specification of all tabs as well as lists with field and button descriptions.   
-Note, this chapter contains no action descriptions or far-reaching explanations of interrelationships. It provides only a description of the interface and the individual functions of UI elements. Use this chapter as helpful addition to the procedures that are part of the *Operation* and *Integration* section. 
+Note, this chapter contains no action descriptions or far-reaching explanations of interrelationships. It provides only a description of the interface and the individual functions of UI elements. Use this chapter as helpful addition to the procedures that are part of the *Operation* and the *Integration* section. 

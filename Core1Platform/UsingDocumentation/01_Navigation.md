@@ -119,7 +119,7 @@ A full text search is available that starts a search over the module/plugin docu
 
     ![Module documentation - Search results](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageSearchResult.png "[Module documentation - Search results]")
 
-2. Check the list and select the topic in which you want to find the required information. 
+2. Check the list and select the topic or section in which you want to find the required information. 
 
     > [Info] If you want to clear the search, click the ![Clear](../../Assets/Icons/Cross02.png "[Clear]") icon on the right side of the search field. 
 

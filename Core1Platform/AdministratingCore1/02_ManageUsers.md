@@ -40,9 +40,9 @@ Users are created in the main account only.
     - **Enter password and send by email**    
       You define an individual password, and it is sent by Actindo to the email address specified below. 
     - **Specify and save password**   
-      You define an individual password and save it. It is not sent via email. 
-    -**Do not send password**   
-      Use this option if you want to change the user's data but you do not want to edit the password to be sent. 
+      You define an individual password and save it. It is not sent via email.  
+    - **Do not send password**   
+      Use this option if you want to change the user's data, but you do not want to edit the password. 
 
 5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
 
@@ -128,7 +128,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 
    ![User management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserEdit.png "[User management]")
 
-2. If desired. Click the *Select active option* drop-down list to select whether the user can log in or not. The following options are available: 
+2. If desired, click the *Select active option* drop-down list to select whether the user can log in or not. The following options are available: 
     - **Active, can log in**
     - **Inactive, user is locked**
 
@@ -196,7 +196,6 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 - You are logged in to a sandbox.
 - You are granted to invite users.
-- The user is assigned a group. Only then the user is listed in this account and can access the sandbox.
 
 #### Procedure
 
@@ -240,7 +239,7 @@ Delete a user, if he&frasl;she works no longer in your company, for example. You
 
 #### Prerequisites
 
-- You are logged in to the main account
+- You are logged in to the main account.
 - You are granted to delete users.
 
 #### Procedure

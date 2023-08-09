@@ -3,10 +3,7 @@
 User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. In opposite to the users are user groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
 If you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him&frasl;her from all groups.
 
-
-
-# Manage user rights
-
+**Manage user rights**   
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that a user has when working on the *Actindo Core1 Platform*.   
 For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
 

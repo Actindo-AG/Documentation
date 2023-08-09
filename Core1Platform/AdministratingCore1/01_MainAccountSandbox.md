@@ -13,7 +13,7 @@ Each sandbox and each main account have its own separated database. This means, 
 
 **Sandboxes**  
 Sandboxes have the following characteristics: 
-- You can create a sandbox as a copy of the main account with all data, Which are currently available in the main account. But, after that the sandbox and the main account is not synchronized.
+- You can create a sandbox as a copy of the main account with all data, which are currently available in the main account. But, after that the sandbox and the main account is not synchronized.
 
 - You can install modules that are not yet released by Actindo, this means you can install it for testing purposes without touching your main account. On a main account, you can install released versions only.
 

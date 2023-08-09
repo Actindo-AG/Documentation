@@ -7,7 +7,7 @@ The following list shows the meaning of different font formats in the Actindo do
     - Entries in fields
     - Options in drop-down lists
     - Keystrokes
-    - Subtitles (for example UI section names) which have no own heading, which means an own entry in the table of content.   
+    - Subtitles (for example UI section names) that do not have their own heading, which means an own entry in the table of content.   
 
 - *Italics*   
    Italics are used to emphasize the following:   
