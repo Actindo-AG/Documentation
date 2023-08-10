@@ -66,7 +66,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the definition whose settings you want to edit in the list of export definitions.   
-    The *Edit definition "definition name* view is displayed. The *SETTINGS* tab is displayed by default.
+    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
@@ -77,9 +77,66 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 
 
+
+
+## Preview definition
+
+After you have configured the entire definition, you can preview the message that will be sent to the business partner. You can use this function to let the business partner check, whether the message is correct.
+
+#### Prerequisites
+
+- At least one definition setting has been created, see [Create definition settings](#create-definition-settings).
+- You have defined the file settings for this definition, see
+- You have defined the data sources for this definition, see
+- You have defined the mapping settings for this definition, see
+
+
+#### Procedure
+
+*DataHub Exporter > Exports*
+
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+
+1. Click the checkbox of the definition(s) you want to preview.
+    The toolbar is displayed.
+
+    ![Toolbar](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Toolbar]")
+
+2. Click the [PREVIEW] button.   
+    A new browser window is opened in which the definition is output.
+    ![Preview settings](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Preview settings]")
+
+
+
+
+
+## Activate definition
+
+#### Prerequisites
+
+- At least one definition setting has been created, see [Create definition settings](#create-definition-settings).
+- You have defined the file settings for this definition, see
+- You have defined the data sources for this definition, see
+- You have defined the mapping settings for this definition, see
+- You have sent the preview to the customer to check whether the message is correct, see [Preview definition](#preview-definition).
+
+#### Procedure
+
+*DataHub Exporter > Exports*
+
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+
+
+
+
+
+
+
 ## Delete definition
 
-Delete a definition if you no longer need it. Note that you delete the whole definition with file settings, data sources, and mapping sources.
+Delete a definition if you no longer need it. You can delete several definitions at once.
+
+> [CAUTION] Note that you will lose the whole definition with all EDIFACT message settings, data sources, and mapping settings when deleting a definition.
 
 
 #### Prerequisites
@@ -93,33 +150,15 @@ Delete a definition if you no longer need it. Note that you delete the whole def
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the checkbox of the definition whose settings you want to delete..   
-    The *Edit definition "definition name* view is displayed. The *SETTINGS* tab is displayed by default.
+1. Click the checkbox of the definition(s) you want to delete.
+    The toolbar is displayed.
 
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+    ![Delete definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Delete definition]")
 
-2. Edit the data you want to change.
-
-3. Click the [SAVE] button.   
-    The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again. 
-
-
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") button.   
+    The definition is deleted without preceding security query.
+  
+    
 
 
-
-
-
-## Activate definition
-
-#### Prerequisites
-
-- You have defined the file settings, see
-- You have defined the data sources, see
-- You have defined the mapping settings, see
-
-#### Procedure
-
-*DataHub Exporter > Exports*
-
-![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
