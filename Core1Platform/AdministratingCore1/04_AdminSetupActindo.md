@@ -20,7 +20,7 @@ For the U2F (Universal Second Factor) setup of an Actindo account, a user-side s
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 

@@ -16,7 +16,7 @@ Users are created in the main account only.
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
@@ -78,7 +78,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
 
 ## Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
@@ -119,7 +119,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
@@ -165,7 +165,7 @@ Alternatively, you can remove a user from a group during editing the groups, see
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
@@ -199,7 +199,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
@@ -244,7 +244,7 @@ Delete a user, if he&frasl;she works no longer in your company, for example. You
 
 #### Procedure
 
-*Settings > Users and groups > Tab User management*
+*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 

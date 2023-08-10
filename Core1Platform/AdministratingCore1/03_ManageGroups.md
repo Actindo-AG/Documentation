@@ -1,7 +1,7 @@
 # Manage user groups
 
 User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. In opposite to the users are user groups not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
-If you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him&frasl;her from all groups.
+If you are on a sandbox, and you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him&frasl;her from all groups.
 
 **Manage user rights**   
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that a user has when working on the *Actindo Core1 Platform*.   
@@ -30,7 +30,7 @@ Create a user group based on a user role to subsequently assign them a specific 
 
 #### Procedure
 
-*Settings > Users and groups > Tab GROUP MANAGEMENT*
+*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
@@ -63,7 +63,7 @@ Add any number of users to a user group to assign them rights subsequently.
 
 #### Procedure
 
-*Settings > Users and groups > Tab GROUP MANAGEMENT*
+*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
@@ -108,7 +108,7 @@ Add any number of users to a user group to assign them rights subsequently.
 ## Remove user from a group via the group management
 
 A user is active in an account as long as the user is assigned a user group.    
-If you want to remove a user from a sandbox, you must remove the user from all groups to which he&frasl;she is assigned. There are the following limitations:
+If you want to remove a user from a sandbox, you must remove the user from all groups to which he &frasl; she is assigned. There are the following limitations:
 - You cannot remove a user from the ActindoAdmingroup in a sandbox of which he or she is the owner. <!--- Kann man den owner ändern? -->
 - You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him&frasl;her, see [Edit user](./02_ManageUsers.md#edit-user).   
 
@@ -121,7 +121,7 @@ Note that it is not possible to remove a group assignment by delimiting the vali
 
 #### Procedure
 
-*Settings > Users and groups > Tab GROUP MANAGEMENT*
+*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
@@ -144,7 +144,7 @@ Note that it is not possible to remove a group assignment by delimiting the vali
     The selected user is removed from the list.
 
 5. Click the [SAVE] button.   
-    The *GROUP MANAGEMENT* view is displayed again.
+    The *GRUPPENVERWALTUNG (GROUP MANAGEMENT)* view is displayed again.
 
 
 ## Remove user group
@@ -157,7 +157,7 @@ If a user group is no longer needed, you can remove it. Note, groups are removed
 
 #### Procedure
 
-*Settings > Users and groups > Tab GROUP MANAGEMENT*
+*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
@@ -173,7 +173,7 @@ If a user group is no longer needed, you can remove it. Note, groups are removed
 
 3. Check whether users are assigned the group. If necessary, remove the assignment, see [Remove a user from a group](#remove-a-user-from-a-user-group).
 
-4. Return to the *GROUP MANAGEMENT* tab by clicking the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
+4. Return to the *GRUPPENVERWALTUNG (GROUP MANAGEMENT)* tab by clicking the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
 
 5. Select the checkbox of the user group you want to remove.   
     The editing toolbar is displayed.
