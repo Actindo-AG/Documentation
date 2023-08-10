@@ -1,0 +1,1 @@
+# Manage header file settings
