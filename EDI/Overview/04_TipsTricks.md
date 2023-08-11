@@ -8,14 +8,19 @@ When we speak about a user or a business partner in the following, the company i
 
 ## Tips for preparation in advance
 
+- A lot of internet providers give information on EDIFACT. For a first impression we can recommend the https://www.truugo.com/edifact/ website that provides you with a very structured illustration of the EDIFACT messages in their different versions.  
+
 - Ask your business partner for the EDIFACT message specification resp. the message implementation guide. Specifications of some big players are also available as download versions on the internet.
 
-- Check this specification for the fields, that the user has defined as required and ensure that you have this data available.    
-    Note, some segments are mandatory only in case if the overlying optional segment is to be filled. See the example:
+- Check this specification for the segments, that the user has defined as required and ensure that you have this data available.    
+    Note the following: 
+    - Some segments are mandatory (M) only in case if the overlying optional segment is to be filled. See the example:
 
     ![Mandatory segments](../../Assets/Screenshots/EDI/Overview/OptionalSegment.png "[Mandatory segments]")
 
-- A lot of internet providers give information on EDIFACT. For a first impression we can recommend the https://www.truugo.com/edifact/ website that provides you with a very structured illustration of the EDIFACT messages in their different versions.
+    - Some segments are required (R), even if it is not mandatory in the EDIFACT message definition. Depending on the user, there are deviations from the standard. These are then usually indicated with **R** in contrast to the mandatory segments **M** in the EDIFACT standard.   
+
+
 
 - Ask your business partner for the connection details that specify how the data are to be transferred.
 
