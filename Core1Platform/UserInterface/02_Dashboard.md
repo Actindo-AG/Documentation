@@ -33,11 +33,19 @@ In the *Actindo Dashboard*, the custom tabs with composable dashlets are display
 - [SAVE]   
     Click this button to save the tab with the entered name. The *Add a new tab* window is closed. The new tab is created.
 
-**Import existing tab**
+**Import tab**
 
-The *Import existing tab* tab is locked. It is only available in the *Actindo Dashboard*.
+![Import tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardImport.png "[Import tab]")
 
-[comment]: <> (Link zu Actindo dashboard einfügen sobald beschrieben)
+- *Dashboard selection*   
+    Select a module-specific dashboard that you have already created before.   
+
+
+- [CANCEL]   
+    Click this button to cancel creating a tab. The *Add a new tab* window is closed.
+
+- [SAVE]   
+    Click this button to save the tab with the entered name. The *Add a new tab* window is closed. The new tab is created.
 
 
 

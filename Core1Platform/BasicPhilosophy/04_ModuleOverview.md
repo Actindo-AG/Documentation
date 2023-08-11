@@ -23,7 +23,7 @@ The *Core1 Platform* is underlying any plugin. It offers basic functions such as
 The *Workflow* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
 
 **Currency**   
-The *Currency* module (?) <!---ist das ein Modul?--> provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
+The *Currency* plug-in provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
 
 **Taxes**   
 The *Taxes* module allows you to configure the automatic tax feature of the system to match your specific business requirements. You can define specific tax classes applicable to your products and determine different tax zones where you operate. Additionally, you can set up an unlimited number of tax rates, which you can also specify according to their validity period.   

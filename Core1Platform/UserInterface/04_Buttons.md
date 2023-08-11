@@ -18,7 +18,7 @@ The following list shows buttons that are frequently used to navigate in the *Ac
     Click this button to step one page back.
 
 - ![First page](../../Assets/Icons/FirstPage03.png "[Previous page]") (First page) and similar below a list   
-    Click this button to jump to the first page, for example, in lists.
+    Click this button to jump to the first page.
 
 - ![Last page](../../Assets/Icons/LastPage03.png "[Last page]") (Last page) and similar below a list    
     Click this button to jump to the last page

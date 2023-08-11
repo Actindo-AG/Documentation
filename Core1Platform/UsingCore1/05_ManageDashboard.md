@@ -9,7 +9,7 @@ The number of dashboards is unlimited. For certain modules, a set of dashlets is
 
 ## Create dashboard
 
-Create a dashboard to define a specific view on key figures and statistics. 
+Create a dashboard to define a specific view on key figures and statistics later. 
 Alternatively, you can import already existing dashboards, see [Import dashboard](#import-dashboard).
 
 #### Prerequisites
@@ -77,7 +77,7 @@ Customize a dashboard to your special needs by adding the desired dashlets, dele
 
 ### Add dashlet
 
-Add the desired dashlets to your dashboard. Note, if you have imported a dashboard, you can import module-specific dashlets only.
+Add the desired dashlets to your dashboard. Note, if you have imported a dashboard before, you can add module-specific dashlets only.
 
 #### Prerequisites
 
