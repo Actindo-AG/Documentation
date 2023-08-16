@@ -1,7 +1,7 @@
 # Manage definitions 
 
 The definition of the EDIFACT export messages specifies the following:
-- Definition settings with template engine and the connection to be used
+- Definition basic settings with template engine and the connection to be used
 - Message structure with predefined data   
 - Data mapping   
 - Mapping settings
@@ -15,14 +15,14 @@ Each EDIFACT export message requires two definitions in the *DataHub Exporter* m
 First you create a definition setting. After you have defined the other settings, you can preview and activate the definition.
 
 
-## Create definition settings 
+## Create basic definition settings 
 
 Define basic data for the export definition. You must define a definition setting for the header as well as for the line items of a message.
 
 
 #### Prerequisites
 
-- - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
+- At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
 
 #### Procedure
 
@@ -55,7 +55,7 @@ Define basic data for the export definition. You must define a definition settin
 7. Repeat the procedure to create a definition setting for the line items. 
 
 
-## Edit definition settings 
+## Edit basic definition settings 
 
 Edit basic data for the export definition. You can edit a definition setting for the header as well as for the line items of a message.
 
@@ -63,7 +63,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 #### Prerequisites
 
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
-- At least one definition setting has been created, see [Create definition settings](#create-definition-settings).
+- At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
 
 #### Procedure
 
@@ -90,7 +90,7 @@ After you have configured the entire definition, you can preview the message tha
 
 #### Prerequisites
 
-- At least one definition setting has been created, see [Specify header file settings](#create-definition-settings).
+- At least one definition setting has been created, see [Specify header file settings](#create-basic-definition-settings).
 - You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) or [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
 <!---- - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).-->
@@ -102,7 +102,7 @@ After you have configured the entire definition, you can preview the message tha
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the checkbox of the definition you want to preview.
+1. Click the checkbox of the definition you want to preview.   
     The toolbar is displayed. Alternatively, you can click the download link of a definition in the list to output the preview directly.
     The toolbar is displayed.
 
@@ -129,9 +129,11 @@ After you have configured the entire definition, you can preview the message tha
 
 ## Activate definition
 
+Activate the definition to be able to send message of the defined type to the business partner.
+
 #### Prerequisites
 
-- At least one definition setting has been created, see [Specify header file settings](#create-definition-settings).
+- At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
 - You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) or [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
 - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).
@@ -143,19 +145,58 @@ After you have configured the entire definition, you can preview the message tha
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
+1. Click the definition you want to activate
+    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+
+2. Click the *Active* toggle.   
+    The toggle is highlighted.
+
+3. Click the [SAVE] button.  
+    The definition is activated, and you can send messages now. 
+
+
+
+## Deactivate definition
+
+Deactivate a definition if you no longer need it.
+
+#### Prerequisites
+
+- At least one definition setting has been activated, see [Activate definition settings](#activate-definition).   
+
+- You do no longer want to send messages of this type to your business partner.
+
+#### Procedure
+
+*DataHub Exporter > Exports*
+
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+
+1. Click the definition you want to deactivate.
+    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+
+2. Click the *Active* toggle.   
+    The toggle is no longer highlighted.
+
+3. Click the [SAVE] button.  
+    The definition is deactivated, and you can no longer send messages of this type to your business partner. 
+
 
 
 ## Delete definition
 
 Delete a definition if you no longer need it. You can delete several definitions at once.
 
-> [CAUTION] Note that you will lose the whole definition with all EDIFACT message settings, data sources, and mapping settings when deleting a definition.
+> [CAUTION] Note that you will lose the whole definition with all EDIFACT message settings, data sources, and mapping settings when deleting a definition. Alternatively, you can deactivate a definition to keep your settings, see [Deactivate definition](#deactivate-definition).
 
 
 #### Prerequisites
 
-- At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
-- At least one definition setting has been created, see [Create definition settings](#create-definition-settings).
+- At least one definition has been created, see [Create definition basis settings](#).
 
 #### Procedure
 
@@ -172,6 +213,3 @@ Delete a definition if you no longer need it. You can delete several definitions
     The definition is deleted without preceding security query.
   
     
-
-
-
