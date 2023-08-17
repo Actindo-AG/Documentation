@@ -10,9 +10,9 @@ Each EDIFACT export message requires two definitions in the *DataHub Exporter* m
 - Definition of the message header   
     Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver &frasl; sender information and dates.
 - Definition of the line items  
-    The line items contain the single positions of the message, for example the single items on an invoice.
-
-First you create a definition setting. After you have defined the other settings, you can preview and activate the definition.
+    The line items contain the single positions of the message, for example the single items of an invoice. It is necessary to have a specific definition for the line items, because they require another data source than the message header. 
+    
+First you create a definition setting. After you have defined the file settings, the data source, and the mapping settings, you can preview and activate the definition.
 
 
 ## Create basic definition settings 
@@ -83,6 +83,15 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 
 
+## Prepare definition of file settings
+
+For the preparation of the file settings specifications it is recommended to do the following:
+- Create the data source.   
+    This is recommended so that you can check whether variable strings to be determined automatically has been added to the list of attributes that are to be mapped. In addition, you are than able to prepare the mapping directly after you have specified a variable string . For this purpose, create the related data source(s) to be prepared. For detailed information, see [Create data source](./04_ManageDataSources.md#crate-data-source).
+- Define the mapping settings.   
+    This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Define mapping settings](./05_MappingSettings.md#define-mapping-settings).
+
+
 
 ## Preview definition
 
@@ -92,8 +101,8 @@ After you have configured the entire definition, you can preview the message tha
 
 - At least one definition setting has been created, see [Specify header file settings](#create-basic-definition-settings).
 - You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) or [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
-- You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
-<!---- - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).-->
+- You have defined the data sources for this definition, see [Create data source](./04_ManageDataSources.md#create-data-source).
+- You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MappingSettings.md#define-mapping-settings).
 
 
 #### Procedure
@@ -123,13 +132,13 @@ After you have configured the entire definition, you can preview the message tha
 5. Enter **31** in the *Primary identifier* field.
 
 5. Click the *OPEN PREVIEW* button. 
-    The syntax of the message(s) is output in a new browser window. Copy it and send it to your business partner for validation.  
+    The syntax of the message(s) is output in a new browser window. Copy it and send it to your business partner for validation. 
 
 
 
 ## Activate definition
 
-Activate the definition to be able to send message of the defined type to the business partner.
+Activate the definition to be able to send messages of the defined type to the business partner.
 
 #### Prerequisites
 
