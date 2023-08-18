@@ -1,4 +1,4 @@
-# Manage header file settings
+# Specify header file settings
 
 
 The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.
@@ -19,12 +19,12 @@ You can add constant values as well as strings that are to be determined via att
 
 #### Procedure
 
-*DataHub Exporter > Exports*
+*DataHub Exporter > EXPORTS tab*
 
 ![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
 1. Click the definition for which you want to specify the header file settings.
-    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+    The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
@@ -37,7 +37,7 @@ You can add constant values as well as strings that are to be determined via att
 4. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]")[GET] button.   
-    The *Reference node path* as well as the message is displayed. The message name is highlighted in red, because it is still empty.
+    The *Reference node path* as well as the message is displayed. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
@@ -53,7 +53,7 @@ BILD NEU MACHEN OHNE MARKIERUNGEN
 
 Start specifying the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a constant text value, for example the transaction type *Commercial invoice* that specifies the type of the INVOIC message.
 
->[INFO] The following procedures show by using examples how to specify specific segments of the EDIFACT message structure. Follow the guidelines of your business partner when specifying the EDIFACT message structure! 
+>[INFO] The following procedures show by using examples how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message! 
 
 
 #### Prerequisites
@@ -62,7 +62,7 @@ Start specifying the header file segments by filling out the single elements of 
 
 #### Procedure
 
-*DataHub Exporter > Exports > Select message definition > File settings tab > Expand message structure*
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
@@ -104,7 +104,7 @@ Specify the header file segments by filling out the single elements of the BGM (
 
 #### Procedure
 
-*DataHub Exporter > Exports > Select message definition > File settings tab > Expand message structure*
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
@@ -145,14 +145,14 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
 #### Procedure
 
-*DataHub Exporter > Exports > Select message definition > File settings tab > Expand message structure*
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
 1. Expand the *S_DTM* (DATE &frasl; TIME &frasl; PERIOD) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_DTM* segment.   
     The *S_DTM* segment in turn consists of the subordinate *C_C507* segment.
 
-2. Expand the *C_C507* (Date and&frasl;or time, or period relevant to the) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C507* segment. In most cases it is required to specify this segment.   
+2. Expand the *C_C507* (Date and &frasl; or time, or period relevant to the) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C507* segment. In most cases it is required to specify this segment.   
     The *C_C507* segment has been expanded. The individual fields of this segment are displayed.
 
     ![C_C507 segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDTMSegment.png "[C_C507 segment]")
@@ -194,7 +194,7 @@ Specify message free text, with which you can inform your business partner on in
 
 #### Procedure
 
-*DataHub Exporter > Exports > Select message definition > File settings tab > Expand message structure*
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
