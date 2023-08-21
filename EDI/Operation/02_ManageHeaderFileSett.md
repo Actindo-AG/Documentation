@@ -14,7 +14,7 @@ You can add constant values as well as strings that are to be determined via att
 
 #### Prerequisites
 
-- You have the message specification resp. implementation guide of your business partner at hand.
+- You have the message specification of your business partner at hand.
 - You have created the basic definition settings for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 
 #### Procedure
@@ -23,7 +23,7 @@ You can add constant values as well as strings that are to be determined via att
 
 ![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
-1. Click the definition for which you want to specify the header file settings.
+1. Click the definition for which you want to specify the header file settings.   
     The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
@@ -37,7 +37,7 @@ You can add constant values as well as strings that are to be determined via att
 4. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]")[GET] button.   
-    The *Reference node path* as well as the message is displayed. The message name is highlighted in red because it is still empty.
+    The *Reference node path* as well as the message structure is displayed. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
@@ -76,9 +76,9 @@ Start specifying the header file segments by filling out the single elements of 
 
     ![S_BGM C_C002 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C002.png "[S_BGM  C_C002 segment]")
 
-3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *1001* field (Document name code). This is a constant value for which your business partner might have specified predefined codes for the document type.
+3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *1001* field (Document name code). This is a constant value for which your business partner may have specified predefined codes for the document type.
 
-4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *1001* row.  
+4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_1001* row.  
     The *Edit text value* window is displayed.
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -87,7 +87,7 @@ Start specifying the header file segments by filling out the single elements of 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
-    The *Edit definition "Definition name"* view is displayed again. At the end of the *1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
+    The *Edit definition "Definition name"* view is displayed again. At the end of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
     The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.
 
     ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
@@ -96,7 +96,7 @@ Start specifying the header file segments by filling out the single elements of 
 
 ## Specify document number &frasl; string attribute
 
-Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a string attribute which is automatically determined by a data source mapping later. For example, you need to specify the document number of the INVOIC message that must be unique. 
+Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a string attribute which must be automatically determined by a data source mapping later, because you need to specify a document number of the INVOIC message that must be unique. 
 
 #### Prerequisites
 
@@ -141,7 +141,7 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
 #### Prerequisites
 
-- - You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
+- You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
 
 #### Procedure
 
@@ -157,7 +157,7 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
     ![C_C507 segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDTMSegment.png "[C_C507 segment]")
 
-3. Specify the *2005 (Date or time or period function code qualifier)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *2005* row.  
+3. Specify the *D_2005 (Date or time or period function code qualifier)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_2005* row.  
     The *Edit text value* window is displayed.
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -165,9 +165,10 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 4. Enter the text value and click the [SAVE] button.   
     A new *S_DTM* segment has been added below the *S_DTM* segment you are currently working on.
 
-5. Specify the  *2380 (Date or time or period text)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button at the end of the *2380* row.  
+5. Specify the *D_2380 (Date or time or period text)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button at the end of the *D_2380* row.    
+    The *D_2380* field is marked for a later data mapping. 
 
-6. Specify the *2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *2005* row.  
+6. Specify the *D_2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *2005* row.  
     The *Edit text value* window is displayed. 
 
 7. Enter the text value and click the [SAVE] button.   
@@ -204,7 +205,7 @@ Specify message free text, with which you can inform your business partner on in
 
     ![S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXSegment.png "[S_FTX segment]")
 
-2.  Specify the *4451 (Code qualifying the subject of the text)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *4451* row.  
+2.  Specify the *D_4451 (Code qualifying the subject of the text)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_4451* row.  
     The *Edit text value* window is displayed. 
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -216,7 +217,7 @@ Specify message free text, with which you can inform your business partner on in
 5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *C_4440* row.  
     The *Edit text value* window is displayed.
 
-6. Enter the free text, for example "Please note our changed bank details". You can write up to five lines.
+6. Enter the free text, for example "Please note our changed bank details" and click the [SAVE] button. You can write up to five lines.
 
 7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_3453* row and specify the language code in the *Edit text value* window.  
     

@@ -10,12 +10,12 @@ SG26 = Sequence number
 
 Get the line item segments of an EDIFACT message in order to be able to fill them.  
   
-You can add constant values as well as strings that are to be determined via attribute mapping. Example: The document number is a variable value that differs for each message. 
+You can add constant values as well as strings that are to be determined via attribute mapping later. 
 
 
 #### Prerequisites
 
-- You have the message specification resp. implementation guide of your business partner at hand.
+- You have the message specification of your business partner at hand.
 - You have created the basic definition settings for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 
 #### Procedure
@@ -27,7 +27,7 @@ You can add constant values as well as strings that are to be determined via att
 1. Click the definition for which you want to specify the line item settings.
     The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEditLineItems.png "[Edit definition]")
 
 2. Click the *File settings* tab.
 
