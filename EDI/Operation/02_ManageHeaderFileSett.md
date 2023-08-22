@@ -78,7 +78,7 @@ Start specifying the header file segments by filling out the single elements of 
 
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *1001* field (Document name code). This is a constant value for which your business partner may have specified predefined codes for the document type.
 
-4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_1001* row.  
+4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") buttonto the right of the *D_1001* row.  
     The *Edit text value* window is displayed.
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -87,7 +87,7 @@ Start specifying the header file segments by filling out the single elements of 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
-    The *Edit definition "Definition name"* view is displayed again. At the end of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
+    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
     The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.
 
     ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
@@ -120,8 +120,8 @@ Specify the header file segments by filling out the single elements of the BGM (
 
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *1004* field (Document identifier). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
-4. Click the ![Add string attribute](../../Assets/Icons/Plus08.png "[Add string attribute]") button at the end of the *D_1004* row.   
-     - At the end of the *D_1004* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
+4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
+     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required.   
     - The *S_BGM C_C106* segment is now highlighted with a small black border. This indicates that the segment contains data.   
     - The string attribute has been marked for a later data mapping.
 
@@ -157,7 +157,7 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
     ![C_C507 segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDTMSegment.png "[C_C507 segment]")
 
-3. Specify the *D_2005 (Date or time or period function code qualifier)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_2005* row.  
+3. Specify the *D_2005 (Date or time or period function code qualifier)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_2005* row.  
     The *Edit text value* window is displayed.
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -165,10 +165,10 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 4. Enter the text value and click the [SAVE] button.   
     A new *S_DTM* segment has been added below the *S_DTM* segment you are currently working on.
 
-5. Specify the *D_2380 (Date or time or period text)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button at the end of the *D_2380* row.    
+5. Specify the *D_2380 (Date or time or period text)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_2380* row.    
     The *D_2380* field is marked for a later data mapping. 
 
-6. Specify the *D_2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *2005* row.  
+6. Specify the *D_2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *2005* row.  
     The *Edit text value* window is displayed. 
 
 7. Enter the text value and click the [SAVE] button.   
@@ -205,7 +205,7 @@ Specify message free text, with which you can inform your business partner on in
 
     ![S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXSegment.png "[S_FTX segment]")
 
-2.  Specify the *D_4451 (Code qualifying the subject of the text)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_4451* row.  
+2.  Specify the *D_4451 (Code qualifying the subject of the text)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_4451* row.  
     The *Edit text value* window is displayed. 
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -214,20 +214,52 @@ Specify message free text, with which you can inform your business partner on in
 
 4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C108* segment.
 
-5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *C_4440* row.  
+5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
     The *Edit text value* window is displayed.
 
 6. Enter the free text, for example "Please note our changed bank details" and click the [SAVE] button. You can write up to five lines.
 
-7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button at the end of the *D_3453* row and specify the language code in the *Edit text value* window.  
+7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Edit text value* window.  
     
-8. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button at the end of the *S_FTX* segment row.   
+8. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button to the right of the *S_FTX* segment row.   
     The segment is collapsed.
 
-8. If desired, add further *S_FTX* segments by clicking on the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
+8. If desired, add further *S_FTX* segments by clicking the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
     An additional *S_FTX* segment is added below the currently processed segment.
 
     ![Additional S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXAdditionalSegment.png "[Additional S_FTX segment]")
 
 9. Now continue specifying the header file segments until you have specified all fields that your business partner require.
 
+
+## Edit header file settings
+
+To edit the header file settings, you must remove the data you have provided for a segment resp. a segment row before.
+
+#### Prerequisites
+
+- You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
+
+#### Procedure
+
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
+
+![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
+
+**Remove data from the whole segment**
+
+1. If you want to remove the data from a whole segment, click the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button to the right of the corresponding segment.   
+    The ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is replaced by the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
+    The segment is no longer highlighted with a small black border, the data are removed from the segment.
+
+2. Start specifying again the segment with new data.
+
+**Remove data from a segment row**
+
+1. If you want to remove data from a segment row, expand the corresponding  segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the segment.   
+
+2. Click the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button to the right of the row, from which you want to remove the data.   
+    The ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is replaced both by the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button and the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button.
+
+3. Start specifying again the row with new data.
+    
