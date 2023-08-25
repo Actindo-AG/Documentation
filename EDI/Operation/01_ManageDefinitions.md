@@ -87,7 +87,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 For the preparation of the file settings specifications, it is recommended to do the following:
 - Create the data source.   
-    This is recommended so that you can check whether variable strings to be determined automatically has been added to the list of attributes that are to be mapped. In addition, you are than able to prepare the mapping directly after you have specified a variable string . For this purpose, create the related data source(s) to be prepared. For detailed information, see [Create data source](./04_ManageDataSources.md#crate-data-source).
+    This is recommended so that you can check whether variable strings to be determined automatically has been added to the list of attributes that are to be mapped. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For this purpose, create the related data source(s) to be prepared. For detailed information, see [Create data source](./04_ManageDataSources.md#crate-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Define mapping settings](./05_MappingSettings.md#define-mapping-settings).
 

@@ -187,6 +187,7 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
 
 ## Specify message free texts
+
 Specify message free text, with which you can inform your business partner on individual subjects.  This procedure shows how to add individual textual information as well as to add additionally required segments.
 
 #### Prerequisites
@@ -224,12 +225,49 @@ Specify message free text, with which you can inform your business partner on in
 8. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button to the right of the *S_FTX* segment row.   
     The segment is collapsed.
 
-8. If desired, add further *S_FTX* segments by clicking the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
+9. If desired, add further *S_FTX* segments by clicking the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
     An additional *S_FTX* segment is added below the currently processed segment.
 
     ![Additional S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXAdditionalSegment.png "[Additional S_FTX segment]")
 
-9. Now continue specifying the header file segments until you have specified all fields that your business partner require.
+10. Now continue specifying the header file segments until you have specified all fields that your business partner require.
+
+
+
+## Prepare line item export
+
+In order to be able to export the single positions of an invoice, for example, 
+the relevant group for the line items of an EDIFACT message must be indicated to be exported as a whole. You have to do this here in the header definition file settings. 
+
+#### Prerequisites
+
+- You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
+
+#### Procedure
+
+*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
+
+![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
+
+
+1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions, the LIN segment is included in group 27, in older versions, it is in group 26.
+
+2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27*.
+
+3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row. 
+    The segment is now highlighted with a small black border. You cannot expand it.   
+    Another *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row has been added. You can ignore it.   
+    The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later.
+
+4. If desired, check whether the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+    The EDI Export SG[Group name] *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
+
+     ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefSG26Mapping.png "[Map Attributes]")
+     BILD NEU MACHEN
+
+5. Continue processing the EDIFACT message by specifying the line item segement. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
+
+
 
 
 ## Edit header file settings
