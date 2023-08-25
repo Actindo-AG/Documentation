@@ -36,12 +36,12 @@ You can add constant values as well as strings that are to be determined via att
 
 4. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
-5. Click the ![Get](../../Assets/Icons/Download.png "[Get]")[GET] button.   
+5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The *Reference node path* as well as the message structure is displayed. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
-6. Expand the message by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
+6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
     The message structure with its single segments is displayed. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
