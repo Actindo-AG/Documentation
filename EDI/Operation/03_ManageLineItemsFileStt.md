@@ -6,8 +6,6 @@ Enter the reference node path
 
 
 
-Also wenn ein laut EdiFACT ein mandatory segment nicht gefüllt ist, erscheint das segment in rot.
-Aber mitunter wollen die business partner mandatory segmente nicht gefüllt haben, aber Actindo schickts dann trotzdem.
 
 ## Get line item segments
 
