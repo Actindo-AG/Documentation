@@ -43,7 +43,7 @@ Define basic data for the export definition. You must define a definition settin
            
     For example, *INVOIC Export items "customer name"*.
 
-3. Click the *Template engine* drop-down list and select the **XmlExportTemplateEngine**.
+3. Click the *Template engine* drop-down list and select the **XmlExportTemplateEngine**.   
     The view has been changed. Two tabs are inserted now, the *Settings* tab and the *File settings* tab. The *Settings* tab is displayed.
 
     ![Tabs added](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreateAfterSelection.png "[Tabs added]")
@@ -123,9 +123,9 @@ After you have configured the entire definition, you can preview the message tha
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the checkbox of the definition you want to preview.   
-    The toolbar is displayed. Alternatively, you can click the download link of a definition in the list to output the preview directly.
-    The toolbar is displayed.
+1. Click the checkbox of the definition you want to preview. Alternatively, you can click the download link of a definition in the list to output the preview directly.   
+    The toolbar is displayed. 
+    
 
     ![Toolbar](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Toolbar]")
 
@@ -134,12 +134,13 @@ After you have configured the entire definition, you can preview the message tha
 
     ![Preview](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreview.png "[Preview]")
 
+<!----Weglassen? 
 3. If desired, and you do not want to define the preview attributes before, click the *Export all* toggle to preview all definitions at once. Prerequisite for this is that the *Entity type* in the *Data source* definition is filled, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
     The window displays the *Preview all* toggle only.
 
-    ![Preview all](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreviewAll.png "[Preview all]")
+    ![Preview all](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreviewAll.png "[Preview all]")-->
 
-4. If you want to define the preview attributes before, click the *Entity type* drop-down list and select the **Retail suite business document** resp. the **Retail suite business document position** entry.
+4. If you want to define the preview attributes before, click the *Entity type* drop-down list and select the **Retail suite business document** resp. the **Retail suite business document position** entry. Alternatively, you can use any other data source or entity types that you need for sending the EDIFACT messages.
 
 5. Enter **31** in the *Primary identifier* field.
 
@@ -164,9 +165,9 @@ Activate the definition to be able to send messages of the defined type to the b
 
 *DataHub Exporter > Exports*
 
-![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
-1. Click the definition you want to activate
+1. Click the definition you want to activate.   
     The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
@@ -174,8 +175,10 @@ Activate the definition to be able to send messages of the defined type to the b
 2. Click the *Active* toggle.   
     The toggle is highlighted.
 
+    ![Activate definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionActivate.png "[Activate definition]")
+
 3. Click the [SAVE] button.  
-    The definition is activated, and you can send messages now. 
+    The *Exporter definitions* view is displayed. The status in the *Active* column has switched to *Active*. The definition is activated, and you can send messages now. 
 
 
 
@@ -193,12 +196,12 @@ Deactivate a definition if you no longer need it.
 
 *DataHub Exporter > Exports*
 
-![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
-1. Click the definition you want to deactivate.
+1. Click the definition you want to deactivate.   
     The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
 
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionActivate.png "[Edit definition]")
 
 2. Click the *Active* toggle.   
     The toggle is no longer highlighted.
@@ -225,7 +228,7 @@ Delete a definition if you no longer need it. You can delete several definitions
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the checkbox of the definition(s) you want to delete.
+1. Click the checkbox of the definition(s) you want to delete.   
     The toolbar is displayed.
 
     ![Delete definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Delete definition]")

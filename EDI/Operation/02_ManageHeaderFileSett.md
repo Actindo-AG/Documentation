@@ -26,7 +26,7 @@ You can add constant values as well as strings that are to be determined via att
 1. Click the definition for which you want to specify the header file settings.   
     The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ "[Edit definition]")
 
 2. Click the *File settings* tab.   
     The *File settings* tab is displayed.
