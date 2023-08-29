@@ -44,15 +44,25 @@ Define basic data for the export definition. You must define a definition settin
     For example, *INVOIC Export items "customer name"*.
 
 3. Click the *Template engine* drop-down list and select the **XmlExportTemplateEngine**.
+    The view has been changed. Two tabs are inserted now, the *Settings* tab and the *File settings* tab. The *Settings* tab is displayed.
+
+    ![Tabs added](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreateAfterSelection.png "[Tabs added]")
 
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
-5. Define the *Access key* and click the ![Add](../../Assets/Icons/Plus01.png "[Add]") button. 
+5. Change to the *File settings* tab.  
+    The *File Settings* tab is displayed.
 
-6. Click the [SAVE] button.   
+    ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyFileSettings.png "[File settings tab]")
+
+6. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
+
+7. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
+
+8. Click the [SAVE] button.   
     The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
 
-7. Repeat the procedure to create a definition setting for the line items. 
+9. Repeat the procedure to create a definition setting for the line items. 
 
 
 ## Edit basic definition settings 
@@ -77,6 +87,8 @@ Edit basic data for the export definition. You can edit a definition setting for
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
 2. Edit the data you want to change.
+
+3. If desired, click the *File Settings* tab and change the *Release* or the *Message type* of the EDIFACT message structure.
 
 3. Click the [SAVE] button.   
     The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again. 

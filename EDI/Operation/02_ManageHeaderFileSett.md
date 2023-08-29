@@ -28,24 +28,24 @@ You can add constant values as well as strings that are to be determined via att
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
-2. Click the *File settings* tab.
+2. Click the *File settings* tab.   
+    The *File settings* tab is displayed.
 
-    BILD ERGÄNZEN MIT OHNE MESSAGE
+     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
 
-3. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
 
-4. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
-
-5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
-    The *Reference node path* as well as the message structure is displayed. The message name is highlighted in red because it is still empty.
+3. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
+    The message structure is displayed. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
-6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
+4. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
     The message structure with its single segments is displayed. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
-BILD NEU MACHEN OHNE MARKIERUNGEN
+
+5. Click the [SAVE] button.
+
 
 
 
@@ -259,13 +259,15 @@ the relevant group for the line items of an EDIFACT message must be indicated to
     Another *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row has been added. You can ignore it.   
     The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later.
 
-4. If desired, check whether the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+4. Click the [SAVE] button.
+
+5. If desired, check whether the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export SG[Group name] *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
      ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefSG26Mapping.png "[Map Attributes]")
      BILD NEU MACHEN
 
-5. Continue processing the EDIFACT message by specifying the line item segement. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
+5. Continue processing the EDIFACT message by specifying the line item segment. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
 
 
 

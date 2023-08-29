@@ -45,7 +45,7 @@ Create a connection to a certain message receiver.
 
     ![Sychronization triggered](../../Assets/Screenshots/EDI/Integration/SynchTriggeredSucessfully.png "[Synchronization triggered]")
 
-    The *Connections* view is displayed, the newly created connection is added. After successful synchronization, the entry is activated automatically.
+    The *Connections* view is displayed, the newly created connection is added. After successful synchronization, the entry is activated automatically. Eventually, you must refresh the application to see the *Active* status.
 
 
 
