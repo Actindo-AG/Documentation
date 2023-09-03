@@ -7,8 +7,6 @@ The MySQL console allows the users to query any data contained in your *Actindo 
 
 All data available in the system can be accessed, retrieved, and modified using the MySQL interactive console. For this reason, the MySQL interactive console must be handled with extreme caution, and access rights should only be granted to persons with the appropriate role and skills. For detailed information about managing user rights, see [Manage user rights](../Integration/05_ManageUserRights.md).
 
-[comment]: <> (Julian: Wollen wir hier den Inhalt irgendwie als Expertenwissen markieren oder erweitern, wie besprochen?)
-
 
 
 ## Access and retrieve data

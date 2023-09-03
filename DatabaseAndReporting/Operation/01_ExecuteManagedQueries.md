@@ -5,11 +5,12 @@
 
 # Execute the managed queries
 
-Once the queries have been predefined, they can be executed. When executing a query, the query results can be provided in CSV or XML format, either as a download file or as a preview.
+Once the queries have been predefined, they can be executed. When executing a query, the query results can be downloaded in CSV or XML format, latter also shown as preview.
 
-Depending on the options that have been enabled in the query, a query can be executed via API or via download link. To execute a query via API, the users must be logged in to the *Actindo Core1 Platform*. To execute a query via download link, a web browser can be used to access the selected data. 
+Depending on the options that have been enabled in the query, a query can be executed authenticated or unauthenticated.
 
 Moreover, the managed queries may only be executed by users who have been granted the applicable access rights. For detailed information, see [Manage the user rights](../Integration/05_ManageUserRights.md). 
+     > [Info] In case a query is marked for *Public Download* execution rights cannot be restricted to specific user groups. 
 
 
 

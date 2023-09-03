@@ -72,8 +72,6 @@ The list displays all predefined queries. Depending on the settings, the display
 - *Query*   
     Predefined SQL query.
 
-[comment]: <> (ETL use enabled Option wird noch ausgeblendet)
-
 - *API and download enabled*   
     Indication whether API access and download is enabled or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): API access and download is enabled.  

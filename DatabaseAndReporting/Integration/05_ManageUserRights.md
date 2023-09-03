@@ -14,9 +14,9 @@ The user rights for all modules and plugins installed in your Core1 account are 
 Assign user access rights to control access to specific data. The following access rights must be individually granted to any user group with a role other than administrator:
 
 - **Execute query via API**  
-    The users can execute a managed query via API if this option has been enabled in the query.
+    The users can execute a managed query via API if this option has been enabled in the query. Additionally, access rights must be granted for each individual predefined query.    
 - **Queries**   
-    Depending on the access permission type granted, the users can read, create, update, delete, and execute queries. Additionally, access rights must be granted for each individual predefined query.    
+    Depending on the access permission type granted, the users can read, create, update, delete, and execute queries. 
 - **Query categories**  
     Depending on the access permission type granted, the users can read and save query categories.
 - **InfluxDB&trade;[^1]**  

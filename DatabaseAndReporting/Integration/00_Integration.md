@@ -23,6 +23,11 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Delete a time series database](./03_ManageTimeSeriesDatabases.md#delete-a-time-series-database)
 
 
+- [Manage the time series groups](./06_ManageTimeSeriesGroups.md)
+    - [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group)
+    - [Edit a time series group](./06_ManageTimeSeriesGroups.md#edit-a-time-series-group)
+    - [Delete a time series group](./06_ManageTimeSeriesGroups.md#delete-a-time-series-group)
+
 - [Manage the connections](./04_ManageConnections.md)
     - [Create a connection](./04_ManageConnections.md#create-a-connection)
         - [Add a connection](./04_ManageConnections.md#add-a-connection)
@@ -34,11 +39,3 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 - [Manage the user rights](./05_ManageUserRights.md)
     - [Assign access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group)
-
-
-- [Manage the time series groups](./06_ManageTimeSeriesGroups.md)
-    - [Create a time series group](./06_ManageTimeSeriesGroups.md#create-a-time-series-group)
-    - [Edit a time series group](./06_ManageTimeSeriesGroups.md#edit-a-time-series-group)
-    - [Delete a time series group](./06_ManageTimeSeriesGroups.md#delete-a-time-series-group)
-    
-

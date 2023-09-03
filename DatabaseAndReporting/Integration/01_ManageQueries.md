@@ -5,17 +5,17 @@
 
 # Manage the queries
 
-Queries can be predefined to determine the data that may be accessed by specific user groups. Instead of entering and executing a query directly in the MySQL console, the users can simply select the query to be executed from the list of queries. 
+Managed queries are pre-defined SQL-Queries to extract data from the database and/or manipulate data in the database. Access to queries can be restricted to specific user groups. Instead of entering and executing a query directly in the MySQL console, the users can simply select the query to be executed from the list of queries. 
 
-Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download in a web browser. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
-
+Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
+The data is provided either in CSV- or XML-Format.
 Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). The query access can also be restricted or granted per query based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 
 
 ## Create a query
 
-Define a query and determine how the data may be accessed and by whom. Besides, you can allow write operations, and, if necessary, insert placeholders to represent any desired variables. The queries must be written in SQL syntax, and therefore SQL knowledge is required. 
+Define a query and determine how the data may be accessed and by whom. Besides, you can allow write operations, and, if necessary, insert placeholders to represent any desired variables. The queries must be written in SQL syntax, and therefore SQL knowledge is required. The database is operated by Percona Servers for MySQL.  
 
 #### Prerequisites 
 
@@ -49,7 +49,7 @@ No prerequisites to fulfill.
     + Click the [TRY QUERY (READ ONLY)] button to test the query.   
         The *Bind query parameters placeholders* window is displayed.
         
-        > [Info] There are two possible placeholders to define time conditions: **|datetime** and **|string**. The **|datetime** placeholder generates a ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") (Calendar) button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
+        > [Info] There are two possible placeholders to define time conditions: **|datetime**, **|number** and **|string**. The **|datetime** placeholder generates a ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") (Calendar) button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
 
         ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Bind query parameters placeholders]")
 
@@ -58,13 +58,13 @@ No prerequisites to fulfill.
     + Click the [EXECUTE] button.   
         The query results are displayed in the *Try query result* box at the bottom of the workspace. 
 
-[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders Fenster eine Formatvorgabe? DD.MM.YYYY? YYYY-MM-DD? Uhrzeit?)
+[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders Fenster eine Formatvorgabe? DD.MM.YYYY? YYYY-MM-DD? Uhrzeit?; Aktuelles Format wie der User im Web-Browser definiert hat)
 
 [comment]: <> (Julian: ETL use enabled muss noch ausgeblendet werden)
 
-6. If desired, enter one or several IP addresses or an IP range (subnet mask) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
+6. If desired, enter one or several IP addresses or an IP range (subnet mask; only supported for IPV4) in the *IP whitelist (only public download)* field to allow access only to those IP addresses entered in case of public download.  
 
-    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Note that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via the public download. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
+    > [Info] When entering more than one IP address, each IP address must be entered on a separate line. Note that if no IP address is whitelisted, any person with the link, from any IP address, can access the query results via the public download if enabled. If at least one IP address is whitelisted, all other IP addresses are blacklisted. 
 
 7. If desired, select the *API and download enabled* checkbox to allow logged in users with the appropriate rights to execute the query and download the retrieved data.
 
@@ -75,10 +75,10 @@ No prerequisites to fulfill.
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
 
 9. If desired, select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
+    > [Info] Only a user, who has rights granted to execute queries with write-access, is allowed to create or modify queries with write-access
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
-    The query results are displayed in the *Try query result* box at the bottom of the workspace. 
-
+    The query results are displayed in the *Try query result* box at the bottom of the workspace.
 11. Click the [SAVE] button.  
    The query has been saved. The *Create MySQL query* is closed. The new query is displayed in the list of queries.
 

@@ -2,9 +2,9 @@
 
 # Manage the connections
 
-Establish a connection to InfluxDB&trade;[^1] in order to write data from your databases to a time series database at regular intervals using the InfluxDB&trade; technology.
+Establish a connection to a time series database; in order to write data from your databases to a time series database at regular intervals.
 
-A driver to connect to InfluxDB&trade; is preinstalled in the *Database and reporting* module and is available in two versions. We currently support version 1 and 2 of InfluxDB&trade;. Depending on the version, the credentials differ. All necessary credentials to establish the connection are provided by InfluxDB&trade;. For detailed information, see the [InfluxDB&trade; website](https://influxdata.com).
+A driver to connect to InfluxDB&trade;[^1] is preinstalled in the *Database and reporting* module and is available in two versions. We currently support version 1 and 2 of InfluxDB&trade;. Depending on the version, the credentials differ. All necessary credentials to establish the connection have to be provided by the administrator managing InfluxDB&trade; instance. For detailed information, see the [InfluxDB&trade; website](https://influxdata.com).
 
 The connections can be created, edited, and deleted.
 
@@ -162,8 +162,6 @@ At least one connection has been established, see [Create a connection](#create-
     The *Connection xxxx* pop-up window is displayed. The *xxxx* indicates the identifier of the deleted connection as displayed in the *ID* column. The deleted connection is removed from the list of connections.
 
     ![Deleted connection](../../Assets/Screenshots/DatabaseAndReporting/Settings/Connections/DeletedConnection.png "[Deleted connection]")
-
-[comment]: <> (Delete wird noch eingebaut. Wenn soweit, ggf. Procedure ergänzen/anpassen.)
 
 [comment]: <> (Julian: Bitte Screenshot einbauen, ziehen und zukommen lassen.)
 

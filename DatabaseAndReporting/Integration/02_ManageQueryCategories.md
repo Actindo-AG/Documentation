@@ -6,11 +6,10 @@
 
 Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
-Query categories can be created, edited, deleted, and divided into sub-categories. For example, a query category can be created to assign all queries related to all new product offers, while additional query sub-categories can be created to organize these queries according to any desired sub-criteria, for instance product group. 
+Query categories can be created, edited, deleted, and divided into sub-categories.
+For example one can create a folder for queries used for monitoring the system and divide them in categories like "Performance", "Exceptions", "Order Volume/Revenue",... 
 
 All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
-
-[comment]: <> (Julian: Ist das Beispiel von Category und Sub-category oben sinnvoll? Hättest du ein konkreteres/besseres Beispiel von Category and Sub-category?)
 
 
 
@@ -28,8 +27,6 @@ No prerequisites to fulfill.
 
 ![Query categories](../../Assets/Screenshots/DatabaseAndReporting/Settings/QueryCategories/QueryCategories.png "[Query categories]")
 
-[comment]: <> (Julian: Ist das ein Fehler im UI oder ein Bug, das man nicht mehr zurückkommt, weil man sofort in der Edit tree view ist und sowohl ein Back als auch ein Cancel Button angezeigt werden, die nichts machen?)
-
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     A plus sign is displayed in the query category column.
 
@@ -43,8 +40,6 @@ No prerequisites to fulfill.
 3. Enter a name for the query category in the *Name* field.
 
 4. Enter a key for the query category in the *Key* field.  
-
-[comment]: <> (Julian: Key schon abgebaut? Hier weglassen?)
 
 5. Click the [SAVE] button.   
     The query category has been created. The *Add element* window is closed. The new query category is displayed in the query category column.
@@ -110,11 +105,6 @@ At least one query category has been created, see [Create a query category](#cre
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
-[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
-
-[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
-
-
 ### Rename a query category
 
 Rename a query category as necessary.
@@ -146,14 +136,8 @@ At least one query category has been created, see [Create a query category](#cre
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* and display the changes in the *Queries* view. 
 
-[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
-
-[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
-
 
 ### Change the order of query categories
-
-[comment]: <> (Julian: Das funktioniert nicht einwandfrei. Dragging geht aber dropping nicht.)
 
 You can change the order of the query categories if necessary. 
 
@@ -177,11 +161,6 @@ At least two query categories have been created, see [Create a query category](#
     The *Submitting data...* view is displayed shortly while saving. The new query category order has been saved. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
-
-[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
-
-[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
-
 
 
 ## Delete a query category
@@ -212,7 +191,3 @@ At least one query category has been created, see [Create a query category](#cre
     The *Submitting data...* view is displayed shortly while saving. The changes have been saved in the query categories tree, which is displayed in the *Queries* view.
 
     > [Info] It may be necessary to press the **F5** key to initialize the *Core1 Platform* for the changes to be displayed in the *Queries* view. 
-
-[comment]: <> (Julian: Core1 neu laden nötig, um Änderungen in Queries view anzuzeigen. So gewollt?)
-
-[comment]: <> (Check, ob Ausgangssituation so bleibt oder es sich um Bug/Fehler im UI handelt. Ggf. letzer Satz und Info hier anpassen)
