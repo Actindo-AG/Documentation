@@ -296,4 +296,4 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 Click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button at the bottom of the bill list.   
     The current purchase is canceled. The bill list is empty.
 
-    > [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.
+> [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.

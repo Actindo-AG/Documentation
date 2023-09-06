@@ -25,7 +25,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 ![Omni-Channel Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Omni-Channel Orders]")
 
-    > [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
+> [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
 
 1. Check the *Status of import from channel* column.   
     The following table shows the possible statuses and their meaning.

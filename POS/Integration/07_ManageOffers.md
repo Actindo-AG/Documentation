@@ -58,7 +58,9 @@ No prerequisites to fulfill.
 ## Create a product type
 
 To improve the product classification, you can create a product type and use it in POS.   
-For detailed information on how to create a product type, see [Create a product type](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set)
+For detailed information on how to create a product type, see [Create a product type](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set).
+
+
 
 ## Map a new product type in POS
 
@@ -118,9 +120,9 @@ At least one product has been created, see [Create products for POS](#create-pro
 3. Configure the following settings:
 
     + Select one of the radio buttons:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *All products*   
             Offers for all existing PIM products are created.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Select products*   
+        - ![Radiobutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Select products*   
             Select manually the products you want to create an offer for.     
 
     + Select the marketplace for which you want to create the offers in the *Connection* drop-down list, for instance the appropriate POS Store.
@@ -152,17 +154,17 @@ At least one product has been created, see [Create products for POS](#create-pro
 8. Configure the following settings:
 
     + Select one of the radio buttons for the *ETL mode* section:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offers.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
             Changes in a PIM product are automatically applied to the offers.
 
     + Select one of the radio buttons for the *Initial offer status* section:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Active*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Active*   
             The offer is active. It is displayed on the marketplace and can be sold there.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Inactive*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Inactive*   
             The offer is inactive. It is not displayed on the marketplace and cannot be sold there.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Offline*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Offline*   
             The offer is unknown to the marketplace and therefore cannot be sold there.
 
 [comment]: <> (Note for reuse: In case of webshops the procedure can be little bit more complicated because there are potential conflicts to be resolved)
@@ -241,10 +243,10 @@ At least one product has been created, see [Create products for POS](#create-pro
 1. Click the product you want to create an offer to in the product list.    
     The *Edit product* view is displayed.
 
-2. Click the *OFFERS* tab.   
-    The *OFFERS* tab with a list of all existing offers of the product in all channels is displayed.
+2. Click the *Offers* tab.   
+    The *Offers* tab with a list of all existing offers of the product in all channels is displayed.
 
-    ![PIM Offers](../../Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
+    ![PIM Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[PIM Offers]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The ![Single Channel](../../Assets/Icons/Document.png "[Single Channel]") (Single Channel) button and the ![Multiple Channels](../../Assets/Icons/Documents.png "[Multiple Channels]") (Multiple Channels) button are displayed.
@@ -252,7 +254,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 4. Click the ![Single Channel](../../Assets/Icons/Document.png "[Single Channel]") (Single Channel) button to create an offer from the selected PIM product to a single channel.   
     The *Create channels offer* window is displayed.
 
-    ![Single Channel Offer](../../Assets/Screenshots/PIM/Products/List/Offers/SingleChannel.png "[Single Channel Offer]")
+    ![Single Channel Offer](../../Assets/Screenshots/PIM/Products/List/Offers/SingleConnection.png "[Single Channel Offer]")
 
 5. Configure the following settings:
 
@@ -264,9 +266,9 @@ At least one product has been created, see [Create products for POS](#create-pro
     + Activate the toggle to automatically generate a SKU for the product in the offer.   
 
     + Select one of the radio buttons for the ETL mode:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offers.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
             Changes in a PIM product are automatically applied to the offers.
 
     + Select the initial offer status in the *Status* drop-down list:   
@@ -279,7 +281,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 
 6. Click the button [SAVE] in the bottom right corner of the *Create channels offer* window.   
-    The new offer will be created. The *Create channels offer* window is closed. The *OFFERS* tab with the new offer in the *Channel offers* list is displayed.
+    The new offer will be created. The *Create channels offer* window is closed. The *Offers* tab with the new offer in the *Channel offers* list is displayed.
 
     > [Info] It may take some time until the channel offer is created.
 
@@ -308,7 +310,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 2. Click the *Offers* tab.   
     The *Offers* tab with a list of all existing offers of the product in all channels is displayed.
 
-    ![PIM Offers](../../Assets/Screenshots/PIM/Products/List/Offers/Offers.png "[PIM Offers]")
+    ![PIM Offers](../../Assets/Screenshots/PIM/Products/List/Offers/OffersEdit.png "[PIM Offers]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The ![Single Channel](../../Assets/Icons/Document.png "[Single Channel]") (Single Channel) button and the ![Multiple Channels](../../Assets/Icons/Documents.png "[Multiple Channels]") (Multiple Channels) button are displayed.
@@ -316,7 +318,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 4. Click the ![Multiple Channels](../../Assets/Icons/Documents.png "[Multiple Channels]") (Multiple Channels) button to create an offer from the selected PIM product to multiple channels.   
     The *Select channels and status* wizard window is displayed.
 
-    ![Select channels and status](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels1.png "[Select channels and status]")
+    ![Select channels and status](../../Assets/Screenshots/PIM/Products/List/Offers/SelectConnectionsStatus.png "[Select channels and status]")
 
 5. Configure the following settings:
 
@@ -329,9 +331,9 @@ At least one product has been created, see [Create products for POS](#create-pro
             The offer is unknown to the marketplace and therefore cannot be sold there.   
 
     + Select one of the radio buttons for the ETL mode:   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Manual*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
             Changes in a PIM product must be triggered manually to be applied to the offers.   
-        - ![Radionbutton](../../Assets/Icons/Radiobutton.png "[Radiobutton]") *Automatic*   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
             Changes in a PIM product are automatically applied to the offers.
 
     + Activate the toggles of the marketplaces for which you want to create the offers in the *Select connections* section. If you want to create an offer for all channels, click the [SELECT ALL] button to activate all toggles.
@@ -339,14 +341,14 @@ At least one product has been created, see [Create products for POS](#create-pro
 6. Click the [FINISH] button in the bottom right corner of the window.   
   The *Select destination attribute sets* wizard window is displayed.
 
-    ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/MultipleChannels2.png "[Select destination attribute sets]")
+    ![Select destination attribute sets](../../Assets/Screenshots/PIM/Products/List/Offers/SelectDestinationAttributeSets.png "[Select destination attribute sets]")
 
     > [Info] The attribute destination sets for the selected channels are automatically selected. You cannot edit the selection.
 
 [comment]: <> (Is that correct? Why does this window exist when I cannot make any changes?)
 
 7. Click the [FINISH] button in the upper right corner of the window.   
-    The new offers will be created. The *Select destination attribute sets* wizard window is closed. The *OFFERS* tab with the new offers in the *Channel offers* list is displayed.
+    The new offers will be created. The *Select destination attribute sets* wizard window is closed. The *Offers* tab with the new offers in the *Channel offers* list is displayed.
 
     > [Info] It may take some time until the channel offer is created.
 
@@ -498,7 +500,7 @@ No prerequisites to fulfill.
 
 2. Click the *Select product type* drop-down list and select the appropriate product type.
 
-    > [Info] If you have not created a new product type, the only available product type is **PIM Basic Data** .   
+    > [Info] If you have not created a new product type, the only available product type is **PIM Basic Data**.   
     For detailed information on how to create a product type for POS, see [Create a product type](#create-a-product-type).
 
 3. Enter a SKU in the *SKU* field, for instance **Voucher**.
@@ -525,7 +527,7 @@ You need to define the created product as a voucher to use it in the *Venduo POS
 
 #### Prerequisites
 
-At least one product to be defined as a voucher has been created, see [Create a voucher product](#create-a-voucher-product)
+At least one product to be defined as a voucher has been created, see [Create a voucher product](#create-a-voucher-product).
 
 #### Procedure
 

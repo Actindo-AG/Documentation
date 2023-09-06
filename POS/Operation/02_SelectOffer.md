@@ -1,13 +1,13 @@
-[!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
+[!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 
 # Select an offer
 
 The *Venduo POS* module offers several ways to select an offer or to search for it.
 You may select an offer:
-- by [QuickSelect](#select-by-quickselect)
-- by name [Select by name](#select-by-name)
-- by number [Select by number](#select-by-number)
+- by Quickselect, see [Select by QuickSelect](#select-by-quickselect)
+- by name, see [Select by name](#select-by-name)
+- by number, see [Select by number](#select-by-number)
 
 The different options are described in the following.
 

@@ -29,4 +29,4 @@ The order status in the column *Status of Export to OMS* changed to **Exported**
 
 #### Was this chapter helpful?
 
-If you need further assistance, please contact the Customer Support.
+If you need further assistance, please contact your MPS consultant.

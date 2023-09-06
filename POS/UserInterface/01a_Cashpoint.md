@@ -25,6 +25,8 @@
 
 ## Bill list
 
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
+
 ![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
 - ![Add Customer](../../Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   

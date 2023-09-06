@@ -1,6 +1,6 @@
-[!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
+[!!Create a store in POS](./06_CreateStore.md)
 [!!Manage the POS warehouse](./08_ManageWarehouse.md)
-[!!Create a store in POS](06_CreateStore.md)
+[!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
 
 [comment]: <> (add link to Warehouse module if available)
 

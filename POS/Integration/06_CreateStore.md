@@ -12,8 +12,7 @@
 
 # Create a store in POS
 
-There are two ways to create a store in POS:  
-Either you use the [wizard to create a store](#create-a-store-via-wizard) or you [create the store manually](#create-a-store-manually).   
+There are two ways to create a store in POS: via wizard, see [Create a store via wizard](#create-a-store-via-wizard), or manually, see [Create the store manually](#create-a-store-manually).   
 
 
 ## Create a store via wizard
@@ -40,7 +39,7 @@ The Store Wizard guides you through all steps to create a store and its full fun
     The [Create store via wizard (recommended) ![Store Wizard](../../Assets/Icons/Tool.png "[Store Wizard]") ] button and the [Create Store ![Store Manual](../../Assets/Icons/Plus02.png "[Store Manual]") ] button are displayed.
 
 2. Click the [Create store via wizard (recommended) ![Store Wizard](../../Assets/Icons/Tool.png "[Store Wizard]") ] button to start the store creation wizard.   
-    The *Create Store* wizard window is displayed.
+    The *Create store* wizard window is displayed.
 
 
 ### Configure the store details
@@ -103,7 +102,6 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 In this step you select a printer for the receipt printing.
 
-
 #### Prerequisites
 
 The store wizard has been started, see [Start the store wizard](#start-the-store-wizard).
@@ -114,7 +112,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard]")
 
-> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installd and configured.   
+> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured.   
 For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
 
 1. Select a client for the pay desk in the *Client* drop-down list.
@@ -270,11 +268,11 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 ## Create a store manually
 
 Alternatively to using the [store wizard](#create-a-store-via-wizard), you can create the store manually. Be aware that to use the store and its full functionality, it is necessary to configure the following settings manually:
-- [Configure the store details](#configure-the-store-details-2)
+- [Configure the store details](#configure-the-store-details-1)
 - [Create a pay desk](#create-a-pay-desk)
 - [Configure the pay desk details](#configure-the-pay-desk-details)
-- [Select a printer](#select-a-printer-2)
-- [Enter the store address](#enter-the-store-address-2)
+- [Define a printer](#define-a-printer)
+- [Define the store address](#define-the-store-address)
 - [Assign the POS warehouse](#assign-the-pos-warehouse)
 - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
 - [Assign the stock source](#assign-the-stock-source)
@@ -453,7 +451,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 2. Enter the store address in the fields.
 
     > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code.   
-    For detailed information, see [User interface Venduo POS/Management/Stores](../UserInterface/02b_Stores.md).
+    For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 3. Click the [Save] button in the upper right corner.   
     The *Saving successful* message is displayed. The store address is saved.
@@ -482,10 +480,10 @@ To connect the warehouse management and the stock management to your POS, you ha
 2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
-For detailed information, see [User interface Venduo POS/Management/Stores](../UserInterface/02b_Stores.md).
+For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-    > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
-    This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
+   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
+   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
 
@@ -688,8 +686,8 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 ![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts Store Settings]")
 
-    > [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
-    When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
+> [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
+When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
 For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).

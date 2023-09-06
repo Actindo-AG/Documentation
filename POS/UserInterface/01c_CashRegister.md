@@ -1,6 +1,6 @@
-[!!Complete a purchase](../Operation/04_CompletePurchase.md)
-[!!Manage the cash register](./05_ManageCashRegister.md)
 [!!User interface Global settings](./02a_GlobalSettings.md)
+[!!Complete a purchase](../Operation/04_CompletePurchase.md)
+[!!Manage the cash register](../Operation/05_ManageCashRegister.md)
 
 # Cash register
 
