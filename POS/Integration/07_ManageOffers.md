@@ -33,7 +33,7 @@ No prerequisites to fulfill.
 
 2. Click the *Select product type* drop-down list and select the appropriate product type.
 
-    > [Info] If you have not created a new product type, the only available product type is **PIM Basic Product** .   
+    > [Info] If you have not created a new product type, the only available product type is **PIM Basic Product**.   
     For detailed information on how to create a product type for POS, see [Create a product type](#create-a-product-type).
 
 3. Enter a SKU in the *SKU* field.
@@ -183,7 +183,7 @@ You can create a manual offer in the *Omni-Channel* module for all products rega
 
 #### Prerequisites
 
-At least one product has been created, see [Create products for POS](#create-products-for-pos)
+At least one product has been created, see [Create products for POS](#create-products-for-pos).
 
 #### Procedure
 
@@ -232,7 +232,7 @@ You can create an offer for a single channel to the selected product in the *PIM
 
 #### Prerequisites
 
-At least one product has been created, see [Create products for POS](#create-products-for-pos)
+At least one product has been created, see [Create products for POS](#create-products-for-pos).
 
 #### Procedure
 
@@ -296,7 +296,7 @@ You can create an offer for multiple channels to the selected product in the *PI
 
 #### Prerequisites
 
-At least one product has been created, see [Create products for POS](#create-products-for-pos)
+At least one product has been created, see [Create products for POS](#create-products-for-pos).
 
 #### Procedure
 
