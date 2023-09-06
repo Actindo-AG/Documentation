@@ -2,15 +2,15 @@
 
 
 The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.
+>[INFO] The following procedures show by using examples how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message! 
 
 ## Get header file segments
 
 Get the header file segments of an EDIFACT message in order to be able to fill them.  
-  
-> [INFO] The UNA, UNB and UNH segments are generated automatically, for this reason, the definition starts with the S_BGM segment
 
-You can add constant values as well as strings that are to be determined via attribute mapping. Example: The document number is a variable value that differs for each message. 
+You can add constant values as well as strings that are to be determined via attribute mapping. Example: The document number is a variable value that must differ for each message. 
 
+> [INFO] The UNA, UNB and UNH segments are generated automatically, for this reason, the definition starts with the S_BGM segment.
 
 #### Prerequisites
 
@@ -26,7 +26,7 @@ You can add constant values as well as strings that are to be determined via att
 1. Click the definition for which you want to specify the header file settings.   
     The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ "[Edit definition]")
+    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
 2. Click the *File settings* tab.   
     The *File settings* tab is displayed.
@@ -53,9 +53,6 @@ You can add constant values as well as strings that are to be determined via att
 
 Start specifying the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a constant text value, for example the transaction type *Commercial invoice* that specifies the type of the INVOIC message.
 
->[INFO] The following procedures show by using examples how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message! 
-
-
 #### Prerequisites
 
 - You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
@@ -78,17 +75,17 @@ Start specifying the header file segments by filling out the single elements of 
 
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *1001* field (Document name code). This is a constant value for which your business partner may have specified predefined codes for the document type.
 
-4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") buttonto the right of the *D_1001* row.  
-    The *Edit text value* window is displayed.
+4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button to the right of the *D_1001* row.  
+    The *Set text value* window is displayed.
 
-    ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
+    ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
 
 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
     The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
-    The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.
+    The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data. Additionally, to the right of the *S_BGM C_C002* segment the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
     ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
 
@@ -96,7 +93,7 @@ Start specifying the header file segments by filling out the single elements of 
 
 ## Specify document number &frasl; string attribute
 
-Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a string attribute which must be automatically determined by a data source mapping later, because you need to specify a document number of the INVOIC message that must be unique. 
+Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a string attribute which must be automatically determined by a data source mapping later. This is why you need to specify a document number of the INVOIC message that must be unique. 
 
 #### Prerequisites
 
@@ -126,7 +123,7 @@ Specify the header file segments by filling out the single elements of the BGM (
     - The string attribute has been marked for a later data mapping.
 
 6. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed.
+    The *Exporter definitions* list is displayed. All defined string attributes are added now to the attribute mapping function in the *Data source* tab.
 
 5. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.

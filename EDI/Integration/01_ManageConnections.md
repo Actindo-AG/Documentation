@@ -1,7 +1,7 @@
 # Manage connections
 
 Establish connections via drivers to connect your message receivers with the *Actindo Core1 Platform*. The drivers represent a specific method to transfer the data.   
-In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you have to set up special configurations. 
+In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you may have to set up specific configurations. 
 
 ## Create connection
 

@@ -6,13 +6,13 @@ The definition of the EDIFACT export messages specifies the following:
 - Data mapping   
 - Mapping settings
 
-Each EDIFACT export message requires two definitions in the *DataHub Exporter* module:
+Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
 - Definition of the message header   
     Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver &frasl; sender information and dates.
 - Definition of the line items  
-    The line items contain the single positions of the message, for example the single items of an invoice. It is necessary to have a specific definition for the line items because they require another data source than the message header. 
+    The line item section contain a list of single positions of the message, for example the required information on each article that are part of an invoice. It is necessary to have a specific definition for the line items because they require another data source than the message header. 
     
-First you create a definition setting. After you have defined the file settings, the data source, and the mapping settings, you can preview and activate the definition.
+First you create a basic definition setting. After you have added the file settings, the data source, and the mapping settings, you can preview and activate the definition.
 
 
 ## Create basic definition settings 
@@ -112,7 +112,7 @@ After you have configured the entire definition, you can preview the message tha
 #### Prerequisites
 
 - At least one definition setting has been created, see [Specify header file settings](#create-basic-definition-settings).
-- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) or [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
+- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Create data source](./04_ManageDataSources.md#create-data-source).
 - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MappingSettings.md#define-mapping-settings).
 
@@ -123,7 +123,7 @@ After you have configured the entire definition, you can preview the message tha
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the checkbox of the definition you want to preview. Alternatively, you can click the download link of a definition in the list to output the preview directly.   
+1. Click the checkbox of the definition you want to preview. Alternatively, you can click the *Download link* of a definition in the list to output the preview directly.   
     The toolbar is displayed. 
     
 
@@ -140,26 +140,28 @@ After you have configured the entire definition, you can preview the message tha
 
     ![Preview all](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreviewAll.png "[Preview all]")-->
 
-4. If you want to define the preview attributes before, click the *Entity type* drop-down list and select the **Retail suite business document** resp. the **Retail suite business document position** entry. Alternatively, you can use any other data source or entity types that you need for sending the EDIFACT messages.
+3. Click the *Entity type* drop-down list and select the **Retail suite business document** resp. the **Retail suite business document position** entry. Alternatively, you can use any other data source or entity types that is suitable for sending the EDIFACT messages.
 
-5. Enter **31** in the *Primary identifier* field.
+4. Enter **31** in the *Primary identifier* field.
 
-5. Click the *OPEN PREVIEW* button. 
-    The syntax of the message(s) is output in a new browser window. Copy it and send it to your business partner for validation. 
+5. Click the [OPEN PREVIEW] button. 
+    The syntax of the message(s) is output in a new browser window. 
+
+6. Copy the output and send it to your business partner for validation. 
 
 
 
 ## Activate definition
 
-Activate the definition to be able to send messages of the defined type to the business partner.
+Activate the definition to be able to send EDIFACT messages to the business partner.
 
 #### Prerequisites
 
 - At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
-- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) or [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
+- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
 - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).
-- You have sent the preview to the customer to validate whether the message is correct, see [Preview definition](#preview-definition).
+- You have sent the preview to the customer to validate whether the message structure is correct and sufficient, see [Preview definition](#preview-definition).
 
 #### Procedure
 
@@ -184,7 +186,7 @@ Activate the definition to be able to send messages of the defined type to the b
 
 ## Deactivate definition
 
-Deactivate a definition if you no longer need it.
+Deactivate a definition if you no longer need it. We recommend deactivating a no longer needed definition instead of deleting it.
 
 #### Prerequisites
 
@@ -213,7 +215,7 @@ Deactivate a definition if you no longer need it.
 
 ## Delete definition
 
-Delete a definition if you no longer need it. You can delete several definitions at once.
+Delete a definition if you no longer need it and you want to clear your definition list. You can delete several definitions at once.
 
 > [CAUTION] Note that you will lose the whole definition with all EDIFACT message settings, data sources, and mapping settings when deleting a definition. Alternatively, you can deactivate a definition to keep your settings, see [Deactivate definition](#deactivate-definition).
 
