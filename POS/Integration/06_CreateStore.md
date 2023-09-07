@@ -92,7 +92,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 2. Select a cashier from the list by selecting the corresponding checkbox.
 
     > [Info] The cashiers list displays all the users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.
-   For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md)
+   For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE PAYDESKS] button in the bottom right corner of the window.   
     The *Printing* wizard window is displayed when the pay desk is created.
