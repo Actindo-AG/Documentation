@@ -48,6 +48,17 @@ Beispiele, wie man leere Screen-Bestandteile ausschneiden kann, wenn sich unten 
 
 ![Horizontal with double separation line](../Assets/Screenshots/DocuTest/CutOuts/HorizontalDoubleSeparation.png "[Horizontal with double separation line]")
 
+
+**Screenshot from big screen**
+
+
+![Screenshot from big screen](../Assets/Screenshots/DocuTest/CutOuts/Bigscreen.png "[Screenshot from big screen]")
+
+**Screenshot from laptop screen**
+
+![Screenshot from laptop screen](../Assets/Screenshots/DocuTest/CutOuts/LaptopScreen.png "[Screenshot from laptop screen]")
+
+
 **Snag it docu**
 
 Note: For Cut Out quick styles with straight edges, Snagit seamlessly stitches the sections together. For other edge styles, Snagit leaves a gap. The size of the gap is not editable.
