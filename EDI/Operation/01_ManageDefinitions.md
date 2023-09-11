@@ -28,7 +28,7 @@ Define basic data for the export definition. You must define a definition settin
 
 *DataHub Exporter > Exports*
 
-![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")*
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create definition* view is displayed.
@@ -111,7 +111,7 @@ After you have configured the entire definition, you can preview the message tha
 
 #### Prerequisites
 
-- At least one definition setting has been created, see [Specify header file settings](#create-basic-definition-settings).
+- At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
 - You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Create data source](./04_ManageDataSources.md#create-data-source).
 - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MappingSettings.md#define-mapping-settings).
