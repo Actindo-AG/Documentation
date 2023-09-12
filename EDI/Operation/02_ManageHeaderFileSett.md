@@ -84,8 +84,8 @@ Start specifying the header file segments by filling out the single elements of 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
-    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry.   
-    The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data. Additionally, to the right of the *S_BGM C_C002* segment the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
+    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The field name and description is no longer displayed in italics.  
+    The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data. Additionally, to the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
     ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
 
@@ -118,7 +118,7 @@ Specify the header file segments by filling out the single elements of the BGM (
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *1004* field (Document identifier). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
-     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required.   
+     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description is no longer displayed in italics.  
     - The *S_BGM C_C106* segment is now highlighted with a small black border. This indicates that the segment contains data.   
     - The string attribute has been marked for a later data mapping.
 
