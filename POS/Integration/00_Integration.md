@@ -28,7 +28,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
         - [Configure the store details](./06_CreateStore.md#configure-the-store-details)
         - [Configure the pay desk](./06_CreateStore.md#configure-the-pay-desk)
-        - [Select a printer](./06_CreateStore.md#select-a-printer)
+        - [Define a printer](./06_CreateStore.md#define-a-printer)
         - [Enter the store address](./06_CreateStore.md#enter-the-store-address)
         - [Assign a POS warehouse](./06_CreateStore.md#assign-a-pos-warehouse)
         - [Assign a stock source](./06_CreateStore.md#assign-a-stock-source)

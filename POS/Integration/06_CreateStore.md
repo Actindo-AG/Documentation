@@ -44,7 +44,7 @@ The Store Wizard guides you through all steps to create a store and its full fun
 
 ### Configure the store details
 
-In this step, you can add additional information for your store and assign a store manager.
+In this step you can add additional information for your store and assign a store manager.
 
 #### Prerequisites
 
@@ -73,7 +73,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Configure the pay desk
 
-In this step, you create one or several pay desks and assign cashiers.
+In this step you create one or several pay desks and assign cashiers.
 
 #### Prerequisites
 
@@ -147,7 +147,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 1. Enter the store address in the fields.
 
-    > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](../UserInterface/02b_Stores.md#step-4store-address).
+    > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](../UserInterface/02b_Stores.md#step-4---store-address).
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Saving successful* message and the *Stock* wizard window are displayed when the store address is saved.
@@ -242,7 +242,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Finalize the wizard
 
-In this step, you check if any necessary information is still missing and you complete the configuration of the store.
+In this step you check if any necessary information is still missing and you complete the configuration of the store.
 
 #### Prerequisites
 
@@ -272,7 +272,7 @@ Alternatively to using the [store wizard](#create-a-store-via-wizard), you can c
 - [Create a pay desk](#create-a-pay-desk)
 - [Configure the pay desk details](#configure-the-pay-desk-details)
 - [Define a printer](#define-a-printer)
-- [Define the store address](#define-the-store-address)
+- [Define the store address](#define-a-printer)
 - [Assign the POS warehouse](#assign-the-pos-warehouse)
 - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
 - [Assign the stock source](#assign-the-stock-source)
@@ -416,17 +416,18 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 ## Define a printer
 
-You have to define a printer for the printing of receipts.
+You have to define a printer for the printing of receipts.  
 
 #### Prerequisites
 
 - A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
 - At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
-- The printer for POS is configured, see [Configure the printer for POS](./03_ConfigurePrinter.md).
 
 #### Procedure
 
-[comment]: <> (Add procedure to select a printer manually)
+To define a printer for a specific pay desk, see the procedure [Configure the printer client for POS](./03_ConfigurePrinter.md). You just have to select the desired pay desk from the *Event* drop-down list. 
+
+> [Info] If you create a new pay desk, bear in mind that it may take some time for the new pay desk to be displayed in the *Event* drop-down list.
 
 
 ## Define the store address
@@ -639,7 +640,7 @@ No prerequisites to fulfill.
 In this step you assign the accounts to which you want to book the payments.   
 You may assign the same accounts to all stores or you may assign different accounts per store or even per pay desk. Depending on your choice, you have to assign the accounts in different places:   
 - To [assign the same accounts to all stores](#assign-the-accounts-in-the-global-settings), enter the accounts in the global settings.
-- To [assign the accounts to a single store](#assign-the-accounts), enter the accounts in the admin settings of the respective store.
+- To [assign the accounts to a single store](#assign-the-accounts-in-the-store-settings), enter the accounts in the admin settings of the respective store.
 - To [assign the accounts to a single pay desk](#assign-the-accounts-in-the-pay-desk-settings), enter the accounts in the admin settings of the respective pay desk.
 
 

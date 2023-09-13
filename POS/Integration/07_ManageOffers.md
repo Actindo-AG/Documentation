@@ -155,9 +155,13 @@ At least one product has been created, see [Create products for POS](#create-pro
 
     + Select one of the radio buttons for the *ETL mode* section:   
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
-            Changes in a PIM product must be triggered manually to be applied to the offers.   
+            Changes in a PIM product must be triggered manually to be applied to the offer.   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic*   
+            Changes in a PIM product are automatically applied to the offer after confirmation. 
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic, changes must be confirmed by another user*   
+            Changes in a PIM product are automatically applied to the offer after confirmation by another user. 
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
-            Changes in a PIM product are automatically applied to the offers.
+            Changes in a PIM product are automatically applied to the offer.
 
     + Select one of the radio buttons for the *Initial offer status* section:   
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Active*   
@@ -192,7 +196,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 ![OC Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[OC Offers]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") (Manual offer) button and the ![PIM Offer](../../Assets/Icons/Package.png "[PIM Offer]") (aus PIM-Produkt erstellen) button are displayed.
+    The ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") (Manual offer) button and the ![PIM Offer](../../Assets/Icons/Package.png "[PIM Offer]") (Create from PIM product) button are displayed.
 
     > [Info] If the product you want to create an offer for exists in PIM, it is recommended to create the [offer from the PIM product](#create-an-offer-from-a-pim-product-in-Omni-Channel) instead of creating a manual offer.
 
@@ -267,9 +271,13 @@ At least one product has been created, see [Create products for POS](#create-pro
 
     + Select one of the radio buttons for the ETL mode:   
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
-            Changes in a PIM product must be triggered manually to be applied to the offers.   
+            Changes in a PIM product must be triggered manually to be applied to the offer.   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic*   
+            Changes in a PIM product are automatically applied to the offer after confirmation. 
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic, changes must be confirmed by another user*   
+            Changes in a PIM product are automatically applied to the offer after confirmation by another user. 
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
-            Changes in a PIM product are automatically applied to the offers.
+            Changes in a PIM product are automatically applied to the offer.
 
     + Select the initial offer status in the *Status* drop-down list:   
         - **Active**   
@@ -332,10 +340,14 @@ At least one product has been created, see [Create products for POS](#create-pro
 
     + Select one of the radio buttons for the ETL mode:   
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Manual*   
-            Changes in a PIM product must be triggered manually to be applied to the offers.   
+            Changes in a PIM product must be triggered manually to be applied to the offer.   
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic*   
+            Changes in a PIM product are automatically applied to the offer after confirmation. 
+        - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Semiautomatic, changes must be confirmed by another user*   
+            Changes in a PIM product are automatically applied to the offer after confirmation by another user. 
         - ![Radio button](../../Assets/Icons/Radiobutton.png "[Radio button]") *Automatic*   
-            Changes in a PIM product are automatically applied to the offers.
-
+            Changes in a PIM product are automatically applied to the offer.
+         
     + Activate the toggles of the marketplaces for which you want to create the offers in the *Select connections* section. If you want to create an offer for all channels, click the [SELECT ALL] button to activate all toggles.
 
 6. Click the [FINISH] button in the bottom right corner of the window.   
@@ -471,7 +483,7 @@ A product is assigned to a certain QuickSelect Category when you assign the crea
 > [Info] You have to repeat this procedure for each offer you want to assign the QuickSelect Category to.
 
 [comment]: <> (Is there an alternative to manually assign each offer?)
-[comment]: <> (JULIAN: Hier könnten man noch unterbringen wie man zusätzliche Felder mapped ausm PIM raus oder Felder ausm Omni-Channel ins PIM übernimmt)
+[comment]: <> (JULIAN: Hier könnten man noch unterbringen wie man zusätzliche Felder mapped aus PIM raus oder Felder aus Omni-Channel ins PIM übernimmt)
 
 
 

@@ -10,7 +10,7 @@ To print receipts, invoices, shift summaries etc., a printer must be configured 
 
 #### Prerequisites
 
-The current APS is installed and has been started including a successful login.
+- The current APS is installed and has been started including a successful login.
 
 > [Info] Note that you have to use a separate user for the APS client as parallel logins are forbidden.
 
@@ -44,9 +44,11 @@ The current APS is installed and has been started including a successful login.
 
 8. Click the *Module* drop-down list and select **POS** in the list of modules.
 
-9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks.
+9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks, as displayed in the example below.
+
+    ![Print settings example](../../Assets/Screenshots/Printing/Settings/PrintSettingsExample.png "[Print settings example]")
 
 10. Click the [SAVE] button in the bottom right corner of the window.   
     The printer is configured for the selected pay desk. The *Print settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.
 
-[comment]: <> (Is that right? Check it, when APS is installed)
+[comment]: <> (Frage von Hannah: Is that right? Check it, when APS is installed. Frage von MV: Diese Procedure wäre für mich eher 'Define the printer' unter 06_Createstore.md, wenn man ein Store manuell erstellt. Ich habe von Create store auf diese Procedure einfach verwiesen. Die Prerequisites hier stimmen aber nicht ganz, denn man braucht schon ein Store und ein Pay desk erstellt zu haben, damit die hier zuweisen kann. Aber was muss der Benutzer vorher machen, um einen Drucker zu konfigurieren, das wird nicht erklärt.)

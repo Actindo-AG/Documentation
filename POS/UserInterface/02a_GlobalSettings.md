@@ -43,6 +43,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 - *Length of the sequential number*   
     Define the length of the sequential number.
+    
   [comment]: <> (Is it the maximum length of the number or the exact length?)
 
 - [x] *Reset after time interval*   

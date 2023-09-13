@@ -355,7 +355,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ![Product Details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
 
-- *Quantity*
+- *Quantity*   
     Quantity of the selected product in the bill list.
 
 - ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus)  
