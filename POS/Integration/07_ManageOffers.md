@@ -115,7 +115,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 2. Click the ![PIM Offer](../../Assets/Icons/Package.png "[PIM Offer]") (create from PIM product) button to create an offer from a PIM product.   
     The *Select marketplace* wizard window is displayed.
 
-    ![Select marketplace](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer/SelectMarketplace.png "[Select marketplace]")
+    ![Select marketplace](../../Assets/Screenshots/Channels/Offers/Offers/SelectMarketplace.png "[Select marketplace]")
 
 3. Configure the following settings:
 
@@ -135,10 +135,10 @@ At least one product has been created, see [Create products for POS](#create-pro
 
 
 4. Click the button [CONTINUE] in the bottom right corner.    
-    If you have selected the *All products* radio button, continue with step **8** .   
+    If you have selected the *All products* radio button, continue with step **8**.   
     If you have selected the *Select products* radio button, the *Select products* wizard window is displayed.
 
-    ![Select products](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer/SelectProducts.png "[Select products]")
+    ![Select products](../../Assets/Screenshots/Channels/Offers/OffersSelectProducts.png "[Select products]")
 
 5. Select the checkboxes of all products to which you want to create an offer for.   
     A toolbar is displayed above the product list.
@@ -149,7 +149,7 @@ At least one product has been created, see [Create products for POS](#create-pro
 7. Click the [CONTINUE] button in the upper right corner.   
     The *Review and finalize* wizard window is displayed.
 
-    ![Review and finalize](../../Assets/Screenshots/Channels/Offers/Offers/PIMOffer/ReviewFinalize.png "[Review and finalize]")
+    ![Review and finalize](../../Assets/Screenshots/Channels/Offers/Offers/ReviewFinalize.png "[Review and finalize]")
 
 8. Configure the following settings:
 

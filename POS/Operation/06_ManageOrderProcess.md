@@ -127,7 +127,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
     > [Info] The payment process is performed asynchronously. That means that it may take a few minutes until the payment is synchronized with the invoicing. If the status of the order is still **Pending**, click the [KICK JOB] button in the upper left corner of the list to start a new synchronization with the *Order management* module.
 
-2. When the order status of the order is **Sync successful**, switch to the *Order management* module: *Order management > Overview* .   
+2. When the order status of the order is **Sync successful**, switch to the *Order management* module: *Order management > Overview*   
     The *Overview* menu entry is opened. The *OVERVIEW* tab with the invoicing list is displayed.
 
     ![Overview](../../Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
