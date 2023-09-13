@@ -138,7 +138,7 @@ At least one product has been created, see [Create products for POS](#create-pro
     If you have selected the *All products* radio button, continue with step **8**.   
     If you have selected the *Select products* radio button, the *Select products* wizard window is displayed.
 
-    ![Select products](../../Assets/Screenshots/Channels/Offers/OffersSelectProducts.png "[Select products]")
+    ![Select products](../../Assets/Screenshots/Channels/Offers/Offers/SelectProducts.png "[Select products]")
 
 5. Select the checkboxes of all products to which you want to create an offer for.   
     A toolbar is displayed above the product list.
