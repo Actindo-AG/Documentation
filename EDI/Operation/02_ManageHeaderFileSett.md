@@ -115,7 +115,7 @@ Specify the header file segments by filling out the single elements of the BGM (
 
     ![S_BGM C_C106 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106.png "[S_BGM  C_C106 segment]")
 
-3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *1004* field (Document identifier). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
+3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *D_1004* row (to identify a document). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
      - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description is no longer displayed in italics.  
