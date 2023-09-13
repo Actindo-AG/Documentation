@@ -450,6 +450,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 **Pay desks**
 
+- [Add]  
     Click this button to add a pay desk to the store. The *Create pay desk* window is displayed.
 
 - *Name*   

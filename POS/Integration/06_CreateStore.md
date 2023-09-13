@@ -12,8 +12,7 @@
 
 # Create a store in POS
 
-There are two ways to create a store in POS:  
-Either you use the [wizard to create a store](#create-a-store-via-wizard) or you [create the store manually](#create-a-store-manually).   
+There are two ways to create a store in POS: via wizard, see [Create a store via wizard](#create-a-store-via-wizard), or manually, see [Create the store manually](#create-a-store-manually).   
 
 
 ## Create a store via wizard
@@ -40,12 +39,12 @@ The Store Wizard guides you through all steps to create a store and its full fun
     The [Create store via wizard (recommended) ![Store Wizard](../../Assets/Icons/Tool.png "[Store Wizard]") ] button and the [Create Store ![Store Manual](../../Assets/Icons/Plus02.png "[Store Manual]") ] button are displayed.
 
 2. Click the [Create store via wizard (recommended) ![Store Wizard](../../Assets/Icons/Tool.png "[Store Wizard]") ] button to start the store creation wizard.   
-    The *Create Store* wizard window is displayed.
+    The *Create store* wizard window is displayed.
 
 
 ### Configure the store details
 
-In this step, you can add additional information for your store and assign a store manager.
+In this step you can add additional information for your store and assign a store manager.
 
 #### Prerequisites
 
@@ -74,7 +73,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Configure the pay desk
 
-In this step, you create one or several pay desks and assign cashiers.
+In this step you create one or several pay desks and assign cashiers.
 
 #### Prerequisites
 
@@ -93,7 +92,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 2. Select a cashier from the list by selecting the corresponding checkbox.
 
     > [Info] The cashiers list displays all the users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.
-   For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md)
+   For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE PAYDESKS] button in the bottom right corner of the window.   
     The *Printing* wizard window is displayed when the pay desk is created.
@@ -102,7 +101,6 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 ### Select a printer
 
 In this step you select a printer for the receipt printing.
-
 
 #### Prerequisites
 
@@ -114,7 +112,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard]")
 
-> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installd and configured.   
+> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured.   
 For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
 
 1. Select a client for the pay desk in the *Client* drop-down list.
@@ -149,7 +147,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 1. Enter the store address in the fields.
 
-    > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](../UserInterface/02b_Stores.md#step-4store-address).
+    > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](../UserInterface/02b_Stores.md#step-4---store-address).
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Saving successful* message and the *Stock* wizard window are displayed when the store address is saved.
@@ -244,7 +242,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Finalize the wizard
 
-In this step, you check if any necessary information is still missing and you complete the configuration of the store.
+In this step you check if any necessary information is still missing and you complete the configuration of the store.
 
 #### Prerequisites
 
@@ -270,11 +268,11 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 ## Create a store manually
 
 Alternatively to using the [store wizard](#create-a-store-via-wizard), you can create the store manually. Be aware that to use the store and its full functionality, it is necessary to configure the following settings manually:
-- [Configure the store details](#configure-the-store-details-2)
+- [Configure the store details](#configure-the-store-details-1)
 - [Create a pay desk](#create-a-pay-desk)
 - [Configure the pay desk details](#configure-the-pay-desk-details)
-- [Select a printer](#select-a-printer-2)
-- [Enter the store address](#enter-the-store-address-2)
+- [Define a printer](#define-a-printer)
+- [Define the store address](#define-a-printer)
 - [Assign the POS warehouse](#assign-the-pos-warehouse)
 - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
 - [Assign the stock source](#assign-the-stock-source)
@@ -418,17 +416,18 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 ## Define a printer
 
-You have to define a printer for the printing of receipts.
+You have to define a printer for the printing of receipts.  
 
 #### Prerequisites
 
 - A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store via wizard](#create-a-store-via-wizard).
 - At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
-- The printer for POS is configured, see [Configure the printer for POS](./03_ConfigurePrinter.md).
 
 #### Procedure
 
-[comment]: <> (Add procedure to select a printer manually)
+To define a printer for a specific pay desk, see the procedure [Configure the printer client for POS](./03_ConfigurePrinter.md). You just have to select the desired pay desk from the *Event* drop-down list. 
+
+> [Info] If you create a new pay desk, bear in mind that it may take some time for the new pay desk to be displayed in the *Event* drop-down list.
 
 
 ## Define the store address
@@ -453,7 +452,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 2. Enter the store address in the fields.
 
     > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code.   
-    For detailed information, see [User interface Venduo POS/Management/Stores](../UserInterface/02b_Stores.md).
+    For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 3. Click the [Save] button in the upper right corner.   
     The *Saving successful* message is displayed. The store address is saved.
@@ -482,10 +481,10 @@ To connect the warehouse management and the stock management to your POS, you ha
 2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
-For detailed information, see [User interface Venduo POS/Management/Stores](../UserInterface/02b_Stores.md).
+For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-    > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
-    This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
+   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
+   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
 
@@ -641,7 +640,7 @@ No prerequisites to fulfill.
 In this step you assign the accounts to which you want to book the payments.   
 You may assign the same accounts to all stores or you may assign different accounts per store or even per pay desk. Depending on your choice, you have to assign the accounts in different places:   
 - To [assign the same accounts to all stores](#assign-the-accounts-in-the-global-settings), enter the accounts in the global settings.
-- To [assign the accounts to a single store](#assign-the-accounts), enter the accounts in the admin settings of the respective store.
+- To [assign the accounts to a single store](#assign-the-accounts-in-the-store-settings), enter the accounts in the admin settings of the respective store.
 - To [assign the accounts to a single pay desk](#assign-the-accounts-in-the-pay-desk-settings), enter the accounts in the admin settings of the respective pay desk.
 
 
@@ -688,8 +687,8 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 ![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts Store Settings]")
 
-    > [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
-    When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
+> [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
+When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
 For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).

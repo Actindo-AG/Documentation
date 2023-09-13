@@ -25,6 +25,8 @@
 
 ## Bill list
 
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
+
 ![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
 - ![Add Customer](../../Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   
@@ -353,7 +355,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ![Product Details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
 
-- *Quantity*
+- *Quantity*   
     Quantity of the selected product in the bill list.
 
 - ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus)  

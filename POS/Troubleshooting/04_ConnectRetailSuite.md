@@ -99,4 +99,4 @@ If the connection to the Retailsuite is not working, there could be a problem wi
 
 #### Was this chapter helpful?
 
-If you need further assistance, please contact the Customer Support.
+If you need further assistance, please contact your MPS consultant.
