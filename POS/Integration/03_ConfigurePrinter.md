@@ -10,7 +10,7 @@ To print receipts, invoices, shift summaries etc., a printer must be configured 
 
 #### Prerequisites
 
-- The current APS is installed and has been started including a successful login.
+The current APS is installed and has been started including a successful login.
 
 > [Info] Note that you have to use a separate user for the APS client as parallel logins are forbidden.
 
