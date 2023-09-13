@@ -41,7 +41,7 @@ Users are created in the main account only.
       You define an individual password, and it is sent by Actindo to the email address specified below. 
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email.  
-    - **Do not send password**   
+    - **Do not change password**   
       Use this option if you want to change the user's data, but you do not want to edit the password. 
 
 5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
@@ -139,7 +139,7 @@ Users are edited in the main account only. There is one exception: Users are abl
       You define an individual password, and it is sent by Actindo to the email address specified below. 
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email.   
-    - **Do not send password**   
+    - **Do not change password**   
       Use this option if you want to change the user's data, but you do not want to change the password resp. the password to be sent. 
 
 4. If desired, disable the *Universal Second Factor (U2F)* toggle.
