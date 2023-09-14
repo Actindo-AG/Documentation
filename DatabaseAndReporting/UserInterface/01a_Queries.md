@@ -39,7 +39,7 @@
 - Format   
     Click this drop-down list to select the desired format to visualize or download the query results. This button is only displayed if a single checkbox in the list of queries is selected. The following options are available:  
     - **CSV**  
-        Select this option to visualize or download the query results in CSV format.
+        Select this option to download the query results in CSV format.
     - **XML**   
         Select this option to visualize or download the query results in XML format.
 
@@ -47,8 +47,8 @@
     Click this button to download the query results. This button is only displayed if a single checkbox in the list of queries is selected.   
     The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
-- ![View](../../Assets/Icons/Eye02.png "[View]") (View)   
-    Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries is selected.  
+- ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview)   
+    Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries is selected. The **XML** format option must also be selected.  
     The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
 - [COPY DOWNLOAD LINK]  

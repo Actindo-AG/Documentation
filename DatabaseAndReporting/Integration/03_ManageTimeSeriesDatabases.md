@@ -124,7 +124,6 @@ At least one time series database has been created, see [Create a time series da
 2. Click the [DELETE] button in the editing toolbar.  
     The *Time series has been deleted* pop-up window is displayed. The deleted time series database is removed from the list of time series databases.
 
-    ![Deleted time series database](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesDatabases/TimeSeriesDeleted.png "[Deleted time series database]")
 
 [^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  
 

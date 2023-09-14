@@ -17,12 +17,12 @@ Moreover, the managed queries may only be executed by users who have been grante
 
 ## Execute a query via API 
 
-Execute a predefined query to access the available data in your Core1 account. To execute a query via API, the user must be logged in. The query results may be previewed in your browser in CSV or XML format or may be downloaded in a CSV or an XML file. 
+Execute a predefined query to access the available data in your Core1 account. To execute a query via API, the user must be logged in. The query results may be previewed in your browser in XML format, and may be downloaded in a CSV or an XML file. 
 
 
 ### Preview the query results
 
-Execute the query and preview the results in your browser in CSV or XML format.
+Execute the query and preview the results in your browser in XML format.
 
 #### Prerequisites
 
@@ -39,11 +39,7 @@ Execute the query and preview the results in your browser in CSV or XML format.
 1. Select the checkbox of the query you want to preview.  
     The editing toolbar is displayed.
 
-2. Click the file format drop-down list in the editing toolbar and select the desired option. The following options are available:  
-      - **CSV**   
-        The query results are displayed in CSV format.   
-      - **XML**   
-        The query results are displayed in XML format.  
+2. Click the file format drop-down list in the editing toolbar and select **XML**.
 
 3. Click the ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview) button in the editing toolbar.  
     The *Execute saved query* window is displayed.  
@@ -99,7 +95,7 @@ Execute the query and download the results in a CSV or an XML format file.
 5. Enter the desired value in the placeholder field. 
 
 6. Click the [EXECUTE] button.   
-    The query is executed. The query results are downloaded in the selected file format. By default, the file is saved in the downloads folder of your device. 
+    The query is executed. The query results are downloaded in the selected format. By default, the file is saved in the downloads folder of your device. 
 
 
 

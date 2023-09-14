@@ -89,7 +89,7 @@ The list displays all intents. Depending on the settings, the displayed columns 
     Click this button to download the displayed log message.
 
 - ![View](../../Assets/Icons/Eye02.png "[View]") (View)    
-    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message "Log message title"](#detail-of-log-message-log-message-title). 
+    Click this button to display the details of the log message. Alternatively, you can click directly a row in the list to display the details of the log message. The *Detail of log message "Log message title"* view is displayed, see [Detail of log message](#detail-of-log-message). 
 
 [comment]: <> (Julian: Checkbox -selection mode- und Show message button schon raus? Bei NoE schon, aber ist des standard UI auch geändert? Keine Logs in Sandbox, daher nicht möglich zu prüfen)
 
@@ -122,7 +122,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Log identification number. The ID number is automatically assigned by the system.
 
 
-### Detail of log message "Log message title"
+### Detail of log message
 
 *Database and reporting > Logging > Tab LOG > Select intent > Select log message*
 
@@ -138,7 +138,7 @@ The list displays all log messages of the selected intent. Depending on the sett
     Description of the log message.
 
 
-### Detail of log message "Log message title" &ndash; Attributes
+### Detail of log message &ndash; Attributes
 
 *Database and reporting > Logging > Tab LOG > Select intent > Select log message > Tab Attributes*
 
@@ -186,7 +186,7 @@ In general, the most common attribute sets are the standard error log message at
     Description of the error. An exception is only displayed if an error has occurred and a http status code of the **4xx** class, for instance a **404** code, has been returned.
 
 
-### Detail of log message "Log message title" &ndash; Dependencies
+### Detail of log message &ndash; Dependencies
 
 *Database and reporting > Logging > Tab LOG > Select intent > Select log message > Tab Dependencies*
 
