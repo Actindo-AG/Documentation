@@ -53,8 +53,6 @@ The list displays all time series groups. Depending on the settings, the display
 
 ![Create time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/CreateTimeSeriesGroup.png "[Create time series group]")
 
-**Create time series group**
-
 - *Title*  
     Enter a description for the time series group.
 
@@ -72,8 +70,6 @@ The list displays all time series groups. Depending on the settings, the display
 *Database and reporting > Managed queries > Tab TIME SERIES GROUPS > Select time series group checkbox > Button Edit*  
 
 ![Edit time series group](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/TimeSeriesGroups/EditTimeSeriesGroup.png "[Edit time series group]")
-
-**Edit time series group**
 
 - *Title*  
     Click this field to edit the description of the time series group.

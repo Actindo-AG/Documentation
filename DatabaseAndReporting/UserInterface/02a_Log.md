@@ -70,8 +70,6 @@ The list displays all intents. Depending on the settings, the displayed columns 
 
 ![List of messages](../../Assets/Screenshots/DatabaseAndReporting/Logging/ListMessages.png "[List of messages]")
 
-**List of messages**
-
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *List of messages* view and return to the list of intents. 
 

@@ -5,10 +5,10 @@
 
 # Manage the queries
 
-Managed queries are pre-defined SQL-Queries to extract data from the database and/or manipulate data in the database. Access to queries can be restricted to specific user groups. Instead of entering and executing a query directly in the MySQL console, the users can simply select the query to be executed from the list of queries. 
+Managed queries are predefined SQL queries to extract data from the database and/or manipulate data in the database. Access to queries can be restricted to specific user groups. Instead of entering and executing a query directly in the MySQL console, the users can simply select the query to be executed from the list of queries. 
 
-Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. 
-The data is provided either in CSV- or XML-Format.
+Data can be accessed via API and download, that is, users must be logged in to the *Actindo Core1 Platform*, or via public download. In the case of public download, a download link and a UUID (Universally Unique Identifier) are required. Queries can be read-only, that is, the mere access and retrieval of available data, or write access can be enabled, which additionally allows to modify the data contained in the database. The data is provided either in CSV or XML format.
+
 Managed queries can be created, edited, and deleted, as well as organized in categories, see [Manage the query categories](./02_ManageQueryCategories.md). The query access can also be restricted or granted per query based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 
 
@@ -49,7 +49,7 @@ No prerequisites to fulfill.
     + Click the [TRY QUERY (READ ONLY)] button to test the query.   
         The *Bind query parameters placeholders* window is displayed.
         
-        > [Info] There are two possible placeholders to define time conditions: **|datetime**, **|number** and **|string**. The **|datetime** placeholder generates a ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") (Calendar) button in the *Bind query parameters placeholders* window, whereas the **|string** placeholder creates a free text field.
+        > [Info] There are different placeholders to define time conditions: **|datetime**, **|number** and **|string**. The **|datetime** placeholder generates a ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") (Calendar) button in the *Bind query parameters placeholders* window, whereas the **|string** and **|number** placeholders create a free text and number field respectively. The required date format corresponds to the one defined in the user's web browser. 
 
         ![Bind query parameters placeholders](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/BindQueryParamsPlaceholders.png "[Bind query parameters placeholders]")
 
@@ -57,8 +57,6 @@ No prerequisites to fulfill.
 
     + Click the [EXECUTE] button.   
         The query results are displayed in the *Try query result* box at the bottom of the workspace. 
-
-[comment]: <> (Julian: Gibt es für das Textfeld im Bind query parameters placeholders Fenster eine Formatvorgabe? DD.MM.YYYY? YYYY-MM-DD? Uhrzeit?; Aktuelles Format wie der User im Web-Browser definiert hat)
 
 [comment]: <> (Julian: ETL use enabled muss noch ausgeblendet werden)
 
@@ -75,10 +73,12 @@ No prerequisites to fulfill.
     > [Info] A specific download link, containing a UUID (Universally Unique Identifier), is required to execute the query in a web browser.
 
 9. If desired, select the *Write access enabled* checkbox to allow write operations when executing the query. Otherwise, a query with write operations, such as INSERT or DELETE, will not be executed and an error message will be displayed.
-    > [Info] Only a user, who has rights granted to execute queries with write-access, is allowed to create or modify queries with write-access
+
+    > [Info] Only a user who has been granted rights to execute queries with write access is allowed to create or modify queries with write access.
 
 10. If desired, click the [TRY QUERY (READ ONLY)] button to test the query.  
     The query results are displayed in the *Try query result* box at the bottom of the workspace.
+
 11. Click the [SAVE] button.  
    The query has been saved. The *Create MySQL query* is closed. The new query is displayed in the list of queries.
 

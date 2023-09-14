@@ -71,8 +71,5 @@ The users have been granted the applicable access rights, see [Grant access righ
 4. Press the **ENTER** key.  
     The data has been modified. The query results are displayed in the interactive console.   
 
-    ![Query results](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/QueryResults.png "[Query results]")
-
-[comment]: <> (Julian: Bitte, sinnvoller Query für Schritt 3 schreiben und evtl. Screenshot with write access ziehen lassen?)
 
 

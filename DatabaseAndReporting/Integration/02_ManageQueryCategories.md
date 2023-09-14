@@ -7,7 +7,7 @@
 Query categories are used for the logical organization of the managed queries. The managed queries are organized in a tree structure of folders and sub-folders.
 
 Query categories can be created, edited, deleted, and divided into sub-categories.
-For example one can create a folder for queries used for monitoring the system and divide them in categories like "Performance", "Exceptions", "Order Volume/Revenue",... 
+For example, you can create a folder for queries used for monitoring the system and divide them into sub-categories like "Performance", "Exceptions", "Order Volume/Revenue", etc. 
 
 All individual managed queries can, in turn, be assigned to a category and/or a sub-category, see [Create a query](./01_ManageQueries.md#create-a-query). The read and save rights of categories can also be restricted or granted based on the user group, see [Grant access rights to a user group](./05_ManageUserRights.md#grant-access-rights-to-a-user-group).
 

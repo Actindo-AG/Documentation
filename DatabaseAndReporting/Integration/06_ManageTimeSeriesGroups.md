@@ -4,6 +4,8 @@
 
 The time series databases can be organized in groups to execute them at certain time intervals or under specific scenarios. The time series databases assigned to a group are then executed sequentially, thereby reducing the number of parallel queries in case of many measurements. Different groups running at the same time interval are executed in parallel.  
 
+
+
 ## Create a time series group
 
 Create a time series group to group together any number of time series databases and determine the desired time interval to execute them.
@@ -26,7 +28,8 @@ No prerequisites to fulfill.
 2. Enter a descriptive name for the time series group in the *Title* field.
 
 3. Enter a valid cron expression in the *CronLine* field to specify the time interval in which the time series databases included in the group are to be executed. If you need help creating a cron expression, you can check a cron expression editor, such as [Crontab guru](https://crontab.guru/).
-    > [Info] In case you want to execute the group each 2 minutes the CronLine would be */2 * * * *
+
+    > [Info] If you want to execute the group every 2 minutes, the CronLine would look like this: */2 * * * *
 
 4. Click the [SAVE] button in the upper right corner.  
     The *Submitting data...* view is displayed shortly while saving. The times series group has been saved. The *Create time series group* view is closed. The new times series group is displayed in the list of time series groups.  

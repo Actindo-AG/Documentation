@@ -30,7 +30,7 @@
 
 *Database and reporting > My SQL console > Tab INTERACTIVE CONSOLE > Enable toggle Write access > Confirm warning message*
 
-![Interactive console write access](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/InteractiveConsoleWriteAccess.png "[Interactive console  write access]")
+![Interactive console write access](../../Assets/Screenshots/DatabaseAndReporting/MySQLConsole/InteractiveConsoleWriteAccess.png "[Interactive console write access]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Write Access   
     Disable this toggle to deactivate the write access. When this toggle is disabled, the SQL queries are read-only. When this toggle is enabled, SQL queries with write operations can be executed.

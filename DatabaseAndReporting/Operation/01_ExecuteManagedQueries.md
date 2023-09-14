@@ -5,12 +5,13 @@
 
 # Execute the managed queries
 
-Once the queries have been predefined, they can be executed. When executing a query, the query results can be downloaded in CSV or XML format, latter also shown as preview.
+Once the queries have been predefined, they can be executed. When executing a query, the query results can be downloaded in CSV or XML format, the latter also shown as preview.
 
 Depending on the options that have been enabled in the query, a query can be executed authenticated or unauthenticated.
 
 Moreover, the managed queries may only be executed by users who have been granted the applicable access rights. For detailed information, see [Manage the user rights](../Integration/05_ManageUserRights.md). 
-     > [Info] In case a query is marked for *Public Download* execution rights cannot be restricted to specific user groups. 
+
+> [Info] In case a query is marked for *Public download*, execution rights cannot be restricted to specific user groups. 
 
 
 
@@ -45,7 +46,7 @@ Execute the query and preview the results in your browser in CSV or XML format.
         The query results are displayed in XML format.  
 
 3. Click the ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview) button in the editing toolbar.  
-    The *Execute saved query* window  is displayed.  
+    The *Execute saved query* window is displayed.  
 
     ![Execute saved query](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/ExecuteSavedQuery.png "[Execute saved query]")
 

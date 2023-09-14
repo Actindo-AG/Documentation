@@ -28,6 +28,7 @@ In this part of the *Database and reporting* documentation, you will find the fo
     - [Edit a time series group](./06_ManageTimeSeriesGroups.md#edit-a-time-series-group)
     - [Delete a time series group](./06_ManageTimeSeriesGroups.md#delete-a-time-series-group)
 
+
 - [Manage the connections](./04_ManageConnections.md)
     - [Create a connection](./04_ManageConnections.md#create-a-connection)
         - [Add a connection](./04_ManageConnections.md#add-a-connection)
