@@ -27,9 +27,9 @@ In this part of the *Database and reporting* documentation, you will find the fo
 
 - [LOG](./02a_Log.md)  
     - [List of messages](./02a_Log.md#list-of-messages)
-        - [Detail of log message "Log message title"](./02a_Log.md#detail-of-log-message-log-message-title)
-        - [Detail of log message "Log message title" &ndash; Attributes](./02a_Log.md#detail-of-log-message-log-message-title-–-attributes)
-        - [Detail of log message "Log message title" &ndash; Dependencies](./02a_Log.md#detail-of-log-message-log-message-title-–-dependencies)
+        - [Detail of log message](./02a_Log.md#detail-of-log-message)
+        - [Detail of log message &ndash; Attributes](./02a_Log.md#detail-of-log-message-–-attributes)
+        - [Detail of log message &ndash; Dependencies](./02a_Log.md#detail-of-log-message-–-dependencies)
 
 
 - [Settings](./03_Settings.md)
