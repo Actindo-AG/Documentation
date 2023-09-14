@@ -48,7 +48,7 @@
     The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
 - ![Preview](../../Assets/Icons/Eye02.png "[Preview]") (Preview)   
-    Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries is selected. The **XML** format option must also be selected.  
+    Click this button to visualize the query results on screen. This button is only displayed if a single checkbox in the list of queries and the **XML** format option are selected.  
     The *Execute saved query* window is displayed, see [Execute saved query](#execute-saved-query).
 
 - [COPY DOWNLOAD LINK]  

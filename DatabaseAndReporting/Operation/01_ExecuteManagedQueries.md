@@ -55,7 +55,7 @@ Execute the query and preview the results in your browser in XML format.
 6. Click the [EXECUTE] button.   
     The query is executed. The query results are displayed in a new browser window in the selected format.
 
-    ![Query results](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/QueryResultsPreview.png "[Query results]")
+    ![Query results](../../Assets/Screenshots/DatabaseAndReporting/ManagedQueries/Queries/QueryResultsPreviewXML.png "[Query results]")
 
 
 ### Download the query results
