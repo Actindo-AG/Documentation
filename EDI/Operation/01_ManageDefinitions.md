@@ -1,7 +1,7 @@
 # Manage definitions 
 
-The definition of the EDIFACT export messages specifies the following:
-- Definition basic settings with template engine and the connection to be used
+In Actindo, the definition of the EDIFACT export messages specifies the following:
+- Basic settings with template engine and the connection to be used
 - Message structure with predefined data   
 - Data mapping   
 - Mapping settings
@@ -10,7 +10,7 @@ Each EDIFACT export message requires two definitions in the *DataHub Exporter* m
 - Definition of the message header   
     Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver &frasl; sender information and dates.
 - Definition of the line items  
-    The line item section contain a list of single positions of the message, for example the required information on each article that are part of an invoice. It is necessary to have a specific definition for the line items because they require another data source than the message header. 
+    The line item section contain a list of single positions of the message, for example the required information on each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require another data source than the message header. 
     
 First you create a basic definition setting. After you have added the file settings, the data source, and the mapping settings, you can preview and activate the definition.
 
@@ -36,12 +36,13 @@ Define basic data for the export definition. You must define a definition settin
     ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
 2. Enter a label for the definition. It might be useful, to choose a name that contains the following:    
-        - The information, if these are the header or the line items of the message.   
+        - The information that it is an EDIFACT message. Keep in mind that the labels are visible in the DataHub ETL attribute set mappings later. So it might be useful, to differentiate these attribute set mappings from the others by placing an "EDIFACT" in front.
+        - The information, if it is the header or the line items of the message.   
         - The message type (for example, INVOIC)   
         - The direction (Export)   
         - The business partner name  
-           
-    For example, *INVOIC Export items "customer name"*.
+         
+    For example, *EDIFACT INVOIC Export "business partner name"* or *EDIFACT INVOIC Export items "business partner name"*.
 
 3. Click the *Template engine* drop-down list and select the **XmlExportTemplateEngine**.   
     The view has been changed. Two tabs are inserted now, the *Settings* tab and the *File settings* tab. The *Settings* tab is displayed.
@@ -110,7 +111,7 @@ For the preparation of the file settings specifications, it is recommended to do
 After you have configured the entire definition, you can preview the message that will be sent to the business partner. You can use this function to send it to your business partner and let him &frasl; her check, whether the message is correct.
 
 #### Prerequisites
-
+- At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
 - At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
 - You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
 - You have defined the data sources for this definition, see [Create data source](./04_ManageDataSources.md#create-data-source).
