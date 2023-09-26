@@ -1,8 +1,8 @@
 # Manage data sources
 Define the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
-For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which this information is to be retrieved. If desired, you can create multiple data sources from which you may retrieve data from different sources.     
-In the next step, you can map a data source field with the relevant information (source attribue) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
-Tip: If you want to map the fields directly after you have specified them in the file settings, it is recommended to create the data source before specifying the header &frasl; line items file segments.
+For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved. 
+If desired, you can create multiple data sources from which you may retrieve data from different sources, for example, invoice data, customer data, and product data. In the next step, you can map a data source field with the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
+Tip: If you want to map the fields directly after you have specified an EDIFACT field in the file settings, it is recommended to create the data source before specifying the header &frasl; line items file segments.
 
 ## Create data source
 Define the data source from which you want to retrieve the data with which you want to fill the EDIFACT message.
