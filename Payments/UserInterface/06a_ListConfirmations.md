@@ -76,7 +76,7 @@ The list displays all confirmation transactions. Depending on the payment servic
    ID given by the payment service provider.
 
 - *Original reference*   
-   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the entire process.
 
 - *Type*   
    Kind of the displayed transaction, in this case a confirmation transaction.   
@@ -85,10 +85,10 @@ The list displays all confirmation transactions. Depending on the payment servic
      Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).    
 
 - *Created by*   
-    User name of the person or API who has created the transaction. Can be a real user or an API user.   
+    Username of the person or API who has created the transaction. Can be a real user or an API user.   
 
 - *Modified by*
-    User name of the person or API who has changed the transaction. Can be a real user or an API user.
+    Username of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
    Unique transaction identification. The ID is automatically assigned by the system. 
@@ -189,8 +189,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.   
 
-<!--- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
-    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.-> nicht im Screen-->
+ ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
 ## Confirmation &ndash; Dependencies

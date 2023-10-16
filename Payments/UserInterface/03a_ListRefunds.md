@@ -70,10 +70,10 @@ The list displays all refund transactions. Depending on the payment service prov
    ID given by the payment service provider.
 
 - *Original reference*   
-   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the entire process.
 
 - *Transaction date*   
-   Date on which the transaction has been created by the payment service provider.
+   Date on which payment service provider has created the transaction.
 
 - *Status*   
    Description of the transaction status.  
@@ -97,10 +97,10 @@ The list displays all refund transactions. Depending on the payment service prov
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 - *Created by*   
-   User name of the person or API who has created the transaction. Can be a real user or an API user.
+   Username of the person or API who has created the transaction. Can be a real user or an API user.
 
 - *Modified by*   
-   User name of the person or API who has changed the transaction. Can be a real user or an API user.
+   Username of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
    Unique transaction identification number. The ID is automatically assigned by the system.  
@@ -124,7 +124,7 @@ The list displays all refund transactions. Depending on the payment service prov
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-  Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later do not lead to currency differences.
+  Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later does not lead to currency differences.
 
 - *Reference amount*   
    Amount of the original payment. 
@@ -139,7 +139,7 @@ The list displays all refund transactions. Depending on the payment service prov
    Name of the company on whose behalf the payment was made.   
 
 - *Address*   
-   Street and house number of the address.<!---Straße und Hausnummer? oder konkatenierte Adresse? -->     
+   Street and house number of the address.
 
 -  *Postal code*   
    Zip code of the address.    
@@ -229,8 +229,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.   
 
-<!--- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
-    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.-> nicht im Screen-->
+![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
 

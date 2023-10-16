@@ -17,11 +17,11 @@ The single steps of the payments process are usually integrated in an order work
 You can flexibly connect various payment service providers such as Adyen&trade; or Paypal&trade; to the *Actindo Core1 Platform*. Depending on the payment service provider you decide for, credit cards, bank transactions, and other standard payment methods are supported implicitly.
 
 
-##  Payments processing and accounting linked   
+##  Payment processing and accounting linked   
  If you have the *Actindo Accounting* module in use, the *Actindo Payments* module connects the business accounts at your various payment service providers and the *Actindo Payments Processing* module. In being the smart connection between these two, the *Actindo Payments* module helps you to process orders faster and more efficiently.  Thanks to automated payment checks, incoming payments are registered directly, and orders could therefore be processed immediately. Refunds can be made just as quickly and automatically. By linking payment and accounting, you do not only minimize the workload for your employees, but also offer your customers a smooth and fast service.
 
 
-**Payments interaction with other modules** 
+**Payments' interaction with other modules** 
 
 ![Payments interaction with other modules](../../Assets/Screenshots/Payments/Overview/PaymentsProcessModules.png "[Payments interaction with other modules]")
 

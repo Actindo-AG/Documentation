@@ -55,10 +55,10 @@ Create a connection to a certain payment provider. As soon you have created a co
 
     ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
 
-    The data are synchronized between Actindo and the payment service provider, if a synchronization is necessary. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
+    The data are synchronized between Actindo and the payment service provider if a synchronization is necessary. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
-    <!---Stefan: stimmt das? Ich kann es nicht nachmachen, wenn es Verbindungen sind, die nicht direkt aktiv sind, gibt es dann buttons mit denen man aktivieren, synchronisieren kann?-->
+   
 
 
 

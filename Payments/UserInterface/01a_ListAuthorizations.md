@@ -76,10 +76,10 @@ The list displays all authorization transactions. Depending on the payment servi
    ID given by the payment service provider.
 
 - *Original reference*   
-   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the entire process.
 
 - *Transaction date*   
-   Date on which the transaction has been created by the payment service provider.
+   Date on which payment service provider has created the transaction.
 
 - *Status*   
    Description of the transaction status.
@@ -130,7 +130,7 @@ The list displays all authorization transactions. Depending on the payment servi
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-   Currency of the original payment. Makes it possible that the *Accounting* module can post the payment to the correct currency account so that a refund later do not lead to currency exchange differences.
+   Currency of the original payment. Makes it possible that the *Accounting* module can post the payment to the correct currency account so that a refund later does not lead to currency exchange differences.
 
 - *Reference amount*   
    Amount of the original payment.  
@@ -235,8 +235,8 @@ In the left margin column, all available attribute groups are displayed. Click a
 
 The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. The attributes are imported by the payment service provider driver. All fields are read-only.   
 
-<!---- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
-    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.-> nicht im Screen-->
+![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded. This is available for the *Unassigned Group* folder only.
 
 
 

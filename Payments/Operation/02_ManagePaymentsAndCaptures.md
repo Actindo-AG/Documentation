@@ -34,13 +34,13 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 1. Check the payment and capture transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
+        The transaction has been created but is not yet transferred.
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.
     - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the *Status information* field provides further information.
+        The payment service provider has received the request but rejected it. If available for the connection, the *Status information* field provides further information.
     - **5 - Error**   
         Errors have been occurred during transfer.
     - **6 - Void**   
@@ -67,7 +67,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 ## Refund payment and capture transaction
 
-After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture the transaction manually, so that the order process can be cancelled and the payment of the customer, blocked before by the payment service provider, is freed. This might be necessary, if a product cannot be delivered.
+After you have checked a payment and capture transaction that could not be processed by the workflow, you can refund the payment and capture the transaction manually, so that the order process can be cancelled and the payment of the customer, blocked before by the payment service provider, is freed. This might be necessary if a product cannot be delivered.
 
 #### Prerequisites
 
@@ -84,15 +84,15 @@ The status of a payment and capture transaction is not **Success**. In case of s
 2. Select the payment and capture transaction you want to refund by clicking the checkbox on the left. If desired, you can select several transactions at once.     
     The editing toolbar is displayed.
 
-3. Click the [REFUND] button. <!---was passsiert dann-->   
-    A confirmation message is displayed. The status of the payment and capture transaction has changed to **Success**. <!---Stefan, oder "Unconfirmed"?-->   
-    You can now follow up this case under the *Refunds* menu entry. <!---Stefan ist das richtig?--> 
+3. Click the [REFUND] button.  
+    A confirmation message is displayed. The status of the payment and capture transaction has changed to **Success**. 
+    You can now follow up this case under the *Refunds* menu entry. 
 
 
 
 ## Void payment and capture transaction
 
-You can void a payment and capture transaction, if you want to invalidate the transaction for the Actindo database. 
+You can void a payment and capture transaction if you want to invalidate the transaction for the Actindo database. 
 
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the Actindo database from faulty entries.
 

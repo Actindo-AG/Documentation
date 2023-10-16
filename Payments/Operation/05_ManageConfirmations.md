@@ -5,7 +5,7 @@
 The Confirmation menu entry provides you with a view on all transactions which need further approval before Actindo sends them to the payment service provider. Before your company sends back the money to the customer, you have to check the refunds with this menu entry. This service is supported by the most payment service providers. As a person with appropriate permissions, you have here the possibility to check the refunds manually before money is returned.  
 
 You can use this procedure to accept a refund so that the service payment provider gets the request to send back the money to the customer.    
-You can also reject a refund, if it is not justified, for example, because the customer has returned a product with visible traces of use. In case of faulty transactions you can void them to clear the database. Note that you cannot change any data with this procedure.
+You can also reject a refund, if it is not justified, for example, because the customer has returned a product with visible traces of use. In case of faulty transactions, you can void them to clear the database. Note that you cannot change any data with this procedure.
 
 Special permissions for this menu entry might have been applied in the *Settings* module. You might not be able to access this menu entry because you have no permissions to do it. Furthermore, you may have access, but you are not permitted to execute refunds above a certain amount (for example, more than €50). 
 
@@ -13,7 +13,7 @@ Special permissions for this menu entry might have been applied in the *Settings
 
 ## Check confirmation transaction  
 
-A confirmation transaction provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject or void a transaction, you can check its details.  
+A confirmation transaction provides numerous payment-related details on a refund, which may vary depending on the payment service provider settings. To decide whether you can execute, reject, or void a transaction, you can check its details.  
 
 
 #### Prerequisites 

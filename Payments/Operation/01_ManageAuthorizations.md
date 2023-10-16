@@ -40,9 +40,9 @@ In case of errors or failures, there may be a general issue that is caused by th
         A refund is requested but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.
-        You can now follow up this case under the menu entry *Payments and captures*. <!---Stefan ist das richtig?-->
+        You can now follow up this case under the menu entry *Payments and captures*. 
     - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the "Status information" column provides further information.
+        The payment service provider has received the request but rejected it. If available for the connection, the "Status information" column provides further information.
     - **5 - Error**   
         Errors have been occurred during transfer.
     - **6 - Void**   
@@ -73,7 +73,7 @@ After you have checked an authorization transaction that could not be processed 
 
 #### Prerequisites
 
-The status of an authorization transaction is **not** "Success". In case of success, further processing has already been continued.<!---Stimmt das oder gibt es noch mehr?-->   
+The status of an authorization transaction is **not** "Success". In case of success, further processing has already been continued.
 
 #### Procedure
 
@@ -88,7 +88,7 @@ The status of an authorization transaction is **not** "Success". In case of succ
 
 3. Click the [CAPTURE] button.    
     A confirmation message is displayed. The status of the authorization transaction has changed to **Success**.   
-    By using the *Original reference*, you can now follow up this case under the menu entry *Payments and captures*. <!---Stefan ist das richtig?--> 
+    By using the *Original reference*, you can now follow up this case under the menu entry *Payments and captures*. 
    
   
 

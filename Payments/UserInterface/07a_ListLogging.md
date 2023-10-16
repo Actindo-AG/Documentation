@@ -176,7 +176,7 @@ In general, the most common attribute sets are the standard error log message at
     Http response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15) website.
 
 - *Endpoint and method*   
-    Http method of the API request and url endpoint to which the request was sent.
+    Http method of the API request and URL endpoint to which the request was sent.
 
 - *Request*   
     Http header and body of the request.
@@ -195,7 +195,7 @@ In general, the most common attribute sets are the standard error log message at
 
 ![Detail of log message &ndash; Dependencies](../../Assets/Screenshots/Payments/Logging/DetailLogMessageDependenciespng.png "[Detailed of log message &ndash; Dependencies]")
 
-The *Payments* module only handles the communication between the payment service provider and Actindo. For this reason, by default, there are no dependencies to other Actindo entities that could be displayed here.
+The *Payments* module only control the communication between the payment service provider and Actindo. For this reason, by default, there are no dependencies to other Actindo entities that could be displayed here.
 
 
 

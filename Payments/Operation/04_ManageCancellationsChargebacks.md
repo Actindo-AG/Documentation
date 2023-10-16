@@ -31,7 +31,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 ![Cancellations and chargebacks](../../Assets/Screenshots/Payments/CancellationsChargebacks/LISTCancellationsChargebacks.png "[Cancellation and chargeback transaction]")
 
-1. Select the desired view, if applicable.   
+1. Select the desired view if applicable.   
 
 2. If desired, select the cancellation and chargeback type you want to check. The following types are available:   
     - **Cancel**   
@@ -45,14 +45,14 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 3. Check the cancellation and chargeback transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
+        The transaction has been created but is not yet transferred.
     - **2 - Unconfirmed**   
         A transaction is requested but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and refunds. 
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.  
-        The order process is stopped. <!---Stefan ist das richtig?-->
+        The order process is stopped. >
     - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request but rejected it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
         Errors have been occurred during transfer.
     - **6 - Void**   
@@ -79,7 +79,7 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 ## Void cancellation and chargeback transaction
 
-You can void a cancellation and chargeback transaction, if you want to invalidate the transaction for the Actindo database. 
+You can void a cancellation and chargeback transaction if you want to invalidate the transaction for the Actindo database. 
 
 > [Info] The payment service provider will not be informed about changing the status to **Void**. It is only done to clear the database from faulty entries.
 

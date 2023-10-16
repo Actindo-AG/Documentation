@@ -34,14 +34,14 @@ In case of errors or failures, there may be a general issue that is caused by th
 
 1. Check the refund transaction status in the *Status* column. The status displays the current stage in the payment process. You can use the status ID prefixed below to filter the list. The following statuses are available:   
     - **1 - Preparing**  
-        The transaction has been created, but is not yet transferred.
+        The transaction has been created but is not yet transferred.
     - **2 - Unconfirmed**   
         A refund is reserved but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and chargebacks.
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully. 
-        You can now follow up this case under the menu entry *Confirmations*. <!---Stefan ist das richtig?--> 
+        You can now follow up this case under the menu entry *Confirmations*. 
     - **4 - Failure**   
-        The payment service provider has received the request, but rejected it. If available for the connection, the status information field provides further information.
+        The payment service provider has received the request but rejected it. If available for the connection, the status information field provides further information.
     - **5 - Error**   
         Errors have been occurred during transfer.
     - **6 - Void**   

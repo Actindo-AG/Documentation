@@ -72,10 +72,10 @@ The list displays all capture transactions. Depending on the payment service pro
    ID given by the payment service provider.
 
 - *Original reference*   
-   Reference to the authorization transaction. You can use this reference to follow up one payment over the whole process.
+   Reference to the authorization transaction. You can use this reference to follow up one payment over the entire process.
 
 - *Transaction date*   
-   Date on which the transaction has been created by the payment service provider.
+   Date on which payment service provider has created the transaction.
 
 - *Status*   
    Description of the transaction status.   
@@ -83,13 +83,13 @@ The list displays all capture transactions. Depending on the payment service pro
 - *Status ID*   
    Identifier for the status. The following statuses are available, each prefixed by the ID in the list below. You can use the *Status ID* to filter and sort the list.  
    - **1 - Preparing**  
-      The transaction has been created, but is not yet transferred.   
+      The transaction has been created but is not yet transferred.   
    - **2 - Unconfirmed**   
       A refund is reserved but not yet released by an Actindo user.   
    - **3 - Success**  
       Actindo as well as the payment service provider has processed the transaction successfully.  
    - **4 - Failure**   
-      The payment service provider has received the request, but rejected it. If available for the connection, the status information field may provide further information.   
+      The payment service provider has received the request but rejected it. If available for the connection, the status information field may provide further information.   
    - **5 - Error**   
       Errors have been occurred during transfer.   
    - **6 - Void**   
@@ -99,10 +99,10 @@ The list displays all capture transactions. Depending on the payment service pro
    Name of the Connection. Note that this is the customer-specific name that has been given the connection. For detailed information, see [Manage connections to payment service providers (PSP)](../Integration/01_ManageConnection.md).
 
 - *Created by*   
-   User name of the person or API who has created the transaction. Can be a real user or an API user.
+   Username of the person or API who has created the transaction. Can be a real user or an API user.
 
 - *Modified by*   
-   User name of the person or API who has changed the transaction. Can be a real user or an API user.
+   Username of the person or API who has changed the transaction. Can be a real user or an API user.
 
 - *ID*   
    Unique transaction identification. The ID is automatically assigned by the system.
@@ -126,7 +126,7 @@ The list displays all capture transactions. Depending on the payment service pro
    Invoice amount of the payment in the currency in which the payment will be posted.   
 
 - *Reference currency*   
-  Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later do not lead to currency differences.
+  Currency of the original payment. Makes it possible that the accounting can post the payment to the correct currency account so that a refund later does not lead to currency differences.
 
 - *Reference amount*   
    Amount of the original payment. 
