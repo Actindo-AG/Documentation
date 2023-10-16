@@ -22,7 +22,7 @@ Create a connection to a certain payment provider. As soon you have created a co
 
 #### Prerequisites
 
-- The relevant drivers are installed both on the main account and, if needed, on the sandboxes.
+- The relevant driver module is installed in your environment (main or sandbox).
 
 #### Procedure    
 

@@ -12,10 +12,9 @@ The Actindo *Payments* module offers the following benefits:
 - Predefined interfaces for connecting various payment service providers (PSPs) of your choice.
 - Receiving automated revenues and refunds. 
 
-<!---Stefan, welche Modulversionen werden gebraucht?-->
+
 ## Prerequisites
 - The *DataHub* module version 4.1.0 or higher is installed.
 - The *Global Driver Management* module version 4.0.3 or higher is installed.
 - The *Accounting* module version 4.2.1 or higher is installed.
-- If in use, the *Order Management* module version XXX or higher is installed.
-- If in use, the *Payment processing* module version XXX or higher is installed. 
+- The *Order Management* module version 4.0.0 or higher is installed.

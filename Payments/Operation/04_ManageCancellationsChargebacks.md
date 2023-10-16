@@ -47,7 +47,7 @@ In case of errors or failures, there may be a general issue that is caused by th
     - **1 - Preparing**  
         The transaction has been created, but is not yet transferred.
     - **2 - Unconfirmed**   
-        A refund is reserved but not yet released by an Actindo user. 
+        A transaction is requested but not yet released by an Actindo user. This status is relevant for some functions only, for example, the cancellations and refunds. 
     - **3 - Success**  
         Actindo as well as the payment service provider has processed the transaction successfully.  
         The order process is stopped. <!---Stefan ist das richtig?-->
