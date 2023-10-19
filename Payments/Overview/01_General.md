@@ -8,9 +8,10 @@ This documentation refers to the *Payments* module version 4.1.0. There may be d
 
 ## Benefits
 The Actindo *Payments* module offers the following benefits:
-- Automated processing of incoming payments, refunds, and cancellations.
-- Predefined interfaces for connecting various payment service providers (PSPs) of your choice.
-- Receiving automated revenues and refunds. 
+- Automated processing of incoming payments, refunds, and cancellations
+- Predefined interfaces for connecting various payment service providers (PSPs) of your choice
+- Possibility to automatically handle customer-initiated refunds (chargebacks) 
+- Management of payment tokens for usage in merchant-initiated transactions (MIT)
 
 
 ## Prerequisites
