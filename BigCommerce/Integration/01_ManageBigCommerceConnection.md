@@ -17,7 +17,7 @@ Create the connection using the *BigCommerce* driver. You can configure further 
 
 ## Procedure
 
-1. In a new browser window, go to the [*BigCommerce app store*](https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
+1. In a new browser window, go to the [*BigCommerce app store*] (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
   The *BigCommerce Actindo-sandbox* is opened.
 
 2. Open the Apps folder.
@@ -27,7 +27,7 @@ Create the connection using the *BigCommerce* driver. You can configure further 
 
    ![Select app](../../Assets/Screenshots/BigCommerce/Connections/SelectApp.png "[Select app]")
 
- 4. Click the Actindo Logo.   
+ 4. Click the *Actindo* logo.   
   The app is selected. Further information is provided. 
 
     ![Actindo Onboarding app](../../Assets/Screenshots/BigCommerce/Connections/DownloadOnboardingApp.png "[Actindo Onboarding app]")
