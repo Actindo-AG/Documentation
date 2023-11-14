@@ -22,39 +22,39 @@ Create the connection using the *BigCommerce* driver. You can configure further 
 
 2. Open the Apps folder.
 
-3. Click the Marketplace folder. Search for the *Actindo Core1 DOP Connector* app.
+3. Click the Marketplace folder. Search for the *Actindo Core1 DOP Connector* app.   
   The *Actindo Core1 DOP Connector* app entry is displayed.
 
-   ![Select app](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/SelectApp.png "[Select app]")
+   ![Select app](../../Assets/Screenshots/BigCommerce/Connections/SelectApp.png "[Select app]")
 
  4. Click the Actindo Logo.   
   The app is selected. Further information is provided. 
 
-    ![Actindo Onboarding app](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/DownloadOnboardingApp.png "[Actindo Onboarding app]")
+    ![Actindo Onboarding app](../../Assets/Screenshots/BigCommerce/Connections/DownloadOnboardingApp.png "[Actindo Onboarding app]")
 
 5. Click the [Install] button.  
   The site for confirming the access is opened.
 
-   ![Confirm access](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/ConfirmAccess.png "[Confirm access]")
+   ![Confirm access](../../Assets/Screenshots/BigCommerce/Connections/ConfirmAccess.png "[Confirm access]")
 
   
 6. Click the [Confirm] button.   
   The *BigCommerce installation* window is opened.
 
-   ![BigCommerce installation](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/EnterWorkspaceURL.png "[BigCommerce installation]")
+   ![BigCommerce installation](../../Assets/Screenshots/BigCommerce/Connections/EnterWorkspaceURL.png "[BigCommerce installation]")
 
 7. Enter the workspace URL of the tenant, on which your *Omni-Channel* module is running, and click the [START SETUP] button.
 
    If the installation was successful, the *BigCommerce connected* window is displayed.
    In your tenant, a new Omni-Channel connection is created, which is connected to your *BigCommerce* shop.   
    
-   ![Connected to BigCommerce](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
+   ![Connected to BigCommerce](../../Assets/Screenshots/BigCommerce/Connections/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
 
-7. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab Connections*.   
+8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab Connections*.   
   The new connection has been created, synchronized, and activated.
-  All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs.
+  All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.
 
-   ![Omni-Channel connection](../../BigCommerce/Assets/Screenshots/BigCommerce/Connections/OmniChannelConnection.png "[Omni-Channel connection]")
+   ![New Omni-Channel connection](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnection.png "[New Omni-Channel connection]")
 
 
 
