@@ -17,12 +17,14 @@ Create the connection using the *BigCommerce* driver. You can configure further 
 
 ## Procedure
 
-1. In a new browser window, go to the [*BigCommerce app store*] (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
+1. Login to your *Actindo Core1* tenant, on which you run the *Omni-Channel* module.
+
+2. In a new browser window, open the [*BigCommerce app store*] (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
   The *BigCommerce Actindo-sandbox* is opened.
 
-2. Open the Apps folder.
+2. Click the *Apps* folder.
 
-3. Click the Marketplace folder. Search for the *Actindo Core1 DOP Connector* app.   
+3. Click the *Marketplace* folder. Search for the *Actindo Core1 DOP Connector* app.   
   The *Actindo Core1 DOP Connector* app entry is displayed.
 
    ![Select app](../../Assets/Screenshots/BigCommerce/Connections/SelectApp.png "[Select app]")
