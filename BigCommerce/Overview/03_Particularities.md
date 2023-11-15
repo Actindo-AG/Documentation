@@ -1,27 +1,31 @@
 # BigCommerce particularities
 
 There are several particularities regarding the *BigCommerce* product data that must be taking into account when establishing and using the *BigCommerce* connection. These particularities are described in detail below.
+For detailed information on product data, refer to the *BigCommerce* documentation.
 
-## Import of orders
+## Import of offers
 
-The import of orders has the following particularities:
-- All channels that you connect via *BigCommerce* are handled as sub sales channels.   
-- Orders are imported into the system in a configurable order status. That means, that you can.... 
+The import of offers has the following particularities:
+- All channels that you connect via *BigCommerce* are handled as sub sales channels in *Omni-Channel*. This architecture enables you to run multiple stores in *BigCommerce*.  
+- Offers are imported into the system in a configurable order status. That means, that you can.... 
 - The *BigCommerce* connection enables parallel imports to handle larger loads.
 
 - During importing orders to *Omni-Channel*, the orders are filtered by order status and the last modification date/time. <!... All orders that are matched but not yet imported will be put into a message queue and parallel jobs will import the orders into Omni-Channel ...>
 
-- The order import contains the following information:
+- The offer import contains the following information:
 
     - Contained products
     - Billing address
     - Shipping address       
-       > [Info] Note: Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.
+       > [Info] Note: Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
+       For detailed information, see [Create PSP connection](../Operation/01_ManageBigCommerceSettings#manage-multiple-shipping-addresses).
     - Channels. All channels that you connect via *BigCommerce* are handled as sub sales channels. 
 
 Information that is not in the list above, is not contained in the order import. For example, the following ones that are not part of the order import, might be interesting for you:  
 - Gift wraps
-- Multiple shipping addresses
+- Multiple shipping addresses   
+   > [Info] Note: Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
+    For detailed information, see 
 - Customer IDs. *Actindo* does not use the customer IDs of *BigCommerce* to avoid inconsistencies with already existing customer IDs. Instead, *Actindo* automatically creates a new customer, if the import data does not match an existing *Actindo* customer. 
 
 ## Order Export
@@ -52,8 +56,8 @@ Images are handled as follows:
 ## Variations:
 Channels Attributes to BigCommerce Attributes:
 
-BigCommerce only allows certain attributes to be changeable per variation. Channels allows you to select any attribute as changeable. 
-Only attributes that are changeable in bigcommerce are changed on creation or update of a variation. Others are skipped.
+*BigCommerce* only allows certain attributes to be changeable per variation. *Omni-Channel* allows you to select any attribute as changeable. 
+Only attributes that are changeable in *Bigcommerce* are changed on creation or update of a variation. Others are skipped.
  Product Variants | BigCommerce Dev Center 
 
 ## Multidimensional Variations

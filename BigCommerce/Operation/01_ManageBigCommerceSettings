@@ -1,0 +1,23 @@
+# Manage BigCommerce settings
+
+
+## Manage API settings
+
+
+## Manage multiple shipping addresses
+
+As *Omni-Channel* is not able to handle multiple shipping addresses, you must check a specific setting in *BigCommerce* to avoid conflicts.
+
+# Procedure
+
+*BigCommerce store > Settings*
+
+![BigCommerce settings](../../Assets/Screenshots/BigCommerce/Operations/BigCommerceSettings.png "[BigCommerce settings]")
+
+1. Scroll down to the *Advanced* area and select 
+*Checkout > Shipping*. 
+
+   ![Check multiple shipment addresses](../../Assets/Screenshots/BigCommerce/Operations/CheckMultipleAddress.png "[Check multiple shipment addresses]")
+
+2. Ensure that the *Allow customers to select multiple shipping addresses for an order* setting is not selected.
+
