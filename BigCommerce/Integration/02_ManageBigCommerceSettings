@@ -6,7 +6,7 @@
 
 ## Manage multiple shipping addresses
 
-As *Omni-Channel* is not able to handle multiple shipping addresses, you must check a specific setting in *BigCommerce* to avoid conflicts.
+As the driver is not able to handle multiple shipping addresses, you must check a specific setting in *BigCommerce* to avoid failures during the import. Any orders utilizing multiple shipping addresses cannot be imported and will fail during the import.
 
 # Procedure
 
@@ -14,7 +14,7 @@ As *Omni-Channel* is not able to handle multiple shipping addresses, you must ch
 
 ![BigCommerce settings](../../Assets/Screenshots/BigCommerce/Operations/BigCommerceSettings.png "[BigCommerce settings]")
 
-1. Scroll down to the *Advanced* area and select 
+1. Display the *Advanced* area and display
 *Checkout > Shipping*. 
 
    ![Check multiple shipment addresses](../../Assets/Screenshots/BigCommerce/Operations/CheckMultipleAddress.png "[Check multiple shipment addresses]")

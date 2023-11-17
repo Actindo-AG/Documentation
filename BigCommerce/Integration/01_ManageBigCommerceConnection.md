@@ -56,7 +56,7 @@ Create the connection using the *BigCommerce* driver. You can only configure fur
 8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab Connections*.   
     - The new connection has been created, synchronized, and activated.   
     - The credentials of the connection has been automatically created.
-    - All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.
+    - All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.<!---Stimmt das?-->
 
    ![New Omni-Channel connection](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
@@ -111,7 +111,7 @@ In *Omni-Channel*, you can configure the *Variant option type* that defines the 
 Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. Variant option types such as dropdown, radio button, or rectangles are controlled by the *Variant option type* setting. The “color-swatch type” is determined in a specific way. For detailed information, see <!----Link einfügen-->
 
 By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
-If you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
+Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
 
 
 
@@ -133,12 +133,18 @@ If you have worked with *BigCommerce* before you have started with the *Actindo 
 
 2. Click the *Settings* tab.
 
-3. Click the *Variant option type* entry.   
-   The *Variant option type* dropdown is displayed
+3. Click the *Variant option type used for variants* entry.   
+   The *Variant option type* dropdown is displayed.
 
     ![Variant option type](../../Assets/Screenshots/BigCommerce/Connections/VariantOptionType.png "[Variant option type]")
 
 4. Select the *Variant option type* you want to use.
+   The following option types are available:
+   | Dropdown | Meaning   
+   |-----|-------   
+   |Dropdown| The offer variants are selected in a dropdown
+   |Rectangles | The offer variants are selected in a checkbox. The users can select multiple variants.
+   |Radio buttons | The offer variants are selected with radio buttons, users can select one variant only. <!---???--> 
 
 5. Click the *Order filters* option.   
    A list of order status is displayed.
@@ -149,11 +155,9 @@ If you have worked with *BigCommerce* before you have started with the *Actindo 
 
 7. If desired, enter the first order ID you want to import the orders in the *Import only orders with an ID greater than* field.
 
+8. If desired, enter the date as of which you want to import the orders in the *Import only orders created after* field. The date is valid from 00:00.
 
-8. If desired, enter the date as of which you want to import the orders in the *Import only orders created after* field. The date is valid as of 00:00 o'clock.
-
-
-9. If desired, import also archived orders by toggeling the *Import archived order* field.
+9. If desired, import orders that have been already archived by toggling the *Import archived order* field.
 
 
 

@@ -33,9 +33,11 @@ coming soon
 
 ## Importing product data
 
+ 
 You have two options for handling the product data:
 - You export the product data created in *Actindo* to your *BigCommerce* storefront.
-- You import the product data created in *BigCommerce* to *Actindo*. Note, if you choose this way, you will not be able to import product changes again from *BigCommerce* to *Actindo*. In this case, you must change product data on the *Actindo* side and export them to *BigCommerce*.
+- You import the product data created in *BigCommerce* to *Actindo*. Note, if you choose this way, you will not be able to import product changes again from *BigCommerce* to *Actindo*. In this case, you must change product data on the *Actindo* side and export them to *BigCommerce*.  
+  For this reason, it is recommended to hold product data on Actindo.
 
 
 ## Exporting product data 
@@ -49,9 +51,12 @@ If you have a strong need to have this data available, ask your *Actindo* contac
 
 
 Images are handled as follows:
-- The first image is automatically marked as thumbnail
-- Alt-text is used as description
-- Other image specific fields are not supported
+- Import from *BigCommerce* to *Actindo*
+   - Per variant, you can import one image only
+- Export from *Actindo* to *BigCommerce*
+   - Even if you have defined several images per variant, the first image is automatically marked as thumbnail
+   - Alt-text is used as description
+   - Other image specific fields are not supported
 
 ## Variations:
 Channels Attributes to BigCommerce Attributes:
