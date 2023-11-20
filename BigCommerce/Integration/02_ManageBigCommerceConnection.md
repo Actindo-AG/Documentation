@@ -101,8 +101,6 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
    ![New Omni-Channel connection](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
 
-
-
 ## Configure the BigCommerce connection
 
 Configure the *BigCommerce* connection after you have created it.   
@@ -114,13 +112,12 @@ By the *Order filter* option, you can filter the orders that are to be imported 
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
 
 
-
-### Prerequisites
+#### Prerequisites
 
 - In the *Actindo Core1 Platform*, you are permitted to create connections in *Omni-Channel*.
 - A *BigCommerce* connection has been created.
 
-### Procedure
+#### Procedure
 
 *Ommi-Channel > Settings > Tab CONNECTIONS*
 
