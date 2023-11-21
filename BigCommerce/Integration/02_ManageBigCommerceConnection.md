@@ -126,7 +126,7 @@ Additionally, if you have worked with *BigCommerce* before you have started with
  1. Click the *BigCommerce* connection you want to edit in the list of connections.   
    The *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
 
-    ![Connection credentials](../../Assets/Screenshots/BigCommerce/UserInterface/ConnectionCredentials.png "[Connection credentials]")
+    ![Connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectionCredentials.png "[Connection credentials]")
 
 2. Click the *Settings* tab.
 

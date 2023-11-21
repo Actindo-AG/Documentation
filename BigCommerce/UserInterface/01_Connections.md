@@ -188,9 +188,27 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Variant option type
 
+*Omnni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Variant option type*
+
+![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Variantoptiontype.png "[Variant option type]")
+
+- *Variant option type used for variants*   
+   Use this dropdown list to select the type to select variants. For detailed information, see [Configure BigCommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 
 
 ### Order filters
 
+*Omnni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Order filters*
 
+![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")
+
+- *Filter orders to import by*   
+   Select the order status to define the orders to be imported to *Actindo*.
+
+- *Import only orders with an ID greater than*   
+
+- *Import only orders created after*   
+
+- *Import archived orders*   
+   Toggle this setting if you want to import orders that have been already archived.
