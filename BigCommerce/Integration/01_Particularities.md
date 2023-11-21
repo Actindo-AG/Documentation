@@ -70,8 +70,21 @@ Red, Green & Blue
 
 Each additional color added is separated by a comma. The color codes need to be valid Hex-Codes.
 
-_________________________________________________________________
-## Import of offers
+
+
+## Import of orders
+
+
+## Order status updates
+
+
+## Shipments
+
+
+
+
+
+#### Import of offers
 
 The import of offers has the following particularities:
 - Offers are imported into the system in a configurable order status. That means, that you can.... 
@@ -95,10 +108,8 @@ Information that is not in the list above, is not contained in the order import.
     For detailed information, see 
 - Customer IDs. *Actindo* does not use the customer IDs of *BigCommerce* to avoid inconsistencies with already existing customer IDs. Instead, *Actindo* automatically creates a new customer, if the import data does not match an existing *Actindo* customer. 
 
-## Order Export
-coming soon
 
-## Importing product data
+#### Importing product data
 
  
 You have two options for handling the product data:
@@ -107,7 +118,7 @@ You have two options for handling the product data:
   For this reason, it is recommended to hold product data on Actindo.
 
 
-## Exporting product data 
+##### Exporting product data 
 
 The export of the following product data is not supported: 
 - Upload of videos
@@ -125,14 +136,14 @@ Images are handled as follows:
    - Alt-text is used as description
    - Other image specific fields are not supported
 
-## Product variant:
+#### Product variant:
 Channels Attributes to BigCommerce Attributes:
 
 *BigCommerce* only allows certain attributes to be changeable per variation. *Omni-Channel* allows you to select any attribute as changeable. 
 Only attributes that are changeable in *Bigcommerce* are changed on creation or update of a variation. Others are skipped.   
 For detailed information on product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
 
-## Multidimensional Variations
+#### Multidimensional Variations
 
 The BigCommerce API allows to create variations using variation options and values. While creating an offer with more than one defining attribute, it is possible to create less variations than are actually possible with the options and values you created. If that happens, you are able to select and order products in the BigCommerce Shopfront which are non existent. 
 E.g:
@@ -143,12 +154,12 @@ Color(Green, Red)
 !This issue needs to be handled by the shopfront it self!
 Via /v3/catalog/products/{productId}/variations you can access all variations the driver created and only the ones the driver created!
 
-## Variation Thumbnails
+#### Variation Thumbnails
 
 If a variation should display a thumbnail in BigCommerce, the Images Attribute in Channels should be declared as changeable and the variation should include different images than the master offer. 
 If these conditions are given, the first image in the image attribute of the variation is uploaded as the thumbnail. If the variation holds the same images as the master offer or no images at all, no thumbnail will be uploaded.
 
-## Shipments
+#### Shipments
 Note that *BigCommerce* only allows specific values for tracking the carrier of a shipment. You can only use one of these values, otherwise the export of the shipment will fail! 
 
 Ref. https://github.com/bigcommerce/dev-docs/blob/main/assets/csv/tracking_carrier_values.csv 

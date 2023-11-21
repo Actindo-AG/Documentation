@@ -1,11 +1,9 @@
 # Overview
 
+In this part of the *BigCommerce* documentation, you will find the following chapters:
 
-
-The documentation refers to the *BigCommerce Integration* plugin version 1.1.0. There may be differences in the UI, features and operation if your *BigCommerce Integration* plugin is installed in a different version.
-
-## Prerequisites
-- The *Actindo DataHub* module version 4.5.0 or higher is installed.
-- The *Omni-Channel* module version 4.2.1 or higher is installed.
-- The *Global Driver Management* module version 4.0.2 or higher is installed.???
-- The *BigCommerce Integration* plugin version 1.1.0 or higher is installed.
+- [General information](./01_General.md)  
+   - [Benefits](./01_General.md/#benefits)
+   - [Prerequisites](./01_General.md/#prerequisites)
+- [Key features](./02_Features.md)
+   - [How it works](./02_Features.md#how-it-works)

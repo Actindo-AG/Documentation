@@ -28,39 +28,39 @@ Create the connection using the *BigCommerce* driver. You can only configure fur
 3. Click the *Marketplace* folder. Search for the *Actindo Core1 DOP Connector* app.   
   The *Actindo Core1 DOP Connector* app entry is displayed.
 
-   ![Select app](../../Assets/Screenshots/BigCommerce/Connections/SelectApp.png "[Select app]")
+   ![Select app](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/SelectApp.png "[Select app]")
 
  4. Click the *Actindo* logo.   
   The app is selected. Further information is provided. 
 
-    ![Actindo Onboarding app](../../Assets/Screenshots/BigCommerce/Connections/DownloadOnboardingApp.png "[Actindo Onboarding app]")
+    ![Actindo Onboarding app](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/DownloadOnboardingApp.png "[Actindo Onboarding app]")
 
 5. Click the [Install] button.  
   The site for confirming the access is opened.
 
-   ![Confirm access](../../Assets/Screenshots/BigCommerce/Connections/ConfirmAccess.png "[Confirm access]")
+   ![Confirm access](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConfirmAccess.png "[Confirm access]")
 
   
 6. Click the [Confirm] button.   
   The *BigCommerce installation* window is opened.
 
-   ![BigCommerce installation](../../Assets/Screenshots/BigCommerce/Connections/EnterWorkspaceURL.png "[BigCommerce installation]")
+   ![BigCommerce installation](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EnterWorkspaceURL.png "[BigCommerce installation]")
 
 7. Enter the workspace URL of the tenant, on which your *Omni-Channel* module is running, and click the [START SETUP] button.
 
    If the installation was successful, the *BigCommerce connected* window is displayed.
    In your tenant, a new Omni-Channel connection is created, which is connected to your *BigCommerce* shop.   
    
-   ![Connected to BigCommerce](../../Assets/Screenshots/BigCommerce/Connections/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
+   ![Connected to BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
 
 8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab Connections*.   
     - The new connection has been created, synchronized, and activated.   
     - The credentials of the connection has been automatically created.
     - All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.<!---Stimmt das?-->
 
-   ![New Omni-Channel connection](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
+   ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
-   ![Connection credentials](../../Assets/Screenshots/BigCommerce/UserInterface/ConnectionCredentials.png "[Connection credentials]")
+   ![Connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectionCredentials.png "[Connection credentials]")
 
 
 
@@ -79,12 +79,12 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
 
 *Omni-Channel > Settings > Connection*
 
-![Omni-Channel connections](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnection.png "[Omni-Channel connections]")
+![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnection.png "[Omni-Channel connections]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create connection* view is displayed.
 
-    ![Add connections](../../Assets/Screenshots/BigCommerce/Connections/AddConnection.png "[Add connections]")
+    ![Add connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/AddConnection.png "[Add connections]")
 
 2. Enter a name for the connection in the *Name* field.
 
@@ -98,10 +98,10 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
 
 6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") [Back] button and check whether the new connection has been synchronized and activated.
 
-   ![New Omni-Channel connection](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
+   ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
 
-## Configure the BigCommerce connection
+## Configure BigCommerce connection
 
 Configure the *BigCommerce* connection after you have created it.   
 
@@ -121,7 +121,7 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 
 *Ommi-Channel > Settings > Tab CONNECTIONS*
 
-![Omni-Channel connections](../../Assets/Screenshots/BigCommerce/Connections/OmniChannelConnectionCreated.png "[Omni-Channel connections]")
+![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[Omni-Channel connections]")
 
  1. Click the *BigCommerce* connection you want to edit in the list of connections.   
    The *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
@@ -133,7 +133,7 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 3. Click the *Variant option type used for variants* entry.   
    The *Variant option type* dropdown is displayed.
 
-    ![Variant option type](../../Assets/Screenshots/BigCommerce/Connections/VariantOptionType.png "[Variant option type]")
+    ![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionType.png "[Variant option type]")
 
 4. Select the *Variant option type* you want to use.
    The following option types are available:
@@ -146,7 +146,7 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 5. Click the *Order filters* option.   
    A list of order status is displayed.
 
-   ![Order filters](../../Assets/Screenshots/BigCommerce/Connections/OrderFilters.png "[Order filters]")  
+   ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")  
 
 6. Toggle the status of the orders you want to import to the *Actindo Core1 Platform*.
 

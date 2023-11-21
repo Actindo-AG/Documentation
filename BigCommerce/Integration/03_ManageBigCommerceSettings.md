@@ -12,12 +12,12 @@ As the driver is not able to handle multiple shipping addresses, you must check 
 
 *BigCommerce store > Settings*
 
-![BigCommerce settings](../../Assets/Screenshots/BigCommerce/Operations/BigCommerceSettings.png "[BigCommerce settings]")
+![BigCommerce settings](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceSettings.png "[BigCommerce settings]")
 
 1. Display the *Advanced* area and display
 *Checkout > Shipping*. 
 
-   ![Check multiple shipment addresses](../../Assets/Screenshots/BigCommerce/Operations/CheckMultipleAddress.png "[Check multiple shipment addresses]")
+   ![Check multiple shipment addresses](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/CheckMultipleAddress.png "[Check multiple shipment addresses]")
 
 2. Ensure that the *Allow customers to select multiple shipping addresses for an order* setting is not selected.
 
