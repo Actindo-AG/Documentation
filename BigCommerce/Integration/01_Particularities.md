@@ -74,6 +74,9 @@ Each additional color added is separated by a comma. The color codes need to be 
 
 ## Import of orders
 
+The import of offers has the following particularities:
+- Offers are imported into the system in a configurable order status. That means, that you can.... 
+- The *BigCommerce* connection enables parallel imports to handle larger loads.
 
 ## Order status updates
 
@@ -86,9 +89,7 @@ Each additional color added is separated by a comma. The color codes need to be 
 
 #### Import of offers
 
-The import of offers has the following particularities:
-- Offers are imported into the system in a configurable order status. That means, that you can.... 
-- The *BigCommerce* connection enables parallel imports to handle larger loads.
+
 
 - During importing orders to *Omni-Channel*, the orders are filtered by order status and the last modification date/time. <!--- All orders that are matched but not yet imported will be put into a message queue and parallel jobs will import the orders into Omni-Channel-->
 
@@ -141,7 +142,12 @@ Channels Attributes to BigCommerce Attributes:
 
 *BigCommerce* only allows certain attributes to be changeable per variation. *Omni-Channel* allows you to select any attribute as changeable. 
 Only attributes that are changeable in *Bigcommerce* are changed on creation or update of a variation. Others are skipped.   
-For detailed information on product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
+For detailed information on product variants, see [Check product variants](../Integration/04_ManageProductData.md#check-variant-sets)
+
+
+
+
+For detailed information on BigCommerce product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
 
 #### Multidimensional Variations
 

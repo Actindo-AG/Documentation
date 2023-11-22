@@ -150,11 +150,14 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 
 6. Toggle the status of the orders you want to import to the *Actindo Core1 Platform*.
 
-7. If desired, enter the first order ID you want to import the orders in the *Import only orders with an ID greater than* field.
+7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field.
 
-8. If desired, enter the date as of which you want to import the orders in the *Import only orders created after* field. The date is valid from 00:00.
+8. If desired, enter the date as of which you want to import the orders in the *Import only orders created as of* field. The date is valid from 00:00.
 
 9. If desired, import orders that have been already archived by toggling the *Import archived order* field.
+
+10. Click the [Save] button.
+  The settings
 
 
 
