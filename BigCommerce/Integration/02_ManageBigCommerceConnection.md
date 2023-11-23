@@ -106,7 +106,7 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
 Configure the *BigCommerce* connection after you have created it.   
 
 In *Omni-Channel*, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.
-Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. Variant option types such as dropdown, radio button, or rectangles are controlled by the *Variant option type* setting. The “color-swatch type” is determined in a specific way. For detailed information, see <!----Link einfügen-->
+Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. Variant option types such as dropdown, radio button, or rectangles are controlled by the *Variant option type* setting. The “color-swatch type” is determined in a specific way. For detailed information, see <!---Link einfügen-->
 
 By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
@@ -139,25 +139,25 @@ Additionally, if you have worked with *BigCommerce* before you have started with
    The following option types are available:
    | Dropdown | Meaning   
    |-----|-------   
-   |Dropdown| The offer variants are selected in a dropdown
+   |Dropdown| An offer variant is selected in a dropdown
    |Rectangles | The offer variants are selected in a checkbox. The users can select multiple variants.
-   |Radio buttons | The offer variants are selected with radio buttons, users can select one variant only. <!---???--> 
+   |Radio buttons | An offer variant is selected with radio buttons, users can select one variant only. <!---???--> 
 
 5. Click the *Order filters* option.   
    A list of order status is displayed.
 
    ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")  
 
-6. Toggle the status of the orders you want to import to the *Actindo Core1 Platform*.
+6. Enable all toggles for the order status you want to import to the *Actindo Core1 Platform*.
 
 7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field.
 
 8. If desired, enter the date as of which you want to import the orders in the *Import only orders created as of* field. The date is valid from 00:00.
 
-9. If desired, import orders that have been already archived by toggling the *Import archived order* field.
+9. If desired, import orders that have been already archived by enabling the *Import archived order* toggle.
 
-10. Click the [Save] button.
-  The settings
+10. Click the [Save] button.   
+  The connection settings are applied.
 
 
 

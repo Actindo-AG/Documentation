@@ -1,4 +1,4 @@
-# Manage BigCommerce connection
+# Connections (BigCommerce)
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

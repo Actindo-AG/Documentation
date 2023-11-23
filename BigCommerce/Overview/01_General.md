@@ -10,7 +10,7 @@ The documentation refers to the *BigCommerce Integration* plugin version 1.1.0. 
 
 The Actindo *BigCommerce Integration* plugin offers the following benefits:
 - Easy installation via the *Actindo Core1 DOP Connector* app in *BigCommerce*
-- Customizable connection settings of the *BigCommerce* connection
+- Customizable connection settings for *BigCommerce* connection
 - Reliable data exchange between *Actindo* and *BigCommerce*.
 
 

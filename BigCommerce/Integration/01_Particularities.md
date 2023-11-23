@@ -14,7 +14,7 @@ You have two options for exchanging offer data between *Actindo* and *BigCommerc
 
 
 
-## Export of offers
+## Export of offers (Actindo > BigCommerce)
 
 ### Variant options
 
@@ -50,40 +50,106 @@ You can select related offers in the corresponding attribute. Offers can only be
 
 ### Variants
 
-Color Swatch Variant Option (Defining Attribute):
+#### Variant options
 
-Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. You can handle types like dropdowns, radio buttons, or rectangles by the connection settings. For detailed information on these types, see [Check product images](../Integration/02_ManageBigCommerceConnection.md#configure-the-bigcommerce-connection).
+Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. You can handle types such as dropdowns, radio buttons, or rectangles by the connection settings. For detailed information on these types, see [Configure BigCommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
-Additionally, the “color-swatch type” is available and determined in a specific way.  A color swatch is simply a palette showing a variety of shades of the same color. In the physical world, they would be presented as small pieces of fabric with the name and identification number for a specific color on it.
+Alternatively, the “color-swatch type” is available which must be configured in a specific way. For detailed information, see [Configure color-swatch variant option](../Integration/04_ManageProductData.md#add-color-swatch-variant-option).
 
-- To add a variant option as a color swatch, the defining attribute needs to be a “Single Select Tree”. Each entry in said tree has the following values:
-- Name: The name determines the name of the option value shown to the customer. 
-- Key: The key determines the actual value of that option. In case of a color swatch“, this value needs to be a ‘#' followed by a Color-Hex-Code (e.g. '#FF00AA’). BigCommerce supports up to three colors per “Color-Swatch” value, so a possible option value could look like this: 
+### Omni-Channel attributes to BigCommerce attributes
 
-Name
+In variant sets, the *Omni-channel* module allows to select any attribute as changeable, but *BigCommerce* allows only certain attributes to be changeable per variant.  
+Note that only attributes that are changeable in *BigCommerce* are changed on creation or update of a variant. Others are skipped. For detailed information, see [Check variant sets](../Integration/04_ManageProductData.md#check-variant-sets).
 
-Key
+### Multi-dimensional variants
+Multi-dimensional variants are variant sets that contain more than one variant option as defining attribute, for example size and color for clothes.   
 
-Red, Green & Blue
+The *BigCommerce* API allows creating variants by using variant options (defining attributes) and values (changeable attributes). However, during creating an offer, the API makes it possible to create more variants than would be possible with the options and values created by *Actindo*. In this case, customers can select and order products in the *BigCommerce* shopfront that does not exist.   
 
-#FF0000,#00FF00,#0000FF
+**Example**   
+An offer is created by using the two defining attributes size and color. By using these attributes two variants are created t-shirt-s-red (S, red) and t-shirt-m-green (M, green). The driver creates the following options and values:
+- Size (S, M),
+- Color (Green, Red)  
 
-Each additional color added is separated by a comma. The color codes need to be valid Hex-Codes.
+While the Actindo *BigCommerce driver* creates the variants "t-shirt-s-red" and "t-shirt-m-green" only, the *BigCommerce* shopfront displays all possible combinations of options and values. This includes products such as t-shirt-s-green (S, green), which do not exist. The issue is that these product variants are not only displayed to the customers, but that they are also able to order these non-existent products!  
+
+Note that you must manage this issue by the shopfront itself.
+You can access via /v3/catalog/products/{productId}/variants all variations the driver has created and only the ones the driver created.
+
+## Import of offers (BigCommerce > Actindo)
+
+
+### Shared variant options
+
+*BigCommerce* has shared variant options that cannot be modified in any way using the API: 
+- The driver can import offers with shared variant options, but you are not able to edit them after the import.   
+- In addition, the driver cannot manage any changes after the import in the *BigCommerce* UI. Changing shared variant options after an import will cause *Omni-Channel* offer updates to fail.   
+
+Before the first import of offers, check your variant options in *BigCommerce*. It is strongly recommended not to use shared variant options. 
 
 
 
-## Import of orders
+## Import of orders (BigCommerce > Actindo)
 
-The import of offers has the following particularities:
+The import of offers is supported by the *BigCommerce* driver.
 - Offers are imported into the system in a configurable order status. That means, that you can.... 
 - The *BigCommerce* connection enables parallel imports to handle larger loads.
 
+The following data are managed by the driver:
+- Contained products
+- Billing address
+- Shipping address       
+   > [Info] Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
+   For detailed information, see [Manage multiple shipping addresses](../Integration/02_ManageBigCommerceSettings#manage-multiple-shipping-addresses).
+- Channels    
+  All channels that you connect via *BigCommerce* are handled as sub sales channels. This architecture enables you to run multiple stores in *BigCommerce*.
+
+Data that is not included in the above list is not included in the order import. For example, you may be interested in the following data, which is not part of the order import: 
+- Gift wraps
+- Multiple shipping addresses   
+- Customer IDs   
+   *Actindo* does not use the customer IDs of *BigCommerce* to avoid inconsistencies with already existing customer IDs. Instead, *Actindo* automatically creates a new customer, if the import data does not match an existing *Actindo* customer.  
+
+If you have a strong need to have this data available, ask your *Actindo* contact person for support.
+
+
+#### Multiple Shipping Addresses
+
+Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.  Any orders that use multiple shipping addresses cannot be imported and will fail during the import.  
+For detailed information, see [Manage multiple shipping addresses](../Integration/02_ManageBigCommerceSettings#manage-multiple-shipping-addresses).
+
+#### Discounts
+
+*BigCommerce* supports one single discount coupon per order only.
+
+> [INFO] *BigCommerce* processes discounts before taxes. To manage this case, the driver splits discounts on each line item, add them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent” discounts will be shown as absolute values on each line item. 
+
+Used discount coupons (name and code) are displayed in Onmi-Channel as custom attributes on each line item. 
+
+
+
 ## Order status updates
+
+#### Order Delivery Statuses
+
+The driver supports updates on the order statuses, but *BigCommerce* can only manage a few *Omni-Channel* statuses. The order statuses are assigned as follows:
+
+| Status in Omni-Channel | Status in BigCommerce   
+   |-----|-------   
+   |Partially shipped|Partially shipped
+   |Ready for shipping|Awaiting shipment
+   |Shipped| Shipped   
+  
+
+#### Order payment statuses
+This feature is not supported, as *BigCommerce* does not allow an update of a payment status.
+
 
 
 ## Shipments
 
-
+Note that *BigCommerce* allows only specific values to for tracking the carrier of a shipment. You can only use one of these values, otherwise the export of the shipment will fail!   
+For detailed information on the supported carriers, see the *BigCommerce* documentation in *GitHub* under https://github.com/bigcommerce/dev-docs/blob/main/assets/csv/tracking_carrier_values.csv.
 
 
 
@@ -98,25 +164,12 @@ The import of offers has the following particularities:
     - Contained products
     - Billing address
     - Shipping address       
-       > [Info] Note: Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
+       > [Info] Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
        For detailed information, see [Manage multiple shipping addresses](../Integration/02_ManageBigCommerceSettings#manage-multiple-shipping-addresses).
     - Channels. All channels that you connect via *BigCommerce* are handled as sub sales channels. This architecture enables you to run multiple stores in *BigCommerce*.
 
-Information that is not in the list above, is not contained in the order import. For example, the following ones that are not part of the order import, might be interesting for you:  
-- Gift wraps
-- Multiple shipping addresses   
-   > [Info] Note: Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   
-    For detailed information, see 
-- Customer IDs. *Actindo* does not use the customer IDs of *BigCommerce* to avoid inconsistencies with already existing customer IDs. Instead, *Actindo* automatically creates a new customer, if the import data does not match an existing *Actindo* customer. 
 
 
-#### Importing product data
-
- 
-You have two options for handling the product data:
-- You export the product data created in *Actindo* to your *BigCommerce* storefront.
-- You import the product data created in *BigCommerce* to *Actindo*. Note, if you choose this way, you will not be able to import product changes again from *BigCommerce* to *Actindo*. In this case, you must change product data on the *Actindo* side and export them to *BigCommerce*.  
-  For this reason, it is recommended to hold product data on Actindo.
 
 
 ##### Exporting product data 
@@ -149,16 +202,7 @@ For detailed information on product variants, see [Check product variants](../In
 
 For detailed information on BigCommerce product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
 
-#### Multidimensional Variations
 
-The BigCommerce API allows to create variations using variation options and values. While creating an offer with more than one defining attribute, it is possible to create less variations than are actually possible with the options and values you created. If that happens, you are able to select and order products in the BigCommerce Shopfront which are non existent. 
-E.g:
-You create a product with two defining attributes (size and color). You create two variations for this product. The variations you created are V1(S, Red) and V2(M, Green). Following options and values are created by the driver:
-Size(S, M),
-Color(Green, Red)
- While the driver only creates these variants, the shopfront will display all possible combinations of options and values. Including products like V(S, Green). Not only are these product variations displayed, but you are also able to order these non existent products.
-!This issue needs to be handled by the shopfront it self!
-Via /v3/catalog/products/{productId}/variations you can access all variations the driver created and only the ones the driver created!
 
 #### Variation Thumbnails
 
