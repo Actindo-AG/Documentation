@@ -6,7 +6,7 @@ For example, one of the following situations may be a reason to create a ticket:
 - The main account is not reachable
 - Products show incorrect information on the frontend   
 
-> [INFO] Before creating a ticket, it may be useful to first check whether another users have not already reported the discovered issue. To do this, you can check the *Consulting* (MPS agreement (Managed Professional Services)) or the *Support* (older agreement) module.
+> [Info] Before creating a ticket, it may be useful to first check whether another users have not already reported the discovered issue. To do this, you can check the *Consulting* (MPS agreement (Managed Professional Services)) or the *Support* (older agreement) module.
 
 
 
@@ -16,7 +16,7 @@ Create a ticket for an issue that you have discovered. To speed up the support p
 
 #### Prerequisites
 
-- You have the permission to create tickets.
+You have the permission to create tickets.
 
 #### Procedure
 
@@ -37,7 +37,7 @@ The *Contact us* window is displayed.
      - Since when does the issue occur and does it occur regularly?
     - How does the behavior deviate from the expected behavior?    
 
-4. Enter a detailed description of the issue in the *Description* section. If the *Actindo Core1 platform* has output an error message, enter the exact wording of the error message. You can extend the description section by dropping the ![Extend](../../Assets/Icons/Extend.png "[Extend") (Extend) button downwards.   
+4. Enter a detailed description of the issue in the *Description* section. If the *Actindo Core1 Platform* has output an error message, enter the exact wording of the error message. You can extend the description section by dropping the ![Extend](../../Assets/Icons/Extend.png "[Extend") (Extend) button downwards.   
    If there are issues with the communication with external systems such as shops, specify the software used including version (for example, Shopware 5.3.1) as well as the version of the connector in case of online shops.  
    For data protection reasons, do not write any unsolicited access data in the ticket.
 

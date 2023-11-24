@@ -1,19 +1,21 @@
 # Main account and sandboxes
 
-Each tenant has one live system. This is also called main account. Licenses, vCores and available storage are bound to the main account and must be shared with all sandboxes resp. clients. Each instance (main account or sandbox) has a specific host-prefix which determines how the main account/sandbox can be accessed:
+Each tenant has one live system. This is also called main account. Licenses, vCores and available storage are bound to the main account and must be shared with all sandboxes respectively clients. Each instance (main account or sandbox) has a specific host-prefix which determines how the main account/sandbox can be accessed:
 
 - main account: https://[host-prefix].actindo.com
 
 - sandbox: https://[host-prefix].dev.actindo.com
 
-  > [INFO] You can identify if you are logged in to a sandbox or the main account by the URL.   
+  > [Info] You can identify if you are logged in to a sandbox or the main account by the URL. 
+
 ![Sandbox URL](../../Assets/Screenshots/Core1Platform/AdministratingCore1/SandboxURL.png "[Sandbox URL]")
 
 Each sandbox and each main account have its own separated database. This means, that you cannot synchronize data between the main account and the sandbox.
 
 **Sandboxes**  
+
 Sandboxes have the following characteristics: 
-- You can create a sandbox as a copy of the main account with all data, which are currently available in the main account. But, after that the sandbox and the main account is not synchronized.
+- You can create a sandbox as a copy of the main account with all data that is currently available in the main account. After this, however, the sandbox and the main account is not synchronized.
 
 - You can install modules that are not yet released by Actindo, this means you can install it for testing purposes without touching your main account. On a main account, you can install released versions only.
 

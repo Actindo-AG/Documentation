@@ -43,7 +43,7 @@ Note that you can add module-specific dashlets to the imported dashboard after t
 
 #### Prerequisites
 
-- You have already created a dashboard for the *DataHub*, *Omni-Channel*, *Workflows*, or the *OMS* module.
+You have already created a dashboard for the *DataHub*, *Omni-Channel*, *Workflows*, or the *Order Management* module.
 
 #### Procedure
 
@@ -60,7 +60,7 @@ Note that you can add module-specific dashlets to the imported dashboard after t
 
     ![Import tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardImport.png "[Import tab]")
 
-3. Click the *Dashboard selection* drop-down field.    
+3. Click the *Dashboard selection* drop-down list.    
     The drop-down list contains all module-specific dashboards that you have created before.
 
 4. Select the desired dashboard.
@@ -77,11 +77,11 @@ Customize a dashboard to your special needs by adding the desired dashlets, dele
 
 ### Add dashlet
 
-Add the desired dashlets to your dashboard. Note, if you have imported a dashboard before, you can add module-specific dashlets only.
+Add the desired dashlets to your dashboard. Note that you can add module-specific dashlets only if you have previously imported a dashboard.
 
 #### Prerequisites
 
-You have created a dashboard tab, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create dashboard](#create-dashboard).
 
 #### Procedure
 
@@ -102,7 +102,7 @@ You have created a dashboard tab, see [Create a dashboard](#create-a-dashboard).
 
     ![Dashlet picker](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardDashletPicker.png "[Dashlet picker]")
 
-    For detailed information on the standard dashlets, see [Dashlet picker ](../UserInterface/02_Dashboard.md#dashlet-picker).
+    For detailed information on the standard dashlets, see [Dashlet picker](../UserInterface/02_Dashboard.md#dashlet-picker).
 
 4. Select the checkboxes of the dashlets you want to add to your dashboard. If you click the checkbox in the header, all dashlets in the list are selected.
 
@@ -111,7 +111,7 @@ You have created a dashboard tab, see [Create a dashboard](#create-a-dashboard).
 
 6. Click the [SAVE] button.   
     The dashboard has been saved. The *Edit tab* view is closed.
-    - If you want to change the dashlet positioning, see [Change the dashlets arrangement](#change-dashlets-arrangement).
+    - If you want to change the dashlet positioning, see [Change dashlets arrangement](#change-dashlet-arrangement).
     - If you want to change the viewport, see [Change viewport](#change-viewport).
 
 
@@ -123,7 +123,7 @@ Note that the size of a dashlet is fixed and will not be adjusted to the size of
 
 #### Prerequisites
 
-A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard tab has been created, see [Create dashboard](#create-dashboard).
 
 #### Procedure
 *Actindo Core1 Platform*
@@ -164,8 +164,8 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 
 #### Prerequisites
 
-- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- A dashboard tab has been created, see [Create dashboard](#create-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add dashlet](#add-dashlet).
 
 #### Procedure
 
@@ -194,18 +194,18 @@ Change the arrangement of the dashlets on a dashboard to optimize the view for y
 ### Remove dashlet
 
 Remove a dashlet from a dashboard if it is no longer needed for the purposes or has been added accidentally to the dashboard.   
-You cannot undo the removal. To recover a dashlet, you have to add it again, see [Add a dashlet](#add-a-dashlet).
+You cannot undo the removal. To recover a dashlet, you have to add it again, see [Add dashlet](#add-dashlet).
 
 #### Prerequisites
 
-- A dashboard tab has been created, see [Create a dashboard](#create-a-dashboard).
-- At least one dashlet has been added to the dashboard, see [Add a dashlet](#add-a-dashlet).
+- A dashboard tab has been created, see [Create dashboard](#create-dashboard).
+- At least one dashlet has been added to the dashboard, see [Add dashlet](#add-dashlet).
 
 #### Procedure
 
 *Actindo dashboard*
 
-![Tab with dashlets](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTabDashlets.png "[[Tab with dashlets]")
+![Tab with dashlets](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardTabDashlets.png "[Tab with dashlets]")
 
 1. Select the tab of the dashboard from which you want to remove a dashlet.   
     The selected dashboard tab is displayed.
@@ -231,7 +231,7 @@ Be aware that you cannot undo the deletion.
 
 #### Prerequisites
 
-A dashboard has been created, see [Create a dashboard](#create-a-dashboard).
+A dashboard has been created, see [Create dashboard](#create-dashboard).
 
 #### Procedure
 

@@ -20,7 +20,7 @@ The *Core1 Platform* is underlying any plugin. It offers basic functions such as
 - and much more...
 
 **Process orchestration**    
-The *Workflow* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
+The *Workflows* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
 
 **Currency**   
 The *Currency* plug-in provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
@@ -53,7 +53,7 @@ The *Cloudinary* module is an integration of Cloudinary&trade; to Actindo. It al
 
 **PIM**  
 The *Product Information Management* (PIM) module is the master data store for collecting, managing, and enriching product data and thus the heart of all your sales channels. You can integrate the *PIM* module quickly into your existing system landscapes. It serves as the basis for efficient unified commerce across all channels.
-The PIM master data are used to provide material master data as well as data needed for the communication with web shops and marketplaces.
+The PIM master data is used to provide material master data as well as data needed for the communication with web shops and marketplaces.
 
 **Material**   
 Material master data from the *PIM* module such as SKU (stock keeping unit), weight, and length is used as basis for warehousing. This master data does not contain metadata such as shop descriptions or keywords. The *Warehouse Management* enriches these data with information on stock levels etc.
@@ -64,7 +64,7 @@ With the *Omni-Channel* module, you can connect your web store and all relevant 
 It provides orders for the *Order Management System* (OMS) and authorizations for the *Payments* module.
 
 **POS**  
-With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *Venduo POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.
+With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.
 You can integrate POS-Systems with multi location and multi cash register handling. It provides payment data to be posted in the *Accounting* module. 
 
 
@@ -94,11 +94,11 @@ The *Payments* module gives you the possibility to exchange data with various pa
 
 
 **Order Management System**   
-The *Order Management System* (OMS) module collects and orchestrates customer orders from all connected B2C and B2B sales channels in one place. It enables fast, seamless, and highly accurate processing of your orders by automating processes.  
-The module manages documents such as order confirmations, invoices, delivery notes, and returns. It books products in the *Warehouse Management* module. It receives return documents from the return management and provides orders for it. The OMS sends delivery notes to the *Fulfillment* module and ensures through updates from the *Accounting* module that the orders are paid.
+The *Order Management* (OMS) module collects and orchestrates customer orders from all connected B2C and B2B sales channels in one place. It enables fast, seamless, and highly accurate processing of your orders by automating processes.  
+The module manages documents such as order confirmations, invoices, delivery notes, and returns. It books products in the *Warehousing* module. It receives return documents from the return management and provides orders for it. The OMS sends delivery notes to the *Fulfillment* module and ensures through updates from the *Accounting* module that the orders are paid.
 
 **Return Management**   
-The *Return management* module of the *Actindo Core1 Platform* offers the necessary basis for intelligent processing of returns with practical customization and automation options. It manages returns and follow-up actions via defined workflows. It gets orders from the *Order Management System* (OMS) and creates return documents for it. 
+The *Returns* module of the *Actindo Core1 Platform* offers the necessary basis for intelligent processing of returns with practical customization and automation options. It manages returns and follow-up actions via defined workflows. It gets orders from the *Order Management* (OMS) and creates return documents for it. 
 
 **Fulfillment**   
 Whether you work with external fulfillment providers or handle shipping yourself, the *Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.  
@@ -107,7 +107,7 @@ The module gets delivery notes from *Order Management System* (OMS) and provides
 
 <!--- rauslassen?
 **Business Intelligence**    
-The *Database and reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for Structured Query Language, is used to communicate with your databases. Its applications range from selecting and retrieving data to altering table structures and updating contents, to name just a few. The *Actindo Database and reporting* module also allows you to create predefined queries to determine who can access your data and how. -->
+The *Reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for Structured Query Language, is used to communicate with your databases. Its applications range from selecting and retrieving data to altering table structures and updating contents, to name just a few. The *Reporting* module also allows you to create predefined queries to determine who can access your data and how. -->
 
 
 

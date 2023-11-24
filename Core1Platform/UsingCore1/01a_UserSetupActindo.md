@@ -3,15 +3,15 @@
 
 # Set up U2F from the user side
 
-The secure access to Actindo can be granted by using the *Multi-Factor Authentication (MFA)*. The *MFA authentication* method requires two or more verification factors to log in to an application or website.    
+The secure access to Actindo can be granted by using the *Multi-Factor Authentication (MFA)*. This method requires two or more verification factors to log in to an application or website.    
 Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
-The Multi-Factor Authentication (MFA) offers the following benefits:
+The *Multi-Factor Authentication (MFA)* offers the following benefits:
 - Increased security in the login process and with third parties
 - Increased security of the user's identity
 - Better access control
 - Reduction of password risks
 
-For the U2F setup of an Actindo account, you need to set up U2F as a user. Additionally, your administrator must activate your user for U2F. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.    
+For the U2F setup of an Actindo account, you need to set up *U2F* as a user. Additionally, your administrator must activate your user for *U2F*. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.    
 After the registration, the *YubiKey* as a login method is valid for all Actindo accounts, which means for the main account as well as for the sandboxes.
 
 #### Prerequisites
@@ -27,35 +27,35 @@ After the registration, the *YubiKey* as a login method is valid for all Actindo
 
 > [Info] For the user-side setup, you can log in to both a main account and a sandbox of the *Core1 Platform*.
 
-1. Log in to the main account or sandbox, see [Login to the Actindo Core1 Platform ](./01_Login.md#login-to-the-actindo-core1-platform).   
+1. Log in to the main account or sandbox, see [Login to the Actindo Core1 Platform](./01_Login.md#login-to-the-actindo-core1-platform).   
     The *Actindo Dashboard* is displayed.
 
     ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo dashboard]")
 
-3. Click your avatar icon in the upper right corner.   
+2. Click your avatar icon in the upper right corner.   
     The profile menu is displayed.
 
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
-4. Click the *Settings* entry in the profile menu.   
+3. Click the *Settings* entry in the profile menu.   
     The *PROFILE* tab is displayed.
 
     ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
 
-5. Click the *U2F* tab.   
+4. Click the *U2F* tab.   
     The *U2F* tab is displayed.
 
     ![U2F](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/U2F.png "[U2F]")
 
-6. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+5. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Add new U2F device* window is displayed.
 
     ![Add new U2F device](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/AddNewU2FDevice.png "[Add new U2F device]")
 
-    > [INFO] The following steps may vary depending on the key used. Some keys also require a Windows pin that you can choose by yourself.
+    > [Info] The following steps may vary depending on the key used. Some keys also require a Windows pin that you can choose by yourself.
 
 
-7. Click the [OK] button to continue the device registration for U2F. Note, that after clicking the [OK] button you only have time for about 15 seconds for finishing the registration. After that, the process will be timed out. Restart the registration if a time-out occurs.   
+6. Click the [OK] button to continue the device registration for U2F. Note that after clicking the [OK] button you only have time for about 15 seconds for finishing the registration. After that, the process will be timed out. Restart the registration if a time-out occurs.   
     The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
     ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")

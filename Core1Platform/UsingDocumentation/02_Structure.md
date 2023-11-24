@@ -36,7 +36,7 @@ This section describes the preparatory procedures that are to be executed or to 
 
 ## Operation
 
-This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates. Each procedure starts with a breadcrumb path that replaces the first step of the procedure.
+This section describes all executing procedures when using the module/plugin. For example, this section contains procedure descriptions of managing specific module objects such as offers, products, or templates. Each procedure starts with a breadcrumb path that describes the starting point of the procedure.
 
 ![Procedure](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationPathProcedure.png "[Procedure]")
 
@@ -45,11 +45,11 @@ This section describes all executing procedures when using the module/plugin. Fo
 ## Troubleshooting
 
 This section describes issues and errors that can occur during running the module/plugin. It provides you with workable solutions.   
-This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a breadcrumb path that replaces the first step of the procedure.
+This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a breadcrumb path that describes the starting point of the procedure.
 
 
 
 ## User Interface  
 
-This section provides you with a detailed description of the user interface of each menu entry resp. function of a module/plugin. It contains a detailed specification of all tabs as well as lists with field and button descriptions.   
-Note, this chapter contains no action descriptions or far-reaching explanations of interrelationships. It provides only a description of the interface and the individual functions of UI elements. Use this chapter as helpful addition to the procedures that are part of the *Operation* and the *Integration* section. 
+This section provides you with a detailed description of the user interface of each menu entry respectively function of a module/plugin. It contains a detailed specification of all tabs as well as lists with field and button descriptions.   
+Note that this chapter contains no action descriptions or far-reaching explanations of interrelationships. It provides only a description of the interface and the individual functions of UI elements. Use this chapter as helpful addition to the procedures that are part of the *Operation* and the *Integration* section. 

@@ -11,7 +11,7 @@ Access to the engine room is available in any workspace you have opened in the *
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -19,7 +19,7 @@ Access to the engine room is available in any workspace you have opened in the *
  
    ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened with the current workspace overlapped. It contains four dashlets.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -36,7 +36,7 @@ Clearing the tenant cache removes all entries that are currently in the cache of
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
   
@@ -45,19 +45,19 @@ Clearing the tenant cache removes all entries that are currently in the cache of
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
-2. Click the [CLEAR TENANT CACHE] button top right.   
+2. Click the [CLEAR TENANT CACHE] button in the upper right corner.   
    The following warning message is displayed:   
 
    ![Warning message](../../Assets/Screenshots/Core1Platform/AdministratingCore1/ClearCacheWarning.png "[Warning message]")
 
-3. Click the [ABBRECHEN] (Cancel) button if you want to cancel the action. 
+3. Click the [CANCEL] button if you want to cancel the action. 
 
-4. If desired, click the [FORTFAHREN] (Continue) button to clear the cache.   
+4. If desired, click the [CONTINUE] button to clear the cache.   
    The cache is cleared. Afterwards, it will be rebuilt again. The processes on the instance are significantly slowed down.
 
 
@@ -74,7 +74,7 @@ The platform console provides instance-relevant notices and warning. In opposite
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -93,20 +93,20 @@ The platform console provides instance-relevant notices and warning. In opposite
 Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times are not considered, for example calls waiting for a response from external service providers.
 If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that the processing speed is slowed down significantly if the number of vCores assigned is unsufficiently.  
 
-> [INFO] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
+> [Info] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
 If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note, the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
 Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, Actindo will contact you.   
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
 The vCores are analyzed as average over several seconds. The dashlet displays the totals per every 30 seconds in a curve diagram. 
- > [INFO] Since Actindo displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
+ > [Info] Since Actindo displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
 
 <!---hallo Julian, gibt es auch eine Standard-Statistik über einen längeren Zeitraum?-->
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -114,7 +114,7 @@ The vCores are analyzed as average over several seconds. The dashlet displays th
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -143,7 +143,7 @@ Actindo has an eye on your data storage utilization. Isolated overruns will have
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -152,7 +152,7 @@ Actindo Core1 Platform > Any workspace*
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped. 
 
     ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -162,7 +162,7 @@ Actindo Core1 Platform > Any workspace*
    In the middle of the circle, the current utilization is displayed in percent as well as in gigabyte.
 
     ![Data storage](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomDataStorage.png "[Data storage]")
-   >[INFO] Note that these figures are evaluated once a day.   
+   >[Info] Note that these figures are evaluated once a day.   
 
 4. If desired, refresh the current dashlet by clicking the [REFRESH] button to get the current figures.
 
@@ -179,7 +179,7 @@ Actindo Core1 Platform > Any workspace*
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -187,7 +187,7 @@ Actindo Core1 Platform > Any workspace*
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -216,7 +216,7 @@ In the job dashlet, all asynchronous jobs are displayed that are currently runni
 
 #### Prerequisites
 
-- You have administrator rights for the current instance.
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -224,7 +224,7 @@ In the job dashlet, all asynchronous jobs are displayed that are currently runni
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button center top.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")

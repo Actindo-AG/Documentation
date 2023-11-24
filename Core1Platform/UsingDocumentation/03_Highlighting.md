@@ -13,7 +13,7 @@ The following list shows the meaning of different font formats in the Actindo do
    Italics are used to emphasize the following:   
     - The name of a module/plugin
     - The names of menus, tabs, windows, or views 
-    - UI element names (except for button names) and breadcrumb paths.   
+    - UI element names (except for button names) and breadcrumb paths   
 
 - "Quotation marks"   
    Quotation marks are used to emphasize changing names which are included in the name of windows, views, fields, etc., such as "Attribute key" or "Workflow name". For example, the **Mapping from "Source attribute set name" to "Destination attribute set name"** view is displayed.

@@ -13,7 +13,7 @@ You can open the *Actindo Documentation* home page in the *Actindo* home page vi
 
 #### Prerequisites
 
-- You have internet access.
+You have internet access.
 
 #### Procedure
 
@@ -21,11 +21,11 @@ You can open the *Actindo Documentation* home page in the *Actindo* home page vi
 
 ![Actindo home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ActindoHomePage.png "[Actindo home page]")
 
-1. Open the Actindo home page under <a href="https://actindo.com/en" target="_blank">https://Actindo.com/en</a>.   
+1. Open the Actindo home page under <a href="https://actindo.com/en" target="_blank">https://actindo.com/en</a>.   
 
 
 2. In the navigation panel on top of the page, choose **Resources**.   
-    A dropdown list is opened that contains links to further sources of information.
+    A drop-down list is opened that contains links to further sources of information.
 
    ![Actindo home page &ndash; Resources](../../Assets/Screenshots/Core1Platform/UsingDocumentation/Ressources.png "[Actindo home page &ndash; Resources]")
 
@@ -47,7 +47,7 @@ You can open the *Actindo Documentation* home page directly from the *Actindo Co
 
 #### Prerequisites
 
-- You are logged in to the *Actindo Core1 Platform*.
+You are logged in to the *Actindo Core1 Platform*.
 
 #### Procedure
 
@@ -55,7 +55,7 @@ You can open the *Actindo Documentation* home page directly from the *Actindo Co
 
 ![Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationHelpLink.png "[Actindo Core1 Platform]")
 
-1. In the navigation menu at, click the ![Help](../../Assets/Icons/Help.png "[Help]") [Help] button down left.   
+1. At the button in the navigation menu, click the ![Help](../../Assets/Icons/Help.png "[Help]") [Help] button.   
     The *Actindo Documentation* home page is opened in a new window.   
     ![Actindo Documentation home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/DocumentationsSite.png "[Actindo Documentation home page]")
 
@@ -106,7 +106,8 @@ A full text search is available that starts a search over the whole *Actindo* do
 A full text search is available that starts a search over the module/plugin documentation that you have recently opened. The search result list displays all topics containing the specified character string.   
 
 #### Prerequisites
-- You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
+
+You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
 
 #### Procedure
 
@@ -131,8 +132,8 @@ The content of some topics can relate to a certain topic in the same chapter, to
 
 #### Prerequisites
 
-- You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
-- You have opened a module/plugin documentation
+You have opened the *Actindo Documentation* home page. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform).  
+- You have opened a module/plugin documentation.
 
 
 #### Procedure
@@ -153,8 +154,8 @@ The content of some topics can relate to a certain topic in the same chapter, to
 If you are currently reading a topic, you have additional options to move within the topic or within the module/plugin documentation.
 
 #### Prerequisites
-- You have opened a module/plugin documentation.   
-    For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
+
+You have opened a module/plugin documentation. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
 
 #### Procedure
 
@@ -175,7 +176,7 @@ If you are currently reading a topic, you have additional options to move within
 If you want to study a screenshot in detail, you can open it in full screen mode.
 
 #### Prerequisites
-- You have opened a module/plugin documentation. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
+You have opened a module/plugin documentation. For detailed information, see [Opening the site via the Actindo home page](#opening-the-site-via-the-actindo-home-page) or [Opening the site via the Actindo Core1 Platform](#opening-the-site-via-the-actindo-core1-platform). 
 
 #### Procedure
 

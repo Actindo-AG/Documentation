@@ -7,11 +7,11 @@ If you are on a sandbox, and you add a user to a group, the user is automaticall
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that a user has when working on the *Actindo Core1 Platform*.   
 For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
 
-> [INFO] The standard role "ActindoUsersGroup" is available to grant general accessing rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
+> [Info] The standard role "ActindoUsersGroup" is available to grant general accessing rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
 
 The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.  You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.   
 
-> [INFO] For assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, for example, if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is relevant especially when using the Actindo admin group, see below.
+> [Info] For assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, for example, if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is relevant especially when using the Actindo admin group, see below.
 
 **Actindo admin group**   
 A special group is the "ActindoAdminGroup". This group has automatically all rights for everything, and you cannot maintain specific rights for it.   
@@ -26,7 +26,7 @@ Create a user group based on a user role to subsequently assign them a specific 
 
 #### Prerequisites
 
-- You are granted to edit, save, and list groups.
+You are granted to edit, save, and list groups.
 
 #### Procedure
 
@@ -58,8 +58,7 @@ Add any number of users to a user group to assign them rights subsequently.
 
 #### Prerequisites
 
-
-- A user group has been created, see [Create a user group](#create-a-user-group).
+A user group has been created, see [Create a user group](#create-a-user-group).
 
 #### Procedure
 
@@ -91,7 +90,7 @@ Add any number of users to a user group to assign them rights subsequently.
      1. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Add]") (Calendar) button and select the validity start date in the *Valid from* field.  
 
      2. Click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button and select the validity end date in the *End date* field.    
-        > [INFO] It is not possible to change the validity period later. If you want to delimit the validity period, you must remove the group assignment and assign the user again with a different validity period.
+        > [Info] It is not possible to change the validity period later. If you want to delimit the validity period, you must remove the group assignment and assign the user again with a different validity period.
 
 5. To add further users, click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button below the *Add user* drop-down list.   
     A further drop-down list is displayed. Repeat steps **4** and **5** to add as many users as necessary.
@@ -117,7 +116,7 @@ Note that it is not possible to remove a group assignment by delimiting the vali
 
 #### Prerequisites
 
-- You are granted to remove the user assignment from a group.
+You are granted to remove the user assignment from a group.
 
 #### Procedure
 
@@ -153,7 +152,7 @@ If a user group is no longer needed, you can remove it. Note, groups are removed
 
 #### Prerequisites
 
-- You are granted to delete groups.
+You are granted to delete groups.
 
 #### Procedure
 

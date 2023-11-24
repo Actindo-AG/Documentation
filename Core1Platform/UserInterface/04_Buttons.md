@@ -1,4 +1,4 @@
-## Buttons
+# Buttons
 
 The following list shows frequently used buttons in the *Actindo Core1 Platform*:
 
@@ -21,18 +21,18 @@ The following list shows buttons that are frequently used to navigate in the *Ac
     Click this button to jump to the first page.
 
 - ![Last page](../../Assets/Icons/LastPage03.png "[Last page]") (Last page) and similar below a list    
-    Click this button to jump to the last page
+    Click this button to jump to the last page.
 
 
 ## Buttons to process items
 
-The following list shows buttons that are frequently used to process items in the *Actindo Core1 Platform*:.
+The following list shows buttons that are frequently used to process items in the *Actindo Core1 Platform*:
 
 -  ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) and similar   
     Click this button to edit an item.  
 
 - ![Trash](../../Assets/Icons/Trash03.png "[Trash]") (Trash) and similar   
-    Click this button to remove an item.  
+    Click this button to delete an item.  
 
 - ![Plus](../../Assets/Icons/Plus01.png "[Plus]") (Plus) and similar   
     Click this button to create an item.  

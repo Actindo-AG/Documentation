@@ -16,7 +16,7 @@ For the U2F (Universal Second Factor) setup of an Actindo account, a user-side s
 
 #### Prerequisites
 
-- You are logged in to the main account of the *Core1 Platform* with a user assigned to the *ActindoAdminGroup*.
+You are logged in to the main account of the *Core1 Platform* with a user assigned to the *ActindoAdminGroup*.
 
 #### Procedure
 

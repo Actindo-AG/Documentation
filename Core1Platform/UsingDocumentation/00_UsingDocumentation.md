@@ -2,8 +2,8 @@
 <!--- Links getestet-->
 In this part of the *Actindo Core1 Platform* documentation, you will find the following chapters:
 
-- [Move around in the Actindo documentation ](./01_Navigation.md "Move around in the Actindo documentation")   
-    - [Open the Actindo documentation site ](./01_Navigation.md#open-the-actindo-documentation-home-page "Open the Actindo Documentation home page")   
+- [Move around in the Actindo documentation](./01_Navigation.md "Move around in the Actindo documentation")   
+    - [Open the Actindo documentation site](./01_Navigation.md#open-the-actindo-documentation-home-page "Open the Actindo Documentation home page")   
          - [Open the site via the Actindo home page](./01_Navigation.md#open-the-site-via-the-actindo-home-page "Open the site via the Actindo home page")   
          - [Open the site via the Actindo Core1 Platform](./01_Navigation.md#open-the-site-via-the-actindo-core1-platform "Open the Actindo Documentation site via the Actindo Core1 Platform")  
     - [Search the documentation](./01_Navigation.md#search-the-documentation "Search the documentation")   

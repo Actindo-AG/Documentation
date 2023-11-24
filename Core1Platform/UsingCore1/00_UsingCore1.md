@@ -11,7 +11,7 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
 
 - [Edit profile settings](./02_EditProfileSettings.md)   
     - [Edit your user profile](./02_EditProfileSettings.md#edit-your-user-profile)   
-    - [Change password](./02_EditProfileSettings.md#change-password)   
+    - [Change your password](./02_EditProfileSettings.md#change-your-password)   
 
 
 - [Use general user interface functions](./03_GeneralUIFunctions.md)   

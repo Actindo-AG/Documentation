@@ -120,7 +120,7 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     Select a checkbox to add the selected dashlet to the tab. You can select multiple checkboxes. If you click the checkbox in the header, all dashlets in the list are selected. A toolbar indicating the number of selected dashlets is displayed above the list when you have selected at least one checkbox.   
     By default, the following dashlets are available:  
 
-    > [INFO] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.   
+    > [Info] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.   
     Additionally, the *Force cash refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.   
 
     **Actindo Workflow engine**    

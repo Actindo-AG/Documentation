@@ -2,7 +2,7 @@
 
 
 # Work with lists
-A list in the *Actindo Core1 platform* describes a listing of items in a table-like environment. Each item is listed in a row and can be specified by different values in the columns. In contrast to a table, the list has no table border that is firmly separated from the rest of the workspace.
+A list in the *Actindo Core1 Platform* describes a listing of items in a table-like environment. Each item is listed in a row and can be specified by different values in the columns. In contrast to a table, the list has no table border that is firmly separated from the rest of the workspace.
 
 
 
@@ -11,7 +11,7 @@ If you are working in a list, you can create different views on the database. By
 
 #### Prerequisite
 
-- You have opened a list in any module
+You have opened a list in any module.
 
 #### Procedure
 
@@ -19,8 +19,8 @@ If you are working in a list, you can create different views on the database. By
 
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 
-1. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button to the right of the *View* drop-down list.   
-   If there is not yet created a view, only the **create** option is displayed.  
+1. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list.   
+   If no view has been created yet, only the **Create** option is displayed.  
 
    
 2. Click the ![Create](../../Assets/Icons/Plus06.png "[Create]") [Create] entry.   
@@ -41,23 +41,23 @@ If you are working in a list, you can create different views on the database. By
 
    - Sort the list entries, see [Sort list entries](#sort-list-entries "Sort list entries"). 
 
-   - Define the filters you want to apply the view, see [Use filters](#use-filters "Use filters").  
+   - Define the filters you want to apply to the view, see [Use filters](#use-filters "Use filters").  
 
 5. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.   
    The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list. 
-   If desired, you can now delete the view by clicking the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and selecting the ![Delete](../../Assets/Icons/Trash01.png "[Points]") [Delete] button.
 
-6. If desired, make the view available for all users. To do this, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![publish](../../Assets/Icons/Publish.png "[publish]") [publish] button.   
-   The view is now visible to all users. If you want to unpublish the view again, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![unpublish](../../Assets/Icons/Publish.png "[unpublish]") [unpublish] button.  
+6. If desired, make the view available for all users. To do this, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Publish](../../Assets/Icons/Publish.png "[Publish]") (Publish) button.   
+   The view is now visible to all users. If you want to unpublish the view again, click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") (Unpublish) button.  
 
 
 
 ## Add or remove columns
+
 Define the columns that are to be displayed in a list.
 
 #### Prerequisites
 
-- You have opened a list in any module.
+You have opened a list in any module.
 
 ##### Procedure
 
@@ -71,8 +71,8 @@ Define the columns that are to be displayed in a list.
 
 2. Consider which columns should be visible without horizontal scrolling and what order is useful.
 
-3. Click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns (x)) button top right of the list. The *x* indicates the number of columns that are currently displayed.   
-   A pop-up window is opened in which you can specify the columns.   
+3. Click the ![Columns](../../Assets/Icons/Columns.png "[Columns]") (Columns (x)) button in the upper right corner of the list. The *x* indicates the number of columns that are currently displayed.   
+   The columns bar is opened in which you can specify the columns.   
 
 ![Define columns](../../Assets/Screenshots/Core1Platform/UsingCore1/EditColumns.png " [Define columns] ")
 
@@ -98,7 +98,7 @@ Sort the list entries depending on an ascending or descending sorted column. For
 
 #### Prerequisites
 
-- You have opened a list in any module.
+You have opened a list in any module.
 
 #### Procedure
 
@@ -129,7 +129,7 @@ If required, you can save the filters in a view, so that you can provide differe
 
 #### Prerequisites
 
-- You have opened a list view in a module.
+You have opened a list view in a module.
 
 #### Procedure
 
@@ -140,12 +140,12 @@ If required, you can save the filters in a view, so that you can provide differe
 1. If desired, select the view for which you want to define the filters.  
    After applying the filters, you have the following options:   
    - You can apply the filters for a temporary use without changing the view.
-   - After creating the filters, you can create a new view with the new applied filters.
+   - After creating the filters, you can create a new view with the newly applied filters.
 
-2. Click the ![Filter](../../Assets/Icons/Filter.png "[Filter]") (Filter (x)) button top right of the list. The *x* indicates the number of filters that are currently active.   
+2. Click the ![Filter](../../Assets/Icons/Filter.png "[Filter]") (Filter (x)) button in the upper right corner of the list. The *x* indicates the number of filters that are currently active.   
    A pop-up window is opened in which you can define the filter.  
 
-   ![List view &ndash; Filter pop-up ](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterPopUp.png "[List view &ndash; Filter pop-up ]")
+   ![List view &ndash; Filter pop-up](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterPopUp.png "[List view &ndash; Filter pop-up]")
 
 3. In the *Column* drop-down list, select the column for which you want to apply a filter.   
    The selected column is applied the *Column* drop-down list. In addition, the *Relation* field is shown. The relation defines the filter operator, which specifies how the filter criteria are to be related to each other.
@@ -163,7 +163,7 @@ If required, you can save the filters in a view, so that you can provide differe
 
         ![Filter relation between](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationBetweeen.png "[Filter relation between]")
 
-        > [Info] If a value help for dates is available, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to open the value help, select the value, and click the button again to apply the value.
+        > [Info] If a value help for dates is available, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to open the value help, select the value, and click the button again to apply to the value.
 
      - **equal**   
          This relation is available for character and date fields. You can use it to filter the list for a specific value, for example the *Created at* date **6/14/2023** or the *Transaction ID* **KXQTFDGK4DQ2WN82**.
@@ -171,7 +171,7 @@ If required, you can save the filters in a view, so that you can provide differe
          ![Filter relation equal](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationEqual.png "[Filter relation equal]")
 
      - **greater**   
-         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries from 6/14/2023.
+         This relation is available for numeric and date fields. You can use it to filter the list for values that are greater than the value you specified. For example, if you enter the *Created at* date **6/13/2023**, you get all list entries from 6/14/2023.
 
          ![Filter relation greater](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationGreater.png "[Filter relation greater]")
 
@@ -196,7 +196,7 @@ If required, you can save the filters in a view, so that you can provide differe
          ![Filter relation like](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLike.png "[Filter relation like]")
 
      - **not equal to**   
-         This relation is available for character and date fields. You can use it to remove specific entries from the list, for example entries with a *Transaction date* 06/21/2023 or the *Status ID* **2**.
+         This relation is available for character and date fields. You can use it to exclude specific entries from the list, for example entries with a *Transaction date* 06/21/2023 or the *Status ID* **2**.
 
          ![Filter relation not equal to](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationNotEqualTo.png "[Filter relation not equal to]")
 
@@ -216,8 +216,8 @@ If required, you can save the filters in a view, so that you can provide differe
 
    ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedChange.png "[List view &ndash; Applied filter options]")  
     
-    - You can delete the filter by clicking the ![Remove](../../Assets/Icons/Cross08.png "[Remove ]") (Remove) button. 
-    - You can temporarily remove the filter by clicking the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
+    - You can delete the filter by clicking the ![Remove](../../Assets/Icons/Cross08.png "[Remove]") (Remove) button. 
+    - You can temporarily disable the filter by clicking the ![Checkbox](../../Assets/Icons/Checkbox03.png "[Checkbox]") (Checkbox) button. This is recommended if you want to disable the filter for a short time without deleting it.
     - You can edit the filter by clicking the ![Dropdown](../../Assets/Icons/DropDown.png "[Dropdown]") (Drop-down) button. Save your changes if desired.   
 
       ![List view &ndash; Applied filter options](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterAppliedEdit.png "[List view &ndash; Applied filter options]")  
@@ -244,9 +244,9 @@ You have opened a list in any module
 ![List view in a module](../../Assets/Screenshots/Core1Platform/UsingCore1/LISTView.png "[List view in a module]")
 1. Select the view you want to rename in the *VIEW* drop-down list.
 
-2. Click the ![Points](../../Assets/Icons/Points01.png "[Remove ]") (Points) button to the right of the *VIEW* drop-down list.   
+2. Click the ![Points](../../Assets/Icons/Points01.png "[Remove]") (Points) button to the right of the *VIEW* drop-down list.   
 
-2. Click the  ![rename](../../Assets/Icons/Edit02.png "[Remove ]") [rename] button.   
+2. Click the  ![rename](../../Assets/Icons/Edit02.png "[Remove]") [rename] button.   
    The *Rename "view name"* window is displayed.
 
    ![Rename view](../../Assets/Screenshots/Core1Platform/UsingCore1/RenameView.png "[Rename view]")
