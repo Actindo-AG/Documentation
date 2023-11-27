@@ -104,19 +104,16 @@ The *Warehouse groups* plugin must be installed.
 
 3. Click the *Connection* drop-down list and select the applicable connection. All connections established in the *Fulfillment* module are displayed in the list.
 
-[comment]: <> (*Return to this location possible* obsolete?)
+[comment]: <> (Julian: *Return to this location possible* obsolete?)
 
 4. If desired, enter the address details in the corresponding fields.
 
-6. If desired, enter any comments in the *Comment* field.
+5. If desired, enter any comments in the *Comment* field.
 
-7. Click the [SAVE] button.  
+6. Click the [SAVE] button.  
     The warehouse group has been saved.
 
-8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses. The new warehouse group is displayed in the list of warehouses.
-
-
-[comment]: <> (Evtl. zwei komplett separate procedures mit H2?)
+7. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses. The new warehouse group is displayed in the list of warehouses.
 
 
 
@@ -141,15 +138,31 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
 2. Modify any settings as necessary in the applicable fields.  
 
-    [Info] If the warehouse group contains warehouses, the warehouse group number cannot be modified.  
+    [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while saving: There are warehouse in this warehouse group.*
 
 3. Click the [SAVE] button.  
     The changes have been saved.
+
+
 
 ## Delete a warehouse group
 
 #### Prerequisites
 
+At least one warehouse group has been created, see [Create a warehouse group](#create-a-warehouse-group).
 
 #### Procedure
 
+*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+
+![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
+
+1. Click the warehouse group you want to delete.  
+    The *Basic data* sub-tab of the selected warehouse group is displayed.
+
+    ![Group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/GroupBasicData.png "[Group basic data]")
+
+2. Click the [DELETE] button.
+    The warehouse group is deleted and is no longer displayed in the left side bar in the *Warehouse master data* sub-tab.
+    
+    [Info]  If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while deleting: There are warehouse in this warehouse group.* In this case, you have to delete the warehouses included in the warehouse group first, see [Delete a warehouse](#delete-a-warehouse).
