@@ -30,7 +30,7 @@ You are granted to edit, save, and list groups.
 
 #### Procedure
 
-*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
+*Settings > Users and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
@@ -61,8 +61,7 @@ Add any number of users to a user group to assign them rights subsequently.
 A user group has been created, see [Create a user group](#create-a-user-group).
 
 #### Procedure
-
-*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
+GRUPPEN)*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group management]")
 
@@ -120,7 +119,7 @@ You are granted to remove the user assignment from a group.
 
 #### Procedure
 
-*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
+*Settings > Users and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
@@ -132,7 +131,7 @@ You are granted to remove the user assignment from a group.
 2. Click the ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit) button.
     The *Edit group "Group name"* view is opened. By default, the *Users* tab is displayed. 
 
-   ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagementUsers.png "[Group selected]")
+   ![Group users](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagementUsers.png "[Group users]")
 
 3. Select a user.   
     The editing toolbar is displayed.
@@ -143,7 +142,7 @@ You are granted to remove the user assignment from a group.
     The selected user is removed from the list.
 
 5. Click the [SAVE] button.   
-    The *GRUPPENVERWALTUNG (GROUP MANAGEMENT)* view is displayed again.
+    The *GROUP MANAGEMENT* view is displayed again.
 
 
 ## Remove user group
@@ -156,7 +155,7 @@ You are granted to delete groups.
 
 #### Procedure
 
-*Settings > Users and groups > Tab GRUPPENVERWALTUNG (GROUP MANAGEMENT)*
+*Settings > Users and groups > Tab GROUP MANAGEMENT*
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
@@ -172,7 +171,7 @@ You are granted to delete groups.
 
 3. Check whether users are assigned the group. If necessary, remove the assignment, see [Remove a user from a group](#remove-a-user-from-a-user-group).
 
-4. Return to the *GRUPPENVERWALTUNG (GROUP MANAGEMENT)* tab by clicking the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
+4. Return to the *GROUP MANAGEMENT* tab by clicking the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
 
 5. Select the checkbox of the user group you want to remove.   
     The editing toolbar is displayed.

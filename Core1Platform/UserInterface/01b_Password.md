@@ -2,20 +2,14 @@
 
 # Password
 
-*Any workspace > Avator icon > Menu entry Settings > Tab PASSWORD*
+*Any workspace > Avatar icon > Menu entry Settings > Tab PASSWORD*
 
 ![Password](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/Password.png "[Password]")
 
 **Change password**
 
 - [SAVE]   
-    Click this button to save the new password. The notice *Submitting data..* is displayed. If the entered password is not fulfilling the requirements for a valid password, an error message is displayed and you must edit the password.
-
-    
-
-    If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
-
-    ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
+    Click this button to save the new password. The notice *Submitting data...* is displayed. If the entered password is not fulfilling the requirements for a valid password, an error message is displayed, and you must edit the password.If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
 
 - *Current password*   
     Enter your current password.
@@ -27,7 +21,7 @@
     Enter the new password again to confirm it.
 
 - ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off)      
-    Click this button to display all characters you enter in the corresponding field. The button changes to the ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
+    Click this button to display all characters you entered in the corresponding field. The button changes to the ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
 
 - ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility)      
-    Click this button to display all the characters you enter in the corresponding field as dots only. The button changes to the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.
+    Click this button to display all characters you entered in the corresponding field as dots only. The button changes to the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.

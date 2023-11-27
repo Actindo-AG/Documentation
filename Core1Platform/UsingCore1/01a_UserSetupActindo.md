@@ -56,6 +56,7 @@ After the registration, the *YubiKey* as a login method is valid for all Actindo
 
 
 6. Click the [OK] button to continue the device registration for U2F. Note that after clicking the [OK] button you only have time for about 15 seconds for finishing the registration. After that, the process will be timed out. Restart the registration if a time-out occurs.   
+    Note that the displayed screenshots may vary depending on the key. In addition, there might be a dialog in which you have to enter a windows pincode before you can touch the U2F key.
     The browser window *Verify your identity* is displayed to select the device type for the identity verification.
 
     ![Verify your identity](../../Assets/Screenshots/Core1Platform/ProfileSettings/U2F/VerifyIdentity.png "[Verify your identity]")

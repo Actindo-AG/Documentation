@@ -9,7 +9,7 @@ A list in the *Actindo Core1 Platform* describes a listing of items in a table-l
 ## Create view
 If you are working in a list, you can create different views on the database. By doing this, you specify the columns to be displayed and the filters to be applied. You can define views for your own, but also publish it to make it available for all users.
 
-#### Prerequisite
+#### Prerequisites
 
 You have opened a list in any module.
 
@@ -37,11 +37,11 @@ You have opened a list in any module.
 
      ![Standard filters](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterStandard.png "[Standard filters]")
 
-   - Define the columns that are to be displayed in the view, see [Add or remove columns](#add-or-remove-columns "Add or remove columns").   
+   - Define the columns that are to be displayed in the view, see [Add or remove columns](#add-or-remove-columns).   
 
-   - Sort the list entries, see [Sort list entries](#sort-list-entries "Sort list entries"). 
+   - Sort the list entries, see [Sort list entries](#sort-list-entries). 
 
-   - Define the filters you want to apply to the view, see [Use filters](#use-filters "Use filters").  
+   - Define the filters you want to apply to the view, see [Use filters](#use-filters).  
 
 5. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button and select the ![Save](../../Assets/Icons/Save.png "[Save]") (Save) button.   
    The view is saved. The next time you open the list, you can select your new view with the *VIEW* drop-down list. 
@@ -59,7 +59,7 @@ Define the columns that are to be displayed in a list.
 
 You have opened a list in any module.
 
-##### Procedure
+#### Procedure
 
 *Actindo Core1 Platform > Any module > LIST view*
 
@@ -88,7 +88,7 @@ You have opened a list in any module.
 7. Click the [APPLY] button.   
    The new column is applied the view. You have now the following options: 
    -  You can optimize the column size by moving the column separators as desired.   
-   - You can save and publish the view. Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view "Create view").
+   - You can save and publish the view. Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view).
 
 
 
@@ -119,7 +119,7 @@ You have opened a list in any module.
 
     ![Sorting](../../Assets/Screenshots/Core1Platform/UsingCore1/Sorting.png "[Sorting]")
 
-4. If desired, you can now save and publish the view with the new sorting. Alternatively, you can save your new view setting by creating a new view, see [Create view](#create-view "Create view").
+4. If desired, you can now save and publish the view with the new sorting. Alternatively, you can save your new view setting by creating a new view, see [Create view](#create-view).
 
 
 
@@ -225,7 +225,7 @@ You have opened a list view in a module.
 7. If desired, add further filters.
 
 8. If desired, save the filter in the view.
-   Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view "Create view").
+   Alternatively, you can save your new view settings by creating a new view, see [Create view](#create-view).
 
 
 

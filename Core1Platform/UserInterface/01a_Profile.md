@@ -2,7 +2,7 @@
 
 # Profile
 
-*Any workspace > Avator icon > Menu entry Settings > Tab PROFILE*
+*Any workspace > Avatar icon > Menu entry Settings > Tab PROFILE*
 
 ![Profile](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/Profile.png "[Profile]")
 
@@ -10,8 +10,6 @@
 
 - [SAVE]   
     Click this button to save any changes. The notice *Submitting data...* is displayed. When the changes are saved, the *User saved* pop-up window is displayed.
-
-    ![User saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Profile/UserSaved.png "[User saved]")
 
 - *Login*   
     Enter the user name.
@@ -28,8 +26,8 @@
 - *Address*   
     Enter the street and house number of the user's address.
 
-- *ZIP*   
-    Enter the ZIP code of the user's address.
+- *Zip*   
+    Enter the zip code of the user's address.
 
 - *City*   
     Enter the city name of the user's address.

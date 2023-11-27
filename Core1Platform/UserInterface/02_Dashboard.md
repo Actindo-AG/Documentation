@@ -20,32 +20,32 @@ In the *Actindo Dashboard*, the custom tabs with composable dashlets are display
 
 *Actindo Dashboard > Button Add*
 
-![Create new tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Create new tab]")
+![Create tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardAddNewTab.png "[Create new tab]")
 
 **Create tab**
 
-- *Tab Name*   
+- *Tab name*   
     Enter a name for the new tab.
 
 - [CANCEL]   
-    Click this button to cancel creating a tab. The *Add a new tab* window is closed.
+    Click this button to cancel creating a tab. The *Add tab* window is closed.
 
 - [SAVE]   
-    Click this button to save the tab with the entered name. The *Add a new tab* window is closed. The new tab is created.
+    Click this button to save the tab with the entered name. The *Add tab* window is closed. The new tab is created.
 
 **Import tab**
 
 ![Import tab](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardImport.png "[Import tab]")
 
 - *Dashboard selection*   
-    Select a module-specific dashboard that you have already created before.   
+    Select a module-specific dashboard that you have already created.   
 
 
 - [CANCEL]   
-    Click this button to cancel creating a tab. The *Add a new tab* window is closed.
+    Click this button to cancel importing a tab. The *Add tab* window is closed.
 
 - [SAVE]   
-    Click this button to save the tab with the entered name. The *Add a new tab* window is closed. The new tab is created.
+    Click this button to save the tab. The *Add tab* window is closed. The new tab is created.
 
 
 
@@ -121,13 +121,13 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     By default, the following dashlets are available:  
 
     > [Info] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.   
-    Additionally, the *Force cash refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.   
+    Additionally, the *Force cache refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.   
 
-    **Actindo Workflow engine**    
-    For detailed information, see [Dashlet picker](../../ActindoWorkFlow/UserInterface/01a_Overview.md#dashlet-picker "Dashlet picker") in the *Actindo Work Flow Engine* documentation.
+    **Workflows**    
+    For detailed information, see [Dashlet picker](../../ActindoWorkFlow/UserInterface/01a_Overview.md#dashlet-picker "Dashlet picker") in the *Workflows* documentation.
     
     
-    <!--- to be deleted: *Current failure count*   
+    <!--- to be deleted?: *Current failure count*   
             Displays the number of workflows that have currently an *Error* status.	
     - *Workflow count*   
             Displays the number of workflows in the *Workflows* module.
@@ -135,7 +135,7 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
           Displays the number of processes not yet started.   -->
 
     **Omni-Channel**  
-    For detailed information, see [Dashlet picker](../../Channels/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Actindo Channels* documentation.
+    For detailed information, see [Dashlet picker](../../Channels/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Omni-Channels* documentation.
     
     
 
@@ -150,8 +150,8 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     - *Connection Status*   
             Displays the status of each connection. You can display all active or inactive connections.-->
             
-    **Actindo DataHub**   
-        For detailed information, see [Dashlet picker](../../DataHub/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Actindo Channels* documentation.
+    **DataHub**   
+        For detailed information, see [Dashlet picker](../../DataHub/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *DataHub* documentation.
 
     <!---- *Attribute Count*   
             Displays the number of attributes in the *DataHub* module.
@@ -180,7 +180,7 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     -	*DataHub Flow*   
             Displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.   -->
 
-    **Fakturierung (Order Management System (OMS))** <!---Hallo Julian, diese hier habe ich mir zusammengereimt--> 
+    **Order Management (OMS))** <!---Hallo Julian, diese hier habe ich mir zusammengereimt--> 
     - *Orders*  
             Displays the number of orders for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.
     - *Dispatched Orders (via AIQS)*   
