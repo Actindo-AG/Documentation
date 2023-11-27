@@ -20,13 +20,13 @@ You are logged in to the main account of the *Core1 Platform* with a user assign
 
 #### Procedure
 
-*Settings > Users and groups > Tab BENUTZERVERWALTUNG (USER MANAGEMENT)*
+*Settings > Users and groups > Tab USER MANAGEMENT*
 
 ![User management](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/UserManagement.png "[User management]")
 
 
 1. Click the user for whom you want to activate U2F in the users list.     
-    The *Edit user* view is displayed. By default, the *Profile* tab is displayed.
+    The *Edit user* view is displayed. By default, the *Profile* tab is preselected.
 
     ![Edit user profile](../../Assets/Screenshots/Settings/UsersGroups/UserManagement/EditUserProfile.png "[Edit user profile]")
 

@@ -260,6 +260,3 @@ Delete a user, if he&frasl;she works no longer in your company, for example. You
 
 2. Click the [DELETE] button down right and confirm the confirmation pop-up window.  
   The user is deleted.
-
-
-

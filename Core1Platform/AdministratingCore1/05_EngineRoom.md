@@ -8,7 +8,6 @@ The engine room contains some dashlets with information on vCore utilization, da
 
 Access to the engine room is available in any workspace you have opened in the *Core1 Platform*.
 
-
 #### Prerequisites
 
 You have administrator rights for the current instance.
@@ -24,7 +23,7 @@ You have administrator rights for the current instance.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
-2. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button again to close it.
+2. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine room]") (Engine room) button again to close it.
    The workspace is visible again.
 
 
@@ -32,7 +31,6 @@ You have administrator rights for the current instance.
 ## Clear tenant cache
 
 Clearing the tenant cache removes all entries that are currently in the cache of the instance. It is used if there is a general issue in processing, and if changes are made directly through the database rather than through system logic. It is recommended to use this function only if it is really necessary. Clearing the cache will slow down the instance considerably. 
-
 
 #### Prerequisites
 
@@ -65,7 +63,6 @@ You have administrator rights for the current instance.
 ## Check warnings and notices
 
 The platform console provides instance-relevant notices and warning. In opposite to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications "Check notifications")), these notices and warnings are targeted for developers.
-
 
 #### Procedure
 
