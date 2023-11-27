@@ -6,7 +6,8 @@
 
 ## Manage multiple shipping addresses
 
-As the driver is not able to handle multiple shipping addresses, you must check a specific setting in *BigCommerce* to avoid failures during the import. Any orders utilizing multiple shipping addresses cannot be imported and will fail during the import.
+Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only.   Any orders that use multiple shipping addresses cannot be imported and will fail during the import.  
+To avoid failures during the import, you must check a specific setting in *BigCommerce*. 
 
 # Procedure
 

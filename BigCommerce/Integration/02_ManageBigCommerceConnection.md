@@ -1,13 +1,13 @@
 # Manage BigCommerce connection
 
-*Actindo* features a special installation app in the *BigCommerce* App Store. The *Actindo Core1 DOP connector* app setups and authorizes a connection automatically. 
-Note, if possible, you should not delete the app afterwards. If you delete the app, the connection in *Omni-Channel* will not be deleted. But deletion invalidates the access token you have created during connecting the app! In case of deletion, either reconnect the app or enter a valid access token manually to enable the connection again.
+*Actindo* features a special installation app in the *BigCommerce App Store*. The *Actindo Core1 DOP connector* app setups and authorizes a connection automatically. 
+Note, if possible, you should not delete the app in *BigCommerce* after creating the connection. Although the delting will not delete the connection in *Omni-Channel*, but it will invalidate the access token you have created during connecting the app! If the app was deleted by mistake, either reconnect the app or enter a valid access token manually to enable the connection again.
 If you do not want to use the *Actindo Core1 DOP connector* app in *BigCommerce*, you can create the connection manually.
 
 
 ## Create BigCommerce connection automatically 
 
-Create the connection using the *BigCommerce* driver. You can only configure further settings after the connection has been established.
+Create the connection using the *BigCommerce* driver. You will not be able to configure any other settings until the connection is established.
 
 
 ### Prerequisites
@@ -18,14 +18,14 @@ Create the connection using the *BigCommerce* driver. You can only configure fur
 
 ### Procedure
 
-1. Login to your *Actindo Core1* tenant, on which you run the *Omni-Channel* module.
+1. Login to your *Actindo Core1* tenant, on which you run the *Omni-Channel* module. To verify the successful creation later, it is important to be logged in.
 
-2. In a new browser window, open the [*BigCommerce app store*] (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
+2. In a new browser window, open the *BigCommerce App Store*(https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
   The *BigCommerce Actindo-sandbox* is opened.
 
 2. Click the *Apps* folder.
 
-3. Click the *Marketplace* folder. Search for the *Actindo Core1 DOP Connector* app.   
+3. Click the *Marketplace* folder and select the *Actindo Core1 DOP Connector* app.   
   The *Actindo Core1 DOP Connector* app entry is displayed.
 
    ![Select app](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/SelectApp.png "[Select app]")
@@ -53,7 +53,7 @@ Create the connection using the *BigCommerce* driver. You can only configure fur
    
    ![Connected to BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
 
-8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab Connections*.   
+8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab CONNECTIONS*.   
     - The new connection has been created, synchronized, and activated.   
     - The credentials of the connection has been automatically created.
     - All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.<!---Stimmt das?-->
@@ -77,7 +77,7 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
 
 ### Procedure
 
-*Omni-Channel > Settings > Connection*
+*Omni-Channel > Settings > CONNECTIONS*
 
 ![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnection.png "[Omni-Channel connections]")
 

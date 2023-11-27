@@ -1,10 +1,15 @@
-# Connections (BigCommerce)
+# CONNECTIONS (BigCommerce)
+
+The CONNECTIONS tab offers an overview of all connections created for *Omni-Channel*. It also allows configuring the connections. 
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
 ![Connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Connections.png "[Connections]")
 
 **Connections**
+
+The *CONNECTIONS* tab contains a list view of all available connections.
+The following functions are available in the list header of the *CONNECTIONS*:
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of connections.
@@ -101,7 +106,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 
 
-## Edit Bigcommerce connection
+## Edit BigCommerce connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select BigCommerce connection*
 
@@ -128,7 +133,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select BigCommerce connection > Tab Credentials*
 
-![Edit BigCommerce credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EditConnectionCredentials.png "[Edit Shopify credentials]")
+![Edit BigCommerce credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EditConnectionCredentials.png "[Edit BigCommerce credentials]")
 
 - *Driver*  
     Driver name. For *BigCommerce*, the *BigCommerce* driver is displayed. This drop-down list is read-only.
