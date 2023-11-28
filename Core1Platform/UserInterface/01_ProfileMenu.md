@@ -1,3 +1,5 @@
+[!!Edit profile settings](../UsingCore1/02_EditProfileSettings.md)
+
 # Profile menu
 
 *Any workspace > Avatar icon*

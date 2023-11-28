@@ -18,7 +18,7 @@ You have administrator rights for the current instance.
  
    ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace.  
    The engine room is opened with the current workspace overlapped. It contains four dashlets.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -43,7 +43,7 @@ You have administrator rights for the current instance.
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workspace.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace of the workspace.  
    The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -62,7 +62,11 @@ You have administrator rights for the current instance.
 
 ## Check warnings and notices
 
-The platform console provides instance-relevant notices and warning. In opposite to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications "Check notifications")), these notices and warnings are targeted for developers.
+The platform console provides instance-relevant notices and warning. In contrast to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications)), these notices and warnings are intended for developers.
+
+#### Prerequisites
+
+You have administrator rights for the current instance.
 
 #### Procedure
 
@@ -71,13 +75,13 @@ The platform console provides instance-relevant notices and warning. In opposite
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace.  
    The engine room is opened. The current workspace is overlapped.
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
-2. Click the [PLATTFORM-KONSOLE] (Platform console) button.   
-   The *Platform Console* window is opened.
+2. Click the [Platform console] button.   
+   The *Platform console* window is opened.
 
    ![Platform console](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomPlatformConsole.png "[Platform console]")
 
@@ -88,15 +92,16 @@ The platform console provides instance-relevant notices and warning. In opposite
 ## Check vCores
 
 Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times are not considered, for example calls waiting for a response from external service providers.
-If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that the processing speed is slowed down significantly if the number of vCores assigned is unsufficiently.  
+If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that if if the number of vCores assigned is not sufficient, the processing speed is slowed down significantly. 
 
 > [Info] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
-If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note, the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
+If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note that the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
 Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, Actindo will contact you.   
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
 The vCores are analyzed as average over several seconds. The dashlet displays the totals per every 30 seconds in a curve diagram. 
+
  > [Info] Since Actindo displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
 
 <!---hallo Julian, gibt es auch eine Standard-Statistik über einen längeren Zeitraum?-->
@@ -111,7 +116,7 @@ You have administrator rights for the current instance.
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
@@ -119,11 +124,10 @@ You have administrator rights for the current instance.
 2. Focus your attention to the dashlet at the first position from the left.  
    The vCore utilization is displayed in a curve diagram.
 
-3. Check the limit of vCores assigned to the current instance. To do this, move the mouse pointer on the white line.   
-   The limit of vCores for this instance is displayed in a callout shape.   
-    <!---Hallo Marina, hallo Julian, wisst Ihr, wie die "callout shapes" richtig heißen, bzw. gibt es einen bekannten Namen dafür? ich habe nur diesen Namen gefunden-->   
- 
-    ![vCore dashlet](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCores.png "[vCore dashlet]")
+3. Check the limit of vCores assigned to the current instance. To do this, move the mouse pointer over the white line.   
+   The limit of vCores for this instance is displayed in a callout.   
+     
+   ![vCore dashlet](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomvCores.png "[vCore dashlet]")
 
 4. Check the vCores for any deviations. If desired, move the mouse on a peak of the curve.   
    The number of vCores is displayed in a callout shape. Used vCores are shown in green, required vCores above the limit for a given time are shown in red.
@@ -144,33 +148,34 @@ You have administrator rights for the current instance.
 
 #### Procedure
 
-Actindo Core1 Platform > Any workspace*
+*Actindo Core1 Platform > Any workspace*
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace.  
    The engine room is opened. The current workspace is overlapped. 
 
     ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
-3. Focus your attention to the dashlet at the second position from the left.  
+2. Focus your attention to the dashlet at the second position from the left.  
    The data storage utilization is displayed in a circle diagram.
    In the middle of the circle, the current utilization is displayed in percent as well as in gigabyte.
 
     ![Data storage](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineroomDataStorage.png "[Data storage]")
+
    >[Info] Note that these figures are evaluated once a day.   
 
-4. If desired, refresh the current dashlet by clicking the [REFRESH] button to get the current figures.
+3. If desired, refresh the current dashlet by clicking the [REFRESH] button to get the current figures.
 
-5. Move your mouse pointer over the circle diagram.   
+4. Move your mouse pointer over the circle diagram.   
    The current data storage utilization is displayed in a callout shape.
     
 
 
 ## Check request statistics
 
- The request statistics dashlet displays what's going on the current instance. It shows the number of internal requests (jobs) and requests executed from a browser. Additionally, it shows the number of errors occurred during the request processing.   
+ The request statistics dashlet displays what is going on the current instance. It shows the number of internal requests (jobs) and requests executed from a browser. Additionally, it shows the number of errors occurred during the request processing.   
  The statistic is evaluated per each hour.
  
 
@@ -184,13 +189,13 @@ You have administrator rights for the current instance.
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
 3. Focus your attention to the dashlet at the third position from the left.  
-   The diagram has two y-axes. The left y-axis defines the number of requests, the right defines the number of errors.   
+   The diagram has two y-axes. The left y-axis defines the number of requests, the right one defines the number of errors.   
    The x-axis defines the time from midnight to the current time in UTC. Depending on the time passed since midnight, the figures are displayed per hour or per every second/third hour.  
    The number of requests is presented in a green curve diagram, the number of errors is presented in a red line diagram.
 
@@ -202,14 +207,14 @@ You have administrator rights for the current instance.
     ![Request per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomRequests.png "[Requests per hour]")
 
 5. Move your mouse pointer over the red line diagram.   
-   The number of errors is displayed in a callout shape.
+   The number of errors is displayed in a callout.
 
    ![Errors per hour](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomErrors.png "[Errors per hour]")
 
 
 ## View current jobs
 
-In the job dashlet, all asynchronous jobs are displayed that are currently running.
+The Job dashlet displays all asynchronous jobs that are currently running.
 
 #### Prerequisites
 
@@ -221,15 +226,15 @@ You have administrator rights for the current instance.
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
-1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center.  
+1. Click the ![Engine room](../../Assets/Icons/EngineRoom.png "[Engine roome]") (Engine room) button in the upper center of the workplace of the workplace.  
    The engine room is opened. The current workspace is overlapped. 
 
    ![Engine room](../../Assets/Screenshots/Core1Platform/AdministratingCore1/Engineroom.png "[Engine room]")
 
-3. Focus your attention to the dashlet at the fourth position from the left.
+2. Focus your attention to the dashlet at the fourth position from the left.
 
-4. Click the *Jobs* tab.   
-   The currently running asynchronous jobs as well as the jobs waiting are displayed. On top, the number of jobs is output as well as the percentage ratio of finished jobs. If no jobs are running, the text *No running jobs* is displayed.
+3. Click the *JOBS* tab.   
+   The currently running asynchronous jobs as well as the jobs waiting are displayed. On top, the number of jobs is output as well as the percentage ratio of finished jobs. If no jobs are running, the *No running jobs* message is displayed.
 
    ![Current jobs](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomJobs.png "[Current jobs]")
 

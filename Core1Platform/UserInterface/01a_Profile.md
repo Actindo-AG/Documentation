@@ -12,7 +12,7 @@
     Click this button to save any changes. The notice *Submitting data...* is displayed. When the changes are saved, the *User saved* pop-up window is displayed.
 
 - *Login*   
-    Enter the user name.
+    Enter the username.
 
 - *First name*   
     Enter the first name of the user.

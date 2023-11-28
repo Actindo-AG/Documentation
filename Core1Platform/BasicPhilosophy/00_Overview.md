@@ -13,7 +13,7 @@ In this part of the *Actindo Core1 Platform* documentation you will find the fol
 
 
 - [Core capabilities](./02_CoreCapabilities.md)      
-     - [Omni-channel integration](./02_CoreCapabilities.md#omni-channel-orchestration)   
+     - [Omni-Channel integration](./02_CoreCapabilities.md#omni-channel-orchestration)   
      - [Process integration](./02_CoreCapabilities.md#process-integration)   
      - [Process orchestration](./02_CoreCapabilities.md#process-orchestration)   
      - [Monitoring and reporting](./02_CoreCapabilities.md#monitoring-and-reporting)     

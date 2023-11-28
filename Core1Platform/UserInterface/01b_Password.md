@@ -21,7 +21,9 @@
     Enter the new password again to confirm it.
 
 - ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off)      
-    Click this button to display all characters you entered in the corresponding field. The button changes to the ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
+    Click this button to display all the characters you have entered in the corresponding field.  
+    The button changes to the ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility) button.
 
 - ![Visibility](../../Assets/Icons/visibility.png "[Visibility]") (Visibility)      
-    Click this button to display all characters you entered in the corresponding field as dots only. The button changes to the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.
+    Click this button to display all the characters you have entered in the corresponding field as dots only.   
+    The button changes to the ![Visibility off](../../Assets/Icons/visibility_off.png "[Visibility off]") (Visibility off) button.
