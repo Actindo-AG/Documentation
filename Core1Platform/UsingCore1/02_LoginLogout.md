@@ -45,6 +45,7 @@ You are logged in to the *Actindo Core1 Platform*.
 #### Procedure
 
 *Core1 Platform*
+
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
  1. Click your avatar icon in the upper right corner.   
