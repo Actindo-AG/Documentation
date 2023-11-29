@@ -1,8 +1,9 @@
 # Manage BigCommerce connection
 
 *Actindo* features a special installation app in the *BigCommerce App Store*. The *Actindo Core1 DOP connector* app setups and authorizes a connection automatically. 
-Note, if possible, you should not delete the app in *BigCommerce* after creating the connection. Although the delting will not delete the connection in *Omni-Channel*, but it will invalidate the access token you have created during connecting the app! If the app was deleted by mistake, either reconnect the app or enter a valid access token manually to enable the connection again.
-If you do not want to use the *Actindo Core1 DOP connector* app in *BigCommerce*, you can create the connection manually.
+Note, if possible, you should not delete the app in *BigCommerce* after creating the connection. Although the deleting will not delete the connection in *Omni-Channel* itself, but it will invalidate the access token you have created during connecting the app. If the app was deleted by mistake, either reconnect the app or enter a valid access token manually to enable the connection again.
+
+Note that you can use the *Actindo Core1 DOP connector* app for one connection only. If you have more than one store in *BigCommerce*, you can create the first connection automatically with the *Actindo Core1 DOP connector* app. For all other stores, you must create the connection manually.
 
 
 ## Create BigCommerce connection automatically 
@@ -13,7 +14,7 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 ### Prerequisites
 
 - You have a *BigCommerce* customer account to login to *BigCommerce*.
-- You have created a *BigCommerce* shop. 
+- You have created a *BigCommerce* store. 
 
 
 ### Procedure
@@ -56,7 +57,8 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab CONNECTIONS*.   
     - The new connection has been created, synchronized, and activated.   
     - The credentials of the connection has been automatically created.
-    - All related standard attributes and attribute sets have been created. If required, you can adapt these objects to your needs later.<!---Stimmt das?-->
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs at a later time using the *DataHub* module.<!---Stimmt das?-->
+    - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
@@ -66,13 +68,15 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 
 ## Create BigCommerce connection manually
 
-<!---In welcher Situation würde ich das tun?--->
-It is possible, to create the connection to BigCommerce manually, if you do not want to use the *Actindo Core1 DOP connector* app in *BigCommerce*.
+After automatically creating a connection for one *BigCommerce* store, you may need to manually create additional connections for additional stores, if applicable.      
+If you create the connection manually, you have no functional limitations compared to the automatic creation.
+
 
 ### Prerequisite
 
+- You have already created a connection automatically.<!---Janik stimmt das, ist das wirklich eine Voraussetzung?-->
 - You have the *Store hash* and the *Access token* given by *BigCommerce* available.
-- In the *Actindo Core1 Platform*, you are permitted to create connections in *Omni-Channel*.
+- In the *Actindo Core1 Platform*, you have permission to create connections in *Omni-Channel*.
 
 
 ### Procedure
@@ -96,7 +100,11 @@ It is possible, to create the connection to BigCommerce manually, if you do not 
 
 5. Click the [SAVE] button.
 
-6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") [Back] button and check whether the new connection has been synchronized and activated.
+6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") [Back] button and check whether the new connection has been synchronized and activated.   
+    - The new connection has been created, synchronized, and activated.   
+    - The credentials of the connection has been automatically created.
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs at a later time using the *DataHub* module.<!---Stimmt das?-->
+    - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
