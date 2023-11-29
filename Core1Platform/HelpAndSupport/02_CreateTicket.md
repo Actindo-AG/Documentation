@@ -1,4 +1,4 @@
-# Create ticket
+# Creating tickets
 
 The creation of a ticket is necessary if something happens in your *Actindo Core1 Platform* that you think may be a bug in the Actindo software. By creating a ticket, the Actindo team has the chance to solve the bug and can provide an error correction to you and all other customers.   
 For example, one of the following situations may be a reason to create a ticket:   

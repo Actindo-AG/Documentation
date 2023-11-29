@@ -35,5 +35,5 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
 
 
 - [Expert knowledge](./06_ExpertKnowledge.md)  
-    - [Switch on ⁄ off single feature flags](./06_ExpertKnowledge.md#switch-on-⁄-off-single-feature-flags)  
-    - [Switch on ⁄ off all feature flags at once](./06_ExpertKnowledge.md#switch-on-⁄-off-all-feature-flags-at-once)
+    - [Switch on⁄off single feature flags](./06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags)  
+    - [Switch on⁄off all feature flags at once](./06_ExpertKnowledge.md#switch-on⁄off-all-feature-flags-at-once)

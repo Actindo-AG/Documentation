@@ -1,10 +1,10 @@
 # Expert knowledge
 
-This section contains procedures that you only should use, if you really know the consequences resultimng from these.
+This section contains procedures that you only should use, if you really know the consequences resulting from these.
 
 
 
-## Switch on &frasl; off single feature flags
+## Switch on&frasl;off single feature flags
 
 The *Development Mode* of the engine room allows you to turn certain system behaviors on and off in a fundamental way.     
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
@@ -14,14 +14,13 @@ You can use the development mode for testing purposes or, for example, to tempor
 
 The development mode contains core features as well as engine, module, and driver-specific feature flags. For example, if you switch off the workflow, the following will happen:
 - The workflow is stopped.
-- All current processes do no longer import and 
-output data. 
+- All current processes no longer import and output data. 
 <!---Julian, gibt es noch ein anderes, drastisches Beispiel?-->
 
 #### Prerequisites
 
 - You have administrator rights for the current instance.
-- You know the consequences of switching on &frasl; off a feature.
+- You know the consequences of switching on/off a feature.
 
 #### Procedure
 
@@ -55,11 +54,11 @@ output data.
 
 
 
-## Switch on &frasl; off all feature flags at once
+## Switch on&frasl;off all feature flags at once
 
-The development mode of the engine room allows to switch on &frasl; off all feature flags at once (see also [Switch on &frasl; off single feature flags](#switch-on-⁄-off-single-feature-flags)).   
+The development mode of the engine room allows to switch on/off all feature flags at once (see also [Switch on/off single feature flags](#switch-on⁄off-single-feature-flags)).   
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
-This procedure allows you to quickly switch on and off all feature flags, for example, if you previously locked an account with multiple feature flags.
+This procedure allows you to quickly switch on/off all feature flags, for example, if you previously locked an account with multiple feature flags.
 
 > [Caution] Switching off module features can result in data not being transferred to third party applications, and in this case it can lead to data loss. If you are not really sure about the consequences of switching off all features, you should not use it. 
 
@@ -67,7 +66,7 @@ This procedure allows you to quickly switch on and off all feature flags, for ex
 #### Prerequisites
 
 - You have administrator rights for the current instance.
-- You know the consequences of switching on &frasl; off features.
+- You know the consequences of switching on/off features.
 
 #### Procedure
 

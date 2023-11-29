@@ -1,20 +1,24 @@
 # Main account and sandboxes
 
-Each tenant has one live system. This is also called main account. Licenses, vCores and available storage are bound to the main account and must be shared with all sandboxes respectively clients. Each instance (main account or sandbox) has a specific host-prefix which determines how the main account/sandbox can be accessed:
+**Main account**
+
+The main account is also called live or productive system. Each tenant has one main account on which you usually run the productive *Actindo* modules. Each instance (main account or sandbox) has a specific host-prefix which determines how the main account/sandbox can be accessed:
 
 - main account: https://[host-prefix].actindo.com
 
 - sandbox: https://[host-prefix].dev.actindo.com
 
-  > [Info] You can identify if you are logged in to a sandbox or the main account by the URL. 
+  > [Info] You can use the URL to identify if you are logged in to a sandbox or the main account. Additionally, the dropdown list in the upper right corner of the *Actindo Core1 Platform* displays the instance on which you are currently working.
 
-![Sandbox URL](../../Assets/Screenshots/Core1Platform/AdministratingCore1/SandboxURL.png "[Sandbox URL]")
+   ![Sandbox URL](../../Assets/Screenshots/Core1Platform/AdministratingCore1/SandboxURL.png "[Sandbox URL]")
 
-Each sandbox and each main account have its own separated database. This means, that you cannot synchronize data between the main account and the sandbox.
+Licenses, vCores, and available storage are bound to the main account and must be shared with all sandboxes.   
+
+The main account and each sandbox have their own separated databases. This means, that you cannot synchronize databases between the main account and the sandbox.
 
 **Sandboxes**  
 
-Sandboxes have the following characteristics: 
+Sandboxes are also called clients. They have the following characteristics:  
 - You can create a sandbox as a copy of the main account with all data that is currently available in the main account. After this, however, the sandbox and the main account is not synchronized.
 
 - You can install modules that are not yet released by Actindo, this means you can install it for testing purposes without touching your main account. On a main account, you can install released versions only.
@@ -28,8 +32,6 @@ Sandboxes have the following characteristics:
 - vCores (core voltage) <!---gebuchte Prozessorleistung?--> and storage are to be assigned to a sandbox. The assigned vCores and storage get subtracted from the budget of the main account.   
   This means, if you expect a lot of processes and database entries in a sandbox, you have to consider that this computing power is to be shared with the main account.   
   The same is valid for licenses, so that you have to sum up all licenses for which you assign rights in the main account and in a sandbox.
-
-
 
 **Overview**   
 

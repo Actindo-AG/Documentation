@@ -15,7 +15,7 @@ Users are created in the main account only.
 #### Prerequisites
 
 - You are logged in to a main account.
-- You are granted to create users.
+- You have permission to create users.
 
 #### Procedure
 
@@ -75,7 +75,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
 
 #### Prerequisite
 
-- You are granted to assign users to groups.
+- You have permission to assign users to groups.
 - The user has been created, see [Create user](../AdministratingCore1/02_ManageUsers.md#create-user).
 - If possible, all required user groups are already created. For detailed information, see [Create user group](../AdministratingCore1/03_ManageGroups.md#create-user-group).
 
@@ -118,7 +118,7 @@ Users are edited in the main account only. There is one exception: Users are abl
 
 - You are logged in to a main account.
 - A user has been created, see [Create user](../AdministratingCore1/02_ManageUsers.md#create-user).
-- You are granted to edit users.
+- You have permission to edit users.
 
 
 #### Procedure
@@ -160,13 +160,13 @@ Users are edited in the main account only. There is one exception: Users are abl
 
 ## Remove user from a group
 
-When editing a user, you can remove a user from a group to which he&frasl;she is assigned.  
+When editing a user, you can remove a user from a group to which s/he is assigned.  
 Alternatively, you can remove a user from a group during editing the groups, see [Remove users from a group via the group management](../AdministratingCore1/03_ManageGroups.md#remove-users-from-a-group-via-the-group-management).
 
 #### Prerequisites
 
 - You are logged in to a main account or a sandbox.
-- You are granted to remover users from groups.
+- You have permission to remover users from groups.
 
 #### Procedure
 
@@ -200,7 +200,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 #### Prerequisites
 
 - You are logged in to a sandbox.
-- You are granted to invite users.
+- You have permission to invite users.
 
 #### Procedure
 
@@ -234,18 +234,18 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group).
 
-There is the following limitation: You cannot remove a user from the *Actindo Admingroup* in a sandbox of which he&frasl;she is the owner. <!--- Kann man den owner ändern? -->
+There is the following limitation: You cannot remove a user from the *Actindo Admingroup* in a sandbox of which s/he is the owner. <!--- Julian, kann man den owner ändern? -->
  
 
 
 ## Delete user 
 
-Delete a user, if he&frasl;she works no longer in your company, for example. You can delete a user in the main account only.
+Delete a user, if s/he works no longer in your company, for example. You can delete a user in the main account only.
 
 #### Prerequisites
 
 - You are logged in to the main account.
-- You are granted to delete users.
+- You have permission to delete users.
 
 #### Procedure
 

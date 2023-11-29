@@ -29,7 +29,7 @@ Create a user group based on a user role to subsequently assign them a specific 
 
 #### Prerequisites
 
-You are granted permission to edit, save, and list groups.
+You have permission to edit, save, and list groups.
 
 #### Procedure
 
@@ -118,7 +118,7 @@ Note that it is not possible to remove a group assignment by delimiting the vali
 
 #### Prerequisites
 
-You are granted permission to remove the user assignment from a group.
+You have permission to remove the user assignment from a group.
 
 #### Procedure
 
@@ -154,7 +154,7 @@ If a user group is no longer needed, you can delete it. Note that it is possible
 
 #### Prerequisites
 
-You are granted permission to delete groups.
+You have permission to delete groups.
 
 #### Procedure
 
