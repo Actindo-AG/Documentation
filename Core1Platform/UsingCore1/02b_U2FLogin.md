@@ -3,7 +3,7 @@
 
 # Log in via U2F
 
-After U2F has been configured for your Actindo account, you use U2F the next time you log in to your Actindo instance.   
+After U2F has been configured for your *Actindo* account, you use U2F the next time you log in to your *Actindo* instance.   
 Note that some keys may require another procedure than the one described here. In this case, ask your internal contact person support.
 
 #### Prerequisites

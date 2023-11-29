@@ -20,7 +20,7 @@ The *Actindo Core1 Platform* supports the transformation to a D2C business with 
 ## Outdated and unsustainable ERP system in use
 
 Your company is already established in the market and in B2C (business-to-consumer) business, but your IT infrastructure is completely outdated and not maintainable, because the legacy IT is self-built and highly customized. You do not know how the business processes are mapped in detail and which data is processed in which way.     
-In this case, you can use the *Actindo Core1 Platform* to replace the existing infrastructure in waves. Actindo analyzes your specific needs and designs modern and useful processes. The process orchestration then makes your processes transparent and removes single points of failure.
+In this case, you can use the *Actindo Core1 Platform* to replace the existing infrastructure in waves. *Actindo* analyzes your specific needs and designs modern and useful processes. The process orchestration then makes your processes transparent and removes single points of failure.
 
 
 ## Young start-up

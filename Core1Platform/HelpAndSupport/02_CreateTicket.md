@@ -1,6 +1,6 @@
 # Creating tickets
 
-The creation of a ticket is necessary if something happens in your *Actindo Core1 Platform* that you think may be a bug in the Actindo software. By creating a ticket, the Actindo team has the chance to solve the bug and can provide an error correction to you and all other customers.   
+The creation of a ticket is necessary if something happens in your *Actindo Core1 Platform* that you think may be a bug in the *Actindo* software. By creating a ticket, the *Actindo* team has the chance to solve the bug and can provide an error correction to you and all other customers.   
 For example, one of the following situations may be a reason to create a ticket:   
 - A workflow is failing
 - The main account is not reachable
@@ -43,10 +43,10 @@ The *Contact us* window is displayed.
    For data protection reasons, do not write any unsolicited access data in the ticket.
 
 5. If possible, take a screenshot of the error message or the screen on which the issue occurs.    
-   Ideally, the issue is color-coded and the entire Actindo interface is visible. Make sure that no personal data is visible for data protection reasons.
+   Ideally, the issue is color-coded and the entire *Actindo* interface is visible. Make sure that no personal data is visible for data protection reasons.
 
 5. If applicable, click the ![Attachment](../../Assets/Icons/Attachment.png "[Attachment]") (Attachment) button to upload the screenshot or other documents. For security reasons, only file attachments in JPEG, PNG, PDF, and CSV format are allowed.   
    The file explorer of your device is opened. Select the file and upload it.
 
 6. Click the [Create ticket] button.   
-   The ticket is transferred to the Actindo support team. Thank you!
+   The ticket is transferred to the *Actindo* support team. Thank you!

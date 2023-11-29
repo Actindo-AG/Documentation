@@ -34,7 +34,7 @@ The *Countries and languages* plugin provides any country with their ISO code an
 
 
 **Data hub**   
-The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The integrated ETL function allows to control the data flow between the different data models. Most Actindo modules and plugins are based on the *DataHub* module.  
+The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The integrated ETL function allows to control the data flow between the different data models. Most *Actindo* modules and plugins are based on the *DataHub* module.  
 This enables you to customize your individual data fields and sources for each process. The *DataHub* module is the system’s central data hub and is extended by the following modules:   
 - DataHub Importer  
 Allows the import of any data from various data sources into DataHub-based entities by uploading CSV, JSON, XML, and EDI file types via the network protocols HTTP and SFTP.

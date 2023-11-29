@@ -3,7 +3,7 @@
 
 # Set up U2F from the user side
 
-The secure access to Actindo can be granted by using the *Multi-Factor Authentication (MFA)*. This method requires two or more verification factors to log in to an application or website.    
+The secure access to *Actindo* can be granted by using the *Multi-Factor Authentication (MFA)*. This method requires two or more verification factors to log in to an application or website.    
 Actindo uses the *YubiKey* as a second factor for the two-factor authentication, using the *Universal Second Factor (U2F)* standard.
 The *Multi-Factor Authentication (MFA)* offers the following benefits:
 - Increased security in the login process and with third parties
@@ -11,13 +11,13 @@ The *Multi-Factor Authentication (MFA)* offers the following benefits:
 - Better access control
 - Reduction of password risks
 
-For the U2F setup of an Actindo account, you need to set up *U2F* as a user. Additionally, your administrator must activate your user for *U2F*. As a user, you need to define several settings within your Actindo account to add *U2F* with the *YubiKey* as a login method.    
-After the registration, the *YubiKey* as a login method is valid for all Actindo accounts, which means for the main account as well as for the sandboxes.
+For the U2F setup of an *Actindo* account, you need to set up *U2F* as a user. Additionally, your administrator must activate your user for *U2F*. As a user, you need to define several settings within your *Actindo* account to add *U2F* with the *YubiKey* as a login method.    
+After the registration, the *YubiKey* as a login method is valid for all *Actindo* accounts, which means for the main account as well as for the sandboxes.
 
 #### Prerequisites
 
 - You possess an *YubiKey*.
-- You have an active Actindo account.
+- You have an active *Actindo* account.
 
 #### Procedure
 
@@ -74,5 +74,5 @@ After the registration, the *YubiKey* as a login method is valid for all Actindo
 
 8. Touch the flashing area on your *YubiKey*.    
     Depending on the browser configuration, a confirmation message is displayed in the browser window. Click the [Accept] button in the browser window to authorize the website to read the key and close the browser window.    
-    The U2F key is added to the list of keys and displayed in the *U2F* tab.  The user side setup for U2F is completed. It is now shared with all Actindo instances (main account and sandboxes).
-    Note that the U2F login must additionally be enabled by an administrator to be used for the Actindo U2F login.
+    The U2F key is added to the list of keys and displayed in the *U2F* tab.  The user side setup for U2F is completed. It is now shared with all *Actindo* instances (main account and sandboxes).
+    Note that the U2F login must additionally be enabled by an administrator to be used for the *Actindo* U2F login.

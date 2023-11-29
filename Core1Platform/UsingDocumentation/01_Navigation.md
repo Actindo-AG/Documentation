@@ -1,6 +1,6 @@
 # Move around in the Actindo documentation
 
-The Actindo documentation offers a lot of ways to navigate between module documentations, to navigate within a document, and to navigate between topics within a module/plugin documentation.
+The *Actindo* documentation offers a lot of ways to navigate between module documentations, to navigate within a document, and to navigate between topics within a module/plugin documentation.
 
 
 ## Open the Actindo Documentation home page
@@ -21,7 +21,7 @@ You have internet access.
 
 ![Actindo home page](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ActindoHomePage.png "[Actindo home page]")
 
-1. Open the Actindo home page under <a href="https://actindo.com/en" target="_blank">https://actindo.com/en</a>.   
+1. Open the *Actindo* home page under <a href="https://actindo.com/en" target="_blank">https://actindo.com/en</a>.   
 
 
 2. In the navigation panel on top of the page, choose **Resources**.   
@@ -37,7 +37,7 @@ You have internet access.
 4. Select the module documentation you want to read. To do this, click the corresponding item.   
     Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
 
-    >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the Actindo logo.
+    >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the *Actindo* logo.
 
 
 
@@ -62,13 +62,13 @@ You are logged in to the *Actindo Core1 Platform*.
 2. Select the module documentation you want to read. To do this, click the corresponding item.   
     Alternatively, you can open the last articles you have visited before. To do this, click the relevant article in the *Go to your last visited articles* section on the right.   
 
-    >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the Actindo logo.
+    >[Info] If you have opened a module documentation, you can always return to the main documentation page by clicking the *Actindo* logo.
 
 
 
 ## Search the documentation
 
-A full text search is available for the Actindo documentation. You can search the complete documentation as well as search only the selected module documentation.
+A full text search is available for the *Actindo* documentation. You can search the complete documentation as well as search only the selected module documentation.
 
 
 ### Search the whole Actindo documentation

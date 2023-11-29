@@ -5,7 +5,7 @@ This topic provides you with a description of each section and the content you c
 
 > [Info] The *Get started* documentation you currently read does not follow these principles strictly, because too much different subjects are described here.  
 
-The Actindo Core1 module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content:
+The *Actindo Core1* module/plugin documentation has the following structure, whereby each section starts with a TOC document giving an overview of its content:
 
 
 
@@ -45,7 +45,7 @@ This section describes all executing procedures when using the module/plugin. Fo
 ## Troubleshooting
 
 This section describes issues and errors that can occur during running the module/plugin. It provides you with workable solutions.   
-This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all Actindo customers. Each procedure starts with a breadcrumb path that describes the starting point of the procedure.
+This section might not be included in all module/plugin documentation, because often no general issues or errors are known that are valid for all *Actindo* customers. Each procedure starts with a breadcrumb path that describes the starting point of the procedure.
 
 
 

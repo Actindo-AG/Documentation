@@ -12,7 +12,7 @@ The user profile contains information on your username, your e-mail address, and
 
 #### Prerequisites
 
-You have an active Actindo account in the current sandbox or main account.
+You have an active *Actindo* account in the current sandbox or main account.
 
 #### Procedure
 
@@ -85,7 +85,7 @@ You have a user in the currently opened sandbox or main account.
 
    ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
 
-   The new password is now shared between the main account and all sandboxes of your company, so that you must use it for all Actindo logins.
+   The new password is now shared between the main account and all sandboxes of your company, so that you must use it for all *Actindo* logins.
 
 
 

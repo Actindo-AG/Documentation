@@ -97,12 +97,12 @@ If an instance has not enough vCore capacity, the processor then starts to run t
 > [Info] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
 If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note that the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
-Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, Actindo will contact you.   
+Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, *Actindo* will contact you.   
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
 The vCores are analyzed as average over several seconds. The dashlet displays the totals per every 30 seconds in a curve diagram. 
 
- > [Info] Since Actindo displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
+ > [Info] Since *Actindo* displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
 
 <!---hallo Julian, gibt es auch eine Standard-Statistik über einen längeren Zeitraum?-->
 
@@ -140,7 +140,7 @@ You have administrator rights for the current instance.
 
 Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available on the main account.   
 
-Actindo has an eye on your data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, Actindo will contact you.   
+Actindo has an eye on your data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, *Actindo* will contact you.   
 
 #### Prerequisites
 

@@ -39,9 +39,9 @@ Users are created in the main account only.
 
 4. Click the *Password type* drop-down list to select how the password is to be created and submitted to the user. The following options are available:      
     - **Generate password and send via email**  
-      A password is generated automatically, and it is sent by Actindo to the email address specified below. 
+      A password is generated automatically, and it is sent by *Actindo* to the email address specified below. 
     - **Enter password and send by email**    
-      You define an individual password, and it is sent by Actindo to the email address specified below. 
+      You define an individual password, and it is sent by *Actindo* to the email address specified below. 
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email.  
     - **Do not change password**   
@@ -138,9 +138,9 @@ Users are edited in the main account only. There is one exception: Users are abl
 
 3. If desired, click the *Password type* drop-down list to select how the password is to be created and submitted to the user. This password is valid for the main account and its sandboxes. The following options are available:
     - **Generate password and send via email**  
-       A password is generated automatically, and it is sent by Actindo to the email address specified below. 
+       A password is generated automatically, and it is sent by *Actindo* to the email address specified below. 
     - **Enter password and send by email**    
-       You define an individual password, and it is sent by Actindo to the email address specified below. 
+       You define an individual password, and it is sent by *Actindo* to the email address specified below. 
     - **Specify and save password**   
        You define an individual password and save it. It is not sent via email.   
     - **Do not change password**   

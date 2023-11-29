@@ -12,7 +12,7 @@ For example, a bookkeeper needs access to specific functions of the *Accounting*
 
 The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.  You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.   
 
-> [Info] When assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, that if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is especially relevant when using the Actindo admin group, see below.
+> [Info] When assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, that if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is especially relevant when using the *Actindo* admin group, see below.
 
 **Actindo admin group**   
 

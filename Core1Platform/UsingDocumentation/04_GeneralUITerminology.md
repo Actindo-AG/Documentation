@@ -14,7 +14,7 @@ The following list makes you familiar with the names and designations that are u
 
 **Navigation menu**
 
-The navigation menu is the main side menu in the *Actindo Core1 Platform*. It contains all modules, the Actindo Dashboard, and the main account/sandbox selection.
+The navigation menu is the main side menu in the *Actindo Core1 Platform*. It contains all modules, the *Actindo Dashboard*, and the main account/sandbox selection.
 
 
 **Workspace**

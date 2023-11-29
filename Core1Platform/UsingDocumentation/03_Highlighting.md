@@ -1,6 +1,6 @@
 # Highlighting in texts
 
-The following list shows the meaning of different font formats in the Actindo documentation.
+The following list shows the meaning of different font formats in the *Actindo* documentation.
 
 - **Bold**   
     Bold is used to emphasize the following:       

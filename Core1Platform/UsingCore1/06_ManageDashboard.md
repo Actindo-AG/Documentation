@@ -3,7 +3,7 @@
 # Manage dashboards
 
 The *Actindo Dashboard* module gives an overview of important module-specific key figures and statistics directly when starting the *Actindo Core1 Platform*. 
-Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Alternatively, you can import already existing dashboards. Note that you configure dashboards to support your own daily work. They are not visible for other Actindo users.  
+Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Alternatively, you can import already existing dashboards. Note that you configure dashboards to support your own daily work. They are not visible for other *Actindo* users.  
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
