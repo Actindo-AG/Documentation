@@ -66,14 +66,16 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-Check your existing variant sets or create new ones. For detailed information, see [Manage variants](../../PIM/Operation/02_ManageVariants.md). 
+Check your existing variant sets or create new ones. For detailed information, see [Manage variants](../../PIM/Operation/02_ManageVariants.md) in the *Omni-Channel* documentation. 
 
 
 
-## Configure color-swatch variant option
+## Configure color&dash;swatch variant option
 
-A color-swatch is simply a palette that displays a variety of shades of the same color. In the physical world, they would be presented as small pieces of fabric with the name and identification number for a specific color on it.   
-You can use the color-swatch option for your *BigCommerce* connection, if the options provided in the driver settings are not suitable for you. For detailed information on the standard color options, see 
+Configure the color-swatch variant option for the *BigCommerce* products for which the options provided in the driver settings are not suitable. 
+A color-swatch option in *BigCommerce* is an option with which the customers can select a color combination in the *BigCommerce* storefront. For example, you want to offer T-shirts that are available with the color combinations black/white, white/green, and black/green. *BigCommerce* supports up to three colors per color swatch value.   
+
+Configure the color-swatch option for the *BigCommerce* products for which the options provided in the driver settings are not suitable. For detailed information on the standard selection options, see [Configure Bigcommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 #### Prerequisites
 
@@ -91,29 +93,39 @@ You can use the color-swatch option for your *BigCommerce* connection, if the op
 
     ![Create attribute](../../Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-3. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
+2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the *Description* field.
 
-4. Select the *Tree node* data type in the *Data type* drop-down list.  
-   The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. Depending on the selected data type, the *CONFIGURATION* section is displayed.    
+3. Select the *Tree node* data type in the *Data type* drop-down list.  
+   The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. The *CONFIGURATION* section is displayed.    
 
-5. Select the attribute sets you want to assign the attribute.
+4. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-channel* toggle to assign different attribute values in different channels.
 
-6. 
+    > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+
+5. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
+    A drop-down list with all active attribute sets is displayed.
+
+6. Enable the *Flat* toggle in the *CONFIGURATION* section. Since *BigCommerce* only supports string values, you cannot use a multi-select tree node.
+
+7. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") button in the bottom right corner and then the plus sign displayed in the left column of the *Edit tree* section.   
+  The *Add element* window is displayed.
+
+   ![Add element](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TreeNodeAddElement.png "[Add]")
+
+8. Enter the name of the option value to be shown to the *BigCommerce* customer in the *Name* field.
+
+9. Enter the key of the actual value of that option in the *Key* field. This value needs to be a hash key (#) followed by a color hex code, for example #FF00AA. Each additional color added is separated by a comma. The color codes need to be valid hex codes.  
+  For example, a possible option value could look like this:   
+  Name: Red, Green & Blue   
+  Key: #FF0000,#00FF00,#0000FF
+
+10. Click the [SAVE] button in the bottom right corner of the *Add element* window.
+
+11. If desired, add further elements and click the [SAVE] button of the *Edit tree* section.  
+  The tree is saved.
+
+12. Click the [SAVE] button in the bottom right corner of the *Create attribute* view.   
+  The attribute is saved.
 
 
 
-
-
-- To add a variant option as a color swatch, the defining attribute needs to be a “Single Select Tree”. Each entry in said tree has the following values:
-- Name: The name determines the name of the option value shown to the customer. 
-- Key: The key determines the actual value of that option. In case of a color swatch“, this value needs to be a ‘#' followed by a Color-Hex-Code (e.g. '#FF00AA’). BigCommerce supports up to three colors per “Color-Swatch” value, so a possible option value could look like this: 
-
-Name
-
-Key
-
-Red, Green & Blue
-
-#FF0000,#00FF00,#0000FF
-
-Each additional color added is separated by a comma. The color codes need to be valid Hex-Codes.
