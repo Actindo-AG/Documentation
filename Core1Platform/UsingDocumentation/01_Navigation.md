@@ -73,7 +73,8 @@ A full text search is available for the *Actindo* documentation. You can search 
 
 ### Search the whole Actindo documentation
 
-A full text search is available that starts a search over the whole *Actindo* documentation. The search result list displays all topics containing the specified character string.
+A full text search is available that starts a search over the whole *Actindo* documentation. The search result list displays all topics containing the specified character string.   
+You can also use this feature to perform a full text search of a module documentation. To do this, you can prefix your search term with the module name, for example, "DataHub attribute group".
 
 #### Prerequisites
 - You have internet access.
@@ -103,7 +104,8 @@ A full text search is available that starts a search over the whole *Actindo* do
 
 ### Search the module/plugin documentation 
 
-A full text search is available that starts a search over the module/plugin documentation that you have recently opened. The search result list displays all topics containing the specified character string.   
+A search function is available that starts a search over the table of content of the module/plugin documentation that you have recently opened. The search result list displays all table of content entries that contain the specified character string.   
+
 
 #### Prerequisites
 
