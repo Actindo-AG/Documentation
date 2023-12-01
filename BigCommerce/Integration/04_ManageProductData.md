@@ -107,7 +107,7 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 5. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
     A drop-down list with all active attribute sets is displayed.
 
-6. Enable the *Flat* toggle in the *CONFIGURATION* section. Since *BigCommerce* only supports string values, the tree must be flat in order to be output as a string. For this reason, you cannot use a multi-select tree node.
+6. Enable the *Flat* toggle in the *CONFIGURATION* section. Since *BigCommerce* only supports string values, the tree must be flat to be output as a string. For this reason, you cannot use a multi-select tree node.
 
 7. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") button in the bottom right corner and then the plus sign displayed in the left column of the *Edit tree* section.   
   The *Add element* window is displayed.
@@ -117,7 +117,7 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 8. Enter the name of the option value to be shown to the *BigCommerce* customer in the *Name* field.
 
 9. Enter the key of the actual value of that option in the *Key* field. This value needs to be a hash key (#) followed by a color hex code, for example #FF00AA. Each additional color added is separated by a comma. The color codes need to be valid hex codes.  
-  For example, a possible option value could look like this:   
+  For example, a feasible option value could look like this:   
   Name: Red, Green & Blue   
   Key: #FF0000,#00FF00,#0000FF
 

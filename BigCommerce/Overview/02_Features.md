@@ -1,6 +1,6 @@
 # Features
 
-The *BigCommerce* driver is able to manage the following:
+The *BigCommerce* driver for *Actindo* can manage the following:
 - Products
 - Offers
 - Orders
@@ -13,7 +13,7 @@ This way you can quickly start managing products, orders, and shipments using th
 
 - **Onboarding app**      
     
-   Very helpful for successful onboarding is the *Actindo Core1 DOP connector* app that you can find in the *BigCommerce* app store. This app enables you to automatically create and authorize new *Omni-Channel* connections for every store you run in *BigCommerce*.
+   A useful tool for a successful onboarding is the *Actindo Core1 DOP connector* app, available in the *BigCommerce* app store. This app enables you to create and authorize new *Omni-Channel* connections automatically for every store you have in *BigCommerce*.
    
 - **Products**    
   Via the *Ommni-Channel* module, you can download the products needed for your *BigCommerce* store including all merchant-specific additional fields from the *PIM* module or download *Omni-Channel* offers directly. If you have already created products in *BigCommerce*, you can import them to *Omni-Channel*. 

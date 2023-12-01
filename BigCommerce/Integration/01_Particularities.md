@@ -13,16 +13,16 @@ You have two options for exchanging offer data between *Actindo* and *BigCommerc
   For this reason, it is recommended to manage offer data at *Actindo*.
 
 
-### Export of offers 
+## Export of offers 
 
-The following particularities are relevant, when you export your offers from the *Omni-Channel* module to *BigCommerce*.
+The following particularities are relevant when you export your offers from the *Omni-Channel* module to *BigCommerce*.
 
-**Variant options**
+### Variant options
 
 *BigCommerce* supports multiple types for the selection of variant options on the UI.  For detailed information, see [Configure BigCommerce connection](./02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 
-**Custom fields**
+### Custom fields
 
 *BigCommerce* supports simple string values only. For this reason, only the following *Actindo* data types are supported as possible custom field values for attributes:
 
@@ -54,7 +54,7 @@ Offer videos are not supported by the driver. If you have a strong need to have 
 ### Related products
 
 Related offers in *BigCommerce* are utilized differently than in the *Actindo* standard. <!---Janik noch mal fragen, ob das stimmt-->In the *Actindo* standard, the offer bundles define offers that complete an offer. For example, a power supply unit that is required in addition to a device and part of the offer. In *BigCommerce*, the related offers are used to present similar offers that may be of additional interest to the customer.
-You can select related products in the corresponding attribute. You can select only those offers as related, if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are shown in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
+You can select related products in the corresponding attribute. You can select only those offers as related if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are shown in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
 
 **To do**: 
 1. Create offers that are applied the *BigCommerce* connection. These offers have automatically been assigned the attribute groups relevant for the *BigCommerce* connection.
@@ -71,8 +71,6 @@ Since *BigCommerce* allows multiple types for variant options, the driver needs 
 
 For certain cases, the color-swatch type is available which requires specific configuration, see [Configure color-swatch variant option](../Integration/04_ManageProductData.md#add-color-swatch-variant-option).
 
-
-
 **Omni-Channel attributes to BigCommerce attributes**
 
 In variant sets, the *Omni-channel* module allows to select any attribute as changeable, but *BigCommerce* allows only certain attributes to be changeable per variant. Note that only changeable attributes in *BigCommerce* are modified when changing or creating a variant. Others are skipped. For detailed information, see [Check variant sets](../Integration/04_ManageProductData.md#check-variant-sets).
@@ -85,7 +83,7 @@ For example, an offer is created by using the defining attributes *Size* and *Co
 - Size (S, M),
 - Color (Green, Red)  
 
-While the *BigCommerce driver* of *Actindo* creates the variants "t-shirt-s-red" and "t-shirt-m-green" only, the *BigCommerce* shopfront displays all possible combinations of options and values. This includes products such as t-shirt-s-green (S, green), which do not exist. These product variants are not only visible to the customers, but they can also order these products that do not exist.  
+The *BigCommerce driver* of *Actindo* creates only the variants "t-shirt-s-red" and "t-shirt-m-green" only, but the *BigCommerce* shopfront presents all potential options and value pairings. This includes products such as t-shirt-s-green (S, green), which do not exist. These product variants are not only visible to the customers, but they can also order these products that do not exist.  
 
 **To do**: You must manage this issue by the shopfront itself.
 You can access via /v3/catalog/products/{productId}/variants all variants the driver has created and only the ones the driver created.
@@ -94,7 +92,7 @@ You can access via /v3/catalog/products/{productId}/variants all variants the dr
 
 ## Import of offers 
 
-The following particularities are relevant, when you import your offers from *BigCommerce* to the *Omni-Channel* module.
+The following particularities are relevant when you import the products in *BigCommerce* to the offers in the *Omni-Channel* module.
 
 
 ### Shared variant options
@@ -112,13 +110,13 @@ Before the first import of offers, check your variant options in *BigCommerce*. 
 
 ## Import of orders 
 
-The following particularities are relevant, when you import your orders from *BigCommerce* to the *Omni-Channel* module.
+The following particularities are relevant when you import your orders from *BigCommerce* to the *Omni-Channel* module.
 
 The import of offers is supported by the *BigCommerce* driver.
 - You can define the orders that are to be imported. For detailed information, see [Configure BigCommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).  
 - The *BigCommerce* connection enables parallel imports to handle larger loads.
 
-The following data are managed by the driver:
+The driver manages the following data:
 - Contained products
 - Billing address
 - Shipping address      
@@ -172,8 +170,6 @@ Note that *BigCommerce* allows only specific values to for tracking the carrier 
 For detailed information on the supported carriers, see the *BigCommerce* documentation in *GitHub* under https://github.com/bigcommerce/dev-docs/blob/main/assets/csv/tracking_carrier_values.csv.
 
 
-## Checklist
 
-**Initial import of products from *BigCommerce* to *Actindo***
 
 

@@ -56,8 +56,8 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 
 8. Change to your *Actindo Core1* tenant and select *Omni-Channel > Settings > Tab CONNECTIONS*.   
     - The new connection has been created, synchronized, and activated.   
-    - The credentials of the connection has been automatically created.
-    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs at a later time using the *DataHub* module.<!---Stimmt das?-->
+    - The credentials of the connection have been automatically created.
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs later using the *DataHub* module.<!---Stimmt das?-->
     - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
@@ -102,8 +102,8 @@ If you create the connection manually, you have no functional limitations compar
 
 6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") [Back] button and check whether the new connection has been synchronized and activated.   
     - The new connection has been created, synchronized, and activated.   
-    - The credentials of the connection has been automatically created.
-    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs at a later time using the *DataHub* module.<!---Stimmt das?-->
+    - The credentials of the connection have been automatically created.
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs later using the *DataHub* module.<!---Stimmt das?-->
     - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
