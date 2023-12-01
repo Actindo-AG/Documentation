@@ -37,7 +37,7 @@ The following functions are available in the list header of the *CONNECTIONS*:
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected Bigcommerce connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit BigCommerce connection](#edit-bigcommerce-connection).
+    Click this button to edit the selected *BigCommerce* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit BigCommerce connection](#edit-bigcommerce-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -52,7 +52,7 @@ The list displays all available connections. Depending on the settings, the disp
         The connection is disabled and no data is being synchronized via the connection.   
 
 - *Order/Return have errors*  
-    Indication whether errors have occurred in orders or  returns. The following options are available:  
+    Indication whether errors have occurred in orders or returns. The following options are available:  
     - **Yes**   
         Errors have occurred.   
     - **No**   
@@ -164,7 +164,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Variant option type
 
-*Omnni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Variant option type*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Variant option type*
 
 ![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Variantoptiontype.png "[Variant option type]")
 
@@ -175,7 +175,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Order filters
 
-*Omnni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Order filters*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Order filters*
 
 ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")
 
