@@ -170,6 +170,25 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 
 
 
+## Manage ETL mappings 
+
+Create ETL mappings to map the *BigCommerce* attributes for subsequent processes in your *Actindo Core1 platform*. During connecting *BigCommerce* with *Actindo*, the *BigCommerce* attribute sets have been automatically created in the *DataHub* module.   
+Especially if you want to export your product data available in the *PIM* module to *BigCommerce*, you must additionally create the ETL mappings and processes for the data transfer between the *PIM* product data and the *Omni-Channel* offer data.
+
+#### Prerequisites
+
+You have permission to create ETL mappings.
+
+#### Procedure
+
+1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+
+2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on the creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md).
+
+
+
+
+
 
 
  

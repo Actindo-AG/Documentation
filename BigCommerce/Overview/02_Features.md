@@ -25,7 +25,7 @@ This way you can quickly start managing products, orders, and shipments using th
 - **Orders**     
   The orders in *BigCommerce* are imported to *Actindo*. You can configure the order import settings in the *BigCommerce* connection in *Actindo*.
 
-- **Shipments**
-  <!---Gibt es hierzu etwas zu sagen?-->
+- **Shipments**  
+  Shipments created in *Actindo* are automatically exported to the related *BigCommerce* store.
 
 

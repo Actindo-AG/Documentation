@@ -37,8 +37,10 @@ You have assigned more than one image per product variant.
 
 ## Check variant sets
 
-Check your existing *Omni-Channel* variant sets if they are suitable for the *BigCommerce* connection or create new ones.   
+This procedure is only relevant if you have the *PIM* module in use and want to exchange your product data with BigCommerce. If you do not have the PIM module in use, the variant sets from *BigCommerce* will be imported to the *Omni-Channel* module. <!---Stimmt das?--> 
 For detailed information on *BigCommerce* product variants, see the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
+
+Check your existing *PIM* variant sets if they are suitable for the *BigCommerce* connection or create new ones. 
 
 *BigCommerce* allows only certain attributes to be changeable per variant. The following attributes are declared as changeable in *BigCommerce*:
 - Cost price   
@@ -75,7 +77,7 @@ Check your existing variant sets or create new ones. For detailed information, s
 Configure the color-swatch variant option for the *BigCommerce* products for which the options provided in the driver settings are not suitable. 
 A color-swatch option in *BigCommerce* is an option with which the customers can select a color combination in the *BigCommerce* storefront. For example, you want to offer T-shirts that are available with the color combinations black/white, white/green, and black/green. *BigCommerce* supports up to three colors per color swatch value.   
 
-Configure the color-swatch option for the *BigCommerce* products for which the options provided in the driver settings are not suitable. For detailed information on the standard selection options, see [Configure Bigcommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+Configure the color-swatch option for the *BigCommerce* products for which the options provided in the driver settings are not suitable for a certain attribute. For detailed information on the standard selection options, see [Configure BigCommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 #### Prerequisites
 
@@ -105,12 +107,12 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 5. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
     A drop-down list with all active attribute sets is displayed.
 
-6. Enable the *Flat* toggle in the *CONFIGURATION* section. Since *BigCommerce* only supports string values, you cannot use a multi-select tree node.
+6. Enable the *Flat* toggle in the *CONFIGURATION* section. Since *BigCommerce* only supports string values, the tree must be flat in order to be output as a string. For this reason, you cannot use a multi-select tree node.
 
 7. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") button in the bottom right corner and then the plus sign displayed in the left column of the *Edit tree* section.   
   The *Add element* window is displayed.
 
-   ![Add element](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TreeNodeAddElement.png "[Add]")
+   ![Add element](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TreeNodeAddElement.png "[Add element]")
 
 8. Enter the name of the option value to be shown to the *BigCommerce* customer in the *Name* field.
 

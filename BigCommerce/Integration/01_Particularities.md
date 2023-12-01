@@ -13,7 +13,7 @@ You have two options for exchanging offer data between *Actindo* and *BigCommerc
   For this reason, it is recommended to manage offer data at *Actindo*.
 
 
-## Export of offers 
+### Export of offers 
 
 The following particularities are relevant, when you export your offers from the *Omni-Channel* module to *BigCommerce*.
 
@@ -35,10 +35,12 @@ The following particularities are relevant, when you export your offers from the
 All data types that are no string values are converted to string. 
 The length of a custom field string is limited to 255 characters. 
 
-**To do**: Check your custom fields if they meet the requirements. If applicable, create new ones. For detailed information on changing and editing of attributes, see [Manage attributes](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
+**To do**:   
+Check your custom fields if they meet the requirements. 
+If necessary, create new ones. For detailed information on changing and editing of attributes, see [Manage attributes](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
 
 
-## Images
+### Images
 
 The first image in the corresponding attribute is marked as thumbnail image for the offer. The alt-text of an image will be added as description for that image. Every other field is not supported.
 For detailed information, see [Check product images](../Integration/04_ManageProductData#check-product-images).  
@@ -97,11 +99,14 @@ The following particularities are relevant, when you import your offers from *Bi
 
 ### Shared variant options
 
-*BigCommerce* has shared variant options that cannot be modified in any way using the API: 
+This information is only relevant if you have already created products in *BigCommerce* and you want to initially import them to the *Omni-Channel* module. *BigCommerce* has shared variant options that cannot be modified in any way using the API: 
 - The driver can import offers with shared variant options, but you are not able to edit them after the import.   
 - The driver cannot manage any changes after the import in the *BigCommerce* UI. Changing shared variant options after an import will cause *Omni-Channel* offer updates to fail.   
 
-Before the first import of offers, check your variant options in *BigCommerce*. It is strongly recommended not to use shared variant options. 
+**To do:**   
+Before the first import of offers, check your variant options in *BigCommerce*. It is strongly recommended not to use shared variant options. To check it, see your *BigCommerce* store under *Products > Product options > Shared option tab*. Remove any shared option that might be available there.
+
+![Shared option tab in BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceSharedOptions.png "[Shared option tab in BigCommerce]")
 
 
 
@@ -129,24 +134,22 @@ Data that is not included in the above list is not included in the order import.
 If you have a strong need to have this data available, contact your *Actindo* MPS consultant.
 
 
-**Multiple Shipping Addresses**
+### Multiple Shipping Addresses
 
 Although *BigCommerce* allows multiple shipping addresses, *Actindo* supports the import of one shipping address only. Any orders that use multiple shipping addresses cannot be imported and will fail during the import.  
 For detailed information, see [Manage multiple shipping addresses](../Integration/02_ManageBigCommerceSettings#manage-multiple-shipping-addresses).
 
-**Discounts**
+### Discounts
 
-*BigCommerce* supports one single discount coupon per order only.
+*BigCommerce* supports only one single discount coupon per order.  These coupons cannot be managed in the *Omni-Channel* module and subsequent processes in *Actindo*. Used discount coupons (name and code) are displayed in *Omni-Channel* as custom attributes on each line item.
 
-> [INFO] *BigCommerce* processes discounts before taxes. To manage this case, the driver splits discounts on each line item, add them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent” discounts will be shown as absolute values on each line item. 
-
-Used discount coupons (name and code) are displayed in *Omni-Channel* as custom attributes on each line item. 
+*BigCommerce* processes discounts before taxes. To manage the discounts later in the *Accounting* module, the driver splits discounts on each line item, add them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent” discounts will be shown as absolute values on each line item. 
 
 
 
-## Order status updates
+### Order status updates
 
-**Order delivery Statuses
+**Order delivery Statuses**
 
 The driver supports updates on the order statuses, but *BigCommerce* can only manage a few *Omni-Channel* statuses. The order statuses are assigned as follows:
 
