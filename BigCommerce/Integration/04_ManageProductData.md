@@ -6,7 +6,7 @@ You must check the images assigned to a product in *PIM* as well as the changeab
 
 ## Check product images
 
-Check if the desired product data image is on the right position and the correct text field is maintained.  
+Verify that the desired product data image is in the correct position and that the correct text field is maintained. 
 It is recommended for a good presentation of the offers in your store that the desired images are displayed for each variant. *BigCommerce* supports the import of one thumbnail per variant only. The first image in the corresponding attribute is marked as thumbnail image for the offer. Additionally, the alt-text of that image will be added as description.   
 The following procedure describes how to check the images in the *PIM* module. If you only have the *Omni-Channel* module in use, you can check the image accordingly via *Offers > Select variant set > Edit offer*.
 
@@ -31,9 +31,15 @@ You have assigned more than one image per product variant.
 
    ![Files and images](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/PIMImageAndFiles.png "[Files and images]")
 
-3. Click the image at the first position, if it is suitable for your *BigCommerce* store. Check additionally if the *Alt text* field is filled. If you must change the existing entry, you have the following options: 
+3. Verify that the image at the first position is suitable for your *BigCommerce* store. If not, drag and drop the desired image to the first position.
+
+4. Verify that the *Alt text* field is filled for the image on first position. If you must change the existing entry, you have the following options: 
     - You can change the entry. This might have impact on other connections you have in use.
     - If and want to keep the product data in this scope unchanged, copy your products to a specific *BigCommerce* scope. <!---Stimmt das, sollte man das so tun?-->
+
+5. If applicable, click the [SAVE] button to save your changes.
+
+
 
 ## Check variant sets
 

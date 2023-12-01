@@ -13,15 +13,16 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 
 ### Prerequisites
 
-- You have a *BigCommerce* customer account to login to *BigCommerce*.
+- You have a *BigCommerce* customer account to log in to *BigCommerce*.
 - You have created a *BigCommerce* store. 
+- In the *Actindo Core1 Platform*, you have permission to create connections in *Omni-Channel*.
 
 
 ### Procedure
 
-1. Login to your *Actindo Core1* tenant, on which you run the *Omni-Channel* module. To verify the successful creation later, it is important to be logged in.
+1. Log in to your *Actindo Core1* tenant, on which you run the *Omni-Channel* module. To verify the successful creation later, it is important to be logged in.
 
-2. In a new browser window, open the *BigCommerce App Store*(https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log In] button in the upper right corner.
+2. In a new browser window, open the *BigCommerce App Store* (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log in] button in the upper right corner.
   The *BigCommerce Actindo-sandbox* is opened.
 
 2. Click the *Apps* folder.
@@ -50,7 +51,7 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 7. Enter the workspace URL of the tenant, on which your *Omni-Channel* module is running, and click the [START SETUP] button.
 
    If the installation was successful, the *BigCommerce connected* window is displayed.
-   In your tenant, a new Omni-Channel connection is created, which is connected to your *BigCommerce* shop.   
+   In your tenant, a new *Omni-Channel* connection is created, which is connected to your *BigCommerce* shop.   
    
    ![Connected to BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectedToBigCommerce.png "[Connected to BigCommerce]")
 
@@ -75,7 +76,7 @@ If you create the connection manually, you have no functional limitations compar
 ### Prerequisite
 
 - You have already created a connection automatically.<!---Janik stimmt das, ist das wirklich eine Voraussetzung?-->
-- You have the *Store hash* and the *Access token* given by *BigCommerce* available.
+- You have both the *Store hash* and the *Access token* provided by *BigCommerce* at your disposal.
 - In the *Actindo Core1 Platform*, you have permission to create connections in *Omni-Channel*.
 
 
@@ -83,7 +84,7 @@ If you create the connection manually, you have no functional limitations compar
 
 *Omni-Channel > Settings > CONNECTIONS*
 
-![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnection.png "[Omni-Channel connections]")
+![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Connections.png "[Omni-Channel connections]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create connection* view is displayed.
@@ -95,8 +96,8 @@ If you create the connection manually, you have no functional limitations compar
 3. Click the *Driver* drop-down list and select the *BigCommerce* driver.  
     The *Credentials* section is displayed below the drop-down list. 
 
-4. Enter the hash key of your store In the *Store hash* field and the access token in the
-  *Access token* field. Both data are given by *BigCommerce*.
+4. Enter the hash key of your store in the *Store hash* field and the access token in the
+  *Access token* field. Both data is provided by *BigCommerce*.
 
 5. Click the [SAVE] button.
 
@@ -113,9 +114,9 @@ If you create the connection manually, you have no functional limitations compar
 
 Configure the *BigCommerce* connection after you have created it.   
 
-In *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.
-Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the preferred type for a variant option. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.
- For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option]
+In the *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.
+Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how the preferred type for a variant option is to be determined. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.
+ For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option)
 
 By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
@@ -133,14 +134,14 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 ![Omni-Channel connections](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[Omni-Channel connections]")
 
  1. Click the *BigCommerce* connection you want to edit in the list of connections.   
-   The *Credentials* and the *Settings* tab are displayed in the *Edit connection* view.
+   The *Credentials* and the *Settings* tab are displayed in the *Edit connection* view. By default, the *Settings* tab is selected.
 
     ![Connection credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/ConnectionCredentials.png "[Connection credentials]")
 
 2. Click the *Settings* tab.
 
-3. Click the *Variant option type used for variants* entry.   
-   The *Variant option type* dropdown is displayed.
+3. Click the *Variant option type* entry.   
+   The *Variant option type used for variants* dropdown is displayed.
 
     ![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionType.png "[Variant option type]")
 
@@ -149,15 +150,15 @@ Additionally, if you have worked with *BigCommerce* before you have started with
    | Dropdown | Meaning   
    |-----|-------   
    |Dropdown| An offer variant is selected in a dropdown
-   |Rectangles | The offer variants are selected in a checkbox. The users can select multiple variants.
-   |Radio buttons | An offer variant is selected with radio buttons, users can select one variant only. <!---???--> 
+   |Rectangles | The offer variants are selected in a small rectangle, that contains the offer variant value.![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
+    |Radio buttons | An offer variant is selected with radio buttons. 
 
 5. Click the *Order filters* option.   
    A list of order status is displayed.
 
    ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")  
 
-6. Enable all toggles for the order status you want to import to the *Actindo Core1 Platform*.
+6. Enable all toggles at the order status you want to import to the *Actindo Core1 Platform*.
 
 7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field.
 
