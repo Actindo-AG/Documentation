@@ -19,7 +19,7 @@ The following particularities are relevant when you export your offers from the 
 
 ### Variant options
 
-*BigCommerce* supports multiple types for the selection of variant options on the UI.  For detailed information, see [Configure BigCommerce connection](./02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+*BigCommerce* supports multiple types for the selection of variant options on the UI.  For detailed information, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 
 ### Custom fields
@@ -69,7 +69,7 @@ You can select related products in the corresponding attribute. You can select o
 **Variant options**
 
 For detailed information on BigCommerce product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).  
-Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. In the connection settings, you can choose default presentation types such as dropdowns, radio buttons, or rectangles. For detailed information on these types, see [Configure BigCommerce connection](./02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. In the connection settings, you can choose default presentation types such as dropdowns, radio buttons, or rectangles. For detailed information on these types, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 For certain cases, the color-swatch type is available which requires specific configuration, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 
@@ -116,7 +116,7 @@ Before the first import of offers, check your variant options in *BigCommerce*. 
 The following particularities are relevant when you import your orders from *BigCommerce* to the *Omni-Channel* module.
 
 The import of offers is supported by the *BigCommerce* driver.
-- You can define the orders that are to be imported. For detailed information, see [Configure BigCommerce connection](./02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).  
+- You can define the orders that are to be imported. For detailed information, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).  
 - The *BigCommerce* connection enables parallel imports to handle larger loads.
 
 The driver manages the following data:

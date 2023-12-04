@@ -96,10 +96,10 @@ The list displays all available connections. Depending on the settings, the disp
 ![Create BigCommerce credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/CreateConnectionCredentials.png "[Create Bigcommerce credentials]")
 
 - *Store hash*   
-    Hash key of the *BigCommerce* store. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection manually](../Integration/02_ManageBigCommerceConnection.md#create-bigcommerce-connection-manually).
+    Hash key of the *BigCommerce* store. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection manually](../Integration/01_ManageBigCommerceConnection.md#create-bigcommerce-connection-manually).
 
 - *Access token*   
-    Access token for the *BigCommerce* connection. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection automatically](../Integration/02_ManageBigCommerceConnection.md#create-bigcommerce-connection-automatically).
+    Access token for the *BigCommerce* connection. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection automatically](../Integration/01_ManageBigCommerceConnection.md#create-bigcommerce-connection-automatically).
 
 - [SAVE]  
     Click this button to save the connection. 
@@ -169,7 +169,7 @@ The *Settings* tab is composed of the following setting entries:
 ![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Variantoptiontype.png "[Variant option type]")
 
 - *Variant option type used for variants*   
-   Use this dropdown list to select the type to select variants. For detailed information, see [Configure BigCommerce connection](../Integration/02_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+   Use this dropdown list to select the type to select variants. For detailed information, see [Configure BigCommerce connection](../Integration/01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 
 
