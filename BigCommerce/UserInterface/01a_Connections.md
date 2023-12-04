@@ -65,11 +65,11 @@ The list displays all available connections. Depending on the settings, the disp
     Connection identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a *BigCommerce* connection. The *Create connection* view is displayed, see [Create BigCommerce connection manually](#create-bigcommerce-connection-manually).
+    Click this button to add a *BigCommerce* connection. The *Create connection* view is displayed, see below.
 
 
 
-## Create BigCommerce connection manually
+## Create BigCommerce connection
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Button Add*
 
@@ -98,10 +98,10 @@ The *Credentials* section contains the access data needed for the selected *BigC
 ![Create BigCommerce credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/CreateConnectionCredentials.png "[Create Bigcommerce credentials]")
 
 - *Store hash*   
-    Hash key of the *BigCommerce* store. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection manually](../Integration/01_ManageBigCommerceConnection.md#create-bigcommerce-connection-manually).
+    Hash key of the *BigCommerce* store. This field is automatically filled after having created the *BigCommerce* connection automatically.
 
 - *Access token*   
-    Access token for the *BigCommerce* connection. This field is automatically filled after having created the *BigCommerce* connection, see [Create BigCommerce connection automatically](../Integration/01_ManageBigCommerceConnection.md#create-bigcommerce-connection-automatically).
+    Access token for the *BigCommerce* connection. This field is automatically filled after having created the *BigCommerce* connection automatically.
 
 - [SAVE]  
     Click this button to save the connection. 
@@ -177,7 +177,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Order filters
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Order filters*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select BigCommerce connection > Tab Settings > Menu entry Order filters*
 
 ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")
 

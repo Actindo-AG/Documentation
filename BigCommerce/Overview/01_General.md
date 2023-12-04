@@ -1,7 +1,7 @@
 # General information
 
 *BigCommerce* is one of our partners in the MACH-Alliance. With its API-first approach to e-commerce, *BigCommerce* aims to simplify e-commerce on an enterprise level.   
-Through the integration of *BigCommerce* as an *Omni-Channel* extension, you will be able to connect your *BigCommerce* shop and thus manage all areas of work processes of online retailing centrally and from one place.
+Through the integration of *BigCommerce* as an *Omni-Channel* extension, you will be able to connect your *BigCommerce* store(s) and thus manage all areas of work processes of online retailing centrally and from one place.
 
 The documentation refers to the *BigCommerce Integration* plugin version 1.1.0. There may be differences in the UI, features, and operation if your *BigCommerce Integration* plugin is installed in a different version.
 

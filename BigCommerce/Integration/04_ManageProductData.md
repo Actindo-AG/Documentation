@@ -74,7 +74,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-Check your existing variant sets or create new ones. For detailed information, see [Manage variants](../../PIM/Operation/02_ManageVariants.md) in the *Omni-Channel* documentation. 
+Check your existing variant sets or create new ones. For detailed information, see [Manage a variant](../../PIM/Operation/02_ManageVariants.md) in the *Omni-Channel* documentation. 
 
 
 
