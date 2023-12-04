@@ -1,6 +1,6 @@
 # CONNECTIONS (BigCommerce)
 
-The CONNECTIONS tab offers an overview of all connections created for *Omni-Channel*. It also allows configuring the connections. 
+The CONNECTIONS tab offers an overview of all connections created for *Omni-Channel*. It also allows configuring these connections. 
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 
@@ -9,7 +9,7 @@ The CONNECTIONS tab offers an overview of all connections created for *Omni-Chan
 **Connections**
 
 The *CONNECTIONS* tab contains a list view of all available connections.
-The following functions are available in the list header of the *CONNECTIONS*:
+The following functions are available in the list header of the *CONNECTIONS* tab:
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of connections.
@@ -91,7 +91,9 @@ The list displays all available connections. Depending on the settings, the disp
     Click the drop-down list and select the *BigCommerce* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
 
 
-**Credentials**
+**Credentials** 
+
+The *Credentials* section contains the access data needed for the selected *BigCommerce* connection. The section is only displayed if a valid driver has been selected.
 
 ![Create BigCommerce credentials](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/CreateConnectionCredentials.png "[Create Bigcommerce credentials]")
 
@@ -164,9 +166,9 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Variant option type
 
-*Omni-Channel > Settings > Tab CONNECTIONS > Select Shopware 6 connection > Tab Settings > Menu entry Variant option type*
+*Omni-Channel > Settings > Tab CONNECTIONS > Select BigCommerce connection > Tab Settings > Menu entry Variant option type*
 
-![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/Variantoptiontype.png "[Variant option type]")
+![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionType.png "[Variant option type]")
 
 - *Variant option type used for variants*   
    Use this dropdown list to select the type to select variants. For detailed information, see [Configure BigCommerce connection](../Integration/01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
@@ -180,11 +182,17 @@ The *Settings* tab is composed of the following setting entries:
 ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")
 
 - *Filter orders to import by*   
-   Select the order status to define the orders to be imported to *Actindo*.
-
-- *Import only orders with an ID greater than*   
-
-- *Import only orders created after*   
+   Enable the toggles at the order status to define the orders to be imported to *Actindo*.  
+   For detailed information on the *BigCommerce* order statuses see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
+   
+- *Import only orders with an ID greater than* 
+   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
+   <!----Wenn es bei altem Text bleibt: Enter the ID of the last order you want to keep in *BigCommerce* and you do not want to import to the *Omni-Channel* module.-->
+    Enter the ID of the first order you want to import to the *Omni-Channel* module.
+- *Import only orders created after* 
+   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
+   <!---Wenn es bei altem Text bleibt:Enter the date of the previous day from which you want to start importing orders to the Omni-Channel module.-->  
+   Enter the date of the day as of which you want to import orders to the *Omni-Channel* module. 
 
 - *Import archived orders*    
    By default, this toggle is disabled.

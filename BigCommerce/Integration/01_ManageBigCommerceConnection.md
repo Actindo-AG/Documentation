@@ -116,7 +116,7 @@ Configure the *BigCommerce* connection after you have created it.
 
 In the *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.
 Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how the preferred type for a variant option is to be determined. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.
- For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option)
+ For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 
 By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
@@ -150,7 +150,7 @@ Additionally, if you have worked with *BigCommerce* before you have started with
    | Dropdown | Meaning   
    |-----|-------   
    |Dropdown| An offer variant is selected in a dropdown
-   |Rectangles | The offer variants are selected in a small rectangle, that contains the offer variant value.![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
+   |Rectangles | An offer variant is selected in a small rectangle, that contains the offer variant value.![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
     |Radio buttons | An offer variant is selected with radio buttons. 
 
 5. Click the *Order filters* option.   
@@ -158,11 +158,11 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 
    ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")  
 
-6. Enable all toggles at the order status you want to import to the *Actindo Core1 Platform*.
+6. Enable all toggles at the order status you want to import to the *Actindo Core1 Platform*. For detailed information on the *BigCommerce* order statuses see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
 
-7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field.
+7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field. This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.
 
-8. If desired, enter the date as of which you want to import the orders in the *Import only orders created as of* field. The date is valid from 00:00.
+8. If desired, enter the date as of which you want to import the orders in the *Import only orders created as of* field. The date is valid from 00:00. This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.
 
 9. If desired, import orders that have been already archived by enabling the *Import archived order* toggle.
 
@@ -185,16 +185,3 @@ You have permission to create ETL mappings.
 1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
 
 2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on the creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md).
-
-
-
-
-
-
-
- 
-
-
-
-
-
