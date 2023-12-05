@@ -1,6 +1,6 @@
 # Key features
 
-The *BigCommerce* driver for *Actindo* can manage products, offers, orders, and shipments of multiple *BigCommerce* stores. You can import products from the *PIM* module or create them directly in the *Omni-Channels* module. 
+The *BigCommerce* driver for *Actindo* can manage products, offers, orders, and shipments of multiple *BigCommerce* stores. You can export your products from the *PIM* module or manage the offers directly in the *Omni-Channels* module. 
 
  
 ## How it works
