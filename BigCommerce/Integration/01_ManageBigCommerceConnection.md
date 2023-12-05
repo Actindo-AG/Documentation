@@ -109,7 +109,7 @@ If you create the connection manually, you have no functional limitations compar
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
 
-## Configure BigCommerce connection
+## Configure BigCommerce connection 
 
 Configure the *BigCommerce* connection after you have created it.   
 
@@ -119,6 +119,8 @@ Since *BigCommerce* allows multiple types for variant options, the driver needs 
 
 By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
+
+By the *Offers* option,..
 
 
 #### Prerequisites
@@ -165,7 +167,11 @@ Additionally, if you have worked with *BigCommerce* before you have started with
 
 9. If desired, import orders that have been already archived by enabling the *Import archived order* toggle.
 
-10. Click the [Save] button.   
+10. Click *Offers* option.
+
+   ![Offers option](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OfferOption.png "[Offers option]")
+
+12. Click the [Save] button.   
   The connection settings are applied.
 
 

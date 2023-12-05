@@ -6,7 +6,7 @@ You must check the images assigned to a product in *PIM* as well as the changeab
 
 ## Check product images
 
-Verify that the desired product data image is in the correct position and that the correct text field is maintained. 
+Verify that the desired product data image is in the correct position and that the correct text field is maintained.   
 It is recommended for a good presentation of the offers in your store that the desired images are displayed for each variant. *BigCommerce* supports the import of one thumbnail per variant only. The first image in the corresponding attribute is marked as thumbnail image for the offer. Additionally, the alt-text of that image will be added as description.   
 The following procedure describes how to check the images in the *PIM* module. If you only have the *Omni-Channel* module in use, you can check the image accordingly via *Offers > Select variant set > Edit offer*.
 
@@ -26,7 +26,7 @@ You have assigned more than one image per product variant.
 
     ![Edit product](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EditProduct.png "[Edit product]")
 
-2. Click the *Files and Images* entry of the *Basic Data* attribute group, or the customer-specific attribute group in which you have defined the images.   
+2. Click the *Files and Images* entry of the *Basic Data* attribute group or the customer-specific attribute group in which you have defined the images.   
    The *Files and images* section is displayed. 
 
    ![Files and images](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/PIMImageAndFiles.png "[Files and images]")
@@ -43,12 +43,10 @@ You have assigned more than one image per product variant.
 
 ## Check variant sets
 
-This procedure is only relevant if you have the *PIM* module in use and want to exchange your product data with BigCommerce. If you do not have the PIM module in use, the variant sets from *BigCommerce* will be imported to the *Omni-Channel* module. <!---Stimmt das?--> 
+This procedure is only relevant if you have the *PIM* module in use and want to exchange your product data with *BigCommerce*. If you do not have the *PIM* module in use and you initially import the *BigCommerce* products to *Omni-Channel*, the variant sets from *BigCommerce* will be imported to the *Omni-Channel* module. <!---Stimmt das?--> 
 For detailed information on *BigCommerce* product variants, see the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
 
-Check your existing *PIM* variant sets if they are suitable for the *BigCommerce* connection or create new ones. 
-
-*BigCommerce* allows only certain attributes to be changeable per variant. The following attributes are declared as changeable in *BigCommerce*:
+Check your existing *PIM* variant sets if they are suitable for the *BigCommerce* connection or create new ones. *BigCommerce* allows only certain attributes to be changeable per variant. The following attributes are declared as changeable in *BigCommerce*:
 - Cost price   
 - Price   
 - Sale price   
@@ -80,8 +78,8 @@ Check your existing variant sets or create new ones. For detailed information, s
 
 ## Configure color&dash;swatch variant option
 
-Configure the color-swatch variant option for the *BigCommerce* products for which the options provided in the driver settings are not suitable. 
-A color-swatch option in *BigCommerce* is an option with which the customers can select a color combination in the *BigCommerce* storefront. For example, you want to offer T-shirts that are available with the color combinations black/white, white/green, and black/green. *BigCommerce* supports up to three colors per color swatch value.   
+Configure the color-swatch variant option for the *BigCommerce* products for which the options provided in the connection settings are not suitable. 
+A color-swatch option in *BigCommerce* is an option with which the store customers can select a color combination in the *BigCommerce* storefront. For example, you want to offer T-shirts that are available with the color combinations black/white, white/green, and black/green. *BigCommerce* supports up to three colors per color swatch value.   
 
 Configure the color-swatch option for the *BigCommerce* products for which the options provided in the driver settings are not suitable for a certain attribute. For detailed information on the standard selection options, see [Configure BigCommerce connection](../Integration/01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
@@ -106,7 +104,7 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 3. Select the *Tree node* data type in the *Data type* drop-down list.  
    The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. The *CONFIGURATION* section is displayed.    
 
-4. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-channel* toggle to assign different attribute values in different channels.
+4. Ensure, that the *Multi-language* and *Multi-channel* toggles are disabled.
 
     > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
@@ -122,7 +120,7 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 
 8. Enter the name of the option value to be shown to the *BigCommerce* customer in the *Name* field.
 
-9. Enter the key of the actual value of that option in the *Key* field. This value needs to be a hash key (#) followed by a color hex code, for example #FF00AA. Each additional color added is separated by a comma. The color codes need to be valid hex codes.  
+9. Enter the key of the actual value of that option in the *Key* field. This value needs to be a hash key (#) followed by a color hex code, for example #FF00AA. Each additional color added is separated by a comma. The color codes need to be valid hex codes. Enter a maximum of three colors.   
   For example, a feasible option value could look like this:   
   Name: Red, Green & Blue   
   Key: #FF0000,#00FF00,#0000FF
@@ -134,6 +132,3 @@ Configure the color-swatch option for the *BigCommerce* products for which the o
 
 12. Click the [SAVE] button in the bottom right corner of the *Create attribute* view.   
   The attribute is saved.
-
-
-
