@@ -1,11 +1,11 @@
 # Manage connections
 
-Establish connections via drivers to connect your message receivers with the *Actindo Core1 Platform*. The drivers represent a specific method to transfer the data.   
+Establish connections via drivers to connect your EDIFACT message receivers with the *Actindo Core1 Platform*. The drivers represent a specific method to transfer the data.   
 In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you may have to set up specific configurations. 
 
 ## Create connection
 
-Create a connection to a certain message receiver. 
+Create a connection to a certain EDIFACT message receiver. 
 
 #### Prerequisites
 
@@ -23,12 +23,12 @@ Create a connection to a certain message receiver.
 
     ![Create connection](../../Assets/Screenshots/EDI/Integration/CreateConnections.png "[Create connection]")
 
-2. Enter a name for the connection in the *Name* field. It might be useful, to choose a name that contains a precise description of the purpose, so that you have more flexibility for further connection names. 
+2. Enter a name for the connection in the *Name* field. It might be useful to choose a name that contains a precise description of the purpose, so that you have more flexibility for further connection names, for example, "EDIFACT to [supplier]". 
 
-3. Click the *Driver* drop-down list and select the desired driver.   
+3. Click the *Driver* drop-down list and select the desired driver/protocol.   
     The following drivers are available:    
         - SFTP   
-        - POST call 
+        - POST call   
         - AS2?   
         <!--- Hallo Julian, gibt es noch mehr?-->
      
