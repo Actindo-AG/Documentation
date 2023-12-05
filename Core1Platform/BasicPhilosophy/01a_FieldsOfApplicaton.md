@@ -26,7 +26,7 @@ In this case, you can use the *Actindo Core1 Platform* to replace the existing i
 ## Young start-up
 
 Your company is going to take off, and you expect significant growth. Your current tools will no longer be able to manage your business.  
- You can run the *Actindo Core1 Platform* as a standalone platform that quickly solve specific pain points in first waves. This enables seamless transition without any downtimes. And then expand to a lean IT landscape with a digital operations platform in its core. Our *Digital Operations Platform (DOP)* allows you to adjust processes continuously and to connect to new services and channels that are needed.   
+ You can run the *Actindo Core1 Platform* as a standalone platform that quickly solve specific pain points in first waves. This enables seamless transition without any downtimes. With a digital operations platform in its core, you can then expand to a lean IT landscape. Our *Digital Operations Platform (DOP)* allows you to adjust processes continuously and to connect to new services and sales channels that are needed.   
 The wide range of classic ERP features helps to digitize, automate, and optimize e-commerce processes. You can use it as all-in-one-solution to do the following:   
  - Maintain your business data   
  - Implement and monitor your e-commerce processes   
