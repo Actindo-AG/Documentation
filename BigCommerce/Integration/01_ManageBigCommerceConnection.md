@@ -113,14 +113,15 @@ If you create the connection manually, you have no functional limitations compar
 
 Configure the *BigCommerce* connection after you have created it.   
 
-In the *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.
-Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how the preferred type for a variant option is to be determined. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.
- For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
+In the *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.   
 
-By the *Order filter* option, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
+By the *Variant option type* setting, you can define how the customers can select a product variant in BigCommerce. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how the preferred type for a variant option is to be determined. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
+For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
+
+By the *Order filter* setting, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
 Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
 
-By the *Offers* option,..
+The *Offers* setting is only relevant for the first initial import of products from *BigCommerce*. You can specify that only those attributes are imported, that are mapped to the offer by the ETL data mapping. This allows you to maintain only certain attributes.
 
 
 #### Prerequisites
@@ -170,6 +171,8 @@ By the *Offers* option,..
 10. Click *Offers* option.
 
    ![Offers option](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OfferOption.png "[Offers option]")
+
+11. Enable the *Only push mapped attributes* toggle, if you want to import only those attributes that are mapped to the offer by the ETL data mapping. 
 
 12. Click the [Save] button.   
   The connection settings are applied.
