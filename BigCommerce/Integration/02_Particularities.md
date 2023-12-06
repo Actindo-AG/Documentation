@@ -55,7 +55,7 @@ Offer videos are not supported by the driver. If you have a strong need to have 
 
 ### Related products
 
-<!---Related offers in *BigCommerce* are used differently than in the *Actindo* standard. In the *Actindo* standard, the offer bundles define offers that complete an offer. For example, a power supply unit that is required in addition to a device and part of the offer. In *BigCommerce*, the related offers are used to present similar offers that may be of additional interest to the customer.-->
+Related products in *BigCommerce* are used differently than in the *Actindo* standard. In the *Actindo* standard, the offer bundles define offers that complete an offer. For example, a power supply unit that is required in addition to a device and part of the offer. In *BigCommerce*, the related products are used to present similar offers that may be of additional interest to the customer.
 You can select related products in the corresponding attribute. You can select only those products as related if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are displayed in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
 
 **To do**: 
@@ -102,12 +102,15 @@ The following particularities are relevant when you initially import *BigCommerc
 
 *BigCommerce* has shared variant options that cannot be modified in any way using the API: 
 - The driver can import offers with shared variant options, but you are not able to edit them after the import.   
-- The driver cannot manage any changes after the import in the *BigCommerce* UI. Changing shared variant options after an import will cause *Omni-Channel* offer updates to fail.   
+- The driver cannot manage any changes after the import in the *BigCommerce* UI. Changing shared variant options after an import will cause *Omni-Channel* offer updates to fail.
+   
 
 **To do:**   
 Before the first import of offers, check your variant options in *BigCommerce*. It is strongly recommended not to use shared variant options. To check it, see your *BigCommerce* store under *Products > Product options > Shared options tab*. Remove any shared option that might be available there.
 
 ![Shared option tab in BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceSharedOptions.png "[Shared option tab in BigCommerce]")
+
+Instead, you can use the variants you can add to a product or offer in the *PIM* or the *Omni-Channel* module.
 
 
 
