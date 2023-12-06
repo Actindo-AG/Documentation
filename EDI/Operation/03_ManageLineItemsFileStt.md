@@ -1,7 +1,9 @@
 # Specify line item file settings
 
 The following procedures show by using an example how to specify the line item fields required by your business partner. As example the D07A INVOIC message is used.
->[INFO] The following procedures show by using examples how to specify specific line item of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message! 
+>[INFO] The following procedures show by using examples how to specify specific line item of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message!   
+
+For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
 
 ## Get line item segments
 
@@ -68,7 +70,7 @@ Start specifying the line item segments by filling out the single elements of th
 
     ![S_LIN segment](../../Assets/Screenshots/EDI/Operation/ExportDefLIN.png "[S_LIN segment]")
 
-2. Check the specification for the fields that are required to be filled. In most cases, you must fill the line item identifier  in the *D_1082* row (to identify a line item). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
+2. Check the specification for the fields that are required to be filled. In most cases, you must fill the line item identifier in the *D_1082* row (to identify a line item). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 3. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_1082* row.   
      - To the right of the *D_1082* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description is no longer displayed in italics.  
@@ -78,7 +80,7 @@ Start specifying the line item segments by filling out the single elements of th
     ![D_1082 row](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082.png "[D_1082 row]")
 
  4. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed. The  defined string attribute is added now to the attribute mapping function in the *Data source* tab.
+    The *Exporter definitions* list is displayed. The defined string attribute is added now to the attribute mapping function in the *Data source* tab.
 
 5. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export LIN/1082 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.

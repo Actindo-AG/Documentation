@@ -2,22 +2,28 @@
 
 In Actindo, the definition of the EDIFACT export messages specifies the following:
 - Basic settings with template engine and connection to be used
-- Message structure with predefined data   
-- Data mapping   
+- File settings with the message structure and related attributes   
+- Data sources with attribute mappings  
 - Mapping settings
 
 Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
 - Definition of the message header   
-    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver &frasl; sender information and dates.
+    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates.
 - Definition of the line items  
-    The line item section contain a list of single positions of the message, such as the required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require another data source than the message header. 
-    
-First you create a basic definition setting. After you have added the file settings, the data source, and the mapping settings, you can preview and activate the definition.
+    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. 
+
+Managing of definitions follows the following sequence:   
+1. You create basic definition settings, see [Create basic definition settings](#create-basic-definition-settings).   
+2. You prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](#prepare-definition-of-file-settings).
+3. After you have added a file setting, you can preview a message, see [Preview definition](#preview-definition).
+4. If desired, you can add an attribute mapping after finishing one file setting section, or you do it after finishing the whole EDIFACT message definition. 
+5. If desired, you activate the definition, see.[Activate definition](#activate-definition).
+6. If desired, you can deactivate or delete a definition, see [Deactivate definition](#deactivate-definition) and [Delete definition](#delete-definition).
 
 
 ## Create basic definition settings 
 
-Define basic data for the export definition. You must define a definition setting for the header as well as for the line items of a message.
+Define basic data for the export definition. You must define a definition setting for both the header and the line items of a message.
 
 
 #### Prerequisites
@@ -36,7 +42,7 @@ Define basic data for the export definition. You must define a definition settin
     ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
 2. Enter a label for the definition. It might be useful, to choose a name that contains the following:      
-    - The information that it is an EDIFACT message. Keep in mind that the labels are visible in the *ETL attribute set mappings* of the *DataHub* module later. So it might be useful to distinguish these attribute set mappings from the others by prefixing them with "EDIFACT".   
+    - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* of the *DataHub* module later. So it might be useful to distinguish these attribute set mappings from others by prefixing them with "EDIFACT".   
     - The information, if it is the header or the line items of the message.   
     - The message type (for example, INVOIC)   
     - The direction (Export)   
@@ -64,7 +70,9 @@ Define basic data for the export definition. You must define a definition settin
 7. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
 8. Click the [SAVE] button.   
-    The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
+    - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
+    - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
+    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is displayed. 
 
 9. Repeat the procedure to create a definition setting for the line items. 
 
@@ -92,8 +100,6 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 2. Edit the data you want to change.
 
-3. If desired, click the *File Settings* tab and change the *Release* or the *Message type* of the EDIFACT message structure.
-
 3. Click the [SAVE] button.   
     The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again. 
 
@@ -103,7 +109,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.   
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source before you start with the file settings task, you can check in between whether variable strings to be automatically determined has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For this purpose, create the related data source(s) to be prepared. For detailed information, see [Create data source](./04_ManageDataSources.md#create-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source before you start with the file settings task, you can check in between whether variable strings to be automatically determined has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./04_ManageDataSources.md#create-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Define mapping settings](./05_MappingSettings.md#define-mapping-settings).
 
@@ -111,7 +117,7 @@ To make your EDIFACT file settings specifications easier, it is recommended to d
 
 ## Preview definition
 
-After you have configured the entire definition including the file settings, you can preview the message that will be sent to the business partner. You can use this function to send it to your business partner and let him/her check whether the message is correct.
+After you have configured the entire definition including the file settings, you can preview the message that will be sent to the business partner. You can use this function both to verify your settings in between and to send it to your business partner and let him/her check whether the message is correct.
 
 #### Prerequisites
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).

@@ -2,13 +2,13 @@
 
 
 The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.
->[INFO] The following procedures show by using examples how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message! 
+>[INFO] The following procedures show by using examples how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message. 
 
 ## Get header file segments
 
 Get the header file segments of an EDIFACT message in order to be able to fill them.  
 
-You can add constant values as well as strings that are to be determined via attribute mapping. Example: The document number is a variable value that must differ for each message. 
+You can add constant values as well as strings that are to be determined via attribute mapping. For example, the document number is a variable value that must differ for each message. 
 
 > [INFO] The UNA, UNB and UNH segments are generated automatically, for this reason, the definition starts with the S_BGM segment.
 
@@ -78,8 +78,7 @@ Start specifying the header file segments by filling out the single elements of 
 4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button to the right of the *D_1001* row.  
     The *Set text value* window is displayed.
 
-    ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
-
+    ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Set text value]")
 
 5. Enter the required document name code in the *Text value* field.
 
@@ -166,7 +165,7 @@ Each invoice can have a lot of different dates, for example the invoice date, th
     The *D_2380* field is marked for a later data mapping. 
 
 6. Specify the *D_2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *2005* row.  
-    The *Edit text value* window is displayed. 
+    The *Set text value* window is displayed. 
 
 7. Enter the text value and click the [SAVE] button.   
     This *S_DTM* segment has been finished. 
@@ -204,20 +203,20 @@ Specify message free text, with which you can inform your business partner on in
     ![S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXSegment.png "[S_FTX segment]")
 
 2.  Specify the *D_4451 (Code qualifying the subject of the text)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_4451* row.  
-    The *Edit text value* window is displayed. 
+    The *Set text value* window is displayed. 
 
-    ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
+    ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Set text value]")
  
 3. Enter the text code and click the [SAVE] button. 
 
 4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C108* segment.
 
 5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
-    The *Edit text value* window is displayed.
+    The *Set text value* window is displayed.
 
-6. Enter the free text, for example "Please note our changed bank details" and click the [SAVE] button. You can write up to five lines.
+6. Enter the free text, for example "Please note our changed bank details", and click the [SAVE] button. You can enter up to five lines.
 
-7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Edit text value* window.  
+7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Set text value* window.  
     
 8. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button to the right of the *S_FTX* segment row.   
     The segment is collapsed.
@@ -227,7 +226,7 @@ Specify message free text, with which you can inform your business partner on in
 
     ![Additional S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXAdditionalSegment.png "[Additional S_FTX segment]")
 
-10. Now continue specifying the header file segments until you have specified all fields that your business partner require.
+10. Continue specifying the header file segments until you have specified all fields that your business partner require.
 
 
 

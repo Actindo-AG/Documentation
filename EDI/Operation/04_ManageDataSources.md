@@ -10,7 +10,7 @@ Define the data source from which you want to retrieve the data with which you w
 #### Prerequisites
 
 At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
->[INFO] The *Data source* tab is visible only if you have created a basic definition setting. 
+>[INFO] The *Data source* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
 
@@ -34,7 +34,7 @@ At least one definition setting has been created, see [Create basic definition s
 4. Select the data source in the *Entity type* drop-down list.   
     - If desired, use the *RetailSuite Business document* entity type if you currently define the data source for a header file.    
     You typically use this entity type for the header data, if you want to transfer data with its origin from the *Actindo Core1 Platform*.
-    - If desired, use the *Business document postition* entity type if you currently define the data source for a line item file.   
+    - If desired, use the *Business document postition* entity type if you currently define the data source for a line item definition.   
     You typically use this entity type for the line item data, if you want to transfer data with its origin from the *Actindo Core1 Platform*.  
     - If desired, use any other data source that provides you with data needed for the transfer.   
     For example, you want to send an EDIFACT message with invoice data from SAP. In this case select the related SAP data source with which you can access the data needed for the header &frasl; line item file.   
@@ -58,7 +58,7 @@ At least one definition setting has been created, see [Create basic definition s
 
 8. If desired, specify a limit <!---to be continued?-->
 
-9. Click the [FINALIZE] button at the bottom right corner to save the data source.
+9. Click the [FINALIZE] button in the bottom right corner to save the data source.
 
 ## Map attributes
 
