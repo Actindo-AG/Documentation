@@ -8,7 +8,7 @@ You must check the images assigned to a product in *PIM* as well as the changeab
 
 Verify that the desired product data image is in the correct position and that the correct text field is maintained.   
 It is recommended for a good presentation of the offers in your store that the desired images are displayed for each variant. *BigCommerce* supports the import of one thumbnail per variant only. The first image in the corresponding attribute is marked as thumbnail image for the offer. Additionally, the alt-text of that image will be added as description.   
-The following procedure describes how to check the images in the *PIM* module. If you only have the *Omni-Channel* module in use, you can check the image accordingly via *Offers > Select variant set > Edit offer*.
+The following procedure describes how to check the images in the *PIM* module. If you only have the *Omni-Channel* module in use, you can check the image accordingly via *Offers > Select offer > Edit offer*.
 
 
 #### Prerequisites
@@ -35,44 +35,9 @@ You have assigned more than one image per product variant.
 
 4. Verify that the *Alt text* field is filled for the image on first position. If you must change the existing entry, you have the following options: 
     - You can change the entry. This might have impact on other connections you have in use.
-    - If and want to keep the product data in this scope unchanged, copy your products to a specific *BigCommerce* scope. <!---Stimmt das, sollte man das so tun?-->
+    - If and want to keep the product data in this scope unchanged, copy your products to a specific *BigCommerce* sales channel. <!---Stimmt das, sollte man das so tun?-->
 
 5. If applicable, click the [SAVE] button to save your changes.
-
-
-
-## Check variant sets
-
-This procedure is only relevant if you have the *PIM* module in use and want to exchange your product data with *BigCommerce*. If you do not have the *PIM* module in use and you initially import the *BigCommerce* products to *Omni-Channel*, the variant sets from *BigCommerce* will be imported to the *Omni-Channel* module. <!---Stimmt das?--> 
-For detailed information on *BigCommerce* product variants, see the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).
-
-Check your existing *PIM* variant sets if they are suitable for the *BigCommerce* connection or create new ones. *BigCommerce* allows only certain attributes to be changeable per variant. The following attributes are declared as changeable in *BigCommerce*:
-- Cost price   
-- Price   
-- Sale price   
-- Retail price  
-- Weight   
-- Width   
-- Height   
-- Depth   
-- Is free shipping   
-- Fixed cost shipping price   
-- UPC   
-- Inventory level   
-- Inventory warning level   
-- BIN   
-- GTIN   
-- MPN   
-- Image URL (only one thumbnail per variant)   
-- SKU   
-
-#### Prerequisites
-
-No prerequisites to fulfill.
-
-#### Procedure
-
-Check your existing variant sets or create new ones. For detailed information, see [Manage a variant](../../PIM/Operation/02_ManageVariants.md) in the *Omni-Channel* documentation. 
 
 
 

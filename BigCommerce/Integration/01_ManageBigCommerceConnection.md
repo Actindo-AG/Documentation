@@ -25,6 +25,8 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 2. In a new browser window, open the *BigCommerce App Store* (https://www.bigcommerce.com/apps/) and log in to your *BigCommerce* account using the [Log in] button in the upper right corner.   
   The *BigCommerce Actindo-sandbox* is opened.
 
+   ![BigCommerce](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceEntryScreen.png "[BigCommerce]")
+
 2. Click the *Apps* folder.
 
 3. Click the *Marketplace* folder and select the *Actindo Core1 DOP Connector* app.   
@@ -114,14 +116,13 @@ If you create the connection manually, you have no functional limitations compar
 Configure the *BigCommerce* connection after you have created it.   
 
 In the *Omni-Channel* settings, you can configure the *Variant option type* that defines the way in which the offer variants are presented in the shop.   
-
-By the *Variant option type* setting, you can define how the customers can select a product variant in BigCommerce. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how the preferred type for a variant option is to be determined. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
+By the *Variant option type* setting, you can define how your customers can select a product variant in *BigCommerce*. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how to determine the preferred type for a variant option. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
 For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 
-By the *Order filter* setting, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
-Additionally, if you have worked with *BigCommerce* before you have started with the *Actindo Core1 Platform*, you can define the date or ID, from which the orders are to be imported.
+With the *Order filter* setting, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
+Additionally, if you have worked with *BigCommerce* before starting with the *Actindo Core1 Platform*, you can define the date or ID, from which existing orders should be imported.
 
-The *Offers* setting is only relevant for the first initial import of products from *BigCommerce*. You can specify that only those attributes are imported, that are mapped to the offer by the ETL data mapping. This allows you to maintain only certain attributes.
+The *Offers* setting is only relevant for the first initial import of products from *BigCommerce*. You can specify that only those attributes are to be imported, that are mapped to the offer by the ETL data mapping. This allows you to maintain only certain attributes.
 
 
 #### Prerequisites
@@ -152,7 +153,7 @@ The *Offers* setting is only relevant for the first initial import of products f
    | Dropdown | Meaning   
    |-----|-------   
    |Dropdown| An offer variant is selected in a dropdown
-   |Rectangles | An offer variant is selected in a small rectangle, that contains the offer variant value.![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
+   |Rectangles | An offer variant is selected in a small rectangle, that contains the offer variant value. For example:![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
     |Radio buttons | An offer variant is selected with a radio button.   
 
 5. Click the *Order filters* option.   
@@ -160,13 +161,13 @@ The *Offers* setting is only relevant for the first initial import of products f
 
    ![Order filters](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OrderFilters.png "[Order filters]")  
 
-6. Enable the toggles at the order statuses you want to import to the *Actindo Core1 Platform*. For detailed information on the *BigCommerce* order statuses see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
+6. Enable the toggles at the order statuses you want to import to the *Actindo Core1 Platform*. For detailed information on the *BigCommerce* order statuses, see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
 
 7. If desired, enter the first order ID you want to import in the *Import only orders with an ID as of* field. This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.
 
 8. If desired, enter the date as of which you want to import the orders in the *Import only orders created as of* field. The date is valid from 00:00. This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.
 
-9. If desired, import orders that have been already archived by enabling the *Import archived order* toggle.
+9. If desired, request the import of orders that have been already archived by enabling the *Import archived order* toggle.
 
 10. Click *Offers* option.
 
@@ -182,7 +183,7 @@ The *Offers* setting is only relevant for the first initial import of products f
 ## Manage ETL mappings 
 
 Create ETL mappings to map the *BigCommerce* attributes for subsequent processes in your *Actindo Core1 platform*. During connecting *BigCommerce* with *Actindo*, the *BigCommerce* attribute sets have been automatically created in the *DataHub* module.   
-Especially if you want to export your product data available in the *PIM* module to *BigCommerce*, you must additionally create the ETL mappings and processes for the data transfer between the *PIM* product data and the *Omni-Channel* offer data.
+Especially if you want to exchange your product data available in the *PIM* module to *BigCommerce*, you must additionally create the ETL mappings and processes for the data transfer between the *PIM* product data and the *Omni-Channel* offer data.
 
 #### Prerequisites
 

@@ -15,7 +15,7 @@ The following functions are available in the list header of the *CONNECTIONS* ta
     Click this button to update the list of connections.
 
 - *VIEW*   
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [Work with lists](../../Core1Platform/UsingCore1/04_WorkWithLists.md).  
+    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [Work with lists](../../Core1Platform/UsingCore1/04_WorkWithLists.md).  <!---Preliminary link-->
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
@@ -81,11 +81,11 @@ The list displays all available connections. Depending on the settings, the disp
 - *Name*   
     Enter a connection name.
 
+-  ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
+    Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
+
 - ![Apply](../../Assets/Icons/Check.png "[Apply]") (Apply)  
     Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed. 
-
-- ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
-    Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed. 
 
 - *Driver*  
     Click the drop-down list and select the *BigCommerce* driver. All installed drivers are displayed. The *Credentials* section is displayed below the drop-down list.
@@ -118,7 +118,7 @@ The *Credentials* section contains the access data needed for the selected *BigC
     Click this button to close the *Edit connection* view and return to the connection list. All changes are rejected.
 
 - *Name*   
-    Connection name. Click the button ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) to the right of the name to edit it.
+    Connection name. 
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
     Click this button to edit the connection name.
@@ -185,15 +185,14 @@ The *Settings* tab is composed of the following setting entries:
    Enable the toggles at the order status to define the orders to be imported to *Actindo*.  
    For detailed information on the *BigCommerce* order statuses see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
    
-- *Import only orders with an ID greater than* 
+- *Import only orders with an ID greater than*   
    This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
    <!----Wenn es bei altem Text bleibt: Enter the ID of the last order you want to keep in *BigCommerce* and you do not want to import to the *Omni-Channel* module.-->
     Enter the ID of the first order you want to import to the *Omni-Channel* module.
-- *Import only orders created after* 
+- *Import only orders created after*   
    This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
    <!---Wenn es bei altem Text bleibt:Enter the date of the previous day from which you want to start importing orders to the Omni-Channel module.-->  
-   Enter the date of the day as of which you want to import orders to the *Omni-Channel* module. 
+   Enter the date from which you want to import orders into the *Omni-Channel* module.
 
 - *Import archived orders*    
-   By default, this toggle is disabled.
-   Enable this toggle if you want to import orders that have been already archived.
+   By default, this toggle is disabled. Enable this toggle if you want to import orders that have been already archived.

@@ -23,8 +23,7 @@ In this part of the *BigCommerce* documentation, you will find the following cha
       - [Multiple shipping addresses](./02_Particularities.md#multiple-shipping-addresses)
       - [Disounts](./02_Particularities.md#discounts)
       - [Order status updates](./02_Particularities.md#order-status-updates)
-   - [Order status updates](./02_Particularities.md#order-status-updates) 
-   - [Shipments](./02_Particularities.md#shipments) 
+      - [Shipments](./02_Particularities.md#shipments) 
 
 - [Manage BigCommerce settings](./03_ManageBigCommerceSettings.md)
    - [Manage API settings](./03_ManageBigCommerceSettings.md#manage-api-settings)
@@ -32,7 +31,6 @@ In this part of the *BigCommerce* documentation, you will find the following cha
 
 - [Manage product and offer data](./04_ManageProductData.md)
    - [Check product images](./04_ManageProductData.md#check-product-images)
-   - [Check variant sets](../Integration/04_ManageProductData.md#check-variant-sets)
    - [Configure color&dash;swatch variant option](../Integration/04_ManageProductData.md#configure-color‐swatch-variant-option)
 
 
