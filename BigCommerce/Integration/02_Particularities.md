@@ -8,13 +8,13 @@ Note that both the *PIM* module and *BigCommerce* use the term "product". Howeve
 
 ## Offer handling
 
-You have two options for exchanging offer data between *Actindo* and *BigCommerce*:
-- If you start with *BigCommerce* and have created already all offers in *Actindo*, you can export your offers to your *BigCommerce* storefront.
-- If you start with *Actindo* after and have created all products in *BigCommerce*, you can import the products from *BigCommerce* to *Actindo*.   
+You have the following options for exchanging offer data between *Actindo* and *BigCommerce*:
+- If you have the *PIM* module in use, via the *Ommni-Channel* module, you can export the product data needed for your *BigCommerce* store. This includes all merchant-specific additional fields from the *PIM* module. 
+- If you have the *PIM* module not in use, you can export *Omni-Channel* offers directly. 
+- The following is relevant if you started using *BigCommerce* before your started using the *Omni-Channel* module. You can initially import your *BigCommerce* product data to *Omni-Channel*.   
   Note, if you choose this way, you will not be able to import product changes again from *BigCommerce* to *Actindo*. In this case, you must change the offers on the *Actindo* side and export them to *BigCommerce*.  
   For this reason, it is recommended to manage offer data at *Actindo*.
-
-
+ 
 ## Export of offers 
 
 The following particularities are relevant when you export your offers from the *Omni-Channel* module to *BigCommerce*.
@@ -58,7 +58,7 @@ Offer videos are not supported by the driver. If you have a strong need to have 
 ### Related products
 
 Related products in *BigCommerce* are used differently than in the *Actindo* standard. *Actindo* assigns the related products from *BigCommerce* the *Offer bundle* data type. For detailed information, see [Offer bundle](../../DataHub/UserInterface/04_DataTypeList.md#offer-bundle) in the *DataHub* documentation.   
-In the *Actindo* standard, the offer bundles define offers that complete an offer. For example, a power supply unit that is required in addition to a device and part of the offer. In *BigCommerce*, the related products are used to present similar offers that may be of additional interest to the customer.  
+In the *Actindo* standard, the offer bundles define offers that complete an offer. For example, a power supply unit that is required in addition to a device and is part of the offer. In *BigCommerce*, on the other hand, the related products are used to present similar offers that may be of additional interest to the customer.  
 You can select related products in the corresponding attribute. You can select only those products as related if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are displayed in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
 
 **To do**: 
@@ -166,7 +166,7 @@ For detailed information, see [Manage multiple shipping addresses](./03_ManageBi
 
 ### Discounts
 
-*BigCommerce* supports only one single discount coupon per order.  These coupons cannot be managed in the *Omni-Channel* module and subsequent processes in *Actindo*. For this reason, used discount coupons (name and code) are displayed in *Omni-Channel* as custom attributes on each line item.
+*BigCommerce* supports only one single discount coupon per order.  These coupons cannot be managed in the *Omni-Channel* module and subsequent processes in *Actindo*. For this reason, used discount coupons (name and code) are displayed in *Omni-Channel* as custom attributes on each line item.  
 *BigCommerce* processes discounts before taxes. To manage the discounts later in the *Accounting* module, the driver splits discounts on each line item, add them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent” discounts will be output as absolute values on each line item. 
 
 

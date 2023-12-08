@@ -186,11 +186,11 @@ The *Settings* tab is composed of the following setting entries:
    For detailed information on the *BigCommerce* order statuses see the *BigCommerce* documentation under [https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses](https://developer.bigcommerce.com/docs/rest-management/orders/order-status#get-all-order-statuses).
    
 - *Import only orders with an ID greater than*   
-   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
+   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.   
    <!----Wenn es bei altem Text bleibt: Enter the ID of the last order you want to keep in *BigCommerce* and you do not want to import to the *Omni-Channel* module.-->
     Enter the ID of the first order you want to import to the *Omni-Channel* module.
 - *Import only orders created after*   
-   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general. 
+   This option is only relevant if you have orders in *BigCommerce* that should not be imported to *Actindo* in general.    
    <!---Wenn es bei altem Text bleibt:Enter the date of the previous day from which you want to start importing orders to the Omni-Channel module.-->  
    Enter the date from which you want to import orders into the *Omni-Channel* module.
 

@@ -1,19 +1,19 @@
 # Export of offer failed
 
-Initial situation: An offer upload failed. The offer has been moved to the list of export errors.  
+Initial situation: An offer export failed. The offer export has been moved to the list of export errors.  
 
 #### Error Description
 
 Error message: Upload of the product partially failed. Product is uploaded to the shop, some entries might be missing. HTTP Status: 207, Title: The product was saved with some issues, Errors: The URL is a duplicate.
 
-Cause: It is possible to enter a product URL to an *Omni-Channel* offer. If the product URL is not unique, the driver will stop the upload of this offer to a *BigCommerce* product.  
+Cause: It is possible to enter a product URL to an *Omni-Channel* offer. If the product URL is not unique, the driver will stop the import of this offer to a *BigCommerce* product.  
 
 
 Follow the instructions below to check your offer URLs for duplicates.
 
 #### Prerequisites
 
-- No prerequisites to fulfill
+You are both permitted to start offer exports in the *Omni-Channel* module and to change offer data there.
 
 #### Procedure
 
@@ -41,7 +41,7 @@ Follow the instructions below to check your offer URLs for duplicates.
 
 6. Click the [RETRY UPLOAD] button.   
     *Omni-Channel* starts the export for the offer. 
-      The *Export triggered* pop-up window is displayed. The error message is no longer displayed.  
+      The *Export triggered* pop-up window is displayed. The error message is no longer displayed, if you have successfully corrected the issue.  
 
      ![Edit offer](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleSearchEngineFinished.png "[Edit offer]")
 

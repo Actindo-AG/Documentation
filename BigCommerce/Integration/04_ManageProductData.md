@@ -1,12 +1,13 @@
 # Manage product and offer data
 
 Before you start exchanging data with *BigCommerce*, you must check your product and offer data.
-You must check the images assigned to a product in *PIM* as well as the changeable attributes assigned to your variant sets in *Omni-Channel*.
+You must check the images assigned to an offer in the *PIM* or the *Omni-Channel* module. In addition, you can define the color-swatch variant option.
 
 
 ## Check product images
 
 Verify that the desired product data image is in the correct position and that the correct text field is maintained.   
+
 It is recommended for a good presentation of the offers in your store that the desired images are displayed for each variant. *BigCommerce* supports the import of one thumbnail per variant only. The first image in the corresponding attribute is marked as thumbnail image for the offer. Additionally, the alt-text of that image will be added as description.   
 The following procedure describes how to check the images in the *PIM* module. If you only have the *Omni-Channel* module in use, you can check the image accordingly via *Offers > Select offer > Edit offer*.
 
@@ -45,8 +46,7 @@ You have assigned more than one image per product variant.
 
 Configure the color-swatch variant option for the *BigCommerce* products for which the options provided in the connection settings are not suitable. 
 A color-swatch option in *BigCommerce* is an option with which the store customers can select a color combination in the *BigCommerce* storefront. For example, you want to offer T-shirts that are available with the color combinations black/white, white/green, and black/green. *BigCommerce* supports up to three colors per color swatch value.   
-
-Configure the color-swatch option for the *BigCommerce* products for which the options provided in the driver settings are not suitable for a certain attribute. For detailed information on the standard selection options, see [Configure BigCommerce connection](../Integration/01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+ For detailed information on the standard selection options, see [Configure BigCommerce connection](../Integration/01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 #### Prerequisites
 

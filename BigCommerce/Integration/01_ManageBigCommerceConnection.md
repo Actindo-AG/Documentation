@@ -3,7 +3,7 @@
 *Actindo* features a special installation app in the *BigCommerce App Store*. The *Actindo Core1 DOP connector* app setups and authorizes a connection automatically. 
 Note, if possible, you should not delete the app in *BigCommerce* after creating the connection. Although the deleting will not delete the connection in *Omni-Channel* itself, but it will invalidate the access token you have created during connecting the app. If the app was deleted by mistake, either reconnect the app or enter a valid access token manually to enable the connection again.
 
-Note that you can use the *Actindo Core1 DOP connector* app for one connection only. If you have more than one store in *BigCommerce*, you can create the first connection automatically with the *Actindo Core1 DOP connector* app. For all other stores, you must create the connection manually.
+Note that you can use the *Actindo Core1 DOP connector* app for one connection only. If you have more than one store in *BigCommerce*, you can <!--- can oder must?-->create the first connection automatically with the *Actindo Core1 DOP connector* app. For all other stores, you must create the connection manually.
 
 
 ## Create BigCommerce connection automatically 
@@ -51,7 +51,6 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
    ![BigCommerce installation](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EnterWorkspaceURL.png "[BigCommerce installation]")
 
 7. Enter the workspace URL of the instance, on which your *Omni-Channel* module is running and click the [START SETUP] button.
-
    If the installation was successful, the *BigCommerce connected* window is displayed.
    In your instance, a new *Omni-Channel* connection is created, which is connected to your *BigCommerce* shop.   
    
@@ -60,8 +59,8 @@ Create the connection using the *BigCommerce* driver. You will not be able to co
 8. Change to your *Actindo Core1* instance and select *Omni-Channel > Settings > Tab CONNECTIONS*.   
     - The new connection has been created, synchronized, and activated.   
     - The credentials of the connection have been automatically created.
-    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs later using the *DataHub* module.<!---Stimmt das?-->
-    - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs later using the *DataHub* or *PIM* module.
+    - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under *Settings > API*.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
 
@@ -105,7 +104,7 @@ If you create the connection manually, you have no functional limitations compar
 
 6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") [Back] button and check whether the new connection has been synchronized and activated.   
     - The new connection has been created, synchronized, and activated.   
-    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs later using the *DataHub* module.<!---Stimmt das?-->
+    - All related standard attributes, attribute sets, and attribute groups have been created. If required, you can adapt these objects to your needs using the *DataHub* or *PIM* module later.
     - All relevant APIs settings in *BigCommerce* are automatically created. See the *Store-level API account* in the *BigCommerce* app under Settings > API.
 
    ![New Omni-Channel connection](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/OmniChannelConnectionCreated.png "[New Omni-Channel connection]")
