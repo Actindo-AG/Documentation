@@ -260,17 +260,33 @@ the relevant group for the line items of an EDIFACT message must be indicated to
 5. If desired, check whether the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export SG[Group name] *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
-     ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefSG26Mapping.png "[Map Attributes]")
-     BILD NEU MACHEN
+     ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-5. Continue processing the EDIFACT message by specifying the line item segment. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
+
+6. Click the EDI Export SG26/SG27 row and define the mapping.    
+   The settings section is displayed.
+
+    ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
+
+     a. Click the *Source attribute* dropdown and select *Positions*. <!---eine Document lines gab es bei mir nicht??-->
+
+     b. Click the *Extension* dropdown and select the *XML SubExport* extension.
+
+     c. Click the *Override change tracking mode* dropdown and select *Use default*.
+
+     d. In the *Configuration* section, click the *Subexport definition* and select the definition you currently specify.  
+
+7. Click the [SAVE] button and finalize the *Map attributes* wizard.
+  
+
+8. Continue processing the EDIFACT message by specifying the line item segment. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
 
 
 
 
 ## Edit header file settings
 
-To edit the header file settings, you must remove the data you have provided for a segment resp. a segment row before.
+To edit the header file settings, you must remove the data you have provided for a segment respectively a segment row before.
 
 #### Prerequisites
 
