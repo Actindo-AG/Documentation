@@ -5,6 +5,8 @@ The following procedures show by using an example how to specify the line item f
 
 For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
 
+
+
 ## Get line item segments
 
 Get the line item segments of an EDIFACT message in order to be able to fill them. Example: The document position number is a variable value that must differ for line item. 
@@ -14,7 +16,7 @@ You can add constant values as well as strings that are to be determined via att
 #### Prerequisites
 
 - You have the message specification of your business partner at hand.
-- You have created the basic definition settings for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+- You have created the basic definition settings for the line items for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 
 #### Procedure
 
@@ -50,6 +52,7 @@ You can add constant values as well as strings that are to be determined via att
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
 7. Click the [SAVE] button.
+    You have saved the line item segments. The *Exporter definitions* view is displayed. 
 
 ## Specify line item identifier
 
@@ -80,9 +83,10 @@ Start specifying the line item segments by filling out the single elements of th
     ![D_1082 row](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082.png "[D_1082 row]")
 
  4. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed. The defined string attribute is added now to the attribute mapping function in the *Data source* tab.
+    The *Exporter definitions* list is displayed. The defined string attribute is mow added to the attribute mapping function in the *Data source* tab.
 
 5. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export LIN/1082 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
     ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082Mapping.png "[Map Attributes]")
+

@@ -104,7 +104,9 @@ Edit the data source by specifying the data mapping for your file settings defin
 
 7. If desired, change the limit. The limit defines the maximum number of line items which are to be added to a business document such as an invoice. <!---ist das richtig?-->
 
-8. Click the [FINALIZE] button in the bottom right corner to save the data source.
+8. Click the [FINALIZE] button in the bottom right corner to save the data source.   
+  You have saved the data source settings. The *Exporter definitions* view is displayed. 
+
 
 
 
@@ -135,6 +137,9 @@ In minimum one data source has been created, see [Create data source](#create-da
 
 4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
    The data source has been deleted.
+
+5. Click the [SAVE] button.    
+    You have saved the data source settings. The *Exporter definitions* view is displayed. 
      
 
 

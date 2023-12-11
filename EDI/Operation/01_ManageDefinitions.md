@@ -1,4 +1,4 @@
-# Manage header definition 
+# Manage definitions 
 
 In Actindo, the definition of the EDIFACT export messages specifies the following:
 - Basic settings with template engine and connection to be used
@@ -8,21 +8,22 @@ In Actindo, the definition of the EDIFACT export messages specifies the followin
 
 Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
 - Definition of the message header   
-    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates.
-- Definition of the line items  
-    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. 
+    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates. For detailed information, see [Create basic definition setting for the header](#create-basic-definition-setting-for-the-header).
+- Definition for the line items  
+    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. For detailed information, see [Manage line item definition](./03_ManageLineItemDefinition.md),
+
+Note that this chapter is valid both for the definition of the header definition and the definition for the line items. Do not start with the definition for the line items before you have prepared the line item export. For detailed information, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 
 
-
-## Create basic definition setting for the header 
-
+## Create basic definition setting 
 Define basic data for the export definition. You must define a definition setting for both the header and the line items of a message.
 
 
 #### Prerequisites
 
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
+- Before creating the definition for the line items, you have prepared the line item export, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 #### Procedure
 
@@ -36,7 +37,7 @@ Define basic data for the export definition. You must define a definition settin
     ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
 2. Enter a label for the definition. It might be useful, to choose a name that contains the following:      
-    - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* of the *DataHub* module later. So it might be useful to distinguish these attribute set mappings from others by prefixing them with "EDIFACT".   
+    - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. So it might be useful to distinguish these attribute set mappings from others by prefixing them with "EDIFACT".   
     - The information, if it is the header or the line items of the message.   
     - The message type (for example, INVOIC)   
     - The direction (Export)   
@@ -67,8 +68,6 @@ Define basic data for the export definition. You must define a definition settin
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
     - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
-
-9. Repeat the procedure to create a definition setting for the line items. 
 
 
 ## Edit basic definition settings 
@@ -195,7 +194,6 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a n
 #### Prerequisites
 
 - At least one definition setting has been activated, see [Activate definition settings](#activate-definition).   
-
 - You no longer want to send messages of this type to your business partner.
 
 #### Procedure
@@ -213,20 +211,20 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a n
     The toggle is no longer highlighted.
 
 3. Click the [SAVE] button.  
-    The definition is deactivated, and you can no longer send messages of this type to your business partner. 
+    The *Exporter definitions* view is displayed. The definition is listed as **inactive** in the *Active* column. You can no longer send messages of this type to your business partner. 
 
 
 
 ## Delete definition
 
-Delete a definition if you no longer need it and you want to clear your definition list. You can delete several definitions at once.
+Delete a definition if both you no longer need it and you want to clear your definition list. You can delete several definitions at once.
 
 > [CAUTION] Note that you will lose the whole definition with all EDIFACT message settings, data sources, and mapping settings when deleting a definition. Alternatively, you can deactivate a definition to keep your settings, see [Deactivate definition](#deactivate-definition).
 
 
 #### Prerequisites
 
-- At least one definition has been created, see [Create definition basis settings](#).
+- At least one definition has been created, see [Create basic definition settings](#create-basic-definition-setting).
 
 #### Procedure
 

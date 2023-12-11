@@ -232,8 +232,8 @@ Specify message free text, with which you can inform your business partner on in
 
 ## Prepare line item export
 
-In order to be able to export the single positions of an invoice, for example, 
-the relevant group for the line items of an EDIFACT message must be indicated to be exported as a whole. You have to do this here in the header definition file settings. 
+In order to be able to export the single positions of an invoice, for example, the relevant group for the line items of an EDIFACT message must be indicated to be exported as a whole. You have to do this here in the header definition file settings.  
+After your have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
 
 #### Prerequisites
 

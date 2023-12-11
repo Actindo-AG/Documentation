@@ -1,2 +1,0 @@
-# Manage line item definition
-

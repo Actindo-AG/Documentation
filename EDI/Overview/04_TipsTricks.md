@@ -42,12 +42,11 @@ Use the following checklist to organize your work. Managing of definitions follo
 |To do                                   | Done   
 |-----|------- 
 |1. Create the connection to your business partner, see [Manage connections](../Integration/01_ManageConnections.md).|   |     
-|2. Create a basic definition setting for the header, see [Create basic header definition settings](../Operation/01_ManageHeaderDefinition.md#create-basic-definition-setting-for-the-header).|   |   
-|3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageHeaderDefinition.md#prepare-definition-of-file-settings).|   |   
+|2. Create a basic definition setting for the header, see [Create basic header definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-setting-for-the-header).|   |   
+|3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageDefinitions.md#prepare-definition-of-file-settings).|   |   
 |4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md)|   |   
-|5. If desired, you can add an attribute mapping after finishing one file setting section, or you do it after finishing the whole EDIFACT message definition. |   |   
-|6. Create a basic definition setting for the line item, see [Manage basis line item definition](../Operation/03_ManageLineItemDefinition.md). |   |   
-|7. After you have added the file settings, you can preview a message, see [Preview definition](#preview-definition).|   |   
-|8. Create basic definition settings for the line items, see [Create basic definition settings](#create-basic-definition-settings).|  |   
-|9. If desired, you activate the definition, see.[Activate definition](#activate-definition).|   |    
-|10. If desired, you can deactivate or delete a definition, see [Deactivate definition](#deactivate-definition) and [Delete definition](#delete-definition).|   |  
+|5. If desired, you can add an attribute mapping after finishing one file setting section, or you do it after finishing the whole EDIFACT message definition. |   |     
+|7. After you have added the file settings, you can preview the message header, see [Preview definition](#preview-definition).|   | 
+|7. Create a basic definition setting for the line items, see [Manage basic line item definition](../Operation/03_ManageLineItemDefinition.md). |   |   
+|8. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |   
+|9. Activate the definitions, see [Activate definition](#activate-definition).|   |    
