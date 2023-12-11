@@ -37,8 +37,8 @@ Define basic data for the export definition. You must define a definition settin
     ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
 2. Enter a label for the definition. It might be useful, to choose a name that contains the following:      
-    - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. So it might be useful to distinguish these attribute set mappings from others by prefixing them with "EDIFACT".   
-    - The information, if it is the header or the line items of the message.   
+    - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. Therefore, the prefix EDIFACT may be useful to distinguish these attribute set mappings from others.  
+    - The information if it is the header or the line items of the message.   
     - The message type (for example, INVOIC)   
     - The direction (Export)   
     - The business partner name  

@@ -38,11 +38,11 @@ You can add constant values as well as strings that are to be determined via att
     /M_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]/ G\_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]\_SG[Group number].     
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26*   
     Alternatively, you can copy the two parts from the header file message structure.   
-    >[INOF] Note, depending on the EDIFACT version, the line items (LIN segment) are included in different groups, for example the SG26 or the SG27 group.
+    >[INOF] Note that depending on the EDIFACT version, the line items (LIN segment) are included in different groups, such as the SG26 or SG27 group.
  
 4. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     Both the *Reference node path* and the message structure of the SG26 &frasl; SG27 group is displayed. The segment is highlighted in red because it is still empty.    
-    It starts with the SG26 or SG27 element. Note, in the header definition file settings, after saving, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
+    It starts with the SG26 or SG27 element. Note that in the header definition file settings, after saving, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
@@ -76,7 +76,7 @@ Start specifying the line item segments by filling out the single elements of th
 2. Check the specification for the fields that are required to be filled. In most cases, you must fill the line item identifier in the *D_1082* row (to identify a line item). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 3. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_1082* row.   
-     - To the right of the *D_1082* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description is no longer displayed in italics.  
+     - To the right of the *D_1082* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
     - The *S_LIN* segment is now highlighted in red. This indicates that the segment contains data, but not all required data for the EDIFACT message structure are filled.   
     - The string attribute has been marked for a later data mapping.
 

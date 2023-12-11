@@ -6,7 +6,7 @@ The following procedures show by using an example how to specify the fields requ
 
 ## Get header file segments
 
-Get the header file segments of an EDIFACT message in order to be able to fill them.  
+Get the header file segments of an EDIFACT message in order to be able to fill them with data.  
 
 You can add constant values as well as strings that are to be determined via attribute mapping. For example, the document number is a variable value that must differ for each message. 
 
@@ -83,7 +83,7 @@ Start specifying the header file segments by filling out the single elements of 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
-    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The field name and description is no longer displayed in italics.  
+    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The field name and description are no longer displayed in italics.  
     The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data. Additionally, to the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
     ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
@@ -117,7 +117,7 @@ Specify the header file segments by filling out the single elements of the BGM (
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *D_1004* row (to identify a document). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
-     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description is no longer displayed in italics.  
+     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
     - The *S_BGM C_C106* segment is now highlighted with a small black border. This indicates that the segment contains data.   
     - The string attribute has been marked for a later data mapping.
 
@@ -214,7 +214,7 @@ Specify message free text, with which you can inform your business partner on in
 5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
     The *Set text value* window is displayed.
 
-6. Enter the free text, for example "Please note our changed bank details", and click the [SAVE] button. You can enter up to five lines.
+6. Enter the free text, for example "Please note our changed bank details" and click the [SAVE] button. You can enter up to five lines.
 
 7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Set text value* window.  
     
@@ -232,8 +232,8 @@ Specify message free text, with which you can inform your business partner on in
 
 ## Prepare line item export
 
-In order to be able to export the single positions of an invoice, for example, the relevant group for the line items of an EDIFACT message must be indicated to be exported as a whole. You have to do this here in the header definition file settings.  
-After your have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
+In order to be able to export the individual line items of an invoice, the relevant line item group of an EDIFACT message must be specified to be exported as a whole. You have to do this here in the header definition file settings.  
+After you have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
 
 #### Prerequisites
 
