@@ -1,4 +1,4 @@
-# Manage definitions 
+# Manage header definition 
 
 In Actindo, the definition of the EDIFACT export messages specifies the following:
 - Basic settings with template engine and connection to be used
@@ -12,16 +12,10 @@ Each EDIFACT export message requires two definitions in the *DataHub Exporter* m
 - Definition of the line items  
     The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. 
 
-Managing of definitions follows the following sequence:   
-1. You create basic definition settings, see [Create basic definition settings](#create-basic-definition-settings).   
-2. You prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](#prepare-definition-of-file-settings).
-3. After you have added a file setting, you can preview a message, see [Preview definition](#preview-definition).
-4. If desired, you can add an attribute mapping after finishing one file setting section, or you do it after finishing the whole EDIFACT message definition. 
-5. If desired, you activate the definition, see.[Activate definition](#activate-definition).
-6. If desired, you can deactivate or delete a definition, see [Deactivate definition](#deactivate-definition) and [Delete definition](#delete-definition).
 
 
-## Create basic definition settings 
+
+## Create basic definition setting for the header 
 
 Define basic data for the export definition. You must define a definition setting for both the header and the line items of a message.
 
@@ -72,7 +66,7 @@ Define basic data for the export definition. You must define a definition settin
 8. Click the [SAVE] button.   
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
-    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is displayed. 
+    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
 
 9. Repeat the procedure to create a definition setting for the line items. 
 

@@ -33,3 +33,21 @@ Note that the structure of the format is standardized, not the usage. As a resul
 - *Actindo* enables you to preview each message structure as a string. For example:
     UNB+UNOC:3+:14+:14+230810:1443+76817314338981'UNH+67850136066306+ORDERS:D:07A:UN:EAN008'BGM+220+202300001'DTM+8::102'UNS+S'UNT+5+67850136066306'UNZ+1+76817314338981'   
     The specifications of the big players often also shows parts of this string as examples, so that you can use the preview for checking the message output. Check the specification of your business partner for these examples. Then join the required parts together or copy the individual parts so that they are output in a single string. This way, you can verify from time to time if you are on the right track. 
+
+
+## Tips for managing the definitions
+
+Use the following checklist to organize your work. Managing of definitions follows the following sequence:  
+
+|To do                                   | Done   
+|-----|------- 
+|1. Create the connection to your business partner, see [Manage connections](../Integration/01_ManageConnections.md).|   |     
+|2. Create a basic definition setting for the header, see [Create basic header definition settings](../Operation/01_ManageHeaderDefinition.md#create-basic-definition-setting-for-the-header).|   |   
+|3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageHeaderDefinition.md#prepare-definition-of-file-settings).|   |   
+|4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md)|   |   
+|5. If desired, you can add an attribute mapping after finishing one file setting section, or you do it after finishing the whole EDIFACT message definition. |   |   
+|6. Create a basic definition setting for the line item, see [Manage basis line item definition](../Operation/03_ManageLineItemDefinition.md). |   |   
+|7. After you have added the file settings, you can preview a message, see [Preview definition](#preview-definition).|   |   
+|8. Create basic definition settings for the line items, see [Create basic definition settings](#create-basic-definition-settings).|  |   
+|9. If desired, you activate the definition, see.[Activate definition](#activate-definition).|   |    
+|10. If desired, you can deactivate or delete a definition, see [Deactivate definition](#deactivate-definition) and [Delete definition](#delete-definition).|   |  

@@ -253,7 +253,7 @@ the relevant group for the line items of an EDIFACT message must be indicated to
 3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row. 
     The segment is now highlighted with a small black border. You cannot expand it.   
     Another *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row has been added. You can ignore it.   
-    The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later.
+    The EDI Export EDI Export SG26/SG27 *Destination attribute* has been added to the attributes to be mapped later.
 
 4. Click the [SAVE] button.
 
@@ -262,13 +262,12 @@ the relevant group for the line items of an EDIFACT message must be indicated to
 
      ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-
 6. Click the EDI Export SG26/SG27 row and define the mapping.    
    The settings section is displayed.
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
 
-     a. Click the *Source attribute* dropdown and select *Positions*. <!---eine Document lines gab es bei mir nicht??-->
+     a. Click the *Source attribute* dropdown and select *Positions* or another attribute that represents a line item. 
 
      b. Click the *Extension* dropdown and select the *XML SubExport* extension.
 
@@ -278,8 +277,7 @@ the relevant group for the line items of an EDIFACT message must be indicated to
 
 7. Click the [SAVE] button and finalize the *Map attributes* wizard.
   
-
-8. Continue processing the EDIFACT message by specifying the line item segment. For detailed information, see [Specify line item file settings](./03_ManageLineItemsFileStt.md).   
+8. Click the [SAVE] button to save the header definition.
 
 
 
@@ -306,6 +304,12 @@ To edit the header file settings, you must remove the data you have provided for
 
 2. Start specifying again the segment with new data.
 
+3. Click the [CONTINUE] button and finalize the *Map attributes* wizard.
+  
+4. Click the [SAVE] button to save the header definition.
+
+
+
 **Remove data from a segment row**
 
 1. If you want to remove data from a segment row, expand the corresponding  segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the segment.   
@@ -314,4 +318,9 @@ To edit the header file settings, you must remove the data you have provided for
     The ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is replaced both by the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button and the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button.
 
 3. Start specifying again the row with new data.
+
+4. Click the [CONTINUE] button and finalize the *Map attributes* wizard.
+  
+5. Click the [SAVE] button to save the header definition.
+
     
