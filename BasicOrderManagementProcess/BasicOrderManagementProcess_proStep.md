@@ -79,14 +79,14 @@ The sales channel is connected via driver with the *Actindo Core1 Platform*. Dep
 The order contains, at least, the following basic data:  
 - Customer details, such as name, number, billing and delivery address
 - Line items:
-    - ordered products, including price, quantity and ID number (SKU or similar)
-    - applicable discounts and ancillary services, for example gift wrapping oder express delivery 
+    - Ordered products, including price, quantity, and ID number (SKU or similar)
+    - Applicable discounts and ancillary services, for example, gift wrapping oder express delivery 
 
 ### 2. Order confirmation and stock reservation  
 
 ![Order confirmation and stock reservation](../Assets/Screenshots/BasicOrderManagementProcess/OrderManagementProcess_2.jpg "[Order confirmation and stock reservation]")
 
-The Omni-Channels order is a mere "data container" with no internal logic, intended only for transferring order data between the sales channel and the *Order Management* module. The order import status in the *Omni-Channel* module indicates the order data completeness. Orders are often not completely imported at once and changes occur at a later stage. In this case, the order status stays as **Imported**. When the order data is complete, the order import status changes to **Complete**. 
+The *Omni-Channels* order is a mere "data container" with no internal logic, intended only for transferring order data between the sales channel and the *Order Management* module. The order import status in the *Omni-Channel* module indicates the order data completeness. Orders are often imported incompletely at first and then completed later. In this case, the order status stays as **Imported**. When the order data is complete, the order import status changes to **Complete**. 
 
 The order is then further processed in the *Order Management* module, which generates an order confirmation (business document). As soon as an order confirmation is generated, a reservation posting is created in the *Warehousing* module. The purpose of a reservation is to ensure the availability of material at a later point in time. The available stock is, therefore, reduced by the quantity of line items specified in the order confirmation. A negative posting is possible at this point of the process, in which case a redistribution can be configured, if necessary, to arrange for the missing item(s) to be picked from another warehouse.
 
@@ -98,7 +98,7 @@ Since a company may have several warehouses, the stock withdrawal matrix determi
 
 ![Initiation of the delivery process](../Assets/Screenshots/BasicOrderManagementProcess/OrderManagementProcess_3.jpg "[Initiation of the delivery process]")
 
-Based on the order confirmation, a delivery note (business document) is created. Depending on the storage location of the ordered items, one or more delivery notes may be created, which will be handled independently. A delivery note is created per each warehouse group where the ordered items are stored. A warehouse group is an higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically separated from each other and can contain an unlimited number of warehouses. 
+Based on the order confirmation, a delivery note (business document) is created. Depending on the storage location of the ordered items, one or more delivery notes may be created, which will be handled independently. One delivery note is created per each warehouse group where the ordered items are stored. A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically separated from each other and can contain an unlimited number of warehouses. 
 
 Besides, in order for a delivery note to be created, the stock level in the applicable storage location must be sufficient. In this case, the delivery note cancels the previous reservation posting and creates a waiting for picking posting in the *Warehouse* module. This kind of posting reduces the physical stock in the warehouse, as the line item ordered is assigned to a specific delivery note. 
 
@@ -113,7 +113,7 @@ Based on the delivery note, an invoice is created and posted in the *Accounting*
 
 Once the invoice is created, an open item is posted to the customer account in the *Accounting* module. A customer account is automatically created in the system for every customer placing an order. The posting account is identified based on the customer number. 
 
-> [Info] The tax rate to be applied depends on the ship-to country, the tax zone and the product type. Based on these parameters, a decision matrix determines automatically the tax rate to be applied in the invoice. This decision matrix is configured in the *Taxes* module, see [Manage the decision matrix](#to-be-determined).
+> [Info] The tax rate to be applied depends on the ship-to country, the tax zone, and the product type. Based on these parameters, a decision matrix determines automatically the tax rate to be applied in the invoice. This decision matrix is configured in the *Taxes* module, see [Manage the decision matrix](#to-be-determined).
 
 
 ### 5. Payment handling  
@@ -122,7 +122,7 @@ Once the invoice is created, an open item is posted to the customer account in t
 
 After receiving the authorization from the sales channel, the *Payments* module sends a request to the PSP to capture the payment. If the payment capture is successful, the PSP sends a confirmation back to the *Payments* module. The payment process is considered as paid by the *Actindo Core1 Platform*.
 
-The payment is then sent to the *Accounting* module via the *Payment processing* module and matched with the open item based on different relevant data, such as amount, customer number, invoice number or payment reference. If the matching is successful, the open item is cleared. The order is considered as fully paid and its payment status accordingly updated in the *Order Management* module. 
+The payment is then sent to the *Accounting* module via the *Payment processing* module and matched with the open item based on different relevant data, such as amount, customer number, invoice number, or payment reference. If the matching is successful, the open item is cleared. The order is considered as fully paid and its payment status accordingly updated in the *Order Management* module. 
 
 > [Info] The *Payment processing* module serves as link between any available payment source and the *Accounting* module. Other payment methods, such as bank transfer or direct debit, can also be configured, as long as the necessary process steps are defined in a workflow. 
 
@@ -148,7 +148,7 @@ The fulfiller confirms receival of the dispatch note and begins processing the r
 
 When the dispatch note is completed, the delivery note is processed and finalized in the *Order Management* module. At this point, the waiting for picking posting changes to a sale posting in the *Warehousing* module. The sale posting releases the previously reserved line items from stock irrevocably, whereby the order process is concluded from the logistics perspective.
 
-To ensure that the customer is always informed about the current status of his/her delivery, regular shipment status updates are sent to the *Omni-Channel* module. These updates are, in turn, exported to the online shop via driver.
+To ensure that the customer is always informed about the current status of his/her delivery, regular shipment status updates are sent to the *Omni-Channel* module. These updates are, in turn, exported to the online shop via the driver.
 
 
 
