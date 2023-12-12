@@ -1,4 +1,4 @@
-# Specify line item file settings
+# Manage line item file settings
 
 The following procedures show by using an example how to specify the line item fields required by your business partner. As example the D07A INVOIC message is used.
 >[INFO] The following procedures show by using examples how to specify specific line item of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message!   
@@ -60,7 +60,7 @@ Start specifying the line item segments by filling out the single elements of th
 
 #### Prerequisites
 
-- You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
+- You have expanded the message structure, see [Get line item segments](#get-line-item-segments).
 
 #### Procedure
 
