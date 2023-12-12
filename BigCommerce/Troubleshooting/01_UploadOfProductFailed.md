@@ -4,7 +4,7 @@ Initial situation: An offer export failed. The offer export has been moved to th
 
 #### Error Description
 
-Error message: Upload of the product partially failed. Product is uploaded to the shop, some entries might be missing. HTTP Status: 207, Title: The product was saved with some issues, Errors: The URL is a duplicate.
+Error message: Upload of the product partially failed. Product is uploaded to the store, some entries might be missing. HTTP Status: 207, Title: The product was saved with some issues, Errors: The URL is a duplicate.
 
 Cause: It is possible to enter a product URL to an *Omni-Channel* offer. If the product URL is not unique, the driver will stop the import of this offer to a *BigCommerce* product.  
 

@@ -3,7 +3,7 @@
 
 ## Manage API settings
 
-As the driver creates automatically the necessary API settings during creating the connection, you have no need for further actions. See the *Store-level API account* in your *BigCommerce* store under *Settings > API*. 
+As the driver creates automatically the necessary API settings during creating the connection, you have no need for further actions. See the *Store-level API accounts* in your *BigCommerce* store under *Settings > API*. 
 
 ![Store-level API accounts](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/StoreLevelApiAccount.png "[BigCommerce settings]")
 
@@ -24,12 +24,14 @@ To avoid failures during the import, you must check a specific setting in *BigCo
 
 ![BigCommerce settings](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceSettings.png "[BigCommerce settings]")
 
-1. Display the *Advanced* section and click the *Checkout* entry.
+1. Display the *Advanced* section and click the *Checkout* entry.   
+    The *Advanced* section is displayed.
 
    ![BigCommerce advanced settings](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/BigCommerceSettings2.png "[BigCommerce advanced settings]")
 
-2. Display the *Optimized one-page checkout settings > Shipping* section.
+2. Display the *Optimized one-page checkout settings* section.
+    The *Optimized one-page checkout settings* section is displayed.
 
    ![Check multiple shipment addresses](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/CheckMultipleAddress.png "[Check multiple shipment addresses]")
 
-3. Ensure that the *Allow customers to select multiple shipping addresses for an order* setting is not selected.
+3. Ensure that the *Allow customers to select multiple shipping addresses for an order* setting in the *Shipping* section is not selected.

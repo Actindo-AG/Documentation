@@ -8,7 +8,7 @@ In this part of the *BigCommerce* documentation, you will find the following cha
    - [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection)
    - [Manage ETL mappings](../Integration/01_ManageBigCommerceConnection.md#manage-etl-mappings)
 
-- [Particularities](./02_Particularities.md)  
+- [BigCommerce particularities](./02_Particularities.md)  
    - [Offer handling](./02_Particularities.md#offer-handling)  
    - [Export of offers](./02_Particularities.md#export-of-offers)
       - [Variant options](./02_Particularities.md#variant-options)
@@ -21,7 +21,7 @@ In this part of the *BigCommerce* documentation, you will find the following cha
       - [Shared variant options](./02_Particularities.md#shared-variant-options)
    - [Import of orders](./02_Particularities.md#import-of-orders)
       - [Multiple shipping addresses](./02_Particularities.md#multiple-shipping-addresses)
-      - [Disounts](./02_Particularities.md#discounts)
+      - [Discounts](./02_Particularities.md#discounts)
       - [Order status updates](./02_Particularities.md#order-status-updates)
       - [Shipments](./02_Particularities.md#shipments) 
 
