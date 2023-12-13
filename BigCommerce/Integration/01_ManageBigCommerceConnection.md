@@ -1,3 +1,5 @@
+[!! Connections (BigCommerce)](../UserInterface/01a_Connections.md)
+
 # Manage BigCommerce connection
 
 *Actindo* features a special installation app in the *BigCommerce App Store*. The *Actindo Core1 DOP connector* app sets up and authorizes a connection automatically. 
@@ -124,7 +126,7 @@ If you create the connection manually, you have no functional limitations compar
 Configure the *BigCommerce* connection after you have created it.   
 
 In the *Omni-Channel* connection settings, you can configure the *Variant option type*, which defines how the offer variants are presented in the store.   
-By the *Variant option type* setting, you can define how your customers can select a product variant in *BigCommerce*. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how to determine the preferred type for a variant option. You can define variant option types such as dropdown, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
+By the *Variant option type* setting, you can define how your customers can select a product variant in *BigCommerce*. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how to determine the preferred type for a variant option. You can define variant option types such as drop-down, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
 For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 
 With the *Order filter* setting, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
@@ -154,11 +156,11 @@ The *Offers* setting is only relevant for the first initial import of products f
 
     ![Variant option type](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionType.png "[Variant option type]")
 
-4. Click the *Variant option type* dropdown list and select the variant option type you want to use.
+4. Click the *Variant option type* drop-down list and select the variant option type you want to use.
    The following option types are available:
    | Dropdown | Meaning   
    |-----|-------   
-   |Dropdown| An offer variant is selected in a dropdown list
+   |Dropdown| An offer variant is selected in a drop-down list
    |Rectangles | An offer variant is selected in a small rectangle that contains the offer variant value. For example:![Rectangle](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionRectangle2.png "[Rectangle]")
     |Radio buttons | An offer variant is selected with a radio button.   
 

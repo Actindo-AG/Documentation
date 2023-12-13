@@ -56,7 +56,7 @@ In the *Actindo* standard, the offer bundles define offers that complete an offe
 You can select related products in the corresponding attribute. You can select only those products as related if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are displayed in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
 
 **To do**: 
-1. Create offers that are applied the *BigCommerce* connection. These offers have automatically been assigned the attribute groups relevant for the *BigCommerce* connection. For detailed information on creating offers, see [Manage the offers](../../Channels/Operation/01_ManageOffers.md) in the *Omni-Channel* documentation.
+1. Create offers which that are applied to the *BigCommerce* connection. These offers have automatically been assigned to the attribute groups relevant for the *BigCommerce* connection. For detailed information on creating offers, see [Manage the offers](../../Channels/Operation/01_ManageOffers.md) in the *Omni-Channel* documentation.
 2. For each offer, check the *Related product* attribute that it only contains related products that you want to actively offer in the *BigCommerce* storefront. 
 <!--- ich kann ja gar keine Produkte als related kennzeichnen, wenn sie nicht der BigCommerce connection zugeordnet sind??-->
 
@@ -66,7 +66,7 @@ You can select related products in the corresponding attribute. You can select o
 **Variant options**
 
 For detailed information on *BigCommerce* product variants, refer to the following *BigCommerce* documentation: [https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant](https://developer.bigcommerce.com/docs/rest-catalog/product-variants#create-a-product-variant).  
-Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. In the connection settings, you can choose default presentation types such as dropdowns, radio buttons, or rectangles. For detailed information on these types, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
+Since *BigCommerce* allows multiple types for variant options, the driver needs a way to determine the intended type for a variant option. In the connection settings, you can choose default presentation types such as drop-downs, radio buttons, or rectangles. For detailed information on these types, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).
 
 For certain cases, the color-swatch type is available, which requires specific configuration, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 

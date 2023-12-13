@@ -72,9 +72,9 @@ You are permitted to create attributes.
 3. Select the *Tree node* data type in the *Data type* drop-down list.  
    The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked. The *CONFIGURATION* section is displayed.    
 
-4. Ensure, that the *Multi-language* and *Multi-channel* toggles are disabled.
+4. Ensure that the *Multi-language* and *Multi-channel* toggles are disabled.
 
-    > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+    > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set) in the documentation of the *PIM* module.
 
 5. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field.      
     A drop-down list with all active attribute sets is displayed.

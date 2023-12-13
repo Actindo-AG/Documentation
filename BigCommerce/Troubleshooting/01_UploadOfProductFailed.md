@@ -1,3 +1,6 @@
+[!! Check the failed offer upload](../../Channels/Operation/03_CheckOfferUpload.md#check-the-failed-offer-uploads)
+
+
 # Export of offer failed
 
 Initial situation: An offer export failed. The offer export has been moved to the list of export errors.  
@@ -17,7 +20,7 @@ You are both permitted to start offer exports in the *Omni-Channel* module and t
 
 #### Procedure
 
-*Omni-Channel > Offers* 
+*Omni-Channel > Offers > Tab OFFERS* 
 
 ![Offers](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleOffers.png "[Offers]")
 
@@ -31,12 +34,12 @@ You are both permitted to start offer exports in the *Omni-Channel* module and t
 
    ![Edit offer](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleSearchEngineOp.png "[Edit offer]")
 
-3. Check the entry in the *Custom URL* field. Change it if it is not correct. IF the URL is correct, check similar offers to see if the duplicate is recorded there.
+3. Check the entry in the *Custom URL* field. Change it if it is not correct. If the URL is correct, check similar offers to see if the duplicate is recorded there.
 
 4. Click the [SAVE] button.  
     The *Edit offer* view is automatically closed when the changes have been saved. The *Offers* view is displayed again.
 
-5. Click the checkbox at the offer you have changed.   
+5. Click the checkbox of the offer you have changed.   
    The editing toolbar is displayed.
 
 6. Click the [RETRY UPLOAD] button.   
@@ -46,6 +49,8 @@ You are both permitted to start offer exports in the *Omni-Channel* module and t
      ![Edit offer](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleSearchEngineFinished.png "[Edit offer]")
 
 
+#### Was this chapter helpful?
+If you need further assistance, please contact your MPS consultant.
    
    
 
