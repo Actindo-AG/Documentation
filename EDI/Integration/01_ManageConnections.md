@@ -1,7 +1,7 @@
 # Manage connections
 
 Establish connections via drivers to connect your EDIFACT message receivers with the *Actindo Core1 Platform*. The drivers represent a specific method to transfer the data.   
-In the following, the general settings to create, edit, enable and disable connections are described. For certain connection drivers, you may have to set up specific configurations. 
+In the following, the general settings to create, edit, enable, and disable connections for EDIFACT messages are described.
 
 ## Create connection
 
@@ -74,8 +74,7 @@ At least one connection has been created, see [Create a connection](#create-a-co
 2. Edit the desired data of the connection in the corresponding fields.
 
 4. Click the [SAVE] button.   
-    The *Checking credentials...* notice is displayed.   
-    The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
+    The *Checking credentials...* notice is displayed. The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
 
 
 
