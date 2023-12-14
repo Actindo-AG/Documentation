@@ -45,7 +45,7 @@ You are both permitted to start offer exports in the *Omni-Channel* module and t
 
 7. Click the [RETRY UPLOAD] button.   
     *Omni-Channel* starts the export for the offer. 
-      The *Export triggered* pop-up window is displayed. The error message is no longer displayed, if you have successfully corrected the issue.  
+      The *Export triggered* pop-up window is displayed. The error message is no longer displayed if you have successfully corrected the issue.  
 
      ![Edit offer](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleSearchEngineFinished.png "[Edit offer]")
 

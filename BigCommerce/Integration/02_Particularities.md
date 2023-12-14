@@ -162,7 +162,7 @@ For detailed information, see [Manage multiple shipping addresses](./03_ManageBi
 ### Discounts
 
 *BigCommerce* supports only one single discount coupon per order.  These coupons cannot be managed in the *Omni-Channel* module and subsequent processes in *Actindo*. For this reason, used discount coupons (name and code) are displayed in *Omni-Channel* as custom attributes on each line item.  
-*BigCommerce* processes discounts before taxes. To manage the discounts later in the *Accounting* module, the driver splits discounts on each line item, adds them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent”, discounts will be output as absolute values on each line item. 
+*BigCommerce* processes discounts before taxes. To manage the discounts later in the *Accounting* module, the driver splits discounts on each line item, adds them, and calculates a net discount value using the line items tax rate. Because of that even “discount in percent” discounts will be output as absolute values on each line item. 
 
 
 

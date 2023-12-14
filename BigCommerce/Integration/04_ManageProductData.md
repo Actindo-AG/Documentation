@@ -1,7 +1,7 @@
 # Manage product and offer data
 
 Before you start exchanging data with *BigCommerce*, you must check your product and offer data.
-You must check the ETL mappings as wess as the images assigned to an offer in the *PIM* or the *Omni-Channel* module. In addition, you can define the color-swatch variant option.
+You must check the ETL mappings as well as the images assigned to an offer in the *PIM* or the *Omni-Channel* module. In addition, you can define the color-swatch variant option.
 
 
 ## Manage ETL mappings 
