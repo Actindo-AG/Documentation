@@ -7,9 +7,9 @@ Ref. aus Taxes/Operation/ManageDecisionMatrix -> evtl. hier auch unter Operation
 [!!](../Integration/.md)
 
 
-# Manage the decision matrix
+# Manage the stock allocation matrix
 
-The decision matrix is designed to determine which tax zone, and therefore which tax rate, is applicable to an order. The decision matrix consists of a list of decision-making criteria based on the information provided by the *Order management* module.
+The stock allocation matrix is designed to determine which tax zone, and therefore which tax rate, is applicable to an order. The decision matrix consists of a list of decision-making criteria based on the information provided by the *Order management* module.
 
 Taking into account the order confirmation and the delivery note, the *Order management* module provides the *Taxes* module with the following details:
 - country of origin (determined by the country of the source warehouse with fallback to the tenant country)

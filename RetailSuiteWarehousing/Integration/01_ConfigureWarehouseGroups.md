@@ -1,7 +1,6 @@
 [!!Configure warehouses](./02_ConfigureWarehouses.md)
 [!!User interface to be completed](../UserInterface/XX_tobecompleted.md)
 
-
 # Configure the warehouse groups
 
 A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically separated from each other and, therefore, one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
@@ -100,7 +99,7 @@ The *Warehouse groups* plugin must be installed.
     - **Fulfillment module**  
         Select this option if the external warehouse is accessed via a connection in the *Fulfillment* module. 
 
-[comment]: <> (Julian: bedeutet obsolete, dass diese Option nicht mehr zutrifft, also kann man ignorieren? Gibt es andere mögliche Optionen, außer Fulfillment?)
+[comment]: <> (Julian: bedeutet obsolete, dass diese Option nicht mehr zutrifft, also kann man ignorieren? Gibt es andere mögliche Optionen, außer Fulfillment? --> C&CS Training: Bezieht sich diese Funktion nur auf das alte Amazon-Verbindung Import-Funktion, also dass der Kunde den Bestand bei Amazon-fulfilled Bestellungen sehen und ggf. aufstocken kann?)
 
 3. Click the *Connection* drop-down list and select the applicable connection. All connections established in the *Fulfillment* module are displayed in the list.
 
