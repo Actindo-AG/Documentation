@@ -9,7 +9,9 @@ Initial situation: An offer export failed. The offer export has been moved to th
 
 Error message: Upload of the product partially failed. Product is uploaded to the store, some entries might be missing. HTTP Status: 207, Title: The product was saved with some issues, Errors: The URL is a duplicate.
 
-Cause: It is possible to enter a product URL to an *Omni-Channel* offer. If the product URL is not unique, the driver will stop the import of this offer to a *BigCommerce* product.  
+Cause: It is possible to enter a product URL to an *Omni-Channel* offer. If the product URL is not unique or valid, the driver will stop the import of this offer to a *BigCommerce* product. A valid URL must not contain any special characters such as (, - ; - % - & - § - $ - etc.) and must also start with an /:
+Valid -> /custom/url
+Invalid -> custom/u&rl  
 
 
 Follow the instructions below to check your offer URLs for duplicates.
@@ -34,15 +36,17 @@ You are both permitted to start offer exports in the *Omni-Channel* module and t
 
    ![Edit offer](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/TroubleSearchEngineOp.png "[Edit offer]")
 
-3. Check the entry in the *Custom URL* field. Change it if it is not correct. If the URL is correct, check similar offers to see if the duplicate is recorded there.
+3. Check the entry in the *Custom URL* field. Change it if it is not unique or invalid. A valid URL both must not contain any special characters such as (, - ; - % - & - § - $ - etc.) and must start with a slash/. For example, /custom/url.   
+    
+4. If the URL is correct, check similar offers to see if the duplicate is recorded there.
 
-4. Click the [SAVE] button.  
+5. Click the [SAVE] button.  
     The *Edit offer* view is automatically closed when the changes have been saved. The *Offers* view is displayed again.
 
-5. Click the checkbox of the offer you have changed.   
+6. Click the checkbox of the offer you have changed.   
    The editing toolbar is displayed.
 
-6. Click the [RETRY UPLOAD] button.   
+7. Click the [RETRY UPLOAD] button.   
     *Omni-Channel* starts the export for the offer. 
       The *Export triggered* pop-up window is displayed. The error message is no longer displayed, if you have successfully corrected the issue.  
 

@@ -24,9 +24,8 @@ In this part of the *BigCommerce* documentation, you will find the following cha
       - [Order status updates](./02_Particularities.md#order-status-updates)
    - [Shipments](./02_Particularities.md#shipments) 
 
-- [Manage BigCommerce settings](./03_ManageBigCommerceSettings.md)
-   - [Manage API settings](./03_ManageBigCommerceSettings.md#manage-api-settings)
-   - [Manage multiple shipping addresses](./03_ManageBigCommerceSettings.md#manage-multiple-shipping-addresses)
+- [Manage BigCommerce settings](./03_ManageBigCommerceSettings.md)   
+    - [Manage multiple shipping addresses](./03_ManageBigCommerceSettings.md#manage-multiple-shipping-addresses)
 
 - [Manage product and offer data](./04_ManageProductData.md)
    - [Check product images](./04_ManageProductData.md#check-product-images)

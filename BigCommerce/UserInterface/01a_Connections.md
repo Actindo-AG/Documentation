@@ -3,7 +3,7 @@
 
 # CONNECTIONS (BigCommerce)
 
-The CONNECTIONS tab offers an overview of all connections created for *Omni-Channel*. It also allows configuring these connections. 
+The CONNECTIONS tab provides an overview of all connections created for *Omni-Channel*. It also allows you to configure these connections. 
 
 *Omni-Channel > Settings > Tab CONNECTIONS*
 

@@ -57,8 +57,10 @@ You can select related products in the corresponding attribute. You can select o
 
 **To do**: 
 1. Create offers which that are applied to the *BigCommerce* connection. These offers have automatically been assigned to the attribute groups relevant for the *BigCommerce* connection. For detailed information on creating offers, see [Manage the offers](../../Channels/Operation/01_ManageOffers.md) in the *Omni-Channel* documentation.
-2. For each offer, check the *Related product* attribute that it only contains related products that you want to actively offer in the *BigCommerce* storefront. 
-<!--- ich kann ja gar keine Produkte als related kennzeichnen, wenn sie nicht der BigCommerce connection zugeordnet sind??-->
+2. For each offer, check the *Related product* attribute. Make sure that it contains only related products that you both want to actively offer in the *BigCommerce* storefront and that you have previously imported to the *Omni-Channel* module. 
+
+    > [Info] Importing a product with related products that have not yet been imported to the *Omni-Channel* module will not result in an error, but the related products will not be assigned.
+
 
 
 ### Variants
@@ -94,7 +96,7 @@ The *Omni-Channel* module allows to select any attribute as changeable, but *Big
 
 **Multidimensional variants**
 
-Multidimensional variants are variant sets containing more than one variant option as defining attribute, for example size and color for clothes. The *BigCommerce* API allows creating variants by using variant options (defining attributes) and values (changeable attributes). However, when creating an offer, the API allows the creation of more variants than those possible with *Actindo's* pre-defined options and values. As a result, your customers would be able to select and order offers in the *BigCommerce* storefront that do not exist.   
+Multidimensional variants are variant sets containing more than one variant option as defining attribute, for example size and color for clothes. The *BigCommerce* API allows creating variants by using variant options (defining attributes) and values (concrete characteristics of options). However, when creating an offer, the *BigCommerce* storefront will display more variants than those possible with *Actindo's* pre-defined options and values. As a result, your customers would be able to select and order offers in the *BigCommerce* storefront that do not exist.   
    
 For example, an offer is created by using the defining attributes *Size* and *Color*. By using these attributes, two variants are created &ndash; T-shirt-s-red (S, red) and t-shirt-m-green (M, green). The driver creates the following options and values:
 - Size (S, M),

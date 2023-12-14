@@ -1,12 +1,6 @@
 # Manage BigCommerce settings
 
-
-## Manage API settings
-
-As the driver creates automatically the necessary API settings during creating the connection, you have no need for further actions. See the *Store-level API accounts* in your *BigCommerce* store under *Settings > API*. 
-
-![Store-level API accounts](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/StoreLevelApiAccount.png "[BigCommerce settings]")
-
+Make sure that you do not allow using multiple shipping addresses.
 
 ## Manage multiple shipping addresses
 
