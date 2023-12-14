@@ -125,8 +125,7 @@ Create connections manually for additional connections per store, if desired. Al
 
 Configure the *BigCommerce* connection after you have created it.   
 
-In the *Omni-Channel* connection settings, you can configure the *Variant option type*, which defines how the offer variants are presented in the store.   
-By the *Variant option type* setting, you can define how your customers can select a product variant in *BigCommerce*. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how to determine the preferred type for a variant option. You can define variant option types such as drop-down, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
+In the *Omni-Channel* connection settings, you can configure the *Variant option type*, which defines how the offer variants are presented in the store. By the *Variant option type* setting, you can define how your customers can select a product variant in *BigCommerce*. Since *BigCommerce* allows multiple types for variant options, the driver needs a specification how to determine the preferred type for a variant option. You can define variant option types such as drop-down, radio button, or rectangle as default for your offers in the *Variant option type* setting.   
 For specific offer types, you can use the color-swatch type that is determined in a specific way. For detailed information, see [Configure color-swatch variant option](./04_ManageProductData.md#configure-color‐swatch-variant-option).
 
 With the *Order filter* setting, you can filter the orders that are to be imported from *BigCommerce* to *Omni-Channel*.  
@@ -187,19 +186,3 @@ The *Offers* setting is only relevant for the first initial import of products f
 12. Click the [Save] button.   
   The connection settings are applied.
 
-
-
-## Manage ETL mappings 
-
-Create ETL mappings to map the *BigCommerce* attributes for subsequent processes in your *Actindo Core1 platform*. During connecting *BigCommerce* with *Actindo*, the *BigCommerce* attribute sets have been automatically created in the *DataHub* module.   
-Especially if you want to exchange your product data available in the *PIM* module to *BigCommerce*, you must additionally create the ETL mappings and processes for the data transfer between the *PIM* product data and the *Omni-Channel* offer data.
-
-#### Prerequisites
-
-You have permission to create ETL mappings.
-
-#### Procedure
-
-1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
-
-2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on the creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md).

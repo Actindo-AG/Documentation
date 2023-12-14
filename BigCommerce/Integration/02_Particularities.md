@@ -10,7 +10,7 @@ Note that both the *PIM* module and *BigCommerce* use the term "product". Howeve
 
 You have the following options for exchanging offer data between *Actindo* and *BigCommerce*:
 - If you have the *PIM* module in use, via the *Omni-Channel* module, you can export the product data needed for your *BigCommerce* store. This includes all merchant-specific additional fields from the *PIM* module. 
-- If you have the *PIM* module not in use, you can export *Omni-Channel* offers directly. 
+- If you do not have the *PIM* module in use, you can export *Omni-Channel* offers directly. 
 - The following is relevant if you started using *BigCommerce* before your started using the *Omni-Channel* module. You can initially import your *BigCommerce* product data to *Omni-Channel*.   
   Note, if you choose this way, you will not be able to import product changes again from *BigCommerce* to *Actindo*. In this case, you must change the offers on the *Actindo* side and export them to *BigCommerce*.  
   For this reason, it is recommended to manage offer data at *Actindo*.
@@ -56,7 +56,7 @@ In the *Actindo* standard, the offer bundles define offers that complete an offe
 You can select related products in the corresponding attribute. You can select only those products as related if they exist as *Omni-Channel* offers for the *BigCommerce* connection. These offers are displayed in *BigCommerce* as related if they are uploaded from *Actindo* and if they are available in the shop.
 
 **To do**: 
-1. Create offers which that are applied to the *BigCommerce* connection. These offers have automatically been assigned to the attribute groups relevant for the *BigCommerce* connection. For detailed information on creating offers, see [Manage the offers](../../Channels/Operation/01_ManageOffers.md) in the *Omni-Channel* documentation.
+1. Create offers which are applied to the *BigCommerce* connection. These offers have automatically been assigned to the attribute groups relevant for the *BigCommerce* connection. For detailed information on creating offers, see [Manage the offers](../../Channels/Operation/01_ManageOffers.md) in the *Omni-Channel* documentation.
 2. For each offer, check the *Related product* attribute. Make sure that it contains only related products that you both want to actively offer in the *BigCommerce* storefront and that you have previously imported to the *Omni-Channel* module. 
 
     > [Info] Importing a product with related products that have not yet been imported to the *Omni-Channel* module will not result in an error, but the related products will not be assigned.
@@ -136,8 +136,7 @@ Instead, you can use the variants you can add to a product or an offer in the *P
 The following particularities are relevant when you import your orders from *BigCommerce* to the *Omni-Channel* module.
 
 The import of offers is supported by the *BigCommerce* driver.
-- You can filter the orders that are to be imported. For detailed information, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).  
-- The *BigCommerce* connection enables parallel imports to handle larger loads.
+You can filter the orders that are to be imported. For detailed information, see [Configure BigCommerce connection](./01_ManageBigCommerceConnection.md#configure-bigcommerce-connection).  
 
 The driver manages the following data:
 - Contained products

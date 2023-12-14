@@ -17,7 +17,7 @@ The Actindo *BigCommerce Integration* plugin offers the following benefits:
 ## Prerequisites
 
 - The *Actindo DataHub* module version 4.3.0 or higher is installed.
-- The *ECM Integration in DataHub* module version 4.3.0 
+- The *ECM Integration in DataHub* module version 4.3.0 or higher is installed.
 - The *Omni-Channel* module version 4.5.0 or higher is installed.
 - The *Global Driver Management* module version 4.2.0 or higher is installed.
-- The *BigCommerce Integration* plugin version 1.1.0 or higher is installed.
+- The *BigCommerce* plugin version 1.1.0 or higher is installed.

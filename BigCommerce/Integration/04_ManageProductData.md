@@ -1,7 +1,24 @@
 # Manage product and offer data
 
 Before you start exchanging data with *BigCommerce*, you must check your product and offer data.
-You must check the images assigned to an offer in the *PIM* or the *Omni-Channel* module. In addition, you can define the color-swatch variant option.
+You must check the ETL mappings as wess as the images assigned to an offer in the *PIM* or the *Omni-Channel* module. In addition, you can define the color-swatch variant option.
+
+
+## Manage ETL mappings 
+
+Create ETL mappings to map the *BigCommerce* attributes for subsequent processes in your *Actindo Core1 platform*. During connecting *BigCommerce* with *Actindo*, the *BigCommerce* attribute sets have been automatically created in the *DataHub* module.   
+Especially if you want to exchange your product data available in the *PIM* module with *BigCommerce*, you must additionally create the ETL mappings and processes for the data transfer between the *PIM* product data and the *Omni-Channel* offer data.
+
+#### Prerequisites
+
+You have permission to create ETL mappings.
+
+#### Procedure
+
+1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+
+2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md).
+
 
 
 ## Check product images
@@ -37,7 +54,7 @@ You have assigned more than one image per product variant.
 
 4. Verify that the *Alt text* field is filled for the image on first position. If you must change the existing entry, you have the following options: 
     - You can change the entry. This may have an impact on other connections you have in use.
-    - If you want to keep the product data in this scope unchanged, copy your products to a specific *BigCommerce* sales channel. <!---Stimmt das, sollte man das so tun?-->
+    - If you want to keep the product data in this scope unchanged, copy your products to a specific *BigCommerce* sales channel. 
 
 5. If applicable, click the [SAVE] button to save your changes.
 
