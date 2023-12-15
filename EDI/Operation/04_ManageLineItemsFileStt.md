@@ -1,7 +1,6 @@
 # Manage line item file settings
 
-The following procedures show by using an example how to specify the line item fields required by your business partner. As example the D07A INVOIC message is used.
->[INFO] The following procedures show by using examples how to specify specific line item of the EDIFACT message. Follow the guidelines of your business partner when specifying the EDIFACT message!   
+The following procedures show by using an example how to specify the line item section required by your business partner. As example the D07A INVOIC message is used.
 
 For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
 
@@ -9,14 +8,14 @@ For detailed information on examples how to define constant text values, string 
 
 ## Get line item segments
 
-Get the line item segments of an EDIFACT message in order to be able to fill them. Example: The document position number is a variable value that must differ for line item. 
-You can add constant values as well as strings that are to be determined via attribute mapping later. 
+Get the line item segments of an EDIFACT message in order to be able to fill them. You can add constant values as well as strings that are to be determined via attribute mapping later. 
 
 
 #### Prerequisites
 
 - You have the message specification of your business partner at hand.
 - You have created the basic definition settings for the line items for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+- You have prepared the line item export in the header file definition, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 #### Procedure
 
@@ -24,7 +23,7 @@ You can add constant values as well as strings that are to be determined via att
 
 ![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
-1. Click the definition for which you want to specify the line item settings.
+1. Click the definition for which you want to specify the line item settings.   
     The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEditLineItems.png "[Edit definition]")
@@ -32,27 +31,38 @@ You can add constant values as well as strings that are to be determined via att
 2. Click the *File settings* tab.   
     The *File settings* tab is displayed.
 
-     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
+     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyfileSettings.png "[File settings tab]")
 
-3. Enter the *Reference node path*. Use the following syntax:    
+3. Click the *Release* dropdown list and select the required EDIFACT release. In our example, it is **D07a**.
+
+4. Click the *Message type* dropdown list and select the required EDIFACT message type. In our example, it is **INVOIC**. You can use the search function on top of the dropdown list.
+
+5. Enter the *Reference node path*. Use the following syntax:    
     /M_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]/ G\_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]\_SG[Group number].     
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26*   
-    Alternatively, you can copy the two parts from the header file message structure.   
+    Alternatively, you can copy the two parts from the header file message structure.  
+
     >[INOF] Note that depending on the EDIFACT version, the line items (LIN segment) are included in different groups, such as the SG26 or SG27 group.
+
+    ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
+
  
-4. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
-    Both the *Reference node path* and the message structure of the SG26 &frasl; SG27 group is displayed. The segment is highlighted in red because it is still empty.    
-    It starts with the SG26 or SG27 element. Note that in the header definition file settings, after saving, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
+6. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
+    The message structure of the SG26/SG27 group is displayed. The segment is highlighted in red because it is still empty.    
+    It starts with the SG26/SG27 element. Note that in the header definition file settings, after saving, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
-6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
+7. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
     The message structure with its single segments is displayed, it starts with the S_LIN segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
-7. Click the [SAVE] button.
-    You have saved the line item segments. The *Exporter definitions* view is displayed. 
+8. Click the [SAVE] button.   
+     - The *Exporter definitions* view is displayed.   
+     - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
+
+
 
 ## Specify line item identifier
 

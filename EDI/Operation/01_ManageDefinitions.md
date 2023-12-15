@@ -8,15 +8,16 @@ In Actindo, the definition of the EDIFACT export messages specifies the followin
 
 Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
 - Definition of the message header   
-    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates. For detailed information, see [Create basic definition setting for the header](#create-basic-definition-setting-for-the-header).
+    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates. 
+    
 - Definition for the line items  
-    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. For detailed information, see [Manage line item definition](./03_ManageLineItemDefinition.md),
+    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. 
 
-Note that this chapter is valid both for the definition of the header definition and the definition for the line items. Do not start with the definition for the line items before you have prepared the line item export. For detailed information, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
+Note that this chapter is valid both for the definition of the header and the line items. Do not start with the definition for the line items before you have prepared the line item export. For detailed information, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 
 
-## Create basic definition setting 
+## Create basic definition settings
 Define basic data for the export definition. You must define a definition setting for both the header and the line items of a message.
 
 
@@ -36,7 +37,7 @@ Define basic data for the export definition. You must define a definition settin
 
     ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
-2. Enter a label for the definition. It might be useful, to choose a name that contains the following:      
+2. Enter a label for the definition. It might be useful to choose a name that contains the following:      
     - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. Therefore, the prefix EDIFACT may be useful to distinguish these attribute set mappings from others.  
     - The information if it is the header or the line items of the message.   
     - The message type (for example, INVOIC)   
@@ -53,18 +54,20 @@ Define basic data for the export definition. You must define a definition settin
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
 5. Enter the access key of your connection in the *Access key* field.
-<!--- Julian, muss man das hier tun?Was ist das für ein Key?-->
+     <!--- Julian, muss man das hier tun?Was ist das für ein Key?-->
 
-5. Change to the *File settings* tab.  
+     > [Info] If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
+
+6. Click the *File settings* tab.  
     The *File Settings* tab is displayed.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyFileSettings.png "[File settings tab]")
 
-6. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
+7. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
 
-7. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
+8. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
-8. Click the [SAVE] button.   
+9. Click the [SAVE] button.   
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
     - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
@@ -102,7 +105,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.   
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source before you start with the file settings task, you can check in between whether variable strings to be automatically determined has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./04_ManageDataSources.md#create-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source directly after you have created the basic definition, you can check during editing the file settings if variable strings has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./04_ManageDataSources.md#create-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Define mapping settings](./05_MappingSettings.md#define-mapping-settings).
 
@@ -110,7 +113,9 @@ To make your EDIFACT file settings specifications easier, it is recommended to d
 
 ## Preview definition
 
-After you have configured the entire definition including the file settings, you can preview the message that will be sent to the business partner. You can use this function both to verify your settings in between and to send it to your business partner and let him/her check whether the message is correct.
+After you have configured the entire definition including the file settings, you can preview the syntax of the message that will be automatically sent to the business partner later. You can use it to do the following:   
+- To check your settings from time to time during configuration. 
+- To send the output of the message syntax to your business partner and let him/her verify that it is correct.
 
 #### Prerequisites
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
@@ -143,7 +148,7 @@ After you have configured the entire definition including the file settings, you
 
     ![Preview all](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreviewAll.png "[Preview all]")-->
 
-3. Click the *Entity type* drop-down list and select the **Retail suite business document** resp. the **Retail suite business document position** entry. Alternatively, you can use any other data source or entity types that is suitable for sending the EDIFACT messages.
+3. Click the *Entity type* drop-down list and select the data sources you currently use for this definition, for example the **Retail suite business document** respectively the **Retail suite business document position** data source. 
 
 4. Enter **31** in the *Primary identifier* field.
 

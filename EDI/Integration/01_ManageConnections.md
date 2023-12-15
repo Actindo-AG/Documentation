@@ -1,6 +1,6 @@
 # Manage connections
 
-Establish connections via drivers to connect your EDIFACT message receivers with the *Actindo Core1 Platform*. The drivers represent a specific method to transfer the data.   
+Establish connections via drivers to connect your EDIFACT message receivers with the *Actindo Core1 Platform*. The drivers represent a specific internet protocol to transfer the data.   
 In the following, the general settings to create, edit, enable, and disable connections for EDIFACT messages are described.
 
 ## Create connection

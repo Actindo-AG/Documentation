@@ -1,18 +1,17 @@
 # Key features
 
-- UN/EDIFACT is a cross-industry international standard for the format of electronic data in business transactions. EDIFACT is one of several international EDI standards. A UN organization called CEFACT, which is affiliated to the UNECE, is responsible for the EDIFACT standard
-[^1]
+
+
 
 - The *DataHub Exporter* module is used to transfer the EDIFACT messages.    
-    The module allows you to generally export *DataHub* entity data to various destinations. Data is extracted from the entities using an ETL mapping that you can configure specifically for each source attribute set.   
-- Export of all data and transformation into the EDIFACT and the XML/EDIFACT standard. 
+    The module allows you to generally export *DataHub* entity data to various destinations. 
+- The EDIFACT message structures in the *DataHub Exporter* module exactly follow the internationally predefined UN/EDIFACT standard.
+- All EDIFACT messages structures in all versions are available for easy configuration.  
+- Automatic transformation of messages into the EDIFACT and the XML/EDIFACT standard.   
+   The needed ETL data mapping between your *Actindo* data and the fields of an EDIFACT message is an integral part of the message definition.
 - Visual configuration of EDIFACT and XML/EDIFACT messages and their contents.   
-- Export in manual process, time-controlled, or at any point in the business process.
+   You can fill in the necessary data for an EDIFACT message using a structured view that corresponds exactly to the structure of the EDIFACT messages. You can see at any time if a mandatory segment has not yet been completed. A preview of the message output makes it easier for you to check your work at any time.
+- Export of the messages in manual process, time-controlled, or at any point in the business process.
 
 
 
-
-<br>
-<br>
-<br>
-[^1] **Source**: Wikipedia

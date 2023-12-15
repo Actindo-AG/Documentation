@@ -33,18 +33,22 @@ You can add constant values as well as strings that are to be determined via att
 
      ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
 
+3. Click the *Release* dropdown list and select the required EDIFACT release. In our example, it is **D07a**.
 
-3. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
+4. Click the *Message type* dropdown list and select the required EDIFACT message type. In our example, it is **INVOIC**. You can use the search function on top of the dropdown list.
+
+5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure is displayed. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
-4. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
+6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
     The message structure with its single segments is displayed. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-5. Click the [SAVE] button.
+7. Click the [SAVE] button.   
+    The *Exporter definitions* view is displayed.
 
 
 
@@ -83,16 +87,20 @@ Start specifying the header file segments by filling out the single elements of 
 5. Enter the required document name code in the *Text value* field.
 
 6. Click the [SAVE] button.   
-    The *Edit definition "Definition name"* view is displayed again. To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The field name and description are no longer displayed in italics.  
-    The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data. Additionally, to the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
+    - The *Edit definition "Definition name"* view is displayed. 
+    - To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The field name and description are no longer displayed in italics.  
+    - The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.  
+    - To the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
-    ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
+      ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
 
 
 
 ## Specify document number &frasl; string attribute
 
-Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a string attribute which must be automatically determined by a data source mapping later. This is why you need to specify a document number of the INVOIC message that must be unique. 
+Specify the header file segments by filling out the single elements of the BGM (Beginning of message) segment.   
+
+This procedure shows how to edit a string attribute. A string attribute is used to specify a value that is variable and unique, for example, a document number that must be dynamically determined by *Actindo*. You must specify the string attributes by a data source mapping later.
 
 #### Prerequisites
 
@@ -117,15 +125,15 @@ Specify the header file segments by filling out the single elements of the BGM (
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *D_1004* row (to identify a document). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
-     - To the right of the *D_1004* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
+     - To the right of the *D_1004* row, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
     - The *S_BGM C_C106* segment is now highlighted with a small black border. This indicates that the segment contains data.   
     - The string attribute has been marked for a later data mapping.
 
 6. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed. All defined string attributes are added now to the attribute mapping function in the *Data source* tab.
+    The *Exporter definitions* view is displayed. All defined string attributes are added to the attribute mapping function in the *Data source* tab.
 
-5. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
-    The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
+5. If desired, check if the string attribute has been really marked for a later data mapping.   
+    The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes). 
 
     ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106Mapping.png "[Map Attributes]")
 
@@ -171,9 +179,9 @@ Each invoice can have a lot of different dates, for example the invoice date, th
     This *S_DTM* segment has been finished. 
 
 8. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed.
+    The *Exporter definitions* view is displayed.
 
-9. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+9. If desired, check if the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export DTM/C507/2380 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
      ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefDTM_C507Mapping.png "[Map Attributes]")
@@ -214,19 +222,23 @@ Specify message free text, with which you can inform your business partner on in
 5. Enter a free text in the *C_4440* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
     The *Set text value* window is displayed.
 
-6. Enter the free text, for example "Please note our changed bank details" and click the [SAVE] button. You can enter up to five lines.
+6. Enter the free text, for example "Please note our changed bank details". You can enter up to five lines.
 
-7. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Set text value* window.  
+7. Click the [SAVE] button.
+   The message structure is displayed.
+
+8. Specify the language used in the *D_3453 (Code specifying the language name)* line. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Set text value* window.  
     
-8. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button to the right of the *S_FTX* segment row.   
+9. Collapse the *S_FTX* segment by clicking the ![Expanded ](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button to the right of the *S_FTX* segment row.   
     The segment is collapsed.
 
-9. If desired, add further *S_FTX* segments by clicking the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
+10. If desired, add further *S_FTX* segments by clicking the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button.   
     An additional *S_FTX* segment is added below the currently processed segment.
 
     ![Additional S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXAdditionalSegment.png "[Additional S_FTX segment]")
 
-10. Continue specifying the header file segments until you have specified all fields that your business partner require.
+11. Continue specifying the header file segments until you have specified all fields that your business partner require. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the SG26 or SG27 segment that contains the S_LIN specification for the line item export. For detailed information, see below the [Prepare line item export](#prepare-line-item-export).
+
 
 
 
@@ -246,18 +258,19 @@ After you have prepared the line item export, you can define the definition for 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
 
-1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions, the LIN segment is included in group 27, in older versions, it is in group 26.
+1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions of the INVOIC, the LIN segment is included in group 27, in older versions it is in group 26.
 
-2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27*.
+2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27*.
 
 3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row. 
-    The segment is now highlighted with a small black border. You cannot expand it.   
-    Another *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row has been added. You can ignore it.   
-    The EDI Export EDI Export SG26/SG27 *Destination attribute* has been added to the attributes to be mapped later.
+    - The segment is highlighted with a small black border. You cannot expand it.      
+    - Another *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* row has been added. You can ignore it.      
+    - The EDI Export SG26/SG27 *Destination attribute* has been marked for a later data mapping.
 
-4. Click the [SAVE] button.
+4. Click the [SAVE] button.    
+   The *Exporter definitions* view is displayed.
 
-5. If desired, check whether the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+5. If desired, check if the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
     The EDI Export SG[Group name] *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
      ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
@@ -275,16 +288,19 @@ After you have prepared the line item export, you can define the definition for 
 
      d. In the *Configuration* section, click the *Subexport definition* and select the definition you currently specify.  
 
-7. Click the [SAVE] button and finalize the *Map attributes* wizard.
+7. Click the [SAVE] button
+
+8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
   
-8. Click the [SAVE] button to save the header definition.
+8. Click the [SAVE] button to save the header definition.   
+   The *Exporter definitions* view is displayed.
 
 
 
 
 ## Edit header file settings
 
-To edit the header file settings, you must remove the data you have provided for a segment respectively a segment row before.
+To edit the header file settings, you must remove the data you have provided for a segment respectively a segment row before you can change the data.
 
 #### Prerequisites
 
@@ -304,23 +320,21 @@ To edit the header file settings, you must remove the data you have provided for
 
 2. Start specifying again the segment with new data.
 
-3. Click the [CONTINUE] button and finalize the *Map attributes* wizard.
-  
-4. Click the [SAVE] button to save the header definition.
+3. Click the [SAVE] button to save the header definition.   
+    The *Exporter definitions* view is displayed.
 
 
 
 **Remove data from a segment row**
 
-1. If you want to remove data from a segment row, expand the corresponding  segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the segment.   
+1. If you want to remove data from a segment row, expand the corresponding segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the segment.   
 
 2. Click the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button to the right of the row, from which you want to remove the data.   
     The ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is replaced both by the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button and the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button.
 
 3. Start specifying again the row with new data.
-
-4. Click the [CONTINUE] button and finalize the *Map attributes* wizard.
   
-5. Click the [SAVE] button to save the header definition.
+4. Click the [SAVE] button to save the header definition.    
+   The *Exporter definitions* view is displayed.
 
     

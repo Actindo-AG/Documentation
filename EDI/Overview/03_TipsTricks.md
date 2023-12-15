@@ -4,7 +4,13 @@
 
 ## Introduction
 
-The EDIFACT standard defines the scheme according to which the messages should be structured. It is available in different versions. Every year a new version is released (often referred to as an a or b version). Your business partners, the recipients of the EDIFACT messages, define their specifications according to a specific version. Since *Actindo* provides the structure for all versions, you can find the particular version that your business partner has specified in the *Actindo* standard.   
+UN/EDIFACT (in the following short EDIFACT) is a cross-industry international standard for the format of electronic data in business transactions. EDIFACT is one of several international EDI standards. A UN organization called CEFACT, which is affiliated to the UNECE, is responsible for the EDIFACT standard.
+[^1]    
+
+The EDIFACT standard defines a scheme according to which messages should be structured. It is used for data exchange and transfer between business partners, for example invoice or order data. The standard defines a list of messages such as ORDERS, INVRPT, INVOIC, DELFOR, etc. which are used for specific purposes. For example, an INVRPT represents an inventory report.   
+
+The EDIFACT standard is available in different versions. Every year a new version is released (often referred to as an a or b version). Your business partners, the recipients of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version that your business partner has specified in the *DataHub Exporter* module.   
+
 Note that the structure of the format is standardized, not the usage. As a result, each user/business partner defines individually the data to be provided for the message structure. This also applies to the classification of the segments and fields (mandatory, required, optional and others), which may sometimes differ from the EDIFACT standard.   
 >[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you must send the messages, such as your supplier, your customer, or your fulfillment partner.
 
@@ -51,9 +57,14 @@ Use the following checklist to organize your work. Managing of definitions follo
 |3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageDefinitions.md#prepare-definition-of-file-settings).|   |   
 |4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |   
 |5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |     
-|7. After you have added the file settings, you can preview the message header, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   | 
+|7. After you have added the header file settings, you can preview the message header, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   | 
 |7. Create a basic definition setting for the line items, see [Create basic definition setting](../Operation/01_ManageDefinitions.md#create-basic-definition-setting). |   |   
 |8. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |  
-|9. If desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
+|9. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
 |10. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
-|11. Extend your order management workflow, for example, or for another by adding actions for sending the EDIFACT messages.<!---Julian Stimmt das? Oder müssen die Kunden noch was machen?-->
+|11. Extend your order management workflow, for example, or another by adding actions for sending the EDIFACT messages.<!---Julian Stimmt das? Oder müssen die Kunden noch was machen?-->
+
+
+
+[^1] **Source**: Wikipedia
+
