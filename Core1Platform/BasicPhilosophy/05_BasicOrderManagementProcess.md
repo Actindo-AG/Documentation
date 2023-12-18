@@ -1,3 +1,8 @@
+[!!DataHub](../../DataHub/Overview/01_General.md)
+[!!Workflows](../../ActindoWorkFlow/Overview/01_General.md)
+[!!Payments](../../Payments/Overview/01_General.md)
+[!!Taxes](../../Taxes/Overview/01_General.md)
+
 # Basic order management process
 
 The order management process is the core business process in e-commerce. Even if it may slightly differ between companies, the order management process usually involves order and data collection, inventory management, payment processing, and fulfillment. Actindo has designed a basic order management process, which can be flexibly customized by your company to match your specific business needs.
