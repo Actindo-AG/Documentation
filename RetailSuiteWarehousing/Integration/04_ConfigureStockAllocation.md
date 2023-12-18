@@ -4,17 +4,11 @@
 
 # Stock allocation
 
-The stock allocation function serves the purpose to update stock levels automatically across all your sales channels. The stock allocation table allows you to define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and then there via driver to the corresponding sales channel. 
+The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
 
-The *Target channel* column displays all target "locations" where the calculated stock value is transferred in the *PIM* module. 
+The stock allocation table includes automatically all warehouses you have created. You can decide any time if you want to include the stock in a specific warehouse in the stock calculation. For detailed information to create a warehouse, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse). 
 
-[comment]: <> (Include following columns: target channel, where the calculated value is transferred to, and supplier stock, if you want to include it in the calculation. What is actually meant? Does it include the stock at the supplier? Or just the ordered supplier stock? That is, btw, already included in one of the calculation formulas)
-
-The stock allocation table integrates all the warehouse groups that have been created. For detailed information to create a warehouse group, see [Create a warehouse group](./01_ConfigureWarehouseGroups.md#create-a-warehouse-group). You can decide if you want to include the stock in those warehouse group in the stock calculation.
-
-You can set up a calculation of the stock that will be updated from the *Warehousing* module to PIM product. Attribute: stock/Lagerbestand: Number (calculated result of the settings in the stock allocation table)
-
-Depending on the preconfigured target channels and warehouse groups, the displayed columns and rows will vary. 
+Depending on the preconfigured target channels and warehouses, the displayed columns and rows will vary. 
 
 #### Prerequisites
 

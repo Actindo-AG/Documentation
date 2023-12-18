@@ -12,6 +12,8 @@ Create one or more specific warehouses from which the stock is taken.
 
 A warehouse group is created, see [Create a warehouse group](#create-a-warehouse-group).
 
+[comment]: <> (Nicht unbedingt, wenn keine Gruppe, kann man immer noch no warehouse group auswählen)
+
 #### Procedure
 
 *Warehouse > Settings > Tab WAREHOUSE > Tab Warehouse master data*
