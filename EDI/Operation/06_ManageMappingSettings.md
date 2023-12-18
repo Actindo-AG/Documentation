@@ -15,14 +15,14 @@ At least one definition setting has been created, see [Create basic definition s
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the exporter definition for which you want to define the mapping settings.   
-    The *Edit definition "Definition name"* view is displayed. The *Settings* tab is displayed by default.
+    The *Edit definition "Definition name"* view is displayed. The last selected tab is displayed by default.
 
 2. Click the *Mapping settings* tab.   
     The mapping settings are displayed.
 
     ![Mapping settings](../../Assets/Screenshots/EDI/Operation/MappingSettingsCreate.png "[Mapping settings]")
 
-3. Click the *Return format* dropdown and select **EDI**.
+3. Click the *Return format* drop-down list and select **EDI**.
 
 4. Ignore the default value in the *Convert to charset (iconv)* field.
 

@@ -14,10 +14,11 @@ In this part of the *EDIFACT* documentation, you will find the following chapter
 
 - [Manage header file settings](./02_ManageHeaderFileSett.md)
     - [Get header file segments](./02_ManageHeaderFileSett.md#get-header-file-segments)
-    - [Specify message name &frasl; constant text value](./02_ManageHeaderFileSett.md#specify-message-name-⁄-constant-text-value)
+    - [Specify document name &frasl; constant text value](./02_ManageHeaderFileSett.md#specify-document-name-⁄-constant-text-value)
     - [Specify document number &frasl; string attribute](./02_ManageHeaderFileSett.md#specify-document-number-⁄-string-attribute)
     - [Specify message dates](./02_ManageHeaderFileSett.md#specify-message-dates)
     - [Specify message free texts](./02_ManageHeaderFileSett.md#specify-message-free-texts)
+    - [Specify conditions](./02_ManageHeaderFileSett.md#specify-conditions)  
     - [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export)
     - [Edit header file settings](./02_ManageHeaderFileSett.md#edit-header-file-settings)   
 

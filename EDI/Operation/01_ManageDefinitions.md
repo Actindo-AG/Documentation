@@ -90,7 +90,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the definition whose settings you want to edit in the list of export definitions.   
-    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+    The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
@@ -105,9 +105,10 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.   
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source directly after you have created the basic definition, you can check during editing the file settings if variable strings has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./04_ManageDataSources.md#create-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source directly after you have created the basic definition, you can check during editing the file settings if variable strings has been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./05_ManageDataSources.md#create-data-source).
 - Define the mapping settings.   
-    This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Define mapping settings](./05_MappingSettings.md#define-mapping-settings).
+    This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-setting).
+- Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).
 
 
 
@@ -178,7 +179,7 @@ Activate the definition to be able to send EDIFACT messages to the business part
 ![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
 1. Click the definition you want to activate.   
-    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+    The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
@@ -208,7 +209,7 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a n
 ![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
 
 1. Click the definition you want to deactivate.   
-    The *Edit definition "definition name"* view is displayed. The *SETTINGS* tab is displayed by default.
+    The *Edit definition "definition name"* view is displayed. The *Settings* tab is displayed by default.
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionActivate.png "[Edit definition]")
 

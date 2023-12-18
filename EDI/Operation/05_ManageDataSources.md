@@ -10,7 +10,7 @@ Define the data source from which you want to retrieve the data with which you w
 #### Prerequisites
 
 At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
->[INFO] The *Data source* tab is visible only if you have created and saved a basic definition setting. 
+>[INFO] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
 
@@ -27,7 +27,7 @@ At least one definition setting has been created, see [Create basic definition s
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.     
-    The *Select source* popup window is displayed.
+    The *Select source* pop-up window is displayed.
 
     ![Select source](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectSource.png "[Select source]")
 
@@ -42,7 +42,7 @@ At least one definition setting has been created, see [Create basic definition s
     The *Attribute set* drop-down list is automatically filled with the data source defined in the *Entity type* field.
     
 5. Click the [CONTINUE] button in the bottom right corner.   
-    The *Map attributes* popup window is displayed. If you have not yet defined string attributes in your file settings, the *There are no mappable fields in the destination* text is displayed.
+    The *Map attributes* pop-up window is displayed. If you have not yet defined string attributes in your file settings, the *There are no mappable fields in the destination* text is displayed.
 
     ![Map attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesMapAttributes.png "[Map attributes]")
 
@@ -56,9 +56,12 @@ At least one definition setting has been created, see [Create basic definition s
 
     ![Select additional data](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectAdditionalData.png "[Select additional data]")
 
-8. If desired, specify a limit. The limit defines the maximum number of line items which are to be added to a business document such as an invoice. <!---ist das richtig?-->
+8. If desired, specify a limit. The limit defines the maximum number of line items which are to be added to a business document such as an invoice. <!---Julian, ist das richtig?-->
 
 9. Click the [FINALIZE] button in the bottom right corner to save the data source.
+
+10. Click the [SAVE] button in the top right corner.    
+   The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again. 
 
 
 
@@ -86,7 +89,7 @@ Edit the data source by specifying the data mapping for your file settings defin
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
 3. Click the data source, for which you want to map the attributes.   
-    The *Map attributes* popup window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
+    The *Map attributes* pop-up window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
 
     ![Data sources destination attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesDestinationAttributes.png "[Data sources destination attributes]")
 
