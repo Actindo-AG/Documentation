@@ -15,9 +15,9 @@ You have permission to create ETL mappings.
 
 #### Procedure
 
-1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+1. Create the ETL mappings needed for subsequent processes in the *Actindo Core1 platform*. For detailed information on creating ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md) in the *DataHub* documentation.
 
-2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md).
+2. If desired, create the ETL processes for the data exchange between the *Omni-Channel* and *PIM* modules. For detailed information on creating ETL processes, see [Manage the ETL processes](../../DataHub/Operation/02_ManageETLProcesses.md) in the *DataHub* documentation.
 
 
 
@@ -91,7 +91,7 @@ You are permitted to create attributes.
 
 4. Ensure that the *Multi-language* and *Multi-channel* toggles are disabled.
 
-    > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set) in the documentation of the *PIM* module.
+    > [Info] Be aware that only attributes which are neither multi-language nor multi-channel can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set) in the *PIM* documentation.
 
 5. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field.      
     A drop-down list with all active attribute sets is displayed.
