@@ -34,7 +34,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 *Omni-Channel > Settings > Tab CONNECTIONS > Select BigCommerce connection > Tab Settings*
 
-![Edit BigCommerce settings](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/EditConnectionSettings.png "[Edit BigCommerce settings]")
+![Edit BigCommerce settings](../../Assets/Screenshots/Channels/Settings/Connections/BigCommerce/VariantOptionType.png "[Edit BigCommerce settings]")
 
 The *Settings* tab is composed of the following setting entries:
 - [Variant option type](#variant-option-type)
