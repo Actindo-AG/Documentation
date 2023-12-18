@@ -6,25 +6,80 @@
 
 The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
 
+Every time there is a posting in the *Warehousing* module, the stock value in the *PIM* module is updated. This process occurs asynchronously and may take a few moments. This stock value is transferred in turned to via *Omni-Channel* to the sale channel.
+
 The stock allocation table includes automatically all warehouses you have created. You can decide any time if you want to include the stock in a specific warehouse in the stock calculation. For detailed information to create a warehouse, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse). 
 
-Depending on the preconfigured target channels and warehouses, the displayed columns and rows will vary. 
+Depending on the configured target channels and warehouses, the displayed columns and rows will vary. 
 
 #### Prerequisites
 
-- At least a warehouse group has been created.
+- At least a warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
 - The necessary attributes of the *Stock value* data type have been created in the *PIM* module, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute). 
 - The *Stock value* attribute has been assigned to the relevant attribute sets, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
-- Add to variant set, changeable attribute?
 - The necessary mappings between the corresponding *PIM* attribute sets and the *Omni-Channel* attribute sets have been created, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md#manage-the-etl-mappings). 
 
-[comment]: <> (Prekonfiguration nötig bei Target channel und Supplier stock - plugins?)
-
-[comment]: <> (*Multimarkets* module is now obsolete.)
+[comment]: <> (Trotzdem funktioniert bei mir nicht. Warum? Was fehlt?)
 
 #### Procedure 
 
-1. In the *Supplier stock* column, click the drop-down list of the cell corresponding to the desired target channel and select the appropriate option. The following options are available:
+
+1. Select the row with the stock allocation attribute name corresponding to the desired target channel in the *Target channel* column.
+
+2. Double-click the field with the **Default setting** option in the *Stock calculation* column.   
+    A drop-down list is displayed.
+
+[comment]: <> (Ist Default setting tatsächlich ein Setting? Wo wird es eingestellt, wenn überhaupt?)
+
+3. Click the drop-down list and select the appropriate option. The following options are available:  
+      
+    - **Fixed value**  
+        Select this option to transfer a fixed stock amount.   
+        The corresponding field in the *Fixed value* column is unlocked. 
+
+    - **Formula**  
+        Select this option to create your own formula to calculate the stock amount. For this purpose, Actindo implements php formulas using the different posting types, for example GET_BESTAND(50)+GET_RESERVED(50)+GET_PRE_RESERVED(50)+GET_SELL(50).  
+        The corresponding field in the *Formula* column is unlocked. 
+
+        > [Info] Bear in mind that all outgoing posting, such as preservations, reservations or sale postings, are negative, and therefore they must be added to the formula with a plus sign, not minus. 
+
+        Below, a table containing the php commands used in the *Actindo Core1 Platform* and their meaning is provided:
+
+        | php commands | Meaning |
+        | ------------ | ---------------- |
+        | GET_BESTAND | Physical stock |
+        | GET_RESERVED | Reserved material |
+        | GET_PRE_RESERVED | Pre-reserved material |
+        | GET_ RESERVED_SPECIAL | Material waiting for picking |
+        | GET_SELL | Material sold |
+        | GET_COUNT | Physical stock minus material waiting for picking |
+        | GET_COUNTAVAIL | Physical stock minus reserved material |
+        
+        [comment]: <> (Evtl. andere Werte?)
+
+    - **Calculation, stock level**  
+        Select this option to transfer the physical stock amount in the warehouse.  
+        The fields in the warehouse columns are unlocked.
+        
+    - **Calculation, stock availability (stock level - reserved)**  
+        Select this option to transfer the stock amount resulting from the physical stock in the warehouse minus the reservations (open customer orders). This is done to prevent overselling.  
+        The fields in the warehouse columns are unlocked.
+
+    - **Calculation, availability (stock level + ordered - reserve)**   
+        Select this option to transfer the stock amount resulting from the physical stock in the warehouse, plus the stock ordered from the supplier (open supplier orders, even if it has not arrived yet in the warehouse), minus the reservations (open customer orders).  
+        The fields in the warehouse columns are unlocked.
+
+4. Depending of the option you have selected in the previous step, proceed as follows:
+
+    - If you have selected the **Fixed value** option, double-click the applicable field and enter the desired value.  
+
+    - If you have selected the **Formula** option, double-click the applicable field and enter the desired formula.
+
+    - If you have selected a preset calculation, double-click the applicable field to display the drop-down list. Then select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock allocation calculation or select the **No** option to exclude it.
+
+    > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
+
+5. If desired, the supplier stock can also be included in the calculation. To do so, click the drop-down list of the cell corresponding to the desired target channel in the *Supplier stock* column and select the appropriate option. The following options are available:
 
     - **No**  
         Select this option to exclude stock from all suppliers.
@@ -35,38 +90,12 @@ Depending on the preconfigured target channels and warehouses, the displayed col
     - **Yes, only normal suppliers**  
         Select this option to include stock only from normal suppliers.
 
-[comment]: <> (Was ist damit gemeint? Wo kann ich diese voreinstellen? What is actually meant? Does it include the stock at the supplier? Or just the ordered supplier stock? That is, btw, already included in one of the calculation formulas To add a plug-in supplier, see...)
+[comment]: <> (Was ist damit gemeint? Wo kann ich diese voreinstellen? What is actually meant? Does it include the stock at the supplier? Or just the ordered supplier stock? That is, btw, already included in one of the calculation formulas To add a plug-in supplier, see... Achtung! Fixed value und Formel erlauben nicht, hier Nein/Ja einzustellen!)
 
-2. In the *Stock calculation* column, click the drop-down list of the cell corresponding to the desired target channel and select the appropriate option. The following calculation options are available:  
-    
-    - **Default setting**   
-        Select this option to ... 
+5. Click the [SAVE] button in the bottom right corner.   
+    The stock allocation is saved. When the stock in a warehouse that is included in the formula is changed, the stock will be entered automatically in the stock field.
 
-        [comment]: <> (Wo voreinsgestellt? Was bewirkt dies? Keine weitere Felder in der Tabelle anklickbar)
-      
-    - **Fixed value**  
-        Select this option to transfer a fixed stock amount to the *PIM* module and subsequently, via the *Omni-Channel* module, to the sales channel. The fixed value can be entered in the corresponding cell in the *Fixed value* column. 
 
-    - **Formula**  
-        Select this option to create your own formula to calculate the stock amount. For this purpose, Actindo implements php formulas using the different posting types, for example GET_BESTAND(50)+GET_BESTAND(51)+GET_RESERVED(50)+GET_PRE_RESERVED(50). The formula can be entered in the corresponding cell in the *Formula* column.
-
-        [comment]: <> (Mehr info über die Formulas? Externes Link?)
-
-    - **Calculation, stock level**  
-        Select this option to transfer the physical stock amount in the warehouse. 
-
-    - **Calculation, stock availability (stock level - reserved)**  
-        Select this option to transfer the stock amount resulting from the physical stock in the warehouse minus the reservations (open customer orders). This is done to prevent overselling.
-
-    - **Calculation, availability (stock level + ordered - reserve)**   
-        Select this option to transfer the stock amount resulting from the physical stock in the warehouse, plus the stock ordered from the supplier (open supplier orders, even if it has not arrived yet in the warehouse), minus the reservations (open customer orders).
-
-4. Bestandsberechnung
-
-1-Eigenlager - Ja
-2-Außenlager - Ja
-
-This means the amount of stock available in those warehouses are included in the calculation.
 
 
 

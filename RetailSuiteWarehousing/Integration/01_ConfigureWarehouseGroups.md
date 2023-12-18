@@ -72,7 +72,8 @@ The *Warehouse groups* plugin must be installed.
 3. Click the [SAVE] button.  
     The warehouse group has been saved.
 
-4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses. The new warehouse group is displayed in the list of warehouses.
+4. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.  
+The new warehouse group is displayed in the list of warehouses.
 
 
 ### Create an externally controlled warehouse group
@@ -112,7 +113,8 @@ The *Warehouse groups* plugin must be installed.
 6. Click the [SAVE] button.  
     The warehouse group has been saved.
 
-7. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses. The new warehouse group is displayed in the list of warehouses.
+7. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.  
+The new warehouse group is displayed in the list of warehouses.
 
 
 
