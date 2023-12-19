@@ -48,23 +48,26 @@ Note that the structure of the format is standardized, not the usage. As a resul
 
 ## Checklist for managing the EDIFACT export definitions
 
-Use the following checklist to organize your work. Managing of definitions follows the following sequence:  
+Use the following checklist to organize your work. Manage the definitions in the following sequence:  
 
 |To do                                   | Done   
 |-----|------- 
 |1. Create the connection to your business partner, see [Manage connections](../Integration/01_ManageConnections.md).|   |     
 |2. Create a basic definition setting for the header, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-setting).|   |   
 |3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageDefinitions.md#prepare-definition-of-file-settings).|   |   
-|4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |   
-|5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |     
-|7. After you have added the header file settings, you can preview the message header, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   | 
+|4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |
+|5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |
+|6. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
 |7. Create a basic definition setting for the line items, see [Create basic definition setting](../Operation/01_ManageDefinitions.md#create-basic-definition-setting). |   |   
-|8. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |  
-|9. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
-|10. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
-|11. Extend your order management workflow, for example, or another by adding actions for sending the EDIFACT messages.<!---Julian Stimmt das? Oder müssen die Kunden noch was machen?-->
+|9. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
+|10. Finalize the data mapping for both the definition of the header and the line items, see [Edit data source](../Operation/05_ManageDataSources.md#edit-data-source).
+|11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
+|12. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
+|13. Extend your order management workflow, for example, or another by adding actions for sending the EDIFACT messages.<!---Julian Stimmt das? Oder müssen die Kunden noch was machen?-->
 
-
-
+<BR>
+<BR>
+<BR>
+<BR>
 [^1] **Source**: Wikipedia
 

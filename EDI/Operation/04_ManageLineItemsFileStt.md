@@ -5,10 +5,61 @@ The following procedures show by using an example how to specify the line item s
 For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
 
 
+## Prepare data mapping for the line items
+
+#### Prerequisites
+
+- You have defined both the definitions for the header and the line items, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+- You have prepared the line item export, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
+
+
+#### Procedure
+
+*DataHub Exporter > Exports*
+
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
+
+1. Click the header export definition for which you want to prepare the data mapping for the line items.   
+    The *Edit definition "Definition name"* view is displayed. The *Settings* tab is displayed by default.
+
+2. Click the *Data sources* tab.   
+    The *Data sources* tab is displayed.  
+
+    ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
+
+3. Click the data source, for which you want to map the segment for the line items.   
+    - The *Map attributes* pop-up window is displayed.     
+    - In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.    
+    - The EDI export SG26/SG27 is available.
+
+        ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
+
+6. Click the *EDI Export SG26/SG27* destination attribute and define the mapping.    
+   The settings section is displayed.
+
+    ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
+
+     a. Click the *Source attribute* drop-down list and select **Positions** or another attribute that represents a line item. 
+
+     b. Click the *Extension* drop-down list and select the **XML SubExport** extension.
+
+     c. Click the *Override change tracking mode* drop-down list and select **Use default**.
+
+     d. In the *Configuration* section, click the *Subexport definition* and select the definition of your line items, for example **EDIFACT INVOIC export items customer 12.**
+     
+     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26Mappingdone.png "[SG26 mapping settings]")  
+
+7. Click the [SAVE] button in the top right corner of the wizard.
+
+8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
+  
+9. Click the [SAVE] button to save the header definition.   
+   The *Exporter definitions* view is displayed.
+
 
 ## Get line item segments
 
-Get the line item segments of an EDIFACT message in order to be able to fill them. You can add constant values as well as strings that are to be determined via attribute mapping later. 
+Get the line item segments of an EDIFACT message in order to be able to fill them. You can add constant values as well as strings and conditions that are to be determined via attribute mapping later. 
 
 
 #### Prerequisites
@@ -16,6 +67,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 - You have the message specification of your business partner at hand.
 - You have created the basic definition settings for the line items for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 - You have prepared the line item export in the header file definition, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
+- You have prepared the data mapping for the line items, [Prepare data mapping for the line items](#prepare-data-mapping-for-the-line-items).
 
 #### Procedure
 
@@ -64,13 +116,13 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 
 
-## Specify line item identifier
+## Specify line item number
 
-Start specifying the line item segments by filling out the single elements of the S_LIN (Line item) segment. This procedure shows how to edit the position number on the invoice.
+Start specifying the line item segments by filling out the single elements of the S_LIN (Line item) segment. This procedure shows how to edit the position number on the invoice, so that each position of an invoice gets a unique and ascending line item number.
 
 #### Prerequisites
 
-- You have expanded the message structure, see [Get line item segments](#get-line-item-segments).
+- You have expanded the message structure of the line item definition, see [Get line item segments](#get-line-item-segments).
 
 #### Procedure
 
@@ -92,11 +144,34 @@ Start specifying the line item segments by filling out the single elements of th
 
     ![D_1082 row](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082.png "[D_1082 row]")
 
- 4. Click the [SAVE] button to save the message structure.   
-    The *Exporter definitions* list is displayed. The defined string attribute is mow added to the attribute mapping function in the *Data sources* tab.
+4. Click the [SAVE] button to save the message structure.   
+    The *Exporter definitions* list is displayed. The defined string attribute is now added to the attribute mapping function in the *Data sources* tab.
 
-5. If desired, check whether the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
-    The EDI Export LIN/1082 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
+5. Open the line item definition again and click the *Data sources* tab.   
+    The *EDI Export LIN/1082* destination attribute has been added to the attributes to be mapped.
 
     ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082Mapping.png "[Map Attributes]")
+
+ 
+6. Click the *EDI Export LIN/1082* destination attribute.    
+   In the *Settings* section on the right, configuration options are displayed.
+
+     a. Click the *Extension* dropdown list and select the **Mathematical expression** entry.  
+         The section for selecting a source attribute is displayed.
+
+     b. Click the **Override change tracking** mode and select the desired mode.
+
+     c. On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
+
+     d. In the *Configuration* section, enter **x1+1** in the *Equitation 1* field.
+
+      ![Specify line item number](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082MappingDone.png "[Specify line item number]")
+
+7. Click the [SAVE] button in the top right corner of the wizard and finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
+
+8. Click the [SAVE] button to save the header definition.   
+   The *Exporter definitions* view is displayed.
+
+
+
 

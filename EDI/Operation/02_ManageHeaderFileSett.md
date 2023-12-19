@@ -69,12 +69,12 @@ This procedure shows how to edit a constant text value, for example the transact
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-1. Expand the S_BGM segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_BGM* segment.   
+1. Expand the S_BGM segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.   
     The S_BGM segment in turn consists of subordinate segments and fields.
 
     ![S_BGM segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM.png "[S_BGM segment]")
 
-2. Expand the *S_BGM C_C002* (Identification of a type of document/message by code) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_BGM C_C002* segment. In most cases it is mandatory to specify this segment.   
+2. Expand the *S_BGM C_C002* (Identification of a type of document/message by code) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it. In most cases it is mandatory to specify this segment.   
     The *S_BGM C_C002* segment has been expanded. The individual fields of this segment are displayed.
 
     ![S_BGM C_C002 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C002.png "[S_BGM  C_C002 segment]")
@@ -118,12 +118,12 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-1. Expand the S_BGM segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_BGM* segment.   
+1. Expand the S_BGM segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.   
     The S_BGM segment in turn consists of subordinate segments and fields.
 
     ![S_BGM segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM.png "[S_BGM segment]")
 
-2. Expand the *S_BGM C_C106* (Document/message identification) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_BGM C_C106* segment. In most cases it is required to specify this segment.   
+2. Expand the *S_BGM C_C106* (Document/message identification) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it. In most cases it is required to specify this segment.   
     The *S_BGM C_C106* segment has been expanded. The individual fields of this segment are displayed.
 
     ![S_BGM C_C106 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106.png "[S_BGM  C_C106 segment]")
@@ -139,7 +139,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 5. Click the [SAVE] button to save the message structure.   
     The *Exporter definitions* view is displayed. All defined string attributes are added to the attribute mapping function in the *Data sources* tab.
 
-6. If desired, check if the string attribute has been really marked for a later data mapping. To do this, open the message again and click the *Data sources* tab.  
+6. If desired, check if the string attribute has been really marked for a later data mapping. To do this, open the message definition again and click the *Data sources* tab.  
 
 7. Select the related data source.   
     - The *Map attributes* wizard window is displayed.
@@ -150,7 +150,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 8. Go through the wizard and click the [FINALIZE] button.   
    The *Exporter definition sources* view is displayed.
 
-9. Click the *File settings* tab.
+9. Continue with [Specify message dates](#specify-message-dates) described below.
 
 
 
@@ -170,10 +170,10 @@ This procedure shows how to edit message dates. The message dates require both t
 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
-1. Expand the *S_DTM* (DATE &frasl; TIME &frasl; PERIOD) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_DTM* segment.   
+1. Expand the *S_DTM* (DATE &frasl; TIME &frasl; PERIOD) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.   
     The *S_DTM* segment in turn consists of the subordinate *C_C507* segment.
 
-2. Expand the *C_C507* (Date and &frasl; or time, or period relevant to the) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C507* segment. In most cases it is required to specify this segment.   
+2. Expand the *C_C507* (Date and &frasl; or time, or period relevant to the) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it. In most cases it is required to specify this segment.   
     The *C_C507* segment has been expanded. The individual fields of this segment are displayed.
 
     ![C_C507 segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDTMSegment.png "[C_C507 segment]")
@@ -229,7 +229,7 @@ This procedure shows both how to add individual textual information and addition
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
 
-1. Expand the *S_FTX* (FREE TEXT) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_FTX* segment.   
+1. Expand the *S_FTX* (FREE TEXT) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.   
     The *S_FTX* segment in turn consists of the subordinate *C_C107* and *C_C108* segments.
 
     ![S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXSegment.png "[S_FTX segment]")
@@ -241,7 +241,7 @@ This procedure shows both how to add individual textual information and addition
  
 3. Enter the text code and click the [SAVE] button. 
 
-4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *C_C108* segment.
+4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.
 
 5. Enter a free text in the *C_4440* row. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
     The *Set text value* pop-up window is displayed.
@@ -303,7 +303,7 @@ This procedure shows how to specify a condition for the output of a message segm
 6. Click the [SAVE] button to save the header definition.   
    The *Exporter definitions* view is displayed.
 
-7. Continue specifying the header file segments until you have specified all fields that your business partner require. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the SG26 or SG27 segment that contains the S_LIN specification for the line item export. For detailed information, see below the [Prepare line item export](#prepare-line-item-export).
+7. Continue specifying the header file segments until you have specified all fields that your business partner require. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the SG26 or SG27 segment that contains the S_LIN specification for the line item export. For detailed information, see [Prepare line item export](#prepare-line-item-export) below.
 
 
 
@@ -342,27 +342,15 @@ This procedure shows how you must prepare the line item section of the message, 
 
      ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-6. Click the EDI Export SG26/SG27 row and define the mapping.    
-   The settings section is displayed.
+6. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
 
-    ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
-
-     a. Click the *Source attribute* drop-down list and select *Positions* or another attribute that represents a line item. 
-
-     b. Click the *Extension* drop-down list and select the *XML SubExport* extension.
-
-     c. Click the *Override change tracking mode* drop-down list and select *Use default*.
-
-     d. In the *Configuration* section, click the *Subexport definition* and select the definition you currently specify.  
-
-7. Click the [SAVE] button
-
-8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
-  
-9. Click the [SAVE] button to save the header definition.   
+7. Click the [SAVE] button to save the header definition.   
    The *Exporter definitions* view is displayed.
 
-10. Continue with specifying the line item file settings, see [Manage line item file settings](./04_ManageLineItemsFileStt.md).
+8. Define the definitions for the line items, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+
+8. Continue with specifying the line item file settings, see [Manage line item file settings](./04_ManageLineItemsFileStt.md).
+
 
 
 
