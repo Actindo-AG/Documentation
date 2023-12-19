@@ -25,7 +25,7 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 
      ![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
-2. Enter a number for the warehouse in the *Warehouse* field.
+2. Enter a number for the warehouse in the *Warehouse* field. This is the warehouse ID.
 
 3. Select the warehouse group in the *Warehouse group* drop-down list.  
     
@@ -41,7 +41,7 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
     - **Different products per storage shelf**   
         Select this option if you want to store more than one product per storage shelf.
 
-[comment]: <> (Julian: Warehouse planning, Exclude from ordering -> Warehouse planing can be ignored, as it is no longer developed and has no effect.)
+[comment]: <> (Julian: Warehouse planning, Exclude from ordering -> Warehouse planing can be ignored, as it is no longer developed and has no effect. BUT check comment below from C&CS knowledge base!)
 
 [comment]: <> (C&CS: *Exclude from ordering* drop-down list should be set to **No** to deactivate the purchasing process for this warehouse. The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount available in this warehouse will not be part of the calculation, that is, it will be ignored by the system.)
 

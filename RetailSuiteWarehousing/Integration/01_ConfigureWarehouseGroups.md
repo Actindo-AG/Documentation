@@ -32,7 +32,7 @@ The *Warehouse groups* plugin must be installed.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
-2. Enter a unique number for the warehouse group in the *Warehouse group* field.
+2. Enter a unique number for the warehouse group in the *Warehouse group* field. This is the warehouse group ID.
 
 3. Enter a description for the warehouse group in the *Designation* field. This description will be displayed later on in the left side bar in the *Warehouse master data* sub-tab.
 
