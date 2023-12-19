@@ -1,14 +1,15 @@
 # Manage header file settings
 
 
-The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.
->[INFO] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message. 
+The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.  
+
+>[INFO] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
+
+You can add constant values as well as strings that are to be determined via attribute mapping. Additionally, you can specify conditions for the output of specific segments.
 
 ## Get header file segments
 
-Get the header file segments of an EDIFACT message in order to be able to fill them with data.  
-
-You can add constant values as well as strings that are to be determined via attribute mapping. For example, the document number is a variable value that must differ for each message. 
+Get the header file segments of an EDIFACT message in order to be able to fill them with data. By doing this, you add the whole message structure of the specified message type.
 
 > [INFO] The UNA, UNB and UNH segments are generated automatically, for this reason, the definition starts with the S_BGM segment.
 
@@ -33,9 +34,9 @@ You can add constant values as well as strings that are to be determined via att
 
      ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
 
-3. Click the *Release* field and verify that required release is entered there.
+3. Check the *Release* field and verify that required release is entered there.
 
-4. Click the *Message type* field and verify that the required message type is entered there.
+4. Check the *Message type* field and verify that the required message type is entered there.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure is displayed. The message name is highlighted in red because it is still empty.
@@ -47,14 +48,16 @@ You can add constant values as well as strings that are to be determined via att
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value).
+7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value) described below.
 
 
 
 
 ## Specify document name &frasl; constant text value
 
-Start specifying the header file segments by filling out the single elements of the BGM (Beginning of message) segment. This procedure shows how to edit a constant text value, for example the transaction type *Commercial invoice* that specifies the type of the INVOIC message.
+Start specifying the header file segments by filling out the single elements of the BGM (Beginning of message) segment.   
+
+This procedure shows how to edit a constant text value, for example the transaction type *Commercial invoice* that specifies the type of the INVOIC message.
 
 #### Prerequisites
 
@@ -94,6 +97,8 @@ Start specifying the header file segments by filling out the single elements of 
       ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
     
     - To the right of the *S_BGM C_C002*, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
+
+7. Continue with [Specify document number &frasl; string attribute](#specify-document-number-⁄-string-attribute) described below.
 
 
 
@@ -153,6 +158,8 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
 Each invoice can have a lot of different dates, for example the invoice date, the expected delivery date, the tax point date, and much more. The *Actindo* EDIFACT message structure contains only one BTM segment in its raw state. However, for many business partners, multiple BTM segments must be completed. As soon as you have specified one value in a BTM segment, a further BTM segment is added automatically so that you can specify as much BTM segments as your business partner require.
 
+This procedure shows how to edit message dates. The message dates require both the description of the date and the variable for determining it.
+
 #### Prerequisites
 
 - You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
@@ -206,7 +213,10 @@ Each invoice can have a lot of different dates, for example the invoice date, th
 
 ## Specify message free texts
 
-Specify message free text, with which you can inform your business partner on individual subjects.  This procedure shows how to add individual textual information as well as to add additionally required segments.
+Specify message free text, with which you can inform your business partner on individual subjects.  
+
+This procedure shows both how to add individual textual information and additionally required segments.
+
 
 #### Prerequisites
 
@@ -260,6 +270,8 @@ Specify message free text, with which you can inform your business partner on in
 
 For each segment that contain data, you can define conditions under which the segment data is transferred to the message receiver. For example, you want to output a message free text only in case that a caution notice is to be added to the INVOIC. 
 
+This procedure shows how to specify a condition for the output of a message segment.
+
 #### Prerequisites
 
 - You have expanded the message structure, see [Get header file segments](#get-header-file-segments).
@@ -297,8 +309,10 @@ For each segment that contain data, you can define conditions under which the se
 
 ## Prepare line item export
 
-In order to be able to export the individual line items of an invoice, the relevant line item group of an EDIFACT message must be specified to be exported as a whole. You have to do this here in the header definition file settings.  
+In order to be able to export the individual line items of an invoice with specific data sources later, the relevant line item group of an EDIFACT message must be specified to be exported as a whole. You have to do this here in the header definition file settings.  
 After you have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
+
+This procedure shows how you must prepare the line item section of the message, so that you can use different data sources for the line items later.
 
 #### Prerequisites
 
@@ -345,9 +359,10 @@ After you have prepared the line item export, you can define the definition for 
 
 8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
   
-8. Click the [SAVE] button to save the header definition.   
+9. Click the [SAVE] button to save the header definition.   
    The *Exporter definitions* view is displayed.
 
+10. Continue with specifying the line item file settings, see [Manage line item file settings](./04_ManageLineItemsFileStt.md).
 
 
 
@@ -375,7 +390,6 @@ To edit the header file settings, you must remove the data you have provided for
 
 3. Click the [SAVE] button to save the header definition.   
     The *Exporter definitions* view is displayed.
-
 
 
 **Remove data from a segment row**
