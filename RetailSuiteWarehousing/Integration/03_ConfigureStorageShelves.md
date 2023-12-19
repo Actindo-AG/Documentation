@@ -4,7 +4,7 @@
 
 Warehouses are subdivided into storage shelves, from which stock is actually posted. Storage shelves are, therefore, subordinate storage areas within a warehouse that can contain one or several materials. This depends on the warehouse settings. To modify the amount of materials per shelf, see [Edit a warehouse](./02_ConfigureWarehouses.md#edit-a-warehouse).
 
-Each material can be stored in several storage shelves and different warehouses, but they can only have one primary storage shelf, that is, the main storage location. When a storage shelf is configured as primary, stock will be taken from it automatically if no configuration is stored in the stock withdrawal matrix or no configuration matches the criteria.
+Each material can be stored in several storage shelves and different warehouses, but they can only have one primary storage shelf, that is, the main storage location. When an order is received, stock is taken from the primary storage shelf automatically, as long as the ordered material is in stock, and no configuration is stored in the stock withdrawal matrix or no configuration matches the criteria.
 
 
 
