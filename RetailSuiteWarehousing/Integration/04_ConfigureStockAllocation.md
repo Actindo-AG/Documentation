@@ -55,7 +55,9 @@ Depending on the configured target channels and warehouses, the displayed column
         | GET_COUNT | Physical stock minus material waiting for picking |
         | GET_COUNTAVAIL | Physical stock minus reserved material |
         
-        [comment]: <> (Evtl. andere Werte?)
+        [comment]: <> (Oder nur COUNT? Gibt es andere Methoden?)
+
+        [comment]: <> (Vorreservierung hat keine Auswirkung auf dem Bestand, auch wenn bei Lager/Lieferanten > Bestände das Vorzeichen negativ ist. Die muss man extra abziehen. Vorreservierungen sind auch nicht Standard; man muss die im Shop einstellen. Sonderfall von NoE: Shop muss mit dem Core1 "reden".)
 
     - **Calculation, stock level**  
         Select this option to transfer the physical stock amount in the warehouse.  
@@ -75,7 +77,7 @@ Depending on the configured target channels and warehouses, the displayed column
 
     - If you have selected the **Formula** option, double-click the applicable field and enter the desired formula.
 
-    - If you have selected a preset calculation, double-click the applicable field to display the drop-down list. Then select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock allocation calculation or select the **No** option to exclude it.
+    - If you have selected one of the predefined calculation formulas, double-click the applicable field to display the drop-down list. Then select the **Yes** option in the drop-down list to include the corresponding warehouse in the stock allocation calculation or select the **No** option to exclude it.
 
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
 
