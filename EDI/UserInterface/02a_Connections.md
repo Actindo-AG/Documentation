@@ -2,7 +2,7 @@
 
 *DataHub Exporter > Settings > Tab CONNECTIONS*
 
-Connections**Connections**
+**Connections**
 
 The *CONNECTIONS* tab contains a list view of all available connections.
 The following functions are available in the list header of the *CONNECTIONS* tab:
@@ -82,19 +82,10 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-The *DataHub Exporter* module uses a lot of different drivers that you can use to send your messages. Each driver has different credentials to be filled. As an example, see the SFTP driver fields here.
+The fields displayed in the *Credentials* section vary depending on the selected driver.
 
-![Edit DataHub Exporter credentials](../../Assets/Screenshots/EDI/UserInterface/CreateConnectionCredentials.png "[Edit DataHub Exporter credentials]")
-
-- *Server URL*
-
-- *Username*
-
-- *Password*
-
-- *Remote filename*
-
--[SAVE]
+- [SAVE]   
+   Click this button to save the connection.
 
 
 
@@ -123,4 +114,17 @@ The *DataHub Exporter* module uses a lot of different drivers that you can use t
     Driver name. This drop-down list is read-only.
 
 - [SAVE]
+   Click this button to save any changes made.   
+
+## Edit connection - Credentials
+
+*DataHubExporter > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+
+![Edit DataHub Exporter credentials](../../Assets/Screenshots/EDI/UserInterface/CreateConnectionCredentials.png "[Edit DataHub Exporter credentials]")
+
+This tab is only displayed for drivers with further credentials.
+
+**Credentials**
+
+- [SAVE]   
    Click this button to save any changes made.   

@@ -30,7 +30,7 @@ Define basic data for the export definition. You must define a definition settin
 
 *DataHub Exporter > Exports*
 
-![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")*
+![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create definition* view is displayed.
