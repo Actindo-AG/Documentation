@@ -143,7 +143,7 @@ Use the *File settings* tab to specify the EDIFACT message fields and segments t
    Click this button to load the specified EDIFACT message structure.
 
  
-### Data sources tab   
+## Data sources tab   
 
 *DataHub Exporter > Exports > Select export definition > Tab Data sources*
 
