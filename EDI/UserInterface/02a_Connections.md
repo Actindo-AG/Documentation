@@ -1,3 +1,5 @@
+[!!Manage Connections](../UserInterface/02a_Connections.md)
+
 # CONNECTIONS (Settings)
 
 *DataHub Exporter > Settings > Tab CONNECTIONS*
@@ -82,7 +84,7 @@ The list displays all available connections. Depending on the settings, the disp
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on the selected driver.
+This section is only displayed for drivers with further credentials. The fields displayed in the *Credentials* section vary depending on the selected driver.
 
 - [SAVE]   
    Click this button to save the connection.
@@ -116,7 +118,7 @@ The fields displayed in the *Credentials* section vary depending on the selected
 - [SAVE]
    Click this button to save any changes made.   
 
-## Edit connection - Credentials
+### Edit connection - Credentials
 
 *DataHubExporter > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 

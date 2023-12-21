@@ -1,3 +1,6 @@
+[!!Exports](../UserInterface/01_Exports.md)
+
+
 # Manage header file settings
 
 
@@ -11,7 +14,7 @@ You can add constant values as well as strings that are to be determined via att
 
 Get the header file segments of an EDIFACT message in order to be able to fill them with data. By doing this, you add the whole message structure of the specified message type.
 
-> [INFO] The UNA, UNB and UNH segments are generated automatically, for this reason, the definition starts with the S_BGM segment.
+> [INFO] The UNA, UNB and UNH segments are generated automatically. Therefore, the definition starts with the S_BGM segment.
 
 #### Prerequisites
 

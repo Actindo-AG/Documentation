@@ -1,3 +1,6 @@
+[!!Exports](../UserInterface/01_Exports.md)
+
+
 # Manage definitions 
 
 In Actindo, the definition of the EDIFACT export messages specifies the following:
@@ -54,9 +57,9 @@ Define basic data for the export definition. You must define a definition settin
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
 5. Enter the access key of your connection in the *Access key* field.
-     <!--- Julian, muss man das hier tun?Was ist das für ein Key?-->
+     The access key is a key that you can give to your business partner so that s/he can access your *Actindo* tenant without having to log in. You can freely specify any string.
 
-     > [Info] If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
+> [Info] If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
 6. Click the *File settings* tab.  
     The *File Settings* tab is displayed.

@@ -1,4 +1,7 @@
 [!!Manage definitions](../Operation/01_ManageDefinitions.md)
+[!!Manage header file settings](../Operation/02_ManageHeaderFileSett.md)
+[!!Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md)
+
 
 # EXPORTS
 
@@ -75,7 +78,7 @@ The list displays all available exporter definitions. Depending on the settings,
   Edit the connection that you have created for the receiver of the message, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
   
 - *Access key*  
-   ???
+   Use the access key to give your business partner a key so that s/he can access your *Actindo* tenant without having to log in to request specific data. You can freely specify any string.
   
 - [CANCEL]   
    Click this button to finish the exporter definition creation without saving it. The *Create definition* view is closed.
@@ -99,12 +102,13 @@ The list displays all available exporter definitions. Depending on the settings,
 - [SAVE]   
    Click this button to save the exporter definition. The *Create definition* view is closed.
 
-### Settings tab   
-You use the *Settings* tab to edit the basic settings of the exporter definition.
+## Settings tab   
 
 *DataHub Exporter > Exports > Select export definition > Tab Settings*
 
 ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+
+Use the *Settings* tab to edit the basic settings of the exporter definition.
 
 - *Label*   
    Edit the name of the exporter definition.
@@ -119,7 +123,7 @@ You use the *Settings* tab to edit the basic settings of the exporter definition
   Edit the connection that you have created for the receiver of the message, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
   
 - *Access key*  
-   ???
+   Edit the access key, if desired and inform your business partner on this change.
 
 
 ## File settings tab  
@@ -267,7 +271,7 @@ This step is also displayed, when you select a data source for editing. For deta
 
 ![Optional: Filter items](../../Assets/Screenshots/EDI/UserInterface/OptionalFilterItems.png "[Optional: Filter items]")
 
-noch ergänzen
+This step is currently not in use. In general, it is only relevant for mass exports
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -314,17 +318,17 @@ Use the *Mapping settings* tab to specify some basic data that is needed to be a
 - *Return format*   
    Edit this drop-down list to select the return format. Use *EDI* for EDIFACT massages. 
 
- - *Convert to charset (Iconv)*
-   Edit
+ - *Convert to charset (Iconv)*   
+   Edit the standard encoding your business partner require, for example UTF8.
 
  - *Sender*   
-   Edit
+   Edit your company's GLN (Global location number), if desired.
 
 - *Sender identification code qualifier*   
-   Edit
+   Edit your company's identification code qualifier, if desired
 
 - *Receiver*   
-   Edit
+   Edit the GLN number of the message receiver.
 
 - [CANCEL]    
    Click this button to finish mappings settings without saving it. The *Exporter definitions* view is displayed.

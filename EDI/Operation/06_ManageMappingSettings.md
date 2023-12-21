@@ -1,6 +1,8 @@
+[!!Exports](../UserInterface/01_Exports.md)
+
 # Manage mapping settings
 
-The mapping settings define some basic data that is needed to be able to map the *Actindo* data source attributes with the EDIFACT massage fields.
+The mapping settings define some basic data that is needed to be able to send EDIFACT message the *Actindo* to your business partner.
 
 ## Create mapping setting
  Create the mapping settings.
@@ -22,16 +24,16 @@ At least one definition setting has been created, see [Create basic definition s
 
     ![Mapping settings](../../Assets/Screenshots/EDI/Operation/MappingSettingsCreate.png "[Mapping settings]")
 
-3. Click the *Return format* drop-down list and select **EDI**.
+3. Click the *Return format* drop-down list and select **EDI**. 
 
-4. Ignore the default value in the *Convert to charset (iconv)* field.
+4. Enter the standard encoding (for example, UTF8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the conversion. 
 
-5. If desired, enter your company name in the *Sender* field. <!--- stimmt das??-->
+5. Enter your company's GLN (Global location number) in the *Sender* field. This information is used for the EDIFACT UNB S002 (Interchange sender) segment that is automatically filled by the exporter.
 
-6. Enter **14** in the *Sender identification code qualifier* field. <!---oder unterscheidet sich das je nach Actindo Kunde???-->
+6. If your business partner requires it, enter the identification code qualifier in the *Sender identification code qualifier* field. 
 
-7. If desired, enter receiver's company name in the *Receiver* field.
-
+7. Enter the GLN number of the receiver's company in the *Receiver* field. This information is used for the EDIFACT UNB S003 (Interchange recipient) segment that is automatically filled by the exporter.
+  
 8. Click the [SAVE] button.   
    The *Exporter definitions* view is displayed. 
 
@@ -39,7 +41,6 @@ At least one definition setting has been created, see [Create basic definition s
 ## Edit mapping setting
 
 Edit the mapping settings.
-
 
 #### Prerequisites
 - At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).

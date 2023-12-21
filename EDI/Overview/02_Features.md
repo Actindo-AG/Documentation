@@ -1,12 +1,9 @@
 # Key features
 
-
-
-
-- The *DataHub Exporter* module is used to transfer the EDIFACT messages.    
+- To transfer EDIFACT messages to the receiver, the *DataHub Exporter* module is used.    
     The module allows you to generally export *DataHub* entity data to various destinations. 
-- The EDIFACT message structures in the *DataHub Exporter* module exactly follow the internationally predefined UN/EDIFACT standard.
-- All EDIFACT messages structures in all versions are available for easy configuration.  
+- The *DataHub Exporter* module strictly to the international UN/EDIFACT standard for EDIFACT message structures.   
+   All EDIFACT messages structures in all versions are available for easy configuration.  
 - Automatic transformation of messages into the EDIFACT and the XML/EDIFACT standard.   
    The needed ETL data mapping between your *Actindo* data and the fields of an EDIFACT message is an integral part of the message definition.
 - Visual configuration of EDIFACT and XML/EDIFACT messages and their contents.   

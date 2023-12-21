@@ -1,3 +1,5 @@
+[!!Exports](../UserInterface/01_Exports.md)
+
 # Manage data sources
 Define the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
 For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved. 

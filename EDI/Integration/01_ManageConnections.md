@@ -25,12 +25,13 @@ Create a connection to a certain EDIFACT message receiver.
 
 2. Enter a name for the connection in the *Name* field. It might be useful to choose a name that contains a precise description of the purpose, so that you have more flexibility for further connection names, for example, "EDIFACT to [supplier]". 
 
-3. Click the *Driver* drop-down list and select the desired driver/protocol.   
-    The following drivers are available:    
-        - SFTP   
+3. Click the *Driver* drop-down list and select the desired driver/protocol your business partner require.   
+    The following drivers are available in the standard:    
+        - SFTP 
+        - Internal  
         - POST call   
-        - AS2?   
-        <!--- Hallo Julian, gibt es noch mehr?-->
+        - Output
+    > [Info] For the AS2 (Applicability Statement 2) protocol, the *AS2Transport* plugin is available in the *Core1 Platform*. Contact your MPS consultant if your business partner requires this protocol.
      
     The *Credentials* section is displayed below the *Driver* field.
 

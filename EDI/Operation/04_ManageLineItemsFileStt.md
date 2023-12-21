@@ -1,3 +1,5 @@
+[!!Exports](../UserInterface/01_Exports.md)
+
 # Manage line item file settings
 
 The following procedures show by using an example how to specify the line item section required by your business partner. As example the D07A INVOIC message is used.

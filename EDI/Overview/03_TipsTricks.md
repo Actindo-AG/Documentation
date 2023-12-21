@@ -22,7 +22,7 @@ Note that the structure of the format is standardized, not the usage. As a resul
 
 - Ask your business partner for the EDIFACT message specification. Sometimes it is also called message implementation guide. Specifications from some major vendors are also available for download on the Internet.
 
-- Ask your business partner for the connection details that specify to which address and with which credentials the data are to be transferred.
+- Ask your business partner for the connection details that specify to which address and with which credentials the data are to be transferred. For example, get to know both the GLN number of your business partner and the GLN number of your company.
 
 - Review this specification for the segments your business partner has defined as required and ensure that you have this data available.   
 
@@ -63,7 +63,7 @@ Use the following checklist to organize your work. Manage the definitions in the
 |10. Finalize the data mapping for both the definition of the header and the line items, see [Edit data source](../Operation/05_ManageDataSources.md#edit-data-source).
 |11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
 |12. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
-|13. Extend your order management workflow, for example, or another by adding actions for sending the EDIFACT messages.<!---Julian Stimmt das? Oder müssen die Kunden noch was machen?-->
+|13. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages.
 
 <BR>
 <BR>
