@@ -12,7 +12,7 @@ The *Exporter definitions* view contains a list view of all available exporter d
 The following functions are available in the list header of the *Exporter definitions* view:
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of connections.
+    Click this button to update the list of exporter definitions.
 
 - *VIEW*   
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md).  
@@ -24,7 +24,7 @@ The following functions are available in the list header of the *Exporter defini
     Click this button to delete the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected.
    
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+    Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can click directly a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
 
 The list displays all available exporter definitions. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -42,10 +42,10 @@ The list displays all available exporter definitions. Depending on the settings,
     Attribute set of the exporter definition that contains the attributes of the EDIFACT message.
 
 - *Access key*  
-    Access key of the exporter definition
+    Access key of the exporter definition.
     
-- *Download link*
-   Preview of the message fields. IF you click on this link a Browser window is opened which contains the defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
+- *Download link*   
+   Preview of the message fields. IF you click on this link a Browser window is opened which contains the already defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
    
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
     Click this button to add an exporter definition. The *Edit definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
@@ -71,10 +71,10 @@ The list displays all available exporter definitions. Depending on the settings,
 - *Template engine*   
    Use this drop-down list to select the engine with which *Actindo* shall process the message. For EDIFACT messages, the **XmlExportTemplateEngine** is used.
 
-- Default connection
-  Enter the connection that you have created for the receiver of the message
+- *Default connection*    
+  Edit the connection that you have created for the receiver of the message, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
   
-- Access key  
+- *Access key*  
    ???
   
 - [CANCEL]   
@@ -102,6 +102,10 @@ The list displays all available exporter definitions. Depending on the settings,
 ### Settings tab   
 You use the *Settings* tab to edit the basic settings of the exporter definition.
 
+*DataHub Exporter > Exports > Select export definition > Tab Settings*
+
+![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
+
 - *Label*   
    Edit the name of the exporter definition.
 
@@ -118,36 +122,41 @@ You use the *Settings* tab to edit the basic settings of the exporter definition
    ???
 
 
-### File settings tab  
+## File settings tab  
+
+*DataHub Exporter > Exports > Select export definition > Tab File settings*
 
 ![Edit file settings](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Edit file settings")
 
 Use the *File settings* tab to specify the EDIFACT message fields and segments that you business partner require for the selected message type.
 
 - *Release*   
-   Edit this drop-down list to select the release of the EDIFACT message type that your business partner require.
+   Edit this drop-down list to select the release of the EDIFACT message type your business partner require.
 
 - *Message type*       
-   Edit this drop-down list to select the EDIFACT message type that your business partner require.
+   Edit this drop-down list to select the EDIFACT message type your business partner require.
 
 - *Reference node path*    
-   Edit this drop-down list to select the EDIFACT message type that your business partner require.
+   In case you define the definition for the line items, enter the *Reference not path* manually. For detailed information, see [Get line item segments](../Operation/04_ManageLineItemsFileStt.md#get-line-item-segments). If you define the definition for the message header, you can ignore this field. 
 
 - ![Get](../../Assets/Icons/Get.png "[Get]")   
    Click this button to load the specified EDIFACT message structure.
 
  
 ### Data sources tab   
-Use the *Data sources* tab both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping.
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources*
 
 ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
+Use the *Data sources* tab both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping.
+
 **LIST Exporter definition sources**   
 
-The *Exporter definition sources* view contain a LIST view in which all exporter definition sources are listed that you can use to do the attribute mapping. 
+The *Exporter definition sources* view contains a LIST view that lists all exporter definition sources you want to use to perform the attribute mapping. 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of connections.
+    Click this button to update the list of exporter definitions.
 
 - *VIEW*   
     Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md).  
@@ -156,7 +165,7 @@ The *Exporter definition sources* view contain a LIST view in which all exporter
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
+    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all exporter definitions are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected data source. This button is only displayed if a single checkbox in the list of data sources entities is selected. Alternatively, you can click directly a row in the list to edit a data source directly. The *Map attributes* wizard is displayed.
@@ -168,7 +177,7 @@ The *Exporter definition sources* view contain a LIST view in which all exporter
    Click this button change the sorting of the data sources. The *Data sources (Sorting mode)* view is displayed.
 
 -  ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a *Source entity* on which you can map the EDIFACT definition fields. The *Map attributes* wizard is displayed.
+    Click this button to add a *Source entity* with which you can map the EDIFACT definition fields. The *Select source* wizard is displayed.
 
 - *Source entity*   
    Entity that defines the source you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* entity. 
@@ -181,11 +190,13 @@ The *Exporter definition sources* view contain a LIST view in which all exporter
 
 
    
-**Data sources (Sorting mode)**
+## Data sources &ndash; Sorting mode
 
-The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities.
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click the Change sorting button*
 
 ![Data sources (Sorting mode)](../../Assets/Screenshots/EDI/UserInterface/DataSourcesSortingMode.png "[Data sources (Sorting mode)]")
+
+The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities.
 
 - *Source entity*   
    Entity that defines the source you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* entity. 
@@ -205,19 +216,21 @@ The *Data sources (Sorting mode)* view enables you to change the sorting of the 
 - [SAVE]   
    Click this button to save the sorting. The *Data sources (Sorting mode)* view is closed.
 
-**Wizard for creating source entities and doing the mappings**  
+## Data sources &ndash; Wizard for creating source entities and doing the mappings  
 
 The wizard window for creating source entities and doing the mappings is displayed if you add a new data source.
 
-Step 1: Select source
+### Step 1: Select source
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click the Add button*
 
 ![Select source](../../Assets/Screenshots/EDI/UserInterface/SelectSourceEntitySelection.png "[Data sources (Sorting mode)]")
 
 - *Entity type*    
-  Click the drop-down list and select the entity type that you want to use for a later data mapping with the EDIFACT fields and segments.
+  Click the drop-down list and select the entity type you want to use for a later data mapping with the EDIFACT fields and segments.
 
 - *Attribute set*    
-   Attribute set that is assigned the entity type. The Attribute set drop-down list is automatically filled after you have selected an *Entity type*.
+   Attribute set that is assigned the entity type. The attribute set drop-down list is automatically filled after you have selected an *Entity type*.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The *Select source* wizard window is closed.
@@ -225,15 +238,17 @@ Step 1: Select source
 - [CONTINUE]   
    Click this button to save your settings. The *Map attributes* wizard window is displayed (see below). 
 
-Step 2: Map attributes
+### Step 2: Map attributes
 
-This step is also displayed, when you select a data source for editing.
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click an exporter definition*
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click the Add button > Click the CONTINUE button*
 
 ![Map attributes](../../Assets/Screenshots/EDI/UserInterface/MapAttributes.png "[Map attributes)]")
 
-For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
+This step is also displayed, when you select a data source for editing. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
 
->[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides, because the wizard contains only those functions that are relevant for mappings to export messages.
+>[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides, because the wizard contains only those functions that are relevant for export message mappings.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -244,9 +259,15 @@ For detailed information on the mapping functions, see [Mapping](../../DataHub/U
 - [< BACK]   
   Click this button to return to the previous step.
 
-Step 3: Optional: Filter items
+### Step 3: Optional: Filter items
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click an exporter definition > Click the CONTINUE button to step 3*
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click the CONTINUE button to step 3*
 
 ![Optional: Filter items](../../Assets/Screenshots/EDI/UserInterface/OptionalFilterItems.png "[Optional: Filter items]")
+
+noch ergänzen
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -258,12 +279,18 @@ Step 3: Optional: Filter items
   Click this button to return to the previous step.
 
 
-Step 4: Select additional data
+### Step 4: Select additional data
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click an exporter definition > Click the CONTINUE button to step 4*
+
+*DataHub Exporter > Exports > Select export definition > Tab Data sources > Click the CONTINUE button to step 4*
 
 ![Select additional data](../../Assets/Screenshots/EDI/UserInterface/SelectAdditionalData.png "[Select additional data]")
 
+Use this step to enter additional data such as the limit of line items to be output.
+
 - *Limit*    
-   If you currently specify the header definition settings: Enter the maximum number of positions that you want to output per message.
+   If you currently specify the header definition settings: Enter the maximum number of line items that you want to output per message.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -275,11 +302,13 @@ Step 4: Select additional data
   Click this button to return to the previous step.
 
 
-### Mapping settings tab
+## Mapping settings tab
 
-Use the *Mapping settings* tab to specify some basic data that is needed to be able to map the *Actindo* data source attributes with the EDIFACT massage fields.
+*DataHub Exporter > Exports > Select export definition > Tab Mapping settings*
 
 ![Edit mapping settings](../../Assets/Screenshots/EDI/Operation/MappingSettingsCreated.png "[Edit mapping settings]")
+
+Use the *Mapping settings* tab to specify some basic data that is needed to be able to map the *Actindo* data source attributes with the EDIFACT massage fields.
 
 
 - *Return format*   
