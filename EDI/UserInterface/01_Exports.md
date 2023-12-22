@@ -319,7 +319,7 @@ Use the *Mapping settings* tab to specify some basic data that is needed to be a
    Edit this drop-down list to select the return format. Use *EDI* for EDIFACT massages. 
 
  - *Convert to charset (Iconv)*   
-   Edit the standard encoding your business partner require, for example UTF8.
+   Edit the standard encoding your business partner require, for example UTF-8.
 
  - *Sender*   
    Edit your company's GLN (Global location number), if desired.

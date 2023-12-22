@@ -26,7 +26,7 @@ At least one definition setting has been created, see [Create basic definition s
 
 3. Click the *Return format* drop-down list and select **EDI**. 
 
-4. Enter the standard encoding (for example, UTF8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the conversion. 
+4. Enter the standard encoding (for example, UTF-8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the conversion. 
 
 5. Enter your company's GLN (Global location number) in the *Sender* field. This information is used for the EDIFACT UNB S002 (Interchange sender) segment that is automatically filled by the exporter.
 
