@@ -34,7 +34,7 @@ The following functions are available in the list header of the *CONNECTIONS* ta
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can click directly a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit DataHub Exporter connection](#edit-datahub-exporter-connection).
+    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit DataHub Exporter connection](#edit-datahub-exporter-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -44,9 +44,9 @@ The list displays all available connections. Depending on the settings, the disp
 - *Status*  
     Connection status. The following statuses are available:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**   
-        The connection is enabled and data is being synchronized via the connection.
+        The connection is enabled, and data is being synchronized via the connection.
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
-        The connection is disabled and no data is being synchronized via the connection.   
+        The connection is disabled, and no data is being synchronized via the connection.   
 
 - *Driver*  
     Driver name.
@@ -120,7 +120,7 @@ This section is only displayed for drivers with further credentials. The fields 
 
 ### Edit connection - Credentials
 
-*DataHubExporter > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
+*DataHub Exporter > Settings > Tab CONNECTIONS > Select a connection > Tab Credentials*
 
 ![Edit DataHub Exporter credentials](../../Assets/Screenshots/EDI/UserInterface/CreateConnectionCredentials.png "[Edit DataHub Exporter credentials]")
 

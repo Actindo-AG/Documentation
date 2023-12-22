@@ -27,7 +27,7 @@ The following functions are available in the list header of the *Exporter defini
     Click this button to delete the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected.
    
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can click directly a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+    Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can directly click a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
 
 The list displays all available exporter definitions. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -132,7 +132,7 @@ Use the *Settings* tab to edit the basic settings of the exporter definition.
 
 ![Edit file settings](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Edit file settings")
 
-Use the *File settings* tab to specify the EDIFACT message fields and segments that you business partner require for the selected message type.
+Use the *File settings* tab to specify the EDIFACT message fields and segments that your business partner require for the selected message type.
 
 - *Release*   
    Edit this drop-down list to select the release of the EDIFACT message type your business partner require.
@@ -141,7 +141,7 @@ Use the *File settings* tab to specify the EDIFACT message fields and segments t
    Edit this drop-down list to select the EDIFACT message type your business partner require.
 
 - *Reference node path*    
-   In case you define the definition for the line items, enter the *Reference not path* manually. For detailed information, see [Get line item segments](../Operation/04_ManageLineItemsFileStt.md#get-line-item-segments). If you define the definition for the message header, you can ignore this field. 
+   In case you define the definition for the line items, enter the *Reference node path* manually. For detailed information, see [Get line item segments](../Operation/04_ManageLineItemsFileStt.md#get-line-item-segments). If you define the definition for the message header, you can ignore this field. 
 
 - ![Get](../../Assets/Icons/Get.png "[Get]")   
    Click this button to load the specified EDIFACT message structure.
@@ -172,7 +172,7 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all exporter definitions are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected data source. This button is only displayed if a single checkbox in the list of data sources entities is selected. Alternatively, you can click directly a row in the list to edit a data source directly. The *Map attributes* wizard is displayed.
+    Click this button to edit the selected data source. This button is only displayed if a single checkbox in the list of data sources entities is selected. Alternatively, you can directly click a row in the list to edit a data source directly. The *Map attributes* wizard is displayed.
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)    
     Click this button to remove the selected data source from the list of data sources available for your exporter definition. This button is only displayed if a single checkbox in the list of data sources is selected.
@@ -250,7 +250,7 @@ The wizard window for creating source entities and doing the mappings is display
 
 ![Map attributes](../../Assets/Screenshots/EDI/UserInterface/MapAttributes.png "[Map attributes)]")
 
-This step is also displayed, when you select a data source for editing. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
+This step is also displayed when you select a data source for editing. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
 
 >[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides, because the wizard contains only those functions that are relevant for export message mappings.
 

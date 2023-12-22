@@ -96,7 +96,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26*   
     Alternatively, you can copy the two parts from the header file message structure.  
 
-    >[INOF] Note that depending on the EDIFACT version, the line items (LIN segment) are included in different groups, such as the SG26 or SG27 group.
+    >[INOF] Note that depending on the EDIFACT version, the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
 

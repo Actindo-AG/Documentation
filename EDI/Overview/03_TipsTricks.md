@@ -9,7 +9,7 @@ UN/EDIFACT (in the following short EDIFACT) is a cross-industry international st
 
 The EDIFACT standard defines a scheme according to which messages should be structured. It is used for data exchange and transfer between business partners, for example invoice or order data. The standard defines a list of messages such as ORDERS, INVRPT, INVOIC, DELFOR, etc. which are used for specific purposes. For example, an INVRPT represents an inventory report.   
 
-The EDIFACT standard is available in different versions. Every year a new version is released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version that your business partner has specified in the *DataHub Exporter* module.   
+The EDIFACT standard is available in different versions. Every year a new version is released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version specified by your business partner in the *DataHub Exporter* module.   
 
 Note that the structure of the format is standardized, not the usage. As a result, each user/business partner defines individually the data to be provided for the message structure. This also applies to the classification of the segments and fields (mandatory, required, optional and others), which may sometimes differ from the EDIFACT standard.   
 >[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you must send the messages, such as your supplier, your customer, or your fulfillment partner.
@@ -31,7 +31,7 @@ Note that the structure of the format is standardized, not the usage. As a resul
 
       ![Mandatory segments of the EDIFACT standard](../../Assets/Screenshots/EDI/Overview/OptionalSegment.png "[Mandatory segments of the EDIFACT standard]")
 
-    - Depending on the business partner, there are deviations from the standard:    
+    - There are deviations from the standard depending on the business partner:    
         - Some segments are required (R), even if it is not mandatory in the EDIFACT standard message definition.  These are then usually indicated with **R** (required) in contrast to **M** (mandatory) of the EDIFACT standard. 
         - The reverse situation is also possible. Sometimes the business partners do not want to have mandatory segments of the EDIFACT message filled.
         *Actindo* highlights a segment in red, if mandatory parts are not filled according to the EDIFACT standard. However, *Actindo* still sends the message, even if parts defined as mandatory by EDIFACT are missing.  

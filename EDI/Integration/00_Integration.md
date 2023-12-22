@@ -1,6 +1,6 @@
 # Integration
 
-In this part of the *EDIFACT* documentation, you will find the following chapter:
+In this part of the *EDIFACT* documentation, you will find the following chapters:
 
 - [Manage connections](./01_ManageConnections.md)
    - [Create connection](./01_ManageConnections.md#create-connection)
