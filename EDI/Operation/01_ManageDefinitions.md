@@ -42,7 +42,7 @@ Define basic data for the export definition. You must define a definition settin
 
 2. Enter a label for the definition. It might be useful to choose a name that contains the following:      
     - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. Therefore, the prefix EDIFACT may be useful to distinguish these attribute set mappings from others.  
-    - The information if it is the header or the line items of the message.   
+    - The information if it is the header definition or the line item definition of the message.   
     - The message type (for example, INVOIC)   
     - The direction (Export)   
     - The business partner name  
@@ -57,9 +57,9 @@ Define basic data for the export definition. You must define a definition settin
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
 5. Enter the access key of your connection in the *Access key* field.
-     The access key is a key that you can give to your business partner so that s/he can access your *Actindo* tenant without having to log in. You can freely specify any string.
+     The access key is a key that you can give to your business partner so that s/he can access your *Actindo* tenant without having to log in. You can freely specify any string.  
 
-> [Info] If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
+     If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
 6. Click the *File settings* tab.  
     The *File Settings* tab is displayed.
@@ -73,7 +73,7 @@ Define basic data for the export definition. You must define a definition settin
 9. Click the [SAVE] button.   
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
-    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
+    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab will be displayed in addition. 
 
 
 ## Edit basic definition settings 
@@ -146,13 +146,9 @@ After you have configured the entire definition including the file settings, you
 
     ![Preview](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreview.png "[Preview]")
 
-<!----Weglassen? 
-3. If desired, and you do not want to define the preview attributes before, click the *Export all* toggle to preview all definitions at once. Prerequisite for this is that the *Entity type* in the *Data source* definition is filled, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
-    The window displays the *Preview all* toggle only.
+3. Ignore the *Export all* toggle. It is relevant for mass transports only.
 
-    ![Preview all](../../Assets/Screenshots/EDI/Operation/ExportDefinitionPreviewAll.png "[Preview all]")-->
-
-3. Click the *Entity type* drop-down list and select the data sources you currently use for this definition, for example the **Retail suite business document** respectively the **Retail suite business document position** data source. 
+3. Click the *Entity type* drop-down list and select the data sources you currently use for this definition, for example the **Retail suite business document** or the **Retail suite business document position** data source. 
 
 4. Enter **31** in the *Primary identifier* field.
 
@@ -165,7 +161,7 @@ After you have configured the entire definition including the file settings, you
 
 ## Activate definition
 
-Activate the definition to be able to send EDIFACT messages to the business partner.
+After you have configured the entire header and line item definitions including the file settings, activate the definition to be able to send EDIFACT messages to the business partner.
 
 #### Prerequisites
 
@@ -174,6 +170,7 @@ Activate the definition to be able to send EDIFACT messages to the business part
 - You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
 - You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).
 - You have sent the preview to the customer to validate whether the message structure is correct and sufficient, see [Preview definition](#preview-definition).
+- You have prepared the related workflow to send the messages when they are is needed in the process, see [Prepare workflow](../Operation/07_PrepareWorkflow.md).
 
 #### Procedure
 

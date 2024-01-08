@@ -2,7 +2,7 @@
 
 # Manage mapping settings
 
-The mapping settings define some basic data that is needed to be able to send EDIFACT message the *Actindo* to your business partner.
+The mapping settings define some basic data that is needed to be able to send EDIFACT message from *Actindo* to your business partner.
 
 ## Create mapping setting
  Create the mapping settings.
@@ -28,11 +28,11 @@ At least one definition setting has been created, see [Create basic definition s
 
 4. Enter the standard encoding (for example, UTF-8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the conversion. 
 
-5. Enter your company's GLN (Global location number) in the *Sender* field. This information is used for the EDIFACT UNB S002 (Interchange sender) segment that is automatically filled by the exporter.
+5. Enter your company's GLN (Global location number) in the *Sender* field. This information is used for the EDIFACT UNB S002 (Interchange sender) segment that the exporter fills automatically.
 
 6. If your business partner requires it, enter the identification code qualifier in the *Sender identification code qualifier* field. 
 
-7. Enter the GLN number of the receiver's company in the *Receiver* field. This information is used for the EDIFACT UNB S003 (Interchange recipient) segment that is automatically filled by the exporter.
+7. Enter the GLN number of the receiver's company in the *Receiver* field. This information is used for the EDIFACT UNB S003 (Interchange recipient) segment that the exporter fills automatically.
   
 8. Click the [SAVE] button.   
    The *Exporter definitions* view is displayed. 

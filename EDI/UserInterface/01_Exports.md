@@ -18,16 +18,20 @@ The following functions are available in the list header of the *Exporter defini
     Click this button to update the list of exporter definitions.
 
 - *VIEW*   
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md).  
+    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md) in the *Actindo Core1* documentation.  
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all exporter definitions in the list are selected.
 
-- [DELETE]  
-    Click this button to delete the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected.
-   
+- [PREVIEW]   
+   Click this button to create a preview of an exporter definition. For detailed information, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition). 
+
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can directly click a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+
+- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+    Click this button to delete the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected.
+   
 
 The list displays all available exporter definitions. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -51,7 +55,7 @@ The list displays all available exporter definitions. Depending on the settings,
    Preview of the message fields. IF you click on this link a Browser window is opened which contains the already defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
    
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add an exporter definition. The *Edit definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+    Click this button to add an exporter definition. The *Create definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
 
 
 ## Create exporter definition
@@ -72,13 +76,13 @@ The list displays all available exporter definitions. Depending on the settings,
    Enable this toggle to activate the exporter definition after you have finished configuring it. Disable this toggle if you no longer want to use the exporter definition.
 
 - *Template engine*   
-   Use this drop-down list to select the engine with which *Actindo* shall process the message. For EDIFACT messages, the **XmlExportTemplateEngine** is used.
+   Use this drop-down list to select the engine with which *Actindo* shall process the message. For EDIFACT messages, the **XmlExportTemplateEngine** is used. This field is read-only after you have saved a newly created definition.
 
 - *Default connection*    
   Edit the connection that you have created for the receiver of the message, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
   
 - *Access key*  
-   Use the access key to give your business partner a key so that s/he can access your *Actindo* tenant without having to log in to request specific data. You can freely specify any string.
+   Use the access key to give your business partner a key so that s/he can access your *Actindo* tenant without having to log in to request specific data. You are free to specify any string.
   
 - [CANCEL]   
    Click this button to finish the exporter definition creation without saving it. The *Create definition* view is closed.
@@ -102,28 +106,15 @@ The list displays all available exporter definitions. Depending on the settings,
 - [SAVE]   
    Click this button to save the exporter definition. The *Create definition* view is closed.
 
+For all other fields, see [Create exporter definition](#create-exporter-definition).
+
 ## Settings tab   
 
 *DataHub Exporter > Exports > Select export definition > Tab Settings*
 
 ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
-Use the *Settings* tab to edit the basic settings of the exporter definition.
-
-- *Label*   
-   Edit the name of the exporter definition.
-
-- ![Active](../../Assets/Icons/Toggle.png "[Active]") (Active)   
-   Enable this toggle to activate the exporter definition after you have finished configuring it. Disable this toggle if you no longer want to use the exporter definition.
-
-- *Template engine*   
-   Use this drop-down list to select the engine with which *Actindo* shall process the message. For EDIFACT messages, the **XmlExportTemplateEngine** is used.
-
-- *Default connection*
-  Edit the connection that you have created for the receiver of the message, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
-  
-- *Access key*  
-   Edit the access key, if desired and inform your business partner on this change.
+Use the *Settings* tab to edit the basic settings of the exporter definition. See [Create exporter definition](#create-exporter-definition) for a description of all fields and functions.
 
 
 ## File settings tab  
@@ -162,8 +153,11 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of exporter definitions.
 
+- ![Change sorting](../../Assets/Icons/Sort02.png "[Change sorting]") (Change sorting)   
+   Click this button change the sorting of the data sources. The *Data sources (Sorting mode)* view is displayed.
+
 - *VIEW*   
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md).  
+    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md) in the *Actindo Core1* documentation.  
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
@@ -177,8 +171,6 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)    
     Click this button to remove the selected data source from the list of data sources available for your exporter definition. This button is only displayed if a single checkbox in the list of data sources is selected.
    
-- ![Change sorting](../../Assets/Icons/Sort02.png "[Change sorting]") (Change sorting)   
-   Click this button change the sorting of the data sources. The *Data sources (Sorting mode)* view is displayed.
 
 -  ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
     Click this button to add a *Source entity* with which you can map the EDIFACT definition fields. The *Select source* wizard is displayed.
@@ -190,7 +182,7 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
    Attribute set that represents the source entity you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* attribute set. 
 
 - *Sorting*
-   ???
+   This field is relevant for mass exports only.
 
 
    
@@ -200,7 +192,7 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
 
 ![Data sources (Sorting mode)](../../Assets/Screenshots/EDI/UserInterface/DataSourcesSortingMode.png "[Data sources (Sorting mode)]")
 
-The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities.
+The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities. This is relevant for mass exports only.
 
 - *Source entity*   
    Entity that defines the source you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* entity. 
@@ -209,7 +201,7 @@ The *Data sources (Sorting mode)* view enables you to change the sorting of the 
    Attribute set that represents the source entity you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* attribute set. 
 
 - *Sorting*   
-   ???
+   Number that represents the sequence in which the source entities are processed.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
    Click this button and drag and drop the source entity to the position you prefer.

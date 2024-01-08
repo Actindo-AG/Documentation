@@ -39,7 +39,7 @@ Create a connection to a certain EDIFACT message receiver.
 
     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ.
 
-4. Enter the required data in the *Credentials* section fields. Use the information you received from the message receiver to fill the credentials.
+4. Enter the required data in the *Credentials* section fields. Use the information you received from the business partner to fill the credentials.
 
 5. Click the [SAVE] button.   
     The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Sync triggered successfully* window is displayed. 

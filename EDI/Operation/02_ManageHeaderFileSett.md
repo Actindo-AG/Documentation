@@ -197,7 +197,7 @@ This procedure shows how to edit message dates. The message dates require both t
 
 7. Enter the text value and click the [SAVE] button.  
     This *S_DTM* segment has been finished.
-    - To the right of the *D_1004* row, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
+    - To the right of the currently edited rows, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
      - To the right of both the *S_BGM C_C106* and the *S_DTM* segment, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
     - Both the *S_BGM C_C106* and the *S_DTM* segment is now highlighted with a small black border. This indicates that the segment contains data.     
     - The string attribute has been marked for a later data mapping. 
@@ -246,7 +246,7 @@ This procedure shows both how to add individual textual information and addition
 
 4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.
 
-5. Enter a free text in the *C_4440* row. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
+5. Enter a free text in the *D_4440* row. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *C_4440* row.  
     The *Set text value* pop-up window is displayed.
 
 6. Enter the free text, for example "Please note our changed bank details". You can enter up to five lines.
@@ -330,11 +330,11 @@ This procedure shows how you must prepare the line item section of the message, 
 
 1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions of the INVOIC, the LIN segment is included in group 27, in older versions it is in group 26.
 
-2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27*.
+2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* or *G_INVOIC_13B_SG27*.
 
-3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_07A_SG27* row. 
+3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_13B_SG27* row. 
     - The segment is highlighted with a small black border. You cannot expand it.      
-    - Another *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* row has been added. You can ignore it.      
+    - Another *G_INVOIC_07A_SG26* or *G_INVOIC_13B_SG27* row has been added. You can ignore it.      
     - The EDI Export SG26/SG27 *Destination attribute* has been marked for a later data mapping.
 
 4. Click the [SAVE] button.    
@@ -359,7 +359,7 @@ This procedure shows how you must prepare the line item section of the message, 
 
 ## Edit header file settings
 
-To edit the header file settings, you must remove the data you have provided for a segment respectively a segment row before you can change the data.
+In order to edit header file settings, you must remove the data you have provided for a segment respectively a segment row before you can change the data.
 
 #### Prerequisites
 
