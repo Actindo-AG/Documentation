@@ -7,19 +7,22 @@
 
 # Configure the stock withdrawal matrix
 
-The stock withdrawal matrix is designed to determine automatically from which warehouse and under which conditions stock is withdrawn. Usually, the main parameters are country of delivery and sales channel, but the following parameters can also be configured: 
+The stock withdrawal matrix is designed to determine automatically from which warehouse and under which conditions stock is withdrawn. Usually, the main parameters are the country of delivery and the sales channel, but the following parameters can also be configured: 
 
-- Product group
-- Sales channel: the output channel via which you want to create offers, for example the *Omni-Channel* module 
-- Account: the connection used in Omni-Channel, for example, Commerce Cloud or POS 
-- Sub account: the web shop where the order is placed, for example, the online store in Germany or in the US
-- Shipping provider, for example, in case of express delivery, the material can be taken from a warehouse, and in case of standard delivery, from a different one
+- Product group: a product included in a specific product group is ordered 
+- Sales channel: the output channel via which you want to create offers, for example, the *Omni-Channel* module 
+- Account: the connection used in the *Omni-Channel* module, for example, Salesforce Commerce Cloud or POS 
+- Sub-account: the shop where the order is placed, for example, the online store in Germany or in the US
+- Shipping provider: in case of express delivery, for example, the material is taken from a warehouse, and in case of standard delivery, from a different one
 - Warehouse: the specific warehouse where the stock should be withdrawn
-- Warehouse group: if desired, you can also specify only the warehouse group where the stock should be withdrawn 
+- Warehouse group: if desired, you can also specify only the warehouse group where the stock should be withdrawn from
 
  > [Info] When both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
 
-The stock withdrawal matrix is a so-called priority list, that is, a list of criteria arranged in descending order based on their priority. Therefore, the correct order of these criteria is crucial, as the system goes through them in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. For example, if two entries have the same matching criteria, the system withdraws the stock from the one warehouse that comes first until there is no more materials in stock, then it goes to the next one.   
+The stock withdrawal matrix is a so-called priority list, that is, a list of criteria arranged in descending order based on their priority. Therefore, the correct order of these criteria is crucial, as the system goes through them in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. For example, if two entries have the same matching criteria, the system withdraws the stock from the one warehouse that comes first until there is no more materials in stock, and then it goes to the next one.   
+
+[comment]: <> (Product group noch relevant? Product group wird in Artikelverwaltung konfiguriert, aber noch im Einsatz? Oder kann man auch in PIM?)
+
 
 
 ## Create an entry
@@ -50,10 +53,10 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
 
 [comment]: <> (Julian: Ist diese Funktion noch aktuell oder wird es abgebaut? Ich kann eine Gruppe erstellen und wird auch in der Lagerentnahme-Matrix angezeigt, aber wie kann ich Produkte zur Gruppe hinzufügen? In Artikelverwaltung ist die Option ausgegraut. Keine Doku von Artikelverwaltung. Ähnliche Funktion in PIM? Oder in Fakturierung?)
 
-4. Double-click the field in the *Sales channel* column and select the applicable output channel via which you want to create offers. The following options are available. 
+4. Double-click the field in the *Sales channel* column and select the applicable output channel via which you want to create offers. The following options are available: 
 
     - **All**  
-        Select this option to include all
+        Select this option to include all sales channels.
     - **None**  
         Select this option if your warehouse is managed by a fulfiller.
     - **Core 1 Channels**  
@@ -75,12 +78,12 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
 
 9. If desired, double-click the field in the *Warehouse group* column and select the applicable warehouse group where the stock should be withdrawn from. All available warehouses are displayed in the list. 
 
-    > [Info] You can indicate the warehouse group, more generally, or specify more precisely the exact warehouse within a warehouse group, where the stock is taken from. When both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
+    > [Info] You can indicate the warehouse group generally or specify more precisely the exact warehouse within a warehouse group where the stock has to be taken from. When both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
 
 10. Click the [SAVE ASSIGNMENTS] button in the bottom right corner.   
     The entry in the stock withdrawal matrix is saved.
 
-    > [Info] If necessary, repeat steps **1** to **9** to add further entries.
+    > [Info] Repeat steps **1** to **9** to add further entries.
 
 
 ## Edit an entry
@@ -99,23 +102,36 @@ An entry has been created, see [Create an entry](#create-an-entry).
 
 1. Select the entry you want to edit.
 
-2. If necessary, edit the settings as described in the following:
-
-    + Select the option **--all--** in the drop-down list in the *Product group* column.
-
-    + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
-
-    + Select the option **--all--** in the drop-down list in the *Sub-account* column.
-
-    + Select the option **--all--** in the drop-down list in the *Shipping provider* column.
-
-    + Select the warehouse from which you want to take the stock in the drop-down list in the *Warehouse* column.
-
+2. Edit the settings as necessary by double-clicking in the corresponding field.  
+    
+    > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.
+    
 3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
     The new assignment in the stock withdrawal matrix is saved.
 
 
----
+## Delete an entry
+
+Once you have created an entry, you can edit it.
+
+#### Prerequisites  
+
+An entry has been created, see [Create an entry](#create-an-entry). 
+
+#### Procedure
+
+*Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
+
+![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
+
+1. Select the entry you want to edit.
+
+2. Edit the settings as necessary by double-clicking in the corresponding field.  
+    
+    > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.
+    
+3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
+    The new assignment in the stock withdrawal matrix is saved.
 
 
 

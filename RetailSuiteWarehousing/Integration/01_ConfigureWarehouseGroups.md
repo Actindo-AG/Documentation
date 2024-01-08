@@ -3,7 +3,7 @@
 
 # Configure the warehouse groups
 
-A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically separated from each other and, therefore, one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
+A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically and conceptually separated from each other and, therefore, one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
 
 Warehouses can be created, edited and deleted.
 
@@ -137,6 +137,9 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
+    > [Caution] **Potential loss of data**    
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
+
 2. Modify any settings as necessary in the applicable fields.  
 
     > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while saving: There are warehouses in this warehouse group.*
@@ -148,7 +151,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
 ## Delete a warehouse group
 
-Once you have created a warehouse group, you can delete it. 
+Once you have created a warehouse group, you can delete it if it is no longer needed. 
 
 #### Prerequisites
 
@@ -165,7 +168,10 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
-2. Click the [DELETE] button.
+    > [Caution] **Loss of data**  
+        Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
+
+2. Click the [DELETE] button.   
     The warehouse group is deleted and is no longer displayed in the left side bar in the *Warehouse master data* sub-tab.
     
     > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while deleting: There are warehouses in this warehouse group.* In this case, you have to delete the warehouses included in the warehouse group first, see [Delete a warehouse](#delete-a-warehouse).

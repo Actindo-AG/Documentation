@@ -2,11 +2,12 @@
 
 # Configure the storage shelves 
 
-Warehouses are subdivided into storage shelves, from which stock is actually posted. Storage shelves are, therefore, subordinate storage areas within a warehouse that can contain one or several materials. This depends on the warehouse settings. To modify the amount of materials per shelf, see [Edit a warehouse](./02_ConfigureWarehouses.md#edit-a-warehouse).
+Warehouses are subdivided into storage shelves, from which stock is actually posted. A storage shelf is, therefore, a subordinate storage area within a warehouse that can contain one or several materials. This depends on the warehouse settings. To modify the amount of materials per shelf, see [Edit a warehouse](./02_ConfigureWarehouses.md#edit-a-warehouse).
 
-Each material can be stored in several storage shelves and different warehouses, but they can only have one primary storage shelf, that is, the main storage location. When an order is received, stock is taken from the primary storage shelf automatically, as long as the ordered material is in stock, and no configuration is stored in the stock withdrawal matrix or no configuration matches the criteria.
+Each material can be stored in several storage shelves and different warehouses, but they can only have one primary storage shelf, that is, one main storage location. When an order is received, stock is taken from the primary storage shelf automatically, as long as the ordered material is in stock, no other configuration is stored in the stock withdrawal matrix, or no configuration matches the criteria.
 
-The first storage shelf that is created is automatically set as primary. If, subsequently, another storage shelf is created and set as primary, by clicking in the *is primary storage* checkbox, then the previous primary storage shelf is no longer set as primary.
+The first storage shelf that is created is automatically set as primary. If, subsequently, another storage shelf is created and set as primary, by clicking the *is primary storage* checkbox, then the previous primary storage shelf is no longer set as primary.
+
 
 
 ## Create a storage shelf  
@@ -41,7 +42,7 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 
     > [Info] The primary storage shelf is marked with **1** in the **is primary storage shelf** column in the *Storage locations* section. 
 
-5. If you want to create a storage shelf for blocked storage, click the *Blocked storage* drop-down list and select appropriate material conditions. The following options are available:  
+5. If you want to create a storage shelf for blocked storage, click the *Blocked storage* drop-down list and select the applicable material conditions. The following options are available:  
 
     - **ALL CONDITIONS**  
     - **NO ORIGINAL PACKAGING**  
@@ -86,7 +87,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 3. Select or deselect the **is primary storage shelf** checkbox as necessary to change the storage shelf setting.  
     
-    > [Info] Note that the *Warehouse ID* und the *Blocked storage* settings cannot be changed for existing warehouse storage shelves. If you need to do it, you have to create a new warehouse shelf with the desired settings.   
+    > [Info] The *Warehouse ID* und the *Blocked storage* settings cannot be changed for already existing warehouse storage shelves. In this case, you have to create a new warehouse shelf with the desired settings.   
 
 4. Click the [SAVE] button.  
     The notice *Please wait... Saving...* is displayed. The changes are displayed in the list in the *Storage locations* section. 
@@ -118,8 +119,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
-    The notice *Please wait... Saving...* is displayed.  
-    The deleted storage shelf is no longer displayed in the list in the *Storage locations*.  
+    The notice *Please wait... Saving...* is displayed. The deleted storage shelf is no longer displayed in the list in the *Storage locations*.  
 
     > [Info] If you try to delete a primary storage shelf, a confirmation window is displayed with the notice "Do you really want to delete the main storage location?". The deletion of a primary storage shelf is also possible, and the system will assign another storage shelf as primary. It is recommended ...
 

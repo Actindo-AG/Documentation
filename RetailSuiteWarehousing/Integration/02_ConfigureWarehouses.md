@@ -1,8 +1,10 @@
 # Configure the warehouses
 
-In contrast to a warehouse group, a warehouse is a specific storage area that can be assigned, or not, to a specific warehouse group. If a warehouse is not assigned to any warehouse group, it will be listed under the general *No warehouse group* in the left side bar. 
+A warehouse is a subordinate storage area within a warehouse group used for a specific purpose, such as sales, returns, or blocked stock. A warehouse can be assigned, or not, to a specific warehouse group. If a warehouse is not assigned to any warehouse group, it will be listed under the general *No warehouse group* in the left side bar. 
 
 Warehouses can be created, edited and deleted.
+
+
 
 ## Create a warehouse
 
@@ -10,9 +12,7 @@ Create one or more specific warehouses from which the stock is taken.
 
 #### Prerequisites
 
-A warehouse group is created, see [Create a warehouse group](#create-a-warehouse-group).
-
-[comment]: <> (Nicht unbedingt, wenn keine Gruppe, kann man immer noch no warehouse group auswählen)
+No prerequisites to fulfill.
 
 #### Procedure
 
@@ -20,18 +20,18 @@ A warehouse group is created, see [Create a warehouse group](#create-a-warehouse
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
-1. Click the button [NEW WAREHOUSE].   
+1. Click the [NEW WAREHOUSE] button.   
     The *Basic data* tab is displayed on the right side.
 
      ![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
 2. Enter a number for the warehouse in the *Warehouse* field. This is the warehouse ID.
 
-3. Select the warehouse group in the *Warehouse group* drop-down list.  
+3. If desired, select the warehouse group in the *Warehouse group* drop-down list.  
     
     > [Info] If you do not select a warehouse group, the warehouse will be included in the **No warehouse group**.
 
-[comment]: <> (C&CS Trainig: Heusels Sandbox hat eine zusätzliche Drop-down-Liste Lager-Typ. Trifft die noch zu? Elemente in der Liste: Kommisionierlager, Nachschubslager, Transferlager, Sperrlager)
+[comment]: <> (C&CS Training: Heusels Sandbox hat eine zusätzliche Drop-down-Liste Lager-Typ. Trifft die noch zu? Elemente in der Liste: Kommisionierlager, Nachschubslager, Transferlager, Sperrlager)
 
 4. Enter a name for the new warehouse in the *Designation* field.
 
@@ -74,6 +74,9 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
     ![Edit warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/EditWarehouseBasicData.png "[Edit warehouse basic data]")
 
+    > [Caution] **Potential loss of data**   
+    Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
+
 2. Modify any settings as necessary in the applicable fields.  
 
 3. Click the [SAVE] button.  
@@ -102,9 +105,10 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
     ![Edit warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/EditWarehouseBasicData.png "[Edit warehouse basic data]")
 
-2. Modify any settings as necessary in the applicable fields.  
+    > [Caution] **Loss of data**  
+        Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
-3. Click the [DELETE] button.  
+2. Click the [DELETE] button.  
     The warehouse is deleted and is no longer displayed in the left side bar in the *Warehouse master data* sub-tab.
     
     > [Info] If the warehouse has already been included in the stock allocation matrix, the warehouse cannot be deleted. A window with the following error message is displayed: *Error deleting: There are warehouse allocations in this warehouse.* In this case, you have to ... first, see [To be determined](#to-be-determined).
