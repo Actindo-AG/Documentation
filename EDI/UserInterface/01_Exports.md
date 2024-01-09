@@ -144,7 +144,7 @@ Use the *File settings* tab to specify the EDIFACT message fields and segments t
 
 ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
-Use the *Data sources* tab both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping.
+Use the *Data sources* tab both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping. This tab is only visible if you have successfully saved both the settings and the file settings in the corresponding tabs.
 
 **LIST Exporter definition sources**   
 
@@ -181,7 +181,7 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
 - *Source attribute set*   
    Attribute set that represents the source entity you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* attribute set. 
 
-- *Sorting*
+- *Sorting*   
    This field is relevant for mass exports only.
 
 
@@ -192,7 +192,7 @@ The *Exporter definition sources* view contains a LIST view that lists all expor
 
 ![Data sources (Sorting mode)](../../Assets/Screenshots/EDI/UserInterface/DataSourcesSortingMode.png "[Data sources (Sorting mode)]")
 
-The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities. This is relevant for mass exports only.
+The *Data sources (Sorting mode)* view enables you to change the sorting of the source entities. This is relevant for mass exports only and defines the sequence in which the source entities are processed.
 
 - *Source entity*   
    Entity that defines the source you want to map to the destination fields of the EDIFACT message, for example the *Retail suite business document* entity. 
@@ -232,7 +232,7 @@ The wizard window for creating source entities and doing the mappings is display
    Click this button to finish the wizard without saving it. The *Select source* wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to save your settings. The *Map attributes* wizard window is displayed (see below). 
+   Click this button to go one step forward. The *Map attributes* wizard window is displayed (see below). 
 
 ### Step 2: Map attributes
 
@@ -244,13 +244,13 @@ The wizard window for creating source entities and doing the mappings is display
 
 This step is also displayed when you select a data source for editing. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
 
->[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides, because the wizard contains only those functions that are relevant for export message mappings.
+>[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant for export message mappings.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to save your settings. The *Optional: Filter items* wizard step is displayed (see below). 
+   Click this button to go one step forward. The *Optional: Filter items* wizard step is displayed (see below). 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -263,13 +263,13 @@ This step is also displayed when you select a data source for editing. For detai
 
 ![Optional: Filter items](../../Assets/Screenshots/EDI/UserInterface/OptionalFilterItems.png "[Optional: Filter items]")
 
-This step is currently not in use. In general, it is only relevant for mass exports
+This step is currently not in use. In general, it is only relevant for mass exports.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to save your settings. The *Select additional data* wizard step is displayed (see below). 
+   Click this button to go one step forward. The *Select additional data* wizard step is displayed (see below). 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -292,7 +292,7 @@ Use this step to enter additional data such as the limit of line items to be out
    Click this button to finish the wizard without saving it. The wizard window is closed.
 
 - [FINALIZE]   
-   Click this button to finalize your settings. The wizard is closed.  The *Exporter definitions* view is displayed. Do not forget to save your settings. 
+   Click this button to finalize your settings. The wizard is closed. The *Edit definition* view is displayed. Do not forget to save your settings. 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -304,17 +304,17 @@ Use this step to enter additional data such as the limit of line items to be out
 
 ![Edit mapping settings](../../Assets/Screenshots/EDI/Operation/MappingSettingsCreated.png "[Edit mapping settings]")
 
-Use the *Mapping settings* tab to specify some basic data that is needed to be able to map the *Actindo* data source attributes with the EDIFACT massage fields.
+Use the *Mapping settings* tab to specify some basic data that is needed to be able to send the EDIFACT message. This tab is only visible if you have successfully saved both the settings and the file settings in the corresponding tabs.
 
 
 - *Return format*   
    Edit this drop-down list to select the return format. Use *EDI* for EDIFACT massages. 
 
  - *Convert to charset (Iconv)*   
-   Edit the standard encoding your business partner require, for example UTF-8.
+   Edit the standard encoding your business partner require, for example UTF-8. The *DataHub Exporter* needs this information to convert the message correctly.
 
  - *Sender*   
-   Edit your company's GLN (Global location number), if desired.
+   Edit your company's GLN (Global location number).
 
 - *Sender identification code qualifier*   
    Edit your company's identification code qualifier, if desired
@@ -323,10 +323,10 @@ Use the *Mapping settings* tab to specify some basic data that is needed to be a
    Edit the GLN number of the message receiver.
 
 - [CANCEL]    
-   Click this button to finish mappings settings without saving it. The *Exporter definitions* view is displayed.
+   Click this button to finish the mappings settings without saving it. The *Exporter definitions* view is displayed.
 
 - [SAVE]   
-   Click this button to save the sorting. The *Exporter definitions* view is displayed.
+   Click this button to save the mapping settings. The *Exporter definitions* view is displayed.
 
 
 

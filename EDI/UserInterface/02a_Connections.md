@@ -52,7 +52,7 @@ The list displays all available connections. Depending on the settings, the disp
     Driver name.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a *BigCommerce* connection. The *Create connection* view is displayed, see below.
+    Click this button to add a *DataHub Exporter* connection. The *Create connection* view is displayed, see below.
 
 
 
@@ -124,7 +124,7 @@ This section is only displayed for drivers with further credentials. The fields 
 
 ![Edit DataHub Exporter credentials](../../Assets/Screenshots/EDI/UserInterface/CreateConnectionCredentials.png "[Edit DataHub Exporter credentials]")
 
-This tab is only displayed for drivers with further credentials.
+This section is only displayed for drivers with further credentials.
 
 **Credentials**
 
