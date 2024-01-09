@@ -1,6 +1,6 @@
 # General information
 
-With the help of the payment platform Adyen, you can offer your customers all their preferred payment methods - with the help of just one service provider. Through the integration to the Actindo Payment Module, you have a complete overview of all payments made via Adyen from all sales channels and can easily transfer them to Actindo Accounting. 
+With the help of the *Adyen*&trade; payment platform, you can offer your customers all their preferred payment methods - with the help of just one payment service provider. Through the integration to the *Payments* module, you have a complete overview of all payments made via Adyen from all sales channels and can easily transfer them to the *Accounting* module. 
 
 The payment service provider *Adyen*&trade; provides merchants a single platform to accept payments, protect revenues, and control finances. It offers an all-in-one online payment solution built for business, which means that all the different ways to pay online are supported, such as credit cards, invoice, prepayment.?? It integrates popular payment service providers such as Amazon Pay&trade;, Paypal&trade; and much more.
 
