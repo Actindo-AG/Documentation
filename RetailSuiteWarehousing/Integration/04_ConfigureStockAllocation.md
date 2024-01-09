@@ -2,7 +2,7 @@
 [!!User interface to be completed](../UserInterface/XX_tobecompleted.md)
 [!!Manage the attributes](../../PIM/Integration/01_ManageAttributes.md)
 
-# Stock allocation
+# Configure the stock allocation
 
 The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
 
@@ -22,7 +22,6 @@ Depending on the configured target channels and warehouses, the displayed column
 [comment]: <> (Stimmt der letzte Punkt? Trotzdem funktioniert bei mir nicht. Warum? Was fehlt?)
 
 #### Procedure 
-
 
 1. Select the row with the stock allocation attribute name corresponding to the desired target channel in the *Target channel* column.
 
