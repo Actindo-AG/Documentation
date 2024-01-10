@@ -11,19 +11,17 @@ Before you can post stock for a material, you have to activate the warehouse log
 
 ## Activate the warehouse logistics for a product
 
-All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, not all products displayed in the product list are actually kept in stock.
-
-A product is not relevant for the warehouse logistics by default. To be able to post stock for a material corresponding a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product. 
+All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, a product is not relevant for the warehouse logistics by default. To be able to post stock for a material corresponding to a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product. 
 
 Once you have activated the warehouse logistics for a selected product, the sub-tab *Warehouse/suppliers* is displayed. As soon as a stock amount has been posted, the warehouse logistics cannot be deactivated for this product any more. 
 
-Warehouse logistics cannot be activated for the following products:  
+Not all products displayed in the product list are actual items kept in stock. Warehouse logistics cannot be activated for the following products:  
 
 - Master product  
-    A master product is a superordinate (parent) entity that has subordinate (child) entities, that is, the product variants. A master product is an abstract entity that represents an object; the product variants, on the other hands, are the actual products, in all its variants, that are on sale. For example, the master product "t-shirt" can have the different product variants, for instance a red t-shirt in M size and blue t-shirt in L size.
+    A master product is a superordinate (parent) entity that has subordinate (child) entities, that is, the product variants. A master product is an abstract entity that represents an object; the product variants, on the other hands, are the actual products, in all its variants, that are on sale. For example, the master product "T-shirt" can have the different product variants, for instance a red T-shirt in M size and blue T-shirt in L size.
 
 - Product bundle  
-    A bundle is a set of product that are sold together. However, they are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
+    A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
 
 [comment]: <> (Artikel im Lager kommen noch aus Artikelverwaltung, das noch im Hintegrund arbeitet. In Doku erklären? Terminologie problematisch: Hier ist immer die Rede von Artikel oder Produkt. Ausdrücklich in der Doku erklären: PIM Product-> OC Offer -> Warehousing Material)
 
@@ -66,7 +64,7 @@ Stock postings are usually performed automatically by the system, triggered by t
 You can create a manual posting for a single material or for multiple materials at once.
 
 
-### Manual posting of a single material  
+### Manual stock posting of a single material  
 
 You can create a manual posting of a selected single material.
 
@@ -95,9 +93,9 @@ The warehouse logistics has been activated for the selected material, see [Activ
 
     ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]") 
 
-2. Click the *Stock location* drop-down list and select the storage shelf where you want to post the stock. All available storage shelves for this material are displayed in the list.
+4. Click the *Stock location* drop-down list and select the storage shelf where you want to post the stock. All available storage shelves for this material are displayed in the list.
 
-3. Click the *Posting type* drop-down list and select the desired posting type. Depending on the option you select, the fields displayed below may slightly vary. The following options are available:
+5. Click the *Posting type* drop-down list and select the desired posting type. Depending on the option you select, the fields displayed below may slightly vary. The following options are available:
 
     - **Reservation**   
         Select this option if you want to reserve a material for an open order. This posting type does not reduce the actual, physical stock in the warehouse, but does affect the available stock calculation. A reservation can therefore result in a negative stock level.
@@ -133,26 +131,26 @@ The warehouse logistics has been activated for the selected material, see [Activ
 
 [comment]: <> (Stimmt das so mit pre-reservations? Vgl. mit Stock history tab)
 
-3.  If you have selected the *Stock transfer* posting type, click the *New stock location* drop-down list and select the destination storage shelf. Otherwise, proceed to next step.
+6.  If you have selected the *Stock transfer* posting type, click the *New stock location* drop-down list and select the destination storage shelf. Otherwise, proceed to next step.
 
-4. Check the material amount in the *Change* field and enter a different material amount if necessary.  
+7. Check the material amount in the *Change* field and enter a different material amount if necessary.  
     The *Old stock*, *Old total stock*, *New stock* and *New total stock* fields are updated accordingly. All these fields are read-only and are updated automatically. 
 
     > [Info] Depending of the posting type, the sign changes. A positive value means a receipt of materials, whereas a negative value means the dispatch of materials. The amount posted is in turn added or removed to the old and new stock values.  
 
-5. Click the *Posting date* field and enter the desired date with your keyboard. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
+9. Click the *Posting date* field and enter the desired date with your keyboard. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
 
-6. If desired, add a comment to the posting in the *Comment* field.
+10. If desired, add a comment to the posting in the *Comment* field.
 
-7. If you have selected the *Sale* or *Purchase* posting types, you can enter a customer or supplier name, as well as the net sale or purchase price in the corresponding fields.
+11. If you have selected the *Sale* or *Purchase* posting types, you can enter a customer or supplier name, as well as the net sale or purchase price in the corresponding fields.
 
-8. Click the [SAVE & NEW] button.  
+12. Click the [SAVE & NEW] button.  
     The posting has been saved. The stock in the *Storage locations* and *Stocks* section is updated accordingly.  
 
     > [Info] You can also see all postings performed for the selected material in the *Stock history* tab, see [Check stock history](03_CheckStockHistory.md).
 
 
-### Manual posting of multiple materials
+### Manual stock posting of multiple materials
 
 You can create a manual posting of multiple materials at once. 
 
@@ -179,28 +177,28 @@ The warehouse logistics has been activated for the selected materials, see [Acti
 2. Click the materials for which you want to post stock while pressing and holding the CTRL key.  
     The selected materials are highlighted.
 
-2. Drag an drop the selected materials to the blank section at the bottom of the workspace.
+3. Drag an drop the selected materials to the blank section at the bottom of the workspace.
     All selected materials are displayed in the bottom section.
 
     ![Multiple posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/MultiplePosting.png "[Multiple posting]")
 
-3. Double-click the corresponding field in the *Post in warehouse* column.  
+4. Double-click the corresponding field in the *Post in warehouse* column.  
     A drop-down list with all storage locations, that is, warehouse and storage shelf where the material is stored, are displayed. If necessary, you can also create a new storage shelf.
 
-4. Select the storage location where you want to post the material. Alternatively, create a new storage shelf following the procedure below:  
+5. Select the storage location where you want to post the material. Alternatively, create a new storage shelf following the procedure below:  
     - Select the **New storage shelf** option in the drop-down list.  
     A small red triangle is displayed in the left upper corner of the field indicating that the marked field has been changed.  
     - Double-click the field in the *Warehouse* column and select the warehouse where you want to create the storage shelf.  
     - Double-click the field in the *Shelf input* column and enter a number for the new storage shelf.
 
-5. Enter the amount of materials you want to post in the *#* column.  
+6. Enter the amount of materials you want to post in the *#* column.  
     A small red triangle is displayed in the left upper corner of the field indicating that the marked field has been changed.
 
-6. Add a comment in the *Comment* column if desired.
+7. Add a comment in the *Comment* column if desired.
 
-7. Click the *Manual posting* drop-down list and select the desired posting type. The options displayed in the list vary depending on the tab selected.  
+8. Click the *Manual posting* drop-down list and select the desired posting type. The options displayed in the list vary depending on the tab selected.  
    
-8. Click the [STOCK IN MATERIAL] button to post all selected materials.  
+9. Click the [STOCK IN MATERIAL] button to post all selected materials.  
     The *Please wait...* notice and a confirmation window are displayed. Click [OK] to confirm the process. The materials are posted to the selected storage shelves. The stock values are updated accordingly.
 
     > [Info] The procedure to release from stock and transfer stock is identical. Just select the corresponding tab and follow the steps described above.
@@ -232,7 +230,40 @@ You can check the stock allocation for a selected material from the product list
 
     ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/DisplayStockAllocation.png "[Context menu]")
 
-3. Check the stock allocation values displayed. These values are the result of the calculations configured in the stock allocation table and are transferred to the *PIM* product and, via *Omni-Channel* to the corresponding sales channel.  
+3. Check the stock allocation values displayed. These values are the result of the calculations configured in the stock allocation table and are transferred to the *PIM* product and, via *Omni-Channel*, to the corresponding sales channel.  
 
-    > [Info] Bear in mind that product bundles are not actually kept in stock as such, since they are grouping of two or more individual products. For stock allocation purposes, this means that the stock allocation displayed for product bundles is the result of the stock allocation of the individual products included in the bundle but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, bundle stock is 1, and not 2.
+    > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the stock allocation displayed for product bundles is the result of the stock allocation of the individual products included in the bundle but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, bundle stock is 1, and not 2.
 
+
+# Check the stock history
+
+You can check all stock postings that have been performed for a selected material, both automatically, that is, by the system, and manually by the user. If a business document number is provided in the *Document no.* column, the stock posting is automatic. If no business document number is displayed, the stock posting is a manual one.
+
+The entries displayed in this tab are an excerpt of the information you can find in the *Posting history* menu entry. 
+
+#### Prerequisites
+
+At least a stock posting has been performed, see [Create a manual posting](./01_ManageStock.md#create-a-manual-stock-posting).  
+
+#### Procedure
+
+*Warehousing > Quick posting > Tab QUICK POSTING*
+
+![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
+
+1. Double-click the material for which you want to check the stock history.   
+    The *Basic data* tab is displayed.
+
+    ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]") 
+
+2. Click the *Warehouse/suppliers* tab.  
+    The *Warehouse management* sub-tab is displayed by default.
+
+    ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+
+3. Click the *Stock history* tab.  
+    The 
+
+    ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+
+[comment]: <> (Wenn Buchung rot und durchgestrichen, Beleg wurde storniert)

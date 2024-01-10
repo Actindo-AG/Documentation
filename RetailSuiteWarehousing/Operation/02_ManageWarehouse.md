@@ -32,5 +32,5 @@ The stock withdrawal matrix has been configured, see [Configure stock withdrawal
 Product list
 Select product
 Zeigt stock allocation
-Windos stock allocation
+Windows stock allocation
 Berechnungswerte -> Achtung: keine Verzögerung, das sind die aktuelle Werte
