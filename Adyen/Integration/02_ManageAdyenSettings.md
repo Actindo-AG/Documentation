@@ -9,3 +9,7 @@ Synchrone oder asynchrone Verarbeitung
 
 zu ignorierende Event codes
 
+Generate credentials: https://docs.adyen.com/development-resources/api-credentials/
+
+
+Payment methods?

@@ -1,7 +1,7 @@
 # Manage Connections
 
 
-In the following, the procedures to create, edit, enable, or disable *Adyen* connections are described.  
+In the following, the procedures to create, edit, configure, enable, or disable *Adyen* connections are described.  
 Note the following:   
 - If you have more than one merchant account in *Adyen* that you want to manage with *Actindo*, you must create a connection for each.   
 - *Adyen* offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
@@ -35,9 +35,11 @@ Create a connection to the *Adyen* payment service provider.
 
 4. Enter the API credentials. For the test environment there are some standard access points. The API credentials for the productive environment you get from *Adyen*.
 
-    -  Enter the checkout API endpoint field in the *Checkout API endpoint* field. For the staging environment it is the **https://checkout-test.adyen.com/checkout/**.
+    -  Enter the checkout API endpoint in the *Checkout API endpoint* field.    
+    The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). For the staging environment the endpoint is the **https://checkout-test.adyen.com/checkout/**.
     - Enter the checkout API key field in the *Checkout API key* field.   
     -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the staging environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
+    - Enter the user for the payment API in the *Payment API user* field.
 
 5. Enter the API credentials of the API users that you have created in *Adyen*:     
     

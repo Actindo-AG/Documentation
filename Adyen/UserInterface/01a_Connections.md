@@ -7,10 +7,6 @@ The CONNECTIONS tab provides an overview of all connections created for *Payment
 For detailed information on general UI functions of the *CONNECTIONS* tab, see [Connections](../../Payments/UserInterface/08a_Connections.md) in the *Payments* documentation.
 
 
-
-
-
-
 ## Edit Adyen connection &ndash; Credentials
 
 *Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Credentials*
@@ -20,34 +16,81 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 - *Driver*  
     Selected driver name. This drop-down list is read-only.
 
+**Credentials**
 
-- *Checkout API endpoint*   
+- *Checkout API endpoint* 
+   Edit the endpoint of the checkout API. For detailed information, see https://docs.adyen.com/api-explorer/Checkout/71/overview in the *Adyen* documentation.  
+     
+- *Checkout API key*    
+   Edit the key of the *Checkout API* which you have created in the settings of the *Checkout API* in the *Adyen* backend.
 
-- *Checkout API key*
+- *Payment API endpoint* 
+  Edit the endpoint of the *Payment API*.  
 
-- *Payment API endpoint*
+- *Payment user*   
+   Edit the username of the technical user which you have created in the settings of the *Payment API* in the *Adyen* backend.
 
-- *Payment user*
+- *Payment password*   
+   Edit the password of the *Payment API* you have created in the settings of the *Adyen* backend.
 
-- *Payment password*
+ - *Report user*  
+     Edit the username of the *Report API* you have created in the settings of the *Adyen* backend.
+
+ - *Report password*    
+    Edit the password of the *Report API* you have created in the settings of the *Adyen* backend.
 
 - *Notification user*
+    Edit the username of the technical user.<!---welches API?-->. If you do any changes here, remember to follow the changes in the *Adyen* configuration.
+
+- *Notification password*
+   Edit the password of the technical user.<!---welches API?-->. If you do any changes here, remember to follow the changes in the *Adyen* configuration.
 
 - *Merchant account*
+  Edit the merchant account of the connection you are currently editing.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check*   
    Enable this toggle if you want to do your own fraud check.
-   
-
-
-
-
+ 
 - [SAVE]  
     Click this button to save any changes made.
 
 
+## Edit Adyen connection &ndash; Settings
 
-## Edit Adyen connection &ndash; Credentials
+*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
+
+![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
+
+The *Settings* tab is composed of the following setting entries:
+- [Ignored event codes](#ignored-event-codes)
+- [Number of workers handling messages](#number-of-workers-handling-messages)
+
+
+### Ignored event codes
+
+*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
+
+![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
+
+- [SAVE]
+  Click this button to save any changes made.
+
+- *Key*   
+   Edit the name of the event code you want to ignore.
+
+- *Value*   
+   Edit the name of the event code you want to ignore.
+
+
+- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+      
+
+- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) 
+
+
+
+
+### Number of workers handling messages
 
 
 
