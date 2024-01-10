@@ -15,3 +15,4 @@
 - Triple check of payment data: directly at transaction request, at success or error message and at report reconciliation
 - Easy transfer to the *Accounting* module using the *Payment Processing* module
 - Improved open item matching (reconciliation) for payments originating from *Actindo* documents
+- Synchronous or asynchronous processing of messages

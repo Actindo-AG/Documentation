@@ -36,7 +36,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 - *Merchant account*
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check*   
-   Enable this toggle if you do not trust the *Adyen* fraud check and want to do your own.
+   Enable this toggle if you want to do your own fraud check.
    
 
 
