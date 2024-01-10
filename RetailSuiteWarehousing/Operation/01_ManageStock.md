@@ -262,8 +262,18 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
 3. Click the *Stock history* tab.  
-    The 
+    The stock posting history for the selected material is displayed.
 
-    ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
+    ![Stock history](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/StockHistory.png "[Stock history]")
 
-[comment]: <> (Wenn Buchung rot und durchgestrichen, Beleg wurde storniert)
+4. If desired, click the *Storage location* drop-down list to select a specific warehouse. All available warehouses are displayed in the list.  
+    The list displays only the entries for the selected warehouse.
+
+5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list.  
+    The list displays only the entries with the selected posting type.
+
+    > [Info] If a posting is red-colored and crossed out, it indicates that the business document has been cancelled.
+
+6. If necessary, click the [EXCEL] button to export the stock history as an Excel file.  
+    
+    > [Info] The [EXCEL] button is only displayed if the *Statistics* module is installed.
