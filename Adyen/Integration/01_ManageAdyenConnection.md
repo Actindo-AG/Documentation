@@ -33,10 +33,10 @@ Create a connection to the *Adyen* payment service provider.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
-4. Enter the API credentials. For the test environment there are some standard access points. The API credentials for the productive environment you get from *Adyen*.
+4. Enter the API credentials. For the test environment there are some standard access points. *Adyen* provides you with the API credentials for the productive environment.
 
     -  Enter the checkout API endpoint in the *Checkout API endpoint* field.    
-    The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). For the staging environment the endpoint is the **https://checkout-test.adyen.com/checkout/**.
+    The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the staging environment is **https://checkout-test.adyen.com/checkout/**.
     - Enter the checkout API key field in the *Checkout API key* field.   
     -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the staging environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
     - Enter the user for the payment API in the *Payment API user* field.
@@ -48,10 +48,10 @@ Create a connection to the *Adyen* payment service provider.
     -  Enter the password for the API to transfer the payment transactions in the *Payment password* field.  
     -  Enter the technical user for the reporting API in the *Report user* field.    
 
-       You will need the reporting API for the following: *Adyen* generates a daily report that collects all events of the day in a CSV file. The *Payments* module then automatically checks if all these events have been successfully transferred (reconciliation).
-       > [Info] You can check the attributes of each transaction to see if the reconciliation has been processed.
+       You will need the reporting API for the following: *Adyen* generates a daily report that collects all events of the day in a CSV file. The *Payments* module then automatically checks if all these events have been successfully transferred (reconciliation).   
+       Note that you can check the attributes of each *Payments* transaction to see if the reconciliation has been processed:
          
-         ![Reconciliation](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/Reconciliation.png "[Credentials]")
+         ![Reconciliation](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/Reconciliation.png "[Reconciliation]")
 
     -  Enter the password for the reporting API in the *Report password* field.  
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
@@ -84,7 +84,7 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 Configure the Adyen connection after you have created it.
 
-In the *Payments* connection settings, you can define the event codes that are to be ignored. *Adyen* sends many event codes. Not all of them can be processed in the *Payments* module. Each of them will generate an error. Here you can specify the event codes which you do not want to process. Alternatively, you can specify the unwanted event codes in the *Adyen* settings. 
+In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that Adyen sends many event codes. The reason for this is that Adyen sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the *Adyen* settings. 
 
 In addition, you can configure the number of workers to process messages in asynchronous processing. The *Adyen* API has two endpoints, one for a synchronous and one for an asynchronous processing. 
 - At synchronous processing, *Adyen* creates a connection for each event that occurs. It has the advantage that *Adyen* is informed directly if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
@@ -111,7 +111,7 @@ In addition, you can configure the number of workers to process messages in asyn
 
    ![Ignored event codes](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
-3. If desired, enter the event code that is to be ignored in the *Key* field and enter this event code in the *Value* field, too. 
+3. If desired, enter the event code that is to be ignored in the *Key* field and enter this event code in the *Value* field, too.    
     The event code to be ignored is entered. 
 
     ![Ignored event code](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")

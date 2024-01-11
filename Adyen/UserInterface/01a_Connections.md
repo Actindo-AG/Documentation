@@ -18,13 +18,13 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 **Credentials**
 
-- *Checkout API endpoint* 
+- *Checkout API endpoint*   
    Edit the endpoint of the checkout API. For detailed information, see https://docs.adyen.com/api-explorer/Checkout/71/overview in the *Adyen* documentation.  
      
 - *Checkout API key*    
    Edit the key of the *Checkout API* which you have created in the settings of the *Checkout API* in the *Adyen* backend.
 
-- *Payment API endpoint* 
+- *Payment API endpoint*   
   Edit the endpoint of the *Payment API*.  
 
 - *Payment user*   
@@ -39,13 +39,13 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
  - *Report password*    
     Edit the password of the *Report API* you have created in the settings of the *Adyen* backend.
 
-- *Notification user*
-    Edit the username of the technical user.<!---welches API?-->. If you do any changes here, remember to follow the changes in the *Adyen* configuration.
+- *Notification user*  
+    Edit the username of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the *Adyen* configuration.
 
-- *Notification password*
-   Edit the password of the technical user.<!---welches API?-->. If you do any changes here, remember to follow the changes in the *Adyen* configuration.
+- *Notification password*   
+   Edit the password of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the *Adyen* configuration.
 
-- *Merchant account*
+- *Merchant account*   
   Edit the merchant account of the connection you are currently editing.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check*   
@@ -72,7 +72,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
 
-- [SAVE]
+- [SAVE]  
   Click this button to save any changes made.
 
 - *Key*   
@@ -81,12 +81,11 @@ The *Settings* tab is composed of the following setting entries:
 - *Value*   
    Edit the name of the event code you want to ignore.
 
-
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+   Delete an event code you no longer want to ignore.    
       
-
-- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) 
-
+- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)    
+   Add an event code you want to ignore.
 
 
 
