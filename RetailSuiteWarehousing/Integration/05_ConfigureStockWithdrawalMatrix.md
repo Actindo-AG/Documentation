@@ -83,7 +83,7 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
 10. Click the [SAVE ASSIGNMENTS] button in the bottom right corner.   
     The entry in the stock withdrawal matrix is saved.
 
-    > [Info] Repeat steps **1** to **9** to add further entries.
+    > [Info] Repeat steps **1** to **10** to add further entries.
 
 
 ## Edit an entry
@@ -106,7 +106,7 @@ An entry has been created, see [Create an entry](#create-an-entry).
     
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.
     
-3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
+3. Click the [SAVE ASSIGNMENTS] button in the bottom right corner.   
     The new assignment in the stock withdrawal matrix is saved.
 
 
@@ -124,14 +124,10 @@ An entry has been created, see [Create an entry](#create-an-entry).
 
 ![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
-1. Select the entry you want to edit.
+1. Select the entry you want to delete.
 
-2. Edit the settings as necessary by double-clicking in the corresponding field.  
-    
-    > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.
-    
-3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
-    The new assignment in the stock withdrawal matrix is saved.
+2. Click the [DELETE] button in the bottom right corner.   
+    The entry has been removed from the matrix.
 
 
 

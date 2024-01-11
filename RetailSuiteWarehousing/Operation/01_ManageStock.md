@@ -18,7 +18,7 @@ Once you have activated the warehouse logistics for a selected product, the sub-
 Not all products displayed in the product list are actual items kept in stock. Warehouse logistics cannot be activated for the following products:  
 
 - Master product  
-    A master product is a superordinate (parent) entity that has subordinate (child) entities, that is, the product variants. A master product is an abstract entity that represents an object; the product variants, on the other hands, are the actual products, in all its variants, that are on sale. For example, the master product "T-shirt" can have the different product variants, for instance a red T-shirt in M size and blue T-shirt in L size.
+    A master product is a superordinate (parent) entity that has subordinate (child) entities, that is, the product variants. A master product is an abstract entity that represents an object; the product variants, on the other hand, are the actual products, in all its variants, that are on sale. For example, the master product "T-shirt" can have different product variants, for instance a red T-shirt in M size and blue T-shirt in L size.
 
 - Product bundle  
     A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
@@ -49,9 +49,7 @@ No prerequisites to fulfill.
 2. Click the *Warehouse logistics active for this product* drop-down list and select **Yes** to activate the selected product.  
 
 3. Click the [SAVE] button.  
-    The notice *Please wait... Saving...* is displayed while saving. The setting has been saved. The *Successfully saved** pop-up window is displayed. 
-
-    ![Successfully saved](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
+    The notice *Please wait... Saving...* is displayed while saving. The setting has been saved. The *Successfully saved* pop-up window is displayed. 
 
 
     
@@ -136,7 +134,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 7. Check the material amount in the *Change* field and enter a different material amount if necessary.  
     The *Old stock*, *Old total stock*, *New stock* and *New total stock* fields are updated accordingly. All these fields are read-only and are updated automatically. 
 
-    > [Info] Depending of the posting type, the sign changes. A positive value means a receipt of materials, whereas a negative value means the dispatch of materials. The amount posted is in turn added or removed to the old and new stock values.  
+    > [Info] Depending of the posting type, the sign changes. A positive value indicates that materials are added to stock. A negative value means that materials are removed from stock. The amount posted is in turn added to or removed from the old and new stock values.  
 
 9. Click the *Posting date* field and enter the desired date with your keyboard. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
 
@@ -172,27 +170,30 @@ The warehouse logistics has been activated for the selected materials, see [Acti
     - *Release from stock*  
         Select this tab if you want to remove stock for multiple materials.
     - *Transfer*  
-        Select this tab if you want to transfer multiple materials from a storage location to another.
+        Select this tab if you want to transfer stock for multiple materials from a storage location to another.
 
 2. Click the materials for which you want to post stock while pressing and holding the CTRL key.  
     The selected materials are highlighted.
 
-3. Drag an drop the selected materials to the blank section at the bottom of the workspace.
+3. Drag an drop the selected materials to the blank section at the bottom of the workspace.  
     All selected materials are displayed in the bottom section.
 
     ![Multiple posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/MultiplePosting.png "[Multiple posting]")
 
+[comment]: <> (Ab hier, abhängig vom Tab unten unterscheiden sich die Prozeduren minimal. 3 Unterprozedure - Stock in, Release from stock und Transfer- nötig oder ist es so verständlich?)
+
 4. Double-click the corresponding field in the *Post in warehouse* column.  
     A drop-down list with all storage locations, that is, warehouse and storage shelf where the material is stored, are displayed. If necessary, you can also create a new storage shelf.
 
+    > [Info] Every time you edit a field, a small red triangle is displayed in the left upper corner to indicate that there are unsaved changes.
+
 5. Select the storage location where you want to post the material. Alternatively, create a new storage shelf following the procedure below:  
-    - Select the **New storage shelf** option in the drop-down list.  
-    A small red triangle is displayed in the left upper corner of the field indicating that the marked field has been changed.  
+    - Select the **New storage shelf** option in the drop-down list.   
     - Double-click the field in the *Warehouse* column and select the warehouse where you want to create the storage shelf.  
     - Double-click the field in the *Shelf input* column and enter a number for the new storage shelf.
+    - If desired, click the *Primary storage shelf* column and select **Yes** if you want to set the new storage shelf as primary. Otherwise, select **No**.
 
 6. Enter the amount of materials you want to post in the *#* column.  
-    A small red triangle is displayed in the left upper corner of the field indicating that the marked field has been changed.
 
 7. Add a comment in the *Comment* column if desired.
 
@@ -201,7 +202,7 @@ The warehouse logistics has been activated for the selected materials, see [Acti
 9. Click the [STOCK IN MATERIAL] button to post all selected materials.  
     The *Please wait...* notice and a confirmation window are displayed. Click [OK] to confirm the process. The materials are posted to the selected storage shelves. The stock values are updated accordingly.
 
-    > [Info] The procedure to release from stock and transfer stock is identical. Just select the corresponding tab and follow the steps described above.
+    > [Info] The procedure to release from stock and transfer stock is similar. Just select the corresponding tab and follow the steps described above.
 
  
 
@@ -232,14 +233,16 @@ You can check the stock allocation for a selected material from the product list
 
 3. Check the stock allocation values displayed. These values are the result of the calculations configured in the stock allocation table and are transferred to the *PIM* product and, via *Omni-Channel*, to the corresponding sales channel.  
 
-    > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the stock allocation displayed for product bundles is the result of the stock allocation of the individual products included in the bundle but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, bundle stock is 1, and not 2.
+    > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the stock allocation displayed for product bundles is the result of the stock allocation of the individual products included in the bundle but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, the bundle stock is 1, and not 2.
 
 
-# Check the stock history
+## Check the stock history for a material
 
-You can check all stock postings that have been performed for a selected material, both automatically, that is, by the system, and manually by the user. If a business document number is provided in the *Document no.* column, the stock posting is automatic. If no business document number is displayed, the stock posting is a manual one.
+You can check all stock postings that have been performed for a selected material. Stock postings can be done automatically, that is, by the system, and manually by the user. If a business document number is provided in the *Document no.* column, the stock posting is automatic. If no business document number is displayed, the stock posting is a manual one.
 
-The entries displayed in this tab are an excerpt of the information you can find in the *Posting history* menu entry. 
+The list displayed in this tab is the same as the one you obtain when searching for the stock postings for a product in the *Posting history* menu entry, see [Search for stock postings for a material](./03_CheckPostingHistory.md#search-for-stock-postings-for-a-material).
+
+[comment]: <> (Stimmt das?)
 
 #### Prerequisites
 
@@ -264,7 +267,7 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
 3. Click the *Stock history* tab.  
     The stock posting history for the selected material is displayed.
 
-    ![Stock history](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/StockHistory.png "[Stock history]")
+    ![Stock history](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/StockHistory/StockHistory.png "[Stock history]")
 
 4. If desired, click the *Storage location* drop-down list to select a specific warehouse. All available warehouses are displayed in the list.  
     The list displays only the entries for the selected warehouse.
