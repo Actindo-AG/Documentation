@@ -11,6 +11,6 @@ In this part of the *Warehousing* documentation, you will find the following cha
     - [Check the stock history for a material](./01_ManageStock#check-the-stock-history-for-a-material)
 
 
-- [Check posting history](./02_CheckPostingHistory.md)
+- [Check the posting history](./02_CheckPostingHistory.md)
     - [Check posting history for a material](./02_CheckPostingHistory.md#check-posting-history-for-a-material)
     - [Filter stock history by different criteria](./02_CheckPostingHistory.md#filter-stock-history-by-different-criteria)
