@@ -1,4 +1,4 @@
-# All parts that can be deleted
+# All parts that have been deleted
 
 **LIST**  
 
@@ -22,21 +22,6 @@ The following further functions are available in the list header of the dispatch
     - **Connection name**  
         Select this option to display the dispatch notes for the selected connection. When a specific connection has been selected, the **All connections** option is no longer displayed. Click the selected connection again to deselect it.    
 
-<DELETE   
-
-- ![Search](../Assets/Icons/Search.png "[Search]") (Search)   -> noch aufnehmen in Core1
-    Click this button to display the search bar and search for dispatch notes.
-
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of dispatch notes.   
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-END OF DELETE>
 
 The following functions are available in the editing toolbar:
 - [x]     
@@ -119,9 +104,7 @@ The list displays all dispatch notes. Depending on the settings, the displayed c
 
 ![Attributes](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteAttributes.png "[Attributes]")
 
-< DELETE   
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the dispatch note contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.   
- END OF DELETE>   
+  
 For detailed information, see LINK in the *DataHub* documentation. 
 
 
@@ -132,29 +115,7 @@ For detailed information, see LINK in the *DataHub* documentation.
 
 ![Dependencies](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteDependencies.png "[Dependencies]")
 
-**Dependencies**   
-< DELETE The *Dependencies* tab contains all dependencies of the selected dispatch note. Depending on the settings, the displayed columns may vary. All fields are read-only.    
-If no dependent entities exist, the *No other entities depend on this entity* notice is displayed.>   
-
 For detailed information, see LINK in the *DataHub* documentation.
-
-<DELETE
-The following functions are available:   
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of dispatch note dependencies.
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected.
-
-
-- [RERUN MAPPING]   
-    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.    
-
-END OF DELETE>
-
 
 
 ## Dispatch note &ndash; Shipments
@@ -162,19 +123,6 @@ END OF DELETE>
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments*
 
 ![Shipments](../Assets/Screenshots/Fulfillment/DispatchNotes/DispatchNoteShipments.png "[Shipments]")
-
-
-<DELETE
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of shipments.
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.   
-
-END OF DELETE>
 
 The list displays all shipments. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -220,13 +168,6 @@ The list displays all shipments. Depending on the settings, the displayed column
 
 Erklärung, was in den Shipment- Attribute steht.
 
-<DELETE    
-**Shipment "Shipment ID"**
-
-- [BACK]  
-    Click this button to close the **Shipment "Shipment ID"** view and return to the list of shipments. All changes are rejected.
-
-END OF DELETE>
 
 ### Shipment attributes &ndash; Attributes
 
@@ -234,23 +175,9 @@ END OF DELETE>
 
 ![Shipment attributes](../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesAttributes.png "[Shipment attributes]")
 
+For detailed information, see LINK in the *DataHub* documentation.
 
-<DELETE
 
-In the left margin column, all available attribute groups are displayed. Click a group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the shipment contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
-
-- ![Folders](../Assets/Icons/Folders01.png "[Folders]") (Folders)  
-    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to unfold the group and display the attribute sub-groups.
-
-- ![Folder](../Assets/Icons/Folder01.png "[Folder]") (Folder)  
-    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
-
-The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column. Depending on the selected attribute group, the displayed fields may vary. All fields are read-only.
-
-- ![Collapse/Expand](../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
-    Click this button to collapse or expand the left margin column with the attribute groups. When the left margin is expanded and you click this button, the column is collapsed. When the column is collapsed and you click this button, the column is expanded.
-
-END OF DELETE>
 
 ### Shipment attributes &ndash; Dependencies
 
@@ -258,42 +185,7 @@ END OF DELETE>
 
 ![Shipment dependencies](../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsAttributesDependencies.png "[Shipment dependencies]")
 
-
-
-< DELETE
-
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of shipment dependencies.
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all dependent entities in the list are selected. 
-
-The list displays all dependencies of the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.   
-If no dependent entities exist, the *No other entities depend on this entity* notice is displayed. 
-
-- *Dependent entity ID*   
-    Identification number of the dependent entity. The ID number is automatically assigned by the system. 
-
-- *Dependent entity type*   
-    Type of the dependent entity. 
-
-- *Change tracking mode*   
-    Change tracking mode (ETL mode) of the dependent entity. The following options are available:
-    - **Manual**
-    - **Semiautomatic**
-    - **Semiautomatic, changes must be confirmed by another user**   
-    - **Automatic**
-
-- *Dependent entity friendly identifier*   
-    Further, more descriptive identifier of the dependent entity, for instance a reference number or an SKU.
-
-- [RERUN MAPPING]   
-    Click this button to rerun the mapping of the selected entity. This button is only displayed if the checkbox of at least one dependency is selected.	
-
-END OF DELETE>
+For detailed information, see LINK in the *DataHub* documentation.
 
 
 ### Shipment packages
@@ -301,23 +193,6 @@ END OF DELETE>
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Shipments > Select a shipment > Sub-tab PACKAGES*
 
 ![Shipments](../Assets/Screenshots/Fulfillment/DispatchNotes/ShipmentsPackages.png "[Shipments]")
-
-
-<DELETE
-
-- ![Search](../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for packages.
-
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of packages.
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-END OF DELETE>
 
 
 The list displays all packages contained in the selected shipment. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -357,19 +232,6 @@ The list displays all packages contained in the selected shipment. Depending on 
 ![Items](../Assets/Screenshots/Fulfillment/DispatchNotes/Items01.png "[Items]")
 
 
-<DELETE
-
-- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of items.
-
-- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-END OF DELETE>
-
 The list displays all items contained in the selected package. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Item number*  
@@ -406,7 +268,6 @@ The list displays all items contained in the selected package. Depending on the 
     You can add a column for each attribute that is assigned to the item. The column displays the attribute name, the row displays the corresponding attribute value of the item.
 
 
-
 ## Dispatch note &ndash; Logs
 
 *Fulfillment > Dispatch notes > Tab LIST > Select a dispatch note > Tab Logs*
@@ -416,50 +277,3 @@ The list displays all items contained in the selected package. Depending on the 
 This tab displays an extract from the list of intents contained in the *CONNECTIONS* tab of the *Logging* menu entry. The intents displayed in this tab refer to the selected dispatch note. For a detailed description of this window and the corresponding functions, see [Connections (Logging)](./02a_Connections.md).
 
 
-< DELETE
-
-## Create view
-
-*Fulfillment > Dispatch notes > Tab LIST > Button Points > Menu entry create*
-
-![Create view](../Assets/Screenshots/Fulfillment/DispatchNotes/CreateView.png "[Create view]")
-
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
-
-This window can also be accessed via the following tabs in the user interface:
-
-- [CONNECTIONS (Logging)](02a_Connections.md#create-view)
-- [CONNECTIONS (Settings)](03a_Connections.md#create-view)
-- [PACKAGING TYPES](03b_PackagingTypes.md#create-view)
-
-
-
-## Rename view
-
-*Fulfillment > Dispatch notes > Tab LIST > Button Points > Menu entry rename*
-
-![Rename view](../Assets/Screenshots/Fulfillment/DispatchNotes/RenameView.png "[Rename view]")
-
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The  *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.
-
-This window can also be accessed via the following tabs in the user interface:
-
-- [CONNECTIONS (Logging)](02a_Connections.md#rename-view)
-- [CONNECTIONS (Settings)](03a_Connections.md#rename-view)
-- [PACKAGING TYPES](03b_PackagingTypes.md#rename-view)
-
-END OF DELETE
