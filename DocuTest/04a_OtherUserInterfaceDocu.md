@@ -280,7 +280,8 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 >END OF DELETE
 
->ADD
+>ADD   
+
 The following functions are available for the editing toolbar:
 
 >END OF ADD
