@@ -1,3 +1,5 @@
+# Other user interface docu
+
 [!!User interface ETL](./02d_ETL.md)
 [!!Data type list](./04_DataTypeList.md)
 [!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
@@ -7,22 +9,38 @@
 
 *DataHub > Settings > Tab ATTRIBUTE SETS*
 
-![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
+![Attribute sets](../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 **Attribute set list**
 
+>ADD   
+
+For detailed information on standard buttons on the screens, see [Buttons](../../) in the *Actindo Core1 Platform* documentation.
+
+>END OF ADD
+
 >DELETE
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+
+- ![Search](../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute set.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of attribute sets.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+
+- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+>END OF DELETE    
+
+>ADD   
+ 
+The following functions are available for the editing toolbar:   
+
+>END OF ADD
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
@@ -32,8 +50,6 @@
 
 - [DELETE]   
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.    
-
->END OF DELETE  
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -48,13 +64,13 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 - *Status*   
     Attribute set status. The following statuses are available:
-    - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
-    - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
+    - ![Status](../Assets/Icons/Status01.png "[Status]") **Active**
+    - ![Status](../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
 - *Read-only*   
     Indication whether the attribute set is read-only or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set is read-only.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set can be edited.
+    - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set is read-only.  
+    - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set can be edited.
 
 - *Plugin*   
     Module or plugin that owns the attribute set.
@@ -80,7 +96,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - *Description (Language)*   
     Attribute description in the displayed language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
-- ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
+- ![Add](../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create an attribute set. The *Create attribute set* view is displayed.   
 
 
@@ -89,12 +105,24 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
 
-![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
+![Create attribute set](../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
 **Create attribute set**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+>DELETE
+
+- ![Back](../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
+
+>END OF DELETE
+
+<BR>
+
+>ADD   
+
+The following functions and fields are available:
+
+>END OF ADD
 
 - *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -116,7 +144,8 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../Assets/Icons/Toggle.png "[Toggle]") 
+   *Active*   
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Entity type*   
@@ -131,7 +160,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     - **Attribute set name**   
         The values are inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+- ![Toggle](../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
     Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 - *Inherit/Copy values*   
@@ -141,24 +170,28 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     - **Inherit**   
         The attribute values are applied from the selected attribute set and updated each time if the selected set changes.
 
-**Assigned attributes**
+**Assigned attributes**  
 
-- ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
+In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
+
+- ![Settings](../Assets/Icons/Settings01.png "[Settings]") (Settings)   
     Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
+>DELETE
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+- ![Search](../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of attributes.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
+>END OF DELETE
 
-In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
+
 
 
 
@@ -166,12 +199,24 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set*
 
-![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
+![Edit attribute set](../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 **Edit attribute set**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+
+>DELETE
+- ![Back](../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
+
+>END OF DELETE   
+
+<BR>
+
+>ADD   
+
+The following functions and fields are available:
+
+>END OF ADD
 
 - *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -190,7 +235,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 - *Key*   
     Attribute set key. In the *Edit attribute set* view, this field is locked.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Inherit/Copy values from*   
@@ -200,7 +245,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     - **Attribute set name**   
         The values are inherited or copied from the selected attribute set. All existing attribute sets are displayed in the drop-down list.  
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
+- ![Toggle](../Assets/Icons/Toggle.png "[Toggle]") *Inherit configuration*   
     Enable this toggle to inherit not only the values of the selected attribute set, but also their configuration. Disable the toggle to inherit the values without configuration. By default, this toggle is enabled. This toggle is locked if the **No inheritance** option is selected in the *Inherit/Copy values from* drop-down list.
 
 - *Inherit/Copy values*   
@@ -214,28 +259,39 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 
 **Assigned attributes**
 
-- ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
+In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
+
+- ![Settings](../Assets/Icons/Settings01.png "[Settings]") (Settings)   
     Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+>DELETE
+
+- ![Search](../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
+- ![Refresh](../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of attributes.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
+- ![Columns](../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
+- ![Filter](../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+
+>END OF DELETE
+
+>ADD
+The following functions are available for the editing toolbar:
+
+>END OF ADD
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-- ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
+- ![Edit](../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
-- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+- ![Delete](../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to remove the selected attribute from the attribute set. This button is only displayed if at least one checkbox of an attribute is selected.       
 
     > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
@@ -244,15 +300,15 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
-If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the  *Required* field is editable.
+If the ![Settings](../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the  *Required* field is editable.
 
 - *Name*   
     Attribute name.
 
 - *Calculated field*   
     Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
+    - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
+    - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
 - *Key*   
     Attribute key.
@@ -267,16 +323,16 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
     Module or plugin that owns the attribute set.
 
 - *Required*  
-    Indication whether the attribute value is required or not. The following options are only displayed if the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
-    - If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
-    - If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
-        - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
-        - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
+    Indication whether the attribute value is required or not. The following options are only displayed if the ![Settings](../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
+    - If the ![Settings](../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
+    - If the ![Settings](../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
+        - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
+        - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.
 
 - *Read-only*   
     Indication whether the attribute value is read-only or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute value is read-only.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute value can be edited.
+    - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute value is read-only.  
+    - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute value can be edited.
 
 - *Configuration*   
     Attribute configuration.
@@ -289,25 +345,34 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 
 - *Multi-language*   
     Indication whether the attribute is multi-language or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
+    - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
+    - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
 - *Multi-channel*   
     Indication whether the attribute is multi-channel or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
+    - ![Check](../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
+    - ![Cross](../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
 ### Edit attribute for set
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
-![Edit attribute for set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
+![Edit attribute for set](../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
 **Edit attribute for set "Attribute set name"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+>ADD
+
+In this view, attributes with configuration can be edited. It contains the COFIGURATION section.
+
+>END OF ADD
+
+>DELETE
+- ![Back](../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute for set "Attribute set name"* view and return to *Edit attribute set* view. All changes are rejected.
+
+>END OF DELETE
 
 - [CANCEL]   
     Click this button to cancel editing the configuration. The *Edit attribute for set "Attribute set name"* view is closed.
@@ -324,14 +389,18 @@ The *CONFIGURATION* section displays the additional configuration for the data t
 
 *DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
 
-![Add mapping](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AddMapping.png "[Add mapping]")
+![Add mapping](../Assets/Screenshots/DataHub/Settings/AttributeSets/AddMapping.png "[Add mapping]")
 
 **Add mapping**
 
 This view equals the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*     
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
+>DELETE
+
+- ![Back](../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
+
+>END OF DELETE
 
 - Destination attribute   
     The selected destination attribute is displayed in the arrow box on the right side of the view. This field is read-only.
