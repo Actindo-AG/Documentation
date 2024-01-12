@@ -9,7 +9,7 @@ UN/EDIFACT (in the following short EDIFACT) is a cross-industry international st
 
 The EDIFACT standard defines a scheme according to which messages should be structured. It is used for data exchange and transfer between business partners, for example invoice or order data. The standard defines a list of messages such as ORDERS, INVRPT, INVOIC, DELFOR, etc. which are used for specific purposes. For example, an INVRPT represents an inventory report.   
 
-The EDIFACT standard is available in different versions. Every year a new version is released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version specified by your business partner in the *DataHub Exporter* module.   
+The EDIFACT standard is available in different versions. Every year a one or two versions are released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version specified by your business partner in the *DataHub Exporter* module.   
 
 Note that the structure of the format is standardized, not the usage. As a result, each user/business partner defines individually the data to be provided for the message structure. This also applies to the classification of the segments and fields (mandatory, required, optional and others), which may sometimes differ from the EDIFACT standard.   
 >[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you must send the messages, such as your supplier, your customer, or your fulfillment partner.
@@ -18,11 +18,11 @@ Note that the structure of the format is standardized, not the usage. As a resul
 
 ## Tips for preparation in advance
 
-- Many internet providers offer EDIFACT information. For a first impression, we can recommend the https://www.truugo.com/edifact/ website which provides a very structured presentation of the EDIFACT messages in their different versions.  
+- Many internet providers offer EDIFACT information. For a first impression, we can recommend the https://www.truugo.com/edifact/ website, which provides a well-structured presentation of the EDIFACT messages in their different versions.  
 
 - Ask your business partner for the EDIFACT message specification. Sometimes it is also called message implementation guide. Specifications from some major vendors are also available for download on the Internet.
 
-- Ask your business partner for the connection details that specify to which address and with which credentials the data are to be transferred. For example, get to know both the GLN number of your business partner and the GLN number of your company.
+- Ask your business partner for the connection details that specify to which address and with which credentials the data are to be transferred. For example, get to know both the GLN number (Global location number) of your business partner and the GLN number of your company.
 
 - Review this specification for the segments your business partner has defined as required and ensure that you have this data available.   
 
@@ -63,7 +63,7 @@ Use the following checklist to organize your work. Manage the definitions in the
 |10. Finalize the data mapping for both the definition of the header and the line items, see [Edit data source](../Operation/05_ManageDataSources.md#edit-data-source).
 |11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
 |12. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
-|13. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages.
+|13. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
 
 <BR>
 <BR>

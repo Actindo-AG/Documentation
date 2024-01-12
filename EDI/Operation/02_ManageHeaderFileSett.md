@@ -37,12 +37,12 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
 
      ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
 
-3. Check the *Release* field and verify that required release is entered there.
+3. Click the *Release* dropdown list and select the required release.
 
-4. Check the *Message type* field and verify that the required message type is entered there.
+4. Click the the *Message type* dropdown list and enter the required message type.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
-    The message structure is displayed. The message name is highlighted in red because it is still empty.
+    The message structure is displayed below. The message name is highlighted in red because it is still empty.
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
@@ -51,7 +51,8 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value) described below.
+7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value) described below. Alternatively, click the [SAVE] button in the upper right corner to save your settings.
+   After saving, the *Exporter definitions* view is displayed.
 
 
 

@@ -10,13 +10,14 @@ In Actindo, the definition of the EDIFACT export messages specifies the followin
 - Mapping settings
 
 Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
-- Definition of the message header   
+- Definition for the message header   
     Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates. 
     
 - Definition for the line items  
-    The line item section contains a list of single positions of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header. 
+    The line item section includes a list of individual items of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header.  
+    The *DataHub Exporter* processes the EDIFACT line items group for each line item of the business document.  
 
-Note that this chapter is valid both for the definition of the header and the line items. Do not start with the definition for the line items before you have prepared the line item export. For detailed information, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
+Note that this chapter is valid both for the definition of the header and the line items. Do not start with the line item definition before you have prepared the line item export. For detailed information, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 
 
@@ -57,7 +58,7 @@ Define basic data for the export definition. You must define a definition settin
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
 5. Enter the access key of your connection in the *Access key* field.
-     The access key is a key that you can give to your business partner so that s/he can access your *Actindo* tenant without having to log in. You can freely specify any string.  
+     The access key is a key that you can give to your business partner to access your *Actindo* tenant without logging in. You can freely specify any string.  
 
      If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
@@ -107,8 +108,8 @@ Edit basic data for the export definition. You can edit a definition setting for
 ## Prepare definition of file settings
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
-- Create the data source.   
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. If you create the data source directly after you have created the basic definition, you can check during editing the file settings if variable strings have been added to the list of attributes that are to be mapped later. In addition, you are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./05_ManageDataSources.md#create-data-source).
+- Create the data source.     
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. You can create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./05_ManageDataSources.md#create-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-setting).
 - Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).
@@ -136,10 +137,10 @@ After you have configured the entire definition including the file settings, you
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the checkbox of the definition you want to preview. Alternatively, you can click the *Download link* of a definition in the list to output the preview directly.   
-    The toolbar is displayed. 
+    The editing toolbar is displayed. 
     
 
-    ![Toolbar](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Toolbar]")
+    ![Editing toolbar](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Editing toolbar]")
 
 2. Click the [PREVIEW] button.   
     The window for specifying the output is displayed.
@@ -195,7 +196,7 @@ After you have configured the entire header and line item definitions including 
 
 ## Deactivate definition
 
-Deactivate a definition if it is no longer needed. We recommend deactivating a no longer needed definition instead of deleting it.
+Deactivate a definition if it is no longer needed. We recommend deactivating a definition that is no longer needed instead of deleting it.
 
 #### Prerequisites
 
