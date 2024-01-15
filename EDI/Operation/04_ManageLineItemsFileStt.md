@@ -9,6 +9,8 @@ For detailed information on examples how to define constant text values, string 
 
 ## Prepare data mapping for the line items
 
+Prepare the data mapping for the line items so that the relevant data for the mapping is available to retrieve the line items.
+
 #### Prerequisites
 
 - You have defined both the definitions for the header and the line items, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
@@ -41,7 +43,8 @@ For detailed information on examples how to define constant text values, string 
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
    
-     a. Click the *Extension* drop-down list and select the **XML SubExport** extension. Both the "Source attribute" and the *Configuration* section is displayed in the left part of the *Settings* section.
+     a. Click the *Extension* drop-down list and select the **XML SubExport** extension.   
+     Both the "Source attribute" and the *Configuration* section is displayed in the left part of the *Settings* section.
 
      b. Click the *Override change tracking mode* drop-down list and select the desired one.
 

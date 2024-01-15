@@ -94,7 +94,7 @@ This procedure shows how to edit a constant text value, for example the transact
 
 6. Click the [SAVE] button.   
     - The message structure is displayed. 
-    - To the right of the *D_1001* row the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The constant value is displayed on the right side of the row. The field name and description are no longer displayed in italics.  
+    - To the right of the *D_1001* row, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The constant value is displayed on the right side of the row. The field name and description are no longer displayed in italics.  
     - The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.  
     - To the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
@@ -160,6 +160,8 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
 ## Specify message dates
 
+Specify the message dates your business partner requires.   
+
 Each invoice can have a lot of different dates, for example the invoice date, the expected delivery date, the tax point date, and much more. The *Actindo* EDIFACT message structure contains only one BTM segment in its raw state. However, for many business partners, multiple BTM segments must be completed. As soon as you have specified one value in a BTM segment, a further BTM segment is added automatically so that you can specify as much BTM segments as your business partner require.
 
 This procedure shows how to edit message dates. The message dates require both the description of the date and the variable for determining it.
@@ -198,7 +200,7 @@ This procedure shows how to edit message dates. The message dates require both t
 
 7. Enter the text value and click the [SAVE] button.  
     This *S_DTM* segment has been finished.
-    - To the right of the currently edited rows, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
+    - To the right of the currently edited rows, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
      - To the right of both the *S_BGM C_C106* and the *S_DTM* segment, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
     - Both the *S_BGM C_C106* and the *S_DTM* segment is now highlighted with a small black border. This indicates that the segment contains data.     
     - The string attribute has been marked for a later data mapping. 
@@ -243,7 +245,8 @@ This procedure shows both how to add individual textual information and addition
 
     ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Set text value]")
  
-3. Enter the text code and click the [SAVE] button. 
+3. Enter the text code and click the [SAVE] button.   
+  A new row with an S_FTX segment has been automatically added.
 
 4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.
 
@@ -260,7 +263,7 @@ This procedure shows both how to add individual textual information and addition
 8. Specify the language used in the *D_3453 (Code specifying the language name)* row. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_3453* row and specify the language code in the *Set text value* window. 
 
 9. Click the [SAVE] button.
-    - To the right of the rows that contain data, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
+    - To the right of the rows that contain data, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
      - To the right of the segments that contain data, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
     - The segments that contain data are now highlighted with a small black border. This indicates that the segment contains data. 
     
@@ -272,7 +275,7 @@ This procedure shows both how to add individual textual information and addition
 
 ## Specify conditions
 
-For each segment that contain data, you can define conditions under which the segment data is transferred to the message receiver. For example, you want to output a message free text only in case that a caution notice is to be added to the INVOIC. 
+For each segment that contain data, you can define conditions under which the segment data is to be transferred to the message receiver. For example, you want to output a message free text only in case that a caution notice is to be added to the INVOIC. 
 
 This procedure shows how to specify a condition for the output of a message segment.
 
@@ -288,7 +291,7 @@ This procedure shows how to specify a condition for the output of a message segm
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDatesDangerousGoods.png "[Message structure]")
 
 1. Click the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button at the segment that you want to transfer only in case that a certain situation occurs.     
-    - To the right of the *S_FTX* segment, the ![Remove condition](../../Assets/Icons/Cross02.png) (Remove condition) button is displayed with which you delete the condition, if desired.
+    - To the right of the *S_FTX* segment, the ![Remove condition](../../Assets/Icons/Cross02.png) (Remove condition) button is displayed, which you can use to delete the condition, if desired.
     - The condition has been marked for a later data mapping.
     
 2. Click the [SAVE] button to save the message structure.   
@@ -302,9 +305,9 @@ This procedure shows how to specify a condition for the output of a message segm
 
     ![Condition for mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefMappingCondition.png)
 
-5. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
+5. Finalize the *Map attributes* wizard by clicking the [CONTINUE] buttons until you can click the [FINALIZE] button.
   
-6. Click the [SAVE] button to save the header definition.   
+6. Click the [SAVE] button to leave the header definition.   
    The *Exporter definitions* view is displayed.
 
 7. Continue specifying the header file segments until you have specified all fields that your business partner require. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the SG26 or SG27 segment that contains the S_LIN specification for the line item export. For detailed information, see [Prepare line item export](#prepare-line-item-export) below.
@@ -316,7 +319,7 @@ This procedure shows how to specify a condition for the output of a message segm
 In order to be able to export the individual line items of an invoice with specific data sources later, the relevant line item group of an EDIFACT message must be specified to be exported as a whole. You have to do this here in the header definition file settings.  
 After you have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
 
-This procedure shows how you must prepare the line item section of the message, so that you can use different data sources for the line items later.
+This procedure shows how you must prepare the line item section of the message, so that the *DataHub Exporter* can add all line items to an invoice message later.
 
 #### Prerequisites
 
@@ -341,17 +344,18 @@ This procedure shows how you must prepare the line item section of the message, 
 4. Click the [SAVE] button.    
    The *Exporter definitions* view is displayed.
 
-5. If desired, check if the group has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+5. If desired, check if the group has been really marked for a later data mapping. For detailed information, see [Prepare data mapping for the line items](./04_ManageLineItemsFileStt.md#prepare-data-mapping-for-the-line-items).   
     The EDI Export SG[Group name] *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
      ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-6. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
+6. Finalize the *Map attributes* wizard by clicking the [CONTINUE] buttons until you can click the [FINALIZE] button.
+  The *Exporter definition sources* view is displayed.
 
-7. Click the [SAVE] button to save the header definition.   
-   The *Exporter definitions* view is displayed.
+7. Click the [SAVE] button to leave the header definition.   
+   The *Exporter definition* view is displayed.
 
-8. Define the definitions for the line items, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+8. Create the definitions for the line items, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 
 8. Continue with specifying the line item file settings, see [Manage line item file settings](./04_ManageLineItemsFileStt.md).
 
