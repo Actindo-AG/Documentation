@@ -57,8 +57,6 @@ The list displays all available warehouses. The following buttons are also displ
 
 ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
-[comment]: <> (Theoretisch sollte es H2 sein Warehouse master data - Warehouse group basic data... zu entscheiden)
-
 - *Warehouse group*  
     Enter a unique number for the warehouse group. This is the warehouse group ID. 
 
@@ -69,11 +67,34 @@ The list displays all available warehouses. The following buttons are also displ
     Click the drop-down list to select the appropriate group type. The following options are available:  
     - **Own warehouse group**  
         Select this option if you manage this warehouse group.
-    - **Externally managed warehouse group**  
-        Select this option if this warehouse group is managed by a third party.
+    - **Externally controlled warehouse group**  
+        Select this option if this warehouse group is managed by a third party. If you select this option, additional fields are displayed.
 
 - *Fulfill orders from other warehouse groups*  
     Click the drop-down list and select a warehouse group if desired. With this setting, you can arrange the missing to be taken from the current warehouse group, if orders cannot be completely fulfilled from the warehouse group selected.
+
+- *External warehouse type*  
+    Click the drop-down list and select... 
+
+[comment]: <> (Noch aktuell? Nur Fulfillment oder andere Möglichkeiten? Legacy?)
+
+- *Connection*  
+    Click the drop-down list and select the appropriate connection to the externally controlled warehouse.
+
+- *Return to this location possible*  
+     Click the drop-down list and select ...
+
+[comment]: <> (noch aktuell?)
+
+- *Name*
+
+- *Street*
+
+- *Zip*
+
+- *City*  
+
+- *Country*  
 
 - *Comments*  
     Enter any additional you want information in this field.
@@ -96,8 +117,6 @@ The list displays all available warehouses. The following buttons are also displ
 *Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data > Button NEW WAREHOUSE* 
 
 ![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
-
-[comment]: <> (Theoretisch sollte es H2 sein Warehouse master data - Warehouse group basic data... zu entscheiden)
 
 - *Warehouse*  
     Enter a unique number for the warehouse. This is the warehouse ID.
@@ -126,18 +145,66 @@ The list displays all available warehouses. The following buttons are also displ
 - [DELETE]  
     Click this button to delete a warehouse after selecting it.  
 
-    > [Info] You cannot delete a warehouse if stock has already been allocated to it. 
+    > [Info] You cannot delete a warehouse if stock has already been allocated. 
 
 [comment]: <> (Kann man in diesem Fall was machen?)
 
 [comment]: <> (Exclude from ordering -> Wirklich weglassen oder gibt es eine Empfehlen? Heusel meinte auf Ja)
 
 
-## Stock allocation
+## Stock allocation  
 
 *Warehousing > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
 ![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
+
+The stock allocation table includes automatically all warehouses you have previously created and all target channels configured in the *PIM* module.
+
+[comment]: <> (Stimmt das?)
+
+- *Target channel*  
+    All configured target channels are displayed in this column. All rows are read-only.
+
+- *Supplier stock*  
+    Double-click the desired field in this column to display the drop-down list and select the appropriate option. The following options are available:  
+
+    - **No**  
+        Select this option to exclude stock from all suppliers.
+    - **Yes, all**  
+        Select this option to include stock from all suppliers.
+    - **Yes, only dropship suppliers**    
+        Select this option to include stock only from dropship suppliers.
+    - **Yes, only normal suppliers**  
+        Select this option to include stock only from normal suppliers.
+
+- *Stock calculation*  
+    Double-click the desired field in this column to display the drop-down list and select the appropriate option. The following options are available:  
+
+    - **Fixed value**  
+        Select this option to transfer a fixed stock amount.   
+        The corresponding field in the *Fixed value* column is unlocked. 
+    - **Formula**  
+        Select this option to create your own formula to calculate the stock amount.  
+        The corresponding field in the *Formula* column is unlocked. 
+    - **Calculation, stock level**  
+        Select this option to transfer the physical stock stored in the warehouse.  
+        The fields in the warehouse columns are unlocked.
+    - **Calculation, stock availability (stock level - reserved)**  
+        Select this option to transfer the stock amount resulting from the physical stock stored in the warehouse minus the reservations (open customer orders). This is done to prevent overselling.  
+        The fields in the warehouse columns are unlocked.
+    - **Calculation, availability (stock level + ordered - reserve)**   
+        Select this option to transfer the stock amount resulting from the physical stock stored in the warehouse, plus the stock ordered from the supplier (open supplier orders, even if the materials have not yet arrived in the warehouse), minus the reservations (open customer orders).  
+        The fields in the warehouse columns are unlocked.
+
+- *"Warehouse name"*  
+    Double-click a field 
+
+- *Fixed value*  
+    Enter the desired fixed value to be transferred. This field is only active after selecting the **Fixed value** option in the *Stock calculation* column. 
+
+- *Formula*  
+    Enter the desired formula to calculate the stock amount. This field is only active after selecting the **Formula** option in the *Stock calculation* column. For detailed information to create a formula, see [Configure the stock allocation](../Integration/04_ConfigureStockAllocation.md). 
+
 
 
 

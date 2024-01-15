@@ -23,6 +23,10 @@ Depending on the configured target channels and warehouses, the displayed column
 
 #### Procedure 
 
+*Warehousing > Settings > Tab WAREHOUSE > Tab Stock allocation*
+
+![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
+
 1. Select the row with the stock allocation attribute name corresponding to the desired target channel in the *Target channel* column.
 
 2. Double-click the field with the **Default setting** option in the *Stock calculation* column.   
