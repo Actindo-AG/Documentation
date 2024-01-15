@@ -21,7 +21,7 @@ No prerequisites to fulfill.
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the [NEW WAREHOUSE] button.   
-    The *Basic data* tab is displayed on the right side.
+    The *Basic data* sub-tab is displayed on the right side.
 
      ![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
@@ -65,7 +65,7 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
@@ -96,7 +96,7 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
@@ -109,6 +109,6 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
         Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
-    The warehouse is deleted and is no longer displayed in the left side bar in the *Warehouse master data* sub-tab.
+    The warehouse is deleted and is no longer displayed in the left side bar in the *Warehouse master data* tab.
     
     > [Info] If the warehouse has already been included in the stock allocation matrix, the warehouse cannot be deleted. A window with the following error message is displayed: *Error deleting: There are warehouse allocations in this warehouse.* In this case, you have to ... first, see [To be determined](#to-be-determined).

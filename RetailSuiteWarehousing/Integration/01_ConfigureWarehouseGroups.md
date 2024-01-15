@@ -23,18 +23,18 @@ The *Warehouse groups* plugin must be installed.
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
-1. Click the [NEW GROUP] button in the *Warehouse master data* sub-tab.  
+1. Click the [NEW GROUP] button in the *Warehouse master data* tab.  
     The *Basic data* sub-tab is displayed.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
 2. Enter a unique number for the warehouse group in the *Warehouse group* field. This is the warehouse group ID.
 
-3. Enter a description for the warehouse group in the *Designation* field. This description will be displayed later on in the left side bar in the *Warehouse master data* sub-tab.
+3. Enter a description for the warehouse group in the *Designation* field. This description will be displayed later on in the left side bar in the *Warehouse master data* tab.
 
 4. Click the *Group type* drop-down list and select the appropriate option. The following options are available:
     - **Own warehouse group**  
@@ -59,7 +59,7 @@ The *Warehouse groups* plugin must be installed.
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data > Select Own warehouse group*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data > Select Own warehouse group*
 
 ![Own warehouse group master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Own warehouse group master data]")
 
@@ -86,7 +86,7 @@ The new warehouse group is displayed in the list of warehouses.
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data > Select Externally controlled warehouse group*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data > Select Externally controlled warehouse group*
 
 ![External warehouse group master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/ExternalWarehouseGroupBasicData.png "[External warehouse group master data]")
 
@@ -128,7 +128,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
@@ -159,7 +159,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 
 #### Procedure
 
-*Warehousing > Settings > Tab WAREHOUSE > Sub-tab Warehouse master data*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Warehouse master data*
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
@@ -172,6 +172,6 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
         Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.   
-    The warehouse group is deleted and is no longer displayed in the left side bar in the *Warehouse master data* sub-tab.
+    The warehouse group is deleted and is no longer displayed in the left side bar in the *Warehouse master data* tab.
     
     > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while deleting: There are warehouses in this warehouse group.* In this case, you have to delete the warehouses included in the warehouse group first, see [Delete a warehouse](#delete-a-warehouse).

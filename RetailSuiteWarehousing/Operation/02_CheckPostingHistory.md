@@ -12,7 +12,7 @@ It is possible to check all stock postings performed for a specific material and
 
 ## Check posting history for a material
 
-You can check all stock postings performed for a specific material. The list displayed is the same as the one displayed in the *Stock posting* sub-tab in the *Warehouse/suppliers* tab for a selected material, although additional information is provided here, such as the order number in shop.
+You can check all stock postings performed for a specific material. The list displayed is the same as the one displayed in the *Stock history* sub-tab in the *Warehouse/suppliers* tab for a selected material, although additional information is provided here, such as the order number in shop.
 
 Besides, you can further filter the list of postings for a selected material by different criteria, see [Filter the stock history by different criteria](#filter-stock-history-by-different-criteria).
 
@@ -22,7 +22,7 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
 
 #### Procedure
 
-1. Enter the product name or SKU to filter the posting history by product. You can find out the product name or SKU in the *Basic data* tab of the respective product.  
+1. Enter the product name or SKU to filter the posting history by product. You can find out the product name or SKU in the *Basic data* sub-tab of the respective product.  
     
     > [Info] As soon as you have typed three characters, a context menu with matching suggestions is displayed.
 
