@@ -49,10 +49,10 @@ The list displays all available exporter definitions. Depending on the settings,
     Attribute set of the exporter definition that contains the attributes of the EDIFACT message.
 
 - *Access key*  
-    Access key of the exporter definition.
+    Access key of the exporter definition. It is a key that you can give to your business partner to access your *Actindo* tenant without logging in. You can freely specify any string.
     
 - *Download link*   
-   Preview of the message fields. IF you click on this link a Browser window is opened which contains the already defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
+   Preview of the message fields. When you click on this link, a Browser window is opened which contains the already defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
    
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
     Click this button to add an exporter definition. The *Create definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
@@ -65,6 +65,8 @@ The list displays all available exporter definitions. Depending on the settings,
 ![Create definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionCreate.png "[Create definition]")
 
 **Create definition**
+
+The *Create definition* view contains the fields needed for defining a definition. 
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]")(Back)   
   Click this button to close the *Create definition* view and return to the exporter definition's list. All changes are rejected.
@@ -148,7 +150,7 @@ Use the *Data sources* tab both to define the attribute set that you want to use
 
 **LIST Exporter definition sources**   
 
-The *Exporter definition sources* view contains a LIST view that lists all exporter definition sources you want to use to perform the attribute mapping. 
+The *Exporter definition sources* view contains a LIST view that contains all exporter definition sources you want to use to perform the attribute mapping. 
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of exporter definitions.
@@ -214,7 +216,7 @@ The *Data sources (Sorting mode)* view enables you to change the sorting of the 
 
 ## Data sources &ndash; Wizard for creating source entities and doing the mappings  
 
-The wizard window for creating source entities and doing the mappings is displayed if you add a new data source.
+The wizard window for creating source entities and doing the mappings is displayed when you add a new data source.
 
 ### Step 1: Select source
 
@@ -242,9 +244,9 @@ The wizard window for creating source entities and doing the mappings is display
 
 ![Map attributes](../../Assets/Screenshots/EDI/UserInterface/MapAttributes.png "[Map attributes)]")
 
-This step is also displayed when you select a data source for editing. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
+This step is displayed when you assign a data source. It is also displayed when you select a data source for doing the mapping. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
 
->[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant for export message mappings.
+>[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant for exporting message mappings.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -286,7 +288,7 @@ This step is currently not in use. In general, it is only relevant for mass expo
 Use this step to enter additional data such as the limit of line items to be output.
 
 - *Limit*    
-   If you currently specify the header definition settings: Enter the maximum number of line items that you want to output per message.
+   When you currently specify the header definition settings: Enter the maximum number of line items that you want to output per message.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The wizard window is closed.
@@ -308,7 +310,7 @@ Use the *Mapping settings* tab to specify some basic data that is needed to be a
 
 
 - *Return format*   
-   Edit this drop-down list to select the return format. Use *EDI* for EDIFACT massages. 
+   Edit this drop-down list to select the return format. Use *EDI* for EDIFACT messages. 
 
  - *Convert to charset (Iconv)*   
    Edit the standard encoding your business partner require, for example UTF-8. The *DataHub Exporter* needs this information to convert the message correctly.
@@ -317,7 +319,7 @@ Use the *Mapping settings* tab to specify some basic data that is needed to be a
    Edit your company's GLN (Global location number).
 
 - *Sender identification code qualifier*   
-   Edit your company's identification code qualifier, if desired
+   Edit your company's identification code qualifier, if desired.
 
 - *Receiver*   
    Edit the GLN number of the message receiver.

@@ -162,14 +162,14 @@ Start specifying the line item segments by filling out the single elements of th
 6. Click the *EDI Export LIN/1082* destination attribute.    
    In the *Settings* section on the right, configuration options are displayed.
 
-     1. Click the *Extension* dropdown list and select the **Mathematical expression** (former arithmetric extension)entry.  
+     - Click the *Extension* dropdown list and select the **Mathematical expression** (former arithmetic extension) entry.  
          The section for selecting a source attribute is displayed.
 
-     2. Click the **Override change tracking** mode and select the desired mode.
+     - Click the **Override change tracking** mode and select the desired mode.
 
-     3. On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
+     - On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
 
-     4. In the *Configuration* section, enter **x1+1** in the *Equitation 1* field.
+     - In the *Configuration* section, enter **x1+1** in the *Equitation 1* field.
 
       ![Specify line item number](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082MappingDone.png "[Specify line item number]")
 

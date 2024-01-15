@@ -78,7 +78,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click the drop-down list and select the *DataHub Exporter* driver. All installed drivers are displayed.  
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
-- [SAVE]
+- [SAVE]   
    Click this button to save the connection. 
 
 
@@ -124,9 +124,9 @@ This section is only displayed for drivers with further credentials. The fields 
 
 ![Edit DataHub Exporter credentials](../../Assets/Screenshots/EDI/UserInterface/CreateConnectionCredentials.png "[Edit DataHub Exporter credentials]")
 
-This section is only displayed for drivers with further credentials.
-
 **Credentials**
+
+This section is only displayed for drivers with further credentials.
 
 - [SAVE]   
    Click this button to save any changes made.   

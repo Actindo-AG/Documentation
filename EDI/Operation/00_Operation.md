@@ -27,9 +27,9 @@ In this part of the *EDIFACT* documentation, you will find the following chapter
     - [Specify line item number](./04_ManageLineItemsFileStt.md#specify-line-item-number)
 
 - [Manage data sources](./04_ManageDataSources.md)
-    - [Create data source](./04_ManageDataSources.md)
-    - [Edit data source](./04_ManageDataSources.md#edit-data-source)   
-    - [Delete data source](./04_ManageDataSources.md#delete-data-source)
+    - [Assign data source](./04_ManageDataSources.md)
+    - [Map data source](./05_ManageDataSources.md#map-data-source)   
+    - [Remove data source assignment](./05_ManageDataSources.md#remove-data-source-assignment)
 
 - [Manage mapping settings](./05_MappingSettings.md)
     - [Create mapping settings](./05_ManageMappingSettings.md#create-mapping-settings)

@@ -1,13 +1,16 @@
 [!!Exports](../UserInterface/01_Exports.md)
 
 # Manage data sources
-Define the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
-For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved. 
-If desired, you can create multiple data sources from which you can retrieve data from different sources such as invoice data, customer data, and product data. In the next step, you can map a data source field with the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
+Specify the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
+For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved.    
+If required, you can specify here multiple data sources from which you can retrieve data from different sources, such as invoice data, customer data, and product data. In the next step, you can map a data source field with the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
 Tip: If you want to map the fields directly after you have specified an EDIFACT field in the file settings, it is recommended to create the data source before specifying the header &frasl; line items file segments.
 
-## Create data source
-Define the data source from which you want to retrieve the data with which you want to fill the EDIFACT message.
+
+
+## Assign data source
+
+Assign the data source from which you want to retrieve the data with which you want to fill the EDIFACT message fields.
 
 #### Prerequisites
 
@@ -34,12 +37,12 @@ At least one definition setting has been created, see [Create basic definition s
     ![Select source](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectSource.png "[Select source]")
 
 4. Select the data source in the *Entity type* drop-down list.   
-    - If desired, use the *RetailSuite Business document* entity type if you currently define the data source for a header file.    
-    You typically use this entity type for the header data, if you want to transfer data with its origin from the *Actindo Core1 Platform*.
-    - If desired, use the *Business document position* entity type if you currently define the data source for a line item definition.   
-    You typically use this entity type for the line item data, if you want to transfer data with its origin from the *Actindo Core1 Platform*.  
+    - If desired, use the *RetailSuite Business document* entity type when you are currently defining the data source for a header file.    
+    You typically use this entity type for the header data when you want to transfer data with its origin from the *Actindo Core1 Platform*.
+    - If desired, use the *Business document position* entity type when you are currently defining the data source for a line item definition.   
+    You typically use this entity type for the line item data when you want to transfer line item data with its origin from the *Actindo Core1 Platform*.  
     - If desired, use any other data source that provides you with data needed for the transfer.   
-    For example, you want to send an EDIFACT message with invoice data from SAP. In this case select the related SAP data source with which you can access the data needed for the header &frasl; line item file.   
+    For example, you want to send an EDIFACT message with invoice data from SAP. In this case select the related SAP data source with which you can access the data needed for the header&frasl;line item file.   
     
     The *Attribute set* drop-down list is automatically filled with the data source defined in the *Entity type* field.
     
@@ -68,13 +71,13 @@ At least one definition setting has been created, see [Create basic definition s
 
 
 
-## Edit data source
+## Map data source
 
-Edit the data source by specifying the data mapping for your file settings definition.
+Map the data sources by specifying the attributes that are to be mapped on EDIFACT message fields.
 
 #### Prerequisites
 
-- At least one data source has been created, see [Create data source](#create-data-source).
+- At least one data source has been assigned, see [Assign data source](#assign-data-source).
 - In the file settings, you have added at least one string attribute. See an example under [Specify document number &frasl; string attribute](./02_ManageHeaderFileSett.md#specify-document-number-⁄-string-attribute).
 
 #### Procedure
@@ -116,13 +119,13 @@ Edit the data source by specifying the data mapping for your file settings defin
 
 
 
-## Delete data source
+## Remove data source assignment
 
- Delete an exporter definition data source if you no longer need it. Note that you will lose all attribute mappings by deleting a data source.
+ Remove an exporter definition data source if you no longer need it. Note that you will lose related all attribute mappings by removing a data source.
 
  #### Prerequisites
 
-At least one data source has been created, see [Create data source](#create-data-source).
+At least one data source has been assigned, see [Assign data source](#assign-data-source).
 
 #### Procedure
 
@@ -130,7 +133,7 @@ At least one data source has been created, see [Create data source](#create-data
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the exporter definition from which you want to delete the assigned data source.    
+1. Click the exporter definition from which you want to remove the assigned data source.    
   The *Edit definition "Definition name"* view is displayed. The *Settings* tab is displayed by default.
 
 2. Click the *Data sources* tab.   
@@ -138,11 +141,11 @@ At least one data source has been created, see [Create data source](#create-data
     
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
-3. Select the checkbox of the data source you want to delete.    
+3. Select the checkbox of the data source you want to remove.    
    The editing toolbar is displayed.
 
 4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
-   The data source has been deleted.
+   The data source has been removed.
 
 5. Click the [SAVE] button.    
     You have saved the definition settings. The *Exporter definitions* view is displayed. 

@@ -109,7 +109,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.     
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. You can create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Create data source](./05_ManageDataSources.md#create-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. You can create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-setting).
 - Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).

@@ -60,7 +60,7 @@ Use the following checklist to organize your work. Manage the definitions in the
 |6. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
 |7. Create a basic definition setting for the line items, see [Create basic definition setting](../Operation/01_ManageDefinitions.md#create-basic-definition-setting). |   |   
 |9. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
-|10. Finalize the data mapping for both the definition of the header and the line items, see [Edit data source](../Operation/05_ManageDataSources.md#edit-data-source).
+|10. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
 |11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
 |12. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
 |13. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
