@@ -43,19 +43,19 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
    
-     a. Click the *Extension* drop-down list and select the **XML SubExport** extension.   
+     -  Click the *Extension* drop-down list and select the **XML SubExport** extension.   
      Both the "Source attribute" and the *Configuration* section is displayed in the left part of the *Settings* section.
 
-     b. Click the *Override change tracking mode* drop-down list and select the desired one.
+     - Click the *Override change tracking mode* drop-down list and select the desired one.
 
-     c. On the left part of the *Settings* section, click the *Source attribute* drop-down list and select **Positions** or another attribute that represents a line item. 
+     -  On the left part of the *Settings* section, click the *Source attribute* drop-down list and select **Positions** or another attribute that represents a line item. 
 
-     d. In the *Configuration* section, click the *Subexport definition* drop-down list and select the required line item definition, for example **EDIFACT INVOIC export items customer 12.**
+     -  In the *Configuration* section, click the *Subexport definition* drop-down list and select the required line item definition, for example **EDIFACT INVOIC export items customer 12.**
      
-     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingDone.png "[SG26 mapping settings]")  
+        ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingDone.png "[SG26 mapping settings]")  
 
 7. Click the [SAVE] button in the top right corner of the wizard.   
-    The *Please select a destination attribute in the grid on the left to edit the mapping* text is displayed
+    The *Please select a destination attribute in the grid on the left to edit the mapping* text is displayed.
 
 8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
   
@@ -97,10 +97,10 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 5. Enter the *Reference node path*. Use the following syntax:    
     /M_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]/ G\_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]\_SG[Group number].     
-    For example: /M_INVOIC_07A/G_INVOIC_07A_SG26*   
+    For example: /M_INVOIC_07A/G_INVOIC_07A_SG26   
     Alternatively, you can copy the two parts from the header file message structure.  
 
-    >[INOF] Note that depending on the EDIFACT version, the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group.
+    >[Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
 
@@ -112,7 +112,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
 7. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed, it starts with the S_LIN segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
+    The message structure with its single segments is displayed. It starts with the S_LIN segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
@@ -124,7 +124,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 ## Specify line item number
 
-Start specifying the line item segments by filling out the single elements of the S_LIN (Line item) segment. This procedure shows how to edit the position number on the invoice, so that each position of an invoice gets a unique and ascending line item number.
+Start specifying the line item segments by filling out the single elements of the S_LIN (Line item) segment. This procedure shows how to edit the line item number on the invoice, so that each invoice line item gets a unique and ascending number.
 
 #### Prerequisites
 
@@ -141,7 +141,7 @@ Start specifying the line item segments by filling out the single elements of th
 
     ![S_LIN segment](../../Assets/Screenshots/EDI/Operation/ExportDefLIN.png "[S_LIN segment]")
 
-2. Check the specification for the fields that are required to be filled. In most cases, you must fill the line item identifier in the *D_1082* row (to identify a line item). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
+2. Check the specification for the fields that are required to be filled. In most cases, you must fill the line item identifier in the *D_1082* row (to identify a line item). This is an ascending numeric value that must be unique for each invoice. For this reason, it is to be determined dynamically by a data source mapping. 
 
 3. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_1082* row.   
      - To the right of the *D_1082* row only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
@@ -162,14 +162,14 @@ Start specifying the line item segments by filling out the single elements of th
 6. Click the *EDI Export LIN/1082* destination attribute.    
    In the *Settings* section on the right, configuration options are displayed.
 
-     a. Click the *Extension* dropdown list and select the **Mathematical expression** (former arithmetric extension)entry.  
+     1. Click the *Extension* dropdown list and select the **Mathematical expression** (former arithmetric extension)entry.  
          The section for selecting a source attribute is displayed.
 
-     b. Click the **Override change tracking** mode and select the desired mode.
+     2. Click the **Override change tracking** mode and select the desired mode.
 
-     c. On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
+     3. On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
 
-     d. In the *Configuration* section, enter **x1+1** in the *Equitation 1* field.
+     4. In the *Configuration* section, enter **x1+1** in the *Equitation 1* field.
 
       ![Specify line item number](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082MappingDone.png "[Specify line item number]")
 
