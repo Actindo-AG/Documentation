@@ -12,6 +12,10 @@ It is possible to check all stock postings performed for a specific material and
 
 ## Check posting history for a material
 
+*Warehousing > Posting history > Tab POSTING HISTORY*
+
+![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
+
 You can check all stock postings performed for a specific material. The list displayed is the same as the one displayed in the *Stock history* sub-tab in the *Warehouse/suppliers* tab for a selected material, although additional information is provided here, such as the order number in shop.
 
 Besides, you can further filter the list of postings for a selected material by different criteria, see [Filter the stock history by different criteria](#filter-stock-history-by-different-criteria).
@@ -26,7 +30,9 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
     
     > [Info] As soon as you have typed three characters, a context menu with matching suggestions is displayed.
 
-2. Click the [DISPLAY] button to see the posting history for the selected product.
+2. Click the [DISPLAY] button to see the posting history for the selected product.  
+
+    ![Material posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/MaterialPostingHistory.png "[Material posting history]")
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the business document has been cancelled.
 
@@ -44,6 +50,10 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
 
 
 ## Filter stock history by different criteria
+
+*Warehousing > Posting history > Tab POSTING HISTORY*
+
+![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
 You can filter all stock postings performed using different criteria. You can also combine several criteria to narrow your search results.
 
@@ -90,8 +100,11 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
 
 3. Click the *Storage shelf* drop-down list and select the desired storage shelf. All available storage shelves are displayed in the list.
 
-4. Click the *From date* and/or the *Until date* to enter the desired date range. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.  
+4. Click the *From date* and/or the *Until date* fields to enter the desired date range. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.  
 
-5. Click the [DISPLAY] button to see the posting history for the selected product.
+5. Click the [DISPLAY] button to see the posting history according to the set filters.  
+    In the example below, the *Manual posting* has been selected in the *Posting type* drop-down list.
+
+   ![Filtered posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/CombinedFilterPostingHistory.png "[Filtered posting history]")
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the business document has been cancelled.
