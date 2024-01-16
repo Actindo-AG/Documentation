@@ -191,14 +191,13 @@ The list displays all dependencies of the selected log message. Depending on the
 
 ![List of messages](../../Assets/Screenshots/EDI/UserInterface/LogMessageDetailETL.png "[List of messages]")
 
-The list displays all ETL processes where an error has occurred and is described in the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only.   
-If no ETL processes are involved, the *No ETL processes exist* notice is displayed.
-
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
     Click this button to update the list of the log message dependencies.
 
 - ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
     Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
 
+The list displays all ETL processes where an error has occurred and is described in the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only.   
+If no ETL processes are involved, the *No ETL processes exist* notice is displayed.
 
 For detailed information on the fields displayed in the list, see [ETL Processes](../../DataHub/UserInterface/02h_ETLProcesses.md) in the *DataHub* documentation.

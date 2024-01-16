@@ -55,7 +55,7 @@ The list displays all available exporter definitions. Depending on the settings,
    Preview of the message fields. When you click on this link, a Browser window is opened which contains the already defined message fields in a string, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).
    
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add an exporter definition. The *Create definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+    Click this button to add an exporter definition. The *Create definition* view is displayed, see [Create exporter definition](#create-exporter-definition).
 
 
 ## Create exporter definition

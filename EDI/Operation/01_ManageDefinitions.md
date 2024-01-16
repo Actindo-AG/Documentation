@@ -125,9 +125,9 @@ After you have configured the entire definition including the file settings, you
 #### Prerequisites
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
 - At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
-- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
-- You have defined the data sources for this definition, see [Create data source](./04_ManageDataSources.md#create-data-source).
-- You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MappingSettings.md#define-mapping-settings).
+- You have defined the file settings for this definition, see [Manage header file settings](./02_ManageHeaderFileSett.md#manage-header-file-settings) and [Manage line item file settings](./04_ManageLineItemsFileStt.md#manage-line-item-file-settings).
+- You have defined the data sources for this definition, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
+- You have defined the mapping settings for this definition, see [Manage mapping settings](./06_ManageMappingSettings.md).
 
 
 #### Procedure
@@ -166,12 +166,12 @@ After you have configured the entire header and line item definitions including 
 
 #### Prerequisites
 
+- At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
 - At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
-- You have defined the file settings for this definition, see [Specify header file settings](./02_ManageHeaderFileSett.md#specify-header-file-settings) and [Specify line item file settings](./03_ManageLineItemsFileStt.md#specify-line-item-file-settings).
-- You have defined the data sources for this definition, see [Define data sources](./04_ManageDataSources.md#define-data-sources).
-- You have defined the mapping settings for this definition, see [Manage mapping settings](./05_MapAttributes.md#define-mapping-settings).
-- You have sent the preview to the customer to validate whether the message structure is correct and sufficient, see [Preview definition](#preview-definition).
-- You have prepared the related workflow to send the messages when they are is needed in the process, see [Prepare workflow](../Operation/07_PrepareWorkflow.md).
+- You have defined the file settings for this definition, see [Manage header file settings](./02_ManageHeaderFileSett.md#manage-header-file-settings) and [Manage line item file settings](./04_ManageLineItemsFileStt.md#manage-line-item-file-settings).
+- You have defined the data sources for this definition, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
+- You have defined the mapping settings for this definition, see [Manage mapping settings](./06_ManageMappingSettings.md).
+- You have prepared the related workflow to send the messages when they are needed in the process, see [Prepare workflow](../Operation/07_PrepareWorkflow.md).
 
 #### Procedure
 
@@ -200,7 +200,7 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a d
 
 #### Prerequisites
 
-- At least one definition setting has been activated, see [Activate definition settings](#activate-definition).   
+- At least one definition setting has been activated, see [Activate definition](#activate-definition).   
 - You no longer want to send messages of this type to your business partner.
 
 #### Procedure
@@ -231,7 +231,7 @@ Delete a definition if both you no longer need it and you want to clear your def
 
 #### Prerequisites
 
-- At least one definition has been created, see [Create basic definition settings](#create-basic-definition-setting).
+- At least one definition has been created, see [Create basic definition settings](#create-basic-definition-settings).
 
 #### Procedure
 

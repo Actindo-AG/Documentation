@@ -34,7 +34,7 @@ The following functions are available in the list header of the *CONNECTIONS* ta
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit DataHub Exporter connection](#edit-datahub-exporter-connection).
+    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-datahub-exporter-connection).
 
 The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

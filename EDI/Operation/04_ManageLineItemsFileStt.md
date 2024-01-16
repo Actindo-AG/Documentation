@@ -178,7 +178,7 @@ Start specifying the line item segments by filling out the single elements of th
 8. Click the [SAVE] button to save the header definition.   
    The *Exporter definition sources* view is displayed.
 
-9. Continue with specifying the line items file settings. For detailed information on examples how to define constant text values, string attributes, dates, conditions, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
+9. Continue with specifying the line items file settings. For detailed information on examples how to define constant text values, string attributes, dates, conditions, and free texts, see [Manage header file settings](./02_ManageHeaderFileSett.md#).
 
 
 

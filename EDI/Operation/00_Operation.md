@@ -26,14 +26,14 @@ In this part of the *EDIFACT* documentation, you will find the following chapter
     - [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments)
     - [Specify line item number](./04_ManageLineItemsFileStt.md#specify-line-item-number)
 
-- [Manage data sources](./04_ManageDataSources.md)
-    - [Assign data source](./04_ManageDataSources.md)
+- [Manage data sources](./05_ManageDataSources.md)
+    - [Assign data source](./05_ManageDataSources.md)
     - [Map data source](./05_ManageDataSources.md#map-data-source)   
     - [Remove data source assignment](./05_ManageDataSources.md#remove-data-source-assignment)
 
-- [Manage mapping settings](./05_MappingSettings.md)
-    - [Create mapping settings](./05_ManageMappingSettings.md#create-mapping-settings)
-    - [Edit mapping settings](./05_ManageMappingSettings.md#edit-mapping-settings)
+- [Manage mapping settings](./06_ManageMappingSettings.md)
+    - [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-settings)
+    - [Edit mapping settings](./06_ManageMappingSettings.md#edit-mapping-setting)
 
 - [Prepare workflow](./07_PrepareWorkflow.md)
    

@@ -8,7 +8,7 @@ The mapping settings define some basic data that is needed to be able to send ED
  Create the mapping settings.
 
 #### Prerequisites
-At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
+At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 >[INFO] The *Mapping settings* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
@@ -43,7 +43,7 @@ At least one definition setting has been created, see [Create basic definition s
 Edit the mapping settings.
 
 #### Prerequisites
-- At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
+- At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 - The mapping setting for a definition has been created.
 
 #### Procedure

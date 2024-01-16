@@ -14,7 +14,7 @@ Assign the data source from which you want to retrieve the data with which you w
 
 #### Prerequisites
 
-At least one definition setting has been created, see [Create basic definition settings](#create-basic-definition-settings).
+At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 >[INFO] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
@@ -99,7 +99,7 @@ Map the data sources by specifying the attributes that are to be mapped on EDIFA
 
     ![Data sources destination attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesDestinationAttributes.png "[Data sources destination attributes]")
 
-4. Map the source attributes and the destination attributes. For detailed information, see [Edit the ETL attribute mappings](../../DataHub/Operation/01_ManageETLMappings.md#delete-an-etl-attribute-mapping) in the *DataHub* documentation.
+4. Map the source attributes and the destination attributes. For detailed information, see [Edit the ETL attribute mappings](../../DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping) in the *DataHub* documentation.
 
 5. Click the [CONTINUE] button in the bottom right corner.   
     The *Optional: Filter items* pop up window is displayed. You can ignore it.

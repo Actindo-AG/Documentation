@@ -39,7 +39,7 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
 
 3. Click the *Release* dropdown list and select the required release.
 
-4. Click the the *Message type* dropdown list and enter the required message type.
+4. Click the *Message type* dropdown list and enter the required message type.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure is displayed below. The message name is highlighted in red because it is still empty.
@@ -147,7 +147,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
 7. Select the related data source.   
     - The *Map attributes* wizard window is displayed.
-    - The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes). 
+    - The EDI Export BGM/C106/1004 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired. For detailed information, see [Map data source](./05_ManageDataSources.md#map-data-source). 
 
        ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106Mapping.png "[Map Attributes]")
 
@@ -208,7 +208,7 @@ This procedure shows how to edit message dates. The message dates require both t
 8. Click the [SAVE] button to save the message structure.   
     The *Exporter definitions* view is displayed.
 
-9. If desired, check if the string attribute has been really marked for a later data mapping. For detailed information, see [Map attributes](./04_ManageDataSources.md#map-attributes).   
+9. If desired, check if the string attribute has been really marked for a later data mapping. For detailed information, see [Map data source](./05_ManageDataSources.md#map-data-source).   
     The EDI Export DTM/C507/2380 *Destination attribute* has been added to the attributes to be mapped later or directly afterwards, if desired.
 
      ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefDTM_C507Mapping.png "[Map Attributes]")

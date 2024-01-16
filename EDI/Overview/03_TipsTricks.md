@@ -53,12 +53,12 @@ Use the following checklist to organize your work. Manage the definitions in the
 |To do                                   | Done   
 |-----|------- 
 |1. Create the connection to your business partner, see [Manage connections](../Integration/01_ManageConnections.md).|   |     
-|2. Create a basic definition setting for the header, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-setting).|   |   
+|2. Create a basic definition setting for the header, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings).|   |   
 |3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageDefinitions.md#prepare-definition-of-file-settings).|   |   
 |4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |
 |5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |
 |6. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
-|7. Create a basic definition setting for the line items, see [Create basic definition setting](../Operation/01_ManageDefinitions.md#create-basic-definition-setting). |   |   
+|7. Create a basic definition setting for the line items, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings). |   |   
 |9. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
 |10. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
 |11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
