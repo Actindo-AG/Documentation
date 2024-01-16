@@ -1,0 +1,18 @@
+# Attributes
+
+*Any module that contain entity types > Select entity type > Tab Attributes*
+
+![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
+
+In the left margin column, all available attribute groups of the entity are displayed. Click an attribute group to display the attributes that are assigned to this group on the right side of the *Attributes* tab. If the entity contains attributes that are unassigned, the *Unassigned group* attribute group is automatically displayed in the left margin column.
+
+- ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
+    Attribute group that contains attribute sub-groups. Click the attribute group or the arrow left to the attribute group to expand the group and display the attribute sub-groups.
+
+- ![Folder](../../Assets/Icons/Folder01.png "[Folder]") (Folder)  
+    Attribute group. Click the attribute group to display all attributes that are assigned to the selected attribute group on the right side of the *Attributes* tab.
+
+The right side of the *Attributes* tab displays all attributes that are assigned to the selected group in the left margin column.
+
+- ![Collapse/Expand](../../Assets/Icons/CollapseExpand01.png "[Collapse/Expand]") (Collapse/Expand)    
+    Click this button to collapse or expand the left margin column with the attribute groups. If the left margin is expanded and you click this button, the column is collapsed. If the column is collapsed and you click this button, the column is expanded.
