@@ -53,7 +53,7 @@ Depending on the configured target channels and warehouses, the displayed column
         | GET_BESTAND | Physical stock |
         | GET_RESERVED | Reserved material |
         | GET_PRE_RESERVED | Pre-reserved material |
-        | GET_ RESERVED_SPECIAL | Material waiting for picking |
+        | GET_RESERVED_SPECIAL | Material waiting for picking |
         | GET_SELL | Material sold |
         | GET_COUNT | Physical stock minus material waiting for picking |
         | GET_COUNTAVAIL | Physical stock minus reserved material |

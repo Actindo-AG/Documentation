@@ -48,7 +48,7 @@ The list displays all available warehouses. The following buttons are also displ
 - ![Expand](../../Assets/Icons/Plus03.png "[Expand]") (Expand)  
     Click this button to expand the list of warehouses/warehouse groups.
 
-[comment]: <> (Evtl. Refresh löschen; Verweis auf UI Buttons in Core1)
+[comment]: <> (Evtl. Refresh, collapse/expand löschen; Verweis auf UI Buttons in Core1)
 
 
 ### Warehouse group basic data
@@ -149,7 +149,7 @@ The list displays all available warehouses. The following buttons are also displ
 
 [comment]: <> (Kann man in diesem Fall was machen?)
 
-[comment]: <> (Exclude from ordering -> Wirklich weglassen oder gibt es eine Empfehlen? Heusel meinte auf Ja)
+[comment]: <> (Exclude from ordering -> Wirklich weglassen oder gibt es eine Empfehlung? Heusel meinte auf Ja)
 
 
 ## Stock allocation  
@@ -219,6 +219,8 @@ For detailed information to configure the stock withdrawal matrix, see [Configur
 
 - *Delivery address country*  
     Click a field to display the drop-down list and select the country where the order has to be delivered, or leave it blank if no delivery applies.
+
+[comment]: <> (Ship-to country in Taxes)
 
 - *Product group*  
     Click a field to display the drop-down list and select a specific product group if desired. All available product groups are displayed in the list.

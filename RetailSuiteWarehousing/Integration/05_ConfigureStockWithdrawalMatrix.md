@@ -51,7 +51,7 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
     
 3. If necessary, double-click the field in the *Product group* column and select the applicable product group from the drop-down list. To create product groups, go to *Product management > Product groups*.
 
-[comment]: <> (Julian: Ist diese Funktion noch aktuell oder wird es abgebaut? Ich kann eine Gruppe erstellen und wird auch in der Lagerentnahme-Matrix angezeigt, aber wie kann ich Produkte zur Gruppe hinzufügen? In Artikelverwaltung ist die Option ausgegraut. Keine Doku von Artikelverwaltung. Ähnliche Funktion in PIM? Oder in Fakturierung?)
+[comment]: <> (Evtl. weglassen. Keine Doku von Artikelverwaltung. Ähnliche Funktion in PIM? Oder in Fakturierung?)
 
 4. Double-click the field in the *Sales channel* column and select the applicable output channel via which you want to create offers. The following options are available: 
 
@@ -64,7 +64,7 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
     - **Shop**   
         Select this option if you use your own external web shop.
 
-[comment]: <> (Stimmt das so? Oder kann es weitere Optionen geben? None z.B. bei NoE nud dann Arvato UK warehouse group. Ist es so, wenn man einen Fulfiller im Einsatz hat?)
+[comment]: <> (Stimmt das so? Oder kann es weitere Optionen geben? None z.B. bei NoE und dann Arvato UK warehouse group. Ist es so, wenn man einen Fulfiller im Einsatz hat?)
 
 5. Double-click the field in the *Account* column and select the applicable connection established in the *Omni-Channel* module. All available connections are displayed in the list.
 

@@ -23,11 +23,11 @@ Not all products displayed in the product list are actual items kept in stock. W
 - Product bundle  
     A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
 
-[comment]: <> (Artikel im Lager kommen noch aus Artikelverwaltung, das noch im Hintegrund arbeitet. In Doku erklären? Terminologie problematisch: Hier ist immer die Rede von Artikel oder Produkt. Ausdrücklich in der Doku erklären: PIM Product-> OC Offer -> Warehousing Material)
+[comment]: <> (Artikel im Lager kommen noch aus Artikelverwaltung, das noch im Hintergrund arbeitet. In Doku erklären? Terminologie problematisch: Hier ist immer die Rede von Artikel oder Produkt. Ausdrücklich in der Doku erklären: PIM Product-> OC Offer -> Warehousing Material)
 
 [comment]: <> (Lösung zur Terminologie: vor dem Aktivieren, Produkt, danach Material. Master material, variant material auch sinnvoll?)
 
-[comment]: <> (C&CS Info: Lageristik für Artikel aktivieren -kann auch über PIM erfolgen- -> Products > Select variant > UCS Lager tab > Basic data > Warehouse logistics activa for this product. Bei mir kommt der Reiter nicht vor. Warum? S. https://github.com/Actindo-AG/Documentation/blob/main/PIM/Troubleshooting/03_MissingStockValue.md Verlinken, wenn verfügbar)
+[comment]: <> (C&CS Info: Lageristik für Artikel aktivieren -kann auch über PIM erfolgen- -> Products > Select variant > UCS Lager tab > Basic data > Warehouse logistics active for this product. Bei mir kommt der Reiter nicht vor. Warum? S. https://github.com/Actindo-AG/Documentation/blob/main/PIM/Troubleshooting/03_MissingStockValue.md Verlinken, wenn verfügbar)
 
 [comment]: <> (Warehouses/Suppliers tab auch in PIM ersichtlich, unter USC Lagert tab, aber nicht bei mir. Muss was installiert werden? Relevant für jetzige Doku? S. Troubleshooting in PIM)
 

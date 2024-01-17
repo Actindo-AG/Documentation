@@ -6,6 +6,8 @@
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
+[comment]: <> (No entries shown when clicking the menu entry. Huge amount of postings available in the system for all stock movements and materials; they are not deleted. Therefore, for efficiency reasons/to save resources, nothing is shown first before a filter is set.) 
+
 The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is the same as the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/02_CheckPostingHistory.md#check-posting-history-for-a-material). 
 
 For detailed information on general UI functions of the CONNECTIONS tab,

@@ -7,6 +7,28 @@ You can check all stock postings that have been performed in the *Warehousing* m
 
 [comment]: <> (Verweis auf Basic OM process in Core1? Oder hier kurz erklären, wie prinzipiell die stock postings vom System/von den Belegen funktionieren?)
 
+
+Automatic posting types
+
+[comment]: <> (Evtl. doch manage warehouse with check procedure and automatic posting types)
+
+You can recognize that the posting is automatic by the presence of the Customer number, customer name and business document number in the posting history / material stock history.
+
+Every order that is imported into the system is linked to a business document, the head document. The head document, regardless of the business document it is, as this can be determined by the customer, makes a "reservation" posting in the *Warehousing* module. The material is then reserved, reducing only the material available stock (not the real stock).
+
+When a delivery head (usually the delivery note) is created, it makes two postings in the stock history: a "waiting for picking" posting to withdraw the physical stock in the system, thus reducing the real stock in the warehouse, and a second reservation posting with a negative sign to clear the initial reservation. The result of all materials processed in the order must be 0.
+
+Once the material has left the warehouse, that is, the delivery note has been closed, the "waiting for picking" posting is updated into a "sale" posting.
+
+In the case of supplier orders:
+
+- Order business document created -> Order posting -> Menge 500 / Bewegung 500, no physical stock increased, but available stock (for the calculation is positive)
+- Order business document processed -> Purchase posting -> Menge 500 / Bewegung 500, physical stock increased (material received in warehouse)
+- Order business document closed -> Order posting -> Menge -500 / -500 (clear the open order reservation)
+
+Transfer
++ / - depending on movement (from one storage shelf to another)
+
 It is possible to check all stock postings performed for a specific material and to filter all stock postings according to different criteria.
 
 
