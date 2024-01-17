@@ -81,7 +81,7 @@ The *Settings* tab is composed of the following setting entries:
 - *Value*   
    Edit the name of the event code you want to ignore.
 
-- ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
+- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
    Delete an event code you no longer want to ignore.    
       
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)    
@@ -91,5 +91,16 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Number of workers handling messages
 
+*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings > Select Number of workers handling messages*
 
+![Number of workers](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
+
+- *Number of workers handling messages*   
+   Enter the number of parallel processes with which the *Adyen* transactions are to be transferred. 
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply from default)   
+   Enable this toggle if you want to apply the default value. Disable this toggle if you do not want to apply the default value.
+
+- [SAVE]  
+  Click this button to save any changes made.
 

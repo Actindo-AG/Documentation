@@ -33,12 +33,14 @@ Create a connection to the *Adyen* payment service provider.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
-4. Enter the API credentials. For the test environment there are some standard access points. *Adyen* provides you with the API credentials for the productive environment.
+4. Enter the API credentials. There are some standard access points for the testing environment. For your productive environment, *Adyen* provides you with individual API credentials.
 
-    -  Enter the checkout API endpoint in the *Checkout API endpoint* field.    
-    The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the staging environment is **https://checkout-test.adyen.com/checkout/**.
-    - Enter the checkout API key field in the *Checkout API key* field.   
-    -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the staging environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
+    -  Enter the endpoint of the checkout in the *Checkout API endpoint* field. 
+
+    > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is **https://checkout-test.adyen.com/checkout/**.
+
+    - Enter the key field of the checkout API in the *Checkout API key* field.   
+    -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the test environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
     - Enter the user for the payment API in the *Payment API user* field.
 
 5. Enter the API credentials of the API users that you have created in *Adyen*:     
@@ -84,7 +86,7 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 Configure the Adyen connection after you have created it.
 
-In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that Adyen sends many event codes. The reason for this is that Adyen sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the *Adyen* settings. 
+In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that *Adyen* sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the *Adyen* settings. 
 
 In addition, you can configure the number of workers to process messages in asynchronous processing. The *Adyen* API has two endpoints, one for a synchronous and one for an asynchronous processing. 
 - At synchronous processing, *Adyen* creates a connection for each event that occurs. It has the advantage that *Adyen* is informed directly if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
