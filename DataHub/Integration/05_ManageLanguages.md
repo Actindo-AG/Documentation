@@ -1,4 +1,4 @@
-[!!User interface Languages](../UserInterface/02f_Languages.md)
+[!!User interface Languages](../UserInterface/03b_Languages.md)
 [!!Configure the language settings in PIM](../../PIM/Integration/04_ConfigureLanguages.md)
 
 # Manage the languages

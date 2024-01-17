@@ -3,7 +3,7 @@
 
 # ETL processes
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > ETL > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 

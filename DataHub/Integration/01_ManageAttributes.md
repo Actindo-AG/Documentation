@@ -1,6 +1,6 @@
 [!!Manage the attribute sets](./02_ManageAttributeSets.md)
-[!!User interface Attributes](../UserInterface/02a_Attributes.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!User interface Attributes](../UserInterface/01a_Attributes.md)
+[!!Data type list](../UserInterface/05_DataTypeList.md)
 [!!Manage the products in PIM](../../PIM/Operation/01_ManageProducts.md)
 [!!Manage the variant sets in PIM](../../PIM/Integration/07_ManageVariantSets.md)
 

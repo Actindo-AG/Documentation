@@ -1,4 +1,4 @@
-[!!User interface Channels](../UserInterface/02e_Channels.md)
+[!!User interface Channels](../UserInterface/03a_Scopes.md)
 [!!Configure the channel settings in PIM](../../PIM/Integration/05_ConfigureChannels.md)
 
 # Manage the channels

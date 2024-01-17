@@ -101,6 +101,8 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 **Create attribute**
 
+The *Create attribute* view contains all fields and configurations that define the properties of an attribute.
+
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute* view and return to the attributes list. All changes are rejected.
 
@@ -111,8 +113,6 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 - [SAVE]   
     Click this button to save the attribute. The *Create attribute* view is closed.
-
-**BASIC DATA**
 
 - *Name (Language)*   
     Enter an attribute name in the selected language.
@@ -162,6 +162,13 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 **Edit attribute**
 
+The *Edit attribute* view contains all fields and configurations that define the properties of an attribute. It consists of the following tabs:   
+- [Data](#edit-attribute-–-data)
+- [Attribute set assignments](#edit-attribute-–-attribute-set-assignments)
+
+<BR>
+
+
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
 
@@ -176,7 +183,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 ### Edit attribute &ndash; Data
 
-*DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
+*DataHub > Data model > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Edit attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
 
@@ -211,7 +218,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 ### Edit attribute &ndash; Attribute set assignments
 
-*DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Attribute set assignments*
+*DataHub > Data model > Tab ATTRIBUTES > Select attribute > Tab Attribute set assignments*
 
 ![Attribute set assignments](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Attribute set assignments]")
 

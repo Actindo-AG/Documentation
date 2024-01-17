@@ -30,7 +30,7 @@
 - [DELETE]   
     Click this button to irretrievably delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
 
-The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all attributes that have been deleted. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Name*   
     Attribute name.

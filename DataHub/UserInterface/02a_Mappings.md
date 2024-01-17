@@ -6,7 +6,7 @@
 
 # ETL
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -38,8 +38,8 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 - *Language*   
     Language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
-- *Channel*   
-    Channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
+- *Scope*   
+    Scope from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
 
 - *ID*   
     Attribute set identification number. The ID number is automatically assigned by the system.
@@ -63,7 +63,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 
 ## Create ETL attribute set mapping
 
-*DataHub > Settings > Tab ETL > Button Add*
+*DataHub > ETL > Tab Mappings > Button Add*
 
 ![Create ETL attribute set mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
@@ -76,7 +76,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
 - *Language*   
     Click the drop-down list and select the language from which the value of a multi-language attribute will be taken when mapping it to a single language attribute. All available languages are displayed in the drop-down list.
 
-- *Channel*   
+- *Scope*   
     Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All available channels are displayed in the drop-down list.
 
 - *Copy ETL attribute set mapping*   
@@ -154,11 +154,11 @@ The list displays all attribute mappings. Depending on the settings, the display
 
 ### Settings
 
-*DataHub > Settings > Tab ETL > Select attribute set mapping > Select attribute mapping > Button Edit*
+*DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Select attribute mapping > Button Edit*
 
 ![Mapping settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping settings]")
 
-The *Settings* section on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view is only displayed if editing an attribute mapping.   
+The *Settings* section on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view is only displayed if you edit an attribute mapping.   
 Depending on the selected row in the list of mappings, the fields displayed in the *Settings* section differ:   
 - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.   
 - If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
@@ -195,7 +195,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun all mappings
 
-*DataHub > Settings > Tab ETL > Select attribute set mapping > Button RERUN MAPPINGS*
+*DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Button RERUN MAPPINGS*
 
 ![Rerun all mappings](../../Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
 

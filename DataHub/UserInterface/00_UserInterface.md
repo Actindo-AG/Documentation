@@ -2,45 +2,41 @@
 
 In this part of the *DataHub* documentation, you will find the following chapters:
 
-- [Overview](./01_Overview.md)
+- [Data model](./01_DataModel.md)
 
-- [DASHBOARDS](./01a_Dashboards.md)
-    - [Add a new tab](./01a_Dashboards.md#add-a-new-tab)
-    - [Confirm tab deletion](./01a_Dashboards.md#confirm-tab-deletion)
-    - [Tab](./01a_Dashboards.md#tab)
-        - [Edit tab](./01a_Dashboards.md#edit-tab)
+    - [ATTRIBUTES](./02a_Attributes.md)
+        - [Create attribute](./02a_Attributes.md#create-attribute)
+        - [Edit attribute](./02a_Attributes.md#edit-attribute)
+           - [Edit attribute &ndash; Data](./02a_Attributes.md#edit-attribute-–-data)
+            - [Edit attribute &ndash; Attribute set assignments](./02a_Attributes.md#edit-attribute-–-attribute-set-assignments)
 
+    - [ATTRIBUTE SETS](./02b_AttributeSets.md)
+        - [Create attribute set](./02b_AttributeSets.md#create-attribute-set)
+        - [Edit attribute set](./02b_AttributeSets.md#edit-attribute-set)
+            - [Edit attribute for set](./02b_AttributeSets.md#edit-attribute-for-set)
+            - [Add mapping](./02b_AttributeSets.md#add-mapping)
 
-- [Settings](./02_Settings.md)
+    - [ATTRIBUTE GROUPS](./02c_AttributeGroups.md)
+        - [Add attributes to group](./02c_AttributeGroups.md#add-attributes-to-group)
+        - [Edit attribute groups](./02c_AttributeGroups.md#edit-attribute-groups)
+            - [Add element](./02c_AttributeGroups.md#add-element)
+            - [Edit attribute group data](./02c_AttributeGroups.md#edit-attribute-group-data)
 
-- [ATTRIBUTES](./02a_Attributes.md)
-    - [Create attribute](./02a_Attributes.md#create-attribute)
-    - [Edit attribute](./02a_Attributes.md#edit-attribute)
-        - [Edit attribute &ndash; Data](./02a_Attributes.md#edit-attribute-–-data)
-        - [Edit attribute &ndash; Attribute set assignments](./02a_Attributes.md#edit-attribute-–-attribute-set-assignments)
+- [ETL](./02_ETL.md)   
+    - [MAPPINGS](./02a_Mappings.md)   
+        - [Create ETL attribute set mapping](./02d_ETL.md#create-etl-attribute-set-mapping)   
+        - [Mapping](./02d_ETL.md#mapping)   
+            - [Settings](./02d_ETL.md#settings)   
+            - [Rerun all mappings](./02d_ETL.md#rerun-all-mappings)  
+            - [Rerun single mapping](./02d_ETL.md#rerun-single-mapping) 
 
-- [ATTRIBUTE SETS](./02b_AttributeSets.md)
-    - [Create attribute set](./02b_AttributeSets.md#create-attribute-set)
-    - [Edit attribute set](./02b_AttributeSets.md#edit-attribute-set)
-        - [Edit attribute for set](./02b_AttributeSets.md#edit-attribute-for-set)
-        - [Add mapping](./02b_AttributeSets.md#add-mapping)
+    - [DELETED ATTRIBUTES](./02i_DeletedAttributes.md) 
 
-- [ATTRIBUTE GROUPS](./02c_AttributeGroups.md)
-    - [Add attributes to group](./02c_AttributeGroups.md#add-attributes-to-group)
-    - [Edit attribute groups](./02c_AttributeGroups.md#edit-attribute-groups)
-        - [Add element](./02c_AttributeGroups.md#add-element)
-        - [Edit attribute group data](./02c_AttributeGroups.md#edit-attribute-group-data)
+- [Settings](./03_Settings.md)
 
-- [ETL](./02d_ETL.md)
-    - [Create ETL attribute set mapping](./02d_ETL.md#create-etl-attribute-set-mapping)
-    - [Mapping](./02d_ETL.md#mapping)
-        - [Settings](./02d_ETL.md#settings)
-        - [Rerun all mappings](./02d_ETL.md#rerun-all-mappings)
-        - [Rerun single mapping](./02d_ETL.md#rerun-single-mapping)
-
-- [CHANNELS](./02e_Channels.md)
-    - [Create channel](./02e_Channels.md#create-channel)
-    - [Edit channel](./02e_Channels.md#edit-channel)
+    - [SCOPES](./03e_Scopes.md)
+        - [Create scope](./02e_Channels.md#create-scope)
+        - [Edit scope](./02e_Channels.md#edit-scope)
 
 - [LANGUAGES](./02f_Languages.md)
     - [Create language](./02f_Languages.md#create-language)
@@ -50,7 +46,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Create view](./02h_ETLProcesses.md#create-view)
     - [Rename view](./02h_ETLProcesses.md#rename-view)
 
-- [DELETED ATTRIBUTES](./02i_DeletedAttributes.md)
+
 
 - [HTML TEMPLATES](./02j_HTMLTemplates.md)
     - [Create HTML template](./02j_HTMLTemplates.md#create-html-template)

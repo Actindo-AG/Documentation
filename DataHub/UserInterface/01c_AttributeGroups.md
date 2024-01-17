@@ -2,7 +2,7 @@
 
 # Attribute groups
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model> Tab ATTRIBUTE GROUPS*
 
 ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
@@ -69,7 +69,7 @@ The list displays all attributes assigned to the selected attribute group. Depen
 
 ## Add attributes to group
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS > Button Add*
 
 ![Add attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
@@ -129,7 +129,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 ## Edit attribute groups
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS > Button Edit*
 
 ![Edit attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroups.png "[Edit attribute groups]")
 
@@ -164,7 +164,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 ### Add element
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS > Button Edit > Button Add*
 
 ![Add element](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddElement.png "[Add element]")
 
@@ -192,7 +192,7 @@ The list displays all attributes that are not assigned to the selected attribute
 
 ### Edit attribute group data
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS > Button Edit > Hover over attribute group > Button Edit*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS > Button Edit > Hover over attribute group > Button Edit*
 
 ![Edit attribute group data](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/EditAttributeGroupData.png "[Edit attribute group data]")
 

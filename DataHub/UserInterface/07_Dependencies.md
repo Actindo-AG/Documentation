@@ -1,13 +1,13 @@
 # Dependencies
 
-*Any module that handles with DataHub entities > Select Entity > Click the Dependencies tab*
+*Any module that processes DataHub entities > Select entity > Click the Dependencies tab*
 
 ![Dependencies](../../Assets/Screenshots/DataHub/Others/Dependencies.png)
 
 **Dependencies**
 
-The list displays all dependencies of the selected entity. Dependencies exist when individual attributes of an entity or the entire entity are linked to another entity, for example, through inheritance or automatic mapping. For example, an offer in the *Omni-Channel* module that has been created by an automatic mapping from a product of the *PIM* module.  
-
+The list displays all dependencies of the selected entity. Dependencies exist when individual attributes of an entity or the entire entity are linked to another entity, such as through inheritance or automatic mapping.    
+For example, an offer in the *Omni-Channel* module that was created by an automatic mapping from a product of the *PIM* module. In this case, all attributes or the entire entity are displayed in this list.   
 Depending on the settings, the displayed columns may vary.
 
 > DELETE
@@ -37,7 +37,7 @@ Depending on the settings, the displayed columns may vary.
 
 ## Dependencies &ndash; Rerun Mapping
 
-*Any module that handles with DataHub entities > Select Entity > Click the Dependencies tab > Select an entry*
+*Any module that processes DataHub entities > Select entity > Click the Dependencies tab > Select an entry*
 
 
 ![Dependencies](../../Assets/Screenshots/DataHub/Others/RerunMapping.png)

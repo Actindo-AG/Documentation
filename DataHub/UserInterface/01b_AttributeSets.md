@@ -5,7 +5,7 @@
 
 # Attribute sets
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model> Tab ATTRIBUTE SETS*
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
@@ -90,6 +90,8 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 **Create attribute set**
 
+The *Create attribute set* view contains all fields and configurations that define the properties of an attribute set.
+
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
 
@@ -122,7 +124,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
     > [Info] Entity types are all classes interacting with the *DataHub* module.
 
 - *Inherit/Copy values from*   
-    Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
+    Click the drop-down list to select whether to inherit or copy the values for the new attribute set from an existing attribute set. The following options are available:    
     - **No inheritance**   
         The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
     - **Attribute set name**   
@@ -140,6 +142,8 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 **Assigned attributes**
 
+In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to add attributes. 
+
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
     Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
 
@@ -155,17 +159,19 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
-In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to edit the assigned attributes.   
+  
 
 
 
 ## Edit attribute set
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Select attribute set*
 
 ![Edit attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeSet.png "[Edit attribute set]")
 
 **Edit attribute set**
+
+The *Edit attribute set* view contains both all fields and configurations that define the properties of an attribute set and the assigned attributes. 
 
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
     Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
@@ -212,7 +218,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 **Assigned attributes**
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
-    Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
+    Click this button to unlock the *Required* column in the attributes list. The color of the button switches to green if the column is unlocked. Click the button again to lock the *Required* column. 
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute.
@@ -241,7 +247,7 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
     Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
-If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, all fields are read-only. If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the  *Required* field is editable.
+
 
 - *Name*   
     Attribute name.
@@ -265,7 +271,7 @@ If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) bu
 
 - *Required*  
     Indication whether the attribute value is required or not. The following options are only displayed if the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is inactive:
-    - If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is blue, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
+    - If the ![Settings](../../Assets/Icons/Settings02.png "[Settings]") (Settings) button is green, the *Required* toggle is displayed. Enable the toggle to set the attribute value as a mandatory field. Disable the toggle to set the attribute value as an optional field.   
     - If the ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings) button is gray, the following options are displayed:
         - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is required.  
         - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is optional.

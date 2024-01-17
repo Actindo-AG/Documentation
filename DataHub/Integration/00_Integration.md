@@ -35,11 +35,11 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Remove attributes from a group](./03_ManageAttributeGroups.md#remove-attributes-from-a-group)
 
 
-- [Manage the channels](./04_ManageChannels.md)
-    - [Create a channel](./04_ManageChannels.md#create-a-channel)
-    - [Edit a channel](./04_ManageChannels.md#edit-a-channel)
-    - [Deactivate a channel](./04_ManageChannels.md#deactivate-a-channel)
-    - [Delete a channel](./04_ManageChannels.md#delete-a-channel)
+- [Manage the scopes](..md)
+    - [Create a scope](./04_ManageScopes.md#create-a-scope)
+    - [Edit a scope](./04_ManageScopes.md#edit-a-scope)
+    - [Deactivate a scope](./04_ManageScopes.md#deactivate-a-scope)
+    - [Delete a scope](./04_ManageChannels.md#delete-a-scope)
 
 
 - [Manage the languages](./05_ManageLanguages.md)
@@ -47,3 +47,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Edit a language](./05_ManageLanguages.md#edit-a-language)
     - [Deactivate a language](./05_ManageLanguages.md#deactivate-a-language)
     - [Delete a language](./05_ManageLanguages.md#delete-a-language)
+
+- [Manage the units and dimensions](./06_ManageUnitsDimensions.md)
+   - [Deactivate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
+   - [Activate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)

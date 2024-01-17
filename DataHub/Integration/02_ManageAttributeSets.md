@@ -1,5 +1,5 @@
 [!!Manage the attributes](./01_ManageAttributes.md)
-[!!User interface Attribute sets](../UserInterface/02b_AttributeSets.md)
+[!!User interface Attribute sets](../UserInterface/01b_AttributeSets.md)
 
 # Manage an attribute set
 
