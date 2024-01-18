@@ -21,8 +21,6 @@ The stock withdrawal matrix is designed to determine automatically from which wa
 
 The stock withdrawal matrix is a so-called priority list, that is, a list of criteria arranged in descending order based on their priority. Therefore, the correct order of these criteria is crucial, as the system goes through them in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. For example, if two entries have the same matching criteria, the system withdraws the stock from the one warehouse that comes first until there is no more materials in stock, and then it goes to the next one.   
 
-[comment]: <> (Product group noch relevant? Product group wird in Artikelverwaltung konfiguriert, aber noch im Einsatz? Oder kann man auch in PIM?)
-
 
 
 ## Create an entry
@@ -32,9 +30,6 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
 #### Prerequisites  
 
 - At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
-- A connection with a sales channel has been established, see [Create a connection](../../Channels/Integration/01_ManageConnections.md#create-a-connection). 
-
-[comment]: <> (Check prerequisites)
 
 #### Procedure
 
@@ -51,28 +46,24 @@ Create an entry to determine a set of criteria to withdraw stock from a specific
     
 3. If necessary, double-click the field in the *Product group* column and select the applicable product group from the drop-down list. To create product groups, go to *Product management > Product groups*.
 
-[comment]: <> (Evtl. weglassen. Keine Doku von Artikelverwaltung. Ähnliche Funktion in PIM? Oder in Fakturierung?)
+[comment]: <> (Produktgruppe-Spalte weggelassen. Alte Funktion und keine Doku dafür.)
 
 4. Double-click the field in the *Sales channel* column and select the applicable output channel via which you want to create offers. The following options are available: 
 
     - **All**  
-        Select this option to include all sales channels.
+        Select this option for all sales channels.
     - **None**  
-        Select this option if your warehouse is managed by a fulfiller.
+        Select this option for orders that are manually created via the *Order Management* module.
     - **Core 1 Channels**  
         Select this option for all sales channels connected via the *Omni-Channel* module. 
     - **Shop**   
-        Select this option if you use your own external web shop.
-
-[comment]: <> (Stimmt das so? Oder kann es weitere Optionen geben? None z.B. bei NoE und dann Arvato UK warehouse group. Ist es so, wenn man einen Fulfiller im Einsatz hat?)
+        Select this option for orders imported via the *Multimarkets* module. This module is currently being replaced by *Omni-Channel*.  
 
 5. Double-click the field in the *Account* column and select the applicable connection established in the *Omni-Channel* module. All available connections are displayed in the list.
 
 6. If necessary, double-click the field in the *Sub-account* column and select the applicable sub-account, that is, the specific sub-shop where the order has been placed.
 
-7. If desired, double-click the field in the *Shipping provider* column and select the applicable shipping provider. You can configure the shipping providers in the *Order Management* module.
-
-[comment]: <> (Stimmt das so? Wo genau? Order Management > Settings > Tab SHIPPING PROVIDER > Shipping?)
+7. If desired, double-click the field in the *Shipping provider* column and select the applicable shipping provider. You can configure the shipping providers in *Order Management > Settings > Tab SHIPPING PROVIDER > Shipping*.
 
 8. Double-click the field in the *Warehouse* column and select the applicable warehouse where the stock should be withdrawn from. All available warehouses are displayed in the list.
 

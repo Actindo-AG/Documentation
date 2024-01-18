@@ -31,7 +31,7 @@ The list displays the group of products created in the old *Product management* 
 - [CLOSE ALL]  
     Click this button to expand all sections of the list of product groups.
 
-[comment]: <> (Diese Element ggf. in Core1 Doku integrieren, darauf hinweisen und hier weglöschen)
+[comment]: <> (Diese Elemente ggf. in Core1 Doku integrieren, darauf hinweisen und hier weglöschen)
 
 **Product list**  
 
@@ -136,7 +136,7 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
 
 ## Basic data
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product*
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product*  
 *Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open*
 
 ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
@@ -159,9 +159,11 @@ The *Basic data* sub-tab contains the main product details, such as product SKU 
 
 ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
+The *Warehouse management* sub-tab contains two sections.
+
 **Storage locations**
 
-![Storage locations](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/StorageLocations.png "[Storage locations]")
+The list in this section displays all storage shelves where the selected material is stored. You can also create the storage shelves and create new ones.
 
 - *ID*  
     Storage shelf identification number. This value is assigned automatically by the system.
@@ -202,8 +204,6 @@ The *Basic data* sub-tab contains the main product details, such as product SKU 
 
 ![Add storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddStorageShelf.png "[Add storage shelf]")
 
-![Add/Edit](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddEdit.png "[Add/Edit]")
-
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
 
 - *Warehouse ID*  
@@ -231,43 +231,144 @@ The *Basic data* sub-tab contains the main product details, such as product SKU 
     Click this button to save the storage shelf. The new storage shelf is displayed in the *Storage locations* section.
 
 - [CLEAR]  
-
-
+    Click this button to clear all fields in the section.
 
 **Stocks**
 
-![Stocks](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/Stocks.png "[Stocks]")
+The list in this section displays the current stocks of the selected material. 
+
+- *Warehouse*  
+    Warehouse ID and name.
+
+- *Stock*  
+    Actual number of units of the product stored.
+
+- *Reserved*  
+    Reserved units of the product, that is, units included in customers' open orders.
+
+- *Available in stock*  
+    Available units of the product, that is, the units on stock minus the reserved units.
+
+- *Ordered*  
+    Ordered units of product, that is, units ordered by the supplier for restocking.
+
+- *Available*  
+    Available units of the product including ordered units.
+
+- *Pre-reserved* 
+    Number of units pre-reserved units of the product. 
 
 
 - [ADD POSTING]  
+    Click this button to add a single posting manually. The *Add posting* window is displayed, see [Add posting](#add-posting).
+
+[comment]: <> (Fenster hast keinen Name. Evtl. FETA)
 
 - [DISPLAY STOCK ALLOCATION]  
-
+    Click this button to display the stock allocation values for the selected material. The *Display allocation* window is displayed, see [Display stock allocation](#display-stock-allocation).
 
 
 
 ### Add posting
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button ADD POSTING*
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button ADD POSTING*  
 *Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
 
 ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]")
 
 
+- *Stock location*  
+    Click the drop-down list and select the storage shelf where you want to post stock. 
+
+- *Posting type*  
+    Click the drop-down list and select the desired posting type.  
+    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/01_ManageStock.md#create-a-manual-stock-posting). 
+
+- *New stock location*  
+    Click the drop-down list and select the desired stock location. This drop-down list is only displayed if you have selected the *Stock transfer* posting type.
+
+- *Change*  
+    Number of stock units to be posted. By default, **1.00** is displayed. You can enter a different material amount if desired. Depending of the posting type, the sign changes.
+
+- *Posting date*  
+    Enter the desired date with your keyboard. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.
+
+- *Comment*  
+    Enter a comment to the posting if desired.
+
+- *Customer*   
+    Enter the customer number if desired. This field is only displayed when you select the posting type *Sale*. Alternatively, click the ![Search](../../Assets/Icons/Search02.png "[Search]") (Search) button to search for a supplier. The *Select address* window containing the customer/supplier list is displayed, see [Customer/supplier list](../../RetailSuiteAccounting/UserInterface/02a_DebtorsCreditors.md#customersupplier-list).
+
+[comment]: <> (Es ist tatsächlich die Nummer, nicht der Name. UI Texte korrigieren)
+
+- *Sale price net*  
+    Enter the product net price if desired. This field is only displayed when you select the posting type *Sale*.
+
+- *Supplier*   
+    Enter the supplier number if desired. This field is only displayed when you select the posting type *Purchase*. Alternatively, click the ![Search](../../Assets/Icons/Search02.png "[Search]") (Search) button to search for a supplier. The *Select address* window containing the customer/supplier list is displayed, see [Customer/supplier list](../../RetailSuiteAccounting/UserInterface/02a_DebtorsCreditors.md#customersupplier-list).
+
+- *Purchase price net*  
+    Enter the product net price if desired. This field is only displayed when you select the posting type *Purchase*.
+
+- *Old stock*  
+    Current number of stock unit in the selected storage shelf. This field is read-only.
+
+- *Old total stock* 
+    Current number of stock units in all storage shelves. This field is read-only.
+
+- *New stock*  
+    New number of stock units in the selected storage shelf after the posting has been made. This field is read-only and updates automatically.
+
+- *New total stock*  
+    New number of stock units in all storage shelves after the posting has been made. This field is read-only and updates automatically.
+
+- [SAVE & NEW]  
+    Click this button to save the posting.
+
+- [CANCEL]  
+    Click this button to cancel the posting process.
+
 
 ### Display stock allocation
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*   
 *Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
 
 ![Display stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/DisplayStockAllocation.png "[Display stock allocation]")
 
+The list in this window displays the stock allocations for the selected material. All fields are read-only.
+
+
+- *Target channel*  
+    All target channels configured in the system. 
+
+[comment]: (Bessere Benennung/Erklärung durchg.!)
+
+- *Stock*  
+    Calculated value to be transferred to the corresponding target channel. 
 
 
 
 ## Stock history
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Stock history*
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Stock history*  
 *Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Stock history*
 
 ![Stock history](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/StockHistory/StockHistory.png "[Stock history]")
+
+This sub-tab displays all stock postings for the selected material. The list displayed here is similar to the one displayed in the *Posting history* menu entry when filtering by product/material.
+
+- *Storage location*  
+    Click the drop-down list to filter the postings by storage shelf.
+
+- *Posting type*  
+    Click the drop-down list to filter the postings by posting type.  
+    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/01_ManageStock.md#create-a-manual-stock-posting). 
+
+- [EXCEL]  
+    Click this button to export the stock history as an Excel file.  
+
+
+For a detailed description of all columns, see [Posting history](./02a_PostingHistory.md).
+
+

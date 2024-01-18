@@ -8,9 +8,10 @@
 
 [comment]: <> (No entries shown when clicking the menu entry. Huge amount of postings available in the system for all stock movements and materials; they are not deleted. Therefore, for efficiency reasons/to save resources, nothing is shown first before a filter is set.) 
 
-The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is the same as the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/02_CheckPostingHistory.md#check-posting-history-for-a-material). 
+The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/02_CheckPostingHistory.md#check-posting-history-for-a-material). 
 
-For detailed information on general UI functions of the CONNECTIONS tab,
+
+[comment]: <> (For detailed information on general UI functions, see... -> Link to Core1 UI)
 
 - *Product*  
     Enter the product SKU or name to search for the stock posting for a specific material. 
@@ -55,24 +56,73 @@ For detailed information on general UI functions of the CONNECTIONS tab,
 - *Storage shelf*  
     Click the drop-down list and select the desired storage shelf. All available storage shelves are displayed in the list.
 
-- *From date* / *Until date*
+- *From date* / *Until date*  
     Click the field(s) to enter the desired date or date range. Alternatively, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button to select a date.  
 
 - [DISPLAY]  
     Click this button to display the posting history according to the filter criteria.
 
 
+![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/CombinedFilterPostingHistory.png "[Posting history]")
 
+The results list displays all posting according to the selected criteria, including the following details:
 
+- *Date*  
+    Posting date.
 
+- *Posting type*  
+    Type of posting.
 
+- *Customer no.*  
+    Customer or supplier number.
 
+- *Customer name*  
+    Customer or supplier name.
 
+- *Document no.*  
+    Business document number. This detail is only displayed in case of automatic postings. 
 
+- *SKU*  
+    Product SKU.
 
+- *Product name*  
+    Product name.
 
+- *Quantity*  
+    Number of units posted. 
 
-- Calender
+[comment]: <> (Vorzeichen erklären)
+
+- *Unit price*  
+    Price per unit for the material posted.
+
+- *Total price*  
+    Price of all units posted.
+
+- *Warehouse*   
+    Warehouse ID and name.
+
+- *Storage shelf*   
+    Storage shelf number.
+
+- *Movement*  
+    Units added or reduced (minus sign).
+
+- *Stock*  
+    Actual physical number of units stored.
+
+- *Available*  
+    Number of units available to be sold (actual stock minus reserved units).
+
+- *Comment*  
+    Comments added to the posting.
+
+- *Time of posting*  
+    Date and time of posting.
+
+- *Project no.*  
+    Order number in shop.
+
 
 
 

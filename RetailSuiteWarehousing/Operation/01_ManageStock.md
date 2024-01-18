@@ -6,7 +6,6 @@ The main purpose of the *Warehousing* module is to manage the stock, that is, to
 
 Before you can post stock for a material, you have to activate the warehouse logistics for the corresponding product, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
 
-[comment]: <> (In Overview: The *Warehousing* module is undergoing a major redesigning process and, therefore, only the most important features are described in this documentation. Oder Diese Funktion wird in absehbarer Zeit sich ändern oder wegfallen und daher wird aktuell nicht beschrieben.)
 
 
 ## Activate the warehouse logistics for a product
@@ -22,14 +21,6 @@ Not all products displayed in the product list are actual items kept in stock. W
 
 - Product bundle  
     A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
-
-[comment]: <> (Artikel im Lager kommen noch aus Artikelverwaltung, das noch im Hintergrund arbeitet. In Doku erklären? Terminologie problematisch: Hier ist immer die Rede von Artikel oder Produkt. Ausdrücklich in der Doku erklären: PIM Product-> OC Offer -> Warehousing Material)
-
-[comment]: <> (Lösung zur Terminologie: vor dem Aktivieren, Produkt, danach Material. Master material, variant material auch sinnvoll?)
-
-[comment]: <> (C&CS Info: Lageristik für Artikel aktivieren -kann auch über PIM erfolgen- -> Products > Select variant > UCS Lager tab > Basic data > Warehouse logistics active for this product. Bei mir kommt der Reiter nicht vor. Warum? S. https://github.com/Actindo-AG/Documentation/blob/main/PIM/Troubleshooting/03_MissingStockValue.md Verlinken, wenn verfügbar)
-
-[comment]: <> (Warehouses/Suppliers tab auch in PIM ersichtlich, unter USC Lagert tab, aber nicht bei mir. Muss was installiert werden? Relevant für jetzige Doku? S. Troubleshooting in PIM)
 
 #### Prerequisites
 
@@ -125,9 +116,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
     - **Pre-reservation**  
         Select this option if you want to post a reservation for an order that has not been received in the system yet, that is, there is no business document assigned to it yet. This can be the case, for example, when a customer places a product in the shopping cart. This posting type does not affect the actual nor the available stock in the warehouse. 
 
-        > [Info] Pre-reservation postings are not standard and must be additionally configured in the system. If you have not had it configured, this option will not be displayed in the list.
-
-[comment]: <> (Stimmt das so mit pre-reservations? Vgl. mit Stock history tab)
+        > [Info] To be able to use pre-reservation posting in the system, your shop must support this function.  
 
 6.  If you have selected the *Stock transfer* posting type, click the *New stock location* drop-down list and select the destination storage shelf. Otherwise, proceed to next step.
 
@@ -180,7 +169,7 @@ The warehouse logistics has been activated for the selected materials, see [Acti
 
     ![Multiple posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/MultiplePosting.png "[Multiple posting]")
 
-[comment]: <> (Ab hier, abhängig vom Tab unten unterscheiden sich die Prozeduren minimal. 3 Unterprozedure - Stock in, Release from stock und Transfer- nötig oder ist es so verständlich?)
+[comment]: <> (Ab hier, abhängig vom Tab unten unterscheiden sich die Prozeduren minimal. 3 "Unterprozedure" - Stock in, Release from stock und Transfer- nötig oder ist es so verständlich?)
 
 4. Double-click the corresponding field in the *Post in warehouse* column.  
     A drop-down list with all storage locations, that is, warehouse and storage shelf where the material is stored, are displayed. If necessary, you can also create a new storage shelf.
@@ -240,9 +229,7 @@ You can check the stock allocation for a selected material from the product list
 
 You can check all stock postings that have been performed for a selected material. Stock postings can be done automatically, that is, by the system, and manually by the user. If a business document number is provided in the *Document no.* column, the stock posting is automatic. If no business document number is displayed, the stock posting is a manual one.
 
-The list displayed in this tab is the same as the one you obtain when searching for the stock postings for a product in the *Posting history* menu entry, see [Search for stock postings for a material](./03_CheckPostingHistory.md#search-for-stock-postings-for-a-material).
-
-[comment]: <> (Stimmt das?)
+The list displayed in this tab is similar to the one you obtain when searching for the stock postings for a material in the *Posting history* menu entry, see [Search for stock postings for a material](./03_CheckPostingHistory.md#search-for-stock-postings-for-a-material).
 
 #### Prerequisites
 

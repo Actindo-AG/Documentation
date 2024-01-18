@@ -30,11 +30,8 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 
     ![Add storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddStorageShelf.png "[Add storage shelf]")
 
-2. Click the *Warehouse ID* drop-down list and select the warehouse where you want to create the storage shelf. All available warehouses are displayed in the list.
-
-    > [Info] If you select a warehouse where only one product per shelf is allowed, the [TREE VIEW] button is displayed. The [TREE VIEW] button is no longer supported and can be ignored. 
-
-[comment]: <> (Storage shelf: Address drop-down list -> Wenn One product per shelf -> TREE VIEW button, beim Klicken zur Lagerplanung, aber was bewirkt das? Oder einfach weglassen?)
+2. Click the *Warehouse ID* drop-down list and select the warehouse where you want to create the storage shelf.  
+    All available warehouses are displayed in the list.
 
 3. Click the *Storage shelf* field and enter a unique number. This is the storage shelf ID.  
 
@@ -96,7 +93,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 ## Delete a storage shelf   
 
-You can delete a storage shelf if it is no longer needed.
+You can delete a storage shelf if you have created it mistakenly. However, if stock has been posted to a storage shelf, it cannot be deleted any more, even if there is currently no stock in that storage shelf. The reason for it is that the data related to the storage shelf where a material is or has been posted in or from remains in the posting details.
 
 #### Prerequisites
 
@@ -121,13 +118,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 2. Click the [DELETE] button.  
     The notice *Please wait... Saving...* is displayed. The deleted storage shelf is no longer displayed in the list in the *Storage locations*.  
 
-    > [Info] If you try to delete a primary storage shelf, a confirmation window is displayed with the notice "Do you really want to delete the main storage location?". The deletion of a primary storage shelf is also possible, and the system will assign another storage shelf as primary. It is recommended ...
-
-[comment]: <> (Ist das so gedacht? Was wird empfohlen? Kann es nicht zu Probleme wegen Abhängigkeiten führen? Mit welchem Kriterium wird das neue Primär-Lagerfach vom System zugeordnet?)
 
 
 
 
-Operation?
-Set storage shelf as primary storage (Warehouse management) 
-Block a storage shelf (Warehouse management) 

@@ -5,22 +5,24 @@
 
 You can check all stock postings that have been performed in the *Warehousing* module. Stock postings can be done automatically, that is, by the system, and manually by the user. If a business document number is provided in the *Document no.* column, the stock posting is automatic. If no business document number is displayed, the stock posting is a manual one.
 
-[comment]: <> (Verweis auf Basic OM process in Core1? Oder hier kurz erklären, wie prinzipiell die stock postings vom System/von den Belegen funktionieren?)
+[comment]: <> (Evtl. Verweis auf Basic OM process in Core1, wenn veröffentlicht)
 
 
-Automatic posting types
+**Automatic posting types**
 
 [comment]: <> (Evtl. doch manage warehouse with check procedure and automatic posting types)
 
-You can recognize that the posting is automatic by the presence of the Customer number, customer name and business document number in the posting history / material stock history.
+In case of customer orders:
 
-Every order that is imported into the system is linked to a business document, the head document. The head document, regardless of the business document it is, as this can be determined by the customer, makes a "reservation" posting in the *Warehousing* module. The material is then reserved, reducing only the material available stock (not the real stock).
+You can recognize that the posting is automatic by the presence of the customer/supplier number and name, and the business document number in the posting history / material stock history.
 
-When a delivery head (usually the delivery note) is created, it makes two postings in the stock history: a "waiting for picking" posting to withdraw the physical stock in the system, thus reducing the real stock in the warehouse, and a second reservation posting with a negative sign to clear the initial reservation. The result of all materials processed in the order must be 0.
+Every order that is imported into the system is linked to a business document, the head document. The head document, regardless of the business document it is, as this can be determined by the customer, makes a reservation posting in the *Warehousing* module. The material is then reserved. This reservation has no effect on the actual physical stock, but it reduces the material available stock, that is, the number of units that are available to be sold.
 
-Once the material has left the warehouse, that is, the delivery note has been closed, the "waiting for picking" posting is updated into a "sale" posting.
+When a delivery head, usually the delivery note, is created, this business document makes two postings in the stock history. The first one is a reserved for open delivery note posting (also known as waiting for picking) to withdraw the physical stock in the system, thus reducing the physical stock in the warehouse. The second one is a reservation posting with a negative sign to clear the initial reservation. The result of all materials processed in the order must always be 0.
 
-In the case of supplier orders:
+Once the material has left the warehouse, that is, the delivery note has been closed, the reserved for open delivery note posting is updated into a sale posting.
+
+In case of supplier orders:
 
 - Order business document created -> Order posting -> Menge 500 / Bewegung 500, no physical stock increased, but available stock (for the calculation is positive)
 - Order business document processed -> Purchase posting -> Menge 500 / Bewegung 500, physical stock increased (material received in warehouse)
@@ -63,8 +65,6 @@ At least a stock posting has been performed, see [Create a manual posting](./01_
 4. Check the quantity of stock posted for the selected material in the *Quantity* column. 
 
     > [Info] It is important to notice that the signs in this column are reversed, that is, a **Sale** posting is positive, a **Purchase** posting is negative. At this point, you can compare the numbers displayed in the *Quantity* column with those in the *Movement* column. The numbers match but the sign differ.
-
-[comment]: <> (Grund dafür? Vgl. Quantity vs. Movement Spalten! OC macht positive Reservierung, DL macht negative Reservierung, s. NoE Screenshot)
 
 5. Check the physical and the available stock in the *Stock level* and *Available* columns.   
 

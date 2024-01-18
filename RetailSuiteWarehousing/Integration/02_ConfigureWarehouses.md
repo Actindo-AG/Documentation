@@ -31,26 +31,22 @@ No prerequisites to fulfill.
     
     > [Info] If you do not select a warehouse group, the warehouse will be included in the **No warehouse group**.
 
-[comment]: <> (C&CS Training: Heusels Sandbox hat eine zusätzliche Drop-down-Liste Lager-Typ. Trifft die noch zu? Elemente in der Liste: Kommisionierlager, Nachschubslager, Transferlager, Sperrlager)
-
 4. Enter a name for the new warehouse in the *Designation* field.
 
-5. Click the *Products per shelf* drop-down list and select the appropriate option. The following options are available:  
-    - **One product per storage shelf**  
-        Select this option if you want to store only one product per storage shelf.  
-    - **Different products per storage shelf**   
-        Select this option if you want to store more than one product per storage shelf.
+5. Click the *Products per shelf* drop-down list and select the **Different products per storage shelf** option.  
+        
+[comment]: <> (One product per storage shelf ignorieren; aktuell bei keinem Kunden benutzt und und Probleme beim Anlegen der Lagerfächer. Warehouse planning Warehouse planing can be ignored, as it is no longer developed and has no effect.)
 
-[comment]: <> (Julian: Warehouse planning, Exclude from ordering -> Warehouse planing can be ignored, as it is no longer developed and has no effect. BUT check comment below from C&CS knowledge base!)
+6. Click the *Exclude from ordering* drop-down list and select **No** to deactivate the purchasing process.
 
-[comment]: <> (C&CS: *Exclude from ordering* drop-down list should be set to **No** to deactivate the purchasing process for this warehouse. The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount available in this warehouse will not be part of the calculation, that is, it will be ignored by the system.)
+    > [Info] The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount available in this warehouse will not be part of the calculation, that is, it will be ignored by the system.
 
-6. If desired, enter any comments in the *Comment* field.
+7. If desired, enter any comments in the *Comment* field.
 
-7. Click the [SAVE] button.  
+8. Click the [SAVE] button.  
     The warehouse has been saved.
     
-8. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
     The new warehouse is displayed in the left column.
 
 

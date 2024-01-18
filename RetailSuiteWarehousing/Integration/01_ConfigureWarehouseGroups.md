@@ -15,11 +15,10 @@ Create a warehouse group to which you can assign any number of specific warehous
 
 #### Prerequisites
 
-No prerequisites to fulfill.
-
-The *Warehouse groups* plugin must be installed.
-
-[comment]: <> (Diese Info in General? Stimmt das? Lagergruppe-, Lager-, Lagerplanung- und Lagerreichweiten...- Plugins müssen generell zusammen mit Lager installiert sein? Oder passiert das beim Installation von Lager-Modul?)
+The following plugins must be installed:   
+- *Warehouse groups*  
+- *Calculation of the range of storage and ordering by range of storage*  
+- *Warehouse planning*  
 
 #### Procedure
 
@@ -63,9 +62,7 @@ The *Warehouse groups* plugin must be installed.
 
 ![Own warehouse group master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Own warehouse group master data]")
 
-1. If necessary, click the *Fulfill orders from other warehouse groups* drop-down list and select the appropriate option. All available warehouse groups are displayed in the list. The **No warehouse group** option includes all warehouses that have not been assigned to any warehouse group.
-
-[Comment]: <> (Tooltip: If orders cannot be completely fulfilled from the warehouse groups selected here, the missing products are taken from this warehouse group. The delivery note is printed in this storage group and contains all items. -> Frage: "from the warehouse groups selected here" oder "warehouse group"? Man kann nur eine Gruppe wählen, oder? Julian: Offenbar kann man nur eine Lagergruppe wählen. So gewollt oder Bug?)
+1. If necessary, click the *Fulfill orders from other warehouse groups* drop-down list and select a warehouse group. All available warehouse groups are displayed in the list. The **No warehouse group** option includes all warehouses that have not been assigned to any warehouse group.
         
 2. If desired, enter any comments in the *Comment* field.
 
@@ -90,30 +87,29 @@ The new warehouse group is displayed in the list of warehouses.
 
 ![External warehouse group master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/ExternalWarehouseGroupBasicData.png "[External warehouse group master data]")
 
-1. If necessary, click the *Fulfill orders from other warehouse groups* drop-down list and select the appropriate option. All available warehouse groups are displayed in the list. The **No warehouse group** option includes all warehouses that have not been assigned to any warehouse group.
+1. If necessary, click the *Fulfill orders from other warehouse groups* drop-down list and select a warehouse group. All available warehouse groups are displayed in the list. The **No warehouse group** option includes all warehouses that have not been assigned to any warehouse group.
+       
+2. Click the *External warehouse type* drop-down list and select the **Fulfillment module** option.  
+    The applicable fields and drop-down lists are displayed.
 
-[comment]: <> (Tooltip: If orders cannot be completely fulfilled from the warehouse groups selected here, the missing products are taken from this warehouse group. The delivery note is printed in this storage group and contains all items. -> Frage: "from the warehouse groups selected here" oder "warehouse group"? Man kann nur eine Gruppe wählen, oder? Julian: Offenbar kann man nur eine Lagergruppe wählen. So gewollt oder Bug?)
-        
-2. Click the *External warehouse type* drop-down list and select the appropriate option. The following options are available:
-    - **Legacy (obsolete)**  
-        Select this option if ...
-    - **Fulfillment module**  
-        Select this option if the external warehouse is accessed via a connection in the *Fulfillment* module. 
-
-[comment]: <> (Julian: bedeutet obsolete, dass diese Option nicht mehr zutrifft, also kann man ignorieren? Gibt es andere mögliche Optionen, außer Fulfillment? --> C&CS Training: Bezieht sich diese Funktion nur auf das alte Amazon-Verbindung Import-Funktion, also dass der Kunde den Bestand bei Amazon-fulfilled Bestellungen sehen und ggf. aufstocken kann?)
+    > [Info] The **Legacy** option is no longer supported and therefore is not described.
 
 3. Click the *Connection* drop-down list and select the applicable connection. All connections established in the *Fulfillment* module are displayed in the list.
 
-[comment]: <> (Julian: *Return to this location possible* obsolete?)
+4. Click the *Return to this location possible* drop-down list and select **Yes** to allow returned materials to be sent to this warehouse group. 
 
-4. If desired, enter the address details in the corresponding fields.
+5. Click the *Country* drop-down list and select the country where the warehouse is located.
 
-5. If desired, enter any comments in the *Comment* field.
+6. Click the *Zip* field and enter the applicable zip code.
+    
+    > [Info] Both country and zip code are needed to determine where the materials are shipped from, which is relevant to define the applicable tax regime. Any other address-related fields are optional.
 
-6. Click the [SAVE] button.  
+7. If desired, enter any comments in the *Comment* field.
+
+8. Click the [SAVE] button.  
     The warehouse group has been saved.
 
-7. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.  
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.  
 The new warehouse group is displayed in the list of warehouses.
 
 

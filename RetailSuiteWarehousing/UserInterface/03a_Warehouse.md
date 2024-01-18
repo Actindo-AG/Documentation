@@ -10,18 +10,16 @@
 
 ![Warehouse](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse]")
 
-The *WAREHOUSE* tab allows you to configure 
+The *WAREHOUSE* tab contains three sub-tabs with different functions:
 
-displays a list of all warehouses available, organized in warehouse groups. 
-
-It allows you to create, edit and delete warehouses and warehouse groups. For detailed information about configuring warehouses and warehouse groups, see [Configure the warehouses](../Integration/02_ConfigureWarehouses.md) and [Configure the warehouse groups](../Integration/01_ConfigureWarehouseGroups.md).
-
-In this tab, you can also configure the stock allocation. and to define the exact storage location where the  
-
-This tab contains in turn three tabs:  
 - *Warehouse master data*, see [Warehouse master data](#warehouse-master-data)  
-- *Stock allocation*, see [Stock allocation](#stock-allocation)
-- *Stock withdrawal matrix*, see [Stock withdrawal matrix](#stock-withdrawal-matrix)
+    In this tab, you can see a list of all warehouses available, organized in warehouse groups. It also allows you to create, edit and delete warehouses and warehouse groups. For detailed information about configuring warehouses and warehouse groups, see [Configure the warehouses](../Integration/02_ConfigureWarehouses.md) and [Configure the warehouse groups](../Integration/01_ConfigureWarehouseGroups.md).   
+
+- *Stock allocation*, see [Stock allocation](#stock-allocation)  
+    Here you can determine which stock value is displayed as available in your individual sales channels. 
+
+- *Stock withdrawal matrix*, see [Stock withdrawal matrix](#stock-withdrawal-matrix)  
+   This function allows you to define the exact storage location where the stock is to be withdrawn.
 
 
 
@@ -74,27 +72,27 @@ The list displays all available warehouses. The following buttons are also displ
     Click the drop-down list and select a warehouse group if desired. With this setting, you can arrange the missing to be taken from the current warehouse group, if orders cannot be completely fulfilled from the warehouse group selected.
 
 - *External warehouse type*  
-    Click the drop-down list and select... 
+    Click the drop-down list and select **Fulfillment module**.
 
-[comment]: <> (Noch aktuell? Nur Fulfillment oder andere Möglichkeiten? Legacy?)
+    > [Info] Other options are no longer supported. 
 
 - *Connection*  
     Click the drop-down list and select the appropriate connection to the externally controlled warehouse.
 
 - *Return to this location possible*  
-     Click the drop-down list and select ...
-
-[comment]: <> (noch aktuell?)
+     Click the drop-down list and select **Yes** to allow products to be returned to this warehouse group, or **No** not to do so. 
 
 - *Name*
 
 - *Street*
 
-- *Zip*
+- *Zip*  
+    Enter the zip code for the warehouse group location. 
 
 - *City*  
 
 - *Country*  
+    Click the drop-down list 
 
 - *Comments*  
     Enter any additional you want information in this field.

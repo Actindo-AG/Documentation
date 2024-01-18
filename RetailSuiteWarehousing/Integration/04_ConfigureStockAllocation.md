@@ -17,9 +17,6 @@ Depending on the configured target channels and warehouses, the displayed column
 - At least a warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
 - The necessary attributes of the *Stock value* data type have been created in the *PIM* module, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute). 
 - The *Stock value* attribute has been assigned to the relevant attribute sets, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
-- The necessary mappings between the corresponding *PIM* attribute sets and the *Omni-Channel* attribute sets have been created, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md#manage-the-etl-mappings). 
-
-[comment]: <> (Stimmt der letzte Punkt? Trotzdem funktioniert bei mir nicht. Warum? Was fehlt?)
 
 #### Procedure 
 
@@ -31,8 +28,6 @@ Depending on the configured target channels and warehouses, the displayed column
 
 2. Double-click the field with the **Default setting** option in the *Stock calculation* column.   
     A drop-down list is displayed.
-
-[comment]: <> (Ist Default setting tatsächlich ein Setting? Wo wird es eingestellt, wenn überhaupt?)
 
 3. Click the drop-down list and select the appropriate option. The following options are available:  
       
@@ -58,10 +53,6 @@ Depending on the configured target channels and warehouses, the displayed column
         | GET_COUNT | Physical stock minus material waiting for picking |
         | GET_COUNTAVAIL | Physical stock minus reserved material |
         
-        [comment]: <> (Oder nur COUNT? Gibt es andere Methoden?)
-
-        [comment]: <> (Vorreservierung hat keine Auswirkung auf dem Bestand, auch wenn bei Lager/Lieferanten > Bestände das Vorzeichen negativ ist. Die muss man extra abziehen. Vorreservierungen sind auch nicht Standard; man muss die im Shop einstellen. Sonderfall von NoE: Shop muss mit dem Core1 "reden".)
-
     - **Calculation, stock level**  
         Select this option to transfer the physical stock stored in the warehouse.  
         The fields in the warehouse columns are unlocked.
@@ -84,7 +75,8 @@ Depending on the configured target channels and warehouses, the displayed column
 
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
 
-5. If desired, the supplier stock can also be included in the calculation. To do so, click the drop-down list of the field corresponding to the desired target channel in the *Supplier stock* column and select the appropriate option. The following options are available:
+5. You can also include stock located at the suppliers' premises in the calculation. This field is only unlocked when you select a predefined calculation formula in the *Stock calculation* column.    
+To do so, click the drop-down list of the field corresponding to the desired target channel in the *Supplier stock* column and select the appropriate option. The following options are available:
 
     - **No**  
         Select this option to exclude stock from all suppliers.
@@ -95,9 +87,7 @@ Depending on the configured target channels and warehouses, the displayed column
     - **Yes, only normal suppliers**  
         Select this option to include stock only from normal suppliers.
 
-[comment]: <> (Was ist damit gemeint? Wo kann ich diese voreinstellen? What is actually meant? Does it include the stock at the supplier? Or just the ordered supplier stock? That is, btw, already included in one of the calculation formulas To add a plug-in supplier, see... Achtung! Fixed value und Formel erlauben nicht, hier Nein/Ja einzustellen!)
-
-5. Click the [SAVE] button in the bottom right corner.   
+6. Click the [SAVE] button in the bottom right corner.   
     The stock allocation is saved. 
     
 
