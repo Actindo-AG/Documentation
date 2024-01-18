@@ -1,4 +1,4 @@
-[!!Manage the attributes](./01_ManageAttributes.md)
+[!!Manage an attribute](./01_ManageAttributes.md)
 [!!User interface Attribute sets](../UserInterface/01b_AttributeSets.md)
 
 # Manage an attribute set

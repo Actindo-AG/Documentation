@@ -1,8 +1,8 @@
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
-[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!User interface ETL](../UserInterface/02a_Mappings.md)
+[!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
+[!!Data type list](../UserInterface/05_DataTypeList.md)
 
 # Manage the ETL mappings
 
@@ -40,7 +40,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
     > [Info] The selected language defines the language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
-5. Select a channel in the *Channel* drop-down list. All active channels are displayed in the drop-down list.
+5. Select a channel in the *Channel* drop-down list. All active scopes are displayed in the drop-down list.
 
     > [Info] The selected channel defines the channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
 
@@ -90,8 +90,8 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
     If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).    
-    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
+    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/05_DataTypeList.md).    
+    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/04_ETLExtensions.md).
 
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following options are available:
     - **Use default**   
@@ -153,13 +153,13 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
     - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
 
-4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active channels are displayed.    
+4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active scopes are displayed.    
 
 5. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
     If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
-    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
+    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/05_DataTypeList.md).   
+    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/04_ETLExtensions.md).
 
 6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **Use default** option is preselected. The following modes are available:
     - **Use default**   

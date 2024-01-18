@@ -1,8 +1,8 @@
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
 [!!Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
-[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
-[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
+[!!User interface ETL](../UserInterface/02a_Mappings.md)
+[!!User interface ETL processes](../UserInterface/02b_ETLProcesses.md)
+[!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
 [!!User interface Semiautomatic mapping](../../Channels/UserInterface/02c_SemiAutomaticMapping.md)
 
 # Manage the ETL processes

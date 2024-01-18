@@ -1,10 +1,10 @@
-[!!ETL extensions list](./03_ETLExtensions.md)
-[!!Data type list](./04_DataTypeList.md)
+[!!ETL extensions list](./04_ETLExtensions.md)
+[!!Data type list](./05_DataTypeList.md)
 [!!Manage the attributes](../Integration/01_ManageAttributes.md)
 [!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
 
-# ETL
+# Mappings
 
 *DataHub > ETL > Tab MAPPINGS*
 
@@ -77,7 +77,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Click the drop-down list and select the language from which the value of a multi-language attribute will be taken when mapping it to a single language attribute. All available languages are displayed in the drop-down list.
 
 - *Scope*   
-    Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All available channels are displayed in the drop-down list.
+    Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All available scopes are displayed in the drop-down list.
 
 - *Copy ETL attribute set mapping*   
     Click the drop-down list and select an ETL attribute set mapping to apply all matching attribute mappings to the new ETL attribute set mapping. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list. If no attribute set mapping is selected, no attribute mappings are copied from another mapping. The drop-down list is locked if no attribute set mapping with the selected destination attribute set already exists.
@@ -129,7 +129,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Click this button to delete the selected mapping to the destination attribute. This button is only displayed if the checkbox of a mapping is selected.       
 
 - [ADD TO SOURCE SET AND MAP]   
-    Click this button to add the selected destination attribute to the source attribute set and create a mapping. The *Identity mapping* extension is used to map the attributes, see [Identity mapping](./03_ETLExtensions.md#identity-mapping). The button is only displayed if no mapping to the selected destination attribute already exists and if the identical attributes are contained in both the source attribute and the destination attribute set.
+    Click this button to add the selected destination attribute to the source attribute set and create a mapping. The *Identity mapping* extension is used to map the attributes, see [Identity mapping](./04_ETLExtensions.md#identity-mapping). The button is only displayed if no mapping to the selected destination attribute already exists and if the identical attributes are contained in both the source attribute and the destination attribute set.
 
 - [RERUN SELECTED MAPPING]   
     Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
@@ -224,4 +224,4 @@ The *Configuration* section displays the additional configuration for the mappin
 - [SAVE]   
     Click this button to rerun the selected attribute mapping. The *Rerun single mapping* window is closed.
 
-    
+

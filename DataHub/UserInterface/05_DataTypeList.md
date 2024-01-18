@@ -1,4 +1,4 @@
-[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
+[!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
 [!!Manage the attributes](../Integration/01_ManageAttributes.md)
 
 # Data type list
@@ -32,7 +32,7 @@ In the following, the available data types, their use and their configuration an
 - [Taxzone](#taxzone)
 - [Images](#images)
 - [Files](#files)
-- [PIM-Channels connection](#pim-channels-connection-internal-not-editable)
+- [PIM-Channels connection](#pim-scopes-connection-internal-not-editable)
 - [UCS product bundle](#ucs-product-bundle-internal-not-editable)
 - [PIM product variants](#pim-product-variants)
 - [URLs](#urls-internal-not-editable)

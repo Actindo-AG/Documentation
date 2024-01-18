@@ -1,4 +1,4 @@
-[!!Data type list](./04_DataTypeList.md)
+[!!Data type list](./05_DataTypeList.md)
 [!!Manage the attributes](../Integration/01_ManageAttributes.md)
 [!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
 
@@ -49,7 +49,7 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *Description*   
     Description to the attribute.
@@ -196,7 +196,7 @@ The *Edit attribute* view contains all fields and configurations that define the
 
 - *Data type*   
     Attribute data type. In the *Edit attribute* view, this field is locked.    
-    For detailed information about all data types, see [Data type list](./04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *Key*   
     Attribute key. In the *Edit attribute* view, this field is locked.

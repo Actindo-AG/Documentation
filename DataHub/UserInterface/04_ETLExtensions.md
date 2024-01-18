@@ -1,4 +1,4 @@
-[!!Data type list](./04_DataTypeList.md)
+[!!Data type list](./05_DataTypeList.md)
 [!!Manage the ETL Mappings](../Operation/01_ManageETLMappings.md)
 
 # ETL extensions list

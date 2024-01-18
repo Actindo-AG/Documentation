@@ -1,7 +1,7 @@
 [!!Manage the ETL processes](../Operation/02_ManageETLProcesses.md)
 [!!Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
 
-# ETL processes
+# Processes
 
 *DataHub > ETL > Tab PROCESSES*
 

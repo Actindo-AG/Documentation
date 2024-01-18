@@ -35,11 +35,11 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Remove attributes from a group](./03_ManageAttributeGroups.md#remove-attributes-from-a-group)
 
 
-- [Manage the scopes](..md)
+- [Manage the scopes](./04_ManageScopes.md)
     - [Create a scope](./04_ManageScopes.md#create-a-scope)
     - [Edit a scope](./04_ManageScopes.md#edit-a-scope)
     - [Deactivate a scope](./04_ManageScopes.md#deactivate-a-scope)
-    - [Delete a scope](./04_ManageChannels.md#delete-a-scope)
+    - [Delete a scope](./04_ManageScopes.md#delete-a-scope)
 
 
 - [Manage the languages](./05_ManageLanguages.md)
@@ -50,4 +50,4 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 - [Manage the units and dimensions](./06_ManageUnitsDimensions.md)
    - [Deactivate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
-   - [Activate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
+   - [Activate a unit](./06_ManageUnitsDimensions.md#activate-a-unit)

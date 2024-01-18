@@ -1,4 +1,4 @@
-[!!User interface HTML templates](../UserInterface/02j_HTMLTemplates.md)
+[!!User interface HTML templates](../UserInterface/03d_HTMLTemplates.md)
 
 # Manage the HTML templates
 

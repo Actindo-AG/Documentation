@@ -1,5 +1,5 @@
-[!!Manage the attributes](./01_ManageAttributes.md)
-[!!Manage the attribute sets](./02_ManageAttributeSets.md)
+[!!Manage an attribute](./01_ManageAttributes.md)
+[!!Manage an attribute set](./02_ManageAttributeSets.md)
 [!!User interface Attribute groups](../UserInterface/01c_AttributeGroups.md)
 
 # Manage an attribute group

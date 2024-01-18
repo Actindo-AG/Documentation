@@ -1,4 +1,4 @@
-[!!Data type list](./04_DataTypeList.md)
+[!!Data type list](./05_DataTypeList.md)
 [!!Manage the attributes](../Integration/01_ManageAttributes.md)
 
 # Deleted attributes
@@ -77,4 +77,4 @@ The list displays all attributes that have been deleted. Depending on the settin
 - *Created by*   
     Name and username of the user who created the attribute.
 
-    
+
