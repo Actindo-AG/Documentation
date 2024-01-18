@@ -125,3 +125,5 @@ The list displays all language. Depending on the settings, the displayed columns
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
+
+

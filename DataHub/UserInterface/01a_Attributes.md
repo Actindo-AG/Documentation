@@ -166,6 +166,7 @@ The *Edit attribute* view contains all fields and configurations that define the
 - [Data](#edit-attribute-–-data)
 - [Attribute set assignments](#edit-attribute-–-attribute-set-assignments)
 
+
 <BR>
 
 

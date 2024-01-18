@@ -2,7 +2,7 @@
 
 *DataHub > Data model*
 
-The *Data model* menu entry is used to manage the *DataHub* data models.
+The *Data model* menu entry  is used to manage the *DataHub* data models.
 
 The *Data model* user interface is composed of the following tabs:
 

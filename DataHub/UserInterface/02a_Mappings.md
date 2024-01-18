@@ -223,3 +223,5 @@ The *Configuration* section displays the additional configuration for the mappin
 
 - [SAVE]   
     Click this button to rerun the selected attribute mapping. The *Rerun single mapping* window is closed.
+
+    

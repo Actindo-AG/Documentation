@@ -130,5 +130,7 @@ The list displays all HTML templates. Depending on the settings, the displayed c
 - [SHOW POSSIBLE VARIABLES]   
     Click this button to display all variables to the selected entity. The code containing all variables to the entity is displayed in a new window. The possible variables can only be displayed if both, an entity type and an entity ID have been selected.
 
+    
+
 - [SAVE AND PREVIEW TEMPLATE]   
     Click this button to save the HTML template and display a preview of the template with the selected entity. The preview is displayed in a new  window. The preview can only be displayed if both, an entity type and an entity ID have been selected.

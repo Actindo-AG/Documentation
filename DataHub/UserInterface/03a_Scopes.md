@@ -146,3 +146,4 @@ The *Edit scope* view is used to change a scope in all needed languages.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the scope status to active. Disable the toggle to set the scope to inactive. By default, this toggle is disabled.
+

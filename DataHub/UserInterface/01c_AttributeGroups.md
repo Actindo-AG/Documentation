@@ -66,7 +66,6 @@ The list displays all attributes assigned to the selected attribute group. Depen
     Click this button to add an attribute to the selected attribute group. The *Add attributes to attribute group* view is displayed.   
 
 
-
 ## Add attributes to group
 
 *DataHub > Data model > Tab ATTRIBUTE GROUPS > Button Add*

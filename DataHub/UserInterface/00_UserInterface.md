@@ -169,3 +169,5 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Offer variants](./04_DataTypeList.md#offer-variants-internal-not-editable)
     - [Feed offer variants](./04_DataTypeList.md#feed-offer-variants-internal-not-editable)
     - [Multiple errors](./04_DataTypeList.md#multiple-errors-internal-not-editable)
+
+
