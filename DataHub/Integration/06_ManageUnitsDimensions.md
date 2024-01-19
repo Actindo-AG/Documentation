@@ -58,3 +58,4 @@ No prerequisites to fulfill.
 
 3. Click the [ACTIVATE] button.   
    For all units that you had previously selected, the ![Cross](../../Assets/Icons/Cross02.png "[Cross]") icon has changed to a ![Check](../../Assets/Icons/Check.png "[Check]") icon.
+
