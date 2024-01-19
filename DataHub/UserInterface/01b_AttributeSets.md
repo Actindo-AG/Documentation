@@ -1,6 +1,6 @@
-[!!User interface ETL](./02a_Mappings.md)
+[!!User interface Mappings](./02a_Mappings.md)
 [!!Data type list](./05_DataTypeList.md)
-[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
 
 # Attribute sets

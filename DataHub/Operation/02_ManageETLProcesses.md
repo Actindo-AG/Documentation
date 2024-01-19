@@ -1,7 +1,7 @@
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
 [!!Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
 [!!User interface ETL](../UserInterface/02a_Mappings.md)
-[!!User interface ETL processes](../UserInterface/02b_ETLProcesses.md)
+[!!User interface processes](../UserInterface/02b_Processes.md)
 [!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
 [!!User interface Semiautomatic mapping](../../Channels/UserInterface/02c_SemiAutomaticMapping.md)
 
@@ -32,7 +32,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > Settings > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
@@ -61,7 +61,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 3. Depending on the status of the ETL process, continue with one of the following actions:
     - [Confirm an ETL process](#confirm-an-etl-process)
     - [Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
-    - [Return to the ETL Mapping](./01_ManageETLMappings.md)
+  
 
 
 
@@ -76,7 +76,7 @@ If the selected change tracking mode of an ETL mapping equals **Semiautomatic** 
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > Settings > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 

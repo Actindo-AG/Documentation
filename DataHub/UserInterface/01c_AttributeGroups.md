@@ -1,4 +1,4 @@
-[!!Manage the attribute groups](../Integration/03_ManageAttributeGroups.md)
+[!!Manage an attribute group](../Integration/03_ManageAttributeGroups.md)
 
 # Attribute groups
 

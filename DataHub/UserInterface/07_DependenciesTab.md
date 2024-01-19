@@ -1,4 +1,4 @@
-# Dependencies
+# Dependencies tab
 
 *Any module that processes DataHub entities > Select entity > Click the Dependencies tab*
 

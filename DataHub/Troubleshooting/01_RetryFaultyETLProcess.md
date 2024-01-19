@@ -17,7 +17,7 @@ The cause of the faulty ETL process has been fixed.
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > Settings > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 

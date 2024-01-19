@@ -117,37 +117,3 @@ Depending on the selection in the *Status filter* drop-down list, the ETL proces
 
 [comment]: <> (Ganz schön umständlich, hier nur die User ID anzuzeigen - wäre es nicht einfacher, wie überall sonst auch hier den Namen und den Benutzernamen des Benutzers anzuzeigen? -> FETA-61)
 
-
-
-## Create view
-
-*DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry create*
-
-![Create view](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/CreateView.png "[Create view]")
-
-- *Name*   
-    Enter a name for the view.
-
-- [CANCEL]   
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]   
-    Click this button to save the new view and display it in the *VIEW* drop-down list. The *Create view* window is closed.
-
-
-
-
-## Rename view
-
-*DataHub > Settings > Tab ETL PROCESSES > Button Points > Menu entry rename*
-
-![Rename view](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/RenameView.png "[Rename view]")
-
-- *Name*   
-    Click this field to edit the view name.
-
-- [CANCEL]   
-    Click this button to cancel renaming the view. The *Rename view* window is closed.
-
-- [SAVE]   
-    Click this button to save the changes and display it in the *VIEW* drop-down list. The *Rename view* window is closed.

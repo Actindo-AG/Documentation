@@ -1,5 +1,5 @@
 [!!Data type list](./05_DataTypeList.md)
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
 
 # Deleted attributes
 

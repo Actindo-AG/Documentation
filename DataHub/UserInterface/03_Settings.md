@@ -6,7 +6,7 @@ The *Settings* menu entry is used to manage the *DataHub* settings.
 
 The *Settings* user interface is composed of the following tabs:
 
-- [SCOPES](./03a_Channels.md)
+- [SCOPES](./03a_Scopes.md)
 - [LANGUAGES](./03b_Languages.md)
 - [UNITS AND DIMENSIONS](./03c_UnitsDimensions.md)
 - [HTML TEMPLATES](./03d_HTMLTemplates.md)

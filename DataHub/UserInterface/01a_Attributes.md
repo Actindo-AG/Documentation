@@ -1,6 +1,6 @@
 [!!Data type list](./05_DataTypeList.md)
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
-[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 
 # Attributes
 

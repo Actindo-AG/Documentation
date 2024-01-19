@@ -1,6 +1,6 @@
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
-[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
-[!!Manage the attribute groups](../Integration/03_ManageAttributeGroups.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
+[!!Manage an attribute group](../Integration/03_ManageAttributeGroups.md)
 [!!Manage the scopes](../Integration/04_ManageScopes.md)
 [!!Manage the languages](../Integration/05_ManageLanguages.md)
 [!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
@@ -10,8 +10,8 @@
 # DataHub basics
 
 The *Actindo Data Hub (DataHub)* module is characterized by two main points:
-- the [*DataHub* data model](#data-model)
-- the [*DataHub* ETL process](#etl-process)
+- The [*DataHub* data model](#data-model)
+- The [*DataHub* ETL process](#etl-process)
 
 To provide a better understanding of these particularities, both points are explained in more detail below.
 

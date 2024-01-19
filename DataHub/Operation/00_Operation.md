@@ -29,3 +29,9 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Display the possible variables](./03_ManageHTMLTemplates.md#display-the-possible-variables)
     - [Preview an HTML template](./03_ManageHTMLTemplates.md#preview-an-html-template)
 
+- [Manage the deleted attributes](./04_ManageDeletedAttributes.md)
+    - [Recover an attribute](./04_ManageDeletedAttributes.md#recover-an-attribute)
+    - [Permanently delete an attribute](./04_ManageDeletedAttributes.md#permanently-delete-an-attribute)
+    
+
+

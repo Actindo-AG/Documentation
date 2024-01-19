@@ -16,11 +16,3 @@ The *DataHub* module offers the following benefits:
 - Optimization of processes via automatic data transfers in real time   
 - Quickly connect external systems and automate data exchange  
 
-## Prerequisites
-
-- The *Countries and languages* plugin version 1.2.0 or higher is installed.
-- The *Currency* plugin version 1.0.4 or higher is installed.
-- The *Dashboard* plugin version 1.2.0 or higher is installed.
-- The *UI Components* plugin version 1.0.1 or higher is installed.
-
-In addition, the *HTML templates for ETL* plugin version 1.1.2 or higher must be installed to use the HTML templates.

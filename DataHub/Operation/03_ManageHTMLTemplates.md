@@ -2,7 +2,7 @@
 
 # Manage the HTML templates
 
-HTML templates are mainly used for email messages such as confirmations or shipping messages. Further, they can be used to write detailed product descriptions that are uploaded to a shop or marketplace, for example to ebay.
+HTML templates are mainly used for email messages such as confirmations or shipping messages. Further, they can be used to write detailed product descriptions that are uploaded to a shop or marketplace, for example to *ebay*.
 HTML templates allow you to generate HTML content from data based on templates using the *Smarty template engine*.
 Further, you are able to include data from all available source entities in HTML as well as all sub-entities if they are present in the JSON representation of the source entity using the HTML templates.
 
@@ -57,7 +57,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 1. Click the textarea and enter the desired HTML text.
 
-    > [Info] For detailed information about the HTML structure and elements, see https://html.spec.whatwg.org/.
+    > [Info] For detailed information about the HTML structure and elements, see the https://html.spec.whatwg.org/ website.
 
 2. If desired, include Smarty templates, see [Include Smarty templates](#include-smarty-templates) or display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
@@ -69,7 +69,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 ## Include Smarty templates
 
 The *Smarty template engine* allows you to include Smarty templates into your HTML template.    
-For detailed information about Smarty templates, see [Smarty](https://www.smarty.net/).    
+For detailed information about Smarty templates, see the [Smarty&trade; (https://www.smarty.net/)](https://www.smarty.net/) website.  
 Always use the delimiters *{}* as separator for the Smarty templates.  
 
 #### Prerequisites
@@ -84,9 +84,9 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
-1. Click the textarea and enter the desired Smarty template(s).
+1. Click the text area and enter the desired Smarty template(s).
 
-    > [Info] For detailed information about the Smarty template structure and elements, see [Smarty](https://www.smarty.net/).
+    > [Info] For detailed information about the Smarty template structure and elements, see [Smarty&trade; (https://www.smarty.net/)](https://www.smarty.net/) website. 
 
 2. If desired, include HTML text, see [Include HTML text](#include-html-text) or display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 

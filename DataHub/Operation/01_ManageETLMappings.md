@@ -1,6 +1,6 @@
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
-[!!User interface ETL](../UserInterface/02a_Mappings.md)
+[!!User interface mappings](../UserInterface/02a_Mappings.md)
 [!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
 [!!Data type list](../UserInterface/05_DataTypeList.md)
 
@@ -263,7 +263,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.   
-    For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+    For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
 
 
 ### Rerun an attribute set mapping
@@ -302,4 +302,4 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.    
-    For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+    For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).

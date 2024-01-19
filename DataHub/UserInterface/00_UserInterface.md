@@ -57,8 +57,8 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 - [Attributes](./06_AttributesTab.md)  
 
-- [Dependencies](./07_Dependencies.md)   
-   - [Dependencies  &ndash; Rerun mapping](./07_Dependencies.md#dependencies-–-rerun-mapping)   
+- [Dependencies](./07_DependenciesTab.md)   
+   - [Dependencies  &ndash; Rerun mapping](./07_DependenciesTab.md#dependencies-–-rerun-mapping)   
 
 
 - [ETL extensions list](./04_ETLExtensions.md)

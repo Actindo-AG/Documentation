@@ -1,7 +1,7 @@
 [!!ETL extensions list](./04_ETLExtensions.md)
 [!!Data type list](./05_DataTypeList.md)
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
-[!!Manage the attribute sets](../Integration/02_ManageAttributeSets.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
 [!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
 
 # Mappings

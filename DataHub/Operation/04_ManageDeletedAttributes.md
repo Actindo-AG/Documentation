@@ -1,4 +1,6 @@
-# Manage deleted attributes
+[!!User interface Deleted attributes](../UserInterface/01d_DeletedAttributes.md)
+
+# Manage the deleted attributes
 
 Once an attribute has been deleted, it is moved to the *DELETED ATTRIBUTES* tab. However, it is not irretrievably deleted. You can recover a deleted attribute and make the deletion undone. Alternatively, you can permanently delete an attribute that is definitely no longer needed.
 

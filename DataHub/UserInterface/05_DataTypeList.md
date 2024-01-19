@@ -1,5 +1,5 @@
 [!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
 
 # Data type list
 
