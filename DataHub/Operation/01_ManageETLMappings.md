@@ -42,7 +42,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
 5. Select a channel in the *Channel* drop-down list. All active scopes are displayed in the drop-down list.
 
-    > [Info] The selected channel defines the channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
+    > [Info] The selected channel defines the channel from which the value of a multi-scope attribute is taken when mapping it to a single channel attribute.
 
 6. If desired, select an existing ETL attribute set mapping in the *Copy ETL attribute set mapping* drop-down list. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list.
 
@@ -119,13 +119,13 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 ### Add a custom mapping for a destination attribute
 
-When creating an ETL attribute set mapping, you define the language and the channel from which the values are taken for multi-language and multi-channel source attributes.
-Within an attribute set mapping, you can define custom channel and language attribute mappings for multi-language and multi-channel destination attributes.
+When creating an ETL attribute set mapping, you define the language and the channel from which the values are taken for multi-language and multi-scope source attributes.
+Within an attribute set mapping, you can define custom channel and language attribute mappings for multi-language and multi-scope destination attributes.
 
 #### Prerequisites
 
 At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
-- The destination attribute is multi-language and/or multi-channel.
+- The destination attribute is multi-language and/or multi-scope.
 
 #### Procedure
 
@@ -143,15 +143,15 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
     ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
 
-3. Click the [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE] button in the editing toolbar. This button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.
+3. Click the [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE] button in the editing toolbar. This button is only displayed if the destination attribute of the selected mapping is multi-language or multi-scope.
     The *Settings* section is displayed on the right side.
 
     ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
 
     > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
     - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
-    - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
-    - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
+    - If the destination attribute is multi-scope, the *Channel* drop-down list is displayed additionally below the destination attribute.
+    - If the destination attribute is multi-language and multi-scope, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
 
 4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active scopes are displayed.    
 

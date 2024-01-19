@@ -49,9 +49,9 @@ The list displays all attributes that have been deleted. Depending on the settin
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
-- *Multi-channel*   
-    Indication whether the attribute is multi-channel or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
+- *Multi-scope*   
+    Indication whether the attribute is multi-scope or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   

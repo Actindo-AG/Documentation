@@ -390,7 +390,7 @@ The *DataHub* plugin owns this data type.
 
 ![Stock Value](../../Assets/Screenshots/DataHub/DataTypes/StockValue.png "[Stock Value]")
 
-The *Stock Value* data type is used to indicate the number of stocks. You can configure the number of decimal places. A new target channel for this stock is created in the *Warehouse* module for the inventory assignment. In the *PIM Basic Set*, the *Stock* attribute has the *Stock value* data type.
+The *Stock Value* data type is used to indicate the number of stock values. You can configure the number of decimal places. A new target channel for this stock is created in the *Warehouse* module for the inventory assignment. In the *PIM Basic Set*, the *Stock* attribute has the *Stock value* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -404,7 +404,7 @@ The *DataHub* plugin owns this data type.
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
     Enable this toggle to set the stock value to read-only. Disable the toggle to set the stock value to editable. By default, this toggle is enabled.
 
-    > [Info] If the warehouse logistic for an product is active and the *Warehousing* module is correctly connected, the stocks are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
+    > [Info] If the warehouse logistic for a product is active and the *Warehousing* module is correctly connected, the stock values are transferred from the invoicing and automatically written into this attribute value. It is only recommended to deactivate the toggle *Read only* if the warehouse logistic is inactive and a stock value is needed.
 
 
 

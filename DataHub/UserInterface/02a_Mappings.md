@@ -39,7 +39,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
 - *Scope*   
-    Scope from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
+    Scope from which the value of a multi-scope attribute is taken when mapping it to a single channel attribute.
 
 - *ID*   
     Attribute set identification number. The ID number is automatically assigned by the system.
@@ -77,7 +77,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Click the drop-down list and select the language from which the value of a multi-language attribute will be taken when mapping it to a single language attribute. All available languages are displayed in the drop-down list.
 
 - *Scope*   
-    Click the drop-down list and select the channel from which the value of a multi-channel attribute will be taken when mapping it to a single channel attribute. All available scopes are displayed in the drop-down list.
+    Click the drop-down list and select the channel from which the value of a multi-scope attribute will be taken when mapping it to a single channel attribute. All available scopes are displayed in the drop-down list.
 
 - *Copy ETL attribute set mapping*   
     Click the drop-down list and select an ETL attribute set mapping to apply all matching attribute mappings to the new ETL attribute set mapping. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list. If no attribute set mapping is selected, no attribute mappings are copied from another mapping. The drop-down list is locked if no attribute set mapping with the selected destination attribute set already exists.
@@ -135,7 +135,7 @@ The list displays all attribute set mappings. Depending on the settings, the dis
     Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
 
 - [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE]    
-    Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.   
+    Click this button to define a custom channel and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or channel. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-scope.   
 
 The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 

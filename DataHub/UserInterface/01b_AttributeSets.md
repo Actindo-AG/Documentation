@@ -296,9 +296,9 @@ The list displays all attributes assigned to the selected attribute set. Dependi
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
-- *Multi-channel*   
-    Indication whether the attribute is multi-channel or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
+- *Multi-scope*   
+    Indication whether the attribute is multi-scope or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 
@@ -344,7 +344,7 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
     Selected language of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-language.
 
 - *Channel*   
-    Selected channel of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-channel.
+    Selected channel of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-scope.
 
 - *Extension*   
     Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.      

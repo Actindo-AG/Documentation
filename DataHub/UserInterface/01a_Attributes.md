@@ -59,9 +59,9 @@ The list displays all attributes. Depending on the settings, the displayed colum
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
-- *Multi-channel*   
-    Indication whether the attribute is multi-channel or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
+- *Multi-scope*   
+    Indication whether the attribute is multi-scope or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
 
 - *Plugin*   
@@ -132,8 +132,8 @@ The *Create attribute* view contains all fields and configurations that define t
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-    Enable this toggle to create a multi-channel attribute. Disable the toggle to create a single channel attribute. By default, this toggle is disabled.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
+    Enable this toggle to create a multi-scope attribute. Disable the toggle to create a single channel attribute. By default, this toggle is disabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
@@ -204,8 +204,8 @@ The *Edit attribute* view contains all fields and configurations that define the
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     This toggle indicates whether the attribute is multi-language or not. In the *Edit attribute* view, this toggle is read-only.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-channel*   
-    This toggle indicates whether the attribute is multi-channel or not. In the *Edit attribute* view, this toggle is read-only.
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-scope*   
+    This toggle indicates whether the attribute is multi-scope or not. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
