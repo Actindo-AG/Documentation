@@ -1,18 +1,18 @@
 # Manage Connections
 
 
-In the following, the procedures to create, edit, configure, enable, or disable *Adyen* connections are described.  
+In the following, the procedures to create, edit, configure, enable, or disable Adyen connections are described.  
 Note the following:   
-- If you have more than one merchant account in *Adyen* that you want to manage with *Actindo*, you must create a connection for each.   
-- *Adyen* offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
+- If you have more than one merchant account in Adyen that you want to manage with *Actindo*, you must create a connection for each.   
+- Adyen offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
 
 ## Create Adyen connection
-Create a connection to the *Adyen* payment service provider.
+Create a connection to the Adyen payment service provider.
 
 #### Prerequisites
 
-- You have an Adyen customer account to log in to *Adyen*.
-- You have your *Adyen* credentials at hand.
+- You have an Adyen customer account to log in to Adyen.
+- You have your Adyen credentials at hand.
 - In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
 
 #### Procedure
@@ -28,12 +28,12 @@ Create a connection to the *Adyen* payment service provider.
 
 2.  Enter a name for the connection in the *Name* field.
 
-3.  Click the *Driver* drop-down list and select **Adyen**. 
+3.  Click the *Driver* drop-down list and select *Adyen*. 
    The *Credentials* section is displayed.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
-4. Enter the API credentials. There are some standard access points for the testing environment. For your productive environment, *Adyen* provides you with individual API credentials.
+4. Enter the API credentials. There are some standard access points for the testing environment. For your productive environment, Adyen provides you with individual API credentials.
 
     -  Enter the endpoint of the checkout in the *Checkout API endpoint* field. 
 
@@ -43,14 +43,14 @@ Create a connection to the *Adyen* payment service provider.
     -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the test environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
     - Enter the user for the payment API in the *Payment API user* field.
 
-5. Enter the API credentials of the API users that you have created in *Adyen*:     
+5. Enter the API credentials of the API users that you have created in Adyen:     
     
     -  Enter the technical user for the API to transfer the payment transactions in the *Payment user* field.   
       You will need this technical user to transfer authorizations, captures, refunds, and all other *Payments* transactions.  
     -  Enter the password for the API to transfer the payment transactions in the *Payment password* field.  
     -  Enter the technical user for the reporting API in the *Report user* field.    
 
-       You will need the reporting API for the following: *Adyen* generates a daily report that collects all events of the day in a CSV file. The *Payments* module then automatically checks if all these events have been successfully transferred (reconciliation).   
+       You will need the reporting API for the following: Adyen generates a daily report that collects all events of the day in a CSV file. The *Payments* module then automatically checks if all these events have been successfully transferred (reconciliation).   
        Note that you can check the attributes of each *Payments* transaction to see if the reconciliation has been processed:
          
          ![Reconciliation](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/Reconciliation.png "[Reconciliation]")
@@ -58,19 +58,19 @@ Create a connection to the *Adyen* payment service provider.
     -  Enter the password for the reporting API in the *Report password* field.  
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
 
-    -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the *Adyen* configuration later. For detailed information, see    
-    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the *Adyen* configuration later. For detailed information, see 
+    -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the Adyen configuration later. For detailed information, see    
+    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the Adyen configuration later. For detailed information, see 
 
-6. Enter the merchant account relevant for this connection in the *Merchant account* field. This is the merchant account for which you currently create the connection. You have created it in the *Adyen* configuration.
+6. Enter the merchant account relevant for this connection in the *Merchant account* field. This is the merchant account for which you currently create the connection. You have created it in the Adyen configuration.
     
-5. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check* toggle if you do not trust the *Adyen* fraud check and want to do your own. This might be relevant if there is a longer period between the *Adyen* fraud check and the authorization receipt. 
+5. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check* toggle if you do not trust the Adyen fraud check and want to do your own. This might be relevant if there is a longer period between the Adyen fraud check and the authorization receipt. 
 
 6. Click the [SAVE] button.   
    The connection will be created. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
 
     ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
 
-    The data are synchronized between *Actindo* and *Adyen*. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
+    The data are synchronized between *Actindo* and Adyen. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
 
@@ -86,16 +86,16 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 Configure the Adyen connection after you have created it.
 
-In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that *Adyen* sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the *Adyen* settings. 
+In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that Adyen sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the Adyen settings. 
 
-In addition, you can configure the number of workers to process messages in asynchronous processing. The *Adyen* API has two endpoints, one for a synchronous and one for an asynchronous processing. 
-- At synchronous processing, *Adyen* creates a connection for each event that occurs. It has the advantage that *Adyen* is informed directly if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
+In addition, you can configure the number of workers to process messages in asynchronous processing. The Adyen API has two endpoints, one for a synchronous and one for an asynchronous processing. 
+- At synchronous processing, Adyen creates a connection for each event that occurs. It has the advantage that Adyen is informed directly if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
 - In asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be sent with parallel jobs. Here you can define the number of workers that will process the jobs in parallel.
 
 #### Prerequisites
 
 - In the *Actindo Core1 Platform*, you are permitted to create connections in *Payments*.
-- An *Adyen* connection has been created.
+- An Adyen connection has been created.
 
 #### Procedure
 
@@ -103,7 +103,7 @@ In addition, you can configure the number of workers to process messages in asyn
  
  ![Connections](../../Assets/Screenshots/Payments/Settings/Settings.png "[Connections]")
 
- 1. Click the *Adyen* connection you want to edit in the list of connections.   
+ 1. Click the Adyen connection you want to edit in the list of connections.   
    The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
     ![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
@@ -113,7 +113,7 @@ In addition, you can configure the number of workers to process messages in asyn
 
    ![Ignored event codes](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
-3. If desired, enter the event code that is to be ignored in the *Key* field and enter this event code in the *Value* field, too.    
+3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen backend. For detailed information, see [Define event codes to be ignored](./02_ManageAdyenSettings.md#define-event-codes-to-be-ignored).   
     The event code to be ignored is entered. 
 
     ![Ignored event code](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")

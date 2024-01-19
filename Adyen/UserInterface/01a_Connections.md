@@ -19,31 +19,31 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 **Credentials**
 
 - *Checkout API endpoint*   
-   Edit the endpoint of the checkout API. For detailed information, see https://docs.adyen.com/api-explorer/Checkout/71/overview in the *Adyen* documentation.  
+   Edit the endpoint of the checkout API. For detailed information, see https://docs.adyen.com/api-explorer/Checkout/71/overview in the Adyen documentation.  
      
 - *Checkout API key*    
-   Edit the key of the *Checkout API* which you have created in the settings of the *Checkout API* in the *Adyen* backend.
+   Edit the key of the *Checkout API* which you have created in the settings of the *Checkout API* in the Adyen backend.
 
 - *Payment API endpoint*   
   Edit the endpoint of the *Payment API*.  
 
 - *Payment user*   
-   Edit the username of the technical user which you have created in the settings of the *Payment API* in the *Adyen* backend.
+   Edit the username of the technical user which you have created in the settings of the *Payment API* in the Adyen backend.
 
 - *Payment password*   
-   Edit the password of the *Payment API* you have created in the settings of the *Adyen* backend.
+   Edit the password of the *Payment API* you have created in the settings of the Adyen backend.
 
  - *Report user*  
-     Edit the username of the *Report API* you have created in the settings of the *Adyen* backend.
+     Edit the username of the *Report API* you have created in the settings of the Adyen backend.
 
  - *Report password*    
-    Edit the password of the *Report API* you have created in the settings of the *Adyen* backend.
+    Edit the password of the *Report API* you have created in the settings of the Adyen backend.
 
 - *Notification user*  
-    Edit the username of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the *Adyen* configuration.
+    Edit the username of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the Adyen configuration.
 
 - *Notification password*   
-   Edit the password of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the *Adyen* configuration.
+   Edit the password of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the Adyen configuration.
 
 - *Merchant account*   
   Edit the merchant account of the connection you are currently editing.
@@ -96,7 +96,7 @@ The *Settings* tab is composed of the following setting entries:
 ![Number of workers](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
 - *Number of workers handling messages*   
-   Enter the number of parallel processes with which the *Adyen* transactions are to be transferred. 
+   Enter the number of parallel processes with which the Adyen transactions are to be transferred. 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply from default)   
    Enable this toggle if you want to apply the default value. Disable this toggle if you do not want to apply the default value.

@@ -1,6 +1,6 @@
 # User interface
 
-In this part of the *Adyen* documentation, you will find the following chapters:
+In this part of the Adyen documentation, you will find the following chapters:
 
 - [Settings](./UserInterface/01_Settings.md).
 - [CONNECTIONS (Adyen)](./UserInterface/01a_Connections.md)
