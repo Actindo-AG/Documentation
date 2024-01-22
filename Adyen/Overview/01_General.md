@@ -11,18 +11,19 @@ This documentation refers to the Adyen plugin version 1.1.0. There may be differ
 
 ## Benefits
 
-- Integration with only one payment service provider.
+- Integration with only one payment service provider that covers all required payment methods.
+- Connection via the *Payments* module
+- Receipt of authorizations, captures, refunds, cancellations, and chargebacks via push notification from Adyen triggered by external sources (e.g. store).
 
 
+<!---## Prerequisites
 
-## Prerequisites
-
-- The *Countries and Languages* plugin version 1.0.4 or higher is installed.<!--- Gibt es auch eine Vollversion?-->
-- The *Currency* plugin version 1.0.4 or higher is installed.<!--- Gibt es auch eine Vollversion?-->
+- The *Countries and Languages* plugin version 1.0.4 or higher is installed.<!--- Gibt es auch eine Vollversion?
+- The *Currency* plugin version 1.0.4 or higher is installed.<!--- Gibt es auch eine Vollversion?
 - The *Dashboard* module version 1.2.0 or higher is installed.
 - The *Actindo DataHub* module version 4.0.0 or higher is installed.
 - The *Payments* module version 4.5.0 or higher is installed.
 - The *UI Components* plugin 1.0.1 version or higher is installed.
 - The *Order Management* module version 4.2.0 or higher is installed.
-- The Adyen plugin version 1.1.0 or higher is installed.
+- The Adyen plugin version 1.1.0 or higher is installed.-->
 

@@ -124,7 +124,7 @@ In addition, you can configure the number of workers to process messages in asyn
    The *Number of workers handling messages* setting is displayed. 
    ![Number of workers](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
-6. Enter the number of workers. For connections with a lot of traffic, a number between 5-10 might be sufficient.
+6. Enter the number of workers you want to use for asynchronous processing of messages. For connections with a lot of traffic, a number between 5-10 might be sufficient. See also [Define synchronous or asynchronous processing](02_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
 7. If desired, you can apply the standard settings by enabling the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply default) toggle in the top right corner.
 
