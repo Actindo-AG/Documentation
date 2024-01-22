@@ -14,7 +14,7 @@ In the *QUICK POSTING* tab, the list of all available products and product group
     
 The list displays the group of products created in the old *Product management* module. All available product groups are displayed.
     
-> The *Product management* module is no longer supported but still runs in the background, providing the *Warehousing* module with the product list, among other functions.
+> [Info] The *Product management* module is no longer supported but still runs in the background, providing the *Warehousing* module with the product list, among other functions.
 
 - ![Collapse](../../Assets/Icons/Minus.png "[Collapse]") (Collapse)   
     Click this button to collapse a the list of product groups, or a section of it.

@@ -1,20 +1,21 @@
-[!!Configure warehouses](./01_ConfigureWarehouseGroups.md)
-[!!User interface to be completed](../UserInterface/XX_tobecompleted.md)
-[!!Manage the attributes](../../PIM/Integration/01_ManageAttributes.md)
+[!!Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
+[!!Configure the warehouses](./02_ConfigureWarehouses.md)
+[!!User interface Warehouse](../UserInterface/03a_Warehouse.md)
+[!!Manage an attribute](../../PIM/Integration/01_ManageAttributes.md)
+[!!Manage an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md)
+
 
 # Configure the stock allocation
 
 The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
 
-Every time a posting is made in the *Warehousing* module, the stock value in the *PIM* module is updated. This process occurs asynchronously and may take a few moments. The stock value is transferred in turn to the sale channel via the *Omni-Channel* module.
+Every time a posting is made in the *Warehousing* module, the stock value in the *PIM* module is updated. This process occurs asynchronously and may take a few moments. The stock value is transferred in turn to the corresponding sale channel via the *Omni-Channel* module.
 
-The stock allocation table includes automatically all warehouses you have created. You can decide any time if you want to include the stock stored in a specific warehouse in the stock calculation. For detailed information to create a warehouse, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse). 
-
-Depending on the configured target channels and warehouses, the displayed columns and rows will vary. 
+The stock allocation table includes automatically all warehouses you have created. You can decide any time if you want to include the stock stored in a specific warehouse in the stock calculation. For detailed information to create a warehouse, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse). Besides, all configured target channels are also listed in the *Target channel* column. Depending on the configured target channels and warehouses, the displayed columns and rows will vary. 
 
 #### Prerequisites
 
-- At least a warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
+- At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
 - The necessary attributes of the *Stock value* data type have been created in the *PIM* module, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute). 
 - The *Stock value* attribute has been assigned to the relevant attribute sets, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
 
@@ -24,15 +25,19 @@ Depending on the configured target channels and warehouses, the displayed column
 
 ![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
 
-1. Select the row with the stock allocation attribute name corresponding to the desired target channel in the *Target channel* column.
+1. Select the row with the attribute name corresponding to the desired target channel in the *Target channel* column.
 
-2. Double-click the field with the **Default setting** option in the *Stock calculation* column.   
+2. Double-click the corresponding field in the *Stock calculation* column.   
     A drop-down list is displayed.
 
 3. Click the drop-down list and select the appropriate option. The following options are available:  
       
+    - **Default setting**  
+        Select this option if you do not want to transfer any value for this target channel.  
+        All fields in the row are locked.  
+
     - **Fixed value**  
-        Select this option to transfer a fixed stock amount.   
+        Select this option to transfer a fixed stock amount to the target channel.   
         The corresponding field in the *Fixed value* column is unlocked. 
 
     - **Formula**  
@@ -41,7 +46,7 @@ Depending on the configured target channels and warehouses, the displayed column
 
         > [Info] Bear in mind that all outgoing postings, such as pre-reservations, reservations or sales, are negative, and therefore they must be added to the formula with a plus sign, not a minus. 
 
-        Below, you can a table containing the php commands used in the *Actindo Core1 Platform* and their meaning:
+        Below, you can see a table containing the php commands used in the *Actindo Core1 Platform* and their meaning:
 
         | php commands | Meaning |
         | ------------ | ---------------- |
@@ -75,8 +80,7 @@ Depending on the configured target channels and warehouses, the displayed column
 
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
 
-5. You can also include stock located at the suppliers' premises in the calculation. This field is only unlocked when you select a predefined calculation formula in the *Stock calculation* column.    
-To do so, click the drop-down list of the field corresponding to the desired target channel in the *Supplier stock* column and select the appropriate option. The following options are available:
+5. If you want to include the stock located at the suppliers' premises in the calculation, click the corresponding field in the *Supplier stock* column and select the appropriate option. The fields in this column are only unlocked when you select a predefined calculation formula in the *Stock calculation* column. The following options are available:
 
     - **No**  
         Select this option to exclude stock from all suppliers.

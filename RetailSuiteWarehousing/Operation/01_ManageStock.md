@@ -1,18 +1,21 @@
+[!!User interface Posting history](./02_CheckPostingHistory.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 
 # Manage the stock
 
-The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in and release stock from the warehouse. Stock postings are usually performed automatically by the system after the applicable business document is created and processed. This is in turn determined by the workflow you have previously configured. Additionally, you can perform stock postings manually if necessary, see [Create a manual stock posting](#create-a-manual-stock-posting). 
+The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations. 
 
-Before you can post stock for a material, you have to activate the warehouse logistics for the corresponding product, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
+Stock postings are usually performed automatically by the system after the applicable business document is created and processed. This is in turn determined by the workflow you have previously configured. For detailed information on the different stock postings and how they are automatically posted, see [Check the posting history](02_CheckPostingHistory.md). 
+
+You can also perform stock postings manually if necessary, see [Create a manual stock posting](#create-a-manual-stock-posting). However, before you can post stock for a material, you have to activate the warehouse logistics for the corresponding product, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
 
 
 
 ## Activate the warehouse logistics for a product
 
-All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, a product is not relevant for the warehouse logistics by default. To be able to post stock for a material corresponding to a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product. 
+All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, a product is not relevant for the warehouse logistics by default. To be able to post stock for a material corresponding to a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product first. 
 
-Once you have activated the warehouse logistics for a selected product, the *Warehouse/suppliers* sub-tab is displayed. As soon as a stock amount has been posted, the warehouse logistics cannot be deactivated for this product any more. 
+Once you have activated the warehouse logistics for a selected product, the *Warehouse/suppliers* sub-tab is displayed. As soon as a stock amount has been posted, the warehouse logistics cannot be deactivated for this product anymore. 
 
 Not all products displayed in the product list are actual items kept in stock. Warehouse logistics cannot be activated for the following products:  
 
@@ -20,7 +23,7 @@ Not all products displayed in the product list are actual items kept in stock. W
     A master product is a superordinate (parent) entity that has subordinate (child) entities, that is, the product variants. A master product is an abstract entity that represents an object; the product variants, on the other hand, are the actual products, in all its variants, that are on sale. For example, the master product "T-shirt" can have different product variants, for instance a red T-shirt in M size and blue T-shirt in L size.
 
 - Product bundle  
-    A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. Bundle stock depends on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
+    A bundle is a set of products that are sold together. However, these are individual products that are managed independently in the *Warehouse* module. The bundle stock depends, therefore, on the stock of the individual products included in the bundle. If one of the products is not in stock any more, the bundle cannot be sold. 
 
 #### Prerequisites
 

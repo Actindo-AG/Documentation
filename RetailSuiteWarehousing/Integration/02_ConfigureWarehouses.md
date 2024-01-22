@@ -1,14 +1,18 @@
+[!!Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
+[!!Check the posting history](../Operation/02_CheckPostingHistory.md)
+[!!User interface Warehouse](../UserInterface/03a_Warehouse.md)
+
 # Configure the warehouses
 
 A warehouse is a subordinate storage area within a warehouse group used for a specific purpose, such as sales, returns, or blocked stock. A warehouse can be assigned, or not, to a specific warehouse group. If a warehouse is not assigned to any warehouse group, it will be listed under the general *No warehouse group* in the left side bar. 
 
-Warehouses can be created, edited and deleted.
+Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/02_CheckPostingHistory.md).
 
 
 
 ## Create a warehouse
 
-Create one or more specific warehouses from which the stock is taken.
+Create one or more specific warehouses to store and manage your stock.
 
 #### Prerequisites
 
@@ -44,10 +48,10 @@ No prerequisites to fulfill.
 7. If desired, enter any comments in the *Comment* field.
 
 8. Click the [SAVE] button.  
-    The warehouse has been saved.
+    The new warehouse has been saved.
     
-9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column.   
-    The new warehouse is displayed in the left column.
+9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.   
+    The new warehouse is displayed in the list of warehouses.
 
 
 
@@ -78,13 +82,15 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 3. Click the [SAVE] button.  
     The changes have been saved.
 
- > [Info] It may be necessary to click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button at the top of the left column to display certain changes, for example, if the warehouse has been assigned to a different warehouse group.   
+ > [Info] It may be necessary to click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button in the upper right corner of the left side bar to display certain changes, for example, if the warehouse has been assigned to a different warehouse group.   
     
 
 
 ## Delete a warehouse
 
-Once you have created a warehouse, you can delete it. 
+After you have created a warehouse, you can delete it if it is no longer needed. 
+
+Bear in mind, though, that you cannot delete a warehouse where postings have been made in the past, as all posting information is kept in the system.
 
 #### Prerequisites
 
@@ -96,7 +102,7 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
-1. Click the warehouse you want to edit.  
+1. Click the warehouse you want to delete.  
     The *Basic data* sub-tab of the selected warehouse is displayed.
 
     ![Edit warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/EditWarehouseBasicData.png "[Edit warehouse basic data]")
@@ -105,6 +111,8 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
         Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button.  
-    The warehouse is deleted and is no longer displayed in the left side bar in the *Warehouse master data* tab.
+    The warehouse is deleted and is no longer displayed in the list of warehouses.
     
-    > [Info] If the warehouse has already been included in the stock allocation matrix, the warehouse cannot be deleted. A window with the following error message is displayed: *Error deleting: There are warehouse allocations in this warehouse.* In this case, you have to ... first, see [To be determined](#to-be-determined).
+    > [Info] If the warehouse has already stock allocations, the warehouse cannot be deleted. A window with the following error message is displayed: *Error deleting: There are warehouse allocations in this warehouse.* 
+
+[comment]: <> (Evtl. in Prerequisites, also Delete geht nicht, wenn es stock allocations und Buchungen schon gemacht wurden.)
