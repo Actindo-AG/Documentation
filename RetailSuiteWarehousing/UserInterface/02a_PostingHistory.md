@@ -1,4 +1,4 @@
-[!!Check the posting history](../Operation/02_CheckPostingHistory.md)
+[!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 
 # Posting history
 
@@ -8,7 +8,7 @@
 
 [comment]: <> (No entries shown when clicking the menu entry. Huge amount of postings available in the system for all stock movements and materials; they are not deleted. Therefore, for efficiency reasons/to save resources, nothing is shown first before a filter is set.) 
 
-The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/02_CheckPostingHistory.md#check-posting-history-for-a-material). 
+The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/03_CheckPostingHistory.md#check-the-posting-history-for-a-material). 
 
 
 [comment]: <> (For detailed information on general UI functions, see... -> Link to Core1 UI)
@@ -46,7 +46,7 @@ The *Posting history* tab allows you to check the stock postings for a specific 
     - **Pre-reservation**  
         Select this option if you want to display stock postings for material reserved for orders that have not been received in the system yet, that is, with no business document assigned. This can be the case, for example, when a customer places a product in the shopping cart. This posting type does not affect the actual nor the available stock in the warehouse. 
 
-        > [Info] Pre-reservation postings are not standard and must be additionally configured in the system. If you have not had it configured, this option will not be displayed in the list.
+        > [Info] To be able to use pre-reservation posting in the system, your shop must support this function.  
 
 [comment]: <> (Vgl. Manual posting in 01_ManageStock.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
 

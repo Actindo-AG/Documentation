@@ -1,4 +1,4 @@
-[!!Manage the stock](../Operation/01_ManageStock.md)
+[!!Manage the stock](../Operation/02_ManageStock.md)
 
 # Quick posting
 

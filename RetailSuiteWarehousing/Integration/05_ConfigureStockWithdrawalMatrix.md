@@ -1,8 +1,6 @@
-
-[!!User interface Stock withdrawal matrix](../UserInterface/to-be-determined)
 [!!Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
 [!!Configure the warehouses](./02_ConfigureWarehouses.md)
-[!!](../Integration/.md)
+[!!User interface Stock withdrawal matrix](../UserInterface/03a_Warehouse.md)
 
 
 # Configure the stock withdrawal matrix
@@ -73,6 +71,7 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
     The entry in the stock withdrawal matrix is saved.
 
     > [Info] Repeat steps **1** to **10** to add further entries.
+
 
 
 ## Edit an entry

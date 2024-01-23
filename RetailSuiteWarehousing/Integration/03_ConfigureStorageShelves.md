@@ -1,6 +1,6 @@
 [!!Configure warehouses](./02_ConfigureWarehouses.md)
-[!!Check the stock](../Operation/01_ManageStock.md)
-[!!Check the posting history](../Operation/02_CheckPostingHistory.md)
+[!!Check the stock](../Operation/02_ManageStock.md)
+[!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 
 
@@ -12,7 +12,7 @@ Each material can be stored in several storage shelves and different warehouses,
 
 The first storage shelf that is created for a material is automatically set as primary. You can subsequently create another storage shelf and set it as primary by clicking the *is primary storage* checkbox. 
 
-Storage shelves can be created, edited, and delete. Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/02_CheckPostingHistory.md).
+Storage shelves can be created, edited, and delete. Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
@@ -23,7 +23,7 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 #### Prerequisites
 
 - At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
-- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](../Operation/01_ManageStock.md#activate-warehouse-logistics-for-a-material).
+- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](../Operation/01_ManageWarehouse.md#activate-warehouse-logistics-for-a-material).
 
 #### Procedure
 

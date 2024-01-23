@@ -1,12 +1,12 @@
 [!!Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
-[!!Check the posting history](../Operation/02_CheckPostingHistory.md)
+[!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 [!!User interface Warehouse](../UserInterface/03a_Warehouse.md)
 
 # Configure the warehouses
 
 A warehouse is a subordinate storage area within a warehouse group used for a specific purpose, such as sales, returns, or blocked stock. A warehouse can be assigned, or not, to a specific warehouse group. If a warehouse is not assigned to any warehouse group, it will be listed under the general *No warehouse group* in the left side bar. 
 
-Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/02_CheckPostingHistory.md).
+Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
