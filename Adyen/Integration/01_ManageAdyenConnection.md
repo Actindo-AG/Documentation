@@ -1,7 +1,7 @@
 # Manage Connections
 
-
 In the following, the procedures to create, edit, configure, enable, or disable Adyen connections are described.  
+
 Note the following:   
 - If you have more than one merchant account in Adyen that you want to manage with *Actindo*, you must create a connection for each.   
 - Adyen offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
@@ -24,7 +24,7 @@ Create a connection to the Adyen payment service provider.
 1.  Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create Connection* view is displayed.  
 
-    ![Create connection](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/CreateConnection.png "[Create connection]")
+    ![Create connection](../../Assets/Screenshots/Adyen/Integration/CreateConnection.png "[Create connection]")
 
 2.  Enter a name for the connection in the *Name* field.
 
@@ -37,7 +37,7 @@ Create a connection to the Adyen payment service provider.
 
     -  Enter the endpoint of the checkout in the *Checkout API endpoint* field. 
 
-    > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is **https://checkout-test.adyen.com/checkout/**.
+       > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is **https://checkout-test.adyen.com/checkout/**.
 
     - Enter the key field of the checkout API in the *Checkout API key* field.   
     -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the test environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
@@ -53,7 +53,7 @@ Create a connection to the Adyen payment service provider.
        You will need the reporting API for the following: Adyen generates a daily report that collects all events of the day in a CSV file. The *Payments* module then automatically checks if all these events have been successfully transferred (reconciliation).   
        Note that you can check the attributes of each *Payments* transaction to see if the reconciliation has been processed:
          
-         ![Reconciliation](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/Reconciliation.png "[Reconciliation]")
+         ![Reconciliation](../../Assets/Screenshots/Adyen/Integration/Reconciliation.png "[Reconciliation]")
 
     -  Enter the password for the reporting API in the *Report password* field.  
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
@@ -67,8 +67,6 @@ Create a connection to the Adyen payment service provider.
 
 6. Click the [SAVE] button.   
    The connection will be created. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
-
-    ![Checking credentials](../../Assets/Screenshots/Payments/Settings/CheckingCredentials.png "[Checking credentials]")
 
     The data are synchronized between *Actindo* and Adyen. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
@@ -106,23 +104,23 @@ In addition, you can configure the number of workers to process messages in asyn
  1. Click the Adyen connection you want to edit in the list of connections.   
    The *Edit connection* view is displayed. By default, the *Credentials* tab is selected.
 
-    ![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
+    ![Edit Adyen settings](../../Assets/Screenshots/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
 
 2. Click the *Settings* tab.   
   The *Ignored event codes* setting is displayed by default.
 
-   ![Ignored event codes](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
+   ![Ignored event codes](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
 3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen backend. For detailed information, see [Define event codes to be ignored](./02_ManageAdyenSettings.md#define-event-codes-to-be-ignored).   
     The event code to be ignored is entered. 
 
-    ![Ignored event code](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")
+    ![Ignored event code](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")
 
-4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
+4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button. You can also do this in the Adyen backend. For detailed information, see [Create webhook in Adyen](./02_ManageAdyenSettings.md#create-adyen-webhook).
 
 5. Click the *Number of workers handling messages* setting.   
    The *Number of workers handling messages* setting is displayed. 
-   ![Number of workers](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
+   ![Number of workers](../../Assets/Screenshots/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
 6. Enter the number of workers you want to use for asynchronous processing of messages. For connections with a lot of traffic, a number between 5-10 might be sufficient. See also [Define synchronous or asynchronous processing](02_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
