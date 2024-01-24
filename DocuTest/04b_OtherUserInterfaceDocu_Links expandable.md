@@ -23,6 +23,7 @@ For more information on the described user interfaces, refer to our *Actindo Cor
 
 </details>
 
+
 **Attribute set list** 
 
  The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.  
