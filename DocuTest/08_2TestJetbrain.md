@@ -19,7 +19,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 *DataHub > Settings > Tab HTML TEMPLATES*
 
-![HTML templates](../ ../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
+![HTML templates](../Assets/Screenshots/DataHub/Settings/HTMLTemplates/HTMLTemplates.png "[HTML templates]")
 
 1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
    The *Create HTML template* window is displayed.
