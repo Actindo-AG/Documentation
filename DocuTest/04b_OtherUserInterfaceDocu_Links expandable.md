@@ -13,7 +13,7 @@
 
 
 
-<details><summary>Click for further information on this screens</summary>
+<details><summary>Click for further information on the screens described in this chapter</summary>
 
 For more information on the described user interfaces, refer to our *Actindo Core1 platform* documentation for general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. Among others, see the following:
 - [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
