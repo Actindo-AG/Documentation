@@ -169,7 +169,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 3. Click the [CONFIRM] button in the bottom right corner.   
     The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
 
-    > [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
+    > [Caution] Note that problems may occur if you delete an attribute with existing dependencies.
 
 > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Permanently delete an attribute](../Operation/04_ManageDeletedAttributes.md#permanently-delete-an-attribute).
 

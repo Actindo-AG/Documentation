@@ -5,7 +5,9 @@
 
 The units and dimensions are used to assign units to attributes with different data types. While editing attributes, you can select predefined units and dimensions within drop-down lists.   
 
-The units are predefined and grouped by dimensions.  For example, the length dimension contains units of length such as meters, kilometers, or miles. Each dimension has one base unit that cannot be changed. This is a used to measure various units of a dimension according to international standards, for example units of the dimension length in meters. You can activate or deactivate single units within a dimension.
+Units are predefined and grouped by dimensions. For example, the length dimension contains units of length such as meters, kilometers, or miles. Each dimension has one base unit that cannot be changed. It is used to measure various units of measurement according to international standards, for example units of length are measured in meters. This means that the base unit meter has the factor 1 and all other measures of length are set in relation to it.   
+
+You can deactivate or activate a unit except of the base unit.
 
 
 ## Deactivate a unit
