@@ -38,7 +38,7 @@ The following functions are available for the editing toolbar:
 - [DELETE]   
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.    
 
-
+The following fields and functions are available in the list:
 
 - *Name*   
     Attribute set name.
