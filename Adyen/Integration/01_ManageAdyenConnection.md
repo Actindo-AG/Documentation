@@ -55,7 +55,8 @@ Create a connection to the Adyen payment service provider.
          
          ![Reconciliation](../../Assets/Screenshots/Adyen/Integration/Reconciliation.png "[Reconciliation]")
 
-    -  Enter the password for the reporting API in the *Report password* field.  
+    -  Enter the password for the reporting API in the *Report password* field. 
+     
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
 
     -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the Adyen configuration later. For detailed information, see    
