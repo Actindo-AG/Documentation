@@ -23,7 +23,7 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 #### Prerequisites
 
 - At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
-- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](../Operation/01_ManageWarehouse.md#activate-warehouse-logistics-for-a-material).
+- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](../Operation/01_ManageWarehouse.md#activate-the-warehouse-logistics-for-a-material).
 
 #### Procedure
 

@@ -53,9 +53,9 @@ The stock allocation table includes automatically all warehouses you have create
         | GET_BESTAND | Physical stock |
         | GET_RESERVED | Reserved material |
         | GET_PRE_RESERVED | Pre-reserved material |
-        | GET_RESERVED_SPECIAL | Material waiting for picking |
+        | GET_RESERVED_SPECIAL | Reserved material for open delivery note |
         | GET_SELL | Material sold |
-        | GET_COUNT | Physical stock minus material waiting for picking |
+        | GET_COUNT | Physical stock minus reserved material for open delivery note |
         | GET_COUNTAVAIL | Physical stock minus reserved material |
         
     - **Calculation, stock level**  

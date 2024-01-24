@@ -6,9 +6,9 @@
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
-[comment]: <> (No entries shown when clicking the menu entry. Huge amount of postings available in the system for all stock movements and materials; they are not deleted. Therefore, for efficiency reasons/to save resources, nothing is shown first before a filter is set.) 
+The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. Since all stock postings ever performed are stored in the system, a huge number of entries is available. Therefore, to reduce system overload and improve performance, no posting is displayed before setting a filter.
 
-The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. The list displayed when filtering by product/material is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check posting history for a material](../Operation/03_CheckPostingHistory.md#check-the-posting-history-for-a-material). 
+The list displayed when filtering by product is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check the posting history for a material](../Operation/03_CheckPostingHistory.md#check-the-posting-history-for-a-material). 
 
 
 [comment]: <> (For detailed information on general UI functions, see... -> Link to Core1 UI)
@@ -46,9 +46,9 @@ The *Posting history* tab allows you to check the stock postings for a specific 
     - **Pre-reservation**  
         Select this option if you want to display stock postings for material reserved for orders that have not been received in the system yet, that is, with no business document assigned. This can be the case, for example, when a customer places a product in the shopping cart. This posting type does not affect the actual nor the available stock in the warehouse. 
 
-        > [Info] To be able to use pre-reservation posting in the system, your shop must support this function.  
+        > [Info] To be able to use pre-reservation postings in the system, your shop must support this function.  
 
-[comment]: <> (Vgl. Manual posting in 01_ManageStock.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
+[comment]: <> (Vgl. Manual posting in 02_ManageStock.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
 
 - *Warehouse*  
     Click the drop-down list and select the desired warehouse. All warehouses available are displayed in the list.

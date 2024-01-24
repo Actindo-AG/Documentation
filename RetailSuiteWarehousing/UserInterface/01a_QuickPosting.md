@@ -117,7 +117,7 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
 
 - *Manual posting*  
     Click the drop-down list to select the appropriate manual posting type. The posting types displayed vary according to the tab selected.  
-    For detailed information on the manual posting types, see [Create a manual posting](../Operation/01_ManageStock.md#create-a-manual-stock-posting).
+    For detailed information on the manual posting types, see [Create a manual posting](../Operation/02_ManageStock.md#create-a-manual-stock-posting).
 
 
 
@@ -282,7 +282,7 @@ The list in this section displays the current stocks of the selected material.
 
 - *Posting type*  
     Click the drop-down list and select the desired posting type.  
-    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/01_ManageStock.md#create-a-manual-stock-posting). 
+    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/02_ManageStock.md#create-a-manual-stock-posting). 
 
 - *New stock location*  
     Click the drop-down list and select the desired stock location. This drop-down list is only displayed if you have selected the *Stock transfer* posting type.
@@ -363,7 +363,7 @@ This sub-tab displays all stock postings for the selected material. The list dis
 
 - *Posting type*  
     Click the drop-down list to filter the postings by posting type.  
-    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/01_ManageStock.md#create-a-manual-stock-posting). 
+    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/02_ManageStock.md#create-a-manual-stock-posting). 
 
 - [EXCEL]  
     Click this button to export the stock history as an Excel file.  
