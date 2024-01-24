@@ -5,7 +5,7 @@
 
 An attribute set consists of multiple attributes to classify certain products according to demand or production contexts.
 
-[Picture text](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
+![Picture text](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
 Several plugins may bring their own attribute sets as a starting point for the tenant's configuration, such as the *PIM* module.
 
