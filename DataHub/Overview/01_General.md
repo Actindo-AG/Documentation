@@ -25,7 +25,8 @@ The *DataHub* module offers the following benefits:
 The following module/plugin versions or higher are installed:
 - Countries and languages 1.2.0 
 - Currency 1.0.4 
-- UI Components 1.0.1 
+- UI Components 1.0.1    
+
 In addition, the HTML templates for ETL plugin version 1.1.2 or higher must be installed to use the HTML templates.
 
 
