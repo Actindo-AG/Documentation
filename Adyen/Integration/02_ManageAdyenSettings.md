@@ -117,6 +117,7 @@ Define whether you want to transfer the payment data using synchronous or an asy
 4. Save your changes.
 
 
+
 ## Create API credentials
 
 
