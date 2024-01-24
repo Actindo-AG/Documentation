@@ -98,7 +98,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the business document has been cancelled.
 
-3. Check the different posting types created in the *Posting type* column. For a detailed description of all posting types, see [Posting types](#posting-types)
+3. Check the different posting types created in the *Posting type* column. For detailed information on the different posting types, see [Posting types](#posting-types)
 
 4. Check the quantity of stock posted for the selected material in the *Quantity* column. 
 
@@ -140,7 +140,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
     - **Problem**  
     - **Pre-reservation**  
 
-    For a detailed description of the posting types, see [Posting types](#posting-types). 
+    For detailed information on the different posting types, see [Posting types](#posting-types). 
     
 [comment]: <> (Vgl. Manual posting in 01_ManageWarehouse.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
 

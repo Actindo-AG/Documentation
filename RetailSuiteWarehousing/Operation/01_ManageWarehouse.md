@@ -193,7 +193,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 4. If desired, click the *Storage location* drop-down list to select a specific warehouse. All available warehouses are displayed in the list.  
     The list displays only the entries for the selected warehouse.
 
-5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For a detailed description of all posting types, see [Posting types](./03_CheckPostingHistory.md#posting-types).  
+5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For detailed information on the different posting types, see [Posting types](./03_CheckPostingHistory.md#posting-types).  
     The list displays only the entries with the selected posting type.
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the the order, and therefore the linked business document, has been cancelled.

@@ -6,39 +6,26 @@
 
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
-In the *QUICK POSTING* tab, the list of all available products and product groups, if any, is displayed.  
+The *QUICK POSTING* tab displays a list of all available products and allows to post stock in, release stock from stock and transfer stock in your storage locations.
 
-[comment]: <> (Add, wenn Core1 online: For further details on general UI functions, see...)
+> [Info] The *Warehousing* module is undergoing a major redesigning process and, therefore, only the most important features are described in this documentation.
 
-**Product groups**  
-    
-The list displays the group of products created in the old *Product management* module. All available product groups are displayed.
-    
-> [Info] The *Product management* module is no longer supported but still runs in the background, providing the *Warehousing* module with the product list, among other functions.
+<details><summary>Click for further information on the screens described in this chapter</summary>
 
-- ![Collapse](../../Assets/Icons/Minus.png "[Collapse]") (Collapse)   
-    Click this button to collapse a the list of product groups, or a section of it.
+For more information on the described user interfaces, refer to our Actindo Core1 Platform* documentation for 
+general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
+Among others, see the following:
 
-- ![Expand](../../Assets/Icons/Plus03.png "[Expand]") (Expand)  
-    Click this button to expand the list of product groups, or a section of it.
+- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
+- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of product groups.
+</details>
 
-- [EXPAND ALL]   
-    Click this button to expand all sections of the list of product groups.
-
-- [CLOSE ALL]  
-    Click this button to expand all sections of the list of product groups.
-
-[comment]: <> (Diese Elemente ggf. in Core1 Doku integrieren, darauf hinweisen und hier weglöschen)
 
 **Product list**  
 
-The list displays all products created in the old *Product management* module. All available products are displayed.
+The product list displays of all available products. Depending on the settings, the displayed columns may vary. All fields are read-only.  
     
-> Major functions, such as create a product, are no longer available and therefore they are locked (grayed out). Only the relevant functions for this version of the *Warehousing* module are described in the following.
-
 - *SKU*  
     Product SKU.
 
@@ -63,11 +50,11 @@ The list displays all products created in the old *Product management* module. A
 - *On stock*  
     Actual number of units of the product stored.  
 
-**Multiple posting area**
+**Multiple posting section**
 
-This area displays a list of the products selected and moved per drag and drop when posting stock for multiple materials at a time. 
+This section displays a list of the products selected and moved per drag and drop when posting stock for multiple materials at a time. 
 
-Depending on the tab selected below, the columns and the buttons displayed vary slightly.
+Depending on the tab selected below, the columns and the buttons displayed may vary.
 
 - *Stock in*  
     Select this tab to add stock to the warehouse.
@@ -78,6 +65,7 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
 - Transfer  
     Select this tab to transfer stock from a storage shelf to another storage shelf.
 
+The following functions and fields are available:
 
 - *SKU*  
     Product SKU.
@@ -92,13 +80,13 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
     Double-click the field to display the drop-down list and select the storage shelf where you want to take the material from. This column is displayed when you select the *Release from stock* and *Transfer* tabs.
 
 - *Warehouse*  
-    Double-click the field to display the drop-down list and select the warehouse where you want to create the storage shelf. This field is only unlocked when the **New storage shelf** option has been selected.
+    Double-click the field to display the drop-down list and select the warehouse where you want to create the storage shelf. This field is only unlocked when you select the **New storage shelf** option.
 
 - *Storage shelf input*  
-    Double-click the field and enter the storage shelf number when creating a new storage shelf. This field is only unlocked when the **New storage shelf** option has been selected.
+    Double-click the field and enter the storage shelf number when creating a new storage shelf. This field is only unlocked when you select the **New storage shelf** option.
 
 - Primary storage*  
-    Double-click the field to display the drop-down list and select **Yes** if you want to set the new storage shelf as primary. This field is only unlocked when the **New storage shelf** option has been selected.
+    Double-click the field to display the drop-down list and select **Yes** if you want to set the new storage shelf as primary. This field is only unlocked when you select the **New storage shelf** option.
 
 - *#*  
     Double-click the field to unlock it and enter the quantity of units you want to post.
@@ -117,7 +105,7 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
 
 - *Manual posting*  
     Click the drop-down list to select the appropriate manual posting type. The posting types displayed vary according to the tab selected.  
-    For detailed information on the manual posting types, see [Create a manual posting](../Operation/02_ManageStock.md#create-a-manual-stock-posting).
+    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types).
 
 
 
@@ -141,29 +129,29 @@ Depending on the tab selected below, the columns and the buttons displayed vary 
 
 ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
-The *Basic data* sub-tab contains the main product details, such as product SKU and name. These details are imported from the old *Product management* module, are locked (grayed out) and cannot be modified here. 
-
-> [Info] The *Warehousing* module is undergoing a major redesigning process and, therefore, only the most important features are described in this documentation.
+The *Basic data* sub-tab contains the main product details, such as product SKU and name. These details are imported from the old *Product management* module, are locked and cannot be modified here. Only the relevant functions for this version of the *Warehousing* module are described below.
 
 - *Warehouse logistics active for this product*  
     Click the drop-down list and select **Yes** if you want to activate the warehouse logistics for this product. Otherwise, you cannot post stock for this product. Once the warehouse logistics is active for a product, the *Warehouse/suppliers* sub-tab is displayed.   
     
-    When clicking the *Warehouse/supplier* sub-tab, the *Warehouse management* sub-tab is displayed by default. The *Warehouse management* sub-tab contains three sub-tabs. In this documentation, only the *Warehouse management* and *Stock history* sub-tabs are described. For detailed information, see [Warehouse management](#warehouse-management) and [Stock history](#stock-history).  
+    > [Info] When selecting the *Warehouse/supplier* sub-tab, the *Warehouse management* sub-tab is displayed by default. The *Warehouse management* sub-tab contains three sub-tabs. In this documentation, only the *Warehouse management* and *Stock history* sub-tabs are described. For detailed information, see [Warehouse management](#warehouse-management) and [Stock history](#stock-history).  
 
     
 
 ## Warehouse management
 
 *Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Sub-tab Warehouse management*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management*
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management*  
 
 ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-The *Warehouse management* sub-tab contains two sections.
+The *Warehouse management* sub-tab contains the *Storage locations* and *Stocks* sections.
 
 **Storage locations**
 
-The list in this section displays all storage shelves where the selected material is stored. You can also create the storage shelves and create new ones.
+In this section, the list displays all storage shelves where the selected material is stored. 
+
+The following functions and fields are available: 
 
 - *ID*  
     Storage shelf identification number. This value is assigned automatically by the system.
@@ -187,7 +175,7 @@ The list in this section displays all storage shelves where the selected materia
     Indication whether the storage shelf is set as blocked storage (**1**) for the selected material or not (**0**). 
 
 - [x]   
-    Select the checkbox of a tax mapping to edit or delete it. The *Edit* section is displayed
+    Select the checkbox of a storage shelf to edit or delete it. The *Edit* section is displayed.
 
 
 - [CREATE]  
@@ -199,12 +187,18 @@ The list in this section displays all storage shelves where the selected materia
 - ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
     Click this button to update the list.
 
+[comment]: <> (Evtl. CREATE, DELETE und Refresh weg? In Core1 Docu?)
+
 
 **Add/Edit**
 
 ![Add storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddStorageShelf.png "[Add storage shelf]")
 
+In this section, you can edit the storage shelves and create new ones.
+
 > [Info] When clicking the [CREATE] button, the *Add* section is displayed. When selecting a checkbox in the entry list, the *Edit* section is displayed. The fields in the *Add* and the *Edit* section are identical.
+
+The following functions and fields are available: 
 
 - *Warehouse ID*  
     Click the drop-down list where you want to create the storage shelf.
@@ -233,9 +227,12 @@ The list in this section displays all storage shelves where the selected materia
 - [CLEAR]  
     Click this button to clear all fields in the section.
 
+
 **Stocks**
 
 The list in this section displays the current stocks of the selected material. 
+
+The following functions and fields are available: 
 
 - *Warehouse*  
     Warehouse ID and name.
@@ -282,7 +279,7 @@ The list in this section displays the current stocks of the selected material.
 
 - *Posting type*  
     Click the drop-down list and select the desired posting type.  
-    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/02_ManageStock.md#create-a-manual-stock-posting). 
+    For detailed information on the different posting types, see step 5 in [Create a posting type](../Operation/02_ManageStock.md#create-a-manual-stock-posting). 
 
 - *New stock location*  
     Click the drop-down list and select the desired stock location. This drop-down list is only displayed if you have selected the *Stock transfer* posting type.
@@ -363,12 +360,12 @@ This sub-tab displays all stock postings for the selected material. The list dis
 
 - *Posting type*  
     Click the drop-down list to filter the postings by posting type.  
-    For a detailed description of the different posting types, see step 5 in [Create a posting type](../Operation/02_ManageStock.md#create-a-manual-stock-posting). 
+    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
 
 - [EXCEL]  
     Click this button to export the stock history as an Excel file.  
 
 
-For a detailed description of all columns, see [Posting history](./02a_PostingHistory.md).
+For detailed information on all columns, see [Posting history](./02a_PostingHistory.md).
 
 
