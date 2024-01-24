@@ -11,9 +11,9 @@
 
 ![Attribute sets](../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
-**Attribute set list** 
 
-<details><summary>**Click for further information on this screens**</summary>
+
+<details><summary>Click for further information on this screens</summary>
 
 For more information on the described user interfaces, refer to our *Actindo Core1 platform* documentation for general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. Among others, see the following:
 - [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
@@ -21,10 +21,12 @@ For more information on the described user interfaces, refer to our *Actindo Cor
 - [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
 - [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
 
-
 </details>
 
- 
+**Attribute set list** 
+
+ The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.  
+
 The following functions are available for the editing toolbar:   
 
 - [x]     
@@ -36,7 +38,7 @@ The following functions are available for the editing toolbar:
 - [DELETE]   
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.    
 
-The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
 
 - *Name*   
     Attribute set name.
