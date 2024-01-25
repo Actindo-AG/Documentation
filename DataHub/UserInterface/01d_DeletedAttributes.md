@@ -52,7 +52,7 @@ The list displays all attributes that have been deleted. Depending on the settin
 - *Multi-scope*   
     Indication whether the attribute is multi-scope or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
 - *Plugin*   
     Module or plugin that owns the attribute.

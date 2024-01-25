@@ -2,7 +2,7 @@
 
 # Manage the deleted attributes
 
-Once an attribute has been deleted, it is moved to the *DELETED ATTRIBUTES* tab. However, it is not irretrievably deleted. You can recover a deleted attribute and make the deletion undone. Alternatively, you can permanently delete an attribute that is definitely no longer needed.
+Once an attribute has been deleted, it is moved to the *DELETED ATTRIBUTES* tab. However, it is not irretrievably deleted. You can recover a deleted attribute and thus make the deletion undone. Alternatively, you can permanently delete an attribute that is definitely no longer needed.
 
 
 ## Recover an attribute
@@ -49,7 +49,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 1. Click the checkbox of the attribute you want to permanently delete in the list of deleted attributes.    
     The editing toolbar is displayed above the attributes list.
 
-    > [Info] If the attribute moved to the *DELETED ATTRIBUTES* tab is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
+    > [Info] If an attribute moved to the *DELETED ATTRIBUTES* tab is not yet displayed in the list of deleted attributes, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list.
 
 2. Click the [DELETE] button in the editing toolbar.  
     The attribute has been permanently deleted. The deletion cannot be undone.

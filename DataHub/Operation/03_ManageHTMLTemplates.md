@@ -122,11 +122,11 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
     > [Info] The data fields of an entity you can refer to are described in the API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*.    
 
-3. If desired, include the destination language and/or the destination channel to the attribute variable value by adding the following suffixes at the end of the variable name:
+3. If desired, include the destination language and/or the destination scope to the attribute variable value by adding the following suffixes at the end of the variable name:
     - *destination language*   
         Add **__LanguageKey** to include the destination language to the variable. Replace **LanguageKey** by the corresponding language key and note, that all signs must be replaced by a **_**, for instance, add **__de_DE** for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
-    - *destination channel*   
-        Add **__ChannelKey** to include the destination channel to the variable. Replace **ChannelKey** by the corresponding channel key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the channel key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
+    - *destination scope*   
+        Add **__ChannelKey** to include the destination scope to the variable. Replace **ChannelKey** by the corresponding scope key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the scope key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
     > [Info] You can display all possible variables of a certain entity.    
     For detailed information, see [Display the possible variables](#display-the-possible-variables).
@@ -196,7 +196,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
     + Replace **"attributeKey"** between the quotes by the desired attribute key, for instance use **"pim_art_name"** for the PIM product name.
     
-    + Replace **"scopeKey"** between the quotes by the desired channel key, for instance use **"actindo_basic** for the *Actindo Basic* channel.
+    + Replace **"scopeKey"** between the quotes by the desired scope key, for instance use **"actindo_basic** for the *Actindo Basic* scope.
 
 3. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 

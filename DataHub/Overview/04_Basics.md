@@ -33,9 +33,9 @@ Nevertheless, the basic data types can be accessed in the following list, see [D
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
 Attributes can be *multi-language* and/or *multi-scope*, which means that they can store a value for any combination of language and scope.   
-Channels and languages can be created individually according to the custom needs, see [Manage the scopes](../Integration/04_ManageScopes.md) and [Manage the languages](../Integration/05_ManageLanguages.md).
+Scopes and languages can be created individually according to the custom needs, see [Manage the scopes](../Integration/04_ManageScopes.md) and [Manage the languages](../Integration/05_ManageLanguages.md).
 
-![Channels and languages](../../Assets/Screenshots/DataHub/Settings/ChannelLanguageList.png "[Channels and languages]")
+![Scopes and languages](../../Assets/Screenshots/DataHub/Settings/ChannelLanguageList.png "[Scopes and languages]")
 
 Attributes are collected in so-called *Attribute sets*. Each entity, which is the concrete instance of a particular entity type, has exactly one attribute set that defines the available attributes.
 An attribute set can only be used for a single entity type.   

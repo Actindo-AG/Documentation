@@ -103,8 +103,8 @@ Depending on the selection in the *Status filter* drop-down list, the ETL proces
 - *Destination language*   
     Destination language to which the process is mapped.
 
-- *Destination channel*   
-    Destination channel to which the process is mapped.
+- *Destination scope*   
+    Destination scope to which the process is mapped.
 
 - *Accepted on*   
     Date and time of the confirmation. This field is only displayed for ETL processes with the **Semiautomatic accepted** status.

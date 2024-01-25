@@ -10,19 +10,26 @@
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
+<details><summary>Click for further information on the screens described in this chapter</summary>
+
+For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
+general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
+Among others, see the following:
+
+- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
+- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
+- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
+- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
+
+</details>
+<BR>
+
 **Attribute set list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute set.
+The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attribute sets.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
@@ -33,7 +40,7 @@
 - [DELETE]   
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
 
-The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in the *Attribute set* list:
 
 - *Name*   
     Attribute set name.
@@ -91,10 +98,7 @@ The list displays all attribute sets. Depending on the settings, the displayed c
 
 **Create attribute set**
 
-The *Create attribute set* view contains all fields and configurations that define the properties of an attribute set.
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create attribute set* view and return to the attribute set list. All changes are rejected.
+The *Create attribute set* view contains all the fields and configurations that define the properties of an attribute set.
 
 - *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -143,25 +147,7 @@ The *Create attribute set* view contains all fields and configurations that defi
 
 **Assigned attributes**
 
-In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to add attributes. 
-
-- ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
-    Click this button to unlock the *Required* column in the attributes list. The color of the button switches to blue if the column is unlocked. Click the button again to lock the *Required* column. The button color switches back to gray.
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- [x]     
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
-
-  
-
+In the *Create attribute set* view, no attributes are displayed in the list. You have to save the attribute set to add attributes in the *Assigned attributes* section. For detailed information, see [Edit attribute set](#edit-attribute-set)
 
 
 ## Edit attribute set
@@ -173,9 +159,6 @@ In the *Create attribute set* view, no attributes are displayed in the list. You
 **Edit attribute set**
 
 The *Edit attribute set* view contains both all fields and configurations that define the properties of an attribute set and the assigned attributes. 
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit attribute set* view and return to the attribute set list. All changes are rejected.
 
 - *"Language name"*      
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -198,7 +181,7 @@ The *Edit attribute set* view contains both all fields and configurations that d
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - *Inherit/Copy values from*   
-    Click the drop-down list to select whether or not the values for the new attribute set should be inherited or copied from an existing attribute set. The following options are available:    
+    Click the drop-down list to select whether to inherit or  copy the values for the new attribute from an existing attribute set. The following options are available:    
     - **No inheritance**   
         The values are neither inherited nor copied from an existing attribute set. The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
     - **Attribute set name**   
@@ -218,20 +201,12 @@ The *Edit attribute set* view contains both all fields and configurations that d
 
 **Assigned attributes**
 
+The *Assigned attributes* section lists the attributes assigned to the selected attribute set.
+
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
     Click this button to unlock the *Required* column in the attributes list. The color of the button switches to green if the column is unlocked. Click the button again to lock the *Required* column. 
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -249,6 +224,7 @@ The *Edit attribute set* view contains both all fields and configurations that d
 
 The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
 
+The following functions and fields are available in this section:
 
 - *Name*   
     Attribute name.
@@ -299,7 +275,7 @@ The list displays all attributes assigned to the selected attribute set. Dependi
 - *Multi-scope*   
     Indication whether the attribute is multi-scope or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
 
 ### Edit attribute for set
@@ -310,14 +286,7 @@ The list displays all attributes assigned to the selected attribute set. Dependi
 
 **Edit attribute for set "Attribute set name"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit attribute for set "Attribute set name"* view and return to *Edit attribute set* view. All changes are rejected.
-
-- [CANCEL]   
-    Click this button to cancel editing the configuration. The *Edit attribute for set "Attribute set name"* view is closed.
-
-- [SAVE]   
-    Click this button to save the changes. The *Edit attribute for set "Attribute set name"* view is closed.
+This view enables you to change the configuration of an attribute related to the selected attribute set. The prerequisite is that the attribute has a configuration (*Configuration* field in the *Assigned attributes* section).
 
 **CONFIGURATION**
 
@@ -332,10 +301,8 @@ The *CONFIGURATION* section displays the additional configuration for the data t
 
 **Add mapping**
 
-This view equals the attribute mapping in the *DataHub* module: *DataHub > Settings > Tab ETL > Select attribute set mapping > Select mapping line*     
+This view equals the attribute mapping in the *DataHub* module: *DataHub > ETL > Mappings > Select attribute set mapping > Select mapping line*     
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit mapping* view and return to *Edit attribute set* view. All changes are rejected.
 
 - Destination attribute   
     The selected destination attribute is displayed in the arrow box on the right side of the view. This field is read-only.
@@ -343,8 +310,8 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
 - *Language*   
     Selected language of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-language.
 
-- *Channel*   
-    Selected channel of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-scope.
+- *Scope*   
+    Selected scope of the destination attribute. The drop-down list is read-only. This drop-down list is only displayed if the destination attribute is multi-scope.
 
 - *Extension*   
     Click the drop-down list and select the appropriate ETL extension for the attribute mapping. The displayed extensions depend on the data type of the selected destination attribute.      
@@ -367,4 +334,4 @@ This view equals the attribute mapping in the *DataHub* module: *DataHub > Setti
 
 **Configuration**
 
-The *Configuration* section displays the additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.
+The *Configuration* section displays additional configuration settings. The configuration fields differ depending on the data type of the source and/or destination attribute.
