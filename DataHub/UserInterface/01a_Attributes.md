@@ -10,7 +10,7 @@
 
 <details><summary>Click for further information on the screens described in this chapter</summary>
 
-For detailed information on the described user interfaces, refer to our Actindo Core1 Platform* documentation for 
+For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
 general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
 Among others, see the following:
 

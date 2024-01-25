@@ -6,7 +6,23 @@
 
 ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
-**Attribute groups**
+<details><summary>Click for further information on the screens described in this chapter</summary>
+
+For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
+general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
+Among others, see the following:
+
+- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
+- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
+- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
+- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
+
+</details>
+<BR>
+
+
+**Attribute groups**   
+This view displays both the attribute groups on the left side and the attributes assigned to a selected group on the right side. 
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
     Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed.   
@@ -20,17 +36,12 @@
 
 **Assigned attributes**
 
+The list displays all attributes assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only. If no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
+
 - ![Sort](../../Assets/Icons/Sort02.png "[Sort]") (Sort)   
-    Click this button to display the *Assigned Attributes (Sorting Mode)* view in the right side of the workspace. This button is only displayed if an attribute group is selected.
+    Click this button to display the *Assigned Attributes (Sorting Mode)* view on the right side of the workspace. This button is only displayed if an attribute group is selected.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute. The button is only displayed if an attribute group is selected.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of assigned attributes. The button is only displayed if an attribute group is selected.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -40,7 +51,7 @@
 
     > [Info] If you remove an attribute from the attribute group, the attribute itself is not deleted, but it is unassigned to the selected attribute group.  
 
-The list displays all attributes assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only. If no attribute is assigned to the selected attribute group, the notice *No attribute assigned. Use + button to assign one* is displayed.
+The following functions and fields are available in this section:
 
 - *Name*   
     Attribute name.
@@ -74,22 +85,14 @@ The list displays all attributes assigned to the selected attribute group. Depen
 
 **Add attributes to group "Attribute group name"**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to cancel adding an attribute to the selected attribute group. The *Add attributes to group "Attribute group name"* view is closed.
+The list displays all attributes that are not assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Only unassigned attributes*   
     Enable this toggle to display only the attributes that are not yet assigned to any attribute group. Disable the toggle to display all attributes. By default, this toggle is disabled.
 
     > [Info] An attribute can be assigned to one attribute group or sub-group only. When you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected. Alternatively, you can click directly a row in the list to select the attribute.
@@ -97,7 +100,7 @@ The list displays all attributes assigned to the selected attribute group. Depen
 - [ADD]   
     Click this button to add the selected attribute to the attribute group. The *Add attributes to attribute group* view is closed.
 
-The list displays all attributes that are not assigned to the selected attribute group. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Name*   
     Attribute name.
@@ -134,14 +137,6 @@ The list displays all attributes that are not assigned to the selected attribute
 
 **Edit attribute groups**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit attribute groups* view and return to the *Attribute groups* view. All changes are rejected.
-
-- [CANCEL]   
-    Click this button to cancel editing attribute groups. The *Edit attribute groups* view is closed.
-
-- [SAVE]   
-    Click this button to save all changes. The *Edit attribute groups* view is closed.
 
 - ![Sort](../../Assets/Icons/Sort01.png "[Sort]") (Sort)   
     Click and hold this button to move the selected attribute group to another position in the list using drag and drop.

@@ -7,19 +7,26 @@
 
 ![Deleted attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
 
+<details><summary>Click for further information on the screens described in this chapter</summary>
+
+For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
+general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
+Among others, see the following:
+
+- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
+- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
+- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
+- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
+
+</details>
+<BR>
+
+
 **Deleted attributes list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a deleted attribute.
+The list displays all attributes that have been deleted. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of deleted attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute and display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -30,7 +37,7 @@
 - [DELETE]   
     Click this button to irretrievably delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
 
-The list displays all attributes that have been deleted. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Name*   
     Attribute name.
