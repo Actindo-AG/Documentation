@@ -2,7 +2,7 @@
 
 *Warehousing > Settings*
 
-The *Settings* menu entry allows you check the posting history for individual materials or filter all stock posting according to different criteria, such as posting type, storage location or date range.
+The *Settings* menu entry allows you to create warehouse groups and warehouses, and to configure the stock allocation and the stock withdrawal matrix.
 
 It contains the [WAREHOUSE](./03a_Warehouse.md) tab.
 

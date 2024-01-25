@@ -148,12 +148,12 @@ You can check the stocks for a selected material in real time.
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
 3. Check the stocks for the selected material in the *Stocks* section. You can check the following stock values per warehouse and in total:
-    - *Stock*: actual, physical units in stock
+    - *Stock*: actual units in stock
     - *Reserved*: reserved units for open customer orders 
-    - *Available in stock*: actual physical units minus reserved units 
+    - *Available in stock*: actual units minus reserved units 
     - *Ordered*: ordered units for restocking purposes
-    - *Available*: actual, physical units in stock plus ordered units 
-    - *Pre-reserved*: pre-reserved units for orders placed in the customer shopping cart (if this option is supported and configured in the shop)  
+    - *Available*: actual units in stock plus ordered units 
+    - *Pre-reserved*: pre-reserved units for products placed in the customer shopping cart (if this option is supported and configured in the shop)  
 
     > [Info] The stock values displayed are updated in real time, that is, immediately after a posting has been made. 
 

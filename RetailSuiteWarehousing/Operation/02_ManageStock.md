@@ -54,17 +54,17 @@ The warehouse logistics has been activated for the selected material, see [Activ
 5. Click the *Posting type* drop-down list and select the desired posting type. Depending on the option you select, the fields displayed below may vary. The following options are available:
 
     - **Reservation**   
-        Select this option if you want to reserve a material for an open order. This posting type does not reduce the actual, physical stock in the warehouse, but does affect the available stock calculation. A reservation can therefore result in a negative stock level.
+        Select this option if you want to reserve a material for an open order. This posting type does not reduce the actual physical stock in the warehouse, but does affect the available stock calculation. A reservation can therefore result in a negative stock level.
 
     - **Sale**  
-        Select this option if the ordered material has left the warehouse. This posting type reduces the actual, physical stock in the warehouse.  
+        Select this option if the ordered material has left the warehouse. This posting type reduces the actual physical stock in the warehouse.  
         The *Customer name* and *Sale price net* fields are additionally displayed.
 
     - **Order**   
-        Select this option if you have ordered additional materials from a supplier for restocking purposes. This posting type does not increase the actual, physical stock in the warehouse but does affect the available stock calculation.
+        Select this option if you have ordered additional materials from a supplier for restocking purposes. This posting type does not increase the actual physical stock in the warehouse but does affect the available stock calculation.
 
     - **Purchase**  
-        Select this option if you want to add purchased and received materials in the warehouse. This posting type increases the actual, physical stock in the warehouse.    
+        Select this option if you want to add purchased and received materials in the warehouse. This posting type increases the actual physical stock in the warehouse.    
         The *Supplier* and *Purchase price net* fields are additionally displayed.
 
     - **Stock adjustment posting**  

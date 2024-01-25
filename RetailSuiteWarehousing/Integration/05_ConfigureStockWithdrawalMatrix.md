@@ -44,7 +44,7 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
 
     > [Info] This function is no longer supported. Therefore, it is not described in this documentation.
 
-4. Double-click the field in the *Sales channel* column and select the applicable output channel via which you want to create offers. The following options are available: 
+4. Double-click the field in the *Sales channel* column and select the applicable channel where the order originates. The following options are available: 
 
     - **All**  
         Select this option for all sales channels.

@@ -6,49 +6,32 @@
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
-The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. Since all stock postings ever performed are stored in the system, a huge number of entries is available. Therefore, to reduce system overload and improve performance, no posting is displayed before setting a filter.
+The *Posting history* tab allows you to check the stock postings for a specific material and to filter all stock postings according to different criteria. Since all stock postings ever performed are stored in the system, a huge number of entries is available. To reduce system overload and improve performance, no posting is displayed before setting a filter.
 
-The list displayed when filtering by product is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry, see [Check the posting history for a material](../Operation/03_CheckPostingHistory.md#check-the-posting-history-for-a-material). 
+The list displayed when filtering by product is similar to the one displayed in the *Stock history* sub-tab of the *Warehouse/suppliers* tab in the *Quick posting* menu entry. 
 
-
-[comment]: <> (For detailed information on general UI functions, see... -> Link to Core1 UI)
+The following filters are available:
 
 - *Product*  
     Enter the product SKU or name to search for the stock posting for a specific material. 
 
 - *Posting type*  
     Click the drop-down list and select the posting type you would like to display. The following options are available: 
-    
-    - **Reservation**  
-        Select this option if you want to display only the stock postings for open orders. This posting type does not reduce the actual, physical stock in the warehouse, but does affect the available stock calculation. A reservation can therefore result in a negative stock level.
-
+    - **Manual posting**
+    - **Reservation**   
+    - **Waiting for picking**
     - **Sale**  
-        Select this option if you want to display only the stock postings for ordered materials that have left the warehouse. This posting type reduces the actual, physical stock in the warehouse.  
-
     - **Order**   
-        Select this option if you want to display only the stock postings for ordered additional materials from a supplier for restocking purposes. This posting type does not increase the actual, physical stock in the warehouse but does affect the available stock calculation.
-
     - **Purchase**  
-        Select this option if you want to display only the stock postings for purchased materials that have been received in the warehouse. This posting type increases the actual, physical stock in the warehouse.    
-        
+    - **Back to supplier**
     - **Stock adjustment posting**  
-        Select this option to display the stock adjustment postings after stocktaking.   
-        
     - **Stock transfer**  
-        Select this option if you want to display only the stock postings for materials redistributed from a source storage shelf to a destination storage shelf. This posting type affects the actual stock in both storage shelves.    
-        
     - **Return**  
-        Select this option if you want to display only the stock postings of returned materials. This posting type affects the actual stock in the respective storage shelf. 
-
+    - **Drop shipment** 
     - **Problem**  
-        Select this option if you want to display the stock postings for materials that cannot be sold for any reason, for instance due to a defect. This posting type affects the actual stock in the respective storage shelf. 
-
     - **Pre-reservation**  
-        Select this option if you want to display stock postings for material reserved for orders that have not been received in the system yet, that is, with no business document assigned. This can be the case, for example, when a customer places a product in the shopping cart. This posting type does not affect the actual nor the available stock in the warehouse. 
 
-        > [Info] To be able to use pre-reservation postings in the system, your shop must support this function.  
-
-[comment]: <> (Vgl. Manual posting in 02_ManageStock.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
+    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
 
 - *Warehouse*  
     Click the drop-down list and select the desired warehouse. All warehouses available are displayed in the list.
@@ -63,9 +46,11 @@ The list displayed when filtering by product is similar to the one displayed in 
     Click this button to display the posting history according to the filter criteria.
 
 
+**Results list**
+
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/CombinedFilterPostingHistory.png "[Posting history]")
 
-The results list displays all posting according to the selected criteria, including the following details:
+The list displays all posting according to the selected criteria. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Date*  
     Posting date.
@@ -74,10 +59,10 @@ The results list displays all posting according to the selected criteria, includ
     Type of posting.
 
 - *Customer no.*  
-    Customer or supplier number.
+    Customer or supplier number. This detail is only displayed in case of automatic postings. 
 
 - *Customer name*  
-    Customer or supplier name.
+    Customer or supplier name. This detail is only displayed in case of automatic postings. 
 
 - *Document no.*  
     Business document number. This detail is only displayed in case of automatic postings. 
@@ -86,12 +71,10 @@ The results list displays all posting according to the selected criteria, includ
     Product SKU.
 
 - *Product name*  
-    Product name.
+    Product description.
 
 - *Quantity*  
-    Number of units posted. 
-
-[comment]: <> (Vorzeichen erklären)
+    Number of units posted. The signs are reserved with regards to the *Movement* column.
 
 - *Unit price*  
     Price per unit for the material posted.
@@ -103,10 +86,10 @@ The results list displays all posting according to the selected criteria, includ
     Warehouse ID and name.
 
 - *Storage shelf*   
-    Storage shelf number.
+    Storage shelf number. This detail is only displayed when an actual change in the physical stock has occurred, for example, in case of a sale posting. 
 
 - *Movement*  
-    Units added or reduced (minus sign).
+    Units added (no sign) or reduced (minus sign).
 
 - *Stock*  
     Actual physical number of units stored.

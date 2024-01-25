@@ -39,11 +39,11 @@ No prerequisites to fulfill.
 
 5. Click the *Products per shelf* drop-down list and select the **Different products per storage shelf** option.  
         
-[comment]: <> (One product per storage shelf ignorieren; aktuell bei keinem Kunden benutzt und und Probleme beim Anlegen der Lagerfächer. Warehouse planning Warehouse planing can be ignored, as it is no longer developed and has no effect.)
+[comment]: <> (One product per storage shelf ignorieren; aktuell bei keinem Kunden benutzt und und Probleme beim Anlegen der Lagerfächer. Warehouse planning can be ignored, as it is no longer developed and has no effect.)
 
 6. Click the *Exclude from ordering* drop-down list and select **No** to deactivate the purchasing process.
 
-    > [Info] The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount available in this warehouse will not be part of the calculation, that is, it will be ignored by the system.
+    > [Info] The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount stored in this warehouse will not be part of the calculation, that is, it will be ignored by the system.
 
 7. If desired, enter any comments in the *Comment* field.
 
