@@ -172,12 +172,6 @@ The *Edit attribute* view contains all fields and configurations that define the
 - [Attribute set assignments](#edit-attribute-–-attribute-set-assignments)
 
 
-<BR>
-
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit attribute* view and return to the attributes list. All changes are rejected.
-
 - *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
     - **English (United States)**
@@ -192,6 +186,7 @@ The *Edit attribute* view contains all fields and configurations that define the
 *DataHub > Data model > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Edit attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
+<BR>
 
 **Edit attribute**
 

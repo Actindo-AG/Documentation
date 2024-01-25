@@ -10,16 +10,26 @@
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
+<details><summary>Click for further information on the screens described in this chapter</summary>
+
+For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
+general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
+Among others, see the following:
+
+- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
+- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
+- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
+- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
+
+</details>
+<BR>
+
+
 **Attribute set mappings**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute set.
+The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attribute set mappings.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
@@ -27,7 +37,8 @@
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected attribute set mapping. This button is only displayed if the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
 
-The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
+
 
 - *Source attribute set*   
     Name of the attribute set from which the mapping is run.
