@@ -10,20 +10,6 @@
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
-<details><summary>Click for further information on the screens described in this chapter</summary>
-
-For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
-general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
-Among others, see the following:
-
-- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
-- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
-- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
-- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
-
-</details>
-<BR>
-
 **Attribute set list**
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -92,7 +78,7 @@ The following functions and fields are available in the *Attribute set* list:
 
 ## Create attribute set
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model >  > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
@@ -201,7 +187,7 @@ The *Edit attribute set* view contains both all fields and configurations that d
 
 **Assigned attributes**
 
-The *Assigned attributes* section lists the attributes assigned to the selected attribute set.
+The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.  
 
 - ![Settings](../../Assets/Icons/Settings01.png "[Settings]") (Settings)   
     Click this button to unlock the *Required* column in the attributes list. The color of the button switches to green if the column is unlocked. Click the button again to lock the *Required* column. 
@@ -221,8 +207,6 @@ The following functions are available for the editing toolbar:
 
 - [ADD MAPPING]   
     Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
-
-The list displays all attributes assigned to the selected attribute set. Depending on the settings, the displayed columns may vary.   
 
 The following functions and fields are available in this section:
 
@@ -280,7 +264,7 @@ The following functions and fields are available in this section:
 
 ### Edit attribute for set
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
+*DataHub > Data model >  > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
 ![Edit attribute for set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
@@ -295,7 +279,7 @@ The *CONFIGURATION* section displays the additional configuration for the data t
 
 ### Add mapping
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
+*DataHub > Data model >  > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
 
 ![Add mapping](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AddMapping.png "[Add mapping]")
 

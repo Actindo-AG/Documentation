@@ -20,7 +20,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
@@ -82,7 +82,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
@@ -118,7 +118,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
@@ -152,7 +152,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 

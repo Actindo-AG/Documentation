@@ -8,17 +8,9 @@
 
 **Scope list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a scope.
+The list displays all scopes. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of scopes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all scopes in the list are selected.
@@ -29,7 +21,7 @@
 - [DELETE]   
     Click this button to delete the selected scope. This button is only displayed if the checkbox of at least one scope is selected.       
 
-The list displays all scopes. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Name*   
     Scope name.
@@ -81,8 +73,7 @@ The list displays all scopes. Depending on the settings, the displayed columns m
 
 The *Create scope* view is used to add a new scope in all needed languages.  
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create scope* view and return to the scope list. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -119,9 +110,7 @@ The *Create scope* view is used to add a new scope in all needed languages.
 
 The *Edit scope* view is used to change a scope in all needed languages. 
 
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit scope* view and return to the scope list. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:

@@ -10,21 +10,6 @@
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
-<details><summary>Click for further information on the screens described in this chapter</summary>
-
-For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
-general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
-Among others, see the following:
-
-- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
-- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
-- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
-- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
-
-</details>
-<BR>
-
-
 **Attribute set mappings**
 
 The list displays all attribute set mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
@@ -103,32 +88,21 @@ The following functions and fields are available in this view:
 
 ## Mapping
 
-*DataHub > Settings > Tab ETL > Select attribute set mapping*
+*DataHub > ETL >  > Tab Mappings > Select attribute set mapping*
 
 ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Mapping from "Source attribute set name" to "Destination attribute set name"* view and return to the list of attribute set mappings. All changes are rejected.
 
 - [RERUN MAPPINGS]   
     Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed. 
 
 **Mapping from "Source attribute set name" to "Destination attribute set name"**
+ 
+ This view displays the attribute set mappings on the left side of the view. 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Hide inactive destination attributes*   
     Enable this toggle to hide all inactive destination attributes in the list of attribute mappings. Disable the toggle to display all destination attributes independently on their status. By default, this toggle is disabled.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attribute mappings.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
@@ -148,7 +122,7 @@ The following functions and fields are available in this view:
 - [CUSTOM DESTINATION ATTRIBUTE SCOPE AND LANGUAGE]    
     Click this button to define a custom scope and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or scope. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-scope.   
 
-The list displays all attribute mappings. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available on the left side of the view:
 
 - *Source attribute*   
     Name of the source attribute which is mapped to the destination attribute. The source attribute is only displayed if a mapping to the destination attribute exists.
@@ -172,7 +146,10 @@ The list displays all attribute mappings. Depending on the settings, the display
 The *Settings* section on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view is only displayed if you edit an attribute mapping.   
 Depending on the selected row in the list of mappings, the fields displayed in the *Settings* section differ:   
 - If the selected row contains only a destination attribute, the destination attribute as well as the *Extension* and *Override change tracking mode* drop-down lists are displayed.   
-- If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset. If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
+- If the selected row contains an attribute mapping with source, destination attribute and the extension, the destination attribute as well as the *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are displayed. The *Source attribute*, *Extension* and *Override change tracking mode* drop-down lists are preset.    
+- If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.   
+
+The following functions and fields are available in the *Settings* section:
 
 - [SAVE]   
     Click this button to save any changes to the attribute mapping. The *Settings* section is hidden.
@@ -222,7 +199,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun single mapping
 
-*DataHub > Settings > Tab ETL > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
+*DataHub > ETL >  > Tab Mappings > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
 
 ![Rerun sinlge mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 

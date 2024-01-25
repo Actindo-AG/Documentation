@@ -4,23 +4,9 @@
 
 # Attributes
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model >  > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
-
-<details><summary>Click for further information on the screens described in this chapter</summary>
-
-For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
-general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
-Among others, see the following:
-
-- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
-- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
-- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
-- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
-
-</details>   
-<BR>
 
 **Attribute list**   
 
@@ -102,7 +88,7 @@ The following functions and fields are available in this view:
 
 ## Create attribute
 
-*DataHub > Settings > Tab ATTRIBUTES > Button Add*
+*DataHub > Data model >  > Tab ATTRIBUTES > Button Add*
 
 ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
@@ -161,7 +147,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 ## Edit attribute
 
-*DataHub > Settings > Tab ATTRIBUTES > Select attribute > Tab Data*
+*DataHub > Data model >  > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Edit attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
 

@@ -23,7 +23,7 @@ Additional attributes for the attribute group have been created, see [Create an 
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -77,7 +77,7 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -132,7 +132,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -165,7 +165,7 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -203,7 +203,7 @@ If you add an attribute to an attribute group that is already added to another g
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -245,7 +245,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -285,7 +285,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 

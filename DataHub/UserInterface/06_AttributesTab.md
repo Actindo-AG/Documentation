@@ -6,6 +6,8 @@
 
 ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
 
+This tab is not part of the *DataHub* module, but it is used in many other *Core1 Platform* modules that refer to information coming from the *DataHub* module.
+
 **Attributes**  
 
 The list displays all attributes that define the selected entity. Depending on the entity, you can also edit attributes. For example, you can edit long texts, dates, units, and assign images for a product.     

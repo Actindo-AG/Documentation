@@ -28,7 +28,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
@@ -68,7 +68,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -96,7 +96,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -126,7 +126,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -164,7 +164,7 @@ In the *DataHub* module all available attributes can be added to the different a
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -201,7 +201,7 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -240,7 +240,7 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -276,7 +276,7 @@ At least one attribute set has been created, see [Create an attribute set](#crea
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 

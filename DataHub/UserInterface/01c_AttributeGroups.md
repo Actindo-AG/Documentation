@@ -6,19 +6,7 @@
 
 ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
-<details><summary>Click for further information on the screens described in this chapter</summary>
-
-For detailed information on the described user interfaces, refer to our *Actindo Core1 Platform* documentation for 
-general features and functions, standard buttons, UI elements, and how to use the Actindo documentation. 
-Among others, see the following:
-
-- [Use general user interface functions](../../Core1Platform/UsingCore1/04GeneralUIFunctions.md)
-- [Standard buttons and functions](../../Core1Platform/UserInterface/04_Buttons.md)
-- [Work with lists](../../Core1Platform/UsingCore1/05_WorkWithLists.md)
-- [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md)
-
-</details>
-<BR>
+<
 
 
 **Attribute groups**   
