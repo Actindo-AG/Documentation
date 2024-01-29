@@ -14,7 +14,6 @@ The *Workflows* module offers the following benefits:
 - Define specific business rules for any process or scenario
 
 
-## Prerequisites
+## Further information
 
-- The *Settings* module version 1.1.3 or higher is installed.
-- The *UI Components* plugin version 1.0.0 or higher is installed.
+Refer to our [Actindo Core1 Platform](../../Core1Platform/BasicPhilosophy/01_General.md) documentation for information on general features and functions, standard buttons, UI elements, and how to use the Actindo documentation.
