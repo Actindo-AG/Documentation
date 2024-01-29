@@ -6,7 +6,7 @@
 
 A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
 
-Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/03_CheckPostingHistory.md).
+Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
@@ -183,4 +183,4 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 2. Click the [DELETE] button.   
     The warehouse group is deleted and is no longer displayed in the list of warehouses.
     
-    > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be deleted. A window with the following error message is displayed: *Error while deleting: There are warehouses in this warehouse group.* In this case, you have to delete the warehouses included in the warehouse group first, see [Delete a warehouse](#delete-a-warehouse).
+    > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be deleted. A window with the following error message is displayed: *Error while deleting: There are warehouses in this warehouse group.* In this case, you have to delete the warehouses included in the warehouse group first, see [Delete a warehouse](./02_ConfigureWarehouses.md#delete-a-warehouse).

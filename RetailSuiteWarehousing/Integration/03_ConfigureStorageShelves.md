@@ -12,7 +12,7 @@ Each material can be stored in several storage shelves and different warehouses,
 
 The first storage shelf that is created for a material is automatically set as primary. You can subsequently create another storage shelf and set it as primary by clicking the *is primary storage* checkbox. 
 
-Storage shelves can be created, edited, and delete. Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check posting history](../Operation/03_CheckPostingHistory.md).
+Storage shelves can be created, edited, and delete. Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
@@ -106,15 +106,13 @@ Bear in mind, though, that you cannot delete a storage shelf where postings have
 
 #### Prerequisites
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Select a material > Tab Warehouse/suppliers > Sub-tab Warehouse management*
-
-![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
-
-#### Prerequisites
-
 A storage shelf has been created, see [Create a storage shelf](#create-a-storage-shelf).
 
 #### Procedure
+
+*Warehousing > Quick posting > Tab QUICK POSTING > Select a material > Tab Warehouse/suppliers > Sub-tab Warehouse management*
+
+![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
 1. Select the storage shelf you want to delete from the list in the *Storage locations* section.  
     The *Edit* section is displayed.

@@ -82,7 +82,7 @@ You can check the stock allocation for a selected material from the product list
 
     - Select a product from the list in the *Quick posting*
     - Select the *Warehouse/Suppliers* tab and the *Warehouse management* sub-tab
-    - Click the [DISPLAY STOCK ALLOCATION]
+    - Click the [DISPLAY STOCK ALLOCATION] button at the bottom
 
 [comment]: <> (Evtl. als kürzere info woanders?) 
    
@@ -93,7 +93,7 @@ You can set any storage shelf as primary for a selected material to determine fr
 
 #### Prerequisites
 
-- The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
+The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
 
 #### Procedure
 
@@ -129,7 +129,7 @@ You can check the stocks for a selected material in real time.
 
 #### Prerequisites
 
-- The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
+The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](#activate-the-warehouse-logistics-for-a-product).
 
 #### Procedure
 
@@ -163,7 +163,7 @@ You can check the stocks for a selected material in real time.
 
 You can check all stock postings that have been created for a selected material. Stock postings can be done automatically, that is, by the system, and manually by the user. If the business document number and customer/supplier details are provided in the corresponding columns, the stock posting is automatic. If this information is not displayed, the stock posting is a manual one.
 
-The list displayed in this tab is similar to the one you obtain when checking the posting history for a material in the *Posting history* menu entry, see [Check posting history for a material](./03_CheckPostingHistory.md#check-the-posting-history-for-a-material).
+The list displayed in this tab is similar to the one you obtain when checking the posting history for a material in the *Posting history* menu entry, see [Check the posting history for a material](./03_CheckPostingHistory.md#check-the-posting-history-for-a-material).
 
 #### Prerequisites
 

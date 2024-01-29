@@ -10,7 +10,7 @@
 
 ![Warehouse](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse]")
 
-The *WAREHOUSE* tab contains three sub-tabs with different functions:
+The *WAREHOUSE* tab contains in turn three tabs with different functions:
 
 - *Warehouse master data*, see [Warehouse master data](#warehouse-master-data)  
     In this tab, you can see a list of all warehouses available, organized in warehouse groups. You can also create, edit, and delete warehouses and warehouse groups. For detailed information on how to configure warehouses and warehouse groups, see [Configure the warehouses](../Integration/02_ConfigureWarehouses.md) and [Configure the warehouse groups](../Integration/01_ConfigureWarehouseGroups.md).   
