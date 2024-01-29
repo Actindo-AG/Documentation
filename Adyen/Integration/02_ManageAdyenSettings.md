@@ -22,8 +22,8 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 
 ![Webhook configuration in Adyen](../../Assets/Screenshots/Adyen/Integration/AdyenWebhooks.png)
 
-1. Add a new standard webhook.
-    A new standard webhook is added.
+1. Add a new standard webhook.   
+    The settings for the standard webhook are displayed.
 
    ![Create webhook in Adyen](../../Assets/Screenshots/Adyen/Integration/AdyenCreateWebhook.png)
 
@@ -41,14 +41,14 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
         - *Encryption protocol*     
            You can use the standard setting **TLSv1.3** if you have no other requirements
 
-        - *Service version*
+        - *Service version*   
             You can use the standard setting **1** if you have no other requirements.
             
           ![Define server configuration](../../Assets/Screenshots/Adyen/Integration/AdyenCreateWebhookServerConfig.png).
 
 3. Click the [Apply] button and proceed with the following fields in the *General* section.
 
-    - *Merchant account*   
+    - *Merchant accounts*   
         Enter the merchant account(s) you want to connect.
     - *Events*   
         Select all events you want to transfer to the *Payments* module. All listed events can be handled by Actindo. You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
