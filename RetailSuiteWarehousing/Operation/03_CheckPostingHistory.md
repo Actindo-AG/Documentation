@@ -1,7 +1,7 @@
 [!!Manage the stock](./02_ManageStock.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 
-# Check posting history
+# Check the posting history
 
 You can check all stock postings that have been performed in the *Warehousing* module. Stock postings can be done automatically, that is, by the system, and manually by the user. If the business document number and customer/supplier details are provided in the corresponding columns, the stock posting is automatic. If this information is not displayed, the stock posting is a manual one. 
 

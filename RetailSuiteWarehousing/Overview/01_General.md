@@ -15,20 +15,21 @@ The *Warehousing* module offers the following benefits:
 - Centralized control and management of stock movements and levels
 - Seamless documentation of all stock movements from materials receipt to sale 
 - Fully customizable matrix for a flexible allocation of stocks by target channel 
-- Stock withdrawal matrix to automate the storage location selection for material withdrawal based on customer-defined criteria 
+- Stock withdrawal matrix for an automatic storage location selection based on customer-defined criteria 
 - Real-time update and analysis of sales and stock data
 
 ## Prerequisites
 
 The following module version or higher are installed:
-- Order Management 2.11.0  
+- *Warehousing* 2.1.0  
+- *Order Management* 2.11.0  
 
 Additionally, the following plugins must be installed:
 - *Warehouse groups*
 - *Calculation of the range of storage and ordering by range of storage* 
 - *Warehouse planning*  
 
-[comment]: <> (Prerequisites schon weg, oder erst in 2. Version. Plugins-Info in Integration/Warehouse group file)
+[comment]: <> (Prerequisites schon weg, oder erst in 2. Version. Plugins-Info in Integration/Warehouse group file?)
 
 ## Further information
 
