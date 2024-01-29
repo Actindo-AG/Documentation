@@ -11,7 +11,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 *Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Credentials*
 
-![Edit Adyen credentials](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
+![Edit Adyen credentials](../../Assets/Screenshots/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
 
 - *Driver*  
     Selected driver name. This drop-down list is read-only.
@@ -59,7 +59,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 *Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
 
-![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
+![Edit Adyen settings](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
 
 The *Settings* tab is composed of the following setting entries:
 - [Ignored event codes](#ignored-event-codes)
@@ -70,7 +70,7 @@ The *Settings* tab is composed of the following setting entries:
 
 *Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
 
-![Edit Adyen settings](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
+![Edit Adyen settings](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
 
 - [SAVE]  
   Click this button to save any changes made.
@@ -93,7 +93,7 @@ The *Settings* tab is composed of the following setting entries:
 
 *Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings > Select Number of workers handling messages*
 
-![Number of workers](../../Assets/Screenshots/Payments/Settings/PaymentServiceProviders/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
+![Number of workers](../../Assets/Screenshots/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
 - *Number of workers handling messages*   
    Enter the number of parallel processes with which the Adyen transactions are to be transferred. 
