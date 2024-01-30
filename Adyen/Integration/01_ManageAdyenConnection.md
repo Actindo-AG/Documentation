@@ -12,7 +12,7 @@ Create a connection to the Adyen payment service provider.
 #### Prerequisites
 
 - You have an Adyen customer account to log in to Adyen.
-- You have your Adyen credentials at hand.
+- In case you are editing a connection to an Adyen live account, you have your Adyen credentials for both the *Checkout API endpoint* and the *Payment API endpoint* at hand. <!--oder kann man den auch automtisch generieren?-->
 - In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
 
 #### Procedure
