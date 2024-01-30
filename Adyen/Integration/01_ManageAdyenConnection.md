@@ -83,18 +83,21 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 ## Configure Adyen connection
 
-Configure the Adyen connection after you have created it.
+Configure the Adyen connection after you have created it. It is recommended that you manage the Adyen settings in parallel, see [Manage Adyen settings](./02_ManageAdyenSettings.md).
 
 In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that Adyen sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the Adyen settings. 
 
 In addition, you can configure the number of workers to process messages in asynchronous processing. The Adyen API has two endpoints, one for a synchronous and one for an asynchronous processing. 
-- At synchronous processing, Adyen creates a connection for each event that occurs. It has the advantage that Adyen is informed directly if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
-- In asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be sent with parallel jobs. Here you can define the number of workers that will process the jobs in parallel.
+- At synchronous processing, Adyen creates a connection for each event that occurs. This has the advantage that Adyen is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
+- In asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be sent with parallel jobs. Here you can define the number of workers that will process the jobs in parallel.   
+
+For detailed information, see [Define synchronous or asynchronous processing](./02_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
+
 
 #### Prerequisites
 
 - In the *Actindo Core1 Platform*, you are permitted to create connections in *Payments*.
-- An Adyen connection has been created.
+- You are logged in to your Adyen account.
 
 #### Procedure
 

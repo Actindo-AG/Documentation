@@ -13,6 +13,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 
 - You have a valid user account in Adyen.
 - You are assigned to the **Merchant technical integrator** role in Adyen.
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*
 
 
 #### Procedure
@@ -32,7 +33,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
     - *Server configuration section*   
          - *URL*   
            Enter the server URL of the Actindo productive system or sandbox you want to connect.    
-           For example: https://kundenaccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
+           For example: https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
       
          - *Method*   
             You can use the standard setting **JSON** if you have no other requirements.
@@ -50,7 +51,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
     - *Merchant accounts*   
         Enter the merchant account(s) you want to connect.
     - *Events*   
-        Select all events you want to transfer to the *Payments* module. All listed events can be handled by Actindo. You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
+        Select all the events whose messages you want to transfer to the *Payments* module. All listed events can be handled by Actindo. You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
 
 3. Enter the following settings in the *Security* section.
 
@@ -98,9 +99,9 @@ Define whether you want to transfer the payment data using synchronous or an asy
     ![Define server configuration](../../Assets/Screenshots/Adyen/Integration/AdyenChangeWebhookServerConguration.png).
 
 3. Configure the server URL as follows:
-     - If you want to process the messages asynchronously, add an **Asynch** to the address. For example: https://kundenaccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync
+     - If you want to process the messages asynchronously, add an **Asynch** to the address. For example: https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync
 
-    - If you want to process the messages synchronously, add a **2** to the address. For example: https://kundenaccount.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notification2.
+    - If you want to process the messages synchronously, add a **2** to the address. For example: https://customeraccount.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notification2.
 
 4. Click the [Apply] button.   
     The synchronous or asynchronous processing has been defined.
@@ -120,7 +121,7 @@ When you switch to your live environment, you must generate another web service 
 - You have a valid user account in Adyen.
 - You are assigned to both the user roles *Merchant admin role* and
 *Manage API credentials*
-- You are logged in to your Actindo backend.
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*
 
 #### Procedure
 
@@ -128,17 +129,20 @@ When you switch to your live environment, you must generate another web service 
 
 ![API credentials](../../Assets/Screenshots/Adyen/Integration/AdyenAPICredentialspng.png)
 
-1. Click the *Create new credentials* section.   
-   The *Create API credential* window is displayed.
+1. Click the *Create new credentials* button.   
+   The *Create API credential* window is displayed. The *Web service user* credential type is selected by default. The username was automatically created by the system.
    
    ![Create API credential](../../Assets/Screenshots/Adyen/Integration/AdyenCreateAPIcredential.png)
 
-2. Select the *Web service user* credential type.   
-   The username is automatically created by the system.
+2. Copy the username.
+
+3. Change to your Actindo instance. Enter the username in the *Payment user* field.
+ 
+     ![Payment user](../../Assets/Screenshots/Adyen/Integration/AdyenWebServiceUser.png)
 
 3. Enter a description for the web service user in the *Description* field.
 
-4. Click the [Create credential] button.
+4. Click the [Create credential] button.   
     The *Configure API credential* view is displayed. The API key tab is displayed by default.
 
 **Generate web service API key**
@@ -148,6 +152,8 @@ When you switch to your live environment, you must generate another web service 
 2. Click the [Generate API key] button and copy it.
 
 3. Change to your Actindo instance and insert the API key in the *Checkout API key* field. For detailed information, see [Configure Adyen connection](01_ManageAdyenConnection.md#configure-adyen-connection).
+
+    ![Checkout API key](../../Assets/Screenshots/Adyen/Integration/AdyenCheckoutAPIkey.png)
 
 **Generate web service password**
 
@@ -159,7 +165,10 @@ When you switch to your live environment, you must generate another web service 
 
 4. Change to your Actindo instance and insert the password in the *Payment password* field.
 
-5. Click the [Save changes] button.
+    ![Payment password](../../Assets/Screenshots/Adyen/Integration/AdyenPaymentPassword.png)
+
+
+5. Return to Adyen and click the [Save changes] button.
 
 
 
@@ -174,8 +183,8 @@ When you switch to your live environment, you must generate another report servi
 
 - You have a valid user account in Adyen.
 - You are assigned to both the user roles *Merchant admin role* and
-*Manage API credentials*
-- You are logged in to your Actindo backend.
+*Manage API credentials*.
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*
 
 #### Procedure
 
@@ -194,29 +203,35 @@ When you switch to your live environment, you must generate another report servi
 
        ![Create report service credential](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png)
 
-3. Enter a description for the report service user in the *Description* field.
+3. Copy the username.
 
-4. Click the [Create credential] button.
-    The *Configure API credential* view is displayed. The API key tab is displayed by default.
+4. Change to your Actindo instance and paste the report username in the *Report user* field.
+  
+   ![Report username](../../Assets/Screenshots/Adyen/Integration/AdyenReportUser.png)
+
+4. Return to your Adyen account. 
+
+5. Enter a description for the report service user in the *Description* field.
+
+6. Click the [Create credential] button.   
+    The *Configure API credential* view is displayed. The *API key* tab is displayed by default.
 
 **Generate report service API key**
 
 1. Click the *API key* tab in the *Sever settings > Authentication* section. 
 
-2. Click the [Generate API key] button and copy it.
-<!---muss man das machen?-->
+2. Click the [Generate API key] button.
 
-<!---3. Change to your Actindo instance and insert the API key in the *Checkout API key* field. For detailed information, see [Configure Adyen connection](01_ManageAdyenConnection.md#configure-adyen-connection).-->
 
 **Generate report service password**
 
-1. Change to your Adyen account.
+1. Click the *Basic auth* tab in the *Server settings > Authentication* section.
 
-2. Click the *Basic auth* tab.
-
-3. Click the [Generate password] button and copy it.
+2. Click the [Generate password] button and the [Copy] button.
 
 4. Change to your Actindo instance and insert the password in the *Report password* field. For detailed information, see [Configure Adyen connection](01_ManageAdyenConnection.md#configure-adyen-connection)
+
+   ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenReportServicePassword.png)
 
 5. Return to your Adyen account and click the [Save changes] button.
 
