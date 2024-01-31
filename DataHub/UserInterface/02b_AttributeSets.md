@@ -11,6 +11,7 @@
 
 **Attribute set list**
 
+>DELETE
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to display the search bar and search for an attribute set.
 
@@ -30,7 +31,9 @@
     Click this button to edit the selected attribute set. This button is only displayed if a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
 
 - [DELETE]   
-    Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
+    Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.    
+
+>END OF DELETE  
 
 The list displays all attribute sets. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
