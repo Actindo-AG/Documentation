@@ -47,7 +47,7 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 
 The process action status can be checked to monitor which actions have already been executed, if problems have occurred and at what place.   
 
-The *Process ID* view displays a diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.   
+The *Process ID* view displays a diagram of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time. 
 
 Further details about the process actions included in the diagram as well as about the logs and tokens are displayed in separate tabs at the bottom of the *Process ID* view.
 

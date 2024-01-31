@@ -10,34 +10,12 @@
 
 **Processes**
 
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+The list displays all processes that are matching the selected values (status and workflow type). Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
 
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
+The following fields and function are available on top of the list:
 
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
+- ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") (Manual processes)   
+   Enable this toggle to display the manual processes only. Disable this toggle to display all processes.
 
 - *Status*  
     Click the drop-down list to select a process status. The following options are available:  
@@ -61,26 +39,10 @@
 - *Workflow*  
     Click the drop-down list to display a specific workflow type. All workflows created in the *Workflows* menu entry are available in the list.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.  
-
-    > [Info] The search function can be used to search for a workflow subject and name. At least three characters must be entered.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-The list displays all processes that are matching the selected values (status and workflow type). Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
+The following functions are available for the editing toolbar. Depending on the process status, the editing toolbar displays specific buttons:
 
 - [x]  
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all processes in the list are selected.
-
-Depending on the process status, the editing toolbar displays the following buttons:
 
 - ![Abort](../../Assets/Icons/Stop.png "[Abort]") (Abort)  
     Click this button to end the process. This button is displayed if the process status is *Error* or *In progress*. When clicking this button, the process status changes to *Aborted*.
@@ -90,6 +52,8 @@ Depending on the process status, the editing toolbar displays the following butt
 
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
     Click this button to resume the process. This button is displayed if the process status is *Suspended*. When clicking this button, process status changes again to *In progress*.
+
+The following functions and fields are available in this list:
 
 - *Status*  
     Status of the process. The different process statuses are displayed in different colors. The following statuses are possible:
@@ -131,10 +95,10 @@ Depending on the process status, the editing toolbar displays the following butt
     > [Info] When a workflow is manually created in the *Workflow* module, **ActindoWorkFlow** is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
 
 - *Created by*  
-    Name and user name of the user who initiated the process.
+    Name and username of the user who initiated the process.
 
 - *Modified by*  
-    Name and user name of the user who modified the process.
+    Name and username of the user who modified the process.
 
 
 
@@ -146,14 +110,21 @@ Depending on the process status, the editing toolbar displays the following butt
 
 **Process ID**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-    Click this button to close the *Process ID* view and return to the list of processes. All changes are rejected.
-
 - *Process ID*  
     Process identification number. The ID number is automatically assigned by the system.
 
 - *Workflow*  
     Name of the workflow.
+
+
+
+### Process diagram
+
+The diagram displays a visualization of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
+
+- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
+    Click this button to update the diagram to see the current processing status.
+
 
 
 ### Actions
@@ -390,7 +361,7 @@ The list displays all logs that are matching the selected log level. Depending o
     Identification number of the transition to which the log refers. The ID number is automatically assigned by the system.
 
 - *Created by*  
-    Name and user name of the user who initiated the process.
+    Name and username of the user who initiated the process.
 
 
 ### Log ID
@@ -484,20 +455,3 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 - *Process action ID*  
     Action identification number. The ID number is automatically assigned by the system.
 
-
-### Create view
-
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry create*
-
-![Create view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
-
-For a detailed description of this window and the corresponding functions, see [Create view](./02a_Workflows.md#create-view).
-
-
-### Rename view
-
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
-
-![Rename view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
-
-For a detailed description of this window and the corresponding functions, see [Rename view](./02a_Workflows.md#rename-view).

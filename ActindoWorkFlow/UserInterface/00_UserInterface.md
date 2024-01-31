@@ -22,44 +22,36 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Import JSON](./02a_Workflows.md#import-json)
     - [Export JSON](./02a_Workflows.md#export-json)
     - [Search for an action](./02a_Workflows.md#search-for-an-action)
-    - [Create view](./02a_Workflows.md#create-view)  
-    - [Rename view](./02a_Workflows.md#rename-view)
+   
 
 
 - [Processes](./03_Processes.md)
 
 - [OVERVIEW (Processes)](./03a_Processes.md)
-    - [Process ID](./03a_Processes.md#process-id)
+    - [Process ID](./03a_Processes.md#process-id)   
+        - [Process diagram](./03a_Processes.md#process-diagram)
         - [Actions](./03a_Processes.md#actions)
         - [Logs](./03a_Processes.md#logs)
         - [Log ID](./03a_Processes.md#log-id)
         - [Tokens](./03a_Processes.md#tokens)
-        - [Create view](./03a_Processes.md#create-view)  
-        - [Rename view](./03a_Processes.md#rename-view)
+        
 
 
 - [Process actions](./04_ProcessActions.md)
 
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md)
-    - [Create view](./04a_ProcessActions.md#create-view)  
-    - [Rename view](./04a_ProcessActions.md#rename-view)
-
-
+    
 - [Queue types](./05_QueueTypes.md)
 
 - [OVERVIEW](./05a_QueueTypes.md)
     - [Create queue type](./05a_QueueTypes.md#create-queue-type)  
     - [Edit queue type](./05a_QueueTypes.md#edit-queue-type)
 
-
 - [Logs](./06_Logs.md)
 
 - [OVERVIEW (Logs)](./06a_Logs.md)
     - [Log ID](./06a_Logs.md#log-id)
-    - [Create view](./06a_Logs.md#create-view)  
-    - [Rename view](./06a_Logs.md#rename-view)
-
-
+   
 - [Settings](./07_Settings.md)
 
 - [SETTINGS](./07a_Settings.md)

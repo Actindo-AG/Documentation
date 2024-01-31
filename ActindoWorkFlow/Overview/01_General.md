@@ -1,8 +1,8 @@
 # General information
 
-The *Actindo Work Flow Engine (Workflows)* module is a tool that allows you to sculpt, control, map and monitor your business processes. Based on your special and individual business rules, your company's processes can be mapped and made available: from simple processes to complex workflows. As a result, you will always have an overview of your processes and can correct errors quickly and efficiently.
+The *Actindo Work Flow Engine (Workflows)* module is a tool that allows you to sculpt, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes can be mapped and made available: from simple processes to complex workflows. As a result, you will always have an overview of your processes and can correct errors quickly and efficiently.
 
-This documentation refers to *Workflows* module version 1.4.0. There may be differences in the UI, features and operation if your *Workflows* module is installed in a different version.
+This documentation refers to *Workflows* module version 1.10.0. There may be differences in the UI, features, and operation if your *Workflows* module is installed in a different version.
 
 
 ## Benefits

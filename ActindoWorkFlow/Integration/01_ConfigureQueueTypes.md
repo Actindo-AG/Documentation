@@ -31,7 +31,7 @@ No prerequisites to fulfill.
 
 3. Enter the desired number of workers for the queue type in the *Number of workers* field.
 
-    > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster that actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
+    > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
     For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
     *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
 
@@ -180,7 +180,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. Select the transition you want to assign a certain queue type to.      
+1. Select the transition to which you want to assign a certain queue type.      
     The transition is highlighted and its settings are displayed in the settings side bar on the right.
 
     ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
@@ -289,3 +289,27 @@ Click the [KILL WORKER] button above the queue types list.
 All workers have been killed. The process actions will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
 
   ![Worker shutdown](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
+
+
+
+## Start workers
+
+Sometimes it may be necessary to start the process actions manually. This feature is very helpful if you do not want to wait until the processes starts again automatically. For example, if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel again, and you want the workers to start immediately.
+
+
+#### Prerequisites
+
+At least one queue type has been created, see [Create a queue type](#create-a-queue-type).
+
+> [Info] The *Default* queue type is predefined.
+
+#### Procedure
+
+*Workflows > Queue types > Tab OVERVIEW*
+
+![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
+
+Click the [START WORKER] button above the queue types list.    
+All workers have been started.
+
+  
