@@ -4,7 +4,13 @@
 
 # Configure the queue types
 
-Configure an arbitrary number of individual queue types to be able to execute certain actions faster. You can configure an unlimited number of queue types with a defined number of workers and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.
+Configure an arbitrary number of individual queue types to be able to execute certain actions faster. You can configure an unlimited number of queue types with a defined number of workers and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.   
+
+A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
+For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
+*4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
+For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md##check-vcores) in the *Core1 Platform* documentation.  
+
 The *Default* queue type is predefined and is assigned to all transitions by default. It can manually be overridden by individual queue types. A different queue type may be assigned for each transition.
 
 
@@ -33,7 +39,8 @@ No prerequisites to fulfill.
 
     > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
     For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
-    *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*
+    *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
+    For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md##check-vcores) in the *Core1 Platform* documentation.
 
 4. Click the *Execution priority* drop-down list and select the appropriate execution priority. The following options are available:
     - **Oldest executable action**   
@@ -132,7 +139,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 ### Edit the workers number
 
-Change the number of workers of a queue type to increase or decrease the execution speed accordingly. The number of workers can only be adjusted when no more workers are active. To achieve this, the user must either wait until all running workers are finished or kill all workers to stop them immediately, see [Kill workers](#kill-workers).
+Change the number of workers of a queue type to increase or decrease the execution speed accordingly. The number of workers can only be adjusted when no more workers are active. To achieve this, you must either wait until all running workers are finished or kill all workers to stop them immediately, see [Kill workers](#kill-workers).
 
 #### Prerequisites
 
@@ -294,7 +301,7 @@ All workers have been killed. The process actions will not continue until you re
 
 ## Start workers
 
-Sometimes it may be necessary to start the process actions manually. This feature is very helpful if you do not want to wait until the processes starts again automatically. For example, if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel again, and you want the workers to start immediately.
+Sometimes it may be necessary to start the process actions manually. This feature is very helpful if you do not want to wait until the processes starts again automatically after one minute. For example, if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel again, and you want the workers to start immediately.
 
 
 #### Prerequisites
@@ -310,6 +317,5 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
 Click the [START WORKER] button above the queue types list.    
-All workers have been started.
+All workers are started.
 
-  
