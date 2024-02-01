@@ -15,7 +15,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
 #### Procedure
 
-*DataHub > Data model >  > Tab DELETED ATTRIBUTES*
+*DataHub > Data model > Tab DELETED ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
 
@@ -42,7 +42,7 @@ At least one attribute has been moved to the *DELETED ATTRIBUTES* tab, see [Dele
 
 #### Procedure
 
-*DataHub > Data model >  > Tab DELETED ATTRIBUTES*
+*DataHub > Data model > Tab DELETED ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Attributes]")
 

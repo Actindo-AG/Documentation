@@ -59,7 +59,7 @@ The following functions and fields are available in this view:
 
 ## Create ETL attribute set mapping
 
-*DataHub > ETL > Tab Mappings > Button Add*
+*DataHub > ETL > Tab MAPPINGS > Button Add*
 
 ![Create ETL attribute set mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
@@ -88,7 +88,7 @@ The following functions and fields are available in this view:
 
 ## Mapping
 
-*DataHub > ETL >  > Tab Mappings > Select attribute set mapping*
+*DataHub > ETL > Tab MAPPINGS > Select attribute set mapping*
 
 ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
@@ -199,7 +199,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun single mapping
 
-*DataHub > ETL >  > Tab Mappings > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
+*DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
 
 ![Rerun sinlge mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 

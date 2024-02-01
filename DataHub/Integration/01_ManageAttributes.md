@@ -72,7 +72,7 @@ No prerequisites to fulfill.
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified.
-The assignment of an attribute to an attribute set must be changed in the [attribute set](./02_ManageAttributeSets#edit-an-attribute-set) itself.   
+The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Edit an attribute set](./02_ManageAttributeSets.md#edit-an-attribute-set).   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module.
 Some of these system attributes are read-only and cannot be edited at all. It is highly recommended not to deactivate these system attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
@@ -169,7 +169,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 3. Click the [CONFIRM] button in the bottom right corner.   
     The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
 
-    > [Caution] Note that problems may occur if you delete an attribute with existing dependencies.
+    > [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
 
 > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Permanently delete an attribute](../Operation/04_ManageDeletedAttributes.md#permanently-delete-an-attribute).
 

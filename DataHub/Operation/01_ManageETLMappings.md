@@ -22,7 +22,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL >  > *
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -69,7 +69,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -124,12 +124,12 @@ Within an attribute set mapping, you can define custom scope and language attrib
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
+- At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 - The destination attribute is multi-language and/or multi-scope.
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -191,7 +191,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -234,7 +234,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -278,7 +278,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > ETL >  > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 

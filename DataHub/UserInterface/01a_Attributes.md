@@ -4,7 +4,7 @@
 
 # Attributes
 
-*DataHub > Data model >  > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
@@ -88,7 +88,7 @@ The following functions and fields are available in this view:
 
 ## Create attribute
 
-*DataHub > Data model >  > Tab ATTRIBUTES > Button Add*
+*DataHub > Data model > Tab ATTRIBUTES > Button Add*
 
 ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
@@ -147,7 +147,7 @@ As some data types have no further configuration settings, no *CONFIGURATION* se
 
 ## Edit attribute
 
-*DataHub > Data model >  > Tab ATTRIBUTES > Select attribute > Tab Data*
+*DataHub > Data model > Tab ATTRIBUTES > Select attribute > Tab Data*
 
 ![Edit attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute.png "[Edit attribute]")
 

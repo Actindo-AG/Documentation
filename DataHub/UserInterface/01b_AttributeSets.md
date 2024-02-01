@@ -78,7 +78,7 @@ The following functions and fields are available in the *Attribute set* list:
 
 ## Create attribute set
 
-*DataHub > Data model >  > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
@@ -264,7 +264,7 @@ The following functions and fields are available in this section:
 
 ### Edit attribute for set
 
-*DataHub > Data model >  > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Select attribute set > Select attribute with configuration*
 
 ![Edit attribute for set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/EditAttributeForSet.png "[Edit attribute for set]")
 
@@ -279,7 +279,7 @@ The *CONFIGURATION* section displays the additional configuration for the data t
 
 ### Add mapping
 
-*DataHub > Data model >  > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Select attribute set > Select attribute checkbox > Button ADD MAPPING*
 
 ![Add mapping](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AddMapping.png "[Add mapping]")
 

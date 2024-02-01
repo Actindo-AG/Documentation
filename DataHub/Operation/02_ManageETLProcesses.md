@@ -32,7 +32,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 #### Procedure
 
-*DataHub > ETL >  > Tab PROCESSES*
+*DataHub > ETL > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
@@ -76,7 +76,7 @@ If the selected change tracking mode of an ETL mapping equals **Semiautomatic** 
 
 #### Procedure
 
-*DataHub > ETL >  > Tab PROCESSES*
+*DataHub > ETL > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 

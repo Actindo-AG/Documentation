@@ -3,7 +3,7 @@
 
 # Deleted attributes
 
-*DataHub > Data model >  > Tab DELETED ATTRIBUTES*
+*DataHub > Data model > Tab DELETED ATTRIBUTES*
 
 ![Deleted attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
 
