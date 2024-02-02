@@ -133,38 +133,12 @@ The diagram displays a visualization of the selected process including all place
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-> [Info] The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.
+*Actions tab*
 
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
+The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.   
+The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Depending on the process status, the editing toolbar may display different options.
 
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
-
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
-- *Status*  
+ - *Status*  
     Click the drop-down list to select an action status. The following options are available:  
     - **All**  
         Select this option to display all actions, regardless of their status.
@@ -179,26 +153,11 @@ The diagram displays a visualization of the selected process including all place
     - **Process aborted**  
         Select this option to display the actions included in a process that has been manually ended.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for an action.
+The following functions are available for the editing toolbar:
 
-    > [Info] The search function can be used to search for a transition name. At least three characters must be entered.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of actions.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - [x]    
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
-
-Depending of the process status, the editing toolbar may display different options.
 
 - ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed if the action status is *Error*.
@@ -258,34 +217,7 @@ Depending of the process status, the editing toolbar may display different optio
 
 ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png "[Logs]")
 
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
-
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
-
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#log-id).
 
 - *Log level*  
     Click the drop-down list to select a log level. The following options are available:  
@@ -308,19 +240,7 @@ Depending of the process status, the editing toolbar may display different optio
     - **Emergency**  
         Select this option to display all logs with *Emergency* level.
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a log.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of logs.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#log-id).
+The following functions and fields are available in this view:
 
 - *Type*  
     Log level. The following levels can be displayed:
@@ -370,9 +290,6 @@ The list displays all logs that are matching the selected log level. Depending o
 
 ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-    Click this button to close the *Log ID* view and return to the *Logs* tab in the *Process ID* view. All changes are rejected.
-
 For a detailed description of this window and the corresponding functions, see [Log ID](./06a_Logs.md#log-id).
 
 
@@ -382,53 +299,11 @@ For a detailed description of this window and the corresponding functions, see [
 
 ![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Processes/Tokens.png "[Tokens]")
 
+The list displays all tokens if the *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Hide processed*  
     Disable this toggle to display all tokens, including the ones that have already been processed. Enable the toggle to hide all processed tokens. By default, this toggle is enabled.
-
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
-
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
-
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a token.
-
-    > [Info] The search function can be used to search for a token ID. At least three characters must be entered.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of tokens.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
-
-The list displays all tokens if the *Hide processed* toggle is disabled. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Status*  
     Token status. The different statuses are displayed in different colors. The following statuses are possible:
@@ -454,4 +329,7 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 
 - *Process action ID*  
     Action identification number. The ID number is automatically assigned by the system.
+
+
+### Execution log
 

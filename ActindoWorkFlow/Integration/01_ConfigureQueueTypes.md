@@ -46,9 +46,10 @@ No prerequisites to fulfill.
 5. If you want to create a queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
    The fields below are ready for input.
      - Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
-     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field.
+     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60.   
+    Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
-5. Click the [SAVE] button in the upper right corner.   
+6. Click the [SAVE] button in the upper right corner.   
     The *Create queue type* view is closed. The new queue type has been created and is displayed in the list of queue types. The *Queue type has been created* pop-up window is displayed.
 
     ![Queue type created](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeCreated.png "[Queue type created]")
