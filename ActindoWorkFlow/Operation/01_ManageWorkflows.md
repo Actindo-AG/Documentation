@@ -309,7 +309,7 @@ Edit a transition to define its settings.
 
     > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
 
-2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration and the static inputs as described below:
+2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration, and the static inputs as described below:
 
     + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 

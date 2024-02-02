@@ -4,19 +4,19 @@
 
 # Configure the queue types
 
-Configure an arbitrary number of individual queue types to be able to execute certain actions faster. You can configure an unlimited number of queue types with a defined number of workers and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.   
+Configure an arbitrary number of individual queue types to be able to execute certain actions faster, or to throttle them. You can configure an unlimited number of queue types with a defined number of workers and a defined sequence of how actions are to be executed. The total number of workers that can be assigned to the queue types is limited by the number of booked vCores.   
 
 A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
 For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
 *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
 For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md##check-vcores) in the *Core1 Platform* documentation.  
 
-The *Default* queue type is predefined and is assigned to all transitions by default. It can manually be overridden by individual queue types. A different queue type may be assigned for each transition.
+The *Default* queue type is predefined and is assigned to all transitions by default. It can be manually overridden by individual queue types. A different queue type may be assigned for each transition.
 
 
 ## Create a queue type
 
-Create an individual queue type, assign a certain number of workers to it and define the sequence in which the process actions are to be executed.
+Create an individual queue type, assign a certain number of workers to it, and define the sequence in which the process actions are to be executed. If required, create a queue type to throttle specific process actions, for example, if you expect enormous traffic at a certain time or for a certain product (Black Friday, product launch), or a connected external system is not able to process more than a certain number of actions.
 
 #### Prerequisites
 
@@ -37,16 +37,16 @@ No prerequisites to fulfill.
 
 3. Enter the desired number of workers for the queue type in the *Number of workers* field.
 
-    > [Info] A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
-    For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
-    *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
-    For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md##check-vcores) in the *Core1 Platform* documentation.
-
 4. Click the *Execution priority* drop-down list and select the appropriate execution priority. The following options are available:
     - **Oldest executable action**   
         The oldest executable actions within all existing processes is executed first by the workers.
     - **Executable actions of oldest process**   
         The executable actions within the oldest process are executed first by the workers.
+
+5. If you want to create a queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
+   The fields below are ready for input.
+     - Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
+     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field.
 
 5. Click the [SAVE] button in the upper right corner.   
     The *Create queue type* view is closed. The new queue type has been created and is displayed in the list of queue types. The *Queue type has been created* pop-up window is displayed.

@@ -199,7 +199,7 @@ The workflow diagram includes the following elements:
     For detailed information, see [Input and output ports](../Overview/04_WorkflowProcessElements.md#input-and-output-ports).
 
 - Arc  
-    The arcs are the links connecting a place with the input and output port(s) of an transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs* .   
+    The arcs are the links connecting a place with the input and output port(s) of a transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs*.   
     For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
 
 
@@ -342,13 +342,13 @@ The *Export JSON* window displays all workflow source code in JSON format. This 
 
 ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
-The *Search for an action* window displays a list of possible transitions for the selected place.
+The *Search for an action* window displays a list of possible transitions for the selected place.   
 
-    > [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
+> [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
 
 
 - *Search for an action* (search bar)  
-    Click this field to enter the name of the transition or a keyword to search for. Select an transition in the list of transitions to add the selected transition to the workflow.   
+    Click this field to enter the name of the transition or a keyword to search for. Select a transition in the list of transitions to add the selected transition to the workflow.   
 
     > [Info] The list of transitions is filtered for your keyword as you type.
 
