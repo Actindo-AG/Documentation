@@ -1,8 +1,14 @@
 # Manage Adyen settings
 
-In addition to the settings in the *Payments* module, there are some settings necessary in the Adyen backend to ensure a smooth data transfer.
+In addition to the settings in the *Payments* module, there are some settings necessary in the Adyen backend to ensure a smooth data transfer. It is recommended that you manage the *Payments* settings in parallel, so that you can enter the connection data alternately. Note that you can no longer copy the credentials after you have saved the Adyen or Payments settings. For detailed information, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
 
 The following procedures contain information on the settings to be configured in the Adyen backend. It shows the standard procedure that was current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen documentation. 
+
+**Additional information**   
+
+Adyen uses TLS certificates that are changed from time to time.  Actindo only checks if it is a valid certificate in general and does not validate specific certificates. So you can ignore this information. See also an update example from Adyen: [https://help.adyen.com/updates/tls-certificates-on-adyen-services](https://help.adyen.com/updates/tls-certificates-on-adyen-services). 
+
+
 
 ## Create Adyen webhook
 
@@ -33,7 +39,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
     - *Server configuration section*   
          - *URL*   
            Enter the server URL of the Actindo productive system or sandbox you want to connect.    
-           For example: https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
+           For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync´. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
       
          - *Method*   
             You can use the standard setting **JSON** if you have no other requirements.
@@ -60,7 +66,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 
          ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png)
 
-         Enter the server's username and password that you have defined as *Notification user* and *Notification password* in the *Payments* settings and click the [Apply] button.
+         Enter the server's username and password that you have defined as *Notification user* and *Notification password* in the *Payments* settings. Click the [Apply] button.
 
          ![Notification user and password](../../Assets/Screenshots/Adyen/Integration/AdyenNotificatioUser.png)
 
@@ -75,7 +81,8 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 
 5. Click the [Save changes] button.
 
-6. Enable the standard webhook and test your configuration.
+6. Enable the standard webhook and test your configuration after you have saved the notification user and password in Actindo.  
+
 
 
 ## Define synchronous or asynchronous processing
@@ -98,10 +105,10 @@ Define whether you want to transfer the payment data using synchronous or an asy
 
     ![Define server configuration](../../Assets/Screenshots/Adyen/Integration/AdyenChangeWebhookServerConguration.png).
 
-3. Configure the server URL as follows:
-     - If you want to process the messages asynchronously, add an **Asynch** to the address. For example: https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync
+3. Configure the server URL as follows:   
+    - If you want to process the messages asynchronously, add an **Asynch** to the address. For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync`.
 
-    - If you want to process the messages synchronously, add a **2** to the address. For example: https://customeraccount.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notification2.
+    - If you want to process the messages synchronously, add a **2** to the address. For example: `https://customeraccount.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notification2`.
 
 4. Click the [Apply] button.   
     The synchronous or asynchronous processing has been defined.
@@ -155,20 +162,17 @@ When you switch to your live environment, you must generate another web service 
 
     ![Checkout API key](../../Assets/Screenshots/Adyen/Integration/AdyenCheckoutAPIkey.png)
 
-**Generate web service password**
+4. Change to your Adyen account, click the *Basic auth* tab, and click the [Generate password] button and copy it. 
 
-1. Change to your Adyen account.
-
-2. Click the *Basic auth* tab.
-
-3. Click the [Generate password] button and copy it.
-
-4. Change to your Actindo instance and insert the password in the *Payment password* field.
+5. Change to your Actindo instance and insert the password in the *Payment password* field.
 
     ![Payment password](../../Assets/Screenshots/Adyen/Integration/AdyenPaymentPassword.png)
 
+6. Return to Adyen and click the [Save changes] button.
 
-5. Return to Adyen and click the [Save changes] button.
+7. If necessary, configure your wallet payment methods in the *Wallet payment methods* section. Follow the Adyen documentation. 
+
+8. If necessary, assign roles to change the permissions of the API credentials in the *Permissions > Roles* section. Follow the API documentation [https://docs.adyen.com/development-resources/api-credentials/#api-permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions) in the Adyen documentation.
 
 
 
@@ -216,24 +220,19 @@ When you switch to your live environment, you must generate another report servi
 6. Click the [Create credential] button.   
     The *Configure API credential* view is displayed. The *API key* tab is displayed by default.
 
-**Generate report service API key**
-
-1. Click the *API key* tab in the *Sever settings > Authentication* section. 
-
-2. Click the [Generate API key] button.
+7. Click the *API key* tab in the *Sever settings > Authentication* section and click the [Generate API key] button.
 
 
-**Generate report service password**
+8. Click the *Basic auth* tab in the *Server settings > Authentication* section and click the [Generate password] button and the [Copy] button.
 
-1. Click the *Basic auth* tab in the *Server settings > Authentication* section.
-
-2. Click the [Generate password] button and the [Copy] button.
-
-4. Change to your Actindo instance and insert the password in the *Report password* field. For detailed information, see [Configure Adyen connection](01_ManageAdyenConnection.md#configure-adyen-connection)
+9. Change to your Actindo instance and insert the password in the *Report password* field. For detailed information, see [Configure Adyen connection](01_ManageAdyenConnection.md#configure-adyen-connection)
 
    ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenReportServicePassword.png)
 
-5. Return to your Adyen account and click the [Save changes] button.
+10. Return to your Adyen account and click the [Save changes] button.
 
-<!---Was ist mit den weiteren Einstellungen wie Payment wallets und roles?-->
+11. If necessary, assign the *Merchant report download role* to allow the users to download reports in the *Permissions > Roles > REPORT* section. Alternatively, you can control access to merchant accounts. Follow the API documentation [https://docs.adyen.com/development-resources/api-credentials/#api-permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions)in the Adyen documentation.
+
+
+
 

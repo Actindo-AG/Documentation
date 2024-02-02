@@ -3,7 +3,7 @@
 In the following, the procedures to create, edit, configure, enable, or disable Adyen connections are described.  
 
 Note the following:   
-- If you have more than one merchant account in Adyen that you want to manage with *Actindo*, you must create a connection for each.   
+- If you have more than one merchant account in Adyen that you want to manage with Actindo, you must create a connection for each.   
 - Adyen offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
 
 ## Create Adyen connection
@@ -35,12 +35,12 @@ Create a connection to the Adyen payment service provider.
 
 4. Enter the API credentials. There are some standard access points for the testing environment. For your productive environment, Adyen provides you with individual API credentials.
 
-    -  Enter the endpoint of the checkout in the *Checkout API endpoint* field. 
+    -  Enter the endpoint of the checkout API in the *Checkout API endpoint* field. 
 
-       > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is **https://checkout-test.adyen.com/checkout/**.
+       > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is `https://checkout-test.adyen.com/checkout/`.
 
-    - Enter the key field of the checkout API in the *Checkout API key* field.   
-    -  Enter the payment API endpoint field in the *Payment API endpoint* field. For the test environment it is **https://pal-test.adyen.com/pal/servlet/Payment/**
+    - Enter the key of the checkout API in the *Checkout API key* field.   
+    -  Enter the payment API endpoint in the *Payment API endpoint* field. For the test environment it is `https://pal-test.adyen.com/pal/servlet/Payment/`.
     - Enter the user for the payment API in the *Payment API user* field.
 
 5. Enter the API credentials of the API users that you have created in Adyen:     
@@ -59,8 +59,8 @@ Create a connection to the Adyen payment service provider.
      
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
 
-    -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the Adyen configuration later. For detailed information, see    
-    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the Adyen configuration later. For detailed information, see 
+    -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the Adyen configuration later. For detailed information, see [Create webhook](02_ManageAdyenSettings.md#create-adyen-webhook). 
+    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the Adyen configuration later. For detailed information, see [Create webhook](02_ManageAdyenSettings.md#create-adyen-webhook).
 
 6. Enter the merchant account relevant for this connection in the *Merchant account* field. This is the merchant account for which you currently create the connection. You have created it in the Adyen configuration.
     
@@ -69,7 +69,7 @@ Create a connection to the Adyen payment service provider.
 6. Click the [SAVE] button.   
    The connection will be created. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
 
-    The data are synchronized between *Actindo* and Adyen. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
+    The data are synchronized between Actindo and Adyen. The view for creating connections is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
 
@@ -83,9 +83,9 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 ## Configure Adyen connection
 
-Configure the Adyen connection after you have created it. It is recommended that you manage the Adyen settings in parallel, see [Manage Adyen settings](./02_ManageAdyenSettings.md).
+Configure the Adyen connection after you have created it. It is recommended that you manage the Adyen settings in parallel, so that you can enter the connection data alternately. Keep in mind that you can no longer copy the credentials after you have saved the Adyen or Payments configuration. For detailed information, see [Manage Adyen settings](./02_ManageAdyenSettings.md).
 
-In the *Payments* connection settings, you can define the event codes that are to be ignored. The reason for this is that Adyen sends many event codes. Not all of them can be processed in the *Payments* module. Each of them generates an error. Here you can specify the event codes you do not want to process. Alternatively, you can specify the unwanted event codes in the Adyen settings. 
+In the *Payments* connection settings, you can enter the event codes that are to be ignored. Alternatively, you can select the unwanted event codes in the Adyen settings. 
 
 In addition, you can configure the number of workers to process messages in asynchronous processing. The Adyen API has two endpoints, one for a synchronous and one for an asynchronous processing. 
 - At synchronous processing, Adyen creates a connection for each event that occurs. This has the advantage that Adyen is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred.
@@ -131,7 +131,7 @@ For detailed information, see [Define synchronous or asynchronous processing](./
 7. If desired, you can apply the standard settings by enabling the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply default) toggle in the top right corner.
 
 8. Click the [SAVE] button in the top right corner.   
-   The connection settings are applied. The list of connections is displayed.
+   The connection settings are applied. Actindo validates the credentials. The list of connections is displayed.
 
 
 
