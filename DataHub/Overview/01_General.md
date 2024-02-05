@@ -14,7 +14,7 @@ This documentation refers to the *DataHub* module version 4.6.0. There may be di
 The *DataHub* module offers the following benefits:
 - Central data storage to break up data silos  
 - Adjustable data streams   
-- Easy integration and harmonization of sales scopes and touchpoints  
+- Easy integration and harmonization of sales channels and touchpoints  
 - Optimization of processes via automatic data transfers in real time   
 - Quickly connect external systems and automate data exchange  
 

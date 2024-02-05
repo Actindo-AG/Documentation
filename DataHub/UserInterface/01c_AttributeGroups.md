@@ -2,11 +2,9 @@
 
 # Attribute groups
 
-*DataHub > Data model> Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
-
-<
 
 
 **Attribute groups**   

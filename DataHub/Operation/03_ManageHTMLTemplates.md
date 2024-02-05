@@ -2,7 +2,7 @@
 
 # Manage the HTML templates
 
-HTML templates are mainly used for email messages such as confirmations or shipping messages. Further, they can be used to write detailed product descriptions that are uploaded to a shop or marketplace, for example to *ebay*.
+HTML templates are mainly used for email messages such as confirmations or shipping messages. They can also be used to write detailed product descriptions that are uploaded to a shop or sales channel, for example to *ebay*.
 HTML templates allow you to generate HTML content from data based on templates using the *Smarty template engine*.
 Further, you are able to include data from all available source entities in HTML as well as all sub-entities if they are present in the JSON representation of the source entity using the HTML templates.
 
@@ -30,7 +30,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system wide unique.
 
-4. Click the textarea and enter the appropriate content for the HTML template. You can either include HTML text and/or Smarty templates:
+4. Click the text area and enter the appropriate content for the HTML template. You can either include HTML text and/or Smarty templates:
     - [Include HTML text](#include-html-text)
     - [Include Smarty templates](#include-smarty-templates)
 
@@ -55,7 +55,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 > [Info] If you want to include HTML text into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-1. Click the textarea and enter the desired HTML text.
+1. Click the text area and enter the desired HTML text.
 
     > [Info] For detailed information about the HTML structure and elements, see the https://html.spec.whatwg.org/ website.
 
@@ -69,7 +69,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 ## Include Smarty templates
 
 The *Smarty template engine* allows you to include Smarty templates into your HTML template.    
-For detailed information about Smarty templates, see the [Smarty&trade; (https://www.smarty.net/)](https://www.smarty.net/) website.  
+For detailed information about Smarty templates, see the [Smarty&trade;](https://www.smarty.net/ "[https://www.smarty.net/]") website.  
 Always use the delimiters *{}* as separator for the Smarty templates.  
 
 #### Prerequisites
@@ -86,7 +86,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 1. Click the text area and enter the desired Smarty template(s).
 
-    > [Info] For detailed information about the Smarty template structure and elements, see [Smarty&trade; (https://www.smarty.net/)](https://www.smarty.net/) website. 
+    > [Info] For detailed information about the Smarty template structure and elements, see the [Smarty&trade;](https://www.smarty.net/ "[https://www.smarty.net/]") website. 
 
 2. If desired, include HTML text, see [Include HTML text](#include-html-text) or display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template).
 
@@ -112,9 +112,9 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 > [Info] If you want to include an attribute variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
+1. Click the text area and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
-2. Include a variable in the textarea by entering the corresponding variable inside the delimiters *{}* and starting with the *$* sign. You can include one of the following variables:
+2. Include a variable in the text area by entering the corresponding variable inside the delimiters *{}* and starting with the *$* sign. You can include one of the following variables:
     - **entity**   
         Use the entity variable to include a variable referring to an attribute of a certain entity within the system, for instance *{$entity.id}*.
     - **tenant**   
@@ -156,7 +156,7 @@ The special rules to be followed to correctly include a tree node variable are d
 
 > [Info] If you want to include a tree node variable into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
-1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
+1. Click the text area and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include a tree node variable by doing the following:
     + Add **{datahub_translatable_value entity=$entity property="PropertyKey" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}** to the textarea.
@@ -165,7 +165,7 @@ The special rules to be followed to correctly include a tree node variable are d
 
     + Replace **"PropertyKey"** between the quotes by the desired property key of the corresponding tree node variable.
 
-3. If desired, display a [preview of the HTML template](#preview-an-html-template).
+3. If desired, display a preview of the HTML template, see [Preview an HTML template](#preview-an-html-template). 
 
 4. Click the [SAVE] button in the upper right corner.   
     The HTML template has been saved. The *HTML template* view is closed.  
@@ -189,7 +189,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
-1. Click the textarea and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
+1. Click the text area and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include language adjustable variable by doing the following:
     + Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the textarea.

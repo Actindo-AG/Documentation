@@ -5,7 +5,7 @@
 
 # Attribute sets
 
-*DataHub > Data model> Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")

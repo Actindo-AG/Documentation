@@ -59,8 +59,8 @@ The following functions and fields are available in this view:
 - *Key*   
     Enter an HTML template key. The key is required for API access and must be system-wide unique.
 
-- Textarea   
-    Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty](https://www.smarty.net/).    
+- Text area   
+    Enter the content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see the [Smarty&trade;](https://www.smarty.net/ "[https://www.smarty.net/]") website.    
 
 **Preview**
 
@@ -103,8 +103,8 @@ The following functions and fields are available in this view:
 - *Key*   
     HTML template key. In the *Edit HTML template* view, this field is locked.
 
-- Textarea   
-    Click the field to edit content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see [Smarty (https://www.smarty.net/)](https://www.smarty.net/) website.   
+- Text area   
+    Click the field to edit content for the HTML template. Use the Smarty template engine to include variables and tags to the template, see the [Smarty&trade;](https://www.smarty.net/ "[https://www.smarty.net/]") website.   
 
 **Preview**
 

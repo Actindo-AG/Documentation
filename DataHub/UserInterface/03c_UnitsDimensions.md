@@ -65,10 +65,10 @@ The following functions are available for the editing toolbar:
 - [x]     
   Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all units in the list are selected.
 
-- [DEACTIVATE UNIT]
+- [DEACTIVATE UNIT]  
    Deactivate a unit if you do not want to use it, and you want to shorten the unit's drop-down list.
 
-- [ACTIVATE UNIT]
+- [ACTIVATE UNIT]  
    Activate a unit if you want to use it again. 
   
 The following functions and fields are available in this view:

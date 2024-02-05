@@ -22,7 +22,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
 #### Procedure
 
-*DataHub > ETL >  > *
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 

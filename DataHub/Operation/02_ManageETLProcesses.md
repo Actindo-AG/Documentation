@@ -84,7 +84,7 @@ If the selected change tracking mode of an ETL mapping equals **Semiautomatic** 
 
     > [Info] ETL processes whose mappings have a **Semiautomatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **Semiautomatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
 
-2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING* .      
+2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING*.      
     The *SEMIAUTOMATIC MAPPING* tab is displayed.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button.   

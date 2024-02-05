@@ -956,7 +956,7 @@ This extension is used to replace the value of a source attribute by a certain v
 ### Configuration
 
 - *Pattern*   
-    Enter a regular expression for the source attribute value that should be replaced. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression for the source attribute value that should be replaced. For detailed information about regular expressions, see the [regex101.com](https://regex101.com/ "[https://regex101.com/]") website.
 
 - *Replacement*    
     Enter the value that will replace the value selected in the *Pattern* field.

@@ -96,7 +96,7 @@ The *Checkbox* data type is used to indicate a statement that is either true or 
 - 18+
 - Digital item
 
-> [Info] Note that the *Checkbox* date type also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it has not been manually changed to **true**. This may cause problems when connecting to other systems, for example shops or marketplaces, with different default settings for checkboxes.   
+> [Info] Note that the *Checkbox* date type also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it has not been manually changed to **true**. This may cause problems when connecting to other systems, for example shops or sales channels, with different default settings for checkboxes.   
 
 The *DataHub* plugin owns this data type.
 
@@ -185,7 +185,7 @@ The *DataHub* plugin owns this data type.
     Enter a maximal length of the string.
 
 - *Regex*   
-    Enter a regular expression for the string. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression for the string. For detailed information about regular expressions, see the [regex101.com](https://regex101.com/ "[https://regex101.com/]") website.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Read only*   
     Enable this toggle to set the string to read-only. Disable the toggle to set the string to editable. By default, this toggle is disabled.
@@ -576,7 +576,7 @@ The *Cloudinary* plugin owns this data type.
     Enable this toggle to set the *Cloudinary Image* value to read-only. Disable the toggle to set the *Cloudinary Image* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
-    Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression to restrict the listed items for the import of images from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see the [regex101.com](https://regex101.com/ "[https://regex101.com/]") website.
 
 - *Meta Data Fields*     
     Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each image and do not need to be added manually.
@@ -609,7 +609,7 @@ The *Cloudinary* plugin owns this data type.
     Enable this toggle to set the *Cloudinary Video* value to read-only. Disable the toggle to set the *Cloudinary Video* value to editable. By default, this toggle is disabled.
 
 - *Import Regex*     
-    Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression to restrict the listed items for the import of videos from Cloudinary. The restriction is applied to the filename. If the field is left blank, no restriction is applied. For detailed information about regular expressions, see the [regex101.com](https://regex101.com/ "[https://regex101.com/]") website.
 
 - *Meta Data Fields*     
     Enter names for additional contextual meta data fields. Use commas to separate the field names. A separate meta data field is created for each field name. By default, the *Title (caption)* and the *Description (alt)* contextual meta data fields are automatically created for each video and do not need to be added manually.
