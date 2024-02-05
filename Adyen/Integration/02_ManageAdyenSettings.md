@@ -39,7 +39,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
     - *Server configuration section*   
          - *URL*   
            Enter the server URL of the Actindo productive system or sandbox you want to connect.    
-           For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync´. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
+           For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync`. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
       
          - *Method*   
             You can use the standard setting **JSON** if you have no other requirements.
@@ -87,10 +87,13 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 
 ## Define synchronous or asynchronous processing
 
-Define whether you want to transfer the payment data using synchronous or an asynchronous processing. For detailed information, see [Configure Adyen connection](./01_ManageAdyenConnection.md).
+Define whether you want to transfer the payment data using synchronous or asynchronous processing. 
+- At synchronous processing, Adyen creates a connection for each event that occurs. This has the advantage that Adyen is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred. See also [Synchronous processing](../Troubleshooting/02_SynchronousProcessing.md) in the Troubleshooting chapter.   
+- At asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be sent with parallel jobs. 
+
 
 #### Prerequisites
-- An Adyen connection has been created, see [Create Adyen connection](./01_ManageAdyenConnection.md#create-adyen-connection).
+- In Actindo, an Adyen connection has been created, see [Create Adyen connection](./01_ManageAdyenConnection.md#create-adyen-connection).
 - You have a valid user account in Adyen.
 
 #### Procedure
@@ -231,7 +234,7 @@ When you switch to your live environment, you must generate another report servi
 
 10. Return to your Adyen account and click the [Save changes] button.
 
-11. If necessary, assign the *Merchant report download role* to allow the users to download reports in the *Permissions > Roles > REPORT* section. Alternatively, you can control access to merchant accounts. Follow the API documentation [https://docs.adyen.com/development-resources/api-credentials/#api-permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions)in the Adyen documentation.
+11. If necessary, assign the *Merchant report download role* to allow the users to download reports in the *Permissions > Roles > REPORT* section. Alternatively, you can control access to merchant accounts. Follow the API documentation [https://docs.adyen.com/development-resources/api-credentials/#api-permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions) in the Adyen documentation.
 
 
 
