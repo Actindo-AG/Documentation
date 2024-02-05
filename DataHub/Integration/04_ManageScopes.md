@@ -9,10 +9,13 @@ If you want to maintain multiple scopes, you have to create and activate the res
 
 > [Info] A scope does not equal a sales channel or web store connection. It is just a dimension that can be added to the multi-scope attributes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
+[comment]: (Evtl. ergänzen, besser erklären/definieren. Beispiel?)
 
 ## Create a scope
 
 Create a scope to maintain multiple scopes or to create a new connection via the new scope.
+
+[comment]: (Evtl. umformulieren)
 
 #### Prerequisites
 
@@ -125,4 +128,4 @@ At least one scope has been created, see [Create a scope](#create-a-scope).
 2. Click the [DELETE] button in the editing toolbar.  
     The scope has been deleted. The deletion cannot be undone.
 
-    > [Info] If the selected scope cannot be deleted, an error message is displayed in the upper right corner. To prevent the scopes use, it is recommended to deactivate the scope instead of deleting it, see [Deactivate a scope](#deactivate-a-scope).
+    > [Info] If the selected scope cannot be deleted, an error message is displayed in the upper right corner. To prevent the scope from being used, it is recommended to deactivate the scope instead of deleting it, see [Deactivate a scope](#deactivate-a-scope).
