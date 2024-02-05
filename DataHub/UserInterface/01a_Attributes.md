@@ -112,7 +112,7 @@ The *Create attribute* view contains all fields and configurations that define t
     Enter a description to the attribute in the selected language.
 
 - *Data type*   
-    Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field is unlocked.   
+    Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned attribute sets* field is unlocked.   
 
 - *Key*   
     Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
@@ -129,7 +129,7 @@ The *Create attribute* view contains all fields and configurations that define t
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-- *Assigned sets*   
+- *Assigned attribute sets*   
     Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. This drop-down list is only displayed if you have previously clicked the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button.
     - ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
         Click this button to add an attribute set drop-down list. You can add an infinite number of attribute sets.

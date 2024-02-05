@@ -14,9 +14,12 @@ You can add attributes to or remove attributes from an attribute set and change 
 
 Create an attribute set to define a new attribute set with different attributes to the predefined attribute sets.
 
+[comment]: <> (Evtl. umformulieren)
+
 Several plugins have their own configuration user interface, where only those attributes and attribute sets are listed that belong to the specific plugin.
 When using the plugin-specific user interface, several options may be restricted or not available.
 
+[comment]: <> (Beispiel?)
 
 ### Define the attribute set basic data
 
@@ -37,6 +40,8 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     ![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
+[comment]: <> (Sprache wählen? Nur in Multi-language attributes? Muss den Toggle zuerst oder muss man die Sprachen zuerst wählen?)
+
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
@@ -48,7 +53,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
-    > Entity types are all classes interacting with the *DataHub* module.
+    > [Info] Entity types are all classes interacting with the *DataHub* module.
 
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
@@ -118,7 +123,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once.
 After copying, the attribute set behaves like an attribute set without attribute inheritance.
-Further changes in the copied attribute set or not affecting the created attribute set.   
+Further changes in the copied attribute set are not affecting the created attribute set.   
 
 #### Prerequisites
 
@@ -214,12 +219,9 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
     The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
-
-    > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
-
     The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+    > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
 
 ### Change the required attributes in the set
@@ -229,10 +231,12 @@ All required attributes are marked with a *(required)* indication in the product
 Note that entities can be saved even if not all *(required)* attributes are completed.   
 
 You can define whether an attribute should be required or not.
-Note that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   
+Bear in mind that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   
 
 Be aware that the activation or deactivation of languages affects the completeness calculation.
 Further, deactivated attributes are not included in the completeness calculation even if they are required.
+
+[comment]: <> (Evtl. umformulieren, Beispiel geben?)
 
 #### Prerequisites
 

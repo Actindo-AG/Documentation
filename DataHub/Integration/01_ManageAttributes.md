@@ -29,6 +29,8 @@ No prerequisites to fulfill.
 
     ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
+[comment]: <> (Sprache wählen? Nur in Multi-language attributes? Muss den Toggle zuerst oder muss man die Sprachen zuerst wählen?)
+
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
 
 3. Select a data type in the *Data type* drop-down list.   
@@ -49,12 +51,12 @@ No prerequisites to fulfill.
 
     > [Info] Be aware that only attributes which are neither multi-language nor multi-scope can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
 
-6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned sets* field. The button is locked if you have not yet selected a data type.   
+6. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned attribute sets* field. The button is locked if you have not yet selected a data type.   
     A drop-down list with all active attribute sets is displayed.
 
     > [Info] Note that data types can be restricted to certain entity types and therefore also to attribute sets.
 
-7. Select an attribute set in the *Assigned sets* drop-down list.
+7. Select an attribute set in the *Assigned attribute sets* drop-down list.
 
     > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
 
@@ -72,8 +74,14 @@ No prerequisites to fulfill.
 ## Edit an attribute
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type and the attribute key cannot be subsequently modified.
+
+[comment]: <> (Key kann man offenbar jetzt ändern, aber sinnvoll? KEY UPDATE Button + Warnung -> Caution in Doku!) 
+
 The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Edit an attribute set](./02_ManageAttributeSets.md#edit-an-attribute-set).   
 There are also some attributes that are automatically created by the system, for instance when installing a plugin or module.
+
+[comment]: <> (z.B. auch vie Treiber? Felder erstellt und gemappt?)
+
 Some of these system attributes are read-only and cannot be edited at all. It is highly recommended not to deactivate these system attributes to avoid interfering with the functioning of the *Core1 Platform*.
 
 #### Prerequisites
@@ -93,13 +101,15 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     > [Info] Be aware that you can only edit the attribute name, description, its status and configuration. All other fields and toggles are locked.
 
+[comment]: <> (Key update möglich mit UPDATE KEY jetzt, aber nicht empfohlen/sogar dagegen gewarnt. Warum ist die Funktion denn da?)
+
 2. Edit the desired data of the attribute in the corresponding fields in the *Data* tab.
 
 3. If desired, click the *Attribute set assignments* tab to check to which sets the selected attribute is assigned.
 
     ![Edit attribute assignments](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Assignments.png "[Edit attribute assignments]")
 
-    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set, see [Manage an attribute set](./02_ManageAttributeSets.md).
+    > [Info] If you want to change the attribute set assignments of the selected attribute, you have to modify the corresponding attribute set. For detailed information, see [Manage an attribute set](./02_ManageAttributeSets.md).
 
 4. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit attribute* view is closed.  
@@ -134,7 +144,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 3. Click the [SAVE] button in the upper right corner.   
     The attribute has been deactivated. The *Edit attribute* view is closed.
 
-    > [Info] Note that also the values stored in an attribute are not deleted when it is deactivated. As soon as the attribute is reactivated, the stored values are also visible again.
+    > [Info] Note that the values stored in an attribute are not deleted when it is deactivated. As soon as the attribute is reactivated, the stored values are also visible again.
 
 4. Press the **F5** key to initialize the *Core1 Platform* and to apply the changes.   
 
@@ -164,14 +174,14 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     ![Confirm deletion of attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/ConfirmDeletionAttribute.png "[Confirm deletion of attribute]")
 
-    > [Info] All dependencies to attribute sets, ETL mappings and entity entries are displayed in this window. Be aware that problems may occur if you delete an attribute with existing dependencies. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
-
-3. Click the [CONFIRM] button in the bottom right corner.   
-    The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
+    All dependencies to attribute sets, ETL mappings and entity entries are displayed in this window. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
     > [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
 
-> [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Permanently delete an attribute](../Operation/04_ManageDeletedAttributes.md#permanently-delete-an-attribute).
+3. Click the [CONFIRM] button in the bottom right corner.   
+    The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.
+ 
+    > [Info] The attribute is moved to the *DELETED ATTRIBUTES* tab, but it can still be recovered. To irretrievably delete the attribute, see [Permanently delete an attribute](../Operation/04_ManageDeletedAttributes.md#permanently-delete-an-attribute).
 
 
 
