@@ -9,13 +9,13 @@ If you want to maintain multiple scopes, you have to create and activate the res
 
 > [Info] A scope does not equal a sales channel or web store connection. It is just a dimension that can be added to the multi-scope attributes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
-[comment]: (Evtl. ergänzen, besser erklären/definieren. Beispiel?)
+[comment]: <> (Evtl. ergänzen, besser erklären/definieren. Beispiel?)
 
 ## Create a scope
 
 Create a scope to maintain multiple scopes or to create a new connection via the new scope.
 
-[comment]: (Evtl. umformulieren)
+[comment]: <> (Evtl. umformulieren)
 
 #### Prerequisites
 
