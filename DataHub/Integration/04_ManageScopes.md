@@ -32,6 +32,8 @@ No prerequisites to fulfill.
 
     ![Create scope](../../Assets/Screenshots/DataHub/Settings/Scopes/CreateChannel.png "[Create scope]")
 
+[comment]: <> (Sprache wählen?)
+
 2. Enter a name for the scope in the *Name* field and, if desired, add a scope description in the *Description* field.
 
 3. Enter a key for the scope in the *Key* field. The key is required for API access and must be system wide unique. A scope key must fulfill the following criteria:
@@ -51,6 +53,8 @@ No prerequisites to fulfill.
 ## Edit a scope
 
 After you have created a scope, you can edit its name, description and key.
+
+[comment]: <> (Sinnvoll, key zu ändern? Abhängigkeitsprobleme? Caution beim Editieren)
 
 #### Prerequisites
 
@@ -124,6 +128,8 @@ At least one scope has been created, see [Create a scope](#create-a-scope).
 
 1. Select the checkbox of the scope you want to delete in the list of scopes.    
     The editing toolbar is displayed above the scope list.
+
+[comment]: <> (Caution beim Löschen?)
 
 2. Click the [DELETE] button in the editing toolbar.  
     The scope has been deleted. The deletion cannot be undone.

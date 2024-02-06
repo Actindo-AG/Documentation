@@ -47,6 +47,8 @@ No prerequisites to fulfill.
 
 After you have created a language, you can edit its name or key.
 
+[comment]: <> (Stimmt das noch? Sinnvoll? Caution beim Editieren?)
+
 #### Prerequisites
 
 At least one language has been created, see [Create a language](#create-a-language).
@@ -122,7 +124,9 @@ At least one language has been created, see [Create a language](#create-a-langua
 1. Select the checkbox of the language you want to delete in the list of languages.    
     The editing toolbar is displayed above the language list.
 
+[comment]: <> (Caution beim Löschen?)
+
 2. Click the [DELETE] button in the editing toolbar.  
     The language has been deleted. The deletion cannot be undone.
 
-    > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).
+    > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the language from being used, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).

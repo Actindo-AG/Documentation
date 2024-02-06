@@ -87,6 +87,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
+[comment]: <> (Evtl. pop-up window umformulieren und Screenshot weg, durchg.)
 
 ### Create an attribute set with attribute inheritance
 

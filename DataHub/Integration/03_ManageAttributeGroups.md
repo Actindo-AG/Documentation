@@ -153,7 +153,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 You can delete an attribute group if it is no longer in use.
 Note that you just delete the attribute group but not the attributes within a group.
-All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned group* which is only displayed in the product view.
+All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned group*, which is only displayed in the product view in the *PIM* module.
 If you delete an attribute group with sub-groups, also the attribute sub-groups are deleted.
 
 The procedure to delete attribute groups and sub-groups is identical.
@@ -232,7 +232,7 @@ If you add an attribute to an attribute group that is already added to another g
 
 ### Change the order of attributes within a group
 
-The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view.
+The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view in the *PIM* module.
 You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
 
 The procedure to change the order of attributes within attribute groups and sub-groups is identical.
@@ -273,7 +273,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 You can remove an attribute from an attribute group if it is no longer in use.
 Note that you just remove the attribute from the attribute group but you do not delete the attribute itself.
-Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view.    
+Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view in the *PIM* module.    
 
 The procedure to remove attributes from attribute groups or sub-groups is identical.
 Just select the attribute sub-group instead of the group and follow the steps described below.

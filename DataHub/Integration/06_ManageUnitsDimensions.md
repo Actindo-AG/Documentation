@@ -7,7 +7,7 @@ The units and dimensions are used to assign units to attributes with different d
 
 Units are predefined and grouped by dimensions. For example, the length dimension contains units of length such as meters, kilometers, or miles. Each dimension has one base unit that cannot be changed. It is used to measure various units of measurement according to international standards, for example units of length are measured in meters. This means that the base unit meter has the factor 1 and all other measures of length are set in relation to it.   
 
-You can deactivate or activate a unit except of the base unit.
+You can deactivate or activate a unit except for the base unit.
 
 
 ## Deactivate a unit
@@ -24,7 +24,7 @@ No prerequisites to fulfill.
 
 ![Units and dimensions](../../Assets/Screenshots/DataHub/Settings/UnitsDimensions/UnitsDimensions.png "[Units and dimensions]")
 
-1. Click the dimension, in which the unit is located you want to deactivate.   
+1. Click the dimension in which the unit you want to deactivate is located.   
    The *List details of dimension* view is displayed. 
 
    ![Units](../../Assets/Screenshots/DataHub/Settings/UnitsDimensions/DetailListDimension.png "[Units]")
@@ -33,7 +33,7 @@ No prerequisites to fulfill.
   The editing toolbar is displayed.
 
 3. Click the [DEACTIVATE] button.   
-   For all units you had previously selected, the ![Check](../../Assets/Icons/Check.png "[Check]")(Check) icon has changed to a ![Cross](../../Assets/Icons/Cross02.png "[Cross]")(Cross) icon.
+   For all units you had previously selected, the ![Check](../../Assets/Icons/Check.png "[Check]")(Checkmark) icon has changed to a ![Cross](../../Assets/Icons/Cross02.png "[Cross]")(Cross) icon.
 
 
 ## Activate a unit
@@ -50,7 +50,7 @@ No prerequisites to fulfill.
 
 ![Units and dimensions](../../Assets/Screenshots/DataHub/Settings/UnitsDimensions/UnitsDimensions.png "[Units and dimensions]")
 
-1. Click the dimension, in which the unit is located you want to activate.   
+1. Click the dimension in which the unit you want to activate is located.   
    The *List details of dimension* view is displayed. 
 
    ![Units](../../Assets/Screenshots/DataHub/Settings/UnitsDimensions/DetailListDimension.png "[Units]")
@@ -59,5 +59,5 @@ No prerequisites to fulfill.
   The editing toolbar is displayed.
 
 3. Click the [ACTIVATE] button.   
-   For all units you had previously selected, the ![Cross](../../Assets/Icons/Cross02.png "[Cross]")(Cross) icon has changed to a ![Check](../../Assets/Icons/Check.png "[Check]")(Check) icon.
+   For all units you had previously selected, the ![Cross](../../Assets/Icons/Cross02.png "[Cross]")(Cross) icon has changed to a ![Check](../../Assets/Icons/Check.png "[Check]")(Checkmark) icon.
 

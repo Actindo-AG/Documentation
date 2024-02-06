@@ -290,7 +290,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 2. Click the [RERUN MAPPINGS] button in the upper right corner.   
     The *Rerun all mappings* window is displayed.
 
-    ![Rerun all mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
+    ![Rerun all mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
 
 3. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
