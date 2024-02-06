@@ -2,9 +2,9 @@
 
 In this part of the Adyen documentation, you will find the following chapters:
 
-- [General information](./Overview/01_General.md)   
-   - [Benefits](./Overview/01_General.md#benefits)   
-   - [Prerequisites](./Overview/01_General.md#prerequisites)
+- [General information](01_General.md)   
+   - [Benefits](01_General.md#benefits)   
+   - [Further information](01_General.md#further-information)
 
-- [Key features](../Overview/02_Features.md)
+- [Key features](02_Features.md)
 

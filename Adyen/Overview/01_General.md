@@ -13,7 +13,7 @@ This documentation refers to the Adyen plugin version 1.1.0. There may be differ
 
 - Integration with only one payment service provider that covers all required payment methods.
 - Connection via the *Payments* module
-- Receipt of authorizations, captures, refunds, cancellations, and chargebacks via push notification from Adyen triggered by external sources (e.g. store).
+- Receipt of authorizations, captures, refunds, cancellations, and chargebacks via push notification from Adyen triggered by external sources (for example, store).
 
 
 ## Further information

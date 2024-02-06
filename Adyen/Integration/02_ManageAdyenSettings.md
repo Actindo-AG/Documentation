@@ -1,24 +1,24 @@
 # Manage Adyen settings
 
-In addition to the settings in the *Payments* module, there are some settings necessary in the Adyen backend to ensure a smooth data transfer. It is recommended that you manage the *Payments* settings in parallel, so that you can enter the connection data alternately. Note that you can no longer copy the credentials after you have saved the Adyen or Payments settings. For detailed information, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
+In addition to the settings in the *Payments* module, there are some settings necessary in the Adyen&trade; backend to ensure a smooth data transfer. It is recommended that you manage the *Payments* settings in parallel, so that you can enter the connection data alternately. Note that you can no longer copy the credentials after you have saved the Adyen&trade; or Payments settings. For detailed information, see [Configure Adyen connection](./01_ManageAdyenConnection.md#configure-adyen-connection).
 
-The following procedures contain information on the settings to be configured in the Adyen backend. It shows the standard procedure that was current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen documentation. 
+The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedure that was current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
 
 **Additional information**   
 
-Adyen uses TLS certificates that are changed from time to time.  Actindo only checks if it is a valid certificate in general and does not validate specific certificates. So you can ignore this information. See also an update example from Adyen: [https://help.adyen.com/updates/tls-certificates-on-adyen-services](https://help.adyen.com/updates/tls-certificates-on-adyen-services). 
+Adyen&trade; uses TLS certificates that are changed from time to time.  Actindo only checks if it is a valid certificate in general and does not validate specific certificates. So you can ignore this information. See also an update example from Adyen&trade;: [https://help.adyen.com/updates/tls-certificates-on-adyen-services](https://help.adyen.com/updates/tls-certificates-on-adyen-services). 
 
 
 
 ## Create Adyen webhook
 
-Create a webhook to receive payment notifications from Adyen to the *Payments* module such as authorizations and cancellations. For detailed information, see [https://docs.adyen.com/development-resources/webhooks/](https://docs.adyen.com/development-resources/webhooks/) in the Adyen documentation. It includes a video that may also be helpful.
+Create a webhook to receive payment notifications from Adyen&trade; to the *Payments* module such as authorizations and cancellations. For detailed information, see [https://docs.adyen.com/development-resources/webhooks/](https://docs.adyen.com/development-resources/webhooks/) in the Adyen&trade; documentation. It includes a video that may also be helpful.
 
 
 #### Prerequisites
 
-- You have a valid user account in Adyen.
-- You are assigned to the **Merchant technical integrator** role in Adyen.
+- You have a valid user account in Adyen&trade;.
+- You are assigned to the **Merchant technical integrator** role in Adyen&trade;.
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*
 
 
@@ -62,7 +62,7 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 3. Enter the following settings in the *Security* section.
 
      - *Basic authentication*   
-         In the *Payments* module connection credentials, you have defined the credentials for the notification user. You must declare these credentials also in the Adyen backend settings, so that you can get notifications from Adyen. 
+         In the *Payments* module connection credentials, you have defined the credentials for the notification user. You must declare these credentials also in the Adyen&trade; backend settings, so that you can get notifications from Adyen&trade;. 
 
          ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png)
 
@@ -88,12 +88,12 @@ Create a webhook to receive payment notifications from Adyen to the *Payments* m
 ## Define synchronous or asynchronous processing
 
 Define whether you want to transfer the payment data using synchronous or asynchronous processing. 
-- At synchronous processing, Adyen creates a connection for each event that occurs. This has the advantage that Adyen is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred. See also [Synchronous processing](../Troubleshooting/02_SynchronousProcessing.md) in the Troubleshooting chapter.   
+- At synchronous processing, Adyen&trade; creates a connection for each event that occurs. This has the advantage that Adyen&trade; is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slowly if a lot of events are to be transferred. See also [Synchronous processing](../Troubleshooting/02_SynchronousProcessing.md) in the Troubleshooting chapter.   
 - At asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be sent with parallel jobs. 
 
 
 #### Prerequisites
-- In Actindo, an Adyen connection has been created, see [Create Adyen connection](./01_ManageAdyenConnection.md#create-adyen-connection).
+- In Actindo, an Adyen&trade; connection has been created, see [Create Adyen connection](./01_ManageAdyenConnection.md#create-adyen-connection).
 - You have a valid user account in Adyen.
 
 #### Procedure
@@ -122,13 +122,13 @@ Define whether you want to transfer the payment data using synchronous or asynch
 
 ## Create web service API credentials
 
-Create the web service API credentials to send messages from the *Payments* module to the Adyen backend. For detailed information, see [https://docs.adyen.com/development-resources/api-credentials/](https://docs.adyen.com/development-resources/api-credentials/) in the Adyen documentation. 
+Create the web service API credentials to send messages from the *Payments* module to the Adyen&trade; backend. For detailed information, see [https://docs.adyen.com/development-resources/api-credentials/](https://docs.adyen.com/development-resources/api-credentials/) in the Adyen&trade; documentation. 
 
 When you switch to your live environment, you must generate another web service API key in your live customer area.
 
 #### Prerequisites
 
-- You have a valid user account in Adyen.
+- You have a valid user account in Adyen&trade;.
 - You are assigned to both the user roles *Merchant admin role* and
 *Manage API credentials*
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*
