@@ -9,4 +9,4 @@ Like Actindo, Adyen uses a queue to send messages. If you are using synchronous 
 
 **Solution approach**
 
-If applicable, change from synchronous processing to asynchronous processing to prevent these situations. For detailed information, see [Define synchronous or asynchronous processing](../Integration/02_ManageAdyenSettings.md).
+If applicable, change from synchronous processing to asynchronous processing to prevent these situations. For detailed information, see [Define synchronous or asynchronous processing](../Integration/01_ManageAdyenSettings.md).

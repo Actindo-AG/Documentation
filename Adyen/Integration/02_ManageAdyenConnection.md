@@ -1,10 +1,12 @@
 # Manage Adyen connections
 
-In the following, the procedures to create, edit, configure, enable, or disable Adyen&trade; connections are described.  
+In the following, the procedures to create, edit, configure, enable, or disable Adyen&trade; connections in the *Payments* module are described.  
 
 Note the following:   
 - If you have more than one merchant account in Adyen&trade; that you want to manage with Actindo, you must create a connection for each.   
 - Adyen&trade; offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
+- It is recommended that you manage the Adyen&trade; settings in parallel, so that you can enter the connection data alternately. Note that you can no longer copy the credentials after you have saved the Adyen&trade; or Payments settings. For detailed information, see [Manage Adyen settings](01_ManageAdyenSettings.md).
+
 
 ## Create Adyen connection
 Create a connection to the Adyen&trade; payment service provider.
@@ -12,7 +14,8 @@ Create a connection to the Adyen&trade; payment service provider.
 #### Prerequisites
 
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
-- In case you are editing a connection to an Adyen&trade; live account, you have your Adyen&trade; credentials for both the *Checkout API endpoint* and the *Payment API endpoint* at hand.   
+- You are logged in to Adyen&trade;.
+- In case you are editing a connection to an Adyen™ live account, you have the API endpoints for both the Checkout API endpoint and the Payment API endpoint at hand.
 - In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
 
 #### Procedure
@@ -33,7 +36,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
-4. Enter the API credentials. There are some standard access points for the testing environment. For your productive environment, Adyen&trade; provides you with individual API credentials.
+4. Enter the API endpoints and credentials. There are some standard access points for the testing environment. For your productive environment, Adyen&trade; provides you with individual API endpoints. 
 
     -  Enter the endpoint of the checkout API in the *Checkout API endpoint* field. 
 
@@ -41,7 +44,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
     - Enter the key of the checkout API in the *Checkout API key* field.   
     -  Enter the payment API endpoint in the *Payment API endpoint* field. For the test environment it is `https://pal-test.adyen.com/pal/servlet/Payment/`.
-    - Enter the user for the payment API in the *Payment API user* field.
+    - Enter the user for the payment API in the *Payment API user* field. 
 
 5. Enter the API credentials of the API users that you have created in Adyen&trade;:     
     
@@ -60,7 +63,7 @@ Create a connection to the Adyen&trade; payment service provider.
 5. Enter the credentials for notifications that Adyen shall send to the *Payments* module via the *http://basic_out_credentials* API.  <!---Stimmt der Name des APIs?--> 
 
     -  Define the technical user for the notification API in the *Notification user* field. You can freely assign the username. Make a note of this technical user to store this username in the Adyen configuration later. For detailed information, see [Create webhook](02_ManageAdyen&trade;Settings.md#create-adyen-webhook). 
-    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the Adyen&trade; configuration later. For detailed information, see [Create webhook](02_ManageAdyenSettings.md#create-adyen-webhook).
+    -  Define the password for the notification API in the *Notification password* field. You can freely assign the password. Make a note of this password to store the password in the Adyen&trade; configuration later. For detailed information, see [Create webhook](01_ManageAdyenSettings.md#create-adyen-webhook).
 
 6. Enter the merchant account relevant for this connection in the *Merchant account* field. This is the merchant account for which you currently create the connection. You have created it in the Adyen&trade; configuration.
     
@@ -83,13 +86,13 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 ## Configure Adyen connection
 
-Configure the Adyen&trade; connection after you have created it. It is recommended that you manage the Adyen&trade; settings in parallel, so that you can enter the connection data alternately. Keep in mind that you can no longer copy the credentials after you have saved the Adyen&trade; or Payments configuration. For detailed information, see [Manage Adyen settings](./02_ManageAdyenSettings.md).
+Configure the Adyen&trade; connection after you have created it. It is recommended that you manage the Adyen&trade; settings in parallel, so that you can enter the connection data alternately. Keep in mind that you can no longer copy the credentials after you have saved the Adyen&trade; or Payments configuration. For detailed information, see [Manage Adyen settings](./01_ManageAdyenSettings.md).
 
 In the *Payments* connection settings, you can enter the event codes that are to be ignored. Alternatively, you can select the unwanted event codes in the Adyen settings. 
 
 The Adyen&trade; API has two endpoints, one for a synchronous and one for an asynchronous processing. If you decide for asynchronous processing, what is recommended, you can configure the number of workers to process messages in asynchronous processing. 
 
-For detailed information, see [Define synchronous or asynchronous processing](./02_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
+For detailed information, see [Define synchronous or asynchronous processing](./01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
 
 #### Prerequisites
@@ -113,18 +116,18 @@ For detailed information, see [Define synchronous or asynchronous processing](./
 
    ![Ignored event codes](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
-3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen&trade; backend. For detailed information, see [Define event codes to be ignored](./02_ManageAdyenSettings.md#define-event-codes-to-be-ignored).   
+3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen&trade; backend. For detailed information, see [Define event codes to be ignored](./01_ManageAdyenSettings.md#define-event-codes-to-be-ignored).   
     The event code to be ignored is entered. 
 
     ![Ignored event code](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")
 
-4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button. You can also do this in the Adyen&trade; backend. For detailed information, see [Create webhook in Adyen](./02_ManageAdyenSettings.md#create-adyen-webhook).
+4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button. You can also do this in the Adyen&trade; backend. For detailed information, see [Create webhook in Adyen](./01_ManageAdyenSettings.md#create-adyen-webhook).
 
 5. Click the *Number of workers handling messages* setting.   
    The *Number of workers handling messages* setting is displayed. 
    ![Number of workers](../../Assets/Screenshots/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
-6. Enter the number of workers you want to use for asynchronous processing of messages. For connections with a lot of traffic, a number between 5-10 might be sufficient. See also [Define synchronous or asynchronous processing](02_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
+6. Enter the number of workers you want to use for asynchronous processing of messages. For connections with a lot of traffic, a number between 5-10 might be sufficient. See also [Define synchronous or asynchronous processing](01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
 7. If desired, you can apply the standard settings by enabling the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply default) toggle in the top right corner.
 

@@ -1,4 +1,4 @@
-[!! Manage Adyen connection](../Integration/01_ManageAdyenConnection.md)
+[!! Manage Adyen connection](../Integration/02_ManageAdyenConnection.md)
 
 
 # CONNECTIONS (Adyen)
