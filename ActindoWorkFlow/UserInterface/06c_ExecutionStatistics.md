@@ -36,4 +36,4 @@ The following functions and fields are available:
    Name of the workflow that was run through.
 
 - *Transition*   
-    Transition that has been executed.
+   Transition that has been executed.
