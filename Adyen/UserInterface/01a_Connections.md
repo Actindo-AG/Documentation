@@ -18,20 +18,22 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 **Credentials**
 
+The *Credentials* section displays connection credentials which you define partly in Actindo and partly in Adyen&trade;. 
+
 - *Checkout API endpoint*   
-   Edit the endpoint of the checkout API. For detailed information, see https://docs.adyen.com/api-explorer/Checkout/71/overview in the Adyen&trade; documentation.  
+   Endpoint of the checkout API that is maintained in Adyen&trade;. For detailed information on the checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the testing environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
      
 - *Checkout API key*    
-   Edit the key of the *Checkout API* which you have created in the settings of the *Checkout API* in the Adyen&trade; backend.
+   Key of the *Checkout API* endpoint that is maintained in the Adyen&trade; backend.
 
 - *Payment API endpoint*   
-  Edit the endpoint of the *Payment API*.  
+   Endpoint of the *Payment API*. For the test environment, it is `https://pal-test.adyen.com/pal/servlet/Payment/`, for the live account you get the endpoint directly from Adyen&trade;.
 
 - *Payment user*   
-   Edit the username of the technical user which you have created in the settings of the *Payment API* in the Adyen&trade; backend.
+   Username of the technical user that is maintained in the Adyen&trade; backend.
 
 - *Payment password*   
-   Edit the password of the *Payment API* you have created in the settings of the Adyen&trade; backend.
+   Password of the *Checkout* API that is maintained in the Adyen&trade; backend.
 
  - *Report user*  
      Edit the username of the *Report API* you have created in the settings of the Adyen&trade; backend.

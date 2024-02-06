@@ -169,7 +169,7 @@ When you switch to your live environment, you must generate another web service 
 
 5. Change to your Actindo instance and insert the password in the *Payment password* field.
 
-    ![Payment password](../../Assets/Screenshots/Adyen/Integration/AdyenPaymentPassword.png)
+    ![Payment password](../../Assets/Screenshots/Adyen/Integration/AdyenPaymentPassword.png "[Payment password]")
 
 6. Return to Adyen and click the [Save changes] button.
 
