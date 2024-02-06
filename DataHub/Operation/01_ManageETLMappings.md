@@ -31,10 +31,14 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
     ![Create ETL attribute set mapping](../../Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
+[comment]: <> (Screenshot: Create mapping of ETL attribute set. Durchg. anpassen? Translation files)
+
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.   
     If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL attribute set mapping* drop-down list is unlocked.
+
+[comment]: <> (Screenshot: Create mapping of ETL attribute set. Durchg. anpassen? Translation files korrigieren?)
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
 
@@ -62,6 +66,8 @@ You can edit the attribute mappings within an attribute set mapping, add a custo
 ### Edit the ETL attribute mappings
 
 When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
+
+[comment]: <> (tracking mode erklären? Nirgendwo wirklich beschrieben)
 
 #### Prerequisites
 
@@ -133,12 +139,12 @@ Within an attribute set mapping, you can define custom scope and language attrib
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
-1. Click the attribute set mapping to which you want to add a differing language or scope attribute mapping for a certain destination attribute.   
+1. Click the attribute set mapping to which you want to add a custom language or scope attribute mapping for a certain destination attribute.   
     The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
     ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Select the checkbox of the attribute mapping to which you want to add a differing mapping for another language or scope.
+2. Select the checkbox of the attribute mapping to which you want to add a custom mapping for another language or scope.
     The editing toolbar is displayed above the attribute mappings.
 
     ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
@@ -264,6 +270,11 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.   
     For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
+
+
+
+[comment]: <> (Screenshot evtl. löschen) 
+[comment]: <> (Rerun selected mapping und Rerun mappings jetzt anders in terminologie-einspielen sandbox. S. Screenshots)
 
 
 ### Rerun an attribute set mapping
