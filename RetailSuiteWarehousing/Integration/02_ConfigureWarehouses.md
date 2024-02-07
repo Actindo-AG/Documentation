@@ -31,7 +31,7 @@ No prerequisites to fulfill.
 
 2. Enter a number for the warehouse in the *Warehouse* field. This is the warehouse ID.
 
-3. If desired, select the warehouse group in the *Warehouse group* drop-down list.  
+3. If desired, select a warehouse group in the *Warehouse group* drop-down list.  
     
     > [Info] If you do not select a warehouse group, the warehouse will be included in the **No warehouse group**.
 
@@ -43,7 +43,7 @@ No prerequisites to fulfill.
 
 6. Click the *Exclude from ordering* drop-down list and select **No** to deactivate the purchasing process.
 
-    > [Info] The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is activated, that is, set to **Yes**, the stock amount stored in this warehouse will not be part of the calculation, that is, it will be ignored by the system.
+    > [Info] The *Purchasing* module can calculate the suggested amount of a product that needs to be purchased from a supplier to replenish the stock level. If this option is set to **Yes**, the stock amount stored in this warehouse will not be part of the calculation, that is, it will be ignored by the system.
 
 7. If desired, enter any comments in the *Comment* field.
 

@@ -4,7 +4,7 @@
 
 # Configure the warehouse groups
 
-A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example location or type of product. Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
+A warehouse group is a higher-level classification of storage facilities according to customer-defined criteria, for example, location or type of product. Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group. A warehouse group can contain an unlimited number of warehouses.  
 
 Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 
@@ -121,7 +121,7 @@ Create an externally controlled warehouse group, that is, a warehouse group mana
     The warehouse group has been saved.
 
 9. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner of the left side bar to update the list of warehouses.  
-The new warehouse group is displayed in the list of warehouses.
+    The new warehouse group is displayed in the list of warehouses.
 
 
 
