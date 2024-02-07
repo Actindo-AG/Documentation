@@ -15,7 +15,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
-- In case you are editing a connection to an Adyen™ live account, you have the API endpoints for both the Checkout API endpoint and the Payment API endpoint at hand.
+- In case you are creating connection to an Adyen™ live account, you have the API endpoints for both the *Checkout API* endpoint and the *Payment API* endpoint at hand.
 - In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
 
 #### Procedure
@@ -36,14 +36,19 @@ Create a connection to the Adyen&trade; payment service provider.
 
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
-4. Enter the API endpoints and credentials. There are some standard access points for the testing environment. For your productive environment, Adyen&trade; provides you with individual API endpoints. 
+4. Enter the API endpoints and credentials. To do this, follow these steps:
+    > [Info] There are some standard access points for a testing environment. For your productive/live environment, Adyen&trade; provides you with individual API endpoints. 
 
     -  Enter the endpoint of the checkout API in the *Checkout API endpoint* field. 
 
        > [Info] The *Adyen Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is `https://checkout-test.adyen.com/checkout/`.
 
-    - Enter the key of the checkout API in the *Checkout API key* field.   
+    - Enter the key of the Checkout API in the *Checkout API key* field. You have generated this key in the Adyen settings before:
+    
+       
+
     -  Enter the payment API endpoint in the *Payment API endpoint* field. For the test environment it is `https://pal-test.adyen.com/pal/servlet/Payment/`.
+
     - Enter the user for the payment API in the *Payment API user* field. 
 
 5. Enter the API credentials of the API users that you have created in Adyen&trade;:     
