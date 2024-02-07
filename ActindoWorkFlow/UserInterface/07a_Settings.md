@@ -10,6 +10,9 @@
 
 The side menu displays the different log types. The log lifetime view on the right side changes to the corresponding log type when another entry is selected in the side menu.
 
+- *Lifetime execution log in days*   
+    Click this menu entry to display the *Lifetime execution log in days*.
+
 **LOG LIFETIMES**
 
 - *Emergency-log lifetime*   
@@ -36,6 +39,24 @@ The side menu displays the different log types. The log lifetime view on the rig
 - *Debug-log lifetime*   
     Click this menu entry to display the *Debug-log lifetime* view on the right side.
 
+The following functions are available for all menu entries:
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+    Enable this toggle to apply the default to the selected log type. Disable the toggle to unlock the field and to enter a different log lifetime. By default, this toggle is active.
+
+- [SAVE]   
+    Click this button to save the defined log lifetime for the selected log type.
+
+
+## Lifetime execution log in days
+
+*Workflows > Settings > Tab SETTINGS > Side menu entry Lifetime execution log in days*
+
+![Lifetime execution log in days](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Lifetime execution log in days]")
+
+- *Lifetime execution log in days*   
+    Enter the number of days to keep the selected log history available. For detailed information, see [EXECUTION LOG](06b_ExecutionLog.md). This field is locked when the *Apply from default* toggle is active.
+
 
 
 ## Emergency-log lifetime
@@ -44,14 +65,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Emergency-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/EmergencyLogLifetime.png "[Emergency-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Emergency* type. The *Emergency-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Emergency-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Emergency-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -61,14 +76,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Alert-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/AlertLogLifetime.png "[Alert-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Alert* type. The *Alert-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Alert-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Alert-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -78,14 +87,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Critical-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/CriticalLogLifetime.png "[Critical-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Critical* type. The *Critical-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Critical-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Critical-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -95,14 +98,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Error-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/ErrorLogLifetime.png "[Error-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Error* type. The *Error-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Error-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Error-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -112,14 +109,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Warning-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/WarningLogLifetime.png "[Warning-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Warning* type. The *Warning-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Warning-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Warning-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -129,14 +120,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Notice-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/NoticeLogLifetime.png "[Notice-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Notice* type. The *Notice-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Notice-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Notice-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -146,14 +131,8 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Info-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/InfoLogLifetime.png "[Info-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Info* type. The *Info-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Info-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Info-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.
 
 
 
@@ -163,11 +142,5 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 ![Debug-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/DebugLogLifetime.png "[Debug-log lifetime]")
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default log lifetime of one day to logs with the *Debug* type. The *Debug-log lifetime (in days)* field is locked. Deactivate the toggle to unlock the *Debug-log lifetime (in days)* field and enter a different log lifetime. By default, this toggle is active.
-
-- [SAVE]   
-    Click this button to save the defined log lifetime for the selected log type.
-
 - *Debug-log lifetime (in days)*   
-    Enter the number of days the selected log will be stored. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days to keep the selected log history available. This field is locked when the *Apply from default* toggle is active.

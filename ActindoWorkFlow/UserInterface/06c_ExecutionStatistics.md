@@ -4,12 +4,12 @@
 
 ![Execution statistics](../../Assets/Screenshots/ActindoWorkFlow/Logs/ExecutionStatistics.png)
 
-The list displays the average processing time in seconds for each workflow action over a specific time period. For example, you can use it to review your workflow processes to identify actions that take longer than average and use this information for further analysis of your workflow.   
+The list displays the average processing time in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify workflow actions that take longer than average and to use this information for further analysis of your workflow.   
 
  - *From-to*    
    Enter the time stamp of the start and end time you want to analyze. The default is the current time minus one hour. 
 
-- *Queue type*
+- *Queue type*   
     If desired, click the drop-down list and select a specific queue type to display only transitions to which this queue type has been assigned.
 
 - [LOAD STATISTICS]    
@@ -18,10 +18,10 @@ The list displays the average processing time in seconds for each workflow actio
 The following functions and fields are available:
    
 - *Number of executions per outcome*   
-    Specifies how often an action has been processed per outcome.
+    Specifies how often a workflow action has been processed per outcome.
 
 - *Error rate*    
-    Specifies the percentage of failed actions. 
+    Specifies the percentage of failed workflow actions. 
 
 - *Average duration*   
    If a workflow action was processed by more than one process, the average processing time in seconds per outcome.

@@ -15,14 +15,16 @@ No prerequisites to fulfill.
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
 1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following log types are available:
-    - **Emergency-log lifetime**
-    - **Alert-log lifetime**
-    - **Critical-log lifetime**
-    - **Error-log lifetime**
-    - **Warning-log lifetime**
-    - **Notice-log lifetime**
-    - **Info-log lifetime**
-    - **Debug-log lifetime**
+    - **Lifetime execution log in days**
+    - **LOG LIFETIMES**
+        - **Emergency-log lifetime**
+        - **Alert-log lifetime**
+        - **Critical-log lifetime**
+        - **Error-log lifetime**
+        - **Warning-log lifetime**
+        - **Notice-log lifetime**
+        - **Info-log lifetime**
+        - **Debug-log lifetime**
 
     The lifetime view of the selected log type is displayed on the right side.
 

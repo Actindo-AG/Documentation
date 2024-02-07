@@ -25,6 +25,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Check the process status](./02_TrackWorkflowProcess.md#check-the-process-status)
     - [Check the process action status](./02_TrackWorkflowProcess.md#check-the-process-action-status)
     - [Check the token status and content](./02_TrackWorkflowProcess.md#check-the-token-status-and-content)
+    - [Check the execution log](./02_TrackWorkflowProcess.md#check-the-execution-log)
 
 
 - [Manage the triggers](./03_ManageTriggers.md)

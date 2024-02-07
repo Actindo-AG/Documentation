@@ -56,6 +56,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
 - [Settings](./07_Settings.md)
 
 - [SETTINGS](./07a_Settings.md)
+    - [Lifetime execution log in days](./07a_Settings.md#lifetime-execution-log-in-days)
     - [Emergency-log lifetime](./07a_Settings.md#emergency-log-lifetime)
     - [Alert-log lifetime](./07a_Settings.md#alert-log-lifetime)
     - [Critical-log lifetime](./07a_Settings.md#critical-log-lifetime)

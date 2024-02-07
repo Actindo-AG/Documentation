@@ -48,7 +48,7 @@ Depending on the action status, the editing toolbar displays the following butto
 - [REMOVE DEFER TIME]  
     Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed if the action status is *In progress*.
 
-    > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
+    > [Info] The defer time is preconfigured per action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
 - *Status*  
     Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:

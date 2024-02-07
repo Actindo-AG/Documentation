@@ -1,16 +1,17 @@
 [!!User interface Workflows](../UserInterface/02a_Workflows.md)
 [!!User interface Processes](../UserInterface/03a_Processes.md)
 [!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
+[!!User interface EXECUTION LOG](../UserInterface/06b_ExecutionLog.md)
 [!!Retry a process action](../Troubleshooting/01_RetryProcessAction.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
 # Track the workflow process
 
-A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
+A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a further workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 
 A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/04_WorkflowProcessElements.md).
 
-The workflow process can be tracked to check the status of a whole process or of individual actions, as well as the status and the content of a token.
+The workflow process can be tracked to check the status of a whole process or of individual actions, to check the status and the content of a token, or to analyze the execution of the actions.
 
 
 ## Check the process status
@@ -151,3 +152,54 @@ A process is started with a single token at the start place, which will be input
 For detailed information about checking the action status, see [Check the process action status](#check-the-process-action-status).
 
 > [Info] A number is displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
+
+
+## Check the execution log
+
+The execution log can be used to monitor the execution of individual process actions and, if necessary, detect and resolve transition-related issues, that is issues in the workflow configuration or in subsequent processing operations.
+
+The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
+For example, a process may have taken a long time to be executed. Here you can see if a certain process action has caused the delay, perhaps sending an email, or if the process had to wait a long time for execution.
+
+#### Prerequisites
+
+- A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
+- A workflow process has been initiated.
+
+#### Procedure
+
+*Workflows > Processes > Tab OVERVIEW > Select process*
+
+![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
+
+1. Click the *Execution log* tab.  
+    The *Execution log* tab with a list of all executed transitions within the selected process is displayed.
+
+    > [Info] Note that the list only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Configure the logging settings](../Integration/02_ConfigureLoggingSettings.md).
+
+2. Check the *Waited for execution* time to see if the transition had to wait until the worker was available.
+
+3. Check the *Duration* time to see how it took the worker needed to complete the process action. Very helpful in this context is the *Execution statistics* view which displays the average processing time in seconds for each process action over a specific time period. For detailed information, see [EXECUTION STATISTICS](../UserInterface/06c_ExecutionStatistics.md).
+
+4. Check the *Outcome* column to see if the process action was performed successful, or if the worker stopped the process at a certain process action. The following statuses are available:
+
+    - **Success**   
+    The process action has been processed successfully.   
+
+    - **Deferred**   
+    The process action has run through, but it needs to wait for something. It will start automatically again when the expected event or data is available.  
+
+    - **Retry**    
+    The process action failed, but will be retried after a period of time has elapsed. 
+
+    - **Error**   
+    The process action has finally failed.
+
+5. Check the *Profile* column to see if a profile has been created for a process action. This may be the reason for a longer processing time. If desired, open the profile. **For detailed information, see**
+
+6. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
+
+7. Check the *Worker number* to see the worker who has processed the process action. 
+
+8. Check the *Transition* column to see the name of the transition.
+

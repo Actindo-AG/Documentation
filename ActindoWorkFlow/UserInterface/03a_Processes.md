@@ -333,3 +333,11 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 
 ### Execution log
 
+![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
+
+The list displays all execution logs that have been created for each transition of the selected process. It allows you to analyze what each worker did and how long it took to execute an action.   
+For example, a process may have taken a long time to be executed. Here you can see if a certain action has caused the delay, perhaps sending an email, or if the process had to wait a long time for execution. For detailed information, see [Check the execution log](../Operation/02_TrackWorkflowProcess.md#check-the-execution-log). 
+
+Note that the execution log is only available for a specific time period. It displays all logs that have been created within the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Lifetime execution log in days](./07a_Settings.md#lifetime-execution-log-in-days).  
+
+For detailed information on fields and functions of this list, see [EXECUTION LOG](06b_ExecutionLog.md).
