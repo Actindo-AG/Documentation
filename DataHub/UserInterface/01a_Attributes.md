@@ -29,10 +29,12 @@ The following functions and fields are available in this view:
 - *Name*   
     Attribute name.
 
-- *Status*   
+- *Active*   
     Attribute status. The following statuses are available:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
+
+[comment]: <> (Besser Status in UI, wie vorher? Translation files?)
 
 - *Group*   
     Attribute group to which the attributes are assigned. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
@@ -120,6 +122,8 @@ The *Create attribute* view contains all fields and configurations that define t
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
+[comment]: <> (UPDATE KEY -> warum hier? Sollte nicht nur in Edit sein?)
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
 
@@ -189,6 +193,9 @@ The *Edit attribute* view contains all fields and configurations that define the
 - *Key*   
     Attribute key. In the *Edit attribute* view, this field is locked.
 
+- *UPDATE KEY*  
+    Click this button to edit the attribute key. The *Update attribute key* window is displayed, see [Update attribute key](#update-attribute-key). 
+
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     This toggle indicates whether the attribute is multi-language or not. In the *Edit attribute* view, this toggle is read-only.
 
@@ -232,3 +239,19 @@ The list displays all attributes. Depending on the settings, the displayed colum
     Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
+
+
+### Update attribute key
+
+*DataHub > Data model > Tab ATTRIBUTES > Select attribute > Tab Data > Button UPDATE KEY*
+
+![Update attribute key](../../Assets/Screenshots/DataHub/Settings/Attributes/UpdateAttributeKey.png "[Update attribute key]")
+
+- *New key*  
+    Enter the new key. The current attribute key is displayed.
+
+- [CONFIRM]  
+    Click this button to confirm the new key.
+
+- [CANCEL]  
+    Click this button to cancel updating the attribute key.

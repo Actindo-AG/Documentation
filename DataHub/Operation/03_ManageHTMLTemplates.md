@@ -78,11 +78,11 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
-> [Info] If you want to include Smarty templates into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
+
+> [Info] If you want to include Smarty templates into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
 
 1. Click the text area and enter the desired Smarty template(s).
 
@@ -159,7 +159,7 @@ The special rules to be followed to correctly include a tree node variable are d
 1. Click the text area and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include a tree node variable by doing the following:
-    + Add **{datahub_translatable_value entity=$entity property="PropertyKey" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}** to the textarea.
+    + Add **{datahub_translatable_value entity=$entity property="PropertyKey" languageKey=$languageKey entityTypeClassName="Actindo\Modules\Actindo\DataHub\Models\Tenant\TreeNode"}** to the text area.
 
     + Define the tree node attribute you want to include a variable for by adding the corresponding attribute key as a suffix to the entity variable.
 
@@ -174,7 +174,7 @@ The special rules to be followed to correctly include a tree node variable are d
 
 ### Include a language adjustable variable 
 
-It is possible to define a variable in such a way, that its value is automatically adjusted depending on its language.   
+It is possible to define a variable in such a way that its value is automatically adjusted depending on its language.   
 The special rules to be followed to correctly include such a variable via Smarty templates into your HTML template are described below.
 
 #### Prerequisites
@@ -183,16 +183,16 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 #### Procedure
 
-> [Info] If you want to include a variable that adjusts depending on its language into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
-
 *DataHub > Settings > Tab HTML TEMPLATES > Select HTML template*   
 
 ![Edit HTML template](../../Assets/Screenshots/DataHub/Settings/HTMLTemplates/EditHTMLTemplate.png "[Edit HTML template]")
 
+> [Info] If you want to include a variable that adjusts depending on its language into a new HTML template, follow the steps described in the [Create an HTML template](#create-an-html-template) procedure before proceeding to the steps below.
+
 1. Click the text area and, if desired, edit or add the Smarty template(s) and/or HTML text for the template.
 
 2. Include language adjustable variable by doing the following:
-    + Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the textarea.
+    + Add **{datahub_attribute_value entity=$entity attributeKey="attributeKey" scopeKey="scopeKey" languageKey=$languageKey}** to the text area.
 
     + Replace **"attributeKey"** between the quotes by the desired attribute key, for instance use **"pim_art_name"** for the PIM product name.
     
