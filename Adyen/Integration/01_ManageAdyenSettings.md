@@ -62,14 +62,16 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 3. Enter the following settings in the *Security* section.
 
      - *Basic authentication*   
-         In the *Payments* module connection credentials, you have defined the credentials for the notification user. You must declare these credentials also in the Adyen&trade; backend settings, so that you can get notifications from Adyen&trade;. 
+         - Define a username and password for the notification user, so that you can get notifications from Adyen&trade;. You can freely define them.
 
-         ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png "[Basic authentification]")
+            ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png "[Basic authentification]")
 
-         Enter the server's username and password that you have defined as *Notification user* and *Notification password* in the *Payments* settings. Click the [Apply] button.
+         - Change to your Actindo instance and enter the server's username and password in the *Notification user* and *Notification password* fields the *Payments* settings. 
+         
+            ![Notification user and password](../../Assets/Screenshots/Adyen/Integration/AdyenNotificatioUser.png "[Notification user and password]")
 
-         ![Notification user and password](../../Assets/Screenshots/Adyen/Integration/AdyenNotificatioUser.png "[Notification user and password]")
-
+         - Change back to Adyen and click the [Apply] button.
+      
      - *HMAC key*   
          You can ignore this setting. It is currently not supported by the *Payments* module.   
 
@@ -175,7 +177,7 @@ When you switch to your live environment, you must generate another web service 
     - Click the *Basic auth* tab and click the [Generate password] button.
       The password is automatically created.
 
-        ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenReportServicePassword.png "[Web service password]")
+        ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Web service password]")
     
     - Click the [Copy] button. 
 
