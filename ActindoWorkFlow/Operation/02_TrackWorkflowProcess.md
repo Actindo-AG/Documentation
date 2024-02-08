@@ -156,10 +156,10 @@ For detailed information about checking the action status, see [Check the proces
 
 ## Check the execution log
 
-The execution log can be used to monitor the execution of individual process actions and, if necessary, detect and resolve transition-related issues, that is issues in the workflow configuration or in subsequent processing operations.
+The execution log can be used to monitor the execution of individual process actions and, if necessary, to detect and to resolve transition-related issues, that is issues in the workflow configuration or in subsequent processing operations.
 
 The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
-For example, a process may have taken a long time to be executed. Here you can see if a certain process action has caused the delay, perhaps sending an email, or if the process had to wait a long time for execution.
+For example, a process may have taken a long time to be executed. Here you can see if a certain process action caused the delay, such as sending an email, or if the process had to wait a long time for execution.
 
 #### Prerequisites
 
@@ -173,18 +173,18 @@ For example, a process may have taken a long time to be executed. Here you can s
 ![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
 
 1. Click the *Execution log* tab.  
-    The *Execution log* tab with a list of all executed transitions within the selected process is displayed.
+    The *Execution log* tab with a list of all executed transitions (process actions) within the selected process is displayed.
 
-    > [Info] Note that the list only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Configure the logging settings](../Integration/02_ConfigureLoggingSettings.md).
+    > [Info] Note that the list only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Settings](../UserInterface/07a_Settings.md).
 
-2. Check the *Waited for execution* time to see if the transition had to wait until the worker was available.
+2. Check the *Waited for execution* time to see if the process action had to wait until the worker was available.
 
-3. Check the *Duration* time to see how it took the worker needed to complete the process action. Very helpful in this context is the *Execution statistics* view which displays the average processing time in seconds for each process action over a specific time period. For detailed information, see [EXECUTION STATISTICS](../UserInterface/06c_ExecutionStatistics.md).
+3. Check the *Duration* time to see how long it took the worker to complete the process action. Very helpful in this context is the *Execution statistics* view, which displays the average processing time in seconds for each process action over a specified time period. For detailed information, see [Execution statistics](../UserInterface/06c_ExecutionStatistics.md).
 
-4. Check the *Outcome* column to see if the process action was performed successful, or if the worker stopped the process at a certain process action. The following statuses are available:
+4. Check the *Outcome* column to see if the process action was performed successfully, or if the worker stopped the process at a certain process action. The following statuses are available:
 
     - **Success**   
-    The process action has been processed successfully.   
+    The process action was performed successfully.   
 
     - **Deferred**   
     The process action has run through, but it needs to wait for something. It will start automatically again when the expected event or data is available.  
@@ -193,13 +193,13 @@ For example, a process may have taken a long time to be executed. Here you can s
     The process action failed, but will be retried after a period of time has elapsed. 
 
     - **Error**   
-    The process action has finally failed.
+    The process action failed finally.
 
-5. Check the *Profile* column to see if a profile has been created for a process action. This may be the reason for a longer processing time. If desired, open the profile. **For detailed information, see**
+5. Check the *Profile* column to see if a profile was created for a process action. This may be the reason for a longer processing time. If desired, open the profile. For detailed information, see [Profile](../UserInterface/06d_Profile.md).
 
 6. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
-7. Check the *Worker number* to see the worker who has processed the process action. 
+7. Check the *Worker number* to see the worker who performed the process action. 
 
 8. Check the *Transition* column to see the name of the transition.
 

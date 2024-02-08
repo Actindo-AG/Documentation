@@ -1,4 +1,7 @@
-# EXECUTION LOG
+[!!Track the workflow process](../Operation/02_TrackWorkflowProcess.md)
+
+
+# Execution log
 
 *Workflows > Logs > Tab EXECUTION LOG*
 
@@ -7,7 +10,10 @@
 The list displays all logs that have been created for each process action performed. It allows you to analyze what each worker did and how long it took to execute an action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action has caused the delay, perhaps sending an email, or if the process action or the process had to wait a long time for execution.
 
-The list displays all execution logs that have been created within the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Configure the logging settings](../Integration/02_ConfigureLoggingSettings.md).
+The list displays all execution logs that have been created within the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Settings](../UserInterface/07a_Settings.md#lifetime-execution-log-in-days).
+If you want a process-specific view on the execution log, the same list is available for tracking a workflow process. For detailed information, see [Check the execution log](../Operation/02_TrackWorkflowProcess.md#check-the-execution-log).
+
+
 
 - *Queue type*   
    The drop-down list contains all queue types created for your company. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type). Select a specific queue type if you want to filter the list.

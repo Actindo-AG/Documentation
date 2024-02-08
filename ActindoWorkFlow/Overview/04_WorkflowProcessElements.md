@@ -36,7 +36,7 @@ Workflow processes, as well as the workflows itself, consists of certain element
 
 ![Transition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Transition]")
 
-The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle. Transitions are also called workflow actions.
+The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle. Transitions are also called process actions.
 
 The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Workflows* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of the API. Some transition may have configuration options, but most of them do not.
 
