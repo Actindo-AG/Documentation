@@ -21,7 +21,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attribute sets in the list are selected.
 
 - [EDIT]   
-    Click this button to edit the selected attribute set. This button is only displayed if a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
+    Click this button to edit the selected attribute set. The *Edit attribute set* view is displayed, see [Edit attribute set](#edit-attribute-set). This button is only displayed if a single checkbox of an attribute set is selected. Alternatively, you can click directly a row in the list to edit an attribute set.
 
 - [DELETE]   
     Click this button to delete the selected attribute set. This button is only displayed if the checkbox of at least one attribute set is selected. An attribute set cannot be deleted if any attribute is assigned to it.      
@@ -72,7 +72,7 @@ The following functions and fields are available in the *Attribute set* list:
     Attribute description in the displayed language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create an attribute set. The *Create attribute set* view is displayed.   
+    Click this button to create an attribute set. The *Create attribute set* view is displayed, see [Create attribute set](#create-attribute-set).   
 
 
 
@@ -198,7 +198,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the configuration of the selected attribute. This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration. The *Edit attribute for set "Attribute set name"* view is displayed. Alternatively, you can click directly a row in the list to edit an attribute configuration.
+    Click this button to edit the configuration of the selected attribute. The *Edit attribute for set* view is displayed, see [Edit attribute for set](#edit-attribute-for-set). This button is only displayed if a single checkbox in the list of attributes is selected and if the selected attribute has an editable configuration.  Alternatively, you can click directly a row in the list to edit an attribute configuration.
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to remove the selected attribute from the attribute set. This button is only displayed if at least one checkbox of an attribute is selected.       
@@ -206,7 +206,7 @@ The following functions are available for the editing toolbar:
     > [Info] If you remove an attribute from the attribute set, the attribute itself is not deleted, but it is unassigned to the selected attribute set.   
 
 - [ADD MAPPING]   
-    Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed. You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
+    Click this button to add a mapping to the selected attribute. The *Add mapping* view is displayed, see [Add mapping](#add-mapping). You can only add a mapping for attribute sets that are not inherited from another attribute set. This button is only displayed if a single checkbox of an attribute is selected.
 
 The following functions and fields are available in this section:
 

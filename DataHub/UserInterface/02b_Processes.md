@@ -40,8 +40,6 @@ The following functions are available for the editing toolbar:
 - [RETRY]   
     Click this button to restart the selected ETL process. This button is only displayed if a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
 
-    ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[ETL processes]")
-
 The following functions and fields are available in this view:
 
 - *Status*   

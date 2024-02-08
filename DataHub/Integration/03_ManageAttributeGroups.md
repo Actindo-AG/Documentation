@@ -215,7 +215,7 @@ If you add an attribute to an attribute group that is already added to another g
     ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The *Add attributes to attribute group* view is displayed.
+    The *Add attributes to group* view is displayed.
 
     ![Add attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
@@ -225,7 +225,7 @@ If you add an attribute to an attribute group that is already added to another g
     > [Info] Enable the *Only unassigned attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the editing toolbar.
-    The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
+    The *Add attributes to group* view is closed. The selected attributes have been added to the attribute group.
 
     > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 

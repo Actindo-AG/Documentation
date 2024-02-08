@@ -13,7 +13,7 @@ The list displays all dimensions. All fields are read-only. Depending on the set
 - *Name*   
   Dimension name.
 
-- *Active*   
+- *Status*   
   Dimension status. The following statuses are available:
   - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
   - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**     
@@ -48,9 +48,9 @@ The list displays all dimensions. All fields are read-only. Depending on the set
 
 The list displays all units that are associated to the selected dimension. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-**BASIC DATA**
+**Basic data**
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Status*   
    By default, this toggle is enabled. It is read-only. You cannot set a dimension to inactive.
 
 - *Name*   
@@ -86,6 +86,11 @@ The following functions and fields are available in this view:
   Indication whether the unit is the base unit or not:
   - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The unit is the base unit.  
   - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The unit is not the base unit.
+
+- *Active*   
+  Indication whether the unit is the active or not:
+  - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The unit is active.  
+  - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The unit is not active.
 
 - *ID*   
   Unit identification number. The ID number is automatically assigned by the system.

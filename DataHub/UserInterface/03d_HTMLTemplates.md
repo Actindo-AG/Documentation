@@ -18,7 +18,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected HTML template. This button is only displayed if the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
+    Click this button to edit the selected HTML template. The *Edit HTML template* view is displayed, see [Edit HTML template](#edit-html-template). This button is only displayed if the checkbox of an HTML template is selected. Alternatively, you can click directly a row in the list to edit an HTML template.   
 
 The following functions and fields are available in this view:
 
@@ -32,7 +32,7 @@ The following functions and fields are available in this view:
     Description to the HTML template.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create an HTML template. The *Create HTML template* view is displayed.   
+    Click this button to create an HTML template. The *Create HTML template* view is displayed, see [Create HTML template](#create-html-template).   
 
 
 

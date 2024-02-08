@@ -254,7 +254,7 @@ The *TreeNode* is used for indications with multiple, predefined selection optio
 **Edit tree**
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click first this button and then the plus sign displayed in the left column of the *Edit tree* table to add an attribute value. The *Add Element* window is displayed.
+    Click first this button and then the plus sign displayed in the left column of the *Edit tree* table to add an attribute value. The *Add Element* window is displayed, see [Add element](#add-element).
 
 The *DataHub* plugin owns this data type.
 

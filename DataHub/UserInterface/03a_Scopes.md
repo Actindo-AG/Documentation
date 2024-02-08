@@ -16,7 +16,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all scopes in the list are selected.
 
 - [EDIT]   
-    Click this button to edit the selected scope. This button is only displayed if a single checkbox of a scope is selected. Alternatively, you can click directly a row in the list to edit a scope.
+    Click this button to edit the selected scope. The *Edit scope* view is displayed [Edit scope](#edit-scope). This button is only displayed if a single checkbox of a scope is selected. Alternatively, you can click directly a row in the list to edit a scope.
 
 - [DELETE]   
     Click this button to delete the selected scope. This button is only displayed if the checkbox of at least one scope is selected.       
@@ -59,7 +59,7 @@ The following functions and fields are available in this view:
     Scope description in the displayed language. A single *Description (Language)* column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create a scope. The *Create scope* view is displayed.   
+    Click this button to create a scope. The *Create scope* view is displayed, see [Create a scope](#create-scope).   
 
 
 
@@ -72,6 +72,8 @@ The following functions and fields are available in this view:
 **Create scope**
 
 The *Create scope* view is used to add a new scope in all needed languages.  
+
+[comment]: (Wenn die Scopes sprachübergreifend auswirken, warum muss man die Sprache noch auswählen? Sprachauswahl unten hat nichts mit Attributen/Pflege mehrsprachiger Felder zu tun dann?)
 
 The following functions and fields are available in this view:
 

@@ -16,7 +16,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all languages in the list are selected.
 
 - [EDIT]   
-    Click this button to edit the selected language. This button is only displayed if a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
+    Click this button to edit the selected language. The *Edit language* view is displayed, see [Edit language](#edit-language). This button is only displayed if a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
 
 - [DELETE]   
     Click this button to delete the selected language. This button is only displayed if the checkbox of at least one language is selected.       
@@ -45,7 +45,7 @@ The following functions and fields are available in this view:
     Name and username of the user who created the language.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create a language. The *Create language* view is displayed.   
+    Click this button to create a language. The *Create language* view is displayed, see [Create language](#create-language).   
 
 
 
@@ -77,6 +77,8 @@ The following functions and fields are available in this view:
     - **en-US**
 
     > [Info] It is recommended to use the two-letter ISO 639-1 code for the language separated by a hyphen with the two-letter ISO 3166-1 code for the country, for instance en-US for English (United States), en-UK for English (United Kingdom) or de-DE for German (Germany).
+
+[comment] <> (Achtung, in der 1. Version heißt es Key im UI, aber hier Language code. Auch Key in 2. Version in Create/Edit language.)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the language status to active. Disable the toggle to set the language status to inactive. By default, this toggle is disabled.

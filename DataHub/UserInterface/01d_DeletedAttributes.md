@@ -53,7 +53,7 @@ The following functions and fields are available in this view:
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
 
-- *Active*   
+- *Status*   
     Attribute status. The following statuses are available:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   

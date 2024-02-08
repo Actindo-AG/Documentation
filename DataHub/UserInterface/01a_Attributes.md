@@ -19,7 +19,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [EDIT]   
-    Click this button to edit the selected attribute. This button is only displayed if the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.   
+    Click this button to edit the selected attribute. The *Edit attribute* view is displayed, see [Edit attribute](#edit-attribute). This button is only displayed if the checkbox of an attribute is selected. Alternatively, you can click directly a row in the list to edit an attribute.   
 
 - [DELETE]   
     Click this button to delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
@@ -84,7 +84,7 @@ The following functions and fields are available in this view:
     Attribute description in the selected language. A single column is displayed for the system languages *English (United States)* and *Deutsch (Deutschland)*.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create an attribute. The *Create attribute* view is displayed.   
+    Click this button to create an attribute. The *Create attribute* view is displayed, see [Create attribute](#create-attribute).   
 
 
 

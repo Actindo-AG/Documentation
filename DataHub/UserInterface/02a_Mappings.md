@@ -20,7 +20,7 @@ The following functions are available for the editing toolbar:
     Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected attribute set mapping. This button is only displayed if the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
+    Click this button to edit the selected attribute set mapping. The *Mapping* view is displayed, see [Mapping](#mapping). This button is only displayed if the checkbox of an attribute set mapping is selected. Alternatively, you can click directly a row in the list to edit an attribute set mapping.
 
 The following functions and fields are available in this view:
 
@@ -53,7 +53,7 @@ The following functions and fields are available in this view:
     Name and username of the user who created the attribute set mapping.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create an attribute set mapping. The *Create ETL attribute set mapping* window is displayed.   
+    Click this button to create an attribute set mapping. The *Create ETL attribute set mapping* window is displayed, see [Create ETL attribute set mapping](#create-etl-attribute-set-mapping).   
 
 
 
@@ -93,11 +93,11 @@ The following functions and fields are available in this view:
 ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
 - [RERUN MAPPINGS]   
-    Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed. 
+    Click this button to rerun all attribute mappings within the attribute set mapping. The *Rerun all mappings* window is displayed, see [Rerun all mappings](#rerun-all-mappings). 
 
 **Mapping from "Source attribute set name" to "Destination attribute set name"**
- 
- This view displays the attribute set mappings on the left side of the view. 
+
+This view displays the attribute set mappings on the left side of the view. 
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Hide inactive destination attributes*   
     Enable this toggle to hide all inactive destination attributes in the list of attribute mappings. Disable the toggle to display all destination attributes independently on their status. By default, this toggle is disabled.
@@ -108,7 +108,7 @@ The following functions are available for the editing toolbar:
     Select a checkbox to display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the mapping to the selected destination attribute. This button is only displayed if the checkbox of a mapping is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
+    Click this button to edit the mapping to the selected destination attribute. The *Settings* section is displayed, see [Settings](#settings). This button is only displayed if the checkbox of a mapping is selected. Alternatively, you can click directly a row in the list to edit the mapping to a destination attribute.
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
     Click this button to delete the selected mapping to the destination attribute. This button is only displayed if the checkbox of a mapping is selected.       
@@ -117,7 +117,7 @@ The following functions are available for the editing toolbar:
     Click this button to add the selected destination attribute to the source attribute set and create a mapping. The *Identity mapping* extension is used to map the attributes, see [Identity mapping](./04_ETLExtensions.md#identity-mapping). The button is only displayed if no mapping to the selected destination attribute already exists and if the identical attributes are contained in both the source attribute and the destination attribute set.
 
 - [RERUN SELECTED MAPPING]   
-    Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed.
+    Click this button to rerun the selected attribute mapping. The button is only displayed if a mapping to the selected destination attribute already exists. The *Rerun single mapping* window is displayed, see [Rerun single mapping](#rerun-single-mapping).
 
 - [CUSTOM DESTINATION ATTRIBUTE SCOPE AND LANGUAGE]    
     Click this button to define a custom scope and/or language attribute mapping for the selected destination attribute. The *Settings* section is displayed on the right side of the *Mapping from "Source attribute set name" to "Destination attribute set name"* view with a drop-down list for the language and/or scope. The button is only displayed if the destination attribute of the selected mapping is multi-language or multi-scope.   
@@ -183,6 +183,8 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun all mappings
 
+[comment]: <> (Check screenshot in terminologie-einspielen)
+
 *DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Button RERUN MAPPINGS*
 
 ![Rerun all mappings](../../Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
@@ -198,6 +200,8 @@ The *Configuration* section displays the additional configuration for the mappin
 
 
 ### Rerun single mapping
+
+[comment]: <> (Check screenshot in terminologie-einspielen)
 
 *DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
 

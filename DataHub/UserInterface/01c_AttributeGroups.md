@@ -11,7 +11,7 @@
 This view displays both the attribute groups on the left side and the attributes assigned to a selected group on the right side. 
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
-    Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed.   
+    Click this button to edit the attribute groups. The *Edit attribute groups* view is displayed, see [Edit attribute groups](#edit-attribute-groups).   
     For detailed information, see [Edit an attribute group](../Integration/03_ManageAttributeGroups.md#edit-an-attribute-group).
 
 - ![Folders](../../Assets/Icons/Folders01.png "[Folders]") (Folders)  
@@ -60,7 +60,7 @@ The following functions and fields are available in this section:
     Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add an attribute to the selected attribute group. The *Add attributes to attribute group* view is displayed.   
+    Click this button to add an attribute to the selected attribute group. The *Add attributes to group* view is displayed, see [Add attributes t group](#add-attributes-to-group).   
 
 
 ## Add attributes to group
@@ -84,7 +84,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected. Alternatively, you can click directly a row in the list to select the attribute.
 
 - [ADD]   
-    Click this button to add the selected attribute to the attribute group. The *Add attributes to attribute group* view is closed.
+    Click this button to add the selected attribute to the attribute group. The *Add attributes to group* view is closed.
 
 The following functions and fields are available in this view:
 
@@ -128,7 +128,7 @@ The following functions and fields are available in this view:
     Click and hold this button to move the selected attribute group to another position in the list using drag and drop.
 
 - ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit)   
-    Click this button to edit the selected attribute group. The attribute group data window is displayed. This button is only displayed if you hover over an attribute group or sub-group.
+    Click this button to edit the selected attribute group. The attribute group data window is displayed, see [Edit attribute group data](#edit-attribute-group-data). This button is only displayed if you hover over an attribute group or sub-group.
 
 - *"Attribute group name"*   
     Top attribute group. Click the attribute group to display the attribute sub-group column and all assigned attribute sub-groups. Hover over the attribute group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
@@ -137,7 +137,7 @@ The following functions and fields are available in this view:
     Attribute sub-group to the selected attribute group. Hover over the attribute sub-group to display the ![Edit](../../Assets/Icons/Edit03.png "[Edit]") (Edit) button.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed.   
+    Click this button to add an attribute group or sub-group. A plus sign is displayed in each displayed column. Click the plus sign in the desired column to add a new attribute group or sub-group to the selected attribute group. The *Add element* window is displayed, see [Add element](#add-element).   
 
     > [Info] Attribute groups are organized in a tree structure with a maximum depth of two levels. That means that a maximum of one sub-group level can be added to an attribute group.
 
