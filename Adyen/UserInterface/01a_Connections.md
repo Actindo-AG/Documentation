@@ -18,34 +18,34 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 **Credentials**
 
-The *Credentials* section displays connection credentials which you define partly in Actindo and partly in Adyen&trade;. 
+The *Credentials* tab displays the connection credentials which you define in Adyen&trade; and copy it to the *Payments* module. 
 
 - *Checkout API endpoint*   
-   Endpoint of the checkout API that is maintained in Adyen&trade;. For detailed information on the checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the testing environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
+   Endpoint of the checkout API that is managed in Adyen&trade;. For detailed information on the checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the testing environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
      
 - *Checkout API key*    
-   Key of the *Checkout API* endpoint that is maintained in the Adyen&trade; backend.
+   Key of the *Checkout API* endpoint that is managed in the Adyen&trade; backend.
 
 - *Payment API endpoint*   
    Endpoint of the *Payment API*. For the test environment, it is `https://pal-test.adyen.com/pal/servlet/Payment/`, for the live account you get the endpoint directly from Adyen&trade;.
 
 - *Payment user*   
-   Username of the technical user that is maintained in the Adyen&trade; backend.
+   Username of the technical user that is managed in the Adyen&trade; backend.
 
 - *Payment password*   
-   Password of the *Checkout* API that is maintained in the Adyen&trade; backend.
+   Password of the *Checkout* API that is managed in the Adyen&trade; backend.
 
  - *Report user*  
-     Edit the username of the *Report API* you have created in the settings of the Adyen&trade; backend.
+     Username of the *Report API* that is managed in the Adyen&trade; backend.
 
  - *Report password*    
-    Edit the password of the *Report API* you have created in the settings of the Adyen&trade; backend.
+    Password of the *Report API* you have created in the settings of the Adyen&trade; backend.
 
 - *Notification user*  
-    Edit the username of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the Adyen&trade; configuration.
+    Edit the username of the technical user. You can edit the notification user both in Actindo or in Adyen&trade;. If you do any changes here, remember to follow these changes in the Adyen&trade; webhook configuration. For detailed information, see [Create Adyen webhook](../Integration/01_ManageAdyenSettings.md#create-adyen-webhook).
 
 - *Notification password*   
-   Edit the password of the technical user.<!---welches API?--> If you do any changes here, remember to follow the changes in the Adyen&trade; configuration.
+   Edit the password of the technical user. If you do any changes here, remember to follow these changes in the Adyen&trade; webhook configuration.
 
 - *Merchant account*   
   Edit the merchant account of the connection you are currently editing.
