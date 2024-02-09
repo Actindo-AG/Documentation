@@ -7,7 +7,7 @@ In addition to the credentials settings in the *Payments* module, the same data 
 
 **Additional information**   
 
-Adyen&trade; uses TLS certificates that are changed from time to time. Adyenn&trade;users will be informed about this. Note that Actindo only checks if the certificate is valid in general and does not validate specific certificates. So you can ignore this information from Adyen. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
+Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. Note that Actindo only checks if the certificate is valid in general and does not validate specific certificates. So you can ignore this information from Adyen. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
 
 
 
