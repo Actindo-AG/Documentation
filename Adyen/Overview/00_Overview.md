@@ -1,6 +1,6 @@
 # Overview
 
-In this part of the Adyen documentation, you will find the following chapters:
+In this part of the Adyen&trade; documentation, you will find the following chapters:
 
 - [General information](01_General.md)   
    - [Benefits](01_General.md#benefits)   

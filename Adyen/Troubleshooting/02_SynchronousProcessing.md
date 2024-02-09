@@ -1,11 +1,11 @@
 # Synchronous processing
 
 **Initial situation**    
-You use the synchronous processing of messages and a faulty message from Adyen blocks its queue.
+You use the synchronous processing of messages and a faulty message from Adyen&trade; blocks its queue.
 
 **Description**    
 
-Like Actindo, Adyen uses a queue to send messages. If you are using synchronous message processing, it may happen that a faulty message blocks the queue.  In this case, Adyen will periodically try to process the message again. As long as this is not successful, all subsequent messages will wait, and you will not receive any payment data from Adyen.
+Like Actindo, Adyen&trade; uses a queue to send messages. If you are using synchronous message processing, it may happen that a faulty message blocks the queue.  In this case, Adyen&trade; will periodically try to process the message again. As long as this is not successful, all subsequent messages will wait, and you will not receive any payment data from Adyen.
 
 **Solution approach**
 

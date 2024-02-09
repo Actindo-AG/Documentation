@@ -9,7 +9,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 ## Edit Adyen connection &ndash; Credentials
 
-*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Credentials*
+*Payments > Settings > Tab CONNECTIONS > Select Adyen&trade; connection > Tab Credentials*
 
 ![Edit Adyen credentials](../../Assets/Screenshots/Adyen/Integration/EditCredentials.png "[Edit Adyen credentials]")
 
@@ -18,7 +18,7 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 
 **Credentials**
 
-The *Credentials* tab displays the connection credentials which you define in Adyen&trade; and copy it to the *Payments* module. 
+The *Credentials* tab displays the connection credentials that you defined in Adyen&trade;. They are a copy of these credentials. 
 
 - *Checkout API endpoint*   
    Endpoint of the checkout API that is managed in Adyen&trade;. For detailed information on the checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the testing environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
@@ -59,7 +59,7 @@ The *Credentials* tab displays the connection credentials which you define in Ad
 
 ## Edit Adyen connection &ndash; Settings
 
-*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
+*Payments > Settings > Tab CONNECTIONS > Select Adyen&trade; connection > Tab Settings*
 
 ![Edit Adyen settings](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
 
@@ -70,7 +70,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Ignored event codes
 
-*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings*
+*Payments > Settings > Tab CONNECTIONS > Select Adyen&trade; connection > Tab Settings*
 
 ![Edit Adyen settings](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Edit Adyen settings]")
 
@@ -93,7 +93,7 @@ The *Settings* tab is composed of the following setting entries:
 
 ### Number of workers handling messages
 
-*Payments > Settings > Tab CONNECTIONS > Select Adyen connection > Tab Settings > Select Number of workers handling messages*
+*Payments > Settings > Tab CONNECTIONS > Select Adyen&trade; connection > Tab Settings > Select Number of workers handling messages*
 
 ![Number of workers](../../Assets/Screenshots/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
