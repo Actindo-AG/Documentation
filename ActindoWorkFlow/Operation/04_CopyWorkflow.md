@@ -1,6 +1,6 @@
 # Copy a workflow
 
-Copy a workflow by exporting and importing the JSON code to create a new workflow based on an existing workflow.
+Copy a workflow by exporting and importing the JSON code to create a new workflow based on an existing workflow. You can use this function not only to copy a workflow that exists in the current instance, but also to copy a workflow from one instance to another.
 
 
 ## Export the workflow JSON code
