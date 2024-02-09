@@ -14,23 +14,29 @@ In this part of the *Workflows* documentation, you will find the following chapt
         - [Delete a place](./01_ManageWorkflows.md#delete-a-place)
         - [Add a transition](./01_ManageWorkflows.md#add-a-transition)
         - [Edit a transition](./01_ManageWorkflows.md#edit-a-transition)
-    - [Copy a workflow](./01_ManageWorkflows.md#copy-a-workflow)
-        - [Export the workflow JSON code](./01_ManageWorkflows.md#export-the-workflow-JSON-code)
-        - [Import the workflow JSON code](./01_ManageWorkflows.md#import-the-workflow-JSON-code)
+    
     - [Publish a workflow version](./01_ManageWorkflows.md#publish-a-workflow-version)
     - [Unpublish a workflow version](./01_ManageWorkflows.md#unpublish-a-workflow-version)
 
+- [Manage the triggers](./02_ManageTriggers.md)
+    - [Create a trigger](./02_ManageTriggers.md#create-a-trigger)
+    - [Add a condition](./02_ManageTriggers.md#add-a-condition)
+    - [Edit a trigger](./02_ManageTriggers.md#edit-a-trigger)
+    - [Change the order of triggers](./02_ManageTriggers.md#change-the-order-of-triggers)
+    - [Delete a trigger](./02_ManageTriggers.md#delete-a-trigger)
 
-- [Track the workflow process](./02_TrackWorkflowProcess.md)
-    - [Check the process status](./02_TrackWorkflowProcess.md#check-the-process-status)
-    - [Check the process action status](./02_TrackWorkflowProcess.md#check-the-process-action-status)
-    - [Check the token status and content](./02_TrackWorkflowProcess.md#check-the-token-status-and-content)
-    - [Check the execution log](./02_TrackWorkflowProcess.md#check-the-execution-log)
+- [Compare the workflow versions](./03_CompareWorkflows.md)
+    
+
+- [Copy a workflow](./04_CopyWorkflow.md)
+    - [Export the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code)
+    - [Import the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code)
 
 
-- [Manage the triggers](./03_ManageTriggers.md)
-    - [Create a trigger](./03_ManageTriggers.md#create-a-trigger)
-    - [Add a condition](./03_ManageTriggers.md#add-a-condition)
-    - [Edit a trigger](./03_ManageTriggers.md#edit-a-trigger)
-    - [Change the order of triggers](./03_ManageTriggers.md#change-the-order-of-triggers)
-    - [Delete a trigger](./03_ManageTriggers.md#delete-a-trigger)
+- [Track the workflow process](./09_TrackWorkflowProcess.md)
+    - [Check the process status](./09_TrackWorkflowProcess.md#check-the-process-status)
+    - [Check the process action status](./09_TrackWorkflowProcess.md#check-the-process-action-status)
+    - [Check the token status and content](./09_TrackWorkflowProcess.md#check-the-token-status-and-content)
+    - [Check the execution log](./09_TrackWorkflowProcess.md#check-the-execution-log)
+
+

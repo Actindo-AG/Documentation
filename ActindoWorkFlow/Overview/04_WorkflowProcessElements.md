@@ -2,7 +2,7 @@
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
-The *Workflows* module allows customers to model their own processes to match their companies structure. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
+The *Workflows* module allows you to model your own processes to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
 For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md).
 
 A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below:
@@ -19,9 +19,9 @@ Since business processes, and the workflows that map them, evolve over time, wor
 
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 
-A process is an instance of a workflow. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be created for each of these business cases that is initiated.
+A process is an instance of a workflow, that is, the actual execution of a workflow configuration that is triggered by a business transaction. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be created for each of these business cases that is initiated.
 
-Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Workflows* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process, see [Manage the triggers](../Operation/03_ManageTriggers.md).
+Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Workflows* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process, see [Manage the triggers](../Operation/02_ManageTriggers.md).
 
 Workflow processes, as well as the workflows itself, consists of certain elements that are described in detail below. As a process is an instance of the workflow, some elements in the workflows and the processes are very similar or even nearly identical. Nevertheless, the function of these elements differs depending on its use in the workflow or the process:
 
@@ -38,7 +38,7 @@ Workflow processes, as well as the workflows itself, consists of certain element
 
 The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle. Transitions are also called process actions.
 
-The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Workflows* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of the API. Some transition may have configuration options, but most of them do not.
+The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Workflows* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of an API. Some transition may have configuration options, but most of them do not.
 
 All transitions contain a certain, predefined number of input and output ports, at least one of each, which can be mandatory or optional.    
 For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports).
@@ -110,7 +110,7 @@ In the workflow processes, a place can hold any number of tokens, including none
 For detailed information, see [Tokens](#tokens).
 
 When clicking a place in the workflow process diagram, the *Tokens* tab is displayed.   
-For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
+For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
 
@@ -132,7 +132,7 @@ The start place is the initial stage of the workflow. It is represented by a cir
 The start place settings side bar is located to the right of the workspace and allows to define the start place settings. The fields are identical to those of the [place](#place).
 
 When clicking a start place in the workflow process diagram, the *Tokens* tab is displayed.   
-For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
+For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
 ### End place
@@ -144,7 +144,7 @@ The end place is the final stage of the workflow. It is represented by a circle 
 The end place settings side bar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the [place](#place).
 
 When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed.   
-For detailed information, see [Check the token status and content](../Operation/02_TrackWorkflowProcess.md#check-the-token-status-and-content).
+For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
 
@@ -188,7 +188,7 @@ For an action to be executable in a workflow process, all connected inputs and o
 
 ![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Tokens]")
 
-A token is a container carrying data needed to execute an action, for example a number or a document.
+A token is a container carrying data needed to execute an action, for example a number or a business document.
 
 A process is started with a single token at the start place, which will be input in an action to be executed. In turn, an action may output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 

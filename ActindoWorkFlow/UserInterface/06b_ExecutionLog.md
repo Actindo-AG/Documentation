@@ -1,4 +1,4 @@
-[!!Track the workflow process](../Operation/02_TrackWorkflowProcess.md)
+[!!Track the workflow process](../Operation/09_TrackWorkflowProcess.md)
 
 
 # Execution log
@@ -11,7 +11,7 @@ The list displays all logs that have been created for each process action perfor
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action has caused the delay, perhaps sending an email, or if the process action or the process had to wait a long time for execution.
 
 The list displays all execution logs that have been created within the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Settings](../UserInterface/07a_Settings.md#lifetime-execution-log-in-days).
-If you want a process-specific view on the execution log, the same list is available for tracking a workflow process. For detailed information, see [Check the execution log](../Operation/02_TrackWorkflowProcess.md#check-the-execution-log).
+If you want a process-specific view on the execution log, the same list is available for tracking a workflow process. For detailed information, see [Check the execution log](../Operation/09_TrackWorkflowProcess.md#check-the-execution-log).
 
 
 
