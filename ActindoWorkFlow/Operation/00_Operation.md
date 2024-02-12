@@ -26,6 +26,8 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Delete a trigger](./02_ManageTriggers.md#delete-a-trigger)
 
 - [Compare the workflow versions](./03_CompareWorkflows.md)
+    - [Compare the workflow version with other version](./03_CompareWorkflows.md#compare-the-workflow-version-with-other-version)   
+    - [Compare the workflow versions from different instances](./03_CompareWorkflows.md#compare-the-workflow-versions-from-different-instances) 
     
 
 - [Copy a workflow](./04_CopyWorkflow.md)

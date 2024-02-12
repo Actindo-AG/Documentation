@@ -185,6 +185,28 @@ The workflow diagram includes the following elements:
     - *Queue type*  
         Click the drop-down list to select the applicable queue type.   
 
+    - *Priority*   
+        **TO BE ENHNANCED**
+
+    - *Max tries*
+        Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can select a retry time strategy. The following retry time strategies are available:
+        - **Constant**   
+
+
+        - **CustomFunction**   
+
+
+        - **Custom**   
+
+
+        - **Exponential**   
+
+
+        - **Linear**   
+
+
+        - **Quadratic**   
+
     - *Task event*  
         Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
 

@@ -248,7 +248,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
 ### Add a transition
 
-Add one or several transition to the workflow to define or expand the desired business process.
+Add one or several transitions to the workflow to define or expand the desired business process.
 
 #### Prerequisites
 
@@ -258,7 +258,7 @@ Add one or several transition to the workflow to define or expand the desired bu
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -315,6 +315,12 @@ Edit a transition to define its settings.
 
     + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
+
+    + Click the *Long description* field if you want to document the process step you added. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
+
+        ![Edit long description](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditLongDescription.png "[Edit long description]")
+
+        Click the [Apply changes] button to add your documentation.
 
     + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 

@@ -13,6 +13,8 @@ In the following, the core actions, their use and their settings are described i
 - [Change process priority](#change-process-priority)
 - [Multiply input action](#multiply-input-action)
 - [Execute PHP code](#execute-php-code)
+- [Extract value action](#extract-value-action)
+- [Manual action](#manual-action)
 - [Split by criterion](#split-by-criterion)
 - [Start subprocess](#start-subprocess)
 - [Switch case action](#switch-case-action)
@@ -36,12 +38,39 @@ The data runs via the *loop_through* input port into the process action and is o
 This core action has no further configuration settings.
 
 
+## Extract value action
+
+![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
+
+The *Extract value* core action is used to extract a specific value and to use this as input for further processing. For example, you extract a specific value from a business document, or you define further processing for a certain position of a business document. 
+
+You define the value to be extracted in the *Path to value* field in the configuration. 
+
+
+### Configuration
+
+
+
+
+
+## Manual action
+
+![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
+
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision, a different workflow path may be taken. For example, each invoice that exceeds a certain amount, is to be approved by a user, before it is posted in accounting.
+
+
+
+### Configuration
+
+
+
 
 ## Multiply input action
 
 ![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
 
-The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input) .   
+The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
 The data runs via the *p* input port into the process action and is output via both the *p0* and the *p1* output ports.
 
 [comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen)

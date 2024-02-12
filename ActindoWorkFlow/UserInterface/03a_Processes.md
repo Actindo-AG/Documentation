@@ -188,7 +188,7 @@ The following functions are available for the editing toolbar:
     Number of times the action execution has been tried.
 
 - *Max retries after error*  
-    Number of times the action execution must be retried after error. This setting depends on the transition and is usually preconfigured. In the current version, this value can be modified in the *Import JSON* window, see [Import JSON](./02a_Workflows.md#import-json).
+    Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. 
 
 - *Queue type*  
     Queue type assigned to the action. By default, the *Default* queue type is assigned.
