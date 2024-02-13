@@ -107,6 +107,8 @@ The list displays all workflow versions of the selected workflow. Depending on t
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
+>[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
+
 - ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
     Click this button to close the workflow editor and return to the list of workflows. All changes are rejected.
 
@@ -126,7 +128,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
         Click this entry to export data in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
 
     - *Update deployed version*   
-        Click this entry to update the current workflow version without creating a new version. Note that in this case, you will not be able to display the recent changes with the *Show changes* function. **TO BE ENHANCED**
+        In the test phase, click this entry to update the current workflow version without creating a new version. For detailed information, see [Update deployed version](../Operation/05_UpdateDeployedVersion.md). Note when using this option in production system, you will not be able both to display the recent changes with the *Show changes* function, and to display a change log. 
 
     - *Deploy*  
         Click this entry to publish a new workflow version with the current state.
@@ -186,9 +188,9 @@ The workflow diagram includes the following elements:
         Click the drop-down list to select the applicable queue type.   
 
     - *Priority*   
-        **TO BE ENHNANCED**
+        **TO BE ENHANCED**
 
-    - *Max tries*
+    - *Max tries*   
         Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can select a retry time strategy. The following retry time strategies are available:
         - **Constant**   
 

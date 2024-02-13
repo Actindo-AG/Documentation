@@ -37,6 +37,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
 
 - [Track the workflow process](./09_TrackWorkflowProcess.md)
     - [Check the process status](./09_TrackWorkflowProcess.md#check-the-process-status)
+    - [Execute a manual actions](./09_TrackWorkflowProcess.md#execute-a-manual-action)
     - [Check the process action status](./09_TrackWorkflowProcess.md#check-the-process-action-status)
     - [Check the token status and content](./09_TrackWorkflowProcess.md#check-the-token-status-and-content)
     - [Check the execution log](./09_TrackWorkflowProcess.md#check-the-execution-log)

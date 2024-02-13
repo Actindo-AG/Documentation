@@ -57,7 +57,8 @@ You define the value to be extracted in the *Path to value* field in the configu
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision, a different workflow path may be taken. For example, each invoice that exceeds a certain amount, is to be approved by a user, before it is posted in accounting.
+The *Manual action* core action is used to control the workflow by a manual user interaction. It allows you to implement approval procedures to your workflows. Depending on the user's decision, a different workflow path may than be taken. For example, each order that exceeds a certain amount, is to be checked by a user, before it is released or cancelled.  
+If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.
 
 
 

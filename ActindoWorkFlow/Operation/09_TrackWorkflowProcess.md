@@ -43,6 +43,17 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
     For detailed information about individual process actions and tokens, see [Check the process action status](#check-the-process-action-status) and [Check the token status and content](#check-the-token-status-and-content).
 
 
+## Execute a manual action
+
+A process will be paused if a manual action is waiting for a user decision. For detailed information, see [Manual action]
+
+
+#### Prerequisites
+
+#### Procedure
+
+
+
 
 ## Check the process action status
 
@@ -80,22 +91,31 @@ Further details about the process actions included in the diagram as well as abo
 4. Click the action to be checked in the diagram.   
     The selected action is displayed in the *Actions* tab.
 
-5. Check the action status in the *Status* column. The following statuses can be displayed:
+5. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
+
+    ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
+
+    + Click the [Info] button to read the documentation.  
+      A pop-up window with the documentation is displayed
+
+    + Click the [Close] button to close the window.
+
+6. Check the action status in the *Status* column. The following statuses can be displayed:
     - **In progress**
     - **Done**  
     - **Error**   
     - **Suspended**  
     - **Process aborted**
 
-6. Check the number of tries for the action in the *Tries* column.
+7. Check the number of tries for the action in the *Tries* column.
 
-7. Check the number of times an action must be retried after error in the *Maximal retries after error* column.
+8. Check the number of times an action must be retried after error in the *Maximal retries after error* column.
 
-8. Check the assigned queue type in the *Queue type* column.
+9. Check the assigned queue type in the *Queue type* column.
 
     > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](./01_ManageWorkflows.md#edit-an-action).
 
-9. Check when the action will be executed next time in the *Defer until* column.
+10. Check when the action will be executed next time in the *Defer until* column.
 
 > [Info] A list of all actions, regardless of the process they are part of, can be displayed in the *Process actions* tab. There they can be filtered according to their status and modified simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 

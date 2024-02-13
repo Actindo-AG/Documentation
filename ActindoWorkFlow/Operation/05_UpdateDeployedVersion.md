@@ -1,8 +1,8 @@
-# Save deployed version
+# Update deployed version
 
-The *Save deployed version* function is designed to support in the test phase. It is recommended that you do not use it in a production system. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
+The *Update deployed version* function is designed to support in the test phase. It is recommended that you do not use it in a production system. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
 
-When saving a deployed version, no new version is created, but the actual version is overwritten. This means that changes to the workflow are not recorded.
+When updating a deployed version, no new version is created, but the actual version is overwritten. This means that changes to the workflow are not recorded.
 
 #### Prerequisites
 

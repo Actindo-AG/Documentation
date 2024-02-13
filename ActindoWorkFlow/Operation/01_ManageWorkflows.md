@@ -50,9 +50,7 @@ No prerequisites to fulfill.
 
 8. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
-
-    >[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
-
+ 
     ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 
@@ -120,6 +118,7 @@ Connect the transition to the a place to create a valid workflow.
 ## Edit a workflow
 
 Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
+>[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
 ### Select a workflow
 
