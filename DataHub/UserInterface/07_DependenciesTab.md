@@ -6,14 +6,14 @@
 
 This tab is not part of the *DataHub* module, but it is used in many other *Core1 Platform* modules that process entities coming from the *DataHub* module.  
 
-[comment]: <> (Unsicher, ob das stimmt. Die Entitäten kommen nicht unbedingt aus DataHub, z.B. dispatch note, PIM-Produkt... Julian fragen.)
+[comment]: <> (Unsicher, ob das ganz stimmt. Die Entitäten kommen nicht unbedingt aus DataHub, z.B. dispatch note, PIM-Produkt... Julian fragen.)
 
 **Dependencies**
 
 The list displays all dependencies of the selected entity. Dependencies exist when individual attributes of an entity or the entire entity are linked to another entity, such as through inheritance or automatic mapping.    
 For example, an offer in the *Omni-Channel* module that was created by an automatic mapping from a product of the *PIM* module. In this case, all attributes or the entire entity are displayed in this list.   
 
-[comment]: <> (Ich bin der Meinung, inheritance bezieht sich nur auf PIM-Produkt Master -> Variant, also kommt unter Variants-Tab. In diesem Fall, denke ich, dass Dependencies angezeigt werden anhand der Entitäten, die via Attribute gemappt sind, die aufeinander eine Auswirkung haben. PIM Produkt -> Offer. Evtl. andere Beispiele geben)
+[comment]: <> (In diesem Fall, denke ich, dass Dependencies angezeigt werden anhand der Entitäten, die via Attribute gemappt sind, die aufeinander eine Auswirkung haben. PIM Produkt -> Offer. Evtl. andere Beispiele geben)
 
 
 Depending on the settings, the displayed columns may vary.
