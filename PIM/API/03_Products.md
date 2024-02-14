@@ -48,7 +48,7 @@ The required fields are marked in bold.
 
 ### Request sample  
 
-{
+`{
   "scopeId": 0,
   "languageId": 0,
   "query": "string",
@@ -79,7 +79,7 @@ The required fields are marked in bold.
   "serializeOptionals": [
     "string"
   ]
-}
+}`
 
 
 
