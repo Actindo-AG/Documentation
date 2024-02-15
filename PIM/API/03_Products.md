@@ -1,8 +1,12 @@
 # Products
 
-Create, edit, delete, and list PIM products via API. 
+You can create, edit, delete, and list PIM products via API. 
 
 ## Create a product  
+
+You can create a product via API i you want to... 
+
+[comment]: <> (Use case?)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.create
 
@@ -13,6 +17,8 @@ Create, edit, delete, and list PIM products via API.
 ### Parameters
 
 The required attributes are marked in bold.
+
+[comment]: <> (product is immer als Objekt required in PIM-Doku, aber ist es nicht selbstverständlich? Muss man es in der Tabelle unten angeben?)
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
@@ -27,14 +33,14 @@ The required attributes are marked in bold.
 
 You have to include all required attributes in the JSON file and provide them with a value. The *attributeSetId* value must be an already existing value in *DataHub*.  
 
-Depending on the information you want to add, you have to add the corresponding attribute. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute set*. Alternatively, you can find a list of all existing PIM attributes in *DataHub > Settings > Attributes*.
+Depending on the information you want to add, you have to add the corresponding attribute. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute set*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
 
-[comment]: <> (Stimmt das? In API Request sample gibt es viel mehr? PIM Basic set + ...?)
+[comment]: <> (Stimmt das? In API Request sample gibt es mehr? 54 vs. 64 -> PIM Basic set + zusätzliche Attributen in den anderen sets?)
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
-### Request sample  
+### Request samples  
 
 Create a PIM product with an SKU and assign an attribute set to it.
 
@@ -66,34 +72,74 @@ Create a PIM product with an SKU, price, and dimensions (length, width, height),
         }
     }
 
-[comment]: <> (Andere Attribute hinzufügen, die sinnvoll sein können. Oder unterschiedliche Samples angeben, z.B. mit _pim_size_l/b/h, ... s. PIM basic set)
+[comment]: <> (Andere Attribute hinzufügen, die sinnvoll sein können. Oder unterschiedliche Samples angeben, z.B. mit _pim_size_l/b/h...)
 
 
 
 ## Edit a product
 
+You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
+
+[comment]: <> (Stimmt das so? Use case?)
+
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
 **Method**: POST
+
 
 ### Parameters
 
 The required fields are marked in bold.
 
-| Field      | Type | Description |  
+| Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **sku**      | string    |  Product SKU |
-| **attributeSetId**   | integer  | DataHub attribute set  |
+| **id**      | integer    |  Product ID  |
+| (attribute)   | ...  | ...  |
 
 
-### Request sample
+
+### Request samples
+
+Edit a product to update the SKU and add dimensions (here height/depth).
+
+    {
+        "product": {
+            "id": "662",
+            "sku": "IP13-Test2",
+            "_pim_size_h": {
+                "value": 10,
+                "unitId": 432
+            }
+        }
+    }
+
+
+Edit a product to update the SKU and add the product name both in English and German.
+
+    {
+        "product": {
+            "id": "662",
+            "sku": "IP13-Test3",
+            "_pim_size_h": {
+                "value": 10,
+                "unitId": 432,
+            "_pim_art_name__actindo_basic__en_US": "Smartphone",
+            "_pim_art_name__actindo_basic__de_DE": "Cooles Handy"
+            }
+        }
+    }
+
+[comment]: <> (Komischerweise hat das nicht funktioniert. Wieso?)
 
 
 
 ## Delete a product
 
+You can delete a product if it is no longer needed. 
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.create  
+> [Caution] If it is a master product, that is, with product variants, all variants will also be deleted. If it is a product variant, only the variant will be deleted.
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
 
 **Method**: POST
 
@@ -101,10 +147,10 @@ The required fields are marked in bold.
 
 The required fields are marked in bold.
 
-| Field      | Type | Description |  
+| Attribute   | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **sku**      | string    |  Product SKU |
-| **attributeSetId**   | integer  | DataHub attribute set  |
+| **id**      | integer    |  Product ID |
+| (attribute) | (type) | ... |
 
 
 ### Request sample
@@ -113,22 +159,28 @@ The required fields are marked in bold.
 
 ## List products
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.listProducts
+Get a list of all products including the ones in the archive or recycle bin. You can set one or more filters to 
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
 **Method**: POST
-
 
 ### Definitions / Parameters
 
 The required fields are marked in bold.
 
+[comment]: <> (Keine required? Wenn man filter, hints, sort objects setzen will, dann mit required Felder) 
+
 | Field      | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **sku**      | string    |  Product SKU |
-| **attributeSetId**   | integer  | DataHub attribute set  |
+| filter      | Array of objects    |  ... |
+| hint   | integer  | ...  |
+
 
 
 ### Request sample  
+
+Get a list setting a filter.
 
     {
       "scopeId": 0,
@@ -164,4 +216,5 @@ The required fields are marked in bold.
     }
 
 
+Other use cases
 
