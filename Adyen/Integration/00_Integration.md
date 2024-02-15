@@ -6,7 +6,7 @@ In this part of the *Adyen&trade;* documentation, you will find the following ch
     - [Create Adyen webhook](../Integration/01_ManageAdyenSettings.md#create-adyen-webhook)
     - [Define synchronous or asynchronous processing](../Integration/01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing)
     - [Create web service API credentials](../Integration/01_ManageAdyenSettings.md#create-web-service-api-credentials)
-    - [Create report service API credentials](../Integration/01_ManageAdyenSettings.md#create-web-service-api-credentials)
+    - [Create report service API credentials](../Integration/01_ManageAdyenSettings.md#create-report-service-api-credentials)
 
 
 - [Manage Adyen connections](../Integration/02_ManageAdyenConnection.md)
