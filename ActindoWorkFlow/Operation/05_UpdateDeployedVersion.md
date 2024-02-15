@@ -27,7 +27,7 @@ When updating a deployed version, no new version is created, but the actual vers
     - Transition changes:
         - Queue type
         - Priority
-        - Max tries <!--- hier kriege ich eine Fehlermeldung: Bug ticket https://internal-jira.actindo.com/browse/BUG-523?filter=-2-->
+        - Max tries <!--- hier kriege ich eine Fehlermeldung: Bug ticket https://internal-jira.actindo.com/browse/BUG-525 -->
         - Label
         - Long description
         - Task event

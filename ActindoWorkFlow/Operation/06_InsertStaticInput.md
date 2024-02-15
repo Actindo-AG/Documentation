@@ -1,10 +1,10 @@
 # Insert static input
 
-Some transitions are based on an API. With the static input function, you can use an input port to pass customer-specific API data to the workflow endpoint.     
+Some transitions are based on an API. With the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
 For example, you want to send offer data to a specific sales channel. Since it is not possible to add a sales channel to a start point and to pass it through the entire workflow, you can add this information to a transition which then routes the sales channel information to the workflow endpoint.
-All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. 
- 
-> [Info] Not all input ports can be configured as static inputs. At least one input port must be linked to a place.  
+All input ports that are not yet connected to a place are displayed in the *Static input* section of the transition's side bar. You can enter an appropriate value in the text field below the input name. The value entered must be a valid JSON value. 
+
+> [Info] You cannot configure all input ports as static inputs. At least one input port must be linked to a place.  
 
 The following procedure shows an example of how to edit the static inputs by adding a sales channel information which requires complex JSON code. 
 
