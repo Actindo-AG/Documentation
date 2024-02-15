@@ -4,7 +4,7 @@
 # CONNECTIONS (Adyen)
 
 The CONNECTIONS tab provides an overview of all connections created for *Payments*. It also allows you to configure these connections.   
-For detailed information on general UI functions of the *CONNECTIONS* tab, see [Connections](../../Payments/UserInterface/08a_Connections.md) in the *Payments* documentation.
+For detailed information on general UI functions and procedures of the *CONNECTIONS* tab, see [Connections](../../Payments/UserInterface/08a_Connections.md) in the *Payments* documentation.
 
 
 ## Edit Adyen connection &ndash; Credentials
@@ -21,13 +21,13 @@ For detailed information on general UI functions of the *CONNECTIONS* tab, see [
 The *Credentials* tab displays the connection credentials that you defined in Adyen&trade;. They are a copy of these credentials. 
 
 - *Checkout API endpoint*   
-   Endpoint of the Checkout API that is managed in Adyen&trade;. For detailed information on the Checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the testing environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
+   Endpoint of the Checkout API that is managed in Adyen&trade;. For detailed information on the Checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the test environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
      
 - *Checkout API key*    
    Key of the *Checkout API* endpoint that is managed in the Adyen&trade; backend.
 
 - *Payment API endpoint*   
-   Endpoint of the *Payment API*. For the test environment, it is `https://pal-test.adyen.com/pal/servlet/Payment/`, for the live account you get the endpoint directly from Adyen&trade;.
+   Endpoint of the *Payment API* that is managed in Adyen&trade;. For the test environment, it is `https://pal-test.adyen.com/pal/servlet/Payment/`, for the live account you get the endpoint directly from Adyen&trade;.
 
 - *Payment user*   
    Username of the technical user that is managed in the Adyen&trade; backend.

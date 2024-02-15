@@ -35,7 +35,7 @@ Create a connection to the Adyen&trade; payment service provider.
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
 4. Enter the API endpoints and credentials. To do this, follow these steps:
-    > [Info] There are some standard access points for a testing environment. For your productive/live environment, Adyen&trade; provides you with individual API endpoints. 
+    > [Info] There are some standard access points for a test environment. For your productive/live environment, Adyen&trade; provides you with individual API endpoints. 
 
     -  Enter the endpoint of the Checkout API in the *Checkout API endpoint* field. 
 
@@ -127,19 +127,19 @@ In the *Actindo Core1 Platform*, you are permitted to create connections in *Pay
    ![Ignored event codes](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
 3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen&trade; backend. For detailed information, see [Create webhook in Adyen](./01_ManageAdyenSettings.md#create-adyen-webhook).
-    The event code to be ignored is entered. 
-
+    
     ![Ignored event code](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")
 
 4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button. 
 
 5. Click the *Number of workers handling messages* setting.   
    The *Number of workers handling messages* setting is displayed. 
+
    ![Number of workers](../../Assets/Screenshots/Adyen/Integration/NumberOfWorkers.png "[Number of workers]")
 
 6. Enter the number of workers you want to use for asynchronous processing of messages. For connections with a lot of traffic, a number between 5-10 might be sufficient. See also [Define synchronous or asynchronous processing](01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
-7. If desired, you can apply the standard settings by enabling the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") (Apply default) toggle in the top right corner of the tab.
+7. If desired, you can apply the standard settings by enabling the *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") toggle in the top right corner of the tab.
 
 8. Click the [SAVE] button in the top right corner of the tab.   
    The connection settings are applied. Actindo validates the credentials. The list of connections is displayed.
