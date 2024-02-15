@@ -48,38 +48,38 @@ The required fields are marked in bold.
 
 ### Request sample  
 
-`{
-  "scopeId": 0,
-  "languageId": 0,
-  "query": "string",
-  "fields": [
-    "string"
-  ],
-  "filter": [
     {
-      "property": "string",
-      "operator": "string",
-      "value": "string"
+      "scopeId": 0,
+      "languageId": 0,
+      "query": "string",
+      "fields": [
+        "string"
+      ],
+      "filter": [
+        {
+          "property": "string",
+          "operator": "string",
+          "value": "string"
+        }
+      ],
+      "hints": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "sort": [
+        {
+          "field": "string",
+          "order": "string"
+        }
+      ],
+      "start": 0,
+      "limit": 0,
+      "serializeOptionals": [
+        "string"
+      ]
     }
-  ],
-  "hints": [
-    {
-      "name": "string",
-      "value": "string"
-    }
-  ],
-  "sort": [
-    {
-      "field": "string",
-      "order": "string"
-    }
-  ],
-  "start": 0,
-  "limit": 0,
-  "serializeOptionals": [
-    "string"
-  ]
-}`
 
 
 
