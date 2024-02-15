@@ -1,14 +1,14 @@
 # Compare the workflow versions
 
-The comparison function of the workflow enables to compare two versions of a workflow. You can use it to compare a workflow to any other version available on the current instance. It is possible to edit the JSON code directly in the compare view, so that you can also compare to a workflow with a version available on another instance. You can use this function for creating change logs as well as to be able to do software-audits.
+The comparison function of the workflow enables to compare two versions of a workflow. You can use it to compare a workflow to any other version available on the current instance. It is possible to edit the JSON code directly in the compare view, so that you can use it to compare a workflow to with a version available on another instance. You can use this function for displaying change logs as well as to be able to do software-audits.
 
-## Compare the workflow version with other version
+## Compare the workflow version with another version
 
 Compare a workflow with any other version available on the current instance.
 
 #### Prerequisites
 
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least to versions of a workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
 - You have opened the workflow editor in each desired instance.
 

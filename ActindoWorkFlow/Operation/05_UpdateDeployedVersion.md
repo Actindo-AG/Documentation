@@ -1,8 +1,8 @@
-# Update deployed version
+# Update a deployed version
 
 The *Update deployed version* function is designed to support in the test phase. It is recommended that you do not use it in a production system. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
 
-When updating a deployed version, no new version is created, but the actual version is overwritten. This means that changes to the workflow are not recorded.
+Updating a deployed version does not create a new version, but overwrites the current version. This means that changes to the workflow are not recorded.
 
 #### Prerequisites
 

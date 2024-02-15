@@ -1,6 +1,10 @@
 [!!Tasks](../../Tasks/Overview/01_General.md)
 [!!User interface Workflows](../UserInterface/02a_Workflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
+[!!Compare the workflow versions](./03_CompareWorkflows.md)
+[!!Copy a workflow](./04_CopyWorkflow.md)
+[!!Update a deployed version](05_UpdateDeployedVersion.md)
+[!!Insert a static input](06_InsertStaticInput.md)
 [!!Track a workflow process](./09_TrackWorkflowProcess.md)
 
 # Manage the workflows

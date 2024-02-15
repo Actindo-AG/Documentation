@@ -1,4 +1,4 @@
-# Insert static input
+# Insert a static input
 
 Some transitions are based on an API. With the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
 For example, you want to send offer data to a specific sales channel. Since it is not possible to add a sales channel to a start point and to pass it through the entire workflow, you can add this information to a transition which then routes the sales channel information to the workflow endpoint.
@@ -10,7 +10,9 @@ The following procedure shows an example of how to edit the static inputs by add
 
 #### Prerequisites
 
-The transition you want to add has additional input ports. 
+- You have the required rights to edit a workflow. 
+- The transition you want to add has additional input ports.
+
 
 #### Procedure
 

@@ -26,14 +26,16 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Delete a trigger](./02_ManageTriggers.md#delete-a-trigger)
 
 - [Compare the workflow versions](./03_CompareWorkflows.md)
-    - [Compare the workflow version with other version](./03_CompareWorkflows.md#compare-the-workflow-version-with-other-version)   
+    - [Compare the workflow version with another version](./03_CompareWorkflows.md#compare-the-workflow-version-with-another-version)   
     - [Compare the workflow versions from different instances](./03_CompareWorkflows.md#compare-the-workflow-versions-from-different-instances) 
     
-
 - [Copy a workflow](./04_CopyWorkflow.md)
     - [Export the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code)
     - [Import the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code)
 
+- [Update a deployed version](05_UpdateDeployedVersion.md)
+
+- [Insert a static input](06_InsertStaticInput.md)
 
 - [Track the workflow process](./09_TrackWorkflowProcess.md)
     - [Check the process status](./09_TrackWorkflowProcess.md#check-the-process-status)
