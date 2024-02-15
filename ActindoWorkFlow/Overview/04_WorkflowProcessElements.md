@@ -71,8 +71,7 @@ The transition settings side bar is located to the right of the workspace and al
 
 - *Static inputs*  
     All unlinked input ports are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
-
-    > [Info] Not all input ports can be configured as static inputs. At least one input port must be linked to a place.
+    For detailed information, see [Insert static input](./06_InsertStaticInput.md).
 
 When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition. As a result, one transition may be associated with multiple process actions.   
 For detailed information, see [Actions](#actions).

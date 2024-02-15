@@ -220,7 +220,7 @@ The workflow diagram includes the following elements:
         > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
     - *Static inputs*  
-        All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.   
+        All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert static input](./06_InsertStaticInput.md). 
 
     For detailed information, see [Transitions](../Overview/04_WorkflowProcessElements.md#transitions).
 

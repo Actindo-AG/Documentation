@@ -325,13 +325,10 @@ Edit a transition to define its settings.
 
     + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
 
-    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
+    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
 
-        > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place. 
 
-        For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
 
-[comment]: <> (Check the design of static input before next version is released; design possibly changes)
 [comment]: <> (Add a link to the Tasks module/task events when documented)
 
 
