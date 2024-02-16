@@ -82,7 +82,7 @@ The basic settings of the workflow have been defined, and the workflow editor is
 
     > [Info] The list of transitions is filtered for your keyword as you type.
 
-3. Click the transition you want to add in the list of transitions.
+3. Click the transition you want to add in the list of transitions.   
     The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
 
     ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")

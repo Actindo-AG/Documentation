@@ -19,7 +19,7 @@ If you want a process-specific view on the execution log, the same list is avail
    The drop-down list contains all queue types created for your company. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type). Select a specific queue type if you want to filter the list.
 
 - ![Only with profiling](../../Assets/Icons/Toggle.png "[Only with profiling]") Only with profiling   
-    Enable this toggle if you only want to view execution logs with profiling. 
+    Enable this toggle if you only want to view execution logs with profiling. For detailed information, see [Profile](06d_Profile.md).
 
 - *Start*   
    Time stamp when process action processing started.
@@ -47,7 +47,8 @@ If you want a process-specific view on the execution log, the same list is avail
 
 
 - *Profile*   
-    A profiling has been activated for the transition. Click the link to open a detailed report on the execution of this process action. 
+    Click the *Profile* link that was created for the action.   
+    The run report is displayed in a new browser window. For detailed information, see [Profile](06d_Profile.md).
 
 - *Queue type*   
    Queue type of the transition.

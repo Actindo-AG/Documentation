@@ -50,6 +50,8 @@ Depending on the action status, the editing toolbar displays the following butto
 
     > [Info] The defer time is preconfigured per action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
+The following functions and fields are available in the list.
+
 - *Status*  
     Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
     - **In progress** (blue)
@@ -71,6 +73,19 @@ Depending on the action status, the editing toolbar displays the following butto
     Queue type assigned to the action. By default, the *Default* queue type is assigned.
 
     > [Info] A different queue type can be selected by editing an action in the workflow editor.
+
+- *Duration*   
+    Time in seconds the action was processed. 
+
+- *Execution start*   
+    Start time of the execution.
+
+- *Execution end*   
+    End time of the execution.
+
+- *Profile*   
+    Click the *Profile* link that was created for the action.   
+    The run report is displayed in a new browser window. For detailed information, see [Profile](06d_Profile.md).
 
 - *Defer until*  
     Next point in time when the action is being tried. This setting depends on the action and is not available in all actions.

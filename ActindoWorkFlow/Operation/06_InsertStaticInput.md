@@ -1,6 +1,6 @@
 # Insert a static input
 
-Some transitions are based on an API. With the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
+SWith the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
 For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start point and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to the workflow endpoint.   
 All input ports that are not yet connected to a place are displayed in the *Static input* section of the transition's side bar. You can enter an appropriate value in the text field below the input name. The value entered must be a valid JSON value. 
 
@@ -50,11 +50,15 @@ The following procedure shows an example of how to edit the static inputs by add
 
     ![Add JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputAdd.png "[Add JSON code]").
     
-7. Enter the copied JSON code. By doing it, delete the quotes. Enter the required value.  
-    The complex code has been added to the input parameter. A small arrow without a place is displayed in front of the input port with a static input value. 
-
-    ![Insert JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputInsert.png "[Insert JSON code]")
+7. Enter the copied JSON code. By doing it, delete the quotes. 
+    The complex code has been added to the input parameter. 
 
     > [Info] If you add a simple string, do not delete the quotes. Instead, use the following syntax, for example: **"U_ACTIO"**.
+    
+8. Enter the required value.    
+    A small arrow without a place is displayed in front of the input port with a static input value. 
 
-8. If desired, click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button to delete the JSON code. 
+    ![Insert JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputInsert.png "[Insert JSON code]")
+    
+
+9. If desired, click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button to delete the JSON code. 

@@ -176,6 +176,8 @@ The following functions are available for the editing toolbar:
 
     > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
+The following fields and function are available on this view:
+
 - *Status*  
     Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
     - **In progress** (blue)
