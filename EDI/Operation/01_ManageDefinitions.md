@@ -192,6 +192,7 @@ After you have configured the entire header and line item definitions including 
 3. Click the [SAVE] button.  
     The *Exporter definitions* view is displayed. The status in the *Active* column has switched to *Active*. The definition is activated, and you can send messages now. 
 
+4. Continue with preparing the workflows. For detailed information, see [Prepare workflow](./07_PrepareWorkflow.md).
 
 
 ## Deactivate definition
