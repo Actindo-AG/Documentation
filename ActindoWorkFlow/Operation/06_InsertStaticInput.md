@@ -1,12 +1,12 @@
 # Insert a static input
 
 Some transitions are based on an API. With the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
-For example, you want to send offer data to a specific sales channel. Since it is not possible to add a sales channel to a start point and to pass it through the entire workflow, you can add this information to a transition which then routes the sales channel information to the workflow endpoint.
+For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start point and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to the workflow endpoint.   
 All input ports that are not yet connected to a place are displayed in the *Static input* section of the transition's side bar. You can enter an appropriate value in the text field below the input name. The value entered must be a valid JSON value. 
 
 > [Info] You cannot configure all input ports as static inputs. At least one input port must be linked to a place.  
 
-The following procedure shows an example of how to edit the static inputs by adding a sales channel information which requires complex JSON code. 
+The following procedure shows an example of how to edit the static inputs by adding a sales channel information that requires complex JSON code. 
 
 #### Prerequisites
 
@@ -25,8 +25,8 @@ The following procedure shows an example of how to edit the static inputs by add
 
     ![Input ports](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionInputPorts.png)
 
-2. Check the API used in the API documentation. To do this, select *Dev Tools > API > Select tab API* and select the API.    
-    The API documentation is displayed. On the left side, the API list is displayed. The middle column contains the input parameters. The left side shows the JSON code of the API parameters. 
+2. Check the API used in the API documentation. To do this, select *Dev Tools > API > Select API tab* and select the API.    
+    The API documentation is displayed. On the left side, the API list is displayed. The middle column contains the input parameters. The right side shows the JSON code of the API parameters. 
       
     ![PI documentation](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowAPIDocumentation.png "[API documentation]")
 
@@ -37,7 +37,7 @@ The following procedure shows an example of how to edit the static inputs by add
    ![API input parameters](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputParameters.png "[API input parameters]")
    
 4. Expand all input parameters which have a complex structure. To do this, click the ![Collapsed](../../Assets/Icons/Close.png "[Collapsed]") (Collapsed) button at the input parameter value.   
-    The ![Collapsed](../../Assets/Icons/Close.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/Down.png "[Expanded]") (Expanded) button.
+    The ![Collapsed](../../Assets/Icons/Close.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/Down.png "[Expanded]") (Expanded) button. The fields contained in the structure are displayed.
 
      ![Expanded input parameter](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputComplex.png "[Expanded input parameter]").
 

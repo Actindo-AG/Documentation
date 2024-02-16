@@ -119,7 +119,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
         Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow-workflow-name).
 
     - *Show changes*   
-        Click this entry to compare two versions of a workflow to display the changes.
+        Click this entry to compare two versions of a workflow to display the changes. For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
     - *Import JSON*  
         Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
@@ -128,7 +128,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
         Click this entry to export data in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
 
     - *Update deployed version*   
-        In the test phase, click this entry to update the current workflow version without creating a new version. For detailed information, see [Update a deployed version](../Operation/05_UpdateDeployedVersion.md). Note when using this option in production system, you will not be able both to display the recent changes with the *Show changes* function, and to display a change log. 
+        In the test phase, click this entry to update the current workflow version without creating a new version. For detailed information, see [Update a deployed version](../Operation/05_UpdateDeployedVersion.md). 
 
     - *Deploy*  
         Click this entry to publish a new workflow version with the current state.
