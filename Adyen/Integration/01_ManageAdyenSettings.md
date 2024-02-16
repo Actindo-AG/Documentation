@@ -2,12 +2,11 @@
 
 The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedures and screens that were current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
 
-In addition to the credentials settings in the *Payments* module, the same data is required in the Adyen&trade; backend to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them to specify them on the other side of the connection. You can enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can also write the credentials in a file to enter them later in Actindo. For detailed information, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+In addition to the credentials settings in the *Payments* module, the same data is required in the Adyen&trade; backend to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them to specify them on the other side of the connection. Therefore, we suggest to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can also write the credentials in a file to enter them later in Actindo. For detailed information, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
 Note the following: 
 - If you have more than one merchant account in Adyen&trade; that you want to manage with Actindo, you must create a connection for each.   
 - Adyen™ offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
-- It is recommended that you manage the Adyen&trade; settings in parallel, so that you can enter the connection data alternately. Note that you can no longer copy the credentials after you have saved the Adyen&trade; or Payments settings. For detailed information, see [Manage Adyen connection](02_ManageAdyenConnection.md).
 
 
 **Additional information**   
@@ -27,7 +26,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;. 
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
-- A connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
+- At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 
 
 #### Procedure
@@ -65,7 +64,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
     - *Merchant accounts*   
         Enter the merchant account(s) you want to connect.
     - *Events*   
-        Select all the events whose messages you want to transfer to the *Payments* module. All listed events can be handled by Actindo. You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+        Select all the events whose messages you want to transfer to the *Payments* module. All listed events can be handled by Actindo.  You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
         ![Events](../../Assets/Screenshots/Adyen/Integration/AdyenEvents.png "[Events]")
 
@@ -110,6 +109,8 @@ Define whether you want to transfer the payment data using synchronous or asynch
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
+
 
 #### Procedure
 
@@ -138,6 +139,7 @@ Define whether you want to transfer the payment data using synchronous or asynch
 ## Create web service API credentials
 
 Create the web service API credentials to send messages from the *Payments* module to the Adyen&trade; backend. For detailed information, see [API credentials](https://docs.adyen.com/development-resources/api-credentials/ "https://docs.adyen.com/development-resources/api-credentials/") in the Adyen&trade; documentation. 
+<!---Hallo Stefan, kannst Du noch mal schauen ob die Richtung stimmt?Also von Payments to Adyen?--->
 
 You must generate a web service API key for both the test environment and the live environment.
 
@@ -190,7 +192,7 @@ You must generate a web service API key for both the test environment and the li
 
 8. Return to your Adyen&trade; account and generate the *Web service* API password and enter it in Actindo. To do this, follow these steps:
 
-    - Click the *Basic auth* tab and click the [Generate password] button, is you want to generate a new password.
+    - Click the *Basic auth* tab and click the [Generate password] button, is you want to generate a new password.   
       The password is automatically created.
 
         ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Web service password]")
@@ -206,7 +208,7 @@ You must generate a web service API key for both the test environment and the li
 
 10. If necessary, configure your wallet payment methods in the *Wallet payment methods* section. Refer to the Adyen&trade; documentation. 
 
-11. If necessary, assign roles to change the permissions of the API credentials in the *Permissions > Roles* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
+11. If necessary, assign roles to define the permissions of the API credentials in the *Permissions > Roles* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
 
 
 
@@ -281,7 +283,7 @@ You must generate a report service API key for both the test environment and the
 10. Return to your Adyen&trade; account and click the [Save changes] button in the bottom right corner.   
     The credentials for the *Report service* API are applied.
 
-11. If necessary, assign the required report role to allow the technical user to download reports in the *Permissions > Roles > REPORT* section. Additionally, you can control access to merchant accounts. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
+11. If necessary, assign the required report role to allow the technical user to download reports in the *Permissions > Roles > REPORT* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
 
 
 

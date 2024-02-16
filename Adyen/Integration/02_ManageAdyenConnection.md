@@ -10,11 +10,8 @@ Create a connection to the Adyen&trade; payment service provider.
 
 #### Prerequisites
 
-- You have an Adyen&trade; customer account to log in to Adyen&trade;.
- - You are assigned to the required user roles in Adyen&trade;.
-- You are logged in to Adyen&trade;.
-- In case you are creating a connection to an Adyen™ live account, you have the API endpoints for both the Checkout API endpoint and the Payment API endpoint at hand.
-- In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
+In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
+
 
 #### Procedure
 
@@ -89,7 +86,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
     The data are synchronized between Actindo and Adyen&trade;. The *Create connection* is automatically closed when the connection has been created and synchronized. The *Edit connection* view of the newly created connection is displayed. The *Settings* tab is selected.
 
-    ![Credentials](../../Assets/Screenshots/Payments/Settings/EditConnectionSettings.png "[Credentials]")
+    ![Credentials](../../Assets/Screenshots/Adyen/Integration/EditConnectionSettings.png "[Credentials]")
 
 
 
@@ -108,7 +105,11 @@ The Adyen&trade; API has two endpoints, one for a synchronous and one for an asy
 
 #### Prerequisites
 
-In the *Actindo Core1 Platform*, you are permitted to create connections in *Payments*.
+- You have an Adyen&trade; customer account to log in to Adyen&trade; and you are logged in.
+- You are assigned to the required user roles in Adyen&trade;.
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
+- In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
+- In case you are creating a connection to an Adyen™ live account, you have the API endpoints for both the Checkout API endpoint and the Payment API endpoint at hand.
 
 #### Procedure
 
