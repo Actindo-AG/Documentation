@@ -49,6 +49,8 @@ You define the value to be extracted in the *Path to value* field in the configu
 
 ### Configuration
 
+*Path to value*
+
 
 
 
@@ -57,14 +59,25 @@ You define the value to be extracted in the *Path to value* field in the configu
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. It allows you to implement approval procedures to your workflows. Depending on the user's decision, a different workflow path may than be taken. For example, each order that exceeds a certain amount, is to be checked by a user, before it is released or cancelled.  
-If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.
-
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Workflow >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.      
+For example, it allows you to implement approval procedures in your workflows such as that each purchase order that exceeds a certain amount is to be checked by a user, before it is released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
 
 
 ### Configuration
 
+- *Time out*   
+    Define a time period within which the user decision must be made. If this time period is exceeded, you can use the output port **timeout** to define a default/fallback action.   
+     Use PHP code to define the time period. For detailed information, see the [strtotime.php function](https://www.php.net/manual/en/function.strtotime.php "https://www.php.net/manual/en/function.strtotime.php ") on the PHP foundation website.
+      
+- *Output ports 0-8*   
+    Define up to 9 submissions to control the decision-making process. For each submission, a different workflow path may than be taken. For example, for a simple approval process you will need two output ports: **Accept** and **Reject**.
 
+**Static inputs**    
+The *Manual action* core action has two input ports:
+- data_input: Entity that can be used to make a decision, for example a business document. 
+- event-id: ID of the task event that can be used to make a decision.   
+
+It is possible to include a static input via the unconnected input port. You can use the *data_input* or the *event_id* input port to define a static input in the *Static inputs* section in the settings side bar. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
 
 
 ## Multiply input action
