@@ -7,13 +7,13 @@
 
 The stock withdrawal matrix is designed to determine automatically from which warehouse and under which conditions stock is withdrawn. You can configure the following parameters: 
 
-- Country of delivery: the country where the order is to be delivered.  
-- Sales channel: the output channel via which you want to create offers, for example, the *Omni-Channel* module.  
-- Account: the connection used in the *Omni-Channel* module, for example, Salesforce Commerce Cloud or POS.  
-- Sub-account: the shop where the order is placed, for example, the online store in Germany or in the US.  
-- Shipping provider: the shipping service provided, for example, in case of express delivery, the material can be taken from a warehouse, and in case of standard delivery, from a different one.  
-- Warehouse: the specific warehouse from which the stock should be withdrawn.  
-- Warehouse group: if desired, you can also specify only the warehouse group from which the stock should be withdrawn. When both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
+- Country of delivery: The country where the order is to be delivered.  
+- Sales channel: The output channel via which you want to create offers, for example, the *Omni-Channel* module.  
+- Account: The connection used in the *Omni-Channel* module, for example, Salesforce Commerce Cloud or POS.  
+- Sub-account: The shop where the order is placed, for example, the online store in Germany or in the US.  
+- Shipping provider: The shipping service provided, for example, in case of express delivery, the material can be taken from a warehouse, and in case of standard delivery, from a different one.  
+- Warehouse: The specific warehouse from which the stock should be withdrawn.  
+- Warehouse group: The warehouse group from which the stock should be withdrawn. This information is optional. If both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
 
 The stock withdrawal matrix is a so-called priority list, that is, a list of criteria arranged in descending order based on their priority. Therefore, the correct order of these criteria is crucial, as the system goes through them in the order they are listed, starting from the top, and stops checking them as soon as a matching criterion is found. For example, if two entries have the same matching criteria, the system withdraws the stock from the warehouse that comes first until there is no more materials in stock, and then it goes to the next one.   
 
@@ -36,7 +36,7 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
 1. Click the [ADD] button in the bottom left corner.   
     A new data input line is displayed.
 
-2. Double-click the field in the *Delivery address country* column and select the applicable country from the drop-down list.  
+2. Double-click the field in the *Delivery address country* column and select the desired country from the drop-down list.  
 
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
     
@@ -44,7 +44,7 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
 
     > [Info] This function is no longer supported. Therefore, it is not described in this documentation.
 
-4. Double-click the field in the *Sales channel* column and select the applicable channel where the order originates. The following options are available: 
+4. Double-click the field in the *Sales channel* column and select the channel where the order originates. The following options are available: 
 
     - **All**  
         Select this option for all sales channels.
@@ -57,13 +57,13 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
 
 5. Double-click the field in the *Account* column and select a connection. All connections available in the *Omni-Channel* module are displayed in the list.
 
-6. If necessary, double-click the field in the *Sub-account* column and select the applicable sub-account, that is, the specific sub-shop where the order has been placed.
+6. If necessary, double-click the field in the *Sub-account* column and select the appropriate sub-account, that is, the specific sub-shop where the order has been placed.
 
-7. If desired, double-click the field in the *Shipping provider* column and select the applicable shipping provider. You can configure the shipping providers in *Order Management > Settings > Tab SHIPPING PROVIDER > Shipping*.
+7. If desired, double-click the field in the *Shipping provider* column and select a shipping provider. You can configure the shipping providers in the *Order Management* module under *Settings > Tab SHIPPING PROVIDER > Shipping*.
 
-8. Double-click the field in the *Warehouse* column and select the applicable warehouse from which the stock should be withdrawn. All available warehouses are displayed in the list.
+8. Double-click the field in the *Warehouse* column and select the warehouse from which the stock should be withdrawn. All available warehouses are displayed in the list.
 
-9. If desired, double-click the field in the *Warehouse group* column and select the applicable warehouse group from which the stock should be withdrawn. All available warehouses are displayed in the list. 
+9. If desired, double-click the field in the *Warehouse group* column and select the warehouse group from which the stock should be withdrawn. All available warehouses are displayed in the list. 
 
     > [Info] You can indicate the warehouse group generally or specify more precisely the exact warehouse within a warehouse group where the stock has to be taken from. When both warehouse and warehouse group are specified, the warehouse must be included in the warehouse group.
 

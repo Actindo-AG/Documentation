@@ -25,7 +25,7 @@ The stock allocation table includes automatically all warehouses you have create
 
 ![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
 
-1. Select the row with the attribute name corresponding to the desired target channel in the *Target channel* column.
+1. Select the row with the desired stock value to be calculated and transferred in the *Target channel* column. In the example screenshot, there are two stock values: *Actindo Core1 PIM (POS stock)*, for the stock units available in the physical store (point of sale), and *Actindo Core1 PIM (Stock)*, for the stock units available in the warehouse for incoming orders.  
 
 2. Double-click the corresponding field in the *Stock calculation* column.   
     A drop-down list is displayed.
@@ -72,11 +72,17 @@ The stock allocation table includes automatically all warehouses you have create
 
 4. Depending of the option you have selected in the previous step, proceed as follows:
 
-    - If you have selected the **Fixed value** option, double-click the applicable field and enter the desired value.  
+    - If you have selected the **Fixed value** option, double-click the corresponding editable field in the *Fixed value* column and enter the desired value.  
 
-    - If you have selected the **Formula** option, double-click the applicable field and enter the desired formula. See the table in step **3** for the php commands and their meaning. 
+        ![Fixed value](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/FixedValue.png "[Fixed value]")
 
-    - If you have selected one of the predefined calculation formulas, double-click the field corresponding to the desired warehouse to display the drop-down list. Then, select the **Yes** option in the drop-down list to include the warehouse in the stock allocation calculation or select the **No** option to exclude it.
+    - If you have selected the **Formula** option, double-click the corresponding editable field in the *Formula* column and enter the desired formula. See the table in step **3** for the php commands and their meaning. 
+
+        ![Formula](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/Formula.png "[Formula]")
+
+    - If you have selected one of the predefined calculation formulas, double-click the field corresponding to the desired warehouse to display the drop-down list. Then, select the **Yes** option in the drop-down list to include the warehouse in the stock allocation calculation or select the **No** option to exclude it.  
+
+        ![Calculation formulas](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/CalculationFormulas.png "[Calculation formulas]")
 
     > [Info] The small red triangle in the left upper corner of the field indicates that the marked field has been changed.  
 
