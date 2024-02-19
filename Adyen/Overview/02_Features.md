@@ -12,5 +12,5 @@
 - *Adyen&trade;* provides an automated report that the *Payments* module uses to verify that all transactions have been successfully transferred (reconciliation).
 - Capturing, cancelling, and refunding possible directly via the *Payments* module.
 - Triple check of payment data: directly at transaction request, at success or error message, and at report reconciliation.
-- Easy transfer to the *Accounting* module using the *Payment Processing* module.
+- Easy transfer to the *Accounting* module via the *Payment Processing* module.
 - Synchronous or asynchronous processing of messages

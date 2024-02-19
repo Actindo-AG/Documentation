@@ -32,7 +32,7 @@ In the *Actindo Core1 Platform*, you have permission to create connections in th
     ![Credentials](../../Assets/Screenshots/Payments/Settings/CreateConnectionCredentials.png "[Credentials]")
 
 4. Enter the API endpoints and credentials. To do this, follow these steps:
-    > [Info] There are some standard access points for a test environment. For your productive/live environment, Adyen&trade; provides you with individual API endpoints. 
+    > [Info] There are some standard access points for a test environment. For your production/live environment, Adyen&trade; provides you with individual API endpoints. 
 
     -  Enter the endpoint of the Checkout API in the *Checkout API endpoint* field. 
 
@@ -105,11 +105,8 @@ The Adyen&trade; API has two endpoints, one for a synchronous and one for an asy
 
 #### Prerequisites
 
-- You have an Adyen&trade; customer account to log in to Adyen&trade; and you are logged in.
-- You are assigned to the required user roles in Adyen&trade;.
-- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
-- In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
-- In case you are creating a connection to an Adyen™ live account, you have the API endpoints for both the Checkout API endpoint and the Payment API endpoint at hand.
+In the *Actindo Core1 Platform*, you have permission to create connections in the *Payments* module.
+
 
 #### Procedure
 
@@ -127,11 +124,13 @@ The Adyen&trade; API has two endpoints, one for a synchronous and one for an asy
 
    ![Ignored event codes](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCode.png "[Ignored event codes]")
 
-3. If desired, enter an event code to be ignored in the *Key* field and in the *Value* field as well. Note that you can also define the event codes to be ignored in the Adyen&trade; backend. For detailed information, see [Create webhook in Adyen](./01_ManageAdyenSettings.md#create-adyen-webhook).
+3. If desired, enter an event code to be ignored in both the *Key* and the *Value* fields. Note that you can also define the event codes to be ignored in the Adyen&trade; backend. For detailed information, see [Create webhook in Adyen](./01_ManageAdyenSettings.md#create-adyen-webhook).
     
     ![Ignored event code](../../Assets/Screenshots/Adyen/Integration/IgnoredEventCodeDone.png "[Ignored event code]")
 
 4. If desired, enter further event codes to be ignored. To add a new row, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button. 
+
+5. Click the [Save] button in the top right corner of the *Settings* tab.
 
 5. Click the *Number of workers handling messages* setting.   
    The *Number of workers handling messages* setting is displayed. 

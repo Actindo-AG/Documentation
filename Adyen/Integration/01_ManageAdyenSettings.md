@@ -2,16 +2,17 @@
 
 The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedures and screens that were current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
 
-In addition to the credentials settings in the *Payments* module, the same data is required in the Adyen&trade; backend to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them to specify them on the other side of the connection. Therefore, we suggest to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can also write the credentials in a file to enter them later in Actindo. For detailed information, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+In addition to the credentials settings in the *Payments* module, the same data is required in the Adyen&trade; backend to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them to specify them on the other side of the connection. Therefore, we recommend to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can cache the credentials in a file. For detailed information, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
 Note the following: 
-- If you have more than one merchant account in Adyen&trade; that you want to manage with Actindo, you must create a connection for each.   
-- Adyen™ offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.
+
+- Adyen™ offers the possibility to work with two separate environments, a staging environment for testing purposes and a live environment for production. You must configure the connection for each environment separately.   
+- If you have more than one merchant account in Adyen&trade; that you want to manage with Actindo, you must create connections for each.   
 
 
 **Additional information**   
 
-Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. Note that Actindo only checks if the certificate is valid in general and does not validate specific certificates. So you can ignore this information from Adyen. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
+Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. You can ignore this information from Adyen because Actindo only checks if the certificate is valid in general and does not validate specific certificates. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
 
 
 
@@ -25,9 +26,9 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;. 
-- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
 - At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
-
+- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
+-
 
 #### Procedure
 
@@ -45,14 +46,14 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
         Enter a description for the webhook.
     - *Server configuration section*   
          - *URL*   
-           Enter the server URL of the Actindo productive system or sandbox you want to connect.    
+           Enter the server URL of the Actindo production system or sandbox you want to connect.    
            For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync`. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
       
          - *Method*   
-            You can use the standard setting **JSON** if you have no other requirements.
+            You can use the **JSON** standard setting if you have no other requirements.
 
         - *Encryption protocol*     
-           You can use the standard setting **TLSv1.3** if you have no other requirements.
+           You can use the **TLSv1.3** standard setting if you have no other requirements.
 
         - *Version*   
             Displays the version number.
@@ -75,7 +76,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 
             ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png "[Basic authentification]")
 
-         - Change to your Actindo instance and enter the username and password in the *Notification user* and *Notification password* fields the *Payments* settings. 
+         - Change to your Actindo instance and enter the username and password in the *Notification user* and *Notification password* fields in the *Payments* settings. 
          
             ![Notification user and password](../../Assets/Screenshots/Adyen/Integration/AdyenNotificatioUser.png "[Notification user and password]")
 
@@ -109,7 +110,6 @@ Define whether you want to transfer the payment data using synchronous or asynch
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
-- You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
 
 
 #### Procedure
@@ -147,6 +147,7 @@ You must generate a web service API key for both the test environment and the li
 
 - You have a valid user account in Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
+- At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*. For detailed information, see [Configure Adyen connection](02_ManageAdyenConnection.md#configure-adyen-connection).
 
 #### Procedure
@@ -223,6 +224,7 @@ You must generate a report service API key for both the test environment and the
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
+- At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
 
 #### Procedure

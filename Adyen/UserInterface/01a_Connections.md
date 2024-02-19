@@ -18,7 +18,7 @@ For detailed information on general UI functions and procedures of the *CONNECTI
 
 **Credentials**
 
-The *Credentials* tab displays the connection credentials that you defined in Adyen&trade;. They are a copy of these credentials. 
+The *Credentials* tab displays the connection credentials that you have defined in Adyen&trade;. This is a copy of those credentials. This means that the credentials must be the same. 
 
 - *Checkout API endpoint*   
    Endpoint of the Checkout API that is managed in Adyen&trade;. For detailed information on the Checkout API, see [Adyen Checkout API](https://docs.adyen.com/api-explorer/Checkout/71/overview "[https://docs.adyen.com/api-explorer/Checkout/71/overview]") in the Adyen&trade; documentation. For the test environment it is `https://checkout-test.adyen.com/checkout/`, for the live account you get the endpoint directly from Adyen&trade;. 
