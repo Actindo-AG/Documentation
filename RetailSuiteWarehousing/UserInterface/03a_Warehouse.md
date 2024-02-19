@@ -73,7 +73,7 @@ The following functions and fields are displayed:
         Select this option if the warehouse group is managed by a third party. If you select this option, additional fields are displayed. 
 
 - *Fulfill orders from other warehouse groups*  
-    Click the drop-down list and select a warehouse group if desired. With this setting, you can arrange the missing stock to be taken from the current warehouse group if orders cannot be completely fulfilled from the warehouse group selected.
+    If desired, click the drop-down list and select a warehouse group. With this setting, you can arrange the missing stock to be taken from the current warehouse group if orders cannot be completely fulfilled from the warehouse group selected.
 
 - *External warehouse type*  
     Click the drop-down list to select **Fulfillment module**. 
@@ -102,7 +102,7 @@ The following functions and fields are displayed:
     Click the drop-down list and select the country where the warehouse group is located. This field is mandatory to determine the VAT to be applied.
 
 - *Comments*  
-    Enter any additional you want information in this field.
+    Enter any further relevant information in this field.
 
 - [SAVE]   
     Click this button to save the warehouse group. 
