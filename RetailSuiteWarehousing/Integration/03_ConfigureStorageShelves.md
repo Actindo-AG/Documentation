@@ -10,9 +10,9 @@ Warehouses are subdivided into storage shelves, from which stock is actually pos
 
 Each material can be stored in several storage shelves and different warehouses, but they can only have one primary storage shelf, that is, one main storage location. When an order is received, stock is taken from the primary storage shelf automatically, as long as the ordered material is in stock, no other configuration is stored in the stock withdrawal matrix, or no configuration matches the criteria.
 
-The first storage shelf that is created for a material is automatically set as primary. You can subsequently create another storage shelf and set it as primary by clicking the *is primary storage* checkbox. 
+The first storage shelf that is created for a material is automatically set as primary. You can subsequently create other storage shelves and set them as primary by clicking the *is primary storage* checkbox. 
 
-Storage shelves can be created, edited, and deleted. Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
+Storage shelves can be created, edited, and deleted. Bear in mind, though, that you cannot delete a storage shelf where postings have already been made, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
@@ -23,7 +23,7 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 #### Prerequisites
 
 - At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
-- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](../Operation/01_ManageWarehouse.md#activate-the-warehouse-logistics-for-a-material).
+- The warehouse logistics must be active for the selected material, see [Activate the warehouse logistics for a material](./06_ActivateWarehouseLogistics.md).
 
 #### Procedure
 
@@ -58,8 +58,10 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 
     > [Info] You can create different blocked storage shelves for different material conditions. 
     
-6. Click the [SAVE] button to save the storage shelf.  
+6. Click the [SAVE] button in the *Add* section to save the storage shelf.  
     The notice *Please wait... Saving...* is displayed. The new storage shelf is displayed in the list of storage locations. 
+
+[comment]: <> (Reicht hier in the Add section, oder besser right to the is primary storage checkbox?)
 
 
 
@@ -78,12 +80,12 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
 1. Select the storage shelf you want to edit from the list in the *Storage locations* section.  
-    The *Edit* section is displayed.
-
-    ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")  
+    The *Edit* section is displayed.  
 
     > [Caution] **Potential loss of data**   
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
+
+    ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")  
 
 2. If desired, modify the storage shelf ID.  
 
@@ -93,7 +95,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
     
     > [Info] The *Warehouse ID* und the *Blocked storage* settings cannot be changed for already existing warehouse storage shelves. In this case, you have to create a new warehouse shelf with the desired settings.   
 
-4. Click the [SAVE] button.  
+4. Click the [SAVE] button in the *Add* section to save the changes.  
     The notice *Please wait... Saving...* is displayed. The changes are displayed in the list of storage locations. 
 
 
@@ -102,7 +104,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 After you have created a storage shelf, you can delete it.  
 
-Bear in mind, though, that you cannot delete a storage shelf where postings have been made in the past, as all posting information is kept in the system.
+Bear in mind, though, that you cannot delete a storage shelf where postings have already been made, as all posting information is kept in the system.
 
 #### Prerequisites
 
@@ -115,14 +117,14 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
 1. Select the storage shelf you want to delete from the list in the *Storage locations* section.  
-    The *Edit* section is displayed.
-
-    ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")
+    The *Edit* section is displayed.  
 
     > [Caution] **Loss of data**  
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
-2. Click the [DELETE] button.  
+    ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")
+
+2. Click the [DELETE] button in the *Storage locations* section.  
     The notice *Please wait... Saving...* is displayed. The deleted storage shelf is no longer displayed in the list of storage locations.  
 
 

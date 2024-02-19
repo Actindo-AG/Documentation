@@ -112,7 +112,7 @@ The posting types you can create for multiple materials at once are limited. You
 
 #### Prerequisites
 
-The warehouse logistics has been activated for the selected materials, see [Activate the warehouse logistics for a material](./01_ManageWarehouse.md#activate-the-warehouse-logistics-for-a-material).
+The warehouse logistics has been activated for the selected materials, see [Activate the warehouse logistics for a material](./06_ActivateWarehouseLogistics.md).
 
 #### Procedure
 

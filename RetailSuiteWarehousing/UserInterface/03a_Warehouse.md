@@ -46,7 +46,12 @@ The following functions and fields are displayed:
     Click this button to collapse the list of warehouses/warehouse groups.
 
 - ![Expand](../../Assets/Icons/Plus03.png "[Expand]") (Expand)  
-    Click this button to expand the list of warehouses/warehouse groups.
+    Click this button to expand the list of warehouses/warehouse groups. 
+
+- *No warehouse group*  
+    This group is created by default and includes all warehouses that are not assigned to a specific warehouse group. 
+
+[comment]: <> (Julian: Stimmt das so?)
 
 [comment]: <> (Evtl. Refresh, collapse/expand löschen; Verweis auf UI Buttons in Core1. Collapse/Expand nicht in Core1, da alte UI-Elemente)
 
@@ -73,8 +78,8 @@ The following functions and fields are displayed:
         Select this option if the warehouse group is managed by a third party. If you select this option, additional fields are displayed. 
 
 - *Fulfill orders from other warehouse groups*  
-    If desired, click the drop-down list and select a warehouse group. With this setting, you can arrange the missing stock to be taken from the current warehouse group if orders cannot be completely fulfilled from the warehouse group selected.
-
+    If desired, click the drop-down list and select a warehouse group. If the selected warehouse group is out of stock, the missing stock will be taken from the current warehouse group. 
+    
 - *External warehouse type*  
     Click the drop-down list to select **Fulfillment module**. 
 

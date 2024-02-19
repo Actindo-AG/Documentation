@@ -7,7 +7,7 @@
 
 # Configure the stock allocation
 
-The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
+The stock allocation function allows you to update the stock levels automatically across all your sales channels. In the stock allocation table, you can define which value should be indicated as available stock in each sales channel. There are different methods you can choose from to calculate the available stock. The calculated stock amount is then automatically transferred to the *PIM* product, where it is displayed in the *Stock level* field. From the *PIM* module, the calculated stock amount is transferred via ETL to the *Omni-Channel* module, and from there to the corresponding sales channel via driver. 
 
 Every time a posting is made in the *Warehousing* module, the stock value in the *PIM* module is updated. This process occurs asynchronously and may take a few moments. The stock value is transferred in turn to the corresponding sale channel via the *Omni-Channel* module.
 
