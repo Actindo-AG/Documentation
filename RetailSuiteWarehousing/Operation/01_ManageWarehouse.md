@@ -74,7 +74,7 @@ You can check the stock allocation for a selected material from the product list
 
 3. Check the stock allocation values displayed. These values are the result of the calculations configured in the stock allocation table and are transferred to the *PIM* product and, via *Omni-Channel*, to the corresponding sales channel.  
 
-    > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the calculated stock value displayed for product bundles in the *PIM* module is the result of the stock allocation of the individual products included in the bundle but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, the bundle stock is 1, and not 2.
+    > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the calculated stock value displayed for product bundles in the *PIM* module is the result of the stock allocation of the individual products included in the bundle, but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, the bundle stock is 1, and not 2.
 
 [comment]: <> (Julian: Stimmt das so?)
 
@@ -161,7 +161,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 
 ## Check the stock history for a material
 
-You can check all stock postings that have been created for a selected material. Stock postings can be done automatically, that is, by the system, and manually by the user. If the business document number and customer/supplier details are provided in the corresponding columns, the stock posting is automatic. If this information is not displayed, the stock posting is a manual one.
+You can check all stock postings that have been created for a selected material. Stock postings can be done automatically  or manually. If the business document number and customer/supplier details are provided in the corresponding columns, the stock posting is automatic. If this information is not displayed, the stock posting is a manual one.
 
 The list displayed in this tab is similar to the one you obtain when checking the posting history for a material in the *Posting history* menu entry, see [Check the posting history for a material](./03_CheckPostingHistory.md#check-the-posting-history-for-a-material).
 

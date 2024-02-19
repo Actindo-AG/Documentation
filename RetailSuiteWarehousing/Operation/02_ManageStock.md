@@ -11,7 +11,7 @@ Stock postings are usually created automatically by the system, triggered by the
 
 [comment]: <> (Evtl. Link zu Basic OM process hinzufügen, wenn online)
 
-However, you can also perform stock postings manually if necessary, both for a single materials or for multiple materials at once.   
+However, if necessary, you can also perform stock postings manually, both for a single material or for multiple materials at once.   
 
 
 

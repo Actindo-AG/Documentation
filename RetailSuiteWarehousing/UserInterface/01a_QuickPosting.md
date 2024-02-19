@@ -13,7 +13,7 @@ The *QUICK POSTING* tab displays a list of all available products and allows to 
 
 **Product list**  
 
-The product list displays of all available products. Depending on the settings, the displayed columns may vary. All fields are read-only.  
+The product list displays all available products. Depending on the settings, the displayed columns may vary. All fields are read-only.  
     
 - *SKU*  
     Product SKU.
@@ -42,7 +42,6 @@ The product list displays of all available products. Depending on the settings, 
 **Multiple posting section**
 
 This section displays a list of the products selected and moved per drag and drop when posting stock for multiple materials at a time. 
-
 Depending on the tab selected below, the columns and the buttons displayed may vary.
 
 - *Stock in*  
@@ -235,7 +234,7 @@ The following functions and fields are available:
 - *Available in stock*  
     Actual units minus reserved units.
 
- *Ordered*  
+ - *Ordered*  
     Ordered units for restocking purposes.
 
 - *Available*  

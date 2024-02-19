@@ -147,7 +147,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
     > [Caution] **Potential loss of data**    
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
 
-2. Modify any settings as necessary in the applicable fields.  
+2. Modify any settings as necessary in the available fields.  
 
     > [Info] If the warehouse group already contains warehouses, the warehouse group number cannot be modified. A window with the following error message is displayed: *Error while saving: There are warehouses in this warehouse group.*
 

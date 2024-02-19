@@ -34,7 +34,7 @@ The following filters are available:
     For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
 
 - *Warehouse*  
-    Click the drop-down list and select the desired warehouse. All warehouses available are displayed in the list.
+    Click the drop-down list and select the desired warehouse. All available warehouses are displayed in the list.
 
 - *Storage shelf*  
     Click the drop-down list and select the desired storage shelf. All available storage shelves are displayed in the list.
@@ -50,7 +50,7 @@ The following filters are available:
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/CombinedFilterPostingHistory.png "[Posting history]")
 
-The list displays all posting according to the selected criteria. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays all postings according to the selected criteria. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Date*  
     Posting date.
