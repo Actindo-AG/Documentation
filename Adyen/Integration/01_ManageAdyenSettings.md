@@ -2,7 +2,7 @@
 
 The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedures and screens that were current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
 
-In addition to the credentials settings in the *Payments* module, the same data is required in the Adyen&trade; backend to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them to specify them on the other side of the connection. Therefore, we recommend to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can cache the credentials in a file. For detailed information, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+In addition to the credentials settings in the Adyen&trade; backend, the same data is required in the *Payments* module to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them in order to specify them on the other side of the connection. Therefore, we recommend to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can cache the credentials in a file. For detailed information on the Payments settings, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
 Note the following: 
 
@@ -12,13 +12,13 @@ Note the following:
 
 **Additional information**   
 
-Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. You can ignore this information from Adyen because Actindo only checks if the certificate is valid in general and does not validate specific certificates. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
+Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. You can ignore this information from Adyen because Actindo only checks if the certificates are valid in general and does not validate specific certificates. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
 
 
 
 ## Create Adyen webhook
 
-Create a webhook to receive payment notifications from Adyen&trade; to the *Payments* module such as authorizations and cancellations. For detailed information, see [Webhooks](https://docs.adyen.com/development-resources/webhooks/ "[https://docs.adyen.com/development-resources/webhooks/]") in the Adyen&trade; documentation. It includes a video that may also be helpful.
+Create a webhook to receive payment notifications from Adyen&trade; to the *Payments* module such as authorizations and cancellations. For detailed information, see also [Webhooks](https://docs.adyen.com/development-resources/webhooks/ "[https://docs.adyen.com/development-resources/webhooks/]") in the Adyen&trade; documentation. It includes a video that may be helpful, too.
 
 
 #### Prerequisites
@@ -26,9 +26,8 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;. 
-- At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
+- At least one Adyen&trade; connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
--
 
 #### Procedure
 
@@ -36,12 +35,15 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 
 ![Webhook configuration in Adyen](../../Assets/Screenshots/Adyen/Integration/AdyenWebhooks.png)
 
-1. Click the [+ Webhook] button and select the [Add] button at the *Standard webhook* entry.   
+1. Click the [+ Webhook] button.   
+    The *Create new webhook* window is displayed.
+
+ 2. Select the [Add] button at the *Standard webhook* entry in the *Recommended webhooks* section.   
     The settings for the standard webhook are displayed.
 
-   ![Create webhook in Adyen](../../Assets/Screenshots/Adyen/Integration/AdyenCreateWebhook.png "[Create webhook in Adyen]")
+    ![Create webhook in Adyen](../../Assets/Screenshots/Adyen/Integration/AdyenCreateWebhook.png "[Create webhook in Adyen]")
 
-2. Enter the following settings in the *General* section.
+3. Enter the following settings in the *General* section.
     - *Description*  
         Enter a description for the webhook.
     - *Server configuration section*   
@@ -60,7 +62,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
             
           ![Define server configuration](../../Assets/Screenshots/Adyen/Integration/AdyenCreateWebhookServerConfig.png "[Define server configuration]").
 
-3. Click the [Apply] button and proceed with the following fields in the *General* section.
+4. Click the [Apply] button and proceed with the following fields in the *General* section.
 
     - *Merchant accounts*   
         Enter the merchant account(s) you want to connect.
@@ -69,7 +71,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 
         ![Events](../../Assets/Screenshots/Adyen/Integration/AdyenEvents.png "[Events]")
 
-3. Click the [Apply] button and enter the following settings in the *Security* section.
+5. Click the [Apply] button and enter the following settings in the *Security* section.
 
      - *Basic authentication*   
          - Define a username and password for the notification user, so that you can get notifications from Adyen&trade;. You can freely define them.
@@ -85,15 +87,15 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
      - *HMAC key*   
          You can ignore this setting. It is currently not supported by the *Payments* module.   
 
-4. Enter the following settings in the *Additional settings* section.
+6. Enter the following settings in the *Additional settings* section.
      - *3D Secure*   
         Select all entries and click the [Apply] button.
 
         ![3D Secure](../../Assets/Screenshots/Adyen/Integration/Adyen3DSecure.png)
 
-5. Click the [Save changes] button in the bottom right corner.
+7. Click the [Save changes] button in the bottom right corner.
 
-6. Enable the standard webhook and test your configuration after you have saved the notification user and password in Actindo.  
+8. Enable the standard webhook and test your configuration after you have saved the notification user and password in Actindo.  
 <!--- Stefan, geht das hier schon, oder muss alles in Actindo eingetragen sein?-->
 
 
