@@ -91,9 +91,9 @@ You can check the stock allocation for a selected material from the product list
 
 4. Alternatively to the procedure described, you can also display the stock allocation for a selected material following the procedure below: 
 
-    a. Select a product from the list in the *Quick posting*.  
-    b. Select the *Warehouse/Suppliers* tab and the *Warehouse management* sub-tab.  
-    c. Click the [DISPLAY STOCK ALLOCATION] button at the bottom.  
+        a. Select a product from the list in the *Quick posting*.  
+        b. Select the *Warehouse/Suppliers* tab and the *Warehouse management* sub-tab.  
+        c. Click the [DISPLAY STOCK ALLOCATION] button at the bottom.  
     
     > [Info] The [DISPLAY STOCK ALLOCATION] button is located at the bottom of the *Stocks* section. You may need to expand the section or scroll down to see the button.
 
