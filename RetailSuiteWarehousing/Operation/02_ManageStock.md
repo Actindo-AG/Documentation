@@ -5,9 +5,13 @@
 
 # Manage the stock
 
-The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations. 
+The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations.
 
-Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on the different stock postings and the automatic posting process, see [Check the posting history](./03_CheckPostingHistory.md). 
+[comment]: <> (Reformulieren, klingt nach Overview)
+
+Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on the different stock postings, see [Posting types](../UserInterface/04_PostingTypes.md). 
+
+[comment]: <> (and the automatic posting process... -> zu Posting types?)
 
 [comment]: <> (Evtl. Link zu Basic OM process hinzufügen, wenn online)
 
@@ -17,7 +21,7 @@ However, if necessary, you can also perform stock postings manually, both for a 
 
 ## Create a manual stock posting
 
-You can create a manual posting if you want to add, release or transfer stock in you storage locations in order to adjust the current data.
+You can create a manual posting if you want to add, release, or transfer stock in you storage locations in order to adjust the current data.
 
 
 ### Manual stock posting of a single material  

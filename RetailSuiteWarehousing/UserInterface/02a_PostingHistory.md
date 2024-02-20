@@ -31,7 +31,7 @@ The following filters are available:
     - **Problem**  
     - **Pre-reservation**  
 
-    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
+    For detailed information on the different posting types, see (./04_PostingTypes.md). 
 
 - *Warehouse*  
     Click the drop-down list and select the desired warehouse. All available warehouses are displayed in the list.

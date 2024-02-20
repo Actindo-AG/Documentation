@@ -93,7 +93,7 @@ The following functions and fields are available:
 
 - *Manual posting*  
     Click the drop-down list to select the appropriate manual posting type. The posting types displayed vary according to the tab selected.  
-    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types).
+    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md).
 
 
 
@@ -268,7 +268,7 @@ The following functions and fields are available:
 
 - *Posting type*  
     Click the drop-down list and select the desired posting type.  
-    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
+    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md). 
 
 - *New stock location*  
     Click the drop-down list and select the desired stock location. This drop-down list is only displayed if you have selected the *Stock transfer* posting type.
@@ -347,7 +347,7 @@ The list displays all stock postings for the selected material. The list display
 
 - *Posting type*  
     Click the drop-down list to filter the postings by posting type.  
-    For detailed information on the different posting types, see [Posting types](../Operation/03_CheckPostingHistory.md#posting-types). 
+    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md). 
 
 - [EXCEL]  
     Click this button to export the stock history as an Excel file. 

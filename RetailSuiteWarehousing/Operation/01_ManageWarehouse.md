@@ -44,7 +44,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 4. Click the *is primary storage* checkbox in the *Edit* section.  
     
 5. Click the [SAVE] button to save the changes made.  
-    The storage shelf is set as primary for the selected material. The primary storage shelf is then marked with **1** in the **is primary storage shelf** column in the *Storage locations* section.  
+    The storage shelf is set as primary for the selected material. The primary storage shelf is then marked with **1** in the *is primary storage shelf* column in the *Storage locations* section.  
 
 
 
@@ -115,7 +115,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-3. Check the stocks for the selected material in the *Stocks* section. You may need to expand the *Stocks* section by dragging the lower edge or scroll down to see all stocks. You can check the following stock values per warehouse and in total:
+3. Check the stocks for the selected material in the *Stocks* section. You may need to expand the *Stocks* section by dragging the lower edge or scroll down to see the complete list of stocks. You can check the following stock values per warehouse and in total:
     - *Stock*: actual units in stock
     - *Reserved*: reserved units for open customer orders 
     - *Available in stock*: actual units minus reserved units 
@@ -163,7 +163,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 4. If desired, click the *Storage location* drop-down list to select a specific warehouse. All available warehouses are displayed in the list.  
     The list displays only the entries for the selected warehouse.
 
-5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For detailed information on the different posting types, see [Posting types](./03_CheckPostingHistory.md#posting-types).  
+5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For detailed information on the different posting types, see [Posting types](../UserInterface/04_PostingTypes.md).  
     The list displays only the entries with the selected posting type.
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the order, and therefore the linked business document, has been cancelled.
