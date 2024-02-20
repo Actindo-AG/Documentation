@@ -30,5 +30,5 @@ No prerequisites to fulfill.
 2. Click the *Warehouse logistics active for this product* drop-down list and select **Yes** to activate the selected product.  
 
 3. Click the [SAVE] button.  
-    The notice *Please wait... Saving...* is displayed while saving. The setting has been saved. The *Successfully saved* pop-up window is displayed. 
+    The notice *Please wait... Saving...* is displayed while saving. The setting has been saved. A confirmation message is displayed. 
 
