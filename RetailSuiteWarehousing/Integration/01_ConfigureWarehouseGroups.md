@@ -4,9 +4,15 @@
 
 # Configure the warehouse groups
 
+The *Warehousing* module allows you create complex warehouse structures. Before you start configuring the warehouse groups, you must define the structure you want to reproduce in the Core1. This will depend on the nature of your business and on your own warehousing facilities. Below we offer you a simple warehouse structure for exemplary purposes.
+
+![Example warehouse structure](../../Assets/Screenshots/RetailSuiteWarehousing/WarehouseStructure.png "Example warehouse structure")
+
+[comment]: <> (Julian: Sinnvolles Beispiel? Verbessungsvorschläge willkommen.)
+
 A warehouse group is a higher-level classification of warehousing facilities according to customer-defined criteria, such as location or product type. For example, you can create a warehouse group for each country where you have warehousing facilities. 
 
-Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group and handled separately. A warehouse group can contain an unlimited number of warehouses, see [Configure the warehouses](./02_ConfigureWarehouses.md).   
+Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group and handled separately. A warehouse group can contain an unlimited number of warehouses, see [Configure the warehouses](./02_ConfigureWarehouses.md). 
 
 Warehouse groups can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group where postings have already been made, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 

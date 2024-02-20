@@ -10,6 +10,8 @@ Warehouses can be created, edited, and deleted. Bear in mind, though, that you c
 
 [comment]: <> (Julian: Gibt es eigentlich einen speziellen Grund, warum ich ein Warehouse keiner Warehouse group zuordnen sollte? Was hat das für Auswirkungen?)
 
+
+
 ## Create a warehouse
 
 Create one or more specific warehouses to store and manage your stock.

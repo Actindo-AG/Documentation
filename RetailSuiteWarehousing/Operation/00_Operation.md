@@ -4,11 +4,11 @@ In this part of the *Warehousing* documentation, you will find the following cha
 
 
 - [Manage the warehouse](./01_ManageWarehouse.md)
-    - [Activate the warehouse logistics for a product](./01_ManageWarehouse.md#activate-the-warehouse-logistics-for-a-product)
     - [Check the stock allocation for a material](./01_ManageWarehouse.md#check-the-stock-allocation-for-a-material)
     - [Set a storage shelf as primary](./01_ManageWarehouse.md#set-a-storage-shelf-as-primary)
     - [Check the stocks for a material](./01_ManageWarehouse.md#check-the-stocks-for-a-material)
     - [Check the stock history for a material](./01_ManageWarehouse.md#check-the-stock-history-for-a-material)
+
 
 - [Manage the stock](./02_ManageStock.md)
     - [Create a manual stock posting](./02_ManageStock.md#create-a-manual-stock-posting)

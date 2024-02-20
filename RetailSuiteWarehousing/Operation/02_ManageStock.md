@@ -26,7 +26,7 @@ Create a manual posting of a selected single material.
 
 #### Prerequisites
 
-The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](./01_ManageWarehouse.md#activate-the-warehouse-logistics-for-a-product).
+The warehouse logistics has been activated for the selected material, see [Activate the warehouse logistics for a product](../Integration/06_ActivateWarehouseLogistics.md).
 
 #### Procedure
 
@@ -120,7 +120,7 @@ The warehouse logistics has been activated for the selected materials, see [Acti
 
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
-1. Select the applicable tab in the bottom left corner of the workspace. The following tabs are available:
+1. Select the desired tab in the bottom left corner of the workspace. The following tabs are available:
     - *Stock in*  
         Select this tab if you want to add stock for multiple materials. 
     - *Release from stock*  

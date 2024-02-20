@@ -39,7 +39,7 @@ The product list displays all available products. Depending on the settings, the
 - *On stock*  
     Actual number of units of the product stored.  
 
-**Multiple posting section**
+**Section for multiple posting**
 
 This section displays a list of the products selected and moved per drag and drop when posting stock for multiple materials at a time. 
 Depending on the tab selected below, the columns and the buttons displayed may vary.
