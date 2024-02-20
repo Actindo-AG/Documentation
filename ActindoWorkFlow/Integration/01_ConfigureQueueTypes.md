@@ -130,12 +130,20 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
         - **Executable actions of oldest process**   
             The executable actions within the oldest process are executed first by the workers.
 
-3. Click the [SAVE] button in the upper right corner.   
+3. If desired, edit the number of the workers. For detailed information, see [Edit the number of workers](01_ConfigureQueueTypes.md#edit-the-workers-number).
+
+4. If you want to use a queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
+   The fields below are ready for input.
+     1. Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
+     2. Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60.   
+    Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
+
+5. Click the [SAVE] button in the upper right corner.   
     The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.  
 
 
 
-### Edit the workers number
+### Edit the number of workers
 
 Change the number of workers of a queue type to increase or decrease the execution speed accordingly. The number of workers can only be adjusted when no more workers are active. To achieve this, you must either wait until all running workers are finished or kill all workers to stop them immediately, see [Kill workers](#kill-workers).
 
@@ -188,8 +196,8 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
     ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
-2. Click the *Queue type* drop-down list and select the desired queue type for the selected transition. All available queue types are displayed in the list.     
-    The selected queue type is displayed in the list.
+2. Click the *Queue type* drop-down list and select the desired queue type for the selected transition. 
+    The selected queue type is displayed in the settings side bar.
 
     > [Info] Repeat the steps **1** and **2** for all transitions to which you want to assign a queue type.
 
@@ -212,6 +220,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
 - An additional queue type has been created, see [Create a queue type](#create-a-queue-type).
 - The workflows have been disabled, see [Disable the workflows](#disable-the-workflows).
 - No more workers are running.
+- You have checked your workflow transitions to see if the queue type you want to delete is assigned. Tip: Use the *Ececution log* to identify transitions using a specific queue type, see [Execution log](../UserInterface/06b_ExecutionLog.md).
 
 #### Procedure
 
@@ -227,7 +236,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
 2. Click the [DELETE] button in the toolbar.   
   The queue type has been deleted. A confirmation message is displayed.
 
-  > [Info] The queue type is only deleted, if it is not assigned to any action anymore.
+  > [Info] The queue type is only deleted, if it is not assigned to any transition anymore.
 
 
 
