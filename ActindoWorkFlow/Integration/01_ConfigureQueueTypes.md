@@ -50,9 +50,7 @@ No prerequisites to fulfill.
     Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
 6. Click the [SAVE] button in the upper right corner.   
-    The *Create queue type* view is closed. The new queue type has been created and is displayed in the list of queue types. The *Queue type has been created* pop-up window is displayed.
-
-    ![Queue type created](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeCreated.png "[Queue type created]")
+    The *Create queue type* view is closed. A confirmation message is displayed. The new queue type has been created and is displayed in the list of queue types. 
 
     > [Info] An error notice is displayed if the number of booked vCores is not sufficient to create the queue type with the selected number of workers.
 
@@ -133,9 +131,8 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
             The executable actions within the oldest process are executed first by the workers.
 
 3. Click the [SAVE] button in the upper right corner.   
-    The changes have been saved. The *Edit queue type* view is closed. The *Queue type has been saved* pop-up window is displayed.  
+    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.  
 
-    ![Queue type saved](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
 
 
 ### Edit the workers number
@@ -163,9 +160,7 @@ Change the number of workers of a queue type to increase or decrease the executi
 2. Click the *Number of workers* field and edit the number of workers.
 
 3. Click the [SAVE] button in the upper right corner.    
-    The changes have been saved. The *Edit queue type* view is closed. The *Queue type has been saved* pop-up window is displayed.  
-
-    ![Queue type saved](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeSaved.png "[Queue type saved]")
+    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.  
 
 4. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
     The workflow processes will start automatically.
@@ -230,9 +225,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
   ![Toolbar](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
 2. Click the [DELETE] button in the toolbar.   
-  The queue type has been deleted. The *Queue type has been deleted* pop-up window is displayed.
-
-  ![Queue type deleted](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/QueueTypeDeleted.png "[Queue type deleted]")
+  The queue type has been deleted. A confirmation message is displayed.
 
   > [Info] The queue type is only deleted, if it is not assigned to any action anymore.
 
@@ -270,9 +263,8 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
   ![Toolbar](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Toolbar.png "[Toolbar]")
 
 2. Click the [KILL WORKER OF THIS QUEUE TYPE] button in the toolbar.   
-  The workers of the selected queue type have been killed. The process actions of the selected queue type will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
+  The workers of the selected queue type have been killed. The process actions of the selected queue type will not continue until you restart the workflow processes. A confirmation message is displayed.
 
-  ![Worker shutdown](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
 
 
 ### Kill all workers
@@ -294,9 +286,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 > [Info] Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
 
 Click the [KILL WORKER] button above the queue types list.    
-All workers have been killed. The process actions will not continue until you restart the workflow processes. The *Worker will shutdown* pop-up window is displayed.
-
-  ![Worker shutdown](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/WorkerShutdown.png "[Worker shutdown]")
+All workers have been killed. The process actions will not continue until you restart the workflow processes. A confirmation message is displayed.
 
 
 

@@ -40,6 +40,4 @@ No prerequisites to fulfill.
     ![New log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/NewLogLifetime.png "[New log lifetime]")
 
 4. Click the [SAVE] button in the upper right corner.   
-    The changes have been saved. The *Saving successful* pop-up window is displayed.
-
-    ![Saving successful](../../Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
+    The changes have been saved. A confirmation message is displayed.

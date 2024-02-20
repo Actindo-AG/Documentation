@@ -22,7 +22,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar.
 
 - [DELETE]   
-    Click this button to delete the selected queue type. The *Queue type has been deleted* pop-up window is displayed. The *Default* queue type cannot be deleted.  
+    Click this button to delete the selected queue type. A confirmation message is displayed. The *Default* queue type cannot be deleted.  
 
 - [KILL WORKER OF THIS QUEUE TYPE]   
     Click this button to stop all workers that are currently executing an action of the selected queue type.   
