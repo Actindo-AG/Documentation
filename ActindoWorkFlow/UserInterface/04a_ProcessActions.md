@@ -9,32 +9,36 @@
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Actions]")
 
-**Process actions**
+**Process actions**   
+The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](./03a_Processes.md#process-id).
+
+> [Info] When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process actions* menu entry. Click the *Logs* tab in the *Process ID* view for detailed information about the selected process actions, see [Logs](./06a_Logs.md).
 
 - *Status*  
     Click the drop-down list to select a process status. The following statuses are available:  
     - **All**  
         Select this option to display all actions, regardless of their status.
-    - **In progress**  
+    - **Active**  
         Select this option to display the actions that are currently active.
     - **Done**  
         Select this option to display the actions that have been already executed.  
     - **Error**  
-        Select this option to display the actions that have given an error.
+        Select this option to display the actions that have given an error.   
+    - **Error; automatic retry**   
+        Select this option to display the actions that have given an error, but will be automatically retried.
     - **Suspended**  
         Select this option to display the actions that have been manually paused.
     - **Process aborted**  
-        Select this option to display the actions included in a process that has been manually ended.
+        Select this option to display the actions included in a process that has been manually ended.   
+     - **Aborted**    
+        Select this option to display the actions that has been manually ended.
+    - **Manual**   
+        Select this option to display the actions that require a user decision.
 
-
-The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](./03a_Processes.md#process-id).
-
-> [Info] When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process actions* menu entry. Click the *Logs* tab in the *Process ID* view for detailed information about the selected process actions, see [Logs](./06a_Logs.md).
+Depending on the status of the actions, the following functions are available in the editing toolbar.
 
 - [x]    
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
-
-Depending on the action status, the editing toolbar displays the following buttons:
 
 - ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry)  
     Click this button to retry the action. This button is displayed if the action status is *Error*.
@@ -59,6 +63,7 @@ The following functions and fields are available in the list.
     - **Error** (red)  
     - **Suspended** (dark gray)
     - **Process aborted** (black)
+    - **Aborted** (black)
 
 - *Transition*  
     Transition key.
@@ -72,10 +77,11 @@ The following functions and fields are available in the list.
 - *Queue type*  
     Queue type assigned to the action. By default, the *Default* queue type is assigned.
 
-    > [Info] A different queue type can be selected by editing an action in the workflow editor.
+- *Defer until*  
+    Next point in time when the action is being tried. This setting depends on the action and is not available in all actions.
 
 - *Duration*   
-    Time in seconds the action was processed. 
+    Processing time of the process action in seconds.
 
 - *Execution start*   
     Start time of the execution.
@@ -86,9 +92,6 @@ The following functions and fields are available in the list.
 - *Profile*   
     Click the *Profile* link that was created for the action.   
     The run report is displayed in a new browser window. For detailed information, see [Profile](06d_Profile.md).
-
-- *Defer until*  
-    Next point in time when the action is being tried. This setting depends on the action and is not available in all actions.
 
 - *Created*  
     Date and time of creation.

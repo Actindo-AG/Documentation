@@ -15,7 +15,7 @@ The list displays all processes that are matching the selected values (status an
 The following fields and function are available on top of the list:
 
 - ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") (Manual processes)   
-   Enable this toggle to display only those processes who requires a user interaction. Disable this toggle to display all processes.
+   Enable this toggle to display only those processes which require a user interaction. Disable this toggle to display all processes.
 
 - *Status*  
     Click the drop-down list to select a process status. The following options are available:  
@@ -72,7 +72,7 @@ The following functions and fields are available in this list:
     Process description.
 
 - *Has a manual action*   
-    If the process contains a manual action, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to execute the manual action, see [Actions](#actions).
+    If the process contains a manual action, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to execute the manual action, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision).
 
 - *Workflow*  
     Name of the corresponding workflow.
@@ -145,16 +145,22 @@ The list displays all executed actions that are matching the selected status. De
     Click the drop-down list to select an action status. The following options are available:  
     - **All**  
         Select this option to display all actions, regardless of their status.
-    - **In progress**  
-        Select this option to display the actions that are currently active.
+    -**Active**
+         Select this option to display the actions that are currently active.
     - **Done**  
         Select this option to display the actions that have been already executed.  
     - **Error**  
         Select this option to display the actions that have given an error.
+    -**Error; automatic retry**
+        Select this option to display the actions that have given an error, but will be automatically retried.
     - **Suspended**  
         Select this option to display the actions that have been manually paused.
     - **Process aborted**  
         Select this option to display the actions included in a process that has been manually ended.
+    -**Aborted**
+        Select this option to display the actions that has been manually ended.
+    - **Manual**
+        Select this option to display the actions that require a user decision.
 
 The following functions are available for the editing toolbar:
 

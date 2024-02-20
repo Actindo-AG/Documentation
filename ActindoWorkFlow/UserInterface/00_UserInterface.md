@@ -69,8 +69,9 @@ In this part of the *Workflows* documentation, you will find the following chapt
 
 - [Workflow core actions](./08_CoreActions.md)
     - [Change process priority](./08_CoreActions.md#change-process-priority)
-    - [Manual action](./08_CoreActions.md#manual-action)
     - [Multiply input action](./08_CoreActions.md#multiply-input-action)
+    - [Extract value](./08_CoreActions.md#extract-value)
+    - [Manual action](./08_CoreActions.md#manual-action)
     - [Execute PHP code](./08_CoreActions.md#execute-php-code)
     - [Split by criterion](./08_CoreActions.md#split-by-criterion)
     - [Start subprocess](./08_CoreActions.md#start-subprocess)

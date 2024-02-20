@@ -27,8 +27,6 @@
     - **Emergency**   
         Select this option to display all logs with *Emergency* level.
 
-
-
 The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
 
 - *Type*  

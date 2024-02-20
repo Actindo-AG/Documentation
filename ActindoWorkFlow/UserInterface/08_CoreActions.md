@@ -13,7 +13,7 @@ In the following, the core actions, their use and their settings are described i
 - [Change process priority](#change-process-priority)
 - [Multiply input action](#multiply-input-action)
 - [Execute PHP code](#execute-php-code)
-- [Extract value action](#extract-value-action)
+- [Extract value](#extract-value)
 - [Manual action](#manual-action)
 - [Split by criterion](#split-by-criterion)
 - [Start subprocess](#start-subprocess)
@@ -38,20 +38,18 @@ The data runs via the *loop_through* input port into the process action and is o
 This core action has no further configuration settings.
 
 
-## Extract value action
+## Extract value
 
 ![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
 
-The *Extract value* core action is used to extract a specific value and to use this as input for further processing. For example, you extract a specific value from a business document, or you define further processing for a certain position of a business document. 
+The *Extract value* core action is used to extract a specific value and to use this as input for further processing. For example, you extract a specific value from a business document position such as the *pimProduct* field of the **Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentPosition** data model, or you extract a certain position of a business document. 
 
 You define the value to be extracted in the *Path to value* field in the configuration. 
-
 
 ### Configuration
 
 *Path to value*
-
-
+Search for the field name of the data model of the object that is available in the input port of the transition, copy the required field name, and enter it in the *Path to value* field, for example pimProduct,and unit.dimension.id.
 
 
 

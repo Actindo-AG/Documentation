@@ -45,16 +45,11 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 
 
 
-
-
-
 ## Check the process action status
 
 The process action status can be checked to monitor what actions have already been executed, whether problems have occurred and at what place, or whether manual actions are awaiting a user decision. If the process is currently active, you can observe the process execution in real time.  
 
 The *Process ID* view displays a diagram of the selected process including all places and actions. More details about the process actions, logs, and tokens included in the diagram are displayed in separate tabs at the bottom of the *Process ID* view.
-
-
 
 #### Prerequisites
 
@@ -81,18 +76,19 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Done** (green)   
     - **Error** (red)  
     - **Pending** (white)
+    - **Manual action** (yellow), see [Make a user decision](#make-a-user-decision)
 
-4. Click the action to be checked in the diagram.   
-    The selected action is displayed in the *Actions* tab.
-
-5. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
+4. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
 
     ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
 
     + Click the [Info] button to read the documentation.  
-      The *Long description* pop-up window is displayed
+      The *Long description* pop-up window is displayed.
 
     + Click the [Close] button in the bottom right corner to close the window.
+
+5. Click the action to be checked in the diagram.   
+    The selected action is displayed in the *Actions* tab.
 
 6. Check the action status in the *Status* column. The following statuses are available:
 
@@ -126,22 +122,21 @@ The *Process ID* view displays a diagram of the selected process including all p
 11. If necessary, select the checkbox of an action for which you want to perform further operations.   
    The editing toolbar is displayed. The functions available for this specific action status are displayed, for example, the functions retry, abort, or rerun.
 
-12. Select the desired function after you have checked the logs, the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log).
+12. Continue with checking the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log).
 
-
-> [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. There you can filter them according to their status and modify them simultaneously, if necessary. By clicking a specific action in the process actions list, the corresponding *Process ID* view will be displayed. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
+> [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 
 
 ## Make a user decision
 
-A process will be paused if a manual action is waiting for a user decision, for example, if a business transaction needs an approval. For detailed information on manual actions, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
+Make a user decision, so that the workflow process can continue. A process will be paused if a manual action is waiting for a user decision, for example, if a business transaction needs an approval. For detailed information on manual actions, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
 
 
 #### Prerequisites
 
 - A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
-- There are processes available that require a decision
+- The workflow process requires a decision.
 
 #### Procedure
 
@@ -150,10 +145,10 @@ A process will be paused if a manual action is waiting for a user decision, for 
 ![Processes overview](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualAction.png "[Processes overview]")
 
 1. Enable the ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") *Manual processes* toggle.    
-    Only those processes that require manual actions are displayed. They have the status **In progress** and a warning sign ![Warning](../../Assets/Icons/Warning.png) in the *Has a manual action* column.
+    Only those processes that require manual actions are displayed. They have the **In progress** status and a warning sign ![Warning](../../Assets/Icons/Warning.png) in the *Has a manual action* column.
 
-2. Click a desired process.   
-    The *Process ID* view is displayed. In the diagram, the manual action is displayed in yellow.
+2. Click a desired process.      
+    The *Process ID* view is displayed. In the workflow diagram, the manual action is displayed in yellow.
 
    ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionProcessID.png "[Process ID]")
 
@@ -169,7 +164,31 @@ A process will be paused if a manual action is waiting for a user decision, for 
     The workflow process proceeds. 
 
 6. If you want to postpone the decision to a later date, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button, select the desired date and click the [SET FOLLOWUP DATE] button.   
-    The workflow process remains in the *In process* status.
+    The workflow process remains in the *In process* status. In the *Actions* tab, the follow-up date is included in the *Defer until* column.
+
+## Check the logs
+
+The log can be checked to identify issues that may be caused by a faulty workflow configuration or other issues with the process.
+
+#### Prerequisites
+
+- A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
+- A workflow process has been initiated.
+
+#### Procedure
+
+*Workflows > Processes > Tab OVERVIEW > Select process*
+
+![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
+
+1. Click the *logs* tab.  
+    The *Logs* tab with a list of all logs created for the selected process is displayed.
+
+2. Click the *Log level* drop-down list and select the log level you want to check.  
+    All logs of the selected log level are displayed.
+
+3. Check the logs. For detailed information, see [Logs](../UserInterface/06a_Logs.md).
+
 
 
 ## Check the token status and content
