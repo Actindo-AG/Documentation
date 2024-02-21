@@ -2,9 +2,14 @@
 
 You can create, edit, delete, and list PIM products via API. 
 
+The attribute key is customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
+
+> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is not recommended in principle, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
+
+
 ## Create a product  
 
-You can create a product via API i you want to... 
+You can create a product via API if you want to... 
 
 [comment]: <> (Use case?)
 
@@ -218,3 +223,4 @@ Get a list setting a filter.
 
 Other use cases
 
+Add Images

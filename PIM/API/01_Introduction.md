@@ -2,30 +2,52 @@
 
 ## General information
 
-API vs UI   
-Nutzen/Vorteil 
+There are two ways to interact with the *Actindo Core1 Platform* - via user interface (user interactive requests) and via API (API requests). You can perform most of actions using both access methods. 
 
+Both methods require authentication. If accessing the Core1 via user interface using a browser, you need to log into the system with your credentials. When the system receives valid credentials, it authenticates the user. The user interactive session is started. If accessing the Core via API directly, you use a software, usually a third-party tool, to handle all communication with the system.
 
-OpenAPI V3 format
+[comment]: <> (Unauthenticated endpoints worth mentioning for some specific reason?)
 
+[comment]: <> (Benefits of API integration, if relevant to add?)
+
+*Actindo Core1 Platform* uses the OpenAPI 3.0 Specification (OAS). 
+
+[comment]: <> (Stimmt das so? Relevant zu erwähnen?)
 
 ## Authentication
 
-**Security Scheme Type**: OAuth2  
-**authorizationCode OAuth Flow**  
-Authorization URL: /Actindo.CoreModules.Auth.OAuth2.authorize  
-Token URL: /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken  
+|    <!-- -->           |    <!-- -->                     |
+|----------------------------|-------------------------------------|
+| **Security Scheme Type**   | OAuth2                                |
+| **AuthorizationCode OAuth Flow**  | **Authorization URL** /Actindo.CoreModules.Auth.OAuth2.authorize  |
+|                                   | **Token URL** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken | 
+
+| **Security Scheme Type** | **AuthorizationCode OAuth Flow** |
+|-------------------------|----------------------|
+| OAuth2 | **Authorization URL** /Actindo.CoreModules.Auth.OAuth2.authorize |
+|    | **Token URL** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken |
+ 
+Authorization vs Token
+
+The *Actindo Core1 Platform* supports two workflows of the OAuth2 protocol to retrieve an access token to make authenticated requests.
+
+This document covers using the OAuth2 protocol to allow other services to access Core1 account on users behalf.
+
+If you want your Core1 Account to be an OAuth2 authentication service provider to sign into other Actindo APIs, ... 
+
+[comment]: <> (S. Wissenstransfer)
 
 
+## Tenant security policies
+
+[comment]: <> (Relevant?)
 
 
-How to pass parameters in JSON format in Postman?
-Add the following to the headers: "Content-Type: application/json". This setting specifies that the data being sent in the request body is in JSON format.
-
-
-## Set up Postman for the *Actindo Core1 Platform 
+## Set up Postman for the *Actindo Core1 Platform* 
 
 To send requests to the *Actindo Core1 Platform* API endpoints, you need to use an external API tool, such as Postman. For detailed information on download, configuration and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
+
+Before you can send requests to the Core1 with Postman, you have to set it up to communicate with your system.  
 
 
 ### Define the headers  
@@ -36,7 +58,7 @@ Headers must be defined, so that the data is transferred to the Core1 in the app
 
 2. Enter "Content-Type" and "Accept" in two different rows the *Key* column. 
 
-3. Enter "application/json" in the *Value* column for both rows.
+3. Enter "application/json" in the *Value* column for both rows. This setting specifies that the data being sent in the request body is in JSON format.
 
 
 ### Set the session cookie  
@@ -59,21 +81,22 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 3. Open the console in the browser developer tools. Depending on the browser you use, the access shortcut or key may differ. For example, in Chrome you can access the console pressing the **F12** key.
 
-4. Click the *Application* tab and select the *Cookie* option in the left menu under the *Storage* section.
+4. Click the *Application* tab and then select the *Cookies* option in the left menu under the *Storage* section.  
+    The **Cookies** URL of the Core1 system is expanded.
 
-5. Click the cookie corresponding to the Core1 system you want to access via API.  
-    All cookie values are displayed on the right.
+5. Click the URL of the Core1 system you want to access via API.  
+    All cookies are displayed on the right.
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookiesConsole.png "[Cookies in console]")
 
-6. Select the session cookie of the Core1 instance you want to access via API. There may be two types of cookies:
-    - ACTINDOTHREE  
+6. Select the session cookie of the Core1 system you want to access via API. There are two types of cookies:
+    - **ACTINDOTHREE**  
         This cookie is displayed if you have a live system.
-    - ACTINDOTHREEEXTR  
+    - **ACTINDOTHREEEXTR**  
         This cookie is displayed if you have a sandbox.
     The cookie value is displayed in the *Cookie Value* section.
 
-7. Copy the appropriate cookie from the *Cookie Value* section.  
+7. Copy the cookie value from the *Cookie Value* section.  
 
 8. Switch to *Postman* and click the *Cookies* button located under the *Send* button.  
     The *Cookies* window is displayed.
@@ -84,7 +107,7 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookieValuePostman.png "[Cookies in console]")
 
-10. Replace the existing cookie value with the copied cookie value from the console.
+10. Replace the current cookie value with the cookie value you have previously copied in the console.
 
 11. Click the *Save* button and close the *Cookies* window.  
     The session cookie has been saved. You can start sending API requests.
@@ -93,13 +116,8 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 [comment]: <> (Ref: https://actindo.atlassian.net/wiki/spaces/CW/pages/33193985/How+to+configure+postman+and+make+an+API+call)
 
 
+We recommend that you create collection and predefine API calls using the templates provided. This way you can reuse your API calls, export them and even share them with other colleagues in the Cloud. For detailed information, refer to the Postman documentation in the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
-
-- Collections
-- Calls 
-    - vordefinieren (Vorlagen) 
-    - exportieren 
-    - share (Cloud)
 
 ## Methods 
 
