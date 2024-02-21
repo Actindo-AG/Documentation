@@ -26,6 +26,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;. 
+- The *Adyen* plugin is installed on the *Actindo Core1 Platform* system.
 - At least one Adyen&trade; connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
 
@@ -153,6 +154,7 @@ You must generate a web service API key for both the test environment and the li
 - You have a valid user account in Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
 - At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
+- The *Adyen* plugin is installed on the *Actindo Core1 Platform* system.
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*. For detailed information, see [Configure Adyen connection](02_ManageAdyenConnection.md#configure-adyen-connection).
 
 #### Procedure
@@ -227,6 +229,7 @@ You must generate a report service API key for both the test environment and the
 - You have an Adyen&trade; customer account to log in to Adyen&trade;.
 - You are logged in to Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
+- The *Adyen* plugin is installed on the *Actindo Core1 Platform* system.
 - At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*.
 
@@ -244,13 +247,13 @@ You must generate a report service API key for both the test environment and the
 2. Select the *Report service user* credential type.   
    The username is automatically created by the system.
 
-       ![Create report service credentials](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png "[Create report service credentials]")
+    ![Create report service credentials](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png "[Create report service credentials]")   
 
 3. Copy the username.
 
 4. Change to your Actindo instance and paste the report username in the *Report user* field.
   
-   ![Report username](../../Assets/Screenshots/Adyen/Integration/AdyenReportUser.png "[Report username]")
+   ![Report username](../../Assets/Screenshots/Adyen/Integration/AdyenReportUser.png "[Report username]")   
 
 5. Return to your Adyen&trade; account and enter a description for the report service user in the *Description* field.
 
