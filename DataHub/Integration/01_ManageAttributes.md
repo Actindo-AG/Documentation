@@ -6,7 +6,7 @@
 
 # Manage an attribute
 
-An attribute defines a characteristic to describe a product. You can create attributes, edit attributes and deactivate or delete attributes that are not in use.
+An attribute defines a characteristic to describe a product. You can create attributes, edit attributes, and deactivate or delete attributes that are not in use.
 Further, you can add attributes to an attribute set or remove them from an attribute set.  
 In the *DataHub* module, attributes from all plugins are displayed.
 
@@ -29,23 +29,27 @@ No prerequisites to fulfill.
 
     ![Create attribute](../../Assets/Screenshots/DataHub/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-[comment]: <> (Sprache wählen? Nur in Multi-language attributes? Muss den Toggle zuerst oder muss man die Sprachen zuerst wählen?)
+2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.  
 
-2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.
+    > [Info] If you want to provide the attribute name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+
+[comment]: <> (Julian: please check) 
 
 3. Select a data type in the *Data type* drop-down list.   
     Depending on the selected data type, the *CONFIGURATION* section is displayed. For detailed information about all data types, see [Data type list](../UserInterface/05_DataTypeList.md).
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
-
 4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-
     > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **datahub_** to all attributes created in the *DataHub* module.     
+
+[comment]: <> (Stimmt das so mit dem double underscore?)
+
+[comment]: <> (Julian: Bitte die UPDATE KEY button hier abbauen!)
 
 5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-scope* toggle to assign different attribute values in different scopes.
 

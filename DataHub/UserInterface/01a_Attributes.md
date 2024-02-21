@@ -122,7 +122,7 @@ The *Create attribute* view contains all fields and configurations that define t
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-[comment]: <> (UPDATE KEY -> warum hier? Sollte nicht nur in Edit sein?)
+[comment]: <> (UPDATE KEY -> Julian: Bitte aus Create attribute view abbauen!)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
