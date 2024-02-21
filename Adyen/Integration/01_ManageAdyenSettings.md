@@ -54,6 +54,9 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
          - *Method*   
             You can use the **JSON** standard setting if you have no other requirements.
 
+        - *Accept webhook*   
+            Adyen&trade; requires you to acknowledge every webhook event with a successful HTTP response status code, for example 200. You can use the standard setting. For detailed information, see [Accept webhooks](https://docs.adyen.com/issuing/webhooks/#accept-webhooks "https://docs.adyen.com/issuing/webhooks/#accept-webhooks") in the Adyen&trade; documentation.
+
         - *Encryption protocol*     
            You can use the **TLSv1.3** standard setting if you have no other requirements.
 
@@ -169,49 +172,47 @@ You must generate a web service API key for both the test environment and the li
  
      ![Payment user](../../Assets/Screenshots/Adyen/Integration/AdyenWebServiceUser.png "[Payment user]")
 
-4. Return to your Adyen&trade; account.
-
-5. Enter a description for the web service user in the *Description* field.
+4. Return to your Adyen&trade; account and enter a description for the web service user in the *Description* field.
 
     ![Create API credential](../../Assets/Screenshots/Adyen/Integration/AdyenCreateAPIcredential.png "[Create API credential]")
 
-6. Click the [Create credential] button.   
+5. Click the [Create credential] button.   
     The *Configure API credential* view is displayed. The API key tab is displayed by default.
 
-7. Generate the *Web service* API key and enter it in Actindo. To do this, follow these steps:
+6. Generate the *Web service* API key and enter it in Actindo. To do this, follow these steps:
 
-    - Click the *API key* tab in the *Server settings > Authentication* section. 
+    1. Click the *API key* tab in the *Server settings > Authentication* section. 
 
-    - Click the [Generate API key] button, if you want to generate a new key.    
+    2. Click the [Generate API key] button, if you want to generate a new key.    
       The API key is automatically generated.
 
         ![Generate Checkout API key](../../Assets/Screenshots/Adyen/Integration/AdyenAuthentication.png "[Generate Checkout API key]")
     
-    - Click the *Copy API key* button.
+    3. Click the *Copy API key* button.
 
-    - Change to your Actindo instance and insert the API key in the *Checkout API key* field. 
+    4. Change to your Actindo instance and insert the API key in the *Checkout API key* field. 
 
         ![Checkout API key](../../Assets/Screenshots/Adyen/Integration/AdyenCheckoutAPIkey.png "[Checkout API key]")
 
-8. Return to your Adyen&trade; account and generate the *Web service* API password and enter it in Actindo. To do this, follow these steps:
+7. Return to your Adyen&trade; account and generate the *Web service* API password and enter it in Actindo. To do this, follow these steps:
 
-    - Click the *Basic auth* tab and click the [Generate password] button, is you want to generate a new password.   
+    1. Click the *Basic auth* tab and click the [Generate password] button, is you want to generate a new password.   
       The password is automatically created.
 
         ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Web service password]")
     
-    - Click the *Copy password* button. 
+    2. Click the *Copy password* button. 
 
-    - Change to your Actindo instance and insert the password in the *Payment password* field.
+    3. Change to your Actindo instance and insert the password in the *Payment password* field.
 
        ![Payment password](../../Assets/Screenshots/Adyen/Integration/AdyenPaymentPassword.png "[Payment password]")
 
-9. Return to Adyen&trade; and click the [Save changes] button in the bottom right corner.   
+8. Return to Adyen&trade; and click the [Save changes] button in the bottom right corner.   
     The credentials for the *Web service* API are applied.
 
-10. If necessary, configure your wallet payment methods in the *Wallet payment methods* section. Refer to the Adyen&trade; documentation. 
+9. If necessary, configure your wallet payment methods in the *Wallet payment methods* section. Refer to the Adyen&trade; documentation. 
 
-11. If necessary, assign roles to define the permissions of the API credentials in the *Permissions > Roles* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
+10. If necessary, assign roles to define the permissions of the API credentials in the *Permissions > Roles* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
 
 
 
@@ -240,7 +241,7 @@ You must generate a report service API key for both the test environment and the
        
     ![Create API credential](../../Assets/Screenshots/Adyen/Integration/AdyenCreateAPIcredential.png "[Create API credential]")
    
-  2. Select the *Report service user* credential type.   
+2. Select the *Report service user* credential type.   
    The username is automatically created by the system.
 
        ![Create report service credentials](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png "[Create report service credentials]")
@@ -251,43 +252,41 @@ You must generate a report service API key for both the test environment and the
   
    ![Report username](../../Assets/Screenshots/Adyen/Integration/AdyenReportUser.png "[Report username]")
 
-5. Return to your Adyen&trade; account. 
-
-6. Enter a description for the report service user in the *Description* field.
+5. Return to your Adyen&trade; account and enter a description for the report service user in the *Description* field.
 
     ![Create report service credentials](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png "[Create report service credentials]")
 
-7. Click the [Create credential] button.   
+6. Click the [Create credential] button.   
     The *Configure API credential* view is displayed. The API key tab is displayed by default.
 
-8. Generate the *Report service* API key and password. To do this, follow these steps:
+7. Generate the *Report service* API key and password. To do this, follow these steps:
 
-    - Click the *API key* tab in the *Server settings > Authentication* section.
+    1. Click the *API key* tab in the *Server settings > Authentication* section.
     
-    - Click the [Generate API key] button, if you want to generate a new key.    
+    2. Click the [Generate API key] button, if you want to generate a new key.    
         The API key is automatically applied.  
         
         ![Configure API credentials](../../Assets/Screenshots/Adyen/Integration/AdyenAuthentication.png "[Configure API credentials]")
 
         > [Info] You do not need to enter the report API key in your *Payments* connection settings. For the *Payments* module, the report name and password are sufficient.
 
-    - Click the *Basic auth* tab in the *Server settings > Authentication* section.
+    3. Click the *Basic auth* tab in the *Server settings > Authentication* section.
    
-    - Click the [Generate password] button, if you want to generate a new password.   
+    4. Click the [Generate password] button, if you want to generate a new password.   
       The password is automatically created.
    
        ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Report service password]")
 
-    - Click the *Copy password* button.
+    5. Click the *Copy password* button.
 
-9. Change to your Actindo instance and insert the password in the *Report password* field. 
+8. Change to your Actindo instance and insert the password in the *Report password* field. 
 
    ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenReportServicePassword.png "[Report service password]")
 
-10. Return to your Adyen&trade; account and click the [Save changes] button in the bottom right corner.   
+9. Return to your Adyen&trade; account and click the [Save changes] button in the bottom right corner.   
     The credentials for the *Report service* API are applied.
 
-11. If necessary, assign the required report role to allow the technical user to download reports in the *Permissions > Roles > REPORT* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
+10. If necessary, assign the required report role to allow the technical user to download reports in the *Permissions > Roles > REPORT* section. For detailed information, see [API permissions](https://docs.adyen.com/development-resources/api-credentials/#api-permissions "[https://docs.adyen.com/development-resources/api-credentials/#api-permissions]") in the Adyen&trade; documentation.
 
 
 
