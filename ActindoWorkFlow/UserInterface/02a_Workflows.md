@@ -2,7 +2,7 @@
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
 
-[comment]: <> (add link to Tasks module if available)
+[comment]: <> (add link to Tasks module if available> Currently not available 21.02.2024)
 
 # Overview
 
@@ -74,7 +74,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 *Workflows > Workflows > Tab OVERVIEW > Select workflow*
 
-[comment]: <> (subject/path to change, but correct for now -> check in the future)
+[comment]: <> (subject/path to change, but correct for now -> check in the future > still available 21.02.2024)
 
 ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -314,11 +314,13 @@ The workflow diagram includes the following elements:
     - **Equals**  
         Select this option if the property value must equal the value specified in the *Value* field for the trigger to be executed. This option is preselected by default.
     - **Does not equal**  
-        Select this option if the property value must not equal the value specified in the *Value* field for the trigg er to be executed.
+        Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
     - **Is set**  
-        Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
+        Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field. A toggle is available instead of a value:   
+        - Enable the toggle to define that a property value must be set for the condition to be met.
+        - Disable the toggle to define that a property value must not be set for the condition to be met.
 
-[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist)
+[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist > DONE)
 
 - *Value*  
     Enter the applicable value.

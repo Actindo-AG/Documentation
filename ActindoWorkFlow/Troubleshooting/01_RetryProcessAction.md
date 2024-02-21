@@ -66,7 +66,7 @@ The cause of the faulty process actions has been fixed.
 
 *Workflows > Process actions > Tab OVERVIEW*
 
-[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process actions > Tab OVERVIEW*)
+[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process actions > Tab OVERVIEW* > pfad is ok 21.02.2024)
 
 ![Process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Process actions]")
 

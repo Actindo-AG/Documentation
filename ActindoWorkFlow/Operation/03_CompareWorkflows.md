@@ -51,7 +51,7 @@ Compare a workflow with any other version available on the current instance.
     - Format code  
         Click the ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE] button to smooth the comparison. The function compares the lines of code and puts them in the same order, so that order differences are no longer highlighted.
 
-    - All properties
+    - All properties   
        Click the ![All properties](../../Assets/Icons/Toggle.png "[All properties]") (All properties) toggle to compare all changes. This includes properties which have no functional impact such as the version number or the positioning of the nodes.
 
         ![All properties](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparisonAllProperties.png "[All properties]")

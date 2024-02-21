@@ -10,7 +10,7 @@
 # Manage the workflows
 
 The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
-The workflows can be created individually in the workflow editor, they can be edited subsequently and by publishing and unpublishing a workflow, the usage can be controlled.
+The workflows can be created individually in the workflow editor, they can be edited subsequently, and by publishing and unpublishing a workflow, the usage can be controlled.
 
 
 ## Create a workflow
@@ -23,7 +23,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+- You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -149,11 +149,12 @@ Select an existing workflow to edit it.
 
     ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time > version view still is visible 21.02.2024)
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
     - [Edit the place data type](#edit-the-place-data-type)
     - [Change the place ports](#change-the-place-ports)
+    - [Delete a place](#delete-a-place)
     - [Add a transition](#add-a-transition)
     - [Edit a transition](#edit-a-transition)
 
@@ -173,7 +174,7 @@ Edit the place settings to change or define the place data type.
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (New screenshot with transition in it)
+[comment]: <> (New screenshot with transition in it >??)
 
 1. Click the place you want to edit.    
     The place is highlighted and its settings are displayed in the settings side bar on the right.
@@ -319,7 +320,8 @@ Edit a transition to define its settings.
     + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
-    + Click the *Long description* field if you want to document the process step you added. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
+    + Click the *Long description* field if you want to document the process step you added.   
+    The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
 
         ![Edit long description](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditLongDescription.png "[Edit long description]")
 
@@ -327,13 +329,14 @@ Edit a transition to define its settings.
 
     + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
-    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
+    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. For detailed information, see [Insert a static input](06_InsertStaticInput.md). This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
 
-    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
+    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. 
+    + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
 
 
 
-[comment]: <> (Add a link to the Tasks module/task events when documented)
+[comment]: <> (Add a link to the Tasks module/task events when documented > still no plans to document it 21.02.2024)
 
 
 

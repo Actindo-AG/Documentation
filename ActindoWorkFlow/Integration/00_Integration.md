@@ -7,7 +7,7 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [Disable the workflows](./01_ConfigureQueueTypes.md#disable-the-workflows)
     - [Edit a queue type](./01_ConfigureQueueTypes.md#edit-a-queue-type)
         - [Edit the name or the execution priority](./01_ConfigureQueueTypes.md#edit-the-name-or-the-execution-priority)
-        - [Edit the number of workers](./01_ConfigureQueueTypes.md#edit-the-workers-number)
+        - [Edit the number of workers and the throttling settings](./01_ConfigureQueueTypes.md#edit-the-number-of-workers-and-the-throttling-settings)
     - [Assign a queue type](./01_ConfigureQueueTypes.md#assign-a-queue-type)
     - [Delete a queue type](./01_ConfigureQueueTypes.md#delete-a-queue-type)
     - [Kill workers](./01_ConfigureQueueTypes.md#kill-workers)

@@ -2,7 +2,7 @@
 
 # Configure the logging settings
 
-Define in the logging settings how long the different log types are stored. By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom lifetime.
+Define in the logging settings how long the different log types are stored. 
 
 #### Prerequisites
 
@@ -14,7 +14,7 @@ No prerequisites to fulfill.
 
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
-1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following log types are available:
+1. Select the log lifetime type you want to edit in the left *Settings* side menu. The following log types are available:
     - **Lifetime execution log in days**
     - **LOG LIFETIMES**
         - **Emergency-log lifetime**

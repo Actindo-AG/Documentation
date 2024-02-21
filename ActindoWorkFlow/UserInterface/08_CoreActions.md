@@ -82,10 +82,10 @@ It is possible to include a static input via the unconnected input port. You can
 
 ![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
 
-The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
-The data runs via the *p* input port into the process action and is output via both the *p0* and the *p1* output ports.
+The *Multiply input action* core action is used to output the data coming in via one input port to up to six output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
+The data runs via the *p* input port into the process action and is output via the *p0* - *p5* output ports.
 
-[comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen)
+[comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen > done)
 
 ### Configuration   
 
@@ -136,6 +136,14 @@ The criterion to be compared with is defined in the configuration.
         It is a match if the input value equals the defined value.
     - **!=**    
         It is a match if the input value does not equal the defined value.
+    - **<=**   
+        It is a match if the input value is less than / equal to the defined value.
+    - **<**   
+        It is a match if the input value is less the defined value.
+    - **>=**   
+        It is a match if the input value is greater than / equal to the defined value.
+    - **>**   
+        It is a match if the input value is greater the defined value.
     - **in**    
         It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
     - **notIn**   
@@ -147,7 +155,7 @@ The criterion to be compared with is defined in the configuration.
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
+[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, > > DONE)
 
 
 
@@ -240,6 +248,14 @@ The criterion to be compared with as well as the wait time settings are defined 
         It is a match if the input value equals the defined value.
     - **!=**    
         It is a match if the input value does not equal the defined value.
+    - **<=**   
+        It is a match if the input value is less than / equal to the defined value.
+    - **<**   
+        It is a match if the input value is less the defined value.
+    - **>=**   
+        It is a match if the input value is greater than / equal to the defined value.
+    - **>**   
+        It is a match if the input value is greater the defined value.
     - **in**    
         It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
     - **notIn**   
@@ -251,7 +267,7 @@ The criterion to be compared with as well as the wait time settings are defined 
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
+[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, > > DONE)
 
 
 
