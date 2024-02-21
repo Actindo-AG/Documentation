@@ -1,3 +1,5 @@
+[!!Manage Adyen connection](./02_ManageAdyenConnection.md#).
+
 # Manage settings in Adyen
 
 The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedures and screens that were current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
@@ -107,7 +109,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 ## Define synchronous or asynchronous processing
 
 Define whether you want to transfer the payment data using synchronous or asynchronous processing. 
-- At synchronous processing, Adyen&trade; creates a connection for each event that occurs. This has the advantage that Adyen&trade; is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slow if a lot of events are to be transferred. See also [Synchronous processing](../Troubleshooting/01_SynchronousProcessing.md) in the Troubleshooting chapter.   
+- At synchronous processing, Adyen&trade; creates a connection for each event that occurs. This has the advantage that Adyen&trade; is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slow if a lot of events are to be transferred. See also [Blocked queue at synchronous processing](../Troubleshooting/01_SynchronousProcessing.md) in the Troubleshooting chapter.   
 - At asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be run with parallel jobs. 
 
 

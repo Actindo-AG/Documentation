@@ -1,3 +1,5 @@
+[!!Manage settings in Adyen](01_ManageAdyenSettings.md)
+
 # Manage Adyen connections
 
 In the following, the procedures to create, edit, configure, enable, or disable Adyen&trade; connections in the *Payments* module are described.  
@@ -35,31 +37,31 @@ Create a connection to the Adyen&trade; payment service provider.
 4. Enter the API endpoints and credentials. To do this, follow these steps:
     > [Info] There are some standard access points for a test environment. For your production/live environment, Adyen&trade; provides you with individual API endpoints. 
 
-    1. Enter the endpoint of the Checkout API in the *Checkout API endpoint* field. 
+    + Enter the endpoint of the Checkout API in the *Checkout API endpoint* field. 
 
        > [Info] The *Adyen&trade; Checkout API* provides a simple and flexible way to initiate and authorize online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets, and local payment methods (for example, iDEAL and Sofort). The endpoint for the test environment is `https://checkout-test.adyen.com/checkout/`.
 
-    2. Enter the key of the Checkout API in the *Checkout API key* field. You have generated this key in the Adyen&trade; settings under *Server settings > Authentication > Tab API key* before:
+    + Enter the key of the Checkout API in the *Checkout API key* field. You have generated this key in the Adyen&trade; settings under *Server settings > Authentication > Tab API key* before:
 
        ![Generate Checkout API key](../../Assets/Screenshots/Adyen/Integration/AdyenAuthentication.png "[Generate Checkout API key]")
 
-    3.  Enter the Payment API endpoint in the *Payment API endpoint* field. For the test environment it is `https://pal-test.adyen.com/pal/servlet/Payment/`.
+    +  Enter the Payment API endpoint in the *Payment API endpoint* field. For the test environment it is `https://pal-test.adyen.com/pal/servlet/Payment/`.
 
-    4. Enter the user for the Payment API in the *Payment API user* field. Adyen&trade; has created the username under *Create API credential > Credential type > Web service user* before:
+    + Enter the user for the Payment API in the *Payment API user* field. Adyen&trade; has created the username under *Create API credential > Credential type > Web service user* before:
 
         ![Create API credential](../../Assets/Screenshots/Adyen/Integration/AdyenCreateAPIcredential.png "[Create API credential]")
      
 5. Enter the API credentials of the API user that you have created in Adyen&trade;. To do this, follow these steps:   
 
-    1. Enter the user for the Payment API in the *Payment API user* field. Adyen&trade; has created the username under *Create API credential > Credential type >Web service user > Username* before:
+    + Enter the user for the Payment API in the *Payment API user* field. Adyen&trade; has created the username under *Create API credential > Credential type >Web service user > Username* before:
 
         ![Create API credential](../../Assets/Screenshots/Adyen/Integration/AdyenCreateAPIcredential.png "[Create API credential]")
     
-    2.  Enter the password for the API to transfer the payment transactions in the *Payment password* field. You have generated the password for the web service under *Server settings > Authentication> Select Basic auth tab* in Adyen&trade; before: 
+    +  Enter the password for the API to transfer the payment transactions in the *Payment password* field. You have generated the password for the web service under *Server settings > Authentication> Select Basic auth tab* in Adyen&trade; before: 
 
         ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Web service password]")
 
-    3. Enter the technical user for the report service in the *Report user* field. Adyen&trade; has created this username under *Create API credential > Report service user credential type* before:
+    + Enter the technical user for the report service in the *Report user* field. Adyen&trade; has created this username under *Create API credential > Report service user credential type* before:
 
         ![Create report service credential](../../Assets/Screenshots/Adyen/Integration/AdyenReportServiceAPIcredential.png "[Create report service credential]")
 
@@ -67,15 +69,15 @@ Create a connection to the Adyen&trade; payment service provider.
         Note that you can check the attributes of each Payments transaction to see if the reconciliation has been processed:
                  ![Reconciliation](../../Assets/Screenshots/Adyen/Integration/Reconciliation.png "[Reconciliation]")
 
-    4. Enter the password for the report service in the *Report password* field. You have generated this password under *Server settings > Authentication> Select Basic auth tab* in Adyen&trade; before: 
+    + Enter the password for the report service in the *Report password* field. You have generated this password under *Server settings > Authentication> Select Basic auth tab* in Adyen&trade; before: 
 
         ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Report service password]")
      
 5. Enter the credentials for notifications that Adyen&trade; shall send to the *Payments* module via the *http://basic_out_credentials* API. <!---Stimmt der Name des APIs?--> To do this, follow these steps: 
 
-    1. Enter the technical user for the notification API in the *Notification user* field. You have defined this user in Adyen&trade; under *Developers > Webhooks > Security section* before.
+    + Enter the technical user for the notification API in the *Notification user* field. You have defined this user in Adyen&trade; under *Developers > Webhooks > Security section* before.
 
-    2. Enter the password for the notification API in the *Notification password* field. You have defined this user in Adyen&trade; under *Developers > Webhooks > Security section* before.
+    + Enter the password for the notification API in the *Notification password* field. You have defined this user in Adyen&trade; under *Developers > Webhooks > Security section* before.
 
         ![Basic authentification](../../Assets/Screenshots/Adyen/Integration/BasicAuthentification.png "[Basic authentification]")
 
@@ -102,7 +104,7 @@ For detailed information, see [Edit PSP connection](../../Payments/Integration/0
 
 Configure the Adyen&trade; connection after you have created it. In the *Payments* connection settings, you can enter the event codes that are to be ignored. Alternatively, you can select the unwanted event codes in the Adyen&trade; webhook settings. 
 
-The Adyen&trade; API has two endpoints, one for a synchronous and one for an asynchronous processing. If you decide for asynchronous processing, what is recommended, you can configure the number of workers to process messages in asynchronous processing. For detailed information, see [Define synchronous or asynchronous processing](./01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
+The Adyen&trade; API has two endpoints, one for a synchronous and one for an asynchronous processing. If you decide for asynchronous processing, what is recommended, you can configure the number of workers to be used. For detailed information, see [Define synchronous or asynchronous processing](./01_ManageAdyenSettings.md#define-synchronous-or-asynchronous-processing).
 
 
 #### Prerequisites
