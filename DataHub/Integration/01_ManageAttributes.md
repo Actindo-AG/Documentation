@@ -83,7 +83,7 @@ After you have created an attribute, you can edit it. However, only some attribu
 
 The attribute key is locked but can be modified in very exceptional cases, for instance, if you have named it wrongly. 
 
-> [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
+> [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 [comment]: <> (zu prüfen)
 
@@ -107,7 +107,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     ![Edit attribute data](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-    > [Info] Bear in mind that you can only edit the attribute name, description, its status and configuration, and if it contains sensitive data. All other fields and toggles are locked. In exception cases, you can update the attribute key by clicking the [UPDATE KEY] button. 
+    > [Info] Bear in mind that you can only edit the attribute name, description, its status and configuration, and if it contains sensitive data. All other fields and toggles are locked. In exceptional cases, you can update the attribute key by clicking the [UPDATE KEY] button. 
 
 [comment]: <> (Evtl. reformulieren bzw. in Prozedure integrieren)
 
