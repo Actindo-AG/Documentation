@@ -1,4 +1,5 @@
 [!!Manage an attribute](./01_ManageAttributes.md)
+[!!DataHub Basics](../Overview/04_Basics.md)
 [!!User interface Attribute sets](../UserInterface/01b_AttributeSets.md)
 
 # Manage an attribute set
@@ -8,6 +9,7 @@ Several plugins may bring their own attribute sets as a starting point for the t
 
 You can create attribute sets, edit existing attribute sets and deactivate attribute sets that are not in use.
 You can add attributes to or remove attributes from an attribute set and change the required attributes within an attribute set.
+
 
 
 ## Create an attribute set
@@ -40,20 +42,24 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     ![Create attribute set](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSet.png "[Create attribute set]")
 
-[comment]: <> (Sprache wählen? Nur in Multi-language attributes? Muss den Toggle zuerst oder muss man die Sprachen zuerst wählen?)
-
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
+
+    > [Info] If you want to provide the attribute set name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+
+[comment]: <> (zu prüfen)
 
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-    > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahubset_** to all attribute sets created in the *DataHub* module.
+    > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahub_** to all attribute sets created in the *DataHub* module. 
 
 4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
-    > [Info] Entity types are all classes interacting with the *DataHub* module.
+    > [Info] Entity types are all classes interacting with the *DataHub* module. For detailed information on entity types, see [DataHub Basics](../Overview/04_Basics.md).
+
+[comment]: <> (zu prüfen)
 
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
@@ -161,7 +167,7 @@ However, you can add further attributes to an attribute set or remove unmapped a
 ### Add an attribute to the set
 
 Add a new attribute to an attribute set to define any further specifications.
-In the *DataHub* module all available attributes can be added to the different attribute sets.
+In the *DataHub* module, all available attributes can be added to the different attribute sets.
 
 #### Prerequisites
 
@@ -192,7 +198,7 @@ In the *DataHub* module all available attributes can be added to the different a
 4. Click the [ADD] button in the editing toolbar.   
     The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+    > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 ### Remove an attribute from the set
@@ -234,10 +240,10 @@ Note that entities can be saved even if not all *(required)* attributes are comp
 You can define whether an attribute should be required or not.
 Bear in mind that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   
 
-Be aware that the activation or deactivation of languages affects the completeness calculation.
+Be aware that the activation or deactivation of languages and scopes affects the completeness calculation.
 Further, deactivated attributes are not included in the completeness calculation even if they are required.
 
-[comment]: <> (Evtl. umformulieren, Beispiel geben?)
+[comment]: <> (check completeness woanders?)
 
 #### Prerequisites
 

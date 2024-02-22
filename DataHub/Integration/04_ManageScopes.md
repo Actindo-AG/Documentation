@@ -36,6 +36,8 @@ No prerequisites to fulfill.
 
 2. Enter a name for the scope in the *Name* field and, if desired, add a scope description in the *Description* field.
 
+    > [Info] If you want to provide the scope name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+
 3. Enter a key for the scope in the *Key* field. The key is required for API access and must be system wide unique. A scope key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
@@ -54,7 +56,7 @@ No prerequisites to fulfill.
 
 After you have created a scope, you can edit its name, description and key.
 
-[comment]: <> (Sinnvoll, key zu ändern? Abhängigkeitsprobleme? Caution beim Editieren)
+> [Caution] Bear in mind that a scope key can be part of an attribute. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 #### Prerequisites
 

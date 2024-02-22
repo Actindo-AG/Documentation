@@ -27,9 +27,11 @@ No prerequisites to fulfill.
 
     ![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
-2. Enter a name for the language in the *Name* field.
+2. Enter a name for the language in the *Name* field.  
 
-3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    > [Info] If you want to provide the language name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+
+3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml "[https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml]"). For instance, keys with the following structure are valid:
     - en
     - en_US
     - en-US
@@ -47,7 +49,7 @@ No prerequisites to fulfill.
 
 After you have created a language, you can edit its name or key.
 
-[comment]: <> (Stimmt das noch? Sinnvoll? Caution beim Editieren?)
+> [Caution] Bear in mind that a language key (language code) can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 #### Prerequisites
 

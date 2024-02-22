@@ -6,7 +6,7 @@
 
 This tab is not part of the *DataHub* module, but it is used in many other *Core1 Platform* modules that process entities coming from the *DataHub* module.  
 
-[comment]: <> (Unsicher, ob das ganz stimmt. Die Entitäten kommen nicht unbedingt aus DataHub, z.B. dispatch note, PIM-Produkt... Julian fragen.)
+[comment]: <> (Das stimmt nicht ganz. Die Entitäten kommen nicht unbedingt aus DataHub, z.B. dispatch note, PIM-Produkt... s. Video)
 
 **Dependencies**
 

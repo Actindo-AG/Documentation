@@ -34,7 +34,7 @@ The following functions and fields are available in this view:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
-[comment]: <> (Besser Status in UI, wie vorher? Translation files?)
+[comment]: <> (Julian: Spalte sollte Status heißen. Kommt das hier aus den Translation files?)
 
 - *Group*   
     Attribute group to which the attributes are assigned. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
@@ -133,6 +133,9 @@ The *Create attribute* view contains all fields and configurations that define t
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Contains sensitive data*   
+    Enable this toggle if the potential attribute values may be sensitive. This toggle is only displayed after selecting certain data types in the *Data type* drop-down list. By default, this toggle is disabled.
+
 - *Assigned attribute sets*   
     Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. This drop-down list is only displayed if you have previously clicked the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button.
     - ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add)    
@@ -205,6 +208,9 @@ The *Edit attribute* view contains all fields and configurations that define the
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
 
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Contains sensitive data*   
+    Enable this toggle if the potential attribute values may be sensitive. By default, this toggle is disabled.
+
 **CONFIGURATION**
 
 The *CONFIGURATION* section displays the additional configuration for the selected data type. The configuration fields differ depending on the selected data type.   
@@ -247,11 +253,13 @@ The list displays all attributes. Depending on the settings, the displayed colum
 
 ![Update attribute key](../../Assets/Screenshots/DataHub/Settings/Attributes/UpdateAttributeKey.png "[Update attribute key]")
 
+> [Caution] Changing an attribute key has far-reaching consequences. Make sure you read carefully and understand the warning in this window. For detailed information, see [Edit an attribute](../Integration/01_ManageAttributes.md#edit-an-attribute). 
+
 - *New key*  
     Enter the new key. The current attribute key is displayed.
 
 - [CONFIRM]  
-    Click this button to confirm the new key.
+    Click this button to confirm the new key. 
 
 - [CANCEL]  
     Click this button to cancel updating the attribute key.
