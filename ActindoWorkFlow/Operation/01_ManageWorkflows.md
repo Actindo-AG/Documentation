@@ -9,7 +9,7 @@
 
 # Manage the workflows
 
-The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
+The *Process Orchestration* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
 The workflows can be created individually in the workflow editor, they can be edited subsequently, and by publishing and unpublishing a workflow, the usage can be controlled.
 
 
@@ -27,7 +27,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
@@ -69,7 +69,7 @@ The basic settings of the workflow have been defined, and the workflow editor is
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
 
 ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
@@ -101,7 +101,7 @@ Connect the transition to the a place to create a valid workflow.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
 
 ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
@@ -135,12 +135,12 @@ Select an existing workflow to edit it.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to edit in the list of workflows.   
-    The *Workflow versions* view with all versions of the selected workflow is displayed.
+    The *Process orchestration versions* view with all versions of the selected workflow is displayed.
 
     ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -170,7 +170,7 @@ Edit the place settings to change or define the place data type.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -198,7 +198,7 @@ You can change the ports of the place by deleting an existing arc and creating a
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -233,7 +233,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -262,7 +262,7 @@ Add one or several transitions to the workflow to define or expand the desired b
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -302,7 +302,7 @@ Edit a transition to define its settings.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -353,7 +353,7 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 
@@ -378,7 +378,7 @@ A workflow can only be used for processes if it is published. By default, a crea
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
   ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
 

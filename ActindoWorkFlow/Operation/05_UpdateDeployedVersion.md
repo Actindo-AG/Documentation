@@ -1,8 +1,9 @@
 # Update a deployed version
 
-The *Update deployed version* function is designed to support in the test phase. It is recommended that you do not use it in a production system. Note that if you use this option in a production system, you will not be able to display both the recent changes with the *Show changes* function and to display a change log. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
+The *Update deployed version* function is designed to support in the test phase. Updating a deployed version does not create a new version, but overwrites the current version. This means that changes to the workflow are not recorded.   
+It is recommended that you do not use it in a production system. Note that if you use this option in a production system, you will not be able to display both the recent changes with the *Show changes* function and to display a change log. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
 
-Updating a deployed version does not create a new version, but overwrites the current version. This means that changes to the workflow are not recorded.
+
 
 #### Prerequisites
 
@@ -16,7 +17,7 @@ Updating a deployed version does not create a new version, but overwrites the cu
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -38,16 +39,22 @@ Updating a deployed version does not create a new version, but overwrites the cu
 
     ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
-3. Select the **Show changes** option. For detailed information, see [Compare the workflow versions](03_CompareWorkflows.md).
+3. If desired, select the **Show changes** option to check your changes. For detailed information, see [Compare the workflow versions](03_CompareWorkflows.md).
 
 4. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
     The workflow context menu is displayed.
 
 5. Select **Update deployed version**.   
-    The current deployed version is overwritten.    
+    The current deployed version is overwritten. No new version is created.  
     If you have changed anything that is not allowed, the following error message is displayed. 
 
     ![Update not allowed](../../Assets/Screenshots/ActindoWorkFlow/Workflows/UpdateNotAllowed.png "[Update not allowed]")
+
+    In case, an error message is displayed, proceed as follows:
+    1. Click the [OK] button to close the error message.
+    2. Undo the not allowed change by clicking the ![Undo](../../Assets/Icons/Undo02.png "[Undo]") (Undo) button or deploy the workflow as usual by creating a new version.
+
+
 
     
 

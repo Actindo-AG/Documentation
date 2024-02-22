@@ -1,6 +1,6 @@
 # Execution statistics
 
-*Workflows > Logs > Tab EXECUTION STATISTICS*
+*Process Orchestration > Logs > Tab EXECUTION STATISTICS*
 
 ![Execution statistics](../../Assets/Screenshots/ActindoWorkFlow/Logs/ExecutionStatistics.png)
 
@@ -32,7 +32,7 @@ The following functions and fields are available:
 - *Min duration*   
    If a process action was processed by more than one process, the shortest processing time in seconds per outcome.
 
-- *Workflow*   
+- *Process orchestration*   
    Name of the workflow that was run through.
 
 - *Transition*   

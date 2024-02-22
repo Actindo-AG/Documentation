@@ -4,7 +4,7 @@
 
 # Overview
 
-*Workflows > Processes > Tab OVERVIEW*
+*Process Orchestration > Processes > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/Processes/Processes.png "[Overview]")
 
@@ -95,7 +95,7 @@ The following functions and fields are available in this list:
 - *Owning module*  
     Module that has created the workflow.
 
-    > [Info] When a workflow is manually created in the *Workflow* module, **ActindoWorkFlow** is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
+    > [Info] When a workflow is manually created in the *Process orchestration* module, **ActindoWorkFlow** is displayed. A workflow can also be created automatically by a different module. In this case, the name of the corresponding module is displayed.  
 
 - *Created by*  
     Name and username of the user who initiated the process.
@@ -107,7 +107,7 @@ The following functions and fields are available in this list:
 
 ## Process ID
 
-*Workflows > Processes > Tab OVERVIEW > Select a process*
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process*
 
 ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
 
@@ -116,7 +116,7 @@ The following functions and fields are available in this list:
 - *Process ID*  
     Process identification number. The ID number is automatically assigned by the system.
 
-- *Workflow*  
+- *Process orchestration*  
     Name of the workflow.
 
 
@@ -132,7 +132,7 @@ The diagram displays a visualization of the selected process including all place
 
 ### Actions
 
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Actions*
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Actions*
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
@@ -224,7 +224,7 @@ The following fields and function are available on this view:
 
 ### Logs
 
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs*
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Logs*
 
 ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Processes/Logs.png "[Logs]")
 
@@ -267,10 +267,10 @@ The following functions and fields are available in this view:
 - *Log message*  
     Description of the issue.
 
-- *Workflow*  
+- *Process orchestration*  
     Workflow to which the log message refers.
 
-- *Workflow ID*    
+- *Process orchestration ID*    
     Workflow identification number. The ID number is automatically assigned by the system.
 
 - *Created*  
@@ -297,7 +297,7 @@ The following functions and fields are available in this view:
 
 ### Log ID
 
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log message*
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Logs > Select Log message*
 
 ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
@@ -306,7 +306,7 @@ For a detailed description of this window and the corresponding functions, see [
 
 ### Tokens
 
-*Workflows > Processes > Tab OVERVIEW > Select a process > Tab Tokens*
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Tokens*
 
 ![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Processes/Tokens.png "[Tokens]")
 

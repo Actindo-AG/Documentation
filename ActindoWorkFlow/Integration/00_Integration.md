@@ -1,6 +1,6 @@
 # Integration
 
-In this part of the *Workflows* documentation, you will find the following chapters:
+In this part of the *Process Orchestration* documentation, you will find the following chapters:
 
 - [Configure the queue types](./01_ConfigureQueueTypes.md)
     - [Create a queue type](./01_ConfigureQueueTypes.md#create-a-queue-type)

@@ -3,9 +3,9 @@
 
 # Overview
 
-*Workflows > Process actions > Tab OVERVIEW*
+*Process Orchestration > Process actions > Tab OVERVIEW*
 
-[comment]: <> (vor nächster Version prüfen, möglicher neuer Pfad: *Workflows > Process actions > Tab PROCESS ACTIONS* > still available 21.02.2024)
+[comment]: <> (vor nächster Version prüfen, möglicher neuer Pfad: *Process Orchestration > Process actions > Tab PROCESS ACTIONS* > still available 21.02.2024)
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Actions]")
 

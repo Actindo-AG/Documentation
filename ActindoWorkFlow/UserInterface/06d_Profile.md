@@ -1,8 +1,8 @@
 # Profile
 
-*Workflows > Logs > Tab Execution log > Click Profile in the Profile column*   
-*Workflows > Processes > Select process > Tab Execution log > Click Profile in the Profile column*
-*Workflows > Process actions > Click Profile in the Profile colums*
+*Process Orchestration > Logs > Tab Execution log > Click Profile in the Profile column*   
+*Process Orchestration > Processes > Select process > Tab Execution log > Click Profile in the Profile column*
+*Process Orchestration > Process actions > Click Profile in the Profile colums*
 
 ![Profile](../../Assets/Screenshots/ActindoWorkFlow/Logs/Profile.png)
 

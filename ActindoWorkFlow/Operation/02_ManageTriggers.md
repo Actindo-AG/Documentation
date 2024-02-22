@@ -16,8 +16,8 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*   
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*   
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorWorkflows.png "[Workflow editor]")
 
@@ -90,8 +90,8 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
@@ -141,8 +141,8 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*   
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*   
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
@@ -168,8 +168,8 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
@@ -198,8 +198,8 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*     
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*     
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 

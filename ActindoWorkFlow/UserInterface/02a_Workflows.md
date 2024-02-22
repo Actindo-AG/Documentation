@@ -6,7 +6,7 @@
 
 # Overview
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
@@ -36,7 +36,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 ## New workflow
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add*
 
 ![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
@@ -72,7 +72,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 ## Workflow versions
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 [comment]: <> (subject/path to change, but correct for now -> check in the future > still available 21.02.2024)
 
@@ -103,7 +103,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
 
 ## Workflow editor
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -236,8 +236,8 @@ The workflow diagram includes the following elements:
 
 ## Edit trigger for workflow "Workflow name"  
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
@@ -338,7 +338,7 @@ The workflow diagram includes the following elements:
 
 ## Import JSON
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
 
 ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
@@ -356,7 +356,7 @@ The *Import JSON* window displays the workflow source code in JSON format. Confi
 
 ## Export JSON
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
 
 ![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
 
@@ -369,8 +369,8 @@ The *Export JSON* window displays all workflow source code in JSON format. This 
 
 ## Search for an action
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
 ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 

@@ -14,28 +14,27 @@ Compare a workflow with any other version available on the current instance.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Select the workflow for which you want to do a comparison.   
-    The *Workflow versions* view is displayed.
+    The *Process orchestration versions* view is displayed.
     
     ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
 2. Click the checkbox at the desired version you want to compare.   
     The editing toolbar is displayed.
-
     
 
 3. Click the [COMPARE] button.  
-    The *Workflow "workflow name"* pop-up window is displayed. On the left side, the JSON code of the oldest version is displayed. 
+    The *Workflow "workflow name"* pop-up window is displayed. On the left side, in most cases, the JSON code of the oldest version is displayed. 
 
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
     
     > [Info] Alternatively, you can open the comparison as follows:  
-        - Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.  
-        - Click the *Show changes* menu entry.
+        - In the workflow editor, click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.  
+        - -Select the *Show changes* menu entry.
 
 4. Compare the versions.   
     Inserts are displayed in green, deletions are displayed in red.
@@ -70,7 +69,7 @@ Compare a workflow with any other version available on another instance.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Select points > Select Show changes in both systems*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Select points > Select Show changes in both systems*
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
 

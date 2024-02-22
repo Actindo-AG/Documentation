@@ -24,7 +24,7 @@ The cause of the faulty process action has been fixed.
 
 #### Procedure
 
-*Workflows > Processes > Tab OVERVIEW*
+*Process Orchestration > Processes > Tab OVERVIEW*
 
 ![Faulty process](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcess.png "[Faulty process]")
 

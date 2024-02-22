@@ -2,7 +2,7 @@
 
 # Overview
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Queue types](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Queue types]")
 
@@ -54,7 +54,7 @@ The following functions and fields are available in the list:
 
 ## Create queue type
 
-*Workflows > Queue types > Tab OVERVIEW > Button Add*
+*Process Orchestration > Queue types > Tab OVERVIEW > Button Add*
 
 ![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue types]")
 
@@ -89,7 +89,7 @@ The following functions and fields are available in the list:
 
 ## Edit queue type
 
-*Workflows > Queue types > Tab OVERVIEW > Select queue type*
+*Process Orchestration > Queue types > Tab OVERVIEW > Select queue type*
 
 ![Edit queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EditQueueType.png "[Edit queue types]")
 

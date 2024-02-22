@@ -1,6 +1,6 @@
 # Dashboard
 
-*Workflows > Overview > Tab DASHBOARDS*
+*Process Orchestration > Overview > Tab DASHBOARDS*
 
 ![Dashboards](../../Assets/Screenshots/ActindoWorkFlow/Overview/Dashboards.png "[Dashboards]")
 
@@ -15,7 +15,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 ## Add a new tab
 
-*Workflows > Overview > Tab DASHBOARDS > Button Add*
+*Process Orchestration > Overview > Tab DASHBOARDS > Button Add*
 
 ![Add a new tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/AddNewTab.png "[Add a new tab]")
 
@@ -41,7 +41,7 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 ## Confirm tab deletion
 
-*Workflows > Overview > Tab DASHBOARDS > Button Delete*
+*Process Orchestration > Overview > Tab DASHBOARDS > Button Delete*
 
 ![Confirm tab deletion](../../Assets/Screenshots/ActindoWorkFlow/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
@@ -55,8 +55,8 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 ## Tab
 
-*Workflows > Overview > Tab DASHBOARDS > Select tab*   
-*Workflows > Overview > Tab DASHBOARDS > Button Add > Button Save*   
+*Process Orchestration > Overview > Tab DASHBOARDS > Select tab*   
+*Process Orchestration > Overview > Tab DASHBOARDS > Button Add > Button Save*   
 
 ![New tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/NewTab.png "[New tab]")
 
@@ -66,8 +66,8 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 ### Edit tab
 
-*Workflows > Overview > Tab DASHBOARDS > Select tab > Button Settings*   
-*Workflows > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings*  
+*Process Orchestration > Overview > Tab DASHBOARDS > Select tab > Button Settings*   
+*Process Orchestration > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings*  
 
 ![Edit tab](../../Assets/Screenshots/ActindoWorkFlow/Overview/EditTab.png "[Edit tab]")
 
@@ -99,8 +99,8 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
 
 ### Dashlet picker
 
-*Workflows > Overview > Tab DASHBOARDS > Select tab > Button Settings > Button ADD ELEMENT*   
-*Workflows > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings > Button ADD ELEMENT*  
+*Process Orchestration > Overview > Tab DASHBOARDS > Select tab > Button Settings > Button ADD ELEMENT*   
+*Process Orchestration > Overview > Tab DASHBOARDS > Button Add > Button Save > Button Settings > Button ADD ELEMENT*  
 
 ![Dashlet picker](../../Assets/Screenshots/ActindoWorkFlow/Overview/DashletPicker.png "[Dashlet picker]")
 
@@ -110,9 +110,9 @@ The *Import existing tab* tab is locked. It is only available in the *Actindo Da
     - *Current failure count*   
         This dashlet displays the number of processes that have currently an *Error* status.
     - *Workflow count*   
-        This dashlet displays the number of workflows in the *Workflows* module.
+        This dashlet displays the number of workflows in the *Process Orchestration* module.
     - *Waiting processes*   
-        This dashlet displays the number of waiting processes in the *Workflows* module.
+        This dashlet displays the number of waiting processes in the *Process Orchestration* module.
 
 - [CANCEL]   
     Click this button to cancel adding dashlets. The *Dashlet picker* window is closed.

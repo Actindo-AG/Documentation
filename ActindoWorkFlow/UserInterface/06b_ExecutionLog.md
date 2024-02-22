@@ -3,7 +3,7 @@
 
 # Execution log
 
-*Workflows > Logs > Tab EXECUTION LOG*
+*Process Orchestration > Logs > Tab EXECUTION LOG*
 
 ![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Logs/ExecutionLog.png "[Execution log]")
 

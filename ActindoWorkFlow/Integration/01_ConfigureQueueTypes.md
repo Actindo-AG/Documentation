@@ -24,7 +24,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -109,7 +109,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -144,7 +144,7 @@ To achieve this, you must either wait until all running workers are finished or 
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -182,7 +182,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -219,7 +219,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -254,7 +254,7 @@ The workflows are disabled. Disable the workflows before you kill the workers to
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -283,7 +283,7 @@ The workflows are disabled. Disable the workflows before you kill the workers to
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 
@@ -306,7 +306,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 #### Procedure
 
-*Workflows > Queue types > Tab OVERVIEW*
+*Process Orchestration > Queue types > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/Overview.png "[Overview]")
 

@@ -2,7 +2,7 @@
 
 # Settings
 
-*Workflows > Settings > Tab SETTINGS*
+*Process Orchestration > Settings > Tab SETTINGS*
 
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
@@ -50,7 +50,7 @@ The following functions are available for all menu entries:
 
 ## Lifetime execution log in days
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Lifetime execution log in days*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Lifetime execution log in days*
 
 ![Lifetime execution log in days](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Lifetime execution log in days]")
 
@@ -61,7 +61,7 @@ The following functions are available for all menu entries:
 
 ## Emergency-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Emergency-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Emergency-log lifetime*
 
 ![Emergency-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/EmergencyLogLifetime.png "[Emergency-log lifetime]")
 
@@ -72,7 +72,7 @@ The following functions are available for all menu entries:
 
 ## Alert-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Alert-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Alert-log lifetime*
 
 ![Alert-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/AlertLogLifetime.png "[Alert-log lifetime]")
 
@@ -83,7 +83,7 @@ The following functions are available for all menu entries:
 
 ## Critical-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Critical-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Critical-log lifetime*
 
 ![Critical-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/CriticalLogLifetime.png "[Critical-log lifetime]")
 
@@ -94,7 +94,7 @@ The following functions are available for all menu entries:
 
 ## Error-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Error-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Error-log lifetime*
 
 ![Error-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/ErrorLogLifetime.png "[Error-log lifetime]")
 
@@ -105,7 +105,7 @@ The following functions are available for all menu entries:
 
 ## Warning-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Warning-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Warning-log lifetime*
 
 ![Warning-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/WarningLogLifetime.png "[Warning-log lifetime]")
 
@@ -116,7 +116,7 @@ The following functions are available for all menu entries:
 
 ## Notice-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Notice-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Notice-log lifetime*
 
 ![Notice-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/NoticeLogLifetime.png "[Notice-log lifetime]")
 
@@ -127,7 +127,7 @@ The following functions are available for all menu entries:
 
 ## Info-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Info-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Info-log lifetime*
 
 ![Info-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/InfoLogLifetime.png "[Info-log lifetime]")
 
@@ -138,7 +138,7 @@ The following functions are available for all menu entries:
 
 ## Debug-log lifetime
 
-*Workflows > Settings > Tab SETTINGS > Side menu entry Debug-log lifetime*
+*Process Orchestration > Settings > Tab SETTINGS > Side menu entry Debug-log lifetime*
 
 ![Debug-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/DebugLogLifetime.png "[Debug-log lifetime]")
 

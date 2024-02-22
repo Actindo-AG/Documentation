@@ -5,7 +5,7 @@
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 
 To create a workflow, you must include one or several process actions.   
-In the *Workflows* module, a certain number of process actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
+In the *Process Orchestration* module, a certain number of process actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
 Other process actions are available depending on the plugins installed in the current system.   
 
 In the following, the core actions, their use and their settings are described in detail:
@@ -57,7 +57,7 @@ Search for the field name of the data model of the object that is available in t
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Workflow >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.      
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.      
 For example, it allows you to implement approval procedures in your workflows such as that each purchase order that exceeds a certain amount is to be checked by a user, before it is released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
 
 
@@ -169,7 +169,7 @@ The subprocess to be started is defined in the configuration.
 
 ### Configuration
 
-- *Workflow Key*   
+- *Process orchestration Key*   
     Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
 
 

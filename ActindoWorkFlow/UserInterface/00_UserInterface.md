@@ -1,6 +1,6 @@
 # User Interface
 
-In this part of the *Workflows* documentation, you will find the following chapters:
+In this part of the *Process Orchestration* documentation, you will find the following chapters:
 
 - [Overview](./01_Overview.md)
 

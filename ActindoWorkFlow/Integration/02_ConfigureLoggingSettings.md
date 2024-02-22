@@ -10,7 +10,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Workflows > Settings > Tab SETTINGS*
+*Process Orchestration > Settings > Tab SETTINGS*
 
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 

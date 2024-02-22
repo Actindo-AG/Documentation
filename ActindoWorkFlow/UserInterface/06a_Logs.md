@@ -1,6 +1,6 @@
 # Overview
 
-*Workflows > Logs > Tab OVERVIEW*
+*Process Orchestration > Logs > Tab OVERVIEW*
 
 ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Logs/Logs.png "[Logs]")
 
@@ -43,10 +43,10 @@ The list displays all logs that are matching the selected log level. Depending o
 - *Log message*   
     Description of the issue.
 
-- *Workflow*   
+- *Process orchestration*   
     Workflow which the log message refers to.
 
-- *Workflow ID*       
+- *Process orchestration ID*       
     Workflow identification number. The ID number is automatically assigned by the system.
 
 - *Created*   
@@ -74,7 +74,7 @@ The list displays all logs that are matching the selected log level. Depending o
 
 ## Log ID
 
-*Workflows > Logs > Tab OVERVIEW > Select Log message*
+*Process Orchestration > Logs > Tab OVERVIEW > Select Log message*
 
 ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
@@ -104,7 +104,7 @@ In the *Log message* section, detailed information about the log is displayed. A
 - *Created - by*    
     Date and time of creation, name and username of the user who initiated the process.
 
-- *Workflow*    
+- *Process orchestration*    
     Workflow ID number and name.
 
 - *Process*    
