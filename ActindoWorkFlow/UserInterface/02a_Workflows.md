@@ -119,7 +119,7 @@ The list displays all workflow versions of the selected workflow. Depending on t
         Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow-workflow-name).
 
     - *Show changes*   
-        Click this entry to compare two versions of a workflow to display the changes. For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
+        Click this entry to compare two versions of a workflow to see the differences (insertions/deletions). For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
     - *Import JSON*  
         Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
@@ -188,10 +188,11 @@ The workflow diagram includes the following elements:
         Click the drop-down list to select the applicable queue type.   
 
     - *Priority*   
-        **TO BE ENHANCED**
+        <!---TO BE ENHANCED-->
 
     - *Max tries*   
         Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can select a retry time strategy. The following retry time strategies are available:
+        <!---TO BE ENHANCED-->
         - **Constant**   
 
 

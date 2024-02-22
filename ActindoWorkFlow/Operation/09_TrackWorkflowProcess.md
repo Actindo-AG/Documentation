@@ -109,7 +109,7 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Aborted**   
         The action has been manually aborted. You can rerun this action.
     -  **Manual**  
-       The action is waiting for a user decision. Take your user decision, see [Make a user decision](#make-a-user-decision).
+       The action is waiting for a user decision. Make your user decision, see [Make a user decision](#make-a-user-decision).
       
 7. Check the number of tries for the action in the *Tries* column.
 
@@ -162,6 +162,10 @@ The token status and content can be checked to monitor how data progress within 
 The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a business document for example.
 
 A process is started with a single token at the start place, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
+
+![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Processes/TokenDiagram.png "[Tokens]")
+
+<!---Habe ich das einigermaßen richtig verstanden? Dann mache ich die Grafik noch schön (https://miro.com/app/board/uXjVNptxyAI=/)-->
 
 #### Prerequisites
 
@@ -216,6 +220,8 @@ The execution log can be used to monitor the execution of individual process act
 The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action caused the delay, such as sending an email, or if the process had to wait a long time for execution.
 
+ > [Info] Note that the execution log only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Configure logging settings](../Integration/02_ConfigureLoggingSettings.md).
+
 #### Prerequisites
 
 - A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
@@ -229,8 +235,6 @@ For example, a process may have taken a long time to be executed. Here you can s
 
 1. Click the *Execution log* tab.  
     The *Execution log* tab with a list of all executed transitions (process actions) within the selected process is displayed.
-
-    > [Info] Note that the list only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Settings](../UserInterface/07a_Settings.md).
 
 2. Check the *Waited for execution* time to see if the process action had to wait until the worker was available.
 
@@ -250,15 +254,13 @@ For example, a process may have taken a long time to be executed. Here you can s
     - **Error**   
     The process action failed finally.
 
-5. Check the *Profile* column to see if a profile was created for a process action. This may be the reason for a longer processing time. If desired, open the profile. For detailed information, see [Profile](../UserInterface/06d_Profile.md).
+5. Check the *Profile* column to see if a profile has been created for a process action. This might have been the reason for a longer processing time. If desired, open the profile. For detailed information, see [Profile](../UserInterface/06d_Profile.md).
 
 6. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
-7. Check the *Worker number* to see the worker who performed the process action. 
+7. Check the *Worker number* to see the number of worker who performed the process action. 
 
 8. Check the *Transition* column to see the name of the transition.
-
-
 
 ## Make a user decision
 
@@ -285,7 +287,7 @@ A process will be paused if a manual action is waiting for a user decision, for 
 
    ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionProcessID.png "[Process ID]")
 
-3. Click the checkbox of the action in the *Actions* tab.    
+3. Click the checkbox of the manual action in the *Actions* tab.    
     The editing toolbar is displayed.
 
 4. Click the [TAKE DECISION] button.   

@@ -24,7 +24,7 @@ The following fields and function are available on top of the list:
     - **Ready**  
         Select this option to display the processes that have just been initiated.
     - **In progress**  
-        Select this option to display the processes that are currently active (first action is already executed).
+        Select this option to display the processes that are currently active (first action is already executed) and/or require a user interaction.
     - **Error**  
         Select this option to display the processes that have given an error (a process action has given an error).
     - **Done**  
@@ -66,10 +66,7 @@ The following functions and fields are available in this list:
     - **Aborted** (black)
 
 - *Suspended actions*  
-    If the process contains suspended actions, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to display the individual actions, see [Actions](#actions).
-
-- *Subject*  
-    Process description.
+    If the process contains suspended actions, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to display the individual actions. <!---TO BE ENHANCED-->
 
 - *Has a manual action*   
     If the process contains a manual action, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to execute the manual action, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision).
