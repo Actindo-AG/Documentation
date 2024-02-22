@@ -2,7 +2,7 @@
 
 With the help of the Adyen&trade; payment platform, you can offer your customers all of their preferred payment methods - with the help of just one payment service provider. The integration to the *Payments* module gives you a complete overview of all payments made via Adyen&trade; from all sales channels and allows you to easily transfer them via the *Payment Processing* module to the *Accounting* module. 
 
-The payment service provider Adyen&trade; provides merchants with a single platform to accept payments, protect revenues, and control finances. It offers an all-in-one online payment solution built for business, which means that all the different ways to pay online are supported, such as credit cards, invoice, or prepayment.<!---Stefan, stimmt das prepayment--> It integrates popular payment service providers such as Amazon Pay&trade;, Paypal&trade; and many more.
+The payment service provider Adyen&trade; provides merchants with a single platform to accept payments, protect revenues, and control finances. It offers an all-in-one online payment solution built for business, which means it supports all the different ways to pay online, such as credit card, invoice, or prepayment.<!---Stefan, stimmt das prepayment?--> It integrates popular payment service providers such as Amazon Pay&trade;, PayPal&trade; and many more.
 
 This documentation refers to the Adyen&trade; plugin version 1.1.0. There may be differences in the user interface, features, and operation if your Adyen&trade; plugin is installed in a different version.
 

@@ -4,7 +4,7 @@
 
 The following procedures contain information on the settings to be configured in the Adyen&trade; backend. It shows the standard procedures and screens that were current at the time this documentation was created. For the latest detailed descriptions, refer to the Adyen&trade; documentation. 
 
-In addition to the credentials settings in the Adyen&trade; backend, the same data is required in the *Payments* module to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them in order to specify them on the other side of the connection. Therefore, we recommend to enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can cache the credentials in a file. For detailed information on the Payments settings, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+In addition to the credentials settings in the Adyen&trade; backend, the same data is required in the *Payments* module to ensure a smooth data transfer. Note that once you have saved the credentials in Adyen&trade; or the *Payments* module, you can no longer copy them in order to specify them on the other side of the connection. Therefore, we recommend that you enter the connection data in parallel, which means alternately in the *Payments* module and in the Adyen&trade; backend. Alternatively, you can cache the credentials in a file. For detailed information on the Payments settings, see also [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
 Note the following: 
 
@@ -200,7 +200,7 @@ You must generate a web service API key for both the test environment and the li
 
 7. Return to your Adyen&trade; account and generate the *Web service* API password and enter it in Actindo. To do this, follow these steps:
 
-    1. Click the *Basic auth* tab and click the [Generate password] button, is you want to generate a new password.   
+    1. Click the *Basic auth* tab and click the [Generate password] button, if you want to generate a new password.   
       The password is automatically created.
 
         ![Web service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Web service password]")
