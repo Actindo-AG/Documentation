@@ -259,7 +259,7 @@ The workflow diagram includes the following elements:
     Enter a descriptive name for the new trigger. The entered name is displayed above the trigger input line.
 
 - *Model*  
-    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line.
+    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line. Ensure that the name space of the model corresponds to the  
 
 - *Event*  
     Click the drop-down list and select the appropriate event. The following options are available:    

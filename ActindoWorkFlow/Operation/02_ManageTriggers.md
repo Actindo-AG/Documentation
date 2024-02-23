@@ -39,7 +39,7 @@ No prerequisites to fulfill.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired model in the *Model* field, for example a PIM product corresponds to the model Actindo.Modules.Actindo.PIM.Models.PIMProduct. By entering the model, replace the dots with back slashes (**Actindo.Modules\Actindo\PIM\Models\PIMProduct**).   
+5. Enter the applicable namespace of the desired model in the *Model* field, for example a PIM product corresponds to the model Actindo.Modules.Actindo.PIM.Models.PIMProduct. By entering the model, replace the dots with back slashes (**Actindo\Modules\Actindo\PIM\Models\PIMProduct**).   
     The entered namespace is displayed to the right of the trigger name above the trigger input line.
 
     > [Info] You can take the data models from the related data model under *Dev Tools > API > Tab DATA MODELS*.

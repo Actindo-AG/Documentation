@@ -5,13 +5,10 @@
 The *Process Orchestration* module allows you to model your own processes to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
 For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md).
 
-A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. All these elements are described more in detail below:
+![Workflow configuration](../../Assets/Screenshots/ActindoWorkFlow/Overview/WorkflowConfiguration.png "[Workflow configuration]")
 
-- [Transitions](#transitions)
-- [Places](#places)
-- [Start and end place](#start-and-end-place)
-- [Arcs](#arcs)
-- [Input and output ports](#input-and-output-ports)
+
+A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. 
 
 The *Process Orchestration* module is linked to different system modules and plugins, such as *Order management*, *Email*, *Omni-Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
 
@@ -19,12 +16,14 @@ Since business processes, and the workflows that map them, evolve over time, wor
 
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 
-A process is an instance of a workflow, that is, the actual execution of a workflow configuration triggered by a business transaction. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be created for each of these business cases that is initiated.
+A process is an instance of a workflow, that is, the actual execution of a workflow configuration triggered by an event. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be started for each of these business cases that is initiated.
+
+![Process execution](../../Assets/Screenshots/ActindoWorkFlow/Overview/ProcessExecution.png "[Process execution]")
 
 Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Process Orchestration* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process, see [Manage the triggers](../Operation/02_ManageTriggers.md).
 
 Workflow processes, as well as the workflows itself, consists of certain elements that are described in detail below. As a process is an instance of the workflow, some elements in the workflows and the processes are very similar or even nearly identical. Nevertheless, the function of these elements differs depending on its use in the workflow or the process:
-
+- [Transitions](#transitions)
 - [Places](#places)
 - [Start and end place](#start-and-end-place)
 - [Actions](#actions)
@@ -36,7 +35,14 @@ Workflow processes, as well as the workflows itself, consists of certain element
 
 ![Transition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Transition]")
 
-The transitions act as building blocks that are chained together through places to configure a workflow. They are represented by a rectangle. Transitions are also called process actions.
+The transitions act as building blocks that are chained together through places to configure a workflow. They are used to process the incoming data and to output the processed data to the next place.  
+Transitions are represented by a rectangle. When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition.  
+For detailed information, see [Actions](#actions). See also the following overview:
+
+|Name in configuration| Name in execution|   
+|----- | ----|
+| Workflow | Process |
+| Transition | Action |
 
 The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Process Orchestration* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of an API. Some transition may have configuration options, but most of them do not.
 
@@ -73,16 +79,14 @@ The transition settings side bar is located to the right of the workspace and al
     All unlinked input ports are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
     For detailed information, see [Insert static input](./06_InsertStaticInput.md).
 
-When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition. As a result, one transition may be associated with multiple process actions.   
-For detailed information, see [Actions](#actions).
-
 
 
 ## Places
 
 ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
-A place is an intermediate stage in the workflow and is represented by a circle, usually provided with incoming and/or outcoming arcs.
+A place is an intermediate stage in the workflow and is represented by a circle, usually provided with incoming and/or outcoming arcs. They are used to pass tokens (data containers) to the next transition.
+<!---Stimmt der letze Satz?-->
 Places are used to build workflows and they are also displayed in the workflow processes. Places serve as link between two transitions, joining an output port from the previous transition to the corresponding input port of the following transition.
 
 > [Info] In the workflow processes,input and output ports of actions are not displayed, nevertheless, the places also serve as link between two actions.

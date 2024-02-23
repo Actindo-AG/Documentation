@@ -151,7 +151,7 @@ The list displays all executed actions that are matching the selected status. De
     -**Error; automatic retry**
         Select this option to display the actions that have given an error, but will be automatically retried.
     - **Suspended**  
-        Select this option to display the actions that have been manually paused.
+        Select this option to display the actions that have been manually paused. 
     - **Process aborted**  
         Select this option to display the actions included in a process that has been manually ended.
     -**Aborted**

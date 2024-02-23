@@ -94,16 +94,16 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 6. Check the action status in the *Status* column. The following statuses are available:
 
-    - **Active**
-       <!---Was bedeutet dieser Status?? Kann man hier irgendwas machen in editing toolbar?-->
+    - **Active**    
+       The action waits for a worker to become available or waits until a defer date is reached.
     - **Done**   
-       Action has been already executed. You can rerun this action.<!--- Warum sollte man das tun?-->
+       Action has been already executed. You can rerun this action. Note that this is only useful in very rare cases where something has gone wrong.
     - **Error**   
        Action has given an error. You can retry or abort this action.
     - **Error, automatic retry**    
        Action has given an error but will be retried automatically. 
     - **Suspended**     
-       Action has been manually paused.<!--- Kann man hier irgendwas machen in editing toolbar?-->
+       Action has been manually paused. You can unsuspend the pause.
     - **Process aborted**  
        The process has been manually aborted. All currently running process actions have been stopped and will no longer be executed.
     - **Aborted**   

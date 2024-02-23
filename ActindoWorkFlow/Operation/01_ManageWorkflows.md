@@ -327,7 +327,7 @@ Edit a transition to define its settings.
 
         Click the [Apply changes] button to add your documentation.
 
-    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed, for example, an email is sent to all persons assigned to this event. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
 
     + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. For detailed information, see [Insert a static input](06_InsertStaticInput.md). This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
 

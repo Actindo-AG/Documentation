@@ -16,7 +16,8 @@ The *Default* queue type is predefined and is assigned to all transitions by def
 
 ## Create a queue type
 
-Create an individual queue type, assign a certain number of workers to it, and define the sequence in which the process actions are to be executed. If required, create a queue type to throttle specific process actions. For example, you may want to do this if you expect enormous traffic at a certain time or for a certain product (Black Friday, product launch), or if a connected external system is not able to process more than a certain number of actions.
+Create an individual queue type, assign a certain number of workers to it, and define the sequence in which the process actions are to be executed.   
+If required, create a queue type to throttle specific process actions. For example, you may want to do this if you expect enormous traffic at a certain time or for a certain product (Black Friday, product launch), or if a connected external system is not able to process more than a certain number of actions.
 
 #### Prerequisites
 
@@ -47,7 +48,7 @@ No prerequisites to fulfill.
    The fields below are ready for input.
      - Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
      - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60.   
-    Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
+    Note that these numbers refer to a queue type. If a queue type is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
 6. Click the [SAVE] button in the upper right corner.   
     The *Create queue type* view is closed. A confirmation message is displayed. The new queue type has been created and is displayed in the list of queue types. 
@@ -174,7 +175,7 @@ To achieve this, you must either wait until all running workers are finished or 
 
 ## Assign a queue type
 
-Assign a certain queue type to a transition, for instance to prioritize a certain action to be executed faster.
+Assign a certain queue type to a transition, for instance to prioritize a certain action to be executed faster, or to throttle an action, so that the system load is better distributed.
 
 #### Prerequisites
 
@@ -186,7 +187,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. Select the transition to which you want to assign a certain queue type.      
+1. Select the transition to which you want to assign a certain queue type. If you want to throttle an action, in most cases it is recommended to assign the throttle queue type at one of the first transitions of the workflow.     
     The transition is highlighted and its settings are displayed in the settings side bar on the right.
 
     ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
