@@ -1,4 +1,6 @@
+[!!Posting types](./04_PostingTypes.md)
 [!!Manage the stock](../Operation/02_ManageStock.md)
+[!!Debtors/creditors in Accounting](../../RetailSuiteAccounting/UserInterface/02a_DebtorsCreditors.md)
 
 # Quick posting
 
@@ -93,7 +95,7 @@ The following functions and fields are available:
 
 - *Manual posting*  
     Click the drop-down list to select the appropriate manual posting type. The posting types displayed vary according to the tab selected.  
-    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md).
+    For detailed information on all posting types available in the system, see [Posting types](./04_PostingTypes.md).
 
 
 
@@ -164,7 +166,6 @@ The following functions and fields are available:
 
 - [x]   
     Select the checkbox of a storage shelf to edit or delete it. The *Edit* section is displayed.
-
 
 - [CREATE]  
     Click this button to create a storage shelf. The *Add* section is displayed.
@@ -268,7 +269,7 @@ The following functions and fields are available:
 
 - *Posting type*  
     Click the drop-down list and select the desired posting type.  
-    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md). 
+    For detailed information on all posting types available in the system, see [Posting types](./04_PostingTypes.md). 
 
 - *New stock location*  
     Click the drop-down list and select the desired stock location. This drop-down list is only displayed if you have selected the *Stock transfer* posting type.
@@ -347,7 +348,7 @@ The list displays all stock postings for the selected material. The list display
 
 - *Posting type*  
     Click the drop-down list to filter the postings by posting type.  
-    For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md). 
+    For detailed information on all posting types available in the system, see [Posting types](./04_PostingTypes.md). 
 
 - [EXCEL]  
     Click this button to export the stock history as an Excel file. This button is only displayed if the *Statistics* module is installed.

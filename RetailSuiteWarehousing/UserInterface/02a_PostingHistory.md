@@ -1,3 +1,4 @@
+[!!Posting types](./04_PostingTypes.md)
 [!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 
 # Posting history

@@ -13,8 +13,8 @@ This documentation refers to *Warehousing* module version 2.1.0. There may be di
 The *Warehousing* module offers the following benefits:
 
 - Centralized control and management of stock movements and levels
-- Seamless documentation of all stock movements from materials receipt to sale 
-- Fully customizable matrix for a flexible allocation of stocks by target channel 
+- Seamless documentation of all stock movements from materials receipt to return 
+- Fully customizable matrix for a flexible allocation of stocks by sales channel 
 - Stock withdrawal matrix for an automatic storage location selection based on customer-defined criteria 
 - Real-time update and analysis of sales and stock data
 

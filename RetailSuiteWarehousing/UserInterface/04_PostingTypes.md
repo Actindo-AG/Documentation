@@ -1,10 +1,13 @@
+[!!Create a manual stock posting](../Operation/02_ManageStock.md)
+[!!Check the posting history](../Operation/03_CheckPostingHistory.md)
+
+[comment]: <> (Julian: Evtl. diese Datei unter Operation?)
+
 # Posting types 
 
 The *Warehousing* module allows you to manage the stock manually through the *Quick posting* menu entry. For detailed information, see [Create a manual stock posting](../Operation/02_ManageStock.md#create-a-manual-stock-posting).
 
-However, stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. 
-
-The system performs the postings automatically when an order is received in the *Order Management* module. In the case of customer orders, the automatic posting process works as follows:
+However, stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. The system performs the postings automatically when an order is received in the *Order Management* module. In the case of customer orders, the automatic posting process works as follows:
 
 Every order that is imported into the system is linked to a business document, the head document. The head document, regardless of what business document it is, creates a reservation posting in the *Warehousing* module. The ordered material is then reserved. This reservation has no effect on the actual physical stock, but it reduces the available material stock, that is, the number of units that are available to be sold.
 
@@ -26,7 +29,7 @@ Below, you can see the list of all posting types with a detailed description.
 [comment]: <> (Terminologie muss angepasst werden)
 
 - **Sale**  
-    This posting type can be created manually or automatically.It represents the stock postings for ordered materials that have left the warehouse, that is, when the delivery note has been processed and closed. This posting type reduces the actual physical stock in the warehouse.  
+    This posting type can be created manually or automatically. It represents the stock postings for ordered materials that have left the warehouse, that is, when the delivery note has been processed and closed. This posting type reduces the actual physical stock in the warehouse.  
 
 - **Order**   
     This posting type can be created manually or automatically. It represents the stock postings for ordered additional materials from a supplier for restocking purposes. This posting type does not increase the actual physical stock in the warehouse but does affect the available stock calculation.
@@ -49,7 +52,7 @@ Below, you can see the list of all posting types with a detailed description.
     This posting type can be created manually or automatically. It represents the stock postings for returned materials. This posting type affects the actual stock in the respective storage shelf. 
 
 - **Drop shipment**   
-    This posting type is created automatically by the system when a dropshipping order is received. It has no effect in the stock.
+    This posting type is created automatically by the system when a dropshipping order is received. It has no effect on the stock.
 
     [comment]: <> (Stimmt das so? Mehr Info dazu?)
 

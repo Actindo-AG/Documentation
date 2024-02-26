@@ -1,5 +1,6 @@
 [!!Configure warehouses](./02_ConfigureWarehouses.md)
-[!!Check the stock](../Operation/02_ManageStock.md)
+[!!Activate the warehouse logistics for a product](./06_ActivateWarehouseLogistics.md)
+[!!Manage the warehouse](../Operation/01_ManageWarehouse.md)
 [!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 
@@ -12,7 +13,7 @@ Each material can be stored in several storage shelves and different warehouses,
 
 The first storage shelf that is created for a material is automatically set as primary. You can subsequently create other storage shelves and set them as primary by clicking the *is primary storage* checkbox. 
 
-Storage shelves can be created, edited, and deleted. Bear in mind, though, that you cannot delete a storage shelf where postings have already been made, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
+Storage shelves can be created, edited, and deleted. Bear in mind, though, that you cannot delete a storage if where postings have already been made, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
 
 
 
@@ -65,9 +66,9 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 
 ## Edit a storage shelf
 
-Once you have created a storage shelf, you can edit it. 
+Once you have created a storage shelf, you can edit it. Bear in mind, though, that you cannot edit a storage shelf ID if postings have already been made.
 
-Bear in mind that you cannot edit a storage shelf if postings have already been made.
+[comment]: <> (Julian: Stimmt das so?)
 
 #### Prerequisites
 
@@ -88,10 +89,12 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
     ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")  
 
 2. If desired, modify the storage shelf ID.  
-    Bear in mind that you cannot modify the storage shelf ID if postings have already been made.
+    
+    > [Info] You cannot modify the storage shelf ID if postings have already been made.
+    
 [comment]: <> (Julian: Stimmt das so?)
 
-3. Select or deselect the **is primary storage shelf** checkbox as necessary to change the storage shelf setting. 
+3. Select or deselect the **is primary storage shelf** checkbox as necessary to change the storage shelf setting. For detailed information about how to set a storage shelf as primary, see [Set a storage shelf as primary](../Operation/01_ManageWarehouse.md#set-a-storage-shelf-as-primary).
     
     > [Info] The *Warehouse ID* und the *Blocked storage* settings cannot be changed for already existing warehouse storage shelves. In this case, you have to create a new warehouse shelf with the desired settings.   
 
@@ -102,9 +105,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 ## Delete a storage shelf
 
-After you have created a storage shelf, you can delete it.  
-
-Bear in mind, though, that you cannot delete a storage shelf where postings have already been made, as all posting information is kept in the system.
+After you have created a storage shelf, you can delete it. Bear in mind, though, that you cannot delete a storage shelf if postings have already been made, as all posting information is kept in the system.
 
 #### Prerequisites
 
@@ -126,6 +127,8 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 2. Click the [DELETE] button in the *Storage locations* section.  
     The notice *Please wait... Saving...* is displayed. The deleted storage shelf is no longer displayed in the list of storage locations.  
+
+    > [Info] If the postings have already been made, the storage shelf cannot be deleted. A window with the following error message is displayed: *Error: Warehouse could not be deleted: Storage shelf not empty*.
 
 
 

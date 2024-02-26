@@ -4,7 +4,6 @@ In this part of the *Warehousing* documentation, you will find the following cha
 
 - [Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
     - [Create a warehouse group](./01_ConfigureWarehouseGroups.md#create-a-warehouse-group)
-        - [Add a warehouse group](./01_ConfigureWarehouseGroups.md#add-a-warehouse-group)
         - [Create an own warehouse group](./01_ConfigureWarehouseGroups.md#create-an-own-warehouse-group)
         - [Create an externally controlled warehouse group](./01_ConfigureWarehouseGroups.md#create-an-externally-controlled-warehouse-group)
     - [Edit a warehouse group](./01_ConfigureWarehouseGroups.md#edit-a-warehouse-group)
@@ -27,5 +26,6 @@ In this part of the *Warehousing* documentation, you will find the following cha
     - [Edit an entry](./05_ConfigureStockWithdrawalMatrix.md#edit-an-entry)
     - [Delete an entry](./05_ConfigureStockWithdrawalMatrix.md#delete-an-entry)
 
+- [Activate the warehouse logistics for a product](./06_ActivateWarehouseLogistics.md)
 
     

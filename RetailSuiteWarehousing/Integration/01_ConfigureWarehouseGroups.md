@@ -1,6 +1,6 @@
 [!!Configure the warehouses](./02_ConfigureWarehouses.md)
-[!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 [!!User interface Warehouse](../UserInterface/03a_Warehouse.md)
+[!!Create a connection in Fulfillment](../../Fulfillment/Integration/01_ManageConnections.md)
 
 # Configure the warehouse groups
 
@@ -14,7 +14,9 @@ A warehouse group is a higher-level classification of warehousing facilities acc
 
 Warehouse groups are physically and conceptually separated from each other and therefore one delivery note must be issued for each warehouse group and handled separately. A warehouse group can contain an unlimited number of warehouses, see [Configure the warehouses](./02_ConfigureWarehouses.md). 
 
-Warehouse groups can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group where postings have already been made, as all posting information is kept in the system. For detailed information, see [Check the posting history](../Operation/03_CheckPostingHistory.md).
+Warehouse groups can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse group that already contains warehouses.
+
+[comment]: <> (Stimmt das so oder ist es ein Bug bei mir? Sobald man warehouses erstellt hat, kann ich die Gruppe nicht mehr löschen, auch wenn noch keine Buchungen gemacht worden sind.)
 
 To be able to manage the warehouses, the following plugins must be installed:   
 - *Warehouse groups 2.0.0*  
@@ -25,7 +27,7 @@ To be able to manage the warehouses, the following plugins must be installed:
 
 ## Create a warehouse group
 
-Create a warehouse group to include a number of warehouses that share a common configuration. You can create an warehouse group managed by your own company and a warehouse group managed by an external third party, such as fulfiller. The configuration set for the warehouse group applies to all warehouses included in the group. 
+Create a warehouse group to include a number of warehouses that share a common configuration. You can create a warehouse group managed by your own company and a warehouse group managed by an external third party, such as fulfiller. The configuration set for the warehouse group applies to all warehouses included in the group. 
 
 ### Create an own warehouse group
 
@@ -125,7 +127,7 @@ At least one connection has been established in the *Fulfillment* module, see [C
 
 ## Edit a warehouse group
 
-Once you have created a warehouse group, you can edit it. 
+Once you have created a warehouse group, you can edit it. Bear in mind, though, that you cannot edit the warehouse group ID if the warehouse group already contains warehouses.
 
 #### Prerequisites
 
@@ -140,25 +142,23 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 1. Click the warehouse group you want to edit.  
     The *Basic data* sub-tab of the selected warehouse group is displayed.
 
-     > [Caution] **Potential loss of data**    
+    > [Caution] **Potential loss of data**    
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/EditWarehouseGroupBasicData.png "[Warehouse group basic data]")
 
 2. Modify any settings as necessary in the available fields.  
 
-    > [Info] If the warehouse group already contains warehouses, the warehouse number cannot be modified. A window with the following error message is displayed: *Error while saving: There are warehouses in this warehouse group.*
-
 3. Click the [SAVE] button.  
-    The changes have been saved.
+    The changes have been saved.  
+
+    > [Info] If the warehouse group already contains warehouses, the warehouse group ID cannot be modified. A window with the following error message is displayed: *Error while saving: There are warehouses in this warehouse group*.
 
 
 
 ## Delete a warehouse group
 
-After you have created a warehouse group, you can delete it if it is no longer needed or you create it mistakenly. 
-
-Bear in mind, though, that you cannot delete a warehouse group where postings have already been made, as all posting information is kept in the system.
+After you have created a warehouse group, you can delete it if it is no longer needed or you create it mistakenly. Bear in mind, though, that you cannot delete a warehouse group that already contains warehouses.
 
 #### Prerequisites
 
@@ -174,7 +174,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
     The *Basic data* sub-tab of the selected warehouse group is displayed.
 
     > [Caution] **Loss of data**  
-        Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
+    Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/EditWarehouseGroupBasicData.png "[Warehouse group basic data]")
 

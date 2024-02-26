@@ -1,13 +1,14 @@
 [!!Manage the warehouse](./01_ManageWarehouse.md)
-[!!Check the posting history](./03_CheckPostingHistory.md)
+[!!Activate the warehouse logistics for a product](../Integration/06_ActivateWarehouseLogistics.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 [!!User interface Posting history](../UserInterface/02a_PostingHistory.md)
+[!!Posting types](../UserInterface/04_PostingTypes.md)
 
 # Manage the stock
 
-The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations.
+The *Warehousing* module allows you to manage your stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations.
 
-Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on the different stock postings and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md). 
+Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on all posting types available in the system and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md). 
 
 [comment]: <> (Evtl. Link zu Basic OM process hinzufügen, wenn online)
 
@@ -23,6 +24,8 @@ You can create a manual posting if you want to add, release, or transfer stock i
 ### Manual stock posting of a single material  
 
 Create a manual posting of a selected single material.
+
+The posting types available in this function are only those you can create manually. For detailed information on all posting types available in the system, see [Posting types](../UserInterface/04_PostingTypes.md).
 
 #### Prerequisites
 
@@ -51,7 +54,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 
 4. Click the *Stock location* drop-down list and select the storage shelf where you want to post the stock. All available storage shelves for this material are displayed in the list.
 
-5. Click the *Posting type* drop-down list and select the desired posting type. Depending on the option you select, the fields displayed below may vary. The following options are available:
+5. Click the *Posting type* drop-down list and select the desired posting type. Bear in mind that the posting types displayed in this list are only those you can create manually. Depending on the option you select, the fields displayed below may vary. The following options are available:
 
     - **Reservation**   
         Select this option if you want to reserve a material for an open order. This posting type does not reduce the actual physical stock in the warehouse, but does affect the available stock calculation. A reservation can therefore result in a negative stock level.

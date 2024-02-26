@@ -4,8 +4,8 @@ In this part of the *Warehousing* documentation, you will find the following cha
 
 
 - [Manage the warehouse](./01_ManageWarehouse.md)
-    - [Check the stock allocation for a material](./01_ManageWarehouse.md#check-the-stock-allocation-for-a-material)
     - [Set a storage shelf as primary](./01_ManageWarehouse.md#set-a-storage-shelf-as-primary)
+    - [Check the stock allocation for a material](./01_ManageWarehouse.md#check-the-stock-allocation-for-a-material)
     - [Check the stocks for a material](./01_ManageWarehouse.md#check-the-stocks-for-a-material)
     - [Check the stock history for a material](./01_ManageWarehouse.md#check-the-stock-history-for-a-material)
 
@@ -17,6 +17,5 @@ In this part of the *Warehousing* documentation, you will find the following cha
 
 
 - [Check the posting history](./03_CheckPostingHistory.md)
-    - [Posting types](./03_CheckPostingHistory.md#posting-types)
     - [Check the posting history for a material](./03_CheckPostingHistory.md#check-the-posting-history-for-a-material)
     - [Filter the posting history by different criteria](./03_CheckPostingHistory.md#filter-the-posting-history-by-different-criteria)

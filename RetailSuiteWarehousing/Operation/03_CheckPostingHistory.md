@@ -1,5 +1,6 @@
 [!!Manage the stock](./02_ManageStock.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
+[!!Posting types](../UserInterface/04_PostingTypes.md)
 
 # Check the posting history
 
@@ -7,7 +8,7 @@ You can check all stock postings that have been performed in the *Warehousing* m
 
 For detailed information about how to create a manual posting, see [Create a manual stock posting](./02_ManageStock.md#create-a-manual-stock-posting).
 
-For a detailed description of all posting types and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md).
+For detailed information on all posting types available in the system and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md).
 
 [comment]: <> (Evtl. Verweis auf Basic OM process in Core1, wenn veröffentlicht)
 
@@ -41,7 +42,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the business document has been cancelled.
 
-3. Check the different posting types created in the *Posting type* column. For detailed information on the different posting types, see [Posting types](../UserInterface/04_PostingTypes.md).
+3. Check the different posting types created in the *Posting type* column. For detailed information on all posting types available in the system, see [Posting types](../UserInterface/04_PostingTypes.md).
 
 4. Check the quantity of stock posted for the selected material in the *Quantity* column. 
 
@@ -67,26 +68,8 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
-1. Click the *Posting type* drop-down list and select the desired posting type. The following options are available:  
-
-    - **Manual posting**
-    - **Reservation**   
-    - **Waiting for picking**
-    - **Sale**  
-    - **Order**   
-    - **Purchase**  
-    - **Back to supplier**
-    - **Stock adjustment posting**  
-    - **Stock transfer**  
-    - **Return**  
-    - **Drop shipment** 
-    - **Problem**  
-    - **Pre-reservation**  
-
-    For detailed information on the different posting types, see [Posting types](../UserInterface/04_PostingTypes.md). 
+1. Click the *Posting type* drop-down list and select the desired posting type. For detailed information on all posting types available in the system, see [Posting types](../UserInterface/04_PostingTypes.md). 
     
-[comment]: <> (Vgl. Manual posting in 01_ManageWarehouse.md. Evtl. Posting type allg. beschrieben, z.B. in UI, und Verweis? So wie es jetzt ist, passt in beiden Kontexten nicht.)
-
 2. Click the *Warehouse* drop-down list and select the desired warehouse. All warehouses available are displayed in the list.
 
 3. Click the *Storage shelf* drop-down list and select the desired storage shelf. All available storage shelves are displayed in the list.

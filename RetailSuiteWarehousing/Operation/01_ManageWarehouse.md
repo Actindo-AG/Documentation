@@ -1,12 +1,12 @@
 [!!Manage the stock](./02_ManageStock.md)
-[!!Activate the warehouse logistics for a product](../Integration/06_ActivateWarehouseLogistics.md)
 [!!Configure the stock allocation](../Integration/04_ConfigureStockAllocation.md)
+[!!Activate the warehouse logistics for a product](../Integration/06_ActivateWarehouseLogistics.md)
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 [!!User interface Posting history](../UserInterface/02a_PostingHistory.md)
 
 # Manage the warehouse
 
-Once you have created a warehouse, you can manage it. The warehouse management functions allow you to set a storage shelf as primary, and to check the stocks, the stock allocation, and the stock history for a selected material.
+Once you have created a warehouse, you can manage it. The warehouse management functions allow you to set a storage shelf as primary, as well as to check the stocks, the stock allocation, and the stock history for a selected material.
 
 Before you can manage the warehouse materials, you have to activate the warehouse logistics for the corresponding product. For detailed information, see [Activate the warehouse logistics for a product](../Integration/06_ActivateWarehouseLogistics.md).
 
@@ -161,7 +161,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 4. If desired, click the *Storage location* drop-down list to select a specific warehouse. All available warehouses are displayed in the list.  
     The list displays only the entries for the selected warehouse.
 
-5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For detailed information on the different posting types, see [Posting types](../UserInterface/04_PostingTypes.md).  
+5. If desired, click the *Posting type* to select a specific posting type. All available posting types are displayed in the list. For detailed information on all posting types available in the system, see [Posting types](../UserInterface/04_PostingTypes.md).  
     The list displays only the entries with the selected posting type.
 
     > [Info] If a posting is red-colored and crossed out, it indicates that the order, and therefore the linked business document, has been cancelled.

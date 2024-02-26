@@ -1,6 +1,6 @@
 [!!Configure the warehouse groups](./01_ConfigureWarehouseGroups.md)
 [!!Configure the warehouses](./02_ConfigureWarehouses.md)
-[!!User interface Stock withdrawal matrix](../UserInterface/03a_Warehouse.md)
+[!!User interface Warehouse](../UserInterface/03a_Warehouse.md)
 
 
 # Configure the stock withdrawal matrix

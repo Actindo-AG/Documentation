@@ -20,3 +20,5 @@ In this part of the *Warehousing* documentation, you will find the following cha
         - [Warehouse basic data](./03a_Warehouse.md#warehouse-basic-data)
     - [Stock allocation](./03a_Warehouse.md#stock-allocation)
     - [Stock withdrawal matrix](./03a_Warehouse.md#stock-withdrawal-matrix)
+
+- [Posting types](./04_PostingTypes.md)

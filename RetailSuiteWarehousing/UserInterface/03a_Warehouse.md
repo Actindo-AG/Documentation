@@ -238,8 +238,6 @@ The following functions and fields are displayed:
 - *Product group*  
     This function is no longer supported and can be ignored. 
 
-[comment]: <> (Evtl. löschen)
-
 - *Sales channel*  
     Click a field to display the drop-down list and select the channel where the order originates. The following options are available: 
 

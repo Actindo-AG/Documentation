@@ -1,3 +1,5 @@
+[!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
+
 # Activate the warehouse logistics for a product
 
 All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, a product is not relevant for the warehouse logistics by default. To be able to manage the stock for a material corresponding to a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product first. 
