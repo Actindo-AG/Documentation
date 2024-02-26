@@ -1,4 +1,4 @@
-# Dashboard
+# DASHBOARDS
 
 *Process Orchestration > Overview > Tab DASHBOARDS*
 

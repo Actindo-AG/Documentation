@@ -14,6 +14,7 @@ In the following, the core actions, their use and their settings are described i
 - [Multiply input action](#multiply-input-action)
 - [Execute PHP code](#execute-php-code)
 - [Extract value](#extract-value)
+- [Manipulate process priority](#manipulate-process-priority)
 - [Manual action](#manual-action)
 - [Split by criterion](#split-by-criterion)
 - [Start subprocess](#start-subprocess)
@@ -44,6 +45,7 @@ The *Change process priority* core action has two input ports:
 - priority: New value used for the process priority.
 
 
+
 ## Extract value
 
 ![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
@@ -56,6 +58,7 @@ You define the value to be extracted in the *Path to value* field in the configu
 
 *Path to value*   
 Search for the parameter name of the objects's data model that is available in the input port of the transition, copy the required parameter name, and enter it in the *Path to value* field, for example **pimProduct.pim.variants**.
+
 
 
 ## Manipulate process priority
@@ -98,18 +101,7 @@ The *Manual action* core action has two input ports:
 It is possible to include a static input via the unconnected input port. You can use the *data_input* or the *event_id* input port to define a static input in the *Static inputs* section in the settings side bar. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
 
 
-## Multiply input action
 
-![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
-
-The *Multiply input action* core action is used to output the data coming in via one input port to up to six output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
-The data runs via the *p* input port into the process action and is output via the *p0* - *p5* output ports.
-
-[comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen > done)
-
-### Configuration   
-
-This core action has no further configuration settings.
 
 
 

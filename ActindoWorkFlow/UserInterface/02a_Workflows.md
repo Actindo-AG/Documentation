@@ -4,7 +4,7 @@
 
 [comment]: <> (add link to Tasks module if available> Currently not available 21.02.2024)
 
-# Overview
+# OVERVIEW (Workflow)
 
 *Process Orchestration > Workflows > Tab OVERVIEW*
 
@@ -90,6 +90,15 @@ The list displays all workflow versions of the selected workflow. Depending on t
 - *ID*  
     Identification number of the workflow version. The ID number is automatically assigned by the system when the workflow version is created.
 
+- *Created*   
+    Date and time the version was created.
+
+- *Modified*   
+    Date and time the version was modified.
+
+
+The following functions are available for the editing toolbar:
+
 - [x]   
     Select the checkbox to display the editing toolbar.
 
@@ -108,9 +117,6 @@ The list displays all workflow versions of the selected workflow. Depending on t
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 >[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-    Click this button to close the workflow editor and return to the list of workflows. All changes are rejected.
 
 - ![Points](../../Assets/Icons/Points02.png "[Points]") (Points)  
     Click this button to the right of the workflow name to display the context menu. The following menu entries are available:
@@ -151,7 +157,7 @@ The workflow diagram includes the following elements:
     ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
 
     - *Key*  
-        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. <!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
 
     - *Data container*  
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
@@ -164,7 +170,7 @@ The workflow diagram includes the following elements:
     ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
     - *Key*  
-        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
 
     - *Data container*  
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
@@ -179,13 +185,13 @@ The workflow diagram includes the following elements:
     The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
     - *Key*  
-        Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+        Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Was ist damit gemeint? und wenn ich eine transition mehrfach einfüge?...-->
 
     - *Label*  
         Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the transition rectangle in the diagram.
 
     - *Queue type*  
-        Click the drop-down list to select the applicable queue type.   
+        Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).
 
     - *Priority*   
         <!---TO BE ENHANCED-->
@@ -215,6 +221,9 @@ The workflow diagram includes the following elements:
 
         > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
+    - *Long description*   
+        If desired, edit a long text to document the transition. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor.
+
     - *Configuration*  
         Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
 
@@ -242,12 +251,12 @@ The workflow diagram includes the following elements:
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
+The *Edit trigger for workflow "workflow name"* pop-up window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
+
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add trigger)  
     Click this button to add a trigger. A trigger input line is displayed.
 
     > [Info] The following fields are only displayed when a trigger has been added.
-
-**"Trigger name"**
 
 - ![Collapse](../../Assets/Icons/Up.png "[Collapse]") (Collapse)  
     Click this button to collapse the trigger box.
@@ -308,7 +317,7 @@ The workflow diagram includes the following elements:
 - *Property*  
     Enter the applicable property for the selected prefix.
 
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*<!--- Man muss doch den Wert nicht mit geschweiften Klammern eingeben? Wäre _pim_tax_zone.id richtig?-->. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
 
 - *Operator*  
     Click the drop-down list and selected the appropriate option. The following options are available:
@@ -321,7 +330,7 @@ The workflow diagram includes the following elements:
         - Enable the toggle to define that a property value must be set for the condition to be met.
         - Disable the toggle to define that a property value must not be set for the condition to be met.
 
-[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist > DONE)
+<!--ICBPM-204 eingebaut-->
 
 - *Value*  
     Enter the applicable value.

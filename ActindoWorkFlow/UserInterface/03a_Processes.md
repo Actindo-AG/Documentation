@@ -2,7 +2,7 @@
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
 [!!Process actions](./04a_ProcessActions.md)
 
-# Overview
+# OVERVIEW (Processes)
 
 *Process Orchestration > Processes > Tab OVERVIEW*
 
@@ -12,7 +12,7 @@
 
 The list displays all processes that are matching the selected values (status and workflow type). Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
 
-The following fields and function are available on top of the list:
+The following fields and functions are available on top of the list:
 
 - ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") (Manual processes)   
    Enable this toggle to display only those processes which require a user interaction. Disable this toggle to display all processes.
@@ -28,16 +28,16 @@ The following fields and function are available on top of the list:
     - **Error**  
         Select this option to display the processes that have given an error (a process action has given an error).
     - **Done**  
-        Select this option to display the processes that have been completely executed (end place has been reached).  
+        Select this option to display the processes that have been successfully executed (end place has been reached).  
     - **Dead**  
         Select this option to display the processes that have automatically stopped due to a missing input. A dead process cannot be retried. It can only be aborted, that is, manually ended, and re-initiated.
     - **Suspended**  
-        Select this option to display the processes that have been manually paused. The remaining process actions are temporarily stopped.
+        Select this option to display the processes that have been manually paused. The subsequent process actions were temporarily stopped.
     - **Aborted**  
         Select this option to display the processes that have been manually ended. All process actions currently running are stopped and no longer executed.
 
 - *Workflow*  
-    Click the drop-down list to display a specific workflow type. All workflows created in the *Workflows* menu entry are available in the list.
+    Click the drop-down list to display a specific workflow. All workflows created in the *Workflows* menu entry are available in the list.
 
 The following functions are available for the editing toolbar. Depending on the process status, the editing toolbar displays specific buttons:
 
@@ -133,90 +133,12 @@ The diagram displays a visualization of the selected process including all place
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-*Actions tab*
+**Actions tab**
 
-The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.   
-The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Depending on the process status, the editing toolbar may display different options.
+The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.  
+The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Depending on the process status, the editing toolbar may display different options. 
 
- - *Status*  
-    Click the drop-down list to select an action status. The following options are available:  
-    - **All**  
-        Select this option to display all actions, regardless of their status.
-    -**Active**
-         Select this option to display the actions that are currently active.
-    - **Done**  
-        Select this option to display the actions that have been already executed.  
-    - **Error**  
-        Select this option to display the actions that have given an error.
-    -**Error; automatic retry**
-        Select this option to display the actions that have given an error, but will be automatically retried.
-    - **Suspended**  
-        Select this option to display the actions that have been manually paused. 
-    - **Process aborted**  
-        Select this option to display the actions included in a process that has been manually ended.
-    -**Aborted**
-        Select this option to display the actions that has been manually ended.
-    - **Manual**
-        Select this option to display the actions that require a user decision.
-
-The following functions are available for the editing toolbar:
-
-
-- [x]    
-    Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all actions in the list are selected.
-
-- ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry)  
-    Click this button to retry the action. This button is displayed if the action status is *Error*.
-
-- ![Suspend](../../Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to suspend the action temporarily. This button is displayed if the action status is *In progress*. When clicking this button, the action status changes to *Suspended*.
-
-- ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed if the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
-
-- [REMOVE DEFER TIME]  
-    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed if the action status is *In progress*.
-
-    > [Info] The defer time is preconfigured pro action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
-
-The following fields and function are available on this view:
-
-- *Status*  
-    Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
-    - **In progress** (blue)
-    - **Done** (green)
-    - **Error** (red)  
-    - **Suspended** (dark gray)
-    - **Process aborted** (black)
-
-- *Transition*  
-    Transition key.
-
-- *Tries*  
-    Number of times the action execution has been tried.
-
-- *Max retries after error*  
-    Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. 
-
-- *Queue type*  
-    Queue type assigned to the action. By default, the *Default* queue type is assigned.
-
-    > [Info] A different queue type can be selected by editing an action in the workflow editor.
-
-- *Defer until*  
-    Next point in time when the action is being tried. This setting depends on the action and is not available in all actions.
-
-- *Created*  
-    Date and time of creation.
-
-- *Modified*  
-    Date and time of modification.
-
-- *ID*  
-    Action identification number. The ID number is automatically assigned by the system.
-
-- *Transition ID*  
-    Transition identification number. The ID number is automatically assigned by the system.
+For detailed information on the available functions and fields in this tab, see [Overview (Process actions)](04a_ProcessActions.md).
 
 
 ### Logs
@@ -227,69 +149,7 @@ The following fields and function are available on this view:
 
 The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#log-id).
 
-- *Log level*  
-    Click the drop-down list to select a log level. The following options are available:  
-    - **All**  
-        Select this option to display all logs regardless of their level.
-    - **Debug**  
-        Select this option to display all logs with *Debug* level.
-    - **Info**   
-        Select this option to display all logs with *Info* level.
-    - **Notice**  
-        Select this option to display all logs with *Notice* level.
-    - **Warning**  
-        Select this option to display all logs with *Warning* level.
-    - **Error**  
-        Select this option to display all logs with *Error* level.
-    - **Critical**  
-        Select this option to display all logs with *Critical* level.
-    - **Alert**  
-        Select this option to display all logs with *Alert* level.
-    - **Emergency**  
-        Select this option to display all logs with *Emergency* level.
-
-The following functions and fields are available in this view:
-
-- *Type*  
-    Log level. The following levels can be displayed:
-    - **Debug**
-    - **Info**
-    - **Notice**
-    - **Warning**
-    - **Error**
-    - **Critical**
-    - **Alert**
-    - **Emergency**
-
-- *Log message*  
-    Description of the issue.
-
-- *Process orchestration*  
-    Workflow to which the log message refers.
-
-- *Process orchestration ID*    
-    Workflow identification number. The ID number is automatically assigned by the system.
-
-- *Created*  
-    Date and time of creation.
-
-- *ID*  
-    Log identification number. The ID number is automatically assigned by the system.
-
-- *Process*  
-    Description of the process to which the log refers.
-
-- *Process ID*  
-    Identification number of the process to which the log refers. The ID number is automatically assigned by the system.
-
-- *Transition*  
-    Key of the transition to which the log refers.
-
-- *Transition ID*  
-    Identification number of the transition to which the log refers. The ID number is automatically assigned by the system.
-
-- *Created by*  
-    Name and username of the user who initiated the process.
+This list contains the logs for the selected process only. For a detailed description of this window, the corresponding functions and fields, see [Overview (Logs)](./06a_Logs.md).
 
 
 ### Log ID
@@ -346,6 +206,4 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 The list displays all execution logs that have been created for each transition of the selected process. It allows you to analyze what each worker did and how long it took to execute an action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain action has caused the delay, perhaps sending an email, or if the process had to wait a long time for execution. For detailed information, see [Check the execution log](../Operation/09_TrackWorkflowProcess.md#check-the-execution-log). 
 
-Note that the execution log is only available for a specific time period. It displays all logs that have been created within the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Lifetime execution log in days](./07a_Settings.md#lifetime-execution-log-in-days).  
-
-For detailed information on fields and functions of this list, see [EXECUTION LOG](06b_ExecutionLog.md).
+For detailed information on fields and functions of this list, see [Execution log](06b_ExecutionLog.md).

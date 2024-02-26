@@ -36,22 +36,24 @@ In this part of the *Process Orchestration* documentation, you will find the fol
         - [Tokens](./03a_Processes.md#tokens)
         - [Execution log](./03a_Processes.md#execution-log)
         
-
-
 - [Process actions](./04_ProcessActions.md)
 
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md)
     
 - [Queue types](./05_QueueTypes.md)
 
-- [OVERVIEW](./05a_QueueTypes.md)
+- [OVERVIEW (Queue types)](./05a_QueueTypes.md)
     - [Create queue type](./05a_QueueTypes.md#create-queue-type)  
     - [Edit queue type](./05a_QueueTypes.md#edit-queue-type)
 
 - [Logs](./06_Logs.md)
 
-- [OVERVIEW (Logs)](./06a_Logs.md)
+- [LOG MESSAGES](./06a_Logs.md)
     - [Log ID](./06a_Logs.md#log-id)
+
+- [EXECUTION LOG](06b_ExecutionLog.md)
+
+- [EXECUTION STATISTICS](./06c_ExecutionStatistics.md)
    
 - [Settings](./07_Settings.md)
 
@@ -72,6 +74,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Multiply input action](./08_CoreActions.md#multiply-input-action)
     - [Extract value](./08_CoreActions.md#extract-value)
     - [Manual action](./08_CoreActions.md#manual-action)
+    - [Manipulate process priority](./08_CoreActions.md#manipulate-process-priority)
     - [Execute PHP code](./08_CoreActions.md#execute-php-code)
     - [Split by criterion](./08_CoreActions.md#split-by-criterion)
     - [Start subprocess](./08_CoreActions.md#start-subprocess)

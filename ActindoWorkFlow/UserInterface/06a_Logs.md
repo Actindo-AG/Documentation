@@ -1,6 +1,7 @@
-# Overview
+# LOG MESSAGES
 
-*Process Orchestration > Logs > Tab OVERVIEW*
+
+*Process Orchestration > Logs > Tab LOG MESSAGES*
 
 ![Logs](../../Assets/Screenshots/ActindoWorkFlow/Logs/Logs.png "[Logs]")
 
@@ -43,10 +44,10 @@ The list displays all logs that are matching the selected log level. Depending o
 - *Log message*   
     Description of the issue.
 
-- *Process orchestration*   
+- *Workflow*   
     Workflow which the log message refers to.
 
-- *Process orchestration ID*       
+- *Workflow ID*       
     Workflow identification number. The ID number is automatically assigned by the system.
 
 - *Created*   

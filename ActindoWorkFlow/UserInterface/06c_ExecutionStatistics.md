@@ -1,4 +1,4 @@
-# Execution statistics
+# EXECUTION STATISTICS
 
 *Process Orchestration > Logs > Tab EXECUTION STATISTICS*
 
