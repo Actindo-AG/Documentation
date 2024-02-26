@@ -18,19 +18,6 @@ The *Warehousing* module offers the following benefits:
 - Stock withdrawal matrix for an automatic storage location selection based on customer-defined criteria 
 - Real-time update and analysis of sales and stock data
 
-## Prerequisites
-
-The following module version or higher are installed:
-- *Warehousing* 2.1.0  
-- *Order Management* 2.11.0  
-
-Additionally, the following plugins must be installed:
-- *Warehouse groups*
-- *Calculation of the range of storage and ordering by range of storage* 
-- *Warehouse planning*  
-
-[comment]: <> (Prerequisites schon weg, oder erst in 2. Version. Plugins-Info in Integration/Warehouse group file?)
-
 ## Further information
 
 Refer to our [Actindo Core1 Platform](../../Core1Platform/BasicPhilosophy/01_General.md) documentation for information on general features and functions, standard buttons, UI elements, and how to use the Actindo documentation.

@@ -144,7 +144,9 @@ The following functions and fields are displayed:
     > [Info] The **One product per storage shelf** option is no longer supported.  
     
 - *Exclude from ordering*  
-    Click the drop-down list and select **No** to deactivate the purchasing process.
+    Click the drop-down list and select **Yes** or **No** to exclude the stock in this warehouse from the purchasing process or not.
+
+[comment]: <> (Julian: Bitte prüfen)
 
 - *Comment*  
     Enter any additional you want information in this field.
@@ -249,6 +251,8 @@ The following functions and fields are displayed:
         Select this option for all sales channels connected via the *Omni-Channel* module. 
     - **Shop**   
         Select this option for orders imported via the *Multimarkets* module. This module is currently being replaced by *Omni-Channel*.  
+
+[comment]: <> (Julian: Bitte Shop/Multimarkets-Info prüfen)
 
 - *Account*  
     Click a field to display the drop-down list and select the specific connection in the *Omni-Channel* module. All available connections are displayed in the list.

@@ -16,7 +16,7 @@ Storage shelves can be created, edited, and deleted. Bear in mind, though, that 
 
 
 
-## Create a storage shelf  
+## Create a storage shelf
 
 You can create an unlimited number of storage shelves in your warehouses to specify exactly where your materials are stored.
 
@@ -61,13 +61,13 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 6. Click the [SAVE] button in the *Add* section to save the storage shelf.  
     The notice *Please wait... Saving...* is displayed. The new storage shelf is displayed in the list of storage locations. 
 
-[comment]: <> (Reicht hier in the Add section, oder besser right to the is primary storage checkbox?)
 
 
+## Edit a storage shelf
 
-## Edit a storage shelf  
+Once you have created a storage shelf, you can edit it. 
 
-Once you have created a storage shelf, you can edit it.
+Bear in mind that you cannot edit a storage shelf if postings have already been made.
 
 #### Prerequisites
 
@@ -88,8 +88,8 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
     ![Edit storage shelf](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/EditStorageShelf.png "[Edit storage shelf]")  
 
 2. If desired, modify the storage shelf ID.  
-
-[comment]: <> (Ist dies überhaupt möglich bzw. vernünftig, wenn Buchungen schon gemacht worden sind?)
+    Bear in mind that you cannot modify the storage shelf ID if postings have already been made.
+[comment]: <> (Julian: Stimmt das so?)
 
 3. Select or deselect the **is primary storage shelf** checkbox as necessary to change the storage shelf setting. 
     
@@ -100,7 +100,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 
 
 
-## Delete a storage shelf   
+## Delete a storage shelf
 
 After you have created a storage shelf, you can delete it.  
 

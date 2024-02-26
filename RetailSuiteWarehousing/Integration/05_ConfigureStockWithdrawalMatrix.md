@@ -55,6 +55,8 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
     - **Shop**   
         Select this option for orders imported via the *Multimarkets* module. This module is currently being replaced by *Omni-Channel*.  
 
+[comment]: <> (Julian: Bitte Shop/Multimarkets-Info prüfen)
+
 5. Double-click the field in the *Account* column and select a connection. All connections available in the *Omni-Channel* module are displayed in the list.
 
 6. If necessary, double-click the field in the *Sub-account* column and select the appropriate sub-account, that is, the specific sub-shop where the order has been placed.

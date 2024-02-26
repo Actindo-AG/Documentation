@@ -1,5 +1,17 @@
 # Posting types 
 
+The *Warehousing* module allows you to manage the stock manually through the *Quick posting* menu entry. For detailed information, see [Create a manual stock posting](../Operation/02_ManageStock.md#create-a-manual-stock-posting).
+
+However, stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. 
+
+The system performs the postings automatically when an order is received in the *Order Management* module. In the case of customer orders, the automatic posting process works as follows:
+
+Every order that is imported into the system is linked to a business document, the head document. The head document, regardless of what business document it is, creates a reservation posting in the *Warehousing* module. The ordered material is then reserved. This reservation has no effect on the actual physical stock, but it reduces the available material stock, that is, the number of units that are available to be sold.
+
+When the so-called delivery head, usually the delivery note, is created, this business document creates two postings in the stock history. The first one is a reserved for open delivery note posting (also known as waiting for picking) to withdraw the physical stock in the system, thus reducing the physical stock in the warehouse. The second one is a reservation posting with a negative sign to clear the initial reservation. The result of all materials processed in the order must always be 0.
+
+Once the material has left the warehouse, that is, the delivery note has been closed, the reserved for open delivery note posting is updated into a sale posting.
+
 Below, you can see the list of all posting types with a detailed description. 
 
 - **Manual posting**  

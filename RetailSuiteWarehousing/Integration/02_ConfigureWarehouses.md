@@ -51,9 +51,7 @@ No prerequisites to fulfill.
         Select this option if you want to exclude the stock amount stored in this warehouse from the calculation, that is, to be ignored by the system.
     - **No**   
         Select this option if you want to include the stock amount stored in this warehouse in the calculation.
-
-[comment]: <> (Unsure, double check, s. Heusels Video/reformulate)
-    
+   
 7. If desired, enter any comments in the *Comment* field.
 
 8. Click the [SAVE] button.  
@@ -93,7 +91,6 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 
     > [Info] It may be necessary to click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh) button in the upper right corner of the left side bar to display certain changes, for example, if the warehouse has been assigned to a different warehouse group.   
     
-[comment]: <> (Die Info sollte nach ganz oben vor die Prerequisites. Weil, dann brauche ich das unter Umständen gar nicht erst lesen... S. alle Caution boxes)
 
 
 ## Delete a warehouse
@@ -124,5 +121,3 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
     The warehouse is deleted and is no longer displayed in the list of warehouses.
     
     > [Info] If the warehouse has already stock allocations, the warehouse cannot be deleted. A window with the following error message is displayed: *Error deleting: There are warehouse allocations in this warehouse.* 
-
-[comment]: <> (Evtl. in Prerequisites, also Delete geht nicht, wenn es stock allocations und Buchungen schon gemacht wurden.)

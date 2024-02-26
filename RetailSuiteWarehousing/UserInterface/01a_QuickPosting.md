@@ -245,9 +245,9 @@ The following functions and fields are available:
 
 
 - [ADD POSTING]  
-    Click this button to add a single posting manually. The *Add posting* window is displayed, see [Add posting](#add-posting).
+    Click this button to add a single posting manually. The window to add postings is displayed, see [Add posting](#add-posting).
 
-[comment]: <> (Fenster hast keinen Name. Evtl. FETA)
+[comment]: <> (Fenster hat keinen Name. Evtl. FETA)
 
 - [DISPLAY STOCK ALLOCATION]  
     Click this button to display the stock allocation for the selected material. The *Display allocation* window is displayed, see [Display stock allocation](#display-stock-allocation).
@@ -350,7 +350,7 @@ The list displays all stock postings for the selected material. The list display
     For detailed information on the different posting types, see [Posting types](./04_PostingTypes.md). 
 
 - [EXCEL]  
-    Click this button to export the stock history as an Excel file. 
+    Click this button to export the stock history as an Excel file. This button is only displayed if the *Statistics* module is installed.
  
 
 

@@ -7,11 +7,7 @@
 
 The main purpose of the *Warehousing* module is to manage the stock, that is, to post stock in, release stock from the warehouse, and transfer stock between storage locations.
 
-[comment]: <> (Reformulieren, klingt nach Overview)
-
-Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on the different stock postings, see [Posting types](../UserInterface/04_PostingTypes.md). 
-
-[comment]: <> (and the automatic posting process... -> zu Posting types?)
+Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on the different stock postings and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md). 
 
 [comment]: <> (Evtl. Link zu Basic OM process hinzufügen, wenn online)
 
@@ -49,7 +45,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
     
 3. Click the [ADD POSTING] button in the bottom left corner of the *Warehouse management* sub-tab. You may need to scroll down to be able to see the button.  
-    The *Add posting* window is displayed.
+    The window to ad postings is displayed.
 
     ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]") 
 
@@ -132,9 +128,9 @@ The warehouse logistics has been activated for the selected materials, see [Acti
     - *Transfer*  
         Select this tab if you want to transfer stock for multiple materials from a storage location to another.  
 
-    The columns and buttons displayed in the multiple posting section, as well as the posting types available vary depending on the selected tab.
+    The columns and buttons displayed in the multiple posting section, as well as the posting types available vary depending on the selected tab. For a detailed description of all manual posting types available, see [Manual stock posting of a single material](#manual-stock-posting-of-a-single-material).
 
-2. Click the materials for which you want to post stock while pressing and holding the CTRL key.  
+2. Click the materials for which you want to post stock while pressing and holding the **Ctrl** (Control) key.  
     The selected materials are highlighted.
 
 3. Drag and drop the selected materials to the blank section at the bottom of the workspace.  
@@ -148,10 +144,11 @@ The warehouse logistics has been activated for the selected materials, see [Acti
     > [Info] Every time you edit a field, a small red triangle is displayed in the left upper corner to indicate that there are unsaved changes.
 
 5. Select the storage location where you want to post the material. Alternatively, create a new storage shelf following the procedure below:  
-    - Select the **New storage shelf** option in the drop-down list.   
-    - Double-click the field in the *Warehouse* column and select the warehouse where you want to create the storage shelf.  
-    - Double-click the field in the *Shelf input* column and enter a number for the new storage shelf.
-    - If desired, click the *Primary storage shelf* column and select **Yes** if you want to set the new storage shelf as primary. Otherwise, select **No**.
+
+    1. Select the **New storage shelf** option in the drop-down list.   
+    2. Double-click the field in the *Warehouse* column and select the warehouse where you want to create the storage shelf.  
+    3. Double-click the field in the *Shelf input* column and enter a number for the new storage shelf.
+    4. If desired, click the *Primary storage shelf* column and select **Yes** if you want to set the new storage shelf as primary. Otherwise, select **No**.
 
 6. Enter the amount of materials you want to post in the *#* column.  
 

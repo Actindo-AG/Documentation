@@ -12,7 +12,7 @@ Before you can manage the warehouse materials, you have to activate the warehous
 
 
 
-## Set a storage shelf as primary
+## Set a storage shelf as primary
 
 You can set any storage shelf as primary for a selected material to determine from which storage shelf the material must be taken by default.
 
@@ -86,8 +86,6 @@ You can check the stock allocation for a selected material from the product list
     3. Click the [DISPLAY STOCK ALLOCATION] button at the bottom.  
     
     > [Info] The [DISPLAY STOCK ALLOCATION] button is located at the bottom of the *Stocks* section. You may need to expand the section or scroll down to see the button. 
-
-[comment]: <> (Julian: Schritt 4 weglassen? Diese Schaltfläche ist auch im UI beschrieben.)
 
 
 
