@@ -63,6 +63,8 @@ You can create you own attributes in your Core1 system via the user interface. F
 
 ## Attribute sets
 
+![Cookies in console](../../Assets/Screenshots/PIM/API/AttributeSets.png "[Cookies in console]")
+
 Attributes are collected in so-called *Attribute sets*. An attribute set includes therefore a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. 
 
 All attribute sets have a key. This key is required for API access and therefore must be system wide unique. 
