@@ -4,7 +4,7 @@
 
 There are two ways to interact with the *Actindo Core1 Platform* - via user interface (user interactive requests) and via API (API requests). You can perform most of actions using both access methods. 
 
-Both methods require authentication. If accessing the Core1 via user interface using a browser, you need to log into the system with your credentials. When the system receives valid credentials, it authenticates the user. The user interactive session is started. If accessing the Core via API directly, you use a software, usually a third-party tool, to handle all communication with the system.
+Both methods require authentication. If accessing the Core1 via user interface using a browser, you need to log into the system with your credentials. When the system receives valid credentials, it authenticates the user. The user interactive session is then started. If accessing the Core via API, you use a software, usually a third-party tool, to handle all communication with the system.
 
 [comment]: <> (Unauthenticated endpoints worth mentioning for some specific reason?)
 
@@ -16,16 +16,10 @@ Both methods require authentication. If accessing the Core1 via user interface u
 
 ## Authentication
 
-|    <!-- -->           |    <!-- -->                     |
-|----------------------------|-------------------------------------|
-| **Security Scheme Type**   | OAuth2                                |
-| **AuthorizationCode OAuth Flow**  | **Authorization URL** /Actindo.CoreModules.Auth.OAuth2.authorize  |
-|                                   | **Token URL** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken | 
-
 | **Security Scheme Type** | **AuthorizationCode OAuth Flow** |
 |-------------------------|----------------------|
-| OAuth2 | **Authorization URL** /Actindo.CoreModules.Auth.OAuth2.authorize |
-|    | **Token URL** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken |
+| OAuth2 | **Authorization URL:** /Actindo.CoreModules.Auth.OAuth2.authorize |
+|    | **Token URL:** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken |
  
 Authorization vs Token
 
