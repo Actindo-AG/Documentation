@@ -25,7 +25,7 @@ The following functions and fields are available in the list.
    Time stamp when process action processing started.
 
 - *Waited for execution*   
-   Time in seconds to wait before processing the process action.
+   Time in seconds which the process action waited to be processed.
 
 - *Duration*    
    Processing time of the process action in seconds.

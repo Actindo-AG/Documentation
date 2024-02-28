@@ -52,7 +52,7 @@ The following functions and fields are available in the list:
 
 
 
-## Create queue type
+## Create a queue type
 
 *Process Orchestration > Queue types > Tab OVERVIEW > Button Add*
 
@@ -87,7 +87,7 @@ The following functions and fields are available in the list:
     Specify the period in minutes in which the maximum number of actions are to be executed.
 
 
-## Edit queue type
+## Edit a queue type
 
 *Process Orchestration > Queue types > Tab OVERVIEW > Select queue type*
 

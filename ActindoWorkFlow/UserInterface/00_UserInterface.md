@@ -43,8 +43,8 @@ In this part of the *Process Orchestration* documentation, you will find the fol
 - [Queue types](./05_QueueTypes.md)
 
 - [OVERVIEW (Queue types)](./05a_QueueTypes.md)
-    - [Create queue type](./05a_QueueTypes.md#create-queue-type)  
-    - [Edit queue type](./05a_QueueTypes.md#edit-queue-type)
+    - [Create a queue type](./05a_QueueTypes.md#create-a-queue-type)  
+    - [Edit a queue type](./05a_QueueTypes.md#edit-a-queue-type)
 
 - [Logs](./06_Logs.md)
 

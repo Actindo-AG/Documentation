@@ -7,6 +7,8 @@
 
 **Logs**
 
+The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
+
 - *Log level*     
     Click the drop-down list to select a log level. The following options are available:  
     - **All**   
@@ -28,7 +30,7 @@
     - **Emergency**   
         Select this option to display all logs with *Emergency* level.
 
-The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#Log-ID).
+The following fields and funtions are available in this view:
 
 - *Type*  
     Log level. The following levels can be displayed:
@@ -45,11 +47,14 @@ The list displays all logs that are matching the selected log level. Depending o
     Description of the issue.
 
 - *Workflow*   
-    Workflow which the log message refers to.
+    Workflow to which the log message refers.
 
 - *Workflow ID*       
     Workflow identification number. The ID number is automatically assigned by the system.
 
+- *Search string*   
+    [TO BE ENHANCED]
+   
 - *Created*   
     Date and time of creation.
 
@@ -79,12 +84,10 @@ The list displays all logs that are matching the selected log level. Depending o
 
 ![Log ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/LogID.png "[Log ID]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Log ID* view and return to the *Logs* tab. All changes are rejected.
 
 **Log message**  
 
-In the *Log message* section, detailed information about the log is displayed. All fields are read-only.
+In the *Log message* window, detailed information about the log is displayed. All fields are read-only.
 
 - *Log level*    
     Log level type. The following levels are available:
@@ -105,7 +108,7 @@ In the *Log message* section, detailed information about the log is displayed. A
 - *Created - by*    
     Date and time of creation, name and username of the user who initiated the process.
 
-- *Process orchestration*    
+- *Workflow*    
     Workflow ID number and name.
 
 - *Process*    
@@ -114,7 +117,7 @@ In the *Log message* section, detailed information about the log is displayed. A
 - *Transition*     
     Transition ID number and description.
 
-> [Info] This window can also be accessed from the [*OVERVIEW (Processes)*](./03a_Processes.md#log-id) tab in the user interface.
+> [Info] You can access this window also via the [Logs](./03a_Processes.md#log-id) tab in the user interface.
 
 
 

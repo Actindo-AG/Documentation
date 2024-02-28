@@ -27,12 +27,12 @@ The following functions and fields are available:
    If a process action was processed by more than one process, the average processing time in seconds per outcome.
 
 - *Max duration*     
-   If a process action was processed by more than one process, the longest processing time in seconds per outcome.
+   The longest processing time in seconds per outcome.
 
 - *Min duration*   
-   If a process action was processed by more than one process, the shortest processing time in seconds per outcome.
+   The shortest processing time in seconds per outcome.
 
-- *Process orchestration*   
+- *Workflow*   
    Name of the workflow that was run through.
 
 - *Transition*   

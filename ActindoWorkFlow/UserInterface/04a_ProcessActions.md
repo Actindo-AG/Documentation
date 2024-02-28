@@ -60,13 +60,13 @@ The following functions are available for the editing toolbar. Depending on the 
 
 The following functions and fields are available in the list.
 
- *Status*  
-    Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:
-    - **In progress** (blue)
-    - **Done** (green)
-    - **Error** (red)  
-    - **Suspended** (dark gray)
-    - **Process aborted** (black)
+- *Status*  
+    Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:   
+    - **In progress** (blue)   
+    - **Done** (green)   
+    - **Error** (red)     
+    - **Suspended** (dark gray)  
+    - **Process aborted** (black)   
 
 - *Transition*  
     Transition key.
