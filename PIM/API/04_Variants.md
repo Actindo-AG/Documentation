@@ -1,18 +1,22 @@
 # Variants
 
-You can create, edit, delete, and list PIM variants via API. 
+You can create, edit, and list *PIM* variants via API. You can also create, edit, delete, and list variant sets. 
 
----
+[comment]: <> (Delete geht es übers UI aber finde in API-Doku delete unter Variant nicht. S. Delete product! Variant sets auch sinnvoll für Kunden?)
+
 The attribute key is customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
-> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is not recommended in principle, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
+> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
 
 
-## Create a variant  
+## Create a variant
 
-You can create a product via API if you want to... 
+You can create a variant via API ...
 
-[comment]: <> (Use case?)
+- Single 
+- Multiple
+
+[comment]: <> (Use case)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
@@ -41,35 +45,36 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
 
 ### Request samples  
 
-Create a PIM product with an SKU and assign an attribute set to it.
+Create a single *PIM* variant ...
 
 
     {
-        "product": {
-            "sku": "IP13-Test",
-            "attributeSetId": 592
+      "masterId": 0,
+      "variantSetId": 0,
+      "variants": [
+        {
+          "definingAttributeValues": {},
+          "differingAttributeValues": {},
+          "additionalFields": "string"
         }
+      ]
     }
 
-Create a PIM product with an SKU, price, and dimensions (length, width, height), assign an attribute set to it, and add an image.  
+Create multiple PIM variants ...  
+
 
     {
-        "product": {
-            "sku": "IP13-Test",
-            "attributeSetId": 592,
-            "_pim_price": "100",
-              "_pim_size_l": {
-                  "value": 15,
-                  "unitId": 432
-              "_pim_size_b": {
-                  "value": 8,
-                  "unitId": 432,
-              "_pim_size_h": {
-                  "value": 2,
-                  "unitId": 432,
-              "pim_images": "1234.jpg"
+      "masterId": 0,
+      "variantSetId": 0,
+      "variants": [
+        {
+          "definingAttributeValues": {},
+          "differingAttributeValues": {},
+          "additionalFields": "string"
         }
+      ]
     }
+
 
 [comment]: <> (Andere Attribute hinzufügen, die sinnvoll sein können. Oder unterschiedliche Samples angeben, z.B. mit _pim_size_l/b/h...)
 
@@ -77,11 +82,13 @@ Create a PIM product with an SKU, price, and dimensions (length, width, height),
 
 ## Edit a variant
 
-You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
+You can edit a variant via API to modify any number of field values at a time. You can also add attributes to an existing product.
 
 [comment]: <> (Stimmt das so? Use case?)
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.save
+
+[comment]: <> (Passt das so? Edit/save variant unter VariantSetController)
 
 **Method**: POST
 
@@ -132,13 +139,23 @@ Edit a product to update the SKU and add the product name both in English and Ge
 
 
 
-## Delete a variant
+## List children
 
-You can delete a product if it is no longer needed. 
+[comment]: <> (Sinnvoll/praktisch für den Kunden?)
+
+## Create a variant set
+
+
+## Edit a variant set
+
+
+## Delete a variant set
+
+You can delete a variant if it is no longer needed. 
 
 > [Caution] If it is a master product, that is, with product variants, all variants will also be deleted. If it is a product variant, only the variant will be deleted.
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.delete
 
 **Method**: POST
 
@@ -148,19 +165,23 @@ The required fields are marked in bold.
 
 | Attribute   | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product ID |
-| (attribute) | (type) | ... |
+| **ids**      | integer    |  Product ID |
 
+[comment]: <> (Sollte es nicht id oder variant id sein?)
 
 ### Request sample
 
+  {
+    "ids": [
+      0
+    ]
+  }
 
+## List variant sets
 
-## List variants
+Get a list of all variants including the ones in the archive or recycle bin. You can set one or more filters to 
 
-Get a list of all products including the ones in the archive or recycle bin. You can set one or more filters to 
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
 
 **Method**: POST
 
@@ -215,8 +236,5 @@ Get a list setting a filter.
     }
 
 
-Other use cases
 
-## List children?
 
-## 

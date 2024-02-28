@@ -4,8 +4,11 @@ You can create, edit, delete, and list PIM products via API.
 
 The attribute key is customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
-> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is not recommended in principle, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
+> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
 
+How to find out entity ID?
+  - via UI
+  - via API
 
 ## Create a product  
 
@@ -13,11 +16,18 @@ You can create a product via API if you want to...
 
 [comment]: <> (Use case?)
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.create
+**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
-**Method**: POST
+**Method:** POST
 
 [comment]: <> (Evtl. method weglassen, alle POST in Actindo)
+
+**Authorization:** oauth2Auth
+
+**Request body schema:** application/json
+
+[comment]: <> (sinnvoll diese Info hier oder eher in Introduction, da immer gleich?)
+
 
 ### Parameters
 

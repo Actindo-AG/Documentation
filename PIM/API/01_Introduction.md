@@ -1,7 +1,5 @@
 # Introduction
 
-## General information
-
 There are two ways to interact with the *Actindo Core1 Platform* - via user interface (user interactive requests) and via API (API requests). You can perform most of actions using both access methods. 
 
 Both methods require authentication. If accessing the Core1 via user interface using a browser, you need to log into the system with your credentials. When the system receives valid credentials, it authenticates the user. The user interactive session is then started. If accessing the Core via API, you use a software, usually a third-party tool, to handle all communication with the system.
@@ -14,12 +12,15 @@ Both methods require authentication. If accessing the Core1 via user interface u
 
 [comment]: <> (Stimmt das so? Relevant zu erwähnen?)
 
+
 ## Authentication
 
 | **Security Scheme Type** | **AuthorizationCode OAuth Flow** |
 |-------------------------|----------------------|
 | OAuth2 | **Authorization URL:** /Actindo.CoreModules.Auth.OAuth2.authorize |
 |    | **Token URL:** /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken |
+
+
  
 Authorization vs Token
 
@@ -30,6 +31,12 @@ This document covers using the OAuth2 protocol to allow other services to access
 If you want your Core1 Account to be an OAuth2 authentication service provider to sign into other Actindo APIs, ... 
 
 [comment]: <> (S. Wissenstransfer)
+
+
+## Register your app
+
+
+## Generate an access token
 
 
 ## Tenant security policies
@@ -46,3 +53,13 @@ The *POST* method is always used for all Actindo API endpoints. All other method
 ## Response codes
 
 The response codes correspond the standard HTTP status codes. For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
+
+
+
+## Required attributes  
+
+Attributes can be required or optional. Required attributes must always be provided when sending a request.
+
+## Format  
+
+The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format. 

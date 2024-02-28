@@ -11,14 +11,6 @@ For an overview of the Actindo data model, see [Data model](../../DataHub/Overvi
 
 ## Attributes
 
-- Attribute
-    - Managed in DataHub
-    - Attribute structure
-    - Data types
-    - ID
-        - via UI
-        - via API
-
 An attribute defines a characteristic to describe a product. All attributes are created and maintained in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, product-specific attributes can be created and maintained in the *PIM* module. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attributes may be created via driver.
 
 All attributes have a key. This key is required for API access and therefore must be system wide unique. 
@@ -27,99 +19,116 @@ You can define your own attribute keys, but we strongly recommend that you follo
 
 **plugin_attribute short name__scope__language**
 
-| Key part  | Meaning  |
-| --------- | -------- |
-| Plugin    | Plugin or module where the attribute originates from. |
-| Scope     | For multi-scope attributes, key of scope in which the attribute is used. | 
-| Language | For multi-language attributes, code of the language in which te attribute is maintained. |
+**Plugin:** Plugin or module where the attribute originates from. If an attribute originates in the *PIM* module, its key should start with *pim_*.
 
-The following examples are based on predefined *PIM* attributes. If you have created your own attributes in your system, the names and keys may differ.
+**Attribute short name:** Any descriptive name you want to give to an attribute, such as *attributeSetId* or *art_name*. No spaces are allowed here, therefore you have to write the attribute name in one word or join the different parts with a **single** underscore.
 
-| Attribute      | Attribute key |
-|----------------|---------------|
-| Product name   | pim_art_name |
-| Product name | pim_art_name__actindo_basic__en_US |
-| Product name | pim_art_name__actindo_basic__de_DE |
-| EAN code       | pim_ean      |
-| Product description | pim_products_description |
-| Price          | pim_price  |   
+**Scope:** For multi-scope attributes, key of the scope in which the attribute is used. You can use the attribute description in different scopes, for instance, in your web shop and in a reseller platform, such as Amazon. This way, your product description can be different in your shop and in the reseller platform. In this case, the attribute is multi-scope and must be accordingly defined in its key. The attribute key would therefore be *pim_description__shop* and *pim_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). 
 
-An example data structure an attribute is displayed in the following graphic:
+**Language:** For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain the attribute description in different languages, for instance, in English (United States) and in German (Germany). In this case, the attribute is multi-language and must be accordingly defined in its key. The attribute key would therefore be *pim_description__en-US* and *pim_description__de-DE*.For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md).
 
-![Attribute](../../Assets/Screenshots/PIM/API/Attributes.png "[Attribute]")
+> [Info] Notice that scope and language are separated with a **double** underscore in the attribute key.
 
 Depending on the nature of your products, you will need to create different attributes. For example, if you are selling clothes, you will need to define the material, type of fit or the collar size (example attribute keys: pim_material, pim_fit, pim_collar_size). However, if you sell smartphones, you need to specify the storage, the screen size, or the case color (example attribute keys: pim_storage, pim_screen_size, pim_case_color). 
 
-Some attributes apply to all products, as every product needs to have a name, an EAN or SKU code, or a product description. These common attributes are included in the so-called *PIM basic set* in the *PIM* module. Product-specific attributes, however, are include in a other additional sets. For detailed information on attribute sets, see [Attribute sets](#attribute-sets).
+Some attributes apply to all products, as every product needs to have a name, a price, an applicable tax class, and a description. These common attributes are included by default in the so-called *PIM basic set* in the *PIM* module. Product-specific attributes, however, need to be included additionally in other sets. For detailed information on attribute sets, see [Attribute sets](#attribute-sets).
 
-You can create you own attributes in your Core1 system via the user interface. For detailed information on how to create an attribute, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute).
+Every attribute has a defined data type, which determines the type of value the attribute may contain, for example a series of characters (data type: string) or a number (data type: integer). For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
+You can create you own attributes in your Core1 system via the user interface, as well as edit or deactivate existing attributes. For detailed information, see [Manage the attributes](../../DataHub/Integration/01_ManageAttributes.md).
+
+
+The following examples are based on predefined *PIM* attributes. If you have created your own attributes in your system, the names and keys may differ.
+
+| Attribute                                         | Attribute key                                    | Data type |
+|---------------------------------------------------|--------------------------------------------------|-----------|
+| Name                                      | pim_art_name                                     | string    |
+| Price                                             | pim_price                                        | integer   |
+| Tax class                                         | pim_price                                        | tree node |
+| Product description                               | pim_products_description                          | text field    |
+| Product description (multi-scope, multi-language) | pim_products_description__actindo_basic__en_US    | text field    |
+| Product description (multi-scope, multi-language) | pim_products_description__actindo_basic__de_DE    | text field    |
+
+
+[comment]: <> (Confusing here: tax class can be data type "tax class" and "tree node", i.e. Standard, ermäßigt. Was ist data type tax class? Wieso ist es nicht zu finden in API products?)
+
+The following graphic visualizes a series of attributes, within an attribute set, maintained in different scopes and languages, and how these attributes define a specific product: 
+
+![Attribute](../../Assets/Screenshots/PIM/API/Attribute.png "[Attribute]")
 
 
 ## Attribute sets
 
-- Attribute set
-    - Managed in DataHub
-    - Assign/add attribute to a set
-    - Mapping
-    - ID
-        - via UI
-        - via API
+An attribute set includes a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. All attribute sets are created and maintained in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, product-specific attribute sets can be created and maintained in the *PIM* module. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attribute sets may be created via driver.
 
-![Attribute sets](../../Assets/Screenshots/PIM/API/AttributeSets_ActindoColors.png "[Attribute sets]")
-
-Attributes are collected in so-called *Attribute sets*. An attribute set includes therefore a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. 
+[comment]: <> (stimmt das so?)
 
 All attribute sets have a key. This key is required for API access and therefore must be system wide unique. 
 
-You can define your own attribute key sets, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
+You can define your own attribute set keys, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
 
 **plugin_attribute set short name**
 
-| Key part  | Meaning  |
-| --------- | -------- |
-| Plugin    | Plugin or module where the attribute originates from. |
+
+**Plugin:** Plugin or module where the attribute originates from. If an attribute set originates in the *PIM* module, its key should start with *pim_*.
+
+**Attribute set short name:** Any descriptive name you want to give to an attribute set, such as *electronics*, *trousers*, or *notebooks*. No spaces are allowed here, therefore you have to write the attribute name in one word or join the different parts with an underscore.
 
 The following examples are based on predefined *PIM* attributes. If you have created your own attributes in your system, the names and keys may differ.
 
 | Attribute set      | Attribute set key |
 |--------------------|-------------------|
-| PIM basic set      | pim_basic_set    |
-| PIM electronics    | pim_electronics  |
-
-You can create you own attribute sets in your Core1 system via the user interface. For detailed information on how to create an attribute set, see [Create an attribute set](../../DataHub/Integration/01_ManageAttributeSets.md#create-an-attribute-set).
-
-
-Define concepts 
-- entity
-- inheritance
+| PIM basic set      | pim_base_set      |
+| PIM electronics    | pim_electronics   |
+| PIM shirts         | pim_shirts        |
 
 
+Apart from the *PIM basic set*, you can create other sets to define a specific type of product, such as clothes or notebooks. These product-specific attribute sets will usually be based on the *PIM basic set*, that is, will inherit the attributes included in it, and contain additional attributes needed to define the product type, such as a piece of clothing or a computer.  
 
-## Variant  
-    - Managed in PIM
-
-## Variant set
+You can create you own attribute sets in your Core1 system via the user interface, as well as edit or deactivate existing attribute sets. For detailed information, see [Manage the attribute sets](../../DataHub/Integration/02_ManageAttributeSets.md).
 
 
+The following graphic visualizes the attribute set structure and inheritance principle, and how the set attributes define a specific product:
+
+![Attribute set](../../Assets/Screenshots/PIM/API/AttributeSet.png "[Attribute set]")
 
 
-## Inheritance
+## Variants 
 
-## Data types  
+A *PIM* product may have variants. A variant is therefore a product with a special characteristic that differentiates it from other products of the same type. A T-shirt, for instance, is usually sold in different colors. The blue T-shirt and the red T-shirt are variants of the so-called master product T-shirt, which is just an the abstract definition of the product type T-shirt. 
 
-For detailed information on the different data types available in the *DataHub* module, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+Variants are created and managed in the *PIM* module. To be able to create variants, you have to create a variant set first to determine the attributes that will define the variant. For detailed information, see [Variant set](#variant-set).
+
+You can create any numbers of variants for a product in your Core1 system via the user interface, as well as edit existing variants. For detailed information, see [Manage the variants](../Operation/02_ManageVariants.md).
+
+[comment]: <> (Welche Auswirkung hat das Attribut pim_variant? Muss dabei was beachten? Es ist in PIM basic set, also vermutlich standardmäßig dabei.)
 
 
-Further information:
+The following graphic visualizes a series of attributes, within an attribute set and a variant set, maintained in different scopes and languages, and how these attributes define specific variants: 
 
-[Assign an attribute to an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
+![Variant](../../Assets/Screenshots/PIM/API/Variant.png "[Variant]")
 
-## Required attributes  
 
-Attributes can be required or optional. Required attributes must always be provided when sending a request
+## Variant sets
 
-## Format  
+A variant set includes the attributes needed to define a variant. A variant set must be therefore assigned to an attribute set, that is, to type of product to which you want to create variants. For example, if you want to create color variants for the product T-shirt, you have to create the variant set *Color* containing the defining attribute *pim_color* and assign it to the attribute set *pim_shirts*. 
 
-The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format. 
+Like the variants, variant sets are created and managed in the *PIM* module. You can create variant sets for a product type in your Core1 system via the user interface, as well as edit existing variant sets. For detailed information, see [Manage the variant sets](../Integration/07_ManageVariantSets.md).
+
+The following graphic visualizes the attribute and variant set structure, the inheritance principle, and how the set and variant set attributes define a specific product:
+
+![Variant set](../../Assets/Screenshots/PIM/API/VariantSet.png "[Variant set]")
+
+
+[comment]: <> (Nicht überzeugt von Variant/Variant set Graphiken. Feedback benötigt) 
+
+
+## Mapping
+
+To be able to exchange data among the different entity types in your system, you need to map the different entities. This way, you can convert the data contained in an entity to make it available to the other entity.
+
+For instance, you can use a *PIM* product to create an *Omni-Channel* offer that will then be exported into all your sales channel at once. The data structure in the different sales channel will most surely differ. This data structure conversion can be managed through the so-called ETL. For detailed information, see [DataHub ETL process](../../DataHub/Overview/04_Basics.md#etl-process) and [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+
+
+
 
