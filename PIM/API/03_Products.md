@@ -193,7 +193,7 @@ The required attributes are marked in bold. For a list of *PIM* attributes, see 
 
     {
         "product": {
-            "id": "456",
+            "id": 456,
             "sku": "ABC_1234",
             "_pim_size_h": {
                 "value": 10,
@@ -207,7 +207,7 @@ The required attributes are marked in bold. For a list of *PIM* attributes, see 
 
     {
         "product": {
-            "id": "456",
+            "id": 456,
             "_pim_art_name__actindo_basic__en_US": "Product name",
             "_pim_art_name__actindo_basic__de_DE": "Produktname"
             }
@@ -249,7 +249,7 @@ The required fields are marked in bold.
 
     {
       "product": {
-        "id": "456"
+        "id": 456
       }
     }
 
@@ -271,13 +271,22 @@ Get a list of all products including the ones in the archive or recycle bin. You
 
 The required fields are marked in bold.
 
-[comment]: <> (Keine required? Wenn man filter, hints, sort objects setzen will, dann mit required Felder) 
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| scopeId | integer | Filter for multi-scope attributes |
+| languageId | integer | Filter for multi-language attributes |
+| query | string | Quick search for a query string |
+| fields | array of strings | Quick Search for query fields; null to search for all fields |
+| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
+| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
+| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
+| start | integer | Pagination: Pagination start (from 0) |
+| limit | integer | Pagination: Pagination limit |
+| serializeOptionals | array of strings | Frage: Bedeutung? Example? |
 
-| Field      | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| filter      | Array of objects    |  ... |
-| hint   | integer  | ...  |
+[comment]: <> (Check non-authoritative sources -> Query hints: You may set query hints to modify the execution of the query, for example get data from non-authoritative sources.)
 
+[comment]: <> (Operators nötig? --> type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
 
 ### Request sample  
 
@@ -318,5 +327,4 @@ The required fields are marked in bold.
 
 
 
-[comment]: <> (0, -> ohne Anführungszeichen? Was bedeutet es? Not set?)
 
