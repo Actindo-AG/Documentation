@@ -14,6 +14,8 @@ How to find out entity ID?
 
 ## Create a product
 
+Create a product in the *PIM* module.
+
 **Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
 **Method:** POST
@@ -24,78 +26,84 @@ How to find out entity ID?
 
 [comment]: <> (sinnvoll diese Info hier oder eher in Introduction, da immer gleich? Method ist auch immer POST for Actindo. Es ist schon in Introduction erklärt. Hier weglassen?)
 
-### Parameters
+### Definitions
 
-The following table displays a list of all attributes contained in the *PIM basic set* with their default data types and configuration. The required attributes are marked in bold. 
+[comment]: <> (Oder Parameters? Was ist das richtige Fachwort hier?)
+
+The following table displays a list of all attributes contained in the *PIM basic set* (_pim_attribute name) with their default data types and configuration. The required attributes are marked in bold. 
+
+[comment]: <> (Evtl. übergeordneter Header mit der Tabelle und nur required attributes pro Call unter dem jeweiligen Header. sku bis compareOldValue -> sind diese Attribute "system-intern"? Nicht in DataHub angezeigt)
 
 | Attribute      | Data type | Description |  
 | ----------- | ----------- | ---------- | 
 | **sku**      | string   |  Product SKU |
 | **attributeSetId**   | integer  | Attribute set identification number |
-| created	 | string | Date and time of creation. Format: YYYY-MM-DD HH:mm:ss |
+| created	 | string | Date and time of creation <br> Format: YYYY-MM-DD HH:mm:ss |
 | createdBy | integer | Frage: Warum an integer? User ID? |
-| modified	| string | Date and time of last modification. Format: YYYY-MM-DD HH:mm:ss |
+| modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:mm:ss |
 | modifiedBy |integer| Frage: Warum an integer? User ID?  |
 | attributeSet | object | Attribute set. It contains required field **id**. Frage: Same as field attributeSetId? |
-| variantStatus | string | Frage: Example? Master or variant? |
+| variantStatus | string | Frage: Example? Master or variant? Vgl. pim_variants |
 | lifecycleStatus | string | Frage: Example? |
-| synchronousSync | boolean | Was ist das? Options are **true** or **false**. |
-| compareOldValue | boolean | Was ist das? Options are **true** or **false**. |
-| pim_variants | string, number, integer, boolean, object | Product variants - Frage: Unterschied zu VariantStatus oben? Warum so viele Datentypen möglich? |
+| synchronousSync | boolean | Frage: Was machst das? Options are **true** or **false**. |
+| compareOldValue | boolean | Frage: Was machst das? Options are **true** or **false**. |
+| pim_variants | string, number, integer, boolean, object | It indicates if the product is a master or a variant. - Frage: Stimmt das? Unterschied zu VariantStatus oben? Warum so viele Datentypen möglich? Internal use only? S. Data types list |
 | pim_art_name | string | Product name |
 | pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_catalog | array of objects | Product categories |
-| pim_long_text | string | Product description |
+| pim_catalog | array of objects | Product category. It contains the required field **id**. |
+| pim_long_text | string | Product description - Frage: Unterschied zu product description? |
 | pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
 | pim_ean | string | EAN code |
 | pim_customs_number | string | Customs tariff number |
-| pim_origin | object | Country of origin |
-| pim_valid_until | string | Expiration date. Format: YYYY-MM-DD HH:mm:ss |
+| pim_origin | object | Country of origin. It contains the required field **code3digit**. Frage: ISO 3166-A3 damit gemeint? |
+| pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:mm:ss |
 | pim_is_sale | boolean | The product is a sale item. Options are **true** or **false**. |
 | pim_fsk18 | boolean | Suitable for persons above 18. Options are **true** or **false**. |
 | pim_product_digital | boolean | The product is a digital item. Options are **true** or **false**. |
 | pim_stock_value | number | Stock level in warehouse |
 | pim_salesunit | string, number, integer, boolean, object | Sale unit - Frage: Unterschied zu is_sale? |
-| pim_size_l | object | Product length. If you want to specify this attribute, you need to specify the required fields **value** and **unitId**. |
-| pim_size_b | object | Product width. If you want to specify this attribute, you need to specify the required fields **value** and **unitId**. |
-| pim_size_h | object | Product depth. If you want to specify this attribute, you need to specify the required fields **value** and **unitId**. |
-| pim_weight | object | Product weight. If you want to specify this attribute, you need to specify the required fields **value** and **unitId**. |
-| pim_price |string, number, integer, boolean, object | Product price |
-| pim_baseprice |string, number, integer, boolean, object | Product basic price - Frage: price vs. basic price |
+| pim_size_l | object | Product length. It contains required fields **value** and **unitId**. |
+| pim_size_b | object | Product width. It contains required fields **value** and **unitId**. |
+| pim_size_h | object | Product depth. It contains required fields **value** and **unitId**. |
+| pim_weight | object | Product weight. It contains required fields **value** and **unitId**. |
+| pim_price | string, number, integer, boolean, object | Product price |
+| pim_baseprice | string, number, integer, boolean, object | Price per unit |
 | pim_products_url | string | Supplier link |
-| pim_products_keywords__actindo_basic__en_US | string | Additional terms for search in a specific scope and language |
-| pim_products_keywords__actindo_basic__de_DE | string | Additional terms for search in a specific scope and language |
-| pim_products_tags__actindo_basic__en_US | string | Tags/keywords in a specific scope and language |
-| pim_products_tags__actindo_basic__de_DE | string | Tags / Keywords in a specific scope and language |
-| pim_products_meta_title__actindo_basic__en_US | string | Meta title in a specific scope and language |
-| pim_products_meta_title__actindo_basic__de_DE | string | Meta title in a specific scope and language|
-| pim_products_meta_keywords__actindo_basic__en_US | string | Meta keywords in a specific scope and language |
-| pim_products_meta_keywords__actindo_basic__de_DE | string | Meta keywords in a specific scope and language |
-| pim_products_description__actindo_basic__en_US | string | Product description in a specific scope and language|
-| pim_products_description__actindo_basic__de_DE | string | Product description in a specific scope and language |
-| pim_products_meta_description__actindo_basic__en_US | string |Meta description in a specific scope and language |
-| pim_products_meta_description__actindo_basic__de_DE | string | Meta description in a specific scope and language |
-| pim_products_short_description__actindo_basic__en_US | string | Product short description in a specific scope and language |
-| pim_products_short_description__actindo_basic__de_DE | string | Product short description in a specific scope and language|
-| pim_products_bundle | object | --- |
-| pim_products_relations | string, number, integer, boolean, object | Product relations |
-| pim_completeness | string, number, integer, boolean, object | Completeness |
-| pim_images | object | --- |
-| pim_files | object | --- |
-| pim_channels_connection | string, number, integer, boolean, object | PIM to Omni-Channel connection |
-| pim_stock_germany | number | Stock Germany |
-| pim_stock_foreign | number | Stock Foreign Countries |
+| pim_products_keywords | string | Additional terms for search |
+| pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_tags | string | Tags - Frage: Unterschied zwischen Tags und Keywords? |
+| pim_products_tags__scope__language | string | Tags in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_meta_title | string | Meta title |
+| pim_products_meta_title__scope__language | string | Meta title in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_meta_keywords | string | Meta keywords |
+| pim_products_meta_keywords__scope__language | string | Meta keywords in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_description | string | Product description |
+| pim_products_description__scope__language | string | Product description in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_meta_description | string | Meta description |
+| pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_short_description | string | Product short description |
+| pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
+| pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains required fields **entity** and **quantity**. |
+| pim_products_relations | string, number, integer, boolean, object | Adds related products, e.g. for product recommendation |
+| pim_completeness | string, number, integer, boolean, object | Completeness (Frage: Internal use only?) |
+| pim_images | object | It allows to upload images. It contains the required field **id**. |
+| pim_files | object | It allows to upload files. It contains the required field **id**. |
+| pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
+| pim_stock_germany | number | Stock level in warehouse (Germany) |
+| pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
 
 [comment]: <> (Tabelle oben hat nur die Attribute aus PIM basic set. Sinnvoll, mehr dazu zu erklären? Die ersten created, modified, etc. nicht sinnvoll zum Erstellen aber schon zum filter, oder?)
 
 [comment]: <> (Was bedeutet string, number, integer, boolean, object? Alle möglich?)
 
+[comment]: <> (Unterschied zwischen number und integer data type?)
+
 You have to include all required attributes in the JSON file and provide them with a value. The *attributeSetId* value must be an already existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Link](#to-be-determined). 
 
 Depending on the data you want to specify, you have to add the corresponding attribute in your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute set*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
 
-[comment]: <> (Stimmt das? In API Request sample gibt es mehr? 54 vs. 64 -> PIM Basic set + zusätzliche Attributen in den anderen sets?)
+[comment]: <> (Stimmt das so?)
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
@@ -115,7 +123,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
 
 [comment]: <> (Braucht man auch responses samples oder standard/selbstverständlich? Standard HTTP codes erwähnt in Intro. Mehr dazu? S. API Dokus als Referenz.)
 
-#### Create a product, specify price and dimensions (length, width, height), and add an image  
+#### Create a product with price, dimensions and image
 
     {
         "product": {
@@ -136,7 +144,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a product maintained in two languages  
+#### Create a product in two languages  
 
     {
         "product": {
@@ -149,12 +157,12 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         }
     }
 
-[comment]: <> (Sinnvolle use cases?)
 
 #### Create a product with a single variant
 
 #### Create a product with multiple variants
 
+[comment]: <> (Ist das überhaupt möglich oder eher via Create variants? Sinnvolle use cases?)
 
 
 ## Edit a product
@@ -167,26 +175,26 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 **Method**: POST
 
+**Authorization:** oauth2Auth
 
-### Parameters
+**Request body schema:** application/json
 
-The required fields are marked in bold.
+### Definitions
+
+The required attributes are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product ID  |
-| (attribute)   | ...  | ...  |
-
-
+| **id**      | integer    |  Product identification number  |
 
 ### Request samples
 
-Edit a product to update the SKU and add dimensions (here height/depth).
+#### Update SKU and add dimension
 
     {
         "product": {
-            "id": "662",
-            "sku": "IP13-Test2",
+            "id": "456",
+            "sku": "ABC_1234",
             "_pim_size_h": {
                 "value": 10,
                 "unitId": 432
@@ -195,23 +203,24 @@ Edit a product to update the SKU and add dimensions (here height/depth).
     }
 
 
-Edit a product to update the SKU and add the product name both in English and German.
+#### Add the product name in different languages
 
     {
         "product": {
-            "id": "662",
-            "sku": "IP13-Test3",
-            "_pim_size_h": {
-                "value": 10,
-                "unitId": 432,
-            "_pim_art_name__actindo_basic__en_US": "Smartphone",
-            "_pim_art_name__actindo_basic__de_DE": "Cooles Handy"
+            "id": "456",
+            "_pim_art_name__actindo_basic__en_US": "Product name",
+            "_pim_art_name__actindo_basic__de_DE": "Produktname"
             }
         }
     }
 
-[comment]: <> (Komischerweise hat das nicht funktioniert. Wieso?)
 
+#### Add a single variant to a product
+
+
+#### Add multiple variants to a product
+
+[comment]: <> (Sinnvolle use cases?)
 
 
 ## Delete a product
@@ -224,29 +233,41 @@ You can delete a product if it is no longer needed.
 
 **Method**: POST
 
-### Parameters
+**Authorization:** oauth2Auth
+
+**Request body schema:** application/json
+
+### Definitions
 
 The required fields are marked in bold.
 
 | Attribute   | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product ID |
-| (attribute) | (type) | ... |
-
+| **id**      | integer    |  Product identification number |
 
 ### Request sample
 
+    {
+      "product": {
+        "id": "456"
+      }
+    }
 
 
 ## List products
 
-Get a list of all products including the ones in the archive or recycle bin. You can set one or more filters to 
+Get a list of all products including the ones in the archive or recycle bin. You can set one or more filters.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
 **Method**: POST
 
-### Definitions / Parameters
+**Authorization:** oauth2Auth
+
+**Request body schema:** application/json
+
+
+### Definitions
 
 The required fields are marked in bold.
 
@@ -258,10 +279,9 @@ The required fields are marked in bold.
 | hint   | integer  | ...  |
 
 
-
 ### Request sample  
 
-Get a list setting a filter.
+#### Get a list of products setting a filter
 
     {
       "scopeId": 0,
@@ -297,6 +317,6 @@ Get a list setting a filter.
     }
 
 
-Other use cases
 
-Add Images
+[comment]: <> (0, -> ohne Anführungszeichen? Was bedeutet es? Not set?)
+
