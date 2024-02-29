@@ -94,7 +94,7 @@ Map the data sources by specifying the attributes that are to be mapped on EDIFA
 
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
-3. Click the data source, for which you want to map the attributes.   
+3. Click the data source for which you want to map the attributes.   
     The *Map attributes* pop-up window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
 
     ![Data sources destination attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesDestinationAttributes.png "[Data sources destination attributes]")
@@ -121,7 +121,7 @@ Map the data sources by specifying the attributes that are to be mapped on EDIFA
 
 ## Remove data source assignment
 
- Remove an exporter definition data source if you no longer need it. Note that you will lose related all attribute mappings by removing a data source.
+ Remove an exporter definition data source if you no longer need it. Note that you will lose all related attribute mappings by removing a data source.
 
  #### Prerequisites
 

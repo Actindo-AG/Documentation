@@ -83,7 +83,7 @@ This procedure shows how to edit a constant text value, for example the transact
 
     ![S_BGM C_C002 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C002.png "[S_BGM  C_C002 segment]")
 
-3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *D_1001* field (Code specifying the document name.). This is a constant value for which your business partner may have specified predefined codes for the document type.
+3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *D_1001* field (Code specifying the document name). This is a constant value for which your business partner may have specified predefined codes for the document type.
 
 4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button to the right of the *D_1001* row.  
     The *Set text value* pop-up window is displayed.
@@ -221,7 +221,7 @@ This procedure shows how to edit message dates. The message dates require both t
 
 Specify message free text, with which you can inform your business partner on individual subjects.  
 
-This procedure shows both how to add individual textual information and additionally required segments.
+This procedure shows how to add individual textual information as well as additional segments that are required.
 
 
 #### Prerequisites
@@ -245,7 +245,7 @@ This procedure shows both how to add individual textual information and addition
 
     ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Set text value]")
  
-3. Enter the text code and click the [SAVE] button.   
+3. Enter the text value and click the [SAVE] button.   
   A new row with an S_FTX segment has been automatically added.
 
 4. Expand the *C_C108 (Free text; one to five lines)* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.

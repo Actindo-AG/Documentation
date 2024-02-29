@@ -1,9 +1,9 @@
 # Prepare workflow
 
-Extend your workflows by adding actions for exporting the EDIFACT messages. To do this, use a workflow that processes the business document you want to transfer to your EDIFACT message receiver, for example an invoice or a delivery note. 
+Extend your workflows by adding an action to export the EDIFACT messages. To do this, use a workflow that processes the business document you want to transfer to your EDIFACT message receiver, for example an invoice or a delivery note. 
 
 To integrate the export to the workflow, you need to insert an
-*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code).
+*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). You can insert this action at any position in the workflow in which you have access to the required business document data. Bear in mind that any errors that occur after export and before posting for subsequent processes can lead to data inconsistencies.
 
 The following example shows how to export a delivery note via an export definition.
 
@@ -41,7 +41,7 @@ The following example shows how to export a delivery note via an export definiti
  
     $deliveryNote = $in0;
     $exportController = new \Actindo\Modules\Actindo\DataHubExporter\ExportController();
-    $exportRequest = new    \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);   
+    $exportRequest = new  \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);   
     $exportRequest->entityId = $in0->getId();
     $exportRequest->connectionIds = []; 
     $exportRequest->definitionId = ; 
@@ -54,16 +54,23 @@ The following example shows how to export a delivery note via an export definiti
     |<?php|PHP's opening tag     |
     |$deliveryNote = $in0;| Type of the entity that is to be exported (e.g. business document type that have been loaded at the start point and is input in *in0* input port)|
     |$exportController = new \Actindo\Modules\Actindo\DataHubExporter\ExportController();| Get exporter|
-    | $exportRequest = new |Create new export request|
-    |$exportRequest->definitionId = []; | ID of the export definition, for example $exportRequest->definitionId = 112;|
+    | $exportRequest = new \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);|Create new export request|
+    |$exportRequest->definitionId = []; | ID of the export definition, for example, $exportRequest->definitionId = 112;|
     |$exportRequest->entityId = $in0->getId(); | Primary identifier of the entity that is to be exported (e.g. business document that have been loaded at the start point and is input in *in0* input port).|
     |$exportRequest->connectionIds = [];| List of connection IDs (comma-separated)|
     |$exportRequest->entityClass = \Actindo\Core\Database\ClassUtils::getRealClass(get_class($in0));| Type of the entity (class name) input in *in0* input port|
     |return [$in0];| end of input
-
      
     ![PHP code example](../../Assets/Screenshots/EDI/Operation/WorfflowPHPCodeExample.png "[PHP code example]")
 
-5. Click the [Apply changes] button.
+5. Click the [Apply changes] button.   
+    The pop-up window is closed.
+
+6. Connect the *Execute PHP code* core action with the subsequent actions.
+
+7. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+  The workflow context menu is displayed.
 
 
+8. Click the *Deploy* menu entry in the context menu.   
+  The workflow has been deployed and published. Your business partner can receive business document data now.

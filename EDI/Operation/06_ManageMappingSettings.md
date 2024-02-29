@@ -5,7 +5,7 @@
 The mapping settings define some basic data that is needed to be able to send EDIFACT message from *Actindo* to your business partner.
 
 ## Create mapping setting
- Create the mapping settings.
+ Create the mapping settings to define some basic data. Actindo will use it to convert the data and to automatically fill in some of the EDIFACT segments.
 
 #### Prerequisites
 At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
@@ -26,7 +26,7 @@ At least one definition setting has been created, see [Create basic definition s
 
 3. Click the *Return format* drop-down list and select **EDI**. 
 
-4. Enter the standard encoding (for example, UTF-8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the conversion. 
+4. Enter the standard encoding (for example, UTF-8) required by your business partner in the *Convert to charset (iconv)* field. The *DataHub exporter* need it to process the data conversion. 
 
 5. Enter your company's GLN (Global location number) in the *Sender* field. This information is used for the EDIFACT UNB S002 (Interchange sender) segment that the exporter fills automatically.
 

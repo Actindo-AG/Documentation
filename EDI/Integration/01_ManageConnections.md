@@ -25,9 +25,9 @@ Create a connection to a certain EDIFACT message receiver.
 
 2. Enter a name for the connection in the *Name* field. It might be useful to choose a name that contains a precise description of the purpose, so that you have more flexibility for further connection names, for example, "EDIFACT to [supplier]". 
 
-3. Click the *Driver* drop-down list and select the desired driver/protocol your business partner require.   
+3. Click the *Driver* drop-down list and select the driver/protocol your business partner require. For EDIFACT messages, in most cases, the SFTP or the AS2 drivers are required.   
     The following drivers are available in the standard:    
-        - SFTP 
+        - SFTP   
         - Internal  
         - POST call   
         - Output
@@ -42,10 +42,7 @@ Create a connection to a certain EDIFACT message receiver.
 4. Enter the required data in the *Credentials* section fields. Use the information you received from the business partner to fill the credentials.
 
 5. Click the [SAVE] button.   
-    The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Sync triggered successfully* window is displayed. 
-
-    ![Sychronization triggered](../../Assets/Screenshots/EDI/Integration/SynchTriggeredSucessfully.png "[Synchronization triggered]")
-
+    The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Sync triggered successfully* window is displayed.  
     The *Connections* view is displayed, the newly created connection is added. After successful synchronization, the entry is activated automatically. You may have to refresh the application to see the *Active* status.
 
  6. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   
@@ -72,7 +69,7 @@ At least one connection has been created, see [Create a connection](#create-a-co
 
     ![Edit connection](../../Assets/Screenshots/EDI/Integration/EditConnectionCredentials.png "[Edit connection]")
 
-2. Edit the desired data of the connection in the corresponding fields.
+2. Edit the required data of the connection in the corresponding fields.
 
 4. Click the [SAVE] button.   
     The *Checking credentials...* notice is displayed. The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
@@ -85,8 +82,8 @@ A connection can only be used if it is active. Otherwise, no data is being synch
 
 #### Prerequisites
 
-- At least one connection has been established, see [Create a connection](#create-a-connection).
-- At least one connection is inactive, see [Disable a connection](#disable-a-connection).
+- At least one connection has been established, see [Create connection](#create-connection).
+- At least one connection is inactive, see [Disable connection](#disable-connection).
 
 #### Procedure
 
@@ -137,7 +134,7 @@ Once a connection has been established, it can be synchronized, if necessary.
 #### Prerequisites
 
 - At least one connection has been established, see [Create connection](#create-connection).
-- At least one connection is active, see [Enable a connection](#enable-connection).
+- At least one connection is active, see [Enable connection](#enable-connection).
 
 #### Procedure
 
@@ -149,8 +146,6 @@ Once a connection has been established, it can be synchronized, if necessary.
     The editing toolbar is displayed above the list of connections.
 
 2. Click the [SYNCHRONIZE] button in the editing toolbar.   
-    After a few seconds, the *Sync triggered successfully* window is displayed. 
-
-    ![Sychronization triggered](../../Assets/Screenshots/EDI/Integration/SynchTriggeredSucessfully.png "[Synchronization triggered]")
+    A confirmation message is displayed.
 
 

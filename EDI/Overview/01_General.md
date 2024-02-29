@@ -15,9 +15,6 @@ The EDIFACT integration in the *Actindo Core1 Platform* offers the following ben
 - Configuration of outgoing EDIFACT & XML/EDIFACT messages, their contents, and data sources.  
 <!---Julian, die gehören nicht dazu? -> Configuration of incoming EDIFACT & XML/EDIFACT messages, their contents, and data sources.-->
 
+# Further information
 
-## Prerequisites
-   
-- The *DataHub Exporter* module version 4.1.0 or higher is installed.
-- The *XML/EDIFACT & UN/EDIFACT Exporter* plugin version 1.0.0 or higher is installed.
-
+Refer to our [Actindo Core1 Platform](../../Core1Platform/BasicPhilosophy/01_General.md) documentation for information on general features and functions, standard buttons, UI elements, and how to use the Actindo documentation.

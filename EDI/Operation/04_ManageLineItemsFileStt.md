@@ -23,7 +23,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the header export definition for which you want to prepare the data mapping for the line items.   
+1. Click the header export definition for which you want to prepare the data mapping for the line items. In our example, it is the **Business document position**.   
     The *Edit definition "Definition name"* view is displayed. The *Settings* tab is displayed by default.
 
 2. Click the *Data sources* tab.   
@@ -34,7 +34,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 3. Click the data source, for which you want to map the segment for the line items.   
     - The *Map attributes* wizard window is displayed.     
     - In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.    
-    - The EDI export SG26/SG27 is available.
+    - The *EDI export SG26/SG27* entry is available.
 
         ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
@@ -43,7 +43,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
    
-     -  Click the *Extension* drop-down list and select the **XML SubExport** extension.   
+     -  Click the *Extension* drop-down list and select the **XML SubExport extension**.   
      Both the "Source attribute" and the *Configuration* section is displayed in the left part of the *Settings* section.
 
      - Click the *Override change tracking mode* drop-down list and select the desired one.
@@ -107,7 +107,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
  
 6. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure of the SG26/SG27 group is displayed. The segment is highlighted in red because it is still empty.    
-    It starts with the SG26/SG27 element. Note that in the header definition file settings, after saving, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
+    It starts with the SG26/SG27 element. 
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
@@ -119,6 +119,9 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 8. Click the [SAVE] button.   
      - The *Exporter definitions* view is displayed.   
      - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
+     - In the header definition file settings, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
+
+9. If desired, create the data source and define the mapping setting. For detailed information, see [Prepare definition of file settings](./01_ManageDefinitions.md#prepare-definition-of-file-settings).
 
 
 
@@ -175,7 +178,7 @@ Start specifying the line item segments by filling out the single elements of th
 
 7. Click the [SAVE] button in the top right corner of the wizard and finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
 
-8. Click the [SAVE] button to save the header definition.   
+8. Click the [SAVE] button to save the line item definition.   
    The *Exporter definition sources* view is displayed.
 
 9. Continue with specifying the line items file settings. For detailed information on examples how to define constant text values, string attributes, dates, conditions, and free texts, see [Manage header file settings](./02_ManageHeaderFileSett.md#).
