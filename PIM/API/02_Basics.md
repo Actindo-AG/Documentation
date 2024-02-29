@@ -25,9 +25,7 @@ You can define your own attribute keys, but we strongly recommend that you follo
 
 **Scope:** For multi-scope attributes, key of the scope in which the attribute is used. You can use the attribute description in different scopes, for instance, in your web shop and in a reseller platform, such as Amazon. This way, your product description can be different in your shop and in the reseller platform. In this case, the attribute is multi-scope and must be accordingly defined in its key. The attribute key would therefore be *pim_description__shop* and *pim_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). 
 
-**Language:** For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain the attribute description in different languages, for instance, in English (United States) and in German (Germany). In this case, the attribute is multi-language and must be accordingly defined in its key. The attribute key would therefore be *pim_description__en-US* and *pim_description__de-DE*.For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md).
-
-> [Info] Notice that scope and language are separated with a **double** underscore in the attribute key.
+**Language:** For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain the attribute description in different languages, for instance, in English (United States) and in German (Germany). In this case, the attribute is multi-language and must be accordingly defined in its key. The attribute key would therefore be *pim_description__en-US* and *pim_description__de-DE*. Notice that scope and language are separated with a **double** underscore in the attribute key. For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md).
 
 Depending on the nature of your products, you will need to create different attributes. For example, if you are selling clothes, you will need to define the material, type of fit or the collar size (example attribute keys: pim_material, pim_fit, pim_collar_size). However, if you sell smartphones, you need to specify the storage, the screen size, or the case color (example attribute keys: pim_storage, pim_screen_size, pim_case_color). 
 
@@ -127,7 +125,7 @@ The following graphic visualizes the attribute and variant set structure, the in
 
 To be able to exchange data among the different entity types in your system, you need to map the different entities. This way, you can convert the data contained in an entity to make it available to the other entity.
 
-For instance, you can use a *PIM* product to create an *Omni-Channel* offer that will then be exported into all your sales channel at once. The data structure in the different sales channel will most surely differ. This data structure conversion can be managed through the so-called ETL. For detailed information, see [DataHub ETL process](../../DataHub/Overview/04_Basics.md#etl-process) and [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+For instance, you can use a *PIM* product to create an *Omni-Channel* offer and export it subsequently into all your sales channels. The data structure in the different sales channels will most surely differ. This data structure conversion can be managed through the so-called *ETL* function. For detailed information, see [DataHub ETL process](../../DataHub/Overview/04_Basics.md#etl-process) and [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
 
 
 
