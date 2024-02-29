@@ -3,7 +3,7 @@
 Extend your workflows by adding an action to export the EDIFACT messages. To do this, use a workflow that processes the business document you want to transfer to your EDIFACT message receiver, for example an invoice or a delivery note. 
 
 To integrate the export to the workflow, you need to insert an
-*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). You can insert this action at any position in the workflow in which you have access to the required business document data. Bear in mind that any errors that occur after export and before posting for subsequent processes can lead to data inconsistencies.
+*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). You can insert this action at any position in the workflow in which you have access to the required business document data. Bear in mind that any errors that occur after the EDIFACT export and before posting for subsequent processes can lead to data inconsistencies that need to be cleaned up.
 
 The following example shows how to export a delivery note via an export definition.
 
@@ -49,10 +49,11 @@ The following example shows how to export a delivery note via an export definiti
     $exportController->export($exportRequest);
     return [$in0];
     ```
+    **Explanation**
     |php code | Meaning |
     |--------|----|
     |<?php|PHP's opening tag     |
-    |$deliveryNote = $in0;| Type of the entity that is to be exported (e.g. business document type that have been loaded at the start point and is input in *in0* input port)|
+    |$deliveryNote = $in0;| Type of the entity that is to be exported (e.g. business document type that have been loaded at the start point and is input in *in0* input port), see the *Order Management* module for information on type <!---Stimmt das?-->|
     |$exportController = new \Actindo\Modules\Actindo\DataHubExporter\ExportController();| Get exporter|
     | $exportRequest = new \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);|Create new export request|
     |$exportRequest->definitionId = []; | ID of the export definition, for example, $exportRequest->definitionId = 112;|
