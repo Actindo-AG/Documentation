@@ -22,10 +22,10 @@ The following functions are available for the editing toolbar:
    Click this button to create a preview of an exporter definition. For detailed information, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition). 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can directly click a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed, see [Edit exporter definition](#edit-exporter-definition).
+    Click this button to edit the selected exporter definition, see see [Edit exporter definition](#edit-exporter-definition). This button is only displayed if a single checkbox in the list of exporter definitions is selected. Alternatively, you can directly click a row in the list to edit an exporter definition. The *Edit exporter definition* view is displayed.
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)   
-    Click this button to delete the selected exporter definition. This button is only displayed if a single checkbox in the list of exporter definitions is selected.
+    Click this button to delete the selected exporter definition, see [Delete definition](../Operation/01_ManageDefinitions.md#delete-definition). This button is only displayed if a single checkbox in the list of exporter definitions is selected.
    
 
 The following functions and fields are available in this view:
@@ -64,7 +64,7 @@ The following functions and fields are available in this view:
 
 **Create definition**
 
-The *Create definition* view includes the *Settings* tab which contains the fields and function needed to define a basic definition, see [Settings](#settings-tab).
+The *Create definition* view includes the *Settings* tab which contains the fields and functions needed to define a basic definition, see [Settings](#settings-tab).
 
 - *Label*   
    Enter the name of the exporter definition.
@@ -223,7 +223,7 @@ The wizard window for creating source entities and doing the mappings is display
   Click the drop-down list and select the entity type you want to use for a later data mapping with the EDIFACT fields and segments.
 
 - *Attribute set*    
-   Attribute set that is assigned the entity type. The attribute set drop-down list is automatically filled after you have selected an *Entity type*.
+   Attribute set that is assigned to the entity type. The attribute set drop-down list is automatically filled after you have selected an *Entity type*.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it. The *Select source* wizard window is closed.

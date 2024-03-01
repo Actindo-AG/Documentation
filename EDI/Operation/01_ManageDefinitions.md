@@ -62,7 +62,7 @@ Define basic data for the export definition. You must define a definition settin
 
      If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
-6. Click the *File settings* tab.  
+6. If you are in the header definition, click the *File settings* tab.  
     The *File Settings* tab is displayed.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyFileSettings.png "[File settings tab]")

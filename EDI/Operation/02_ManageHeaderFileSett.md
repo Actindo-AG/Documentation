@@ -37,9 +37,9 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
 
      ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefDefineFileSettings.png "[File settings tab]")
 
-3. Click the *Release* dropdown list and select the required release.
+3. If you have not already done so, click the *Release* dropdown list and select the required release.
 
-4. Click the *Message type* dropdown list and enter the required message type.
+4. If you have not already done so, click the *Message type* dropdown list and enter the required message type.
 
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure is displayed below. The message name is highlighted in red because it is still empty.
@@ -47,13 +47,13 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
 6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
+    The message structure with its single segments is displayed. All segments that contains mandatory content in the EDIFACT standard, are indicated with an M[Number]  in italic and bold, for example ***M35***.    
+    The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
 7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value) described below. Alternatively, click the [SAVE] button in the upper right corner to save your settings.
    After saving, the *Exporter definitions* view is displayed.
-
 
 
 
@@ -85,7 +85,7 @@ This procedure shows how to edit a constant text value, for example the transact
 
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the *D_1001* field (Code specifying the document name). This is a constant value for which your business partner may have specified predefined codes for the document type.
 
-4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") button to the right of the *D_1001* row.  
+4. Click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_1001* row.  
     The *Set text value* pop-up window is displayed.
 
     ![Set text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Set text value]")
@@ -94,13 +94,13 @@ This procedure shows how to edit a constant text value, for example the transact
 
 6. Click the [SAVE] button.   
     - The message structure is displayed. 
-    - To the right of the *D_1001* row, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available only, with which you can remove your new entry, if desired. The constant value is displayed on the right side of the row. The field name and description are no longer displayed in italics.  
+    - To the right of the *D_1001* row, the ![Delete node](../../Assets/Icons/Trash10.png "[Delete node]")(Delete node) button is available only, with which you can remove your new entry, if desired. The constant value is displayed on the right side of the row. The field name and description are no longer displayed in italics.  
     - The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.  
     - To the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove all data contained in the segment at once.
 
       ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
     
-    - To the right of the *S_BGM C_C002*, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
+    - To the right of the *S_BGM C_C002* segment, the ![Add condition](../../Assets/Icons/AddCondition.png "[Add condition]") (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
 
 7. Continue with [Specify document number &frasl; string attribute](#specify-document-number-⁄-string-attribute) described below.
 
@@ -127,7 +127,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
     ![S_BGM segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM.png "[S_BGM segment]")
 
-2. Expand the *S_BGM C_C106* (Document/message identification) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it. In most cases it is required to specify this segment.   
+2. Expand the *S_BGM C_C106* (Identification of a document/message by its number) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it. In most cases it is required to specify this segment.   
     The *S_BGM C_C106* segment has been expanded. The individual fields of this segment are displayed.
 
     ![S_BGM C_C106 segment](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106.png "[S_BGM  C_C106 segment]")
@@ -135,8 +135,8 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 3. Check the specification for the fields that are required to be filled. In most cases, you must fill the document number in the *D_1004* row (To identify a document). This is a numerical value that must be unique. For this reason, it is to be determined dynamically by a data source mapping. 
 
 4. Click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") button to the right of the *D_1004* row.   
-     - To the right of the *D_1004* row, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
-     - To the right of the *S_BGM C_C106*, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
+     - To the right of the *D_1004* row, only the ![Delete node](../../Assets/Icons/Trash10.png "[Delete node]")(Delete node) button is available now, with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
+     - To the right of the *S_BGM C_C106*, the ![Add condition](../../Assets/Icons/AddCondition.png "[Add condition]") (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
     - The *S_BGM C_C106* segment is now highlighted with a small black border. This indicates that the segment contains data.   
     - The string attribute has been marked for a later data mapping.
     
@@ -151,7 +151,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
        ![Map attributes](../../Assets/Screenshots/EDI/Operation/ExportDefBGM_C106Mapping.png "[Map Attributes]")
 
-8. Go through the wizard and click the [FINALIZE] button.   
+8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] buttons until you can click the [FINALIZE] button  
    The *Exporter definition sources* view is displayed.
 
 9. Continue with [Specify message dates](#specify-message-dates) described below.
@@ -184,7 +184,7 @@ This procedure shows how to edit message dates. The message dates require both t
 
     ![C_C507 segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDTMSegment.png "[C_C507 segment]")
 
-3. Specify the *D_2005 (Date or time or period function code qualifier)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_2005* row.  
+3. Specify the *D_2005 (Code qualifying the function of a date, time or)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_2005* row.  
     The *Edit text value* pop-up window is displayed.
 
     ![Edit text value](../../Assets/Screenshots/EDI/Operation/ExportDefEditTextValue.png "[Edit text value]")
@@ -192,18 +192,20 @@ This procedure shows how to edit message dates. The message dates require both t
 4. Enter the required text value and click the [SAVE] button.  
     A new *S_DTM* segment has been added below the *S_DTM* segment you are currently working on.
 
-5. Specify the *D_2380 (Date or time or period text)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_2380* row.    
+5. Specify the *D_2380 (The value of a date, a date and time, a time or of a period)* field. In most cases, a string attribute is required here. To do this, click the ![Add string attribute](../../Assets/Icons/Plus03.png "[Add string attribute]") (Add string attribute) button to the right of the *D_2380* row.    
     The *D_2380* field is marked for a later data mapping. 
 
-6. Specify the *D_2379 (Date or time or period format code)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *2005* row.  
+6. Specify the *D_2379 (Code specifying the representation of a date, time or period)* field. In most cases, a constant value is required here. To do this, click the ![Set constant value](../../Assets/Icons/Edit04.png "[Set constant value]") (Set constant value) button to the right of the *D_2379* row.  
     The *Set text value* pop-up window is displayed. 
 
 7. Enter the text value and click the [SAVE] button.  
     This *S_DTM* segment has been finished.
     - To the right of the currently edited rows, only the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available with which you can remove the data, if required. The field name and description are no longer displayed in italics.  
-     - To the right of both the *S_BGM C_C106* and the *S_DTM* segment, the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
-    - Both the *S_BGM C_C106* and the *S_DTM* segment is now highlighted with a small black border. This indicates that the segment contains data.     
+     - To the right of both the *S_BGM C_C507* and the *S_DTM* segment, the ![Add condition](../../Assets/Icons/AddCondition.png "[Add condition]") (Add condition) button is displayed with which you can define a condition for the output of this segment in the data mapping later.
+    - Both the *S_BGM C_C507* and the *S_DTM* segment is now highlighted with a small black border. This indicates that the segment contains data.     
     - The string attribute has been marked for a later data mapping. 
+
+     ![Finalized DTM segment](../../Assets/Screenshots/EDI/Operation/ExportDefDTMSegment.png "[Finalized DTM segment]")
 
 8. Click the [SAVE] button to save the message structure.   
     The *Exporter definitions* view is displayed.
@@ -236,7 +238,7 @@ This procedure shows how to add individual textual information as well as additi
 
 
 1. Expand the *S_FTX* (FREE TEXT) segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at it.   
-    The *S_FTX* segment in turn consists of the subordinate *C_C107* and *C_C108* segments.
+    The *S_FTX* segment in turn includes the subordinate *C_C107* and *C_C108* segments.
 
     ![S_FTX segment](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefFTXSegment.png "[S_FTX segment]")
 

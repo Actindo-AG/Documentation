@@ -71,20 +71,15 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 #### Prerequisites
 
 - You have the message specification of your business partner at hand.
-- You have created the basic definition settings for the line items for this type of message and business partner, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+- You are currently creating the line item definition and have entered the necessary data in the *Settings* tab, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
 - You have prepared the line item export in the header file definition, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 - You have prepared the data mapping for the line items, [Prepare data mapping for the line items](#prepare-data-mapping-for-the-line-items).
 
 #### Procedure
 
-*DataHub Exporter > EXPORTS tab*
+*DataHub Exporter > EXPORTS tab > Settings tab*
 
-![Exporter definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Exporter definitions]")
-
-1. Click the definition for which you want to specify the line item settings.   
-    The *Edit definition "definition name"* view is displayed. The *Settings* or the last opened tab is displayed.
-
-    ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEditLineItems.png "[Edit definition]")
+![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEditLineItems.png "[Edit definition]")
 
 2. Click the *File settings* tab.   
     The *File settings* tab is displayed.
@@ -110,6 +105,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
     It starts with the SG26/SG27 element. 
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
+
 
 7. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
     The message structure with its single segments is displayed. It starts with the S_LIN segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.

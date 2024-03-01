@@ -4,7 +4,7 @@
 
 The mapping settings define some basic data that is needed to be able to send EDIFACT message from *Actindo* to your business partner.
 
-## Create mapping setting
+## Create mapping settings
  Create the mapping settings to define some basic data. Actindo will use it to convert the data and to automatically fill in some of the EDIFACT segments.
 
 #### Prerequisites
