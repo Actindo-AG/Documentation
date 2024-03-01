@@ -4,28 +4,21 @@
 
 *DataHub Exporter > Settings > Tab CONNECTIONS*
 
-**Connections**
+![Connections](../../Assets/Screenshots/EDI/Integration/Connections.png "[Connections]")
 
-The *CONNECTIONS* tab contains a list view of all available connections.
-The following functions are available in the list header of the *CONNECTIONS* tab:
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of connections.
+**Existing connections**
 
-- *VIEW*   
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. For a detailed description of how to create and edit a list view, see [LIST views](../../Core1Platform/UserInterface/03_ViewsLIST.md).  
+The *Existing connections* list contains a list view of all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all connections in the list are selected.
 
 
 - [SYNCHRONIZE]  
-    Click this button to synchronize the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. The *Sync triggered* pop-up window is displayed.
-
-    ![Sync triggered](../../Assets/Screenshots/Channels/Settings/Connections/SyncTriggered.png "[Sync triggered]")
+    Click this button to synchronize the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. A confirmation message is displayed.
 
 - [DISABLE]  
     Click this button to disable the selected connection(s). This button is only displayed if the checkbox of at least one active connection is selected.
@@ -36,7 +29,7 @@ The following functions are available in the list header of the *CONNECTIONS* ta
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
     Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-datahub-exporter-connection).
 
-The list displays all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Name*  
     Connection name.
@@ -62,8 +55,8 @@ The list displays all available connections. Depending on the settings, the disp
 
 ![Create connection](../../Assets/Screenshots/EDI/UserInterface/CreateConnection.png "[Create connection]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
+**Connection**   
+The *Connection* view contains the fields required to define a connection. 
 
 - *Name*   
     Enter a connection name.
@@ -78,7 +71,7 @@ The list displays all available connections. Depending on the settings, the disp
     Click the drop-down list and select the *DataHub Exporter* driver. All installed drivers are displayed.  
     > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
 
-- [SAVE]   
+- [SAVE]     
    Click this button to save the connection. 
 
 
@@ -96,9 +89,6 @@ This section is only displayed for drivers with further credentials. The fields 
 *DataHub Exporter > Settings > Tab CONNECTIONS > Select a connection*
 
 ![Edit connection](../../Assets/Screenshots/EDI/UserInterface/EditConnection.png "[Edit connection]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the connection list. All changes are rejected.
 
 - *Name*   
     Connection name. Click the ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the name to edit it.
