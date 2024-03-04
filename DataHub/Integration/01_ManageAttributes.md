@@ -55,7 +55,7 @@ No prerequisites to fulfill.
 
 6. If required, enable the *Contains sensitive data* toggle if the potential attribute values may be sensitive, such as name, date of birth, or zip code.
 
-[comment]: <> (zu prüfen)
+    > [Info] By doing so, you label this data as sensitive, which allows additional data anonymization tools to recognzize it as such and access it for anonymization purposes if necessary.   
 
 7. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned attribute sets* field. The button is locked if you have not yet selected a data type.   
     A drop-down list with all active attribute sets is displayed.
