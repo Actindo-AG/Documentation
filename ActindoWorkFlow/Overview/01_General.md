@@ -1,6 +1,6 @@
 # General information
 
-The *Process Orchestration* module is a tool that allows you to sculpt, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes can be mapped and made available: from simple processes to complex workflows. As a result, you will always have an overview of your processes and can correct errors quickly and efficiently.
+The *Process Orchestration* module is a tool that allows you to model, control, map, and monitor your business processes. Based on your special and individual business rules, your company's processes can be mapped and made available: from simple processes to complex workflows. As a result, you will always have an overview of your processes and can correct errors quickly and efficiently.
 
 This documentation refers to *Process Orchestration* module version 1.10.0. There may be differences in the UI, features, and operation if your *Process Orchestration* module is installed in a different version.
 

@@ -9,13 +9,13 @@
 
 # Manage the workflows
 
-The *Process Orchestration* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
+The *Process Orchestration* module allows you to define customer-specific business processes, such as orders, shipments, returns, etc.
 The workflows can be created individually in the workflow editor, they can be edited subsequently, and by publishing and unpublishing a workflow, the usage can be controlled.
 
 
 ## Create a workflow
 
-Create a workflow to define a new process.
+Create a workflow in order to map a new business process.
 
 ### Define the workflow basic settings
 
@@ -44,7 +44,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
     > [Info] The list of places is filtered for your keyword as you type.
 
-5. Click the start place you want to add in the list of places.    
+5. Select the start place you want to add in the list of places.    
 
 6. Click the *Choose the data type of your end place* field and enter the name of the place or a keyword you are searching for.
 
@@ -149,7 +149,7 @@ Select an existing workflow to edit it.
 
     ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time > version view still is visible 21.02.2024)
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time -  version view still visible 21.02.2024)
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
     - [Edit the place data type](#edit-the-place-data-type)
@@ -313,7 +313,7 @@ Edit a transition to define its settings.
 
     > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
 
-2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration, and the static inputs as described below:
+2. Edit the settings fields in the settings side bar. You can change the label, the queue type, the task event, the configuration, and the static inputs as described below:
 
     + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 

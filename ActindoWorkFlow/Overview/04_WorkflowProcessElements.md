@@ -8,15 +8,15 @@ For detailed information, see [Manage the workflows](../Operation/01_ManageWorkf
 ![Workflow configuration](../../Assets/Screenshots/ActindoWorkFlow/Overview/WorkflowConfiguration.png "[Workflow configuration]")
 
 
-A workflow runs from a fixed start place to a fixed end place, which can be in turn linked to another workflow. A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. 
+A workflow must contain at least one transition between the start and the end place. <!---Stimmt das? Muss man nicht eine bestimmte transition aufrufen, um einen weiteren Workflow zu starten, bzw. eine Verknüpfung herzustellen?--->The transitions are linked through places with each other, connecting the corresponding transition input and output ports. 
 
 The *Process Orchestration* module is linked to different system modules and plugins, such as *Order management*, *Email*, *Omni-Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
 
-Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used.   
+Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used. <!---der Abschnitt ist verwirrend. Ist das wichtig oder hat es eine bestimmte Funktion, dass es mehrere veröffentlichte Versionen gehen kann?-->  
 
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 
-A process is an instance of a workflow, that is, the actual execution of a workflow configuration triggered by an event. If you have created a workflow for a specific business case, in which all the required steps are described, a single process of this workflow will be started for each of these business cases that is initiated.
+A process is an instance of a workflow, that is, the actual execution of a workflow configuration triggered by an event, for example, the creation of a business document. If you have created a workflow for a specific business transaction, in which all the required steps are described, a single process of this workflow will be started for each of these business transactions that is initiated, for example, for each business document that is newly created.
 
 ![Process execution](../../Assets/Screenshots/ActindoWorkFlow/Overview/ProcessExecution.png "[Process execution]")
 
@@ -37,12 +37,7 @@ Workflow processes, as well as the workflows itself, consists of certain element
 
 The transitions act as building blocks that are chained together through places to configure a workflow. They are used to process the incoming data and to output the processed data to the next place.  
 Transitions are represented by a rectangle. When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition.  
-For detailed information, see [Actions](#actions). See also the following overview:
-
-|Name in configuration| Name in execution|   
-|----- | ----|
-| Workflow | Process |
-| Transition | Action |
+For detailed information, see [Actions](#actions). 
 
 The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Process Orchestration* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of an API. Some transition may have configuration options, but most of them do not.
 
@@ -72,7 +67,7 @@ The transition settings side bar is located to the right of the workspace and al
 
     > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
-- *Long description*
+- *Long description*    
     If desired, edit a long text to document the transition. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor.
 
 - *Configuration*  
@@ -110,7 +105,7 @@ The place settings side bar is located to the right of the workspace and allows 
     Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
 - *Data container*  
-    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of actions is filtered for your search text as you type. Select the radio button of the appropriate option.
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of data types is filtered for your search text as you type. Select the radio button of the appropriate option.
 
 In the workflow processes, a place can hold any number of tokens, including none. A token is a container carrying data, which is needed to execute a subsequent action. The place data type is always defined, more or less specifically, so it is possible to recognize the kind of data that flows through it.    
 For detailed information, see [Tokens](#tokens).

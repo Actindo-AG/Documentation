@@ -129,8 +129,9 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
             The executable actions within the oldest process are executed first by the workers.
 
 4. Click the [SAVE] button in the upper right corner.   
-    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.  
+    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed. 
 
+    
 
 
 ### Edit the number of workers and the throttling settings
@@ -160,14 +161,18 @@ To achieve this, you must either wait until all running workers are finished or 
    The fields below are ready for input.
 
     + Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
-    + Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60.   
+    + Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60 means that a maximum of 1000 actions can be processed in one hour. 
     Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
-4. Click the [SAVE] button in the upper right corner.    
-    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.  
+4. Click the [SAVE] button in the upper right corner.      
+    The changes have been saved. The *Edit queue type* view is closed. A confirmation message is displayed.
+
+     > [Info] An error notice is displayed if the number of booked vCores is not sufficient to create the queue type with the selected number of workers.
+
+    ![Maximum total workers](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")  
 
 5. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
-    The workflow processes will start automatically.
+    The workflow processes will start automatically after one minute.
 
     ![Enable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
 
@@ -209,7 +214,7 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 
 ## Delete a queue type
 
-You can delete a queue type that is obsolete to release workers for other queue types. Be aware that the *Default* queue type cannot be deleted.
+You can delete a queue type that is obsolete to release workers for other queue types. The queue type is only deleted, if it is no longer assigned to any transition. Be aware that the *Default* queue type cannot be deleted.
 
 #### Prerequisites
 
@@ -232,7 +237,7 @@ You can delete a queue type that is obsolete to release workers for other queue 
 2. Click the [DELETE] button in the toolbar.   
   The queue type has been deleted. A confirmation message is displayed.
 
-  > [Info] The queue type is only deleted, if it is not assigned to any transition anymore.
+  > [Info] 
 
 
 
@@ -269,7 +274,7 @@ The workflows are disabled. Disable the workflows before you kill the workers to
   The workers of the selected queue type have been killed. The process actions of the selected queue type will not continue until you restart the workflow processes. A confirmation message is displayed.
 
 3. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
-    The workflow processes will start automatically.
+    The workflow processes will start automatically after one minute.
 
 
 
@@ -292,18 +297,18 @@ The workflows are disabled. Disable the workflows before you kill the workers to
     All workers have been killed. The process actions will not continue until you restart the workflow processes. A confirmation message is displayed.
 
 2. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
-    The workflow processes will start automatically.
+    The workflow processes will start automatically after one minute.
 
 
 
 ## Start workers
 
-Sometimes it may be necessary to start the process actions manually. This feature is very helpful if you do not want to wait until the processes start again automatically after one minute. For example, you can use it if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel, and you want the workers to start immediately.
+Sometimes it may be necessary to start the process actions manually. For example, you can use it if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel, and you want the workers to start immediately.
 
 
 #### Prerequisites
 
-At least one queue type has been created, see [Create a queue type](#create-a-queue-type).
+- The workers have been killed before, or the workflow has been disabled. 
 
 #### Procedure
 
