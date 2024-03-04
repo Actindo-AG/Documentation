@@ -17,7 +17,7 @@ All attributes have a key. This key is required for API access and therefore mus
 
 You can define your own attribute keys, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
 
-**plugin_attribute short name__scope__language**
+**plugin_attribute_short_name__scope__language**
 
 **Plugin:** Plugin or module where the attribute originates from. If an attribute originates in the *PIM* module, its key should start with *pim_*.
 
@@ -42,13 +42,13 @@ The following examples are based on predefined *PIM* attributes. If you have cre
 |---------------------------------------------------|--------------------------------------------------|-----------|
 | Name                                      | pim_art_name                                     | string    |
 | Price                                             | pim_price                                        | integer   |
-| Tax class                                         | pim_price                                        | tree node |
+| Tax class                                         | pim_tax_class (Frage: pim_ oder taxes_?)                                        | tree node |
 | Product description                               | pim_products_description                          | text field    |
 | Product description (multi-scope, multi-language) | pim_products_description__actindo_basic__en_US    | text field    |
 | Product description (multi-scope, multi-language) | pim_products_description__actindo_basic__de_DE    | text field    |
 
 
-[comment]: <> (Confusing here: tax class can be data type "tax class" and "tree node", i.e. Standard, ermäßigt. Was ist data type tax class? Wieso ist es nicht zu finden in API products?)
+[comment]: <> (Confusing here: tax class can be data type "tax class" and "tree node", i.e. Standard, ermäßigt. Was ist data type tax class? Wieso ist es nicht zu finden in API products? Owning module ist Taxes?)
 
 The following graphic visualizes a series of attributes, within an attribute set, maintained in different scopes and languages, and how these attributes define a specific product: 
 
@@ -65,7 +65,7 @@ All attribute sets have a key. This key is required for API access and therefore
 
 You can define your own attribute set keys, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
 
-**plugin_attribute set short name**
+**plugin_attribute_set_short_name**
 
 
 **Plugin:** Plugin or module where the attribute originates from. If an attribute set originates in the *PIM* module, its key should start with *pim_*.
@@ -119,6 +119,52 @@ The following graphic visualizes the attribute and variant set structure, the in
 
 
 [comment]: <> (Nicht überzeugt von Variant/Variant set Graphiken. Feedback benötigt) 
+
+
+## Entity ID
+
+[comment]: <> (Attribute/att. set, variant/variant set -> sind sie entities? Für mich entity ist eher PIM product, OC offer, dispatch note... Überbegriff für alle?)
+
+An entity is an object containing data, for instance a *PIM* product, an *Omni-Channel* offer, a *DataHub* attribute, or an attribute set. Every entity has a unique ID, which is automatically assigned by the system for internal purposes. When accessing the system via API, you need the entity ID of any fields that are required in your request for the system to be able to recognize the entity. 
+
+You can find out the ID via [user interface](#entity-id-via-user-interface) or via [API](#entity-id-via-api).
+
+
+### Entity ID via user interface
+
+You can find out any entity ID via user interface as follows:
+
+1. Go to the module where the entity "lives"/originates, for example *DataHub > Data models > Attribute sets* to find out an attribute set ID.
+
+2. Locate the entity whose ID you need.
+
+3. Check the ID in the *ID* column. 
+
+    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to display it. 
+
+Alternatively, you can find out the entity ID in the URL as follows:
+
+1. Click the entity whose ID you need.  
+    The *Edit "entity"* view is displayed.
+
+2. Check the site URL in your browser.  
+    The selected entity ID is located at the of the URL, as in the following example: 
+
+    https://example.actindo.com/Actindo.CoreModules.Start.Start.start#/Actindo.Modules.Actindo.PIM.Views.start/pim-settings/types/**102**
+
+    
+### Entity ID via API
+
+You can also get a list of entity IDs via API as follows:
+
+[comment]: <> (Wie? Abhängig von Entität, also Attribute set, Attribute, etc.?)
+
+
+ID Attribute sets (aus AttributeController):  
+/Actindo.Modules.Actindo.PIM.AttributeController.getListOfAttributeSets
+
+Frage: wie für Attribute ID Kein Endpoint in AttributeController? 
+
 
 
 ## Mapping

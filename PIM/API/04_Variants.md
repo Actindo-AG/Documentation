@@ -1,51 +1,52 @@
 # Variants
 
-You can create, edit, and list *PIM* variants via API. You can also create, edit, delete, and list variant sets. 
+You can create, edit, delete, and list *PIM* variants via API. You can also create, edit, delete, and list variant sets. 
 
-[comment]: <> (Delete geht es übers UI aber finde in API-Doku delete unter Variant nicht. S. Delete product! Variant sets auch sinnvoll für Kunden?)
+[comment]: <> (Edit und delete geht es übers UI aber ich finde es in API-Doku delete unter Variant nicht. S. Delete product! Variant sets via API auch sinnvoll für Kunden?)
 
-The attribute key is customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
+The keys are customer-defined in *PIM*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
-> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
+> [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that the field may not be found when sending a request. In this case, you have to update the key, that is, the field, in your request body as well.
 
 
 ## Create a variant
 
-You can create a variant via API ...
+[comment]: <> (Use case?)
 
-- Single 
-- Multiple
-
-[comment]: <> (Use case)
+Create one of several variants at once via API to an existing product.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
 **Method**: POST
 
-### Parameters
+**Authorization:** oauth2Auth
 
-The required attributes are marked in bold.
+**Request body schema:** application/json
 
-[comment]: <> (product is immer als Objekt required in PIM-Doku, aber ist es nicht selbstverständlich? Muss man es in der Tabelle unten angeben?)
+### Definitions
+
+The required fields are marked in bold.
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
 | **masterId**      | integer   |  Master product identification number |
 | **variantSetId**   | integer  | PIM variant set identification number |
-| **variants** | array of objects | 
+| **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
 
-You have to include all required attributes in the JSON file and provide them with a value. The *...* value must be an already existing value in *DataHub*.  
+[comment]: <> (Kann man so viele defining und differing attribute values hinzufügen, wie man möchte? Keine als required, aber man muss mindestens ein defining attribute haben, oder? Info fehlt.)
 
-Depending on the information you want to add, you have to add the corresponding ... For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute set*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
+You have to include all required fields in the JSON file and provide them with a value. The **masterId** and **variantSetId** values must be existing values in *DataHub*. To find out the entity ID, see [Entity ID](./02_Basics.md#entity-id). 
 
-[comment]: <> (Stimmt das? In API Request sample gibt es mehr? 54 vs. 64 -> PIM Basic set + zusätzliche Attributen in den anderen sets?)
+Depending on the data you want to specify, you have to add the corresponding fields in your request. For a complete list of the fields relevant for the variant set of the variant you want to add, you can check the corresponding variant set in the *PIM* module under *PIM > Settings > Variant sets*. Alternatively, you can find a list of the existing variants, if any, and the assigned variant set for a specific product under *PIM > Products > Select a master product > Tab Variants*.
+
+[comment]: <> (Stimmt das? Sinnvoll zu erklären?)
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
 ### Request samples  
 
-Create a single *PIM* variant ...
+#### Create a single variant
 
 
     {
@@ -60,7 +61,7 @@ Create a single *PIM* variant ...
       ]
     }
 
-Create multiple PIM variants ...  
+#### Create multiple variants 
 
 
     {
@@ -72,139 +73,114 @@ Create multiple PIM variants ...
           "differingAttributeValues": {},
           "additionalFields": "string"
         }
+        {
+          "definingAttributeValues": {},
+          "differingAttributeValues": {},
+          "additionalFields": "string"
+        }
+        {
+          "definingAttributeValues": {},
+          "differingAttributeValues": {},
+          "additionalFields": "string"
+        }
       ]
     }
 
 
-[comment]: <> (Andere Attribute hinzufügen, die sinnvoll sein können. Oder unterschiedliche Samples angeben, z.B. mit _pim_size_l/b/h...)
+[comment]: <> (Stimmt das so???)
 
 
 
 ## Edit a variant
 
-You can edit a variant via API to modify any number of field values at a time. You can also add attributes to an existing product.
+To edit a variant, see [Edit a product](./03_Products.md#edit-a-product).
 
-[comment]: <> (Stimmt das so? Use case?)
+[comment]: <> (Stimmt das so?)
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.save
+---
 
-[comment]: <> (Passt das so? Edit/save variant unter VariantSetController)
+You can edit a variant via API, for example to add an image or update a value.
+
+> [Info] Bear in mind that only variant-specific attributes, such as EAN code, image, color, or size, can be modified in the variants. Values that have been inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
+
+[comment]: <> (Überhaupt möglich? Stimmt das so? Use case?)
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.save
+
+[comment]: <> (Gibt es das überhaupt? In meiner API-Doku in DOP nicht gefunden! Oder ist es eher via Create product?)
 
 **Method**: POST
 
+**Authorization:** oauth2Auth
 
-### Parameters
+**Request body schema:** application/json
+
+### Definitions
 
 The required fields are marked in bold.
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product ID  |
-| (attribute)   | ...  | ...  |
-
-
+| **masterId**      | integer   |  Master product identification number |
+| **variantSetId**   | integer  | PIM variant set identification number |
+| **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
 
 ### Request samples
 
-Edit a product to update the SKU and add dimensions (here height/depth).
+#### Edit a variant to add an image
+
 
     {
-        "product": {
-            "id": "662",
-            "sku": "IP13-Test2",
-            "_pim_size_h": {
-                "value": 10,
-                "unitId": 432
-            }
+      "masterId": 0,
+      "variantSetId": 0,
+      "variants": [
+        {
+          "definingAttributeValues": {},
+          "differingAttributeValues": {},
+          "additionalFields": "string"
         }
+      ]
     }
 
 
-Edit a product to update the SKU and add the product name both in English and German.
-
-    {
-        "product": {
-            "id": "662",
-            "sku": "IP13-Test3",
-            "_pim_size_h": {
-                "value": 10,
-                "unitId": 432,
-            "_pim_art_name__actindo_basic__en_US": "Smartphone",
-            "_pim_art_name__actindo_basic__de_DE": "Cooles Handy"
-            }
-        }
-    }
-
-[comment]: <> (Komischerweise hat das nicht funktioniert. Wieso?)
+[comment]: <> (Sinnvolle use cases?)
 
 
+## List variants
 
-## List children
+Get a list of variants. You can set one or more filters.
 
-[comment]: <> (Sinnvoll/praktisch für den Kunden?)
+[comment]: <> (Sinnvoll für Kunden?)
 
-## Create a variant set
-
-
-## Edit a variant set
-
-
-## Delete a variant set
-
-You can delete a variant if it is no longer needed. 
-
-> [Caution] If it is a master product, that is, with product variants, all variants will also be deleted. If it is a product variant, only the variant will be deleted.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.delete
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
 
 **Method**: POST
 
-### Parameters
+**Authorization:** oauth2Auth
 
-The required fields are marked in bold.
+**Request body schema:** application/json
 
-| Attribute   | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **ids**      | integer    |  Product ID |
 
-[comment]: <> (Sollte es nicht id oder variant id sein?)
+### Definitions
 
-### Request sample
-
-  {
-    "ids": [
-      0
-    ]
-  }
-
-## List variant sets
-
-Get a list of all variants including the ones in the archive or recycle bin. You can set one or more filters to 
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
-
-**Method**: POST
-
-### Definitions / Parameters
-
-The required fields are marked in bold.
-
-[comment]: <> (Keine required? Wenn man filter, hints, sort objects setzen will, dann mit required Felder) 
-
-| Field      | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| filter      | Array of objects    |  ... |
-| hint   | integer  | ...  |
-
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| ids | array of integer (?) | Bedeutung ? |
+| query | string | Quick search for a query string |
+| fields | array of strings | Quick Search for query fields; null to search for all fields |
+| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
+| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
+| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
+| start | integer | Pagination: Pagination start (from 0) |
+| limit | integer | Pagination: Pagination limit |
 
 
 ### Request sample  
 
-Get a list setting a filter.
+#### Get a list of variants setting a filter
 
     {
-      "scopeId": 0,
-      "languageId": 0,
+      "ids": 0,
       "query": "string",
       "fields": [
         "string"
@@ -229,10 +205,82 @@ Get a list setting a filter.
         }
       ],
       "start": 0,
-      "limit": 0,
-      "serializeOptionals": [
+      "limit": 0
+    }
+
+
+---
+
+[comment]: <> (Ab hier, sinnvoll via API?)
+
+## Create a variant set
+
+
+## Edit a variant set
+
+
+## Delete a variant set
+
+---
+
+## List variant sets
+
+Get a list of variant sets. You can set one or more filters.
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
+
+**Method**: POST
+
+### Definitions
+
+The required fields are marked in bold.
+
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| attributeSetId | array of integer | Attribute set identification number |
+| query | string | Quick search for a query string |
+| fields | array of strings | Quick Search for query fields; null to search for all fields |
+| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
+| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
+| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
+| start | integer | Pagination: Pagination start (from 0) |
+| limit | integer | Pagination: Pagination limit |
+
+...
+
+[comment]: <> (s.o.)
+
+### Request sample  
+
+#### Get a list of variant sets setting a filter
+
+    {
+      "attributeSetId": 0,
+      "query": "string",
+      "fields": [
         "string"
-      ]
+      ],
+      "filter": [
+        {
+          "property": "string",
+          "operator": "string",
+          "value": "string"
+        }
+      ],
+      "hints": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "sort": [
+        {
+          "field": "string",
+          "order": "string"
+        }
+      ],
+      "start": 0,
+      "limit": 0
     }
 
 

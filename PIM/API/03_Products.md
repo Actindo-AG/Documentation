@@ -2,15 +2,12 @@
 
 You can create, edit, delete, and list PIM products via API. 
 
-The attribute key is customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
+The keys are customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
 [comment]: <> (Richtiges Wort? Field, attribute/attribute key, parameter??)
 
-> [Caution] If you modify an attribute key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. That means, that the field may not be found when sending a request. In this case, you have to update the attribute key in your request body as well.
+> [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that the field may not be found when sending a request. In this case, you have to update the key, that is, the field, in your request body as well.
 
-How to find out entity ID?
-  - via UI
-  - via API
 
 ## Create a product
 
@@ -30,12 +27,12 @@ Create a product in the *PIM* module.
 
 [comment]: <> (Oder Parameters? Was ist das richtige Fachwort hier?)
 
-The following table displays a list of all attributes contained in the *PIM basic set* (_pim_attribute name) with their default data types and configuration. The required attributes are marked in bold. 
+The following table displays a list of all attributes contained in the *PIM basic set* (pim_attribute_name) with their default data types and configuration. The required fields are marked in bold. 
 
-[comment]: <> (Evtl. übergeordneter Header mit der Tabelle und nur required attributes pro Call unter dem jeweiligen Header. sku bis compareOldValue -> sind diese Attribute "system-intern"? Nicht in DataHub angezeigt)
+[comment]: <> (Evtl. übergeordneter Header mit der Tabelle und nur required fields pro Call unter dem jeweiligen Header. sku bis compareOldValue -> sind diese Attribute "system-intern"? Nicht in DataHub angezeigt)
 
-| Attribute      | Data type | Description |  
-| ----------- | ----------- | ---------- | 
+| Attribute       | Data type   | Description |  
+| ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU |
 | **attributeSetId**   | integer  | Attribute set identification number |
 | created	 | string | Date and time of creation <br> Format: YYYY-MM-DD HH:mm:ss |
@@ -93,15 +90,15 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
 
-[comment]: <> (Tabelle oben hat nur die Attribute aus PIM basic set. Sinnvoll, mehr dazu zu erklären? Die ersten created, modified, etc. nicht sinnvoll zum Erstellen aber schon zum filter, oder?)
+[comment]: <> (Tabelle oben hat nur die Attribute aus PIM basic set. Sinnvoll, mehr dazu zu erklären? Die erste, also created, modified, etc., nicht sinnvoll zum Erstellen aber schon zum filter, oder?)
 
-[comment]: <> (Was bedeutet string, number, integer, boolean, object? Alle möglich?)
+[comment]: <> (Was bedeutet, wenn alle da sind: string, number, integer, boolean, object? Alle möglich?)
 
 [comment]: <> (Unterschied zwischen number und integer data type?)
 
-You have to include all required attributes in the JSON file and provide them with a value. The *attributeSetId* value must be an already existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Link](#to-be-determined). 
+You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id). 
 
-Depending on the data you want to specify, you have to add the corresponding attribute in your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute set*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
+Depending on the data you want to specify, you have to add the corresponding field in your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
 
 [comment]: <> (Stimmt das so?)
 
@@ -181,7 +178,7 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 ### Definitions
 
-The required attributes are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
+The required fields are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
@@ -223,7 +220,7 @@ The required attributes are marked in bold. For a list of *PIM* attributes, see 
 [comment]: <> (Sinnvolle use cases?)
 
 
-## Delete a product
+## Delete a product permanently
 
 You can delete a product if it is no longer needed. 
 
@@ -245,7 +242,10 @@ The required fields are marked in bold.
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number |
 
+
 ### Request sample
+
+#### Delete a product (and its variants, if any) permanently
 
     {
       "product": {
@@ -253,6 +253,55 @@ The required fields are marked in bold.
       }
     }
 
+
+## Delete a product temporarily 
+
+### Move a product to recycle bin
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
+
+**Method**: POST
+
+**Authorization:** oauth2Auth
+
+**Request body schema:** application/json
+
+### Definitions
+
+The required fields are marked in bold.
+
+| Attribute   | Type | Description |  
+| ----------- | ----------- | ---------- | 
+| **id**      | integer    |  Product identification number |
+
+
+### Request sample
+
+...
+
+
+### Move a product to archive
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
+
+**Method**: POST
+
+**Authorization:** oauth2Auth
+
+**Request body schema:** application/json
+
+### Definitions
+
+The required fields are marked in bold.
+
+| Attribute   | Type | Description |  
+| ----------- | ----------- | ---------- | 
+| **id**      | integer    |  Product identification number |
+
+
+### Request sample
+
+...
 
 ## List products
 
@@ -286,7 +335,7 @@ The required fields are marked in bold.
 
 [comment]: <> (Check non-authoritative sources -> Query hints: You may set query hints to modify the execution of the query, for example get data from non-authoritative sources.)
 
-[comment]: <> (Operators nötig? --> type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
+[comment]: <> (Erklärung von Operators nötig? --> type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
 
 ### Request sample  
 
