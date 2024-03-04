@@ -55,7 +55,7 @@ No prerequisites to fulfill.
 
 6. If required, enable the *Contains sensitive data* toggle if the potential attribute values may be sensitive, such as name, date of birth, or zip code.
 
-    > [Info] By doing so, you label this data as sensitive, which allows additional data anonymization tools to recognzize it as such and access it for anonymization purposes if necessary.   
+    > [Info] By doing so, you label this data as sensitive, allowing our data anonymization tools to recognize it as such and access it for anonymization purposes if necessary.   
 
 7. Click the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned attribute sets* field. The button is locked if you have not yet selected a data type.   
     A drop-down list with all active attribute sets is displayed.
@@ -107,7 +107,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     ![Edit attribute data](../../Assets/Screenshots/DataHub/Settings/Attributes/EditAttribute_Data.png "[Edit attribute data]")
 
-    > [Info] Bear in mind that you can only edit the attribute name, description, its status and configuration, and if it contains sensitive data. All other fields and toggles are locked. In exceptional cases, you can update the attribute key by clicking the [UPDATE KEY] button. 
+    > [Info] Bear in mind that you can only edit the attribute name, description, its status and configuration. You can also enable or disable the sensitive data toggle. All other fields and toggles are locked. In exceptional cases, you can update the attribute key by clicking the [UPDATE KEY] button. 
 
 [comment]: <> (Evtl. reformulieren bzw. in Prozedure integrieren)
 

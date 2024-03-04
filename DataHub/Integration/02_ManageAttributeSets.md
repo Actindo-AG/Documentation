@@ -163,6 +163,7 @@ After you have created an attribute set, you can edit it.
 Depending on the selected inheritance type, only a certain number of attributes may be editable.
 However, you can add further attributes to an attribute set or remove unmapped attributes from an attribute set.
 
+> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently being worked on and cannot be modified.
 
 ### Add an attribute to the set
 
