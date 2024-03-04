@@ -56,7 +56,7 @@ The following functions and fields are available in this view:
     Click this button to add an exporter definition. The *Create definition* view is displayed, see [Create exporter definition](#create-exporter-definition).
 
 
-## Create definition
+## Create exporter definition
 
 *Exports > Tab EXPORTS > Button Add*
 
@@ -126,7 +126,7 @@ For all other fields and functions, see [Create exporter definition](#create-exp
 
 ![Edit file settings](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Edit file settings")
 
-The*File settings* tab is used to specify the EDIFACT message fields and segments that your business partner require for the selected message type.
+The *File settings* tab is used to specify the EDIFACT message fields and segments that your business partner require for the selected message type. This tab does not appear until you have entered the *Template engine* in the *Settings* tab. 
 
 - *Release*   
    Edit this drop-down list to select the release of the EDIFACT message type your business partner require.
@@ -147,14 +147,14 @@ The*File settings* tab is used to specify the EDIFACT message fields and segment
 
 ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
-The *Data sources* tab is used both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping. This tab is only visible if you have successfully saved both the settings and the file settings in the corresponding tabs.
+The *Data sources* tab is used both to define the attribute set that you want to use for the attribute set mapping of the EDIFACT message and to do the mapping. This tab does not appear until you have successfully saved both the settings and the file settings in the corresponding tabs.
 
 **Exporter definition sources**   
 
 The *Exporter definition sources* view contains a LIST view that contains all exporter definition sources you want to use to perform the attribute mapping. 
 
 - ![Change sorting](../../Assets/Icons/Sort02.png "[Change sorting]") (Change sorting)   
-   Click this button change the sorting of the data sources. The button is only available if the list contains more than one entry. The *Data sources (Sorting mode)* view is displayed.
+   Click this button change the sorting of the data sources. The button is only available if the list contains more than one entry. The *Data sources (Sorting mode)* view is displayed, see [Data sources &ndash; Sorting mode](#data-sources-–-sorting-mode).
 
 The following functions are available for the editing toolbar:
 
@@ -226,10 +226,12 @@ The wizard window for creating source entities and doing the mappings is display
    Attribute set that is assigned to the entity type. The attribute set drop-down list is automatically filled after you have selected an *Entity type*.
 
 - [CANCEL]    
-   Click this button to finish the wizard without saving it. The *Select source* wizard window is closed.
+   Click this button to finish the wizard without saving it.    
+   The *Select source* wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to go one step forward. The *Map attributes* wizard window is displayed (see below). 
+   Click this button to go one step forward.    
+   The *Map attributes* wizard window is displayed (see below). 
 
 ### Step 2: Map attributes
 
@@ -244,10 +246,12 @@ This step is displayed when you assign a data source. It is also displayed when 
 >[Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant to export message mappings.
 
 - [CANCEL]    
-   Click this button to finish the wizard without saving it. The wizard window is closed.
+   Click this button to finish the wizard without saving it.    
+   The wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to go one step forward. The *Optional: Filter items* wizard step is displayed (see below). 
+   Click this button to go one step forward.    
+   The *Optional: Filter items* wizard step is displayed (see below). 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -263,10 +267,12 @@ This step is displayed when you assign a data source. It is also displayed when 
 This step is currently not in use. In general, it is only relevant for mass exports.
 
 - [CANCEL]    
-   Click this button to finish the wizard without saving it. The wizard window is closed.
+   Click this button to finish the wizard without saving it.   
+   The wizard window is closed.
 
 - [CONTINUE]   
-   Click this button to go one step forward. The *Select additional data* wizard step is displayed (see below). 
+   Click this button to go one step forward.    
+   The *Select additional data* wizard step is displayed (see below). 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -286,10 +292,12 @@ Use this step to enter additional data such as the limit of line items to be out
    When you currently specify the header definition settings: Enter the maximum number of line items that you want to output per message.
 
 - [CANCEL]    
-   Click this button to finish the wizard without saving it. The wizard window is closed.
+   Click this button to finish the wizard without saving it.   
+   The wizard window is closed.
 
 - [FINALIZE]   
-   Click this button to finalize your settings. The wizard is closed. The *Edit definition* view is displayed. Do not forget to save your settings in this view. 
+   Click this button to finalize your settings.   
+   The wizard is closed. The *Edit definition* view is displayed. Do not forget to save your settings in this view. 
  
 - [< BACK]   
   Click this button to return to the previous step.
@@ -320,10 +328,12 @@ The *Mapping settings* tab is used to specify some basic data that is needed to 
    Edit the GLN number of the message receiver.
 
 - [CANCEL]    
-   Click this button to finish the mappings settings without saving it. The *Exporter definitions* view is displayed.
+   Click this button to finish the mappings settings without saving it.   
+   The *Exporter definitions* view is displayed.
 
 - [SAVE]   
-   Click this button to save the mapping settings. The *Exporter definitions* view is displayed.
+   Click this button to save the mapping settings.    
+   The *Exporter definitions* view is displayed.
 
 
 

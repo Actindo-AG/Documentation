@@ -3,7 +3,6 @@
 
 # Manage header file settings
 
-
 The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.  
 
 >[INFO] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
@@ -47,12 +46,12 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
 6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed. All segments that contain mandatory content in the EDIFACT standard, are indicated with an M[Number]  in italic and bold, for example ***M35***.    
+    The message structure with its single segments is displayed. All segments that contain mandatory content in the EDIFACT standard, are indicated with an M[Number] in italic and bold, for example ***M35***.    
     The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
 
-7. Continue with [Specify message name &frasl; constant text value](#specify-message-name-⁄-constant-text-value) described below. Alternatively, click the [SAVE] button in the upper right corner to save your settings.
+7. Continue with [Specify message name &frasl; constant text value](#specify-document-name-⁄-constant-text-value) described below. Alternatively, click the [SAVE] button in the upper right corner to save your settings.
    After saving, the *Exporter definitions* view is displayed.
 
 
@@ -162,7 +161,7 @@ This procedure shows how to edit a string attribute. A string attribute is used 
 
 Specify the message dates your business partner requires.   
 
-Each invoice can have a lot of different dates, for example the invoice date, the expected delivery date, the tax point date, and much more. The *Actindo* EDIFACT message structure contains only one BTM segment in its raw state. However, for many business partners, multiple BTM segments must be completed. As soon as you have specified one value in a BTM segment, a further BTM segment is added automatically so that you can specify as much BTM segments as your business partner require.
+Each invoice can have a lot of different dates, for example the invoice date, the expected delivery date, the tax point date, and much more. The Actindo EDIFACT message structure contains only one BTM segment in its raw state. However, for many business partners, multiple BTM segments must be completed. As soon as you have specified one value in a BTM segment, a further BTM segment is added automatically so that you can specify as much BTM segments as your business partner require.
 
 This procedure shows how to edit message dates. The message dates require both the description of the date and a variable used to determine it.
 
@@ -293,7 +292,7 @@ This procedure shows how to specify a condition for the output of a message segm
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDatesDangerousGoods.png "[Message structure]")
 
 1. Click the ![Add condition](../../Assets/Icons/AddCondition.png) (Add condition) button at the segment that you want to transfer only in case that a certain situation occurs.     
-    - To the right of the *S_FTX* segment, the ![Remove condition](../../Assets/Icons/Cross02.png) (Remove condition) button is displayed, which you can use to delete the condition, if desired.
+    - To the right of the *S_FTX* segment, the ![Remove condition](../../Assets/Icons/Cross02.png) (Remove condition) button is displayed. You can use it to delete the condition, if desired.
     - The condition has been marked for a later data mapping.
     
 2. Click the [SAVE] button to save the message structure.   

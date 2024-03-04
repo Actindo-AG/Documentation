@@ -27,7 +27,7 @@ The following functions are available for the editing toolbar:
     Click this button to enable the selected connection(s). This button is only displayed if the checkbox of at least one inactive connection is selected. 
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit connection](#edit-datahub-exporter-connection).
+    Click this button to edit the selected *DataHub Exporter* connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit a connection. The *Edit connection* view is displayed, see [Edit DataHub exporter connection](#edit-datahub-exporter-connection).
 
 The following functions and fields are available in this view:
 
@@ -69,8 +69,7 @@ The *Connection* view contains the fields required to define a connection.
 
 - *Driver*  
     Click the drop-down list and select the *DataHub Exporter* driver. All installed drivers are displayed.  
-    > [Info] Drivers are licensed and must be acquired via the app store or the corresponding e-commerce partner platform. The applicable driver credentials to establish the connection are obtained when acquiring the corresponding license.
-
+    
 - [SAVE]     
    Click this button to save the connection. 
 

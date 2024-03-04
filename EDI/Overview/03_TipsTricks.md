@@ -12,13 +12,13 @@ The EDIFACT standard defines a scheme according to which messages should be stru
 The EDIFACT standard is available in different versions. Every year one or two versions are released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version specified by your business partner in the *DataHub Exporter* module.   
 
 Note that the structure of the format is standardized, not the usage. As a result, each user/business partner defines individually the data to be provided for the message structure. This also applies to the classification of the segments and fields (mandatory, required, optional, and others), which may sometimes differ from the EDIFACT standard.   
->[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you must send the messages, such as your supplier, your customer, or your fulfillment partner.
+>[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you need to send the messages to, such as your supplier, your customer, or your fulfillment partner.
 
 
 
 ## Tips for preparation in advance
 
-- Many internet providers offer EDIFACT information. For a first impression, we can recommend the https://www.truugo.com/edifact/ website, which provides a well-structured presentation of the EDIFACT messages in their different versions.  
+- Many internet providers offer EDIFACT information. For a first impression, we can recommend the https://www.truugo.com/edifact/ website. It provides a well-structured presentation of the EDIFACT messages in their different versions.  
 
 - Ask your business partner for the EDIFACT message specification. Sometimes it is also called message implementation guide. Specifications from some major vendors are also available for download on the Internet.
 

@@ -122,7 +122,7 @@ In general, the most common attribute sets are the standard error log message at
 **API communication attribute set**
 
 - *Code*   
-    HTTP response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15).
+    HTTP response status code. For detailed information about the http status codes, see [http status codes](https://www.rfc-editor.org/rfc/rfc9110#section-15) on the rfc-editor.org website.
 
 - *Endpoint and method*   
     HTTP method of the API request and URL endpoint to which the request was sent.
@@ -147,7 +147,7 @@ In general, the most common attribute sets are the standard error log message at
 **Dependencies**
 
 The list displays all dependencies of the selected log message. 
-For detailed information on the Dependencies* tab, see [Dependencies](../../DataHub/UserInterface/07_DependenciesTab.md) in the *DataHub* documentation
+For detailed information on the *Dependencies* tab, see [Dependencies](../../DataHub/UserInterface/07_DependenciesTab.md) in the *DataHub* documentation
 
 
 

@@ -1,10 +1,11 @@
 [!!Exports](../UserInterface/01_Exports.md)
+[!!Manage header file settings](02_ManageHeaderFileSett.md)
 
 # Manage line item file settings
 
 The following procedures show by using an example how to specify the line item section required by your business partner. As example the D07A INVOIC message is used.
 
-For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Specify header file settings](./02_ManageHeaderFileSett.md).
+For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Manage header file settings](./02_ManageHeaderFileSett.md#).
 
 
 ## Prepare data mapping for the line items

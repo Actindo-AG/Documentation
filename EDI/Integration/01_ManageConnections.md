@@ -1,3 +1,5 @@
+[!!CONNECTIONS (Settings)](../UserInterface/02a_Connections.md)
+
 # Manage connections
 
 Establish connections via drivers to connect your EDIFACT message receivers with the *Actindo Core1 Platform*. The drivers represent a specific internet protocol to transfer the data.   
@@ -56,7 +58,7 @@ Edit a connection to adjust any changed credentials, the connection name, or fur
 
 #### Prerequisites
 
-At least one connection has been created, see [Create a connection](#create-a-connection).
+At least one connection has been created, see [Create connection](#create-connection).
 
 #### Procedure
 
@@ -108,8 +110,8 @@ Once a connection has been established, it cannot be deleted because potential d
 
 #### Prerequisites
 
-- At least one connection has been established, see [Create a connection](#create-a-connection).
-- At least one connection is active, see [Enable a connection](#enable-a-connection).
+- At least one connection has been established, see [Create connection](#create-connection).
+- At least one connection is active, see [Enable connection](#enable-connection).
 
 #### Procedure
 
