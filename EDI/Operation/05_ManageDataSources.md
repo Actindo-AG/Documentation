@@ -27,7 +27,7 @@ At least one definition setting has been created, see [Create basic definition s
     The *Edit definition "Definition name"* view is displayed. The *Settings* tab or the last opened tab is displayed by default.
 
 2. Click the *Data sources* tab.   
-    The *Data sources* tab is displayed. Since you have not yet created a data source, *No data source* is displayed in the list. 
+    The *Data sources* tab is displayed. Because you have not yet created a data source, *No data source* is displayed in the list. 
 
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
@@ -147,7 +147,7 @@ At least one data source has been assigned, see [Assign data source](#assign-dat
 4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
    The data source has been removed.
 
-5. Click the [SAVE] button.    
+5. Click the [SAVE] button in the top right corner.    
     You have saved the definition settings. The *Exporter definitions* view is displayed. 
      
 

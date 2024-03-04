@@ -43,7 +43,7 @@ Define basic data for the export definition. You must define a definition settin
 
 2. Enter a label for the definition. It might be useful to choose a name that contains the following:      
     - The information that it is an EDIFACT message. Note that the labels are visible in the *ETL attribute set mappings* window of the *DataHub* module later. Therefore, the prefix EDIFACT may be useful to distinguish these attribute set mappings from others.  
-    - The information if it is the header definition or the line item definition of the message.   
+    - The information if it is the header definition or the line item definition of the message   
     - The message type (for example, INVOIC)   
     - The direction (Export)   
     - The business partner name  
@@ -58,7 +58,7 @@ Define basic data for the export definition. You must define a definition settin
 4. Click the *Default connection* drop-down list and select the connection to the related business partner. 
 
 5. Enter the access key of your connection in the *Access key* field.
-     The access key is a key that you can give to your business partner to access your *Actindo* tenant without logging in. You can freely specify any string.  
+     The access key is a key that you can give to your business partner to access your *Actindo* tenant without logging in, for example, to return confirmation messages.<!---Stimmt das?--> You can freely specify any string.  
 
      If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
@@ -109,7 +109,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.     
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables You  create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables you to create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-setting).
 - Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).
@@ -239,11 +239,11 @@ Delete a definition if both you no longer need it and you want to clear your def
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
 1. Click the checkbox of the definition(s) you want to delete.   
-    The toolbar is displayed.
+    The editing toolbar is displayed.
 
     ![Delete definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionToolbar.png "[Delete definition]")
 
-2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") button.   
+2. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
     The definition is deleted without preceding security query.
   
     

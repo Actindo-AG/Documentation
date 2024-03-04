@@ -3,7 +3,7 @@
 Extend your workflows by adding an action to export the EDIFACT messages. To do this, use a workflow that processes the business document you want to transfer to your EDIFACT message receiver, for example an invoice or a delivery note. 
 
 To integrate the export to the workflow, you need to insert an
-*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). You can insert this action at any position in the workflow in which you have access to the required business document data. Bear in mind that any errors that occur after the EDIFACT export and before posting for subsequent processes can lead to data inconsistencies that need to be cleaned up.
+*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). You can insert this action at any position in the workflow in which you have access to the required business document data. Bear in mind that if any errors that occur after the EDIFACT export and before posting for subsequent processes can lead to data inconsistencies that need to be cleaned up.
 
 The following example shows how to export a delivery note via an export definition.
 
@@ -27,14 +27,14 @@ The following example shows how to export a delivery note via an export definiti
 
     ![Add Execute PHP code](../../Assets/Screenshots/EDI/Operation/WorkflowExecutePHPCode.png "[Add Execute PHP code]")
 
-3. Click the *PHP code* field in the *Configuration* setting.   
+3. Enter a label in the *Label* field with which you can easily identify the purpose of this action, for example **Export to Customer 2**.
+
+4. Click the *PHP code* field in the *Configuration* section of the action settings.   
     A pop-up window for editing the PHP code is displayed.
 
     ![PHP code input window](../../Assets/Screenshots/EDI/Operation/WorkflowPHPInputWindow.png "[PHP code input window]")
 
-4. Enter a label in the *Label* field with which you can easily identify the purpose of this action, for example **Export to Customer 2**.
-
-4. Insert the following lines of code (example).
+5. Insert the following lines of code (example).
 
     ```
     <?php
@@ -42,9 +42,9 @@ The following example shows how to export a delivery note via an export definiti
     $deliveryNote = $in0;
     $exportController = new \Actindo\Modules\Actindo\DataHubExporter\ExportController();
     $exportRequest = new  \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);   
-    $exportRequest->entityId = $in0->getId();
     $exportRequest->connectionIds = []; 
-    $exportRequest->definitionId = ; 
+    $exportRequest->definitionId = ;    
+    $exportRequest->entityId = $in0->getId();
     $exportRequest->entityClass = /Actindo\Core\Database\ClassUtils::getRealClass(get_class($in0));  
     $exportController->export($exportRequest);
     return [$in0];
@@ -55,10 +55,10 @@ The following example shows how to export a delivery note via an export definiti
     |<?php|PHP's opening tag     |
     |$deliveryNote = $in0;| Type of the entity that is to be exported (e.g. business document type that have been loaded at the start point and is input in *in0* input port), see the *Order Management* module for information on type <!---Stimmt das?-->|
     |$exportController = new \Actindo\Modules\Actindo\DataHubExporter\ExportController();| Get exporter|
-    | $exportRequest = new \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);|Create new export request|
+    | $exportRequest = new \Actindo\Modules\Actindo\DataHubExporter\Request\ExportRequest(4);|Create new export request|  
+    |$exportRequest->connectionIds = [];| List of connection ID(s) (comma-separated)|
     |$exportRequest->definitionId = []; | ID of the export definition, for example, $exportRequest->definitionId = 112;|
     |$exportRequest->entityId = $in0->getId(); | Primary identifier of the entity that is to be exported (e.g. business document that have been loaded at the start point and is input in *in0* input port).|
-    |$exportRequest->connectionIds = [];| List of connection IDs (comma-separated)|
     |$exportRequest->entityClass = \Actindo\Core\Database\ClassUtils::getRealClass(get_class($in0));| Type of the entity (class name) input in *in0* input port|
     |return [$in0];| end of input
      

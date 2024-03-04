@@ -47,7 +47,7 @@ Get the header file segments of an EDIFACT message in order to be able to fill t
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessNew.png "[Message]")
 
 6. Expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed. All segments that contains mandatory content in the EDIFACT standard, are indicated with an M[Number]  in italic and bold, for example ***M35***.    
+    The message structure with its single segments is displayed. All segments that contain mandatory content in the EDIFACT standard, are indicated with an M[Number]  in italic and bold, for example ***M35***.    
     The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Message structure]")
@@ -164,7 +164,7 @@ Specify the message dates your business partner requires.
 
 Each invoice can have a lot of different dates, for example the invoice date, the expected delivery date, the tax point date, and much more. The *Actindo* EDIFACT message structure contains only one BTM segment in its raw state. However, for many business partners, multiple BTM segments must be completed. As soon as you have specified one value in a BTM segment, a further BTM segment is added automatically so that you can specify as much BTM segments as your business partner require.
 
-This procedure shows how to edit message dates. The message dates require both the description of the date and the variable for determining it.
+This procedure shows how to edit message dates. The message dates require both the description of the date and a variable used to determine it.
 
 #### Prerequisites
 

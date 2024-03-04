@@ -23,7 +23,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
 ![Export definitions](../../Assets/Screenshots/EDI/Operation/ExportDefinitions.png "[Export definitions]")
 
-1. Click the header export definition for which you want to prepare the data mapping for the line items. In our example, it is the **Business document position**.   
+1. Click the header export definition for which you want to prepare the data mapping for the line items. 
     The *Edit definition "Definition name"* view is displayed. The *Settings* tab is displayed by default.
 
 2. Click the *Data sources* tab.   
@@ -59,7 +59,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
 8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
   
-9. Click the [SAVE] button to save the header definition.   
+9. Click the [SAVE] button in the top right corner to save the header definition.   
    The *Exporter definitions* view is displayed.
 
 
@@ -112,7 +112,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
-8. Click the [SAVE] button.   
+8. Click the [SAVE] button in the top right corner.   
      - The *Exporter definitions* view is displayed.   
      - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
      - In the header definition file settings, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
@@ -149,7 +149,7 @@ Start specifying the line item segments by filling out the single elements of th
 
     ![D_1082 row](../../Assets/Screenshots/EDI/Operation/ExportDefLIN1082.png "[D_1082 row]")
 
-4. Click the [SAVE] button to save the message structure.   
+4. Click the [SAVE] button in the top right corner to save the message structure.   
     The *Exporter definitions* list is displayed. The defined string attribute is now added to the attribute mapping function in the *Data sources* tab.
 
 5. Open the line item definition again and click the *Data sources* tab.   
@@ -174,7 +174,7 @@ Start specifying the line item segments by filling out the single elements of th
 
 7. Click the [SAVE] button in the top right corner of the wizard and finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
 
-8. Click the [SAVE] button to save the line item definition.   
+8. Click the [SAVE] button in the top right corner to save the line item definition.   
    The *Exporter definition sources* view is displayed.
 
 9. Continue with specifying the line items file settings. For detailed information on examples how to define constant text values, string attributes, dates, conditions, and free texts, see [Manage header file settings](./02_ManageHeaderFileSett.md#).

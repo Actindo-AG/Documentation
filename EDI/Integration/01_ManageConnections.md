@@ -104,7 +104,7 @@ A connection can only be used if it is active. Otherwise, no data is being synch
 
 ## Disable connection
 
-Once a connection has been established, it cannot be deleted because potential dependencies. Nevertheless, the connection can be disabled if it is no longer used. It is possible to disable several active connections at a time.
+Once a connection has been established, it cannot be deleted because potential dependencies. Nevertheless, you can disable a connection if you no loner use it. You can disable several active connections at a time.
 
 #### Prerequisites
 
