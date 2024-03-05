@@ -19,7 +19,7 @@ Export the JSON code of an existing workflow that you want to copy.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to copy in the list of workflows.   
-    The *Process orchestration versions* view with all versions of the selected workflow is displayed.
+    The *Workflow versions* view with all versions of the selected workflow is displayed.
 
     ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -78,12 +78,12 @@ Import the exported JSON code to an existing or new workflow to copy it.
 3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
   The workflow context menu is displayed.
 
-  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+   ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 4. Click the *Import JSON ..* menu entry in the context menu.   
   The *Import JSON* window with the JSON code for the current workflow is displayed.
 
-  ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
+   ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
 5. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
   The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.

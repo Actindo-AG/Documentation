@@ -193,6 +193,10 @@ A token is a container carrying data needed to execute an action, for example a 
 
 A process is started with a single token at the start place, which will be input in an action to be executed. In turn, an action may output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
 
+![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Processes/TokenDiagram.png "[Tokens]")
+
+<!---Habe ich das einigermaßen richtig verstanden? Dann mache ich die Grafik noch schön (https://miro.com/app/board/uXjVNptxyAI=/)-->
+
 Next to the status of every started action, that is, with status *In progress*, *Done* or *Error*, a number is displayed. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received. For example, if an action displays the message *Done 1*, this means that the action has already been executed and that one token has been processed.    
 For detailed information about the process actions, see [Process actions](../UserInterface/04a_ProcessActions.md).
 

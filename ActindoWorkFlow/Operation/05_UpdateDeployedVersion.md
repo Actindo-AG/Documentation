@@ -1,7 +1,7 @@
 # Update a deployed version
 
-The *Update deployed version* function is designed to support in the test phase. Updating a deployed version does not create a new version, but overwrites the current version. This means that changes to the workflow are not recorded.   
-It is recommended that you do not use it in a production system. Note that if you use this option in a production system, you will not be able to display both the recent changes with the *Show changes* function and to display a change log. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.   
+The *Update deployed version* function is designed to support in the test phase. Updating a deployed version does not create a new version, but overwrites the current version. This means that changes to the workflow are not recorded. For example, this function is suitable, if one of the included transitions is running on an error because of faulty configuration, and you do not want to set up the whole workflow again.       
+It is recommended that you do not use this function in a production system.
 
 #### Prerequisites
 
@@ -48,7 +48,7 @@ It is recommended that you do not use it in a production system. Note that if yo
 
     In case, an error message is displayed, proceed as follows:
     1. Click the [OK] button to close the error message.
-    2. Undo the not allowed change by clicking the ![Undo](../../Assets/Icons/Undo02.png "[Undo]") (Undo) button or deploy the workflow as usual by creating a new version.
+    2. Undo the last change by clicking the ![Undo](../../Assets/Icons/Undo02.png "[Undo]") (Undo) button or deploy the workflow as usual by creating a new version.
 
 
 

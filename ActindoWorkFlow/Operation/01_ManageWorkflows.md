@@ -122,7 +122,8 @@ Connect the transition to the a place to create a valid workflow.
 ## Edit a workflow
 
 Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
->[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
+
+>[Info] Scroll the mouse wheel to zoom in or out. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
 ### Select a workflow
 

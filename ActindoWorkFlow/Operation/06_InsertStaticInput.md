@@ -1,10 +1,7 @@
 # Insert a static input
 
-With the static input function, you can use an input port to pass customer-specific data to the workflow endpoint.     
-For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start point and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to the workflow endpoint.   
-All input ports not yet connected to a place are displayed in the *Static input* section of the transition's side bar. The static input function allwos you to enter an appropriate value in the text field below the input name. The value entered must be a valid JSON value. 
-
-> [Info] You cannot configure all input ports as static inputs. At least one input port must be linked to a place.  
+With the static input function, you can use an input port to pass customer-specific data to a transition, with which you want to process it.     
+For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start point and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to an API endpoint.   
 
 The following procedure shows an example of how to edit the static inputs by adding a sales channel information that requires complex JSON code. 
 
@@ -32,7 +29,8 @@ The following procedure shows an example of how to edit the static inputs by add
 
     
 3. Check the parameters of the API.    
-    All required parameters are indicated. You must fill the required parameters to ensure a smooth data transfer. 
+    All required parameters are indicated. You must fill the required parameters to ensure a smooth data transfer.
+     
 
    ![API parameters](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputParameters.png "[API parameters]")
    
@@ -62,3 +60,5 @@ The following procedure shows an example of how to edit the static inputs by add
     
 
 9. If desired, click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button to delete the JSON code. 
+
+10. If desired, add further static inputs. Note that you cannot configure all input ports as static inputs. At least one input port must be linked to a place.  

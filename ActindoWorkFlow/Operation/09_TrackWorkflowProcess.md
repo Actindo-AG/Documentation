@@ -37,21 +37,20 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 1. Click the *Status* drop-down list and select the **All** option.  
     All processes, regardless of their status, are displayed.
 
-2. Click the *Process orchestration* drop-down list and select the workflow you want to check.  
+2. Click the *Workflow* drop-down list and select the workflow you want to check.  
     All processes of the selected workflow are displayed.
 
 3. Check the status of the desired process in the *Status* column of the processes list.
 
-4. If desired, click a process to display the *Process ID* view, which includes a diagram of the process and detailed information about the individual process actions and tokens.    
-    For detailed information about individual process actions and tokens, see [Check the process action status](#check-the-process-action-status) and [Check the token status and content](#check-the-token-status-and-content).
-
+4. If desired, click a process to display the *Process ID* view, which includes a diagram of the process and detailed information about the individual process actions, tokens, and logs.    
+ 
 
 
 ## Check the process action status
 
 The process action status can be checked to monitor what actions have already been executed, whether problems have occurred and at what place, or whether manual actions are awaiting a user decision. If the process is currently active, you can observe the process execution in real time.  
 
-The *Process ID* view displays a diagram of the selected process including all places and actions. More details about the process actions, logs, and tokens included in the diagram are displayed in separate tabs at the bottom of the *Process ID* view.
+The *Process ID* view displays a diagram of the selected process including all places and actions. More details about the process actions, tokens, and logs included in the diagram are displayed in separate tabs at the bottom of the *Process ID* view.
 
 #### Prerequisites
 
@@ -81,6 +80,8 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Manual action** (yellow), see [Make a user decision](#make-a-user-decision)
 
 4. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
+
+    >[Info] Scroll the mouse wheel to zoom in or out. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
     ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
 
@@ -119,7 +120,7 @@ The *Process ID* view displays a diagram of the selected process including all p
 
     > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](./01_ManageWorkflows.md#edit-an-action).
 
-10. Check when the action will be executed next time in the *Defer until* column.
+10. Check when the action will be executed next time in the *Defer until* column. This function depends on the action configuration and is not available in all actions. It is also filled when a user executes a manual action and sets a follow-up date.
 
 11. If necessary, select the checkbox of an action for which you want to perform further operations.   
    The editing toolbar is displayed. The functions available for this specific action status are displayed, for example, the functions retry, abort, or rerun.
@@ -159,13 +160,7 @@ The log can be checked to identify issues that may be caused by a faulty workflo
 
 The token status and content can be checked to monitor how data progress within a process and, if necessary, detect and solve any data type related issues.   
 
-The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a business document for example.
-
-A process is started with a single token at the start place, which will be input in an action to be executed. In turn, an action can output several tokens, which will become inputs for subsequent actions. It is therefore possible that a place contains several tokens, for example, several delivery notes issued for different parts of a same order. Each token will then be processed separately, that means, that the subsequent actions will be executed once for each token available.
-
-![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Processes/TokenDiagram.png "[Tokens]")
-
-<!---Habe ich das einigermaßen richtig verstanden? Dann mache ich die Grafik noch schön (https://miro.com/app/board/uXjVNptxyAI=/)-->
+The *Tokens* tab displays the tokens being processed. A token is a container carrying any data needed to complete an action, which could be a number or a business document for example. For detailed information, see [Tokens](../Overview/04_WorkflowProcessElements.md#tokens).
 
 #### Prerequisites
 
@@ -258,20 +253,20 @@ For example, a process may have taken a long time to be executed. Here you can s
 
 6. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
-7. Check the *Worker number* to see the number of worker who performed the process action. 
+7. Check the *Worker number* to see the number of workers who performed the process action. 
 
 8. Check the *Transition* column to see the name of the transition.
 
 ## Make a user decision
 
-A process will be paused if a manual action is waiting for a user decision, for example, if a business transaction needs an approval. Make a user decision, so that the workflow process can continue.  For detailed information on manual actions, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
+A process will be paused if a manual action is waiting for a user decision, for example, if a business transaction needs an approval. Make a user decision, so that the workflow process can continue.  For detailed information on the *Manual action* core action, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
 
 
 #### Prerequisites
 
 - A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
-- The workflow process requires a user decision.
+- The workflow process requires a user decision because it contains a *Manual action* core action.
 
 #### Procedure
 
@@ -295,8 +290,8 @@ A process will be paused if a manual action is waiting for a user decision, for 
    
    ![Take decision](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionsTakeDecision.png "[Take decision]")
 
-5. If you do not want to postpone the decision, click the *Select output* drop-down list, select the desired decision and click the [SET DECISION] button.   
-    The workflow process proceeds. 
+5. If you want the process to continue directly, click the *Select output* drop-down list, select the desired decision, and click the [SET DECISION] button.   
+    The workflow process changes to the *In progress* status and proceeds. 
 
 6. If you want to postpone the decision to a later date, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button, select the desired date and click the [SET FOLLOWUP DATE] button.   
-    The workflow process remains in the *In process* status. In the *Actions* tab, the follow-up date is included in the *Defer until* column.
+    The workflow process remains in the *Manual* status. In the *Actions* tab, the follow-up date is included in the *Defer until* column.

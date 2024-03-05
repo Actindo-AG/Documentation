@@ -2,7 +2,7 @@
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
 
-[comment]: <> (add link to Tasks module if available> Currently not available 21.02.2024)
+[comment]: < add link to Tasks module if available (Currently not available 21.02.2024)>
 
 # OVERVIEW (Workflow)
 
@@ -128,10 +128,11 @@ The following functions are available for the editing toolbar:
         Click this entry to compare two versions of a workflow to see the differences (insertions/deletions). For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
     - *Import JSON*  
-        Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
+        Click this entry to import a workflow in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
+        Import the exported JSON code to an existing or new workflow to copy it.
 
     - *Export JSON*  
-        Click this entry to export data in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
+        Click this entry to export a workflow in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
 
     - *Update deployed version*   
         In the test phase, click this entry to update the current workflow version without creating a new version. For detailed information, see [Update a deployed version](../Operation/05_UpdateDeployedVersion.md). 
@@ -151,7 +152,7 @@ The following functions are available for the editing toolbar:
 The workflow diagram includes the following elements:  
 
 - Place    
-    Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions.   
+    Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions. For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).   
     If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
 
     ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
@@ -161,8 +162,7 @@ The workflow diagram includes the following elements:
 
     - *Data container*  
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-        For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).
-
+        
 - Start/end place   
     Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
     If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.

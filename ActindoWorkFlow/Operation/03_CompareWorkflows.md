@@ -1,6 +1,6 @@
 # Compare the workflows versions
 
-The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the code lines are highlighted.  
+The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the relevant code lines are highlighted.  
 You can use this function to compare a specific workflow version both with any other version of the selected workflow available on the current instance or with any workflow version available on another instance. As you can edit the JSON code directly in the compare view, you can use this function to compare a workflow to a version available on another instance or to do insertions and deletions.   
 You can use this function for displaying change logs as well as to be able to do software-audits.
 
@@ -40,7 +40,7 @@ The *Workflow versions* view is displayed.
 
 2. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.  
 
-3. Select the *Show changes* menu entry.
+3. Select the *Show changes* menu entry.  
     The *Workflow* pop-up window is displayed. 
 
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
@@ -48,7 +48,7 @@ The *Workflow versions* view is displayed.
 
 ## Compare the versions
 
-Compare a workflow with any other version available on the current instance.
+Compare a workflow version with any other version available on the current instance.
 
 #### Prerequisites
 
@@ -93,9 +93,9 @@ Compare a workflow version with any other version available on another instance.
 #### Prerequisites
 
 - At least one workflow has been created in each required instance, see [Create a workflow](#create-a-workflow).
-- You have the required rights to edit a workflow.
+- You have the required rights to edit a workflow in each of the instances.
 - You have opened the *Workflow* pop-up window, see [Open the comparison window](#open-the-comparison-window).
-- You are logged in to the instance, from which you want to compare a workflow version.
+- You are logged in to the instance, from which you want to retrieve the desired workflow version.
 
 #### Procedure
 
