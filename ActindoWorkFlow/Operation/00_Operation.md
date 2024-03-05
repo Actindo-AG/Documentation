@@ -26,8 +26,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Delete a trigger](./02_ManageTriggers.md#delete-a-trigger)
 
 - [Compare the workflow versions](./03_CompareWorkflows.md)
-    - [Compare the workflow version with another version](./03_CompareWorkflows.md#compare-the-workflow-version-with-another-version)   
-    - [Compare the workflow versions from different instances](./03_CompareWorkflows.md#compare-the-workflow-versions-from-different-instances) 
+    
     
 - [Copy a workflow](./04_CopyWorkflow.md)
     - [Export the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code)

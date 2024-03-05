@@ -39,17 +39,16 @@ No prerequisites to fulfill.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired data model in the *Model* field, for example a PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. The model should correspond to the *Data Model* defined in the start point of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow).  
-By entering the model, replace the dots with back slashes (**Actindo\Modules\Actindo\PIM\Models\PIMProduct**).   
+5. Enter the applicable namespace of the desired entity in the *Model* field, for example the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. The model should be equivalent to the *Data model* defined in the start point of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
     The entered namespace is displayed to the right of the trigger name above the trigger input line.
 
-    > [Info] You can take the data models from the related data model under *Dev Tools > API > Tab DATA MODELS*.
+    > [Info] You can take the data models from the related data models under *Dev Tools > API > Tab DATA MODELS*.
 
 6. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
     - **After creation**   
-        Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
+        Select this option for the trigger to be executed after the entity represented by the model has been created. This option is preselected by default.
     - **After saving**   
-        Select this option for the trigger to be executed after the model has been saved.
+        Select this option for the trigger to be executed after the entity represented by the model has been saved.
 
 7. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
     - **If all are met**  
@@ -117,17 +116,17 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
     - **Does not equal**   
         Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
     - **Is set**  
-        Select this option if any property value must be set for the trigger to be executed. You must not enter a value in the *Value* field. A toggle is available instead of a value:   
+        Select this option if any property value must be set for the trigger to be executed. A toggle is available to define the condition:   
         - Enable the toggle to define that a property value must be set for the condition to be met.
         - Disable the toggle to define that a property value must not be set for the condition to be met.
 
 <!--ICBPM-204 eingebaut-->
 
-5. If necessary, enter the corresponding value in the *Value* field.
+5. If necessary, enter the corresponding value in the *Value* field or enable/disable the toggle
 
-    > [Info] Repeat the steps **1** to **5** to add a further condition to the trigger. You can add an unlimited number of conditions.
+6. If desired, repeat the steps **1** to **5** to add further conditions to the trigger. You can add an unlimited number.
 
-6. Click the [APPLY CHANGES] button.  
+7. Click the [APPLY CHANGES] button.  
     The condition has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
@@ -191,7 +190,7 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 You can delete a trigger that is no longer relevant.
 
-> [Caution] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing status to *Inactive* in the *Status* drop-down list.
+> [Caution] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing the status to *Inactive* in the *Status* drop-down list.
 
 #### Prerequisites
 
