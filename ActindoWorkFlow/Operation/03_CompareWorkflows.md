@@ -1,4 +1,4 @@
-# Compare the workflows
+# Compare the workflows versions
 
 The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the code lines are highlighted.  
 You can use this function to compare a specific workflow version both with any other version of the selected workflow available on the current instance or with any workflow version available on another instance. As you can edit the JSON code directly in the compare view, you can use this function to compare a workflow to a version available on another instance or to do insertions and deletions.   
@@ -46,7 +46,7 @@ The *Workflow versions* view is displayed.
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
     
 
-## Compare the workflow versions
+## Compare the versions
 
 Compare a workflow with any other version available on the current instance.
 
@@ -86,7 +86,7 @@ Compare a workflow with any other version available on the current instance.
 
 
 
-## Compare the workflow version from a different instance
+## Compare versions of different instances
 
 Compare a workflow version with any other version available on another instance.
 
@@ -117,7 +117,7 @@ Compare a workflow version with any other version available on another instance.
     
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
     
-4. Compare the versions. If desired, use the assistant functions, see [Compare the workflow versions](#compare-the-workflow-versions). 
+4. Compare the versions. If desired, use the assistant functions, see [Compare the versions](#compare-the-versions). 
 
 5. If desired, copy missing code from the source to the target version or delete unnecessary code in the target. 
 
@@ -125,7 +125,7 @@ Compare a workflow version with any other version available on another instance.
 
 
 
-## Change the workflow to be compared 
+## Change to the workflow to be compared 
 
 Change the workflow to be compared without leaving the comparison pop-up window.
 
@@ -157,7 +157,7 @@ Change the workflow to be compared without leaving the comparison pop-up window.
 
 5. Repeat step 3 and 4 for the right column.
 
-6. Compare the workflow versions. If desired, use the assistant functions, see [Compare the workflow versions](#compare-the-workflow-versions). 
+6. Compare the workflow versions. If desired, use the assistant functions, see [Compare the workflow](#compare-the-versions). 
 
 7. Click the [X CLOSE] button to close the comparison window.
 
