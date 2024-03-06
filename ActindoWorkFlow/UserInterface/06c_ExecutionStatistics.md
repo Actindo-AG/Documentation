@@ -6,6 +6,8 @@
 
 The list displays the average processing time in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify process actions that take longer than average and to use this information for further analysis of your workflow.   
 
+The following functions and fields are available for this list:
+
  - *From-to*    
    Enter the time stamp of the start and end time you want to analyze. The default is the current time minus one hour. 
 
@@ -15,7 +17,6 @@ The list displays the average processing time in seconds for each process action
 - [LOAD STATISTICS]    
    Click this button to display the statistic.
 
-The following functions and fields are available:
    
 - *Number of executions per outcome*   
     Specifies how often a process action has been processed per outcome.

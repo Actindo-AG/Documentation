@@ -23,7 +23,7 @@ The *Workflow versions* view is displayed.
     
 ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
-**Open the comparison window via the workflow versions view**
+**Open the comparison window via the Workflow versions view**
 
 1. Click the checkbox at the desired version you want to use for comparison.   
     The editing toolbar is displayed.

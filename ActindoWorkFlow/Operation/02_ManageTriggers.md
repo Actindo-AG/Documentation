@@ -2,7 +2,7 @@
 
 # Manage the triggers
 
-When designing a workflow to map a business process, the *Triggers* function allows you to determine a specific data model, such as a product or a dispatch note, to initiate a process. Any data model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, multiple conditions can be configured for a trigger to recreate all possible variants of a workflow.   
+When designing a workflow to map a business process, the *Triggers* function allows you to determine a specific data model, such as a product or a dispatch note, to initiate a process. Any data model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, you can configure multiple conditions for a trigger to recreate all possible variants of a workflow.   
 You can create one or several triggers for a workflow, define conditions, edit the triggers, or delete them.
 
 
@@ -12,7 +12,7 @@ Create a trigger to determine a business object to initiate a process and the re
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -39,7 +39,7 @@ No prerequisites to fulfill.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired entity in the *Model* field, for example the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. The model should be equivalent to the *Data model* defined in the start point of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
+5. Enter the applicable namespace of the desired entity in the *Model* field, for example the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. The model should be equivalent to the *Data model* defined in the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
     The entered namespace is displayed to the right of the trigger name above the trigger input line.
 
     > [Info] You can take the data models from the related data models under *Dev Tools > API > Tab DATA MODELS*.

@@ -52,8 +52,8 @@ The following fields and funtions are available in this view:
 - *Workflow ID*       
     Workflow identification number. The ID number is automatically assigned by the system.
 
-- *Search string*   
-    [TO BE ENHANCED]
+<!--- *Search string*   
+    <![TO BE ENHANCED]-->
    
 - *Created*   
     Date and time of creation.

@@ -80,7 +80,7 @@ Enter the absolute priority number or add the relative number to the existing pr
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision in the process.      
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision.      
 For example, it allows you to implement approval procedures in your workflows such as that each purchase order that exceeds a certain amount is to be checked by a user, before it is released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
 
 

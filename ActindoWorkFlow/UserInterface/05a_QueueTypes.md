@@ -78,7 +78,8 @@ The following functions and fields are available in the list:
         The executable actions within the oldest process are executed first by the workers.
 
 - ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling)   
-    Enable this toggle if you want to use the queue type to throttle a process. The *Throttle action limit* and *Throttle period (minutes)* fields are ready for input. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
+    Enable this toggle if you want to use the queue type to throttle a process.    
+    The *Throttle action limit* and *Throttle period (minutes)* fields are ready for input. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
 - *Throttle action limit*  
     Specify the maximum number of actions to be executed by this action.   
