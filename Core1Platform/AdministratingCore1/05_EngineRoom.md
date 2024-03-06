@@ -30,7 +30,10 @@ You have administrator rights for the current instance.
 
 ## Clear tenant cache
 
-Clearing the tenant cache removes all entries that are currently in the cache of the instance. It is used if there is a general issue in processing, and if changes are made directly through the database rather than through system logic. It is recommended to use this function only if it is really necessary. Clearing the cache will slow down the instance considerably. 
+Clearing the tenant cache removes all entries that are currently in the cache of the instance.
+It is used if there is a general issue in processing, and if changes are made directly through the database rather than through system logic. 
+It is recommended to use this function only if it is really necessary. 
+Clearing the cache will slow down the instance considerably. 
 
 #### Prerequisites
 
@@ -62,7 +65,8 @@ You have administrator rights for the current instance.
 
 ## Check warnings and notices
 
-The platform console provides instance-relevant notices and warning. In contrast to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications)), these notices and warnings are intended for developers.
+The platform console provides instance-relevant notices and warning. 
+In contrast to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications)), these notices and warnings are intended for developers.
 
 #### Prerequisites
 
@@ -91,20 +95,20 @@ You have administrator rights for the current instance.
 
 ## Check vCores
 
-Your company has purchased a certain number of vCores assigned the main account. vCores (CPU core voltage) define the computing power of an instance for the execution of parallel processes as well as database queries. Idle times are not considered, for example calls waiting for a response from external service providers.
-If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. This means that if if the number of vCores assigned is not sufficient, the processing speed is slowed down significantly. 
+Your company has purchased a certain number of vCores assigned the main account. vCores define the computing power of an instance for the execution of parallel processes as well as database queries. 
+Idle times are not considered, for example calls waiting for a response from external service providers.
+If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. 
+This means that if the number of vCores assigned is not sufficient, the processing speed is slowed down significantly. 
 
 > [Info] The vCores define the power for running parallel processes. They do not define the power for running a single process. Assigning more vCores will not speed up single processes!    
 
-If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. Note that the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
-Actindo has an eye on the capacity utilization of your vCores. Isolated overruns will have no other effect than slowing down the speed of your processes. But if your vCore capacity is permanently over the limit, *Actindo* will contact you.   
+If a sandbox is created, it is assigned a number of vCores from the main account. This reduces the number of vCores available for the main account. 
+Note that the transfer of vCores from the main account to a sandbox may take some time (about 5 minutes).  
 
 The engine room allows you to monitor the required vCores of the current instance. With the vCore dashlet, you can monitor the needs of the last two hours.  
 The vCores are analyzed as average over several seconds. The dashlet displays the totals per every 30 seconds in a curve diagram. 
 
  > [Info] Since *Actindo* displays an average value every 30 seconds, it may happen that the limit is exceeded for a brief time but is not displayed in the dashlet. This leads to a temporary slowdown of the processing speed.
-
-<!---hallo Julian, gibt es auch eine Standard-Statistik über einen längeren Zeitraum?-->
 
 #### Prerequisites
 

@@ -6,7 +6,9 @@ In this part of the *Actindo Core1 Platform* documentation, you will find a brie
 
 ## Basic plugins and modules
 
-The following modules and plugins are the basis for the *Actindo Core1 Platform*. Their features control and process the data flow, the data processing, the data mapping as well as the communication with third party applications. In addition, it provides master data needed for many modules.
+The following modules and plugins are the basis for the *Actindo Core1 Platform*. 
+Their features control and process the data flow, the data processing, the data mapping as well as the communication with third party applications. 
+In addition, it provides master data needed for many modules.
 
 **Core1 Platform**   
 The *Core1 Platform* is the foundation of every module/plugin. It offers basic functions such as the following:
@@ -19,19 +21,12 @@ The *Core1 Platform* is the foundation of every module/plugin. It offers basic f
 - Sandbox system   
 - and much more...
 
+The basis consists of various plugin offering basic functionality like advanced tax handling, currencies with up-to-date exchange rates, ...
+
 **Process orchestration**    
-The *Workflows* module is a tool that allows you to shape, control, map, and monitor your business processes. Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. You can build your own custom workflows to automate the processing of entities such as products and orders.
-
-**Currency**   
-The *Currency* plug-in provides a list of currencies with their ISO codes as well as daily exchange rates provided by the European Central Bank (ECB).
-
-**Taxes**   
-The *Taxes* module allows you to configure the automatic tax feature of the system to match your specific business requirements. You can define specific tax classes applicable to your products and determine different tax zones where you operate. Additionally, you can set up an unlimited number of tax rates, which you can also specify according to their validity period.   
-For each tax zone &frasl; tax class combination you can define tax rates. You can determine relevant tax zones based on country, ZIP-code, B2B/B2C, and much more.
-
-**Countries and languages**   
-The *Countries and languages* plugin provides any country with their ISO code and supports country classifications such as European Union (EU).
-
+The *Workflows* module is a tool that allows you to shape, control, map, and monitor your business processes. 
+Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. 
+You can build your own custom workflows to automate the processing of entities such as products and orders.
 
 **Data hub**   
 The *DataHub* module offers you the possibility to extend any data model with user-defined custom fields. The integrated ETL function allows to control the data flow between the different data models. Most *Actindo* modules and plugins are based on the *DataHub* module.  
