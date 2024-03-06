@@ -21,8 +21,10 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Edit attribute groups](./01c_AttributeGroups.md#edit-attribute-groups)
             - [Add element](./01c_AttributeGroups.md#add-element)
             - [Edit attribute group data](./01c_AttributeGroups.md#edit-attribute-group-data)
+    
+    - [SET LOCKS](./01d_AttributeSetLocks.md) 
 
-    - [DELETED ATTRIBUTES](./01d_DeletedAttributes.md) 
+    - [DELETED ATTRIBUTES](./01e_DeletedAttributes.md) 
 
 - [ETL](./02_ETL.md)  
 

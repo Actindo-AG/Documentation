@@ -114,10 +114,7 @@ The *Create attribute set* view contains all the fields and configurations that 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Locked*   
-    Enable this toggle to lock the attribute set. Disable the toggle to unlock the attribute set. By default, this toggle is disabled.
-
-[comment]: <> (Stimmt das? Sinnvoll hier?)
+[comment]: <> (Locked toggle gehört nicht in Create attribute set, daher sollte abgebaut werden!)
 
 - *Entity type*   
     Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
@@ -177,9 +174,7 @@ The *Edit attribute set* view contains both all fields and configurations that d
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Locked*   
-    Indication whether the attribute set is locked or not. By default, this toggle is disabled.
-
-[comment]: <> (Stimmt das so? Sinnvoll hier? Wo kann man Lock/unlock? Oder kommt der Feature noch?)
+    Indication whether the attribute set is currently undergoing maintenance or not. If the toggle is enabled, the attribute set is locked and there cannot be edited. This toggle is intended for informative purposes only.
 
 - *Entity type*   
     Click the drop-down list to edit the entity type. All available entity types are displayed in the list.

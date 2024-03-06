@@ -9,4 +9,5 @@ The *Data model* user interface is composed of the following tabs:
 - [ATTRIBUTES](./01a_Attributes.md)
 - [ATTRIBUTE SETS](./01b_AttributeSets.md)
 - [ATTRIBUTE GROUPS](./01c_AttributeGroups.md)
-- [DELETED ATTRIBUTES](./01d_DeletedAttributes.md)
+- [SET LOCKS](./01d_AttributeSetLocks.md) 
+- [DELETED ATTRIBUTES](./01e_DeletedAttributes.md)

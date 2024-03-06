@@ -1,4 +1,4 @@
-[!!User interface Deleted attributes](../UserInterface/01d_DeletedAttributes.md)
+[!!User interface Deleted attributes](../UserInterface/01e_DeletedAttributes.md)
 
 # Manage the deleted attributes
 
