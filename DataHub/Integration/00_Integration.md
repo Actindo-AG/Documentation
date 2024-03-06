@@ -51,3 +51,11 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [Manage the units and dimensions](./06_ManageUnitsDimensions.md)
    - [Deactivate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
    - [Activate a unit](./06_ManageUnitsDimensions.md#activate-a-unit)
+
+- [Manage a variant set](./07_ManageVariantSets.md)
+    - [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set)
+        - [Define the variant set basic data](./07_ManageVariantSets.md#define-the-variant-set-basic-data)
+        - [Add defining attributes](./07_ManageVariantSets.md#add-defining-attributes)
+        - [Add changeable attributes](./07_ManageVariantSets.md#add-changeable-attributes)
+    - [Edit a variant set](./07_ManageVariantSets.md#edit-a-variant-set)
+    - [Remove an attribute from the variant set](./07_ManageVariantSets.md#remove-an-attribute-from-the-variant-set)
