@@ -1,7 +1,7 @@
 [!!Manage an attribute](./01_ManageAttributes.md)
 [!!DataHub Basics](../Overview/04_Basics.md)
 [!!User interface Attribute sets](../UserInterface/01b_AttributeSets.md)
-[!!User interface Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
+[!!User interface Attribute set locks](../UserInterface/01d_AttributeSetLocks.md)
 
 # Manage an attribute set
 
