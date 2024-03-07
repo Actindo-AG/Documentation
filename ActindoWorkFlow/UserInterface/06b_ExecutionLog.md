@@ -1,6 +1,5 @@
 [!!Track the workflow process](../Operation/09_TrackWorkflowProcess.md)
 
-test
 # EXECUTION LOG
 
 *Process Orchestration > Logs > Tab EXECUTION LOG*

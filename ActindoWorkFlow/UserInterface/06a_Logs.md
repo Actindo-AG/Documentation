@@ -1,5 +1,4 @@
 # LOG MESSAGES
-test
 
 *Process Orchestration > Logs > Tab LOG MESSAGES*
 

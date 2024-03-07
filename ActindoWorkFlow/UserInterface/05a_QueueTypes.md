@@ -1,5 +1,5 @@
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
-test
+
 
 # OVERVIEW (Queue types)
 

@@ -46,17 +46,17 @@ For detailed information about the types of input/output ports, see [Input and o
 
 When adding a new transition, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.
 
-When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
 
-The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
+The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
 - *Key*  
     Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
 - *Label*  
-    Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the action rectangle in the diagram.
+    Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the action rectangle in the diagram.
 
 - *Queue type*  
     Click the drop-down list to select the applicable queue type. All available queue types are displayed in the list. You can select a different queue type for each action.    
@@ -95,11 +95,11 @@ For detailed information about the types of input/output ports, see [Input and o
 Special types of places are the start and end place. Every workflow starts with a single place and ends with a single place.    
 For detailed information, see [Start and end place](#start-and-end-place).
 
-When clicking a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+When clicking a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
 
-The place settings side bar is located to the right of the workspace and allows to define the place settings. The following fields are displayed:
+The place settings sidebar is located to the right of the workspace and allows to define the place settings. The following fields are displayed:
 
 - *Key*  
     Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
@@ -128,9 +128,9 @@ The start place can only hold one token. The end place is the final result of al
 
 ![Start place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start place]")
 
-The start place is the initial stage of the workflow. It is represented by a circle with an incoming arc pointing towards an input port of the first action. Similarly to places, when clicking it in the workflow editor, the start place becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+The start place is the initial stage of the workflow. It is represented by a circle with an incoming arc pointing towards an input port of the first action. Similarly to places, when clicking it in the workflow editor, the start place becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-The start place settings side bar is located to the right of the workspace and allows to define the start place settings. The fields are identical to those of the [place](#place).
+The start place settings sidebar is located to the right of the workspace and allows to define the start place settings. The fields are identical to those of the [place](#place).
 
 When clicking a start place in the workflow process diagram, the *Tokens* tab is displayed.   
 For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
@@ -140,9 +140,9 @@ For detailed information, see [Check the token status and content](../Operation/
 
 ![End place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EndPlace.png "[End place]")
 
-The end place is the final stage of the workflow. It is represented by a circle with an outcoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it in the workflow editor, the end place becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+The end place is the final stage of the workflow. It is represented by a circle with an outcoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it in the workflow editor, the end place becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-The end place settings side bar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the [place](#place).
+The end place settings sidebar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the [place](#place).
 
 When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed.   
 For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).

@@ -43,7 +43,7 @@ The following procedure shows an example of how to edit the static inputs by add
 
     ![Copy input in curly brackets](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputCopy.png "[Copy input in curly brackets]").
 
-6. Change back to your workflow configuration. In the *Static inputs* section of the transition's settings side bar, click the ![Plus](../../Assets/Icons/Plus04.png "[Plus]") (Plus) button at the desired input parameter.    
+6. Change back to your workflow configuration. In the *Static inputs* section of the transition's settings sidebar, click the ![Plus](../../Assets/Icons/Plus04.png "[Plus]") (Plus) button at the desired input parameter.    
     The ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button is displayed at the input parameter. 
 
     ![Add JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputAdd.png "[Add JSON code]").

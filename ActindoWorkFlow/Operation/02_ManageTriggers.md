@@ -1,7 +1,6 @@
 [!!User interface Workflows](../UserInterface/02a_Workflows.md)
 
 # Manage the triggers
-test
 
 When designing a workflow to map a business process, the *Triggers* function allows you to determine a specific data model, such as a product or a dispatch note, to initiate a process. Any data model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, you can configure multiple conditions for a trigger to recreate all possible variants of a workflow.   
 You can create one or several triggers for a workflow, define conditions, edit the triggers, or delete them.

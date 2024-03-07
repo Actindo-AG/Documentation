@@ -153,9 +153,9 @@ The workflow diagram includes the following elements:
 
 - Place    
     Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions. For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).   
-    If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+    If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
+    ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
 
     - *Key*  
         Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. <!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
@@ -165,7 +165,7 @@ The workflow diagram includes the following elements:
         
 - Start/end place   
     Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
-    If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+    If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
     ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
@@ -178,17 +178,17 @@ The workflow diagram includes the following elements:
 
 - Transition  
     Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
-    When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+    When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+    ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
 
-    The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
+    The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
     - *Key*  
         Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Was ist damit gemeint? und wenn ich eine transition mehrfach einfüge?...-->
 
     - *Label*  
-        Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the transition rectangle in the diagram.
+        Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the transition rectangle in the diagram.
 
     - *Queue type*  
         Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).

@@ -2,8 +2,6 @@
 
 # Workflow core actions
 
-test
-
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 
 To create a workflow, you must include one or several process actions.   
@@ -100,7 +98,7 @@ The *Manual action* core action has two input ports:
 - data_input: Entity that can be used to make a decision, for example a business document. 
 - event-id: ID of the task event that can be used to make a decision.   
 
-It is possible to include a static input via the unconnected input port. You can use the *data_input* or the *event_id* input port to define a static input in the *Static inputs* section in the settings side bar. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
+It is possible to include a static input via the unconnected input port. You can use the *data_input* or the *event_id* input port to define a static input in the *Static inputs* section in the settings sidebar. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
 
 
 
@@ -114,7 +112,7 @@ It is possible to include a static input via the unconnected input port. You can
 The *Execute PHP code* core action is used to execute a custom PHP code defined in the configuration.
 As the complete functionality of the PHP code is accessible, this core action enables complete variability in programming. Therefore, it is often used when more complex actions which require more logic need be executed within a workflow step.   
 Depending on which ports are connected to the places and which ports are defined in the PHP code, the data runs via the *in0* to *in9* input ports into the process action and is output via the *out0* to *out9* output ports.   
-It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings side bar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
+It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings sidebar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
 
 > [Info] It is recommended to give the action a name that describes what the PHP code does.
 

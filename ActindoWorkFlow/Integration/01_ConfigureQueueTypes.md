@@ -193,12 +193,12 @@ At least one queue type has been created, see [Create a queue type](#create-a-qu
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 1. Select the transition to which you want to assign a certain queue type. If you want to throttle an action, in most cases it is recommended to assign the throttle queue type at one of the first transitions of the workflow.     
-    The transition is highlighted and its settings are displayed in the settings side bar on the right.
+    The transition is highlighted and its settings are displayed in the settings sidebar on the right.
 
     ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
 2. Click the *Queue type* drop-down list and select the desired queue type for the selected transition. 
-    The selected queue type is displayed in the settings side bar.
+    The selected queue type is displayed in the settings sidebar.
 
     > [Info] Repeat the steps **1** and **2** for all transitions to which you want to assign a queue type.
 
