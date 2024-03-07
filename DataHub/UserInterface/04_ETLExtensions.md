@@ -400,7 +400,7 @@ This extension is used to map the generic property of an entity attribute to a d
 | String                           | String, Text field, Integer    |
 | Boolean                          | String, Text field, Integer    |
 
-[comment]: <> (Configuration wird nur bei boolean als destination attribut angezeigt. -> BUG-224)
+[comment]: <> (Configuration wird nur bei boolean als destination attribute angezeigt. -> BUG-224)
 
 ### Configuration
 

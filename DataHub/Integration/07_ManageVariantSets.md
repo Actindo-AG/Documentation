@@ -7,9 +7,9 @@
 
 You can create a variant set for a *PIM* product or an *Omni-Channel* offer. A variant set represents a special characteristic of a product or offer, for instance the size or the color. A variant set includes therefore the attributes needed to define a variant to a product or offer. 
 
-You can manage the variant sets both in the *PIM* and the *Omni-Channel* modules depending on your specific module configuration, since the two modules are independent of each other. If both the *Omni-Channel* and the *PIM* modules are used, there is a predefined mapping that automatically applies the variant sets from *PIM* to *Omni-Channel*. Otherwise, you can manage the variant sets directly in your *Omni-Channel* module. The data displayed differ slightly, as only the attributes that are relevant for *PIM* or *Omni-Channel* are displayed in the respective module. The functionality itself, however, is based on the data model defined in the *DataHub* module. 
+You can manage the variant sets both in the *PIM* and the *Omni-Channel* modules depending on your specific module configuration, since the two modules are independent of each other. If both the *Omni-Channel* and the *PIM* modules are used, there is a predefined mapping that automatically applies the variant sets from *PIM* to *Omni-Channel*. Otherwise, you can manage the variant sets directly in your *Omni-Channel* module. The data displayed differ slightly, as only the attributes that are relevant for *PIM* or *Omni-Channel* are displayed in the respective module. The functionality itself, however, is based on the data models defined in the *DataHub* module. 
 
-[comment]: <> (Auf Genauigkeit prüfen!)
+[comment]: <> (zu prüfen)
 
 
 ## Create a variant set
@@ -53,7 +53,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 5. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. 
 
-[comment]: <> (Ich brauche ein gutes Beispiel!)
+[comment]: <> (Beispiel!?)
 
 6. For the next steps to create a variant set, follow the procedures below:   
     - [Add defining attributes](#add-defining-attributes)

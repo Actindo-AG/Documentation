@@ -114,7 +114,7 @@ The *Create attribute set* view contains all the fields and configurations that 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-[comment]: <> (Locked toggle gehört nicht in Create attribute set, daher sollte abgebaut werden!)
+[comment]: <> (Locked toggle bitte hier abbauen!)
 
 - *Entity type*   
     Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.
@@ -180,8 +180,6 @@ The *Edit attribute set* view contains both all fields and configurations that d
     Click the drop-down list to edit the entity type. All available entity types are displayed in the list.
 
     > [Info] Entity types are all classes interacting with the *DataHub* module.
-
-[comment]: <> (Stimmt das so? Macht das überhaupt Sinn? Vorher nicht in Doku beschrieben. Aus irgendeinem Grund?)
 
 - *Inherit/Copy values from*   
     Click the drop-down list to select whether to inherit or  copy the values for the new attribute from an existing attribute set. The following options are available:    

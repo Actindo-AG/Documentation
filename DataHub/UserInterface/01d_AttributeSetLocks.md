@@ -24,7 +24,7 @@ The attribute set locks list displays all attribute sets that have been locked f
 - *Identifier*  
     Attribute set identification number.
 
-[comment]: <> (Was ist identifier hier? Attribute set ID oder Key? Was ist der Unterschied zwischen diesem Identifier und ID-Spalte? Attribute set identifier, i.e. ID, und Attribute set lock ID? Oder andersrum?)
+[comment]: <> (Was ist identifier hier? Attribute set ID oder Key? Was ist der Unterschied zwischen diesem Identifier und ID-Spalte? S. unten. Stimmt das so?)
 
 - *Active*  
     Indication whether the attribute set lock is active or not:

@@ -107,9 +107,7 @@ At least one language has been created, see [Create a language](#create-a-langua
 
 ## Delete a language
 
-You can delete a language if it is no longer needed.
-As there are usually existing dependencies, it is highly recommended not to delete a language.
-Instead, you can deactivate a language and thus prevent its use, see [Deactivate a language](#deactivate-a-language).
+You can delete a language if it is no longer needed. As there are usually existing dependencies, it is highly recommended not to delete a language. Instead, you can deactivate a language and thus prevent its use, see [Deactivate a language](#deactivate-a-language).
 
 #### Prerequisites
 
@@ -126,7 +124,7 @@ At least one language has been created, see [Create a language](#create-a-langua
 1. Select the checkbox of the language you want to delete in the list of languages.    
     The editing toolbar is displayed above the language list.
 
-[comment]: <> (Caution beim Löschen?)
+    > [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button in the editing toolbar.  
     The language has been deleted. The deletion cannot be undone.

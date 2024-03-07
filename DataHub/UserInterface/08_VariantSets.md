@@ -3,7 +3,8 @@
 
 # Variant sets
 
-*PIM > Settings > Tab VARIANT SETS*
+*PIM > Settings > Tab VARIANT SETS*  
+*Omni-Channel > Settings > Tab VARIANT SETS*
 
 ![Variant sets](../../Assets/Screenshots/DataHub/Others/VariantSets.png "[Variant sets]")
 
@@ -70,7 +71,8 @@ The list displays all variant sets. Depending on the settings, the displayed col
 
 ## Create variant set
 
-*PIM > Settings > Tab VARIANT SETS > Button Add*
+*PIM > Settings > Tab VARIANT SETS > Button Add*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Button Add*
 
 ![Create variant set](../../Assets/Screenshots/DataHub/Others/CreateVariantSet.png "[Create variant set]")
 
@@ -188,7 +190,8 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 ## Edit variant set
 
-*PIM > Settings > Tab VARIANT SETS > Select variant set*
+*PIM > Settings > Tab VARIANT SETS > Select variant set*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Select variant set*
 
 ![Edit variant set](../../Assets/Screenshots/DataHub/Others/EditVariantSet.png "[Edit variant set]")
 
@@ -303,7 +306,9 @@ The list displays all changeable attributes to the variant set. All fields are r
 ### Add defining attributes
 
 *PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Defining attributes)*    
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (Defining attributes)*
+*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (Defining attributes)*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Defining attributes)*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Select variant set > Button Add (Defining attributes)*
 
 ![Defining attributes](../../Assets/Screenshots/DataHub/Others/AddDefiningAttributes.png "[Defining attributes]")
 
@@ -349,8 +354,10 @@ The list displays all available defining attributes. Depending on the settings, 
 
 ### Add changeable attributes
 
-*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (changeable attributes box)*   
-*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (changeable attributes box)*
+*PIM > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Changeable attributes)*   
+*PIM > Settings > Tab VARIANT SETS > Select variant set > Button Add (Changeable attributes)*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Button Add > Select attribute set > Button Add (Changeable attributes)*  
+*Omni-Channel > Settings > Tab VARIANT SETS > Select variant set > Button Add (Changeable attributes)*  
 
 ![Changeable attributes](../../Assets/Screenshots/DataHub/Others/AddChangeableAttributes.png "[Changeable attributes]")
 

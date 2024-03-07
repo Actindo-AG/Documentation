@@ -31,14 +31,12 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
     ![Create ETL attribute set mapping](../../Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
-[comment]: <> (Screenshot: Create mapping of ETL attribute set. Durchg. anpassen? Translation files)
+[comment]: <> (Abweichung in Screenshot: Create mapping of ETL attribute set sollte Create ETL attribute set mapping sein oder Create attribute set ETL mapping -> Translation files zu korrigieren)
 
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
 3. Select a destination attribute set in the *Destination attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.   
     If any attribute set mapping with the selected destination attribute set already exists, the *Copy ETL attribute set mapping* drop-down list is unlocked.
-
-[comment]: <> (Screenshot: Create mapping of ETL attribute set. Durchg. anpassen? Translation files korrigieren?)
 
 4. Select a language in the *Language* drop-down list. All active languages are displayed in the drop-down list.
 
@@ -67,7 +65,9 @@ You can edit the attribute mappings within an attribute set mapping, add a custo
 
 When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
 
-[comment]: <> (tracking mode erklären? Nirgendwo wirklich beschrieben)
+The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically or after the approval of another user. 
+
+[comment]: <> (zu prüfen)
 
 #### Prerequisites
 
@@ -264,16 +264,12 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
-    The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
-
-    ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+    The mapping rerun has been started. A confirmation message is displayed.
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.   
     For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
 
 
-
-[comment]: <> (Screenshot evtl. löschen) 
 [comment]: <> (Rerun selected mapping und Rerun mappings jetzt anders in terminologie-einspielen sandbox. S. Screenshots)
 
 
@@ -308,9 +304,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 4. Click the [SAVE] button in the *Rerun single mapping* window.   
-    The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
-
-    ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+    The mapping rerun has been started. A confirmation message is displayed.
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.    
     For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).

@@ -52,7 +52,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [UNITS AND DIMENSIONS](./03c_UnitsDimensions.md)
         - [Detail list of dimension](./03c_UnitsDimensions.md#detail-list-of-dimension)
     
-
      - [HTML TEMPLATES](./03d_HTMLTemplates.md)
          - [Create HTML template](./03d_HTMLTemplates.md#create-html-template)
          - [Edit HTML template](./03d_HTMLTemplates.md#edit-html-template)
@@ -62,6 +61,11 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [Dependencies](./07_DependenciesTab.md)   
    - [Dependencies  &ndash; Rerun mapping](./07_DependenciesTab.md#dependencies-–-rerun-mapping)   
 
+- [Variant sets](./08_VariantSets.md)   
+    - [Create variant set](./08_VariantSets.md#create-variant-set)
+    - [Edit variant set](./08_VariantSets.md#edit-variant-set)   
+        - [Add defining attributes](./08_VariantSets.md#add-defining-attributes)
+        - [Add changeable attributes](./08_VariantSets.md#add-changeable-attributes)   
 
 - [ETL extensions list](./04_ETLExtensions.md)
     - [Add prefix/suffix](./04_ETLExtensions.md#add-prefix/suffix)

@@ -17,12 +17,8 @@ You can add attributes to or remove attributes from an attribute set and change 
 
 Create an attribute set to define a new attribute set with different attributes to the predefined attribute sets.
 
-[comment]: <> (Evtl. umformulieren)
-
 Several plugins have their own configuration user interface, where only those attributes and attribute sets are listed that belong to the specific plugin.
-When using the plugin-specific user interface, several options may be restricted or not available.
-
-[comment]: <> (Beispiel?)
+When using the plugin-specific user interface, several options may be restricted or not available. For example, in the *PIM* module, only *PIM* relevant attributes, attribute sets, and functions are displayed.
 
 ### Define the attribute set basic data
 
@@ -47,8 +43,6 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     > [Info] If you want to provide the attribute set name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
 
-[comment]: <> (zu prüfen)
-
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
@@ -59,8 +53,6 @@ Additional attributes for the attribute set have been created, see [Create an at
 4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
     > [Info] Entity types are all classes interacting with the *DataHub* module. For detailed information on entity types, see [DataHub Basics](../Overview/04_Basics.md).
-
-[comment]: <> (zu prüfen)
 
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
@@ -88,13 +80,10 @@ The basic data of the attribute set has been completed, see [Define the attribut
     The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
-[comment]: <> (Evtl. pop-up window umformulieren und Screenshot weg, durchg.)
 
 ### Create an attribute set with attribute inheritance
 
@@ -120,9 +109,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Inherit** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -150,9 +137,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Copy once** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -244,8 +229,6 @@ Bear in mind that inherited attributes can only be changed in the origin attribu
 
 Be aware that the activation or deactivation of languages and scopes affects the completeness calculation.
 Further, deactivated attributes are not included in the completeness calculation even if they are required.
-
-[comment]: <> (check completeness woanders?)
 
 #### Prerequisites
 

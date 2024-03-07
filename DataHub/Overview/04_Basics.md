@@ -62,6 +62,6 @@ The values of the source attributes are extracted, transformed by the extension 
 
 This process can be configured based on any required connection of a source attribute set with a destination attribute set. This connection is called *Attribute set mapping* and contains a collection of multiple attribute mappings.
 
-![Attribute set mapping](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[Attribute set mapping]")
+![Attribute set mapping](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mapping]")
 
 For detailed information about the ETL mappings, see [Manage the ETL mappings](../Operation/01_ManageETLMappings.md).

@@ -109,8 +109,6 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     > [Info] Bear in mind that you can only edit the attribute name, description, its status and configuration. You can also enable or disable the sensitive data toggle. All other fields and toggles are locked. In exceptional cases, you can update the attribute key by clicking the [UPDATE KEY] button. 
 
-[comment]: <> (Evtl. reformulieren bzw. in Prozedure integrieren)
-
 2. Edit the desired data of the attribute in the corresponding fields in the *Data* tab.
 
 3. If desired, click the *Attribute set assignments* tab to check to which sets the selected attribute is assigned.

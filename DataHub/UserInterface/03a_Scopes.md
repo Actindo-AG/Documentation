@@ -73,8 +73,6 @@ The following functions and fields are available in this view:
 
 The *Create scope* view is used to add a new scope in all needed languages.  
 
-> [comment]: <> (Wenn die Scopes sprachübergreifend auswirken, warum muss man die Sprache noch auswählen? Sprachauswahl unten hat nichts mit Attributen/Pflege mehrsprachiger Felder zu tun dann?)
-
 The following functions and fields are available in this view:
 
 - *"Language name"*   

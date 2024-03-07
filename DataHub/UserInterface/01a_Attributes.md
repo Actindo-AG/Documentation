@@ -34,7 +34,7 @@ The following functions and fields are available in this view:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
-[comment]: <> (Julian: Spalte sollte Status heißen. Kommt das hier aus den Translation files?)
+[comment]: <> (Spalte sollte Status heißen. Kommt das hier aus den Translation files?)
 
 - *Group*   
     Attribute group to which the attributes are assigned. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
@@ -122,7 +122,7 @@ The *Create attribute* view contains all fields and configurations that define t
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-[comment]: <> (UPDATE KEY -> Julian: Bitte aus Create attribute view abbauen!)
+[comment]: <> (UPDATE KEY -> Bitte aus Create attribute view abbauen!)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.

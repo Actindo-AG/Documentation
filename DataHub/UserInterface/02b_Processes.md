@@ -38,7 +38,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the corresponding checkbox and display the editing toolbar. You cannot select multiple checkboxes at once.
 
 - [RETRY]   
-    Click this button to restart the selected ETL process. This button is only displayed if a single checkbox of an ETL process with the **Error** status is selected. The *Process will be retried shortly* pop-up window is displayed in the upper right corner.
+    Click this button to restart the selected ETL process. This button is only displayed if a single checkbox of an ETL process with the **Error** status is selected. A message to inform that the process will be retried shortly is displayed.
 
 The following functions and fields are available in this view:
 

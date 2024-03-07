@@ -5,17 +5,15 @@
 
 A scope is needed to create offers for a certain connection.
 By default, the *Actindo Basic* scope is predefined.
-If you want to maintain multiple scopes, you have to create and activate the respective scopes.
+If you want to maintain multiple scopes, for example to market your products in your own web shop and other retailer platforms, you have to create and activate the respective scopes.
 
-> [Info] A scope does not equal a sales channel or web store connection. It is just a dimension that can be added to the multi-scope attributes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
+> [Info] A scope does not equal a sales channel or web store connection. It is just a dimension that can be added to the multi-scope attributes, so that you can provide them with different values in the different scopes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
-[comment]: <> (Evtl. ergänzen, besser erklären/definieren. Beispiel?)
+[comment]: <> (zu prüfen)
 
 ## Create a scope
 
 Create a scope to maintain multiple scopes or to create a new connection via the new scope.
-
-[comment]: <> (Evtl. umformulieren)
 
 #### Prerequisites
 
@@ -31,8 +29,6 @@ No prerequisites to fulfill.
     The *Create scope* view is displayed.
 
     ![Create scope](../../Assets/Screenshots/DataHub/Settings/Scopes/CreateChannel.png "[Create scope]")
-
-[comment]: <> (Sprache wählen?)
 
 2. Enter a name for the scope in the *Name* field and, if desired, add a scope description in the *Description* field.
 
@@ -84,9 +80,7 @@ At least one scope has been created, see [Create a scope](#create-a-scope).
 
 ## Deactivate a scope
 
-Deactivate a scope if it will not be used for a certain time.
-If you deactivate a scope, it is no longer available for offers.
-Further, it is recommended to deactivate a scope instead of deleting it to prevent any problems because of existing connections.
+Deactivate a scope if it will not be used for a certain time. If you deactivate a scope, it is no longer available for offers. Further, it is recommended to deactivate a scope instead of deleting it to prevent any problems because of existing connections.
 
 #### Prerequisites
 
@@ -131,7 +125,7 @@ At least one scope has been created, see [Create a scope](#create-a-scope).
 1. Select the checkbox of the scope you want to delete in the list of scopes.    
     The editing toolbar is displayed above the scope list.
 
-[comment]: <> (Caution beim Löschen?)
+    > [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 2. Click the [DELETE] button in the editing toolbar.  
     The scope has been deleted. The deletion cannot be undone.

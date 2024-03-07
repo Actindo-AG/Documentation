@@ -30,9 +30,7 @@ The cause of the faulty ETL process has been fixed.
     The editing toolbar is displayed above the list.
 
 3. Click the [RETRY] button in the editing toolbar.   
-    The selected mapping has been restarted. The pop-up window *Process will be retried shortly* is displayed.
-
-    ![Process retried](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ProcessRetried.png "[Process retried]")
+    The selected mapping has been restarted. A message to inform that the process will be retried shortly is displayed.
 
     If the rerun is successful, the mapping status will change to **Done** and will be removed from the list of mappings with the **Error** status.
 
