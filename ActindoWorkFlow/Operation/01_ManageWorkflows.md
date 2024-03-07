@@ -92,7 +92,7 @@ The basic settings of the workflow have been defined, and the workflow editor is
 
 ### Connect the transition
 
-Connect the transition to the a place to create a valid workflow.
+Connect the transition to the place to create a valid workflow.
 
 #### Prerequisites
 
@@ -115,7 +115,7 @@ Connect the transition to the a place to create a valid workflow.
     > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
 
 3. Click the place, drag it over the place to which you want to connect it and drop it.     
-    The places are merged and the new connection has been created.
+    The places are merged, and the new connection has been created.
 
 
 
