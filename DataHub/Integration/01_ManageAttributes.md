@@ -64,7 +64,7 @@ No prerequisites to fulfill.
 
 8. Select an attribute set in the *Assigned attribute sets* drop-down list.
 
-    > [Info] You can assign the attribute to multiple sets. Repeat the steps **8** to **9** to assign the attribute to a further attribute set. To delete the assignment to a selected set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the set.
+    > [Info] You can assign the attribute to multiple sets. Repeat the steps **7** to **8** to assign the attribute to a further attribute set. To delete the assignment to a selected attribute set, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button right to the attribute set.
 
 9. If required, configure the settings in the *CONFIGURATION* section.   
     For detailed information about the different configuration settings, see [Data type list](../UserInterface/05_DataTypeList.md).
@@ -81,16 +81,15 @@ No prerequisites to fulfill.
 
 After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type, multi-language and multi-scope settings cannot be subsequently modified. 
 
-The attribute key is locked but can be modified in very exceptional cases, for instance, if you have named it wrongly. 
+The attribute key is locked but can be modified in exceptional cases, for example, if you have named it wrongly. 
 
-> [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
+> [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 [comment]: <> (zu prüfen)
 
 The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Edit an attribute set](./02_ManageAttributeSets.md#edit-an-attribute-set).   
-There are also some attributes that are automatically created by the system, for instance when installing a plugin or module.
 
-Some of these system attributes are read-only and cannot be edited at all. It is highly recommended not to deactivate these system attributes to avoid interfering with the functioning of the *Actindo Core1 Platform*.
+There are also some attributes that are automatically created by the system, for instance when installing a plugin or module. Some of these system attributes are read-only and cannot be edited at all. It is highly recommended not to deactivate these system attributes to avoid interfering with the functioning of the *Actindo Core1 Platform*.
 
 #### Prerequisites
 
@@ -160,9 +159,9 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 ## Delete an attribute
 
-You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed.
-Attributes that are assigned as defining attributes to any variant set cannot be deleted. As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute.
-Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
+You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. 
+
+As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
 
 #### Prerequisites
 
@@ -184,7 +183,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
     All dependencies to attribute sets, ETL mappings and entity entries are displayed in this window. For defining attributes, the [CONFIRM] button is not displayed in the *Confirm deletion of attribute?* window as they cannot be deleted.   
 
-    > [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
+    > [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 3. Click the [CONFIRM] button in the bottom right corner.   
     The attribute has been deleted and is moved to the *DELETED ATTRIBUTES* tab. The *Confirm deletion of attribute?* window is closed.

@@ -65,7 +65,7 @@ You can edit the attribute mappings within an attribute set mapping, add a custo
 
 When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
 
-The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically or after the approval of another user. 
+ > [Info] The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically or after the approval of another user. 
 
 [comment]: <> (zu prüfen)
 
@@ -301,7 +301,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 3. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
-    > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
+    > [Info] If you enable the *Also rerun mappings for entities with manual change tracking?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 4. Click the [SAVE] button in the *Rerun single mapping* window.   
     The mapping rerun has been started. A confirmation message is displayed.

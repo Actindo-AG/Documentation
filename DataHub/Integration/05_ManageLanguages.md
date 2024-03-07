@@ -49,7 +49,7 @@ No prerequisites to fulfill.
 
 After you have created a language, you can edit its name or key.
 
-> [Caution] Bear in mind that a language key (language code) can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
+> [Caution] Bear in mind that a language key (language code) can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 #### Prerequisites
 

@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 After you have created a scope, you can edit its name, description and key.
 
-> [Caution] Bear in mind that a scope key can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means, that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
+> [Caution] Bear in mind that a scope key can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 #### Prerequisites
 

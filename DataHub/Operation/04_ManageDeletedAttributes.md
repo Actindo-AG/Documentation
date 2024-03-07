@@ -33,7 +33,7 @@ Permanently delete an attribute if it is no longer needed.
 There are usually dependencies on an attribute, for example through an attribute set or created products. It is recommended to deactivate an attribute instead of deleting it permanently, see [Deactivate an attribute](../Integration/01_ManageAttributes.md#deactivate-an-attribute).
 Permanently deleted attributes cannot be recovered.
 
-> [Caution] Be aware that problems may occur if you delete an attribute with existing dependencies.
+> [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 #### Prerequisites
 

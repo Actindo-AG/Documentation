@@ -205,7 +205,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 *DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
 
-![Rerun sinlge mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
+![Rerun single mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?*   
     Enable this toggle to rerun the attribute mapping regardless of its change tracking mode. Disable the toggle to rerun the mapping only if the manual change tracking mode is not assigned to this mapping. By default, this toggle is disabled.

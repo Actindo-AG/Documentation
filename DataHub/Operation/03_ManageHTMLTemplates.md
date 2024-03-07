@@ -126,7 +126,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
     - *destination language*   
         Add **__LanguageKey** to include the destination language to the variable. Replace **LanguageKey** by the corresponding language key and note, that all signs must be replaced by a **_**, for instance, add **__de_DE** for the language key *de-DE*. Pay attention to upper and lower case as the variables are case sensitive.
     - *destination scope*   
-        Add **__ChannelKey** to include the destination scope to the variable. Replace **ChannelKey** by the corresponding scope key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the scope key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
+        Add **__ScopeKey** to include the destination scope to the variable. Replace **ScopeKey** by the corresponding scope key and note, that all signs must be replaced by a **_**, for instance, add **__actindo_basic** for the scope key *actindo_basic*. Pay attention to upper and lower case as the variables are case sensitive.
 
     > [Info] You can display all possible variables of a certain entity.    
     For detailed information, see [Display the possible variables](#display-the-possible-variables).
