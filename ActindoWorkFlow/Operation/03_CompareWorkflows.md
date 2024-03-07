@@ -1,5 +1,7 @@
 # Compare the workflows versions
 
+test
+
 The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the relevant code lines are highlighted.  
 You can use this function to compare a specific workflow version both with any other version of the selected workflow available on the current instance or with any workflow version available on another instance. As you can edit the JSON code directly in the compare view, you can use this function to compare a workflow to a version available on another instance or to do insertions and deletions.   
 You can use this function for displaying change logs as well as to be able to do software-audits.

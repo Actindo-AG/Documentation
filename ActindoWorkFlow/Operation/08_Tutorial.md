@@ -1,7 +1,6 @@
 # Workflow tutorial
 
 The following tutorial shows by using a simple example how to create a workflow.
-test
 
 ## Use case
 

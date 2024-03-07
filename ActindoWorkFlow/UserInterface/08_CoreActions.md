@@ -2,6 +2,8 @@
 
 # Workflow core actions
 
+test
+
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 
 To create a workflow, you must include one or several process actions.   
