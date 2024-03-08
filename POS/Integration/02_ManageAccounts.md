@@ -5,11 +5,11 @@
 
 # Manage the accounts for POS
 
-To connect the POS system with accounting, the following accounts must be created for each store:
+To connect the POS system with accounting, you must create the following accounts for each store:
 
-- an account for representing the pay desk
-- an account for cashless payments, for instance credit or deposit card payments
-- a transit account used as contra account for cash deposits or withdrawals not linked to any order or return
+- An account for representing the pay desk
+- An account for cashless payments, for instance credit or deposit card payments
+- A transit account used as contra account for cash deposits or withdrawals not linked to any order or return
 
 The accounts are all created in the same way. The account creation is explained in the following.
 

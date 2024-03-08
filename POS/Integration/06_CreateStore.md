@@ -6,7 +6,7 @@
 [!!Open a pay desk](../Operation/01_OpenPayDesk.md)
 [!!User interface Stores](../UserInterface/02b_Stores.md)
 [!!User interface PIM Attributes](../../PIM/UserInterface/03a_Attributes.md)
-[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
+[!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
 
 [comment]: <> (add link to Warehouse, Accounting, Settings module if available)
 
@@ -17,7 +17,7 @@ There are two ways to create a store in POS: via wizard, see [Create a store via
 
 ## Create a store via wizard
 
-The Store Wizard guides you through all steps to create a store and its full functionality. Therefore, it is highly recommended to use the wizard instead of creating a store manually.
+The store wizard guides you through all steps to create a store and its full functionality. Therefore, it is highly recommended to use the wizard instead of creating a store manually.
 
 ### Start the store wizard
 
@@ -56,19 +56,26 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard]")
 
-1. Enter a store name in the *Store Name* field and add a short description if you like.
+1. Enter a store name in the *Store Name* field and add a short description if desired.
 
-2. Select a store manager from the list by selecting the corresponding checkbox.
+2. Specify a store manager from the list by selecting the corresponding checkbox.
 
     > [Info] The store managers list displays all the users who are assigned to the POS store manager group. You may select multiple users as store managers.
+
     For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
     The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.  
 
-    ![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01a.png "[Store Wizard]")
-
     The *Pay desks* wizard window is displayed when the store is created.
+    In the *DataHub* module, the following attribute sets have been created:
+    - *Orders channel POS Store "Name of new store"*
+    - *Line items channel POS Store "Name of new store"*
+    - *Payment items channel POS Store "Name of new store"*
+    - *Orders channel POS Store "Name of new store"*
+    - *Discount items channel POS Store "Name of new store"*  
+    
+    Additionally, your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
 
 
 ### Configure the pay desk
@@ -83,7 +90,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 2*
 
-![Wizard 02](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Store Wizard]")
+![Wizard 02](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Store Wizard, STEP 2]")
 
 1. Enter a pay desk name in the *PayDesk 1* field.
 
@@ -92,6 +99,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 2. Select a cashier from the list by selecting the corresponding checkbox.
 
     > [Info] The cashiers list displays all the users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.
+
    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE PAYDESKS] button in the bottom right corner of the window.   
@@ -115,11 +123,11 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 > [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured.   
 For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
 
-1. Select a client for the pay desk in the *Client* drop-down list.
+1. Click the *Client* drop-down list and select a client for the pay desk.
 
-2. Select a printer for the pay desk in the *Printer* drop-down list.
+2. Click the *Printer* drop-down list and select a printer for the pay desk.
 
-3. Select a tray in the *Tray* drop-down list.
+3. Click the *Tray* drop-down list and select a tray.
 
 4. Select a format for printing. By default, portrait format is preselected for receipt printing.
 
@@ -133,7 +141,7 @@ For detailed information, see [Configure the printer client for POS](./03_Config
 
 ### Enter the store address
 
-In this step you define the store address. The store address is the delivery address, which has to be defined for tax purposes. Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system.
+In this step, you specify the store address. The store address is the delivery address, which has to be defined for tax purposes. Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system.
 
 #### Prerequisites
 
@@ -150,15 +158,12 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code. For detailed information, see [Store Address](../UserInterface/02b_Stores.md#step-4---store-address).
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
-    The *Saving successful* message and the *Stock* wizard window are displayed when the store address is saved.
-
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
-
+    A confirmation message is displayed and the *Stock* wizard window is displayed when the store address is saved.
 
 
 ### Assign a POS warehouse
 
-In this step you assign the warehouse from which you want to take the stock from, you assign the shelf and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is booked out when a product is sold.
+In this step you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock level is posted out when a product is sold.
 
 #### Prerequisites
 
@@ -170,16 +175,15 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 05](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Store Wizard]")
 
-1. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
+1. Click the *Warehouse* drop-down list and select the warehouse you want to take the stock from.
 
 2. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.
 
-    > [Info] A product must have stock in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
+    > [Info] A product must have a stock level in a warehouse in order to be sold from that warehouse. Products only have stock level in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding sales channels offer is activated. 
+
     This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 3. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
-
-    > [Info] A product must have stock in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf.
 
 4. Activate the *Configure stock withdrawal matrix* toggle to automate the configuration of the stock withdrawal matrix. It is recommended to activate this option.
 
@@ -189,7 +193,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Assign a stock source
 
-In this step you assign the stock source to manage the store stock. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
+In this step you assign the stock source to manage the store stock level. The stock source specifies how the stock level in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
 
 #### Prerequisites
 
@@ -210,7 +214,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ### Assign an account
 
-In this step you assign the accounts to which you want to book the payments.   
+In this step, you assign the accounts to which you want to post the payments.   
 
 #### Prerequisites
 
@@ -261,7 +265,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The summary also indicates whether the POS can be used.  
 
 2. Click the [FINALIZE] button in the bottom right corner of the window.   
-    The wizard window is closed and the store is configured.
+    The wizard window is closed and the configuration of the store is finalized.
 
 
 
@@ -272,7 +276,7 @@ Alternatively to using the [store wizard](#create-a-store-via-wizard), you can c
 - [Create a pay desk](#create-a-pay-desk)
 - [Configure the pay desk details](#configure-the-pay-desk-details)
 - [Define a printer](#define-a-printer)
-- [Define the store address](#define-a-printer)
+- [Define the store address](#define-the-store-address)
 - [Assign the POS warehouse](#assign-the-pos-warehouse)
 - [Configure the stock withdrawal matrix](#configure-the-stock-withdrawal-matrix)
 - [Assign the stock source](#assign-the-stock-source)
@@ -303,10 +307,18 @@ Alternatively to using the [store wizard](#create-a-store-via-wizard), you can c
 3. Enter a store name in the *Name* field.
 
 4. Click the [CREATE] button.   
-    The *Creating Store* message is displayed. The new store is displayed in the *STORES* tab.
+    The *Creating Store* message is displayed. The new store is displayed in the *STORES* tab. The *Basic settings* tab is displayed by default.
 
-    ![Creating Store](../../Assets/Screenshots/POS/Management/Stores/CreatingStore.png "[Creating Store]")
+    ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
+    In the *DataHub* module, the following attribute sets have been created:
+    - *Orders channel POS Store "Name of new store"*
+    - *Line items channel POS Store "Name of new store"*
+    - *Payment items channel POS Store "Name of new store"*
+    - *Orders channel POS Store "Name of new store"*
+    - *Discount items channel POS Store "Name of new store"*  
+    
+    Additionally, your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
 
 
 ## Configure the store details
@@ -337,9 +349,9 @@ In the store details, you give some detailed information about your store. Furth
 4. Click the [Add] button in the upper right corner of the window.
 
 5. Click the [SAVE] button left below the *Store Manager* box.   
-    The store manager is saved. The *STORES* tab is displayed.
+    The store manager is saved. The *Stores* view is displayed and the *STORES* tab is preselected.
 
-[comment]: <> (Is it a feature or is it a bug?)
+
 
 
 ## Create a pay desk
@@ -357,7 +369,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
-![Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Basic Data]")
+![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
 1. Click the [ADD] button in the *Pay desks* box.    
     The window *Create pay desk* is displayed.
@@ -369,10 +381,10 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 3. Click the [SAVE] button.   
     The new pay desk is displayed in the *Pay desks* box.
 
-    > [Info] Repeat step 1 to 3 to add another pay desk. You can add as many pay desks as you need.
+    > [Info] Repeat step 1 to 3 to add further pay desks. You can add as many pay desks as you need.
 
 4. Click the [SAVE] button left below the *Store Manager* section.   
-    The pay desk is saved. The *STORES* tab is displayed.
+    The pay desk is saved. The *Stores view* view is displayed, and the *STORES* tab is preselected.
 
 [comment]: <> (Is it a feature or is it a bug?)
 
@@ -388,9 +400,9 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select pay desk for editing*
 
-![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
+![Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Basic Data]")
 
 1. If desired, enter a short description for the pay desk in the *Short Description* field.
 
@@ -402,12 +414,13 @@ In the pay desk details, you give some detailed information about the pay desk. 
 3. Select a cashier from the list by selecting the corresponding checkbox.
 
     > [Info] The cashiers list displays all users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.  
+
     For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md)
 
 4. Click the [Add] button in the upper right corner of the window.   
     The selected cashier is added to the box.
 
-5. Click the [SAVE] button left below the *Store Manager* box.   
+5. Click the [SAVE] button left below the *Cashiers* box.   
     The *Submitting data...* message is displayed. The cashier is saved when the *Store* view is displayed.
 
 [comment]: <> (Is it a feature or is it a bug?)
@@ -425,14 +438,15 @@ You have to define a printer for the printing of receipts.
 
 #### Procedure
 
-To define a printer for a specific pay desk, see the procedure [Configure the printer client for POS](./03_ConfigurePrinter.md). You just have to select the desired pay desk from the *Event* drop-down list. 
+To define a printer for a specific pay desk, see [Configure the printer client for POS](./03_ConfigurePrinter.md). You just have to select the desired pay desk from the *Event* drop-down list. 
 
-> [Info] If you create a new pay desk, bear in mind that it may take some time for the new pay desk to be displayed in the *Event* drop-down list.
+> [Info] If you configure a new printer, bear in mind that it may take some time for the newly created pay desk to be displayed in the *Event* drop-down list.
+
 
 
 ## Define the store address
 
-The store address is required as the delivery address, which has to be defined for tax purposes. Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system.
+The store address is required as the delivery address, which has to be defined for tax purposes. In addition, a delivery address and an invoice address should be printed on every receipt created in the POS system.
 
 #### Prerequisites
 
@@ -452,12 +466,11 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 2. Enter the store address in the fields.
 
     > [Info] The store address corresponds to the delivery address. You must at least enter the country and the ZIP code.   
+
     For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 3. Click the [Save] button in the upper right corner.   
-    The *Saving successful* message is displayed. The store address is saved.
-
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+    A confirmation message is displayed. The store address is saved.
 
 
 ## Assign the POS warehouse
@@ -478,6 +491,8 @@ To connect the warehouse management and the stock management to your POS, you ha
 1. Select the *Warehouse assignment orders* entry in the list of settings in the left column.   
     The *Warehouse assignment orders* section is displayed on the right side.
 
+<!--Screenshot einfügen-->
+
 2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
@@ -488,17 +503,14 @@ For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
 
-    > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf.
-
 5. Click the [Save] button in the upper right corner.   
-    The *Saving successful* message is displayed. The warehouse assignment is saved.
-
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+    A confirmation message is displayed. The warehouse assignment is saved.
 
 
 ## Configure the stock withdrawal matrix
 
-Define in the stock withdrawal matrix from which warehouses defined in the system the stock is booked out.
+Define in the stock withdrawal matrix from which warehouses defined in the system the stock is booked out.  
+For detailed information on the stock withdrawal matrix, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* documentation.
 
 #### Prerequisites
 

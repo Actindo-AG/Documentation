@@ -4,7 +4,7 @@
 [!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 [!!User interface Mapping from PIM](../UserInterface/02c_MappingFromPIM.md)
 [!!User interface Omni-Channel Offers](../../Channels/UserInterface/02a_Offers.md)
-[!!User interface DataHub Attributes](../../DataHub/UserInterface/02a_Attributes.md)
+[!!User interface DataHub Attributes](../../DataHub/UserInterface/01a_Attributes.md)
 [!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
 
 # Manage offers for POS

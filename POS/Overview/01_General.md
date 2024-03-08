@@ -14,14 +14,14 @@ The *Venduo POS* module offers the following benefits:
 
 ## Prerequisites
 
-- The *ECM Integration in DataHub* plugin version 1.0.0 or higher is installed.
+<!---- The *ECM Integration in DataHub* plugin version 1.0.0 or higher is installed.
 - The *Omni-Channel* module version 2.5.0 or higher is installed.
 - The *Actindo DataHub* module version 2.2.5 or higher is installed.
 - The *ECM* module version 2.0.7 or higher is installed.
 - The *PrintReport* plugin version 1.0.0 or higher is installed.
 - The *Printing* module version 1.0.4 or higher is installed.
 - The *Settings* module version 1.0.2 or higher is installed.
-- The *Taxes* module version 1.0.1 or higher is installed.
+- The *Taxes* module version 1.0.1 or higher is installed.-->
 
 
 Further, to enable all *Venduo POS* features, ensure that also the following prerequisites are fulfilled:
@@ -29,3 +29,9 @@ Further, to enable all *Venduo POS* features, ensure that also the following pre
 - The *UCS Sync for POS* plugin version 2.1.1 or higher is installed.
 - The printer client (APS) is installed.
 - An external barcode scanner is connected and configured.
+
+## Further information
+
+Refer to our [Actindo Core1 Platform](../../Core1Platform/BasicPhilosophy/01_General.md) documentation for information on general features and functions, standard buttons, UI elements, and how to use the Actindo documentation.
+
+

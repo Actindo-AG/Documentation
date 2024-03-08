@@ -1,14 +1,12 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
-[!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
+[!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
 
 [comment]: <> (add link to Order management module if available)
 
 # Configure the global settings for POS
 
-Venduo POS provides many settings to configure the POS system individually.
-
-For detailed information about the specific settings, see [Global Settings](../UserInterface/02a_GlobalSettings.md).
+Venduo POS offers many settings to customize the POS system to your specific needs. For detailed information about the specific settings, see [Global Settings](../UserInterface/02a_GlobalSettings.md).
 
 Before creating a new store in the POS system, you should configure the following settings:
 
@@ -18,8 +16,8 @@ Before creating a new store in the POS system, you should configure the followin
 
 ## Configure a default customer
 
-To connect the POS system with the *Order management* module, an invoice address has to be defined for all occasion customers.   
-Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system. To specify a invoice address for occasion customers, a default customer must be created. The data of this default customer is used for all occasion customers.
+To connect the POS system with the *Order management* module, you must define an invoice address for all occasional customers.   
+Further, a delivery address and an invoice address should be indicated on every receipt created in the POS system. To specify an invoice address for occasional customers, you must create a default customer. The data of this default customer is used for all occasional customers.
 
 #### Prerequisites
 
@@ -31,7 +29,7 @@ No prerequisites to fulfill.
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
-1. Select the *Default customer* entry in the list of settings in the left column.   
+1. Click the *Default customer* entry in the list of settings in the left column.   
     The *Default customer* view is displayed on the right side.
 
 2. Enter the fields for the default customer.
@@ -39,9 +37,7 @@ No prerequisites to fulfill.
     > [Info] You must at least enter the country and an e-mail address for the default customer.
 
 3. Click the [Save] button in the upper right corner.   
-    The *Saving successful* message is displayed. The default customer is saved for all stores.
-
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
+    A confirmation message is displayed. The default customer is saved for all stores.
 
 
 
@@ -59,21 +55,20 @@ No prerequisites to fulfill.
 
 ![VAT-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT-ID]")
 
-1. Select the *VAT-ID* entry in the list of settings in the left column.   
+1. Click the *VAT-ID* entry in the list of settings in the left column.   
     The *VAT-ID* view is displayed on the right side.
 
 2. Enter the VAT-ID in the *VAT-ID* field.
 
 3. Click the [Save] button in the upper right corner.   
-    The *Saving successful* message is displayed. The VAT-ID is saved for all stores.
+    A confirmation message is displayed. The VAT-ID is saved for all stores.
 
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 
 ## Define a new payment method for POS
 
-By default, the payment methods debit card, credit card and paypal are predefined for the POS system. You can add several other payment methods that are predefined in the system, or you define a custom payment method for the POS system.
+By default, the payment methods debit card, credit card, and Paypal are predefined for the POS system. You can add several other payment methods that are predefined in the system, or you define a custom payment method for the POS system.
 
 ### Create a payment method in Order management
 
@@ -101,8 +96,6 @@ No prerequisites to fulfill.
 4. Click the [SAVE] button in the bottom right corner of the window.   
     The *Saving...* window is displayed.
 
-    ![Saving](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/Saving.png "[Saving]")
-
     When the window is closed, the new payment method is saved in the *Order management* module. The new payment method is displayed in the list of payment methods in the *PAYMENT METHOD(S)* tab.
 
 
@@ -112,7 +105,8 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 
 #### Prerequisites
 
-A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
+- A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
+
 
 #### Procedure
 
@@ -132,26 +126,33 @@ A payment method has been created in the *Order management* module, see [Create 
 
 4. Enter a name for the payment method in POS in the *Name* field.   
 
-    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order management* module. It is only necessary that the ID of the payment method in *Venduo POS* and *Order management* match.
+    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order management* module. It is only necessary that the ID (key) of the payment method in *Venduo POS* and *Order management* match.
 
 5. Click the [Save] button in the upper right corner.   
     The new payment method is saved in POS.
 
 
+
+
 ### Map the payment methods
+
+If you have created a new payment method in POS, you need to map the payment method in POS with the payment method in the *Order Management* module.
+
+<!---TO BE ENHANCED-->
 
 #### Prerequisites
 
 - A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
 - A payment method has been created in the *Venduo POS* module, see [Create a payment method in POS](#create-a-payment-method-in-pos).
+- At least, one store has been created so that the relevant attribute set is available in the *DataHub* module, see [Configure the store details](./06_CreateStore.md#configure-the-store-details).
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab Mappings*
 
 ![ETL](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
 
-1. Click the **Orders POS Store** attribute set mapping of the corresponding store in the *Source attribute set* column.   
+1. Click the **Order channels POS Store "Name of the store"** attribute set mapping of the corresponding store in the *Source attribute set* column.   
     The *Mapping* view of the selected attribute set is displayed.
 
 2. Click the attribute mapping with the **Payment method** attribute in the *Destination attribute* column.   

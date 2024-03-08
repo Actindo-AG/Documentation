@@ -6,11 +6,11 @@
 
 [comment]: <> (Need more information about the APS)
 
-To print receipts, invoices, shift summaries etc., a printer must be configured for POS.
+To print receipts, invoices, shift summaries etc., you must configure a printer for POS to print receipts, invoices, shift summaries, etc.
 
 #### Prerequisites
 
-The current APS is installed and has been started including a successful login.
+The current printer client (APS) is installed and has been started including a successful login.
 
 > [Info] Note that you have to use a separate user for the APS client as parallel logins are forbidden.
 
@@ -21,9 +21,9 @@ The current APS is installed and has been started including a successful login.
 ![Assign printers](../../Assets/Screenshots/Printing/Settings/AssignPrinters.png "[Assign printers]")
 
 1. Click the *Global (for all groups)* printer in the list of printers.   
-    The *Settings for group Global* view is displayed.
+    The *Print Settings for group Global* view is displayed.
 
-    ![Settings for group](../../Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings for group]")
+    ![Settings for group Global](../../Assets/Screenshots/Printing/Settings/SettingsGroup.png "[Settings for group Global]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Print settings* window is displayed.
@@ -38,13 +38,15 @@ The current APS is installed and has been started including a successful login.
 
 6. Select the portrait or the landscape format in the *LAYOUT* section.
 
-    > [Info] For receipt printers always select portrait format.
+    > [Info] For receipt printers always select *Portrait* format.
 
 7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
 8. Click the *Module* drop-down list and select **POS** in the list of modules.
 
 9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks, as displayed in the example below.
+
+    > [Info] Bear in mind that it may take some time for newly created pay desks to be displayed in the *Event* drop-down list.
 
     ![Print settings example](../../Assets/Screenshots/Printing/Settings/PrintSettingsExample.png "[Print settings example]")
 
