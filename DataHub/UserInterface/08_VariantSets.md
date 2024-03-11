@@ -8,19 +8,13 @@
 
 ![Variant sets](../../Assets/Screenshots/DataHub/Others/VariantSets.png "[Variant sets]")
 
+This tab is not part of the *DataHub* module, but it is used in the *PIM* and *Omni-Channel* modules to manage the attributes that define the different variants of a product or an offer. The functionality itself, however, is based on the data models defined in the *DataHub* module.
+
 **Variant set list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a variant set.
+The list displays all variant sets. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of variant sets.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar: 
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all variant sets in the list are selected.
@@ -32,7 +26,7 @@
 - [DELETE]     
     Click this button to delete the selected variant sets. A variant set can only be deleted if no dependencies are existing. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
 
-The list displays all variant sets. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The following functions and fields are available in this view:
 
 - *Name*   
     Variant set name.
@@ -78,8 +72,7 @@ The list displays all variant sets. Depending on the settings, the displayed col
 
 **Create variant set**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create variant set* view and return to the list of variant sets. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -111,17 +104,9 @@ This section is only displayed if an attribute set is selected.
 
 **Defining attributes**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
+The list in this box displays all defining attributes to the variant set. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -129,7 +114,7 @@ This section is only displayed if an attribute set is selected.
 - [DELETE]   
     Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
-The list displays all defining attributes to the variant set. All fields are read-only.
+The following functions and fields are available in this box:
 
 - *Name*   
     Attribute name.
@@ -149,17 +134,9 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 **Changeable attributes**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
+The list in this box displays all changeable attributes to the variant set. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -167,7 +144,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - [DELETE]   
     Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
-The list displays all changeable attributes to the variant set. All fields are read-only.
+The following functions and fields are available in this box:
 
 - *Name*   
     Attribute name.
@@ -178,7 +155,6 @@ The list displays all changeable attributes to the variant set. All fields are r
 - *Data type*   
     Attribute data type.   
     For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
-
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -197,8 +173,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 **Edit variant set**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit variant set* view and return to the list of variant sets. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the language in which the *Name (Language)* fields are displayed. The languages *English (United States)* and *Deutsch (Deutschland)* are available in the drop-down list.
@@ -228,17 +203,9 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 **Defining attributes**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
+The list in this box displays all defining attributes to the variant set. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -246,7 +213,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - [DELETE]   
     Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
-The list displays all defining attributes to the variant set. All fields are read-only.
+The following functions and fields are available in this box:
 
 - *Name*   
     Attribute name.
@@ -266,17 +233,9 @@ The list displays all defining attributes to the variant set. All fields are rea
 
 **Changeable attributes**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
+The list in this box displays all changeable attributes to the variant set. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -284,7 +243,7 @@ The list displays all defining attributes to the variant set. All fields are rea
 - [DELETE]   
     Click this button to delete the selected attribute from the box. This button is only displayed if the checkbox of at least one attribute is selected.
 
-The list displays all changeable attributes to the variant set. All fields are read-only.
+The following functions and fields are available in this box:
 
 - *Name*   
     Attribute name.
@@ -312,20 +271,9 @@ The list displays all changeable attributes to the variant set. All fields are r
 
 ![Defining attributes](../../Assets/Screenshots/DataHub/Others/AddDefiningAttributes.png "[Defining attributes]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Add defining attributes* view and return to the *Edit variant set* view. All changes are rejected.
+The list displays all available defining attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
@@ -336,7 +284,7 @@ The list displays all changeable attributes to the variant set. All fields are r
 - [ADD AND GO BACK]   
     Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add defining attributes* view is closed. The defining attributes are displayed in the *Defining attributes* box.
 
-The list displays all available defining attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The following functions and fields are available in this view:
 
 - *Name*   
     Attribute name.
@@ -361,20 +309,9 @@ The list displays all available defining attributes. Depending on the settings, 
 
 ![Changeable attributes](../../Assets/Screenshots/DataHub/Others/AddChangeableAttributes.png "[Changeable attributes]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Add changeable attributes* view and return to the *Edit variant set* view. All changes are rejected.
+The list displays all available changeable attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for an attribute.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute. If you click the checkbox in the header, all attributes in the list are selected.
@@ -385,7 +322,7 @@ The list displays all available defining attributes. Depending on the settings, 
 - [ADD AND GO BACK]   
     Click this button to add the selected attribute(s) to the variant set. This button is only displayed if the checkbox of at least one attribute is selected. The *Add changeable attributes* view is closed. The changeable attributes are displayed in the *Changeable attributes* box.
 
-The list displays all available changeable attributes. Depending on the settings, the displayed columns may vary. All fields are read-only. 
+The following functions and fields are available in this view: 
 
 - *Name*   
     Attribute name.

@@ -174,7 +174,7 @@ The *Edit attribute set* view contains both all fields and configurations that d
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Locked*   
-    Indication whether the attribute set is currently undergoing maintenance or not. If the toggle is enabled, the attribute set is locked and there cannot be edited. This toggle is intended for informative purposes only.
+    Indication whether the attribute set is currently undergoing maintenance or not. If the toggle is enabled, the attribute set is locked and therefore cannot be edited. The toggle status cannot be modified here, as it is intended for informational purposes only.
 
 - *Entity type*   
     Click the drop-down list to edit the entity type. All available entity types are displayed in the list.

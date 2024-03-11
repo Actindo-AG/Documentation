@@ -60,7 +60,7 @@ The following functions and fields are available in this section:
     Attribute identification number. The ID number is automatically assigned by the system.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add an attribute to the selected attribute group. The *Add attributes to group* view is displayed, see [Add attributes t group](#add-attributes-to-group).   
+    Click this button to add an attribute to the selected attribute group. The *Add attributes to group* view is displayed, see [Add attributes to group](#add-attributes-to-group).   
 
 
 ## Add attributes to group

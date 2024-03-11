@@ -32,7 +32,7 @@ No prerequisites to fulfill.
 
 2. Enter a name for the scope in the *Name* field and, if desired, add a scope description in the *Description* field.
 
-    > [Info] If you want to provide the scope name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+    > [Info] If you want to provide the scope name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
 3. Enter a key for the scope in the *Key* field. The key is required for API access and must be system wide unique. A scope key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )

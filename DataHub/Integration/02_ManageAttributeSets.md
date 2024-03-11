@@ -41,7 +41,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
-    > [Info] If you want to provide the attribute set name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+    > [Info] If you want to provide the attribute set name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
 3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
@@ -149,7 +149,7 @@ After you have created an attribute set, you can edit it.
 Depending on the selected inheritance type, only a certain number of attributes may be editable.
 However, you can add further attributes to an attribute set or remove unmapped attributes from an attribute set.
 
-> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently undergoing maintenance and therefore cannot be edited temporarily. An overview of all locked attribute sets is displayed in the *SET LOCKS* tab, see [Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
+> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently undergoing maintenance and therefore cannot be edited. An overview of all locked attribute sets is displayed in the *SET LOCKS* tab, see [Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
 
 ### Add an attribute to the set
 

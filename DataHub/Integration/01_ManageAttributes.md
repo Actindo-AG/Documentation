@@ -31,7 +31,7 @@ No prerequisites to fulfill.
 
 2. Enter a name for the attribute in the *Name* field and, if desired, add an attribute description in the  *Description* field.  
 
-    > [Info] If you want to provide the attribute name and description in English and German in the user interface, you can select the desired language in the "Language" drop-down list on top of this view. By default, the user interface is available in English (United States) and German (Germany). 
+    > [Info] If you want to provide the attribute name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
 [comment]: <> (zu prüfen) 
 
