@@ -51,9 +51,11 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
     > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
 
-5. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. 
+5. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. It is recommended to enable it.
 
-[comment]: <> (Beispiel!?)
+    > [Info] This feature makes it easier for you to associate independently created products and create a master-variant relationship between them. For example, if you have the same T-shirt in different colors, all the color T-shirts should be added as variants to a master T-shirt. If this toggle is enabled, the changeable attributes and its values, which are different pro variant, are copied once when creating the variant, so that you just have to update the values if necessary. 
+
+[comment]: <> (zu prüfen)
 
 6. For the next steps to create a variant set, follow the procedures below:   
     - [Add defining attributes](#add-defining-attributes)

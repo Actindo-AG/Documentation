@@ -1,5 +1,5 @@
 [!!Manage the variant set](../Integration/07_ManageVariantSets.md)
-[!!Data type list](../../DataHub/UserInterface/04_DataTypeList.md)
+[!!Data type list](..//UserInterface/05_DataTypeList.md)
 
 # Variant sets
 
@@ -21,7 +21,7 @@ The following functions are available for the editing toolbar:
 
 - [EDIT]      
     Click this button to edit the selected variant set. This button is only displayed if a single checkbox in the list of variant sets is selected. Alternatively, you can click directly a row in the list to edit a variant set. The *Edit variant set* view is displayed.   
-    For detailed information, see [Edit a variant set](../Integration/02_ManageVariantSets.md#edit-a-variant-set).
+    For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
     Click this button to delete the selected variant sets. A variant set can only be deleted if no dependencies are existing. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
@@ -124,7 +124,7 @@ The following functions and fields are available in this box:
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -154,7 +154,7 @@ The following functions and fields are available in this box:
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -223,7 +223,7 @@ The following functions and fields are available in this box:
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -253,7 +253,7 @@ The following functions and fields are available in this box:
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -294,7 +294,7 @@ The following functions and fields are available in this view:
 
 - *Data type*   
     Attribute data type.    
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
@@ -332,7 +332,7 @@ The following functions and fields are available in this view:
 
 - *Data type*   
     Attribute data type.   
-    For detailed information about all data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
+    For detailed information about all data types, see [Data type list](./05_DataTypeList.md).
 
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
