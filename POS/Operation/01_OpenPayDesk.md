@@ -20,7 +20,7 @@ To perform any operation on the pay desk, you must first open one.
 
 #### Procedure
 
-*Venduo POS > Sales*
+*Venduo POS > Sales > Tab CASHPOINT*
 
 ![POS Sales Select](../../Assets/Screenshots/POS/Sales/Select.png "[POS Sales Select]")
 
@@ -29,7 +29,7 @@ To perform any operation on the pay desk, you must first open one.
 2. Select a pay desk in the *Select pay desk* drop-down list.
 
 3. Click the [Use] button in the bottom right corner.   
-    A window to select the opening float is diplayed.
+    A window to edit the opening float is displayed. The opening float is the amount of cash available at the pay desk.
 
     ![Opening Float](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
 
@@ -37,5 +37,5 @@ To perform any operation on the pay desk, you must first open one.
 
     > [Info] If the opening float differs from the closing float of the pay desk, an opening difference is recorded in the payment tally of the cash register, which is synced to the *Accounting* module. The opening difference is also indicated in the shift summary.
 
-5. Click the button [Open] in the bottom right corner.   
+5. Click the [Open] button in the bottom right corner.   
     The selected pay desk is opened. The selected tab is displayed.

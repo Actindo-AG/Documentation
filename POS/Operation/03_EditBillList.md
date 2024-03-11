@@ -3,57 +3,61 @@
 
 # Edit the bill list
 
-The bill list on the right side of the *Cashpoint* tab displays all products added to the list for purchase. Before completing the purchase, you can edit the price and the quantity of products on the list, you can add discounts, remove products from the list, add a sale note or assign the purchase to a new or an existing customer.
+The bill list on the right side of the *Cashpoint* tab displays all offers added to the list for purchase. Before completing the purchase, you can edit the price and the quantity of offers on the list, you can add discounts, remove offers from the list, add a sale note, or assign the purchase to a new or an existing customer.
 
 ## Add a discount
 
-You can add a discount to [single products](#add-a-discount-to-a-single-product) or to the [whole purchase](#add-a-discount-to-the-purchase), for instance because of a campaign, defects in the products, for loyal customers or from a certain quantity of products.
+You can add a discount to [single offers](#add-a-discount-to-a-single-offer) or to the [whole purchase](#add-a-discount-to-the-purchase), for instance because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers.
 
-### Add a discount to a single product
+### Add a discount to a single offer
 
-You can add a customized discount to single products in your bill list.
+You can add a customized discount to single offers in your bill list.  
+You can apply an individual discount to each offer in your bill list. The discount is applied to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than 1, the discount will apply to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add the offer as a single entry in the bill list.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the product in the bill list on which you want to apply a discount.   
-    The detail view of the product is displayed in the bill list.
+1. Click the offer in the bill list on which you want to apply a discount.   
+    The detail view of the offer is displayed in the bill list.
 
-    ![Product Detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Detail]")
+    ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 
-2. Click on the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount or select the **EUR** option to apply a fixed amount discount to the product.   
+2. Click on the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount or select the **EUR** option to apply a fixed amount discount to the offer.   
     The selected option is displayed in the drop-down list.
 
     > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
-4. Click the [SAVE] button in the upper right corner to apply the discount.   
-    The detail view of the product is closed. The bill list is displayed again. The reduced price of the product is displayed in red, the discount is indicated below the price.
+4. Click the [SAVE] button in the bottom right corner to apply the discount.   
+    The detail view of the offer is closed. The bill list is displayed again. The reduced price of the offer is displayed in red, the discount is indicated below the price.
 
-    > [Info] You can apply an individual discount to each product in your bill list. The discount is applied to the product entry in the bill list. That means, if the quantity of a product in the bill list is greater than 1, the discount will apply to all products of this entry. If you want to apply a discount to a single one of several products in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add the product as a single entry in the bill list.
+    ![Offer discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDiscountBillList.png "[Offer discount]")
+
 
 
 ### Add a discount to the purchase
 
-Additional or alternative to the single discount, you can add a customized discount to the whole purchase in your bill list.
+Additional or alternative to the single discount, you can add a customized discount to the whole purchase in your bill list.   
+The discount to the purchase is always a percentage discount.
+
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -67,16 +71,12 @@ Additional or alternative to the single discount, you can add a customized disco
 
     ![Discount on bill](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
 
-3. Enter a description in the *Description* field to specify the discount, for instance campaign, defect.
+3. Enter a description in the *Description* field to specify the discount, for example, campaign, defect.
 
-    > [Info] The discount to the purchase is always a percentage discount.
-
-[comment]: <> (is that right? Why is there the percentage button but no other selection?)
-
-4. Enter a percentage in the text field to the right of the *Description* field or select a percentage by clicking the number buttons in the lower area.   
+4. Enter the percentage in the input field to the right of the *Description* field, or select a percentage by clicking the number buttons in the lower area.   
     The reduced price of the purchase is displayed below the percentage field.
 
-5. Click the [APPLY DISCOUNT] button in the upper right corner.   
+5. Click the [APPLY DISCOUNT] button in the bottom right corner.   
     The bill discount view is closed. The payment view is displayed again. The discount is indicated both as a percentage and as a fixed amount above the reduced total.
 
     ![Pay Discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PayDiscount.png "[Pay Discount]")
@@ -85,103 +85,101 @@ Additional or alternative to the single discount, you can add a customized disco
 
 
 
-## Edit the price of a product
+## Edit the price of an offer
 
-You can manually change the price of a product in your bill list, for instance if a price is not correctly in the system.
+You can manually change the price of an offer in your bill list, for example, if a price is incorrect in the system.   
+If you enter a changed price for an offer, you will not be able to apply an additional single discount to that offer. The discount field will be locked.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the product in the bill list whose quantity you want to change.   
-    The detail view of the product is displayed in the bill list.
+1. Click the offer in the bill list whose amount you want to change.   
+    The detail view of the offer is displayed in the bill list.
 
-    ![Product Detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Detail]")
+    ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 
 2. To the right of the *Price* field, click the ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button.   
-    The price text field becomes editable. The field name changes to *Price (mod.)*.
+    The price input field becomes editable. The field name changes to *Price (mod.)*.
 
-    > [Info] If you enter a changed price for a product, you will not be able to apply an additional single discount to that product. The discount field will be locked.
-
-3.  Enter a price in the text field to the right of the *Price (mod.)* field.   
+3.  Enter a price in the input field to the right of the *Price (mod.)* field.   
 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
 4. Click the [Save] button in the bottom right corner to apply the price change.   
-    The detail view of the product is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the product.
+    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer.
 
 
 
-## Edit the quantity of a product
+## Edit the quantity of an offer
 
-You can change the quantity of a product in your bill list by increasing or decreasing it.
+You can change the quantity of a offer in your bill list by increasing or decreasing it.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the product in the bill list whose quantity you want to change.   
-    The detail view of the product is displayed in the bill list.
+1. Click the offer in the bill list whose quantity you want to change.   
+    The detail view of the offer is displayed in the bill list.
 
-    ![Product Detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Detail]")
+    ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 
-2. To the right of the *Quantity* field, click the ![Plus](../../Assets/Icons/Plus03.png "[Plus]") (Plus) button to increase the quantity or click the ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button to decrease the quantity of the selected product. Alternatively, you can directly enter a number in the text field to the left of the buttons.
+2. To the right of the *Quantity* field, click the ![Plus](../../Assets/Icons/Plus03.png "[Plus]") (Plus) button to increase the quantity or click the ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button to decrease the quantity of the selected offer. Alternatively, you can directly enter a number in the input field to the left of the buttons.
 
-    > [Info] You have to enter a quantity higher than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is higher than 1.
+    > [Info] You have to enter a quantity higher than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is higher than 1. If you want to set the quantity to zero, remove the offer from the bill list, see [Delete an offer from the bill list](03_EditBillList.md#delete-an-offer-from-the-bill-list).
 
 3. Click the [SAVE] button in the bottom right corner to apply the quantity change.   
-    The detail view of the product is closed. The bill list is displayed again. The selected quantity is displayed to the left of the product.
+    The detail view of the offer is closed. The bill list is displayed again. The selected quantity is displayed to the left of the offer.
 
 
 
-## Delete a product from the bill list
+## Delete an offer from the bill list
 
-You can delete a product from your bill list, for instance if you accidentally added it to the list.
+You can delete an offer from your bill list, for example, if you accidentally added it to the list.
+If you delete an offer from the bill list, the whole offer entry regardless of its quantity is deleted. You cannot undo the deletion.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the product you want to delete from the bill list.   
-    The product entry is deleted from the list.
-
-> [Info] If you click the ![Delete Product](../../Assets/Icons/Cross02.png "[Delete Product]") (Delete Product) button the whole product entry regardless of its quantity is deleted. The deletion cannot be undone.
+Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the offer you want to delete from the bill list.   
+    The offer entry is deleted from the list.
 
 
 
 ## Add a sale note
 
-You can add a note to the purchase in your bill list to indicate if you have made any changes to the products or want to save any other information about the purchase.
+You can add a note to the purchase in your bill list to indicate if you have made any changes to the offers, or you want to save any other information about the purchase.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -202,16 +200,16 @@ You can either assign the purchase to an [existing customer](#assign-a-purchase-
 
 ### Register a customer
 
-If you want to assign purchase to a customer who does not yet exist in the system, you must first register that customer.
+If you want to assign a purchase to a customer who does not yet exist in the system, you must first register that customer.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -234,17 +232,17 @@ If you want to assign purchase to a customer who does not yet exist in the syste
 
 ### Assign a purchase to an existing customer
 
-Assign the current purchase to an registered customer.
+Assign the current purchase to a registered customer.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 - At least one customer is already registered, see [Register a customer](#register-a-customer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

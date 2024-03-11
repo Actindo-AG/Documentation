@@ -67,15 +67,19 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
     The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.  
 
-    The *Pay desks* wizard window is displayed when the store is created.
-    In the *DataHub* module, the following attribute sets have been created:
-    - *Orders channel POS Store "Name of new store"*
-    - *Line items channel POS Store "Name of new store"*
-    - *Payment items channel POS Store "Name of new store"*
-    - *Orders channel POS Store "Name of new store"*
-    - *Discount items channel POS Store "Name of new store"*  
+    The *Pay desks* wizard window is displayed when the store is created.  
+
+    The following entities have been automatically created:
+    - In the *DataHub* module, the following attribute sets have been created:
+        - *Orders channel POS Store "Name of new store"*
+        - *Line items channel POS Store "Name of new store"*
+        - *Payment items channel POS Store "Name of new store"*
+        - *Orders channel POS Store "Name of new store"*
+        - *Discount items channel POS Store "Name of new store"*  
+     - Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+    - In the *Omni-Channel* module, a connection *POS store "Name of new store"* has been created.
     
-    Additionally, your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+
 
 
 ### Configure the pay desk
@@ -311,14 +315,15 @@ Alternatively to using the [store wizard](#create-a-store-via-wizard), you can c
 
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
-    In the *DataHub* module, the following attribute sets have been created:
-    - *Orders channel POS Store "Name of new store"*
-    - *Line items channel POS Store "Name of new store"*
-    - *Payment items channel POS Store "Name of new store"*
-    - *Orders channel POS Store "Name of new store"*
-    - *Discount items channel POS Store "Name of new store"*  
-    
-    Additionally, your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+    The following entities have been automatically created:
+    - In the *DataHub* module, the following attribute sets have been created:
+        - *Orders channel POS Store "Name of new store"*
+        - *Line items channel POS Store "Name of new store"*
+        - *Payment items channel POS Store "Name of new store"*
+        - *Orders channel POS Store "Name of new store"*
+        - *Discount items channel POS Store "Name of new store"*  
+     - Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+    - In the *Omni-Channel* module, a connection *POS store "Name of new store"* has been created.
 
 
 ## Configure the store details
@@ -475,7 +480,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 
 ## Assign the POS warehouse
 
-To connect the warehouse management and the stock management to your POS, you have to assign a warehouse from which to take the stock. The warehouse specifies where exactly the stock is booked out when a product is sold.
+To connect the warehouse management and the stock management to your POS, you have to assign a warehouse from which to take the materials. The warehouse specifies where exactly the material is booked out when a product is sold.
 
 #### Prerequisites
 
@@ -493,12 +498,12 @@ To connect the warehouse management and the stock management to your POS, you ha
 
 <!--Screenshot einfügen-->
 
-2. Select the warehouse you want to take the stock from in the *Warehouse* drop-down list.
+2. Select the warehouse you want to take the material from in the *Warehouse* drop-down list.
 
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
 For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
+   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
    This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
@@ -509,7 +514,7 @@ For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 ## Configure the stock withdrawal matrix
 
-Define in the stock withdrawal matrix from which warehouses defined in the system the stock is booked out.  
+Define in the stock withdrawal matrix from which warehouses defined in the system the stock level is booked out.  
 For detailed information on the stock withdrawal matrix, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* documentation.
 
 #### Prerequisites
@@ -656,7 +661,8 @@ You may assign the same accounts to all stores or you may assign different accou
 - To [assign the accounts to a single pay desk](#assign-the-accounts-in-the-pay-desk-settings), enter the accounts in the admin settings of the respective pay desk.
 
 
-    > [Info] Remember that the more specific settings always override the more general settings.  
+    > [Info] Remember that the more specific settings always override the more general settings.
+
     This means that the accounts specified in the pay desks admin settings are always used first. If none are specified there, the accounts from the stores admin settings are used and only when nothing is specified there, the accounts from the global settings are used.
 
 ### Assign the accounts in the global settings
@@ -679,9 +685,8 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
 2. Click the [Save] button in the bottom right corner of the window.   
-    The *Saving successful* message is displayed. The account assignment is saved.
+    A confirmation message is displayed. The account assignment is saved.
 
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 ### Assign the accounts in the store settings
@@ -699,16 +704,16 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 ![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts Store Settings]")
 
-> [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
+> [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings. 
+
 When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
 For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
 2. Click the [Save] button in the bottom right corner of the window.   
-    The *Saving successful* message is displayed. The account assignment for the selected store is saved.
+    A confirmation message is displayed. The account assignment for the selected store is saved.
 
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")
 
 
 ### Assign the accounts in the pay desk settings
@@ -727,13 +732,13 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 ![Assign accounts Pay Desk Settings](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings07.png "[Assign accounts Pay Desk Settings]")
 
-> [Info] In the bottom right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
+> [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
+
 When the toggle is active, all fields in the detail view are locked. By default, this toggle is inactive.
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
-For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
+    For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
 2. Click the [Save] button in the bottom right corner of the window.   
-    The *Saving successful* message is displayed. The account assignment for the selected pay desk is saved.
+    A confirmation message is displayed. The account assignment for the selected pay desk is saved.
 
-    ![Saving successful](../../Assets/Screenshots/SavingSuccessful.png "[Saving successful]")

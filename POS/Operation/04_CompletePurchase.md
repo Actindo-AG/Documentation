@@ -4,11 +4,13 @@
 
 # Complete a purchase
 
-To complete a purchase, you need to initiate the payment. At the Venduo POS pay desk, you have several options to complete the payment process, for instance by cash payment, by cashless payment or by voucher. You can also assign a discount to one or more items on the bill list or park a payment for a later time.
+To complete a purchase, you need to initiate the payment. At the Venduo POS pay desk, you have several options to complete the payment process, for instance by cash payment, by cashless payment, or by voucher. You can also assign a discount to one or more line items on the bill list or park a payment for a later time.
 
 ## Pay cash
 
-If a customer wishes to pay in cash, the payment process in the pay desk must be completed as follows.
+If a customer wants to pay cash, the payment process in the pay desk must be completed as follows.
+
+
 
 ### Manual input of the cash amount
 
@@ -16,11 +18,11 @@ To enter a cash payment, you can select the cash amount for the payment manually
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -39,15 +41,14 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 4. Enter the cash payment amount in the *Amount* field or select an amount by clicking the number buttons in the lower area.
 
 5. Click the [Pay] button in the bottom right corner.   
-    The *Payment pending* view is displayed while the payment is being processed.   
+    The *Payment pending* view is displayed while the payment is being processed. 
 
     ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
-
-    The *Payment successful* view is displayed when the payment is completed.   
+    
+    After that, a confirmation window is displayed. Click the [Done] button to confirm the payment.
 
     ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
 
-6. Click the [Done] button.   
     The purchase is completed. The bill list is displayed again.
 
 
@@ -57,11 +58,11 @@ To enter a cash payment, you can select the cash amount for the payment by using
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -71,8 +72,10 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 2. In the *Select payment* section you can complete the cash payment by two different ways:   
+<!---TO BE ENHANCED-->
+    - Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.  
+    - Click the [Cash] button and enter the given amount manually.  
 
-3. Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.   
     The *Payment pending* view is displayed while the payment is being processed.   
 
     ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
@@ -102,7 +105,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -137,11 +140,11 @@ If a customer wishes to pay cashless, the payment process in the pay desk must b
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -176,11 +179,11 @@ In addition to cash and cashless payment, customers can also pay with vouchers.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -218,11 +221,11 @@ Park a bill to defer it for a later date.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -249,11 +252,11 @@ If you have parked a purchase, you can resume it as follows.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/ParkedBill.png "[Cashpoint]")
 
@@ -270,7 +273,7 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 3. Click the [Resume] button.   
     The purchase is resumed. The parked bill list is displayed again.
 
-    ![Bill list product](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill list product]")
+    ![Bill list offer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill list offer]")
 
 4. Complete the purchase by editing the bill list or paying the remaining total either by cash or cashless payment:
     - For cash payment, see [Pay cash](#pay-cash).
@@ -285,11 +288,11 @@ You can cancel a purchase, for instance if a customer decides against the purcha
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
