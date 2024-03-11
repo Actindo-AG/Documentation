@@ -79,7 +79,7 @@ No prerequisites to fulfill.
 
 ## Edit an attribute
 
-After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type, multi-language and multi-scope settings cannot be subsequently modified. 
+After you have created an attribute, you can edit it. However, only some attribute properties are editable. For instance, the data type, and the multi-language and multi-scope settings cannot be subsequently modified. 
 
 The attribute key is locked but can be modified in exceptional cases, for example, if you have named it wrongly. 
 

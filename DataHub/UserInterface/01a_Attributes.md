@@ -206,7 +206,7 @@ The *Edit attribute* view contains all fields and configurations that define the
     This toggle indicates whether the attribute is multi-scope or not. In the *Edit attribute* view, this toggle is read-only.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
-    Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is active.
+    Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Contains sensitive data*   
     Enable this toggle if the potential attribute values may be sensitive. By default, this toggle is disabled.

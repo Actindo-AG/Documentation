@@ -7,6 +7,7 @@ Its flexible data model enables complex and varying data to be mapped, transform
 
 This documentation refers to the *DataHub* module version 4.6.0. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
 
+[comment]: <> (Julian: stimmt die Version hier? In terminologie-einspielen2 Sandbox ist die Version 4.8.0 pre-release)
 
 
 ## Benefits
