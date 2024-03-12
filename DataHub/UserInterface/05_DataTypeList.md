@@ -96,7 +96,7 @@ The *Checkbox* data type is used to indicate a statement that is either true or 
 - 18+
 - Digital item
 
-> [Info] Note that the *Checkbox* date type also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it has not been manually changed to **true**. This may cause problems when connecting to other systems, for example shops or sales channels, with different default settings for checkboxes.   
+> [Info] Note that the *Checkbox* data type also has the third value **not set**. When creating or importing a product, the value **not set** is set for the corresponding attribute. After saving, the value switches automatically to **false** if it has not been manually changed to **true**. This may cause problems when connecting to other systems, for example shops or sales channels, with different default settings for checkboxes.   
 
 The *DataHub* plugin owns this data type.
 
@@ -238,7 +238,7 @@ This data type has no further configuration settings.
 
 The *TreeNode* is used for indications with multiple, predefined selection options. You have to define the different selection options in the configuration. Additionally, you can configure whether the selection of values will be a multiple or single selection.
 
-> [Info] Note that tree nodes are monolingual. The values are maintained in one single language, but the values are translatable. For example, when adding an element to a tree node attribute defining different colors, it doesn't make sense to add one element *red* and one element *rot* as both elements describe the same color. Instead, only add the the color element in one language.
+> [Info] Note that tree nodes are monolingual. The values are maintained in one single language, but the values are translatable. For example, when adding an element to a tree node attribute defining different colors, it doesn't make sense to add one element *red* and one element *rot* as both elements describe the same color. Instead, only add the color element in one language.
 
 ![TreeNode](../../Assets/Screenshots/DataHub/DataTypes/TreeNode.png "[TreeNode]")
 
@@ -446,7 +446,7 @@ The *DataHub* plugin owns this data type.
 
 The *Taxclass* data type is used to indicate the tax class. A drop-down list with all available tax classes is displayed in the product view.
 
-    > [Info] For detailed information about creating a tax class, see [Create a tax class](../../Taxes/Integration/02_ManageTaxClasses.md#create-a-tax-class).
+> [Info] For detailed information about creating a tax class, see [Create a tax class](../../Taxes/Integration/02_ManageTaxClasses.md#create-a-tax-class).
 
 The *Taxes* plugin owns this data type.
 
@@ -462,7 +462,7 @@ This data type has no further configuration settings.
 
 The *Taxzone* data type is used to indicate the tax zone. A drop-down list with all available tax zones is displayed in the product view.
 
-    > [Info] For detailed information about creating a tax zone, see [Create a tax zone](../../Taxes/Integration/03_ManageTaxZones.md#create-a-tax-zone).
+> [Info] For detailed information about creating a tax zone, see [Create a tax zone](../../Taxes/Integration/03_ManageTaxZones.md#create-a-tax-zone).
 
 The *Taxes* plugin owns this data type.
 
@@ -728,7 +728,7 @@ The *UCS Product Sync* plugin owns this data type.
 
 ![Base price](../../Assets/Screenshots/DataHub/DataTypes/BasePrice.png "[Base price]")
 
-The *Base price* data type is used to indicate a base price. The base price is necessary to calculate the price per unit, which is mandatory in the EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the *Base unit (Base price)* attribute has the *Base price* data type:
+The *Base price* data type is used to indicate a base price. The base price is necessary to calculate the price per unit, which is mandatory in the EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the *Base unit (Base price)* attribute has the *Base price* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -742,7 +742,7 @@ This data type has no further configuration settings.
 
 ![Product bundle](../../Assets/Screenshots/DataHub/DataTypes/ProductBundle.png "[Product bundle]")
 
-The *Product bundle* data type is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, for example at a promotional price, without forming a packaging unit. That means that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the *Bundle* attribute has the *Product bundle* data type:
+The *Product bundle* data type is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, for example at a promotional price, without forming a packaging unit. That means that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the *Bundle* attribute has the *Product bundle* data type.
 
 The *PIM* plugin owns this data type.
 

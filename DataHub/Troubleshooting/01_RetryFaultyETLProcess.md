@@ -5,7 +5,7 @@
 
 If an ETL process has been canceled because of an error, the corresponding process is displayed in the *ETL PROCESSES* tab with the **Error** status. When the error has been fixed, you can restart the ETL process to rerun the corresponding mapping.
 
-#### Error Description
+#### Error description
 
 An ETL process fails and the process status *Error* is displayed.
 
