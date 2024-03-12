@@ -4,7 +4,7 @@
 
 # Open a pay desk
 
-The pay desk is the most important tool in Venduo POS.
+The pay desk is the most important tool in POS.
 For instance, in the pay desk you can select offers, make payments, give discounts, choose between different payment methods and have the possibility to park purchases for a later date.
 To perform any operation on the pay desk, you must first open one.
 
@@ -20,7 +20,7 @@ To perform any operation on the pay desk, you must first open one.
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT*
+*POS > Sales > Tab CASHPOINT*
 
 ![POS Sales Select](../../Assets/Screenshots/POS/Sales/Select.png "[POS Sales Select]")
 

@@ -2,7 +2,7 @@
 
 # Global settings
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS*
+*POS > Management > Tab GLOBAL SETTINGS*
 
 In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
 
@@ -32,7 +32,7 @@ In this section, you define all pay desk and payment settings.
 
 ## Format laufende Nummer
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Format laufende Nummer*
+*POSgement > Tab GLOBAL SETTINGS > Entry Format laufende Nummer*
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order management* module and is therefore selected from a different number range to be defined here.
 
@@ -61,7 +61,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 ## Bon immer ausdrucken
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Bon immer ausdrucken*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Bon immer ausdrucken*
 
 Activate or deactivate the option to print the cash receipt.
 
@@ -82,7 +82,7 @@ Activate or deactivate the option to print the cash receipt.
 
 ## Anzahl Gutscheine pro Bestellung
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Anzahl Gutscheine pro Bestellung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Anzahl Gutscheine pro Bestellung*
 
 Define how many vouchers may be redeemed per order.
 
@@ -101,10 +101,10 @@ Define how many vouchers may be redeemed per order.
 
 ## Zahlungsweisen (manuelle Zahlung Terminal)
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Zahlungsweisen (manuelle Zahlung Terminal)*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Zahlungsweisen (manuelle Zahlung Terminal)*
 
-If you use an external terminal that is not connected to Venduo POS, cashless payment is completed manually through that terminal.
-In Venduo POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
+If you use an external terminal that is not connected to POS, cashless payment is completed manually through that terminal.
+In POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
 
 ![Zahlungsweisen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Zahlungsweisen]")
 
@@ -131,7 +131,7 @@ In Venduo POS, you can specify for statistical purposes which payment method was
 
 ## Automatischer Discount
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Automatischer Discount*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Automatischer Discount*
 
 Define a discount that is automatically applied above a certain amount.
 
@@ -161,7 +161,7 @@ Define a discount that is automatically applied above a certain amount.
 
 ## Kasse öffnen bei Barzahlung
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen bei Barzahlung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen bei Barzahlung*
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
@@ -180,7 +180,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 ## Kasse öffnen nach bargeldlosem Zahlen
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen nach bargeldlosem Zahlen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen nach bargeldlosem Zahlen*
 
 Activate or deactivate the option to open the cash drawer for cashless payment.
 
@@ -198,7 +198,7 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 
 ## USt-ID
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry USt-ID*
+*POS > Management > Tab GLOBAL SETTINGS > Entry USt-ID*
 
 Define the VAT ID, which is mandatory to be indicated on receipts in some countries.
 
@@ -214,7 +214,7 @@ Define the VAT ID, which is mandatory to be indicated on receipts in some countr
 
 ## Bargeldloses Zahlen
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Bargeldloses Zahlen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Bargeldloses Zahlen*
 
 Activate or deactivate the options for cashless payment.
 
@@ -224,7 +224,7 @@ Activate or deactivate the options for cashless payment.
     Choose whether or not to refund cashless payments only on vouchers. By default, this option is inactive.
 
 - [x] ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manuelles Zahlen am Terminal*   
-    Choose whether or not to allow cashless payments via manual payment at the terminal. If you use an external terminal that is not connected to Venduo POS, you need to enable that option. By default, this option is inactive.
+    Choose whether or not to allow cashless payments via manual payment at the terminal. If you use an external terminal that is not connected to POS, you need to enable that option. By default, this option is inactive.
 
 - *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the view are locked. By default, this toggle is active.
@@ -236,7 +236,7 @@ Activate or deactivate the options for cashless payment.
 
 ## Kassenjournal auf User binden
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kassenjournal auf User binden*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Kassenjournal auf User binden*
 
 When a pay desk is opened, it is linked to a specific user. This user is the only one who can use the pay desk until he closes it again. To allow that several users can access the same pay desk without closing it, you can deactivate the option to link the cash register to a specific user.
 
@@ -257,7 +257,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 ## Abschöpfen bis Betrag
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Abschöpfen bis Betrag*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Abschöpfen bis Betrag*
 
 Define an amount up to which the pay desk is skimmed after the pay desk closes. The amount is automatically entered in the cash register and taken as the opening float.
 
@@ -272,7 +272,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 ## Erwarteten Betrag verbergen
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Erwarteten Betrag verbergen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Erwarteten Betrag verbergen*
 
 By default, the expected amount in the pay desk is indicated. deactivate this option to hide the expected amount from the cashier in order to prevent the concealment of shortfalls.
 
@@ -295,7 +295,7 @@ In this section, you define all settings concerning the currencies in your POS s
 
 ## Available currencies
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
 Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar and British Pound are predefined.
 
@@ -340,7 +340,7 @@ The table displays all available currencies. All fields are read-only. Depending
 
 ### Create currency
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
 
 Add a new currency to the list of available currencies and define the coins and notes of the new currency.
 
@@ -383,7 +383,7 @@ Add a new currency to the list of available currencies and define the coins and 
 
 ### Edit currency
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
 
 Edit the settings of an existing currency.
 
@@ -427,7 +427,7 @@ Edit the settings of an existing currency.
 
 ## Verwendete Währungen
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Verwendete Währungen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Verwendete Währungen*
 
 Select all currencies that are used in your POS system and define a default currency.
 
@@ -453,7 +453,7 @@ In this section, you define all settings concerning returns.
 
 ## Retouren-Gründe
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Retouren-Gründe*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Retouren-Gründe*
 
 Define the return reasons that are available in the POS system.
 
@@ -483,7 +483,7 @@ Define the return reasons that are available in the POS system.
 
 ## Refund nur auf gleiches Zahlungsmittel
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Refund nur auf gleiches Zahlungsmittel*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Refund nur auf gleiches Zahlungsmittel*
 
 Activate or deactivate the refund to the same payment method for returns.
 
@@ -502,7 +502,7 @@ Activate or deactivate the refund to the same payment method for returns.
 
 ## Retoure nur in gleichem Store
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Retoure nur in gleichem Store*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Retoure nur in gleichem Store*
 
 Activate or deactivate the return to the same store.
 
@@ -525,7 +525,7 @@ In this section, you define all settings concerning the receipt printing.
 
 ## Händler-Beleg drucken
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
 
 Activate or deactivate the printing of a merchant receipt for cashless payment.
 
@@ -544,7 +544,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 ## Nativer Bon-Druck
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Nativer Bon-Druck*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Nativer Bon-Druck*
 
 Activate or deactivate the native receipt printing.
 
@@ -565,7 +565,7 @@ Activate or deactivate the native receipt printing.
 
 ## Logo-Druck Kompatibilitätsmodus
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo-Druck Kompatibilitätsmodus*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Logo-Druck Kompatibilitätsmodus*
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
@@ -582,7 +582,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 
 ## Bon-Format
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Bon-Format*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Bon-Format*
 
 Define the width of the receipt, as it may vary depending on the printer.
 
@@ -606,7 +606,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 ## Zahlenformat
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Zahlenformat*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Zahlenformat*
 
 Define the number format on the receipt.
 
@@ -633,7 +633,7 @@ Define the number format on the receipt.
 
 ## Logo
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
 
 Upload a logo for your receipts.
 
@@ -662,7 +662,7 @@ In this section, you define all settings concerning the connection to the *Order
 
 ## Kontenzuteilung Buchhaltung
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
 
 Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For more information, see [Admin Settings - Store](./02b_Stores.md#adminsettings-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settingspay-desk).
@@ -702,7 +702,7 @@ The number of accounts to be assigned depends on the number of available currenc
 
 ## Korrekturbuchung auf Ursprungslager
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
 
 Activate or deactivate the reverse booking to the original warehouse. Any discrepancies in store deliveries are automatically booked back to the original warehouse.   
 
@@ -724,7 +724,7 @@ Activate or deactivate the reverse booking to the original warehouse. Any discre
 
 ## Retourenlager (Sperrlager)
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Retourenlager (Sperrlager)*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Retourenlager (Sperrlager)*
 
 [comment]: <> (need information; Is that right?)
 
@@ -746,7 +746,7 @@ Define a shelf in the quarantine warehouse for returns with defects.
 
 ## Standard-Kunde
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Standard-Kunde*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Standard-Kunde*
 
 Define an invoice address for a default customer to connect the POS system with the *Order management* module. The invoice address of this default customer is used for all occasion customers.
 
@@ -793,7 +793,7 @@ Define an invoice address for a default customer to connect the POS system with 
 
 ## Shop-Lieferungen aktiv
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Shop-Lieferungen aktiv*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Shop-Lieferungen aktiv*
 
 Activate or deactivate the store deliveries. If the store deliveries are active, deliveries to the store can be entered and the POS inventory is automatically increased by the delivered products.
 
@@ -814,7 +814,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 ## Kundendaten aus RetailSuite übernehmen
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kundendaten aus RetailSuite übernehmen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Kundendaten aus RetailSuite übernehmen*
 
 Activate or deactivate the application of customer data from RetailSuite.
 

@@ -1,6 +1,6 @@
 # Retouren
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETOUREN*
+*POS > Sales > Select Store and Pay Desk > Tab RETOUREN*
 
 ![Retouren](../../Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Retouren]")
 
@@ -48,7 +48,7 @@ The table displays all returns. Depending on the settings, the displayed columns
 
 ## Add return
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETOUREN > Button Add*
+*POS > Sales > Select Store and Pay Desk > Tab RETOUREN > Button Add*
 
 ![Add return](../../Assets/Screenshots/POS/Sales/Retouren/Add.png "[Add return]")
 

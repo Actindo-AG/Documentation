@@ -1,6 +1,6 @@
 # Settings
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab SETTINGS*
+*POS > Sales > Select Store and Pay Desk > Tab SETTINGS*
 
 ![Settings](../../Assets/Screenshots/POS/Sales/Settings/Settings.png "[Settings]")
 

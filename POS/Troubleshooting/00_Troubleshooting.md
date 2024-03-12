@@ -1,6 +1,6 @@
 # Troubleshooting
 
-In this part of the *Venduo POS* documentation, you will find the following chapters:
+In this part of the *POS* documentation, you will find the following chapters:
 
 - [Handle an out-of-stock order](./01_OutOfStockOrder.md)
 

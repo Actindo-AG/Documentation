@@ -2,7 +2,7 @@
 
 This tab is only displayed, if the global setting *Shop-Lieferungen aktiv* is active.
 
-*Venduo POS > Management > Tab OFFENE LIEFERSCHEINE*
+*POS > Management > Tab OFFENE LIEFERSCHEINE*
 
 ![Offene Lieferscheine](../../Assets/Screenshots/POS/Management/OffeneLieferscheine/OffeneLieferscheine.png "[Offene Lieferscheine]")
 

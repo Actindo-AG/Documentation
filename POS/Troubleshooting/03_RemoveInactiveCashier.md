@@ -13,7 +13,7 @@ You have at least store manager rights in the respective store.
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store*
+*POS > Management > Tab STORES > Select Store*
 
 ![Pay Desk Used](../../Assets/Screenshots/POS/Management/Stores/Store/PayDeskUsed.png "[Pay Desk Used]")
 

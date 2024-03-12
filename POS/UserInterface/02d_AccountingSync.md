@@ -2,7 +2,7 @@
 
 # Accounting Sync
 
-*Venduo POS > Management > Tab ACCOUNTING SYNC*
+*POS > Management > Tab ACCOUNTING SYNC*
 
 ![Accounting sync](../../Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting sync]")
 
@@ -24,7 +24,7 @@
 - ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
     Click this button to display the filter editing bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
-The table displays the list of jobs in Venduo POS and their current status. Depending on the settings, the displayed columns may vary.
+The table displays the list of jobs in POS and their current status. Depending on the settings, the displayed columns may vary.
 
 - *ID*   
     Job ID.
@@ -68,13 +68,13 @@ The table displays the list of jobs in Venduo POS and their current status. Depe
     Bill number in the *Order management* module.
 
 - *Bill number at POS*   
-    Bill number in the *Venduo POS* module.
+    Bill number in the *POS* module.
 
 
 
 ## Accounting sync details
 
-*Venduo POS > Management > Tab ACCOUNTING SYNC > Button Show details*
+*POS > Management > Tab ACCOUNTING SYNC > Button Show details*
 
 ![Accounting sync details](../../Assets/Screenshots/POS/Management/AccountingSync/ShowDetails.png "[Accounting sync details]")
 

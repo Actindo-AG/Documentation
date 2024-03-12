@@ -5,7 +5,7 @@
 
 # Cashpoint
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -25,7 +25,7 @@
 
 ## Bill list
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
 
 ![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
@@ -84,7 +84,7 @@
 
 ## Pay bill list
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
 
 ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
 
@@ -151,7 +151,7 @@ This section is only displayed when no voucher has been redeemed.
 
 ## Cash payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [CASH]*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the [PAY] button > Select the [CASH] button*
 
 ![Cash payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
 
@@ -213,7 +213,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 ## Cashless payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
 
 ![Cashless payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
 
@@ -253,7 +253,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ## Add customer
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer*
 
 ![Add Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer01.png "[Add Customer]")
 
@@ -270,7 +270,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ## Create customer
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
 
 ![Create Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
 
@@ -317,7 +317,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ## Discount on bill
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [+ DISCOUNT]*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [+ DISCOUNT]*
 
 ![Discount on bill](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
 
@@ -351,7 +351,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 ## Product details
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
 
 ![Product Details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
 

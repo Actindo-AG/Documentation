@@ -1,6 +1,6 @@
 # User interface
 
-In this part of the *Venduo POS* documentation, you will find the following chapters:
+In this part of the *POS* documentation, you will find the following chapters:
 
 - [Sales](./01_Sales.md)
     - [Select store and pay desk](./01_Sales.md#select-store-and-pay-desk)

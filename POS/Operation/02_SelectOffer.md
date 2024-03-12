@@ -3,7 +3,7 @@
 
 # Select an offer
 
-The *Venduo POS* module offers several ways to select an offer or to search for it.
+The *POS* module offers several ways to select an offer or to search for it.
 You may select an offer by the following:
 - Quickselect, see [Select by QuickSelect](#select-by-quickselect).
 - Name, see [Select by name](#select-by-name).
@@ -22,7 +22,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -53,7 +53,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk*
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select the desired category by clicking the corresponding tab below the search bar.  
@@ -74,7 +74,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -104,7 +104,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk* 
+*POS > Sales > Tab CASHPOINT > Select store and pay desk* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -134,7 +134,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*Venduo POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 

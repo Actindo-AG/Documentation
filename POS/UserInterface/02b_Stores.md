@@ -5,7 +5,7 @@
 
 # Stores
 
-*Venduo POS > Management > Tab STORES*
+*POS > Management > Tab STORES*
 
 In the tab *STORES*, you select a store and define the settings of the selected store and its pay desks.
 To define the settings of a store and its pay desk, you have to select the corresponding store first.
@@ -56,7 +56,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 ## Create store
 
-*Venduo POS > Management > Tab STORES > Button Add*
+*POS > Management > Tab STORES > Button Add*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
 
@@ -73,7 +73,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 ## Create store via wizard
 
-*Venduo POS > Management > Tab STORES > Button Add > Button Create store via wizard*
+*POS > Management > Tab STORES > Button Add > Button Create store via wizard*
 
 ### Step 1 - Create store
 
@@ -376,7 +376,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ## Create store manually
 
-*Venduo POS > Management > Tab STORES > Button Add > Button Create Store*
+*POS > Management > Tab STORES > Button Add > Button Create Store*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/CreateStore.png "[Create Store]")
 
@@ -393,7 +393,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ## Store
 
-*Venduo POS > Management > Tab STORES > Select Store*
+*POS > Management > Tab STORES > Select Store*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
@@ -421,7 +421,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ### Basic data &ndash; Store
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
@@ -468,7 +468,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 #### Store managers
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
 
 ![Store Managers](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
 
@@ -501,7 +501,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 #### Create pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Pay Desk*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Pay Desk*
 
 ![Create pay desk](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
 
@@ -517,7 +517,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 ### Settings
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
+*POS > Management > Tab STORES > Select Store > Tab Settings*
 
 ![Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
 
@@ -723,7 +723,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 ### Admin settings &ndash; Store
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
@@ -947,7 +947,7 @@ Change or define the warehouse from which to take the stock.
 
 ## Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk*
 
 ![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
@@ -986,7 +986,7 @@ Change or define the warehouse from which to take the stock.
 
 ### Basic data &ndash; Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data*
 
 ![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
@@ -1016,7 +1016,7 @@ Change or define the warehouse from which to take the stock.
 
 #### Cashiers
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data > Add Cashier*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Basic Data > Add Cashier*
 
 ![Cashiers](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/Cashiers.png "[Cashiers]")
 
@@ -1049,7 +1049,7 @@ The table displays all available cashiers. All fields are read-only. Depending o
 
 ### Admin settings &ndash; Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
 
 ![Admin Settings Pay Desk](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
 
@@ -1203,7 +1203,7 @@ The number of accounts to be assigned depends on the number of available currenc
 
 ### Transactions
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
@@ -1258,7 +1258,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 
 #### Transactions details
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions]")
 

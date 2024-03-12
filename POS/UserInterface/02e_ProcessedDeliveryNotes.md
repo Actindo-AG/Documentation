@@ -2,7 +2,7 @@
 
 This tab is only displayed, if the global setting *Shop-Lieferungen aktiv* is active.
 
-*Venduo POS > Management > Tab ABGESCHLOSSENE LIEFERSCHEINE*
+*POS > Management > Tab ABGESCHLOSSENE LIEFERSCHEINE*
 
 ![Abgeschlossene Lieferscheine](../../Assets/Screenshots/POS/Management/AbgeschlosseneLieferscheine/AbgeschlosseneLieferscheine.png "[Abgeschlossene Lieferscheine]")
 

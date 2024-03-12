@@ -9,7 +9,7 @@
 
 # Manage offers for POS
 
-To offer products in Venduo POS, it is recommended to create the products in advance and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
+To offer products in POS, it is recommended to create the products in advance and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
 
 
 ## Create products for POS
@@ -43,7 +43,7 @@ At least one new product type has been created, see [Create an attribute set](..
 
 #### Procedure
 
-*Venduo POS > Management > Tab MAPPING FROM PIM*
+*POS > Management > Tab MAPPING FROM PIM*
 
 ![Mapping from PIM](../../Assets/Screenshots/POS/Management/MappingFromPIM/MappingFromPIM01.png "[Mapping from PIM]")
 
@@ -62,7 +62,7 @@ At least one new product type has been created, see [Create an attribute set](..
 
 ## Create an offer for POS
 
-Create an offer in the *Omni-Channel* module or a product in the *PIM* module, so you can offer and select the products/offers in the *Venduo POS* store.
+Create an offer in the *Omni-Channel* module or a product in the *PIM* module, so you can offer and select the products/offers in the *POS* store.
 
 If you have the *PIM* module in use, it is recommended to create/edit the products in the *PIM* module. Changes to the *PIM* product are automatically transferred (via ETL) to the offers available in the *Omni-Channel* module.  
 Especially if you want to exchange your product data available in the *PIM* module with your stores, you must additionally create the ETL mappings and processes for the data transfer between the PIM product data and the Omni-Channel offer data.
@@ -163,7 +163,7 @@ Create a QuickSelect category for POS for faster access to favorite products.
 
 ### Define a QuickSelect attribute
 
-When creating a POS store, a QuickSelect attribute is automatically created in the *DataHub* module. Edit the QuickSelect attribute to specify the different QuickSelect elements for a *Venduo POS* offer.
+When creating a POS store, a QuickSelect attribute is automatically created in the *DataHub* module. Edit the QuickSelect attribute to specify the different QuickSelect elements for a *POS* offer.
 
 #### Prerequisites
 
@@ -195,7 +195,7 @@ No prerequisites to fulfill.
 
 5. Enter a name in the *Name* field.
 
-    > [Info] The entered name equals the name of the QuickSelect element that will be displayed in Venduo POS.
+    > [Info] The entered name equals the name of the QuickSelect element that will be displayed in POS.
 
 6. If desired, enter a key in the *Key* field.
 
@@ -223,7 +223,7 @@ A product is assigned to a certain QuickSelect Category when you assign the crea
 #### Prerequisites
 
 - At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
-- At least one offer is for *Venduo POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one offer is for *POS*, see [Create an offer for POS](#create-an-offer-for-pos).
 
 #### Procedure
 *Omni-Channel > Offers > Tab OFFERS*
@@ -296,7 +296,7 @@ No prerequisites to fulfill.
 
 ### Define the voucher setting
 
-You need to define the created product as a voucher to use it in the *Venduo POS* store.
+You need to define the created product as a voucher to use it in the *POS* store.
 
 #### Prerequisites
 

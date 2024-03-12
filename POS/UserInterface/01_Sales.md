@@ -2,7 +2,7 @@
 
 # Sales
 
-The Venduo POS *Sales* menu entry is used for all transactions in the stores and pay desks.
+The POS *Sales* menu entry is used for all transactions in the stores and pay desks.
 
 The *Sales* user interface is composed of the following tabs:
 - [CASHPOINT](./01a_Cashpoint.md)
@@ -21,7 +21,7 @@ To access the tabs (except for the tab *VOUCHERS*), you first have to select a s
 
 ## Select store and pay desk
 
-*Venduo POS > Sales*
+*POS > Sales*
 
 ![Sales](../../Assets/Screenshots/POS/Sales/Select.png "[Sales]")
 
@@ -37,7 +37,7 @@ To access the tabs (except for the tab *VOUCHERS*), you first have to select a s
 
 ## Select opening float
 
-*Venduo POS > Sales > Select Store and Pay Desk*
+*POS > Sales > Select Store and Pay Desk*
 
 ![Sales](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Sales]")
 

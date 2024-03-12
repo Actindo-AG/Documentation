@@ -8,7 +8,7 @@
 
 # Manage the POS order process
 
-Trace the POS order process by checking the order status, the cash invoice and the payment of an order.
+Trace the POS order process by checking the order status, the cash invoice, and the payment of an order.
 
 
 ## Check the POS order status
@@ -25,7 +25,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 ![Omni-Channel Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Omni-Channel Orders]")
 
-> [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list in the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
+> [Info] The ordering process is performed asynchronously. That means that it may take a few minutes until the POS order is displayed in the order list of the *Omni-Channel* module. If the POS order is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.
 
 1. Check the *Status of import from channel* column.   
     The following table shows the possible statuses and their meaning.
@@ -33,8 +33,8 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
     | Status         | Meaning               |
     |----------------|-----------------------|
     | Imported       | The order is imported from the specified channel, but it is still pending completion. |
-    | Order complete | The order is fully completed in the specified channel and successfully imported. |
-    | Canceled       | The order was canceled in the specified channel and will not be imported. |
+    | Order complete | The order is fully completed in the specified sales channel and successfully imported. |
+    | Canceled       | The order was canceled in the specified sales channel and will not be imported. |
 
 [comment]: <> (Are there other statuses? Meaning?)
 
@@ -59,7 +59,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 [comment]: <> (Are there other statuses? Meaning?)
 
-4. Check the column *ID in OMS* column.    
+4. Check the *ID in OMS* column.    
     If the order has been successfully exported to the *Order management* module, the receipt number of the order in the *Order management* module is displayed in this column.
 
 [comment]: <> (Are there other important columns to check?)
@@ -80,15 +80,15 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 ![Overview](../../Assets/Screenshots/RetailSuiteFaktBase/Overview/Overview.png "[Overview]")
 
-> [Info] The invoicing process is performed asynchronously. That means that it may take a few minutes until the invoice is displayed in the invoicing list in the *Order management* module. If the invoice is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom to update the invoicing list.
+> [Info] The invoicing process is performed asynchronously. That means that it may take a few minutes until the invoice is displayed in the invoicing list of the *Order management* module. If the invoice is not yet displayed, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the bottom to update the invoicing list.
 
-1. Right-click the row with the appropriate document number.   
+1. Right-click the row with the appropriate business document number.   
     The context menu is displayed.
 
     ![Context Menu](../../Assets/Screenshots/RetailSuiteFaktBase/ContextMenu.png "[Context Menu]")
 
 2. Click the *Edit document* entry.   
-    The *Last document* menu entry is opened. The *LAST DOCUMENT* tab with the selected document is displayed.
+    The *Last document* menu entry is opened. The *LAST DOCUMENT* tab with the selected business document is displayed.
 
     ![Last document](../../Assets/Screenshots/RetailSuiteFaktBase/LastDocument/Customer.png "[Last document]")
 
@@ -105,12 +105,13 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 7. Click the *Stock location* sub-tab in the bottom part of the *Positions* tab and check the details of the stock.
 
-    > [Info] Note that changes you made in the documents are not synced back to the *Venduo POS* module.
+    > [Info] Note that changes you made in the business documents are not synced back to the *POS* module.
 
 
 
 ## Check the payment
 
+<!---Tab gibt es bei  mir nicht--->
 Check the current status of the booking and its payment.
 
 #### Prerequisites
@@ -119,7 +120,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 #### Procedure
 
-*Venduo POS > Management > Tab ACCOUNTING SYNC*
+*POS > Management > Tab ACCOUNTING SYNC*
 
 ![Accounting Sync](../../Assets/Screenshots/POS/Management/AccountingSync/AccountingSync.png "[Accounting Sync]")
 

@@ -4,7 +4,7 @@
 
 # Manage the cash register
 
-In the cash register you can book sales independent cash in and cash out, you can close the pay desk, for instance after a shift, count the current cash balance and define or edit a skimming amount. Further, you can open the cash drawer and print a shift summary.
+In the cash register, you can book sales independent cash in and cash out, you can close the pay desk, for instance after a shift, count the current cash balance and define or edit a skimming amount. In addition, you can open the cash drawer and print a shift summary.
 
 
 ## Cash in the register
@@ -17,20 +17,20 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-1. Click the button [Cash in] in the upper right corner of the *Cash in/out* section.   
-    The *Cash in* view is displayed.
+1. Click the [Cash in] button in the upper right corner of the *Cash in/out* box.   
+    The *Cash in* box is displayed.
 
-    ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
+    ![Cash in](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash in]")
 
 2. Enter a descriptive name for the deposit in the *Description* field.
 
 3. Enter the deposit amount in the *Amount* field.
 
-4. Click the button [Cash in] in the bottom right corner.  
+4. Click the [Cash in] button in the bottom right corner.  
     The *Cash in* view is closed. The deposit is listed in the table of the *Cash in/out* section.   
 
     > [Info] To cancel the cash in process, click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the bottom right corner.
@@ -47,12 +47,12 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-1. Click the button [Cash out] in the upper right corner of the *Cash in/out* section.   
-    The *Cash out* view is displayed.
+1. Click the button [Cash out] in the upper right corner of the *Cash in/out* box.   
+    The *Cash out* box is displayed.
 
     ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
@@ -69,7 +69,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ## Close a pay desk
 
-You close the pay desk at cash closing or when a shift change is due and the cashier changes. To close a pay desk, you have to count the current cash amount in the pay desk and you can define a skimming amount.
+You close the pay desk at cash closing or when a shift change is due and the cashier changes. To close a pay desk, you have to count the current cash amount in the pay desk. In addition, you can define a skimming amount.
 
 #### Prerequisites
 
@@ -77,34 +77,32 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-1. Click the ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment tally* section.   
-    The *Count cash* view is displayed.
+1. Click the ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button in the field of the *Counted* column in the *Payment tally* box.   
+    The *Count cash* box is displayed.
 
     ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
-2. Enter the number of coins or banknotes in the field of the *Amount* column. The amount of money is specified in the same row in the *Type* column.
+    > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the *Counted* column in the *Payment tally* box.
 
-3. Click the next row and also enter the number of coins or banknotes in the field of the *Amount* column. Repeat this step for all rows.
+2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5].[+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each peace is specified in the *Type* column.
 
-    > [Info] The total of cash counted is displayed at the bottom of the *Count cash* view.
+3. Click the next row and continue entering the number of coins or banknotes in the *Amount* column input field. Repeat this step for all rows.
 
-4. Click the button [OK] in the bottom right corner.  
-    The *Count cash* view is closed. The amount of cash counted is displayed in the field of the *Counted* column in the *Payment tally* section.
+    > [Info] The total of cash counted is displayed at the bottom of the *Count cash* box.
 
-    > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the column *Counted*.
+4. Click the [OK] button in the bottom right corner.  
+    The *Count cash* box is closed. The total of cash counted is displayed in the field of the *Counted* column in the *Payment tally* box.
 
 5. If desired, enter an amount up to which the pay desk is skimmed after closing in the field of the *Skim to* column in the *Payment tally* section.
 
     > [Info] You can set an amount up to which the pay desk is skimmed after closing in the *Global Settings* tab. If you have predefined a skimming amount, the field of the column *Skim to* is preset with this amount. The field can be overwritten in the *Cash Register* tab when closing the pay desk.
 
-6. Click the button [Close Register] in the upper right corner of the *Payment tally* section.   
-    A confirmation message whether the pay desk should really be closed is displayed.
-
-    ![Close Register](../../Assets/Screenshots/POS/Sales/CashRegister/CloseRegister.png "[Close Register]")
+6. Click the [Close Register] button in the upper right corner of the *Payment tally* section.   
+    A confirmation window whether the pay desk should really be closed is displayed.
 
 7. Click the [Ok] button.   
     The pay desk is closed. The view to select a store and a pay desk is displayed, see [Open a pay desk](./01_OpenPayDesk.md).
@@ -121,7 +119,7 @@ At least one shift has ended and the pay desk has been closed, see [Close a pay 
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk > Tab Transactions*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk > Tab Transactions*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 

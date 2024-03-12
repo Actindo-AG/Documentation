@@ -2,7 +2,7 @@
 
 This tab is only displayed, if the global setting *Shop-Lieferungen aktiv* is active.
 
-*Venduo POS > Management > Tab WARENEINGANGS-SYNC*
+*POS > Management > Tab WARENEINGANGS-SYNC*
 
 ![Wareneingangs-Sync](../../Assets/Screenshots/POS/Management/WareneingangsSync/WareneingangsSync.png "[Wareneingangs-Sync]")
 

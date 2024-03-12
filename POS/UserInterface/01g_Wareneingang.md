@@ -2,7 +2,7 @@
 
 This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is active.
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab WARENEINGANG*
+*POS > Sales > Select Store and Pay Desk > Tab WARENEINGANG*
 
 ![Wareneingang](../../Assets/Screenshots/POS/Sales/Wareneingang/WareneingangListe.png "[Wareneingang]")
 

@@ -4,7 +4,7 @@
 
 # Cash register
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -44,7 +44,7 @@ The *Cash Register* tab is divided into two parts:
 
 ### Count cash
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
 
 ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
@@ -105,7 +105,7 @@ The *Cash Register* tab is divided into two parts:
 
 ### Cash in
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash in*
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash in*
 
 ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
@@ -127,7 +127,7 @@ The *Cash Register* tab is divided into two parts:
 
 ### Cash out
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash out*
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash out*
 
 ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
