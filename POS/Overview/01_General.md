@@ -1,8 +1,8 @@
 # General information
 
-With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *POS* (POS) module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.  
+With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.  
 
-This documentation refers to the *POS* module version <!--?-->2.2.6. There may be differences in the UI, features and operation if your DataHub module is installed in a different version.
+This documentation refers to the *POS* module version <!--?-->2.2.6. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
 
 ## Benefits
 

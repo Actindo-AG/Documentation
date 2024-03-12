@@ -109,9 +109,8 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 
 
-## Check the payment
+## Check the payment <!---Tab gibt es bei  mir nicht--->
 
-<!---Tab gibt es bei  mir nicht--->
 Check the current status of the booking and its payment.
 
 #### Prerequisites

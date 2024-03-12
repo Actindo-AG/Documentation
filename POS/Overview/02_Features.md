@@ -17,7 +17,7 @@ Successfully digitize your point of sale:
     All sales data including products, turnover and means of payment from your cash registers are transmitted directly and in real time to accounting and billing in the *Actindo Core1 Platform*. Orders and returns from stores are thus displayed together with your online sales channels.  
 
 - Independence through cloud POS    
-    The *POS* system is cloud-based and therefore available from anywhere on mobile devices. Physical cash drawers and payment terminals can also be controlled from the cloud POS.  
+    The *POS* system is cloud-based and therefore available from anywhere on mobile devices. Physical cash drawers and payment terminals <!---Payment terminals können doch noch nicht angeschlossen werden, nicht?--> can also be controlled from the cloud POS.  
 
 
 ## Create unified customer experiences
@@ -29,4 +29,4 @@ Control all sales channels and touchpoints centrally from the *Actindo Core1 Pla
 ## Digitize all retail processes
 
 **Digitize store branches**   
-Digitizing your business doesn't stop at your online store: The *POS* module offers you the possibility to also integrate your offline stores as well as your pop-up stores into the platform and thus digitally support sales processes. Manage your sales data and returns over the system, analyze product and customer data, track user histories of individual cash registers and employees, and close deals from anywhere through cloud-based technology. Your physical stores will benefit from the same powerful analytics as your digital sales channels.  
+Digitizing your business does not stop at your online store: The *POS* module offers you the possibility to also integrate your offline stores as well as your pop-up stores into the platform and thus digitally support sales processes. Manage your sales data and returns over the system, analyze product and customer data, track user histories of individual cash registers and employees, and close deals from anywhere through cloud-based technology. Your physical stores will benefit from the same powerful analytics as your digital sales channels.  
