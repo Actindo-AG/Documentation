@@ -229,7 +229,7 @@ The following functions and fields are available in this section:
     Attribute name.
 
 - *Calculated field*   
-    Indication whether the attribute is calculated by an ETL mapping from other fields to itself or not:
+    Indication whether the attribute (field) value is calculated by an ETL mapping from other field(s) in the same entity to itself or not:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
