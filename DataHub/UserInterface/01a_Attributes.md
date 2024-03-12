@@ -59,6 +59,8 @@ The following functions and fields are available in this view:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
+[comment]: <> (Es soll noch eine Spalte zu Contains sensitive data hinzugefügt werden.)
+
 - *Plugin*   
     Module or plugin that owns the attribute.
 
