@@ -154,6 +154,8 @@ Get a list of variants. You can set one or more filters.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
 
+[comment]: <> (oder /Actindo.Modules.Actindo.PIM.PIM.listProducts?)
+
 **Method**: POST
 
 **Authorization:** oauth2Auth
@@ -209,19 +211,20 @@ Get a list of variants. You can set one or more filters.
     }
 
 
----
 
-[comment]: <> (Ab hier, sinnvoll via API?)
+{
+/*    "filter": [
+        {
+            "property": "variantStatus",
+            "operator": "like",
+            "value": "child"
+        }
+    ],*/
+    "start": 0,
+    "limit": 5000
+}
 
-## Create a variant set
 
-
-## Edit a variant set
-
-
-## Delete a variant set
-
----
 
 ## List variant sets
 
