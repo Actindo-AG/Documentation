@@ -2,9 +2,56 @@
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
 
+<!--Es fehlen noch Erwähnungen von Delivery toggle und Down payment-->
+
+
 # Complete a purchase
 
 To complete a purchase, you need to initiate the payment. At the POS pay desk, you have several options to complete the payment process, for instance by cash payment, by cashless payment, or by voucher. You can also assign a discount to one or more line items on the bill list or park a payment for a later time.
+
+
+## Generate down payment
+
+you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be necessary, for example, if the full amount is not due until the offers are delivered or collected.
+If a down payment has been agreed for a purchase, you can reduce the entire total amount of the bill to a specific down payment.
+
+#### Prerequisites
+
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+
+#### Procedure
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The payment view is displayed in the bill list.
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the [+ ADD DOWN PAYMENT] button in the *Settlement* section.   
+    The *Add down payment* pop-up window is displayed.
+
+    ![Add down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddDownPayment.png)
+
+3. Define the down payment. You can enter a percentage value or a fixed amount.
+   
+   **Enter a percentage value**
+    - Enable the *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage* toggle.
+    - Enter the desired percentage value in the *Percent* field.  
+        The down payment amount is displayed below
+
+    **Enter a fixed value**
+    - Disable the *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage* toggle.
+    - Enter the fixed value the line below. You can use the ![Plus minus](../../Assets/Icons/PlusMinus.png "[Plus minus]") (Plus minus) button as input help.
+
+4. Click the [SAVE] button.
+    The *Down payment of "value [value]"* is noted. The total of the bill is still the same. When you now initiate the payment process, only the down payment amount is due.
+
+
 
 ## Pay cash
 
@@ -22,7 +69,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -63,7 +110,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -102,7 +149,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -120,7 +167,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -141,7 +188,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -157,7 +204,6 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 3. Select the card type in the *Card type* drop-down list.
     The selected card type is displayed in the drop-down list.
-
 
 4. Click the [Finalize payment process] button.   
     The *Payment at terminal* view is displayed when the payment is completed.
@@ -179,7 +225,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -221,7 +267,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -252,7 +298,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/ParkedBill.png "[Cashpoint]")
 
@@ -289,7 +335,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

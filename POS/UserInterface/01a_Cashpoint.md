@@ -9,18 +9,16 @@
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-- *Find offer by nam... ![Search](../../Assets/Icons/Search.png "[Search]")*   
-    Enter the product name, the keyword or the (EAN) number you search for in the search bar. Click a product in the list of search results to add it to the bill list.
+- *Find offer by name* ![Search](../../Assets/Icons/Search.png "[Search]")   
+    Enter the offer name, the keyword or the (EAN) number you search for in the search bar. Click a product in the list of search results to add it to the bill list.
 
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 - *QuickSelect Category*    
-    Click a QuickSelect category tab to display the associated QuickSelect elements. The tabs are only displayed if a QuickSelect category with an element has been created before. The categories are named individually.
+    Click a QuickSelect category tab to display the associated QuickSelect elements. The tabs are only displayed if a QuickSelect category with an element has been created before. The categories are named individually. 
 
 - *QuickSelect Element*   
-    Click a QuickSelect element to add it to the bill list. The QuickSelect element is only displayed if a QuickSelect category with an element has been created before. The elements are named individually.
-
-    > [Info] For detailed information, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
+    Click a QuickSelect element to add it to the bill list. The QuickSelect element is only displayed if a QuickSelect category with an element has been created before. The elements are named individually.  For detailed information, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 
 ## Bill list
@@ -42,49 +40,49 @@
     Quantity of the product in the bill list. This field is displayed only when a product is added to the bill list.
 
 - *Name*   
-    Product name. This field is displayed only when a product is added to the bill list.
+    Offer name. This field is displayed only when an offer is added to the bill list.
 
 - *Price*   
-    Total net price of the product(s). This field is displayed only when a product is added to the bill list.   
-    By default, the price is displayed in black. If the price has been modified, it is displayed differently.
+    Total gross price of the offers(s).<!--- Hier stand net price. Bei mir ist aber der gross price--> This field is displayed only when an offer is added to the bill list.   
+    By default, the price is displayed in black. If the price has been modified, it will be displayed differently as follows.
     - Price is written in red and followed by an amount/a percentage in brackets   
-        The red price is a discount price, the discount is indicated in brackets, either as a fixed discount or percentage.
+        The price is a discount price, the discount is indicated in brackets, either as a fixed discount or percentage.
     - Price is written in italics   
         The price itself has been modified.
 
-- ![Remove Product](../../Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
-    Click this button to remove a product entry from the bill list. This field is displayed only when a product is added to the bill list.
+- ![Remove Offer](../../Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
+    Click this button to remove an offer from the bill list. This field is displayed only when an offer is added to the bill list.
 
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Single scan*   
     Activate this toggle to use the single scan feature.
 
-    > [Info]   If the same offer is selected more than once and you use the single scan feature, each offer is listed as a single product in the bill list. This allows you to treat each product in the booking individually.
+    > [Info] If the same offer is selected more than once, and you use the single scan feature, each offer is listed as a single offer in the bill list. This allows you to treat each offer in the booking individually. 
 
 - *Sub total*   
-    Gross amount of all products in the bill list. This field is read-only.
+    Net<!---Hier stand "Gross"--> amount of all products in the bill list. This field is read-only.
 
 - *Tax*   
-    Tax amount of all products in the bill list. This field is read-only.
+    Tax amount of all offers in the bill list. This field is read-only.
 
 - *Add Sale Note*   
     Enter a sale note to add any additional information to the bill list.
 
-- [ ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") Open Drawer]   
+- [![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") Open drawer]   
     Click this button to open the drawer.
 
-- [ ![Park](../../Assets/Icons/Park.png "[Park]") Park]   
+- [![Park](../../Assets/Icons/Park.png "[Park]") Park]   
     Click this button to park the current bill list to a later time.
 
 - ![Delete Bill List](../../Assets/Icons/Trash02.png "[Delete Bill List]") (Delete Bill List)   
     Click this button to delete the current bill list.
 
 - [PAY]   
-    Click this button to start the payment process. The payment view is displayed in the bill list. The total net amount of the purchase is displayed at the right of the [PAY] button.
+    Click this button to start the payment process. The payment view is displayed in the bill list. The total gross amount of the purchase is displayed at the right of the [PAY] button.
 
 
 ## Pay bill list
 
-*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY]*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the PAY button*
 
 ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")   
 
@@ -95,7 +93,7 @@
 
 This section is only displayed when no voucher has been redeemed.
 
-- *Gutscheincode*   
+- *Voucher code*   
     Enter a voucher code to apply the voucher to the invoice.
 
 - [REDEEM]   
@@ -104,7 +102,7 @@ This section is only displayed when no voucher has been redeemed.
 **Settlement**
 
 - *Sub total*   
-    Gross amount of all products in the bill list. This field is read-only.
+    Net <!---Hier stand Gross amount--> amount of all products in the bill list. This field is read-only.
 
 - *Tax*   
     Tax amount of all products in the bill list. This field is read-only.
@@ -112,11 +110,14 @@ This section is only displayed when no voucher has been redeemed.
 - [+ DISCOUNT]   
     Click this button to apply a discount to the bill. The *Discount on bill* view is displayed. This button is only displayed when no discount has been selected.
 
-- [Discount ![Calculator](../../Assets/Icons/Calculator02.png "[Calculator]") ]      
+- [Discount ![Calculator](../../Assets/Icons/Calculator02.png "[Calculator]")]      
     Selected discount. Click this button to edit the discount. This button is only displayed when a discount is selected.
 
 - ![Remove Discount](../../Assets/Icons/Cross06.png "[Remove Discount]") (Remove Discount)    
     Click this button to remove the discount. The button is only displayed when a discount is selected.
+
+- *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Delivery*   
+    Enable this toggle if the offer is to be delivered to the customer. Disable this toggle if no delivery is necessary. This toggle is only available, if the *Delivery allowed* setting is activated in the *Global settings*.
 
 - *Voucher (xxxxxxx)*   
     Redeemed voucher with the voucher code in brackets. The remaining amount of the voucher is displayed on the left, the amount of the voucher to be credited on the right. This field is read-only.
@@ -125,7 +126,13 @@ This section is only displayed when no voucher has been redeemed.
     Click this button to remove the voucher. The button is only displayed when a voucher is redeemed.
 
 - *Total:*   
-    Total net amount of the bill. This field is read-only.
+    Total gross<!--- Hier stand net--> amount of the bill. This field is read-only.
+
+**Down payment**
+
+- [+ ADD DOWN PAYMENT]   
+    Click this button to book to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*. 
+
 
 **Select Payment**
 
@@ -135,7 +142,7 @@ This section is only displayed when no voucher has been redeemed.
 [comment]: <> (Is it possible to add a second currency? Why is this a button when I cannot choose?)
 
 - [Cash]   
-    Click this button to pay cash. The *Cash payment* view is displayed.
+    Click this button to pay cash. The *Cash payment* view is displayed, see [Cash payment](#cash-payment).
 
 **Quick Select**
 
@@ -146,6 +153,21 @@ This section is only displayed when no voucher has been redeemed.
 
 - [ ![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
     Click this button to pay cashless. The *Cashless payment* view is displayed.
+
+## Add down payment
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the [PAY] button > Select the [+ Add down payment] button*
+
+![Add down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddDownPayment.png "[Add down payment]")
+
+- *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage*    
+    Enable this toggle if you want to determine the down payment via a percentage amount. Disable the toggle to enter a fixed amount.
+
+- *Percent*   
+    Enter the percentage amount. This field is displayed only if you have enabled the *Calculated via percentage* toggle. In the field below the down payment amount is displayed.
+
+- Field for amount   
+    Enter the fixed amount. This field is only displayed if you have disabled the *Calculated via percentage* toggle. 
 
 
 
@@ -170,11 +192,11 @@ This section is only displayed when no voucher has been redeemed.
     Click this button to cancel the cash payment and return to the payment view.
 
 - [Pay]   
-    Click this button to finalize the cash payment process. The *Payment Pending* view is displayed.   
-    The payment can be finalized only if an amount equal or higher than the bill amount is entered in the field *Amount*.
-    If an amount smaller than the bill amount or no amount at all is entered, an error message is displayed.
+    Click this button to finalize the cash payment process. The payment can be finalized only if an amount equal or higher than the bill amount is entered in the *Amount* field. If an amount smaller than the bill amount or no amount at all is entered, an error message is displayed.   
+    The *Payment Pending* view is displayed.  Click the [Done] button to finalize the payment process. The *Payment Successful* view is than displayed.  
+    
 
-
+<!--To be deleted>
 ### Payment pending   
 
 The *Payment Pending* view is displayed when the cash payment has been confirmed. When the cash payment process has been completed, the *Payment Successful* view is automatically displayed.
@@ -208,7 +230,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 - [Done]   
     Click this button to confirm the completion of the payment process and return to the bill list.
-
+-->
 
 
 ## Cashless payment
@@ -223,14 +245,14 @@ The *Payment Successful* view is automatically displayed when the cash payment p
     - **Credit card**
     - **Paypal**    
 
-- [Cancel]
+- [Cancel]   
     Click this button to cancel the cashless payment process and return to the payment view.
 
-- [Finalize payment process]
+- [Finalize payment process]   
     Click this button to finalize the cashless payment process. The *Payment at terminal* view is displayed.   
     The payment can be finalized only if a payment method is selected in the drop-down list *Card type*.
 
-
+<!--To be deleted
 ### Payment at terminal   
 
 The *Payment at terminal* view is automatically displayed when the cash payment process has been successfully completed.
@@ -248,7 +270,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 - [Done]   
     Click this button to confirm the completion of the payment process and return to the bill list.
-
+-->
 
 
 ## Add customer

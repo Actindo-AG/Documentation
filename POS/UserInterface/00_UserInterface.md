@@ -14,12 +14,15 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Payment successful](./01a_Cashpoint.md#payment-successful)
     - [Cashless payment](./01a_Cashpoint.md#cashless-payment)
         - [Payment at terminal](./01a_Cashpoint.md#payment-at-terminal)   
+    - [Add down payment](./01a_Cashpoint.md#add-down-payment)
     - [Add customer](./01a_Cashpoint.md#add-customer)
     - [Create customer](./01a_Cashpoint.md#create-customer)
     - [Discount on bill](./01a_Cashpoint.md#discount-on-bill)
     - [Product details](./01a_Cashpoint.md#product-details)
 
 - [HISTORY](./01b_History.md)
+
+- [WISHLISTS](./01h_Wishlists.md)
 
 - [CASH REGISTER](./01c_CashRegister.md)
     - [Payment tally](./01c_CashRegister.md#payment-tally)
@@ -56,13 +59,16 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Kassenjournal auf User binden](./02a_GlobalSettings.md#kassenjournal-auf-user-binden)
         - [Abschöpfen bis Betrag](./02a_GlobalSettings.md#abschöpfen-bis-betrag)
         - [Erwarteten Betrag verbergen](./02a_GlobalSettings.md#erwarteten-vertrag-verbergen)
-    - [WÄHRUNGEN](./02a_GlobalSettings.md#währungen)
+
+    - [CURRENCIES](./02a_GlobalSettings.md#währungen)
         - [Available Currencies](./02a_GlobalSettings.md#available-currencies)
         - [Verwendete Währungen](./02a_GlobalSettings.md#verwendete-währungen)
+
     - [RETOUREN](./02a_GlobalSettings.md#retouren)
         - [Retouren-Gründe](./02a_GlobalSettings.md#retouren-gründe)
         - [Refund nur auf gleiches Zahlungsmittel](./02a_GlobalSettings.md#refund-nur-auf-gleiches-zahlungsmittel)
         - [Retoure nur in gleichem Store](./02a_GlobalSettings.md#retoure-nur-in-gleichem-store)
+
     - [BELEGDRUCK](./02a_GlobalSettings.md#belegdruck)
         - [Händler-Beleg drucken](./02a_GlobalSettings.md#händler-beleg-drucken)
         - [Nativer Bon-Druck](./02a_GlobalSettings.md#nativer-bon-druck)
@@ -70,6 +76,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Bon-Format](./02a_GlobalSettings.md#bon-format)
         - [Zahlenformat](./02a_GlobalSettings.md#zahlenformat)
         - [Logo](./02a_GlobalSettings.md#logo)
+
     - [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](./02a_GlobalSettings.md#datenübertragung-retailsuite-faktura)
         - [Kontenzuteilung Buchhaltung](./02a_GlobalSettings.md#kontenzuteilung-buchhaltung)
         - [Korrekturbuchung auf Ursprungslager](./02a_GlobalSettings.md#korrekturbuchung-auf-ursprungslager)

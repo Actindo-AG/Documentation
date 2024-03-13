@@ -15,31 +15,35 @@ The *Cash Register* tab is divided into two parts:
 
 ## Payment tally
 
-![Payment Tally](../../Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment Tally]")
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Payment tally box*
+
+![Payment tally](../../Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment tally]")
+
+The *Payment tally* box is used to close the pay desk. To close a pay desk, the current cash amount in the pay desk is to be counted. 
 
 - ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") (Open Drawer)  
     Click this button to open the cash drawer.
 
 - [CLOSE REGISTER]   
-    Click this button to close the pay desk. The pay desk can be closed only if an amount is entered in the field in the column *Counted*.
+    Click this button to close the pay desk. The pay desk can be closed only if an amount is entered *Counted* column field.
 
 - *Payment Type*   
     Type of the cash amount in the pay desk. By default, the type is **Cash**. This field is read-only.
 
 - *Currency*   
-    Currency of the cash amount in the pay desk. A single row is displayed for each [available currency](./02a_GlobalSettings.md#available-currencies) defined in the global settings. This field is read-only.
+    Currency of the cash amount in the pay desk. A single row is displayed for each available currency defined in the global settings. This field is read-only. For detailed information, see [Available currencies](./02a_GlobalSettings.md#available-currencies).
 
 - *Expected*   
-    Cash amount in the pay desk expected by all transactions during the shift. If the setting *Erwarteten Betrag verbergen* in the [Global settings](./02a_GlobalSettings.md#erwarteten-vertrag-verbergen) is active, the expected cash amount is hidden and a dash **-** is displayed. This field is read-only.
+    Cash amount in the pay desk expected by all transactions during the shift. If the setting *Hide expected amount* in the [Global settings](./02a_GlobalSettings.md#erwarteten-vertrag-verbergen) is active, the expected cash amount is hidden and a dash **-** is displayed. This field is read-only.
 
 - *Counted*   
-    Enter the counted cash amount in the pay desk by entering the amount directly in the field or clicking the button ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator). The *Count cash* view is displayed.
+    Enter the counted cash amount in the pay desk by entering the amount directly into the field or by clicking the ![Calculator](../../Assets/Icons/Calculator01.png "[Calculator]") (Calculator) button. In this case, the *Count cash* view is displayed.
 
 - *Difference*   
     Difference amount between the expected and the counted cash amount in the pay desk. If no expected amount is displayed, no difference amount is displayed, but a dash **-**.
 
 - *Skim to*   
-    Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a [skimming amount](./02a_GlobalSettings.md#abschöpfen-bis-betrag) in the global settings, the field is preset with this amount.
+    Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a skimming amount in the global settings, the field is preset with this amount. For detailed information, see [Skimming amount](./02a_GlobalSettings.md#abschöpfen-bis-betrag).
 
 
 ### Count cash
@@ -52,7 +56,7 @@ The *Cash Register* tab is divided into two parts:
     Click this button to cancel the cash counting and close the *Count cash* view.
 
 - *Type*   
-    Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the [currencies](./02a_GlobalSettings.md#währungen) in the global settings.
+    Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the currencies in the global settings. For detailed information, see [Currencies](./02a_GlobalSettings.md#währungen).
 
 - *Amount*   
     Enter the amount counted of the selected type of coins or banknotes by using the buttons or entering the amount directly into the field.
@@ -79,7 +83,11 @@ The *Cash Register* tab is divided into two parts:
 
 ## Cash in/out
 
-![Cash In/Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
+*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
+
+![Cash in/out](../../Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
+
+The *Cash in/out* box is used, if you deposit or withdraw cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register.
 
 - [ ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") Open Drawer]  
     Click this button to open the cash drawer.
@@ -109,14 +117,16 @@ The *Cash Register* tab is divided into two parts:
 
 ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
+The *Cash in* box is used, if you deposit cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register. Note that this box is green to avoid confusion with the *Cash out* box.
+
 - *Description*   
-    Enter a short description for the cash in.
+    Enter a short description of the cash in.
 
 - *Amount*   
     Enter the cash amount of the cash in.
 
 - [Currency]    
-    Click this button to select the currency of the cash in. A single button is displayed for each [available currency](./02a_GlobalSettings.md#available-currencies) defined in the global settings.    
+    Click this button to select the currency of the cash in. A single button is displayed for each available currency defined in the global settings. For detailed information, see [Available currency](./02a_GlobalSettings.md#available-currencies).    
 
 - ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete)    
     Click this button to delete the entered cash in or cancel the cash in process and close the *Cash in* view.
@@ -131,6 +141,8 @@ The *Cash Register* tab is divided into two parts:
 
 ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
+The *Cash out* box is used, if you withdraw cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register. Note that this box is red to avoid confusion with the *Cash in* box.
+
 - *Description*   
     Enter a short description for the cash out.
 
@@ -138,7 +150,7 @@ The *Cash Register* tab is divided into two parts:
     Enter the cash amount of the cash out.
 
 - [Currency]     
-    Click this button to select the currency of the cash out. A single button is displayed for each [available currency](./02a_GlobalSettings.md#available-currencies) defined in the global settings.
+    Click this button to select the currency of the cash out. A single button is displayed for each available currency defined in the global settings. For detailed information, see [Available currency](./02a_GlobalSettings.md#available-currencies).
 
 - ![Delete](../../Assets/Icons/Trash04.png "[Delete]") (Delete)    
     Click this button to delete the entered cash out or cancel the cash in process and close the *Cash out* view.

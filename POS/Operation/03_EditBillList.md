@@ -21,7 +21,7 @@ You can apply an individual discount to each offer in your bill list. The discou
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -57,7 +57,7 @@ The discount to the purchase is always a percentage discount.
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -97,7 +97,7 @@ If you enter a changed price for an offer, you will not be able to apply an addi
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -129,7 +129,7 @@ You can change the quantity of a offer in your bill list by increasing or decrea
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -159,7 +159,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -179,7 +179,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -209,7 +209,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -242,7 +242,7 @@ Assign the current purchase to a registered customer.
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk*
+*POS > Sales > Select store and pay desk*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

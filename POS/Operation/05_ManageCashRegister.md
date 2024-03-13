@@ -17,7 +17,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -47,7 +47,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -77,7 +77,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 

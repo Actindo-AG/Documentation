@@ -255,18 +255,18 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 
 
-## Abschöpfen bis Betrag
+## Skim to amount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Abschöpfen bis Betrag*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
 
 Define an amount up to which the pay desk is skimmed after the pay desk closes. The amount is automatically entered in the cash register and taken as the opening float.
 
-![Abschöpfen bis Betrag](../../Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Abschöpfen bis Betrag]")
+![Skim to amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Skim to amount]")
 
-- *Abschöpfen bis Betrag*    
+- *Skim to amont*    
     Enter the amount up to which the pay desk is skimmed after the pay desk closing.
 
-- [Speichern]  
+- [Save]  
     Click this button to save any changes.
 
 
@@ -289,7 +289,7 @@ By default, the expected amount in the pay desk is indicated. deactivate this op
 
 
 
-## WÄHRUNGEN
+## Currencies
 
 In this section, you define all settings concerning the currencies in your POS system.
 

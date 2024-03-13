@@ -1,16 +1,10 @@
-# Retouren
+# Returns
 
-*POS > Sales > Select Store and Pay Desk > Tab RETOUREN*
+*POS > Sales > Select Store and Pay Desk > Tab RETURNS*
 
-![Retouren](../../Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Retouren]")
+![Returns](../../Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Returns]")
 
 **Returns**
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of vouchers.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
 
 The table displays all returns. Depending on the settings, the displayed columns may vary.
 
@@ -18,7 +12,7 @@ The table displays all returns. Depending on the settings, the displayed columns
     POS bill number of the return. This field is read-only.
 
 - *Customer*   
-    Customer name of the return. This field is read-only.
+    Name of the customer who has returned the items. This field is read-only.
 
 - *Number of items*   
     Number of items that are returned. This field is read-only.
@@ -26,17 +20,11 @@ The table displays all returns. Depending on the settings, the displayed columns
 - *Price*   
     Price of items that are returned. This field is read-only.
 
-[comment]: <> (Is that right?)
-
 - *Store*   
     Store to which the items are returned. This field is read-only.
 
-[comment]: <> (Is that right?)
-
 - *Print*   
     Click this button to print a list of return.
-
-[comment]: <> (Is that right?)
 
 - *ID*   
     ID number of the return. This field is read-only.
