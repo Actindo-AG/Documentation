@@ -51,7 +51,7 @@ The *Credentials* tab displays the connection credentials that you have defined 
   Edit the merchant account of the connection you are currently editing.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check*   
-   Enable this toggle if you want to disable the Adyen fraud checks for MIT transactions. This is recommended if Actindo gets a lot of false positive fraud checks when trying to process the MIT requests. Since the fraud check usually, depending on your Adyen setup, already takes place when the payment credentials are stored in Adyen during checkout in your shop, so it is often skipped during MIT processing in those cases.
+   Enable this toggle if you want to disable the Adyen&trade; fraud checks for MIT transactions. This is recommended if Actindo gets a lot of false positive fraud checks when trying to process the MIT requests. Since the fraud check usually, depending on your Adyen&trade; setup, already takes place when the payment credentials are stored in Adyen&trade; during checkout in your shop, so it is often skipped during MIT processing in those cases.
  
 - [SAVE]  
     Click this button to save any changes made.
