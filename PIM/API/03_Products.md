@@ -110,20 +110,6 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a master or a variant product
-
-{
-  "product": {
-    "sku": "string",
-    "attributeSetId": 0,
-    "attributeSet": {
-      "id": 592
-    },
-    "variantStatus": "master OR child",
-    
-  }
-}
-
 
 #### Create a product with price, dimensions and image
 
@@ -146,7 +132,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a product in two languages  
+#### Create a product in two languages
 
     {
         "product": {
@@ -160,16 +146,83 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a product with a single variant
-
+#### Create a product with different prices pro scope
 
     {
         "product": {
             "sku": "ABC_1234",
-            "attributeSetId": 592
+            "attributeSetId": 123,
+            "_pim_price__webshop": "50.00",
+            "_pim_price__retailer_platform": "60.00",
         }
     }
 
+
+#### Create a master or a variant product
+
+    {
+      "product": {
+        "sku": "string",
+        "attributeSetId": 0,
+        "attributeSet": {
+          "id": 592
+        },
+        "variantStatus": "master OR child",
+        
+      }
+    }
+
+  
+#### Create a master product
+
+    {
+      "product": {
+        "sku": "string",
+        "attributeSetId": 592,
+        "variantStatus": "master",
+        
+      }
+    }
+
+#### Create a variant
+
+**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create ??? vgl. Create a variant (Variants.md)
+
+      {
+          "product": {
+              "sku": "CHILD1",
+              "attributeSetId": 752,
+              "variantStatus": "child",
+            "_pim_fc_var_code": [
+                  {
+                      "id": 582
+                  }
+              ]
+          }
+      }
+
+
+#### Add variants to master product
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
+
+
+      {
+        "variantProduct": {
+          "id": 82
+        },
+        "parentProduct": {
+          "id": 72
+        },
+        "variantSet": {
+          "id": 22
+        }
+      }
+
+Wie finde ich das via API die ganze ID heraus?
+
+
+#### Create a product with a single variant
 
 #### Create a product with multiple variants
 
