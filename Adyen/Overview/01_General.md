@@ -7,8 +7,6 @@ The payment service provider Adyen&trade; provides merchants with a single platf
 This documentation refers to the Adyen&trade; plugin version 1.1.0. There may be differences in the user interface, features, and operation if your Adyen&trade; plugin is installed in a different version.
 
 
-
-
 ## Benefits
 
 - Integration with only one payment service provider that covers all required payment methods.

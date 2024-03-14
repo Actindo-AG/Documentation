@@ -14,7 +14,7 @@ Note the following:
 
 **Additional information**   
 
-Adyen&trade; uses TLS certificates that are changed from time to time. Adyen&trade; users will be informed about this. You can ignore this information from Adyen because Actindo only checks if the certificates are valid in general and does not validate specific certificates. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
+Adyen&trade; uses TLS certificates, which are changed from time to time. Adyen&trade; users are informed about this. You can ignore this information from Adyen because Actindo only checks if the certificates are valid in general and does not validate specific certificates. The best practice is not to use certificate pinning (which stores information about the specific certificate that is used by Adyen in order to validate it), but to check the validity of the certificate in general. See also an update example from Adyen&trade;: [TLS Certificates on Adyen services](https://help.adyen.com/updates/tls-certificates-on-adyen-services "[https://help.adyen.com/updates/tls-certificates-on-adyen-services]"). 
 
 
 
@@ -55,13 +55,13 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
            For example: `https://customeraccount.dev.actindo.com/Actindo.Extensions.Actindo.Adyen.Notification.notificationAsync`. This example displays the server URL for asynchronous processing. For detailed information on synchronous processing, see [Define synchronous or asynchronous processing](#define-synchronous-or-asynchronous-processing). 
       
          - *Method*   
-            You can use the **JSON** standard setting if you have no other requirements.
+            Use the **JSON** standard setting.
 
         - *Accept webhook*   
             Adyen&trade; requires you to acknowledge every webhook event with a successful HTTP response status code, for example 200. You can use the standard setting. For detailed information, see [Accept webhooks](https://docs.adyen.com/issuing/webhooks/#accept-webhooks "https://docs.adyen.com/issuing/webhooks/#accept-webhooks") in the Adyen&trade; documentation.
 
         - *Encryption protocol*     
-           You can use the **TLSv1.3** standard setting if you have no other requirements.
+           Use the **TLSv1.3** standard setting.
 
         - *Version*   
             Displays the version number.
@@ -73,7 +73,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
     - *Merchant accounts*   
         Enter the merchant account(s) you want to connect.
     - *Events*   
-        Select all the events whose messages you want to transfer to the *Payments* module. All listed events can be handled by Actindo.  You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
+        Select all the events whose messages you want to transfer to the *Payments* module. Actindo accepts all events, although some are not processed because they do not relate to any of the functions Actindo uses for processing. You can exclude an event if you want to process specific events by another third-party application, for example. Alternatively, you can define the events to be ignored in the *Payments* module settings, see [Configure Adyen connection](./02_ManageAdyenConnection.md#configure-adyen-connection).
 
         ![Events](../../Assets/Screenshots/Adyen/Integration/AdyenEvents.png "[Events]")
 
@@ -93,7 +93,7 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
      - *HMAC key*   
          You can ignore this setting. It is currently not supported by the *Payments* module.   
 
-6. Enter the following settings in the *Additional settings* section.
+6. Enter the following setting in the *Additional settings* section. You can ignore the others.
      - *3D Secure*   
         Select all entries and click the [Apply] button.
 
@@ -101,16 +101,18 @@ Create a webhook to receive payment notifications from Adyen&trade; to the *Paym
 
 7. Click the [Save changes] button in the bottom right corner.
 
-8. Enable the standard webhook and test your configuration after you have saved the notification user and password in Actindo.  
-<!--- Stefan, geht das hier schon, oder muss alles in Actindo eingetragen sein?-->
+8. Enable the standard webhook. 
+    
+    <[Info] You can test the configuration after you have defined all settings in both Actindo and Adyen&trade;, such as the API users, see [Manage Adyen connections](./02_ManageAdyenConnection.md).
+
 
 
 
 ## Define synchronous or asynchronous processing
 
 Define whether you want to transfer the payment data using synchronous or asynchronous processing. 
-- At synchronous processing, Adyen&trade; creates a connection for each event that occurs. This has the advantage that Adyen&trade; is immediately informed if a message cannot be processed. The disadvantage is that the message transfer might be slow if a lot of events are to be transferred. See also [Blocked queue at synchronous processing](../Troubleshooting/01_SynchronousProcessing.md) in the Troubleshooting chapter.   
-- At asynchronous processing, a message is not processed directly so that a lot of traffic can be handled. The message is first accepted and roughly checked for plausibility. It is then written to a message queue. After that, the message queue is processed periodically and can be run with parallel jobs. 
+- With synchronous processing, Adyen&trade; creates a connection for every event that occurs. This has the advantage that Adyen&trade; is immediately informed if a message cannot be processed, which you may want, if someone monitors these errors. The disadvantage is that any processing error is immediately returned to Adyen. This results in an error that can block the queue. In addition, the message processing is slower because parallel processing is not possible. See also [Blocked queue at synchronous processing](../Troubleshooting/01_SynchronousProcessing.md) in the Troubleshooting chapter.   
+- With asynchronous processing, Actindo accepts any message with a valid format and writes it to a message queue. Errors are not returned to Adyen, but are logged in the Actindo log. The message queue is processed periodically and can be run with parallel jobs. 
 
 
 #### Prerequisites
@@ -147,15 +149,15 @@ Define whether you want to transfer the payment data using synchronous or asynch
 ## Create web service API credentials
 
 Create the web service API credentials to send messages from the *Payments* module to the Adyen&trade; backend. For detailed information, see [API credentials](https://docs.adyen.com/development-resources/api-credentials/ "https://docs.adyen.com/development-resources/api-credentials/") in the Adyen&trade; documentation. 
-<!---Hallo Stefan, kannst Du noch mal schauen ob die Richtung stimmt?Also von Payments to Adyen?--->
 
-You must generate a web service API key for both the test environment and the live environment.
+You must generate a web service API key for both the test environment and the live environment in Adyen. In Actindo, you need to redo the procedure in the productive instance, if you switch to a live environment in Adyen.
+
 
 #### Prerequisites
 
 - You have a valid user account in Adyen&trade;.
 - You are assigned to the required user roles in Adyen&trade;.
-- At least one connection has been created in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
+- You are currently creating a connection in the *Payments* module, see [Create Adyen connection](./02_ManageAdyenConnection.md#create-adyen-connection).
 - The *Adyen* plugin is installed on the *Actindo Core1 Platform* system.
 - You are logged in to your Actindo instance under *Payments > Settings > Select connection > Credentials tab*. For detailed information, see [Configure Adyen connection](02_ManageAdyenConnection.md#configure-adyen-connection).
 
