@@ -23,24 +23,19 @@ Create a product in the *PIM* module.
 
 ### Definitions
 
-The following table displays a list of all attributes contained in the *PIM basic set* (pim_attribute_name) with their default data types and configuration. Additional attributes, such as created and modified, can be used to set filters. The required fields are marked in bold. 
-
-[comment]: <> (Evtl. übergeordneter Header mit der Tabelle und nur required fields pro Call unter dem jeweiligen Header. sku bis compareOldValue -> sind diese Attribute "system-intern"? Warum diese nicht in DataHub angezeigt?)
+The following table displays a list of all attributes contained in the *PIM basic set* (pim_attribute_name) with their default data types and configuration. Additional attributes, such as created and modified, are available in all entities and can be used to set filters. The required fields are marked in bold. 
 
 | Attribute       | Data type   | Description |  
 | ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU |
 | **attributeSetId**   | integer  | Attribute set identification number |
 | created	 | string | Date and time of creation <br> Format: YYYY-MM-DD HH:mm:ss |
-| createdBy | integer | User ID <!-- stimmt das? --> |
+| createdBy | integer | User ID |
 | modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:mm:ss |
-| modifiedBy |integer| User ID <!-- stimmt das? --> |
+| modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains required field **id**. |
 | variantStatus | string | It indicates whether a product is a **master** or a **variant**. |
-| lifecycleStatus | string | Entity life cycle status. Options are **active** or **inactive**. <!-- Frage: was ist das? Andere Optionen bei Actindo? --> |
-| synchronousSync | boolean | <!-- Frage: Was machst das? --> Options are **true** or **false**. |
-| compareOldValue | boolean | <!-- Frage: Was machst das? --> Options are **true** or **false**. |
-| pim_variants | array of objects <!-- stimmt das? --> <br> (string, number, integer, boolean, object) | It indicates the variant defining attributes. <!-- stimmt das? --> |
+| pim_variants | object | It defines the variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
 | pim_art_name | string | Product name |
 | pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
 | pim_catalog | array of objects | Product category. It contains the required field **id**. |
@@ -54,13 +49,13 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_fsk18 | boolean | Suitable for persons above 18. Options are **true** or **false**. |
 | pim_product_digital | boolean | The product is a digital item. Options are **true** or **false**. |
 | pim_stock_value | number | Stock level in warehouse |
-| pim_salesunit | string, number, integer, boolean, object | Sale unit <!-- Frage: Unterschied zu is_sale? --> |
+| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
 | pim_size_l | object | Product length. It contains required fields **value** and **unitId**. |
 | pim_size_b | object | Product width. It contains required fields **value** and **unitId**. |
 | pim_size_h | object | Product depth. It contains required fields **value** and **unitId**. |
 | pim_weight | object | Product weight. It contains required fields **value** and **unitId**. |
-| pim_price | string, number, integer, boolean, object | Product price |
-| pim_baseprice | string, number, integer, boolean, object | Price per unit |
+| pim_price | string | Product price |
+| pim_baseprice | string | Price per unit |
 | pim_products_url | string | Supplier link |
 | pim_products_keywords | string | Additional terms for search |
 | pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
@@ -77,8 +72,8 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_products_short_description | string | Product short description |
 | pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
 | pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains required fields **entity** and **quantity**. |
-| pim_products_relations | string, number, integer, boolean, object | Adds related products, e.g. for product recommendation |
-| pim_completeness | string, number, integer, boolean, object | Completeness <!-- Internal use only? --> |
+| pim_products_relations | string | Adds related products, e.g. for product recommendation. |
+| pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
 | pim_images | object | It allows to upload images. It contains the required field **id**. |
 | pim_files | object | It allows to upload files. It contains the required field **id**. |
 | pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
@@ -86,9 +81,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
 
-[comment]: <> (Was bedeutet, wenn alle da sind: Any of string, number, integer, boolean, object? Alle möglich?)
-
-You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id). 
+You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id).
 
 Depending on the data you want to specify, you have to add the corresponding field in your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
 
@@ -106,28 +99,6 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         "product": {
             "sku": "ABC_1234",
             "attributeSetId": 592
-        }
-    }
-
-
-
-#### Create a product with price, dimensions and image
-
-    {
-        "product": {
-            "sku": "ABC_1234",
-            "attributeSetId": 123,
-            "_pim_price": "100",
-              "_pim_size_l": {
-                  "value": 15,
-                  "unitId": 432
-              "_pim_size_b": {
-                  "value": 8,
-                  "unitId": 432,
-              "_pim_size_h": {
-                  "value": 2,
-                  "unitId": 432,
-              "pim_images": "ABC_1234.jpg"
         }
     }
 
@@ -157,49 +128,53 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         }
     }
 
-
-#### Create a master or a variant product
-
-    {
-      "product": {
-        "sku": "string",
-        "attributeSetId": 0,
-        "attributeSet": {
-          "id": 592
-        },
-        "variantStatus": "master OR child",
-        
-      }
-    }
-
   
 #### Create a master product
 
-    {
-      "product": {
-        "sku": "string",
-        "attributeSetId": 592,
-        "variantStatus": "master",
-        
+      {
+          "product": {
+              "sku": "MASTER1",
+              "attributeSetId": 612,
+              "variantStatus": "master"
+          }
       }
-    }
 
 #### Create a variant
-
-**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create ??? vgl. Create a variant (Variants.md)
 
       {
           "product": {
               "sku": "CHILD1",
               "attributeSetId": 752,
               "variantStatus": "child",
-            "_pim_fc_var_code": [
+              "variantSet": [
                   {
-                      "id": 582
+                      "id": 2
                   }
               ]
           }
       }
+
+#### Create several variant products
+
+    {
+      "product": {
+        "sku": "CHILD1",
+        "attributeSetId": 612,
+        "variantStatus": "child"
+        "variantSet": [
+                  {
+                      "id": 2
+    },
+      "product": {
+        "sku": "CHILD2",
+        "attributeSetId": 612,
+        "variantStatus": "child"
+        "variantSet": [
+                  {
+                      "id": 2
+      }
+    }
+  
 
 
 #### Add variants to master product
@@ -219,12 +194,8 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         }
       }
 
-Wie finde ich das via API die ganze ID heraus?
+You can get all needed ID from the request response.
 
-
-#### Create a product with a single variant
-
-#### Create a product with multiple variants
 
 
 
