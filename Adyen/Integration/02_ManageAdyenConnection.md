@@ -73,7 +73,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
         ![Report service password](../../Assets/Screenshots/Adyen/Integration/AdyenWebServicePassword.png "[Report service password]")
      
-5. Enter the credentials for notifications that Adyen&trade; shall send to the *Payments* module via the *http://basic_out_credentials* API. <!---Stimmt der Name des APIs?--> To do this, follow these steps: 
+5. Enter the credentials for notifications that Adyen&trade; shall send to the *Payments* module via the `http://basic_out_credentials` API. To do this, follow these steps: 
 
     + Enter the technical user for the notification API in the *Notification user* field. You have defined this user in Adyen&trade; under *Developers > Webhooks > Security section* before.
 
@@ -83,7 +83,7 @@ Create a connection to the Adyen&trade; payment service provider.
 
 6. Enter the merchant account relevant for this connection in the *Merchant account* field. This is the merchant account for which you currently create the connection. You have created it in the Adyen&trade; configuration.
     
-7. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check* toggle if you want to disable the Adyen fraud checks for MIT transactions. This is recommended if Actindo gets a lot of false positive fraud checks when trying to process the MIT requests. Since the fraud check usually, depending on your Adyen setup, already takes place when the payment credentials are stored in Adyen during checkout in your shop, so it is often skipped during MIT processing in these cases.
+7. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *MIT fraud check* toggle if you want to disable the Adyen&trade; fraud checks for MIT transactions. This is recommended if Actindo gets a lot of false positive fraud checks when trying to process the MIT requests. Since the fraud check usually, depending on your Adyen&trade; setup, already takes place when the payment credentials are stored in Adyen&trade; during checkout in your shop, so it is often skipped during MIT processing in these cases.
 
 8. Click the [SAVE] button.   
    The connection will be created. The *Checking credentials...* notice is displayed. After a few seconds, the *Loading data...* notice is displayed.
