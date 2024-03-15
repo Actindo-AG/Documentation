@@ -1,6 +1,6 @@
-[!!Manage the attributes](./01_ManageAttributes.md)
-[!!Manage the attribute sets](./02_ManageAttributeSets.md)
-[!!User interface Attribute groups](../UserInterface/02c_AttributeGroups.md)
+[!!Manage an attribute](./01_ManageAttributes.md)
+[!!Manage an attribute set](./02_ManageAttributeSets.md)
+[!!User interface Attribute groups](../UserInterface/01c_AttributeGroups.md)
 
 # Manage an attribute group
 
@@ -23,7 +23,7 @@ Additional attributes for the attribute group have been created, see [Create an 
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -77,7 +77,7 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -132,7 +132,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -153,7 +153,7 @@ At least two attribute groups have been created, see [Create an attribute group]
 
 You can delete an attribute group if it is no longer in use.
 Note that you just delete the attribute group but not the attributes within a group.
-All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned group* which is only displayed in the product view.
+All active attributes that are no longer assigned to an attribute group are automatically assigned to a new attribute group with the name *Unassigned group*, which is only displayed in the product view in the *PIM* module.
 If you delete an attribute group with sub-groups, also the attribute sub-groups are deleted.
 
 The procedure to delete attribute groups and sub-groups is identical.
@@ -165,7 +165,7 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -203,7 +203,7 @@ If you add an attribute to an attribute group that is already added to another g
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -215,7 +215,7 @@ If you add an attribute to an attribute group that is already added to another g
     ![Group attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/GroupAttributes.png "[Group attributes]")
 
 2. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The *Add attributes to attribute group* view is displayed.
+    The *Add attributes to group* view is displayed.
 
     ![Add attributes](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AddAttributes.png "[Add attributes]")
 
@@ -225,14 +225,14 @@ If you add an attribute to an attribute group that is already added to another g
     > [Info] Enable the *Only unassigned attributes* toggle above the list to hide all attributes that are already assigned to an attribute group.
 
 4. Click the [ADD] button in the editing toolbar.
-    The *Add attributes to attribute group* view is closed. The selected attributes have been added to the attribute group.
+    The *Add attributes to group* view is closed. The selected attributes have been added to the attribute group.
 
     > [Info] The new attributes are always added at the end of the attribute list. If you want to change the position of an attribute in the list, see [Change the order of attributes within a group](#change-the-order-of-attributes-within-a-group).
 
 
 ### Change the order of attributes within a group
 
-The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view.
+The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the product view in the *PIM* module.
 You can change the order to display a certain attribute in a different place in the attribute group when creating or editing a product.   
 
 The procedure to change the order of attributes within attribute groups and sub-groups is identical.
@@ -245,7 +245,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 
@@ -273,7 +273,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 You can remove an attribute from an attribute group if it is no longer in use.
 Note that you just remove the attribute from the attribute group but you do not delete the attribute itself.
-Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view.    
+Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the product view in the *PIM* module.    
 
 The procedure to remove attributes from attribute groups or sub-groups is identical.
 Just select the attribute sub-group instead of the group and follow the steps described below.
@@ -285,7 +285,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE GROUPS*
+*DataHub > Data model > Tab ATTRIBUTE GROUPS*
 
 ![Attribute groups](../../Assets/Screenshots/DataHub/Settings/AttributeGroups/AttributeGroups.png "[Attribute groups]")
 

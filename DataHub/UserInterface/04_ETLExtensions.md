@@ -1,4 +1,4 @@
-[!!Data type list](./04_DataTypeList.md)
+[!!Data type list](./05_DataTypeList.md)
 [!!Manage the ETL Mappings](../Operation/01_ManageETLMappings.md)
 
 # ETL extensions list
@@ -400,7 +400,7 @@ This extension is used to map the generic property of an entity attribute to a d
 | String                           | String, Text field, Integer    |
 | Boolean                          | String, Text field, Integer    |
 
-[comment]: <> (Configuration wird nur bei boolean als destination attribut angezeigt. -> BUG-224)
+[comment]: <> (Configuration wird nur bei boolean als destination attribute angezeigt. -> BUG-224)
 
 ### Configuration
 
@@ -422,7 +422,7 @@ This extension is used to map the generic property of an entity attribute to a d
 
 ![ETL PIM to UCS bundle extension](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/ETLPIMToUCSBundleExtension.png "[ETL PIM to UCS bundle extension]")
 
-This extension is used to map a product bundle attribute to a UCS bundle attribute. This extension is Actindo specific and is only used in the mapping from the PIM to the RetailSuite. It is mainly used to manage the stock of sets.
+This extension is used to map a product bundle attribute to a UCS bundle attribute. This extension is Actindo specific and is only used in the mapping from the PIM to the RetailSuite. It is mainly used to manage the stock value of bundles.
 
 ### Possible data type mappings
 
@@ -956,7 +956,7 @@ This extension is used to replace the value of a source attribute by a certain v
 ### Configuration
 
 - *Pattern*   
-    Enter a regular expression for the source attribute value that should be replaced. For detailed information about regular expressions, see https://regex101.com/.
+    Enter a regular expression for the source attribute value that should be replaced. For detailed information about regular expressions, see the [regex101.com](https://regex101.com/ "[https://regex101.com/]") website.
 
 - *Replacement*    
     Enter the value that will replace the value selected in the *Pattern* field.
@@ -1182,7 +1182,7 @@ This extension is used to map a PIM price field attribute with a fallback attrib
 
 ![Stock to integer](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StockToInteger.png "[Stock to integer]")
 
-This extension is used to map a stock attribute to an absolute number. The stock attribute is Actindo specific and therefore needs a special extension for mapping. This extension is mainly used to map the stock from Actindo to another system.  
+This extension is used to map a stock value attribute to an absolute number. The stock value attribute is Actindo-specific and therefore needs a special extension for mapping. This extension is mainly used to map the stock value from Actindo to another system.  
 
 ### Possible data type mappings
 
@@ -1895,7 +1895,7 @@ This extension is used to map a variant attribute to a variant attribute. The va
 
 ### Configuration
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically generate all child entities when main entity is created*   
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically generate all variant entities when main entity is created*   
     All variants to a master product are automatically created in the destination when the master product is created. This toggle is read-only.
 
 [comment]: <> (Welchen Sinn ergibt ein Toggle, der nicht umgeschaltet werden kann?)
@@ -1915,5 +1915,5 @@ This extension is used to map a variant attribute to a variant attribute. The va
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Sync variant set in case they do not match to each other*   
     Enable the toggle to automatically create a variant set if the assigned variant sets of the source variant attribute and the destination variant attribute do not match. By default, the toggle is disabled. This toggle is only displayed if the *Automatically map variant sets* toggle is disabled.
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to children*      
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Do not apply master product status to variant*      
     Enable the toggle to manage the status of all variants independently of their master product. Otherwise, the status of the main product is automatically applied to all variants in the destination attribute. By default, the toggle is disabled.
