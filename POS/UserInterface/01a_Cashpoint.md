@@ -56,7 +56,7 @@
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Single scan*   
     Activate this toggle to use the single scan feature.
 
-    > [Info] If the same offer is selected more than once, and you use the single scan feature, each offer is listed as a single offer in the bill list. This allows you to treat each offer in the booking individually. 
+    > [Info] If the same offer is selected more than once, and you use the single scan feature, each offer is listed as a single offer in the bill list. This allows you to treat each offer in the posting individually. 
 
 - *Sub total*   
     Net<!---Hier stand "Gross"--> amount of all products in the bill list. This field is read-only.
@@ -131,7 +131,7 @@ This section is only displayed when no voucher has been redeemed.
 **Down payment**
 
 - [+ ADD DOWN PAYMENT]   
-    Click this button to book to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*. 
+    Click this button to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*. 
 
 
 **Select Payment**

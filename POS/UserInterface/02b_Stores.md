@@ -7,21 +7,13 @@
 
 *POS > Management > Tab STORES*
 
-In the tab *STORES*, you select a store and define the settings of the selected store and its pay desks.
-To define the settings of a store and its pay desk, you have to select the corresponding store first.
-
 ![Select Store](../../Assets/Screenshots/POS/Management/Stores/Stores.png "[Select Store]")
+
+The table displays all created stores. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 **Stores**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a store.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of stores.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+The following functions are available for the editing toolbar:
 
 - [x]   
     Select the checkbox to display the editing toolbar.
@@ -29,7 +21,7 @@ To define the settings of a store and its pay desk, you have to select the corre
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected store. This button is only displayed, when the checkbox of a store is selected. Alternatively, you can click directly a row in the table to edit a store.
 
-The table displays all created stores. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The following functions and fields are available in this view:
 
 - *Name*  
     Name of the store.  
@@ -56,7 +48,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 ## Create store
 
-*POS > Management > Tab STORES > Button Add*
+*POS > Management > Tab STORES > Click Add button*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
 
@@ -73,7 +65,7 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 ## Create store via wizard
 
-*POS > Management > Tab STORES > Button Add > Button Create store via wizard*
+*POS > Management > Tab STORES > Click the Add button > Click the Create store via wizard button*
 
 ### Step 1 - Create store
 
@@ -87,16 +79,10 @@ The table displays all created stores. All fields are read-only. Depending on th
 
 **Select Store Managers**
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-    Click this button to update the list of store managers.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+The table displays all users who are assigned to the POS store manager group. You may select multiple users as store managers. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - [x]     
     Select the checkbox to select the user as store manager. If you click the checkbox in the header, all users are selected.
-
-The table displays all available users. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Login*   
     User name.
@@ -131,17 +117,10 @@ The table displays all available users. All fields are read-only. Depending on t
     Click this button to add a new pay desk. A new line for a pay desk is displayed below.
 
 **Select Cashiers**
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-    Click this button to update the list of store managers.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+The table displays all users who are assigned to the POS cashier group. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - [x]     
     Select the checkbox to select the user as cashier. If you click the checkbox in the header, all users are selected.
-
-The table displays all available users. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - *Login*   
     User name.
@@ -163,7 +142,7 @@ The table displays all available users. All fields are read-only. Depending on t
 - [CANCEL]   
     Click this button to cancel the pay desk creation and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CREATE PAYDESKS]   
     Click this button to create the pay desks and proceed to the next step in the store wizard. The *Printing* wizard window is displayed.
@@ -178,7 +157,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 **PRINTER**
 
 - *Client*   
-    Click the drop-down list to select a default client. All available clients are displayed in the list.
+    Click the drop-down list to select a default APS (Actindo Print System) printer client. All available clients are displayed in the list.
 
 - *Printer*   
     Click the drop-down list to select a default printer. All available printers are displayed in the list.
@@ -189,17 +168,15 @@ For each pay desk, a tab with the printer settings below is displayed.
 **LAYOUT**
 
 - Landscape rectangle   
-    Click the landscape rectangle to define landscape as the default paper size.
+    Click the landscape rectangle to define **landscape** as the default paper orientation.
 
 - Portrait rectangle   
-    Click the portrait rectangle to define portrait as the default paper size.
+    Click the portrait rectangle to define **portrait** as the default paper orientation.
 
 - *Format*   
     Click the drop-down list to select a default format. The formats below are available.
 
-[comment]: <> (which formats? doesn't work)
-
-- [SAVE FOR PAYDESK]   
+- [SAVE FOR PAYDESK "paydesk name"]   
     Click this button to save the printer configuration for the selected pay desk.
 
     > [Info] If you switch the pay desk tab without saving, all changes are rejected.  
@@ -207,7 +184,7 @@ For each pay desk, a tab with the printer settings below is displayed.
 - [CANCEL]   
     Click this button to cancel configuring the printer settings and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CONTINUE]   
     Click this button to save the printer settings for the pay desks and proceed to the next step in the store wizard.  The *Store Address* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
@@ -216,6 +193,8 @@ For each pay desk, a tab with the printer settings below is displayed.
 ### Step 4 - Store address
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
+
+For each store, at least enter the country and the ZIP code must be specified.
 
 - *Owner*   
     Enter the name of the store owner.
@@ -238,15 +217,13 @@ For each pay desk, a tab with the printer settings below is displayed.
 - *Country*   
     Enter the country name of the store address.
 
-[comment]: <> (Should the country field be mandatory and a drop-down list?)
-
 - [< BACK]   
     Click this button to go back to the previous step. The *Printing* wizard window is displayed.
 
 - [CANCEL]   
     Click this button to cancel defining the store address and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CONTINUE]   
     Click this button to save the store address and proceed to the next step in the store wizard. The *Stock* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
@@ -257,14 +234,14 @@ For each pay desk, a tab with the printer settings below is displayed.
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
 
 - *Warehouse*   
-    Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Verkaufslager**, **Eigenlager** and **Außenlager**. Further, you can create your own warehouses, that are displayed in this drop-down list.   
+    Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Sales warehouse**, **Own warehouse**, and **Field warehouse**. Further, you can create your own warehouses, that are displayed in this drop-down list.   
     For detailed information, see [Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md).
 
 - [REFRESH LIST]   
-    Click this button to update the drop-down list *Warehouse*.
+    Click this button to update the *Warehouse* drop-down list.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically assign product to warehouse when activated in store*   
-    Activate this toggle to automate the assignment process of products to a shelf in a warehouse. It is recommended to activate this option.
+    Activate this toggle to automate the assignment process of materials to a shelf in a warehouse. It is recommended to activate this option.
 
 - *Shelf*   
     Enter a shelf number in the warehouse to which the stock is to be assigned.
@@ -275,21 +252,22 @@ For each pay desk, a tab with the printer settings below is displayed.
 - [CANCEL]   
     Click this button to cancel defining the stock settings and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CONTINUE]   
     Click this button to save the stock settings and proceed to the next step in the store wizard. The *Saving...* window is displayed. When the saving is completed, the *Inventory assignment* wizard window is displayed.
 
 
-### Step 6 - Inventory assignment
+### Step 6 - Stock level assignment
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create new inventory source*   
-    Activate this toggle to add a new inventory source that only considers the stock of the warehouse selected in the previous step for calculating the warehouse stock. Deactivate this toggle to select an existing inventory source in the drop-down list *Select existing inventory Source* or to add no inventory source. When you activate this toggle, the drop-down list *Select existing inventory Source* is hidden.
+    Activate this toggle to add a new stock source that only considers the stock level of the warehouse selected in the previous step for calculating the warehouse stock level. Deactivate this toggle to select an existing stock level source in the *Select existing inventory source* drop-down list, or to add no inventory source. This drop-down list is only displayed when the *Create new inventory source* toggle is disabled.  
 
-- *Select existing inventory Source*   
-    Click the drop-down list and select an inventory source for the POS store. The inventory source specifies how the inventory available in the POS system is calculated. All available inventory sources are displayed in the list. This drop-down list is only displayed when the toggle *Create new inventory source* is active.  
+
+- *Select existing inventory source*   
+    Click the drop-down list and select a stock level source for the POS store. The stock level source specifies how the stock lebel  available in the POS system is calculated. All available stock level sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Stock* wizard window is displayed.
@@ -297,12 +275,11 @@ For each pay desk, a tab with the printer settings below is displayed.
 - [CANCEL]   
     Click this button to cancel defining the inventory assignment and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CONTINUE]   
     Click this button to assign the inventory source and proceed to the next step in the store wizard. The *Saving...* window is displayed. When the saving is completed, the *Accounting* wizard window is displayed.
 
-[comment]: <> (when I proceed with the active toggle, go back and try to continue the wizard again, an error message is displayed: Saving failed ETLAttributeMap for destinationAttribute with name Bestand does already exist for ETLAttributeSetMap with id 672. -> Bug?)  
 
 
 ### Step 7 - Accounting
@@ -310,34 +287,34 @@ For each pay desk, a tab with the printer settings below is displayed.
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Account per pay desk*   
-    Activate this toggle to assign the accounts to each pay desk individually. Deactivate the toggle to assign the accounts for the entire store. When you activate this toggle, the drop-down list *Select Pay Desk* is hidden. By default, this toggle is active.
+    Activate this toggle to assign the accounts to each pay desk individually. Deactivate the toggle to assign the accounts for the entire store. When you activate this toggle, the *Select Pay Desk* drop-down list is hidden. By default, this toggle is active.
 
 - *Select Pay Desk*   
-    Click the drop-down list and select the pay desk for which you want to assign the accounts. All accounts are displayed below the drop-down list for each available currency. This drop-down list is only displayed when the toggle *Account per pay desk* is active.
+    Click the drop-down list and select the pay desk for which you want to assign the accounts. All accounts are displayed below the drop-down list for each available currency. This drop-down list is only displayed when the *Account per pay desk* toggle is active.
 
     > [Info] If you have multiple pay desks, switch the pay desk in the drop-down list after defining the accounts to define also the accounts for this pay desk. Repeat this procedure for all created pay desks.
 
-The list of accounts is displayed either when you deactivate the toggle *Account per pay desk* or when you select a pay desk in the drop-down list *Select Pay Desk*.
+The list of accounts is displayed either when you deactivate the *Account per pay desk* toggle or when you select a pay desk in the *Select Pay Desk* drop-down list.
 
 - *Type*   
     In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
 
-    - *Bar*   
+    - *Cash*   
         This type of account serves as a cash account for cash payments.
 
     - *Redeem Voucher*    
-        This type of account serves as --- add information ---
+        This type of account serves as an accrual account, in which the sale of vouchers is posted.<!---Bitte prüfen-->
 
-    - *Gegenkonto Cash-In*   
-        This type of account serves as a clearing account against which cash deposits without customers are booked.
+    - *Contra account Cash-In*   
+        This type of account serves as a contra account against which cash deposits without customers are posted.
 
-    - *Gegenkonto Cash-Out*   
-        This type of account serves as a clearing account against which cash withdrawals without customers are booked.
+    - *Contra account Cash-Out*   
+        This type of account serves as a contra account against which cash withdrawals without customers are posted.
 
-    - *Refund auf Gutschein (refund only)*   
+    - *Refund of voucher (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.
 
-    - *Manuelles Zahlen am Terminal*   
+    - *Manual payment at terminal*   
         This type of account serves as a cash account for cashless payments.
 
 - *Account*   
@@ -349,7 +326,7 @@ The list of accounts is displayed either when you deactivate the toggle *Account
 - [CANCEL]   
     Click this button to cancel defining the inventory assignment and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [CONTINUE]   
     Click this button to assign the accounts and proceed to the next step in the store wizard. The *Loading...* window is displayed. When the saving is completed, the *Summary* wizard window is displayed.
@@ -367,7 +344,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 - [CANCEL]   
     Click this button to cancel the store finalization and close the wizard window.
 
-    > [Info] If you cancel the wizard now, the store is nevertheless created but you have to configure the further store settings manually.
+    > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
 - [FINALIZE]   
     Click this button to complete the store configuration and close the wizard window. The configured store is displayed in the list of stores.  
@@ -463,7 +440,7 @@ The wizard window displays a summary of the store configuration. Missing data or
     Click this button to edit the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the the changes.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
-    Click this button to delete the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the the changes.
+    Click this button to delete the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the changes.
 
 
 #### Store managers
@@ -472,11 +449,9 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ![Store Managers](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)    
-    Click this button to update the list of store managers.
+The *Store Manager* list displays the persons who are assigned to the POS store manager group.
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+The following functions are available for the editing toolbar:
 
 - [x]       
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all users are selected.
@@ -854,7 +829,7 @@ Upload a logo for your receipts.
 
 #### Kontenzuteilung Buchhaltung
 
-Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
+Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For detailed information, see [Admin settings &ndash; Store](#admin-settings--store) or [Admin settings &ndash; Pay Desk](#admin-settings--pay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
@@ -871,10 +846,10 @@ The number of accounts to be assigned depends on the number of available currenc
         This type of account serves as --- add information ---
 
     - *Gegenkonto Cash-In*   
-        This type of account serves as a clearing account against which cash deposits without customers are booked.
+        This type of account serves as a clearing account against which cash deposits without customers are posted.
 
     - *Gegenkonto Cash-Out*   
-        This type of account serves as a clearing account against which cash withdrawals without customers are booked.
+        This type of account serves as a clearing account against which cash withdrawals without customers are posted.
 
     - *Refund auf Gutschein (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.
@@ -1166,7 +1141,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 #### Kontenzuteilung Buchhaltung
 
-Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
+Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For detailed information, see [Admin settings &ndash; Store](#admin-settings--store) or [Admin settings &ndash; Pay Desk](#admin-settings--pay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
@@ -1183,10 +1158,10 @@ The number of accounts to be assigned depends on the number of available currenc
         This type of account serves as --- add information ---
 
     - *Gegenkonto Cash-In*   
-        This type of account serves as a clearing account against which cash deposits without customers are booked.
+        This type of account serves as a clearing account against which cash deposits without customers are posted.
 
     - *Gegenkonto Cash-Out*   
-        This type of account serves as a clearing account against which cash withdrawals without customers are booked.
+        This type of account serves as a clearing account against which cash withdrawals without customers are posted.
 
     - *Refund auf Gutschein (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.

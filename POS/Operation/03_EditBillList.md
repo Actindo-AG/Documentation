@@ -224,7 +224,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
     ![Create Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
 
 3. Enter the customer data in the corresponding fields and click the [ ![Create Customer](../../Assets/Icons/Customer01.png "[Create Customer]") Create Customer] button.   
-    The customer is registered. The customer data view is closed. The bill list is displayed again. The created customer name and its address is displayed in the upper left corner of the bill list.
+    The customer is registered. The data is also available now in the *Order Management* module. <!--- Passiert das automatisch oder muss man da noch was tun?-->The customer data view is closed. The bill list is displayed again. The created customer name and its address is displayed in the upper left corner of the bill list.
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper right corner of the bill list.
 

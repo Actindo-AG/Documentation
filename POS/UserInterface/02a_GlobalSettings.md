@@ -4,18 +4,19 @@
 
 *POS > Management > Tab GLOBAL SETTINGS*
 
-In the tab *GLOBAL SETTINGS*, you define basic settings for all your stores.
+In the *GLOBAL SETTINGS* tab, you define basic settings for all your stores.
 
 > [Info] Global settings are valid for all stores as long as no different settings are defined for the respective stores or pay desks.
+
 In principle, the more specific setting always overrides the more general setting.
 
 ![Global Settings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[Global Settings]")
 
 In the left part of the page, the selection list *Settings* is displayed. The list is divided in the following sections:
 - [GENERAL](#general)
-- [WÄHRUNGEN](#währungen)
-- [RETOUREN](#retouren)
-- [BELEGDRUCK](#belegdruck)
+- [CURRENCIES](#währungen)
+- [RETURNS](#retouren)
+- [RECSEIPT PRINT](#belegdruck)
 - [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](#datenübertragung-retailsuite-faktura)
 
 In the right part of the page, a view of the selected setting is displayed when clicking on it.
@@ -664,7 +665,7 @@ In this section, you define all settings concerning the connection to the *Order
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
 
-Assign the accounts to which you want to book the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
+Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For more information, see [Admin Settings - Store](./02b_Stores.md#adminsettings-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settingspay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
@@ -681,10 +682,10 @@ The number of accounts to be assigned depends on the number of available currenc
         This type of account serves as --- add information ---
 
     - *Gegenkonto Cash-In*   
-        This type of account serves as a clearing account against which cash deposits without customers are booked.
+        This type of account serves as a clearing account against which cash deposits without customers are posted.
 
     - *Gegenkonto Cash-Out*   
-        This type of account serves as a clearing account against which cash withdrawals without customers are booked.
+        This type of account serves as a clearing account against which cash withdrawals without customers are posted.
 
     - *Refund auf Gutschein (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.
@@ -704,12 +705,12 @@ The number of accounts to be assigned depends on the number of available currenc
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
 
-Activate or deactivate the reverse booking to the original warehouse. Any discrepancies in store deliveries are automatically booked back to the original warehouse.   
+Activate or deactivate the reverse posting to the original warehouse. Any discrepancies in store deliveries are automatically posted back to the original warehouse.   
 
 ![Korrekturbuchung](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Korrekturbuchung]")
 
 - [x] *Korrekturbuchung auf Ursprungslager*    
-    Choose whether or not to book discrepancies between the delivery receipt and the delivery are automatically booked back to the original warehouse. By default, this option is active.
+    Choose whether or not to post discrepancies between the delivery receipt and the delivery are automatically posted back to the original warehouse. By default, this option is active.
 
     > [Info] This option is only applicable if store deliveries are activated.    
     For detailed information, see [Shop-Lieferungen aktiv](#shoplieferungen-aktiv).

@@ -32,9 +32,8 @@ This tab is only displayed, when the global setting *Shop-Lieferungen aktiv* is 
 - *Artikel-ID*    
     Product identification number.
 
-- [EINBUCHEN]   
-    Click this button to book the items from the delivery bill list into the warehouse.
+- [POST]   
+    Click this button to post the items from the delivery bill list into the warehouse.
 
-[comment]: <> (Is that right?)
 
 [comment]: <> (to be completed)

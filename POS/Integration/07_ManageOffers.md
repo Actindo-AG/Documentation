@@ -18,7 +18,7 @@ To create an offer for POS, it is recommended to create products in the *PIM* mo
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+If you want to use the *Age verification* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified.
 
 #### Procedure
 

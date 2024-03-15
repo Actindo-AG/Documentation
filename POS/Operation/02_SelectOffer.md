@@ -14,7 +14,7 @@ The different options are described in the following.
 ## Use single scan
 
 If the same offer is selected more than once, it is displayed in the bill list as one line item with the corresponding quantity indication.     
-Optionally, you can use the single scan feature. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each product in the booking individually, for instance, to apply an individual discount.
+Optionally, you can use the single scan feature. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each product in the bill list individually, for instance, to apply an individual discount.
 
 #### Prerequisites
 
@@ -26,7 +26,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Enable the *Single scan* toggle in the bill list on the right side of the pay desk interface.   
+1. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")*Single scan* toggle in the bill list on the right side of the pay desk interface.   
 
     > [Info] The single scan works from the moment it is enabled. It does not apply backwards to products that were already on the bill list at the time of activation.
 
@@ -60,7 +60,9 @@ The QuickSelect option offers you the possibility to select an offer by clicking
     All offers assigned to the selected category are displayed.
 
 2. Select the desired offer by clicking the corresponding button.   
-    The offer is added to the bill list.
+    The offer is added to the bill list.   
+    If the offer is restricted to adults or teenagers, the *Age verification* pop-up window is displayed if configured. The necessary minimum date of birth is displayed in the pop-up window. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
+
 
 
 
@@ -87,7 +89,8 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side.
+    The offer is added to the bill list on the right side.   
+    If the offer is restricted to adults or teenagers, the *Age verification* popup window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
 
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
@@ -96,7 +99,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 ## Select by number
 
 You may select an offer or search for it by entering its offer number in the search bar. To find an offer, you must enter at least three numbers in the search bar. All offers that correspond to your entry are automatically displayed.
-<!---Ist das die Offer ID oder was ist das für eine Nummer?-->
+<!---Ist das die Offer ID, SKU  oder was ist das für eine Nummer?-->
 
 #### Prerequisites
 
@@ -118,33 +121,10 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side.
+    The offer is added to the bill list on the right side.   
+    If the offer is restricted to adults or teenagers, the *Age verification* popup window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
 
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
 
-## Use single scan
-
-If the same offer is selected more than once, it is displayed in the bill list as one product with the corresponding quantity indication. By using the single scan feature, each offer is listed as a single product in the bill list, even if it is the same offer. This allows you to treat each product in the booking individually, for instance, to apply an individual discount.
-
-#### Prerequisites
-
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-
-#### Procedure
-
-*POS > Sales > Select store and pay desk*
-
-![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
-
-1. Enable the *Single scan* toggle in the bill list on the right side of the pay desk interface.   
-
-    > [Info] The single scan works from the moment it is toggled on. It does not apply backwards to products that were already on the bill list at the time of activation.   
-    Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
-
-2. Select an offer.   
-    The product is listed in the bill list.
-
-3. Select the same offer again.   
-    The same product is listed in an own entry in the bill list.

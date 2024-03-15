@@ -10,9 +10,9 @@ The *Management* User Interface is composed of the following tabs:
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
 - [ACCOUNTING SYNC](./02d_AccountingSync.md)
 
-If the global setting *Shop-Lieferungen aktiv* is activated, the following tabs are also displayed:
-- [ABGESCHLOSSENE LIEFERSCHEINE](./02e_ProcessedDeliveryNotes.md)
-- [OFFENE LIEFERSCHEINE](./02f_UnprocessedDeliveryNotes.md)
-- [WARENEINGANGS-SYNC](./02g_WareneingangsSync.md)
+If the global setting *Store delivery active* is activated, the following tabs are also displayed:
+- [PROCESSED DELIVERY NOTES](./02e_ProcessedDeliveryNotes.md)
+- [OPEN DELIVERY NOTES](./02f_UnprocessedDeliveryNotes.md)
+- [GOODS RECEIPT SYNC](./02g_WareneingangsSync.md)
 
-For detailed information, see [Shop-Lieferungen aktiv](./02a_GlobalSettings.md#shoplieferungen-aktiv).
+For detailed information, see [Store delivery active](./02a_GlobalSettings.md#shoplieferungen-aktiv).

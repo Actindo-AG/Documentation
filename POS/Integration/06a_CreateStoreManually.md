@@ -224,7 +224,7 @@ A store has been created, see [Create a store manually](./06a_CreateStoreManuall
 
 ## Assign the POS warehouse
 
-To connect the warehouse management and the stock management to your POS, you have to assign a warehouse from which to take the materials. The warehouse specifies where exactly the material is booked out when a product is sold.
+To connect the warehouse management and the stock management to your POS, you have to assign a warehouse from which to take the materials. The warehouse specifies where exactly the material is taken from when a product is sold.
 
 #### Prerequisites
 
@@ -258,7 +258,7 @@ For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 ## Configure the stock withdrawal matrix
 
-Define in the stock withdrawal matrix from which warehouses defined in the system the stock level is booked out.  
+Define in the stock withdrawal matrix from which warehouses defined in the system the stock level is taken from.  
 For detailed information on the stock withdrawal matrix, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* documentation.
 
 #### Prerequisites
@@ -398,8 +398,8 @@ No prerequisites to fulfill.
 
 ## Assign the accounts
 
-In this step you assign the accounts to which you want to book the payments.   
-You may assign the same accounts to all stores or you may assign different accounts per store or even per pay desk. Depending on your choice, you have to assign the accounts in different places:   
+In this step you assign the accounts to which you want to post the payments.   
+You may assign the same accounts to all stores, or you may assign different accounts per store or even per pay desk. Depending on your choice, you have to assign the accounts in different places:   
 - To [assign the same accounts to all stores](#assign-the-accounts-in-the-global-settings), enter the accounts in the global settings.
 - To [assign the accounts to a single store](#assign-the-accounts-in-the-store-settings), enter the accounts in the admin settings of the respective store.
 - To [assign the accounts to a single pay desk](#assign-the-accounts-in-the-pay-desk-settings), enter the accounts in the admin settings of the respective pay desk.

@@ -4,11 +4,11 @@
 
 # Manage the POS warehouse
 
-Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken and booked. The warehouse specifies where exactly the stock is booked out when a product is sold.
+Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken from and posted. The warehouse specifies where exactly the stock is taken from when a product is sold.
 
 ## Check the stock allocation
 
-Check if the stock allocation is correctly configured so that the store stock is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
+Check if the stock allocation is correctly configured so that the store stock level is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
 
 #### Prerequisites
 
@@ -35,7 +35,7 @@ Check if the stock allocation is correctly configured so that the store stock is
     > [Info] Select for each warehouse whether it should be included or not.
 
 3. Click the [SAVE] button in the bottom right corner.   
-    The stock allocation is saved. The stock is calculated from all selected warehouses.
+    The stock allocation is saved. The stock level is calculated from all selected warehouses.
 
 
 
@@ -104,7 +104,7 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 ## Manage the stock for POS products
 
-You can adjust the stock quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
+You can adjust the stock level quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
 
 #### Prerequisites
 
@@ -134,16 +134,16 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
     > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
 
-3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
-    A window to enter the booking is displayed.
+3. Click the [ADD POSTING] button at the bottom of the *Stocks* section.   
+    A window to enter the posting is displayed.
 
-    ![Add booking](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
+    ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]")
 
 4. Configure the following settings:
 
     + Click the *Stock location* drop-down list and select the appropriate warehouse from which you want to adjust the stock.
 
-    + Click the *Posting type* drop-down list and select the appropriate reason for the booking. The following options are available:
+    + Click the *Posting type* drop-down list and select the appropriate reason for the posting. The following options are available:
         - **Reservation**
         - **Sale**
         - **Order**
@@ -157,7 +157,7 @@ You can adjust the stock quantity of your POS products, for instance because of 
     + Enter the number by which the stock should be changed in the *Change* field.
         > [Info] For a stock increase, enter a positive number. For a stock decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock and a preview of the new stock are displayed.  
 
-    + If desired, select the date on which the stock change will be booked in the *Posting date* field. By default, the current date is preselected.
+    + If desired, select the date on which the stock change will be posted in the *Posting date* field. By default, the current date is preselected.
 
     + If desired, enter a comment in the *Comment* field.
 

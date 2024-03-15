@@ -33,15 +33,15 @@ No prerequisites to fulfill.
     > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS offer, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
-    A window to enter the booking is displayed.
+    A window to enter the posting is displayed.
 
-    ![Add booking](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add booking]")
+    ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]")
 
 4. Configure the following settings:
 
     + Click the *Stock location* drop-down list and select the appropriate warehouse from which you want to adjust the stock.
 
-    + Click the *Posting type* drop-down list and select the appropriate reason for the booking. The following options are available:
+    + Click the *Posting type* drop-down list and select the appropriate reason for the posting. The following options are available:
         - **Reservation**
         - **Sale**
         - **Order**
@@ -56,7 +56,7 @@ No prerequisites to fulfill.
 
         > [Info] For a stock level increase, enter a positive number. For a stock level decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock level and a preview of the new stock level are displayed.  
 
-    + If desired, select the date on which the stock level change will be booked in the *Posting date* field. By default, the current date is preselected.
+    + If desired, select the date on which the stock level change will be posted in the *Posting date* field. By default, the current date is preselected.
 
     + If desired, enter a comment in the *Comment* field.
 

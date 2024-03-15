@@ -111,7 +111,7 @@ An order has been completed in POS, see [Complete a purchase](./04_CompletePurch
 
 ## Check the payment <!---Tab gibt es bei  mir nicht--->
 
-Check the current status of the booking and its payment.
+Check the current status of the posting and its payment.
 
 #### Prerequisites
 
