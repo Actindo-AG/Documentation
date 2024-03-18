@@ -20,10 +20,27 @@
 - *QuickSelect Element*   
     Click a QuickSelect element to add it to the bill list. The QuickSelect element is only displayed if a QuickSelect category with an element has been created before. The elements are named individually.  For detailed information, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
+## Age verification
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
+
+![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
+    <!---Screenshot neu machen-->
+
+The *Age verification* pop-up window is displayed if a selected offer is not suitable for children and young people.
+
+- [AGE OF BUYER CONFIRMED]   
+   Click this button if f the customer is allowed to buy this offer.        
+
+- [CANCEL]   
+   Click this button if the customer is too young to buy this offer.
+
+
+
 
 ## Bill list
 
-*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
 
 ![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
 
@@ -131,7 +148,7 @@ This section is only displayed when no voucher has been redeemed.
 **Down payment**
 
 - [+ ADD DOWN PAYMENT]   
-    Click this button to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*. 
+    Click this button to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*, see [Down payment allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed.)
 
 
 **Select Payment**
@@ -142,7 +159,7 @@ This section is only displayed when no voucher has been redeemed.
 [comment]: <> (Is it possible to add a second currency? Why is this a button when I cannot choose?)
 
 - [Cash]   
-    Click this button to pay cash. The *Cash payment* view is displayed, see [Cash payment](#cash-payment).
+    Click this button to enter a cash pay. The *Cash payment* view is displayed, see [Cash payment](#cash-payment).
 
 **Quick Select**
 
