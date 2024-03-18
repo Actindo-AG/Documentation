@@ -31,7 +31,7 @@ In the following, each setting and its view is explained.
 
 In this section, you define all pay desk and payment settings.
 
-## Format laufende Nummer
+### Format laufende Nummer
 
 *POSgement > Tab GLOBAL SETTINGS > Entry Format laufende Nummer*
 
@@ -60,7 +60,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 
 
-## Bon immer ausdrucken
+### Bon immer ausdrucken
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Bon immer ausdrucken*
 
@@ -81,7 +81,7 @@ Activate or disable the option to print the cash receipt.
 
 
 
-## Anzahl Gutscheine pro Bestellung
+### Anzahl Gutscheine pro Bestellung
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Anzahl Gutscheine pro Bestellung*
 
@@ -106,7 +106,7 @@ Define how many vouchers may be redeemed per order.
 
 
 
-## Zahlungsweisen (manuelle Zahlung Terminal)
+### Zahlungsweisen (manuelle Zahlung Terminal)
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Zahlungsweisen (manuelle Zahlung Terminal)*
 
@@ -137,7 +137,7 @@ In POS, you can specify for statistical purposes which payment method was used f
 
 
 
-## Automatischer Discount
+### Automatischer Discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Automatischer Discount*
 
@@ -169,7 +169,7 @@ Define a discount that is automatically applied above a certain amount.
 
 
 
-## Kasse öffnen bei Barzahlung
+### Kasse öffnen bei Barzahlung
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen bei Barzahlung*
 
@@ -189,7 +189,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 
 
-## Kasse öffnen nach bargeldlosem Zahlen
+### Kasse öffnen nach bargeldlosem Zahlen
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen nach bargeldlosem Zahlen*
 
@@ -226,7 +226,7 @@ Define the VAT ID, which is mandatory to be indicated on receipts in some countr
 
 
 
-## Bargeldloses Zahlen
+### Bargeldloses Zahlen
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Bargeldloses Zahlen*
 
@@ -250,7 +250,7 @@ Activate or deactivate the options for cashless payment.
 
 
 
-## Kassenjournal auf User binden
+### Kassenjournal auf User binden
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Kassenjournal auf User binden*
 
@@ -274,7 +274,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 
 
-## Skim to amount
+### Skim to amount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
 
@@ -292,7 +292,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 
 
-## Erwarteten Betrag verbergen
+### Erwarteten Betrag verbergen
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Erwarteten Betrag verbergen*
 
@@ -311,7 +311,7 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 
 
 
-## Display age verification
+### Display age verification
 
 <!---Check position in settings, when current sandbox is available-->
 
@@ -342,7 +342,7 @@ By default, offers with an age rating can only be added to the basket if the cas
 
 
 
-## Deliveries allowed
+### Deliveries allowed
 <!---Check position in settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
@@ -361,7 +361,7 @@ By default, sales are not delivered to the customer.
     Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the *Pay bill* list. By default, this setting is not activated.   
     Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case the toggle is enabled.<!---stimmt das?--> 
 
-## Down payments allowed
+### Down payments allowed
 <!---Check position in settings, when current sandbox is available-->
 *POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
 
@@ -380,7 +380,7 @@ By default, down payments are not allowed.
     <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
 
 
-## Remind of offers
+### Remind of offers
 <!---Check position in settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
@@ -394,7 +394,7 @@ By default, down payments are not allowed.
     Click this button to save any changes
 
 
-## Customer-specific discount
+### Customer-specific discount
 <!---Check position in settings, when current sandbox is available-->
 
 <!---Screenshot missing-->
@@ -405,7 +405,7 @@ By default, down payments are not allowed.
 
 In this section, you define all settings concerning the currencies in your POS system.
 
-## Available currencies
+### Available currencies
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
@@ -537,7 +537,7 @@ Edit the settings of an existing currency.
 
 
 
-## Verwendete Währungen
+### Verwendete Währungen
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Verwendete Währungen*
 
@@ -563,7 +563,7 @@ Select all currencies that are used in your POS system and define a default curr
 
 In this section, you define all settings concerning returns.
 
-## Retouren-Gründe
+### Retouren-Gründe
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Retouren-Gründe*
 
@@ -588,7 +588,7 @@ Define the return reasons that are available in the POS system.
 
 
 
-## Refund nur auf gleiches Zahlungsmittel
+### Refund nur auf gleiches Zahlungsmittel
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Refund nur auf gleiches Zahlungsmittel*
 
@@ -608,7 +608,7 @@ Activate or deavate the refund to the same payment method for returns.
 
 
 
-## Retoure nur in gleichem Store
+### Retoure nur in gleichem Store
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Retoure nur in gleichem Store*
 
@@ -632,7 +632,7 @@ Activate or deactivate the return to the same store.
 
 In this section, you define all settings concerning the receipt printing.
 
-## Händler-Beleg drucken
+###Händler-Beleg drucken
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
 
@@ -651,7 +651,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 
 
-## Logo-Druck Kompatibilitätsmodus
+### Logo-Druck Kompatibilitätsmodus
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Logo-Druck Kompatibilitätsmodus*
 
@@ -670,7 +670,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 
 
-## Bon-Format
+### Bon-Format
 *POS > Management > Tab GLOBAL SETTINGS > Entry Bon-Format*
 
 Define the width of the receipt, as it may vary depending on the printer.
@@ -693,7 +693,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 
 
-## Zahlenformat
+### Zahlenformat
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Zahlenformat*
 
@@ -720,7 +720,7 @@ Define the number format on the receipt.
 
 
 
-## Logo
+### Logo
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
 
@@ -749,7 +749,7 @@ Upload a logo for your receipts.
 
 In this section, you define all settings concerning the connection to the *Order management* module. The settings are only displayed if the accounting is correctly configured.
 
-## Kontenzuteilung Buchhaltung
+### Kontenzuteilung Buchhaltung
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
 
@@ -788,7 +788,7 @@ The number of accounts to be assigned depends on the number of available currenc
     Enter the account number for the corresponding account types. You can assign another account number for each account type.
 
 
-## Korrekturbuchung auf Ursprungslager
+### Korrekturbuchung auf Ursprungslager
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
 
@@ -810,7 +810,7 @@ Activate or deactivate the reverse posting to the original warehouse. Any discre
 
 
 
-## Retourenlager (Sperrlager)
+### Retourenlager (Sperrlager)
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Retourenlager (Sperrlager)*
 
@@ -832,7 +832,7 @@ Define a shelf in the quarantine warehouse for returns with defects
 
 
 
-## Standard-Kunde
+### Standard-Kunde
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Standard-Kunde*
 
@@ -880,7 +880,7 @@ Define an invoice address for a default customer to connect the POS system with 
 
 
 
-## Shop-Lieferungen aktiv
+### Shop-Lieferungen aktiv
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Shop-Lieferungen aktiv*
 
