@@ -63,3 +63,35 @@ Attributes can be required or optional. Required attributes must always be provi
 ## Format  
 
 The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format. 
+
+
+---
+
+[comment]: <> (type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
+
+
+
+
+## Get attributes in an attribute set
+
+    {
+      "attributeSetId": 752,
+      "start": 0,
+      "limit": 15
+    }
+
+
+
+
+## Get product details
+
+Get all details stored in the database for a specific product. You can set one or more filters.
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
+
+
+### Request sample  
+
+{
+    "entityId": 12,
+    "freezeEntityIfPossible": false

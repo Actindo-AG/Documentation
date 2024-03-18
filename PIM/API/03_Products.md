@@ -1,25 +1,26 @@
 # Products
 
-You can create, edit, delete, and list PIM products via API. 
+You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products via API. 
 
-The keys are customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example.   
+The keys are customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example. If necessary, you can obtain a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes](#to-be-determined).
 
-> [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
+> [Caution] In the latest version of the *DataHub* module, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
 
+You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id).
+
+Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
+
+For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
+
+Responses: You can get all needed ID from the request response.
+
+[comment]: <> (Stimmt das so? Zu bearbeiten!!)
 
 ## Create a product
 
 Create a product in the *PIM* module. 
 
 **Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
-
-**Method:** POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
-
-[comment]: <> (sinnvoll diese Info hier oder eher in Introduction, da immer gleich? Method ist auch immer POST for Actindo. Es ist schon in Introduction erklärt. Hier weglassen?)
 
 ### Definitions
 
@@ -49,7 +50,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_fsk18 | boolean | Suitable for persons above 18. Options are **true** or **false**. |
 | pim_product_digital | boolean | The product is a digital item. Options are **true** or **false**. |
 | pim_stock_value | number | Stock level in warehouse |
-| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
+| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
 | pim_size_l | object | Product length. It contains required fields **value** and **unitId**. |
 | pim_size_b | object | Product width. It contains required fields **value** and **unitId**. |
 | pim_size_h | object | Product depth. It contains required fields **value** and **unitId**. |
@@ -74,26 +75,15 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains required fields **entity** and **quantity**. |
 | pim_products_relations | string | Adds related products, e.g. for product recommendation. |
 | pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
-| pim_images | object | It allows to upload images. It contains the required field **id**. |
-| pim_files | object | It allows to upload files. It contains the required field **id**. |
+| pim_images | string | It allows to upload images. |
+| pim_files | string | It allows to upload files. |
 | pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
 | pim_stock_germany | number | Stock level in warehouse (Germany) |
 | pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
-
-You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id).
-
-Depending on the data you want to specify, you have to add the corresponding field in your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
-
-[comment]: <> (Stimmt das so?)
-
-For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
-
-
 ### Request samples
 
 ####  Create a single product
-
 
     {
         "product": {
@@ -103,7 +93,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a product in two languages
+#### Create a single product in two languages
 
     {
         "product": {
@@ -117,7 +107,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-#### Create a product with different prices pro scope
+#### Create a single product with different prices pro scope
 
     {
         "product": {
@@ -139,7 +129,8 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
           }
       }
 
-#### Create a variant
+
+#### Create a variant product
 
       {
           "product": {
@@ -154,7 +145,8 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
           }
       }
 
-#### Create several variant products
+
+#### Create multiple variant products
 
     {
       "product": {
@@ -177,43 +169,19 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
   
 
 
-#### Add variants to master product
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
-
-
-      {
-        "variantProduct": {
-          "id": 82
-        },
-        "parentProduct": {
-          "id": 72
-        },
-        "variantSet": {
-          "id": 22
-        }
-      }
-
-You can get all needed ID from the request response.
-
-
-
-
 ## Edit a product
 
 You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
 
+[comment]: <> (Modify single to master possible? How?)
+
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
 
 ### Definitions
 
-The required fields are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
+For a list of standard *PIM* attributes, see [Create a product](#create-a-product). The required fields are marked in bold. 
+
+To get a list of all your attributes, see [List of all attributes](#list-all-attributes).
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
@@ -221,15 +189,13 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
 
 ### Request samples
 
-#### Update SKU and add dimension
+#### Update price and add images
 
     {
         "product": {
             "id": 456,
-            "sku": "ABC_1234",
-            "_pim_size_h": {
-                "value": 10,
-                "unitId": 432
+            "price": "65.00",
+            "pim_images": "string",
             }
         }
     }
@@ -247,27 +213,73 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
     }
 
 
-#### Add a single variant to a product
+## Add variants to master product
+
+Once you have created variant products, you can add them to the corresponding master product. You ca also move a variant product to another master product. The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
+
+### Definitions
+
+The required fields are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
+
+| Attribute      | Type | Description |  
+| ----------- | ----------- | ---------- | 
+| **variantProduct**      | object    |  It contains the required field **id**.  |
+| **parentProduct**       | object    |  It contains the required field **id**.  |
+| **variantSet**          | object    |  It contains the required field **id**.  |
+
+### Request samples
+
+#### Add a variant to a product
+
+      {
+        "variantProduct": {
+          "id": 82
+        },
+        "parentProduct": {
+          "id": 72
+        },
+        "variantSet": {
+          "id": 22
+        }
+      }
 
 
 #### Add multiple variants to a product
 
-[comment]: <> (Sinnvolle use cases?)
+      {
+        "variantProduct": {
+          "id": 82
+        },
+        "parentProduct": {
+          "id": 72
+        },
+        "variantSet": {
+          "id": 22
+        },
+
+        "variantProduct": {
+          "id": 92
+        },
+        "parentProduct": {
+          "id": 72
+        },
+        "variantSet": {
+          "id": 22
+        }
+      }
+
 
 
 ## Delete a product permanently
 
-You can delete a product if it is no longer needed. 
+You can delete a product if it is no longer needed. If it is a master product, that is, with a product with variants, all variants will also be deleted. If it is a variant product, only the addressed variant will be deleted.
 
-> [Caution] If it is a master product, that is, with product variants, all variants will also be deleted. If it is a product variant, only the variant will be deleted.
+> [Caution] **Loss of data**   
+  Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
 
 ### Definitions
 
@@ -279,8 +291,6 @@ The required fields are marked in bold.
 
 
 ### Request sample
-
-#### Delete a product (and its variants, if any) permanently
 
     {
       "product": {
@@ -289,17 +299,13 @@ The required fields are marked in bold.
     }
 
 
-## Delete a product temporarily 
+## Delete a product temporarily
+
+You can delete a product temporarily by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product, that is, with a product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
 
 ### Move a product to recycle bin
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
 
 ### Definitions
 
@@ -312,19 +318,19 @@ The required fields are marked in bold.
 
 ### Request sample
 
-...
+    {
+      "product": {
+        "id": 456
+      }
+    }
+
+> [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromRecycleBin
 
 
 ### Move a product to archive
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
-
 ### Definitions
 
 The required fields are marked in bold.
@@ -336,20 +342,20 @@ The required fields are marked in bold.
 
 ### Request sample
 
-...
+    {
+      "product": {
+        "id": 456
+      }
+    }
+
+> [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
+
 
 ## List products
 
 Get a list of all products including the ones in the archive or recycle bin. You can set one or more filters.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
-
 
 ### Definitions
 
@@ -360,7 +366,7 @@ The required fields are marked in bold.
 | scopeId | integer | Filter for multi-scope attributes |
 | languageId | integer | Filter for multi-language attributes |
 | query | string | Quick search for a query string |
-| fields | array of strings | Quick Search for query fields; null to search for all fields |
+| fields | array of strings | Quick search for query fields; null to search for all fields |
 | filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
 | hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
 | sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
@@ -370,74 +376,74 @@ The required fields are marked in bold.
 
 [comment]: <> (Check non-authoritative sources -> Query hints: You may set query hints to modify the execution of the query, for example get data from non-authoritative sources.)
 
-[comment]: <> (type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
-
 ### Request sample  
 
-#### Get a list of products setting a filter
+#### Set a filter by creation date
 
     {
-      "scopeId": 0,
-      "languageId": 0,
-      "query": "string",
-      "fields": [
-        "string"
-      ],
       "filter": [
         {
-          "property": "string",
-          "operator": "string",
-          "value": "string"
-        }
-      ],
-      "hints": [
-        {
-          "name": "string",
-          "value": "string"
-        }
-      ],
-      "sort": [
-        {
-          "field": "string",
-          "order": "string"
+          "property": "created",
+          "operator": "<=",
+          "value": "2024-03-01 00:00:00"
         }
       ],
       "start": 0,
-      "limit": 0,
-      "serializeOptionals": [
-        "string"
-      ]
+      "limit": 5000
     }
 
+#### Get a list of variant products
 
-## Get product details
-
-Get all details stored in the database for a specific product. You can set one or more filters.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
-
-### Request sample  
-
-{
-    "entityId": 12,
-    "freezeEntityIfPossible": false
+    {
+     "filter": [
+        {
+            "property": "variantStatus",
+            "operator": "like",
+            "value": "child"
+        }
+    ],
+    "start": 0,
+    "limit": 5000
 }
 
 
-## Set filters
+## Get entity data 
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
+
+### Definitions
+
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| **entityId** | integer | Entity identification number |
+| freezeEntityIfPossible | boolean | Options are **true** of **false** |
 
 
+## Request sample
+ 
+    {
+        "entityId": 12,
+        "freezeEntityIfPossible": false
+    }
 
-## Get attributes in an attribute set
+[comment]: <> (Similar to get product? Endpoint /Actindo.Modules.Actindo.PIM.Products.getList)
+
+## List all attributes
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getList
+ 
+### Definitions
+
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| **attributeSetId** | integer | Filter for multi-scope attributes |
+
+## Request sample
 
     {
       "attributeSetId": 752,
       "start": 0,
       "limit": 15
     }
+
+
