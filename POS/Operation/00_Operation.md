@@ -12,9 +12,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 
 - [Edit the bill list](./03_EditBillList.md)
-    - [Add a discount](./03_EditBillList.md#add-a-discount)
-        - [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer)
-        - [Add a discount to the purchase](./03_EditBillList.md#add-a-discount-to-the-purchase)
+    - [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer)
     - [Edit the price of an offer](./03_EditBillList.md#edit-the-price-of-an-offer)
     - [Edit the quantity of an offer](./03_EditBillList.md#edit-the-quantity-of-an-offer)
     - [Delete an offer from the bill list](./03_EditBillList.md#delete-an-offer-from-the-bill-list)
@@ -25,6 +23,10 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 
 - [Complete a purchase](./04_CompletePurchase.md)
+    - [Suggest an offer to the customer](./04_CompletePurchase.md#suggest-an-offer-to-the-customer)
+    - [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase)
+    - [Initiate a down payment](./04_CompletePurchase.md#initiate-a-down-payment)
+    - [Initiate a delivery](./04_CompletePurchase.md#initiate-a-delivery)
     - [Pay cash](./04_CompletePurchase.md#pay-cash)
         - [Manual input of the cash amount](./04_CompletePurchase.md#manual-input-of-the-cash-amount)
         - [Quick select of the cash amount](./04_CompletePurchase.md#quick-select-of-the-cash-amount)

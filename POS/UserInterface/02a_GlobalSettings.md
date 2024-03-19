@@ -349,7 +349,7 @@ By default, offers with an age rating can only be added to the basket if the cas
 
 ![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
 
-By default, sales are not delivered to the customer.
+The deliveries allowed setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
@@ -358,8 +358,8 @@ By default, sales are not delivered to the customer.
     Click this button to save any changes
 
 - *Deliveries allowed*   
-    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the *Pay bill* list. By default, this setting is not activated.   
-    Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case the toggle is enabled.<!---stimmt das?--> 
+    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the payment view. By default, this setting is not activated.   
+    Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
 
 ### Down payments allowed
 <!---Check position in settings, when current sandbox is available-->
@@ -387,11 +387,24 @@ By default, down payments are not allowed.
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
 
+This setting allows the cashiers to suggest additional offers to the customer during the payment process. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
+
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
-    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Remind of offers* feature is not activated.  
 
 - [SAVE]   
-    Click this button to save any changes
+    Click this button to save any changes.
+
+- *SKU*   
+    Enter at least one SKU to activate this feature. The SKU defines the offer(s) that the cashiers should suggest to the customers.
+
+- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
+    Click this button to delete the SKU entry.
+
+- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
+    Click this button to add an SKU. A new line for an SKU is displayed.
+
+
 
 
 ### Customer-specific discount

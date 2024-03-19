@@ -2,24 +2,91 @@
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
 
-<!--Es fehlen noch Erwähnungen von Delivery toggle und Down payment-->
-
 
 # Complete a purchase
 
-To complete a purchase, you need to initiate the payment. At the POS pay desk, you have several options to complete the payment process, for instance by cash payment, by cashless payment, or by voucher. You can also assign a discount to one or more line items on the bill list or park a payment for a later time.
+To complete a purchase, you need to initiate the payment. At the POS pay desk, you have several options to modify the payment process such as suggesting additional offers, adding a discount, initiating a delivery or a down payment, or parking a payment for a later time. In addition, you have several options to finalize the payment process, for instance by cash payment, by cashless payment, or by voucher. 
+
+## Suggest an offer to the customer
+
+If your company wants to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
+This feature is only available if the Remind of offers setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
+
+#### Prerequisites
+
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The *Suggest the following offers to the customer* pop-up window is displayed, where some additional offers are presented.
+
+    ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Suggest offer]")
+
+2. Suggest the offers to the customer.
+
+3. Click an offer, if a customer wants it.  
+    The offer is added to the bill list.<!---Stimmt das? nachprüfen wenn Sandbox da ist-->
+
+4. Click the [PROCEED] button.   
+    The payment view is displayed in the bill list. 
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 
-## Generate down payment
 
-you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be necessary, for example, if the full amount is not due until the offers are delivered or collected.
-If a down payment has been agreed for a purchase, you can reduce the entire total amount of the bill to a specific down payment.
+## Add a discount to the purchase
+
+Additional or alternative to the single discount, you can add a customized discount to the whole purchase in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
+You can also add a discount to a single offer. For detailed information, see [Add a disount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The payment view is displayed in the bill list. 
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the [+ DISCOUNT] button above the total.   
+    The *Discount on bill* view is displayed.
+
+    ![Discount on bill](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
+
+3. Enter a description in the *Description* field to specify the discount, for example, campaign, defect.
+
+4. Enter the percentage in the input field to the right of the *Description* field, or select a percentage by clicking the number buttons in the lower area.   
+    The reduced price of the purchase is displayed below the percentage field.
+
+5. Click the [APPLY DISCOUNT] button in the bottom right corner.   
+    The bill discount view is closed. The payment view is displayed again. The discount is indicated both as a percentage and as a fixed amount above the reduced total.
+
+    ![Pay Discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PayDiscount.png "[Pay Discount]")
+
+    > [Info] To the right of the indicated discount, on the edge of the bill list, the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to delete the discount.
+
+
+
+## Initiate a down payment
+
+If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be necessary, for example, if the full amount is not due until the offers are delivered or collected.   
+This feature is only available, if the *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Prerequisites
 
 At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
-
-#### Procedure
 
 #### Procedure
 
@@ -53,10 +120,33 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 
 
+## Initiate a delivery
+
+If your company also supports the delivery of an offer, you can initiate a delivery.  
+This feature is only available if the *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
+
+#### Prerequisites
+
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+
+#### Procedure
+*POS > Sales > Select store and pay desk*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The payment view is displayed in the bill list.
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the [Toggle](../../Assets/Icons/ToggleOn.png "[Toggle]") *Delivery* toggle in the *Settlement* section.
+
+
+
+
 ## Pay cash
 
 If a customer wants to pay cash, the payment process in the pay desk must be completed as follows.
-
 
 
 ### Manual input of the cash amount
@@ -77,8 +167,6 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
     The payment view is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
-
-2. In the *Select payment* section you can complete the cash payment by two different ways:   
 
 3. Click the [Cash] button.   
     The *Cash payment* view is displayed.
@@ -138,6 +226,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 Generally, you open the cash drawer when you accept a cash payment or when you want to store the receipt in the drawer for a cashless payment.
 In case of cash or cashless payment, the option to open the drawer can be activated or deactivated in the settings.
 If you want to open the drawer independently of a payment process, for instance to change money, you can do so as follows.
+
 
 ### Open the drawer in the cashpoint
 

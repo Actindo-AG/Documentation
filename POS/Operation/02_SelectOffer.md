@@ -120,19 +120,21 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 3. Select the desired offer by clicking the corresponding product in the list.   
     The offer is added to the bill list on the right side.   
-    If the offer is restricted to adults or teenagers, the *Age verification* popup window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
-
+    
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
+
+
 
 ## Verify the age
 
-When selecting an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. This may be necessary for offers such as alcoholic beverages, cigarettes, or energy drinks  
+When you select an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. This may be necessary for offers such as alcoholic beverages, cigarettes, or energy drinks.   
+This feature is only available, if the *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
 
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- Some offers are not suitable for children and young people. This is determined by the *Age verification* field, which can be assigned to the offer-related attribute set and part of the *PIM basic set*. An age restriction is defined there, for example 18 or 16. 
+- Some offers are not suitable for children and young people. This is determined by the *Age verification* attribute, which can be assigned to the offer-related attribute set and part of the *PIM basic set*. An age restriction is defined there, for example 18 or 16. 
 
 #### Procedure
 
