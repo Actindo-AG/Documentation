@@ -34,7 +34,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | createdBy | integer | User ID |
 | modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:mm:ss |
 | modifiedBy |integer| User ID |
-| attributeSet | object | Product attribute set. It contains required field **id**. |
+| attributeSet | object | Product attribute set. It contains the required field **id**. |
 | variantStatus | string | It indicates whether a product is a **master** or a **variant**. |
 | pim_variants | object | It defines the variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
 | pim_art_name | string | Product name |
@@ -51,10 +51,10 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_product_digital | boolean | The product is a digital item. Options are **true** or **false**. |
 | pim_stock_value | number | Stock level in warehouse |
 | pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
-| pim_size_l | object | Product length. It contains required fields **value** and **unitId**. |
-| pim_size_b | object | Product width. It contains required fields **value** and **unitId**. |
-| pim_size_h | object | Product depth. It contains required fields **value** and **unitId**. |
-| pim_weight | object | Product weight. It contains required fields **value** and **unitId**. |
+| pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
+| pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
+| pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
+| pim_weight | object | Product weight. It contains the required fields **value** and **unitId**. |
 | pim_price | string | Product price |
 | pim_baseprice | string | Price per unit |
 | pim_products_url | string | Supplier link |
@@ -72,7 +72,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
 | pim_products_short_description | string | Product short description |
 | pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains required fields **entity** and **quantity**. |
+| pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
 | pim_products_relations | string | Adds related products, e.g. for product recommendation. |
 | pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
 | pim_images | string | It allows to upload images. |
@@ -152,19 +152,24 @@ The following table displays a list of all attributes contained in the *PIM basi
       "product": {
         "sku": "CHILD1",
         "attributeSetId": 612,
-        "variantStatus": "child"
+        "variantStatus": "child",
         "variantSet": [
                   {
                       "id": 2
+                  }
+              ]
     },
+    {
       "product": {
         "sku": "CHILD2",
         "attributeSetId": 612,
-        "variantStatus": "child"
+        "variantStatus": "child",
         "variantSet": [
                   {
                       "id": 2
-      }
+                  }
+            ]
+        }
     }
   
 
