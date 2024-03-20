@@ -9,6 +9,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 - [CASHPOINT](./01a_Cashpoint.md)
     - [Bill list](./01a_Cashpoint.md#bill-list)
     - [Pay bill list](./01a_Cashpoint.md#pay-bill-list)
+    - [Suggest an offer to the customer](./01a_Cashpoint.md#suggest-an-offer-to-the-customer)
     - [Cash payment](./01a_Cashpoint.md#cash-payment)
         - [Payment pending](./01a_Cashpoint.md#payment-pending)   
         - [Payment successful](./01a_Cashpoint.md#payment-successful)

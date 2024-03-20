@@ -16,8 +16,8 @@ In the left part of the page, the selection list *Settings* is displayed. The li
 - [GENERAL](#general)
 - [CURRENCIES](#währungen)
 - [RETURNS](#retouren)
-- [RECSEIPT PRINT](#belegdruck)
-- [DATENÜBERTRAGUNG RETAILSUITE FAKTURA](#datenübertragung-retailsuite-faktura)
+- [RECEIPT PRINT](#belegdruck)
+- [DATA TRANSFER RETAILSUITE ](#datenübertragung-retailsuite-faktura)
 
 In the right part of the page, a view of the selected setting is displayed when clicking on it.
 
@@ -381,7 +381,7 @@ By default, down payments are not allowed.
 
 
 ### Remind of offers
-<!---Check position in settings, when current sandbox is available-->
+<!---Check sequence of settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
 

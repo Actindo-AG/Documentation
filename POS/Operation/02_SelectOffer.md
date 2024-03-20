@@ -22,7 +22,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -53,7 +53,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select the desired category by clicking the corresponding tab below the search bar.  
@@ -74,7 +74,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -105,7 +105,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk* 
+*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -128,7 +128,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 ## Verify the age
 
 When you select an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. This may be necessary for offers such as alcoholic beverages, cigarettes, or energy drinks.   
-This feature is only available, if the *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
+>[Info] Note for administrators: This feature is only available, if the *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
 
 
 #### Prerequisites
@@ -138,7 +138,7 @@ This feature is only available, if the *Display age verification* setting is act
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk* 
+*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 

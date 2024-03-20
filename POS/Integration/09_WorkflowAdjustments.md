@@ -1,21 +1,27 @@
 # Adjust workflows
 
-To make payment data from the POS available to other business processes such as accounting, you need to add cash payment processing to your order workflow. In addition, non sales-related postings such as cash in and cash out are to be processed by the workflow so that these postings can be posted in Accounting.
+To make payment data from the POS available to other modules such as the Accounting or the Order Management module, you need to add cash payment processing to your order workflow. In addition, non sales-related postings, such as cash in and cash out, must be processed by the workflow so that they can be posted in Accounting.
+
+<!---Zu Info: Die Screenshot stammen teilweise aus der Workflow-Doku. Die überarbeiteten/aktualisierten  Screenshots sind dann verfügbar, wenn workflow 2 veröffentlicht ist--->
+
+## Extend order workflow
 
 
-## Enhance order workflow
 
 Im order workflow hinzufügen -> ist Barrechnung? dann eine Entscheidng ja/ nein und eigenen Pfad und Sync Payment hinzufügen
 
 ## Synchronize cash journal
 
-If you have to transfer non sales-related postings such as cash ins and cash outs to Accounting, you must sychronize the cash journal. To do this, you have to create a one-step workflow. For detailed information on workflows, see [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation.
+You need to transfer non sales-related POS postings such as cash ins and cash outs to the *Accounting* module or a third party application. To do this, you must synchronize the cash journal. A one-step workflow is suitable for this. For detailed information on workflows, see [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation.   
+The following procedures describe step-for-step how to create the required workflow.
 
 ### Create synchronize cash journal workflow
 
+Create the workflow needed to post non sales-related POS postings in the *Accounting* module
 
 #### Prerequisites
 
+- You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -27,18 +33,13 @@ If you have to transfer non sales-related postings such as cash ins and cash out
 
 3. Enter a unique key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
-4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type or a keyword you are searching for.
+4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type, or enter a keyword you are searching for. If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!--Muss man dafür Start subprocess core action einfügen?>
 
-    > [Info] The list of places is filtered for your keyword as you type.  
-    If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** end point.
+5. Select the start place in the search result list. 
 
-5. Click the start place you want to add in the list of places. 
+6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem** or a keyword you are searching for. <!-- ist das der richtige End place data type?-->
 
-6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem** or a keyword you are searching for.
-
-    > [Info] The list of places is filtered for your keyword as you type.
-
-7. Click the end place you want to add in the list of places.  
+7. Select the end place in the search result list.  
 
 8. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
@@ -52,9 +53,10 @@ If you have to transfer non sales-related postings such as cash ins and cash out
 
 #### Prerequisites
 
+- The Sync cash journal workflow has been created.
+- You have the required rights to edit a workflow.
 
 #### Procedure
-
 
 *Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
 
@@ -99,8 +101,12 @@ If you have to transfer non sales-related postings such as cash ins and cash out
 
 ### Add the conditions 
 
+Add the conditions that define the triggers that initiate the Sync cash journal workflow.
 
 #### Prerequisites
+
+- The Sync cash journal workflow has been created.
+- You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -134,8 +140,51 @@ If you have to transfer non sales-related postings such as cash ins and cash out
     All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
-### Add transition
+### Add a transition
 
+#### Prerequisites
+
+
+#### Procedure
+
+*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select workflow version*
+
+![Workflow editor](../../Assets/Screenshots/POS/Sales/Workflow/WorkflowEditorNew.png "[Workflow editor]")
+
+1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to the place or click the [NEW ACTION] button on the right hand above the workflow editor.     
+    A window to search for a transition is displayed.
+
+    ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
+
+2. Click the *Search for an action* field and enter the name **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem**.
+
+    ![Sync journal item action](../../Assets/Screenshots/POS/Sales/Workflow/SearchActionJournalItem.png "[Sync journal item action]")
+
+3. Select the entry.
+    The transition is added to the workflow.
+
+    ![Sync journal item action in workflow](../../Assets/Screenshots/POS/Sales/Workflow/JournalItemAdded.png "[Sync journal item action in workflow]")
+
+4. Edit the label in the settings sidebar in the *Label* field, so that the name of the transition is shortened.
+
+    ![Sync journal item ](../../Assets/Screenshots/POS/Sales/Workflow/JournalItemNewName.png "[Sync journal item ]")
+
+5. Connect the transition with the end place. To do this, click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button of the *data* output port.
+    A new place is added.
+
+    ![New place added](../../Assets/Screenshots/POS/Sales/Workflow/AddNewPlace.png) 
+
+6. Select the new place and drag it on the end place.
+
+    ![Workflow finalized](../../Assets/Screenshots/POS/Sales/Workflow/WorkflowFinalized.png "[Workflow finalized]") 
+
+7. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+    The workflow context menu is displayed.
+
+    ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+
+8. Click the *Deploy* menu entry.   
+    A confirmation message is displayed. The workflow is finalized and deployed.
 
 
 

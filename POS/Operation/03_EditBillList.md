@@ -8,9 +8,9 @@ The bill list on the right side of the *Cashpoint* tab displays all offers added
 
 ## Add a discount to a single offer
 
-You can add a customized discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-You can apply an individual discount to each offer in your bill list. The discount is applied to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than 1, the discount will apply to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add the offer as a single entry in the bill list.   
-You can also add a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
+You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
+The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than 1, the discount is applied to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
+You can also apply a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
 
 #### Prerequisites
 
@@ -19,7 +19,7 @@ You can also add a discount to the whole purchase. For detailed information, see
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -53,7 +53,7 @@ If you enter a changed price for an offer, you will not be able to apply an addi
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -85,7 +85,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -115,18 +115,13 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the offer you want to delete from the bill list.   
     The offer entry is deleted from the list.
 
-
-
-If your company uses the *Remind of offer* feature, the *Suggest the following offers to the customer* pop-up window is displayed. Click the [PROCEED] button.
-
-![Offer reminder](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png)
 
 
 ## Add a sale note
@@ -140,7 +135,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -159,8 +154,8 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
 You can either assign the purchase to an [existing customer](#assign-a-purchase-to-a-customer) or [register a new customer](#register-a-customer) if the customer is not yet registered in the system.
 
->[INFO] It is possible to assign a customer-specific discount to a customer. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed and in the payment view.
-For detailed information, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
+>[INFO] It is possible to assign a customer-specific discount to a customer. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list.
+For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
 
 ### Register a customer
@@ -174,7 +169,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -189,7 +184,8 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
     ![Create Customer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddCustomer02.png "[Create Customer]")
 
 3. Enter the customer data in the corresponding fields and click the [ ![Create Customer](../../Assets/Icons/Customer01.png "[Create Customer]") Create Customer] button.   
-    The customer is registered. The data is also available now in the *Order Management* module. <!--- Passiert das automatisch oder muss man da noch was tun?-->The customer data view is closed. The bill list is displayed again. The created customer name and its address is displayed in the upper left corner of the bill list.
+    The customer is registered. The customer data view is closed. The bill list is displayed again.   
+    The customer's name and address is displayed on top of the bill list. The data is also stored in the *Order Management* module. <!--- Passiert das automatisch oder muss man da noch was tun?-->
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper right corner of the bill list.
 
@@ -207,7 +203,7 @@ Assign the current purchase to a registered customer.
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -223,6 +219,6 @@ Assign the current purchase to a registered customer.
     The customers that match the entered name are displayed in a list below the search bar. If no customer with the entered name is displayed, you have to [register the customer](#register-a-customer) first.
 
 3. Click the appropriate customer name in the list.   
-    The search view is closed. The bill list is displayed again. The selected customer name and its address is displayed in the upper left corner of the bill list.
+    The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.

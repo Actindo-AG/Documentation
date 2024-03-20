@@ -10,7 +10,7 @@ To complete a purchase, you need to initiate the payment. At the POS pay desk, y
 ## Suggest an offer to the customer
 
 If your company wants to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
-This feature is only available if the Remind of offers setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
+>[Info] Note for administrators: This feature is only available if the *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Prerequisites
 
@@ -18,14 +18,14 @@ This feature is only available if the Remind of offers setting is activated. For
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
     The *Suggest the following offers to the customer* pop-up window is displayed, where some additional offers are presented.
 
-    ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Suggest offer]")
+    ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
 
 2. Suggest the offers to the customer.
 
@@ -33,7 +33,7 @@ This feature is only available if the Remind of offers setting is activated. For
     The offer is added to the bill list.<!---Stimmt das? nachprüfen wenn Sandbox da ist-->
 
 4. Click the [PROCEED] button.   
-    The payment view is displayed in the bill list. 
+    The pay bill list is displayed. 
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -41,8 +41,8 @@ This feature is only available if the Remind of offers setting is activated. For
 
 ## Add a discount to the purchase
 
-Additional or alternative to the single discount, you can add a customized discount to the whole purchase in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
-You can also add a discount to a single offer. For detailed information, see [Add a disount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).
+You can add a discount to the whole purchase of your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
+You can also add a discount to a single offer of the bill list. For detailed information, see [Add a disount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).
 
 #### Prerequisites
 
@@ -51,12 +51,12 @@ You can also add a discount to a single offer. For detailed information, see [Ad
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list. 
+    The pay bill list is displayed in the bill list. 
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -71,7 +71,7 @@ You can also add a discount to a single offer. For detailed information, see [Ad
     The reduced price of the purchase is displayed below the percentage field.
 
 5. Click the [APPLY DISCOUNT] button in the bottom right corner.   
-    The bill discount view is closed. The payment view is displayed again. The discount is indicated both as a percentage and as a fixed amount above the reduced total.
+    The bill discount view is closed. The pay bill list is displayed again. The discount is indicated both as a percentage and as a fixed amount above the reduced total.
 
     ![Pay Discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PayDiscount.png "[Pay Discount]")
 
@@ -81,8 +81,8 @@ You can also add a discount to a single offer. For detailed information, see [Ad
 
 ## Initiate a down payment
 
-If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be necessary, for example, if the full amount is not due until the offers are delivered or collected.   
-This feature is only available, if the *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
+If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. For example, this may be necessary if the full amount is not due until the offers are delivered or collected.   
+>[Info] Note for administrators: This feature is only available, if the *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Prerequisites
 
@@ -90,12 +90,12 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -116,31 +116,34 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
     - Enter the fixed value the line below. You can use the ![Plus minus](../../Assets/Icons/PlusMinus.png "[Plus minus]") (Plus minus) button as input help.
 
 4. Click the [SAVE] button.
-    The *Down payment of "value [value]"* is noted. The total of the bill is still the same. When you now initiate the payment process, only the down payment amount is due.
+    The *Down payment of "value [value]"* is noted in the pay bill list.   
+    The total amount of the pay bill list remains at the original price. When you now initiate the payment, only the down payment amount is due.
+
+    ![Down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DownPaymentInList.png)
 
 
 
 ## Initiate a delivery
 
-If your company also supports the delivery of an offer, you can initiate a delivery.  
-This feature is only available if the *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
+If your company supports the delivery of an offer, you can initiate a delivery.  
+>[Info] Note for administrators: This feature is only available if the *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
 
 #### Prerequisites
 
 At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 
 #### Procedure
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
-2. Click the [Toggle](../../Assets/Icons/ToggleOn.png "[Toggle]") *Delivery* toggle in the *Settlement* section.
-
+2. Click the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle in the *Settlement* section.  
+    The delivery is initiated.
 
 
 
@@ -159,12 +162,12 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -198,20 +201,17 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 2. Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.  
-   The *Payment pending* view is displayed while the payment is being processed. The total of the bill, the given amount, and the change amount is listed.  
-
-    ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
-
+    The *Payment pending* view is displayed while the payment is being processed. The total of the bill, the given amount, and the change amount is listed.  
     The *Payment successful* view is displayed when the payment is completed.   
 
     ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
@@ -238,7 +238,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -277,12 +277,12 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -295,9 +295,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
     The selected card type is displayed in the drop-down list.
 
 4. Click the [Finalize payment process] button.   
-    The *Payment at terminal* view is displayed when the payment is completed.
-
-    ![Payment at terminal](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
+    A confirmation window is displayed.
 
 5. Click the [Done] button.   
     The purchase is completed. The bill list is displayed again.
@@ -314,12 +312,12 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed in the bill list.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -356,7 +354,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -387,7 +385,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/ParkedBill.png "[Cashpoint]")
 
@@ -424,7 +422,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

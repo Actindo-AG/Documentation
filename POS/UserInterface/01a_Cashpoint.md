@@ -27,14 +27,13 @@
 ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
     <!---Screenshot neu machen-->
 
-The *Age verification* pop-up window is displayed if a selected offer is not suitable for children and young people.
+The *Age verification* pop-up window is displayed if a selected offer is not suitable for children and young people. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
 
 - [AGE OF BUYER CONFIRMED]   
    Click this button if f the customer is allowed to buy this offer.        
 
 - [CANCEL]   
    Click this button if the customer is too young to buy this offer.
-
 
 
 
@@ -95,6 +94,16 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
 
 - [PAY]   
     Click this button to start the payment process. The payment view is displayed in the bill list. The total gross amount of the purchase is displayed at the right of the [PAY] button.
+
+## Suggest an offer to the customer
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer > Click [PAY]*
+
+ ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
+
+ - [PROCEED]  
+   Click this button after you have suggested the offer to the customer. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
+
 
 
 ## Pay bill list
