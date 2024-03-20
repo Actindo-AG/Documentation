@@ -55,6 +55,8 @@ The *POST* method is always used for all Actindo API endpoints. All other method
 The response codes correspond the standard HTTP status codes. For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
 
 
+Endpoint -> It varies depending on version!
+
 
 ## Required attributes  
 
@@ -72,26 +74,3 @@ The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format.
 
 
 
-## Get attributes in an attribute set
-
-    {
-      "attributeSetId": 752,
-      "start": 0,
-      "limit": 15
-    }
-
-
-
-
-## Get product details
-
-Get all details stored in the database for a specific product. You can set one or more filters.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
-
-
-### Request sample  
-
-{
-    "entityId": 12,
-    "freezeEntityIfPossible": false

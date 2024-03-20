@@ -2,19 +2,18 @@
 
 You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products via API. 
 
-The keys are customer-defined in *DataHub*. Therefore, the fields displayed in the request samples should just serve as an example. If necessary, you can obtain a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes](#to-be-determined).
+The keys are customer-defined. Therefore, the fields displayed in the request samples should just serve as an example. You have to include all required fields in the JSON file and provide them with a value. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module.  
 
-> [Caution] In the latest version of the *DataHub* module, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
-
-You have to include all required fields in the JSON file and provide them with a value. The **attributeSetId** value must be an existing value in *DataHub*. You can find out an entity ID via user interface or via API, see [Entity ID](./02_Basics.md#entity-id).
+You can find out an entity ID via user interface or via API, see [Entities](./02_Basics.md#entities).
 
 Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
 
+If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./06_EntityDataAPI.md#get-a-list-of-attributes-in-an-attribute-set).
+
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
-Responses: You can get all needed ID from the request response.
+> [Caution] In the latest version of the *DataHub* module, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
 
-[comment]: <> (Stimmt das so? Zu bearbeiten!!)
 
 ## Create a product
 
@@ -26,16 +25,16 @@ Create a product in the *PIM* module.
 
 The following table displays a list of all attributes contained in the *PIM basic set* (pim_attribute_name) with their default data types and configuration. Additional attributes, such as created and modified, are available in all entities and can be used to set filters. The required fields are marked in bold. 
 
-| Attribute       | Data type   | Description |  
+| Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
-| **sku**      | string   |  Product SKU |
+| **sku**      | string   |  Product SKU | 
 | **attributeSetId**   | integer  | Attribute set identification number |
-| created	 | string | Date and time of creation <br> Format: YYYY-MM-DD HH:mm:ss |
-| createdBy | integer | User ID |
-| modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:mm:ss |
+| created	 | string | Date and time of creation <br> Format: YYYY-MM-DD HH:MM:SS |
+| createdBy | integer | User ID | 
+| modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains the required field **id**. |
-| variantStatus | string | It indicates whether a product is a **master** or a **variant**. |
+| variantStatus | string | It indicates whether a product is a *master* or a *variant*. |
 | pim_variants | object | It defines the variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
 | pim_art_name | string | Product name |
 | pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
@@ -45,10 +44,10 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_ean | string | EAN code |
 | pim_customs_number | string | Customs tariff number |
 | pim_origin | object | Country of origin. It contains the required field **code3digit**. Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
-| pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:mm:ss |
-| pim_is_sale | boolean | The product is a sale item. Options are **true** or **false**. |
-| pim_fsk18 | boolean | Suitable for persons above 18. Options are **true** or **false**. |
-| pim_product_digital | boolean | The product is a digital item. Options are **true** or **false**. |
+| pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
+| pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
+| pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
+| pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
 | pim_stock_value | number | Stock level in warehouse |
 | pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
 | pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
@@ -132,47 +131,44 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 #### Create a variant product
 
-      {
-          "product": {
-              "sku": "CHILD1",
-              "attributeSetId": 752,
-              "variantStatus": "child",
-              "variantSet": [
-                  {
-                      "id": 2
-                  }
-              ]
+     {
+      "product": 
+        {
+          "sku": "CHILD4",
+          "attributeSetId": 592,
+          "variantStatus": "child",
+          "variantSet": {
+            "id": 2
           }
-      }
+        }
+    }
 
 
 #### Create multiple variant products
 
+
     {
-      "product": {
-        "sku": "CHILD1",
-        "attributeSetId": 612,
-        "variantStatus": "child",
-        "variantSet": [
-                  {
-                      "id": 2
-                  }
-              ]
-    },
-    {
-      "product": {
-        "sku": "CHILD2",
-        "attributeSetId": 612,
-        "variantStatus": "child",
-        "variantSet": [
-                  {
-                      "id": 2
-                  }
-            ]
+      "product": [
+        {
+          "sku": "CHILD3",
+          "attributeSetId": 592,
+          "variantStatus": "child",
+          "variantSet": {
+            "id": 2
+          }
+        },
+        {
+          "sku": "CHILD4",
+          "attributeSetId": 592,
+          "variantStatus": "child",
+          "variantSet": {
+            "id": 2
+          }
         }
+      ]
     }
   
-
+[comment]: <> (Nicht möglich! Wieso?! Ein Call - ein Produkt! Versuchen mit Endpunkt Variants.create)
 
 ## Edit a product
 
@@ -202,7 +198,6 @@ To get a list of all your attributes, see [List of all attributes](#list-all-att
             "price": "65.00",
             "pim_images": "string",
             }
-        }
     }
 
 
@@ -214,9 +209,22 @@ To get a list of all your attributes, see [List of all attributes](#list-all-att
             "_pim_art_name__actindo_basic__en_US": "Product name",
             "_pim_art_name__actindo_basic__de_DE": "Produktname"
             }
+    }
+
+#### Add variant defining attributes
+
+    {
+        "product": {
+            "id": 782,
+            "pim_variants": {
+                "3,892": "Pink",
+                "3,902": "256",
+                "149": "1,989"
+            }
         }
     }
 
+  [comment]: <> (Response: success, aber keine Änderung in CHILD1. Warum?)
 
 ## Add variants to master product
 
@@ -389,7 +397,7 @@ The required fields are marked in bold.
       "filter": [
         {
           "property": "created",
-          "operator": "<=",
+          "operator": "<",
           "value": "2024-03-01 00:00:00"
         }
       ],
@@ -411,44 +419,5 @@ The required fields are marked in bold.
     "limit": 5000
 }
 
-
-## Get entity data 
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
-
-### Definitions
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| **entityId** | integer | Entity identification number |
-| freezeEntityIfPossible | boolean | Options are **true** of **false** |
-
-
-## Request sample
- 
-    {
-        "entityId": 12,
-        "freezeEntityIfPossible": false
-    }
-
-[comment]: <> (Similar to get product? Endpoint /Actindo.Modules.Actindo.PIM.Products.getList)
-
-## List all attributes
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getList
- 
-### Definitions
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| **attributeSetId** | integer | Filter for multi-scope attributes |
-
-## Request sample
-
-    {
-      "attributeSetId": 752,
-      "start": 0,
-      "limit": 15
-    }
 
 
