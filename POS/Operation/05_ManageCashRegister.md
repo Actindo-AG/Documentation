@@ -4,7 +4,7 @@
 
 # Manage the cash register
 
-In the cash register, you can post sales independent cash in and cash out, you can close the pay desk, for instance after a shift, count the current cash balance and define or edit a skimming amount. In addition, you can open the cash drawer and print a shift summary.
+In the cash register, you can post sales independent cash ins and cash outs, you can close the pay desk, for instance after a shift, count the current cash balance and define or edit a skimming amount. In addition, you can open the cash drawer and print a shift summary.
 
 
 ## Cash in the register

@@ -8,7 +8,7 @@
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-The *Cash Register* tab is divided into two parts:
+The *Cash Register* tab is divided into two boxes:
 - [Payment Tally](#payment-tally)
 - [Cash In/Out](#cash-in-out)
 
@@ -19,13 +19,13 @@ The *Cash Register* tab is divided into two parts:
 
 ![Payment tally](../../Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment tally]")
 
-The *Payment tally* box is used to close the pay desk. To close a pay desk, the current cash amount in the pay desk is to be counted. 
+The *Payment tally* box is used to close the pay desk. To close a pay desk, you must count the current cash amount in the pay desk. 
 
 - ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") (Open Drawer)  
     Click this button to open the cash drawer.
 
 - [CLOSE REGISTER]   
-    Click this button to close the pay desk. The pay desk can be closed only if an amount is entered *Counted* column field.
+    Click this button to close the pay desk. You can close the pay desk only if an amount is entered *Counted* column field.
 
 - *Payment Type*   
     Type of the cash amount in the pay desk. By default, the type is **Cash**. This field is read-only.
@@ -43,7 +43,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, the 
     Difference amount between the expected and the counted cash amount in the pay desk. If no expected amount is displayed, no difference amount is displayed, but a dash **-**.
 
 - *Skim to*   
-    Enter a cash amount up to which the pay desk is skimmed after closing. If you have predefined a skimming amount in the global settings, the field is preset with this amount. For detailed information, see [Skimming amount](./02a_GlobalSettings.md#abschöpfen-bis-betrag).
+    Enter a cash amount up to which the pay desk is skimmed after closing. If a skimming amount is predefined in the global settings, the field is preset with this amount. For detailed information, see [Skim to amount](./02a_GlobalSettings.md#abschöpfen-bis-betrag).
 
 
 ### Count cash
@@ -52,8 +52,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, the 
 
 ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to cancel the cash counting and close the *Count cash* view.
+The *Count cash* pop-up window is used to faciliate the calculation of the cash count.
 
 - *Type*   
     Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the currencies in the global settings. For detailed information, see [Currencies](./02a_GlobalSettings.md#währungen).
@@ -87,7 +86,8 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, the 
 
 ![Cash in/out](../../Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
 
-The *Cash in/out* box is used, if you deposit or withdraw cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register.
+The *Cash in/out* box is used to post sales independent cash ins and cash outs. In this case, you have to log that in the cash register.
+
 
 - [ ![Drawer](../../Assets/Icons/Drawer.png "[Drawer]") Open Drawer]  
     Click this button to open the cash drawer.
@@ -99,7 +99,7 @@ The *Cash in/out* box is used, if you deposit or withdraw cash in the pay desk w
     Click this button to post a cash out. The *Cash out* view is displayed.
 
 - *Description*   
-    Short description of the cash in or cash out process. The first row always lists the opening float of the pay desk.
+    Short description of the cash in or cash out reason. The first row always lists the opening float of the pay desk.
 
 - *Currency*   
     Currency of the cash in or cash out process. This field is read-only.
@@ -117,7 +117,7 @@ The *Cash in/out* box is used, if you deposit or withdraw cash in the pay desk w
 
 ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
-The *Cash in* box is used, if you deposit cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register. Note that this box is green to avoid confusion with the *Cash out* box.
+The *Cash in* box is used to deposit sales-independent cash at the pay desk. In this case, you have to log that in the cash register. Note that this box is green to avoid confusion with the *Cash out* box.
 
 - *Description*   
     Enter a short description of the cash in.
@@ -132,7 +132,8 @@ The *Cash in* box is used, if you deposit cash in the pay desk without a purchas
     Click this button to delete the entered cash in or cancel the cash in process and close the *Cash in* view.
 
 - [Cash in]   
-    Click this button to save the cash in and close the *Cash in* view.
+    Click this button to save the cash in and close the *Cash in* view.    
+    The cash in is posted with a positive amount, for example, 50 (EUR).
 
 
 ### Cash out
@@ -141,10 +142,10 @@ The *Cash in* box is used, if you deposit cash in the pay desk without a purchas
 
 ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 
-The *Cash out* box is used, if you withdraw cash in the pay desk without a purchase being made. In this case, you have to log that in the cash register. Note that this box is red to avoid confusion with the *Cash in* box.
+The *Cash out* box is used to withdraw sales-independent cash at the pay desk. In this case, you have to log that in the cash register. Note that this box is red to avoid confusion with the *Cash in* box.
 
 - *Description*   
-    Enter a short description for the cash out.
+    Enter a short description for the cash out reason.
 
 - *Amount*   
     Enter the cash amount of the cash out.
@@ -156,4 +157,5 @@ The *Cash out* box is used, if you withdraw cash in the pay desk without a purch
     Click this button to delete the entered cash out or cancel the cash in process and close the *Cash out* view.
 
 - [Cash in]   
-    Click this button to save the cash out and close the *Cash out* view.
+    Click this button to save the cash out and close the *Cash out* view.     
+    The cash out is posted with a negative amount, for example, -50 (EUR).

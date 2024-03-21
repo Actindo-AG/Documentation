@@ -17,13 +17,11 @@ In the left part of the page, the selection list *Settings* is displayed. The li
 - [CURRENCIES](#währungen)
 - [RETURNS](#retouren)
 - [RECEIPT PRINT](#belegdruck)
-- [DATA TRANSFER RETAILSUITE ](#datenübertragung-retailsuite-faktura)
+- [DATA TRANSFER ORDER MANAGEMENT ](#datenübertragung-retailsuite-faktura)
 
 In the right part of the page, a view of the selected setting is displayed when clicking on it.
 
 In the following, each setting and its view is explained.
-
-[comment]: <> (no section name for the first section -> Pay Desk and Payments?)
 
 
 
@@ -31,27 +29,27 @@ In the following, each setting and its view is explained.
 
 In this section, you define all pay desk and payment settings.
 
-### Format laufende Nummer
+### Format of sequence number 
 
-*POSgement > Tab GLOBAL SETTINGS > Entry Format laufende Nummer*
+*POSgement > Tab GLOBAL SETTINGS > Entry Format of sequential number*
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order management* module and is therefore selected from a different number range to be defined here.
 
-![Format laufende Nummer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format laufende Nummer]")
+![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 - *Format*   
     Define the format of the sequential number. It is mandatory to include the store identifier (S) and the sequential number (L). The place holders are indicated on the right side.
 
 - *Length of the sequential number*   
-    Define the length of the sequential number.
-    
-  [comment]: <> (Is it the maximum length of the number or the exact length?)
+    Define the number of digits of the sequential number.
+    <!--- Stimmt das so? Digits oder characters?--->    
+
 
 - [x] *Reset after time interval*   
     Choose whether or not to reset the sequential number after the time interval.
@@ -60,9 +58,9 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 
 
-### Bon immer ausdrucken
+### Always print the receipt
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Bon immer ausdrucken*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Always print the receipt*
 
 Activate or disable the option to print the cash receipt.
 
@@ -71,44 +69,44 @@ Activate or disable the option to print the cash receipt.
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] *Bon immer ausdrucken*   
+- [x] *Always print the receipt*   
     Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
 
     > [Info] Remember that receipt printing is mandatory in several countries. Please inform yourself about the country-specific regulations before you disable this option.
 
 
 
-### Anzahl Gutscheine pro Bestellung
+### Number of vouchers per order
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Anzahl Gutscheine pro Bestellung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Number of vouchers per order*
 
 Define how many vouchers may be redeemed per order.
 
-![Anzahl Gutscheine pro Bestellung](../../Assets/Screenshots/POS/Management/GlobalSettings/GS03.png "[Anzahl Gutscheine pro Bestellung]")
+![Number of vouchers per order](../../Assets/Screenshots/POS/Management/GlobalSettings/GS03.png "[Number of vouchers per order]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- *Anzahl Gutscheine pro Bestellung*   
+- *Number of vouchers per order*   
     Enter the number of vouchers that can be redeemed per order. By default, one voucher per order is set.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
 
-### Zahlungsweisen (manuelle Zahlung Terminal)
+### Payment methods (manual payment terminal)
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Zahlungsweisen (manuelle Zahlung Terminal)*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Payment methods (manual payment terminal)*
 
 If you use an external terminal that is not connected to POS, cashless payment is completed manually through that terminal.
 In POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
@@ -117,13 +115,13 @@ In POS, you can specify for statistical purposes which payment method was used f
 
 > [Info] By default, the payments methods *debit card*, *credit card* and *PayPal* are preset.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 - *Key*   
     Enter the key of the payment method. The following keys are available:
 
-[comment]: <> (list of keys is needed)
+[comment]: <> (list of keys is needed) <!--Gibt es eine liste der Keys oder werden die individuell angelegt?-->
 
 - *Name*   
     Enter the name of the payment method.
@@ -136,24 +134,23 @@ In POS, you can specify for statistical purposes which payment method was used f
 
 
 
+### Automatic discount
 
-### Automatischer Discount
-
-*POS > Management > Tab GLOBAL SETTINGS > Entry Automatischer Discount*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
 
 Define a discount that is automatically applied above a certain amount.
 
 
-![automatischer Discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[automatischer Discount]")
+![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
-- *ab Betrag*   
+- *As of amount*   
     Enter the amount from which the discount is granted.
 
 - *Discount in %*   
@@ -169,116 +166,109 @@ Define a discount that is automatically applied above a certain amount.
 
 
 
-### Kasse öffnen bei Barzahlung
+### Open drawer at cash payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen bei Barzahlung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
 
 
-![Kasse öffnen bei Barzahlung](../../Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Kasse öffnen bei Barzahlung]")
+![Open drawer at cash payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Open drawer at cash payment]")
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] *Kassenschublade öffnen bei Barzahlung*   
+- [x] *Open drawer at cash payment*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
 
 
 
-### Kasse öffnen nach bargeldlosem Zahlen
+### Open drawer at cashless payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Kasse öffnen nach bargeldlosem Zahlen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cashless payment*
 
 
-![Kasse öffnen nach bargeldlosem Zahlen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Kasse öffnen nach bargeldlosem Zahlen]")
+![Open drawer at cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Open drawer at cashless payment]")
 
 Enable or disable the option to open the cash drawer for cashless payment.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] *Kasse öffnen*    
+- [x] *Open drawer*    
     Choose whether or not to open the cash drawer for cashless payment. By default, this option is enabled.
 
 
 
-## USt-ID
+## VAT ID
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry USt-ID*
 
 
 ![USt-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[USt-ID]")
 
-Define the VAT ID, which is mandatory to be indicated on receipts in some countries.
+Enter the VAT ID of your company, which is mandatory to be indicated on receipts in some countries.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- *USt-ID*   
+- *VAT ID*   
     Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
 
 
 
-### Bargeldloses Zahlen
+### Cashless payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Bargeldloses Zahlen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Cashless payment*
 
-
-
-![Bargeldloses Zahlen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS09.png "[Bargeldloses Zahlen]")  
+![Cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS09.png "[Cashless payment]")  
 
 Activate or deactivate the options for cashless payment.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] ![Voucher](../../Assets/Icons/Voucher.png "Voucher") *Refund auf Gutschein (refund only)*   
+- [x] ![Voucher](../../Assets/Icons/Voucher.png "Voucher") *Refund on voucher (refund only)*   
     Choose whether or not to refund cashless payments only on vouchers. By default, this option is inactive.
 
-- [x] ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manuelles Zahlen am Terminal*   
+- [x] ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manual payment at terminal*   
     Choose whether or not to allow cashless payments via manual payment at the terminal. If you use an external terminal that is not connected to POS, you need to enable that option. By default, this option is inactive.
 
 
 
-### Kassenjournal auf User binden
+### Bind cash journal to user
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Kassenjournal auf User binden*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Bind cash journal to user*
 
-
-
-![Kassenjournal auf User binden](../../Assets/Screenshots/POS/Management/GlobalSettings/GS10.png "[Kassenjournal auf User binden]")
+![Bind cash journal to user](../../Assets/Screenshots/POS/Management/GlobalSettings/GS10.png "[Bind cash journal to user]")
 
 When a pay desk is opened, it is linked to a specific user. This user is the only one who can use the pay desk until he closes it again. To allow that several users can access the same pay desk without closing it, you can deactivate the option to link the cash register to a specific user.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- [x] *Kassenbuch auf User gebunden*   
+- [x] *Bind cash journal to user*   
     Choose whether or not to link the cash register to a special user. By default, this option is active.
 
     > [Info] Remember that even if you deactivate this option, a user must log out to allow another user to access the pay desk.
 
 
 
-
 ### Skim to amount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
-
-
 
 ![Skim to amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Skim to amount]")
 
@@ -292,28 +282,28 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 
 
-### Erwarteten Betrag verbergen
+### Hide expected amount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Erwarteten Betrag verbergen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Hide expected amount*
 
-![Erwarteten Betrag verbergen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS12.png "[Erwarteten Betrag verbergen]")
+![Hide expected amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS12.png "[Hide expected amount]")
 
 By default, the expected amount in the pay desk is indicated. Deactivate this option to hide the expected amount from the cashier in order to prevent the concealment of shortfalls.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- [x] *Erwarteten Betrag verbergen*   
+- [x] *Hide expected amount*   
     Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
 
 
 
 ### Display age verification
 
-<!---Check position in settings, when current sandbox is available-->
+<!---To be enhanced: Check position in settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Display age verification*
 
@@ -324,7 +314,7 @@ By default, offers with an age rating can only be added to the basket if the cas
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
 
-- [SAVE]   
+- [Save]   
     Click this button to save any changes
 
 - *Mode*   
@@ -354,12 +344,14 @@ The deliveries allowed setting enables the cashiers to initiate a delivery durin
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
 
-- [SAVE]   
+- [Save]   
     Click this button to save any changes
 
 - *Deliveries allowed*   
     Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the payment view. By default, this setting is not activated.   
     Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
+
+
 
 ### Down payments allowed
 <!---Check position in settings, when current sandbox is available-->
@@ -372,7 +364,7 @@ By default, down payments are not allowed.
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. 
 
-- [SAVE]   
+- [Save]   
     Click this button to save any changes
 
 - *Down payments allowed*
@@ -380,9 +372,9 @@ By default, down payments are not allowed.
     <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
 
 
+
 ### Remind of offers
 <!---Check sequence of settings, when current sandbox is available-->
-
 *POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
@@ -392,7 +384,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Remind of offers* feature is not activated.  
 
-- [SAVE]   
+- [Save]   
     Click this button to save any changes.
 
 - *SKU*   
@@ -410,7 +402,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
 ### Customer-specific discount
 <!---Check position in settings, when current sandbox is available-->
 
-<!---Screenshot missing-->
+<!--- To be enhanced Screenshot missing-->
 
 
 
@@ -422,22 +414,21 @@ In this section, you define all settings concerning the currencies in your POS s
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
-Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar and British Pound are predefined.
+Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar, and British Pound are predefined.
 
-[comment]: <> (is that right?)
-
-![Verfügbare Währungen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13.png "[Verfügbare Währungen]")
+![Available currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13.png "[Available currencies]")
 
 **Available Currencies**
 
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the column editing bar and customize the displayed columns and the order of columns in the table. The *x* indicates the number of columns that are currently displayed in the table.
+The table displays all available currencies. All fields are read-only. Depending on the settings, the displayed columns may vary.
+
+TThe following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar and to edit or delete the selected currency.
 
 - [EDIT]   
-    Click this button to edit the selected currency. The [*Edit currency*](#edit-currency) view is displayed. This button is displayed only if a currency checkbox is selected.
+    Click this button to edit the selected currency. The [*Edit currency*](#edit-currency) view is displayed. This button is displayed only if a *Currency* checkbox is selected.
 
 - [DELETE]   
     Click this button to delete the selected currency. This button is displayed only if a currency checkbox is selected.
@@ -447,19 +438,19 @@ The table displays all available currencies. All fields are read-only. Depending
 - *Name*  
     Name or abbreviation of the currency.
 
-- *Abkürzung*    
+- *Abbreviation*    
     Symbol of the currency.
 
-- *Münzen*   
+- *Coins*   
     Available coins (values) of the currency.
 
-- *Scheine*   
-    Available bills (values) of the currency.
+- *Banknotes*   
+    Available banknotes (values) of the currency.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to add a new currency to the list of currencies. The [*Create currency*](#create-currency) view is displayed where you have to define the currency settings.
+    Click this button to add a new currency to the list of currencies. The [*Create currency*](#create-currency) view is displayed where you must define the currency settings.
 
-- [SAVE]  
+- [Save]  
     Click this button to save any changes.
 
 
@@ -467,9 +458,9 @@ The table displays all available currencies. All fields are read-only. Depending
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
 
-Add a new currency to the list of available currencies and define the coins and notes of the new currency.
+Add a new currency to the list of available currencies and define the coins and banknotes of the new currency.
 
-![Währung anlegen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Währung anlegen]")
+![Create currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Create currency]")
 
 **DESCRIPTION**
 - *Name*   
@@ -481,28 +472,28 @@ Add a new currency to the list of available currencies and define the coins and 
 **COINS AND NOTES**
 
 - ![Banknote](../../Assets/Icons/Banknote01.png "[Banknote]") (Banknote)   
-    The banknote icon indicates which banknotes are defined for the respective currency. The number in the middle indicates the amount of the banknote.  
+    The banknote icons indicate the banknote values that are defined for a currency. The number in the icon indicates the amount of the banknote. The icon is displayed after you have created an entry.  
     When you hover over a banknote icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the banknote. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the banknote.
-    The banknote icon is displayed only if a banknote is defined for the currency.
+    
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
-    The coin icon indicates which coins are defined for the respective currency. The number in the middle indicates the amount of the coin.   
+    The coin icons indicate the coin values that are defined for the currency. The number in the middle indicates the amount of the coin. The icon is displayed after you have created an entry.   
     When you hover over a coin icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the coin. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the coin.
-    The coin icon is displayed only if a coin is defined for the currency.
+    
 
-- *Betrag*   
+- *Amount*   
     Enter the amount of the banknote or the coin.
 
 - *Note*   
     Click the drop-down list to select if the entered amount refers to a banknote or a coin.
 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)    
-    Click this button to add the specified banknote or coin to the currency.
+    Click this button to add a banknote or coin to the currency.
 
 - [CANCEL]   
     Click this button to cancel the creation of a new currency. The view *Available Currencies* is displayed again.
 
-- [SAVE]   
+- [Save]   
     Click this button to save the new currency and add it to the list of currencies. The view *Available Currencies* is displayed again.
 
 
@@ -512,7 +503,7 @@ Add a new currency to the list of available currencies and define the coins and 
 
 Edit the settings of an existing currency.
 
-![Währung bearbeiten](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Währung bearbeiten]")
+![Edit currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Edit currency]")
 
 **DESCRIPTION**
 - *Name*   
@@ -533,7 +524,7 @@ Edit the settings of an existing currency.
     When you hover over a coin icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the coin. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the coin.
     The coin icon is displayed only if a coin is defined for the currency.
 
-- *Betrag*   
+- *Amount*   
     Enter the amount of the banknote or the coin.
 
 - *Note*   
@@ -550,47 +541,47 @@ Edit the settings of an existing currency.
 
 
 
-### Verwendete Währungen
+### Used currencies
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Verwendete Währungen*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Used currencies*
 
-![Verwendete Währungen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS14.png "[Verwendete Währungen]")
+![Used currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/GS14.png "[Used currencies]")
 
 Select all currencies that are used in your POS system and define a default currency.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 - [x] *Currency Name*   
     Choose whether or not to use this currency in your POS system.
 
-- *Standard*   
+- *Default*   
     Click the drop-down list to select the currency that is used as default currency. All available currencies are displayed in the drop-down list. When you select a default currency that is not yet selected as used currency, that currency is automatically selected as used currency.
 
 
 
-## RETOUREN
+## RETURNS
 
 In this section, you define all settings concerning returns.
 
-### Retouren-Gründe
+### Return reasons
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Retouren-Gründe*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Return reasons*
 
 Define the return reasons that are available in the POS system.
 
-![Retouren-Gründe](../../Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Retouren-Gründe]")
+![Return reasons](../../Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Return reasons]")
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- *Schlüssel*   
+- *Key*   
     Enter the return reason key. The following keys are available:
 
-- *Wert*   
+- *Value*   
     Enter a value for the return reason. The value is displayed when returning an order.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
@@ -601,123 +592,122 @@ Define the return reasons that are available in the POS system.
 
 
 
-### Refund nur auf gleiches Zahlungsmittel
+### Refund only on the same payment method
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Refund nur auf gleiches Zahlungsmittel*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Refund only on the same payment method*
 
-
-![Refund Zahlungsmittel](../../Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund Zahlungsmittel]")
+![Refund payment method](../../Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund payment method]")
 
 Activate or deavate the refund to the same payment method for returns.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- [x] *nur auf gleiches Zahlungsmittel*   
+- [x] *Only on the same payment method*   
     Choose whether or not a refund for a return can only be made to the same payment method. By default, this option is enabled.
 
 
 
-### Retoure nur in gleichem Store
+### Return only in the same store
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Retoure nur in gleichem Store*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Return only in the same store*
 
 
-![Retoure Store](../../Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Retoure Store]")
+![Return store](../../Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Return store]")
 
 Activate or deactivate the return to the same store.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- [x] *Retoure nur in gleichem Store*   
+- [x] *Return only in the same store*   
     Choose whether or not a return can only be made in the same store. By default, this option is inactive.
 
 
 
-## BELEGDRUCK
+## Receipt printing
 
 In this section, you define all settings concerning the receipt printing.
 
-###Händler-Beleg drucken
+### Print merchant receipt
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
 
-![Händler-Beleg drucken](../../Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Händler-Beleg drucken]")
+![Print merchant receipt](../../Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Print merchant receipt]")
+
+Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")      
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-Activate or deactivate the printing of a merchant receipt for cashless payment.
-
-- [x] *Händler-Beleg drucken*   
+- [x] *Print merchant receipt*   
     Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is enabled.
 
 
 
-### Logo-Druck Kompatibilitätsmodus
+### Logo print compatibility mode
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Logo-Druck Kompatibilitätsmodus*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Logo print compatibility mode*
 
-![Logo-Druck](../../Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo-Druck]")
+![Logo print](../../Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo print]")
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] *Logo-Druck Kompatibilitätsmodus*   
+- [x] *Logo print compatibility mode*   
     Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
 
 
 
-### Bon-Format
-*POS > Management > Tab GLOBAL SETTINGS > Entry Bon-Format*
+### Receipt format
+*POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
 
 Define the width of the receipt, as it may vary depending on the printer.
 
-![Logo-Druck](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Logo-Druck]")
+![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Receipt format]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- *Breite in Zeichen*   
+- *Width in characters*   
     Define the width of the receipt in characters. This size is needed to calculate the width for the text.
 
     > [Info] Monospaced fonts are used for receipt printing. This means that each character has the same width.
 
-- *Breite in Pixel*   
+- *Width in pixel*   
     Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
 
 
 
-### Zahlenformat
+### Number format
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Zahlenformat*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Number format*
 
-![Zahlenformat](../../Assets/Screenshots/POS/Management/GlobalSettings/GS22.png "[Zahlenformat]")
+![Number format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS22.png "[Number format]")
 
 Define the number format on the receipt.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 - *Decimal separator*   
@@ -743,7 +733,7 @@ Upload a logo for your receipts.
 
 > [Info] The PNG format is the only image format supported for logo images. So make sure that your image logo is also saved in the PNG format before uploading it.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 - [SELECT FILE]   
@@ -758,28 +748,28 @@ Upload a logo for your receipts.
 
 
 
-## DATENÜBERTRAGUNG RETAILSUITE FAKTURA
+## DATA TRANSFER ORDER MANAGEMENT
 
 In this section, you define all settings concerning the connection to the *Order management* module. The settings are only displayed if the accounting is correctly configured.
 
-### Kontenzuteilung Buchhaltung
+### Account allocation accounting
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Kontenzuteilung Buchhaltung*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation accounting*
 
-![Zahlenformat](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Zahlenformat]")
+![Account allocation accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Account allocation accounting]")
 
 Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For more information, see [Admin Settings - Store](./02b_Stores.md#adminsettings-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settingspay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 - *Type*   
     In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
 
-    - *Bar*   
+    - *Cash*   
         This type of account serves as a cash account for cash payments.
 
     - *Redeem Voucher*    
@@ -791,122 +781,123 @@ The number of accounts to be assigned depends on the number of available currenc
     - *Gegenkonto Cash-Out*   
         This type of account serves as a clearing account against which cash withdrawals without customers are posted.
 
-    - *Refund auf Gutschein (refund only)*   
+    - *Refund on voucher (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.
 
-    - *Manuelles Zahlen am Terminal*   
+    - *Manual payment at terminal*   
         This type of account serves as a cash account for cashless payments.
 
 - *Account*   
     Enter the account number for the corresponding account types. You can assign another account number for each account type.
 
 
-### Korrekturbuchung auf Ursprungslager
+### Reverse posting on source warehouse
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
 
-![Korrekturbuchung](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Korrekturbuchung]")
+![Reverse posting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Reverse posting]")
 
-Activate or deactivate the reverse posting to the original warehouse. Any discrepancies in store deliveries are automatically posted back to the original warehouse.   
+Activate or deactivate the reverse posting to the original warehouse. Any discrepancies in store deliveries are automatically posted back to the original warehouse. 
+
+> [Info] This option is only applicable if store deliveries are activated.    
+    For detailed information, see [Store delivery active](#shoplieferungen-aktiv).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
-- [x] *Korrekturbuchung auf Ursprungslager*    
+- [x] *Reverse posting on source warehouse*    
     Choose whether or not to post discrepancies between the delivery receipt and the delivery are automatically posted back to the original warehouse. By default, this option is active.
 
-    > [Info] This option is only applicable if store deliveries are activated.    
-    For detailed information, see [Shop-Lieferungen aktiv](#shoplieferungen-aktiv).
 
+### Return warehouse (Storage area for blocked stock)
 
-
-### Retourenlager (Sperrlager)
-
-*POS > Management > Tab GLOBAL SETTINGS > Entry Retourenlager (Sperrlager)*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Return warehouse (Storage area for blocked stock)*
 
 [comment]: <> (need information; Is that right?)
 
-![Retourenlager](../../Assets/Screenshots/POS/Management/GlobalSettings/GS26.png "[Retourenlager]")
+![Return warehouse](../../Assets/Screenshots/POS/Management/GlobalSettings/GS26.png "[Return warehouse]")
 
-Define a shelf in the quarantine warehouse for returns with defects
+Define a shelf in the storage area for blocked stock for returns with defects.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
-- *Lager ID*   
-    Enter the number of the quarantine warehouse.
+
+- *Warehouse ID*   
+    Enter the number of the storage area for blocked stock.
 
 [comment]: <> (Is shelf name right? Not number of the shelf?)
 
-- *Fachname*   
+- *Shelf name*   
     Enter the name of the shelf for the defect returns.
 
 
 
-### Standard-Kunde
+### Default customer
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Standard-Kunde*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
-![Standard-Kunde](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Standard-Kunde]")
+![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
-Define an invoice address for a default customer to connect the POS system with the *Order management* module. The invoice address of this default customer is used for all occasion customers.
+Define an invoice address for a default customer to connect the POS system with the *Order management* module. The invoice address of this default customer is used for all occasional customers.
 
-- [Speichern]    
+> [Info] It is recommended to define at least the country of the customer address as it is needed for tax purposes.
+
+- [Save]    
     Click this button to save any changes.
 
 - *Title*   
-    Enter the customer title.
+    Enter the customer's title.
 
 - *First Name*   
-    Enter the customer first name.
+    Enter the customer's first name.
 
 - *Last Name*   
-    Enter the customer last name.
+    Enter the customer's last name.
 
 - *Company*   
-    Enter the customer company name.
+    Enter the customer's company name.
 
 - *Email Name*   
-    Enter the customer e-mail address.
+    Enter the customer's e-mail address.
 
 - *Street*   
-    Enter the street name of the customer address.
+    Enter the street name of the customer's address.
 
 - *HouseNumber*   
-    Enter the house number of the customer address.
+    Enter the house number of the customer's address.
 
 - *ZIP*   
-    Enter the ZIP code of the customer address.
+    Enter the ZIP code of the customer's address.
 
 - *City*   
-    Enter the city name of the customer address.
+    Enter the city name of the customer's address.
 
 [comment]: <> (Should the country field be mandatory and a drop-down list?)
 
 - *Country*   
-    Enter the country name of the customer address.
+    Enter the country name of the customer's address.
 
-    > [Info] It is recommended to define at least the country of the customer address as it is needed for tax purposes.
+    
 
+<!--- Ist diese Einsstellung noch aktiv?(hop deliveries active)  Bei mir erscheinen die Tabs nicht, wie unten beschrieben, wenn ich es aktiviere-->
 
+### Shop deliveries active
 
+*POS > Management > Tab GLOBAL SETTINGS > Entry Shop deliveries active*
 
-### Shop-Lieferungen aktiv
-
-*POS > Management > Tab GLOBAL SETTINGS > Entry Shop-Lieferungen aktiv*
-
-![Shop-Lieferungen aktiv](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop-Lieferungen aktiv]")
+![Shop deliveries active](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop deliveries active]")
 
 Activate or deactivate the store deliveries. If the store deliveries are active, deliveries to the store can be entered and the POS inventory is automatically increased by the delivered products.
 
 > [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in the *Order management* module.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-- [x] *Shop-Lieferung aktiv*   
+- [x] *Shop delivery active*   
     Choose whether or not to activate deliveries from the store. By default, this option is inactive.   
     When the store deliveries are active, the three new tabs [*ABGESCHLOSSENE LIEFERSCHEINE*](./02e_ProcessedDeliveryNotes.md), [*OFFENE LIEFERSCHEINE*](./02f_UnprocessedDeliveryNotes.md) and  [*WARENEINGANGS-SYNC*](./02g_WareneingangsSync.md) are displayed in the menu entry *Management* and the new tab [*WARENEINGANG*](./01g_Wareneingang.md) is displayed in the menu entry *Sales*.
 
@@ -928,6 +919,6 @@ Enable or disable the application of customer data from RetailSuite.
 - [x] *Kundendaten aus RetailSuite uebernehmen*   
     Choose whether or not to apply customer data from RetailSuite when receipts are linked to a customer. By default, this option is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 -->

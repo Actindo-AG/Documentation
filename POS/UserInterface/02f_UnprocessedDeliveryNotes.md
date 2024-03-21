@@ -1,5 +1,7 @@
 # Offene Lieferscheine
 
+<!ist das noch relevant?-->
+
 This tab is only displayed, if the global setting *Shop-Lieferungen aktiv* is active.
 
 *POS > Management > Tab OFFENE LIEFERSCHEINE*

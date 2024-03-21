@@ -15,7 +15,7 @@ The table displays the history of sales. Depending on the settings, the displaye
     Date and time of the sale. This field is read-only.
 
 - *Customer*   
-    Name of the customer. If the sale was not assigned to a registered customer, *kein Kunde* is displayed. This field is read-only.
+    Name of the customer. If the sale was not assigned to a registered customer, *no customer* is displayed. This field is read-only.
 
 - *Total*  
     Total sales amount. This field is read-only.

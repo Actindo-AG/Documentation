@@ -1,5 +1,7 @@
 [!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 
+<!---Ist das noch relevant?-->
+
 # Accounting Sync
 
 *POS > Management > Tab ACCOUNTING SYNC*
