@@ -422,7 +422,7 @@ Define the currencies that are available in your POS system as well as the coins
 
 The table displays all available currencies. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
-TThe following functions are available for the editing toolbar:
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar and to edit or delete the selected currency.

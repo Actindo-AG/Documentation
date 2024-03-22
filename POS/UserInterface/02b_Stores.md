@@ -511,10 +511,10 @@ Activate or deactivate the option to print the cash receipt.
 
     > [Info] Remember that receipt printing is mandatory in several countries. Please inform yourself about the country-specific regulations before you deactivate this option.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -527,10 +527,10 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 - [x] *Kassenschublade öffnen bei Barzahlung*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -543,10 +543,10 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 - [x] *Kasse öffnen*    
     Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -559,7 +559,7 @@ Define the VAT ID, which is mandatory to be indicated on receipts in some countr
 - *USt-ID*   
     Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -602,7 +602,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 - *Abschöpfen bis Betrag*    
     Enter the amount up to which the pay desk is skimmed after the pay desk closing.
 
-- [Speichern]  
+- [Save]  
     Click this button to save any changes.
 
 
@@ -615,10 +615,10 @@ By default, the expected amount in the pay desk is indicated. deactivate this op
 - [x] *Erwarteten Betrag verbergen*   
     Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -633,13 +633,13 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 - [x] *Händler-Beleg drucken*   
     Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")    
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")    
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
-
+<!--- Setting gibt es nicht mehr, nicht?
 #### Nativer Bon-Druck
 
 Activate or deactivate the native receipt printing.
@@ -651,11 +651,11 @@ Activate or deactivate the native receipt printing.
 
 [comment]: <> ("Setting will be deleted, should always be active")
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
-    Click this button to save any changes.
+- [Save]    
+    Click this button to save any changes.-->
 
 
 #### Logo-Druck Kompatibilitätsmodus
@@ -667,10 +667,10 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 - [x] *Logo-Druck Kompatibilitätsmodus*   
     Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -688,10 +688,10 @@ Define the width of the receipt, as it may vary depending on the printer.
 - *Breite in Pixel*   
     Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -715,10 +715,10 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 - [x] *Kassenschublade öffnen bei Barzahlung*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -731,10 +731,10 @@ Activate or deactivate the option to open the cash drawer for cashless payment.
 - [x] *Kasse öffnen*    
     Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -749,10 +749,10 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
     > [Info] Remember that even if you deactivate this option, a user must log out to allow another user to access the pay desk.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -770,10 +770,10 @@ Select all currencies that are used in your POS system and define a default curr
 - *Standard*   
     Click the drop-down list to select the currency that is used as default currency. All available currencies are displayed in the drop-down list. When you select a default currency that is not yet selected as used currency, that currency is automatically selected as used currency.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -796,10 +796,10 @@ Define the number format on the receipt.
 
     > [Info] The sample view below the input fields displays a live preview of the number with the selected separators and decimal places.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -821,7 +821,7 @@ Upload a logo for your receipts.
     The preview box displays the uploaded logo image. If a logo image is already displayed and you upload a new one, the current logo image will be overwritten by the new logo image.
     Delete a displayed logo by clicking the button ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) in the upper right corner of the logo.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -860,7 +860,7 @@ The number of accounts to be assigned depends on the number of available currenc
 - *Account*   
     Enter the account number for the corresponding account types. You can assign another account number for each account type.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -873,7 +873,7 @@ Define a customer ID for the store to restrict the reorder query to the selected
 - *Kundennummer*   
     Enter a customer ID for the store. Only orders assigned to this ID can be queried. If you leave the field blank, all orders can be queried.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 #### Retourenlager (Sperrlager)
@@ -892,7 +892,7 @@ Define a shelf in the quarantine warehouse for returns with defects.
 - *Fachname*   
     Enter the name of the shelf for the defect returns.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -915,7 +915,7 @@ Change or define the warehouse from which to take the stock.
 - *Shelf*   
     Enter a shelf number in the warehouse to which the stock is to be assigned.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -1030,38 +1030,110 @@ The table displays all available cashiers. All fields are read-only. Depending o
 
 #### GENERAL
 
-In this section, you define all pay desk and payment settings.
+In this section, as an Actindo administrator, you define all pay desk and payment settings.
 
-#### Kasse öffnen bei Barzahlung
+
+### Open drawer at cash payment
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
+
+
+![Open drawer at cash payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Open drawer at cash payment]")
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
-![Kasse öffnen bei Barzahlung](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings01.png "[Kasse öffnen bei Barzahlung]")
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
 
-- [x] *Kassenschublade öffnen bei Barzahlung*   
+- [Save]   
+    Click this button to save any changes.
+
+- [x] *Open drawer at cash payment*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
+### Open drawer at cashless payment
 
-- [Speichern]   
+*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cashless payment*
+
+
+![Open drawer at cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Open drawer at cashless payment]")
+
+Enable or disable the option to open the cash drawer for cashless payment.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]   
     Click this button to save any changes.
 
+- [x] *Open drawer*    
+    Choose whether or not to open the cash drawer for cashless payment. By default, this option is enabled.
 
-#### Kasse öffnen nach bargeldlosem Zahlen
 
-Activate or deactivate the option to open the cash drawer for cashless payment.
+## Receipt printing
 
-![Kasse öffnen nach bargeldlosem Zahlen](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings02.png "[Kasse öffnen nach bargeldlosem Zahlen]")
+In this section, you define all settings concerning the receipt printing.
 
-- [x] *Kasse öffnen*    
-    Choose whether or not to open the cash drawer for cashless payment. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
+### Print merchant receipt
 
-- [Speichern]   
+*POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
+
+![Print merchant receipt](../../Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Print merchant receipt]")
+
+Activate or deactivate the printing of a merchant receipt for cashless payment.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")      
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]    
     Click this button to save any changes.
+
+- [x] *Print merchant receipt*   
+    Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is enabled.
+
+
+
+### Logo print compatibility mode
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Logo print compatibility mode*
+
+![Logo print](../../Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo print]")
+
+Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]   
+    Click this button to save any changes.
+
+- [x] *Logo print compatibility mode*   
+    Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
+
+
+
+### Receipt format
+*POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
+
+Define the width of the receipt, as it may vary depending on the printer.
+
+![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Receipt format]")
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]    
+    Click this button to save any changes.
+
+- *Width in characters*   
+    Define the width of the receipt in characters. This size is needed to calculate the width for the text.
+
+    > [Info] Monospaced fonts are used for receipt printing. This means that each character has the same width.
+
+- *Width in pixel*   
+    Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
+
 
 
 #### BELEGDRUCK
@@ -1075,12 +1147,13 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 - [x] *Händler-Beleg drucken*   
     Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is active.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")    
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")    
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
+<!--Setting gibt es nicht mehr, nicht?
 
 #### Nativer Bon-Druck
 
@@ -1093,12 +1166,12 @@ Activate or deactivate the native receipt printing.
 
 [comment]: <> ("Setting will be deleted, should always be active")
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
-
+-->
 
 #### Logo-Druck Kompatibilitätsmodus
 
@@ -1109,10 +1182,10 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 - [x] *Logo-Druck Kompatibilitätsmodus*   
     Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 
@@ -1130,10 +1203,10 @@ Define the width of the receipt, as it may vary depending on the printer.
 - *Breite in Pixel*   
     Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
 
-- *Von Default übernehmen* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
 
-- [Speichern]    
+- [Save]    
     Click this button to save any changes.
 
 
@@ -1172,7 +1245,7 @@ The number of accounts to be assigned depends on the number of available currenc
 - *Account*   
     Enter the account number for the corresponding account types. You can assign another account number for each account type.
 
-- [Speichern]   
+- [Save]   
     Click this button to save any changes.
 
 

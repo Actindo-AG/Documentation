@@ -20,6 +20,8 @@
 - *QuickSelect Element*   
     Click a QuickSelect element to add it to the bill list. The QuickSelect element is only displayed if a QuickSelect category with an element has been created before. The elements are named individually.  For detailed information, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
+
+
 ## Age verification
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
@@ -94,6 +96,8 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
 
 - [PAY]   
     Click this button to start the payment process. The payment view is displayed in the bill list. The total gross amount of the purchase is displayed at the right of the [PAY] button.
+
+
 
 ## Suggest an offer to the customer
 
@@ -177,8 +181,10 @@ This section is only displayed when no voucher has been redeemed.
 
 **-- or --**
 
-- [ ![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
+- [![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
     Click this button to pay cashless. The *Cashless payment* view is displayed.
+
+
 
 ## Add down payment
 

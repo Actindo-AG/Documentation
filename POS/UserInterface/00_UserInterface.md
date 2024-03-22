@@ -36,30 +36,32 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [RETOUREN](./01e_Returns.md)
     - [Add return](./01e_Returns.md#add-return)
+    - [Define return](./01e_Returns.md#define-return)
+    - [Summary of the return](./01e_Returns.md#summary-of-the-return)
 
 - [SETTINGS](./01f_Settings.md)
-    - [Kasse öffnen bei Barzahlung](./01f_Settings.md#kasse-öffnen-bei-barzahlung)
-    - [Kasse öffnen nach bargeldlosem Zahlen](./01f_Settings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
+    - [Open drawer for cash payment](./01f_Settings.md#open-drawer-for-cash-payment)
+    - [Open drawer after cashless payment](./01f_Settings.md#open-drawer-after-cashless-payment)
 
-- [WARENEINGANG](./01g_Wareneingang.md)
+<!-- Tab gibt es nicht mehr, nicht?- [WARENEINGANG](./01g_Wareneingang.md)-->
 
 
 - [Management](./02_Management.md)
 
 - [GLOBAL SETTINGS](./02a_GlobalSettings.md)
     - [GENERAL](./02a_GlobalSettings.md#general)
-        - [Format of sequential number](./02a_GlobalSettings.md#format-laufende-nummer)
-        - [Always print the receipt](./02a_GlobalSettings.md#bon-immer-ausdrucken)
-        - [Number of vouchers per order](./02a_GlobalSettings.md#anzahl-gutscheine-pro-bestellung)
-        - [Payment methods (manual payment terminal)](./02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal)
-        - [Automatic discount](./02a_GlobalSettings.md#automatischer-discount)
-        - [Open drawer at cash payment](./02a_GlobalSettings.md#kasse-öffnen-bei-barzahlung)
-        - [Open drawer at cashless payment](./02a_GlobalSettings.md#kasse-öffnen-nach-bargeldlosem-zahlen)
-    - [VAT ID](./02a_GlobalSettings.md#ust-id)
+        - [Format of sequential number](./02a_GlobalSettings.md#format-of-sequence-number)
+        - [Always print the receipt](./02a_GlobalSettings.md#always-print-the-receipt)
+        - [Number of vouchers per order](./02a_GlobalSettings.md#number-of-vouchers-per-order)
+        - [Payment methods (manual payment terminal)](./02a_GlobalSettings.md#payment-methods-manual-payment-terminal)
+        - [Automatic discount](./02a_GlobalSettings.md#automatic-discount)
+        - [Open drawer at cash payment](./02a_GlobalSettings.md#open-drawer-at-cash-payment)
+        - [Open drawer at cashless payment](./02a_GlobalSettings.md#open-drawer-at-cashless-payment)
+    - [VAT ID](./02a_GlobalSettings.md#vat-id)
         - [Cashless payment](./02a_GlobalSettings.md#bargeldloses-zahlen)
         - [Bind cash journal to user](./02a_GlobalSettings.md#kassenjournal-auf-user-binden)
-        - [Abschöpfen bis Betrag](./02a_GlobalSettings.md#abschöpfen-bis-betrag)
-        - [Erwarteten Betrag verbergen](./02a_GlobalSettings.md#erwarteten-vertrag-verbergen)
+        - [Abschöpfen bis Betrag](./02a_GlobalSettings.md#skim-to-amount)
+        - [Erwarteten Betrag verbergen](./02a_GlobalSettings.md#hide-expected-amount)
         - [Display age verification](./02a_GlobalSettings.md#display-age-verification)
         - [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed)
         - [Remind of offers](./02a_GlobalSettings.md#remind-of-offers)
@@ -67,17 +69,17 @@ In this part of the *POS* documentation, you will find the following chapters:
 
     - [CURRENCIES](./02a_GlobalSettings.md#währungen)
         - [Available Currencies](./02a_GlobalSettings.md#available-currencies)
-        - [Used currencies](./02a_GlobalSettings.md#verwendete-währungen)
+        - [Used currencies](./02a_GlobalSettings.md#used-currencies)
 
     - [RETURNS](./02a_GlobalSettings.md#retouren)
-        - [Return reasons](./02a_GlobalSettings.md#retouren-gründe)
-        - [Refund only on the same payment method](./02a_GlobalSettings.md#refund-nur-auf-gleiches-zahlungsmittel)
-        - [Return only in the same store](./02a_GlobalSettings.md#retoure-nur-in-gleichem-store)
+        - [Return reasons](./02a_GlobalSettings.md#return-reasons)
+        - [Refund only on the same payment method](./02a_GlobalSettings.md#refund-only-on-the-same-payment-method)
+        - [Return only in the same store](./02a_GlobalSettings.md#return-reasons)
 
-    - [RECEIPT PRINTING](./02a_GlobalSettings.md#belegdruck)
-        - [Print merchant receipt](./02a_GlobalSettings.md#händler-beleg-drucken)
-        - [Nativer Bon-Druck](./02a_GlobalSettings.md#nativer-bon-druck)
-        - [LLogo print compatibility mode](./02a_GlobalSettings.md#logo-druck-kompatibilitätsmodus)
+    - [RECEIPT PRINTING](./02a_GlobalSettings.md#receipt-printing)
+        - [Print merchant receipt](./02a_GlobalSettings.md#print-merchant-receipt)
+       <!--Gibt es nicht mehr, nicht? - [Nativer Bon-Druck](./02a_GlobalSettings.md#)-->
+        - [Logo print compatibility mode](./02a_GlobalSettings.md#logo-print-compatibility-mode)
         - [Receipt format](./02a_GlobalSettings.md#bon-format)
         - [Number format](./02a_GlobalSettings.md#zahlenformat)
         - [Logo](./02a_GlobalSettings.md#logo)
@@ -105,6 +107,8 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
 
+<!--- Diese Settings gibt es nicht mehr, nicht?
+
 - [ACCOUNTING SYNC](./02d_AccountingSync.md)
     - [Accounting sync details](./02d_AccountingSync.md#accounting-sync-details)
 
@@ -113,3 +117,4 @@ In this part of the *POS* documentation, you will find the following chapters:
 - [OFFENE LIEFERSCHEINE](./02f_UnprocessedDeliveryNotes.md)
 
 - [WARENEINGANGS-SYNC](./02g_WareneingangsSync.md)
+-->
