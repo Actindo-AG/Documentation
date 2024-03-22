@@ -103,7 +103,7 @@ The *Bill number* view is used specify the return reason and the condition of th
 
 *POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add > Select bill number > Click [SUMMARY]*
 
-![Summary of the return](../../Assets/Screenshots/POS/Sales/Retouren/SummaryOfReturn.png "[Summary of the return]")
+![Summary of the return](../../Assets/Screenshots/POS/Sales/Retouren/SummaryOFReturn.png "[Summary of the return]")
 
 The *Summary of the return (Amount)* view is used to define the refund method and to finalize the return.
 
