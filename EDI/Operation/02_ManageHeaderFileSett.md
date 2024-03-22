@@ -5,7 +5,7 @@
 
 The following procedures show by using an example how to specify the fields required by your business partner. As example the D07A INVOIC message is used.  
 
->[INFO] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
+>[Info] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
 
 You can add constant values as well as strings that are to be determined via attribute mapping. Additionally, you can specify conditions for the output of specific segments.
 
@@ -13,7 +13,7 @@ You can add constant values as well as strings that are to be determined via att
 
 Get the header file segments of an EDIFACT message in order to be able to fill them with data. By doing this, you add the whole message structure of the specified message type.
 
-> [INFO] The UNA, UNB and UNH segments are generated automatically. Therefore, the definition starts with the S_BGM segment.
+> [Info] The UNA, UNB and UNH segments are generated automatically. Therefore, the definition starts with the S_BGM segment.
 
 #### Prerequisites
 

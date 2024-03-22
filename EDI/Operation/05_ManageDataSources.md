@@ -15,7 +15,7 @@ Assign the data source from which you want to retrieve the data with which you w
 #### Prerequisites
 
 At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
->[INFO] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
+>[Info] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
 

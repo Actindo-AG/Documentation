@@ -12,7 +12,7 @@ Create a connection to a certain EDIFACT message receiver.
 #### Prerequisites
 
 - At least one driver has been installed.
-- Check with your message receiver the protocol to be used.
+- You have checked with your message receiver the protocol to be used.
 
 #### Procedure
 

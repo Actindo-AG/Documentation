@@ -9,7 +9,7 @@ The mapping settings define some basic data that is needed to be able to send ED
 
 #### Prerequisites
 At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
->[INFO] The *Mapping settings* tab is visible only if you have created and saved a basic definition setting. 
+>[Info] The *Mapping settings* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
 *DataHub Exporter > Exports*

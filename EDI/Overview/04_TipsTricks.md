@@ -7,27 +7,27 @@
 UN/EDIFACT (in the following short EDIFACT) is a cross-industry international standard for the format of electronic data in business transactions. EDIFACT is one of several international EDI standards. A UN organization called CEFACT, which is affiliated to the UNECE, is responsible for the EDIFACT standard.
 [^1]    
 
-The EDIFACT standard defines a scheme according to which messages should be structured. It is used for data exchange and transfer between business partners, for example invoice or order data. The standard defines a list of messages such as ORDERS, INVRPT, INVOIC, DELFOR, etc. which are used for specific purposes. For example, an INVRPT represents an inventory report.   
+The EDIFACT standard defines a scheme according to which messages should be structured. It is used to exchange and transfer data, such as invoice or order data, between business partners. The standard defines a list of messages such as ORDERS, INVRPT, INVOIC, DELFOR, etc. which are used for specific purposes. For example, an INVRPT represents an inventory report.   
 
 The EDIFACT standard is available in different versions. Every year one or two versions are released (often referred to as an a or b version). Your business partners, the receivers of the EDIFACT messages, define their specifications according to a specific version. Since the *XML/EDIFACT & UN/EDIFACT Exporter* plugin provides the structure for all versions, you can find the particular version specified by your business partner in the *DataHub Exporter* module.   
 
 Note that the structure of the format is standardized, not the usage. As a result, each user/business partner defines individually the data to be provided for the message structure. This also applies to the classification of the segments and fields (mandatory, required, optional, and others), which may sometimes differ from the EDIFACT standard.   
->[INFO] In the following, when we refer to a user or a business partner, we mean the company to which you need to send the messages to, such as your supplier, your customer, or your fulfillment partner.
+>[Info] In the following, when we refer to a user or a business partner, we mean the company to which you need to send the messages to, such as your supplier, your customer, or your fulfillment partner.
 
 
 
 ## Tips for preparation in advance
 
-- Many internet providers offer EDIFACT information. For a first impression, we can recommend the https://www.truugo.com/edifact/ website. It provides a well-structured presentation of the EDIFACT messages in their different versions.  
+- Many internet providers offer EDIFACT information. For a first impression, we can recommend the [TRUUGO](https://www.truugo.com/edifact/ "[TRUUGO]") website. It provides a well-structured presentation of the EDIFACT messages in their different versions.  
 
 - Ask your business partner for the EDIFACT message specification. Sometimes it is also called message implementation guide. Specifications from some major vendors are also available for download on the Internet.
 
-- Ask your business partner for the connection details that specify to which address and with which credentials the data are to be transferred. For example, get to know both the GLN number (Global location number) of your business partner and the GLN number of your company.
+- Ask your business partner for the connection details that specify to which address and with which credentials the data is to be transferred. For example, get to know both the GLN (Global location number) of your business partner and the GLN of your company.
 
 - Review this specification for the segments your business partner has defined as required and ensure that you have this data available.   
 
 - Note the following: 
-    - Some segments are mandatory (M) only in case if the optional segment (O) above is to be filled. See the example:
+    - Some segments are mandatory (M) only in case the optional segment (O) above is to be filled. See the example:
 
       ![Mandatory segments of the EDIFACT standard](../../Assets/Screenshots/EDI/Overview/OptionalSegment.png "[Mandatory segments of the EDIFACT standard]")
 
@@ -59,12 +59,12 @@ Use the following checklist to organize your work. Manage the definitions in the
 |5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |
 |6. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
 |7. Create a basic definition setting for the line items, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings). |   |   
-|9. Prepare the data mapping for the line items, see [Prepare data mapping for the line items](../Operation/04_ManageLineItemsFileStt.md#prepare-data-mapping-for-the-line-items) |    |    |   
-|10. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
-|11. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
-|12. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
-|13. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
-|14. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
+|8. Prepare the data mapping for the line items, see [Prepare data mapping for the line items](../Operation/04_ManageLineItemsFileStt.md#prepare-data-mapping-for-the-line-items) |    |    |   
+|9. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
+|10. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
+|11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
+|12. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   |    
+|13. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
 
 <BR>
 <BR>
