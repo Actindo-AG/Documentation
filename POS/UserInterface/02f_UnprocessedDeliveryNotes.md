@@ -1,6 +1,6 @@
 # Offene Lieferscheine
 
-<!ist das noch relevant?-->
+<!---ist das noch relevant?-->
 
 This tab is only displayed, if the global setting *Shop-Lieferungen aktiv* is active.
 

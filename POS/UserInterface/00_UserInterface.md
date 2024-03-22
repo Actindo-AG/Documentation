@@ -103,11 +103,11 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Pay desk](./02b_Stores.md#pay-desk)
         - [Basic data &ndash; Pay desk](./02b_Stores.md#basic-data--pay-desk)
         - [Admin settings &ndash; Pay desk](./02b_Stores.md#admin-settings--pay-desk)
-        - [Transactions](./02b_Stores.md#transactions)
+        - [Transactions &ndash; Pay desk](./02b_Stores.md#transactions-–-pay-desk)
 
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
 
-<!--- Diese Settings gibt es nicht mehr, nicht?
+<!--- Diese Tabs gibt es nicht mehr, nicht?
 
 - [ACCOUNTING SYNC](./02d_AccountingSync.md)
     - [Accounting sync details](./02d_AccountingSync.md#accounting-sync-details)
