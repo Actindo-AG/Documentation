@@ -500,22 +500,13 @@ The table displays all available store managers. All fields are read-only. Depen
 
 In this section, you define all pay desk and payment settings.
 
-#### Bon immer ausdrucken
+#### Always print the receipt
 
 Activate or deactivate the option to print the cash receipt.
 
-![Bon immer ausdrucken](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings01.png "[Bon immer ausdrucken]")
+![Always print the receipt](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings01.png "[Bon immer ausdrucken]")
 
-- [x] *Bon immer ausdrucken*   
-    Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
-
-    > [Info] Remember that receipt printing is mandatory in several countries. Please inform yourself about the country-specific regulations before you deactivate this option.
-
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
-    Activate this toggle to apply the default settings or deactivate this toggle to specify custom settings. When the toggle is active, all fields in the detail view are locked. By default, this toggle is active.
-
-- [Save]   
-    Click this button to save any changes.
+For detailed information, see [Always print the receipt](./02a_GlobalSettings.md#always-print-the-receipt)
 
 
 #### Kasse öffnen bei Barzahlung
