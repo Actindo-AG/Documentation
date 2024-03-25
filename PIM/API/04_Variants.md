@@ -109,11 +109,6 @@ You can edit a variant via API, for example to add an image or update a value.
 
 [comment]: <> (Gibt es das überhaupt? In meiner API-Doku in DOP nicht gefunden! Oder ist es eher via Create product?)
 
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
 
 ### Definitions
 
@@ -155,12 +150,6 @@ Get a list of variants. You can set one or more filters.
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
 
 [comment]: <> (oder /Actindo.Modules.Actindo.PIM.PIM.listProducts?)
-
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
 
 
 ### Definitions

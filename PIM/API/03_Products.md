@@ -120,6 +120,14 @@ The following table displays a list of all attributes contained in the *PIM basi
   
 #### Create a master product
 
+| Attribute       | Data type   | Description |
+| ----------- | ----------- | ----------- | 
+| **sku**      | string   |  Product SKU | 
+| **attributeSetId**   | integer  | Attribute set identification number |
+| **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
+
+
+
       {
           "product": {
               "sku": "MASTER1",
@@ -130,6 +138,15 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 
 #### Create a variant product
+
+
+| Attribute       | Data type   | Description |
+| ----------- | ----------- | ----------- | 
+| **sku**      | string   |  Product SKU | 
+| **attributeSetId**   | integer  | Attribute set identification number |
+| **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
+| **variantSet**   | object  | It contains the required field **id**.  |
+
 
      {
       "product": 
@@ -144,31 +161,7 @@ The following table displays a list of all attributes contained in the *PIM basi
     }
 
 
-#### Create multiple variant products
 
-
-    {
-      "product": [
-        {
-          "sku": "CHILD3",
-          "attributeSetId": 592,
-          "variantStatus": "child",
-          "variantSet": {
-            "id": 2
-          }
-        },
-        {
-          "sku": "CHILD4",
-          "attributeSetId": 592,
-          "variantStatus": "child",
-          "variantSet": {
-            "id": 2
-          }
-        }
-      ]
-    }
-  
-[comment]: <> (Nicht möglich! Wieso?! Ein Call - ein Produkt! Versuchen mit Endpunkt Variants.create)
 
 ## Edit a product
 
@@ -200,6 +193,7 @@ To get a list of all your attributes, see [List of all attributes](#list-all-att
             }
     }
 
+[comment]: <> (Wie werden die images hochgeladen/verbunden? Wo befinden sich die images?)
 
 #### Add the product name in different languages
 
@@ -283,6 +277,7 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
         }
       }
 
+[comment]: <> (Ist das überhaupt möglich? Wie? Muss man auch die defining und changeable attributes in body definieren?)
 
 
 ## Delete a product permanently
@@ -385,9 +380,7 @@ The required fields are marked in bold.
 | sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
 | start | integer | Pagination: Pagination start (from 0) |
 | limit | integer | Pagination: Pagination limit |
-| serializeOptionals | array of strings | <!-- Was ist das --> |
 
-[comment]: <> (Check non-authoritative sources -> Query hints: You may set query hints to modify the execution of the query, for example get data from non-authoritative sources.)
 
 ### Request sample  
 

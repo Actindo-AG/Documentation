@@ -13,6 +13,14 @@ Get all data stored in the database for a specific entity, for example, a produc
 
 [comment]: <> (Unterschiedliche Info - warum?)
 
+Required fields:
+
+attributeSetId
+variantSetId
+Product ID
+Attributes ID
+
+
 ### Definitions
 
 | Attribute      | Data type | Description |  
