@@ -1,6 +1,6 @@
 # General information
 
-The EDIFACT integration of the *Actindo Core1 Platform* ensures the automated transfer of data between the *Actindo Core1 Platform* and any external systems, so that you can easily connect your existing IT to them. EDIFACT refers to the electronic and fully automatic exchange of data between different application systems. It thus serves as the basis for the digitalization of processes and the transfer of important data, such as orders, order confirmations, delivery notes, or invoices. 
+The EDIFACT integration of the *Actindo Core1 Platform* ensures the automated transfer of data between the *Actindo Core1 Platform* and any external systems, so that you can easily connect your existing IT landscape to them. EDIFACT refers to the electronic and fully automatic exchange of data between different application systems. It thus serves as the basis for the digitalization of processes and the transfer of important data, such as orders, order confirmations, delivery notes, or invoices. 
 
 This documentation provides you with an example guide of how to edit and export an EDIFACT INVOIC message that you can use to meet the specifications you got from your business partner.
 
@@ -11,8 +11,8 @@ The documentation refers both to the *XML/EDIFACT & UN/EDIFACT Exporter* plugin 
 The EDIFACT integration in the *Actindo Core1 Platform* offers the following benefits:
 
 - Full access to all EDIFACT directory/message versions in the platform
-- Comfortable editing of EDIFACT messages in a visual editor that shows the inner structure of the message.
-- Configuration of outgoing EDIFACT & XML/EDIFACT messages, their contents, and data sources.  
+- Comfortable editing of EDIFACT messages in a visual editor that shows the inner structure of the message
+- Configuration of outgoing EDIFACT & XML/EDIFACT messages, their content, and data sources  
 <!---Julian, die gehören nicht dazu? -> Configuration of incoming EDIFACT & XML/EDIFACT messages, their contents, and data sources.-->
 
 # Further information

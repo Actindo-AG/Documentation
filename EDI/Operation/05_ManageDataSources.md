@@ -3,7 +3,7 @@
 # Manage data sources
 Specify the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
 For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved.    
-If required, you can specify here multiple data sources from which you can retrieve data from different sources, such as invoice data, customer data, and product data. In the next step, you can map a data source field with the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
+If required, you can specify here multiple data sources from which you can retrieve data from different sources, such as invoice data, customer data, and product data. In the next step, you can map a data source field cxontaining the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
 Tip: If you want to map the fields directly after you have specified an EDIFACT field in the file settings, it is recommended to create the data source before specifying the header &frasl; line items file segments.
 
 
@@ -15,7 +15,7 @@ Assign the data source from which you want to retrieve the data with which you w
 #### Prerequisites
 
 At least one definition setting has been created, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
->[Info] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
+< [Info] The *Data sources* tab is visible only if you have created and saved a basic definition setting. 
 
 #### Procedure
 
@@ -32,7 +32,7 @@ At least one definition setting has been created, see [Create basic definition s
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesList.png "[Data sources tab]")
 
 3. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.     
-    The *Select source* pop-up window is displayed.
+    The *Select source* wizard window is displayed.
 
     ![Select source](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectSource.png "[Select source]")
 
@@ -42,27 +42,22 @@ At least one definition setting has been created, see [Create basic definition s
     - If desired, use the *Business document position* entity type when you are currently defining the data source for a line item definition.   
     You typically use this entity type for the line item data when you want to transfer line item data with its origin from the *Actindo Core1 Platform*.  
     - If desired, use any other data source that provides you with data needed for the transfer.   
-    For example, you want to send an EDIFACT message with invoice data from SAP. In this case select the related SAP data source with which you can access the data needed for the header&frasl;line item file.   
+    For example, you want to send an EDIFACT message with invoice data from SAP. In this case, select the related SAP data sources with which you can access the data needed for the header&frasl;line item files.   
     
     The *Attribute set* drop-down list is automatically filled with the data source defined in the *Entity type* field.
     
 5. Click the [CONTINUE] button in the bottom right corner.   
-    The *Map attributes* pop-up window is displayed. If you have not yet defined string attributes in your file settings, the *There are no mappable fields in the destination* text is displayed. You can ignore this step for now.
+    The *Map attributes* wizard window is displayed. If you have not yet defined string attributes in your file settings, the *There are no mappable fields in the destination* message is displayed. You can ignore this step for now.
 
     ![Map attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesMapAttributes.png "[Map attributes]")
 
-6. Click the [CONTINUE] button in the bottom right corner.   
+6. Click the [CONTINUE] button in the bottom right corner.  
     The *Optional: Filter items* wizard window is displayed. You can ignore it. It is only relevant for mass transports.
 
      ![Optional: Filter items](../../Assets/Screenshots/EDI/Operation/DataSourcesOptionalFilterItems.png "[Optional:Filter items]")
 
-7. Click the [CONTINUE] button in the bottom right corner.   
-    The *Select additional data* wizard window is displayed. 
-
-    ![Select additional data](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectAdditionalData.png "[Select additional data]")
-
-8. If desired, specify a limit. The limit defines the maximum number of line items which are to be added to a business document such as an invoice. <!---Julian, ist das richtig?-->
-
+7. Click the [CONTINUE] button in the bottom right corner, until the [FINALIZED] button is displayed.   
+    
 9. Click the [FINALIZE] button in the bottom right corner to save the data source.   
    The *Exporter definition sources* view is displayed.
 
@@ -95,26 +90,16 @@ Map the data sources by specifying the attributes that are to be mapped on EDIFA
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
 3. Click the data source for which you want to map the attributes.   
-    The *Map attributes* pop-up window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
+    The *Map attributes* wizard window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
 
     ![Data sources destination attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesDestinationAttributes.png "[Data sources destination attributes]")
 
 4. Map the source attributes and the destination attributes. For detailed information, see [Edit the ETL attribute mappings](../../DataHub/Operation/01_ManageETLMappings.md#edit-an-etl-attribute-set-mapping) in the *DataHub* documentation.
 
-5. Click the [CONTINUE] button in the bottom right corner.   
-    The *Optional: Filter items* pop up window is displayed. You can ignore it.
+5. Click the [CONTINUE] button in the bottom right corner, until the [FINALIZED] button is displayed.   
 
-     ![Optional: Filter items](../../Assets/Screenshots/EDI/Operation/DataSourcesOptionalFilterItems.png "[Optional:Filter items]")
-
-6. Click the [CONTINUE] button in the bottom right corner.   
-    The *Select additional data* pop up window is displayed. 
-
-    ![Select additional data](../../Assets/Screenshots/EDI/Operation/DataSourcesSelectAdditionalData.png "[Select additional data]")
-
-7. If desired, change the limit. The limit defines the maximum number of line items which are to be added to a business document such as an invoice. <!---ist das richtig?-->
-
-8. Click the [FINALIZE] button in the bottom right corner to save the data source.   
-  You have saved the data source settings. The *Exporter definitions* view is displayed. 
+8. Click the [FINALIZE] button in the bottom right corner to save the mappings.   
+  You have saved the data source mappings. The *Exporter definitions* view is displayed. 
 
 
 

@@ -29,10 +29,10 @@ Create a connection to a certain EDIFACT message receiver.
 
 3. Click the *Driver* drop-down list and select the driver/protocol your business partner require. For EDIFACT messages, in most cases, the SFTP or the AS2 drivers are required.   
     The following drivers are available in the standard:    
-        - SFTP   
-        - Internal  
-        - POST call   
-        - Output
+    - SFTP   
+    - Internal  
+    - POST call   
+    - Output
     > [Info] For the AS2 (Applicability Statement 2) protocol, the *AS2Transport* plugin is available in the *Core1 Platform*. Contact your MPS consultant if your business partner requires this protocol.
      
     The *Credentials* section is displayed below the *Driver* field.
@@ -44,7 +44,7 @@ Create a connection to a certain EDIFACT message receiver.
 4. Enter the required data in the *Credentials* section fields. Use the information you received from the business partner to fill the credentials.
 
 5. Click the [SAVE] button.   
-    The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, the *Sync triggered successfully* window is displayed.  
+    The connection will be established. The *Checking credentials...* notice is displayed. After a few seconds, a confirmation message is displayed.
     The *Connections* view is displayed, the newly created connection is added. After successful synchronization, the entry is activated automatically. You may have to refresh the application to see the *Active* status.
 
  6. If necessary, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button to update the list of connections.   

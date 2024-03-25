@@ -3,7 +3,7 @@
 
 # Manage line item file settings
 
-The following procedures show by using an example how to specify the line item section required by your business partner. As example the D07A INVOIC message is used.
+The following procedures show by using an example how to specify the line item section required by your business partner. As example, the D07A INVOIC message is used.
 
 For detailed information on examples how to define constant text values, string attributes, dates, and free texts, see [Manage header file settings](./02_ManageHeaderFileSett.md#).
 
@@ -32,20 +32,20 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
-3. Click the data source, for which you want to map the segment for the line items.   
+3. Click the data source for which you want to map the segment for the line items.   
     - The *Map attributes* wizard window is displayed.     
     - In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.    
-    - The *EDI export SG26/SG27* entry is available.
+    - The *EDI export SG26* or *EDI export SG27* entry is available.
 
         ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-6. Click the *EDI Export SG26/SG27* destination attribute and define the mapping.    
-   The settings section is displayed on the right.
+6. Click the *EDI Export SG26* or *EDI Export SG27* destination attribute and define the mapping.    
+   The *Settings* section is displayed on the right.
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
    
      -  Click the *Extension* drop-down list and select the **XML SubExport extension**.   
-     Both the "Source attribute" and the *Configuration* section is displayed in the left part of the *Settings* section.
+        The left part of the *Settings* section displays both the *Source attribute* drop-down list and the *Configuration* section.
 
      - Click the *Override change tracking mode* drop-down list and select the desired one.
 
@@ -78,66 +78,66 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 #### Procedure
 
-*DataHub Exporter > EXPORTS tab > Settings tab*
+*DataHub Exporter > Tab EXPORTS > Settings tab*
 
 ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEditLineItems.png "[Edit definition]")
 
-2. Click the *File settings* tab.   
+1. Click the *File settings* tab.   
     The *File settings* tab is displayed.
 
-     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyfileSettings.png "[File settings tab]")
+     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEmptFileSettings.png "[File settings tab]")
 
-3. Click the *Release* drop down list and select the required EDIFACT release. In our example, it is **D07a**.
+2. Click the *Release* drop-down list and select the required EDIFACT release. In our example, it is **D07a**.
 
-4. Click the *Message type* drop-down list and select the required EDIFACT message type. In our example, it is **INVOIC**. You can use the search function on top of the drop-down list.
+3. Click the *Message type* drop-down list and select the required EDIFACT message type. In our example, it is **INVOIC**. You can use the search function on top of the drop-down list.
 
-5. Enter the *Reference node path*. Use the following syntax:    
+4. Enter the *Reference node path*. Use the following syntax:    
     /M_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]/ G\_[Message type, for example INVOIC]\_[EDIFACT version number (last three digits)]\_SG[Group number].     
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26   
     Alternatively, you can copy the two parts from the header file message structure.  
 
-    >[Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
+    < [Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
 
  
-6. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
+5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
     The message structure of the SG26/SG27 group is displayed. The segment is highlighted in red because it is still empty.    
     It starts with the SG26/SG27 element. 
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
 
-7. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed. It starts with the S_LIN segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
+6. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
+    The message structure with its single segments is displayed. It starts with the*S_LIN* segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
-8. Click the [SAVE] button in the top right corner.   
+7. Click the [SAVE] button in the top right corner.   
      - The *Exporter definitions* view is displayed.   
-     - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab is additionally displayed. 
+     - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab are additionally displayed. 
      - In the header definition file settings, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
 
-9. If desired, create the data source and define the mapping setting. For detailed information, see [Prepare definition of file settings](./01_ManageDefinitions.md#prepare-definition-of-file-settings).
+8. If desired, create the data source and define the mapping setting. For detailed information, see [Prepare definition of file settings](./01_ManageDefinitions.md#prepare-definition-of-file-settings).
 
 
 
 ## Specify line item number
 
-Start specifying the line item segments by filling out the single elements of the S_LIN (Line item) segment. This procedure shows how to edit the line item number on the invoice, so that each invoice line item gets a unique and ascending number.
+Start specifying the line item segments by filling out the single elements of the*S_LIN* (line item) segment. This procedure shows how to edit the line item number on the invoice, so that each invoice line item gets a unique and ascending number.
 
 #### Prerequisites
 
-- You have expanded the message structure of the line item definition, see [Get line item segments](#get-line-item-segments).
+You have expanded the message structure of the line item definition, see [Get line item segments](#get-line-item-segments).
 
 #### Procedure
 
-*DataHub Exporter > EXPORTS tab > Select message definition > File settings tab > Expand message structure*
+*DataHub Exporter > Tab EXPORTS > Select message definition > Tab File settings > Expand message structure*
 
  ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
-1. Expand the S_LIN segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_LIN* segment.   
-    The S_LIN segment in turn consists of subordinate segments and fields.
+1. Expand the *S_LIN* segment by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button at the *S_LIN* segment.   
+    The *S_LIN* segment in turn consists of subordinate segments and fields.
 
     ![S_LIN segment](../../Assets/Screenshots/EDI/Operation/ExportDefLIN.png "[S_LIN segment]")
 
@@ -160,12 +160,12 @@ Start specifying the line item segments by filling out the single elements of th
 
  
 6. Click the *EDI Export LIN/1082* destination attribute.    
-   In the *Settings* section on the right, configuration options are displayed.
+   In the *Settings* section on the right, the configuration options are displayed.
 
-     - Click the *Extension* dropdown list and select the **Mathematical expression** (former arithmetic extension) entry.  
+     - Click the *Extension* drop-down list and select the **Mathematical expression** (also called arithmetic extension, depending on your version) entry.  
          The section for selecting a source attribute is displayed.
 
-     - Click the **Override change tracking** mode and select the desired mode.
+     - Click the *Override change tracking* mode and select the desired mode.
 
      - On the left side of the *Settings* section, click the drop-down list to select a source attribute that specifies the line item number, for example **positionNumber**.
 

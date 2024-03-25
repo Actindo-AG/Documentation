@@ -7,9 +7,9 @@
 ![Connections](../../Assets/Screenshots/EDI/Integration/Connections.png "[Connections]")
 
 
-**Existing connections**
+**Connections**
 
-The *Existing connections* list contains a list view of all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The *Connections* list contains a list view of all available connections. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 The following functions are available for the editing toolbar:
 
@@ -45,7 +45,7 @@ The following functions and fields are available in this view:
     Driver name.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)  
-    Click this button to add a *DataHub Exporter* connection. The *Create connection* view is displayed, see below.
+    Click this button to add a *DataHub Exporter* connection. The *Create connection* view is displayed.
 
 
 
@@ -55,8 +55,8 @@ The following functions and fields are available in this view:
 
 ![Create connection](../../Assets/Screenshots/EDI/UserInterface/CreateConnection.png "[Create connection]")
 
-**Connection**   
-The *Connection* view contains the fields required to define a connection. 
+**Create connection**   
+The *Create connection* view contains the fields required to define a connection. 
 
 - *Name*   
     Enter a connection name.

@@ -11,7 +11,7 @@ In Actindo, the definition of the EDIFACT export messages specifies the followin
 
 Each EDIFACT export message requires two definitions in the *DataHub Exporter* module for each business partner and EDIFACT message:
 - Definition for the message header   
-    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data such as receiver/sender information and dates. 
+    Figuratively speaking, the message header is the envelope, with which the message is sent. It contains general data, such as receiver/sender information and dates. 
     
 - Definition for the line items  
     The line item section includes a list of individual items of the message, such as required information for each product that is part of an invoice. It is necessary to have a specific definition for the line items because they require other data sources than the message header.  
@@ -24,11 +24,9 @@ Note that this chapter is valid both for the definition of the header and the li
 ## Create basic definition settings
 Define basic data for the export definition. You must define a definition setting for both the header and the line items of a message.
 
-
 #### Prerequisites
 
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
-- Before creating the definition for the line items, you have prepared the line item export, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 
 #### Procedure
 
@@ -63,7 +61,7 @@ Define basic data for the export definition. You must define a definition settin
      If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
 6. If you are in the header definition, click the *File settings* tab.  
-    The *File Settings* tab is displayed.
+    The *File settings* tab is displayed.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyFileSettings.png "[File settings tab]")
 
@@ -74,7 +72,7 @@ Define basic data for the export definition. You must define a definition settin
 9. Click the [SAVE] button.   
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
-    - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab will be displayed in addition. 
+    - If you now open the definition again for editing, both the *Data sources* tab and the *Mapping settings* tab will be displayed in addition. 
 
 
 ## Edit basic definition settings 
@@ -109,7 +107,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.     
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables you to create the data source right after you have created the basic definition. You are than able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables you to create the data source right after you have created the basic definition. You are then able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-settings).
 - Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).
@@ -150,7 +148,7 @@ After you have configured the entire definition including the file settings, you
 3. Click the *Entity type* drop-down list and select the data sources you currently use for this definition, for example the **Retail suite business document** data source for the header export definition or the **Retail suite business document position** data source for the line item export definition. 
 
 4. Enter **31** in the *Primary identifier* field.
-
+<!---Julian, warum ist das hier 31? Ist das ein interner Schlüssel?-->
 5. Click the [OPEN PREVIEW] button. 
     The syntax of the message(s) is output in a new browser window. 
 
@@ -182,15 +180,12 @@ After you have configured the entire header and line item definitions including 
 
     ![Edit definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEdit.png "[Edit definition]")
 
-2. Click the *Active* toggle.   
+2. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")*Active* toggle to activate the selected definition. By default, this toggle is disabled.  
     The toggle is highlighted.
 
-    ![Activate definition](../../Assets/Screenshots/EDI/Operation/ExportDefinitionActivate.png "[Activate definition]")
-
 3. Click the [SAVE] button.  
-    The *Exporter definitions* view is displayed. The status in the *Active* column has switched to *Active*. The definition is activated, and you can send messages now. 
+    The *Exporter definitions* view is displayed. The status in the *Active* column has switched to **Active**. The definition is activated, and you can send messages now. 
 
-4. Continue with preparing the workflows. For detailed information, see [Prepare workflow](./07_PrepareWorkflow.md).
 
 
 ## Deactivate definition
@@ -217,7 +212,7 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a d
     The toggle is no longer highlighted.
 
 3. Click the [SAVE] button.  
-    The *Exporter definitions* view is displayed. The definition is listed as **Inactive** in the *Active* column. You can no longer send messages of this type to your business partner. 
+    The *Exporter definitions* view is displayed. The status in the *Active* column has switched to **Inactive**. You can no longer send messages of this type to your business partner. 
 
 
 
@@ -225,7 +220,7 @@ Deactivate a definition if it is no longer needed. We recommend deactivating a d
 
 Delete a definition if both you no longer need it and you want to clear your definition list. You can delete several definitions at once.
 
-> [CAUTION] Note that you will lose the whole definition with all EDIFACT message file settings, data sources, and mapping settings when deleting a definition. Alternatively, you can deactivate a definition to keep your settings, see [Deactivate definition](#deactivate-definition).
+> [Caution] Note that you will lose the whole definition with all EDIFACT message file settings, data sources, and mapping settings when deleting a definition. Alternatively, you can deactivate a definition to keep your settings, see [Deactivate definition](#deactivate-definition).
 
 
 #### Prerequisites
