@@ -68,7 +68,7 @@ No prerequisites to fulfill.
 
 ## Define a new payment method for POS
 
-By default, the payment methods debit card, credit card, and Paypal are predefined for the POS system. You can add several other payment methods that are predefined in the system, or you define a custom payment method for the POS system.
+By default, the payment methods debit card, credit card, and PayPal are predefined for the POS system. You can add several other payment methods that are predefined in the system, or you define a custom payment method for the POS system.
 
 ### Create a payment method in Order management
 

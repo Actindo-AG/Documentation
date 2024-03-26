@@ -10,7 +10,7 @@
 
 # Create a POS store manually
 
-Alternatively to using the [store wizard](#create-a-store-via-wizard), you can create the store manually. Be aware that to use the store and its full functionality, it is necessary to configure the following settings manually:
+Alternatively to using the [store wizard](#create-a-store-using-the-wizard), you can create the store manually. Be aware that to use the store and its full functionality, it is necessary to configure the following settings manually:
 - [Configure the store details](#configure-the-store-details-1)
 - [Create a pay desk](#create-a-pay-desk)
 - [Configure the pay desk details](#configure-the-pay-desk-details)
@@ -76,7 +76,7 @@ In the store details, you give some detailed information about your store. Furth
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - The users are assigned to the POS groups, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 #### Procedure
@@ -112,7 +112,7 @@ However, you can also create one pay desk per user, so that each pay desk is ass
 
 #### Prerequisites
 
-A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 
 #### Procedure
 
@@ -144,7 +144,7 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
 
 #### Procedure
@@ -182,7 +182,7 @@ You have to define a printer for the printing of receipts.
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
 
 #### Procedure
@@ -199,7 +199,7 @@ The store address is required as the delivery address, which has to be defined f
 
 #### Prerequisites
 
-A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 
 #### Procedure
 
@@ -228,7 +228,7 @@ To connect the warehouse management and the stock management to your POS, you ha
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - A warehouse for POS is configured, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 #### Procedure
@@ -364,7 +364,7 @@ No prerequisites to fulfill.
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - A stock attribute has been created, see [Create a stock attribute](#create-a-stock-attribute).
 
 #### Procedure
@@ -415,7 +415,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - The global settings for POS are configured, see [Configure the global settings for POS](./05_ConfigureGlobalSettings.md).
 - The accounts for POS are configured, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
@@ -439,7 +439,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - The accounts for POS are configured, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
 #### Procedure
@@ -466,7 +466,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 #### Prerequisites
 
-- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store via wizard](#create-a-store-via-wizard).
+- A store has been created, see [Create a store manually](./06a_CreateStoreManually.md) or [Create a store using thewizard](#create-a-store-using-the-wizard).
 - At least one pay desk has been created, see [Create a pay desk](#create-a-pay-desk).
 - The accounts for POS are configured, see [Manage the accounts for POS](./02_ManageAccounts.md).
 

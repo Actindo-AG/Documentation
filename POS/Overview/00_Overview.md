@@ -10,4 +10,6 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Create unified customer experiences](./02_Features.md#create-unified-customer-experiences)
     - [Digitize all retail processes](./02_Features.md#digitize-all-retail-processes)
 
-- [Processes](./03_Processes.md)
+- [Processes overview](./03_Processes.md)
+    - [POS documentation](03_Processes.md#pos-documentation)
+    - [POS interactions with other modules](03_Processes.md#pos-interactions-with-other-modules)

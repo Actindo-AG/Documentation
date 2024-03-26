@@ -10,12 +10,12 @@
 
 [comment]: <> (add link to Warehouse, Accounting, Settings module if available)
 
-# Create a store via wizard in POS
+# Create a store in POS using the wizard
 
 There are two ways to create a store in POS: via wizard that is described in this topic, or manually, see [Create a store manually](./06a_CreateStoreManually.md).  
 
 
-## Create a store via wizard
+## Create a store using the wizard
 
 The store wizard guides you through all steps to create a store and its full functionality. Therefore, it is highly recommended that you use the wizard instead of creating a store manually.
 
@@ -249,7 +249,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ## Finalize the wizard
 
-In this step you check if any necessary information is still missing and you complete the configuration of the store.
+In this step you check if any necessary information is still missing, and you complete the configuration of the store.
 
 #### Prerequisites
 

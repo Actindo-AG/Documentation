@@ -1,39 +1,59 @@
 # Adjust workflows
 
-To make payment data from the POS available to other modules such as the Accounting or the Order Management module, you need to add cash payment processing to your order workflow. In addition, non sales-related postings, such as cash in and cash out, must be processed by the workflow so that they can be posted in Accounting.
+To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payment processing to your order workflow. In addition, non sales-related postings, such as cash in and cash out, must be processed by the workflow so that they can be posted in the *Accounting*.
 
 <!---Zu Info: Die Screenshot stammen teilweise aus der Workflow-Doku. Die überarbeiteten/aktualisierten  Screenshots sind dann verfügbar, wenn workflow 2 veröffentlicht ist--->
 
-## Extend order workflow
+## Extend import channels order in OMS workflow
+
+You need to transfer all sales-related POS postings to the *Order Management* module. If an order has been completed, a cash invoice business document (RB) is created in the *Omni-Channel* module and must be posted in the *Order Management* module. In addition, the payment must be posted in Accounting. 
+To do this, you can include the relevant processing for sales-related POS postings into your existing order workflow.
+
+> [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of the standard workflow.
+
+#### Prerequisites
+
+- You have the required rights to edit a workflow.
+- Your customer-specific order workflow is already created.
+- The *UCS Sync for POS* plugin is installed.
+
+#### Procedure
+
+*Process Orchestration > Workflow > Select order workflow > Select version*
+
+![Order workflow](../../Assets/Screenshots/POS/Sales/Workflow/OrderWorkflow.png "[Order workflow]")
+
+1. After the transition for finishing the order export (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport), add the 
+
+    ![Insert transition](../../Assets/Screenshots/POS/Sales/Workflow/InsertTransition.png "[Insert transition]")
 
 
-
-Im order workflow hinzufügen -> ist Barrechnung? dann eine Entscheidng ja/ nein und eigenen Pfad und Sync Payment hinzufügen
 
 ## Synchronize cash journal
 
 You need to transfer non sales-related POS postings such as cash ins and cash outs to the *Accounting* module or a third party application. To do this, you must synchronize the cash journal. A one-step workflow is suitable for this. For detailed information on workflows, see [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation.   
 The following procedures describe step-for-step how to create the required workflow.
 
-### Create synchronize cash journal workflow
+### Create the synchronize cash journal workflow
 
 Create the workflow needed to post non sales-related POS postings in the *Accounting* module
 
 #### Prerequisites
 
 - You have the required rights to edit a workflow.
+- The *UCS Sync for POS* plugin is installed.
 
 #### Procedure
 
 *Process Orchestration > Workflow > Add workflow*
 
-![Create workflow](../../Assets/Screenshots/POS/Sales/Workflow/CreateWorkflow.png)
+![Create workflow](../../Assets/Screenshots/POS/Sales/Workflow/CreateWorkflow.png "[Create workflow]")
 
 1. Enter a name for the new workflow in the *Select a name for your new workflow* field.
 
 3. Enter a unique key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
-4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type, or enter a keyword you are searching for. If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!--Muss man dafür Start subprocess core action einfügen?>
+4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type, or enter a keyword you are searching for. If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen?>
 
 5. Select the start place in the search result list. 
 
@@ -95,7 +115,7 @@ Create the workflow needed to post non sales-related POS postings in the *Accoun
 
     ![Edit trigger for workflow Journal item](../../Assets/Screenshots/POS/Sales/Workflow/CreateTrigger.png "[Edit trigger for workflow Journal item]")
 
-11. Click the [Apply changes] button.
+11. Click the [Apply changes] button.   
     The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
@@ -136,14 +156,19 @@ Add the conditions that define the triggers that initiate the Sync cash journal 
 
     ![Edit conditions](../../Assets/Screenshots/POS/Sales/Workflow/EditConditions.png)
 
-9. Click the [APPLY CHANGES] button. 
+9. Click the [APPLY CHANGES] button.   
     All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
+
 
 
 ### Add a transition
 
+Add a transition with which the synchronization of the non-sales related POS postings are processed and posting for the *Accounting* are supplied. For this, the `/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem` transition is available.
+
 #### Prerequisites
 
+- The Sync cash journal workflow has been created.
+- You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -174,7 +199,7 @@ Add the conditions that define the triggers that initiate the Sync cash journal 
 
     ![New place added](../../Assets/Screenshots/POS/Sales/Workflow/AddNewPlace.png) 
 
-6. Select the new place and drag it on the end place.
+6. Click the new place and drag and drop it on the end place.
 
     ![Workflow finalized](../../Assets/Screenshots/POS/Sales/Workflow/WorkflowFinalized.png "[Workflow finalized]") 
 

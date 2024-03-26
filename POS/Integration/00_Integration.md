@@ -23,8 +23,8 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Map the payment methods](./05_ConfigureGlobalSettings.md#map-the-payment-methods)
 
 
-- [Create a store via wizard in POS](./06_CreateStore.md)
-    - [Create a store via wizard](./06_CreateStore.md#create-a-store-via-wizard)
+- [Create a store in POS using the wizard](./06_CreateStore.md)
+    - [Create a store using the wizard](./06_CreateStore.md#create-a-store-using-the-wizard)
     - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
     - [Configure the store details](./06_CreateStore.md#configure-the-store-details)
     - [Configure the pay desk](./06_CreateStore.md#configure-the-pay-desk)
