@@ -1,3 +1,6 @@
+[!!User interface Attributes](../UserInterface/to-be-determined)
+[!!Manage an attribute set in DataHub](../../DataHub/Integration/02_ManageAttributeSets.md)
+
 # Manage the attribute sets for tasks
 
 An attribute set consist of multiple attributes to classify certain entity type, in this case, a task. In the *Tasks* module, you can create, edit, and deactivate attribute sets that are specific to your tasks. 
@@ -14,7 +17,7 @@ For detailed information on how to create, edit, deactivate, and delete attribut
 
 *Tasks > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attributes]")
+![Attribute sets](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attribute sets]")
 
 For detailed information on how to create an attribute set, see [Create an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#create-an-attribute-set) in the *DataHub* documentation.
 
@@ -22,7 +25,7 @@ For detailed information on how to create an attribute set, see [Create an attri
 
 *Tasks > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attributes]")
+![Attribute sets](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attribute sets]")
 
 For detailed information on how to edit an attribute set, see [Edit an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#edit-an-attribute-set) in the *DataHub* documentation.
 
@@ -30,7 +33,7 @@ For detailed information on how to edit an attribute set, see [Edit an attribute
 
 *Tasks > Settings > Tab ATTRIBUTE SETS*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attributes]")
+![Attribute sets](../../Assets/Screenshots/Tasks/Settings/AttributeSets/TasksAttributeSets.png "[Attribute sets]")
 
 For detailed information on how to deactivate an attribute set, see [Deactivate an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md#deactivate-an-attribute-set) in the *DataHub* documentation.
 
