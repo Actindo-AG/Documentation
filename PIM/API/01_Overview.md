@@ -40,6 +40,11 @@ The *POST* method is always used for all Actindo API endpoints. All other method
 
 The response codes correspond the standard HTTP status codes. For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
 
+| Code | Description | Notes |
+| ---- | ----------- | ------ |
+| 200  | OK          | 
+
+
 
 Endpoint -> It varies depending on version!
 

@@ -98,12 +98,46 @@ Create a new single product. A single product is ...
 
     {
         "product": {
-            "sku": "ABC_1234",
-            "attributeSetId": 592
+            "sku": "Shirt_123",
+            "attributeSetId": 622
         }
     }
 
 ### Single product response
+
+    {
+        "product": {
+            "id": 822,
+            "sku": "Shirt_123",
+            "created": "2024-03-26 13:38:39",
+            "createdBy": 220741,
+            "createdByUsername": "User Name (username)",
+            "modified": "2024-03-26 13:38:39",
+            "modifiedBy": 220741,
+            "modifiedByUsername": "User Name (username)",
+            "lifecycleStatusChangedAt": null,
+            "lifecycleStatusChangedBy": null,
+            "lifecycleStatusChangedByUsername": null,
+            "attributeSetId": 622,
+            "attributeSetName": "Hemden",
+            "mappedAttributeSetIds": null,
+            "variantStatus": "single",
+            "lifecycleStatus": "active",
+            "isFrozenByMe": null,
+            "frozenDate": null,
+            "frozenByUid": null,
+            "frozenByName": null,
+            "frozenSesskey": null,
+            "frozenRequestId": null,
+            "entityId": 2617111665,
+            "_E": 2617111665
+        },
+        "success": true,
+        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
+        "displayMessageTitle": "Produkt erstellen",
+        "error": null,
+        "job_id": null
+    }
 
 
 ### Single product in two languages request
@@ -111,16 +145,50 @@ Create a new single product. A single product is ...
 
     {
         "product": {
-            "sku": "ABC_1234",
-            "attributeSetId": 123,
+            "sku": "Shirt_456",
+            "attributeSetId": 622,
             "_pim_art_name__actindo_basic__en_US": "Shirt",
             "_pim_art_name__actindo_basic__de_DE": "Hemd",
             "_pim_products_description__actindo_basic__en_US": "This is a product description.",
-            "_pim_products_description__actindo_basic__de_DE": "Das ist eine Produktbeschreibung.",
+            "_pim_products_description__actindo_basic__de_DE": "Das ist eine Produktbeschreibung."
         }
     }
 
 ### Single product in two languages response
+
+    {
+        "product": {
+            "id": 832,
+            "sku": "Shirt_456",
+            "created": "2024-03-26 13:43:37",
+            "createdBy": 220741,
+            "createdByUsername": "User Name (username)",
+            "modified": "2024-03-26 13:43:38",
+            "modifiedBy": 220741,
+            "modifiedByUsername": "User Name (username)",
+            "lifecycleStatusChangedAt": null,
+            "lifecycleStatusChangedBy": null,
+            "lifecycleStatusChangedByUsername": null,
+            "attributeSetId": 622,
+            "attributeSetName": "Hemden",
+            "mappedAttributeSetIds": null,
+            "variantStatus": "single",
+            "lifecycleStatus": "active",
+            "isFrozenByMe": null,
+            "frozenDate": null,
+            "frozenByUid": null,
+            "frozenByName": null,
+            "frozenSesskey": null,
+            "frozenRequestId": null,
+            "entityId": 2617111665,
+            "_E": 2617111665
+        },
+        "success": true,
+        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
+        "displayMessageTitle": "Produkt erstellen",
+        "error": null,
+        "job_id": null
+    }
 
 
 ### Single product with different prices pro scope request
@@ -159,7 +227,7 @@ Create a master product. A master product is ...
       {
           "product": {
               "sku": "MASTER1",
-              "attributeSetId": 612,
+              "attributeSetId": 622,
               "variantStatus": "master"
           }
       }
@@ -167,7 +235,39 @@ Create a master product. A master product is ...
 
 ### Master product response
 
-
+      {
+          "product": {
+              "id": 842,
+              "sku": "MASTER-Shirt_1234",
+              "created": "2024-03-26 13:48:02",
+              "createdBy": 220741,
+              "createdByUsername": "User Name (username)",
+              "modified": "2024-03-26 13:48:02",
+              "modifiedBy": 220741,
+              "modifiedByUsername": "User Name (username)",
+              "lifecycleStatusChangedAt": null,
+              "lifecycleStatusChangedBy": null,
+              "lifecycleStatusChangedByUsername": null,
+              "attributeSetId": 622,
+              "attributeSetName": "Hemden",
+              "mappedAttributeSetIds": null,
+              "variantStatus": "master",
+              "lifecycleStatus": "active",
+              "isFrozenByMe": null,
+              "frozenDate": null,
+              "frozenByUid": null,
+              "frozenByName": null,
+              "frozenSesskey": null,
+              "frozenRequestId": null,
+              "entityId": 2617111665,
+              "_E": 2617111665
+          },
+          "success": true,
+          "displayMessage": "Das Produkt wurde erfolgreich erstellt",
+          "displayMessageTitle": "Produkt erstellen",
+          "error": null,
+          "job_id": null
+      }
 
 ## Create a variant product
 
@@ -188,14 +288,14 @@ Create a variant product. A variant product is ...
 
 ### Variant product request
 
-     {
+    {
       "product": 
         {
-          "sku": "CHILD1",
-          "attributeSetId": 592,
+          "sku": "VARIANT-Shirt_38",
+          "attributeSetId": 622,
           "variantStatus": "child",
           "variantSet": {
-            "id": 2
+            "id": 32
           }
         }
     }
@@ -203,6 +303,39 @@ Create a variant product. A variant product is ...
 
 ### Variant product response
 
+    {
+        "product": {
+            "id": 852,
+            "sku": "VARIANT-Shirt_38",
+            "created": "2024-03-26 13:51:25",
+            "createdBy": 220741,
+            "createdByUsername": "User Name (username)",
+            "modified": "2024-03-26 13:51:25",
+            "modifiedBy": 220741,
+            "modifiedByUsername": "User Name (username)",
+            "lifecycleStatusChangedAt": null,
+            "lifecycleStatusChangedBy": null,
+            "lifecycleStatusChangedByUsername": null,
+            "attributeSetId": 622,
+            "attributeSetName": "Hemden",
+            "mappedAttributeSetIds": null,
+            "variantStatus": "child",
+            "lifecycleStatus": "active",
+            "isFrozenByMe": null,
+            "frozenDate": null,
+            "frozenByUid": null,
+            "frozenByName": null,
+            "frozenSesskey": null,
+            "frozenRequestId": null,
+            "entityId": 2617111665,
+            "_E": 2617111665
+        },
+        "success": true,
+        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
+        "displayMessageTitle": "Produkt erstellen",
+        "error": null,
+        "job_id": null
+    }
 
 
 
@@ -291,19 +424,19 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
 
 ### Add a variant to master product request
 
-
       {
         "variantProduct": {
-          "id": 82
+          "id": 852
         },
         "parentProduct": {
-          "id": 72
+          "id": 842
         },
         "variantSet": {
-          "id": 22
+          "id": 32
         }
       }
 
+[comment]: <> ("error": "Call to a member function getVariantSet() on a non-object (null)",)
 
 ### Add a variant to master product response
 
@@ -331,6 +464,7 @@ The required fields are marked in bold.
 #### Samples
 
 ### Delete a product request
+
     {
       "product": {
         "id": 456
@@ -339,7 +473,15 @@ The required fields are marked in bold.
 
 ### Delete a product response
 
-
+    {
+        "deleted": 1,
+        "notDeleted": 0,
+        "success": true,
+        "displayMessage": "Ein Produkt wurde endgültig gelöscht.",
+        "displayMessageTitle": "Produkte löschen",
+        "error": null,
+        "job_id": null
+    }
 
 
 ## Move a product to recycle bin
@@ -371,6 +513,16 @@ The required fields are marked in bold.
 
 ### Move product to recycle bin response
 
+    {
+        "movedToRecycleBin": 1,
+        "notMovedToRecycleBin": 0,
+        "success": true,
+        "displayMessage": "Ein Produkt wurde gelöscht.",
+        "displayMessageTitle": "Produkte gelöscht",
+        "error": null,
+        "job_id": null
+    }
+
 
 ## Move a product to archive
 
@@ -400,7 +552,15 @@ The required fields are marked in bold.
 
 ### Move product to archive response
 
-
+    {
+        "archived": 1,
+        "notArchived": 0,
+        "success": true,
+        "displayMessage": "Ein Produkt wurde archiviert.",
+        "displayMessageTitle": "Produkte in das Archiv verschoben.",
+        "error": null,
+        "job_id": null
+    }
 
 ## List products
 
@@ -427,21 +587,115 @@ The required fields are marked in bold.
 
 #### Samples 
 
-### List products by creation date
+### List products by creation date request
 
     {
       "filter": [
         {
           "property": "created",
-          "operator": "<",
-          "value": "2024-03-01 00:00:00"
+          "operator": ">",
+          "value": "2024-03-26 00:00:00"
         }
       ],
       "start": 0,
-      "limit": 5000
+      "limit": 10
     }
 
-### List variant products
+### List products by create date response
+
+    {
+        "data": [
+            {
+                "id": 822,
+                "sku": "Shirt_123",
+                "created": "2024-03-26 13:38:39",
+                "createdBy": 220741,
+                "createdByUsername": "User Name (username)",
+                "modified": "2024-03-26 13:38:39",
+                "modifiedBy": 220741,
+                "modifiedByUsername": "User Name (username)",
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 622,
+                "attributeSetName": "Hemden",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "single",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 832,
+                "sku": "Shirt_456",
+                "created": "2024-03-26 13:43:37",
+                "createdBy": 220741,
+                "createdByUsername": "User Name (username)",
+                "modified": "2024-03-26 13:43:37",
+                "modifiedBy": 220741,
+                "modifiedByUsername": "User Name (username)",
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 622,
+                "attributeSetName": "Hemden",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "single",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 852,
+                "sku": "VARIANT-Shirt_38",
+                "created": "2024-03-26 13:51:25",
+                "createdBy": 220741,
+                "createdByUsername": "User Name (username)",
+                "modified": "2024-03-26 14:46:51",
+                "modifiedBy": 220741,
+                "modifiedByUsername": "User Name (username)",
+                "lifecycleStatusChangedAt": "2024-03-26 14:46:51",
+                "lifecycleStatusChangedBy": 220741,
+                "lifecycleStatusChangedByUsername": "User Name (username)",
+                "attributeSetId": 622,
+                "attributeSetName": "Hemden",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "single",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            }
+        ],
+        "n_rows": 3,
+        "success": true,
+        "displayMessage": null,
+        "displayMessageTitle": null,
+        "error": null,
+        "job_id": null
+    }
+
+  
+[comment]: <> (Komisch! Alle als single, obwohl ein single, ein master und ein child)
+
+### List variant products request
 
     {
      "filter": [
@@ -452,8 +706,149 @@ The required fields are marked in bold.
         }
     ],
     "start": 0,
-    "limit": 5000
+    "limit": 5
 }
 
 
+### List variant products response
 
+    {
+        "data": [
+            {
+                "id": 12,
+                "sku": "IP13-pink-128GB",
+                "created": "2022-12-02 14:23:08",
+                "createdBy": 225622,
+                "createdByUsername": null,
+                "modified": "2022-12-02 14:32:15",
+                "modifiedBy": 225622,
+                "modifiedByUsername": null,
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 592,
+                "attributeSetName": "Smartphones",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "child",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 22,
+                "sku": "IP13-pink-256GB",
+                "created": "2022-12-02 14:23:10",
+                "createdBy": 225622,
+                "createdByUsername": null,
+                "modified": "2022-12-02 14:32:22",
+                "modifiedBy": 225622,
+                "modifiedByUsername": null,
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 592,
+                "attributeSetName": "Smartphones",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "child",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 32,
+                "sku": "IP13-pink-512GB",
+                "created": "2022-12-02 14:23:11",
+                "createdBy": 225622,
+                "createdByUsername": null,
+                "modified": "2022-12-02 14:32:22",
+                "modifiedBy": 225622,
+                "modifiedByUsername": null,
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 592,
+                "attributeSetName": "Smartphones",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "child",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 42,
+                "sku": "IP13-blue-128GB",
+                "created": "2022-12-02 14:23:12",
+                "createdBy": 225622,
+                "createdByUsername": null,
+                "modified": "2022-12-02 14:32:23",
+                "modifiedBy": 225622,
+                "modifiedByUsername": null,
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 592,
+                "attributeSetName": "Smartphones",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "child",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            },
+            {
+                "id": 52,
+                "sku": "IP13-blue-256GB",
+                "created": "2022-12-02 14:23:14",
+                "createdBy": 225622,
+                "createdByUsername": null,
+                "modified": "2022-12-02 14:32:23",
+                "modifiedBy": 225622,
+                "modifiedByUsername": null,
+                "lifecycleStatusChangedAt": null,
+                "lifecycleStatusChangedBy": null,
+                "lifecycleStatusChangedByUsername": null,
+                "attributeSetId": 592,
+                "attributeSetName": "Smartphones",
+                "mappedAttributeSetIds": null,
+                "variantStatus": "child",
+                "lifecycleStatus": "active",
+                "isFrozenByMe": false,
+                "frozenDate": null,
+                "frozenByUid": null,
+                "frozenByName": null,
+                "frozenSesskey": null,
+                "frozenRequestId": null,
+                "entityId": 2617111665,
+                "_E": 2617111665
+            }
+        ],
+        "n_rows": 63,
+        "success": true,
+        "displayMessage": null,
+        "displayMessageTitle": null,
+        "error": null,
+        "job_id": null
+    }
