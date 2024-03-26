@@ -2,7 +2,7 @@
 
 The EDIFACT integration of the *Actindo Core1 Platform* ensures the automated transfer of data between the *Actindo Core1 Platform* and any external systems, so that you can easily connect your existing IT landscape to them. EDIFACT refers to the electronic and fully automatic exchange of data between different application systems. It thus serves as the basis for the digitalization of processes and the transfer of important data, such as orders, order confirmations, delivery notes, or invoices. 
 
-This documentation provides you with an example guide of how to edit and export an EDIFACT INVOIC message that you can use to meet the specifications you got from your business partner.
+This documentation provides you with an example guide of how to edit and export EDIFACT INVOIC messages that you can use to meet the specifications you got from your business partner.
 
 The documentation refers both to the *XML/EDIFACT & UN/EDIFACT Exporter* plugin version 1.0.0 and the *DataHub Exporter* module version 4.1.0. There may be differences in the UI, features, and operation if your *XML/EDIFACT & UN/EDIFACT Exporter* plugin or the *DataHub Exporter* module is installed in another version.
 

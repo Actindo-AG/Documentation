@@ -188,5 +188,6 @@ For detailed information on the *Dependencies* tab, see [Dependencies](../../Dat
 
 The list displays all ETL processes where an error has occurred and is described in the selected log message. Depending on the settings, the displayed columns may vary. All fields are read-only.   
 If no ETL processes are involved, the *No ETL processes exist* notice is displayed.
+<!---Stimmt das so?-->
 
 For detailed information on the fields displayed in the list, see [ETL Processes](../../DataHub/UserInterface/02h_ETLProcesses.md) in the *DataHub* documentation.

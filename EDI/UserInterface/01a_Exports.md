@@ -244,7 +244,7 @@ The wizard window for creating source entities and doing the mappings is display
 
 This step is displayed when you assign a data source. It is also displayed when you select a data source for doing the mapping. For detailed information on the mapping functions, see [Mapping](../../DataHub/UserInterface/02d_ETL.md#mapping) in the *DataHub* documentation.
 
-< [Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant to export message mappings.
+> [Info] Note that the wizard does not provide the whole functional scope that the *DataHub* mapping provides. The wizard contains only those functions that are relevant to export message mappings.
 
 - [CANCEL]    
    Click this button to finish the wizard without saving it.    

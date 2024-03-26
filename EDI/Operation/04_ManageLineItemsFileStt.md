@@ -34,7 +34,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
 3. Click the data source for which you want to map the segment for the line items.   
     - The *Map attributes* wizard window is displayed.     
-    - In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.    
+    - In the *Destination attribute* column, a list of all EDI segment rows for which you have defined a string attribute is displayed.    
     - The *EDI export SG26* or *EDI export SG27* entry is available.
 
         ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
@@ -56,7 +56,6 @@ Prepare the data mapping for the line items so that the relevant data for the ma
         ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingDone.png "[SG26 mapping settings]")  
 
 7. Click the [SAVE] button in the top right corner of the wizard.   
-    The *Please select a destination attribute in the grid on the left to edit the mapping* text is displayed.
 
 8. Finalize the *Map attributes* wizard by clicking the [CONTINUE] button until you can click the [FINALIZE] button.
   
@@ -73,6 +72,9 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 - You have the message specification of your business partner at hand.
 - You are currently creating the line item definition and have entered the necessary data in the *Settings* tab, see [Create basic definition settings](./01_ManageDefinitions.md#create-basic-definition-settings).
+
+    > [Info] You cannot save the definition until you have entered the settings in the file settings tab.
+
 - You have prepared the line item export in the header file definition, see [Prepare line item export](./02_ManageHeaderFileSett.md#prepare-line-item-export).
 - You have prepared the data mapping for the line items, [Prepare data mapping for the line items](#prepare-data-mapping-for-the-line-items).
 
@@ -96,7 +98,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26   
     Alternatively, you can copy the two parts from the header file message structure.  
 
-    < [Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
+    > [Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
 

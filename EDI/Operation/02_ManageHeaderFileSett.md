@@ -5,7 +5,7 @@
 
 The following procedures show by using an example how to specify the fields required by your business partner. As example, the D07A INVOIC message is used.  
 
-< [Info] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
+> [Info] The following procedures are examples only of how to specify specific header segments of the EDIFACT message. Follow the guidelines of your business partner when specifying your EDIFACT message.  
 
 You can add constant values as well as strings that are to be determined via attribute mapping. Additionally, you can specify conditions for the output of specific segments.
 
