@@ -79,11 +79,9 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 ## Create a single product
 
-Create a new product. 
+Create a new single product. A single product is ...
 
-### Endpoint
-
-/Actindo.Modules.Actindo.PIM.Products.create
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.create
 
 ### Definitions
 
@@ -93,7 +91,9 @@ Create a new product.
 | **attributeSetId**   | integer  | Attribute set identification number |
 
 
-### Request sample
+### Examples
+
+#### Single product request
 
 
     {
@@ -103,25 +103,11 @@ Create a new product.
         }
     }
 
-### Response  sample
+#### Single product response
 
 
+#### Single product in two languages request
 
-## Create a single product in two languages
-
-### Endpoint
-
-/Actindo.Modules.Actindo.PIM.Products.create
-
-### Definitions
-
-| Attribute       | Data type   | Description |
-| ----------- | ----------- | ----------- | 
-| **sku**      | string   |  Product SKU | 
-| **attributeSetId**   | integer  | Attribute set identification number |
-
-
-### Request sample
 
     {
         "product": {
@@ -134,24 +120,10 @@ Create a new product.
         }
     }
 
-### Response  sample
+#### Single product in two languages response
 
 
-## Create a single product with different prices pro scope
-
-### Endpoint
-
-/Actindo.Modules.Actindo.PIM.Products.create
-
-### Definitions
-
-| Attribute       | Data type   | Description |
-| ----------- | ----------- | ----------- | 
-| **sku**      | string   |  Product SKU | 
-| **attributeSetId**   | integer  | Attribute set identification number |
-
-
-### Request sample
+#### Single product with different prices pro scope request
 
     {
         "product": {
@@ -163,26 +135,22 @@ Create a new product.
     }
 
   
-### Response  sample
+#### Single product with different prices pro scope response
 
 
 ## Create a master product
 
+Create a master product. A master product is ...
 
+**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
-### Endpoint
-
-/Actindo.Modules.Actindo.PIM.Products.create
-
-
-### Request sample
+### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU | 
 | **attributeSetId**   | integer  | Attribute set identification number |
 | **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
-
 
 ### Request sample
 
@@ -195,15 +163,15 @@ Create a new product.
       }
 
 
-### Response  sample
+### Response sample
 
 
 
 ## Create a variant product
 
-### Endpoint
+Create a variant product. A variant product is ...
 
-/Actindo.Modules.Actindo.PIM.Products.create
+**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
 ### Definitions
 
@@ -219,7 +187,7 @@ Create a new product.
      {
       "product": 
         {
-          "sku": "CHILD4",
+          "sku": "CHILD1",
           "attributeSetId": 592,
           "variantStatus": "child",
           "variantSet": {
@@ -230,6 +198,8 @@ Create a new product.
 
 
 ### Response sample
+
+
 
 
 ## Edit a product
@@ -250,7 +220,7 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number  |
 
-### Request samples
+### Examples
 
 #### Update price and add images
 
@@ -305,9 +275,8 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
 | **parentProduct**       | object    |  It contains the required field **id**.  |
 | **variantSet**          | object    |  It contains the required field **id**.  |
 
-### Request samples
+### Add variants to master product request sample
 
-#### Add a variant to a product
 
       {
         "variantProduct": {
@@ -322,34 +291,11 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
       }
 
 
-#### Add multiple variants to a product
-
-      {
-        "variantProduct": {
-          "id": 82
-        },
-        "parentProduct": {
-          "id": 72
-        },
-        "variantSet": {
-          "id": 22
-        },
-
-        "variantProduct": {
-          "id": 92
-        },
-        "parentProduct": {
-          "id": 72
-        },
-        "variantSet": {
-          "id": 22
-        }
-      }
-
-[comment]: <> (Ist das überhaupt möglich? Wie? Muss man auch die defining und changeable attributes in body definieren?)
+### Add variants to master product response sample
 
 
-## Delete a product permanently
+
+## Delete a product
 
 You can delete a product if it is no longer needed. If it is a master product, that is, with a product with variants, all variants will also be deleted. If it is a variant product, only the addressed variant will be deleted.
 
@@ -367,20 +313,21 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-### Request sample
-
+### Delete a product request sample
     {
       "product": {
         "id": 456
       }
     }
 
+### Delete a product response sample
 
-## Delete a product temporarily
+
+
+
+## Move a product to recycle bin
 
 You can delete a product temporarily by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product, that is, with a product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
-
-### Move a product to recycle bin
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
 
@@ -393,7 +340,7 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-### Request sample
+### Move product to recycle bin request sample
 
     {
       "product": {
@@ -403,8 +350,12 @@ The required fields are marked in bold.
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromRecycleBin
 
+### Move product to recycle bin response sample
 
-### Move a product to archive
+
+## Move a product to archive
+
+You can delete a product temporarily by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product, that is, with a product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
@@ -417,7 +368,7 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-### Request sample
+### Move product to archive request sample
 
     {
       "product": {
@@ -426,6 +377,9 @@ The required fields are marked in bold.
     }
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
+
+### Move product to archive response sample
+
 
 
 ## List products
@@ -451,7 +405,7 @@ The required fields are marked in bold.
 | limit | integer | Pagination: Pagination limit |
 
 
-### Request sample  
+### Examples 
 
 #### Set a filter by creation date
 
