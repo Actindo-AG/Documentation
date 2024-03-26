@@ -27,14 +27,16 @@ Create a connection to a certain EDIFACT message receiver.
 
 2. Enter a name for the connection in the *Name* field. It might be useful to choose a name that contains a precise description of the purpose, so that you have more flexibility for further connection names, for example, "EDIFACT to [supplier]". 
 
-3. Click the *Driver* drop-down list and select the driver/protocol your business partner require. For EDIFACT messages, in most cases, the SFTP or the AS2 drivers are required.   
+3. Click the *Driver* drop-down list and select the driver/protocol your business partner require. For EDIFACT messages, in most cases, the SFTP or the AS2 drivers are required. 
+
+    > [Info] For the AS2 (Applicability Statement 2) protocol, the *AS2Transport* plugin is available in the *Core1 Platform*. Contact your MPS consultant if your business partner requires this protocol. 
+
     The following drivers are available in the standard:    
     - SFTP   
     - Internal  
     - POST call   
     - Output
-    > [Info] For the AS2 (Applicability Statement 2) protocol, the *AS2Transport* plugin is available in the *Core1 Platform*. Contact your MPS consultant if your business partner requires this protocol.
-     
+        
     The *Credentials* section is displayed below the *Driver* field.
 
     ![Credentials](../../Assets/Screenshots/EDI/Integration/Credentials.png "[Credentials]")
@@ -71,7 +73,7 @@ At least one connection has been created, see [Create connection](#create-connec
 
     ![Edit connection](../../Assets/Screenshots/EDI/Integration/EditConnectionCredentials.png "[Edit connection]")
 
-2. Edit the required data of the connection in the corresponding fields.
+2. Edit the data to be changed in the corresponding fields.
 
 4. Click the [SAVE] button.   
     The *Checking credentials...* notice is displayed. The *Edit connection* view is automatically closed when the changes have been saved. The *Connections* view is displayed again.
@@ -106,7 +108,7 @@ A connection can only be used if it is active. Otherwise, no data is being synch
 
 ## Disable connection
 
-Once a connection has been established, it cannot be deleted because potential dependencies. Nevertheless, you can disable a connection if you no loner use it. You can disable several active connections at a time.
+Once a connection is established, it cannot be deleted because of potential dependencies. Nevertheless, you can disable a connection if you no longer use it. You can disable several active connections at a time.
 
 #### Prerequisites
 

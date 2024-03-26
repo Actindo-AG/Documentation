@@ -18,7 +18,7 @@ Note that the structure of the EDIFACT format is standardized, not the usage. As
 
 ## Tips for preparation in advance
 
-- Many internet providers offer EDIFACT information. For a first impression, we can recommend the [TRUUGO](https://www.truugo.com/edifact/ "[TRUUGO]") website. It provides a well-structured presentation of the EDIFACT messages in their different versions.  
+- Many internet providers offer EDIFACT information. For a first impression, we can recommend the [TRUUGO](https://www.truugo.com/edifact/ "[https://www.truugo.com/edifact/]") website. It provides a well-structured presentation of the EDIFACT messages in their different versions.  
 
 - Ask your business partner for the EDIFACT message specification. Sometimes it is also called message implementation guide. Specifications from some major vendors are also available for download on the Internet.
 
@@ -27,7 +27,7 @@ Note that the structure of the EDIFACT format is standardized, not the usage. As
 - Review this specification for the segments your business partner has defined as required and ensure that you have this data available.   
 
 - Note the following: 
-    - The names of the segments and fields in the EDIFACT message structure differ slightly from the names in the Actindo visual representation of the structure. The Actindo elements have a prefixed capital letter with an underscore. For example **LIN** (EDIFACT message structure) and **S_LIN** (Actindo visualization of the structure).
+    - The names of the segments and fields in the EDIFACT message structure differ slightly from the names in the Actindo visual representation of the structure. The Actindo elements have a prefixed capital letter with an underscore. For example, what is called a **LIN** segment in the EDIFACT message structure is called **S_LIN** in the Actindo visualization of the structure.
     - Some segments are mandatory (M) only in case the optional segment (O) above is to be filled. See the example:
 
       ![Mandatory segments of the EDIFACT standard](../../Assets/Screenshots/EDI/Overview/OptionalSegment.png "[Mandatory segments of the EDIFACT standard]")
@@ -54,19 +54,17 @@ Use the following checklist to organize your work. Manage the definitions in the
 |To do                                   | Done   
 |-----|------- 
 |1. Create the connection to your business partner, see [Manage connections](../Integration/01_ManageConnections.md).|   |     
-|2. Create a basic definition setting for the header, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings).|   |   
-|3. Prepare the definition of file settings to make this task easier, see [Prepare definition of file settings](../Operation/01_ManageDefinitions.md#prepare-definition-of-file-settings).|   |   
-|4. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |
-|5. If desired, you can add an attribute mapping when you have finished the file setting for one section of the EDIFACT message, or you do it after finishing the whole message definition. |   |
-|6. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
-|7. Create a basic definition setting for the line items, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings). |   |   
-|8. Prepare the data mapping for the line items, see [Prepare data mapping for the line items](../Operation/04_ManageLineItemsFileStt.md#prepare-data-mapping-for-the-line-items) |    |    |   
-|9. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
-|10. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
-|11. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
-|12. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
-|13. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   | 
-|14. Publish the workflow.  
+|2. Create a basic definition setting for the header, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings).|   |      
+|3. Define the file settings for the header, see [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).|   |
+|4. Prepare the line item export, see [Prepare line item export](../Operation/02_ManageHeaderFileSett.md#prepare-line-item-export).|     |   
+|5. Create a basic definition setting for the line items, see [Create basic definition settings](../Operation/01_ManageDefinitions.md#create-basic-definition-settings). |   |   
+|6. Prepare the data mapping for the line items, see [Prepare data mapping for the line items](../Operation/04_ManageLineItemsFileStt.md#prepare-data-mapping-for-the-line-items) |    |    |   
+|7. Create file settings for the line items, see [Manage line item file settings](../Operation/04_ManageLineItemsFileStt.md).|  |
+|8. Finalize the data mapping for both the definition of the header and the line items, see [Map data source](../Operation/05_ManageDataSources.md#map-data-source).
+|9. After finishing the file settings, if desired, send the message preview to your business partner for verification, see [Preview definition](../Operation/01_ManageDefinitions.md#preview-definition).|   |   
+|10. Extend your order management workflow, for example, or another by adding actions for exporting EDIFACT messages, see [Prepare workflow](../Operation/07_PrepareWorkflow.md). |    |
+|11. Activate the definitions, see [Activate definition](../Operation/01_ManageDefinitions.md#activate-definition).|   | 
+|12. Publish the workflow.  
 
 
 <BR>

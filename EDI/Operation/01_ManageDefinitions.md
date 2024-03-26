@@ -63,7 +63,7 @@ Define basic data for the export definition. You must define a definition settin
 6. If you are in the header definition, click the *File settings* tab.  
     The *File settings* tab is displayed.
 
-    ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefEmptyFileSettings.png "[File settings tab]")
+    ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEmptFileSettings.png "[File settings tab]")
 
 7. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
 
