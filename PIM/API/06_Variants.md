@@ -17,12 +17,6 @@ Create one of several variants at once via API to an existing product.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
-**Method**: POST
-
-**Authorization:** oauth2Auth
-
-**Request body schema:** application/json
-
 ### Definitions
 
 The required fields are marked in bold.
@@ -30,7 +24,7 @@ The required fields are marked in bold.
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
 | **masterId**      | integer   |  Master product identification number |
-| **variantSetId**   | integer  | PIM variant set identification number |
+| **variantSetId**   | integer  | Variant set identification number |
 | **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
 
 [comment]: <> (Kann man so viele defining und differing attribute values hinzufügen, wie man möchte? Keine als required, aber man muss mindestens ein defining attribute haben, oder? Info fehlt.)
@@ -87,7 +81,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
     }
 
 
-[comment]: <> (Stimmt das so???)
+[comment]: <> (Überhaupt möglich???)
 
 
 
@@ -215,65 +209,6 @@ Get a list of variants. You can set one or more filters.
 
 
 
-## List variant sets
-
-Get a list of variant sets. You can set one or more filters.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
-
-**Method**: POST
-
-### Definitions
-
-The required fields are marked in bold.
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| attributeSetId | array of integer | Attribute set identification number |
-| query | string | Quick search for a query string |
-| fields | array of strings | Quick Search for query fields; null to search for all fields |
-| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
-| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
-| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
-| start | integer | Pagination: Pagination start (from 0) |
-| limit | integer | Pagination: Pagination limit |
-
-...
-
-[comment]: <> (s.o.)
-
-### Request sample  
-
-#### Get a list of variant sets setting a filter
-
-    {
-      "attributeSetId": 0,
-      "query": "string",
-      "fields": [
-        "string"
-      ],
-      "filter": [
-        {
-          "property": "string",
-          "operator": "string",
-          "value": "string"
-        }
-      ],
-      "hints": [
-        {
-          "name": "string",
-          "value": "string"
-        }
-      ],
-      "sort": [
-        {
-          "field": "string",
-          "order": "string"
-        }
-      ],
-      "start": 0,
-      "limit": 0
-    }
 
 
 
