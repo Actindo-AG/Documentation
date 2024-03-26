@@ -125,7 +125,7 @@ The *Settings* tab is used to edit the basic settings of the exporter definition
 
 ![Edit file settings](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructure.png "[Edit file settings")
 
-The *File settings* tab is used to specify the EDIFACT message fields and segments that your business partner require for the selected message type. This tab is only displayed after you have entered the *Template engine* in the *Settings* tab. 
+The *File settings* tab is used to specify the EDIFACT message fields and segments that your business partner requires for the selected message type. This tab is only displayed after you have entered the *Template engine* in the *Settings* tab. 
 
 - *Release*   
    Click this drop-down list to select the release of the EDIFACT message type your business partner require.

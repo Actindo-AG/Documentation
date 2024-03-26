@@ -3,8 +3,8 @@
 # Manage data sources
 Specify the data sources from which you want to retrieve the string attribute data that you have defined both in the header file settings and the line items file settings.   
 For example, you have defined a string attribute to determine the invoice document number. By specifying a data source here, you determine the data source from which the invoice document number is to be retrieved.    
-If required, you can specify here multiple data sources from which you can retrieve data from different sources, such as invoice data, customer data, and product data. In the next step, you can map a data source field cxontaining the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
-Tip: If you want to map the fields directly after you have specified an EDIFACT field in the file settings, it is recommended to create the data source before specifying the header &frasl; line items file segments.
+If required, you can specify here multiple data sources from which you can retrieve data from different sources, such as invoice data, customer data, and product data. In the next step, you can map a data source field containing the related data (source attribute) with the EDIFACT field (destination attribute). The EDIFACT fields are automatically provided after you have saved a string attribute allocation in the file settings.   
+Tip: If you want to map the fields directly after you have specified an EDIFACT field in the file settings, it is recommended to create the data source before specifying the header &frasl; line item file segments.
 
 
 
@@ -90,7 +90,7 @@ Map the data sources by specifying the attributes that are to be mapped on EDIFA
     ![Data sources tab](../../Assets/Screenshots/EDI/Operation/DataSourcesListWithEntries.png "[Data sources tab]")
 
 3. Click the data source for which you want to map the attributes.   
-    The *Map attributes* wizard window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute.
+    The *Map attributes* wizard window is displayed. In the *Destination attribute* column, a list of all EDI segment rows is displayed for which you have defined a string attribute or a condition.
 
     ![Data sources destination attributes](../../Assets/Screenshots/EDI/Operation/DataSourcesDestinationAttributes.png "[Data sources destination attributes]")
 

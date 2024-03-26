@@ -20,7 +20,7 @@ The following functions are available for the editing toolbar:
     A confirmation window is displayed.
     <!--- Julian, kann man das auch wieder rückgängig machen? Ich kann es nicht testen--->
 
-The following fields are available in the view.
+The following fields are available in the view:
 
 - *Name*  
     Description of the intent.

@@ -5,7 +5,7 @@
 Extend your workflows by adding an action to export the EDIFACT messages. To do this, use a workflow that processes the business document you want to transfer to your EDIFACT message receiver, for example an invoice or a delivery note. 
 
 To integrate the export to the workflow, you need to insert an
-*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code) in the *Process Orchestration* documentation. You can insert this action at any position in the workflow in which you have access to the required business document data. Note that errors that occur in the workflow after the EDI export action and before the actions that post a business document to the *Accounting* module, for example, can cause data inconsistencies that need to be cleaned up.
+*Execute PHP code* core action. For detailed information on this core action, see [Execute PHP code](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code) in the *Process Orchestration* documentation. You can insert this action at any position in the workflow in which you have access to the required business document data. Note that errors that occur in the workflow process after the EDI export action and before the actions that post a business document to the *Accounting* module, for example, can cause data inconsistencies that need to be cleaned up.
 
 The following example shows how to export a delivery note via an export definition.
 

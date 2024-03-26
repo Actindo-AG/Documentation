@@ -35,11 +35,11 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 3. Click the data source for which you want to map the segment for the line items.   
     - The *Map attributes* wizard window is displayed.     
     - In the *Destination attribute* column, a list of all EDI segment rows for which you have defined a string attribute is displayed.    
-    - The *EDI export SG26* or *EDI export SG27* entry is available.
+    - The *EDI export SG26* entry is available.
 
         ![SG26 Mapping](../../Assets/Screenshots/EDI/Operation/ExportDefMapSG26Segment.png "[SG26 Mapping]")
 
-6. Click the *EDI Export SG26* or *EDI Export SG27* destination attribute and define the mapping.    
+6. Click the *EDI Export SG26* destination attribute and define the mapping.    
    The *Settings* section is displayed on the right.
 
     ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingKonfig.png "[SG26 mapping settings]")
@@ -51,7 +51,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 
      -  On the left part of the *Settings* section, click the *Source attribute* drop-down list and select **Positions** or another attribute that represents a line item. 
 
-     -  In the *Configuration* section, click the *Subexport definition* drop-down list and select the required line item definition, for example **EDIFACT INVOIC export items customer 12.**
+     -  In the *Configuration* section, click the *Subexport definition* drop-down list and select the required line item definition, for example **EDIFACT INVOIC export items Customer 4.**
      
         ![SG26 Mapping settings](../../Assets/Screenshots/EDI/Operation/ExportDefSG26MappingDone.png "[SG26 mapping settings]")  
 
@@ -66,6 +66,7 @@ Prepare the data mapping for the line items so that the relevant data for the ma
 ## Get line item segments
 
 Get the line item segments of an EDIFACT message in order to be able to fill them. You can add constant values as well as strings and conditions that are to be determined via attribute mapping later. 
+By getting the line item segments of an EDIFACT message, you need to specify the EDIFACT group segment that contains the LIN segment used to transfer of the message line items. For the D07A INVOIC, it is the SG26 group.
 
 
 #### Prerequisites
@@ -98,27 +99,27 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
     For example: /M_INVOIC_07A/G_INVOIC_07A_SG26   
     Alternatively, you can copy the two parts from the header file message structure.  
 
-    > [Info] Note that the line items (LIN segment) are included in separate groups, such as the SG26 or SG27 group for the INVOIC.
+    
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefMessagData.png)
 
  
 5. Click the ![Get](../../Assets/Icons/Download.png "[Get]") [GET] button.   
-    The message structure of the SG26/SG27 group is displayed. The segment is highlighted in red because it is still empty.    
-    It starts with the SG26/SG27 element. 
+    The message structure of the SG26 group is displayed. The segment is highlighted in red because it is still empty.    
+    It starts with the SG26 element. 
 
     ![Message](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureLineItems.png "[Message]")
 
 
 6. If desired, expand the message structure by clicking the ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button.   
-    The message structure with its single segments is displayed. It starts with the*S_LIN* segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
+    The message structure with its single segments is displayed. It starts with the *S_LIN* segment. The ![Collapsed](../../Assets/Icons/NodeCollapsed.png "[Collapsed]") (Collapsed) button has changed to an ![Expanded](../../Assets/Icons/NodeExpanded.png "[Expanded]") (Expanded) button.
 
     ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessageStructureSG26.png "[Message structure]")
 
 7. Click the [SAVE] button in the top right corner.   
      - The *Exporter definitions* view is displayed.   
      - If you now open the definition again for editing, both the *Data Sources* tab and the *Mapping settings* tab are additionally displayed. 
-     - In the header definition file settings, you are no longer able to expand the *G_INVOIC_07A_SG26* or *G_INVOIC_07A_SG27* group.
+     - In the header definition file settings, you are no longer able to expand the *G_INVOIC_07A_SG26* group.
 
 8. If desired, create the data source and define the mapping setting. For detailed information, see [Prepare definition of file settings](./01_ManageDefinitions.md#prepare-definition-of-file-settings).
 
@@ -126,7 +127,7 @@ Get the line item segments of an EDIFACT message in order to be able to fill the
 
 ## Specify line item number
 
-Start specifying the line item segments by filling out the single elements of the*S_LIN* (line item) segment. This procedure shows how to edit the line item number on the invoice, so that each invoice line item gets a unique and ascending number.
+Start specifying the line item segments by filling out the single elements of the *S_LIN* (line item) segment. This procedure shows how to edit the line item number on the invoice, so that each invoice line item gets a unique and ascending number.
 
 #### Prerequisites
 

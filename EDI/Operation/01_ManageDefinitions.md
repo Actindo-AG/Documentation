@@ -58,18 +58,18 @@ Define basic data for the export definition. You must define a definition settin
 5. Enter the access key of your connection in the *Access key* field.
      The access key is a key that you can give to your business partner to access your *Actindo* tenant without logging in, for example, to return confirmation messages.<!---Stimmt das?--> You can freely specify any string.  
 
-     If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
+6. If you are currently creating the definition for the line items, continue with [Get line item segments](./04_ManageLineItemsFileStt.md#get-line-item-segments).
 
-6. If you are in the header definition, click the *File settings* tab.  
+7. If you are in the header definition, click the *File settings* tab.  
     The *File settings* tab is displayed.
 
     ![File settings tab](../../Assets/Screenshots/EDI/Operation/ExportDefinitionEmptFileSettings.png "[File settings tab]")
 
-7. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
+8. Click the *Release* drop-down list and select the EDIFACT version to which you want to refer. Information on the relevant version is available in the implementation guide of your business partner.
 
-8. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
+9. Click the *Message type* drop-down list and select the message type which you want to set up, for example INVOIC.
 
-9. Click the [SAVE] button.   
+10. Click the [SAVE] button.   
     - The *Submitting data* screen is displayed. After that, the *Exporter definitions* view is displayed again, the newly created definition is added. 
     - An attribute set has been created automatically and has been added to the attribute sets of the *DataHub* module. 
     - If you now open the definition again for editing, both the *Data sources* tab and the *Mapping settings* tab will be displayed in addition. 
@@ -107,7 +107,7 @@ Edit basic data for the export definition. You can edit a definition setting for
 
 To make your EDIFACT file settings specifications easier, it is recommended to do the following:
 - Create the data source.     
-    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables you to create the data source right after you have created the basic definition. You are then able to prepare the mapping directly after you have specified a variable string. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
+    This is recommended so that you can better organize the task to do the file settings and the data mapping. It enables you to create the data source right after you have created the basic definition. You are then able to prepare the mapping directly after you have specified a variable string or a condition. For detailed information, see [Assign data source](./05_ManageDataSources.md#assign-data-source).
 - Define the mapping settings.   
     This is recommended so that the necessary settings for the attribute mappings are available. For detailed information, see [Create mapping settings](./06_ManageMappingSettings.md#create-mapping-settings).
 - Continue with [Manage header file settings](../Operation/02_ManageHeaderFileSett.md).
@@ -116,9 +116,8 @@ To make your EDIFACT file settings specifications easier, it is recommended to d
 
 ## Preview definition
 
-After you have configured the entire definition including the file settings, you can preview the syntax of the message that will be automatically sent to the business partner later. You can use it to do the following:   
-- To check your settings from time to time during configuration. 
-- To send the output of the message syntax to your business partner and let him/her verify that it is correct.
+As you configure the file settings, you can use the preview to check your settings from time to time. After you have configured the entire definition including the file settings, you can preview the whole syntax of the message that will be automatically sent to the business partner later. You can use it to send the output of the message syntax to your business partner and let him/her verify that it is correct.
+
 
 #### Prerequisites
 - At least one connection has been created, see [Create connection](../Integration/01_ManageConnections.md#create-connection).
@@ -158,7 +157,7 @@ After you have configured the entire definition including the file settings, you
 
 ## Activate definition
 
-After you have configured the entire header and line item definitions including the file settings, activate the definition to be able to send EDIFACT messages to your business partner.
+This procedure is relevant after you have configured the entire header and line item definitions including the file settings, the data source mapping, and the mapping settings as well as the workflow. Activate the definition to be able to send EDIFACT messages to your business partner.
 
 #### Prerequisites
 

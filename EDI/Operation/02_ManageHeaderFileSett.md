@@ -96,10 +96,10 @@ This procedure shows how to edit a constant text value, for example the transact
     - To the right of the *D_1001* row, the ![Delete node](../../Assets/Icons/Trash10.png "[Delete node]")(Delete node) button is available only, with which you can remove your new entry, if desired. The constant value is displayed on the right side of the row. The field name and description are no longer displayed in italics.  
     - The *S_BGM C_C002* segment is now highlighted with a small black border. This indicates that the segment contains data.  
     - To the right of the *S_BGM C_C002* segment, the ![Delete attribute](../../Assets/Icons/Trash10.png "[Delete attribute]")(Delete attribute) button is available, with which you can remove all data contained in the segment at once.
+    - To the right of the *S_BGM C_C002* segment, the ![Add condition](../../Assets/Icons/AddCondition.png "[Add condition]") (Add condition) button is displayed, with which you can define a condition for the output of this segment in the data mapping later.
 
       ![Highlighted segment](../../Assets/Screenshots/EDI/Operation/ExportDefHighlightSegment.png "[Highlighted segment]")
     
-    - To the right of the *S_BGM C_C002* segment, the ![Add condition](../../Assets/Icons/AddCondition.png "[Add condition]") (Add condition) button is displayed, with which you can define a condition for the output of this segment in the data mapping later.
 
 7. Continue with [Specify document number &frasl; string attribute](#specify-document-number-⁄-string-attribute).
 
@@ -311,14 +311,13 @@ This procedure shows how to specify a condition for the output of a message segm
 6. Click the [SAVE] button to leave the header definition.   
    The *Exporter definitions* view is displayed.
 
-7. Continue specifying the header file segments until you have specified all fields that your business partner require. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the *SG26* or *SG27* segment that contains the *S_LIN* specification for the line item export. For detailed information, see [Prepare line item export](#prepare-line-item-export).
+7. Continue specifying the header file segments until you have specified all fields that your business partner requires. By doing this, do not specify the segments that are relevant for the line item export. For the INVOIC, it is the *SG26* segment that contains the *S_LIN* specification for the line item export. For detailed information, see [Prepare line item export](#prepare-line-item-export).
 
 
 
 ## Prepare line item export
 
 In order to be able to export the individual line items of an invoice with specific data sources later, the relevant line item group of an EDIFACT message must be specified to be exported as a whole. You have to do this here in the header definition file settings.  
-After you have prepared the line item export, you can define the definition for the line items, see [Manage definitions](./01_ManageDefinitions.md).
 
 This procedure shows how you must prepare the line item section of the message, so that the *DataHub Exporter* can add all line items to an invoice message later.
 
@@ -333,16 +332,16 @@ This procedure shows how you must prepare the line item section of the message, 
 ![Message structure](../../Assets/Screenshots/EDI/Operation/ExportDefMessDefDates.png "[Message structure]")
 
 
-1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions of the INVOIC, the LIN segment is included in group 27, in older versions it is in group 26.
+1. Check the EDIFACT message structure, in which group the LIN segment is available. In newer versions of the INVOIC, the LIN segment is included in group 27, in older versions as in our example it is in group 26.
 
-2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26* or *G_INVOIC_13B_SG27*.
+2. Scroll down in the message structure until you have found the relevant group, *G_INVOIC_07A_SG26*.
 
     ![Group SG26](../../Assets/Screenshots/EDI/Operation/ExportDefSLIN.png "[Group SG26]")
 
-3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* resp. *G_INVOIC_13B_SG27* row. 
+3. Click the ![Add XML attribute](../../Assets/Icons/Plus08.png "[Add XML attribute]") (Add XML attribute) button to the right of the *G_INVOIC_07A_SG26* row. 
     - The segment is highlighted with a small black border. You cannot expand it.      
-    - Another *G_INVOIC_07A_SG26* or *G_INVOIC_13B_SG27* row has been added. You can ignore it.      
-    - The EDI Export SG26/SG27 *Destination attribute* has been marked for a later data mapping.
+    - Another *G_INVOIC_07A_SG26* row has been added. You can ignore it.      
+    - The EDI Export SG26 *Destination attribute* has been marked for a later data mapping.
 
 4. Click the [SAVE] button.    
    The *Exporter definitions* view is displayed.
