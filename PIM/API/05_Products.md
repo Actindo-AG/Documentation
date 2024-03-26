@@ -83,7 +83,7 @@ Create a new single product. A single product is ...
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.create
 
-### Definitions
+#### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
@@ -91,9 +91,9 @@ Create a new single product. A single product is ...
 | **attributeSetId**   | integer  | Attribute set identification number |
 
 
-### Examples
+#### Samples
 
-#### Single product request
+### Single product request
 
 
     {
@@ -103,10 +103,10 @@ Create a new single product. A single product is ...
         }
     }
 
-#### Single product response
+### Single product response
 
 
-#### Single product in two languages request
+### Single product in two languages request
 
 
     {
@@ -120,10 +120,10 @@ Create a new single product. A single product is ...
         }
     }
 
-#### Single product in two languages response
+### Single product in two languages response
 
 
-#### Single product with different prices pro scope request
+### Single product with different prices pro scope request
 
     {
         "product": {
@@ -135,7 +135,7 @@ Create a new single product. A single product is ...
     }
 
   
-#### Single product with different prices pro scope response
+### Single product with different prices pro scope response
 
 
 ## Create a master product
@@ -144,7 +144,7 @@ Create a master product. A master product is ...
 
 **Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
-### Definitions
+#### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
@@ -152,7 +152,9 @@ Create a master product. A master product is ...
 | **attributeSetId**   | integer  | Attribute set identification number |
 | **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
 
-### Request sample
+#### Samples
+
+### Master product request
 
       {
           "product": {
@@ -163,7 +165,7 @@ Create a master product. A master product is ...
       }
 
 
-### Response sample
+### Master product response
 
 
 
@@ -173,7 +175,7 @@ Create a variant product. A variant product is ...
 
 **Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
 
-### Definitions
+#### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
@@ -182,7 +184,9 @@ Create a variant product. A variant product is ...
 | **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
 | **variantSet**   | object  | It contains the required field **id**.  |
 
-### Request sample 
+#### Samples
+
+### Variant product request
 
      {
       "product": 
@@ -197,7 +201,7 @@ Create a variant product. A variant product is ...
     }
 
 
-### Response sample
+### Variant product response
 
 
 
@@ -210,7 +214,7 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
-### Definitions
+#### Definitions
 
 For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
@@ -220,9 +224,9 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number  |
 
-### Examples
+#### Samples
 
-#### Update price and add images
+### Update price and add images request
 
     {
         "product": {
@@ -234,7 +238,9 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 
 [comment]: <> (Wie werden die images hochgeladen/verbunden? Wo befinden sich die images?)
 
-#### Add the product name in different languages
+### Update price and add images response
+
+### Add the product name in different languages request
 
     {
         "product": {
@@ -244,7 +250,10 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
             }
     }
 
-#### Add variant defining attributes
+### Add the product name in different languages response
+
+
+### Add variant defining attributes request
 
     {
         "product": {
@@ -259,13 +268,16 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 
   [comment]: <> (Response: success, aber keine Änderung in CHILD1. Warum?)
 
+### Add variant defining attributes response
+
+
 ## Add variants to master product
 
 Once you have created variant products, you can add them to the corresponding master product. You ca also move a variant product to another master product. The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
 
@@ -275,7 +287,9 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
 | **parentProduct**       | object    |  It contains the required field **id**.  |
 | **variantSet**          | object    |  It contains the required field **id**.  |
 
-### Add variants to master product request sample
+#### Samples
+
+### Add a variant to master product request
 
 
       {
@@ -291,8 +305,9 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
       }
 
 
-### Add variants to master product response sample
+### Add a variant to master product response
 
+[comment]: <> (Add multiple variants to a master product at a time?)
 
 
 ## Delete a product
@@ -304,7 +319,7 @@ You can delete a product if it is no longer needed. If it is a master product, t
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -313,14 +328,16 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-### Delete a product request sample
+#### Samples
+
+### Delete a product request
     {
       "product": {
         "id": 456
       }
     }
 
-### Delete a product response sample
+### Delete a product response
 
 
 
@@ -331,7 +348,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -340,7 +357,9 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-### Move product to recycle bin request sample
+#### Samples
+
+### Move product to recycle bin request
 
     {
       "product": {
@@ -350,7 +369,7 @@ The required fields are marked in bold.
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromRecycleBin
 
-### Move product to recycle bin response sample
+### Move product to recycle bin response
 
 
 ## Move a product to archive
@@ -359,7 +378,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -367,8 +386,9 @@ The required fields are marked in bold.
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number |
 
+#### Samples
 
-### Move product to archive request sample
+### Move product to archive request
 
     {
       "product": {
@@ -378,7 +398,7 @@ The required fields are marked in bold.
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
 
-### Move product to archive response sample
+### Move product to archive response
 
 
 
@@ -388,7 +408,7 @@ Get a list of all products including the ones in the archive or recycle bin. You
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -405,9 +425,9 @@ The required fields are marked in bold.
 | limit | integer | Pagination: Pagination limit |
 
 
-### Examples 
+#### Samples 
 
-#### Set a filter by creation date
+### List products by creation date
 
     {
       "filter": [
@@ -421,7 +441,7 @@ The required fields are marked in bold.
       "limit": 5000
     }
 
-#### Get a list of variant products
+### List variant products
 
     {
      "filter": [
