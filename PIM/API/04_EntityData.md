@@ -1,4 +1,4 @@
-# Entity data via API
+# Get entity data via API
 
 You can get all entity data you need via API. All entity data are provided in the response to your requests. Depending on the entity data you need, the endpoint you have to address may vary. 
 

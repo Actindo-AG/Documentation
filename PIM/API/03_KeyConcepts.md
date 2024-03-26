@@ -2,7 +2,7 @@
 [!!Data types](../../DataHub/UserInterface/04_DataTypeList.md)
 
 
-# Basics on Actindo Core1 OpenAPI
+# Key concepts
 
 [comment]: <> (Alternativ: Key concepts)
 

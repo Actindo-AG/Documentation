@@ -4,24 +4,20 @@ You can manage your products via API. You can create, edit, delete, both permane
 
 The keys are customer-defined. Therefore, the fields displayed in the request samples should just serve as an example. You have to include all required fields in the JSON file and provide them with a value. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module.  
 
-You can find out an entity ID via user interface or via API, see [Entities](./02_Basics.md#entities).
+You can find out an entity ID via user interface or via API, see [Entities](./03_KeyConcepts.md#entities).
 
 Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
 
-If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./06_EntityDataAPI.md#get-a-list-of-attributes-in-an-attribute-set).
+If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#get-a-list-of-attributes-in-an-attribute-set).
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
 > [Caution] In the latest version of the *DataHub* module, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
 
 
-## Create a product
+## The product object
 
-Create a product in the *PIM* module. 
-
-**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
-
-### Definitions
+Products represent the goods and services you offer to your customer. They are defined through a set of attributes. 
 
 The following table displays a list of all attributes contained in the *PIM basic set* (pim_attribute_name) with their default data types and configuration. Additional attributes, such as created and modified, are available in all entities and can be used to set filters. The required fields are marked in bold. 
 
@@ -80,9 +76,25 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_stock_germany | number | Stock level in warehouse (Germany) |
 | pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
-### Request samples
 
-####  Create a single product
+## Create a single product
+
+Create a new product. 
+
+### Endpoint
+
+/Actindo.Modules.Actindo.PIM.Products.create
+
+### Definitions
+
+| Attribute       | Data type   | Description |
+| ----------- | ----------- | ----------- | 
+| **sku**      | string   |  Product SKU | 
+| **attributeSetId**   | integer  | Attribute set identification number |
+
+
+### Request sample
+
 
     {
         "product": {
@@ -91,8 +103,25 @@ The following table displays a list of all attributes contained in the *PIM basi
         }
     }
 
+### Response  sample
 
-#### Create a single product in two languages
+
+
+## Create a single product in two languages
+
+### Endpoint
+
+/Actindo.Modules.Actindo.PIM.Products.create
+
+### Definitions
+
+| Attribute       | Data type   | Description |
+| ----------- | ----------- | ----------- | 
+| **sku**      | string   |  Product SKU | 
+| **attributeSetId**   | integer  | Attribute set identification number |
+
+
+### Request sample
 
     {
         "product": {
@@ -105,8 +134,24 @@ The following table displays a list of all attributes contained in the *PIM basi
         }
     }
 
+### Response  sample
 
-#### Create a single product with different prices pro scope
+
+## Create a single product with different prices pro scope
+
+### Endpoint
+
+/Actindo.Modules.Actindo.PIM.Products.create
+
+### Definitions
+
+| Attribute       | Data type   | Description |
+| ----------- | ----------- | ----------- | 
+| **sku**      | string   |  Product SKU | 
+| **attributeSetId**   | integer  | Attribute set identification number |
+
+
+### Request sample
 
     {
         "product": {
@@ -118,7 +163,19 @@ The following table displays a list of all attributes contained in the *PIM basi
     }
 
   
-#### Create a master product
+### Response  sample
+
+
+## Create a master product
+
+
+
+### Endpoint
+
+/Actindo.Modules.Actindo.PIM.Products.create
+
+
+### Request sample
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
@@ -127,6 +184,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
 
 
+### Request sample
 
       {
           "product": {
@@ -137,8 +195,17 @@ The following table displays a list of all attributes contained in the *PIM basi
       }
 
 
-#### Create a variant product
+### Response  sample
 
+
+
+## Create a variant product
+
+### Endpoint
+
+/Actindo.Modules.Actindo.PIM.Products.create
+
+### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
@@ -147,6 +214,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
 | **variantSet**   | object  | It contains the required field **id**.  |
 
+### Request sample 
 
      {
       "product": 
@@ -161,6 +229,7 @@ The following table displays a list of all attributes contained in the *PIM basi
     }
 
 
+### Response sample
 
 
 ## Edit a product
@@ -173,9 +242,9 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 ### Definitions
 
-For a list of standard *PIM* attributes, see [Create a product](#create-a-product). The required fields are marked in bold. 
+For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
-To get a list of all your attributes, see [List of all attributes](#list-all-attributes).
+To get a list of all your attributes, see [List of all attributes](#to-be-determined).
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
