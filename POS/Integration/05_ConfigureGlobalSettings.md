@@ -133,12 +133,11 @@ If the existing payment methods in *POS* are not appropriate for your special ne
 
 
 
-
 ### Map the payment methods
 
 If you have created a new payment method in POS, you need to map the payment method in POS with the payment method in the *Order Management* module.
 
-<!---TO BE ENHANCED-->
+<!---TO BE ENHANCED, Ist das überhaupt noch relevant??, feld in Attribute set nicht vorhanden-->
 
 #### Prerequisites
 
@@ -148,11 +147,11 @@ If you have created a new payment method in POS, you need to map the payment met
 
 #### Procedure
 
-*DataHub > ETL > Tab Mappings*
+*DataHub > ETL > Tab MAPPINGS*
 
-![ETL](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")
+![Mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Mappings]")
 
-1. Click the **Order channels POS Store "Name of the store"** attribute set mapping of the corresponding store in the *Source attribute set* column.   
+1. Click the **Order channel POS Store "Name of the store"** attribute set mapping of the corresponding store in the *Source attribute set* column.   
     The *Mapping* view of the selected attribute set is displayed.
 
 2. Click the attribute mapping with the **Payment method** attribute in the *Destination attribute* column.   

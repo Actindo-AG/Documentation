@@ -171,7 +171,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTES*
+*DataHub > Data model > Tab ATTRIBUTES*
 
 ![DataHub Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[DataHub Attributes]")
 

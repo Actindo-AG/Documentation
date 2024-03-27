@@ -80,7 +80,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Manage the stock for POS products](./08_ManageWarehouse.md#manage-the-stock-for-pos-products)
 
 - [Adjust workflows](./09_WorkflowAdjustments.md)
-   - [Extend import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-import-channels-order-in-oms-workflow)
+   - [Extend Import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-import-channels-order-in-oms-workflow)
         - [Split order confirmation and cash invoice processing](./09_WorkflowAdjustments.md#split-order-confirmation-and-cash-invoice-processing)
         - [Insert payments synchronization](./09_WorkflowAdjustments.md#insert-payments-synchronization)
     - [Synchronize cash journal](09_WorkflowAdjustments.md#synchronize-cash-journal)
