@@ -11,6 +11,10 @@ To do this, you can include the relevant processing for sales-related POS postin
 
 > [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of the standard workflow.
 
+### Split order confirmation and cash invoice processing
+
+
+
 #### Prerequisites
 
 - You have the required rights to edit a workflow.
@@ -23,9 +27,84 @@ To do this, you can include the relevant processing for sales-related POS postin
 
 ![Order workflow](../../Assets/Screenshots/POS/Sales/Workflow/OrderWorkflow.png "[Order workflow]")
 
-1. After the transition for finishing the order export (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport), add the 
+1. Search for a suitable position for inserting the POS posting processing. For example, after the transition for finishing the order export (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport) is a suitable position. After that, the data of the cash invoice business document (RB) as well as the data of the order confirmation business document (AB) is available.
 
-    ![Insert transition](../../Assets/Screenshots/POS/Sales/Workflow/InsertTransition.png "[Insert transition]")
+    ![Finish order export](../../Assets/Screenshots/POS/Sales/Workflow/FinishOrderExport.png "[Finish order export]")
+
+    It is now necessary to split the data, so that the processing of the cash invoice data relevant for accounting is divided from the processing of the order confirmation data relevant for order management.
+
+2. Click the [NEW ACTION] button.  
+    The *Search for an action window* is displayed.
+
+    ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
+
+3. Enter **Split** in the search field and select the **Split by criterion** entry.  
+    The split by criterion transition is added to your workflow. For detailed information on this core action, see [Split by criterion](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion) in the *Process Orchestration* documentation.
+
+    ![Split by criterion](../../Assets/Screenshots/POS/Sales/Workflow/SplitbyCriterion.png "[Split by criterion]")
+
+4. Configure the Split by criterion transition.
+
+    - Enter **Is RB?** in the *Label* field. Alternatively, you can choose any other label that clarifies the purpose of the transition
+    - Enter **type** in the *Path* field of the *Configuration section*.
+    - Enter **=**in the *Operator* field.
+    - Enter **"RB"** in the *Value* field.
+<!---In welchem API/Data Model finde ich das Type field?-->
+
+5. Insert the Split by criterion transition into your workflow. To do this, proceed as follows.
+    - Move the previous and the following transitions, so that you can insert the new transition into the flow. Tips:   
+        - Move the start and end place, so that more free space is available. 
+        - Move the places and transitions separately, so that an orderly overall picture is created.
+
+6. Click the arc that connects the place after the *Finish order export* with the following transition and delete it.   
+    The *Finish order export* transition is no longer connected to other transitions. An ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button is available at the place connected to the output port of the transition. 
+
+    ![Delete arc](../../Assets/Screenshots/POS/Sales/Workflow/DeleteArc.png "[Delete arc]")
+
+7. Drag the place connected to the input port of the *Is RB?* transition and drop it to the place connected to the output port of the *Finish order export* transition.
+
+    ![Connect places](../../Assets/Screenshots/POS/Sales/Workflow/ConnectPlaces.png "[Connect places]")
+
+8. Join the *Is RB?* transition in the flow.
+
+    ![Join in flow](../../Assets/Screenshots/POS/Sales/Workflow/JoinInFlow.png "[Join in flow]")
+
+9. Connect the *noMatch* output port of the *Is RB?* transition with the following transition. To do this, click the relevant output port of the following transition.   
+    A new place is created.
+
+    ![New place](../../Assets/Screenshots/POS/Sales/Workflow/NewPlace.png "[New place]")
+
+10. Drop and drag the place of the *noMatch* output port of the *Is RB?* transition on the newly created place.   
+    The *Is RB?* transition is now part of your order workflow. The place of the *match* input port is not yet connected.
+
+    ![Connected](../../Assets/Screenshots/POS/Sales/Workflow/Connected.png "[Connected]")
+
+11. Continue with [Insert payment synchronization](#insert-payment-synchronization).
+
+
+### Insert payment synchronization
+
+Include a transition in your workflow that posts cash payments in the *Accounting* module or a third party application.
+
+#### Prerequisites
+- You have the required rights to edit a workflow.
+- The *UCS Sync for POS* plugin is installed.
+- You have inserted a transition in your workflow with which the cash invoice business documents have been split from the order confirmation business documents, see [Split order confirmation and cash invoice processing](#split-order-confirmation-and-cash-invoice-processing).
+
+#### Procedure
+
+*Process Orchestration > Workflow > Select order workflow > Select version*
+
+![Connected](../../Assets/Screenshots/POS/Sales/Workflow/Connected.png "[Connected]")
+
+
+
+
+
+
+
+
+
 
 
 
