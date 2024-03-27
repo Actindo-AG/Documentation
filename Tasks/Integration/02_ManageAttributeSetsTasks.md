@@ -1,7 +1,7 @@
 [!!User interface Attributes](../UserInterface/to-be-determined)
 [!!Manage an attribute set in DataHub](../../DataHub/Integration/02_ManageAttributeSets.md)
 
-# Manage the attribute sets for tasks
+# Manage an attribute set for tasks
 
 An attribute set consist of multiple attributes to classify certain entity type, in this case, a task. In the *Tasks* module, you can create, edit, and deactivate attribute sets that are specific to your tasks. 
 

@@ -1,7 +1,7 @@
 [!!User interface Attributes](../UserInterface/to-be-determined)
 [!!Manage an attribute in DataHub](../../DataHub/Integration/01_ManageAttributes.md)
 
-# Manage the attributes for tasks
+# Manage an attribute for tasks
 
 A task is an entity type. Like all entity types, a task is defined through a series of attributes. In the *Tasks* module, you can create, edit, deactivate, and delete attributes that are specific to your tasks. 
 

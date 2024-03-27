@@ -1,7 +1,7 @@
 [!!User interface Attribute groups](../UserInterface/to-be-determined)
 [!!Manage an attribute group in DataHub](../../DataHub/Integration/03_ManageAttributeGroups.md)
 
-# Manage the attribute groups for tasks
+# Manage an attribute group for tasks
 
 The attribute groups serve the logical organization of the entity attributes, in this case the task attributes. In the *Tasks* module, you can create and edit attribute groups that are specific to your tasks. 
 
