@@ -78,3 +78,15 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Check the stock withdrawal matrix](./08_ManageWarehouse.md#check-the-stock-withdrawal-matrix)
     - [Manage the warehouse logistics for POS products](./08_ManageWarehouse.md#manage-the-warehouse-logistics-for-pos-products)
     - [Manage the stock for POS products](./08_ManageWarehouse.md#manage-the-stock-for-pos-products)
+
+- [Adjust workflows](./09_WorkflowAdjustments.md)
+   - [Extend import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-import-channels-order-in-oms-workflow)
+        - [Split order confirmation and cash invoice processing](./09_WorkflowAdjustments.md#split-order-confirmation-and-cash-invoice-processing)
+        - [Insert payments synchronization](./09_WorkflowAdjustments.md#insert-payments-synchronization)
+    - [Synchronize cash journal](09_WorkflowAdjustments.md#synchronize-cash-journal)
+        - [Create the Synchronize cash journal workflow](09_WorkflowAdjustments.md#create-the-synchronize-cash-journal-workflow)
+        - [Add a trigger](09_WorkflowAdjustments.md#add-a-trigger)
+        - [Add the conditions](09_WorkflowAdjustments.md#add-the-conditions)
+        - [Add a transition](09_WorkflowAdjustments.md#add-a-transition)
+
+
