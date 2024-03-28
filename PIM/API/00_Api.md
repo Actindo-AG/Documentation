@@ -18,8 +18,8 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Step 1: Register your app](./02_GetStarted.md#step-1-register-your-app)
         - [Step 2: Get an authorization code](./02_GetStarted.md#step-2-get-an-authorization-code)
         - [Step 3: Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token)
-        - [Step 4: Do something with the API](./02_GetStarted.md#step-4-do-something-with-the-api)
-        - [Step 5: Get authorization token from refresh token](./02_GetStarted.md#step-5-get-authorization-token-from-refresh-token)
+        - [Step 4: Send a test authentication request](./02_GetStarted.md#step-4-send-a-test-authentication-request)
+        - [Step 5: Generate an access token from refresh token](./02_GetStarted.md#step-5-generate-an-access-token-from-refresh-token)
     - [Send your first request](./02_GetStarted.md#send-your-first-request)
 
 
