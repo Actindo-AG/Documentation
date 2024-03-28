@@ -88,7 +88,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 3. Select the desired offer by clicking the corresponding product in the list.   
     The offer is added to the bill list on the right side.   
-    If the offer is restricted to adults or teenagers, the *Age verification* popup window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
+    If the offer is restricted to adults or teenagers, the *Age verification* window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
 
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
@@ -143,9 +143,9 @@ When you select an offer, Actindo checks whether an age verification is necessar
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select an offer, see above.
-    If the offer requires an age verification, the *Age verification* pop-up window is displayed.
+    If the offer requires an age verification, the *Age verification* window is displayed.
 
-2. Check the age of the customer. The *Age verification* pop-up window provides you both with the minimum age required and the date of birth that must be met or fallen below. Eventually, a descriptive text has been added.
+2. Check the age of the customer. The *Age verification* window provides you both with the minimum age required and the date of birth that must be met or fallen below. Eventually, a descriptive text has been added.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
     <!---Screenshot neu machen-->

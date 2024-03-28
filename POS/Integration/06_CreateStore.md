@@ -67,10 +67,9 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
     The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.  
 
-    The *Pay desks* wizard window is displayed when the store is created.  
-
+    The *Pay desks* wizard window is displayed when the store is created. 
     The following entities have been automatically created:
-    - In the *DataHub* module, the following attribute sets have been created:
+    - In the *DataHub* module, the following attribute sets have been created<!--- Ist das richtig?-->:
         - *Orders channel POS Store "Name of new store"*
         - *Line items channel POS Store "Name of new store"*
         - *Payment items channel POS Store "Name of new store"*
@@ -166,7 +165,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ## Assign a POS warehouse
 
-In this step you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock level is posted out when a product is sold.
+In this wizard step, you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is posted out when a product is sold.
 
 #### Prerequisites
 

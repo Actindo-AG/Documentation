@@ -674,7 +674,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 
 - *Print Shift Summary*    
     Click the link to print the selected shift summary. The shift summary is displayed in a new browser tab.   
-    If you want to display the detailed transactions within a shift instead of printing the shift summary, click the row with the shift (except the field *Print Shift Summary* to display the window *Transactions*).
+    If you want to display the detailed transactions within a shift instead of printing the shift summary, click the row with the shift (except the field *Print Shift Summary* to display the *Transactions* window).
 
 [comments]: <> (For me, a new tab in the browser is displayed with the shift summary. Is it like that by default or do I have to configure it somewhere in the printing settings?)
 

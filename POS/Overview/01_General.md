@@ -2,7 +2,7 @@
 
 With the cloud-based POS system of the *Actindo Core1 Platform*, you not only control your online channels via Actindo, but can also easily integrate your offline stores. The *POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.  
 
-This documentation refers to the *POS* module version <!--?-->4.1.0. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
+This documentation refers both to the *POS* module version <!--?-->4.1.0. and the *UCS Sync for POS* plugin version 4.0.1. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
 
 ## Benefits
 
@@ -14,21 +14,8 @@ The *POS* module offers the following benefits:
 
 ## Prerequisites
 
-<!---- The *ECM Integration in DataHub* plugin version 1.0.0 or higher is installed.
-- The *Omni-Channel* module version 2.5.0 or higher is installed.
-- The *Actindo DataHub* module version 2.2.5 or higher is installed.
-- The *ECM* module version 2.0.7 or higher is installed.
-- The *PrintReport* plugin version 1.0.0 or higher is installed.
-- The *Printing* module version 1.0.4 or higher is installed.
-- The *Settings* module version 1.0.2 or higher is installed.
-- The *Taxes* module version 1.0.1 or higher is installed.-->
-
-
-Further, to enable all *POS* features, ensure that also the following prerequisites are fulfilled:
-
-- The *UCS Sync for POS* plugin version 2.1.1 or higher is installed.
-- The printer client (APS) is installed.
 - An external barcode scanner is connected and configured.
+<!---Diese Prerequisites war noch in der früheren Doku vorhanden, wird aber sonst in Doku nicht erwähnt. Drin lassen?-->
 
 ## Further information
 

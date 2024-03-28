@@ -23,7 +23,7 @@ If your company wants to suggest additional offers to complete the customer's sh
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The *Suggest the following offers to the customer* pop-up window is displayed, where some additional offers are presented.
+    The *Suggest the following offers to the customer* window is displayed, where some additional offers are presented.
 
     ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
 
@@ -100,7 +100,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 2. Click the [+ ADD DOWN PAYMENT] button in the *Settlement* section.   
-    The *Add down payment* pop-up window is displayed.
+    The *Add down payment* window is displayed.
 
     ![Add down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddDownPayment.png)
 

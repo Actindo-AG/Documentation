@@ -318,7 +318,7 @@ By default, offers with an age rating can only be added to the basket if the cas
     Click this button to save any changes
 
 - *Mode*   
-   Click this drop-down list to select if and when to display the *Age verification* pop-up window when selecting an offer with age rating. For detailed information, see [Verify age](../Operation/02_SelectOffer.md#verify-the-age). The following settings are available:
+   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. For detailed information, see [Verify age](../Operation/02_SelectOffer.md#verify-the-age). The following settings are available:
 
    - **Always**    
     The cashier is always asked when an offer with an age verification necessary is added to the basket.
@@ -491,10 +491,10 @@ Add a new currency to the list of available currencies and define the coins and 
     Click this button to add a banknote or coin to the currency.
 
 - [CANCEL]   
-    Click this button to cancel the creation of a new currency. The view *Available Currencies* is displayed again.
+    Click this button to cancel the creation of a new currency. The *Available Currencies* view is displayed again.
 
 - [Save]   
-    Click this button to save the new currency and add it to the list of currencies. The view *Available Currencies* is displayed again.
+    Click this button to save the new currency and add it to the list of currencies. The *Available Currencies* view is displayed again.
 
 
 ### Edit currency
@@ -534,10 +534,10 @@ Edit the settings of an existing currency.
     Click this button to add the specified banknote or coin to the currency.
 
 - [CANCEL]   
-    Click this button to discard the changes to the currency. The view *Available Currencies* is displayed again.
+    Click this button to discard the changes to the currency. The *Available Currencies* view is displayed again.
 
 - [SAVE]   
-    Click this button to save all changes. The view *Available Currencies* is displayed again.
+    Click this button to save all changes. The *Available Currencies* view is displayed again.
 
 
 

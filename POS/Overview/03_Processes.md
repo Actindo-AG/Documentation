@@ -10,6 +10,6 @@ The following scheme shows the processes and chapters of the *POS* module docume
 
 ## POS interactions with other modules
 
-The following figure shows the 
+The following figure shows the data flow between the *Core1 Platform* modules. It shows how the data are processed.
 
 ![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")

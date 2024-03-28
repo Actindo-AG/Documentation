@@ -40,7 +40,7 @@ The following procedure shows how to include a workflow transition that separate
     It is now necessary to split the data, so that the processing of the cash invoice data relevant for accounting is separated divided from the processing of the order confirmation data relevant for order management.
 
 2. Click the [NEW ACTION] button.  
-    The *Search for an action window* is displayed.
+    The *Search for an action* window is displayed.
 
     ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
