@@ -162,7 +162,7 @@ Send a test authentication request to your Core1 instance to check that the acce
 Access tokens are valid for a limited period of time. If your access token is expired, you can get a new one using your refresh token.
 
 1. Send the Token URL request to generate you access token, as displayed in the following request sample.  
-    Replace *your-workspace* with the name of your instance, and the example values with your client ID, client secret, and the authorization code that you have obtained in [Step 2: Get an authorization code](#step-2-get-an-authorization-code). 
+    Replace *your-workspace* with the name of your instance, and the example values with your client ID, client secret, and the refresh token that you have obtained in [Step 3: Generate an access token](#step-3-generate-an-access-token).  
 
     **Request sample** 
 
@@ -172,15 +172,17 @@ Access tokens are valid for a limited period of time. If your access token is ex
         -d 'grant_type=refresh_token&client_id=myclientid&client_secret=1U-YdJpAD67huXxmy0c7Cg__&refresh_token=37e521b0ec5f035c86f0a2db09fe73cda934235e'
 
 
-    The access token is generated, as displayed in the following response sample.
+    The access token is generated, as displayed in the following response sample. 
 
     **Response sample** 
 
         {"access_token":"3lUNK4D\/eiiVg4hM1iJ+lK1b6n+qNflykDyI+laWLQL3P8O8Xmuu3AkfmjnWYUaIdZ\/1r\/6ybfgh4IXHLOFZ0R78rZH89Hk7teOTpsGqPsreiguqOT92WklHU9pTBTNb","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"cca31dc1bdf4c85b892804424b3a5f3ee44368aa"}
 
-    > [Info]  
-        You also get a new refresh token.  
-        Make sure you keep it safely for future reference!
+    > [Info] 
+    You also get a new refresh token.  
+    Make sure you keep it safely for future reference!
+
+        
 
 
 ## Send your first request
