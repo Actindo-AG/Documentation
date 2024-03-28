@@ -1,7 +1,7 @@
 # Get started
 
 
-## Using the Actindo API
+## Using the Actindo Core1 OpenAPI
 
 
 
@@ -19,7 +19,7 @@ The Core1 uses the OAuth 2.0 open protocol to handle client authorization for AP
 
 ### Step 1: Register your app
 
-If you want to gain access to the Core1 from your app via API, you have to register your app in the developer portal. 
+If you want to gain access to the Core1 from your app via API, first of all you have to register your app in the developer portal. 
 
 *Dev Tools > Tab APP REGISTRATION*
 
@@ -30,15 +30,15 @@ If you want to gain access to the Core1 from your app via API, you have to regis
 
     ![Create app registration](../../Assets/Screenshots/PIM/API/CreateAppRegistration.png "[Create app registration]")
 
-2. Enter a name for your app registration in the *Name* field, for example, API-USER-123. For the application name, it is recommended to use the third-party app name.
+2. Enter a name for your app registration in the *Name* field. For the application name, it is recommended to use the third-party app name.
 
 [comment]: <> (Was soll das heißen? Use some canonical name, such as "Testaccount for oauthdebugger.com")
 
-3. Enter a valid client ID in the *Application (client) ID* field. For the client ID, it is recommended to use a UUID generator tool to generate a UUID (universally unique identifier), such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]").
+3. Enter a valid client ID in the *Application (client) ID* field. For the client ID, it is recommended to use a UUID generator tool, such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]"), to generate a UUID (universally unique identifier).
 
     The client ID for the Core1 must comply with the following requirements:
     - between 4 and a 31 characters long  
-    - allowed characters include upper and lower cases letters, numbers, underscore, and  
+    - allowed characters include upper and lower cases letters, numbers, underscore, and hyphen
     - beginning with a letter  
 
 [comment]: <> (begins with a letter??? Im Beispiel ist es eine Nummer! S. Screenshot)
@@ -72,7 +72,7 @@ To be able to generate an access token for authentication, you need to get an au
 
     **https://your-workspace.actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
 
-    Replace *yoursandbox* with the name of your instance. Bear in mind that the authorization is account-specific.
+    Replace *your-workspace* with the name of your instance. Bear in mind that the authorization is account-specific.
 
 2. Enter **https://oauthdebugger.com/debug** in the *Redirect URI (required)* field.
 
@@ -109,7 +109,7 @@ The following parameters are required:
 - Client ID
 - Client secret
 
-Request sample (?)
+**Request sample** (?)
 
 
     curl -X POST   https://[your-workspace].actindo.com/Actindo.CoreModules.Auth.OAuth2Token.getAccessToken \
@@ -118,18 +118,24 @@ Request sample (?)
     -d 'grant_type=authorization_code&code=5471fdee60b8c9d571f137c0940dfeddfdc4dddb&client_id=myclientid&client_secret=1U-YdJpAD67huXxmy0c7Cg__&redirect_uri=https%3A%2F%2Foauthdebugger.com%2Fdebug'
 
 
-Response sample (?)
+**Response sample** (?)
 
     {"access_token":"EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"37e521b0ec5f035c86f0a2db09fe73cda934235e"}
 
 
-## Step 4: Do something with the API
+## Step 4: Try the authentication via API ?
 
 [comment]: <> (Try the authentication via API?)
+
+**Request sample** (?)
 
         curl -X POST \
         -H 'Authorization: Bearer EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2' \
         'https://[your-workspace].actindo.com/Actindo.CoreModules.Tools.TenantTest.ping?ping=42'
+
+
+**Response sample** (?)
+
 
         {"pong":"42","success":true,"displayMessage":null,"displayMessageTitle":null,"error":null,"job_id":null}'
 
@@ -142,14 +148,14 @@ Alternatively, you can try to log in with your credentials in the Core1.
 
 Authorization tokens are valid for a limited period of time. If your authorization token is expired, you can get a new one using your refresh token.
 
-Request sample (?)
+**Request sample** (?)
 
     curl -X POST 'https://[your-workspace].actindo.com/Actindo.CoreModules.Auth.OAuth2Token.getAccessToken' \
     -H 'Content-Type: application/x-www-form-urlencoded' \
     -H 'cache-control: no-cache' \
     -d 'grant_type=refresh_token&client_id=myclientid&client_secret=1U-YdJpAD67huXxmy0c7Cg__&refresh_token=37e521b0ec5f035c86f0a2db09fe73cda934235e'
 
-Response sample (?)
+**Response sample** (?)
 
     {"access_token":"3lUNK4D\/eiiVg4hM1iJ+lK1b6n+qNflykDyI+laWLQL3P8O8Xmuu3AkfmjnWYUaIdZ\/1r\/6ybfgh4IXHLOFZ0R78rZH89Hk7teOTpsGqPsreiguqOT92WklHU9pTBTNb","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"cca31dc1bdf4c85b892804424b3a5f3ee44368aa"}
 
@@ -158,8 +164,8 @@ Response sample (?)
 
 ## Send your first request
 
-1- Authorization
-2- Header/Format
-3- Find out required fields
-4- Find out required fields id
-5- Send request
+1. Authorization
+2. Header/Format
+3. Find out required fields
+4. Find out required fields id
+5. Send request
