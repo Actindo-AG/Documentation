@@ -1,6 +1,6 @@
-# Adjust workflows
+# Prepare workflows
 
-To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payment processing to your Import channels order in OMS workflow. In addition, non sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module.
+To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payment processing to your Import channels order in OMS workflow. In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module.
 
 For detailed information on workflow configuration, see also [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation. 
 
@@ -8,12 +8,13 @@ For detailed information on workflow configuration, see also [Manage the workflo
 
 ## Extend Import channels order in OMS workflow
 
-You need to transfer all sales-related POS postings to the *Order Management* module. If an order has been completed, a cash invoice business document (RB) is created in the *Omni-Channel* module and must be posted in the *Order Management* module. In addition, the payment must be posted in Accounting.   
-To do this, you can include the relevant processing for sales-related POS postings into your existing order workflow.
+Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
+
+> [Info] If an offer has been sold in your store, a cash invoice business document (RB) is created in the *Omni-Channel* module. The order workflow is used to post this business document in the *Order Management* module, where further processing such as postings in the *Warehousing* is initiated. Additionally, the order workflow is used to post the payment in the *Accounting* module. For detailed information, see the figure [POS interactions with other modules](../Overview/03_Processes.md#pos-interactions-with-other-modules).
+
+The following procedures describe step-for-step how to enhance the order workflow that is how you can include the relevant processing for sales-related POS postings into your existing order workflow.
 
 > [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of this standard workflow.
-
-The following procedures describe step-for-step how to enhance the order workflow.   
 
 
 ### Split order confirmation and cash invoice processing
@@ -33,11 +34,11 @@ The following procedure shows how to include a workflow transition that separate
 
 ![Order workflow](../../Assets/Screenshots/POS/Sales/Workflow/OrderWorkflow.png "[Order workflow]")
 
-1. Search for a suitable position for inserting the POS posting processing. For example, a suitable position is after the transition for finishing the order export (/Actindo.Extensions.Actindo.UCSProductSync.RetailSuiteOrderSync.finishExport). After that, the data of the cash invoice business document (RB) as well as the data of the order confirmation business document (AB) is available.
+1. Search for a suitable position for inserting the POS posting processing. For example, a suitable position is after the transition for finishing the order export. After that, the data of the cash invoice business document (RB) as well as the data of the order confirmation business document (AB) is available.
 
     ![Finish order export](../../Assets/Screenshots/POS/Sales/Workflow/FinishOrderExport.png "[Finish order export]")
 
-    It is now necessary to split the data, so that the processing of the cash invoice data relevant for accounting is separated divided from the processing of the order confirmation data relevant for order management.
+    It is now necessary to split the data, so that the processing of the cash invoice data relevant for accounting is separated from the processing of the order confirmation data relevant for order management.
 
 2. Click the [NEW ACTION] button.  
     The *Search for an action* window is displayed.
@@ -45,21 +46,22 @@ The following procedure shows how to include a workflow transition that separate
     ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
 3. Enter **Split** in the search field and select the **Split by criterion** entry.  
-    The split by criterion transition is added to your workflow configuration. For detailed information on this core action, see [Split by criterion](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion) in the *Process Orchestration* documentation.
+    The Split by criterion transition is added to your workflow configuration. For detailed information on this core action, see [Split by criterion](../../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion) in the *Process Orchestration* documentation.
 
     ![Split by criterion](../../Assets/Screenshots/POS/Sales/Workflow/SplitbyCriterion.png "[Split by criterion]")
 
 4. Configure the Split by criterion transition.
 
     - Enter **Is RB?** in the *Label* field. Alternatively, you can choose any other label that clarifies the purpose of the transition.
-    - Enter **type** in the *Path* field of the *Configuration section*.
+    - Enter **type** in the *Path* field of the *Configuration section*.<!---In welchem API/Data Model finde ich das "Type" field?-->
     - Enter **=** in the *Operator* field.
     - Enter **"RB"** in the *Value* field. Do not miss the quotes.
-<!---In welchem API/Data Model finde ich das "Type" field?-->
 
-5. Insert the Split by criterion transition into your workflow. To do this, move the previous and the following transitions, so that you have enough space to insert the new transition into the flow. Tips:   
-        - Move the start and end place, so that more free space is available. 
-        - Move the places and transitions separately, so that an orderly overall picture is created.
+    ![Is RB?](../../Assets/Screenshots/POS/Sales/Workflow/IsRB.png "[Is RB?]")
+
+5. Insert the Split by criterion transition into your workflow. To do this, create more space to insert the Is RB? transition into the flow by moving the previous and the following transitions. Tips:   
+    - Move the start and end place, so that more free space is available.   
+    - Move the places and transitions separately, so that an orderly overall picture is created.
 
 6. Click the arc that connects the place after the *Finish order export* with the following transition and delete it.   
     The *Finish order export* transition is no longer connected to other transitions. An ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button is available at the place connected to the output port of the transition. 
@@ -89,7 +91,7 @@ The following procedure shows how to include a workflow transition that separate
 
 ### Insert payments synchronization
 
-Include a transition in your workflow that posts cash payments in the *Accounting* module or a third party application.
+Include a transition in your workflow that posts cash payments in the *Accounting* module or a third-party application.
 
 #### Prerequisites
 - You have the required rights to edit a workflow.
@@ -135,13 +137,13 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 
 ## Synchronize cash journal
 
-You need to transfer non sales-related POS postings such as cash ins and cash outs to the *Accounting* module or a third party application. To do this, you must synchronize the cash journal. A one-step workflow is suitable for this.   
+You need to transfer non-sales-related POS postings such as cash ins and cash outs to the *Accounting* module or a third-party application. To do this, you must synchronize the cash journal. A one-step workflow is suitable for this.   
 
 The following procedures describe step-for-step how to create the required workflow.
 
 ### Create the Synchronize cash journal workflow
 
-Create the workflow needed to post non sales-related POS postings in the *Accounting* module.
+Create the workflow needed to post non-sales-related POS postings in the *Accounting* module.
 
 #### Prerequisites
 
@@ -162,7 +164,7 @@ Create the workflow needed to post non sales-related POS postings in the *Accoun
 
 5. Select the start place in the search result list. 
 
-6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem** or a keyword you are searching for. <!-- ist das der richtige End place data type?-->
+6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem**. <!-- ist das der richtige End place data type?-->
 
 7. Select the end place in the search result list.  
 
@@ -251,13 +253,13 @@ Add the conditions that define the triggers that initiate the Synchronize cash j
 
 4. Click the *Operator* drop-down list and select **Equals**.
 
-5. Enter **opening_diff** in the *Value* field. This is used to post differences in the opening float. 
+5. Enter **opening_diff** in the *Value* field. This is used when differences in the opening float has been posted in the cash register. 
 
-6. Repeat step 1-4 and enter **close_diff** in the *Value* field. This is used to post differences in the closing float. 
+6. Repeat step 1-4 and enter **close_diff** in the *Value* field. This is used when differences in the closing float has been posted in the cash register. 
 
-7. Repeat step 1-4 and enter **cash-in** in the *Value* field. This is used to post cash ins.
+7. Repeat step 1-4 and enter **cash-in** in the *Value* field. This is used when cash ins has been posted in the cash register.
 
-8. Repeat step 1-4 and enter **cash-out** in the *Value* field. This is used to post cash outs.
+8. Repeat step 1-4 and enter **cash-out** in the *Value* field. This is used when cash outs have been posted in the cash register.
 
     ![Edit conditions](../../Assets/Screenshots/POS/Sales/Workflow/EditConditions.png)
 
@@ -268,7 +270,7 @@ Add the conditions that define the triggers that initiate the Synchronize cash j
 
 ### Add a transition
 
-Add a transition with which the synchronization of the non-sales related POS postings are processed and posting for the *Accounting* are supplied. For this, the `/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem` transition is available.
+Add a transition with which the synchronization of the non-sales-related POS postings are processed and postings for the *Accounting* are supplied. For this, the `/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem` transition is available.
 
 #### Prerequisites
 

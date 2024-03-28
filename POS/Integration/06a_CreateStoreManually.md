@@ -477,7 +477,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 *POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Entry Account assignment*
 
-![Assign accounts Pay Desk Settings](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings07.png "[Assign accounts Pay Desk Settings]")
+![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts pay desk settings]")
 
 > [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
 

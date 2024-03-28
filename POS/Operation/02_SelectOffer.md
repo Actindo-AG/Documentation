@@ -60,7 +60,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
     All offers assigned to the selected category are displayed.
 
 2. Select the desired offer by clicking the corresponding button.   
-    The offer is added to the bill list.   
+    The offer is added to the bill list if no age verification is necessary, see [Verify the age](#verify-the-age).   
     
 
 
@@ -87,9 +87,8 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side.   
-    If the offer is restricted to adults or teenagers, the *Age verification* window is displayed if configured. Verify the age of the customer and click the [AGE OF BUYER CONFIRMED] button.
-
+    The offer is added to the bill list on the right side if no age verification is necessary, see [Verify the age](#verify-the-age). 
+     
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
 
@@ -119,7 +118,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side.   
+    The offer is added to the bill list on the right side if no age verification is necessary, see [Verify the age](#verify-the-age).   
     
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
@@ -127,14 +126,15 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 ## Verify the age
 
-When you select an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. This may be necessary for offers such as alcoholic beverages, cigarettes, or energy drinks.   
->[Info] Note for administrators: This feature is only available, if the *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
+Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. 
 
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- Some offers are not suitable for children and young people. This is determined by the *Age verification* attribute, which can be assigned to the offer-related attribute set and part of the *PIM basic set*. An age restriction is defined there, for example 18 or 16. 
+- The *Age verification* attribute has been assigned to the offer-related attribute set. An age restriction for the offer is defined there, for example 18 or 16.    
+- The *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
+
 
 #### Procedure
 
@@ -142,10 +142,13 @@ When you select an offer, Actindo checks whether an age verification is necessar
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Select an offer, see above.
+1. Select an offer.   
     If the offer requires an age verification, the *Age verification* window is displayed.
 
-2. Check the age of the customer. The *Age verification* window provides you both with the minimum age required and the date of birth that must be met or fallen below. Eventually, a descriptive text has been added.
+    ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
+    <!---Screenshot neu machen-->
+
+2. Check the age of the customer. The *Age verification* window provides you with both the minimum age required and the date of birth that the customer must meet or fall below. Eventually, an explanatory text has been added.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
     <!---Screenshot neu machen-->

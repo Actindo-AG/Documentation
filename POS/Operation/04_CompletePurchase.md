@@ -10,11 +10,11 @@ To complete a purchase, you need to initiate the payment. At the POS pay desk, y
 ## Suggest an offer to the customer
 
 If your company wants to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
->[Info] Note for administrators: This feature is only available if the *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Prerequisites
 
 - At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- The *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Procedure
 
@@ -80,13 +80,13 @@ You can also add a discount to a single offer of the bill list. For detailed inf
 
 
 ## Initiate a down payment
-
-If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. For example, this may be necessary if the full amount is not due until the offers are delivered or collected.   
->[Info] Note for administrators: This feature is only available, if the *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
+<!---Neu, war nicht dokumentiert-->
+If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be also necessary if the full amount is not due until the offers are delivered or collected.   
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+-The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Procedure
 
@@ -124,13 +124,14 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 
 ## Initiate a delivery
-
+<!---Neu, war nicht dokumentiert-->
 If your company supports the delivery of an offer, you can initiate a delivery.  
->[Info] Note for administrators: This feature is only available if the *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
+
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- The *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
 
 #### Procedure
 *POS > Sales > Select store and pay desk > Tab CASHPOINT*
@@ -138,7 +139,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The pay bill list is displayed in the bill list.
+    The pay bill list is displayed.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -179,13 +180,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 4. Enter the cash payment amount in the *Amount* field or select an amount by clicking the number buttons in the lower area.
 
 5. Click the [Pay] button in the bottom right corner.   
-    The *Payment pending* view is displayed while the payment is being processed. 
-
-    ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
-    
-    After that, a confirmation window is displayed. 
-
-    ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
+    The *Payment pending* view is displayed while the payment is being processed. After that, a confirmation window is displayed. 
 
 6. Click the [Done] button to confirm the payment.   
     The purchase is completed. The bill list is displayed again.

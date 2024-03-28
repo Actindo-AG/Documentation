@@ -13,7 +13,7 @@ To perform any operation on the pay desk, you must first open one.
 - A store including a pay desk is created, see [Create a store in POS](../Integration/06_CreateStore.md).
 - The user logged in must be assigned to a POS group, see [Assign users to the POS groups](../Integration/04_AssignUsers.md).
 - Depending on the assigned POS group, the user must fulfill the following requirements:
-    - A POS admin has not to fulfill further requirements.
+    - A POS admin does not need to meet any further requirements.
     - A store manager has to be assigned to the corresponding store, see [Configure the store details](../Integration/06_CreateStore.md#configure-the-store-details).
     - A cashier has to be assigned to the pay desk, see [Configure the pay desk details](../Integration/06_CreateStore.md#configure-the-pay-desk-details).
 - The pay desk is not in use, see [Remove an inactive cashier from the pay desk](../Troubleshooting/03_RemoveInactiveCashier.md).

@@ -9,7 +9,9 @@
 
 # Manage offers for POS
 
-To offer products in POS, it is recommended to create the products in advance and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
+To offer products in POS, it is recommended to create the products in advance in the *PIM* module and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
+<!---Ich glaube das versteht man so nicht. Vorschlag:
+To offer products in POS, it is recommended to create the products in the *PIM* module first and then import them later into the *Omni-Channel* module. From there, the *POS* module receives its offers.-->
 
 
 ## Create products for POS
@@ -18,6 +20,7 @@ To create an offer for POS, it is recommended to create products in the *PIM* mo
 
 #### Prerequisites
 
+<!---Neu-->
 If you want to use the *Age verification* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified.
 
 #### Procedure
@@ -30,6 +33,7 @@ Create the product in the *PIM* module. For detailed information, see [Create a 
 
 To improve the product classification, you can create a product type and use it in POS. To do this, you create an attribute set in the *PIM* module.  
 For detailed information on how to create an attribute set, see [Create an attribute set](../../PIM/Integration/02_ManageAttributeSets.md#create-an-attribute-set) in the *PIM* documentation.
+<!---Product type= Attribute set?-->
 
 
 
@@ -71,7 +75,7 @@ Especially if you want to exchange your product data available in the *PIM* modu
 
 ### Create an offer from a PIM product in Omni-Channel
 
-You can create an offer from a PIM product in the *Omni-Channel* module if the corresponding offer exists in the *PIM* module.
+You can create an offer from a PIM product in the *Omni-Channel* module if the corresponding product exists in the *PIM* module.
 
 > [Info] If the product you want to create an offer for exists in the *PIM* module, it is recommended to create the offer from the PIM product instead of creating a manual offer.
 
@@ -276,7 +280,7 @@ No prerequisites to fulfill.
 
     For detailed information on how to create an attribute set for POS, see [Create a product type](#create-a-product-type).
 
-3. Enter a SKU in the *SKU* field, for instance **Voucher**.
+3. Enter an SKU in the *SKU* field, for instance **Voucher**.
 
     > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 

@@ -6,6 +6,8 @@
 
 [comment]: <> (add link to Order management module if available)
 
+<!--- Ist das noch relevant?-->
+
 # Manage the POS order process
 
 Trace the POS order process by checking the order status, the cash invoice, and the payment of an order.

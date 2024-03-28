@@ -75,7 +75,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 ## Manage the warehouse logistics for POS products
 
-Manage the warehouse logistics for POS product to ensure that products are active for warehousing.
+Manage the warehouse logistics for POS offers to ensure that these are active for warehousing.
 
 #### Prerequisites
 
@@ -84,21 +84,7 @@ Manage the warehouse logistics for POS product to ensure that products are activ
 
 #### Procedure
 
-*Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
-
-![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
-
-1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
-    The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
-
-    ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
-
-2. Click the *Warehouse logistics active for this product* drop-down list on the right side of the *Basic data* tab and select the **YES** option.
-
-3. Click the [Save] button in the bottom right corner of the *Basic data* tab.   
-    The *Successfully saved* message is displayed at the top. The active warehouse logistics for this article is saved.
-
-    ![Successfully saved](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/SuccessfullySaved.png "[Successfully saved]")
+Activate the warehouse logistics for the POS offers. For detailed information see [Activate the warehouse logistics for a product](../../RetailSuiteWarehousing/Integration/06_ActivateWarehouseLogistics.md) in the *Warehousing* documentation.
 
 
 
@@ -119,11 +105,11 @@ You can adjust the stock level quantity of your POS products, for instance becau
 
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
-1.  Double click the article in the article list that you want to check. Alternatively, first right click the article and click then the **Open** entry in the displayed context menu.    
+1.  Double-click the product in the product list that you want to check. Alternatively, first right-click the product and click then the **Open** entry in the displayed context menu.    
 
     ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")   
 
-    The article details are displayed on several tabs below the article list. The *Basic data* tab is preselected.
+    The product details are displayed on several tabs below the product list. The *Basic data* tab is preselected.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
