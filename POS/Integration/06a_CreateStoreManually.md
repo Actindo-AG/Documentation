@@ -240,7 +240,7 @@ To connect the warehouse management and the stock management to your POS, you ha
 1. Select the *Warehouse assignment orders* entry in the list of settings in the left column.   
     The *Warehouse assignment orders* section is displayed on the right side.
 
-    ![Warehouse assignment orders](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Warehouse assignment orders]")
+    ![Warehouse assignment orders](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/WarehouseAssignment.png "[Warehouse assignment orders]")
 
 2. Select the warehouse you want to take the material from in the *Warehouse* drop-down list.
 
