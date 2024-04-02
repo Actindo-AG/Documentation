@@ -15,7 +15,7 @@ For detailed information on how to create, edit, deactivate, and delete attribut
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to create an attribute, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute) in the *DataHub* documentation.
 
@@ -23,7 +23,7 @@ For detailed information on how to create an attribute, see [Create an attribute
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to edit an attribute, see [Edit an attribute](../../DataHub/Integration/01_ManageAttributes.md#edit-an-attribute) in the *DataHub* documentation.
 
@@ -31,7 +31,7 @@ For detailed information on how to edit an attribute, see [Edit an attribute](..
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to deactivate an attribute, see [Deactivate an attribute](../../DataHub/Integration/01_ManageAttributes.md#deactivate-an-attribute) in the *DataHub* documentation.
 
@@ -40,7 +40,7 @@ For detailed information on how to deactivate an attribute, see [Deactivate an a
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to edit an attribute, see [Delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#delete-an-attribute) in the *DataHub* documentation.
 
@@ -49,7 +49,7 @@ For detailed information on how to edit an attribute, see [Delete an attribute](
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to edit an attribute, see [Recover an attribute](../../DataHub/Integration/01_ManageAttributes.md#recover-an-attribute) in the *DataHub* documentation.
 
@@ -58,7 +58,7 @@ For detailed information on how to edit an attribute, see [Recover an attribute]
 
 *Tasks > Settings > Tab ATTRIBUTES*
 
-![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/TasksAttributes.png "[Attributes]")
+![Attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Attributes]")
 
 For detailed information on how to edit an attribute, see [Permanently delete an attribute](../../DataHub/Integration/01_ManageAttributes.md#permanently-delete-an-attribute) in the *DataHub* documentation.
 

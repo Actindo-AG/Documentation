@@ -5,15 +5,11 @@
 
 An event is an occurrence that creates a task/causes a task to be created. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
 
-[comment]: <> (Initiate or create a task? Ist die Task, also, was zu tun ist, schon definiert? Klären: Trigger, event, task)
-
 [comment]: <> (trigger: entity/data model that, together with the occurrence of an event, initiates a process; event: occurrence that initiates/creates? a task; task: instruction / action to be performed)
 
 You can create events manually in the *Tasks* module. However, there are also some events that are automatically created by the system, for instance when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*.
 
 When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Task* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then stopped until the specified task is performed manually by the responsible person. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
-
-[comment]: <> (Stimmt das so? Aus Worfklows automatisch beim Installieren, aber die anderen? Fulfillment, Omni-Channel?)
 
 You can create an event manually, edit an existing event, and delete an event that is no longer needed.
 
@@ -45,8 +41,6 @@ No prerequisites to fulfill.
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-[comment]: <> (Stimmt das so? Wie Key in attributes?)
-
 4. Click the *Attribute set for tasks* drop-down list and select the desired attribute set for tasks. All available attribute sets for tasks are displayed in the list.
 
 5. As you are creating the task manually, the *Plugin* drop-down list is locked.
@@ -54,8 +48,6 @@ No prerequisites to fulfill.
     > [Info] After saving the event, the value **Manually created** is displayed in the *Plugin* column.
 
 6. Click the *Responsible user* drop-down list and select the user who should take care of the task by default. All users that are registered in the current system instance are displayed in the list. 
-
-[comment]: <> (Müssen sie Admin sein? Rechte/Roles hier relevant?)
 
 7. Click the *Responsible user group* drop-down list and select the user group that should take care of the task by default. All users that are registered in the current system instance are displayed in the list.
 

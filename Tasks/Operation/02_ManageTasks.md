@@ -7,11 +7,10 @@
 
 A task is an activity that needs to be completed by a responsible person. Tasks can be defined in the *Process Orchestration* module. 
 
+[comment]: <> (Link to Workflows)
+
 The *Tasks* menu entry in the *Tasks* module displays all tasks created in your system. You can assign a task to a specific user, filter them by different criteria, mark as done or reopen a closed task.
 
-[comment]: <> (Check definition! Check info. Wie kann man das erstellen? Oder einfach nichts dazu erwähnen und sagen, dass sie im Code festgelegt werden?)
-
-[comment]: <> (Task definiert man in code ABER AUCH in Workflows > Transition > Task event drop-down list > Configuration? Soll das in die Doku rein? Imogen schreibt gerade 2. Version von Workflows/Process Orchestration Modul!)
 
 
 ## Assign a task
@@ -20,9 +19,6 @@ Every task is linked to an event. That means, that when an event occurs a task i
 
 You can define the person and/or group responsible for an event, and all tasks related to it, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can assign one or more tasks to a specific user in the *Tasks* menu entry.
 
-[comment]: <> (User rights? Admin? UserGroup?)
-
-[comment]: <> (Wieso alle Tasks Unassigned and No group, obwohl Events assigned?)
 
 ### Assign a task to yourself
 
@@ -53,9 +49,6 @@ You can assign a task to other users in your instance provided they have the app
 #### Prerequisites
 
 - A task has been created.
-- The users you assign the task to have the appropriate user rights.
-
-[comment]: (You have the appropriate user rights to assign tasks???)
 
 #### Procedures
 
