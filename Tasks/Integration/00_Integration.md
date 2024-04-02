@@ -14,7 +14,7 @@ In this part of the *Tasks* documentation, you will find the following chapters:
     - [Deactivate an attribute set](./02_ManageAttributeSetsTasks.md#deactivate-an-attribute-set)
 
 
-- [Manage an attribute group](./03_ManageAttributeGroupsTasks.md)
+- [Manage an attribute group for tasks](./03_ManageAttributeGroupsTasks.md)
     - [Create an attribute group](./03_ManageAttributeGroupsTasks.md#create-an-attribute-group)
     - [Edit an attribute group](./03_ManageAttributeGroupsTasks.md#edit-an-attribute-group)
 

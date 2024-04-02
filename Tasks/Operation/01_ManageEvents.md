@@ -3,7 +3,7 @@
 
 # Manage the events
 
-An event is an occurrence that initiates/creates a task/causes a task to be performed. For example, when inconsistencies in stock are found, the *Differences in stock* event initiates a task to check the stock inconsistencies manually.
+An event is an occurrence that creates a task/causes a task to be created. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
 
 [comment]: <> (Initiate or create a task? Ist die Task, also, was zu tun ist, schon definiert? Klären: Trigger, event, task)
 
@@ -11,7 +11,7 @@ An event is an occurrence that initiates/creates a task/causes a task to be perf
 
 You can create events manually in the *Tasks* module. However, there are also some events that are automatically created by the system, for instance when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*.
 
-When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Task* module. This event initiates/creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then stopped until the specified task is performed manually by the responsible person. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Task* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then stopped until the specified task is performed manually by the responsible person. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
 [comment]: <> (Stimmt das so? Aus Worfklows automatisch beim Installieren, aber die anderen? Fulfillment, Omni-Channel?)
 
