@@ -8,8 +8,8 @@ In the following, a few request samples for the most usual use cases are provide
 
 Get all data stored in the database for a specific entity, for example, a product. If desired, you can also set filters.
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
-**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.getEntityData
+**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get  
+**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.getEntityData  
 
 [comment]: <> (Unterschiedliche Info - warum?)
 

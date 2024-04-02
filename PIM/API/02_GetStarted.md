@@ -9,7 +9,7 @@
 
 The Core1 uses the OAuth 2.0 open protocol to handle client authorization for API access. 
 
-### Prerequisite
+### Prerequisites
 
 - An app for client access is available. 
 - A user has been created.
@@ -21,7 +21,7 @@ The Core1 uses the OAuth 2.0 open protocol to handle client authorization for AP
 
 If you want to gain access to the Core1 from your app via API, first of all you have to register your app in the developer portal. 
 
-*Dev Tools > Tab APP REGISTRATION*
+*Dev Tools > Tab APP REGISTRATIONS*
 
 ![App registrations](../../Assets/Screenshots/PIM/API/AppRegistrations.png "[App registrations]")
 
@@ -66,10 +66,10 @@ Following the example provided in [Step 1: Register you app](#step-1-register-yo
 ![OAuth debugger](../../Assets/Screenshots/PIM/API/OAuthDebugger.png "[OAuth debugger]")
 
 > [Caution]  
-    Before continuing, make sure you are not logged into the account anymore. Otherwise, the system will create credentials that can make requests on your users' behalf.
-    When logging in, make sure to use the correct API user credentials instead of your personal account.
+    Before continuing, make sure you are not logged into the account anymore. Otherwise, the system will create credentials that can make requests on your user's behalf.
+    When logging in, make sure you use the correct API user credentials instead of your personal account.
 
-1. Enter the authorization URI (Uniform Resource Identifier) in the *Authorize URI (required)* field. In this case, you URI should look like this:
+1. Enter the authorization URI (Uniform Resource Identifier) in the *Authorize URI (required)* field. In this case, your URI should look like this:
 
     **https://your-workspace.actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
 
@@ -90,7 +90,7 @@ Following the example provided in [Step 1: Register you app](#step-1-register-yo
 [comment]: <> (form post oder query? Check video)
 
 8. Click the [SEND REQUEST] button.  
-    If the authentication flow is successful, OAuth debugger displays as success message with an authorization code, such as in the following example. 
+    If the authentication flow is successful, OAuth debugger displays a success message with an authorization code, such as in the following example. 
 
     ![OAuth debugger success](../../Assets/Screenshots/PIM/API/OAuthDebuggerSuccess.png "[OAuth debugger success]")
     
@@ -111,8 +111,9 @@ The following parameters are required:
 - Client ID
 - Client secret
 
-1. Send the Token URL request to generate you access token, as displayed in the following request sample.  
-    Replace *your-workspace* with the name of your instance, and the example values with your client ID, client secret, and the authorization code that you have obtained in [Step 2: Get an authorization code](#step-2-get-an-authorization-code). 
+1. Send the Token URL request to generate your access token, as displayed in the following request sample.  
+
+    Replace *[your-workspace]* with the name of your instance, and the example values with your client ID, client secret, and the authorization code that you have obtained in [Step 2: Get an authorization code](#step-2-get-an-authorization-code). 
 
     **Request sample**
 
@@ -127,7 +128,7 @@ The following parameters are required:
 
         {"access_token":"EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"37e521b0ec5f035c86f0a2db09fe73cda934235e"}
 
-2. Write down you access token and your refresh token. 
+2. Write down your access token and your refresh token. 
     You can now log in to your *Actindo Core1 Digital Operations Platform* instance with your credentials (username and access token). 
 
     > [Info]  Access (also called bearer) tokens are short-lived. You can generate further access tokens with your refresh token.
@@ -139,7 +140,7 @@ The following parameters are required:
 
 Send a test authentication request to your Core1 instance to check that the access token is valid.
 
-1. Send the Token URL request to generate you access token, as displayed in the following request sample.  
+1. Send the Token URL request to generate your access token, as displayed in the following request sample.  
     Replace *your-workspace* with the name of your instance, and the example values with your access token (bearer) code that you have obtained in [Step 3: Generate an access token](#step-3-generate-an-access-token). 
 
     **Request sample**
@@ -161,7 +162,7 @@ Send a test authentication request to your Core1 instance to check that the acce
 
 Access tokens are valid for a limited period of time. If your access token is expired, you can get a new one using your refresh token.
 
-1. Send the Token URL request to generate you access token, as displayed in the following request sample.  
+1. Send the Token URL request to generate your access token, as displayed in the following request sample.  
     Replace *your-workspace* with the name of your instance, and the example values with your client ID, client secret, and the refresh token that you have obtained in [Step 3: Generate an access token](#step-3-generate-an-access-token).  
 
     **Request sample** 

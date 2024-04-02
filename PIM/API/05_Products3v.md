@@ -30,22 +30,22 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains the required field **id**. |
-| variantStatus | string | It indicates whether a product is a *master* or a *variant*. |
-| pim_variants | object | It defines the variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
+| variantStatus | string | Product status. It indicates whether a product is a *single*, *master* or a *variant*. |
+| pim_variants | object | It defines a variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
 | pim_art_name | string | Product name |
 | pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_catalog | array of objects | Product category. It contains the required field **id**. |
+| pim_catalog | string <!-- Frage: Stimmt so? --> | Product category. It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
 | pim_long_text | string | Product description <!-- Frage: Unterschied zu product description? --> |
 | pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
 | pim_ean | string | EAN code |
 | pim_customs_number | string | Customs tariff number |
-| pim_origin | object | Country of origin. It contains the required field **code3digit**. Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
+| pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
 | pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
 | pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
 | pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
 | pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
 | pim_stock_value | number | Stock level in warehouse |
-| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
+| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> |
 | pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
 | pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
 | pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
@@ -72,7 +72,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
 | pim_images | string | It allows to upload images. |
 | pim_files | string | It allows to upload files. |
-| pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
+| pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> |
 | pim_stock_germany | number | Stock level in warehouse (Germany) |
 | pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
@@ -94,7 +94,7 @@ Depending on the type of product, the required fields vary.
 | ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU | 
 | **attributeSetId**   | integer  | Attribute set identification number |
-| **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
+| **variantStatus**   | string  | Indicates whether it is a *single*, *master* or *child*  |
 | **variantSet**   | object  | It contains the required field **id**.  |
 
 ### Sample: Single product

@@ -14,7 +14,7 @@ On this page, you will find the API specification of the platform itself, as wel
 
 Info to be included:
 - Web API
-- REST
+- REST(ful) API
 - accepts and returns json body requests
 - uses standard HTTP responses codes
 - authentication
@@ -35,21 +35,11 @@ The API allows you to integrate your external app with the *Actindo Core1 Digita
 
 ## Authentication
 
-**Security Scheme Type**: OAuth2   
-
-**AuthorizationCode OAuth Flow**
-- **Authorization URL:**  
-    /Actindo.CoreModules.Auth.OAuth2.authorize 
-- **Token URL:**  
-    /Actindo.CoreModules.Auth.OAuth2Token.getAccessToken 
-
 The *Actindo Core1 Platform* supports two workflows of the OAuth 2.0 protocol to retrieve an access token to make authenticated requests. For detailed information on the authentication flow, see [OAuth authorization flow](02_GetStarted.md#oauth-authorization-flow).
-
 
 ## Methods 
 
 The *POST* method is always used for all *Actindo Core1 OpenAPI* endpoints. All other methods are not relevant for communication with the Core1 platform.
-
 
 ## Response codes
 
@@ -66,15 +56,17 @@ Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to in
 
 For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
 
-
 ## Format  
 
 The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format. 
 
 ## Basic API architecture
 
+[comment]: <> (Graphik)
+
 ## Basic API request workflow
 
+[comment]: <> (Graphik)
 
 ---
 
