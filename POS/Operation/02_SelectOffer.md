@@ -123,16 +123,16 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
-
+<!--- NEU-->
 ## Verify the age
 
-Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary for the offer before it is placed in the bill list. 
+Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary before the offer is added to the bill list.
 
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- The *Age verification* attribute has been assigned to the offer-related attribute set. An age restriction for the offer is defined there, for example 18 or 16.    
+- An age restriction for the offer is defined, for example 18 or 16.    
 - The *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
 
 

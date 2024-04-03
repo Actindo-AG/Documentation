@@ -5,11 +5,11 @@
 
 The bill list on the right side of the *Cashpoint* tab displays all offers added to the list for purchase. Before completing the purchase, you can edit the price and the quantity of offers on the list, you can add discounts, remove offers from the list, add a sale note, or assign the purchase to a new or an existing customer.
 
-
+<!--- Position geändert, da erst relevant, wenn Pay gedrückt-->
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than 1, the discount is applied to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
+The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the discount is applied to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
 You can also apply a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
 
 #### Prerequisites
@@ -36,7 +36,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
 4. Click the [SAVE] button in the bottom right corner to apply the discount.   
-    The detail view of the offer is closed. The bill list is displayed again. The reduced price of the offer is displayed in red, the discount is indicated below the price.
+    The detail view of the offer is closed. The bill list is displayed again. The reduced price of the offer is displayed in red. The discount is displayed below the price.
 
     ![Offer discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDiscountBillList.png "[Offer discount]")
 
@@ -96,7 +96,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 2. To the right of the *Quantity* field, click the ![Plus](../../Assets/Icons/Plus03.png "[Plus]") (Plus) button to increase the quantity or click the ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button to decrease the quantity of the selected offer. Alternatively, you can directly enter a number in the input field to the left of the buttons.
 
-    > [Info] You have to enter a quantity higher than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is higher than 1. If you want to set the quantity to zero, remove the offer from the bill list, see [Delete an offer from the bill list](03_EditBillList.md#delete-an-offer-from-the-bill-list).
+    > [Info] You have to enter a quantity higher than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is higher than one. If you want to set the quantity to zero, remove the offer from the bill list, see [Delete an offer from the bill list](03_EditBillList.md#delete-an-offer-from-the-bill-list).
 
 3. Click the [SAVE] button in the bottom right corner to apply the quantity change.   
     The detail view of the offer is closed. The bill list is displayed again. The selected quantity is displayed to the left of the offer.
@@ -185,7 +185,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 3. Enter the customer data in the corresponding fields and click the [ ![Create Customer](../../Assets/Icons/Customer01.png "[Create Customer]") Create Customer] button.   
     The customer is registered. The customer data view is closed. The bill list is displayed again.   
-    The customer's name and address is displayed on top of the bill list. The data is also stored in the *Order Management* module. <!--- Passiert das automatisch oder muss man da noch was tun?-->
+    The customer's name and address are displayed on top of the bill list. The data is also stored in the *Order Management* module. <!--- Passiert das automatisch oder muss man da noch was tun?-->
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button in the upper right corner of the bill list.
 
@@ -218,7 +218,7 @@ Assign the current purchase to a registered customer.
 
     The customers that match the entered name are displayed in a list below the search bar. If no customer with the entered name is displayed, you have to [register the customer](#register-a-customer) first.
 
-3. Click the appropriate customer name in the list.   
+3. Click the appropriate customer's name in the list.   
     The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.

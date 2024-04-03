@@ -115,7 +115,7 @@ The shift summary is an overview of all the transactions made within a shift. A 
 
 #### Prerequisites
 
-At least one shift has ended and the pay desk has been closed, see [Close a pay desk](#close-a-pay-desk).
+At least one shift has ended, and the pay desk has been closed, see [Close a pay desk](#close-a-pay-desk).
 
 #### Procedure
 

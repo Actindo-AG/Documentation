@@ -29,13 +29,15 @@ In the following, each setting and its view is explained.
 
 In this section, you define all pay desk and payment settings.
 
+
 ### Format of sequence number 
 
-*POSgement > Tab GLOBAL SETTINGS > Entry Format of sequential number*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
+
+![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order management* module and is therefore selected from a different number range to be defined here.
 
-![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -56,8 +58,9 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 [comment]: <> (What does it mean?)
 
+
+<!--- NEU-->
 ### Deliveries allowed
-<!---Check position in settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
 
@@ -76,9 +79,9 @@ The deliveries allowed setting enables the cashiers to initiate a delivery durin
     Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
 
 
-
+<!--- NEU-->
 ### Down payments allowed
-<!---Check position in settings, when current sandbox is available-->
+
 *POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
 
 ![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
@@ -94,7 +97,6 @@ By default, down payments are not allowed.
 - *Down payments allowed*
     Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the *Pay bill* list.
     <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
-
 
 
 ### Always print the receipt
@@ -115,7 +117,6 @@ Activate or disable the option to print the cash receipt.
     Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
 
     > [Info] Remember that receipt printing is mandatory in several countries. Please inform yourself about the country-specific regulations before you disable this option.
-
 
 
 ### Number of vouchers per order
@@ -140,7 +141,6 @@ Define how many vouchers may be redeemed per order.
 
 - [Save]    
     Click this button to save any changes.
-
 
 
 ### Payment methods (manual payment terminal)
@@ -172,15 +172,13 @@ In POS, you can specify for statistical purposes which payment method was used f
     Click this button to add a new payment method. A new line for a payment method is displayed.
 
 
-
 ### Automatic discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
 
-Define a discount that is automatically applied above a certain amount.
-
-
 ![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
+
+Define a discount that is automatically applied above a certain amount.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -204,7 +202,6 @@ Define a discount that is automatically applied above a certain amount.
     Click this button to add a new discount. A new line for a discount is displayed.
 
 
-
 ### Open drawer at cash payment
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
@@ -222,7 +219,6 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 - [x] *Open drawer at cash payment*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is active.
-
 
 
 ### Open drawer at cashless payment
@@ -261,7 +257,6 @@ Enter the VAT ID of your company, which is mandatory to be indicated on receipts
     Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
 
 
-
 ### Cashless payment
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Cashless payment*
@@ -281,7 +276,6 @@ Activate or deactivate the options for cashless payment.
 
 - [x] ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manual payment at terminal*   
     Choose whether or not to allow cashless payments via manual payment at the terminal. If you use an external terminal that is not connected to POS, you need to enable that option. By default, this option is inactive.
-
 
 
 ### Bind cash journal to user
@@ -304,7 +298,6 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
     > [Info] Remember that even if you deactivate this option, a user must log out to allow another user to access the pay desk.
 
 
-
 ### Skim to amount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
@@ -318,7 +311,6 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 - *Skim to amont*    
     Enter the amount up to which the pay desk is skimmed after the pay desk closing.
-
 
 
 ### Hide expected amount
@@ -339,16 +331,20 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
     Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
 
 
-
+<!--- NEU-->
 ### Display age verification
-
-<!---To be enhanced: Check position in settings, when current sandbox is available-->
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Display age verification*
 
 ![Display age verification](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age verification]")
 
-By default, offers with an age rating can only be added to the basket if the cashier confirms an age verification.
+By default, offers with an age rating can only be added to the basket if the cashier confirms explicitly that s/he has checked the age of the customer. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
+The following prerequisites must be met to use this feature:   
+- You have assigned the *Age rating* attribute to the offer-related attribute set in the *Omni-Channel* module. See the POS basic set for reference. 
+- You have specified the age rating for an offer, such as 16 or 18, if necessary. Actindo uses the number (of years) to calculate the birthdate that must not be undercut and that is displayed in the *Age verification* window.
+- If you want to display an explanatory text in addition, add an *Age rating description* attribute with which you can display it. See the POS basic set for reference. Actindo uses the text to display it in the *Age verification window*.    
+
+The following fields and features are available in the window:
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
@@ -370,8 +366,7 @@ By default, offers with an age rating can only be added to the basket if the cas
     This setting is the default.
 
 
-
-
+<!--- NEU-->
 ### Remind of offers
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
@@ -396,8 +391,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
     Click this button to add an SKU. A new line for an SKU is displayed.
 
 
-
-
+<!--- NEU-->
 ### Customer-specific discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
@@ -405,14 +399,30 @@ This setting allows the cashiers to suggest additional offers to the customer du
 ![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
 
 This setting allows you to define discounts that are valid for specific customers. You can use it as a global or a store-related setting.  
-A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired.    
-If you want to use this setting, you must add an attribute for the auto-discount to the RetailSuite customer or the RetailSuite supplier attribute set. This attribute is used to define the customer-specific discount in the customer/supplier data of the *Order Management* module.   
-This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
+A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired. For detailed information, see [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount).    
+
+The following prerequisites must be met to use this feature: 
+
+- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. This attribute is used to define the customer-specific discount in the customer/supplier basic data of the *Order Management* module.   
+- This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 <!---Links gehen auf DataHub2 und gehen daher nicht-->
+
+The following fields and features are available for this window:   
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Discount attribute*    
+    Click this drop-down list to select one of the following options:
+    - Auto-discount    
+        The value of the selected attribute will be applied as discount to a receipt on selection of the customer.
+
+
 
 ## Currencies
 
 In this section, you define all settings concerning the currencies in your POS system.
+
 
 ### Available currencies
 
@@ -437,7 +447,7 @@ The following functions are available for the editing toolbar:
 - [DELETE]   
     Click this button to delete the selected currency. This button is displayed only if a currency checkbox is selected.
 
-The table displays all available currencies. All fields are read-only. Depending on the settings, the displayed columns may vary.
+The following fields and functions are available in this window: 
 
 - *Name*  
     Name or abbreviation of the currency.
@@ -462,9 +472,9 @@ The table displays all available currencies. All fields are read-only. Depending
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
 
-Add a new currency to the list of available currencies and define the coins and banknotes of the new currency.
-
 ![Create currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Create currency]")
+
+Add a new currency to the list of available currencies and define the coins and banknotes of the new currency.
 
 **DESCRIPTION**
 - *Name*   
@@ -483,7 +493,7 @@ Add a new currency to the list of available currencies and define the coins and 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icons indicate the coin values that are defined for the currency. The number in the middle indicates the amount of the coin. The icon is displayed after you have created an entry.   
     When you hover over a coin icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the coin. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the coin.
-    
+   
 
 - *Amount*   
     Enter the amount of the banknote or the coin.
@@ -505,9 +515,9 @@ Add a new currency to the list of available currencies and define the coins and 
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
 
-Edit the settings of an existing currency.
-
 ![Edit currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Edit currency]")
+
+Edit the settings of an existing currency.
 
 **DESCRIPTION**
 - *Name*   
@@ -544,7 +554,6 @@ Edit the settings of an existing currency.
     Click this button to save all changes. The *Available Currencies* view is displayed again.
 
 
-
 ### Used currencies
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Used currencies*
@@ -571,13 +580,14 @@ Select all currencies that are used in your POS system and define a default curr
 
 In this section, you define all settings concerning returns.
 
+
 ### Return reasons
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Return reasons*
 
-Define the return reasons that are available in the POS system.
-
 ![Return reasons](../../Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Return reasons]")
+
+Define the return reasons that are available in the POS system.
 
 - [Save]    
     Click this button to save any changes.
@@ -595,14 +605,13 @@ Define the return reasons that are available in the POS system.
     Click this button to add a return reason. A new line for a return reason is displayed.
 
 
-
 ### Refund only on the same payment method
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Refund only on the same payment method*
 
 ![Refund payment method](../../Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund payment method]")
 
-Activate or deavate the refund to the same payment method for returns.
+Activate or deactivate the refund to the same payment method for returns.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -614,11 +623,9 @@ Activate or deavate the refund to the same payment method for returns.
     Choose whether or not a refund for a return can only be made to the same payment method. By default, this option is enabled.
 
 
-
 ### Return only in the same store
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Return only in the same store*
-
 
 ![Return store](../../Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Return store]")
 
@@ -634,10 +641,10 @@ Activate or deactivate the return to the same store.
     Choose whether or not a return can only be made in the same store. By default, this option is inactive.
 
 
-
 ## Receipt printing
 
 In this section, you define all settings concerning the receipt printing.
+
 
 ### Print merchant receipt
 
@@ -655,7 +662,6 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 - [x] *Print merchant receipt*   
     Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is enabled.
-
 
 
 ### Logo print compatibility mode
@@ -676,13 +682,13 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
     Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
 
 
-
 ### Receipt format
+
 *POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
 
-Define the width of the receipt, as it may vary depending on the printer.
-
 ![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Receipt format]")
+
+Define the width of the receipt, as it may vary depending on the printer.
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -697,7 +703,6 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 - *Width in pixel*   
     Define the width of the receipt in pixels. This size is needed to calculate the width for images, for instance logos.
-
 
 
 ### Number format
@@ -724,7 +729,6 @@ Define the number format on the receipt.
     Enter the number of decimal places for the numbers on your receipt or use the arrow buttons in the field to increase or decrease the number of decimal places. You can select a number between 0 and 4. This field is mandatory.
 
     > [Info] The sample view below the input fields displays a live preview of the number with the selected separators and decimal places.
-
 
 
 ### Logo
@@ -755,6 +759,7 @@ Upload a logo for your receipts.
 ## DATA TRANSFER ORDER MANAGEMENT
 
 In this section, you define all settings concerning the connection to the *Order management* module. The settings are only displayed if the accounting is correctly configured.
+
 
 ### Account allocation accounting
 
@@ -838,7 +843,6 @@ Define a shelf in the storage area for blocked stock for returns with defects.
     Enter the name of the shelf for the defect returns.
 
 
-
 ### Default customer
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
@@ -885,11 +889,8 @@ Define an invoice address for a default customer to connect the POS system with 
     Enter the country name of the customer's address.
 
     
-
-<!--- Ist diese Einsstellung noch aktiv?(hop deliveries active)  Bei mir erscheinen die Tabs nicht, wie unten beschrieben, wenn ich es aktiviere-->
-
 ### Shop deliveries active
-
+<!--- Ist diese Einsstellung noch aktiv? Bei mir erscheinen die Tabs nicht, wie unten beschrieben, wenn ich es aktiviere-->
 *POS > Management > Tab GLOBAL SETTINGS > Entry Shop deliveries active*
 
 ![Shop deliveries active](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop deliveries active]")

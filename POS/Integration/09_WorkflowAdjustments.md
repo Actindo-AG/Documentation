@@ -86,7 +86,7 @@ The following procedure shows how to include a workflow transition that separate
     ![New place](../../Assets/Screenshots/POS/Sales/Workflow/NewPlace.png "[New place]")
 
 10. Drop and drag the place of the *noMatch* output port of the *Is RB?* transition on the newly created place.   
-    The *Is RB?* transition is now part of your order workflow. The place of the *match* input port is not yet connected.
+    The *Is RB?* transition is now part of your order workflow. The place of the *match* output port is not yet connected.
 
     ![Connected](../../Assets/Screenshots/POS/Sales/Workflow/Connected.png "[Connected]")
 
@@ -270,13 +270,13 @@ Add the conditions that define the triggers that initiate the Synchronize cash j
     ![Edit conditions](../../Assets/Screenshots/POS/Sales/Workflow/EditConditions.png)
 
 9. Click the [APPLY CHANGES] button.   
-    All changes have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
+    All conditions have been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
 
 ### Add a transition
 
-Add a transition with which the synchronization of the non-sales-related POS postings are processed and postings for the *Accounting* are supplied. For this, the `/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem` transition is available.
+Add a transition with which the synchronization of the non-sales-related POS postings is processed and postings for the *Accounting* are supplied. For this, the `/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem` transition is available.
 
 #### Prerequisites
 
