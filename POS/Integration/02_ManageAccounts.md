@@ -1,7 +1,7 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
+[!!User interface Accounts](../../RetailSuiteAccounting/UserInterface/02b_Accounts.md)
 
-[comment]: <> (add link to Accounting module if available)
 
 # Manage the accounts for POS
 
@@ -31,7 +31,7 @@ Each account number is assigned to a specific number range, which indicates the 
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Account availability](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/AccountAvailability.png "[Account availability]")
+![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Accounts]")
 
 1. Select the corresponding number range in the *Account class* drop-down list.   
     All accounts of the selected account class are displayed in the list.
@@ -52,7 +52,7 @@ The account availability is checked, see [Check the account availability](#check
 
 *Accounting > Select the fiscal year > Settings > Tab ACCOUNTS*
 
-![Create Account](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[CreateAccount]")
+![Accounts](../../Assets/Screenshots/RetailSuiteAccounting/Settings/Accounts/CreateAccount.png "[Accounts]")
 
 1. Enter an available account number in the *Account number* field.
 
@@ -64,7 +64,7 @@ The account availability is checked, see [Check the account availability](#check
 
 [comment]: <> (add link to Accounting module if available)
 
-5. Click the [SPEICHERN & NEU] button.   
+5. Click the [SAVE & NEW] button.   
     The new account is displayed in the account list.
 
 > [Info] Repeat this procedure for each account you want to create.

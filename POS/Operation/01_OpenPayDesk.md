@@ -9,6 +9,7 @@ For instance, in the pay desk you can select offers, make payments, give discoun
 To perform any operation on the pay desk, you must first open one.
 
 #### Prerequisites
+
 - A store including a pay desk is created, see [Create a store in POS](../Integration/06_CreateStore.md).
 - The user logged in must be assigned to a POS group, see [Assign users to the POS groups](../Integration/04_AssignUsers.md).
 - Depending on the assigned POS group, the user must fulfill the following requirements:

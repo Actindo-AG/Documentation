@@ -25,8 +25,8 @@ No prerequisites to fulfill.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
-2. Click the *Warehouse / Supplier* tab.   
-    The *Warehouse / Supplier* tab is displayed. The *Warehouse management* sub-tab is preselected.
+2. Click the *Warehouse / Suppliers* tab.   
+    The *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
@@ -63,7 +63,7 @@ No prerequisites to fulfill.
 5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
     The window is closed. The new stock is displayed in the *Stocks* section.
 
-6. Switch to the *Omni-Channel* module: *Omni-Channel > Orders and Returns > Tab ORDERS* .    
+6. Switch to the *Omni-Channel* module: *Omni-Channel > Orders and Returns > Tab ORDERS*.    
     The *ORDERS* tab is displayed.
 
     ![Orders](../../Assets/Screenshots/Channels/OrdersReturns/Orders/Orders.png "[Orders]")
@@ -79,4 +79,4 @@ No prerequisites to fulfill.
 
 #### Was this chapter helpful?
 
-If you need further assistance, please contact the Customer Support.
+If you need further assistance, please contact the your MPS consultant.

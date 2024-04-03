@@ -166,7 +166,7 @@ You can delete a product from your bill list, for instance if you accidentally a
 Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the product you want to delete from the bill list.   
     The product entry is deleted from the list.
 
-    > [Info] If you click the ![Delete Product](../../Assets/Icons/Cross02.png "[Delete Product]") (Delete Product) button the whole product entry regardless of its quantity is deleted. The deletion cannot be undone.
+> [Info] If you click the ![Delete Product](../../Assets/Icons/Cross02.png "[Delete Product]") (Delete Product) button the whole product entry regardless of its quantity is deleted. The deletion cannot be undone.
 
 
 
