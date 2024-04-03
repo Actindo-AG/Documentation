@@ -1,6 +1,6 @@
 # Prepare workflows
 
-To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payment processing to your Import channels order in OMS workflow. In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module.
+To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payments of this sales channel to your Import channels order in OMS workflow. In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module.
 
 For detailed information on workflow configuration, see also [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation. 
 
@@ -10,16 +10,20 @@ For detailed information on workflow configuration, see also [Manage the workflo
 
 Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
 
-> [Info] If an offer has been sold in your store, a cash invoice business document (RB) is created in the *Omni-Channel* module. The order workflow is used to post this business document in the *Order Management* module, where further processing such as postings in the *Warehousing* is initiated. Additionally, the order workflow is used to post the payment in the *Accounting* module. For detailed information, see the figure [POS interactions with other modules](../Overview/03_Processes.md#pos-interactions-with-other-modules).
+> [Info] If an offer has been sold in your store, a cash invoice business document (RB) is created in the *Omni-Channel* module. The order workflow is used to post this business document in the *Order Management* module, where further processing, such as postings in the *Warehousing*, is initiated. Additionally, the order workflow is used to post the payment in the *Accounting* module. 
 
-The following procedures describe step-for-step how to enhance the order workflow that is how you can include the relevant processing for sales-related POS postings into your existing order workflow.
+
+![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")
+
+
+The following procedures describe step-for-step how you can include the relevant processing for sales-related POS postings into your existing order workflow.
 
 > [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of this standard workflow.
 
 
 ### Split order confirmation and cash invoice processing
 
-Include the necessary cash invoice processing in your Import channels order in OMS workflow. To do this, you must include a specific processing for the cash invoice business document (RB).   
+Include the necessary cash invoice processing in your Import channels order in OMS workflow. To do this, you must include a special processing for the cash invoice business document (RB).   
 The following procedure shows how to include a workflow transition that separates the processing of the cash invoice business document from the processing of the order confirmation business document (AB).
 
 #### Prerequisites
@@ -96,7 +100,7 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 #### Prerequisites
 - You have the required rights to edit a workflow.
 - The *UCS Sync for POS* plugin is installed.
-- You have included a transition in your order workflow with which the cash invoice business documents are split from the order confirmation business documents, see [Split order confirmation and cash invoice processing](#split-order-confirmation-and-cash-invoice-processing).
+- You have included a Split by criterion transition in your order workflow, see [Split order confirmation and cash invoice processing](#split-order-confirmation-and-cash-invoice-processing).
 
 #### Procedure
 
@@ -160,7 +164,9 @@ Create the workflow needed to post non-sales-related POS postings in the *Accoun
 
 3. Enter a unique key for the workflow in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
 
-4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type. If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen?-->
+4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type. 
+  
+    > [Info] If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen?-->
 
 5. Select the start place in the search result list. 
 

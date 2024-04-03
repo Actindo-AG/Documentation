@@ -7,9 +7,3 @@ The following scheme shows the processes and chapters of the *POS* module docume
 ![Processes POS](../../Assets/Screenshots/POS/ProcessesVenduoPOS.png "Processes POS")
 
 
-
-## POS interactions with other modules
-
-The following figure shows the data flow between the *Core1 Platform* modules. It shows how the data are processed.
-
-![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")

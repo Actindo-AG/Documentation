@@ -9,7 +9,7 @@ To complete a purchase, you need to initiate the payment. At the POS pay desk, y
 
 ## Suggest an offer to the customer
 
-If your company wants to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
+If your company wants you to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
 
 #### Prerequisites
 
@@ -30,10 +30,10 @@ If your company wants to suggest additional offers to complete the customer's sh
 2. Suggest the offers to the customer.
 
 3. Click an offer, if a customer wants it.  
-    The offer is added to the bill list.<!---Stimmt das? nachprüfen wenn Sandbox da ist-->
+    The offer is added to the bill list.
 
 4. Click the [PROCEED] button.   
-    The pay bill list is displayed. 
+    The pay bill list is displayed. If you have not previously clicked on the suggested offer, only the offer(s) you originally selected will be charged.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -56,7 +56,7 @@ You can also add a discount to a single offer of the bill list. For detailed inf
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The pay bill list is displayed in the bill list. 
+    The pay bill list is displayed. 
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -78,6 +78,34 @@ You can also add a discount to a single offer of the bill list. For detailed inf
     > [Info] To the right of the indicated discount, on the edge of the bill list, the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to delete the discount.
 
 
+## Check the customer-specific discount
+
+If your company uses the Customer-specific discount feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
+> [Info] If a customer has a customer-specific discount, other discount options are not available.
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- The *Customer-specific discount* setting is activated. For detailed information, see [Customer-specific amount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Add an existing customer to the bill list. For detailed information, see [Assign a purchase to an existing customer](../Operation/03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
+
+2. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed. A discount is added automatically to the pay bill list. 
+
+    ![Check discount](../../Assets/Screenshots/POS/Sales/Cashpoint/CustomerSpecificDiscount.png)
+
+3. Click the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag, if the customer should get no discount.    
+    The customer-specific discount is removed.
+
+
 
 ## Initiate a down payment
 <!---Neu, war nicht dokumentiert-->
@@ -85,8 +113,8 @@ If your company uses the Down payment feature, you can reduce the entire total a
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
--The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).   
+- The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Procedure
 
@@ -127,11 +155,11 @@ If your company uses the Down payment feature, you can reduce the entire total a
 <!---Neu, war nicht dokumentiert-->
 If your company supports the delivery of an offer, you can initiate a delivery.  
 
-
 #### Prerequisites
 
 - At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md).
 - The *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
+- The sale is assigned to a customer and the full address is available, see [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
 
 #### Procedure
 *POS > Sales > Select store and pay desk > Tab CASHPOINT*

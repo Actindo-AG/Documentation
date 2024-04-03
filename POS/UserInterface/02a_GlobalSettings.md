@@ -56,6 +56,45 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 [comment]: <> (What does it mean?)
 
+### Deliveries allowed
+<!---Check position in settings, when current sandbox is available-->
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
+
+![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
+
+The deliveries allowed setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
+
+- [Save]   
+    Click this button to save any changes
+
+- *Deliveries allowed*   
+    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the payment view. By default, this setting is not activated.   
+    Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
+
+
+
+### Down payments allowed
+<!---Check position in settings, when current sandbox is available-->
+*POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
+
+![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
+
+By default, down payments are not allowed.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. 
+
+- [Save]   
+    Click this button to save any changes
+
+- *Down payments allowed*
+    Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the *Pay bill* list.
+    <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
+
 
 
 ### Always print the receipt
@@ -332,49 +371,9 @@ By default, offers with an age rating can only be added to the basket if the cas
 
 
 
-### Deliveries allowed
-<!---Check position in settings, when current sandbox is available-->
-
-*POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
-
-![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
-
-The deliveries allowed setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
-
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
-    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
-
-- [Save]   
-    Click this button to save any changes
-
-- *Deliveries allowed*   
-    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the payment view. By default, this setting is not activated.   
-    Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
-
-
-
-### Down payments allowed
-<!---Check position in settings, when current sandbox is available-->
-*POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
-
-![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
-
-By default, down payments are not allowed.
-
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
-    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. 
-
-- [Save]   
-    Click this button to save any changes
-
-- *Down payments allowed*
-    Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the *Pay bill* list.
-    <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
-
-
 
 ### Remind of offers
-<!---Check sequence of settings, when current sandbox is available-->
+
 *POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
@@ -400,11 +399,16 @@ This setting allows the cashiers to suggest additional offers to the customer du
 
 
 ### Customer-specific discount
-<!---Check position in settings, when current sandbox is available-->
 
-<!--- To be enhanced Screenshot missing-->
+*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
 
+![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
 
+This setting allows you to define discounts that are valid for specific customers. You can use it as a global or a store-related setting.  
+A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired.    
+If you want to use this setting, you must add an attribute for the auto-discount to the RetailSuite customer or the RetailSuite supplier attribute set. This attribute is used to define the customer-specific discount in the customer/supplier data of the *Order Management* module.   
+This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
+<!---Links gehen auf DataHub2 und gehen daher nicht-->
 
 ## Currencies
 
