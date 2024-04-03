@@ -96,6 +96,25 @@ Depending on the type of product, the required fields vary.
 | **attributeSetId**   | integer  | Attribute set identification number |
 | **variantStatus**   | string  | Indicates whether it is a *single*, *master* or *child*  |
 | **variantSet**   | object  | It contains the required field **id**.  |
+| **pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
+
+Beispiel aus Console
+
+"_pim_variants": {
+                "variantSetId": 42,
+                "isMasterEntity": true,
+                "childrenIds": {
+                    "572": 572,
+                    "582": 582,
+                    "592": 592,
+                    "602": 602,
+                    "612": 612,
+                    "622": 622,
+                    "632": 632,
+                    "642": 642,
+                    "652": 652
+                },
+
 
 ### Sample: Single product
 
@@ -159,13 +178,44 @@ Depending on the type of product, the required fields vary.
         }
     }
 
+Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "pim_variants" object immer notwendig?
+
+### Sample: Master product
+
+
+      {
+          "product": {
+              "sku": "MASTER1",
+              "attributeSetId": 622,
+              "variantStatus": "master",
+              "pim_variants": [
+                    "isMasterEntity": 1,
+                    "variantSetId": 2,
+                    "childrenIds": null
+              ]
+          }
+      }
+
+
+### Sample: Variant product
+
+    {
+      "product": 
+        {
+          "sku": "VARIANT-Shirt_38",
+          "attributeSetId": 622,
+          "variantStatus": "child",
+          "variantSet": {
+            "id": 32
+          }
+        }
+    }
+
 
 
 ## Edit a product
 
 You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
-
-[comment]: <> (Modify single to master possible? How?)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
@@ -180,6 +230,22 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | **id**      | integer    |  Product identification number  |
 
 
+
+
+### Sample: Update product status (from single to master/variant)
+
+        {
+        "product": {
+            "id": 456,
+            "price": "65.00",
+            "pim_images": "string",
+            }
+    }
+
+
+
+
+
 ### Sample: Update price and add images request
 
     {
@@ -190,7 +256,31 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
             }
     }
 
-[comment]: <> (Wie werden die images hochgeladen/verbunden? Wo befinden sich die images?)
+Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "pim_images" ist ein Objekt mit required field "Id"? Id ist Pfad auf ECM (Bild-Location)? 
+
+Beispiel aus Console: 
+
+"_pim_images": {
+                "id": null,
+                "images": [
+                    {
+                        "id": "\/EcmFileImage\/PIM Product\/Hosen\/IDS_FROM_501_TO_1000\/ACTT_actindotrousers-black",
+                        "title": "",
+                        "caption": "",
+                        "altText": "",
+                        "imageTags": "",
+                        "sortOrder": "0",
+                        "metaData": {
+                            "metadataEnriched": "1669987520.136604"
+                        },
+                        "created": "2022-12-02 14:25:32",
+                        "modified": "2022-12-02 14:25:32",
+                        "size": 1773,
+                        "mimeType": "image\/png",
+                        "rawThumbnail": "data:image\/png;base64,\/9j\/4AAQSkZJRgABAQAAZABkAAD\/...",
+                        "_E": 4266546725
+                    }
+                ],
 
 
 ### Sample: Add the product name in different languages request
@@ -252,7 +342,7 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [The
         }
       }
 
-[comment]: <> ("error": "Call to a member function getVariantSet() on a non-object (null)",)
+"error": "Call to a member function getVariantSet() on a non-object (null)",
 
 ### Sample: Add a variant to master product response
 
