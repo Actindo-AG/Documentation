@@ -39,7 +39,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
 | _pim_ean | string | EAN code |
 | _pim_customs_number | string | Customs tariff number |
-| _pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
+| _pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. |
 | _pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
 | _pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
 | _pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
