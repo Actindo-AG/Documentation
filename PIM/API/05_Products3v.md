@@ -100,20 +100,20 @@ Depending on the type of product, the required fields vary.
 
 Beispiel aus Console
 
-"_pim_variants": {
-                "variantSetId": 42,
-                "isMasterEntity": true,
-                "childrenIds": {
-                    "572": 572,
-                    "582": 582,
-                    "592": 592,
-                    "602": 602,
-                    "612": 612,
-                    "622": 622,
-                    "632": 632,
-                    "642": 642,
-                    "652": 652
-                },
+        "_pim_variants": {
+                        "variantSetId": 42,
+                        "isMasterEntity": true,
+                        "childrenIds": {
+                            "572": 572,
+                            "582": 582,
+                            "592": 592,
+                            "602": 602,
+                            "612": 612,
+                            "622": 622,
+                            "632": 632,
+                            "642": 642,
+                            "652": 652
+                        },
 
 
 ### Sample: Single product
@@ -260,27 +260,27 @@ Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "pim_i
 
 Beispiel aus Console: 
 
-"_pim_images": {
-                "id": null,
-                "images": [
-                    {
-                        "id": "\/EcmFileImage\/PIM Product\/Hosen\/IDS_FROM_501_TO_1000\/ACTT_actindotrousers-black",
-                        "title": "",
-                        "caption": "",
-                        "altText": "",
-                        "imageTags": "",
-                        "sortOrder": "0",
-                        "metaData": {
-                            "metadataEnriched": "1669987520.136604"
-                        },
-                        "created": "2022-12-02 14:25:32",
-                        "modified": "2022-12-02 14:25:32",
-                        "size": 1773,
-                        "mimeType": "image\/png",
-                        "rawThumbnail": "data:image\/png;base64,\/9j\/4AAQSkZJRgABAQAAZABkAAD\/...",
-                        "_E": 4266546725
-                    }
-                ],
+        "_pim_images": {
+                        "id": null,
+                        "images": [
+                            {
+                                "id": "\/EcmFileImage\/PIM Product\/Hosen\/IDS_FROM_501_TO_1000\/ACTT_actindotrousers-black",
+                                "title": "",
+                                "caption": "",
+                                "altText": "",
+                                "imageTags": "",
+                                "sortOrder": "0",
+                                "metaData": {
+                                    "metadataEnriched": "1669987520.136604"
+                                },
+                                "created": "2022-12-02 14:25:32",
+                                "modified": "2022-12-02 14:25:32",
+                                "size": 1773,
+                                "mimeType": "image\/png",
+                                "rawThumbnail": "data:image\/png;base64,\/9j\/4AAQSkZJRgABAQAAZABkAAD\/...",
+                                "_E": 4266546725
+                            }
+                        ],
 
 
 ### Sample: Add the product name in different languages request
