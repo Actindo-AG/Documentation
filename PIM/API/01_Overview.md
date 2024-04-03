@@ -1,5 +1,7 @@
 # Overview
 
+[comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
+
 ## Introduction
 
 In order for our *Actindo Core1 Digital Operations Platform* to fit into our technology driven era, it has to be fully connective and integrative. This is why our platform is built with the API-first strategy in mind. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 

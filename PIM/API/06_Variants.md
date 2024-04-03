@@ -2,8 +2,6 @@
 
 You can create, edit, delete, and list *PIM* variants via API. You can also create, edit, delete, and list variant sets. 
 
-[comment]: <> (Edit und delete geht es übers UI aber ich finde es in API-Doku delete unter Variant nicht. S. Delete product! Variant sets via API auch sinnvoll für Kunden?)
-
 The keys are customer-defined in *PIM*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
 > [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that the field may not be found when sending a request. In this case, you have to update the key, that is, the field, in your request body as well.
@@ -11,9 +9,7 @@ The keys are customer-defined in *PIM*. Therefore, the fields displayed in the r
 
 ## Create a variant
 
-[comment]: <> (Use case?)
-
-Create one of several variants at once via API to an existing product.
+Create a single or multiple variants at once to a existing master product.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
@@ -27,7 +23,6 @@ The required fields are marked in bold.
 | **variantSetId**   | integer  | Variant set identification number |
 | **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
 
-[comment]: <> (Kann man so viele defining und differing attribute values hinzufügen, wie man möchte? Keine als required, aber man muss mindestens ein defining attribute haben, oder? Info fehlt.)
 
 You have to include all required fields in the JSON file and provide them with a value. The **masterId** and **variantSetId** values must be existing values in *DataHub*. To find out the entity ID, see [Entity ID](./02_Basics.md#entity-id). 
 
@@ -42,46 +37,46 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
 
 #### Create a single variant
 
-
     {
-      "masterId": 0,
-      "variantSetId": 0,
-      "variants": [
-        {
-          "definingAttributeValues": {},
-          "differingAttributeValues": {},
-          "additionalFields": "string"
-        }
-      ]
+        "masterId": 872,
+        "variantSetId": 32,
+        "variants": [
+            {
+                "definingAttributeValues": {
+                    "_pim_collar_size": 47
+                },
+                "additionalFields": {
+                    "sku": "variant-47"
+                }
+            }
+        ]
     }
 
 #### Create multiple variants 
 
 
     {
-      "masterId": 0,
-      "variantSetId": 0,
-      "variants": [
-        {
-          "definingAttributeValues": {},
-          "differingAttributeValues": {},
-          "additionalFields": "string"
-        }
-        {
-          "definingAttributeValues": {},
-          "differingAttributeValues": {},
-          "additionalFields": "string"
-        }
-        {
-          "definingAttributeValues": {},
-          "differingAttributeValues": {},
-          "additionalFields": "string"
-        }
+        "masterId": 872,
+        "variantSetId": 32,
+        "variants": [
+            {
+                "definingAttributeValues": {
+                    "_pim_collar_size": 47
+                },
+                "additionalFields": {
+                    "sku": "variant-47"
+                }
+            },
+            {
+                "definingAttributeValues": {
+                    "_pim_collar_size": 48
+                },
+                "additionalFields": {
+                    "sku": "variant-48"
+                }
+          }
       ]
     }
-
-
-[comment]: <> (Überhaupt möglich???)
 
 
 

@@ -8,7 +8,7 @@ You can find out an entity ID via user interface or via API, see [Entities](./03
 
 Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
 
-If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#get-a-list-of-attributes-in-an-attribute-set).
+If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"_pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#get-a-list-of-attributes-in-an-attribute-set).
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
@@ -31,50 +31,50 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains the required field **id**. |
 | variantStatus | string | Product status. It indicates whether a product is a *single*, *master* or a *variant*. |
-| pim_variants | object | It defines a variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
-| pim_art_name | string | Product name |
-| pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_catalog | string <!-- Frage: Stimmt so? --> | Product category. It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
-| pim_long_text | string | Product description <!-- Frage: Unterschied zu product description? --> |
-| pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
-| pim_ean | string | EAN code |
-| pim_customs_number | string | Customs tariff number |
-| pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
-| pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
-| pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
-| pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
-| pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
-| pim_stock_value | number | Stock level in warehouse |
-| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> |
-| pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
-| pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
-| pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
-| pim_weight | object | Product weight. It contains the required fields **value** and **unitId**. |
-| pim_price | string | Product price |
-| pim_baseprice | string | Price per unit |
-| pim_products_url | string | Supplier link |
-| pim_products_keywords | string | Additional terms for search |
-| pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_tags | string | Tags <!-- Frage: Unterschied zwischen Tags und Keywords? --> |
-| pim_products_tags__scope__language | string | Tags in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_title | string | Meta title |
-| pim_products_meta_title__scope__language | string | Meta title in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_keywords | string | Meta keywords |
-| pim_products_meta_keywords__scope__language | string | Meta keywords in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_description | string | Product description |
-| pim_products_description__scope__language | string | Product description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_description | string | Meta description |
-| pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_short_description | string | Product short description |
-| pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
-| pim_products_relations | string | Adds related products, e.g. for product recommendation. |
-| pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
-| pim_images | string | It allows to upload images. |
-| pim_files | string | It allows to upload files. |
-| pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> |
-| pim_stock_germany | number | Stock level in warehouse (Germany) |
-| pim_stock_foreign | number | Stock level in warehouse (other countries) |
+| _pim_variants | object | It defines a variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
+| _pim_art_name | string | Product name |
+| _pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_catalog | string <!-- Frage: Stimmt so? --> | Product category. It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
+| _pim_long_text | string | Product description <!-- Frage: Unterschied zu product description? --> |
+| _pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
+| _pim_ean | string | EAN code |
+| _pim_customs_number | string | Customs tariff number |
+| _pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
+| _pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
+| _pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
+| _pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
+| _pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
+| _pim_stock_value | number | Stock level in warehouse |
+| _pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> |
+| _pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
+| _pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
+| _pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
+| _pim_weight | object | Product weight. It contains the required fields **value** and **unitId**. |
+| _pim_price | string | Product price |
+| _pim_baseprice | string | Price per unit |
+| _pim_products_url | string | Supplier link |
+| _pim_products_keywords | string | Additional terms for search |
+| _pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_tags | string | Tags <!-- Frage: Unterschied zwischen Tags und Keywords? --> |
+| _pim_products_tags__scope__language | string | Tags in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_title | string | Meta title |
+| _pim_products_meta_title__scope__language | string | Meta title in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_keywords | string | Meta keywords |
+| _pim_products_meta_keywords__scope__language | string | Meta keywords in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_description | string | Product description |
+| _pim_products_description__scope__language | string | Product description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_description | string | Meta description |
+| _pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_short_description | string | Product short description |
+| _pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
+| _pim_products_relations | string | Adds related products, e.g. for product recommendation. |
+| _pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
+| _pim_images | string | It allows to upload images. |
+| _pim_files | string | It allows to upload files. |
+| _pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> |
+| _pim_stock_germany | number | Stock level in warehouse (Germany) |
+| _pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
 
 ## Create a product
@@ -84,7 +84,7 @@ Create a new product.
 You can create thee types of product:
  - a single product
  - a master product
- - a variant product
+ - a variant product, see [Create a variant](./06_Variants.md#create-a-variant)
 
 Depending on the type of product, the required fields vary.
 
@@ -96,7 +96,7 @@ Depending on the type of product, the required fields vary.
 | **attributeSetId**   | integer  | Attribute set identification number |
 | **variantStatus**   | string  | Indicates whether it is a *single*, *master* or *child*  |
 | **variantSet**   | object  | It contains the required field **id**.  |
-| **pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
+| **_pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
 
 Beispiel aus Console
 
@@ -178,7 +178,7 @@ Beispiel aus Console
         }
     }
 
-Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "pim_variants" object immer notwendig?
+Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "_pim_variants" object immer notwendig?
 
 ### Sample: Master product
 
@@ -188,7 +188,7 @@ Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "pim_vari
               "sku": "MASTER1",
               "attributeSetId": 622,
               "variantStatus": "master",
-              "pim_variants": [
+              "_pim_variants": [
                     "isMasterEntity": 1,
                     "variantSetId": 2,
                     "childrenIds": null
@@ -238,7 +238,7 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
         "product": {
             "id": 456,
             "price": "65.00",
-            "pim_images": "string",
+            "_pim_images": "string",
             }
     }
 
@@ -252,11 +252,11 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
         "product": {
             "id": 456,
             "price": "65.00",
-            "pim_images": "string",
+            "_pim_images": "string",
             }
     }
 
-Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "pim_images" ist ein Objekt mit required field "Id"? Id ist Pfad auf ECM (Bild-Location)? 
+Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "_pim_images" ist ein Objekt mit required field "Id"? Id ist Pfad auf ECM (Bild-Location)? 
 
 Beispiel aus Console: 
 
@@ -299,7 +299,7 @@ Beispiel aus Console:
     {
         "product": {
             "id": 782,
-            "pim_variants": {
+            "_pim_variants": {
                 "3,892": "Pink",
                 "3,902": "256",
                 "149": "1,989"

@@ -1,9 +1,11 @@
 # Get started
 
+[comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
+
 
 ## Using the Actindo Core1 OpenAPI
 
-
+API documentation in Core1: *Dev Tools > API > PIM - Product Information Management*
 
 ## OAuth authorization flow
 
