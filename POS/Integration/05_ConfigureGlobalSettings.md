@@ -1,4 +1,4 @@
-[!!Create a store in POS](06_CreateStore.md)
+[!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
 [!!User interface DataHub ETL](../../DataHub/UserInterface/02d_ETL.md)
 
@@ -6,7 +6,7 @@
 
 # Configure the global settings for POS
 
-Venduo POS provides many settings to  configure the POS system individually.
+Venduo POS provides many settings to configure the POS system individually.
 
 For detailed information about the specific settings, see [Global Settings](../UserInterface/02a_GlobalSettings.md).
 
@@ -31,8 +31,7 @@ No prerequisites to fulfill.
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
-1. Select the *Default customer* entry in the list of settings in the left column.
-
+1. Select the *Default customer* entry in the list of settings in the left column.   
     The *Default customer* view is displayed on the right side.
 
 2. Enter the fields for the default customer.
@@ -85,6 +84,7 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 No prerequisites to fulfill.
 
 #### Procedure
+
 *Order management > Settings > Tab PAYMENT METHOD(S)*
 
 ![Payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/PaymentMethods.png "[Payment methods]")
@@ -115,6 +115,7 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 A payment method has been created in the *Order management* module, see [Create a payment method in Order management](#create-a-payment-method-in-order-management).
 
 #### Procedure
+
 *Venduo POS > Management > Tab GLOBAL SETTINGS*
 
 ![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
@@ -145,6 +146,7 @@ A payment method has been created in the *Order management* module, see [Create 
 - A payment method has been created in the *Venduo POS* module, see [Create a payment method in POS](#create-a-payment-method-in-pos).
 
 #### Procedure
+
 *DataHub > Settings > Tab ETL*
 
 ![ETL](../../Assets/Screenshots/DataHub/Settings/ETL/ETL.png "[ETL]")

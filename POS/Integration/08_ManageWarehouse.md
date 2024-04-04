@@ -24,6 +24,7 @@ Check if the stock allocation is correctly configured so that the store stock is
 1.  Search for the target channel of the appropriate POS store in the *Target channel* column and check the settings in the corresponding row.
 
 2. If necessary, edit the settings as described in the following:
+
     + Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
         The fields in the warehouse columns are unlocked.
 

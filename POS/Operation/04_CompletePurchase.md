@@ -194,11 +194,11 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 3. Click the [REDEEM] button to the right of the *Voucher code* field.   
     The voucher is indicated in the *Settlement* section of the bill list.
 
-        > [Info] The current value of the voucher is displayed on the left side, the amount that will be redeemed at purchase is displayed on the right side. The remaining total of the purchase is indicated below. If the voucher amount is higher than the purchase amount, the voucher is reduced by the purchase amount and the remaining total 0.00 € is displayed on the bill list.
+    > [Info] The current value of the voucher is displayed on the left side, the amount that will be redeemed at purchase is displayed on the right side. The remaining total of the purchase is indicated below. If the voucher amount is higher than the purchase amount, the voucher is reduced by the purchase amount and the remaining total 0.00 € is displayed on the bill list.
 
     ![Pay voucher](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PayVoucher.png "[Pay voucher]")
 
-        > [Info] To the right of the indicated voucher amount, on the edge of the bill list, the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to remove the voucher from the payment.
+    > [Info] To the right of the indicated voucher amount, on the edge of the bill list, the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to remove the voucher from the payment.
 
 [comment]: <> (Is there a predefined way how to complete the purchase when total = 0?)
 
@@ -296,4 +296,4 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 Click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button at the bottom of the bill list.   
     The current purchase is canceled. The bill list is empty.
 
-    > [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.
+> [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.
