@@ -2,7 +2,7 @@
 
 # Manage the email settings
 
-The *E-MAIL SETTINGS* tab allows you configure how a user is notified per email when a task is created. 
+The *EMAIL SETTINGS* tab allows you configure how a user is notified per email when a task is created. 
 
 This tab is only displayed if the *Email* (1.6.1) module is installed.
 
@@ -36,7 +36,7 @@ In this menu option, you can configure the email type that is used to send email
 
 #### Procedure
 
-*Tasks > Settings > Tab E-MAIL SETTINGS*
+*Tasks > Settings > Tab EMAIL SETTINGS*
 
 ![Email general settings](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsGeneral.png "[Email general settings]")
 
@@ -63,7 +63,7 @@ The general settings have been configured, see [Configure the general settings](
 
 #### Procedure
 
-*Tasks > Settings > Tab E-MAIL SETTINGS > Email sending per event*
+*Tasks > Settings > Tab EMAIL SETTINGS > Email sending per event*
 
 ![Email sending per event](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsSending.png "[Email sending per event]")
 

@@ -3,11 +3,11 @@
 
 # Manage the events
 
-An event is an occurrence that creates a task/causes a task to be created. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
+An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
 
 [comment]: <> (trigger: entity/data model that, together with the occurrence of an event, initiates a process; event: occurrence that initiates/creates? a task; task: instruction / action to be performed)
 
-You can create events manually in the *Tasks* module. However, there are also some events that are automatically created by the system, for instance when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*.
+You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
 When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Task* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then stopped until the specified task is performed manually by the responsible person. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
