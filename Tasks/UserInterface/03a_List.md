@@ -1,3 +1,4 @@
+[!!Email settings](../UserInterface/02d_EmailSettings.md)
 [!!Manage the events](../Operation/01_ManageEvents.md)
 
 # List (Events)
