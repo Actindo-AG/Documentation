@@ -48,8 +48,3 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Close a pay desk](./05_ManageCashRegister.md#close-a-pay-desk)
     - [Manage the shift summary](./05_ManageCashRegister.md#manage-the-shift-summary)
 
-
-- [Manage the POS order process](./06_ManageOrderProcess.md)
-    - [Check the POS order status](./06_ManageOrderProcess.md#check-the-pos-order-status)
-    - [Check the cash invoice](./06_ManageOrderProcess.md#check-the-cash-invoice)
-    - [Check the payment](./06_ManageOrderProcess.md#check-the-payment)

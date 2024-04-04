@@ -43,9 +43,6 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Open drawer for cash payment](./01f_Settings.md#open-drawer-for-cash-payment)
     - [Open drawer after cashless payment](./01f_Settings.md#open-drawer-after-cashless-payment)
 
-<!-- Tab gibt es nicht mehr, nicht?- [WARENEINGANG](./01g_Wareneingang.md)-->
-
-
 - [Management](./02_Management.md)
 
 - [GLOBAL SETTINGS](./02a_GlobalSettings.md)
@@ -60,12 +57,12 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [VAT ID](./02a_GlobalSettings.md#vat-id)
         - [Cashless payment](./02a_GlobalSettings.md#bargeldloses-zahlen)
         - [Bind cash journal to user](./02a_GlobalSettings.md#kassenjournal-auf-user-binden)
-        - [Abschöpfen bis Betrag](./02a_GlobalSettings.md#skim-to-amount)
-        - [Erwarteten Betrag verbergen](./02a_GlobalSettings.md#hide-expected-amount)
-        - [Display age verification](./02a_GlobalSettings.md#display-age-verification)
+        - [Skim to amount](./02a_GlobalSettings.md#skim-to-amount)
+        - [Hide expected amount](./02a_GlobalSettings.md#hide-expected-amount)
+        - [Display age rating](./02a_GlobalSettings.md#display-age-rating)
         - [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed)
         - [Remind of offers](./02a_GlobalSettings.md#remind-of-offers)
-        - [Customer-specific amount](./02a_GlobalSettings.md#customer-specific-discount)
+        - [Customer-specific discount](./02a_GlobalSettings.md#customer-specific-discount)
 
     - [CURRENCIES](./02a_GlobalSettings.md#währungen)
         - [Available Currencies](./02a_GlobalSettings.md#available-currencies)
@@ -78,7 +75,6 @@ In this part of the *POS* documentation, you will find the following chapters:
 
     - [RECEIPT PRINTING](./02a_GlobalSettings.md#receipt-printing)
         - [Print merchant receipt](./02a_GlobalSettings.md#print-merchant-receipt)
-       <!--Gibt es nicht mehr, nicht? - [Nativer Bon-Druck](./02a_GlobalSettings.md#)-->
         - [Logo print compatibility mode](./02a_GlobalSettings.md#logo-print-compatibility-mode)
         - [Receipt format](./02a_GlobalSettings.md#bon-format)
         - [Number format](./02a_GlobalSettings.md#zahlenformat)
@@ -89,8 +85,8 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Reverse posting on source warehouse](./02a_GlobalSettings.md#korrekturbuchung-auf-ursprungslager)
         - [Retourenlager (Sperrlager)](./02a_GlobalSettings.md#retourenlager-sperrlager)
         - [Default customer](./02a_GlobalSettings.md#standard-kunde)
-        - [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv)
-        - [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)
+        <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv)
+        <!---Obsolete? [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)-->
 
 - [STORES](./02b_Stores.md)
     - [Create store](./02b_Stores.md#create-store)
@@ -106,15 +102,3 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Transactions &ndash; Pay desk](./02b_Stores.md#transactions-–-pay-desk)
 
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
-
-<!--- Diese Tabs gibt es nicht mehr, nicht?
-
-- [ACCOUNTING SYNC](./02d_AccountingSync.md)
-    - [Accounting sync details](./02d_AccountingSync.md#accounting-sync-details)
-
-- [ABGESCHLOSSENE LIEFERSCHEINE](./02e_ProcessedDeliveryNotes.md)
-
-- [OFFENE LIEFERSCHEINE](./02f_UnprocessedDeliveryNotes.md)
-
-- [WARENEINGANGS-SYNC](./02g_WareneingangsSync.md)
--->

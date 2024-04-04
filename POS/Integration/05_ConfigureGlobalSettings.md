@@ -1,6 +1,6 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
-[!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
+[!!User interface DataHub MAPPINGS](../../DataHub/UserInterface/02a_Mappings.md)
 
 [comment]: <> (add link to Order management module if available)
 
@@ -62,7 +62,6 @@ No prerequisites to fulfill.
 
 3. Click the [Save] button in the upper right corner.   
     A confirmation message is displayed. The VAT-ID is saved for all stores.
-
 
 
 

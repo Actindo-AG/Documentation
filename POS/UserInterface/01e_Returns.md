@@ -55,7 +55,7 @@ The *Add return* view is used to select the bill number of the offer that a cust
 - [SUMMARY]   
     Click this button to display a summary of all returns after you have defined the return.
 
-<>
+
 
 ## Define return
 

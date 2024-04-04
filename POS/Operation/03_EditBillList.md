@@ -5,12 +5,14 @@
 
 The bill list on the right side of the *Cashpoint* tab displays all offers added to the list for purchase. Before completing the purchase, you can edit the price and the quantity of offers on the list, you can add discounts, remove offers from the list, add a sale note, or assign the purchase to a new or an existing customer.
 
-<!--- Position geändert, da erst relevant, wenn Pay gedrückt-->
+
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
 The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the discount is applied to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
 You can also apply a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
+
+> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
 
 #### Prerequisites
 

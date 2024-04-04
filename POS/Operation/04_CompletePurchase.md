@@ -40,11 +40,13 @@ If your company wants you to suggest additional offers to complete the customer'
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 
-
+<!--- Position geändert, da dieser discount erst relevant, wenn Pay gedrückt-->
 ## Add a discount to the purchase
 
 You can add a discount to the whole purchase of your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
 You can also add a discount to a single offer of the bill list. For detailed information, see [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).
+
+> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
 
 #### Prerequisites
 

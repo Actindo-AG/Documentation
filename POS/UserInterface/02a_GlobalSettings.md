@@ -332,17 +332,17 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 
 
 <!--- NEU-->
-### Display age verification
+### Display age rating
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Display age verification*
 
-![Display age verification](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age verification]")
+![Display age rating](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age rating]")
 
 By default, offers with an age rating can only be added to the basket if the cashier confirms explicitly that s/he has checked the age of the customer. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
 The following prerequisites must be met to use this feature:   
 - You have assigned the *Age rating* attribute to the offer-related attribute set in the *Omni-Channel* module. See the POS basic set for reference. 
 - You have specified the age rating for an offer, such as 16 or 18, if necessary. Actindo uses the number (of years) to calculate the birthdate that must not be undercut and that is displayed in the *Age verification* window.
-- If you want to display an explanatory text in addition, add an *Age rating description* attribute with which you can display it. See the POS basic set for reference. Actindo uses the text to display it in the *Age verification window*.    
+- If you want to display an explanatory text in addition, add an *Age rating description* attribute with which you can create the text. See the POS basic set for reference. Actindo uses the text to display it in the *Age verification window*.    
 
 The following fields and features are available in the window:
 
@@ -353,16 +353,16 @@ The following fields and features are available in the window:
     Click this button to save any changes
 
 - *Mode*   
-   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. For detailed information, see [Verify age](../Operation/02_SelectOffer.md#verify-the-age). The following settings are available:
+   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age). The following settings are available:
 
    - **Always**    
-    The cashier is always asked when an offer with an age verification necessary is added to the basket.
+    The cashier will always be asked when an offer is added to the basket that requires an age verification.
 
    - **Never**   
-    The cashier is never asked for confirmation in case an offer with an age verification necessary is added to the basket.
+    The cashier will never be asked when an offer is added to the basket that requires an age verification.
 
    - **Once**   
-    The cashier is asked once per order in case an offer with an age rating is added to the basket. If an offer with a lower age rating is added later, the cashier will be asked again.  
+    The cashier is asked once per order in case an offer is added to the basket that requires an age verification. If an offer with a higher age rating is added later, the cashier will be asked again.  
     This setting is the default.
 
 
@@ -403,7 +403,7 @@ A customer-specific discount is automatically added to the pay bill list when a 
 
 The following prerequisites must be met to use this feature: 
 
-- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. This attribute is used to define the customer-specific discount in the customer/supplier basic data of the *Order Management* module.   
+- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
 - This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 <!---Links gehen auf DataHub2 und gehen daher nicht-->
 
@@ -414,7 +414,7 @@ The following fields and features are available for this window:
 
 - *Discount attribute*    
     Click this drop-down list to select one of the following options:
-    - Auto-discount    
+    - [ID of your customer-specific attribute]    
         The value of the selected attribute will be applied as discount to a receipt on selection of the customer.
 
 
@@ -888,9 +888,9 @@ Define an invoice address for a default customer to connect the POS system with 
 - *Country*   
     Enter the country name of the customer's address.
 
-    
-### Shop deliveries active
-<!--- Ist diese Einsstellung noch aktiv? Bei mir erscheinen die Tabs nicht, wie unten beschrieben, wenn ich es aktiviere-->
+ <!---Obsolet  
+### Store deliveries active
+
 *POS > Management > Tab GLOBAL SETTINGS > Entry Shop deliveries active*
 
 ![Shop deliveries active](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop deliveries active]")
@@ -907,9 +907,9 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
     When the store deliveries are active, the three new tabs [*ABGESCHLOSSENE LIEFERSCHEINE*](./02e_ProcessedDeliveryNotes.md), [*OFFENE LIEFERSCHEINE*](./02f_UnprocessedDeliveryNotes.md) and  [*WARENEINGANGS-SYNC*](./02g_WareneingangsSync.md) are displayed in the menu entry *Management* and the new tab [*WARENEINGANG*](./01g_Wareneingang.md) is displayed in the menu entry *Sales*.
 
     > [Info] You have to save the changes and press **F5** to initialize the Core1 Platform and display the new tabs.
+-->
 
-
-<!--- Gibt es diese Einstellung noch?
+<!--- Obsolete?
 
 ## Kundendaten aus RetailSuite übernehmen
 

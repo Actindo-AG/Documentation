@@ -12,10 +12,6 @@ The *POS* module offers the following benefits:
 - Set up multiple stores and cash registers
 - Local independence despite retail store: the cloud-based POS is digitally available from anywhere
 
-## Prerequisites
-
-- An external barcode scanner is connected and configured.
-<!---Diese Prerequisites war noch in der früheren Doku vorhanden, wird aber sonst in Doku nicht erwähnt. Drin lassen?-->
 
 ## Further information
 

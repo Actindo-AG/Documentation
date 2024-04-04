@@ -1,6 +1,8 @@
 # Prepare workflows
 
-To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the cash payments of this sales channel to your Import channels order in OMS workflow. In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module.
+To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing Import channels order in OMS workflow.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
+
+The following describes in detail how to perform these two different operations by using workflows.
 
 For detailed information on workflow configuration, see also [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation. 
 
@@ -116,12 +118,9 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 2. Search for the **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItemByBusinessDocument** endpoint and select the entry.   
     The new transition is added.
 
-<!---TO BE ENHANCED:Screenshot nachholen, wenn Endpoint available-->
-
 3. Edit the label so that the transition is clearly labeled.
 
     ![Synch payments](../../Assets/Screenshots/POS/Sales/Workflow/SynchPayments.png "[Synch payments]")
-    <!---TO BE ENHANCED:Screenshot nachholen,  wenn Endpoint available-->
 
 4. Connect the transition with the end place. To do this, drag the place connected with the *data* output port and drop it on the end place.    
     The transition is connected with the end place.

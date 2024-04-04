@@ -21,7 +21,7 @@
     Click a QuickSelect element to add it to the bill list. The QuickSelect element is only displayed if a QuickSelect category with an element has been created before. The elements are named individually.  For detailed information, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 
-
+<!---NEU-->
 ## Age verification
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
@@ -98,7 +98,7 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
     Click this button to start the payment process. The payment view is displayed in the bill list. The total gross amount of the purchase is displayed at the right of the [PAY] button.
 
 
-
+<!---NEU-->
 ## Suggest an offer to the customer
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer > Click [PAY]*
@@ -157,7 +157,7 @@ This section is only displayed when no voucher has been redeemed.
 
 - *Total:*   
     Total gross<!--- Hier stand net--> amount of the bill. This field is read-only.
-
+<!---NEU-->
 **Down payment**
 
 - [+ ADD DOWN PAYMENT]   
@@ -185,7 +185,7 @@ This section is only displayed when no voucher has been redeemed.
     Click this button to pay cashless. The *Cashless payment* view is displayed.
 
 
-
+<!--NEU-->
 ## Add down payment
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the [PAY] button > Select the [+ Add down payment] button*
@@ -228,7 +228,7 @@ This section is only displayed when no voucher has been redeemed.
     The *Payment Pending* view is displayed.  Click the [Done] button to finalize the payment process. The *Payment Successful* view is than displayed.  
     
 
-<!--To be deleted>
+
 ### Payment pending   
 
 The *Payment Pending* view is displayed when the cash payment has been confirmed. When the cash payment process has been completed, the *Payment Successful* view is automatically displayed.
@@ -262,7 +262,6 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 - [Done]   
     Click this button to confirm the completion of the payment process and return to the bill list.
--->
 
 
 ## Cashless payment
@@ -284,7 +283,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
     Click this button to finalize the cashless payment process. The *Payment at terminal* view is displayed.   
     The payment can be finalized only if a payment method is selected in the drop-down list *Card type*.
 
-<!--To be deleted
+
 ### Payment at terminal   
 
 The *Payment at terminal* view is automatically displayed when the cash payment process has been successfully completed.
@@ -302,7 +301,6 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 - [Done]   
     Click this button to confirm the completion of the payment process and return to the bill list.
--->
 
 
 ## Add customer
