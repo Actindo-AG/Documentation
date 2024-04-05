@@ -163,7 +163,11 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 
 ## Create a QuickSelect category
 
-Create a QuickSelect category for POS for faster access to favorite products.
+Create a QuickSelect category for POS for faster access to favorite offers at the cashpoint.  
+
+The following image shows how QuickSelects can organize the most requested offers:
+<!---Marina, ich habe hier ein Bild eingefügt, damit die Kunden überhaupt wissen, worum es sich bei dieser Funktion handelt-->
+![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/QuickSelect.png "[QuickSelect in the cashpoint]")
 
 ### Define a QuickSelect attribute
 
@@ -222,12 +226,14 @@ No prerequisites to fulfill.
 
 ### Assign the QuickSelect attribute
 
-A product is assigned to a certain QuickSelect Category when you assign the created QuickSelect elements to the corresponding product offer.
+An offer is assigned to a certain QuickSelect category when you assign the created QuickSelect elements to the corresponding offer.
 
 #### Prerequisites
 
 - At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
-- At least one offer is for *POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one offer is created for *POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+
+
 
 #### Procedure
 *Omni-Channel > Offers > Tab OFFERS*
@@ -240,6 +246,9 @@ A product is assigned to a certain QuickSelect Category when you assign the crea
     ![Edit offer](../../Assets/Screenshots/Channels/Offers/Offers/EditOffer.png "[Edit offer]")
 
 2. Scroll down in the *Attribute* tab and select the QuickSelect element in the *QuickSelect Category* drop-down list.
+
+    ![Define QuickSelect](../../Assets/Screenshots/POS/Sales/Cashpoint/OfffersQuickSelectAttribute.png "[Define Quickselect]")
+
 
 3. Click the [SAVE] button in the upper right corner.    
     The *Edit offer* view is closed. The offer with the QuickSelect element is saved.
