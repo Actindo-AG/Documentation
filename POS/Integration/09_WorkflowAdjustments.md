@@ -2,9 +2,9 @@
 
 To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing Import channels order in OMS workflow.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
 
-The following describes in detail how to perform these two different operations by using workflows.
+![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")
 
-For detailed information on workflow configuration, see also [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation. 
+The following describes in detail how to perform these two different operations by using workflows. For detailed information on workflow configuration, see also [Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md) in the *Process Orchestration* documentation. 
 
 <!---Zu Info: Die Screenshot stammen teilweise aus der Workflow-Doku. Die überarbeiteten/aktualisierten  Screenshots sind dann verfügbar, wenn workflow 2 veröffentlicht ist--->
 
@@ -12,11 +12,7 @@ For detailed information on workflow configuration, see also [Manage the workflo
 
 Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
 
-> [Info] If an offer has been sold in your store, a cash invoice business document (RB) is created in the *Omni-Channel* module. The order workflow is used to post this business document in the *Order Management* module, where further processing, such as postings in the *Warehousing*, is initiated. Additionally, the order workflow is used to post the payment in the *Accounting* module. 
-
-
-![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")
-
+The order workflow is used to post an order confirmation business document (RB) to the *Order Management* module. There, further processing is initiated, such as postings to the *Warehousing* and the *Accounting* modules. When using the *POS* module, the order confirmation generates an open item in the customer's account in the *Accounting* module. In order to clear this open item, a cash invoice business document (RB) must be created in addition. This is then used to post cash payments in the *Accounting* module. For this reason, you must extend your order workflow, so that the cash invoice business document is posted to the *Accounting* module.
 
 The following procedures describe step-for-step how you can include the relevant processing for sales-related POS postings into your existing order workflow.
 

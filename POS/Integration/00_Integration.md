@@ -16,9 +16,9 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [Configure the global settings for POS](./05_ConfigureGlobalSettings.md)
     - [Configure a default customer in POS](./05_ConfigureGlobalSettings.md#configure-a-default-customer-in-pos)
-    - [Configure the VAT-ID in POS](./05_ConfigureGlobalSettings.md#configure-the-vat-id-in-pos)
+    - [Configure the VAT ID in POS](./05_ConfigureGlobalSettings.md#configure-the-vat-id-in-pos)
     - [Define a new payment method for POS](./05_ConfigureGlobalSettings.md#define-a-new-payment-method-for-pos)
-        - [Create a payment method in Order management](./05_ConfigureGlobalSettings.md#create-a-payment-method-in-order-management)
+        - [Create a payment method in Order Management](./05_ConfigureGlobalSettings.md#create-a-payment-method-in-order-management)
         - [Create a payment method in POS](./05_ConfigureGlobalSettings.md#create-a-payment-method-in-pos)
         - [Map the payment methods](./05_ConfigureGlobalSettings.md#map-the-payment-methods)
 

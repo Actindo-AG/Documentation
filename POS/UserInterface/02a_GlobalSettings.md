@@ -36,7 +36,7 @@ In this section, you define all pay desk and payment settings.
 
 ![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
 
-Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order management* module and is therefore selected from a different number range to be defined here.
+Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order Management* module and is therefore selected from a different number range to be defined here.
 
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
@@ -254,7 +254,7 @@ Enter the VAT ID of your company, which is mandatory to be indicated on receipts
     Click this button to save any changes.
 
 - *VAT ID*   
-    Enter your VAT ID. By default, The VAT-ID is printed on your receipts.
+    Enter your VAT ID. By default, The VAT ID is printed on your receipts.
 
 
 ### Cashless payment
@@ -487,12 +487,12 @@ Add a new currency to the list of available currencies and define the coins and 
 
 - ![Banknote](../../Assets/Icons/Banknote01.png "[Banknote]") (Banknote)   
     The banknote icons indicate the banknote values that are defined for a currency. The number in the icon indicates the amount of the banknote. The icon is displayed after you have created an entry.  
-    When you hover over a banknote icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the banknote. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the banknote.
+    When you hover over a banknote icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the [Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the banknote.
     
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icons indicate the coin values that are defined for the currency. The number in the middle indicates the amount of the coin. The icon is displayed after you have created an entry.   
-    When you hover over a coin icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the coin. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the coin.
+    When you hover over a coin icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the coin.
    
 
 - *Amount*   
@@ -530,12 +530,12 @@ Edit the settings of an existing currency.
 
 - ![Banknote](../../Assets/Icons/Banknote01.png "[Banknote]") (Banknote)   
     The banknote icon indicates which banknotes are defined for the respective currency. The number in the middle indicates the amount of the banknote.   
-    When you hover over a banknote icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the banknote. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the banknote.
+    When you hover over a banknote icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the banknote.
     The banknote icon is displayed only if a banknote is defined for the currency.
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icon indicates which coins are defined for the respective currency. The number in the middle indicates the amount of the coin.   
-    When you hover over a coin icon, the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) is displayed in the upper right corner of the coin. Click the button ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) to delete the coin.
+    When you hover over a coin icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the coin.
     The coin icon is displayed only if a coin is defined for the currency.
 
 - *Amount*   
@@ -748,17 +748,17 @@ Upload a logo for your receipts.
     Click this button to select a logo image for your receipts. The explorer is displayed for image selection. The selected logo image is displayed in the preview box right from the button. Alternatively, you can select an image using drag & drop.
 
 - ![Upload](../../Assets/Icons/Upload.png "[Upload]") *Drop file here...*   
-    Drag the logo image from your local folder and drop it in this dashed box to upload it. The background color of the box turns to blue when you can drop the image.  The selected logo image is displayed in the preview box right from the button. Alternatively, you can select an image using the button [SELECT FILE].
+    Drag the logo image from your local folder and drop it in this dashed box to upload it. The background color of the box turns to blue when you can drop the image.  The selected logo image is displayed in the preview box right from the button. Alternatively, you can select an image by using the [SELECT FILE] button.
 
 - Preview box   
     The preview box displays the uploaded logo image. If a logo image is already displayed and you upload a new one, the current logo image will be overwritten by the new logo image.
-    Remove a displayed logo by clicking the button ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) in the upper right corner of the logo.
+    Remove a displayed logo by clicking the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the logo.
 
 
 
 ## DATA TRANSFER ORDER MANAGEMENT
 
-In this section, you define all settings concerning the connection to the *Order management* module. The settings are only displayed if the accounting is correctly configured.
+In this section, you define all settings concerning the connection to the *Order Management* module. The settings are only displayed if the accounting is correctly configured.
 
 
 ### Account allocation accounting
@@ -849,7 +849,7 @@ Define a shelf in the storage area for blocked stock for returns with defects.
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
-Define an invoice address for a default customer to connect the POS system with the *Order management* module. The invoice address of this default customer is used for all occasional customers.
+Define an invoice address for a default customer to connect the POS system with the *Order Management* module. The invoice address of this default customer is used for all occasional customers.
 
 > [Info] It is recommended to define at least the country of the customer address as it is needed for tax purposes.
 
@@ -897,7 +897,7 @@ Define an invoice address for a default customer to connect the POS system with 
 
 Activate or deactivate the store deliveries. If the store deliveries are active, deliveries to the store can be entered and the POS inventory is automatically increased by the delivered products.
 
-> [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in the *Order management* module.
+> [Info] Deliveries to the store can only be added if a delivery receipt for this delivery exists in the *Order Management* module.
 
 - [Save]    
     Click this button to save any changes.

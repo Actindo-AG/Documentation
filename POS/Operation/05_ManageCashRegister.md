@@ -51,7 +51,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-1. Click the button [Cash out] in the upper right corner of the *Cash in/out* box.   
+1. Click the [Cash out] button in the upper right corner of the *Cash in/out* box.   
     The *Cash out* box is displayed.
 
     ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
@@ -60,7 +60,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 3. Enter the withdrawal amount in the *Amount* field.
 
-4. Click the button [Cash out] in the bottom right corner.  
+4. Click the [Cash out] button in the bottom right corner.  
     The *Cash out* view is closed. The withdrawal is listed in the table of the *Cash in/out* section.   
 
     > [Info] To cancel the cash out process, click the ![Delete](../../Assets/Icons/Trash04.png "[Delete]") (Delete) button in the bottom right corner.

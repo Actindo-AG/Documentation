@@ -11,9 +11,9 @@ The following POS groups are available:
 - POS Admin:  
     The POS Admin has all rights in the POS and can configure the settings in all stores as well as assign store managers and cashiers.
 - POS Store Manager:   
-    The POS Store Manager can configure the store settings in the assigned store. He/She can assign cashiers, log out cashiers, create pay desks, view the shift summary, etc. He/She has no rights to change the admin settings in the store.
+    The POS Store Manager can configure the store settings in the assigned store. He/She can assign cashiers, log out cashiers, create pay desks, view the shift summary, etc. S/he has no rights to change the admin settings in the store.
 - POS Cashier:   
-    The POS cashier can log in and cash out on the assigned pay desk. He/She has no rights to change settings.
+    The POS cashier can log in and cash out on the assigned pay desk. S/he has no rights to change settings.
 
 The users that belong to a POS group must be assigned to a pay desk or store in order to have the above rights.
 

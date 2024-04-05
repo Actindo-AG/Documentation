@@ -1,7 +1,7 @@
 [!!Configure the warehouse for POS](./01_ConfigureWarehouse.md)
 
 [comment]: <> (add link to Warehouse if available)
-
+<!---Marina, kannst Du hier gucken wegen Terminologie,ob es das so überhaupt noch gibt und ob man links setzen kann?-->
 # Manage the POS warehouse
 
 Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken from and posted. The warehouse specifies where exactly the stock is taken from when a product is sold.
@@ -68,7 +68,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
     + Select the warehouse from which you want to take the stock in the drop-down list in the *Warehouse* column.
 
-3. Click the button [SAVE ASSIGNMENTS] in the bottom right corner.   
+3. Click the [SAVE ASSIGNMENTS] button in the bottom right corner.   
     The new assignment in the stock withdrawal matrix is saved.
 
 

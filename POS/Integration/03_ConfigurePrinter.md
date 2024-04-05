@@ -10,7 +10,8 @@ To print receipts, invoices, shift summaries etc., you must configure a printer 
 
 #### Prerequisites
 
-The current printer client (APS) is installed and has been started including a successful login.
+- The *Printing* module version 1.0.4 or higher is installed. 
+- The current printer client (APS) is installed and has been started including a successful login.
 
 > [Info] Note that you have to use a separate user for the APS client as parallel logins are forbidden.
 

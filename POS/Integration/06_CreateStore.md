@@ -12,12 +12,12 @@
 
 # Create a store in POS using the wizard
 
-There are two ways to create a store in POS: via wizard that is described in this topic, or manually, see [Create a store manually](./06a_CreateStoreManually.md).  
+There are two ways to create a store in POS: via wizard that is described in this topic and is highly recommended, or manually, see [Create a store manually](./06a_CreateStoreManually.md).  
 
 
 ## Create a store using the wizard
 
-The store wizard guides you through all steps to create a store and its full functionality. Therefore, it is highly recommended that you use the wizard instead of creating a store manually.
+The store wizard guides you through all steps to create a store and its full functionality. 
 
 ## Start the store wizard
 
@@ -56,7 +56,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard]")
 
-1. Enter a store name in the *Store Name* field and add a short description if desired.
+1. Enter a store name in the *Store name* field and add a short description if desired.
 
 2. Specify a store manager from the list by selecting the corresponding checkbox.
 
@@ -65,18 +65,23 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
-    The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.  
-
-    The *Pay desks* wizard window is displayed when the store is created. 
-    The following entities have been automatically created:
-    - In the *DataHub* module, the following attribute sets have been created<!--- Ist das richtig?-->:
-        - *Orders channel POS Store "Name of new store"*
-        - *Line items channel POS Store "Name of new store"*
-        - *Payment items channel POS Store "Name of new store"*
-        - *Orders channel POS Store "Name of new store"*
-        - *Discount items channel POS Store "Name of new store"*  
-     - Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
-    - In the *Omni-Channel* module, a connection *POS store "Name of new store"* has been created.
+    The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.    
+    The *Pay desks* wizard window is displayed when the store is created. The following entities have been automatically created:
+    - *DataHub* module   
+        The following attribute sets have been created<!--- Ist das richtig?-->:
+        - Set for POS store "Name of new store"
+        - Orders channel POS Store "Name of new store"
+        - Line items channel POS Store "Name of new store"
+        - Payment items channel POS Store "Name of new store"
+        - Discount items channel POS Store "Name of new store" 
+        - Returns connection POS Store "Name of the new store"
+        - Return line item channel POS Store "Name of the new store"
+        - Redeem voucher item channel POS Store "Name of the new store"
+        - Service items channel POS Store "Name of the new store"
+    - *PIM* module   
+        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+    - *Omni-Channel* module    
+        A connection *POS store "Name of new store"* has been created.
     
 
 
@@ -163,7 +168,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     A confirmation message is displayed and the *Stock* wizard window is displayed when the store address is saved.
 
 
-## Assign a POS warehouse
+## Assign a POS warehouse <!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this wizard step, you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is posted out when a product is sold.
 
@@ -193,7 +198,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The *Stock allocation* wizard window is displayed when the warehouse assignment is saved.
 
 
-## Assign a stock source
+## Assign a stock source<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this step you assign the stock source to manage the store stock level. The stock source specifies how the stock level in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
 
@@ -214,7 +219,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The *Accounting* wizard window is displayed when the stock source assignment is saved.     
 
 
-## Assign an account
+## Assign an account<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this step, you assign the accounts to which you want to post the payments.   
 

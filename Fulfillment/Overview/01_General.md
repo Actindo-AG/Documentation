@@ -12,7 +12,7 @@ The *Fulfillment* module offers the following benefits:
 - integrations to numerous fulfillers &ndash; either directly via API or via the Actindo *DataHub* module are readily available
 - easy connections to external logistics and fulfillment providers
 - automated selection of preferred packaging types and carriers depending on user-defined criteria
-- real-time access to updated information on shipment status based on fulfiller's feedback
+- real time access to updated information on shipment status based on fulfiller's feedback
 
 
 ## Prerequisites

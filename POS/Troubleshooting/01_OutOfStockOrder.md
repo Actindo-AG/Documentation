@@ -6,7 +6,7 @@
 
 #### Error message
 
-Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*.
+Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*. (Error when creating the warehouse postings: The stock level for item *x* in warehouse *x* is only 0.00, *x* would be required.)
 
 Follow the instructions below if this error message is displayed.
 
@@ -30,7 +30,7 @@ No prerequisites to fulfill.
 
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS offer, if a warehouse is assigned.
+    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock level for the POS offer, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
     A window to enter the posting is displayed.

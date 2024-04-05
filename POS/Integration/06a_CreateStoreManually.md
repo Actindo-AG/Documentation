@@ -60,14 +60,21 @@ Create a store manually, if you do not want to use the wizard.
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
     The following entities have been automatically created:
-    - In the *DataHub* module, the following attribute sets have been created:
-        - *Orders channel POS Store "Name of new store"*
-        - *Line items channel POS Store "Name of new store"*
-        - *Payment items channel POS Store "Name of new store"*
-        - *Orders channel POS Store "Name of new store"*
-        - *Discount items channel POS Store "Name of new store"*  
-     - Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
-    - In the *Omni-Channel* module, a connection *POS store "Name of new store"* has been created.
+    - *DataHub* module   
+        The following attribute sets have been created<!--- Ist das richtig?-->:
+        - Set for POS store "Name of new store"
+        - Orders channel POS Store "Name of new store"
+        - Line items channel POS Store "Name of new store"
+        - Payment items channel POS Store "Name of new store"
+        - Discount items channel POS Store "Name of new store" 
+        - Returns connection POS Store "Name of the new store"
+        - Return line item channel POS Store "Name of the new store"
+        - Redeem voucher item channel POS Store "Name of the new store"
+        - Service items channel POS Store "Name of the new store"
+    - *PIM* module   
+        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+    - *Omni-Channel* module    
+        A connection *POS store "Name of new store"* has been created.
 
 
 ## Configure the store details
@@ -87,8 +94,8 @@ In the store details, you give some detailed information about your store. Furth
 
 1. Enter a short description of the store in the *Short description* field.
 
-2. Click the [ADD] button in the *Store Manager* box.   
-    The *Store Managers* window is displayed.
+2. Click the [ADD] button in the *Store manager* box.   
+    The *Store managers* window is displayed.
 
 3. Select a store manager from the list by selecting the corresponding checkbox.
 
@@ -97,7 +104,7 @@ In the store details, you give some detailed information about your store. Furth
 
 4. Click the [Add] button in the upper right corner of the window.
 
-5. Click the [SAVE] button left below the *Store Manager* box.   
+5. Click the [SAVE] button left below the *Store manager* box.   
     The store manager is saved. The *Stores* view is displayed and the *STORES* tab is preselected.
 
 
@@ -132,7 +139,7 @@ A store has been created, see [Create a store manually](./06a_CreateStoreManuall
 
     > [Info] Repeat step 1 to 3 to add further pay desks. You can add as many pay desks as you need.
 
-4. Click the [SAVE] button left below the *Store Manager* section.   
+4. Click the [SAVE] button left below the *Store manager* section.   
     The pay desk is saved. The *Stores view* view is displayed, and the *STORES* tab is preselected.
 
 [comment]: <> (Is it a feature or is it a bug?)
@@ -207,8 +214,8 @@ A store has been created, see [Create a store manually](./06a_CreateStoreManuall
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Store Basic Data]")
 
-1. Select the *Store Address* entry in the list of settings in the left column.   
-    The *Store Address* view is displayed on the right side.
+1. Select the *Store address* entry in the list of settings in the left column.   
+    The *Store address* view is displayed on the right side.
 
     ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/StoreAddress.png "[Store Basic Data]")
 
@@ -277,7 +284,7 @@ A warehouse for POS is configured, see [Configure the warehouse for POS](./01_Co
 2. Configure the following settings:
 
     + Select the **--all--** option in the drop-down list in the *Product group* column.
-    + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
+    + Select the output channel via which you want to create offers in the drop-down list in the *Sales channel* column.
     + Select the created POS store in the drop-down list in the *Account* column.
     + Select the **--all--** option in the drop-down list in the *Sub-account* column.
     + Select the **--all--** option in the drop-down list in the *Shipping provider* column.
@@ -410,7 +417,7 @@ You may assign the same accounts to all stores, or you may assign different acco
 
     > [Info] Note that the more specific settings always override the more general settings.
 
-    This means that the accounts specified in the pay desks admin settings are always used first. If none are specified there, the accounts from the stores admin settings are used and only when nothing is specified there, the accounts from the global settings are used.
+    This means that the accounts specified in the pay desks admin settings are always used first. If none are specified there, the accounts from the store admin settings are used and only when nothing is specified there, the accounts from the global settings are used.
 
 ### Assign the accounts in the global settings
 

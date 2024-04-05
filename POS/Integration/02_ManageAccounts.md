@@ -16,7 +16,7 @@ The accounts are all created in the same way.
 
 ## Check the account availability
 
-You may check the availability of a certain account number before creating it as account numbers can only be assigned once.    
+You may check the availability of a certain account number before creating it, since account numbers can only be assigned once.    
 Each account number is assigned to a specific number range, which indicates the account class.    
 
 For detailed information, see [Check the account availability](../../RetailSuiteAccounting/Integration/03_ManageAccounts.md#check-the-account-availability) in the *Accounting* documentation.

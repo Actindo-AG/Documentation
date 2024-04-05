@@ -12,7 +12,7 @@ Therefore, it is recommended to create a new warehouse group and integrate all w
 
 ## Create a warehouse group
 
-Create a warehouse group to which you can assign all specific warehouses for your POS store, for instance a sales warehouse, a returns warehouse and a quarantine warehouse.
+Create a warehouse group to which you can assign all specific warehouses for your POS store, for instance a sales warehouse, a returns warehouse, and a quarantine warehouse.
 
 #### Prerequisites
 

@@ -21,9 +21,9 @@ The cause of the export error is fixed.
 1. Select the checkbox of the order of which the export failed and click the [EXPORT TO OMS] button in the editing toolbar at the top.     
 The order export is restarted. During the export, the status **Being exported** is displayed in the column *Status of Export to OMS*.
 
-    > [Info] The export can take several minutes. Click the button ![Process](../../Assets/Icons/Process.png "[Process]") (Process) in the upper right corner to display the process window with the current state of export.
+    > [Info] The export can take several minutes. Click the ![Process] button (../../Assets/Icons/Process.png "[Process]") (Process) in the upper right corner to display the process window with the current state of export.
 
-2. Click the button ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) in the upper right corner to update the order list.   
+2. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the upper right corner to update the order list.   
 The order status in the column *Status of Export to OMS* changed to **Exported**. The order is correctly exported.
 
 

@@ -21,7 +21,7 @@ To create an offer for POS, it is recommended to create products in the *PIM* mo
 #### Prerequisites
 
 <!---Neu-->
-If you want to use the *Age verification* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified.
+If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating)
 
 #### Procedure
 
@@ -206,9 +206,9 @@ No prerequisites to fulfill.
     > [Info] The entered name equals the name of the QuickSelect element that will be displayed in POS.
 
 6. If desired, enter a key in the *Key* field.
-
+<!---Link war tot. Gibt es das noch?
     > [Info] By entering a key, you can define an icon for the QuickSelect element.   
-    For detailed information on the icon list, see [QuickSelect Icon List](to_be_completed).
+      For detailed information on the icon list, see [QuickSelect Icon List](to_be_completed).-->
 
 [comment]: <> (Add list of icon keys for Quickselect)
 
@@ -217,7 +217,7 @@ No prerequisites to fulfill.
 
     > [Info] If you want to create further QuickSelect elements, repeat step **3** to **6**.
 
-8. Click the button [SAVE] in the upper right corner.   
+8. Click the [SAVE] button in the upper right corner.   
     The *Edit attribute* view is closed. The QuickSelect element is saved.
 
 9. Press the **F5** key to initialize the *Core1 Platform*.
@@ -293,14 +293,14 @@ No prerequisites to fulfill.
 
     > [Info] The SKU (Stock Keeping Unit) is an identification number for the product. Therefore, it has to be uniquely assigned to a single product and should not be changed once assigned.
 
-4. Click the button [CREATE] in the bottom right corner of the *Create new product* window.   
+4. Click the [CREATE] button in the bottom right corner of the *Create new product* window.   
     The *Create new product* window is closed. The *Create product* view is displayed in the *List* tab. The *Attributes* tab is preselected.
 
     ![Attribute](../../Assets/Screenshots/PIM/Products/List/CreateProduct.png "[Attributes]")
 
 5. Enter the product data in the fields of the *Attributes* tab. You must at least enter a product name, a price and a tax class.
 
-6. Click the button [SAVE] in the upper right corner.   
+6. Click the [SAVE] button in the upper right corner.   
     The new product is saved. The *Create product* view is closed. The *List* tab with the new product in the product list is displayed.
 
 7. Create an offer for the voucher product, see [Create an offer for POS](#create-an-offer-for-pos).
