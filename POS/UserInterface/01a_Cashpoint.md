@@ -147,7 +147,7 @@ This section is only displayed when no voucher has been redeemed.
     Click this button to remove the discount. The button is only displayed when a discount is selected.
 
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Delivery*   
-    Enable this toggle if the offer is to be delivered to the customer. Disable this toggle if no delivery is necessary. This toggle is only available, if the *Delivery allowed* setting is activated in the *Global settings*.
+    Enable this toggle if the offer is to be delivered to the customer. Disable this toggle if no delivery is necessary. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery). This toggle is only available, if the *Delivery allowed* setting is activated in the *Global settings*. For detailed information, see [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed). 
 
 - *Voucher (xxxxxxx)*   
     Redeemed voucher with the voucher code in brackets. The remaining amount of the voucher is displayed on the left, the amount of the voucher to be credited on the right. This field is read-only.
@@ -161,7 +161,7 @@ This section is only displayed when no voucher has been redeemed.
 **Down payment**
 
 - [+ ADD DOWN PAYMENT]   
-    Click this button to collect a down payment, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*, see [Down payment allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed.)
+    Click this button to collect a down payment. For detailed information, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*, see [Down payment allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 
 **Select Payment**
@@ -172,7 +172,7 @@ This section is only displayed when no voucher has been redeemed.
 [comment]: <> (Is it possible to add a second currency? Why is this a button when I cannot choose?)
 
 - [Cash]   
-    Click this button to enter a cash pay. The *Cash payment* view is displayed, see [Cash payment](#cash-payment).
+    Click this button to enter a cash pay. The *Cash payment* view is displayed. For detailed information, see [Cash payment](#cash-payment).
 
 **Quick Select**
 
@@ -181,7 +181,7 @@ This section is only displayed when no voucher has been redeemed.
 
 **-- or --**
 
-- [![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUELLES ZAHLEN AM TERMINAL]   
+- [![Terminal](../../Assets/Icons/Terminal.png "[Terminal]") MANUAL PAYMENT AT TERMINAL]   
     Click this button to pay cashless. The *Cashless payment* view is displayed.
 
 

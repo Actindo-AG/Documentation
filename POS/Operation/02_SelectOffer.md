@@ -1,19 +1,16 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 
-# Record the purchases
+# Record the purchase
 
 The *POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
-You may select an offer by the following:
-- Quickselect, see [Select an offer by QuickSelect](#select-an-offer-by-quickselect).
-- Name, see [Select an offer by name](#select-an-offer-by-name).
-- Number, see [Select and offer by number](#select-an-offer-by-number).
+
 
 
 ## Use single scan
 
 If the same offer is selected more than once, it is displayed in the bill list as one line item with the corresponding quantity indication.     
-Optionally, you can use the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
+Optionally, you can activate the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
 
 #### Prerequisites
 
@@ -31,7 +28,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
     Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
-2. Select an offer, see [Record the purchases](02_SelectOffer.md#record-the-purchases). 
+2. Select an offer, see [Select an offer](02_SelectOffer.md#select-an-offer). 
     The product is listed in the bill list.
 
 3. Select the same offer again.   
@@ -40,7 +37,13 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
 
 
-## Select the offers
+## Select an offer
+
+You may select an offer by the following:
+- Quickselect, see [Select an offer by QuickSelect](#select-an-offer-by-quickselect).
+- Name, see [Select an offer by name](#select-an-offer-by-name).
+- Number, see [Select and offer by number](#select-an-offer-by-number).
+
 
 ### Select an offer by QuickSelect
 

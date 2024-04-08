@@ -46,7 +46,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
     Click this button to save any changes.
 
 - *Format*   
-    Define the format of the sequential number. It is mandatory to include the store identifier (S) and the sequential number (L). The place holders are indicated on the right side.
+    Define the format of the sequential number. It is mandatory to include the store identifier (S) and the sequential number (L). The placeholders are indicated on the right side.
 
 - *Length of the sequential number*   
     Define the number of digits of the sequential number.
@@ -94,7 +94,7 @@ By default, down payments are not allowed.
 - [Save]   
     Click this button to save any changes
 
-- *Down payments allowed*
+- *Down payments allowed*   
     Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the *Pay bill* list.
     <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
 
@@ -150,7 +150,7 @@ Define how many vouchers may be redeemed per order.
 If you use an external terminal that is not connected to POS, cashless payment is completed manually through that terminal.
 In POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
 
-![Zahlungsweisen](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Zahlungsweisen]")
+![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
 
 > [Info] By default, the payments methods *debit card*, *credit card* and *PayPal* are preset.
 
@@ -160,7 +160,8 @@ In POS, you can specify for statistical purposes which payment method was used f
 - *Key*   
     Enter the key of the payment method. The following keys are available:
 
-[comment]: <> (list of keys is needed) <!--Gibt es eine liste der Keys oder werden die individuell angelegt?-->
+[comment]: <> (list of keys is needed) 
+<!--Gibt es eine liste der Keys oder werden die individuell angelegt?-->
 
 - *Name*   
     Enter the name of the payment method.
@@ -392,7 +393,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
 
 
 <!--- NEU-->
-### Customer-specific discount
+### Customer&dash,specific discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
 
@@ -784,10 +785,10 @@ The number of accounts to be assigned depends on the number of available currenc
     - *Redeem Voucher*    
         This type of account serves as --- add information ---
 
-    - *Gegenkonto Cash-In*   
+    - *Contra account Cash-In*   
         This type of account serves as a clearing account against which cash deposits without customers are posted.
 
-    - *Gegenkonto Cash-Out*   
+    - *Contra account Cash-Out*   
         This type of account serves as a clearing account against which cash withdrawals without customers are posted.
 
     - *Refund on voucher (refund only)*   

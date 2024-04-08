@@ -116,7 +116,7 @@ The table displays all users who are assigned to the POS store manager group. Yo
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)    
     Click this button to add a new pay desk. A new line for a pay desk is displayed below.
 
-**Select Cashiers**
+**Select cashiers**   
 The table displays all users who are assigned to the POS cashier group. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
 - [x]     
@@ -434,10 +434,10 @@ The wizard window displays a summary of the store configuration. Missing data or
     Name of the pay desk.
 
 - *Used by*   
-    Full name and user name of the current pay desk user. If the pay desk is currently not in use, a dash (*-*) is displayed.
+    Full name and username of the current pay desk user. If the pay desk is currently not in use, a dash (*-*) is displayed.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
-    Click this button to edit the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the the changes.
+    Click this button to edit the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the changes.
 
 - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
     Click this button to delete the pay desk. This button is only displayed when you hover over the pay desk. Click the [SAVE] button to save the changes.
@@ -521,7 +521,6 @@ Define a customer ID for the store to restrict the reorder query to the selected
 
 - [Save]   
     Click this button to save any changes.
-
 
 
 #### Stock assignments of orders

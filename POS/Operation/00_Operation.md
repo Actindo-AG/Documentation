@@ -4,9 +4,9 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [Open a pay desk](./01_OpenPayDesk.md)
 
-- [Record a purchase](./02_SelectOffer.md)
+- [Record the purchase](./02_SelectOffer.md)
     - [Use single scan](./02_SelectOffer.md#use-single-scan)
-    - [Select the offers](./02_SelectOffer.md#select-the-offers)
+    - [Select an offer](./02_SelectOffer.md#select-an-offer)
         - [Select an offer by QuickSelect](./02_SelectOffer.md#select-an-offer-by-quickselect)
         - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)
         - [Select an offer by number](./02_SelectOffer.md#select-an-offer-by-number)
@@ -27,7 +27,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 - [Complete a purchase](./04_CompletePurchase.md)
     - [Suggest an offer to the customer](./04_CompletePurchase.md#suggest-an-offer-to-the-customer)
     - [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase)
-    - [Check the customer-specific discount](./04_CompletePurchase.md#check-the-customer-specific-discount)
+    - [Check the customer&dash;specific discount](./04_CompletePurchase.md#check-the-customer‐specific-discount)
     - [Initiate a down payment](./04_CompletePurchase.md#initiate-a-down-payment)
     - [Initiate a delivery](./04_CompletePurchase.md#initiate-a-delivery)
     - [Pay cash](./04_CompletePurchase.md#pay-cash)

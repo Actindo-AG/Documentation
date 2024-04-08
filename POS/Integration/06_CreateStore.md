@@ -168,7 +168,8 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     A confirmation message is displayed and the *Stock* wizard window is displayed when the store address is saved.
 
 
-## Assign a POS warehouse <!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
+## Assign a POS warehouse 
+<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this wizard step, you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is posted out when a product is sold.
 
@@ -198,7 +199,8 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The *Stock allocation* wizard window is displayed when the warehouse assignment is saved.
 
 
-## Assign a stock source<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
+## Assign a stock source
+<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this step you assign the stock source to manage the store stock level. The stock source specifies how the stock level in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
 
@@ -219,7 +221,8 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The *Accounting* wizard window is displayed when the stock source assignment is saved.     
 
 
-## Assign an account<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
+## Assign an account
+<!---Gibt es diesen Schritt im Wizard noch? Bei mir sind es nur noch 5 schritte-->
 
 In this step, you assign the accounts to which you want to post the payments.   
 

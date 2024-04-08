@@ -10,7 +10,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Check the account availability](./02_ManageAccounts.md#check-the-account-availability)
     - [Create an account](./02_ManageAccounts.md#create-an-account)
 
-- [Configure the printer for POS](./03_ConfigurePrinter.md)
+- [Configure the printer client for POS](./03_ConfigurePrinter.md)
 
 - [Assign users to the POS groups](./04_AssignUsers.md)
 
@@ -28,7 +28,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
     - [Configure the store details](./06_CreateStore.md#configure-the-store-details)
     - [Configure the pay desk](./06_CreateStore.md#configure-the-pay-desk)
-    - [Define a printer](./06_CreateStore.md#define-a-printer)
+    - [Select a printer](./06_CreateStore.md#select-a-printer)
     - [Enter the store address](./06_CreateStore.md#enter-the-store-address)
     - [Assign a POS warehouse](./06_CreateStore.md#assign-a-pos-warehouse)
     - [Assign a stock source](./06_CreateStore.md#assign-a-stock-source)
@@ -60,7 +60,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Create a product type](./07_ManageOffers.md#create-a-product-type)
     - [Map a new product type in POS](./07_ManageOffers.md#map-a-new-product-type-in-pos)
     - [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos)
-        - [Create an offer from a PIM product in Omni-Channel](./07_ManageOffers.md#create-an-offfer-from-a-pim-product-in-omni-channel)
+        - [Create an offer from a PIM product in Omni-Channel](./07_ManageOffers.md#create-an-offer-from-a-pim-product-in-omni-channel)
         - [Create a manual offer in Omni-Channel](./07_ManageOffers.md#create-a-manual-offer-in-omni-channel)
         - [Create a single channel offer in PIM](./07_ManageOffers.md#create-a-single-channel-offer-in-pim)
         - [Create a multiple channels offer in PIM](./07_ManageOffers.md#create-a-multiple-channels-offer-in-pim)
@@ -80,10 +80,10 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Manage the stock for POS products](./08_ManageWarehouse.md#manage-the-stock-for-pos-products)
 
 - [Prepare workflows](./09_WorkflowAdjustments.md)
-   - [Extend Import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-import-channels-order-in-oms-workflow)
-        - [Split order confirmation and cash invoice processing](./09_WorkflowAdjustments.md#split-order-confirmation-and-cash-invoice-processing)
-        - [Insert payments synchronization](./09_WorkflowAdjustments.md#insert-payments-synchronization)
-    - [Synchronize cash journal](09_WorkflowAdjustments.md#synchronize-cash-journal)
+   - [Extend the Import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-the-import-channels-order-in-oms-workflow)
+        - [Split the order confirmation and cash invoice processing](./09_WorkflowAdjustments.md#split-the-order-confirmation-and-cash-invoice-processing)
+        - [Insert the payments synchronization](./09_WorkflowAdjustments.md#insert-the-payments-synchronization)
+    - [Synchronize the cash journal](09_WorkflowAdjustments.md#synchronize-the-cash-journal)
         - [Create the Synchronize cash journal workflow](09_WorkflowAdjustments.md#create-the-synchronize-cash-journal-workflow)
         - [Add a trigger](09_WorkflowAdjustments.md#add-a-trigger)
         - [Add the conditions](09_WorkflowAdjustments.md#add-the-conditions)

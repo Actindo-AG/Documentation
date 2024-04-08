@@ -49,7 +49,7 @@ The *Add return* view is used to select the bill number of the offer that a cust
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to start the search for the entered bill number.
 
-- [ABBRECHEN]   
+- [CANCEL]   
     Click this button to cancel the process and close the *Add Return* view.
 
 - [SUMMARY]   

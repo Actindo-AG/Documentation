@@ -1,4 +1,4 @@
-# Prepare workflows
+# Prepare the workflows
 
 To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing Import channels order in OMS workflow.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
 
@@ -8,7 +8,7 @@ The following describes in detail how to perform these two different operations 
 
 <!---Zu Info: Die Screenshot stammen teilweise aus der Workflow-Doku. Die überarbeiteten/aktualisierten  Screenshots sind dann verfügbar, wenn workflow 2 veröffentlicht ist--->
 
-## Extend Import channels order in OMS workflow
+## Extend the Import channels order in OMS workflow
 
 Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
 
@@ -19,7 +19,7 @@ The following procedures describe step-for-step how you can include the relevant
 > [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of this standard workflow.
 
 
-### Split order confirmation and cash invoice processing
+### Split the order confirmation and cash invoice processing
 
 Include the necessary cash invoice processing in your Import channels order in OMS workflow. To do this, you must include a special processing for the cash invoice business document (RB).   
 The following procedure shows how to include a workflow transition that separates the processing of the cash invoice business document from the processing of the order confirmation business document (AB).
@@ -91,7 +91,7 @@ The following procedure shows how to include a workflow transition that separate
 11. Continue with [Insert payment synchronization](#insert-payments-synchronization).
 
 
-### Insert payments synchronization
+### Insert the payments synchronization
 
 Include a transition in your workflow that posts cash payments in the *Accounting* module or a third-party application.
 
@@ -134,7 +134,7 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 
 
 
-## Synchronize cash journal
+## Synchronize the cash journal
 
 You need to transfer non-sales-related POS postings such as cash ins and cash outs to the *Accounting* module or a third-party application. To do this, you must synchronize the cash journal. A one-step workflow is suitable for this.   
 
