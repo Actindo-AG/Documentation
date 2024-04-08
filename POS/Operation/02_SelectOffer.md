@@ -3,18 +3,17 @@
 
 # Select an offer
 
-The *POS* module offers several ways to select an offer or to search for it.
+The *POS* module offers several ways to select an offer, to search for it, to prepare further actions, or to ensure the protection of minors.
 You may select an offer by the following:
 - Quickselect, see [Select by QuickSelect](#select-by-quickselect).
 - Name, see [Select by name](#select-by-name).
 - Number, see [Select by number](#select-by-number).
 
-The different options are described in the following.
 
 ## Use single scan
 
 If the same offer is selected more than once, it is displayed in the bill list as one line item with the corresponding quantity indication.     
-Optionally, you can use the single scan feature. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each product in the bill list individually, for instance, to apply an individual discount.
+Optionally, you can use the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
 
 #### Prerequisites
 
@@ -41,8 +40,9 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
 
 
+## Edit the sales
 
-## Select by QuickSelect
+### Select by QuickSelect
 
 The QuickSelect option offers you the possibility to select an offer by clicking a predefined button. This option is often used for popular offers or permanent favorites.
 
@@ -64,7 +64,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
     
 
 
-## Select by name
+### Select by name
 
 You may select an offer or search for it by entering its name in the search bar. To find an offer, you must enter at least three characters in the search bar. All offers that correspond to your entry are automatically displayed.
 
@@ -93,7 +93,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 
-## Select by number
+### Select by number
 
 You may select an offer or search for it by entering its offer number in the search bar. To find an offer, you must enter at least three numbers in the search bar. All offers that correspond to your entry are automatically displayed.
 <!---Ist das die Offer ID, SKU  oder was ist das für eine Nummer?-->

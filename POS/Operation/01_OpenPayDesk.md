@@ -29,7 +29,7 @@ To perform any operation on the pay desk, you must first open one.
 2. Select a pay desk in the *Select pay desk* drop-down list.
 
 3. Click the [Use] button in the bottom right corner.   
-    A window to edit the opening float is displayed. The opening float is the amount of cash available at the pay desk.
+    A window to edit the opening float is displayed. The opening float is the amount of cash available in the pay desk.
 
     ![Opening Float](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Opening Float]")
 

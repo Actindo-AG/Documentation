@@ -4,11 +4,12 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [Open a pay desk](./01_OpenPayDesk.md)
 
-- [Select an offer](./02_SelectOffer.md)
+- [Enter sales](./02_SelectOffer.md)
+    - [Use single scan](./02_SelectOffer.md#use-single-scan)
     - [Select by QuickSelect](./02_SelectOffer.md#select-by-quickselect)
     - [Select by name](./02_SelectOffer.md#select-by-name)
     - [Select by number](./02_SelectOffer.md#select-by-number)
-    - [Use single scan](./02_SelectOffer.md#use-single-scan)
+    - [Verify the age](./02_SelectOffer.md#verify-the-age)
 
 
 - [Edit the bill list](./03_EditBillList.md)
