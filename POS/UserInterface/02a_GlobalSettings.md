@@ -243,10 +243,10 @@ Enable or disable the option to open the cash drawer for cashless payment.
 
 ## VAT ID
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry USt-ID*
+*POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
 
-![USt-ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[USt-ID]")
+![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT ID]")
 
 Enter the VAT ID of your company, which is mandatory to be indicated on receipts in some countries.
 
@@ -362,7 +362,7 @@ The following fields and features are available in the window:
     The cashier will never be asked when an offer is added to the basket that requires an age verification.
 
    - **Once**   
-    The cashier is asked once per order in case an offer is added to the basket that requires an age verification. If an offer with a higher age rating is added later, the cashier will be asked again.  
+    The cashier is asked once per order in case an offer is added to the basket that requires an age verification. If an offer with a lower age rating is added later, the cashier will be asked again.  
     This setting is the default.
 
 

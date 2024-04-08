@@ -9,7 +9,8 @@ The bill list on the right side of the *Cashpoint* tab displays all offers added
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the discount is applied to all offers of this entry. If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
+The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the discount is applied to all offers of this entry. 
+If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
 You can also apply a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
 
 > [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
@@ -17,7 +18,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -30,10 +31,10 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 
-2. Click on the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount or select the **EUR** option to apply a fixed amount discount to the offer.   
+2. Click the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount or select the **EUR** option to apply a fixed amount discount to the offer.   
     The selected option is displayed in the drop-down list.
 
-    > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
+        > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
@@ -46,12 +47,14 @@ You can also apply a discount to the whole purchase. For detailed information, s
 ## Edit the price of an offer
 
 You can manually change the price of an offer in your bill list, for example, if a price is incorrect in the system.   
-If you enter a changed price for an offer, you will not be able to apply an additional single discount to that offer. The discount field will be locked.
+If you enter a changed price for an offer, you will not be able to apply an additional single discount to that offer. The discount field will be locked.  
+The modified price is related to each item of the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the modified price is applied to each item of this entry.  
+
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -83,7 +86,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -113,7 +116,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -133,7 +136,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -167,7 +170,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -200,7 +203,7 @@ Assign the current purchase to a registered customer.
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 - At least one customer is already registered, see [Register a customer](#register-a-customer).
 
 #### Procedure

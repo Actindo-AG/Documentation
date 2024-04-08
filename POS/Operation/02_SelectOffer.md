@@ -1,13 +1,13 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 
-# Select an offer
+# Record the purchases
 
 The *POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
 You may select an offer by the following:
-- Quickselect, see [Select by QuickSelect](#select-by-quickselect).
-- Name, see [Select by name](#select-by-name).
-- Number, see [Select by number](#select-by-number).
+- Quickselect, see [Select an offer by QuickSelect](#select-an-offer-by-quickselect).
+- Name, see [Select an offer by name](#select-an-offer-by-name).
+- Number, see [Select and offer by number](#select-an-offer-by-number).
 
 
 ## Use single scan
@@ -31,7 +31,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
     Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
-2. Select an offer, see [Record the sales](02_SelectOffer.md#edit-the-sales). 
+2. Select an offer, see [Record the purchases](02_SelectOffer.md#record-the-purchases). 
     The product is listed in the bill list.
 
 3. Select the same offer again.   
@@ -40,7 +40,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
 
 
-## Record the sales
+## Select the offers
 
 ### Select an offer by QuickSelect
 
@@ -87,7 +87,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side if no age rating is necessary, see [Verify the age](#verify-the-age). 
+    The offer is added to the bill list on the right side if no age rating prevents this, see [Verify the age](#verify-the-age). 
      
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
@@ -126,7 +126,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 <!--- NEU-->
 ## Verify the age
 
-Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age rating before the offer is added to the bill list.
+Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary before the offer is added to the bill list.
 
 
 #### Prerequisites

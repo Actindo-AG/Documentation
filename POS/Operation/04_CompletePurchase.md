@@ -15,7 +15,7 @@ If your company wants you to suggest additional offers to complete the customer'
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 - The *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Procedure
@@ -35,7 +35,7 @@ If your company wants you to suggest additional offers to complete the customer'
     The offer is added to the bill list.
 
 4. Click the [PROCEED] button.   
-    The pay bill list is displayed. If you have not previously clicked on the suggested offer, only the offer(s) you originally selected will be charged.
+    The pay bill list is displayed. If you have not previously clicked on a suggested offer, only the offer(s) you originally selected will be charged.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -44,14 +44,13 @@ If your company wants you to suggest additional offers to complete the customer'
 ## Add a discount to the purchase
 
 You can add a discount to the whole purchase of your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
-You can also add a discount to a single offer of the bill list. For detailed information, see [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).
-
-> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
+> [Info] You can also add a discount to a single offer of the bill list. For detailed information, see [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer).  
+A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -86,12 +85,12 @@ You can also add a discount to a single offer of the bill list. For detailed inf
 ## Check the customer-specific discount
 
 If your company uses the Customer-specific discount feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
-> [Info] If a customer has a customer-specific discount, other discount options are not available or not allowed.
+> [Info] If a customer has a customer-specific discount, other discount options are not allowed.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 - The *Customer-specific discount* setting is activated. For detailed information, see [Customer-specific amount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
 #### Procedure
@@ -107,18 +106,18 @@ If your company uses the Customer-specific discount feature, a specific discount
 
     ![Check discount](../../Assets/Screenshots/POS/Sales/Cashpoint/CustomerSpecificDiscount.png)
 
-3. If the customer should get no discount, click the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag.    
+3. If the customer should not receive a discount, click the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag.    
     The customer-specific discount is removed.
 
 
 <!--- NEU-->
 ## Initiate a down payment
 
-If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed for a purchase. This may be also necessary if the full amount is not due until the offers are delivered or collected.   
+If your company uses the Down payment feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed or if the full amount is not due until the offers are delivered or collected.   
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).   
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).   
 - The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Procedure
@@ -158,13 +157,13 @@ If your company uses the Down payment feature, you can reduce the entire total a
 <!--- NEU-->
 ## Initiate a delivery
 
-If your company supports the delivery of an offer, you can initiate a delivery.  
+If your company supports the delivery of an offer, you can easily initiate a delivery.  
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 - The *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
-- The sale is assigned to a customer and the full address is available, see [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
+- The purchase is assigned to a customer and a delivery address is available, see [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
 
 #### Procedure
 *POS > Sales > Select store and pay desk > Tab CASHPOINT*
@@ -192,7 +191,7 @@ To enter a cash payment, you can select the cash amount for the payment manually
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -225,7 +224,7 @@ To enter a cash payment, you can select the cash amount for the payment by using
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -300,7 +299,7 @@ You can complete the entire payment process with the pay desk at your desktop. I
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -335,7 +334,7 @@ In addition to cash and cashless payment, customers can also pay with vouchers.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -377,7 +376,7 @@ Park a bill to defer it for a later date.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -408,7 +407,7 @@ If you have parked a purchase, you can resume it as follows.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -445,7 +444,7 @@ Note that you cannot undo a cancellation.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record a purchase](./02_SelectOffer.md).
 
 #### Procedure
 
