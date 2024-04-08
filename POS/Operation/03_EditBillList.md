@@ -17,7 +17,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -51,7 +51,7 @@ If you enter a changed price for an offer, you will not be able to apply an addi
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -83,7 +83,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -113,7 +113,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -133,7 +133,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -167,7 +167,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -200,7 +200,7 @@ Assign the current purchase to a registered customer.
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 - At least one customer is already registered, see [Register a customer](#register-a-customer).
 
 #### Procedure

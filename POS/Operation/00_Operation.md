@@ -6,9 +6,9 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [Enter sales](./02_SelectOffer.md)
     - [Use single scan](./02_SelectOffer.md#use-single-scan)
-    - [Select by QuickSelect](./02_SelectOffer.md#select-by-quickselect)
-    - [Select by name](./02_SelectOffer.md#select-by-name)
-    - [Select by number](./02_SelectOffer.md#select-by-number)
+    - [Select an offer by QuickSelect](./02_SelectOffer.md#select-an-offer-by-quickselect)
+    - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)
+    - [Select an offer by number](./02_SelectOffer.md#select-an-offer-by-number)
     - [Verify the age](./02_SelectOffer.md#verify-the-age)
 
 

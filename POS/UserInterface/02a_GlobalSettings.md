@@ -334,7 +334,7 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 <!--- NEU-->
 ### Display age rating
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Display age verification*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Display age rating*
 
 ![Display age rating](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age rating]")
 

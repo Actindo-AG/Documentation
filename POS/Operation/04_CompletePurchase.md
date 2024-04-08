@@ -15,7 +15,7 @@ If your company wants you to suggest additional offers to complete the customer'
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 - The *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Procedure
@@ -51,7 +51,7 @@ You can also add a discount to a single offer of the bill list. For detailed inf
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -91,7 +91,7 @@ If your company uses the Customer-specific discount feature, a specific discount
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 - The *Customer-specific discount* setting is activated. For detailed information, see [Customer-specific amount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
 #### Procedure
@@ -118,7 +118,7 @@ If your company uses the Down payment feature, you can reduce the entire total a
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).   
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).   
 - The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
 
 #### Procedure
@@ -162,7 +162,7 @@ If your company supports the delivery of an offer, you can initiate a delivery.
 
 #### Prerequisites
 
-- At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 - The *Delivery allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
 - The sale is assigned to a customer and the full address is available, see [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
 
@@ -192,7 +192,7 @@ To enter a cash payment, you can select the cash amount for the payment manually
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -225,7 +225,7 @@ To enter a cash payment, you can select the cash amount for the payment by using
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -300,7 +300,7 @@ You can complete the entire payment process with the pay desk at your desktop. I
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -335,7 +335,7 @@ In addition to cash and cashless payment, customers can also pay with vouchers.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -377,7 +377,7 @@ Park a bill to defer it for a later date.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -408,7 +408,7 @@ If you have parked a purchase, you can resume it as follows.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 
@@ -445,7 +445,7 @@ Note that you cannot undo a cancellation.
 
 #### Prerequisites
 
-At least one offer is added to the bill list, see [Edit the sales](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Record the sales](./02_SelectOffer.md).
 
 #### Procedure
 

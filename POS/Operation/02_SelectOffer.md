@@ -3,7 +3,7 @@
 
 # Select an offer
 
-The *POS* module offers several ways to select an offer, to search for it, to prepare further actions, or to ensure the protection of minors.
+The *POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
 You may select an offer by the following:
 - Quickselect, see [Select by QuickSelect](#select-by-quickselect).
 - Name, see [Select by name](#select-by-name).
@@ -31,7 +31,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
     Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
-2. Select an offer, see below. 
+2. Select an offer, see [Record the sales](02_SelectOffer.md#edit-the-sales). 
     The product is listed in the bill list.
 
 3. Select the same offer again.   
@@ -40,9 +40,9 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
 
 
-## Edit the sales
+## Record the sales
 
-### Select by QuickSelect
+### Select an offer by QuickSelect
 
 The QuickSelect option offers you the possibility to select an offer by clicking a predefined button. This option is often used for popular offers or permanent favorites.
 
@@ -60,11 +60,11 @@ The QuickSelect option offers you the possibility to select an offer by clicking
     All offers assigned to the selected category are displayed.
 
 2. Select the desired offer by clicking the corresponding button.   
-    The offer is added to the bill list if no age verification is necessary, see [Verify the age](#verify-the-age).   
+    The offer is added to the bill list if no age rating prevents this, see [Verify the age](#verify-the-age).   
     
 
 
-### Select by name
+### Select an offer by name
 
 You may select an offer or search for it by entering its name in the search bar. To find an offer, you must enter at least three characters in the search bar. All offers that correspond to your entry are automatically displayed.
 
@@ -87,13 +87,13 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side if no age verification is necessary, see [Verify the age](#verify-the-age). 
+    The offer is added to the bill list on the right side if no age rating is necessary, see [Verify the age](#verify-the-age). 
      
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
 
 
-### Select by number
+### Select an offer by number
 
 You may select an offer or search for it by entering its offer number in the search bar. To find an offer, you must enter at least three numbers in the search bar. All offers that correspond to your entry are automatically displayed.
 <!---Ist das die Offer ID, SKU  oder was ist das für eine Nummer?-->
@@ -118,7 +118,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side if no age verification is necessary, see [Verify the age](#verify-the-age).   
+    The offer is added to the bill list on the right side if no age rating prevent this, see [Verify the age](#verify-the-age).   
     
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
@@ -126,14 +126,14 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 <!--- NEU-->
 ## Verify the age
 
-Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary before the offer is added to the bill list.
+Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age rating before the offer is added to the bill list.
 
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - An age restriction for the offer is defined, for example 18 or 16.    
-- The *Display age verification* setting is activated. For detailed information, see [Display age verification](../UserInterface/02a_GlobalSettings.md#display-age-verification).
+- The *Display age rating* setting is activated. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
 
 #### Procedure
