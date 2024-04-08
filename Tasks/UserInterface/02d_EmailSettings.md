@@ -8,7 +8,7 @@
 
 ![Email settings](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsGeneral.png "[Email settings]")
 
-The *Email settings* tab is composed of the following setting entries: 
+The *Email settings* tab is composed of the following settings entries: 
 - [General settings](#general-settings)
 - [Email sending per event](#email-sending-per-event)
 
@@ -26,12 +26,11 @@ The following fields and functions are available in this view:
     Click the drop-down list to select an email type. All email types configured in the email connections in the *Email* module are displayed in the list. 
 
 - *From*  
-    Enter the email address to be displayed as sender in the email notifications/from which the email notification is to be sent.
+    Enter the email address to be displayed as sender in the email notifications.
 
 - [SAVE]  
     Click this button to save any changes made.
 
-[comment]: <> (Nur als Absender angezeigt, damit man antworten kann, oder wird tatsächlich aus da geschickt?)
 
 ## Email sending per event
 
