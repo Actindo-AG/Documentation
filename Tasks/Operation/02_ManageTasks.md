@@ -5,29 +5,29 @@
 
 # Manage the tasks
 
-A task is an activity that needs to be completed by a responsible person. Tasks can be defined in the *Process Orchestration* module. 
+A task is an activity that needs to be completed by a responsible user. Tasks are defined and configured in the *Process Orchestration* (*Workflows*) module. 
 
-[comment]: <> (Link to Workflows)
+[comment]: <> (Evtl. Link auf Workflows)
 
-The *Tasks* menu entry in the *Tasks* module displays all tasks created in your system. You can assign a task to a specific user, filter them by different criteria, mark as done or reopen a closed task.
+The *Tasks* menu entry in the *Tasks* module displays all tasks created in your system. You can assign a task to a specific user, filter tasks by different criteria, mark a task as done, or reopen a closed task.
 
 
 
 ## Assign a task
 
-Every task is linked to an event. That means, that when an event occurs a task is created. For example, when a difference in stock occurs (event), the responsible person must check the inconsistencies manually and take a specified action. 
+Every task is related to an event. This means that when an event occurs, a task is created. For example, when the event "Difference in stock" occurs, a task is automatically created for the responsible user to check the inconsistencies manually and, if necessary, take further action. 
 
-You can define the person and/or group responsible for an event, and all tasks related to it, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can assign one or more tasks to a specific user in the *Tasks* menu entry.
+You can define the user and/or user group who, by default, are responsible for an event, and all tasks related to it, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can further assign an individual or several tasks to a specific user in the *Tasks* menu entry.
 
+You can assign assign to yourself or to other users registered in the current system instance.
 
 ### Assign a task to yourself
 
-You can assign a task to yourself provided you have the appropriate user rights in the current instance.
+You can assign one or several tasks at once to yourself.
 
 #### Prerequisites
 
-- A task has been created.
-- You have the appropriate user rights.
+A task has been created.
 
 #### Procedures
 
@@ -35,16 +35,16 @@ You can assign a task to yourself provided you have the appropriate user rights 
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
-1. Click the task you want to assign to yourself.  
+1. Click the task(s) you want to assign to yourself.  
     The editing toolbar is displayed.
 
 2. Click the [ASSIGN TO ME] button in the editing toolbar.  
-    The task is assigned to yourself. Your username is displayed as assignee in the *Assignee* column.
+    The task(s) is/are assigned to yourself. Your username is displayed as assignee in the *Assignee* column of the selected task(s).
 
 
 ### Assign a task to another user
 
-You can assign a task to other users in your instance provided they have the appropriate user rights.
+You can assign one or several tasks at once to other users registered in the current system instance.
 
 #### Prerequisites
 
@@ -56,7 +56,7 @@ You can assign a task to other users in your instance provided they have the app
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
-1. Click the task you want to assign to a specific user.  
+1. Click the task(s) you want to assign to a specific user.  
     The editing toolbar is displayed.
 
 2. Click the *Unassigned* drop-down list.  
@@ -65,7 +65,7 @@ You can assign a task to other users in your instance provided they have the app
 3. Select the user you want to assign the task to.
     
 4. Click the [ASSIGN] button.  
-    The username of the new person responsible is displayed as assignee in the *Assignee* column.
+    The username of the new user responsible is displayed as assignee in the *Assignee* column of the selected task(s).
 
 
 ## Check the assigned tasks

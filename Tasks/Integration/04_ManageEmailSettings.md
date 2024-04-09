@@ -1,10 +1,13 @@
-[!!User interface Email settings](../UserInterface/to-be-determined)
+[!!User interface Email settings](../UserInterface/02d_EmailSettings.md)
 
 # Manage the email settings
 
-The *EMAIL SETTINGS* tab allows you configure how a user is notified per email when a task is created. 
+The *EMAIL SETTINGS* tab allows you configure how a user is notified per email when a task is created. It contains a menu on the left with two settings entries: *General settings* and
+*Email sending per event*.
 
-This tab is only displayed if the *Email* (1.6.1) module is installed. 
+To configure the email general settings, see [Configure the general settings](#configure-the-general-settings). To configure the email notification settings, see [Configure the email sending per event](#configure-the-email-sending-per-event).
+
+> [Info] This tab is only displayed if the *Email* module (1.6.1 version or higher) is installed. 
 
 
 
@@ -12,11 +15,11 @@ This tab is only displayed if the *Email* (1.6.1) module is installed.
 
 To be able to set up the email notifications, you have to create a connection to an email server in the *Email* module first.
 
-[comment]: <> (Evtl. Link auf allgemeine Prozedur Verbindung erstellen)
+[comment]: <> (Link auf allgemeine Prozedur Verbindung erstellen oder auf Email-Doku, wenn verfügbar)
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+The *Email* module (1.6.1 version or higher) is installed.
 
 #### Procedure
 
@@ -31,25 +34,23 @@ No prerequisites to fulfill.
 
 2. Enter a name for the connection in the *Name* field.
 
-3. Click the *Driver* drop-down list and select the desired driver, for example **SMTP**. All available drivers are displayed in the list.   
+3. Click the *Driver* drop-down list and select the desired driver, for example, **SMTP**. All available drivers are displayed in the list.   
 
     > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
 
-    Depending on the selected driver, a *Credentials* section is displayed below the drop-down list. 
+    The *Credentials* section is displayed below the drop-down list. 
 
     ![SMTP credentials](../../Assets/Screenshots/Tasks/Settings/EmailSettings/SMTPCredentials.png "[SMTP credentials]")
 
     > [Info] Depending on the selected driver, the fields in the *Credentials* section differ. 
 
-4. Enter the required data in the fields in the *Credentials* section. For your credential details, refer to your email provider's documentation.
+4. Enter the required data in the fields in the *Credentials* section. For your credential details, refer to your email provider's documentation or support resources.
 
     ![SMTP credentials example](../../Assets/Screenshots/Tasks/Settings/EmailSettings/SMTPCredentialsExample.png "[SMTP credentials example]")
 
 5. Click the [SAVE] button.    
     The connection will be established. The *Checking credentials...* notice is displayed.
     The *Create connection* view is automatically closed when the connection has been established. The initial sync has been automatically triggered. A confirmation message is displayed.
-
-[comment]: <> (Stimmt das auch so im Email-Modul?)
 
 
 
@@ -59,7 +60,7 @@ For every email connection configured, you can define an unlimited number of ema
 
 #### Prerequisites
 
-At least one connection has been established, see [Create a connection in the *Email* module](#create-a-connection-in-the-email-module).
+At least one email connection has been established, see [Create a connection in the *Email* module](#create-a-connection-in-the-email-module).
 
 #### Procedure
 
@@ -77,21 +78,17 @@ At least one connection has been established, see [Create a connection in the *E
     > [Info] If you want to provide the email type name and description in different languages in the system, you can select the desired system language in the *"Language"* drop-down list on top of this view. By default, the following options are currently available: **English (United States)** and **Deutsch (Deutschland)**.
 
 3. Click the [SAVE] button.  
-    The new email type has been saved. The *Create email type* view is closed.
+    The email type has been saved. The *Create email type* view is closed.
 
 
 
 ## Configure the general settings
 
-The *EMAIL SETTINGS* tab contains a menu on the left with two settings entries: *General settings* and *Email sending per event*. If you are configuring the email settings for the first time, the *General settings* menu entry on the left is selected and the general settings are displayed on the right side. Otherwise, the last menu entry selected is displayed.
-
-In the *General settings* menu entry, you can configure the email type that is used to send email notifications, and the email address from which the email notification will be sent.
+In the *General settings* menu entry, you can configure the email type that is used to send email notifications, and the email address from which the email notification is sent.
 
 #### Prerequisites
 
-- The *Task Tracker Email Connection* 1.1.0 plugin is installed.
-- At least one connection has been established in the *Email* module, see [Create a connection in the *Email* module](#create-a-connection-in-the-email-module).
-- At least one email type has been created in the email connection, see [Create an email type in the email connection](#create-an-email-type-in-the-email-connection).
+At least one email type has been created in the email connection, see [Create an email type in the email connection](#create-an-email-type-in-the-email-connection).
 
 #### Procedure
 
@@ -105,7 +102,7 @@ In the *General settings* menu entry, you can configure the email type that is u
 
     ![General settings example](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsGeneralExample.png "[General settings example]")
 
-3. If necessary, click the *Email sending per event* menu option to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, go to step 4.
+3. If necessary, click the *Email sending per event* menu entry to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, go to step 4.
 
 4. Click the [SAVE] button.  
     A confirmation message is displayed. The email general settings have been saved.
@@ -129,7 +126,7 @@ The general settings have been configured, see [Configure the general settings](
 1. Disable the *Apply from default* toggle to be able to modify the predefined email sending per event settings.  
     The email sending per event settings are unlocked.
 
-2. Disable or enable the desired event toggle to deactivate or activate email notification when a event occurs.
+2. Disable or enable the desired event toggle to deactivate or activate email notification for the desired events.
 
 3. Click the [SAVE] button.  
     A confirmation message is displayed. The email sending settings have been saved.

@@ -39,7 +39,7 @@ The following functions and fields are available in this view:
     Indication whether the even is **Active** or **Obsolete**.
 
 - *Identifier*  
-    Event identifier. The event identifier is similar to a key and therefore is must be system wide unique.
+    Event identifier. The event identifier is similar to a key and therefore is must be system-wide unique.
 
 - *ID*  
     Event identification number. The ID number is automatically assigned by the system.
@@ -65,7 +65,7 @@ The following functions and fields are available in this view:
     Enter a name for the event.
 
 - *Identifier*  
-    Event identifier. The event identifier is similar to a key and therefore is must be system wide unique.
+    Event identifier. The event identifier is similar to a key and therefore is must be system-wide unique.
 
 - *Attribute set for tasks*  
     Click the drop-down list and select the appropriate attribute set. All available attribute sets that are relevant for tasks are displayed in the list.
@@ -74,10 +74,10 @@ The following functions and fields are available in this view:
     The owner module or plugin is set automatically and therefore this field is locked. 
 
 - *Responsible user*  
-    Click the drop-down list to select a user to whom you want to assign the event. The user is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Task* menu entry.
+    Click the drop-down list to select a user to whom you want to assign the event. The user is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Tasks* menu entry.
 
 - *Responsible user group*  
-    Click the drop-down list to select a user to whom you want to assign the event. The user group is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Task* menu entry.
+    Click the drop-down list to select a user to whom you want to assign the event. The user group is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Tasks* menu entry.
 
 [comment]: <> (Muss dann der User in der Group sein oder kann man einem User aus einem anderen Group ein Task individuell zuweisen?)
 
@@ -117,10 +117,10 @@ The following functions and fields are available in this view:
     Owner module or plugin that owns the event. The plugin cannot be edited. 
 
 - *Responsible user*  
-    Click the drop-down list to select a user to whom you want to assign the event. The user is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Task* menu entry.
+    Click the drop-down list to select a user to whom you want to assign the event. The user is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Tasks* menu entry.
 
 - *Responsible user group*  
-    Click the drop-down list to select a user to whom you want to assign the event. The user group is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Task* menu entry.
+    Click the drop-down list to select a user to whom you want to assign the event. The user group is then responsible for the event and all associated tasks, unless you assign an individual task to a specific user in the *Tasks* menu entry.
 
 [comment]: <> (Muss dann der User in der Group sein oder kann man einem User aus einem anderen Group ein Task individuell zuweisen?)
 

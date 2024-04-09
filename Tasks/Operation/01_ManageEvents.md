@@ -1,15 +1,13 @@
-[!!User interface Events](../UserInterface/03_Events.md)
+[!!User interface Events](../UserInterface/03a_List.md)
 [!!Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md)
 
 # Manage the events
 
 An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
 
-[comment]: <> (trigger: entity/data model that, together with the occurrence of an event, initiates a process; event: occurrence that initiates/creates? a task; task: instruction / action to be performed)
-
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
-When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Task* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then stopped until the specified task is performed manually by the responsible person. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
 You can create an event manually, edit an existing event, and delete an event that is no longer needed.
 
@@ -17,7 +15,7 @@ You can create an event manually, edit an existing event, and delete an event th
 
 ## Create an event
 
-You can create an event to determine the moment when a task must be performed.
+You can create an event to define a scenario where a task must be created.
 
 #### Prerequisites
 
@@ -36,22 +34,24 @@ No prerequisites to fulfill.
 
 2. Enter a name for the event in the *Name* field.
 
-3. Enter an identifier for the event in the *Identifier* field. The event identifier works like an attribute key. A key is required for API access and must be system wide unique. Just like a key, the identifier must fulfill the following criteria:
+    > [Info] If you want to provide the event name in different languages in the system, you can select the desired system language in the *"Language"* drop-down list on top of this view. By default, the following options are currently available: **English (United States)** and **Deutsch (Deutschland)**.
+
+3. Enter an identifier for the event in the *Identifier* field. The event identifier works like an attribute key. A key is required for API access and must be system-wide unique. Just like a key, the identifier must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-4. Click the *Attribute set for tasks* drop-down list and select the desired attribute set for tasks. All available attribute sets for tasks are displayed in the list.
+4. Click the *Attribute set for tasks* drop-down list and select the desired option. All available attribute sets for tasks are displayed in the list.
 
-5. As you are creating the task manually, the *Plugin* drop-down list is locked.
+5. As you are creating the event manually, the *Plugin* drop-down list is locked.
 
     > [Info] After saving the event, the value **Manually created** is displayed in the *Plugin* column.
 
-6. Click the *Responsible user* drop-down list and select the user who should take care of the task by default. All users that are registered in the current system instance are displayed in the list. 
+6. Click the *Responsible user* drop-down list and select the user to whom you want to assign the event-related tasks by default. All users that are registered in the current system instance are displayed in the list. 
 
-7. Click the *Responsible user group* drop-down list and select the user group that should take care of the task by default. All users that are registered in the current system instance are displayed in the list.
+7. Click the *Responsible user group* drop-down list and select the user group to which you want to assign the event-related tasks by default. All users that are registered in the current system instance are displayed in the list.
 
-    > [Info] If necessary, you can further define in the task itself who the responsible user should be.
+    > [Info] If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
 
 8. Click the [SAVE] button.  
     A confirmation message is displayed. The event has been saved. The *Create event* view is closed.  

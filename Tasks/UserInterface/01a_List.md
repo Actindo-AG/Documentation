@@ -47,12 +47,12 @@ The following functions are available for the editing toolbar:
     Click this button to assign a task to yourself. This button is displayed if the checkbox of at least one task is selected.
 
 - *Unassigned*  
-    Click the drop-down list to select a person to assign him/her a selected task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in the current instance of the system. 
+    Click the drop-down list to select a user to assign him/her a selected task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in the current instance of the system. 
 
-    > [Info] You can assign an unassigned task as well as reassign a task that is currently assigned to another person.
+    > [Info] You can assign an unassigned task as well as reassign a task that is currently assigned to another user.
 
 - [ASSIGN]  
-    Click this button to assign the task to the person selected in the *Unassigned* drop-down list. This button is displayed if the checkbox of at least one task is selected.
+    Click this button to assign the task to the user selected in the *Unassigned* drop-down list. This button is displayed if the checkbox of at least one task is selected.
 
 
 The following fields are available in this view:
@@ -86,7 +86,7 @@ The following fields are available in this view:
     Date and time when the task has been done.
 
 - *Assignee*  
-    Person to which the task is assigned.
+    User to which the task is assigned.
 
 - *Group*  
     User group to which the event to which the task is associated is assigned.
