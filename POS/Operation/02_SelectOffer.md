@@ -28,7 +28,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
     Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
-2. Select an offer, see [Select an offer](02_SelectOffer.md#select-an-offer). 
+2. Select an offer, see [Select an offer](02_SelectOffer.md#select-an-offer).   
     The product is listed in the bill list.
 
 3. Select the same offer again.   
@@ -121,7 +121,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side if no age rating prevent this, see [Verify the age](#verify-the-age).   
+    The offer is added to the bill list on the right side if no age rating prevents this, see [Verify the age](#verify-the-age).   
     
     > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
@@ -154,13 +154,16 @@ Some offers are not suitable for children and young people, for example offers s
 2. Check the age of the customer. The *Age verification* window provides you with both the minimum age required and the date of birth that the customer must meet or fall below. Eventually, an explanatory text has been added.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
-    <!---Screenshot neu machen-->
+    
 
 3. Click the [AGE OF BUYER CONFIRMED] button if the customer is allowed to buy this offer.  
     The offer is added to the bill list.
 
 4. Click the [CANCEL] button if the customer is too young to buy this offer.   
     The offer is not added to the bill list.
+
+
+## Add product options
 
 
 

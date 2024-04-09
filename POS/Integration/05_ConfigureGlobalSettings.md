@@ -2,7 +2,6 @@
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
 [!!User interface DataHub MAPPINGS](../../DataHub/UserInterface/02a_Mappings.md)
 
-[comment]: <> (add link to Order Management module if available)
 
 # Configure the global settings for POS
 
@@ -10,8 +9,8 @@ POS offers many settings to customize the POS system to your specific needs. For
 
 Before creating a new store in the POS system, you should configure the following settings:
 
-- [Configure a default customer](#configure-a-default-customer) whose billing address will be added to all future POS bills to establish a connection to the *Order Management* module.
-- [Configure the VAT ID in POS](#configure-the-VAT ID-in-POS) for the printing on receipts, which is mandatory in most countries.
+- Configure a default customer whose billing address will be added to all future POS bills to establish a connection to the *Order Management* module. For detailed information, see [Configure a default customer](#configure-a-default-customer).
+- Configure the VAT ID for POS for the printing on receipts, which is mandatory in most countries. For detailed information, see [Configure the VAT ID in POS](#configure-the-vat-id-in-pos).
 
 
 ## Configure a default customer

@@ -1,3 +1,5 @@
+[!!Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+
 # Prepare the workflows
 
 To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing Import channels order in OMS workflow.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
@@ -88,7 +90,7 @@ The following procedure shows how to include a workflow transition that separate
 
     ![Connected](../../Assets/Screenshots/POS/Sales/Workflow/Connected.png "[Connected]")
 
-11. Continue with [Insert payment synchronization](#insert-payments-synchronization).
+11. Continue with [Insert payment synchronization](#insert-the-payments-synchronization).
 
 
 ### Insert the payments synchronization
@@ -98,7 +100,7 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 #### Prerequisites
 - You have the required rights to edit a workflow.
 - The *UCS Sync for POS* plugin is installed.
-- You have included a Split by criterion transition in your order workflow, see [Split order confirmation and cash invoice processing](#split-order-confirmation-and-cash-invoice-processing).
+- You have included a Split by criterion transition in your order workflow, see [Split the order confirmation and cash invoice processing](#split-the-order-confirmation-and-cash-invoice-processing).
 
 #### Procedure
 

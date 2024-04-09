@@ -14,10 +14,11 @@ In principle, the more specific setting always overrides the more general settin
 
 In the left part of the page, the selection list *Settings* is displayed. The list is divided in the following sections:
 - [GENERAL](#general)
-- [CURRENCIES](#währungen)
-- [RETURNS](#retouren)
-- [RECEIPT PRINT](#belegdruck)
-- [DATA TRANSFER ORDER MANAGEMENT ](#datenübertragung-retailsuite-faktura)
+- [VAT ID](#vat-id)
+- [CURRENCIES](#currencies)
+- [RETURNS](#returns)
+- [RECEIPT PRINTING](#receipt-printing)
+- [DATA TRANSFER ORDER MANAGEMENT](#data-transfer-order-management)
 
 In the right part of the page, a view of the selected setting is displayed when clicking on it.
 
@@ -30,7 +31,7 @@ In the following, each setting and its view is explained.
 In this section, you define all pay desk and payment settings.
 
 
-### Format of sequence number 
+### Format of sequential number 
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
 
@@ -393,7 +394,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
 
 
 <!--- NEU-->
-### Customer&dash,specific discount
+### Customer-specific discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
 
@@ -420,7 +421,7 @@ The following fields and features are available for this window:
 
 
 
-## Currencies
+## CURRENCIES
 
 In this section, you define all settings concerning the currencies in your POS system.
 
@@ -488,12 +489,13 @@ Add a new currency to the list of available currencies and define the coins and 
 
 - ![Banknote](../../Assets/Icons/Banknote01.png "[Banknote]") (Banknote)   
     The banknote icons indicate the banknote values that are defined for a currency. The number in the icon indicates the amount of the banknote. The icon is displayed after you have created an entry.  
-    When you hover over a banknote icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the [Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the banknote.
+    When you hover over a banknote icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the button to delete the banknote.
     
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icons indicate the coin values that are defined for the currency. The number in the middle indicates the amount of the coin. The icon is displayed after you have created an entry.   
-    When you hover over a coin icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the coin.
+    When you hover over a coin icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the 
+     button to delete the coin.
    
 
 - *Amount*   
@@ -531,12 +533,12 @@ Edit the settings of an existing currency.
 
 - ![Banknote](../../Assets/Icons/Banknote01.png "[Banknote]") (Banknote)   
     The banknote icon indicates which banknotes are defined for the respective currency. The number in the middle indicates the amount of the banknote.   
-    When you hover over a banknote icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the banknote.
+    When you hover over a banknote icon, the  ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the banknote. Click the button to delete the banknote.
     The banknote icon is displayed only if a banknote is defined for the currency.
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icon indicates which coins are defined for the respective currency. The number in the middle indicates the amount of the coin.   
-    When you hover over a coin icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button to delete the coin.
+    When you hover over a coin icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the  button to delete the coin.
     The coin icon is displayed only if a coin is defined for the currency.
 
 - *Amount*   
@@ -642,7 +644,7 @@ Activate or deactivate the return to the same store.
     Choose whether or not a return can only be made in the same store. By default, this option is inactive.
 
 
-## Receipt printing
+## RECEIPT PRINTING
 
 In this section, you define all settings concerning the receipt printing.
 
@@ -769,7 +771,7 @@ In this section, you define all settings concerning the connection to the *Order
 ![Account allocation accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Account allocation accounting]")
 
 Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
-For more information, see [Admin Settings - Store](./02b_Stores.md#adminsettings-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settingspay-desk).
+For more information, see [Admin Settings - Store](./02b_Stores.md#admin-settings-–-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settings-–-pay-desk).
 
 The number of accounts to be assigned depends on the number of available currencies.
 
@@ -808,9 +810,6 @@ The number of accounts to be assigned depends on the number of available currenc
 ![Reverse posting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Reverse posting]")
 
 Activate or deactivate the reverse posting to the original warehouse. Any discrepancies in store deliveries are automatically posted back to the original warehouse. 
-
-> [Info] This option is only applicable if store deliveries are activated.    
-    For detailed information, see [Store delivery active](#shoplieferungen-aktiv).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.

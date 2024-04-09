@@ -1,5 +1,4 @@
 [!!Manage the cash register](./05_ManageCashRegister.md)
-[!!Create a store in POS](../Integration/06_CreateStore.md)
 [!!User interface Sales](../UserInterface/01_Sales.md)
 
 # Open a pay desk

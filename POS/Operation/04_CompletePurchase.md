@@ -82,7 +82,7 @@ A combination of several discount options is not allowed. For example, you canno
 
 
 <!--- NEU-->
-## Check the customer&dash;specific discount
+## Check the customer-specific discount
 
 If your company uses the Customer-specific discount feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
 > [Info] If a customer has a customer-specific discount, other discount options are not allowed.

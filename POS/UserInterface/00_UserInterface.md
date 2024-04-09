@@ -22,8 +22,8 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Product details](./01a_Cashpoint.md#product-details)
 
 - [HISTORY](./01b_History.md)
-
-- [WISHLISTS](./01h_Wishlists.md)
+<!---Wishtlist weglassen
+- [WISHLISTS](./01h_Wishlists.md)-->
 
 - [CASH REGISTER](./01c_CashRegister.md)
     - [Payment tally](./01c_CashRegister.md#payment-tally)
@@ -34,7 +34,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [VOUCHERS](./01d_Vouchers.md)
 
-- [RETOUREN](./01e_Returns.md)
+- [RETURNS](./01e_Returns.md)
     - [Add return](./01e_Returns.md#add-return)
     - [Define return](./01e_Returns.md#define-return)
     - [Summary of the return](./01e_Returns.md#summary-of-the-return)
@@ -47,7 +47,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 
 - [GLOBAL SETTINGS](./02a_GlobalSettings.md)
     - [GENERAL](./02a_GlobalSettings.md#general)
-        - [Format of sequential number](./02a_GlobalSettings.md#format-of-sequence-number)
+        - [Format of sequential number](./02a_GlobalSettings.md#format-of-sequential-number)
         - [Always print the receipt](./02a_GlobalSettings.md#always-print-the-receipt)
         - [Number of vouchers per order](./02a_GlobalSettings.md#number-of-vouchers-per-order)
         - [Payment methods (manual payment terminal)](./02a_GlobalSettings.md#payment-methods-manual-payment-terminal)
@@ -55,7 +55,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Open drawer at cash payment](./02a_GlobalSettings.md#open-drawer-at-cash-payment)
         - [Open drawer at cashless payment](./02a_GlobalSettings.md#open-drawer-at-cashless-payment)
     - [VAT ID](./02a_GlobalSettings.md#vat-id)
-        - [Cashless payment](./02a_GlobalSettings.md#bargeldloses-zahlen)
+        - [Cashless payment](./02a_GlobalSettings.md#cashless-payment)
         - [Bind cash journal to user](./02a_GlobalSettings.md#kassenjournal-auf-user-binden)
         - [Skim to amount](./02a_GlobalSettings.md#skim-to-amount)
         - [Hide expected amount](./02a_GlobalSettings.md#hide-expected-amount)
@@ -77,14 +77,14 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Print merchant receipt](./02a_GlobalSettings.md#print-merchant-receipt)
         - [Logo print compatibility mode](./02a_GlobalSettings.md#logo-print-compatibility-mode)
         - [Receipt format](./02a_GlobalSettings.md#bon-format)
-        - [Number format](./02a_GlobalSettings.md#zahlenformat)
+        - [Number format](./02a_GlobalSettings.md#number-format)
         - [Logo](./02a_GlobalSettings.md#logo)
 
-    - [DATA TRANSFER ORDER MANAGEMENT](./02a_GlobalSettings.md#datenübertragung-retailsuite-faktura)
-        - [Account allocation accounting](./02a_GlobalSettings.md#kontenzuteilung-buchhaltung)
-        - [Reverse posting on source warehouse](./02a_GlobalSettings.md#korrekturbuchung-auf-ursprungslager)
-        - [Retourenlager (Sperrlager)](./02a_GlobalSettings.md#retourenlager-sperrlager)
-        - [Default customer](./02a_GlobalSettings.md#standard-kunde)
+    - [DATA TRANSFER ORDER MANAGEMENT](./02a_GlobalSettings.md#data-transfer-order-management)
+        - [Account allocation accounting](./02a_GlobalSettings.md#account-allocation-accounting)
+        - [Reverse posting on source warehouse](./02a_GlobalSettings.md#reverse-posting-on-source-warehouse)
+        - [Return warehouse (Storage area for blocked stock)](./02a_GlobalSettings.md#return-warehouse-storage-area-for-blocked-stock)
+        - [Default customer](./02a_GlobalSettings.md#default-customer)
         <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv)
         <!---Obsolete? [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)-->
 
@@ -93,12 +93,12 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Create store via wizard](./02b_Stores.md#create-store-via-wizard)
     - [Create store manually](./02b_Stores.md#create-store-manually)
     - [Store](./02b_Stores.md#store)
-        - [Basic data &ndash; Store](./02b_Stores.md#basic-data--store)
+        - [Basic data &ndash; Store](./02b_Stores.md#basic-data-–-store)
         - [Settings](./02b_Stores.md#settings)
-        - [Admin settings &ndash; Store](./02b_Stores.md#admin-settings--store)
+        - [Admin settings &ndash; Store](./02b_Stores.md#admin-settings-–-store)
     - [Pay desk](./02b_Stores.md#pay-desk)
-        - [Basic data &ndash; Pay desk](./02b_Stores.md#basic-data--pay-desk)
-        - [Admin settings &ndash; Pay desk](./02b_Stores.md#admin-settings--pay-desk)
+        - [Basic data &ndash; Pay desk](./02b_Stores.md#basic-data-–-pay-desk)
+        - [Admin settings &ndash; Pay desk](./02b_Stores.md#admin-settings-–-pay-desk)
         - [Transactions &ndash; Pay desk](./02b_Stores.md#transactions-–-pay-desk)
 
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)

@@ -1,5 +1,5 @@
 [!!Manage the offers](../Integration/07_ManageOffers.md)
-[!!Select an offer](../Operation/02_SelectOffer.md)
+[!!Record the purchase](../Operation/02_SelectOffer.md)
 [!!Edit the bill list](../Operation/03_EditBillList.md)
 [!!Complete a purchase](../Operation/04_CompletePurchase.md)
 
@@ -271,7 +271,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 ![Cashless payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
 
 - *Card type*   
-    Click the drop-down list to select the used card type or payment method. By default, the payment methods below are available. Additional cashless payment methods can be defined in the Global Settings, see [Zahlungsweisen (manuelle Zahlung Terminal)](./02a_GlobalSettings.md#zahlungsweisen-manuelle-zahlung-terminal).  
+    Click the drop-down list to select the used card type or payment method. By default, the payment methods below are available. Additional cashless payment methods can be defined in the Global Settings, see [Payment methods (manual payment terminal](./02a_GlobalSettings.md#payment-methods-manual-payment-terminal).  
     - **Debit card**
     - **Credit card**
     - **Paypal**    

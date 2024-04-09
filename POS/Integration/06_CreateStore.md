@@ -1,8 +1,4 @@
-[!!Configure the warehouse for POS](./01_ConfigureWarehouse.md)
-[!!Manage the accounts for POS](./02_ManageAccounts.md)
 [!!Configure the printer for POS](./03_ConfigurePrinter.md)
-[!!Assign users to the POS groups](./04_AssignUsers.md)
-[!!Configure the global settings for POS](./05_ConfigureGlobalSettings.md)
 [!!Open a pay desk](../Operation/01_OpenPayDesk.md)
 [!!User interface Stores](../UserInterface/02b_Stores.md)
 [!!User interface PIM Attributes](../../PIM/UserInterface/03a_Attributes.md)

@@ -1,7 +1,6 @@
-[!!Select an offer](../Operation/02_SelectOffer.md)
+[!!Record the purchase](../Operation/02_SelectOffer.md)
 [!!Edit the bill list](../Operation/03_EditBillList.md)
 [!!Complete a purchase](../Operation/04_CompletePurchase.md)
-[!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 [!!User interface Mapping from PIM](../UserInterface/02c_MappingFromPIM.md)
 [!!User interface Omni-Channel Offers](../../Channels/UserInterface/02a_Offers.md)
 [!!User interface DataHub Attributes](../../DataHub/UserInterface/01a_Attributes.md)
@@ -21,7 +20,7 @@ To create an offer for POS, it is recommended to create products in the *PIM* mo
 #### Prerequisites
 
 <!---Neu-->
-If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating)
+If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
 #### Procedure
 
@@ -230,7 +229,7 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 
 #### Prerequisites
 
-- At least one QuickSelect attribute has been created, see [Create a QuickSelect attribute](#create-a-quickselect-attribute).
+- At least one QuickSelect attribute has been created, see [Define a QuickSelect attribute](#define-a-quickselect-attribute).
 - At least one offer is created for *POS*, see [Create an offer for POS](#create-an-offer-for-pos).
 
 

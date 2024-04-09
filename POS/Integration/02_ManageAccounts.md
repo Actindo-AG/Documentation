@@ -1,5 +1,4 @@
 [!!Create a store in POS](./06_CreateStore.md)
-[!!Manage the POS order process](../Operation/06_ManageOrderProcess.md)
 [!!User interface Accounts](../../RetailSuiteAccounting/UserInterface/02b_Accounts.md)
 
 

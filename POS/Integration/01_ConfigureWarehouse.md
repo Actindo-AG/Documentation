@@ -2,7 +2,6 @@
 [!!Manage the POS warehouse](./08_ManageWarehouse.md)
 [!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
 
-[comment]: <> (add link to Warehouse module if available)
 
 # Configure the warehouse for POS
 

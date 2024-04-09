@@ -10,7 +10,7 @@
 
 The *Cash Register* tab is divided into two boxes:
 - [Payment Tally](#payment-tally)
-- [Cash In/Out](#cash-in-out)
+- [Cash In/Out](#cash-in⁄out)
 
 
 ## Payment tally
@@ -43,7 +43,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, you 
     Difference amount between the expected and the counted cash amount in the pay desk. If no expected amount is displayed, no difference amount is displayed, but a dash **-**.
 
 - *Skim to*   
-    Enter a cash amount up to which the pay desk is skimmed after closing. If a skimming amount is predefined in the global settings, the field is preset with this amount. For detailed information, see [Skim to amount](./02a_GlobalSettings.md#abschöpfen-bis-betrag).
+    Enter a cash amount up to which the pay desk is skimmed after closing. If a skimming amount is predefined in the global settings, the field is preset with this amount. For detailed information, see [Skim to amount](./02a_GlobalSettings.md#skim-to-amount).
 
 
 ### Count cash
@@ -55,7 +55,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, you 
 The *Count cash* pop-up window is used to faciliate the calculation of the cash count.
 
 - *Type*   
-    Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the currencies in the global settings. For detailed information, see [Currencies](./02a_GlobalSettings.md#währungen).
+    Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the currencies in the global settings. For detailed information, see [Currencies](./02a_GlobalSettings.md#currencies).
 
 - *Amount*   
     Enter the amount counted of the selected type of coins or banknotes by using the buttons or entering the amount directly into the field.
@@ -80,7 +80,7 @@ The *Count cash* pop-up window is used to faciliate the calculation of the cash 
 
 
 
-## Cash in/out
+## Cash in&frasl;out
 
 *POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
 

@@ -159,8 +159,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
 You can either assign the purchase to an [existing customer](#assign-a-purchase-to-a-customer) or [register a new customer](#register-a-customer) if the customer is not yet registered in the system.
 
->[INFO] It is possible to assign a customer-specific discount to a customer. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list.
-For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
+>[INFO] It is possible to assign a customer-specific discount to a customer. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list. For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
 
 ### Register a customer

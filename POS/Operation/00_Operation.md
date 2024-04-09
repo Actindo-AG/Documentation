@@ -11,6 +11,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)
         - [Select an offer by number](./02_SelectOffer.md#select-an-offer-by-number)
     - [Verify the age](./02_SelectOffer.md#verify-the-age)
+    - [Add product options](./02_SelectOffer.md#add-product-options)
 
 
 - [Edit the bill list](./03_EditBillList.md)
