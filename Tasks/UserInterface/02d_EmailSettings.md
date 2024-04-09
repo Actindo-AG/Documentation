@@ -12,7 +12,7 @@ The *Email settings* tab is composed of the following settings entries:
 - [General settings](#general-settings)
 - [Email sending per event](#email-sending-per-event)
 
-> [Info] The last setting entry selected is displayed when you click the *EMAIL SETTINGS* tab. 
+
 
 ## General settings
 
@@ -40,11 +40,11 @@ The following fields and functions are available in this view:
 
 The following fields and functions are available in this view: 
 
-- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *"Event name"*    
-    Enable or disable this toggle to activate or deactivate email notifications when the selected event occurs. By default, this toggle is enabled.
-
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Apply from default*  
-    Disable this toggle if you do not want to apply  the default value to the email notification. By default, this toggle is enabled. The *"Event name*" toggles are unlocked.
+    Disable this toggle if you do not want to apply the default values to email notification. By default, this toggle is enabled. The *"Event name*" toggles are unlocked.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *"Event name"*    
+    Enable or disable this toggle to activate or deactivate email notification when the selected event occurs. By default, this toggle is enabled.
 
 - [SAVE]  
     Click this button to save any changes made.

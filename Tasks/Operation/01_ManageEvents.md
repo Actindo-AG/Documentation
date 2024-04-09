@@ -47,9 +47,9 @@ No prerequisites to fulfill.
 
     > [Info] After saving the event, the value **Manually created** is displayed in the *Plugin* column.
 
-6. Click the *Responsible user* drop-down list and select the user to whom you want to assign the event-related tasks by default. All users that are registered in the current system instance are displayed in the list. 
+6. Click the *Responsible user* drop-down list and select the user to whom you want to assign the event, and the related tasks, by default. All users that are registered in the system instance are displayed in the list. 
 
-7. Click the *Responsible user group* drop-down list and select the user group to which you want to assign the event-related tasks by default. All users that are registered in the current system instance are displayed in the list.
+7. Click the *Responsible user group* drop-down list and select the user group to which you want to assign the event, and the related tasks, by default. All user groups that are registered in the system instance are displayed in the list.
 
     > [Info] If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
 

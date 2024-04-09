@@ -10,7 +10,7 @@
 
 **Tasks**
 
-You can filter the tasks displayed by different criteria using the *Assignees* *Events*, and *Status* drop-down lists. You can also combine the filters to narrow down the listed tasks. Depending on the settings, the displayed columns may vary. All fields are read-only.
+You can filter the tasks displayed by different criteria using the *Assignees*, *Events*, and *Status* drop-down lists. You can also combine the filters to narrow down the listed tasks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Assignees*  
     Click the drop-down list to filter the list of tasks by assignee. The following options are available:  
@@ -20,10 +20,12 @@ You can filter the tasks displayed by different criteria using the *Assignees* *
         Select this option to display the tasks assigned specifically to you. 
     - **Assigned to me via groups**  
         Select this option to display the tasks assigned to a user group which you are part of.
-    - **Assigned to me directly or via groups**  
+    - **Assigned to me directly and via groups**  
         Select this option to display the tasks assigned to you, regardless of whether they are assigned to you specifically or you are part of a user group to which the task is assigned.
     - **Unassigned**  
-        Select this option to display the tasks are not assigned to any user or group.
+        Select this option to display the tasks that are not assigned to any user or group.
+
+[comment]: <> (Es sollte Assigned to me directly ODER via groups sein! RS mit Modulexperten) 
 
 - *Events*  
     Click the drop-down list to filter the list of tasks by event. All events created in the *Events* menu entry are displayed.
@@ -41,13 +43,13 @@ The following functions are available for the editing toolbar:
     Click this button to mark a task as done. This button is displayed if the checkbox of at least one open task, with status ![Cross](../../Assets/Icons/Cross05.png "[Cross]"), is selected.
 
 - [REOPEN]  
-    Click this button to mark a task as done. This button is displayed if the checkbox of at least one closed task, with status ![Check](../../Assets/Icons/Check02.png "[Check]"), is selected.
+    Click this button to reopen a task. This button is displayed if the checkbox of at least one closed task, with status ![Check](../../Assets/Icons/Check02.png "[Check]"), is selected.
 
 - [ASSIGN TO ME]  
     Click this button to assign a task to yourself. This button is displayed if the checkbox of at least one task is selected.
 
 - *Unassigned*  
-    Click the drop-down list to select a user to assign him/her a selected task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in the current instance of the system. 
+    Click the drop-down list to select a user to assign him/her a task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in your system instance. 
 
     > [Info] You can assign an unassigned task as well as reassign a task that is currently assigned to another user.
 
@@ -77,7 +79,7 @@ The following fields are available in this view:
     Module or plugin that owns the task.
 
 - *Event*  
-    Event to which the task is associated.
+    Event to which the task is related.
 
 - *Link*  
     Link to the task in the corresponding owner module or plugin.
@@ -89,9 +91,7 @@ The following fields are available in this view:
     User to which the task is assigned.
 
 - *Group*  
-    User group to which the event to which the task is associated is assigned.
-
-[comment]: <> (Stimmt das so?)
+    User group to which the event, and all related tasks, is assigned.
 
 - *ID*  
     Task identification number. The ID number is automatically assigned by the system.
@@ -110,7 +110,7 @@ The task details view contains all related information to the selected task. It 
 - [Dependencies](#tasks-–-dependencies)
 - [ETL processes](#tasks-–-etl-processes)
 
-[comment]: <> (Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä.)
+[comment]: <> (Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
 
 The following fields and functions are available in this view:
 
@@ -132,7 +132,7 @@ The following fields and functions are available in this view:
 
 ## Task &ndash; Attributes
 
-*Tasks > Tasks > Tab LIST > Select a task*
+*Tasks > Tasks > Tab LIST > Select a task > Tab Attributes*
 
 ![Task Attributes](../../Assets/Screenshots/Tasks/Tasks/TaskAttributes.png "[Task Attributes]")
 
@@ -143,7 +143,6 @@ For a detailed description of this view, see [Attributes tab](../../DataHub/User
 *Tasks > Tasks > Tab LIST > Select a task > Tab Dependencies*
 
 ![Task Dependencies](../../Assets/Screenshots/Tasks/Tasks/TaskDependencies.png "[Task Dependencies]")
-
 
 For a detailed description of this view, see [Dependencies tab](../../DataHub/UserInterface/07_DependenciesTab.md) in the *DataHub* documentation.
 

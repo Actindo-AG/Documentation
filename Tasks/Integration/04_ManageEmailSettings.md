@@ -84,7 +84,7 @@ At least one email connection has been established, see [Create a connection in 
 
 ## Configure the general settings
 
-In the *General settings* menu entry, you can configure the email type that is used to send email notifications, and the email address from which the email notification is sent.
+In the *General settings* menu entry, you can configure the email type that is used to send email notifications and the email address to be displayed as sender.
 
 #### Prerequisites
 

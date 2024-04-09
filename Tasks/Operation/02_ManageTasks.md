@@ -17,9 +17,11 @@ The *Tasks* menu entry in the *Tasks* module displays all tasks created in your 
 
 Every task is related to an event. This means that when an event occurs, a task is created. For example, when the event "Difference in stock" occurs, a task is automatically created for the responsible user to check the inconsistencies manually and, if necessary, take further action. 
 
-You can define the user and/or user group who, by default, are responsible for an event, and all tasks related to it, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can further assign an individual or several tasks to a specific user in the *Tasks* menu entry.
+You can define the user and/or user group who, by default, are responsible for an event, and all related tasks, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can further assign an individual or several tasks to a specific user in the *Tasks* menu entry.
 
-You can assign assign to yourself or to other users registered in the current system instance.
+You can assign tasks to yourself or to other users registered in your system instance.
+
+[comment]: <> (instance in Glossar aufnehmen und definieren? Oder anders nennen?)
 
 ### Assign a task to yourself
 
@@ -29,7 +31,7 @@ You can assign one or several tasks at once to yourself.
 
 A task has been created.
 
-#### Procedures
+#### Procedure
 
 *Tasks > Menu entry Tasks > Tab LIST*
 
@@ -42,15 +44,15 @@ A task has been created.
     The task(s) is/are assigned to yourself. Your username is displayed as assignee in the *Assignee* column of the selected task(s).
 
 
-### Assign a task to another user
+### Assign a task to other user
 
-You can assign one or several tasks at once to other users registered in the current system instance.
+You can assign one or several tasks at once to other users registered in your system instance.
 
 #### Prerequisites
 
-- A task has been created.
+A task has been created.
 
-#### Procedures
+#### Procedure
 
 *Tasks > Menu entry Tasks > Tab LIST*
 
@@ -60,25 +62,25 @@ You can assign one or several tasks at once to other users registered in the cur
     The editing toolbar is displayed.
 
 2. Click the *Unassigned* drop-down list.  
-    All users available in the current instance of your system are displayed in the list.
+    All users registered in the system instance are displayed in the list.
 
-3. Select the user you want to assign the task to.
+3. Select the user to whom you want to assign the task.
     
 4. Click the [ASSIGN] button.  
-    The username of the new user responsible is displayed as assignee in the *Assignee* column of the selected task(s).
+    The username of the new responsible user is displayed as assignee in the *Assignee* column of the selected task(s).
 
 
 ## Check the assigned tasks
 
-You can filter the tasks by different criteria using the drop-down menus provided in the list view. For detailed information, see [User Interface Tasks](../UserInterface/01a_List.md). You can combine the different filters to narrow down your results.
+You can filter the tasks by different criteria using the drop-down menus provided in the list view. You can combine the different filters to narrow down your results. For a detailed description, see [User Interface Tasks](../UserInterface/01a_List.md).
 
-In the following, an example procedure on how to check and filter your assigned tasks in explained.
+In the following, an example procedure on how to check and filter your assigned tasks is explained.
 
 #### Prerequisites
 
-A task has been assigned to you. 
+A task has been assigned to you, see [Assign a task](#assign-a-task). 
 
-#### Procedures
+#### Procedure
 
 *Tasks > Menu entry Tasks > Tab LIST*
 
@@ -86,13 +88,13 @@ A task has been assigned to you.
 
 1. Click the *Assignees* drop-down list and select one of the following options:
     - **Assigned to me directly**  
-        This means that the task has been assigned specifically to you via the [ASSIGN] button in the *Tasks* menu entry or in the *Events* menu entry.
+        The task has been assigned specifically to you via the [ASSIGN] button in the *Tasks* menu entry or you are the responsible user for the event in the *Events* menu entry.
     - **Assigned to me via groups**    
-        This means that you are part of a group to which the task/event (?) has been assigned in the *Events* menu entry.
+        You are a member of the responsible user group for the event in the *Events* menu entry.
 
-2. If desired, select an event in the *Events* drop-down list to display only the tasks that are linked to a specific event. All events configured in the *Events* menu entry are displayed in the list.
+2. If desired, select an event in the *Events* drop-down list to display only the tasks that are related to a specific event. All events configured in the *Events* menu entry are displayed in the list.
 
-3. If desired, select the task status in the *Status* drop-down list. the following options are available:
+3. If desired, select the task status in the *Status* drop-down list. The following options are available:
     - **Open tasks**  
         Select this option to display only pending tasks, that is, tasks that are not done yet.
     - **Open and closed tasks**  
@@ -108,7 +110,7 @@ Once you have performed the assigned task, you can mark it as done.
 
 A task has been assigned to you, see [Assign a task](#assign-a-task).
 
-#### Procedures
+#### Procedure
 
 *Tasks > Menu entry Tasks > Tab LIST*
 
@@ -121,15 +123,16 @@ A task has been assigned to you, see [Assign a task](#assign-a-task).
     The selected task is marked as done and therefore closed. The status icon in the *Status* column changes from ![Cross](../../Assets/Icons/Cross05.png "[Cross]") to ![Check](../../Assets/Icons/Check02.png "[Check]"). The date on *Done date* column is updated.
 
 
+
 ## Reopen a task
 
-You can reopen as task that has been marked as done if necessary.
+You can reopen a task that has been marked as done if necessary.
 
 #### Prerequisites
 
 As task has been marked as done, see [Mark a task as done](#mark-a-task-as-done).
 
-#### Procedures
+#### Procedure
 
 *Tasks > Menu entry Tasks > Tab LIST*
 
