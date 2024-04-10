@@ -26,6 +26,10 @@ If you want to use the *Age rating* feature, the attribute set assigned to the P
 
 Create the product in the *PIM* module. For detailed information, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
 
+<!---Neu-->
+## Create product options 
+
+There are products that can be customized. For example, t-shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.
 
 
 ## Create a product type

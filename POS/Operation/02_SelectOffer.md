@@ -165,5 +165,7 @@ Some offers are not suitable for children and young people, for example offers s
 
 ## Add product options
 
+There are products that can be customized. For example, t-shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.
+
 
 
