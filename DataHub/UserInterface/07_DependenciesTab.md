@@ -4,7 +4,7 @@
 
 ![Dependencies](../../Assets/Screenshots/DataHub/Others/Dependencies.png)
 
-This tab is not part of the *DataHub* module, but it is used in many other *Core1 Platform* modules that refer to information coming from the the *DataHub* module.  
+This tab is not part of the *DataHub* module, but it is used in many other *Core1 Platform* modules that refer to information coming from the *DataHub* module.  
 
 **Dependencies**
 
@@ -37,7 +37,7 @@ The following functions are available for the editing toolbar:
 - [RERUN MAPPING]   
     Click this button to rerun the mapping of the selected entity or entities. This button is only displayed if the checkbox of at least one dependency is selected.
 
-[comment]: <> (Kommt hier ein Bestätigungsfenster wie im ETL mapping? In der Sandbox funktioniert nicht oder passiert nichts.)
+[comment]: <> (Simon: Kommt hier ein Bestätigungsfenster wie im ETL mapping? In der Sandbox funktioniert nicht oder passiert nichts.)
 
 - [DELETE DEPENDENCY]  
     Click this button to delete the dependency of the selected entity. This button is only displayed if the checkbox of one dependency is selected. 

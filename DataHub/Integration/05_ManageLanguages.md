@@ -31,7 +31,7 @@ No prerequisites to fulfill.
 
     > [Info] If you want to provide the language name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
-3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml "[https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml]"). For instance, keys with the following structure are valid:
+3. Enter a key for the language in the *Key* field. The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml "[https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml]"). For instance, keys with the following structure are valid:
     - en
     - en_US
     - en-US

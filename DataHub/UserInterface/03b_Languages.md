@@ -71,7 +71,7 @@ The following functions and fields are available in this view:
     Enter a language name in the selected language.
 
 - *Key*   
-    Enter a language key. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    Enter a language key. The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
     - **en**
     - **en_US**
     - **en-US**
@@ -108,7 +108,7 @@ The following functions and fields are available in this view:
 
 - *Key*   
     Click the field to edit the language key. It is not recommended to change the language key after creation.   
-    The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
     - **en**
     - **en_US**
     - **en-US**

@@ -9,7 +9,7 @@ You can create a variant set for a *PIM* product or an *Omni-Channel* offer. A v
 
 You can manage the variant sets both in the *PIM* and the *Omni-Channel* modules depending on your specific module configuration, since the two modules are independent of each other. If both the *Omni-Channel* and the *PIM* modules are used, there is a predefined mapping that automatically applies the variant sets from *PIM* to *Omni-Channel*. Otherwise, you can manage the variant sets directly in your *Omni-Channel* module. The data displayed differ slightly, as only the attributes that are relevant for *PIM* or *Omni-Channel* are displayed in the respective module. The functionality itself, however, is based on the data models defined in the *DataHub* module. 
 
-[comment]: <> (zu prüfen)
+[comment]: <> (Simon: Bitte prüfen:)
 
 
 ## Create a variant set
@@ -47,15 +47,15 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
     ![Formulas](../../Assets/Screenshots/DataHub/Others/Formulas.png "[Formulas]")
 
-4. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
+4. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. It is recommended to enable it.
+
+    > [Info] This feature makes it easier for you to link independently created products and establish a master-variant relationship between them. For example, if you have the same T-shirt in different colors, all the colored T-shirts should be subordinated as variants to a master T-shirt. If this toggle is enabled, the changeable attributes values, which are different per variant, are copied from the parent entity when creating a new variant, so that you just have to update the values if necessary. 
+
+[comment]: <> (Simon: Bitte prüfen: Kopiert vom Master-Entität ist richtig? Bitte prüfen und ggf. korrigieren/ergänzen.)
+
+5. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
     > [Info] The value of the defining attributes can be included into the SKU formula. When you have added a defining attribute, the corresponding placeholder for this attribute is displayed in the *Formulas* section.
-
-5. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. It is recommended to enable it.
-
-    > [Info] This feature makes it easier for you to associate independently created products and create a master-variant relationship between them. For example, if you have the same T-shirt in different colors, all the color T-shirts should be added as variants to a master T-shirt. If this toggle is enabled, the changeable attributes and its values, which are different pro variant, are copied once when creating the variant, so that you just have to update the values if necessary. 
-
-[comment]: <> (zu prüfen)
 
 6. For the next steps to create a variant set, follow the procedures below:   
     - [Add defining attributes](#add-defining-attributes)
@@ -65,6 +65,10 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 
 ### Add defining attributes
+
+A defining attribute is the characteristic that defines the variation of an entity. For example, in the case of a *PIM* product, such as a piece of clothing, color or size can be defining attributes. 
+
+[comment]: <> (Simon: Bitte prüfen und ggf. ergänzen/verbessern)
 
 You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
 
@@ -105,6 +109,10 @@ You have to select at least one defining attribute to create a variant set. You 
 
 
 ### Add changeable attributes
+
+Unlike defining attributes, changeable attributes do not define the variation within a master entity. They are simply additional characteristics that can differ between the different variants entities. For example, in the case of a *PIM* product, EAN code, stock amount, image, or price can be changeable attributes.
+
+[comment]: <> (Simon: Bitte prüfen und ggf. ergänzen/verbessern)
 
 You can select changeable attributes for a variant set. If you want to define an attribute for the variants whose value may differ from its master product value, you have to define this attribute as a changeable attribute.
 

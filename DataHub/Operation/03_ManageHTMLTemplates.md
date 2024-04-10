@@ -28,7 +28,7 @@ The *HTML Templates for ETL* plugin version 1.1.2 or higher has been installed.
 
 2. Enter an expressive name for the HTML template in the *Name* field and, if desired, add a description to the HTML template in the *Description* field.
 
-3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system wide unique.
+3. Enter a key for the HTML template in the *Key* field. The key is required for API access and must be system-wide unique.
 
 4. Click the text area and enter the appropriate content for the HTML template. You can either include HTML text and/or Smarty templates:
     - [Include HTML text](#include-html-text)

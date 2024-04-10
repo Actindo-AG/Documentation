@@ -120,7 +120,7 @@ The following functions and fields are available in this box:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.   
@@ -150,7 +150,7 @@ The following functions and fields are available in this box:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.   
@@ -219,7 +219,7 @@ The following functions and fields are available in this box:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.   
@@ -249,7 +249,7 @@ The following functions and fields are available in this box:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.   
@@ -290,7 +290,7 @@ The following functions and fields are available in this view:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.    
@@ -328,7 +328,7 @@ The following functions and fields are available in this view:
     Attribute name.
 
 - *Key*   
-    Attribute key. The key is required for API access and must be system wide unique.
+    Attribute key. The key is required for API access and must be system-wide unique.
 
 - *Data type*   
     Attribute data type.   

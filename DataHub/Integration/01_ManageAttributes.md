@@ -2,17 +2,19 @@
 [!!User interface Attributes](../UserInterface/01a_Attributes.md)
 [!!Data type list](../UserInterface/05_DataTypeList.md)
 [!!Manage a product in PIM](../../PIM/Operation/01_ManageProducts.md)
-[!!Manage a variant set in PIM](../../PIM/Integration/07_ManageVariantSets.md)
 
 # Manage an attribute
 
-An attribute defines a characteristic to describe a product. You can create attributes, edit attributes, and deactivate or delete attributes that are not in use.
-Further, you can add attributes to an attribute set or remove them from an attribute set.  
+An attribute defines a characteristic to describe an entity, for example, a *PIM* product or a *Fulfillment* dispatch note. When describing a product, you need attributes such as *Name*, *Price*, and *SKU*. To describe a dispatch note, on the other hand, you may use attributes such as *Carrier*, *Shipment status*, and *Tracking number*. The entity attributes are then provided with a value in the specific entity, such as an individual product. For example, a black shirt in size M has a name (Actindo shirt), a price (50.00 EUR), and an SKU (BLK-ACT-SHIRT-M), all its specific attributes and values that describe that individual product. 
+
+[comment]: <> (Simon: Bitte prüfen und bestätigen)
+
+You can create attributes, edit attributes, and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.  
 In the *DataHub* module, attributes from all plugins are displayed.
 
 ## Create an attribute
 
-Create an attribute to specify a new property for a product.
+Create an attribute to specify a new property for an entity type.
 
 #### Prerequisites
 
@@ -33,14 +35,14 @@ No prerequisites to fulfill.
 
     > [Info] If you want to provide the attribute name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
-[comment]: <> (zu prüfen) 
+[comment]: <> (Simon: Bitte prüfen) 
 
 3. Select a data type in the *Data type* drop-down list.   
     Depending on the selected data type, the *Contains sensitive data* toggle and the *CONFIGURATION* section are displayed. For detailed information about all data types, see [Data type list](../UserInterface/05_DataTypeList.md). 
 
    > [Info] The settings displayed in the *CONFIGURATION* section depend on the selected data type.
 
-4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
+4. Enter a key for the attribute in the *Key* field. The key is required for API access and must be system-wide unique. An attribute key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
@@ -51,7 +53,7 @@ No prerequisites to fulfill.
 
 5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-scope* toggle to assign different attribute values in different scopes.
 
-    > [Info] Be aware that only attributes which are neither multi-language nor multi-scope can be used as defining attributes for variants. For detailed information, see [Create a variant set](../../PIM/Integration/07_ManageVariantSets.md#create-a-variant-set).
+    > [Info] Be aware that only attributes which are neither multi-language nor multi-scope can be used as defining attributes for variants. For detailed information, see [Create a variant set](../Integration/07_ManageVariantSets.md#create-a-variant-set).
 
 6. If required, enable the *Contains sensitive data* toggle if the potential attribute values may be sensitive, such as name, date of birth, or zip code.
 
@@ -85,7 +87,7 @@ The attribute key is locked but can be modified in exceptional cases, for exampl
 
 > [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
-[comment]: <> (zu prüfen)
+[comment]: <> (Simon: Bitte prüfen)
 
 The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Edit an attribute set](./02_ManageAttributeSets.md#edit-an-attribute-set).   
 
@@ -123,7 +125,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 ## Deactivate an attribute
 
-It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing products with this attribute.   
+It is recommended to deactivate an attribute instead of deleting it to prevent any problems because of existing dependencies. If you deactivate an attribute, it is no longer available for new attribute sets and it is hidden in existing entities with this attribute.   
 
 However, the values previously stored in an attribute are not deleted when the attribute is deactivated. As soon as the attribute is reactivated, the stored values are also visible again.   
 
@@ -159,9 +161,9 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 ## Delete an attribute
 
-You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. 
+You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. For detailed information on variant sets, see [Manage a variant set](./07_ManageVariantSets.md). 
 
-As there are usually dependencies on an attribute, for example through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
+As there are usually dependencies on an attribute, for example, through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
 
 #### Prerequisites
 

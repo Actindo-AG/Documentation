@@ -5,8 +5,11 @@
 
 # Manage an attribute set
 
-An attribute set consists of multiple attributes to classify certain products according to demand or production contexts.
-Several plugins may bring their own attribute sets as a starting point for the tenant's configuration, such as the *PIM* module.
+An attribute set consists of multiple attributes to classify entities, such as the different types of products, according to demand or production contexts. For example, if you are selling clothes, you may need to define an attribute set for shirts and another one for trousers. The attributes contained in each attribute set will differ, as the shirts will include the attribute *Collar size*, whereas the trousers will have the attribute *Waist size*. The same is valid for other entities, such as dispatch notes or packaging types. You can define different types on these entities depending on your specific needs.
+
+Several plugins may bring their own attribute sets as a starting point for the tenant's configuration, such as *PIM basic set* in the *PIM* module or the *Packaging type basic set* in the *Fulfillment* module.
+
+[comment]: <> (Simon: Bitte prüfen und bestätigen)
 
 You can create attribute sets, edit existing attribute sets and deactivate attribute sets that are not in use.
 You can add attributes to or remove attributes from an attribute set and change the required attributes within an attribute set.
@@ -43,7 +46,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 
     > [Info] If you want to provide the attribute set name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
-3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
+3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system-wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
@@ -149,7 +152,9 @@ After you have created an attribute set, you can edit it.
 Depending on the selected inheritance type, only a certain number of attributes may be editable.
 However, you can add further attributes to an attribute set or remove unmapped attributes from an attribute set.
 
-> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently undergoing maintenance and therefore cannot be edited. An overview of all locked attribute sets is displayed in the *SET LOCKS* tab, see [Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
+> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently undergoing maintenance. No entity that is assigned to this attribute set can be read or written as long as the lock is in place. An overview of all locked attribute sets is displayed in the *SET LOCKS* tab, see [Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
+
+[comment]: <> (Simon: Bitte prüfen: In Attribute set list Ansicht, gibt es ein LOCK-Button im Editing Toolbar. Das sollte aber abgebaut werden, da die LOCK-Funktion eine interne Housekeeping-Maßnahme sein soll. RS mit Julian dazu. Bitte bestätigen.)
 
 ### Add an attribute to the set
 
@@ -220,9 +225,11 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
 
 ### Change the required attributes in the set
 
-The product completeness is calculated depending on the required attributes within an attribute set.
+The entity completeness, such as the product completeness in the *PIM* module, is calculated depending on the required attributes within an attribute set.
 All required attributes are marked with a *(required)* indication in the product view.
-Note that entities can be saved even if not all *(required)* attributes are completed.   
+Note that entities can be saved even if not all *(required)* attributes are completed.  
+
+[comment]: <> (Simon: Bitte prüfen: entity completeness ist korrekt, also, completeness calculation ist möglich für alle Entitäten gelten, sobald man ein Attribut des Datentypen Completeness im Satz gesetzt ist. Richtig?)
 
 You can define whether an attribute should be required or not.
 Bear in mind that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   

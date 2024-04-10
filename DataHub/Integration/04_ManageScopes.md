@@ -34,7 +34,7 @@ No prerequisites to fulfill.
 
     > [Info] If you want to provide the scope name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
-3. Enter a key for the scope in the *Key* field. The key is required for API access and must be system wide unique. A scope key must fulfill the following criteria:
+3. Enter a key for the scope in the *Key* field. The key is required for API access and must be system-wide unique. A scope key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden

@@ -72,7 +72,7 @@ The following functions and fields are available in this view:
 - *Language*   
     Click the drop-down list and select the language from which the value of a multi-language attribute will be taken when mapping it to a single language attribute. All available languages are displayed in the drop-down list.
 
-- *Scope*   
+- *Scope*  
     Click the drop-down list and select the scope from which the value of a multi-scope attribute will be taken when mapping it to a single scope attribute. All available scopes are displayed in the drop-down list.
 
 - *Copy ETL attribute set mapping*   

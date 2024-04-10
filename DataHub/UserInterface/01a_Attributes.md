@@ -119,7 +119,7 @@ The *Create attribute* view contains all fields and configurations that define t
     Click the drop-down list and select an attribute data type. The ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button in the *Assigned attribute sets* field is unlocked.   
 
 - *Key*   
-    Enter an attribute key. The key is required for API access and must be system wide unique. An attribute key must fulfill the following criteria:
+    Enter an attribute key. The key is required for API access and must be system-wide unique. An attribute key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
@@ -136,7 +136,7 @@ The *Create attribute* view contains all fields and configurations that define t
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Contains sensitive data*   
-    Enable this toggle if the potential attribute values may be sensitive. This toggle is only displayed after selecting certain data types in the *Data type* drop-down list. By default, this toggle is disabled.
+    Enable this toggle if the attribute values may be sensitive. This toggle is only displayed after selecting certain data types in the *Data type* drop-down list. By default, this toggle is disabled.
 
 - *Assigned attribute sets*   
     Click the drop-down list and select an attribute set to which the attribute is assigned after creation. All active attribute sets are displayed. This drop-down list is only displayed if you have previously clicked the ![Add](../../Assets/Icons/Plus05.png "[Add]") (Add) button.
@@ -211,7 +211,7 @@ The *Edit attribute* view contains all fields and configurations that define the
     Enable this toggle to set the attribute status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Contains sensitive data*   
-    Enable this toggle if the potential attribute values may be sensitive. By default, this toggle is disabled.
+    Enable this toggle if the attribute values may be sensitive. By default, this toggle is disabled.
 
 **CONFIGURATION**
 
@@ -244,10 +244,13 @@ The list displays all attributes. Depending on the settings, the displayed colum
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is not inherited.
 
 - *Calculated field*   
-    Indication whether the attribute (field) value is calculated by an ETL mapping from other field(s) in the same entity to itself or not:
+    Indication whether the attribute is a *Calculated field* in the attribute set or not. 
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
+    > [Info] The value of an attribute marked as "Calculated field" is not manually modified. Instead of that, the value is calculated, through an ETL mapping, from other attribute or attributes in the same entity.
+
+[comment]: <> (Simon: Bitte prüfen. Kann man das im UI einstellen? Oder Ist ein Interner Datentyp?)
 
 ### Update attribute key
 

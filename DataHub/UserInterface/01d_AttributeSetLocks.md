@@ -22,23 +22,19 @@ The attribute set locks list displays all attribute sets that have been locked f
     Name of the attribute set locked for maintenance.
 
 - *Identifier*  
-    Attribute set identification number.
-
-[comment]: <> (Stimmt das so? Vgl. unten ID-Spalte)
+    Attribute set lock unique identifier. 
 
 - *Active*  
-    Indication whether the attribute set lock is active or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute set lock is active.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute set lock is not active.
+    Indication whether the attribute set lock is currently in place (*Active*) or not (*Inactive*). If the attribute set lock is listed as *Active*, the corresponding attribute set cannot be edited in the *ATTRIBUTE SET* tab, see [Edit an attribute set](../Integration/02_ManageAttributeSets.md#edit-an-attribute-set).   
 
 - *Deactivated at*    
-    Date and time of the last deactivation.
+    Date and time of the attribute set lock deactivation.
 
 - *Deactivated by*  
     Name and username of the user who deactivated the attribute set lock.
 
 - *Created on*   
-    Date and time of the creation.
+    Date and time of the attribute set lock creation.
 
 - *Created by*   
     Name and username of the user who created the attribute set lock.

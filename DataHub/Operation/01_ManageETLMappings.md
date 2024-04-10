@@ -67,7 +67,7 @@ When editing an ETL attribute mapping, you can create a mapping to an unmapped d
 
  > [Info] The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically or after the approval of another user. 
 
-[comment]: <> (zu prüfen)
+[comment]: <> (Simon: Bitte prüfen)
 
 #### Prerequisites
 

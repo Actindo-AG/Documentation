@@ -106,7 +106,7 @@ The *Create attribute set* view contains all the fields and configurations that 
     Enter a description to the attribute set in the selected language.
 
 - *Key*   
-    Enter an attribute set key. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
+    Enter an attribute set key. The key is required for API access and must be system-wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
@@ -229,9 +229,11 @@ The following functions and fields are available in this section:
     Attribute name.
 
 - *Calculated field*   
-    Indication whether the attribute (field) value is calculated by an ETL mapping from other field(s) in the same entity to itself or not:
+    Indication whether the attribute is a *Calculated field* in the attribute set or not. 
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
+
+    > [Info] The value of an attribute marked as "Calculated field" is not manually modified. Instead of that, the value is calculated, through an ETL mapping, from other attribute or attributes in the same entity.
 
 - *Key*   
     Attribute key.
