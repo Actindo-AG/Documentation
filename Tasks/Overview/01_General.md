@@ -2,7 +2,7 @@
 
 The *Tasks* module offers an overview of all tasks that need to be performed manually by a user. It integrates seamlessly with the *Process Orchestration* module and allows the automatic creation of tasks when a certain event occurs. Most tasks are created automatically by modules, such as *Omni-Channel* or *Process Orchestration* (*Workflows*), for example, when a process fails. Tasks can also be added during the handling of processes in the *Process Orchestration* (*Workflows*) module, for instance, for manual clearance of suspicious orders or approving refunds.  
 
-Tasks are related to an event, which can be assigned by default to a user as well as an user group. Many events are created automatically when installing a module or plugin, but you can also define your own events in the *Tasks* module.
+Tasks are related to an event, which can be assigned by default to a user as well as a user group. Many events are created automatically when installing a module or plugin, but you can also define your own events in the *Tasks* module.
 
 All these features combined allow you to further customize your business processes to meet your specific needs, to automate them to reduce errors and optimize resources, and to keep a closer control of them.  
 
