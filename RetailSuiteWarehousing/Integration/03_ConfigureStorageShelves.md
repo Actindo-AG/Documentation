@@ -68,8 +68,6 @@ You can create an unlimited number of storage shelves in your warehouses to spec
 
 Once you have created a storage shelf, you can edit it. Bear in mind, though, that you cannot edit a storage shelf ID if postings have already been made.
 
-[comment]: <> (Julian: Stimmt das so?)
-
 #### Prerequisites
 
 A storage shelf has been created, see [Create a storage shelf](#create-a-storage-shelf).
@@ -92,8 +90,6 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
     
     > [Info] You cannot modify the storage shelf ID if postings have already been made.
     
-[comment]: <> (Julian: Stimmt das so?)
-
 3. Select or deselect the **is primary storage shelf** checkbox as necessary to change the storage shelf setting. For detailed information about how to set a storage shelf as primary, see [Set a storage shelf as primary](../Operation/01_ManageWarehouse.md#set-a-storage-shelf-as-primary).
     
     > [Info] The *Warehouse ID* und the *Blocked storage* settings cannot be changed for already existing warehouse storage shelves. In this case, you have to create a new warehouse shelf with the desired settings.   
@@ -128,7 +124,7 @@ A storage shelf has been created, see [Create a storage shelf](#create-a-storage
 2. Click the [DELETE] button in the *Storage locations* section.  
     The notice *Please wait... Saving...* is displayed. The deleted storage shelf is no longer displayed in the list of storage locations.  
 
-    > [Info] If the postings have already been made, the storage shelf cannot be deleted. A window with the following error message is displayed: *Error: Warehouse could not be deleted: Storage shelf not empty*.
+    > [Info] If postings have already been made, the storage shelf cannot be deleted. A window with the following error message is displayed: *Error: Warehouse could not be deleted: Storage shelf not empty*.
 
 
 

@@ -7,10 +7,7 @@ A warehouse is a subordinate storage area within a warehouse group. It is used f
 
 Warehouses can be created, edited, and deleted. Bear in mind, though, that you cannot delete a warehouse where stock has already been allocated.
 
-[comment]: <> (Julian: Stimmt das so?)
-
 [comment]: <> (Julian: Gibt es eigentlich einen speziellen Grund, warum ich ein Warehouse keiner Warehouse group zuordnen sollte? Was hat das für Auswirkungen?)
-
 
 
 ## Create a warehouse
@@ -66,8 +63,6 @@ No prerequisites to fulfill.
 ## Edit a warehouse
 
 Once you have created a warehouse, you can edit it, for instance if you want to assign a warehouse to a different warehouse group. Bear in mind, though, that you cannot edit the warehouse ID if stock has already been allocated.
-
-[comment]: <> (Stimmt das so?)
 
 #### Prerequisites
 
