@@ -29,7 +29,7 @@ The list displays all logs that are matching the selected log level. Depending o
     - **Emergency**   
         Select this option to display all logs with *Emergency* level.
 
-The following fields and funtions are available in this view:
+The following fields and functions are available in this view:
 
 - *Type*  
     Log level. The following levels can be displayed:
@@ -52,7 +52,7 @@ The following fields and funtions are available in this view:
     Workflow identification number. The ID number is automatically assigned by the system.
 
 <!--- *Search string*   
-    <![TO BE ENHANCED]-->
+    <!---to be enhanced-->
    
 - *Created*   
     Date and time of creation.

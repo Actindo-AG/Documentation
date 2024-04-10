@@ -8,11 +8,11 @@ For detailed information, see [Manage the workflows](../Operation/01_ManageWorkf
 ![Workflow configuration](../../Assets/Screenshots/ActindoWorkFlow/Overview/WorkflowConfiguration.png "[Workflow configuration]")
 
 
-A workflow must contain at least one transition between the start and the end place. <!---Stimmt das? Muss man nicht eine bestimmte transition aufrufen, um einen weiteren Workflow zu starten, bzw. eine Verknüpfung herzustellen?--->The transitions are linked through places with each other, connecting the corresponding transition input and output ports. 
+A workflow must contain at least one transition between the start and the end place. The transitions are linked through places with each other, connecting the corresponding transition input and output ports. 
 
 The *Process Orchestration* module is linked to different system modules and plugins, such as *Order management*, *Email*, *Omni-Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
 
-Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used. <!---der Abschnitt ist verwirrend. Ist das wichtig oder hat es eine bestimmte Funktion, dass es mehrere veröffentlichte Versionen gehen kann?-->  
+Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used. <!---der Abschnitt ist verwirrend. Ist das wichtig oder hat es eine bestimmte Funktion, dass es mehrere veröffentlichte Versionen geben kann?-->  
 
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 

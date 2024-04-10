@@ -10,7 +10,7 @@
 A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a further workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
 <!---Lieber Technischer Reviewer, diesen Abschnitt bitte prüfen, mir ist nicht ganz klar, was er sagen möchte (for every single operation, ??)-->
 
-<!--- > Process menu entry als zentrales Tool im Workflow, um die Konfiguration zu testen, und wenn ein Workflow auf einen Fehler läuft, die Fehlerursache zu finden.... Man kann den Process real-time beobachten und manual actions ausführen-->
+<!--- > Alternativ-Vorschlag: Process menu entry als zentrales Tool im Workflow darstellen, um die Konfiguration zu testen, und wenn ein Workflow auf einen Fehler läuft, die Fehlerursache zu finden.... Man kann den Process real-time beobachten und manual actions ausführen-->
 
 A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/04_WorkflowProcessElements.md).
 

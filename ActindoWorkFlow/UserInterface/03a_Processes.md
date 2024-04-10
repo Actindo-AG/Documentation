@@ -72,7 +72,7 @@ The following functions and fields are available in this list:
     If the process contains a manual action, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to execute the manual action, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision).
 
 - *Subject*
-    [TO BE ENHANCED]
+    <!---TO BE ENHANCED-->
     
 
 - *Workflow*  
