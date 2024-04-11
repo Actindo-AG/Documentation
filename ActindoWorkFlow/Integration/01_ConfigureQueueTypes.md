@@ -47,7 +47,7 @@ No prerequisites to fulfill.
 5. If you want to create a queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
    The fields below are ready for input.
      - Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
-     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60.   
+     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60 means 1000 actions per hour.  
     Note that these numbers refer to a queue type. If a queue type is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
 6. Click the [SAVE] button in the upper right corner.   
@@ -171,8 +171,8 @@ To achieve this, you must either wait until all running workers are finished or 
 
     ![Maximum total workers](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")  
 
-5. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
-    The workflow processes will start automatically after one minute.
+5. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.   
+    The workflow processes will start automatically after one minute. If you do not want to wait this time, see [Start workers](#start-workers).
 
     ![Enable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
 
@@ -236,8 +236,6 @@ You can delete a queue type that is obsolete to release workers for other queue 
 
 2. Click the [DELETE] button in the toolbar.   
   The queue type has been deleted. A confirmation message is displayed.
-
-  > [Info] 
 
 
 

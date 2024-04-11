@@ -39,9 +39,9 @@ The transitions act as building blocks that are chained together through places 
 Transitions are represented by a rectangle. When a transition is executed in a workflow process, it is called action or process action. This means that an action is the actual execution of a configured transition.  
 For detailed information, see [Actions](#actions). 
 
-The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Process Orchestration* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Every API endpoint of the modules automatically becomes available as a transition and can be used in any workflow. However, you can also build your own transitions independent of an API. Some transition may have configuration options, but most of them do not.
+The transitions available to create workflows depend on the modules installed in the system. A certain number of transitions is always preconfigured in the *Process Orchestration* module, the so-called *Core actions*, see [Workflow core actions](../UserInterface/08_CoreActions.md). Each API endpoint of the installed modules is automatically available as a transition. It can be used in any workflow. However, you can also build your own transitions independent of an API. Some transition may have configuration options, but most of them do not.
 
-All transitions contain a certain, predefined number of input and output ports, at least one of each, which can be mandatory or optional.    
+All transitions contain a certain predefined number of input and output ports, at least one of each, which can be mandatory or optional.    
 For detailed information about the types of input/output ports, see [Input and output ports](#input-and-output-ports).
 
 When adding a new transition, places for mandatory input ports are automatically inserted, whereas optional input ports are displayed with an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.
@@ -49,6 +49,7 @@ When adding a new transition, places for mandatory input ports are automatically
 When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
 ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
+<!---Screenshot ist doch arg durcheinander, Neu machen?-->
 
 The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
