@@ -10,8 +10,6 @@ For detailed information about how to create a manual posting, see [Create a man
 
 For detailed information on all posting types available in the system and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md).
 
-[comment]: <> (Evtl. Verweis auf Basic OM process in Core1, wenn veröffentlicht)
-
 The *Posting history* tab allows you to check all stock postings created for a specific material and to filter all stock postings according to different criteria.
 
 

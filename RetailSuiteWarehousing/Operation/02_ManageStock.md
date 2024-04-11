@@ -10,8 +10,6 @@ The *Warehousing* module allows you to manage your stock, that is, to post stock
 
 Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on all posting types available in the system and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md). 
 
-[comment]: <> (Evtl. Verweis auf Basic OM process hinzufügen, wenn online)
-
 However, if necessary, you can also perform stock postings manually, both for a single material or for multiple materials at once.   
 
 
