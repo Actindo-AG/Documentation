@@ -16,10 +16,8 @@ The stock allocation table includes automatically all warehouses you have create
 #### Prerequisites
 
 - At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
-- The necessary attributes of the *Stock value* data type have been created in the *PIM* module, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute). 
+- The necessary attributes of the *Stock value* data type have been created in the *DataHub* module, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute). 
 - The *Stock value* attribute has been assigned to the relevant attribute sets, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
-
-[comment]: <> (Julian: Create an attribute auch möglich in DataHub hier, richtig? Also, ich kann in beiden Fällen auf DataHub verweisen?)
 
 #### Procedure 
 

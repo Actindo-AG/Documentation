@@ -1,7 +1,6 @@
 [!!Create a manual stock posting](../Operation/02_ManageStock.md)
 [!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 
-[comment]: <> (Julian: Evtl. diese Datei unter Operation?)
 
 # Posting types 
 
@@ -24,9 +23,9 @@ Below, you can see the list of all posting types with a detailed description.
     This posting type can be created manually or automatically. It represents the stock postings for open customer orders. This posting type does not reduce the actual physical stock in the warehouse but does affect the available stock calculation. A reservation can therefore result in a negative stock level.
 
 - **Reserved for open delivery note**   
-    Currently called **Waiting for picking** in the user interface. This posting type can be both manually and automatically created. It represents the stock postings for materials now linked to an open delivery note. This materials are therefore firmly reserved. This posting type reduces the actual physical stock in the warehouse.
+    Also called **Waiting for picking**. This posting type can be both manually and automatically created. It represents the stock postings for materials now linked to an open delivery note. These materials are therefore firmly reserved. This posting type reduces the actual physical stock in the warehouse.
 
-[comment]: <> (Terminologie muss angepasst werden)
+[comment]: <> (Terminologie muss noch im UI angepasst werden; dementsprechend hier aktualisieren, wenn erledigt)
 
 - **Sale**  
     This posting type can be created manually or automatically. It represents the stock postings for ordered materials that have left the warehouse, that is, when the delivery note has been processed and closed. This posting type reduces the actual physical stock in the warehouse.  
@@ -38,9 +37,7 @@ Below, you can see the list of all posting types with a detailed description.
     This posting type can be created manually or automatically. It represents the stock postings for purchased materials that have been received in the warehouse. This posting type increases the actual physical stock in the warehouse.    
 
 - **Back to supplier**  
-    This posting type is created automatically by the system after a supplier order has been cancelled. 
-
-    [comment]: <> (Stimmt das so? Mehr Info dazu?) 
+    This posting type is created automatically when a customer return is processed in the *Returns* module and the follow-up action "Send to supplier and ship to customer after stock receipt" is triggered.
     
 - **Stock adjustment posting**  
     This posting type can only be created manually by the user. It represents the stock adjustment postings after stocktaking.   
@@ -53,8 +50,6 @@ Below, you can see the list of all posting types with a detailed description.
 
 - **Drop shipment**   
     This posting type is created automatically by the system when a dropshipping order is received. It has no effect on the stock.
-
-    [comment]: <> (Stimmt das so? Mehr Info dazu?)
 
 - **Problem**  
     This posting type can only be created manually by the user. Select this option if you want to display the stock postings for materials that cannot be sold for any reason, for instance due to a defect. This posting type affects the actual stock in the respective storage shelf. 

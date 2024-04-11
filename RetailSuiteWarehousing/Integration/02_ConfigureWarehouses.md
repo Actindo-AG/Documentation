@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the [NEW WAREHOUSE] button.   
-    The *Basic data* sub-tab is displayed on the right side.
+    The *Basic data* tab is displayed on the right side.
 
      ![Warehouse basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseBasicData.png "[Warehouse basic data]")
 
@@ -38,8 +38,6 @@ No prerequisites to fulfill.
 4. Enter a name for the new warehouse in the *Designation* field.
 
 5. Click the *Products per shelf* drop-down list and select the **Different products per storage shelf** option.  
-
-    > [Info] The *One product per storage shelf* option is no longer supported.
         
 [comment]: <> (One product per storage shelf ignorieren; aktuell bei keinem Kunden benutzt und und Probleme beim Anlegen der Lagerfächer. Warehouse planning can be ignored, as it is no longer developed and has no effect.)
 
@@ -75,7 +73,7 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the warehouse you want to edit.  
-    The *Basic data* sub-tab of the selected warehouse is displayed.
+    The *Basic data* tab of the selected warehouse is displayed.
 
     > [Caution] **Potential loss of data**   
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
@@ -108,7 +106,7 @@ At least one warehouse has been created, see [Create a warehouse](#create-a-ware
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the warehouse you want to delete.  
-    The *Basic data* sub-tab of the selected warehouse is displayed.
+    The *Basic data* tab of the selected warehouse is displayed.
 
     > [Caution] **Loss of data**  
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.

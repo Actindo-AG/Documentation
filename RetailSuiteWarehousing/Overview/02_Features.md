@@ -17,7 +17,7 @@ Integrated warehouse management solution for efficient e-commerce:
 - Posting history  
     You can track the entire posting history for all incoming and outgoing materials in our Actindo *Warehousing* module. This way you can always keep track of any stock movements in real time. 
 
-[comment]: <> (Julian: IQS-Möglichkeit erwähnen, auch wenn in unserer Doku noch nicht beschrieben?)
+[comment]: <> (IQS-Möglichkeit hinzufügen, wenn Modul dokumentiert)
 
 ## Central control from order input to return
 

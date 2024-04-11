@@ -27,7 +27,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1. Double-click the product for which you want to set a storage shelf as primary. Alternatively, you can right-click and select the [![Open](../../Assets/Icons/Open.png "[Open]") Open] button in the context menu.  
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
@@ -77,8 +77,6 @@ You can check the stock allocation for a selected material from the product list
 
     > [Info] Bear in mind that product bundles are not actually kept in stock as a single material, since they are a grouping of two or more individual products. For stock allocation purposes, this means that the calculated stock value displayed for product bundles in the *PIM* module is the result of the stock allocation of the individual products included in the bundle, but rounded down: if there are 3 materials in stock left and a bundle contains 2 of them, the bundle stock is 1, and not 2.
 
-[comment]: <> (Julian: Stimmt das so?)
-
 4. Alternatively to the procedure described, you can also display the stock allocation for a selected material following the procedure below: 
 
     1. Select a product from the list in the *Quick posting*.  
@@ -104,7 +102,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1. Double-click the material for which you want to check the stocks. Alternatively, you can right-click and select the [![Open](../../Assets/Icons/Open.png "[Open]") Open] button in the context menu.  
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 

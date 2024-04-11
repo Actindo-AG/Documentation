@@ -106,7 +106,7 @@ The following functions and fields are available:
 ![Context menu](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ContextMenu.png "[Context menu]")
 
 - [Open]  
-    Click this menu entry to display the product details. Alternatively, double-click a product in the list to open it. The *Basic data* sub-tab is displayed by default, see [Basic data](#basic-data).
+    Click this menu entry to display the product details. Alternatively, double-click a product in the list to open it. The *Basic data* tab is displayed by default, see [Basic data](#basic-data).
 
 - [Display stock allocation]  
     Click this menu entry to display the stock allocation for the selected material. The *Display stock allocation* window is displayed, see [Display stock allocation](#display-stock-allocation).
@@ -119,19 +119,19 @@ The following functions and fields are available:
 
 ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
-The *Basic data* sub-tab contains the main product details, such as product SKU and name. These details are imported from the old *Product management* module, are locked and cannot be modified here. Only the relevant functions for this version of the *Warehousing* module are described below.
+The *Basic data* tab contains the main product details, such as product SKU and name. These details are imported from the old *Product management* module, are locked and cannot be modified here. Only the relevant functions for this version of the *Warehousing* module are described below.
 
 - *Warehouse logistics active for this product*  
-    Click the drop-down list and select **Yes** if you want to activate the warehouse logistics for this product. Otherwise, you cannot post stock for this product. Once the warehouse logistics is active for a product, the *Warehouse/suppliers* sub-tab is displayed.   
+    Click the drop-down list and select **Yes** if you want to activate the warehouse logistics for this product. Otherwise, you cannot post stock for this product. Once the warehouse logistics is active for a product, the *Warehouse/suppliers* tab is displayed.   
     
-    > [Info] When selecting the *Warehouse/supplier* sub-tab, the *Warehouse management* sub-tab is displayed by default. The *Warehouse management* sub-tab contains three sub-tabs. In this documentation, only the *Warehouse management* and *Stock history* sub-tabs are described. For detailed information, see [Warehouse management](#warehouse-management) and [Stock history](#stock-history).  
+    > [Info] When selecting the *Warehouse/supplier* tab, the *Warehouse management* sub-tab is displayed by default. The *Warehouse management* sub-tab contains three sub-tabs. In this documentation, only the *Warehouse management* and *Stock history* sub-tabs are described. For detailed information, see [Warehouse management](#warehouse-management) and [Stock history](#stock-history).  
 
     
 
 ## Warehouse management
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Sub-tab Warehouse management > Sub-tab Warehouse management*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Sub-tab Warehouse management*  
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Tab Warehouse/suppliers > Sub-tab Warehouse management*  
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Tab Warehouse/suppliers > Sub-tab Warehouse management*  
 
 ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
@@ -172,11 +172,6 @@ The following functions and fields are available:
 
 - [DELETE]  
     Click this button to delete a selected storage shelf. 
-
-- ![Refresh](../../Assets/Icons/Refresh03.png "[Refresh]")  (Refresh)  
-    Click this button to update the list.
-
-[comment]: <> (Refresh in Core1 Docu. Evtl. weglöschen.)
 
 
 **Add/Edit**
@@ -258,7 +253,7 @@ The following functions and fields are available:
 ### Add posting
 
 *Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button ADD POSTING*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button ADD POSTING*
 
 ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]")
 

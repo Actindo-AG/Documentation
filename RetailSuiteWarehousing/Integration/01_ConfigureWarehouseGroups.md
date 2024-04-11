@@ -40,7 +40,7 @@ No prerequisites to fulfill.
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the [NEW GROUP] button in the *Warehouse master data* tab.  
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
@@ -78,7 +78,7 @@ At least one connection has been established in the *Fulfillment* module, see [C
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the [NEW GROUP] button in the *Warehouse master data* tab.  
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Warehouse group basic data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseGroupBasicData.png "[Warehouse group basic data]")
 
@@ -136,7 +136,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the warehouse group you want to edit.  
-    The *Basic data* sub-tab of the selected warehouse group is displayed.
+    The *Basic data* tab of the selected warehouse group is displayed.
 
     > [Caution] **Potential loss of data**    
     Editing has the potential to cause loss of data due to overwrite. The overwrite cannot be undone and the overwritten data cannot be restored. Check all your entries before proceeding.
@@ -167,7 +167,7 @@ At least one warehouse group has been created, see [Create a warehouse group](#c
 ![Warehouse master data](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/WarehouseMasterData/WarehouseMasterData.png "[Warehouse master data]")
 
 1. Click the warehouse group you want to delete.  
-    The *Basic data* sub-tab of the selected warehouse group is displayed.
+    The *Basic data* tab of the selected warehouse group is displayed.
 
     > [Caution] **Loss of data**  
     Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.

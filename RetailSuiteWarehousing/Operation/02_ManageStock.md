@@ -10,7 +10,7 @@ The *Warehousing* module allows you to manage your stock, that is, to post stock
 
 Stock postings are usually created automatically by the system, triggered by the creation and processing of business documents as configured in your workflow. For detailed information on all posting types available in the system and the automatic posting process, see [Posting types](../UserInterface/04_PostingTypes.md). 
 
-[comment]: <> (Evtl. Link zu Basic OM process hinzufügen, wenn online)
+[comment]: <> (Evtl. Verweis auf Basic OM process hinzufügen, wenn online)
 
 However, if necessary, you can also perform stock postings manually, both for a single material or for multiple materials at once.   
 
@@ -38,7 +38,7 @@ The warehouse logistics has been activated for the selected material, see [Activ
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1. Double-click the material for which you want to post stock.   
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]") 
 

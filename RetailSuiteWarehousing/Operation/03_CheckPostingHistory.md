@@ -32,7 +32,7 @@ At least a stock posting has been created, see [Create a manual posting](./02_Ma
 
 ![Posting history](../../Assets/Screenshots/RetailSuiteWarehousing/PostingHistory/PostingHistory.png "[Posting history]")
 
-1. Enter the product name or SKU to filter the posting history by product. You can find out the product name or SKU in the *Basic data* sub-tab of the respective product in the *Quick posting* tab, see [Basic data](../UserInterface/01a_QuickPosting.md#basic-data).  
+1. Enter the product name or SKU to filter the posting history by product. You can find out the product name or SKU in the *Basic data* tab of the respective product in the *Quick posting* tab, see [Basic data](../UserInterface/01a_QuickPosting.md#basic-data).  
     
     > [Info] As soon as you have typed three characters, a context menu with matching suggestions is displayed.
 

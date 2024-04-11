@@ -34,26 +34,13 @@ The list displays all available warehouses and warehouse groups.
 The following functions and fields are displayed:
 
 - [NEW GROUP]  
-    Click this button to create a warehouse group. The *Basic data* sub-tab is displayed, see [Warehouse group basic data](#warehouse-group-basic-data).
+    Click this button to create a warehouse group. The *Basic data* tab is displayed, see [Warehouse group basic data](#warehouse-group-basic-data).
 
 - [NEW WAREHOUSE]  
-    Click this button to create a warehouse. The *Basic data* sub-tab is displayed, see [Warehouse basic data](#warehouse-basic-data). 
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of warehouses/warehouse groups.
-
-- ![Collapse](../../Assets/Icons/Minus.png "[Collapse]") (Collapse)   
-    Click this button to collapse the list of warehouses/warehouse groups.
-
-- ![Expand](../../Assets/Icons/Plus03.png "[Expand]") (Expand)  
-    Click this button to expand the list of warehouses/warehouse groups. 
+    Click this button to create a warehouse. The *Basic data* tab is displayed, see [Warehouse basic data](#warehouse-basic-data). 
 
 - *No warehouse group*  
     This group is created by default and includes all warehouses that are not assigned to a specific warehouse group. 
-
-[comment]: <> (Julian: Stimmt das so?)
-
-[comment]: <> (Evtl. Refresh, collapse/expand löschen; Verweis auf UI Buttons in Core1. Collapse/Expand nicht in Core1, da alte UI-Elemente)
 
 
 ### Warehouse group basic data
@@ -112,11 +99,6 @@ The following functions and fields are displayed:
 - [SAVE]   
     Click this button to save the warehouse group. 
     
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh)  
-    Click this button to display the new warehouse group in the list of warehouses.
-
-[comment]: <> (Evtl. Refresh löschen)
-
 - [DELETE]  
     Click this button to delete a warehouse group after you have selected it. A warehouse group cannot be deleted if it contains warehouses and after stock has been posted. 
 
@@ -146,19 +128,12 @@ The following functions and fields are displayed:
 - *Exclude from ordering*  
     Click the drop-down list and select **Yes** or **No** to exclude the stock in this warehouse from the purchasing process or not.
 
-[comment]: <> (Julian: Bitte prüfen)
-
 - *Comment*  
     Enter any additional you want information in this field.
     
 - [SAVE]   
     Click this button to save the warehouse. 
     
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh Icon]") (Refresh)  
-    Click this button to display the new warehouse in the list of warehouses.
-
-[comment]: <> (Evtl. Refresh löschen)
-
 - [DELETE]  
     Click this button to delete a warehouse after selecting it. Warehouses cannot be deleted after stock has been posted. 
 
@@ -249,8 +224,6 @@ The following functions and fields are displayed:
         Select this option for all sales channels connected via the *Omni-Channel* module. 
     - **Shop**   
         Select this option for orders imported via the *Multimarkets* module. This module is currently being replaced by *Omni-Channel*.  
-
-[comment]: <> (Julian: Bitte Shop/Multimarkets-Info prüfen)
 
 - *Account*  
     Click a field to display the drop-down list and select the specific connection in the *Omni-Channel* module. All available connections are displayed in the list.

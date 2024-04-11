@@ -4,7 +4,7 @@
 
 All products created in the *Actindo Core1 Platform* are displayed in the *Product list* in the *Warehousing* module. However, a product is not relevant for the warehouse logistics by default. To be able to manage the stock for a material corresponding to a specific product in the *Warehousing* module, you have to activate the warehouse logistics for that individual product first. 
 
-Once you have activated the warehouse logistics for a selected product, the *Warehouse/suppliers* sub-tab is displayed. As soon as a stock amount has been posted, the warehouse logistics cannot be deactivated for this product anymore. 
+Once you have activated the warehouse logistics for a selected product, the *Warehouse/suppliers* tab is displayed. As soon as a stock amount has been posted, the warehouse logistics cannot be deactivated for this product anymore. 
 
 Not all products displayed in the product list are actual items kept in stock. The warehouse logistics cannot be activated for the following products:  
 
@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
 1. Double-click the product for which you want to activate the warehouse logistics. Alternatively, you can right-click and select the [![Open](../../Assets/Icons/Open.png "[Open]") Open] button in the context menu.  
-    The *Basic data* sub-tab is displayed.
+    The *Basic data* tab is displayed.
 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
