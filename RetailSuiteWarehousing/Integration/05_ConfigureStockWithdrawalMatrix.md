@@ -23,7 +23,7 @@ The stock withdrawal matrix is a so-called priority list, that is, a list of cri
 
 Create an entry to determine a set of criteria to withdraw stock from a specific warehouse.
 
-#### Prerequisites  
+#### Prerequisites
 
 At least one warehouse has been created, see [Create a warehouse](./02_ConfigureWarehouses.md#create-a-warehouse).
 
@@ -78,7 +78,7 @@ At least one warehouse has been created, see [Create a warehouse](./02_Configure
 
 Once you have created an entry, you can edit it.
 
-#### Prerequisites  
+#### Prerequisites
 
 An entry has been created, see [Create an entry](#create-an-entry). 
 
@@ -103,7 +103,7 @@ An entry has been created, see [Create an entry](#create-an-entry).
 
 Once you have created an entry, you can delete it.
 
-#### Prerequisites  
+#### Prerequisites
 
 An entry has been created, see [Create an entry](#create-an-entry). 
 

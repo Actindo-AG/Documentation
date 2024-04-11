@@ -5,7 +5,7 @@
 [!!User interface Quick posting](../UserInterface/01a_QuickPosting.md)
 
 
-# Configure the storage shelves 
+# Configure the storage shelves
 
 Warehouses are subdivided into storage shelves, from which stock is actually posted. A storage shelf is, therefore, a subordinate storage area within a warehouse that can contain one or several materials. This depends on the warehouse settings. Currently, the recommended setting is to allow several materials per storage shelf. To modify the amount of materials per shelf, see [Edit a warehouse](./02_ConfigureWarehouses.md#edit-a-warehouse). 
 

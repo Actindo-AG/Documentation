@@ -139,7 +139,7 @@ The following functions and fields are displayed:
 
 
 
-## Stock allocation  
+## Stock allocation
 
 *Warehousing > Settings > Tab WAREHOUSE > Tab Stock allocation*
 

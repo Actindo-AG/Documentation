@@ -2,7 +2,7 @@
 [!!Check the posting history](../Operation/03_CheckPostingHistory.md)
 
 
-# Posting types 
+# Posting types
 
 The *Warehousing* module allows you to manage the stock manually through the *Quick posting* menu entry. For detailed information, see [Create a manual stock posting](../Operation/02_ManageStock.md#create-a-manual-stock-posting).
 

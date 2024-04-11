@@ -19,7 +19,7 @@ The stock allocation table includes automatically all warehouses you have create
 - The necessary attributes of the *Stock value* data type have been created in the *DataHub* module, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute). 
 - The *Stock value* attribute has been assigned to the relevant attribute sets, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set). 
 
-#### Procedure 
+#### Procedure
 
 *Warehousing > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
