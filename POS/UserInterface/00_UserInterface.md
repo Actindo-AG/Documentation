@@ -22,8 +22,6 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Product details](./01a_Cashpoint.md#product-details)
 
 - [HISTORY](./01b_History.md)
-<!---Wishtlist weglassen
-- [WISHLISTS](./01h_Wishlists.md)-->
 
 - [CASH REGISTER](./01c_CashRegister.md)
     - [Payment tally](./01c_CashRegister.md#payment-tally)
@@ -85,7 +83,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Reverse posting on source warehouse](./02a_GlobalSettings.md#reverse-posting-on-source-warehouse)
         - [Return warehouse (Storage area for blocked stock)](./02a_GlobalSettings.md#return-warehouse-storage-area-for-blocked-stock)
         - [Default customer](./02a_GlobalSettings.md#default-customer)
-        <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv)
+        <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv) - ist noch im System
         <!---Obsolete? [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)-->
 
 - [STORES](./02b_Stores.md)

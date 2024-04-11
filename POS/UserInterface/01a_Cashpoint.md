@@ -27,7 +27,6 @@
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
 
 ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
-    <!---Screenshot neu machen-->
 
 The *Age verification* pop-up window is displayed if a selected offer is not suitable for children and young people. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
 

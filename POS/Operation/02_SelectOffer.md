@@ -149,7 +149,6 @@ Some offers are not suitable for children and young people, for example offers s
     If the offer requires an age verification, the *Age verification* window is displayed.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
-    <!---Screenshot neu machen-->
 
 2. Check the age of the customer. The *Age verification* window provides you with both the minimum age required and the date of birth that the customer must meet or fall below. Eventually, an explanatory text has been added.
 

@@ -135,7 +135,7 @@ If the existing payment methods in *POS* are not appropriate for your special ne
 
 If you have created a new payment method in POS, you need to map the payment method in POS with the payment method in the *Order Management* module.
 
-<!---TO BE ENHANCED, Ist das überhaupt noch relevant??, feld in Attribute set nicht vorhanden-->
+<!---Ist das überhaupt noch relevant??, Payment method in Attribute set **Order channel POS Store "Name of the store"** nicht vorhanden-->
 
 #### Prerequisites
 

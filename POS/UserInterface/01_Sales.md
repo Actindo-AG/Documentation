@@ -7,7 +7,6 @@ The POS *Sales* menu entry is used for all transactions in the stores and pay de
 The *Sales* user interface is composed of the following tabs:
 - [CASHPOINT](./01a_Cashpoint.md)
 - [HISTORY](./01b_History.md)
-<!--- [WISHLISTS](./01h_Wishlists.md)-->
 - [CASH REGISTER](./01c_CashRegister.md)
 - [VOUCHERS](./01d_Vouchers.md)
 - [RETURNS](./01e_Returns.md)

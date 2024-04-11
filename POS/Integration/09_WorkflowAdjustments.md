@@ -163,12 +163,11 @@ Create the workflow needed to post non-sales-related POS postings in the *Accoun
 
 4. Click the *Choose the data type of your start place* field and enter the **Modules.Actindo.POS.Models.JournalItem** data type. 
   
-    > [Info] If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen?-->
+    > [Info] If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen und dort den API endpoint eintragen?-->
 
 5. Select the start place in the search result list. 
 
-6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem**. <!-- ist das der richtige End place data type?-->
-
+6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem**.
 7. Select the end place in the search result list.  
 
 8. Click the [CREATE] button in the bottom right corner.   

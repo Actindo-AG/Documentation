@@ -17,7 +17,7 @@ Alternatively to using the [store wizard](./06_CreateStore.md#create-a-store-usi
 - [Assign the stock source](#assign-the-stock-source)
 - [Assign the accounts](#assign-the-accounts)  
 
-In addition, you can use these procedures to edit the store settings, if you need to make changes to the settings you created when you used the wizard for creation. <!---Ist das richtig?-->
+In addition, you can use these procedures to edit the store settings if you need to make changes to the settings you created when you used the wizard for store creation. <!---Ist das richtig?-->
 
 
 
@@ -57,7 +57,7 @@ Create a store manually, if you do not want to use the wizard.
 
     The following entities have been automatically created:
     - *DataHub* module   
-        The following attribute sets have been created<!--- Ist das richtig?-->:
+        The following attribute sets have been created:
         - Set for POS store "Name of new store"
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
