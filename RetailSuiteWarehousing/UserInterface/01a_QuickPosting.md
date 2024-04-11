@@ -114,8 +114,8 @@ The following functions and fields are available:
 
 ## Basic data
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open*
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Tab Basic data*  
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Tab Basic data*
 
 ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
@@ -252,8 +252,8 @@ The following functions and fields are available:
 
 ### Add posting
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button ADD POSTING*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button ADD POSTING*
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Tab Warehouse/suppliers > Sub-tab Warehouse management > Button ADD POSTING*  
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Tab Warehouse/suppliers > Sub-tab Warehouse management > Button ADD POSTING*
 
 ![Add posting](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/AddBooking.png "[Add posting]")
 
@@ -313,13 +313,12 @@ The following functions and fields are available:
 
 ### Display stock allocation
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*   
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Button DISPLAY STOCK ALLOCATION*   
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Tab Warehouse/suppliers > Sub-tab Warehouse management > Button DISPLAY STOCK ALLOCATION*
 
 ![Display stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/DisplayStockAllocation.png "[Display stock allocation]")
 
 The list in this window displays the stock allocations for the selected material. All fields are read-only.
-
 
 - *Target channel*  
     Channel where a stock allocation value is to be transferred. 
@@ -331,8 +330,8 @@ The list in this window displays the stock allocations for the selected material
 
 ## Stock history
 
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Sub-tab Stock history*  
-*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Sub-tab Stock history*
+*Warehousing > Quick posting > Tab QUICK POSTING > Double-click a product > Tab Warehouse/suppliers > Sub-tab Stock history*  
+*Warehousing > Quick posting > Tab QUICK POSTING > Right-click a product > Menu entry Open > Tab Warehouse/suppliers > Sub-tab Stock history*
 
 ![Stock history](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/StockHistory/StockHistory.png "[Stock history]")
 
