@@ -30,7 +30,7 @@ Sandboxes have the following characteristics:
 
 - The owner of a sandbox must have access to the owning main account but does not need to own the main account.
 
-- vCores, which have a measure for parallel computing performance, and storage are to be assigned to a sandbox. The assigned vCores and storage get subtracted from the budget of the main account.   
+- vCores, which are a measure for parallel computing performance, and storage are to be assigned to a sandbox. The assigned vCores and storage get subtracted from the budget of the main account.   
   This means, if you expect a lot of processes and database entries in a sandbox, you have to consider that this computing power is to be shared with the main account.   
   The same is valid for licenses, so that you have to sum up all licenses for which you assign rights in the main account and in a sandbox.
 

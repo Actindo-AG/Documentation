@@ -1,5 +1,4 @@
 # Manage user groups
-doof
 
 User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. 
 In contrast to the users, user groups are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
@@ -11,9 +10,7 @@ For example, a bookkeeper needs access to specific functions of the *Accounting*
 
 > [Info] The standard role "ActindoUsersGroup" is available to grant general access rights for the *Actindo Core1 Platform* needed by all users.
 
-The user rights are individually managed for the main account and each sandbox, in which the users do their daily work.
-In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.
-You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.    
+The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*. You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.    
 
 > [Info] When assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, that if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is especially relevant when using the *Actindo* admin group, see below.
 

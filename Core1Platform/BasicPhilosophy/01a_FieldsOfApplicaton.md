@@ -1,5 +1,4 @@
 # Fields of application
-doof
 
 The *Actindo Core1 Platform* supports the business of companies in wholesale and retail, the sale via sales channels or social commerce, regardless of the current starting point of your company.
 
@@ -10,7 +9,7 @@ Your company uses an existing ERP system. The *Actindo Core1 Platform* provides 
 
 The average age of running ERP solutions is about 12 years. This means that in most cases you are not able to quickly follow new evolutions in e-commerce with your legacy ERP system. Changing of processes and data models is then extremely time-consuming and expensive. Additionally, changes may be risky and can have a bad impact on business transactions that are stable. 
 
-  With the *Actindo Core1 Platform* you can loosely couple a new B2C or B2B infrastructure to your legacy IT. The *Digital Operations Platform (DOP)* with its process orchestration manages the interaction between channels, 3PL (third-party logistics), PSP (payment service providers), BI (business intelligence) tools and your legacy ERP.  
+With the *Actindo Core1 Platform* you can loosely couple a new B2C or B2B infrastructure to your legacy IT. The *Digital Operations Platform (DOP)* with its process orchestration manages the interaction between channels, 3PL (third-party logistics), PSP (payment service providers), BI (business intelligence) tools and your legacy ERP.  
 For example, you can exchange the following data:
 - Material numbers and product master data from your existing ERP system for use in your new business models.
 - Invoices and credit notes are reported back to your existing ERP system to be able to continue using your existing financial reporting tools.
