@@ -234,7 +234,7 @@ When inviting a user to a sandbox, it is necessary to assign the user to a user 
 
 If you want to remove a user from a sandbox, you need to remove the user from all groups. For detailed information, see [Remove user from a group](#remove-user-from-a-group).
 
-There is the following limitation: You cannot remove a user from the *Actindo Admingroup* in a sandbox of which s/he is the owner. <!--- Julian, kann man den owner ändern? -->
+There is the following limitation: You cannot remove a user from the *Actindo Admingroup* in a sandbox of which s/he is the owner. 
  
 
 

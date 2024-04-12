@@ -1,5 +1,5 @@
 # Administrating the Core1 Platform
-<!--- Links getestet-->
+
 In this part of the *Actindo Core1 Platform* documentation, you will find the following chapters:
 
 - [Main account and sandboxes](./01_MainAccountSandbox.md)   

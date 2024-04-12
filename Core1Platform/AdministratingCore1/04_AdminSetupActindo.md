@@ -1,6 +1,8 @@
 [!!Set up U2F from the user side](../UsingCore1/01a_UserSetupActindo.md)
 [!!User interface Profile](../UserInterface/01a_Profile.md)
 
+Doof
+
 # Set up U2F from the administrator side
 
 For the U2F (Universal Second Factor) setup of an *Actindo* account, a user-side setup as well as an administrator-side setup is necessary. As an administrator, you must activate U2F as authorization method for the corresponding user to complete the *U2F* setup. Using U2F provides the following benefits:

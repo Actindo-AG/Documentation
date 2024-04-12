@@ -1,4 +1,5 @@
 # Manage user groups
+doof
 
 User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. 
 In contrast to the users, user groups are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   

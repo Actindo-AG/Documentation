@@ -1,4 +1,5 @@
 # Fields of application
+doof
 
 The *Actindo Core1 Platform* supports the business of companies in wholesale and retail, the sale via sales channels or social commerce, regardless of the current starting point of your company.
 
