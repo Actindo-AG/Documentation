@@ -13,9 +13,8 @@ You can use the development mode for testing purposes or, for example, to tempor
 > [Caution] Switching off module features may result in data not being transferred to third-party applications, and in this which may result in data loss. If you are not really sure about the consequences of switching off a feature, you should not use it. 
 
 The development mode contains core features as well as engine, module, and driver-specific feature flags. For example, if you switch off the workflow, the following will happen:
-- The workflow is stopped.
-- All current processes no longer import and output data. 
-<!---Julian, gibt es noch ein anderes, drastisches Beispiel?-->
+- The workflow is stopped and order processing will not be performed, for example.
+
 
 #### Prerequisites
 

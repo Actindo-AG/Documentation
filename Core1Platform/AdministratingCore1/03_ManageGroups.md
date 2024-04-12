@@ -1,16 +1,18 @@
 # Manage user groups
 
-User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. In contrast to the users, user groups are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
-If you are in a sandbox, and you add a user to a group, the user is automatically listed for this sandbox. If you want to remove a user from a sandbox, you need to remove him/her from all groups.
+User groups define the individual permissions that a user assigned to this group has in the *Actindo Core1 Platform*. 
+In contrast to the users, user groups are not global. Group rights are valid for the current instance only. This means that they are not shared between the main account and the sandboxes.   
 
 **Manage user rights** 
 
 User rights are defined by assigning the user to a (user) group. Groups define specific roles that a user has when working on the *Actindo Core1 Platform*.   
 For example, a bookkeeper needs access to specific functions of the *Accounting* module in addition to general rights for accessing the *Actindo Core1 Platform*. Additionally, rights to access other modules might be required. For this reason, you can create a specific group for the bookkeeper's role in which you can collect all rights the bookkeepers need. 
 
-> [Info] The standard role "ActindoUsersGroup" is available to grant general access rights for the *Actindo Core1 Platform* needed by all users.<!---Stimmt das?--> 
+> [Info] The standard role "ActindoUsersGroup" is available to grant general access rights for the *Actindo Core1 Platform* needed by all users.
 
-The user rights are individually managed for the main account and each sandbox, in which the users do their daily work. In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.  You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.   
+The user rights are individually managed for the main account and each sandbox, in which the users do their daily work.
+In the *Settings* module, you assign the user rights for all modules and plugins installed on the *Actindo Core1 Platform*.
+You can create, edit, and delete user groups, add specific users to a group, remove users from a group, and assign rights.    
 
 > [Info] When assigning the rights, it is very important to know that sandboxes share the licenses with the main account. This means, that if you have five licenses for the *Accounting* module, and two bookkeepers who work in the main account, you have three licenses left for the sandboxes. This is especially relevant when using the *Actindo* admin group, see below.
 
@@ -21,7 +23,7 @@ Regarding the licenses, keep in mind, that each Administrator has automatically 
 
 **Users from Actindo AG**   
 
-*Actindo AG* employees such as developers and MPS consultants do not consume licenses, they are not counted.
+*Actindo AG* employees such as developers or consultants do not consume licenses, they are not counted.
 
 ## Create user group
 
@@ -111,7 +113,7 @@ A user group has been created, see [Create a user group](#create-a-user-group).
 
 A user is active in an account as long as s/he is assigned a user group.    
 If you want to remove a user from a sandbox, you must remove the user from all groups to which s/he is assigned. There are the following limitations:
-- You cannot remove a user from the *ActindoAdminGroup* in a sandbox of which s/he is the owner. <!--- Kann man den owner ändern? -->
+- You cannot remove a user from the *ActindoAdminGroup* in a sandbox of which s/he is the owner. 
 - You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him/her, see [Edit user](./02_ManageUsers.md#edit-user).   
 
 Note that it is not possible to remove a group assignment by delimiting the validity end date to a specific date. If you want to change the validity period, you must remove the group assignment and create a new one with a limited validity end date.

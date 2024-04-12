@@ -2,9 +2,9 @@
 
 # Manage users
 
-A user is a global *Actindo* entity that is shared between the main account and the sandboxes. If you create a user in the main account, and you invite this user to a sandbox, the user data is automatically available in this sandbox. If you change user data, the data is synchronized with the sandboxes in which the user is assigned a user group.   
-You must create users in the main account. It is not possible to create users in a sandbox.   
-> [Info] As a user without admin rights, you can change some data too. For detailed information, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md). 
+A user on the Core1 is a global entity as users can be invited to any account that exist on the *Core1 Platform*.
+
+Any available *Core1 Platform* user can be invited to any account. The owner of the user will receive an email and actively decide whether he/she wants to join.
 
 
 
@@ -71,7 +71,7 @@ Users are created in the main account only.
 
 ## Assign user to user group
 
-Assigning users to a user group is necessary to activate a user on a current instance. A user who is not assigned any group is not active in the instance. This means in reverse, you must remove a user from all groups on an instance to deactivate him or her.
+Assigning users to a user group is necessary to activate a user on a current instance. A user who is not assigned any group is not active in the instance. This means in reverse, you must remove a user from all groups on an instance to remove him or her from an account. Groups are used to manage rights.
 
 #### Prerequisite
 
@@ -112,7 +112,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
 
 ## Edit user
 
-Users are edited in the main account only. There is one exception: Users are able to change their personal data in a sandbox, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md).
+Users can only be edited in the main account they have been created. Users can change their own personal information in any account, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md).
 
 #### Prerequisites
 
