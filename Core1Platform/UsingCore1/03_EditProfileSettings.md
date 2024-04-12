@@ -80,10 +80,7 @@ You have a user in the currently opened sandbox or main account.
 7. Repeat the new password in the *Confirm password* field. 
 
 8. Click the [SAVE] button.   
-   If the entered password is valid, it is saved, and the Password saved pop-up window is displayed.  
-
-
-   ![Password saved](../../Assets/Screenshots/Core1Platform/ProfileSettings/Password/PasswordSaved.png "[Password saved]")
+   If the entered password is valid, it is saved, and a confirmation message is displayed.
 
    The new password is now shared between the main account and all sandboxes of your company, so that you must use it for all *Actindo* logins.
 

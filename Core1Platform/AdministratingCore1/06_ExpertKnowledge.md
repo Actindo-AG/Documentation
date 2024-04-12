@@ -1,6 +1,6 @@
 # Expert knowledge
 
-This section contains procedures that you only should use, if you really know the consequences resulting from these.
+This section contains procedures that you only should use, if you fully understand the consequences resulting from these.
 
 
 
@@ -10,7 +10,7 @@ The *Development Mode* of the engine room allows you to turn certain system beha
 For example, you can enable special caching functions of the *Core1 Platform*. Additionally, you can disable module-specific features such as the import of orders and event manager features.   
 You can use the development mode for testing purposes or, for example, to temporarily switch off a connection, because you are informed about a third-party application downtime. Each action in the development mode is logged.
 
-> [Caution] Switching off module features may result in data not being transferred to third-party applications, and in this which may result in data loss. If you are not really sure about the consequences of switching off a feature, you should not use it. 
+> [Caution] Switching off module features may result in data not being transferred to third-party applications, which may result in data loss. If you are not really sure about the consequences of switching off a feature, you should not use it. 
 
 The development mode contains core features as well as engine, module, and driver-specific feature flags. For example, if you switch off the workflow, the workflow is stopped and order processing will not be performed.
 

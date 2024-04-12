@@ -92,8 +92,7 @@ You have administrator rights for the current instance.
 
 ## Check vCores
 
-Your company has purchased a certain number of vCores assigned to the main account. vCores define the computing power of an instance for the execution of parallel processes as well as database queries.  
-Idle times are not considered, for example calls that are waiting for a response from external service providers.      
+Your company has purchased a certain number of vCores assigned to the main account. vCores define the computing power of an instance for the execution of parallel processes as well as database queries. It does not include idle times such as calls that are waiting for a response from external service providers.      
 If an instance has not enough vCore capacity, the processor then starts to run the processes and database queries one after the other instead of running them in parallel. 
 This means that if the number of vCores assigned is not sufficient, the processing speed is slowed down significantly.  
 
@@ -140,7 +139,7 @@ You have administrator rights for the current instance.
 
 ## Check database utilization
 
-Your company has purchased a certain amount of data storage space assigned the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available on the main account.   
+Your company has purchased a certain amount of data storage space assigned to the main account. If a sandbox is created, it is assigned an amount of storage space from the main account. This reduces the number of storage space available on the main account.   
 
 Actindo has an eye on your data storage utilization. Isolated overruns will have no effect. But if your data storage utilization is permanently over the limit, *Actindo* will contact you.   
 

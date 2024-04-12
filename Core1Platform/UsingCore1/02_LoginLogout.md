@@ -54,9 +54,7 @@ You are logged in to the *Actindo Core1 Platform*.
     ![Profile menu](../../Assets/Screenshots/Core1Platform/UsingCore1/ProfileMenu.png "[Profile menu]")
 
 2. Click the *Logout* entry in the profile menu.   
-    The *Really log out?* window is is displayed.  
-
-     ![Really log out](../../Assets/Screenshots/Core1Platform/UsingCore1/ReallyLogOut.png "[Really log out]")
+    A confirmation window is displayed.  
 
 3. Click the [LOGOUT] button.   
     You are logged out from the *Actindo Core1 Platform*.

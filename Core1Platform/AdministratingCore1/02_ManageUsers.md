@@ -2,9 +2,9 @@
 
 # Manage users
 
-A user on the Core1 is a global entity as users can be invited to any account that exist on the *Core1 Platform*.
+A user on the *Core1 Platform* is a global entity as users can be invited to any account that exist on platform.
 
-Any available *Core1 Platform* user can be invited to any account. The owner of the user will receive an email and actively decide whether he/she wants to join.
+Any available *Core1 Platform* user can be invited to any account. The owner of the user will receive an email and actively decide whether s/he wants to join.
 
 
 
@@ -31,7 +31,7 @@ Users are created in the main account only.
 2. Click the ![Create user](../../Assets/Icons/Edit02.png "[Create user]") (Create user) button.   
   The *Create user* window is opened.    
     
-  ![Create user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserCreate.png "[Create user]")
+   ![Create user](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserCreate.png "[Create user]")
 
 3. Click the *Select active option* drop-down list to select whether the new user will be able to log in or not. The following options are available: 
     - **Active, can log in**
@@ -45,7 +45,7 @@ Users are created in the main account only.
     - **Specify and save password**   
       You define an individual password and save it. It is not sent via email.  
     - **Do not change password**   
-      Use this option if you want to change the user's data but you do not want to edit the password. 
+      Use this option if you want to change the user's data, but you do not want to edit the password. 
 
 5. If you have not selected the *Generate password and send via email* option in the *Password type option* drop-down list, define the password in the *Set password* field.
 
@@ -71,7 +71,7 @@ Users are created in the main account only.
 
 ## Assign user to user group
 
-Assigning users to a user group is necessary to activate a user on a current instance. A user who is not assigned any group is not active in the instance. This means in reverse, you must remove a user from all groups on an instance to remove him or her from an account. Groups are used to manage rights.
+Assigning users to a user group is necessary to activate a user on a current instance. A user who is not assigned to any group is not active in the instance. This means in reverse, you must remove a user from all groups on an instance to remove him/her from an account. Groups are used to manage rights.
 
 #### Prerequisite
 
@@ -89,7 +89,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
   The *Edit user "username"* view is displayed. By default, the *Profile* tab is preselected. 
 
 2. Click the *Groups* tab.   
-  The groups the user is assigned are listed.
+  The groups to which the user is assigned are listed.
 
    ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Groups]")  
 
@@ -144,7 +144,7 @@ Users can only be edited in the main account they have been created. Users can c
     - **Specify and save password**   
        You define an individual password and save it. It is not sent via email.   
     - **Do not change password**   
-       Use this option if you want to change the user's data but you do not want to change the password respectively the password to be sent. 
+       Use this option if you want to change the user's data, but you do not want to change the password respectively the password to be sent. 
 
 4. If desired, disable the *Universal Second Factor (U2F)* toggle.
   If the *Universal Second Factor (U2F)* is disabled, the user will no longer need to use the *Yubikey* to log in. 
@@ -178,7 +178,7 @@ Alternatively, you can remove a user from a group during editing the groups, see
   The *Edit user "username"* view is displayed. By default, the *Profile* tab is preselected. 
 
 2. Click the *Groups* tab.   
-  The groups the user is assigned are listed.
+  The groups to which the user is assigned are listed.
 
    ![Groups](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserGroups.png "[Groups]")  
 
@@ -195,7 +195,7 @@ Alternatively, you can remove a user from a group during editing the groups, see
 ## Invite user to sandbox
 
 It is necessary to invite a user to a sandbox because users cannot be created there.
-When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then will the user be listed in this instance and can access the sandbox. <!---Julian, ist das richtig oder habe ich etwas falsch verstanden? Ist User denn schon in Sandbox, ober prüft system in main account auf Plausibility?-->
+When inviting a user to a sandbox, it is necessary to assign the user to a user group. Only then will the user be listed in this instance and can access the sandbox. 
 
 #### Prerequisites
 

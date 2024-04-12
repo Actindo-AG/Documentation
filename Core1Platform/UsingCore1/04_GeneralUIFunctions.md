@@ -159,4 +159,4 @@ You are logged in to the *Actindo Core1 Platform*.
 4. Click the [CHANGE LANGUAGE] button to switch to another language.  
     The application is being reloaded. Afterwards, it is available in the selected language.
 
-    ![Initializing](../../Assets/Screenshots/Core1Platform/UsingCore1/ChangeLanguageInitialize.png "[Initializing]")
+    

@@ -17,14 +17,14 @@ You can integrate various store systems such as Shopify&trade;, Shopware6 &trade
 
 The data model of the *DataHub* module with ETL system (extract, transform, load) allows maximum flexibility. 
 It defines how data flows through your system. It enables complex and varying data to be mapped, transformed, and transferred. 
-It allows to transform data for internal between plugins on the Core1 as well as external communication. 
+It allows transforming data for internal between plugins on the *Core1 Platform* as well as external communication. 
 You can easily integrate external custom APIs or other non-standard interfaces. In order to connect non-flexible external systems, you can add your API endpoints to the *Digital Operations Platform* without having to deploy code.
 You can customize your individual data fields and sources for each process and "translate" them individually for their receivers. You can easily extend data fields and use custom and complex field types.  
   
 
 ## Process orchestration
 
-he *Actindo* process orchestration allows you to design, build, control, visualize and monitor your business processes. Based on your special and individual business rules, 
+The *Actindo* process orchestration allows you to design, build, control, visualize, and monitor your business processes. Based on your special and individual business rules, 
 you can map your company's processes and data and make it available however and whenever you want. 
 You can use the *Process Orchestration* module to easily adapt and automate your processes in a graphical way and almost without any code needed.   
 You can model any kind of complex processes and visualize them where they are executed. By doing this, you know the past, future, and present of any entity.

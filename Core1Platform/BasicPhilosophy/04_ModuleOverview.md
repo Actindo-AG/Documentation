@@ -23,7 +23,7 @@ The *Core1 Platform* is the foundation of every module/plugin. It offers basic f
 The basis consists of various plugin offering basic functionality like advanced tax handling, currencies with up-to-date exchange rates, etc.
 
 **Process orchestration**    
-The *Workflows* module is a tool that allows you to shape, control, map, and monitor your business processes. 
+The *Process Orchestration* module is a tool that allows you to shape, control, map, and monitor your business processes. 
 Based on your special and individual business rules, you can map and made available your company's processes &ndash; from simple processes to complex workflows. 
 You can build your own custom workflows to automate the processing of entities such as products and orders.
 

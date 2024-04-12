@@ -102,14 +102,13 @@ A user group has been created, see [Create a user group](#create-a-user-group).
     The users have been saved to the group and are displayed in the list of users.
 
 7. Click the [SAVE] button in the upper right corner of the *Edit group* window.   
-    The *Group saved* pop-up window is displayed. The changes to the group have been saved.
+    A confirmation message is displayed. The changes to the group have been saved.
 
-    ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
 
 
 ## Remove user from a group via the group management
 
-A user is active in an account as long as s/he is assigned a user group.    
+A user is active in an account as long as s/he is assigned to a user group.    
 If you want to remove a user from a sandbox, you must remove the user from all groups to which s/he is assigned. There are the following limitations:
 - You cannot remove a user from the *ActindoAdminGroup* in a sandbox of which s/he is the owner. 
 - You cannot remove a user from all groups in an account in which the user has been created. In this case, you have to inactivate him/her, see [Edit user](./02_ManageUsers.md#edit-user).   
@@ -162,7 +161,7 @@ You have permission to delete groups.
 
 ![Group management](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupManagment.png "[Group management]")
 
-1. Check whether users are assigned the group. To do this, select the checkbox of the user group you want to delete.   
+1. Check whether users are assigned to the group. To do this, select the checkbox of the user group you want to delete.   
     The editing toolbar is displayed.
 
     ![Group selected](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSelected.png "[Group selected]")
@@ -172,7 +171,7 @@ You have permission to delete groups.
 
     ![Edit group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupEditNoUsers.png "[Edit group]")
 
-3. Check whether users are assigned the group. If necessary, remove the assignment, see [Remove user from a group via the group management](#remove-user-from-a-group-via-the-group-management) and assign the user a different group that may be equivalent. 
+3. Check whether users are assigned to the group. If necessary, remove the assignment, see [Remove user from a group via the group management](#remove-user-from-a-group-via-the-group-management) and assign the user a different group that may be equivalent. 
 
 4. Return to the *GROUP MANAGEMENT* tab by clicking the ![BACK](../../Assets/Icons/Back02.png "[BACK]")(Back) button.
 
