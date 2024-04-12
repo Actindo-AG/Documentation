@@ -1,5 +1,5 @@
 # Core capabilities
-doof
+
 The *Actindo Core1 Platform* provides you with the following:
 
 

@@ -1,5 +1,5 @@
 # General information
- doof
+
 The *Actindo Core1 Platform* offers a comprehensive solution for efficient digital unified commerce.
 It is an API-first, head less and cloud-native Digital Operations Platform (DOP) based on microservices.
 The platform enables you to digitize your eCommerce processes by easily orchestrating them, from order creation, processing of orders and payments/invoices to shipping and returns management.    
