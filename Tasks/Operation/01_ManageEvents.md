@@ -7,7 +7,11 @@ An event is an occurrence that originates a task. For example, when inconsistenc
 
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
-When the *Process Orchestration* (also known as *Workflows*) module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+
+[comment]: <> (Ist es nicht eine Voraussetzung, dass ich einen zuvor in der Workflow Config einen "Task event" in der Transition angebe, damit das passiert?)
+
+[comment]: <> (Link anpassen, wenn veröffentlicht: For detailed information, see Track the workflow process in the Process Orchestration documentation. ActindoWorkFlow/Operation/09_TrackWorkflowProcess.md)
 
 You can create an event manually, edit an existing event, and delete an event that is no longer needed.
 
@@ -15,7 +19,7 @@ You can create an event manually, edit an existing event, and delete an event th
 
 ## Create an event
 
-You can create an event to define a scenario where a task must be created.
+You can create an event to define a scenario that requires a user to perform a task.
 
 #### Prerequisites
 
@@ -43,17 +47,17 @@ No prerequisites to fulfill.
 
 4. Click the *Attribute set for tasks* drop-down list and select the desired option. All available attribute sets for tasks are displayed in the list.
 
-5. As you are creating the event manually, the *Plugin* drop-down list is locked.
+    > [Info] As you are creating the event manually, the *Plugin* drop-down list is locked. After saving the event, the value **Manually created** is displayed in the *Plugin* column.
 
-    > [Info] After saving the event, the value **Manually created** is displayed in the *Plugin* column.
+5. If desired, click the *Responsible user* drop-down list and select the user to whom you want to assign the event, and the related tasks, by default. All users that are registered in the current instance are displayed in the list. 
 
-6. Click the *Responsible user* drop-down list and select the user to whom you want to assign the event, and the related tasks, by default. All users that are registered in the system instance are displayed in the list. 
-
-7. Click the *Responsible user group* drop-down list and select the user group to which you want to assign the event, and the related tasks, by default. All user groups that are registered in the system instance are displayed in the list.
+6. Alternatively, click the *Responsible user group* drop-down list and select the user group to which you want to assign the event, and the related tasks, by default. All user groups that are registered in the current instance are displayed in the list.
 
     > [Info] If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
 
-8. Click the [SAVE] button.  
+[comment]: <> (Muss man oder kann man ein responsible user und responsible user group hier auswählen? Was passiert, wenn die Task keinem User/keiner Gruppe zugewiesen ist? Keine Email-Benachrichtigung geschickt? Oder wohin wird die Email geschickt, wenn eingestellt?)
+
+7. Click the [SAVE] button.  
     A confirmation message is displayed. The event has been saved. The *Create event* view is closed.  
 
 

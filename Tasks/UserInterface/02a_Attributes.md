@@ -11,7 +11,7 @@ The *ATTRIBUTES* tab in the *Tasks* module equals the *ATTRIBUTES* tab contained
 
 For a detailed description of this view, see [Attributes](../../DataHub/UserInterface/01a_Attributes.md) in the *DataHub* documentation.
 
-[comment]: <> (so allgemein, oder unter dem Create an attribute und Edit an attribute dazu?)
+
 
 
 

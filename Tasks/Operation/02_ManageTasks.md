@@ -5,9 +5,11 @@
 
 # Manage the tasks
 
-A task is an activity that needs to be completed by a responsible user. Tasks are defined and configured in the *Process Orchestration* (*Workflows*) module. 
+A task is an activity that needs to be completed by a responsible user. Tasks are defined and configured in the *Process Orchestration* module. 
 
 [comment]: <> (Evtl. Link auf Workflows)
+
+Most tasks are created automatically by modules, such as *Omni-Channel* or *Process Orchestration*, for example, when a process fails. Tasks can also be added during the handling of processes in the *Process Orchestration* module, for instance, for manual clearance of suspicious orders or approving refunds. Tasks are related to an event, which can be assigned by default to a user as well as a user group. Many events are created automatically when installing a module or plugin, but you can also define your own events in the *Tasks* module. For detailed information, see [Manage the events](./01_ManageEvents.md).
 
 The *Tasks* menu entry in the *Tasks* module displays all tasks created in your system. You can assign a task to a specific user, filter tasks by different criteria, mark a task as done, or reopen a closed task.
 
@@ -19,13 +21,13 @@ Every task is related to an event. This means that when an event occurs, a task 
 
 You can define the user and/or user group who, by default, are responsible for an event, and all related tasks, in the *Events* menu entry, see [Manage the events](./01_ManageEvents.md). However, you can further assign an individual or several tasks to a specific user in the *Tasks* menu entry.
 
-You can assign tasks to yourself or to other users registered in your system instance.
+You can assign tasks to yourself or to other users registered in your current instance.
 
 [comment]: <> (instance in Glossar aufnehmen und definieren? Oder anders nennen?)
 
 ### Assign a task to yourself
 
-You can assign one or several tasks at once to yourself.
+You can assign yourself one or more tasks at once.
 
 #### Prerequisites
 
@@ -46,7 +48,7 @@ A task has been created.
 
 ### Assign a task to other user
 
-You can assign one or several tasks at once to other users registered in your system instance.
+You can assign one or several tasks at once to other users registered in your current instance.
 
 #### Prerequisites
 
@@ -62,7 +64,7 @@ A task has been created.
     The editing toolbar is displayed.
 
 2. Click the *Unassigned* drop-down list.  
-    All users registered in the system instance are displayed in the list.
+    All users registered in the current instance are displayed in the list.
 
 3. Select the user to whom you want to assign the task.
     
@@ -120,7 +122,7 @@ A task has been assigned to you, see [Assign a task](#assign-a-task).
     The editing toolbar is displayed.
 
 2. Click the [MARK AS DONE] button.  
-    The selected task is marked as done and therefore closed. The status icon in the *Status* column changes from ![Cross](../../Assets/Icons/Cross05.png "[Cross]") to ![Check](../../Assets/Icons/Check02.png "[Check]"). The date on *Done date* column is updated.
+    The selected task is marked as done and therefore closed. The status icon in the *Status* column changes from ![Cross](../../Assets/Icons/Cross05.png "[Cross]") to ![Check](../../Assets/Icons/Check02.png "[Check]"). The *Done date* column is updated.
 
 
 
@@ -142,4 +144,4 @@ As task has been marked as done, see [Mark a task as done](#mark-a-task-as-done)
     The editing toolbar is displayed.
 
 2. Click the [REOPEN] button.  
-    The selected task is reopened. The status icon in the *Status* column changes from ![Check](../../Assets/Icons/Check02.png "[Check]") to ![Cross](../../Assets/Icons/Cross05.png "[Cross]"). The date on *Done date* column is removed.
+    The selected task is reopened. The status icon in the *Status* column changes from ![Check](../../Assets/Icons/Check02.png "[Check]") to ![Cross](../../Assets/Icons/Cross05.png "[Cross]"). The date in the *Done date* column is removed.

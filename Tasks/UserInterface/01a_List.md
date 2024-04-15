@@ -10,7 +10,7 @@
 
 **Tasks**
 
-You can filter the tasks displayed by different criteria using the *Assignees*, *Events*, and *Status* drop-down lists. You can also combine the filters to narrow down the listed tasks. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list displays an overview of all tasks created in the current instance. You can filter the tasks displayed by different criteria using the *Assignees*, *Events*, and *Status* drop-down lists. You can also combine the filters to narrow down the listed tasks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 - *Assignees*  
     Click the drop-down list to filter the list of tasks by assignee. The following options are available:  
@@ -40,16 +40,16 @@ You can filter the tasks displayed by different criteria using the *Assignees*, 
 The following functions are available for the editing toolbar: 
 
 - [MARK DONE]  
-    Click this button to mark a task as done. This button is displayed if the checkbox of at least one open task, with status ![Cross](../../Assets/Icons/Cross05.png "[Cross]"), is selected.
+    Click this button to mark a task as done. This button is displayed if the checkbox of at least one open task with an ![Cross](../../Assets/Icons/Cross05.png "[Cross] ") (pending) status is selected.
 
 - [REOPEN]  
-    Click this button to reopen a task. This button is displayed if the checkbox of at least one closed task, with status ![Check](../../Assets/Icons/Check02.png "[Check]"), is selected.
+    Click this button to reopen a task. This button is displayed if the checkbox of at least one closed task with a ![Check](../../Assets/Icons/Check02.png "[Check]") (done) status is selected.
 
 - [ASSIGN TO ME]  
     Click this button to assign a task to yourself. This button is displayed if the checkbox of at least one task is selected.
 
 - *Unassigned*  
-    Click the drop-down list to select a user to assign him/her a task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in your system instance. 
+    Click the drop-down list to select a user to assign him/her a task. This button is displayed if the checkbox of at least one task is selected. The list displays all users that are registered in your current instance. 
 
     > [Info] You can assign an unassigned task as well as reassign a task that is currently assigned to another user.
 
@@ -91,7 +91,7 @@ The following fields are available in this view:
     User to which the task is assigned.
 
 - *Group*  
-    User group to which the event, and all related tasks, is assigned.
+    User group to which the event and all related tasks are assigned.
 
 - *ID*  
     Task identification number. The ID number is automatically assigned by the system.

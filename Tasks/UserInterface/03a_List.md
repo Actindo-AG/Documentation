@@ -38,6 +38,8 @@ The following functions and fields are available in this view:
 - *Obsolete/Active*  
     Indication whether the event is **Active** or **Obsolete**.
 
+[comment]: <> (Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Kann man deaktivieren?)
+
 - *Identifier*  
     Event identifier. The event identifier is similar to a key and therefore must be system-wide unique.
 
@@ -64,7 +66,7 @@ The following functions and fields are available in this view:
     Enter a name for the event.
 
 - *Identifier*  
-    Event identifier. The event identifier is similar to a key and therefore must be system-wide unique.
+    Enter an identifier for the event. The identifier is similar to a key and and therefore must be system-wide unique.
 
 - *Attribute set for tasks*  
     Click the drop-down list and select the appropriate attribute set. All available attribute sets that are relevant for tasks are displayed in the list.

@@ -11,7 +11,6 @@ The *ATTRIBUTE SETS* tab in the *Tasks* module equals the *ATTRIBUTE SETS* tab c
 
 For a detailed description of this view, see [Attribute sets](../../DataHub/UserInterface/01b_AttributeSets.md) in the *DataHub* documentation.
 
-[comment]: <> (so allgemein, oder unter dem Create an attribute set und Edit an attribute set dazu?)
 
 
 

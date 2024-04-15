@@ -102,7 +102,7 @@ At least one email type has been created in the email connection, see [Create an
 
     ![General settings example](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsGeneralExample.png "[General settings example]")
 
-3. If necessary, click the *Email sending per event* menu entry to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, go to step 4.
+3. If necessary, click the *Email sending per event* menu entry to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, continue with step 4.
 
 4. Click the [SAVE] button.  
     A confirmation message is displayed. The email general settings have been saved.
