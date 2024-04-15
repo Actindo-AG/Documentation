@@ -47,7 +47,7 @@ The following functions are available for the editing toolbar. Depending on the 
     Click this button to abort the action. This button is displayed if the action status is *Error* or *In progress*.
 
 - ![Suspend](../../Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to suspend the action temporarily. This button is displayed if the action status is *In progress*<!---Status "In progress" gibt es nicht mehr. Status Active?-->. When clicking this button, the action status changes to *Suspended*.
+    Click this button to temporarily suspend the action, for example, if you want to evaluate a process in detail and want to pause the process execution. This button is displayed if the action status is *In progress*<!---Status "In progress" gibt es nicht mehr. Status Active?-->. When clicking this button, the action status changes to *Suspended*.
 
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
     Click this button to resume the action. This button is displayed if the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.

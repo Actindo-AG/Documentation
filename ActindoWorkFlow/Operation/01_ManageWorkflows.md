@@ -42,7 +42,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-    > [Info] The list of places is filtered for your keyword as you type.
+    > [Info] The list of places is filtered for your keyword as you type. See the data models at *Dev Tools > API > Tab Data Model* and search for the data model that matches your needs. For example, if you want to process specific business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
 
 5. Select the start place you want to add in the list of places.    
 
@@ -80,7 +80,7 @@ The basic settings of the workflow have been defined, and the workflow editor is
 
 2. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
-    > [Info] The list of transitions is filtered for your keyword as you type.
+    > [Info] The list of transitions is filtered for your keyword as you type. For each API endpoint of the installed modules a transition is available. For detailed information, see the API list under *Dev Tools > API > Tab API*
 
 3. Click the transition you want to add in the list of transitions.   
     The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.

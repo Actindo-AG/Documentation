@@ -194,27 +194,32 @@ The workflow diagram includes the following elements:
         Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).
 
     - *Priority*   
-        <!---TO BE ENHANCED-->
+        Priority is most relevant in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
     - *Max tries*   
-        Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can select a retry time strategy. The following retry time strategies are available:
-        <!---TO BE ENHANCED-->
+        Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can use a drop-down list to select a retry time strategy. The following retry time strategies are available:
+    
         - **Constant**   
-
+            Define a constant value. For example, the constant value **3** means that each 3 minutes the action execution is to be retried depending on your setting in the *Max tries* field.
 
         - **CustomFunction**   
-
+            Use any php function to define the retry time. 
 
         - **Custom**   
-
+            Enter the number of retries, comma-separated for each retry for your setting in the *Max tries* field. For example, **2,7,9** means that the retry is done after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
 
         - **Exponential**   
-
+            The 
+            2,4,8,16
 
         - **Linear**   
+        2,4,6,8,10,
+
+        - **Quadratic**  
+            2,4,16
 
 
-        - **Quadratic**   
+        Select the retry strategy and enter the required value in minutes in the *Strategy config value* field.
 
     - *Task event*  
         Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
