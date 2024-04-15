@@ -161,7 +161,7 @@ Users can only be edited in the main account they have been created. Users can c
 ## Remove user from a group
 
 When editing a user, you can remove a user from a group to which s/he is assigned.  
-Alternatively, you can remove a user from a group during editing the groups, see [Remove users from a group via the group management](../AdministratingCore1/03_ManageGroups.md#remove-users-from-a-group-via-the-group-management).
+Alternatively, you can remove a user from a group during editing the groups, see [Remove users from a group via the group management](../AdministratingCore1/03_ManageGroups.md#remove-user-from-a-group-via-the-group-management).
 
 #### Prerequisites
 
@@ -188,7 +188,7 @@ Alternatively, you can remove a user from a group during editing the groups, see
    ![Select group](../../Assets/Screenshots/Core1Platform/AdministratingCore1/UserSelectGroup.png "[Select group]")
 
 4. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button.   
-  The user is removed from the selected group.<!--Julian, gibt es da noch einen Bestätigungsscreen?-->
+  The user is removed from the selected group.
 
 
 

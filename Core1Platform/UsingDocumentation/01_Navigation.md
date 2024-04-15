@@ -144,7 +144,7 @@ You have opened the *Actindo Documentation* home page. For detailed information,
 
 ![Module documentation - Related content](../../Assets/Screenshots/Core1Platform/UsingDocumentation/ModulePageRelatedContent.png "[Module documentation - Related content]")
  
-1. Check the *Related content* section on the left side bar. 
+1. Check the *Related content* section on the left sidebar. 
    Related links to other sources of information are displayed there.
 
 2. Click a link that might be interesting for you.

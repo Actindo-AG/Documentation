@@ -63,7 +63,7 @@ You have administrator rights for the current instance.
 
 ## Check warnings and notices
 
-The platform console provides instance-relevant notices and warnings. In contrast to the notifications (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications)), these notices and warnings are intended for developers.
+The platform console provides instance-relevant notices and warnings. In contrast to the notifications (see [Check notifications](../UsingCore1/04_GeneralUIFunctions.md#check-notifications)), these notices and warnings are intended for developers.
 
 #### Prerequisites
 

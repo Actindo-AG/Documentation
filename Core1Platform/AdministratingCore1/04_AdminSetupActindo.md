@@ -1,7 +1,6 @@
 [!!Set up U2F from the user side](../UsingCore1/01a_UserSetupActindo.md)
 [!!User interface Profile](../UserInterface/01a_Profile.md)
 
-Doof
 
 # Set up U2F from the administrator side
 

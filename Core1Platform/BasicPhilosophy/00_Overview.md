@@ -1,7 +1,7 @@
 # Overview 
 
 In this part of the *Actindo Core1 Platform* documentation you will find the following chapters:
-<!--- Links getestet-->
+<
 - [General information](./01_General.md)  
 
 

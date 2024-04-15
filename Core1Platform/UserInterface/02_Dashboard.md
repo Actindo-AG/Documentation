@@ -49,20 +49,6 @@ In the *Actindo Dashboard*, the custom tabs with composable dashlets are display
 
 
 
-## Confirm tab deletion
-
-*Actindo Dashboard > Button Delete*
-
-![Confirm tab deletion](../../Assets/Screenshots/Core1Platform/UsingCore1/DashboardConfirmTabDelition.png "[Confirm tab deletion]")
-
-- [CANCEL]   
-    Click this button to cancel deleting the selected tab. The *Confirm tab deletion* window is closed.
-
-- [ACCEPT]   
-    Click this button to delete the selected tab. The *Confirm tab deletion* window is closed. The tab and its dashlets are deleted.
-
-
-
 ## Tab
 
 *Actindo Dashboard > Select tab*   
@@ -123,23 +109,18 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     > [Info] For some statistic dashlets, you can influence the data to be evaluated. These dashlets are indicated with an ![Points](../../Assets/Icons/Points02.png "[Points]") (Edit dashlet) button in the upper right corner. Click the button to define the period or the data set to be evaluated.   
     Additionally, the *Force cache refresh* toggle is available for some dashlets. If you enable the toggle, the data is newly evalatuated. Note that this might take some time.   
 
-    **Workflows**    
-    For detailed information, see [Dashlet picker](../../ActindoWorkFlow/UserInterface/01a_Overview.md#dashlet-picker "Dashlet picker") in the *Workflows* documentation.
+    **Actindo workflow engine**      
     
-    
-    <!--- to be deleted?: *Current failure count*   
+    - *Current failure count*   
             Displays the number of workflows that have currently an *Error* status.	
     - *Workflow count*   
-            Displays the number of workflows in the *Workflows* module.
+            Displays the number of workflows in the *Process Orchestration* module.
     - *Waiting processes*      
-          Displays the number of processes not yet started.   -->
+          Displays the number of processes not yet started. 
 
     **Omni-Channel**  
-    For detailed information, see [Dashlet picker](../../Channels/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *Omni-Channels* documentation.
-    
-    
-
-    <!---- *Channels Status*	   
+      
+    -  *Channels Status*	   
             Displays the status of each connection. The dashlet displays the period since the last update. You can refresh the data evaluation. With the "more.." references you are able to directly open the related Omni-Channel views.
     - *Statistics by Channel*   
             Displays the statistics of each connection.
@@ -148,12 +129,11 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     - *Statistics over Time*   
             Displays the statistics of each connection over time.
     - *Connection Status*   
-            Displays the status of each connection. You can display all active or inactive connections.-->
+            Displays the status of each connection. You can display all active or inactive connections.
             
     **DataHub**   
-        For detailed information, see [Dashlet picker](../../DataHub/UserInterface/01a_Dashboards.md#dashlet-picker "Dashlet picker") in the *DataHub* documentation.
-
-    <!---- *Attribute Count*   
+        
+    - *Attribute Count*   
             Displays the number of attributes in the *DataHub* module.
     - *Language Count*   
             Displays the number of languages in the *DataHub* module.
@@ -178,9 +158,9 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     -	*ETL Mapping History*   
             Displays a chart with the history of mapping number for the waiting, the successful and all mappings in the *DataHub* module.
     -	*DataHub Flow*   
-            Displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.   -->
+            Displays a flow chart with connection of mappings between the different entities. By enabling the *Show Disconnected Nodes* toggle, also those entities without any mapping connection are displayed in the flow chart.  
 
-    **Order Management (OMS))** <!---Hallo Julian, diese hier habe ich mir zusammengereimt--> 
+    **Order Management (OMS)** 
     - *Orders*  
             Displays the number of orders for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.
     - *Dispatched Orders (via AIQS)*   

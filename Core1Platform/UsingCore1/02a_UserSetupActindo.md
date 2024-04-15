@@ -27,7 +27,7 @@ After the registration, the *YubiKey* as a login method is valid for all *Actind
 
 > [Info] For the user-side setup, you can log in to both a main account and a sandbox of the *Core1 Platform*.
 
-1. Log in to the main account or sandbox, see [Login to the Actindo Core1 Platform](./01_Login.md#login-to-the-actindo-core1-platform).   
+1. Log in to the main account or sandbox, see [Login to the Actindo Core1 Platform](./02_LoginLogout.md#login-to-the-actindo-core1-platform).   
     The *Actindo Dashboard* is displayed.
 
     ![Actindo dashboard](../../Assets/Screenshots/Core1Platform/Core1.png "[Actindo dashboard]")

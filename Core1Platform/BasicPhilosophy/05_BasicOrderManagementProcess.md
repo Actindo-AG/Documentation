@@ -1,5 +1,5 @@
 [!!DataHub](../../DataHub/Overview/01_General.md)
-[!!Workflows](../../ActindoWorkFlow/Overview/01_General.md)
+[!!Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md)
 [!!Payments](../../Payments/Overview/01_General.md)
 [!!Taxes](../../Taxes/Overview/01_General.md)
 
@@ -9,7 +9,7 @@ The order management process is the core business process in e-commerce. Even if
 
 In this section, the basic order management process is explained in detail, from the moment the customer places an order in an online shop up to the product delivery. You can add further process steps as necessary, as well as omit any of them if they are not applicable to your business process. 
 
-The order management process is steered through a workflow, which determines exactly what happens at every moment. The *Workflows* module allows you to design and manage the workflow, as well as to monitor the progress of your process in real time, enabling you to detect and solve any potential issues immediately. 
+The order management process is steered through a workflow, which determines exactly what happens at every moment. The *Process Orchestration** module allows you to design and manage the workflow, as well as to monitor the progress of your process in real time, enabling you to detect and solve any potential issues immediately. 
  
 
 ## Basic principles
@@ -34,7 +34,7 @@ The *Actindo Core1 Platform* and the external third-party systems are connected 
 
 **Workflow**
 
-A workflow is a basic structure that represents a business process. It uses "places" containing data to be transferred and "transitions" defining the actions to be performed. When designing a workflow, you determine exactly when what happens, leaving nothing to chance. Each order is processed following this workflow, which allows you to monitor the process in real time. For detailed information, see [Workflows](../../ActindoWorkFlow/Overview/01_General.md).
+A workflow is a basic structure that represents a business process. It uses "places" containing data to be transferred and "transitions" defining the actions to be performed. When designing a workflow, you determine exactly when what happens, leaving nothing to chance. Each order is processed following this workflow, which allows you to monitor the process in real time. For detailed information, see [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md).
 
 
 

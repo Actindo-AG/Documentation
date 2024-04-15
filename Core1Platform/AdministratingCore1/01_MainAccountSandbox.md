@@ -4,9 +4,9 @@
 
 The main account is also called live or productive system. Each tenant has one main account that usually runs in productive mode. Each instance (main account or sandbox) has a specific host-prefix which determines how the main account/sandbox can be accessed:
 
-- main account: https://[host-prefix].actindo.com
+- main account: `https://[host-prefix].actindo.com`
 
-- sandbox: https://[host-prefix].dev.actindo.com
+- sandbox: `https://[host-prefix].dev.actindo.com`
 
   > [Info] You can use the URL to identify if you are logged in to a sandbox or the main account. Additionally, the dropdown list in the upper right corner of the *Actindo Core1 Platform* displays the instance on which you are currently working.
 
@@ -24,7 +24,7 @@ Sandboxes have the following characteristics:
 - You can install pre-release plugins in case you have access to the source code. On a main account, you can install released versions only.
 
 - Each sandbox has an owning user. As an owning user, you can access the file system of the sandbox via SSH, if your user has been marked as a developer account by Actindo:   
-  ssh username@login.dev.actindo.com   
+    ssh `username@login.dev.actindo.com`   
   cd ~/sandboxes/[host-prefix]
 
 - The owner of a sandbox must have access to the owning main account but does not need to own the main account.

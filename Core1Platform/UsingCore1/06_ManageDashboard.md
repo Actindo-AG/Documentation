@@ -3,7 +3,7 @@
 # Manage dashboards
 
 The *Actindo Dashboard* module gives an overview of important module-specific key figures and statistics directly when starting the *Actindo Core1 Platform*. 
-Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Alternatively, you can import already existing dashboards. Note that you configure dashboards to support your own daily work. They are not visible for other *Actindo* users.  
+Depending on your user role(s), different information might be relevant, so that you can configure different dashboards for different purposes. Alternatively, you can import already existing dashboards. Note that you configure dashboards to support your own daily work. They are not visible to other *Actindo* users.  
 The number of dashboards is unlimited. For certain modules, a set of dashlets is predefined. A dashlet is an individual component that you can add or remove from a dashboard.
 
 
@@ -43,11 +43,11 @@ Note that you can add module-specific dashlets to the imported dashboard after t
 
 #### Prerequisites
 
-You have already created a dashboard for the *DataHub*, *Omni-Channel*, *Workflows*, or the *Order Management* module.
+You have already created a dashboard for the *Omni-Channel*, the *PIM*, or the *Process Orchestration* module.
 
 #### Procedure
 
-*Actindo Core1 Platform*
+
 
 ![Core1 Platform](../../Assets/Screenshots/Core1Platform/Core1.png "[Core1 Platform]")
 
@@ -241,8 +241,6 @@ A dashboard has been created, see [Create dashboard](#create-dashboard).
 
 1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the name of the dashboard you want to delete.   
     The *Confirm tab deletion* window is displayed.
-
-    ![Confirm tab deletion](../../Assets/Screenshots/DataHub/Overview/ConfirmTabDeletion.png "[Confirm tab deletion]")
 
 2. Click the [ACCEPT] button in the bottom right corner.   
     The *Confirm tab deletion* window is closed. The dashboard has been deleted.

@@ -1,5 +1,5 @@
 # Using the documentation
-<!--- Links getestet-->
+
 In this part of the *Actindo Core1 Platform* documentation, you will find the following chapters:
 
 - [Move around in the Actindo documentation](./01_Navigation.md "Move around in the Actindo documentation")   

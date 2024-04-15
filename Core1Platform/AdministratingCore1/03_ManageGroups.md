@@ -45,11 +45,7 @@ You have permission to edit, save, and list groups.
 2. Enter a name for the group in the *Group name* field.
 
 3. Click the [SAVE] button.   
-    The *Group saved* pop-up window is displayed.
-    
-    ![Group saved](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupSaved.png "[Group saved]")
-
-    The newly created group is displayed in the list of groups.
+    A confirmation message is displayed. The newly created group is displayed in the list of groups.
 
     ![Group created](../../Assets/Screenshots/Core1Platform/AdministratingCore1/GroupCreated.png "[Group created]")
  
@@ -61,7 +57,7 @@ Add any number of users to a user group to assign them rights subsequently.
 
 #### Prerequisites
 
-A user group has been created, see [Create a user group](#create-a-user-group).
+A user group has been created, see [Create user group](#create-user-group).
 
 #### Procedure
 

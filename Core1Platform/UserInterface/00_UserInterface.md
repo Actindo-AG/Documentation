@@ -2,8 +2,7 @@
 
 In this part of the *Actindo Core 1 Platform* documentation, you will find the following chapters:
 
-- [Profile menu](./01_ProfileMenu.md)   
-    - [Really log out](./01_ProfileMenu.md#really-log-out)   
+- [Profile menu](./01_ProfileMenu.md)     
     - [Profile settings](./01_ProfileMenu.md#profile-settings)   
 
 - [PROFILE](./01a_Profile.md)

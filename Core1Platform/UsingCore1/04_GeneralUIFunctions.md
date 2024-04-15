@@ -120,7 +120,7 @@ The ![Avatar](../../Assets/Icons/Avatar.png "[Avatar]") (Avatar) button in the u
 - **Profile settings**   
     For detailed information, see [Edit profile settings](./ "Edit profile settings").
 - **Logout**    
-    Click the [Logout] button to leave the *Actindo Core1 Platform*.
+    Click the [Logout] button to leave the *Actindo Core1 Platform*, see [Logout from the Actindo Core1 Platform](./02_LoginLogout.md#logout-from-the-actindo-core1-platform).
 - **Change language**   
     See below under [Change language](./03_GeneralUIFunctions.md#change-language).
 

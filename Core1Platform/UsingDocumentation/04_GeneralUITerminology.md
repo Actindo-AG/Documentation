@@ -2,8 +2,6 @@
 
 # General user interface terminology
 
-<!---Hallo Marina, ich habe hier die Themen aus https://actindo.atlassian.net/wiki/spaces/DOC/pages/96862272/UI+Terminology. von den Elementen, die ich am Wichtigsten fand...-->
-
 The following list makes you familiar with the names and designations that are used to describe specific user interface elements in the documentation.
 
 
@@ -33,7 +31,7 @@ A menu entry contains one or several tabs that are displayed in the header of th
 
  **Side bar**   
 
-A side bar is a bar that is displayed on one side of current view in the workspace. It may contain different content. In contrast to a side menu, the side bar does not contain a menu.
+A sidebar is a bar that is displayed on one side of current view in the workspace. It may contain different content. In contrast to a side menu, the sidebar does not contain a menu.
 
 **Toolbar**   
 

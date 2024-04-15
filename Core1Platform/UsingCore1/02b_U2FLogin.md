@@ -8,7 +8,7 @@ Note that some keys may require another procedure than the one described here. I
 
 #### Prerequisites
 
-- U2F has been configured for your account, see [Set up U2F from the user side](../UsingCore1/01a_UserSetupActindo.md) and [Set up U2F from the administrator side](../AdministratingCore1/03_AdminSetupActindo.md).
+- U2F has been configured for your account, see [Set up U2F from the user side](../UsingCore1/02a_UserSetupActindo.md) and [Set up U2F from the administrator side](../AdministratingCore1/04_AdminSetupActindo.md).
 - You possess a *YubiKey*.
 
 #### Procedure

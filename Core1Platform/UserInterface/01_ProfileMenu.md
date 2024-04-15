@@ -17,20 +17,6 @@
 
 
 
-## Really log out
-
-*Any workspace > Avatar icon > Menu entry Logout*
-
-![Really log out](../../Assets/Screenshots/Core1Platform/UsingCore1/ReallyLogOut.png "[Really log out]")
-
-- [CANCEL]   
-    Click this button to cancel the logout procedure. The *Really log out?* window is closed and the workspace is displayed again.
-
-- [LOGOUT]   
-    Click this button to confirm the logout procedure. You are logged out from the account. The *Really log out?* window is closed and the *Actindo* login box is displayed again.
-
-
-
 ## Profile settings
 
 *Any workspace > Avatar icon > Menu entry Settings*

@@ -156,7 +156,7 @@ You have opened a list view in a module.
    > [Info] The relations you can use depend on the module you are working in and the column you specify.   
    
 
-   The following relations are available for *Actindo* lists:<!---Julian, die Feldtypen habe ich mir ausgedacht. Könntest Du prüfen, ob die Angaben zu den Feldtypen stimmen? Danke-->
+   The following relations are available for *Actindo* lists:
 
      - **between**   
          In most cases, this relation is available for date fields. You can use it to filter the list for values that are between a specific date range, whereby the start and end date is included. For example, a filter between **5/05/2023** and **5/07/2023** displays all values available on 5/05/2023, 5/06/2023, and 5/07/2023.
@@ -192,6 +192,8 @@ You have opened a list view in a module.
 
      - **like**   
          This relation is available for date and character fields. You can use it to filter the list for values that contain a specific string. For example, by filtering an ID that starts with **KX**, you get all list entries that contain this string in the specified field. Or you want to filter the list for a specific month and enter **2023-05**.
+
+         > [Info] When entering date fields, use the exact date format that is used in the corresponding column.
 
          ![Filter relation like](../../Assets/Screenshots/Core1Platform/UsingCore1/FilterRelationLike.png "[Filter relation like]")
 

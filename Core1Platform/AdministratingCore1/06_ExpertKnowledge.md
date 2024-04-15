@@ -41,7 +41,7 @@ The development mode contains core features as well as engine, module, and drive
    The following warning message is displayed.
 
     ![Warning message](../../Assets/Screenshots/Core1Platform/AdministratingCore1/EngineRoomDevelopmentModeWarning.png "[Warning message]")
-<!---Hallo Julian, ist die Meldung nicht ein bisschen schwach?-->
+
 4. If desired, click the [OK] button.  
    The processing of the related feature is changed as described, for example, the order export of the *Omni-Channel* module is disabled. The following notification is output (see [Check notifications](../UsingCore1/03_GeneralUIFunctions.md#check-notifications)).
 

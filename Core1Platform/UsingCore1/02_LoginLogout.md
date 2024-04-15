@@ -4,7 +4,7 @@
 # Login and logout of the Actindo Core1 Platform 
 
 You can access the *Actindo Core1 Platform* as usual with a username and a password.    
-Additionally, at your company, it might be necessary to use an additional authentication method to ensure that your company data is optimally protected. For detailed information, see [Set up U2F from the user side](../UsingCore1/01a_UserSetupActindo.md) and [Log in via U2F](./01b_U2FLogin.md).
+Additionally, at your company, it might be necessary to use an additional authentication method to ensure that your company data is optimally protected. For detailed information, see [Set up U2F from the user side](../UsingCore1/02a_UserSetupActindo.md#set-up-u2f-from-the-user-side) and [Log in via U2F](./02b_U2FLogin.md#log-in-via-u2f).
 
 
 ## Login to the Actindo Core1 Platform

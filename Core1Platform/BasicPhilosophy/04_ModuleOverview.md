@@ -1,7 +1,7 @@
 # Module overview
 
 In this part of the *Actindo Core1 Platform* documentation, you will find a brief overview on the most important *Actindo Core1 Platform* modules and technical components as well as a description of the data streams between these components.   
-<!---For a detailed illustration of the interactions between modules, see also the overview graphic [Module overview &ndash; Diagram](./04a_GraphicModuleOverview.md).-->
+
 
 
 ## Basic plugins and modules
@@ -97,13 +97,3 @@ The *Returns* module of the *Actindo Core1 Platform* offers the necessary basis 
 **Fulfillment**   
 Whether you work with external fulfillment providers or handle shipping yourself, the *Fulfillment* module allows you to seamlessly integrate external service providers for fast shipping processing and clear monitoring.  
 The module gets delivery notes from *Order Management System* (OMS) and provides stock updates for the *Warehouse Management* module. 
-
-
-<!--- rauslassen?
-**Reporting**    
-The *Reporting* module is a powerful tool to quickly access, retrieve and manage all data contained in your system. SQL, which stands for Structured Query Language, is used to communicate with your databases. Its applications range from selecting and retrieving data to altering table structures and updating contents, to name just a few. The *Reporting* module also allows you to create predefined queries to determine who can access your data and how. -->
-
-
-
-
-[^1]: **Disclaimer:** InfluxDB&trade; is a trademark owned by InfluxData, which is not affiliated with, and does not endorse, this site.  
