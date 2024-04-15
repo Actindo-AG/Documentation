@@ -40,7 +40,7 @@ The list displays an overview of all tasks created in the current instance. You 
 The following functions are available for the editing toolbar: 
 
 - [MARK DONE]  
-    Click this button to mark a task as done. This button is displayed if the checkbox of at least one open task with an ![Cross](../../Assets/Icons/Cross05.png "[Cross] ") (pending) status is selected.
+    Click this button to mark a task as done. This button is displayed if the checkbox of at least one open task with a ![Cross](../../Assets/Icons/Cross05.png "[Cross] ") (pending) status is selected.
 
 - [REOPEN]  
     Click this button to reopen a task. This button is displayed if the checkbox of at least one closed task with a ![Check](../../Assets/Icons/Check02.png "[Check]") (done) status is selected.
