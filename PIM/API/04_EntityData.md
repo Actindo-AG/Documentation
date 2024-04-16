@@ -2,18 +2,18 @@
 
 You can get all entity data you need via API. All entity data are provided in the response to your requests. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-In the following, a few request samples for the most usual use cases are provided.
+In the following, a few request samples for the most common use cases are provided.
 
 Required fields:
 
-attributeSetId
-variantSetId
+attributeSetId 
+variantSetId 
 Product ID
 Attributes ID
 
 ## Get product data
 
-Get all data stored in the database for a specific entity, for example, a product. If desired, you can also set filters.
+Get all data stored in the database for a specific entity, for example, a product. If desired, you can also set filters. For detailed information on how to set a filter, see []()
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.get
 

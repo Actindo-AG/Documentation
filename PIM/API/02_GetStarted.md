@@ -1,15 +1,15 @@
 # Get started
 
-[comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
+[comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine übergeordnete Ebene verschieben)
 
 
-## Using the Actindo Core1 OpenAPI
+## Using the Actindo Core1 API
 
-API documentation in Core1: *Dev Tools > API > PIM - Product Information Management*
+API documentation in Core1: *Dev Tools > API > Module name*
 
 ## OAuth authorization flow
 
-The Core1 uses the OAuth 2.0 open protocol to handle client authorization for API access. 
+The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. 
 
 ### Prerequisites
 
@@ -17,7 +17,7 @@ The Core1 uses the OAuth 2.0 open protocol to handle client authorization for AP
 - A user has been created.
 - The user has the appropriate rights.
 
-[comment]: <> (ggf. Link to user rights in Core1 hinzufügen)
+For detailed information on user rights, see [User rights](to-be-determined) in the Core1 documentation.
 
 ### Step 1: Register your app
 
@@ -38,10 +38,10 @@ If you want to gain access to the Core1 from your app via API, first of all you 
 
     The client ID for the Core1 must comply with the following requirements:
     - between 4 and a 31 characters long  
-    - allowed characters include upper and lower cases letters, numbers, underscore, and hyphen
+    - allowed characters include upper and lower cases letters, numbers, and underscore
     - beginning with a letter  
 
-[comment]: <> (Underscore und hyphen? Stimmt das? Wahrscheinlich auch mit einer Zahl am Anfang möglich laut Oli. Evtl. von Devs oder ImSpecs testen/bestätigen lassen und dementsprechend anpassen! UI muss verbessert werden, da Toggle darunter auch nicht funktioniert.)
+[comment]: <> (Wahrscheinlich auch mit einer Zahl am Anfang möglich laut Oli. Evtl. von Devs oder ImSpecs testen/bestätigen lassen und dementsprechend anpassen! UI muss verbessert werden, da Toggle darunter auch nicht funktioniert.)
 
 4. If available in your version, leave the toggle *Only authentication scopes open ID profile e-mail. You will not be able to call any methods besides getting profile data" disabled.
 
@@ -183,10 +183,14 @@ Access tokens are valid for a limited period of time. If your access token is ex
 
 ## Send your first request
 
-1. Authorization (Authorization header mit Bearer)  
-2. Header/Format  (Header mit Format application/json?)
-3. Find out required fields  
-4. Find out required fields id  
-5. Send request  
+1. Authorization (Authorization header mit Bearer)   
+2. Header/Format  (Header mit Format application/json?)  
+3. Find out required fields   
+4. Find out required fields id   
+5. Send request   
 
 [comment]: <> (to be completed)
+
+[comment]: <> (Architecture of the API, Workflow -> several calls needed to complete a task. Get list of IDs first, then create product. )
+
+[comment]: <> (Diagrams -> Architecture diagram, Workflow diagram)

@@ -4,12 +4,6 @@
 
 # Key concepts
 
-[comment]: <> (Alternativ: Key concepts)
-
-[comment]: <> (Architecture of the API, Workflow -> several calls needed to complete a task. Get list of IDs first, then create product. )
-
-[comment]: <> (Diagrams -> Architecture diagram, Workflow diagram)
-
 To be able to communicate via API with the *Actindo Core1 Platform*, you need to have a clear overview of the data structure that lies behind it.
 
 For an overview of the Actindo data model, see [Data model](../../DataHub/Overview/04_Basics.md).

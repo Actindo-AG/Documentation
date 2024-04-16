@@ -4,36 +4,17 @@
 
 ## Introduction
 
-In order for our *Actindo Core1 Digital Operations Platform* to fit into our technology driven era, it has to be fully connective and integrative. This is why our platform is built with the API-first strategy in mind. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
+The *Actindo Core1 Platform* is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
 
-**Available APIs**  
+The Core1 is highly configurable and expandable, using not only the Actindo App Store, but also including self-developed modules and extensions. Therefore, every Actindo Core1 account is unique in its API configuration due to the individual construction of the installed and extended modules.
 
-The *Actindo Core1 Digital Operations Platform* is highly configurable and expandable, using not only the Actindo App Store, but including self-developed modules and extensions. Therefore, every Actindo Core1 account is unique in its APIs due to the individual construction of the installed and extended modules.  
+On this documentation, you will find a general API specification of the platform itself, as well as common API use cases and examples for different Actindo modules and extensions in the specified versions. Individual accounts have different module versions and vendor profiles. To access the full API documentation specific to you instance, log in to your Core1 instance and navigate to *Dev Tools > API*.
 
-On this page, you will find the API specification of the platform itself, as well as all Actindo modules and extensions in their latest versions. Individual accounts have different versions and vendor profiles. Please log in and navigate to Dev Tools > API in order to get the full documentation connected to your specific account. 
+[comment]: <> (Double-check info. Wo kommt es her?)
 
-[comment]: <> (Info aus webseite oben - anpassen hier!)
+The *Actindo Core1 Platform API* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). 
 
-Info to be included:
-- Web API
-- REST(ful) API
-- accepts and returns json body requests
-- uses standard HTTP responses codes
-- authentication
-- verbs (methods) 
-
-[comment]: <> (Endpoint -> It varies depending on version!)
-
-The API allows you to integrate your external app with the *Actindo Core1 Digital Operations Platform*.
-
-[comment]: <> (Benefits of API integration, if relevant to add?)
-
-[comment]: <> (What is required to use the API?)
-
-*Actindo Core1 Platform* uses the OpenAPI 3.0 Specification (OAS). 
-
-[comment]: <> (Stimmt das so? Relevant zu erwähnen?)
-
+[comment]: <> (Supports REST, SOAP, welche andere? Relevant hier?)
 
 ## Authentication
 
@@ -60,7 +41,7 @@ For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/
 
 ## Format  
 
-The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format. 
+The *Actindo Core1 Platform API* accepts and returns json body requests. 
 
 ## Basic API architecture
 
@@ -70,9 +51,6 @@ The *Actindo Core1 OpenAPI* endpoints accept requests in JSON format.
 
 [comment]: <> (Graphik)
 
----
-
-[comment]: <> (type: "numeric"|"date": "<", "<=", ">", ">=", "=", "!="; type="list": "in"; type="string": "like"; type="all": "isNull","isNotNull")
 
 
 

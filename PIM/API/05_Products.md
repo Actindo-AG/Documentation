@@ -8,11 +8,13 @@ You can find out an entity ID via user interface or via API, see [Entities](./03
 
 Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes relevant for the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes > Search for pim_*.
 
-If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#get-a-list-of-attributes-in-an-attribute-set).
+If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"_pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#get-a-list-of-attributes-in-an-attribute-set).
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
 > [Caution] In the latest version of the *DataHub* module, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
+
+
 
 
 ## The product object
@@ -30,71 +32,93 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains the required field **id**. |
-| variantStatus | string | It indicates whether a product is a *master* or a *variant*. |
-| pim_variants | object | It defines the variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
-| pim_art_name | string | Product name |
-| pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_catalog | array of objects | Product category. It contains the required field **id**. |
-| pim_long_text | string | Product description <!-- Frage: Unterschied zu product description? --> |
-| pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
-| pim_ean | string | EAN code |
-| pim_customs_number | string | Customs tariff number |
-| pim_origin | object | Country of origin. It contains the required field **code3digit**. Country code format: ISO 3166-A3, e.g. DEU for Germany. <!-- Frage: gibt es auch code2digit? Wovon abhängig? --> |
-| pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
-| pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
-| pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
-| pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
-| pim_stock_value | number | Stock level in warehouse |
-| pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> It contains the required fields **unitId** and **dimensionId**. |
-| pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
-| pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
-| pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
-| pim_weight | object | Product weight. It contains the required fields **value** and **unitId**. |
-| pim_price | string | Product price |
-| pim_baseprice | string | Price per unit |
-| pim_products_url | string | Supplier link |
-| pim_products_keywords | string | Additional terms for search |
-| pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_tags | string | Tags <!-- Frage: Unterschied zwischen Tags und Keywords? --> |
-| pim_products_tags__scope__language | string | Tags in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_title | string | Meta title |
-| pim_products_meta_title__scope__language | string | Meta title in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_keywords | string | Meta keywords |
-| pim_products_meta_keywords__scope__language | string | Meta keywords in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_description | string | Product description |
-| pim_products_description__scope__language | string | Product description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_meta_description | string | Meta description |
-| pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_short_description | string | Product short description |
-| pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
-| pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
-| pim_products_relations | string | Adds related products, e.g. for product recommendation. |
-| pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
-| pim_images | string | It allows to upload images. |
-| pim_files | string | It allows to upload files. |
-| pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
-| pim_stock_germany | number | Stock level in warehouse (Germany) |
-| pim_stock_foreign | number | Stock level in warehouse (other countries) |
+| variantStatus | string | Product status. It indicates whether a product is a *single*, *master* or a *variant*. |
+| _pim_variants | object | It defines a variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
+| _pim_art_name | string | Product name |
+| _pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_catalog | string <!-- Frage: Stimmt so? --> | Product category. It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
+| _pim_long_text | string | Product description <!-- Frage: Unterschied zu product description? --> |
+| _pim_long_text__language | string | Product description in a specific language (if attribute multi-language) |
+| _pim_ean | string | EAN code |
+| _pim_customs_number | string | Customs tariff number |
+| _pim_origin | object | Country of origin. It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. |
+| _pim_valid_until | string | Expiration date <br> Format: YYYY-MM-DD HH:MM:SS |
+| _pim_is_sale | boolean | The product is a sale item. Options are *true* or *false*. |
+| _pim_fsk18 | boolean | Suitable for persons above 18. Options are *true* or *false*. |
+| _pim_product_digital | boolean | The product is a digital item. Options are *true* or *false*. |
+| _pim_stock_value | number | Stock level in warehouse |
+| _pim_salesunit | object <!-- oder string, wie in payload? --> | Sale unit. <!-- Frage: Unterschied zu is_sale? --> |
+| _pim_size_l | object | Product length. It contains the required fields **value** and **unitId**. |
+| _pim_size_b | object | Product width. It contains the required fields **value** and **unitId**. |
+| _pim_size_h | object | Product depth. It contains the required fields **value** and **unitId**. |
+| _pim_weight | object | Product weight. It contains the required fields **value** and **unitId**. |
+| _pim_price | string | Product price |
+| _pim_baseprice | string | Price per unit |
+| _pim_products_url | string | Supplier link |
+| _pim_products_keywords | string | Additional terms for search |
+| _pim_products_keywords__scope__language | string | Additional terms for search in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_tags | string | Tags <!-- Frage: Unterschied zwischen Tags und Keywords? --> |
+| _pim_products_tags__scope__language | string | Tags in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_title | string | Meta title |
+| _pim_products_meta_title__scope__language | string | Meta title in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_keywords | string | Meta keywords |
+| _pim_products_meta_keywords__scope__language | string | Meta keywords in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_description | string | Product description |
+| _pim_products_description__scope__language | string | Product description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_meta_description | string | Meta description |
+| _pim_products_meta_description__scope__language | string | Meta description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_short_description | string | Product short description |
+| _pim_products_short_description__scope__language | string | Product short description in a specific scope and language (if attribute multi-scope and multi-language) |
+| _pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
+| _pim_products_relations | string | Adds related products, e.g. for product recommendation. |
+| _pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
+| _pim_images | string | It allows to upload images. |
+| _pim_files | string | It allows to upload files. |
+| _pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> |
+| _pim_stock_germany | number | Stock level in warehouse (Germany) |
+| _pim_stock_foreign | number | Stock level in warehouse (other countries) |
 
 
-## Create a single product
+## Create a product
 
-Create a new single product. A single product is ...
+Create a new product. 
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.create
+You can create thee types of product:
+ - a single product
+ - a master product
+ - a variant product, see [Create a variant](./06_Variants.md#create-a-variant)
 
-#### Definitions
+Depending on the type of product, the required fields vary.
+
+### Definitions
 
 | Attribute       | Data type   | Description |
 | ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU | 
 | **attributeSetId**   | integer  | Attribute set identification number |
+| **variantStatus**   | string  | Indicates whether it is a *single*, *master* or *child*  |
+| **variantSet**   | object  | It contains the required field **id**.  |
+| **_pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
+
+Beispiel aus Console
+
+        "_pim_variants": {
+                        "variantSetId": 42,
+                        "isMasterEntity": true,
+                        "childrenIds": {
+                            "572": 572,
+                            "582": 582,
+                            "592": 592,
+                            "602": 602,
+                            "612": 612,
+                            "622": 622,
+                            "632": 632,
+                            "642": 642,
+                            "652": 652
+                        },
 
 
-#### Samples
-
-### Single product request
-
+### Sample: Single product
 
     {
         "product": {
@@ -103,44 +127,8 @@ Create a new single product. A single product is ...
         }
     }
 
-### Single product response
 
-    {
-        "product": {
-            "id": 822,
-            "sku": "Shirt_123",
-            "created": "2024-03-26 13:38:39",
-            "createdBy": 220741,
-            "createdByUsername": "User Name (username)",
-            "modified": "2024-03-26 13:38:39",
-            "modifiedBy": 220741,
-            "modifiedByUsername": "User Name (username)",
-            "lifecycleStatusChangedAt": null,
-            "lifecycleStatusChangedBy": null,
-            "lifecycleStatusChangedByUsername": null,
-            "attributeSetId": 622,
-            "attributeSetName": "Hemden",
-            "mappedAttributeSetIds": null,
-            "variantStatus": "single",
-            "lifecycleStatus": "active",
-            "isFrozenByMe": null,
-            "frozenDate": null,
-            "frozenByUid": null,
-            "frozenByName": null,
-            "frozenSesskey": null,
-            "frozenRequestId": null,
-            "entityId": 2617111665,
-            "_E": 2617111665
-        },
-        "success": true,
-        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
-        "displayMessageTitle": "Produkt erstellen",
-        "error": null,
-        "job_id": null
-    }
-
-
-### Single product in two languages request
+### Sample: Single product in two languages
 
 
     {
@@ -154,44 +142,7 @@ Create a new single product. A single product is ...
         }
     }
 
-### Single product in two languages response
-
-    {
-        "product": {
-            "id": 832,
-            "sku": "Shirt_456",
-            "created": "2024-03-26 13:43:37",
-            "createdBy": 220741,
-            "createdByUsername": "User Name (username)",
-            "modified": "2024-03-26 13:43:38",
-            "modifiedBy": 220741,
-            "modifiedByUsername": "User Name (username)",
-            "lifecycleStatusChangedAt": null,
-            "lifecycleStatusChangedBy": null,
-            "lifecycleStatusChangedByUsername": null,
-            "attributeSetId": 622,
-            "attributeSetName": "Hemden",
-            "mappedAttributeSetIds": null,
-            "variantStatus": "single",
-            "lifecycleStatus": "active",
-            "isFrozenByMe": null,
-            "frozenDate": null,
-            "frozenByUid": null,
-            "frozenByName": null,
-            "frozenSesskey": null,
-            "frozenRequestId": null,
-            "entityId": 2617111665,
-            "_E": 2617111665
-        },
-        "success": true,
-        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
-        "displayMessageTitle": "Produkt erstellen",
-        "error": null,
-        "job_id": null
-    }
-
-
-### Single product with different prices pro scope request
+### Sample: Single product with different prices pro scope
 
     {
         "product": {
@@ -202,27 +153,9 @@ Create a new single product. A single product is ...
         }
     }
 
-  
-### Single product with different prices pro scope response
 
+### Sample: Master product
 
-## Create a master product
-
-Create a master product. A master product is ...
-
-**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
-
-#### Definitions
-
-| Attribute       | Data type   | Description |
-| ----------- | ----------- | ----------- | 
-| **sku**      | string   |  Product SKU | 
-| **attributeSetId**   | integer  | Attribute set identification number |
-| **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
-
-#### Samples
-
-### Master product request
 
       {
           "product": {
@@ -232,61 +165,42 @@ Create a master product. A master product is ...
           }
       }
 
+[comment]: <> (Wie kann ich ein Master anlegen? So ist es single!)
 
-### Master product response
+### Sample: Variant product
+
+    {
+      "product": 
+        {
+          "sku": "VARIANT-Shirt_38",
+          "attributeSetId": 622,
+          "variantStatus": "child",
+          "variantSet": {
+            "id": 32
+          }
+        }
+    }
+
+[comment]: <> (Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "_pim_variants" object immer notwendig?)
+
+### Sample: Master product
+
 
       {
           "product": {
-              "id": 842,
-              "sku": "MASTER-Shirt_1234",
-              "created": "2024-03-26 13:48:02",
-              "createdBy": 220741,
-              "createdByUsername": "User Name (username)",
-              "modified": "2024-03-26 13:48:02",
-              "modifiedBy": 220741,
-              "modifiedByUsername": "User Name (username)",
-              "lifecycleStatusChangedAt": null,
-              "lifecycleStatusChangedBy": null,
-              "lifecycleStatusChangedByUsername": null,
+              "sku": "MASTER1",
               "attributeSetId": 622,
-              "attributeSetName": "Hemden",
-              "mappedAttributeSetIds": null,
               "variantStatus": "master",
-              "lifecycleStatus": "active",
-              "isFrozenByMe": null,
-              "frozenDate": null,
-              "frozenByUid": null,
-              "frozenByName": null,
-              "frozenSesskey": null,
-              "frozenRequestId": null,
-              "entityId": 2617111665,
-              "_E": 2617111665
-          },
-          "success": true,
-          "displayMessage": "Das Produkt wurde erfolgreich erstellt",
-          "displayMessageTitle": "Produkt erstellen",
-          "error": null,
-          "job_id": null
+              "_pim_variants": [
+                    "isMasterEntity": 1,
+                    "variantSetId": 2,
+                    "childrenIds": null
+              ]
+          }
       }
 
-## Create a variant product
 
-Create a variant product. A variant product is ...
-
-**Endpoint:** /Actindo.Modules.Actindo.PIM.Products.create
-
-#### Definitions
-
-| Attribute       | Data type   | Description |
-| ----------- | ----------- | ----------- | 
-| **sku**      | string   |  Product SKU | 
-| **attributeSetId**   | integer  | Attribute set identification number |
-| **variantStatus**   | string  | Indicates whether it is a *master* or a *child*  |
-| **variantSet**   | object  | It contains the required field **id**.  |
-
-#### Samples
-
-### Variant product request
+### Sample: Variant product
 
     {
       "product": 
@@ -301,53 +215,14 @@ Create a variant product. A variant product is ...
     }
 
 
-### Variant product response
-
-    {
-        "product": {
-            "id": 852,
-            "sku": "VARIANT-Shirt_38",
-            "created": "2024-03-26 13:51:25",
-            "createdBy": 220741,
-            "createdByUsername": "User Name (username)",
-            "modified": "2024-03-26 13:51:25",
-            "modifiedBy": 220741,
-            "modifiedByUsername": "User Name (username)",
-            "lifecycleStatusChangedAt": null,
-            "lifecycleStatusChangedBy": null,
-            "lifecycleStatusChangedByUsername": null,
-            "attributeSetId": 622,
-            "attributeSetName": "Hemden",
-            "mappedAttributeSetIds": null,
-            "variantStatus": "child",
-            "lifecycleStatus": "active",
-            "isFrozenByMe": null,
-            "frozenDate": null,
-            "frozenByUid": null,
-            "frozenByName": null,
-            "frozenSesskey": null,
-            "frozenRequestId": null,
-            "entityId": 2617111665,
-            "_E": 2617111665
-        },
-        "success": true,
-        "displayMessage": "Das Produkt wurde erfolgreich erstellt",
-        "displayMessageTitle": "Produkt erstellen",
-        "error": null,
-        "job_id": null
-    }
-
-
 
 ## Edit a product
 
 You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
 
-[comment]: <> (Modify single to master possible? How?)
-
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
-#### Definitions
+### Definitions
 
 For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
@@ -357,23 +232,61 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number  |
 
-#### Samples
 
-### Update price and add images request
+
+
+### Sample: Update product status (from single to master/variant)
+
+        {
+        "product": {
+            "id": 456,
+            "price": "65.00",
+            "_pim_images": "string",
+            }
+    }
+
+
+
+
+
+### Sample: Update price and add images request
 
     {
         "product": {
             "id": 456,
             "price": "65.00",
-            "pim_images": "string",
+            "_pim_images": "string",
             }
     }
 
-[comment]: <> (Wie werden die images hochgeladen/verbunden? Wo befinden sich die images?)
+Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "_pim_images" ist ein Objekt mit required field "Id"? Id ist Pfad auf ECM (Bild-Location)? 
 
-### Update price and add images response
+Beispiel aus Console: 
 
-### Add the product name in different languages request
+        "_pim_images": {
+                        "id": null,
+                        "images": [
+                            {
+                                "id": "\/EcmFileImage\/PIM Product\/Hosen\/IDS_FROM_501_TO_1000\/ACTT_actindotrousers-black",
+                                "title": "",
+                                "caption": "",
+                                "altText": "",
+                                "imageTags": "",
+                                "sortOrder": "0",
+                                "metaData": {
+                                    "metadataEnriched": "1669987520.136604"
+                                },
+                                "created": "2022-12-02 14:25:32",
+                                "modified": "2022-12-02 14:25:32",
+                                "size": 1773,
+                                "mimeType": "image\/png",
+                                "rawThumbnail": "data:image\/png;base64,\/9j\/4AAQSkZJRgABAQAAZABkAAD\/...",
+                                "_E": 4266546725
+                            }
+                        ],
+
+
+### Sample: Add the product name in different languages request
 
     {
         "product": {
@@ -383,15 +296,13 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
             }
     }
 
-### Add the product name in different languages response
 
-
-### Add variant defining attributes request
+### Sample: Add variant defining attributes request
 
     {
         "product": {
             "id": 782,
-            "pim_variants": {
+            "_pim_variants": {
                 "3,892": "Pink",
                 "3,902": "256",
                 "149": "1,989"
@@ -401,18 +312,17 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 
   [comment]: <> (Response: success, aber keine Änderung in CHILD1. Warum?)
 
-### Add variant defining attributes response
 
 
 ## Add variants to master product
 
-Once you have created variant products, you can add them to the corresponding master product. You ca also move a variant product to another master product. The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
+Once you have created your master and variant products, you can add them to the corresponding master product. You ca also move a variant product to another master product. The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
 
-#### Definitions
+### Definitions
 
-The required fields are marked in bold. For a list of *PIM* attributes, see [Create a product](#create-a-product). 
+The required fields are marked in bold. For a list of *PIM* attributes, see [The product object](#the-product-object). 
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
@@ -420,9 +330,8 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
 | **parentProduct**       | object    |  It contains the required field **id**.  |
 | **variantSet**          | object    |  It contains the required field **id**.  |
 
-#### Samples
 
-### Add a variant to master product request
+### Sample: Add a variant to master product request
 
       {
         "variantProduct": {
@@ -436,9 +345,9 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [Cre
         }
       }
 
-[comment]: <> ("error": "Call to a member function getVariantSet() on a non-object (null)",)
+"error": "Call to a member function getVariantSet() on a non-object (null)",
 
-### Add a variant to master product response
+### Sample: Add a variant to master product response
 
 [comment]: <> (Add multiple variants to a master product at a time?)
 
@@ -452,7 +361,7 @@ You can delete a product if it is no longer needed. If it is a master product, t
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
 
-#### Definitions
+### Definitions
 
 The required fields are marked in bold.
 
@@ -461,26 +370,12 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-#### Samples
-
-### Delete a product request
+### Sample: Delete a product request
 
     {
       "product": {
         "id": 456
       }
-    }
-
-### Delete a product response
-
-    {
-        "deleted": 1,
-        "notDeleted": 0,
-        "success": true,
-        "displayMessage": "Ein Produkt wurde endgültig gelöscht.",
-        "displayMessageTitle": "Produkte löschen",
-        "error": null,
-        "job_id": null
     }
 
 
@@ -490,7 +385,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
 
-#### Definitions
+### Definitions
 
 The required fields are marked in bold.
 
@@ -499,9 +394,7 @@ The required fields are marked in bold.
 | **id**      | integer    |  Product identification number |
 
 
-#### Samples
-
-### Move product to recycle bin request
+### Sample: Move product to recycle bin request
 
     {
       "product": {
@@ -511,18 +404,6 @@ The required fields are marked in bold.
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromRecycleBin
 
-### Move product to recycle bin response
-
-    {
-        "movedToRecycleBin": 1,
-        "notMovedToRecycleBin": 0,
-        "success": true,
-        "displayMessage": "Ein Produkt wurde gelöscht.",
-        "displayMessageTitle": "Produkte gelöscht",
-        "error": null,
-        "job_id": null
-    }
-
 
 ## Move a product to archive
 
@@ -530,7 +411,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
-#### Definitions
+### Definitions
 
 The required fields are marked in bold.
 
@@ -538,9 +419,8 @@ The required fields are marked in bold.
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number |
 
-#### Samples
 
-### Move product to archive request
+### Sample: Move product to archive request
 
     {
       "product": {
@@ -550,17 +430,7 @@ The required fields are marked in bold.
 
 > [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
 
-### Move product to archive response
 
-    {
-        "archived": 1,
-        "notArchived": 0,
-        "success": true,
-        "displayMessage": "Ein Produkt wurde archiviert.",
-        "displayMessageTitle": "Produkte in das Archiv verschoben.",
-        "error": null,
-        "job_id": null
-    }
 
 ## List products
 
@@ -585,9 +455,7 @@ The required fields are marked in bold.
 | limit | integer | Pagination: Pagination limit |
 
 
-#### Samples 
-
-### List products by creation date request
+### Sample: List products by creation date request
 
     {
       "filter": [
@@ -601,7 +469,7 @@ The required fields are marked in bold.
       "limit": 10
     }
 
-### List products by create date response
+### Sample: List products by create date response
 
     {
         "data": [
@@ -695,7 +563,7 @@ The required fields are marked in bold.
   
 [comment]: <> (Komisch! Alle als single, obwohl ein single, ein master und ein child)
 
-### List variant products request
+### Sample: List variant products request
 
     {
      "filter": [
@@ -710,7 +578,8 @@ The required fields are marked in bold.
 }
 
 
-### List variant products response
+### Sample: List variant products response
+
 
     {
         "data": [

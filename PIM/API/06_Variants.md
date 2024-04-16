@@ -7,7 +7,7 @@ The keys are customer-defined in *PIM*. Therefore, the fields displayed in the r
 > [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that the field may not be found when sending a request. In this case, you have to update the key, that is, the field, in your request body as well.
 
 
-## Create a variant
+## Create a variant to an existing master
 
 Create a single or multiple variants at once to a existing master product.
 
