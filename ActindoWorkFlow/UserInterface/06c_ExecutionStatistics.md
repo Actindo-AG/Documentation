@@ -16,7 +16,6 @@ The following functions and fields are available for this list:
 
 - [LOAD STATISTICS]    
    Click this button to display the statistic.
-
    
 - *Number of executions per outcome*   
     Specifies how often a process action has been processed per outcome.

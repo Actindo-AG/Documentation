@@ -29,21 +29,17 @@ In the following, the core actions, their use and their settings are described i
 
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
 
-The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running.
-> [Info] The process priority can be defined in the workflow configuration by a trigger, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
+The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Manipulate process priority](#manipulate-process-priority) core action you define here the new priority by an input port. This means that the priority is set dynamically and can be determined within the process or by a trigger. For detailed information, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
 
-The data runs via the *loop_through* input port into the process action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
-
-[comment]: <> (ticket ICBPM-199 in arbeit: static inputs sollen im priority input port möglich sein, ändern sobald möglich)
 
 ### Configuration   
 
 **Static inputs**
 
 The *Change process priority* core action has two input ports:
-- loop through: <!---TO BE ENHANCED-->
-- priority: New value used for the process priority.
 
+- loop through: The data runs via the *loop_through* input port into the process action and is output via the *p* output port without any changes.
+- priority: The data is only output when data has also been incoming via the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
 
 
 ## Extract value
@@ -65,7 +61,7 @@ Search for the parameter name of the objects's data model that is available in t
 
 ![Manipulate process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManipulateProcessPriority.png "[Manipulate process priority]")
 
-The *Manipulate process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Change process priority](#change-process-priority) core action you define here the new priority by a user input.
+The *Manipulate process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Change process priority](#change-process-priority) core action you define here the new priority by a user input. This means that the priority is set statically and not dynamically as with the change process priority transition.
 
 > [Info] The process priority can be defined in the workflow configuration by a trigger, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
 
@@ -287,11 +283,12 @@ The *Wait for parallel input* core action is used to insert a breakpoint when yo
 The data runs via the *p_data* input port into the process action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *p_trigger* input port.
 
 ### Configuration  
-<!---TO BE ENHANCED-->
-**Static inputs**
+
+**Static inputs**  
+
 The *Wait for parallel input* core action has two input ports:
-- p_data:
-- p_trigger
+- p_data:  
+- p_trigger: 
 
 
 

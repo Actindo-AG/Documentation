@@ -3,8 +3,10 @@
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
 The *Process Orchestration* module allows you to model your own processes to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
-For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md).
 
+For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md). For a detailed step-by-step description of how to use the workflow objects presented below in practice, see [Prepare the Workflows](../../POS/Integration/09_WorkflowAdjustments.md) in the *POS* documentation.
+
+<!--- Grafik ist neu, bitte prüfen-->
 ![Workflow configuration](../../Assets/Screenshots/ActindoWorkFlow/Overview/WorkflowConfiguration.png "[Workflow configuration]")
 
 
@@ -17,7 +19,7 @@ Since business processes, and the workflows that map them, evolve over time, wor
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 
 A process is an instance of a workflow, that is, the actual execution of a workflow configuration triggered by an event, for example, the creation of a business document. If you have created a workflow for a specific business transaction, in which all the required steps are described, a single process of this workflow will be started for each of these business transactions that is initiated, for example, for each business document that is newly created.
-
+<!--- Grafik ist neu, bitte prüfen-->
 ![Process execution](../../Assets/Screenshots/ActindoWorkFlow/Overview/ProcessExecution.png "[Process execution]")
 
 Workflow processes are initiated by a certain event. This event can either be defined via code or via the doctrine triggers configured in the *Process Orchestration* module. In the doctrine trigger, you can define the triggers as well as conditions that have to be fulfilled to initiate a certain workflow process, see [Manage the triggers](../Operation/02_ManageTriggers.md).

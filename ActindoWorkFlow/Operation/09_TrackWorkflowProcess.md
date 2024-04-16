@@ -204,7 +204,44 @@ The *Tokens* tab displays the tokens being processed. A token is a container car
 9. If necessary, click an action in the diagram to display further information in the *Actions* tab.   
 For detailed information about checking the action status, see [Check the process action status](#check-the-process-action-status).
 
-> [Info] A number is displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
+    > [Info] A number is displayed next to the status of each action. This number refers to the number of tokens processed in this action, and it depends on the action status and the number of tokens received.
+
+
+## Add process comments
+
+The *Comments* tab can be used to comment on a process so that you can leave notes about the execution of the process. You can use these notes for yourself, but also for other users to see that you have already reviewed the process and to explain your decisions.  
+
+You can write the comments in Markdown syntax.
+
+#### Prerequisites
+
+- A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
+- A workflow process has been initiated.
+
+#### Procedure
+
+*Process Orchestration > Processes > Tab OVERVIEW > Select process*
+
+![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
+
+1. Click the *Comment* tab.  
+    The *Comment* tab is displayed.
+
+    ![Comment tab](../../Assets/Screenshots/ActindoWorkFlow/Processes/CommentEmpty.png "[Comment tab]")
+
+2. Click the [ADD COMMENT] button.   
+    The *Add comment* window is opened.   
+
+    ![Add comment](../../Assets/Screenshots/ActindoWorkFlow/Processes/AddComment.png "[Add comment]")
+
+3. Enter your text in Markdown language
+
+    ![Write comment](../../Assets/Screenshots/ActindoWorkFlow/Processes/CommentRaw.png "[Write comment]")
+
+4. Click the [SAVE] button.   
+    The comment is displayed. Your name and username is displayed as well as the date and time of creation. You can use the [EDIT] and [DELETE] buttons to edit or delete the comment.
+
+    ![Saved comment](../../Assets/Screenshots/ActindoWorkFlow/Processes/CommentSaved.png "[Saved comment]")
 
 
 

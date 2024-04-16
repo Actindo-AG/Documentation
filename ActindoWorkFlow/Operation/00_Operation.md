@@ -44,6 +44,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Check the process status](./09_TrackWorkflowProcess.md#check-the-process-status)
     - [Check the process action status](./09_TrackWorkflowProcess.md#check-the-process-action-status)
     - [Check the token status and content](./09_TrackWorkflowProcess.md#check-the-token-status-and-content)
+    - [Add process comments](./09_TrackWorkflowProcess.md#add-process-comments)
     - [Check the execution log](./09_TrackWorkflowProcess.md#check-the-execution-log)
     - [Make a user decision](09_TrackWorkflowProcess.md#make-a-user-decision)
 

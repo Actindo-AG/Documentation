@@ -197,34 +197,32 @@ The workflow diagram includes the following elements:
         Priority is most relevant in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
     - *Max tries*   
-        Number of times the action execution must be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater 1, you can use a drop-down list to select a retry time strategy. The following retry time strategies are available:
-    
-        - **Constant**   
-            Define a constant value. For example, the constant value **3** means that each 3 minutes the action execution is to be retried depending on your setting in the *Max tries* field.
+        Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
 
-        - **CustomFunction**   
-            Use any php function to define the retry time. 
+        - **Constant**   
+            Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
+
+        - **CustomFunction**  
+            Use any suitable php function to define the retry time.
 
         - **Custom**   
-            Enter the number of retries, comma-separated for each retry for your setting in the *Max tries* field. For example, **2,7,9** means that the retry is done after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
+            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered 3 in the Max tries field.
 
         - **Exponential**   
-            The 
-            2,4,8,16
+            Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
 
         - **Linear**   
-        2,4,6,8,10,
+            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered 3 in the Max tries field.
 
-        - **Quadratic**  
-            2,4,16
-
+        - **Quadratic**   
+            Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
 
         Select the retry strategy and enter the required value in minutes in the *Strategy config value* field.
 
     - *Task event*  
         Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
 
-        > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+        > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module. For detailed information, see [Manage the events](Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     - *Long description*   
         If desired, edit a long text to document the transition. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor.

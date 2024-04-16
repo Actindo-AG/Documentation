@@ -60,10 +60,8 @@ The following functions and fields are available for this list:
    Key of the transition.
 
 - *Process*    
-<!--- Hallo Julian, Spalte ist leer, was sollte hier angezeigtwerden? -->   
+   <!--- Hallo Julian, Spalte ist leer, was sollte hier angezeigt werden? -->   
    
 
 - *ID*   
-<!--- Hallo Julian, was ist das für eine ID? Stimmt nicht mit Process ID überein-->
-   
- 
+   Sequential ID of the execution log.

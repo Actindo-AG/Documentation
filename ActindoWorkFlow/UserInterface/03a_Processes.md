@@ -66,15 +66,14 @@ The following functions and fields are available in this list:
     - **Aborted** (black)
 
 - *Suspended actions*  
-    If the process contains suspended actions, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to display the individual actions. <!---TO BE ENHANCED-->
+    If the process contains suspended actions, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to display the suspended action. If desired, start the action to continue and finalize the process.
 
 - *Has a manual action*   
     If the process contains a manual action, a ![Warning](../../Assets/Icons/Warning.png "[Warning]")(Warning) sign is displayed. Click the process to execute the manual action, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision).
 
-- *Subject*
-    <!---TO BE ENHANCED-->
+- *Subject*    
+    Representation of the token with which the process has been started. 
     
-
 - *Workflow*  
     Name of the corresponding workflow.
 
@@ -202,8 +201,35 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 - *Process action ID*  
     Action identification number. The ID number is automatically assigned by the system.
 
+### Comments
+
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Comments*
+
+![Saved comment](../../Assets/Screenshots/ActindoWorkFlow/Processes/CommentSaved.png "[Saved comment]")
+
+The following functions are available in this view.
+
+- [ADD COMMENT]   
+    Click this button to add a comment in Markdown syntax.    
+    The Add comment view is displayed.
+
+- [CLOSE]   
+    Click this button to close the *Add comment* or the *Edit comment* window.
+
+- [SAVE]   
+    Click this button to save your newly added notes or the changes to them.
+
+- [EDIT]   
+    Click this button to edit an existing comment. After you have saved your changes, your name and username as well as the date and time of the change is displayed. 
+
+- [DELETE]   
+    Click this button to delete the comment.
+
+
 
 ### Execution log
+
+*Process Orchestration > Processes > Tab OVERVIEW > Select a process > Tab Execution log*
 
 ![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
 
