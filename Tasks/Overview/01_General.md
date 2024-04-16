@@ -1,8 +1,12 @@
 # General information
 
-The *Tasks* module offers an overview of all tasks that need to be performed manually by a user. It integrates seamlessly with the *Process Orchestration* module and allows the automatic creation of tasks when a certain event occurs. 
+The *Tasks* module offers an overview of all tasks that need to be performed manually by a user. The filter function allows you to configure the view and display only the tasks that are relevant to you. 
 
-All these features combined allow you to further customize your business processes to meet your specific needs, to automate them to reduce errors and optimize resources, and to keep a closer control of them.  
+It integrates seamlessly with the *Process Orchestration* module and supports the automatic creation of tasks when a certain event occurs. It also allows you to define your own events and assign them to a responsible user or user group.
+
+[comment]: <> (Sebi: Werden Report Tasks in Workflows auch hier aufgelistet oder nur diejenige, die "automatisch" erstellt werden?)
+
+The *Tasks* module helps you to further customize your business processes to meet your specific needs, to automate them to reduce errors and optimize resources, and to keep a closer control of them.  
 
 Besides, the *Email* module integration (*Task Tracker Email Connection* plugin 1.1.0) allows you to configure the email notifications per event every time a task is created.
 

@@ -110,7 +110,7 @@ The task details view contains all related information to the selected task. It 
 - [Dependencies](#tasks-–-dependencies)
 - [ETL processes](#tasks-–-etl-processes)
 
-[comment]: <> (Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
+[comment]: <> (Sebi/Entwicklung: Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
 
 The following fields and functions are available in this view:
 

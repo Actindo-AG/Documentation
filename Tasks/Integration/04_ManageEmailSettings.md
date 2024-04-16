@@ -130,3 +130,6 @@ The general settings have been configured, see [Configure the general settings](
 
 3. Click the [SAVE] button.  
     A confirmation message is displayed. The email sending settings have been saved.
+
+
+[comment]: <> (Wo kann man die E-Mail-Text erfassen?)

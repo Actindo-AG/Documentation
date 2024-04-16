@@ -38,7 +38,7 @@ The following functions and fields are available in this view:
 - *Obsolete/Active*  
     Indication whether the event is **Active** or **Obsolete**.
 
-[comment]: <> (Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Kann man deaktivieren?)
+[comment]: <> (Sebi: Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Wie geht das? Man kann nirgendwo deaktivieren, oder?)
 
 - *Identifier*  
     Event identifier. The event identifier is similar to a key and therefore must be system-wide unique.

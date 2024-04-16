@@ -9,7 +9,7 @@ You can create events manually in the *Tasks* module. However, most events are a
 
 When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
-[comment]: <> (Ist es nicht eine Voraussetzung, dass ich einen zuvor in der Workflow Config einen "Task event" in der Transition angebe, damit das passiert?)
+[comment]: <> (Sebi: Stimmt das so wie oben beschrieben? Oder ist es eine Voraussetzung, dass ich einen zuvor in der Workflow Config einen "Task event" in der Transition angebe, damit das passiert?)
 
 [comment]: <> (Link anpassen, wenn veröffentlicht: For detailed information, see Track the workflow process in the Process Orchestration documentation. ActindoWorkFlow/Operation/09_TrackWorkflowProcess.md)
 
@@ -55,7 +55,7 @@ No prerequisites to fulfill.
 
     > [Info] If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
 
-[comment]: <> (Muss man oder kann man ein responsible user und responsible user group hier auswählen? Was passiert, wenn die Task keinem User/keiner Gruppe zugewiesen ist? Keine Email-Benachrichtigung geschickt? Oder wohin wird die Email geschickt, wenn eingestellt?)
+[comment]: <> (Sebi: Muss man oder kann man ein responsible user und responsible user group hier auswählen? Was passiert, wenn die Task keinem User/keiner Gruppe zugewiesen ist? Keine Email-Benachrichtigung geschickt? Oder wohin wird die Email geschickt, wenn eingestellt?)
 
 7. Click the [SAVE] button.  
     A confirmation message is displayed. The event has been saved. The *Create event* view is closed.  
