@@ -36,7 +36,7 @@ The following functions and fields are available in this view:
     User group to whom the event is assigned. If the event is not assigned to any user group, **Unassigned** is displayed.
 
 - *Obsolete/Active*  
-    Indication whether the event is **Active** or **Obsolete**.
+    Indication whether the event is **Active** or **Obsolete**. 
 
 [comment]: <> (Sebi: Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Wie geht das? Man kann nirgendwo deaktivieren, oder?)
 
