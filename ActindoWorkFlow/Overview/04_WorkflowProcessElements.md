@@ -77,8 +77,8 @@ The transition settings sidebar is located to the right of the workspace and all
     Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge. Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
 - *Static inputs*  
-    All unlinked input ports are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
-    For detailed information, see [Insert static input](./06_InsertStaticInput.md).
+    All unlinked input ports are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted, for example text ("text"), numbers ("42") or JSON objects ({"dispatchNote": {"id": 42}}). When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
+    For detailed information, see [Insert a static input](./06_InsertStaticInput.md).
 
 
 

@@ -1,6 +1,6 @@
 # Insert a static input
 
-With the static input function, you can use an input port to pass customer-specific data to a transition, with which you want to process it.     
+With the static input function, you can use an input port to pass customer-specific data to a transition, with which you want to process it. Only valid JSON values are accepted, for example text ("text"), numbers ("42") or JSON objects ({"dispatchNote": {"id": 42}}).  
 For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start place and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to an API endpoint.   
 
 The following procedure shows an example of how to edit the static inputs by adding a sales channel information that requires complex JSON code. 
@@ -25,13 +25,12 @@ The following procedure shows an example of how to edit the static inputs by add
 2. Check the API used in the API documentation. To do this, select *Dev Tools > API > Select API tab* and select the desired API.    
     The API documentation is displayed. On the left side, the API list is displayed. The middle column contains the parameters. The right side shows the JSON code of the API parameters. 
       
-    ![PI documentation](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowAPIDocumentation.png "[API documentation]")
+    ![API documentation](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowAPIDocumentation.png "[API documentation]")
 
     
 3. Check the parameters of the API.    
     All required parameters are indicated. You must fill the required parameters to ensure a smooth data transfer.
      
-
    ![API parameters](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputParameters.png "[API parameters]")
    
 4. Expand all parameters which have a complex structure. To do this, click the ![Collapsed](../../Assets/Icons/Close.png "[Collapsed]") (Collapsed) button at the parameter value.   
