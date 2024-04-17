@@ -13,4 +13,4 @@ The *ATTRIBUTE SETS* tab in the *Tasks* module equals the *ATTRIBUTE SETS* tab c
 
 For detailed information on how to manage an attribute set, see [Manage an attribute](../../DataHub/Integration/02_ManageAttributeSets.md) in the *DataHub* documentation.
 
-[comment]: <> (Sebi/Entwicklung: Bitte LOCK-Button aus Editing Toolbar abbauen!)
+[comment]: <> (Entwicklung: Bitte LOCK-Button aus Editing Toolbar abbauen!)

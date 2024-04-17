@@ -40,6 +40,8 @@ The following functions and fields are available in this view:
 
 [comment]: <> (Sebi: Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Wie geht das? Man kann nirgendwo deaktivieren, oder?)
 
+[Comment]: <> (Sebi: Terminologiefragen: Assignee, responsible user/user group -> ist es das gleiche? Oder unterschiedliche Verantwortungsebenen? Vereinheitlichen sinnvoll? Identifiert gleich Schlüssel/key? Sinnvoller zu ändern?)
+
 - *Identifier*  
     Event identifier. The event identifier is similar to a key and therefore must be system-wide unique.
 

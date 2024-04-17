@@ -132,4 +132,4 @@ The general settings have been configured, see [Configure the general settings](
     A confirmation message is displayed. The email sending settings have been saved.
 
 
-[comment]: <> (Wo kann man die E-Mail-Text erfassen?)
+[comment]: <> (Wo kann man die E-Mail-Text erfassen? Oder hier ist immer gleich, egal welches Event/task, also nur eine "Benachrichtigung"?S. Email-Module.)

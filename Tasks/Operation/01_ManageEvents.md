@@ -7,9 +7,9 @@ An event is an occurrence that originates a task. For example, when inconsistenc
 
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
-When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This event creates a task as soon as an error occurs in a process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This means that a task is created by default every time an error occurs in any action of the process. If a specific event is set in an individual process action, then the task is created for the set event when the as long as no other event is configured in the process action where the error occurs. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
-[comment]: <> (Sebi: Stimmt das so wie oben beschrieben? Oder ist es eine Voraussetzung, dass ich einen zuvor in der Workflow Config einen "Task event" in der Transition angebe, damit das passiert?)
+[comment]: <> (Check Task event in Workflows, usw.)
 
 [comment]: <> (Link anpassen, wenn veröffentlicht: For detailed information, see Track the workflow process in the Process Orchestration documentation. ActindoWorkFlow/Operation/09_TrackWorkflowProcess.md)
 
