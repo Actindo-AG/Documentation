@@ -322,7 +322,7 @@ Edit a transition to define its settings.
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
     + Click the *Long description* field if you want to document the process step you added.   
-    The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
+    The *Edit long description* window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
 
         ![Edit long description](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditLongDescription.png "[Edit long description]")
 

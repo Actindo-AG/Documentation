@@ -19,6 +19,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Workflow versions](./02a_Workflows.md#workflow-versions)
     - [Workflow editor](./02a_Workflows.md#workflow-editor)
     - [Edit trigger for workflow "Workflow name"](./02a_Workflows.md#edit-trigger-for-workflow-workflow-name)
+    - [Workflow &ndash; Compare Workflows](./02a_Workflows.md#workflow-–-compare-workflow - versions)
     - [Import JSON](./02a_Workflows.md#import-json)
     - [Export JSON](./02a_Workflows.md#export-json)
     - [Search for an action](./02a_Workflows.md#search-for-an-action)

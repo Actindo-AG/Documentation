@@ -86,7 +86,7 @@ The *Process ID* view displays a diagram of the selected process including all p
     ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
 
     + Click the [Info] button to read the documentation.  
-      The *Long description* pop-up window is displayed.
+      The *Long description* window is displayed.
 
     + Click the [Close] button in the bottom right corner to close the window.
 
@@ -323,7 +323,7 @@ A process will be paused if a manual action is waiting for a user decision, for 
     The editing toolbar is displayed.
 
 4. Click the [TAKE DECISION] button.   
-   The *Take decision* pop-up window is displayed.
+   The *Take decision* window is displayed.
    
    ![Take decision](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionsTakeDecision.png "[Take decision]")
 

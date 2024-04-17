@@ -225,7 +225,7 @@ The workflow diagram includes the following elements:
         > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module. For detailed information, see [Manage the events](Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     - *Long description*   
-        If desired, edit a long text to document the transition. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor.
+        If desired, edit a long text to document the transition. The *Edit long description* window is displayed. You can add a long text using a simple markdown editor.
 
     - *Configuration*  
         Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
@@ -254,7 +254,7 @@ The workflow diagram includes the following elements:
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
-The *Edit trigger for workflow "workflow name"* pop-up window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
+The *Edit trigger for workflow "workflow name"* window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add trigger)  
     Click this button to add a trigger. A trigger input line is displayed.
@@ -346,6 +346,20 @@ The *Edit trigger for workflow "workflow name"* pop-up window allows you to dete
 
 - [APPLY CHANGES]  
     Click this button to save all changes made to the trigger(s).
+
+## Workflow &ndash; Compare workflow version
+
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Show changes*
+
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Click COMPARE button*
+
+  ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")  
+
+**Workflows**
+
+The *Workflow* window displays to versions of a workflow configuration.
+
+The following fields and functions are available in this window:
 
 
 

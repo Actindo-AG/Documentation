@@ -71,7 +71,7 @@ The transition settings sidebar is located to the right of the workspace and all
     > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
 - *Long description*    
-    If desired, edit a long text to document the transition. The *Edit long description* pop-up window is displayed. You can add a long text using a simple markdown editor.
+    If desired, edit a long text to document the transition. The *Edit long description* window is displayed. You can add a long text using a simple markdown editor.
 
 - *Configuration*  
     Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge. Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
