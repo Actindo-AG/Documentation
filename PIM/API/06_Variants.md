@@ -1,15 +1,15 @@
-# Variants
+# Variant products
 
-You can create, edit, delete, and list *PIM* variants via API. You can also create, edit, delete, and list variant sets. 
+You can create, edit, delete, and list *PIM* variant products via API. The endpoint */Actindo.Modules.Actindo.PIM.Variants.create* allows you to manage variant products within an existing master product. 
 
 The keys are customer-defined in *PIM*. Therefore, the fields displayed in the request samples should just serve as an example.   
 
 > [Caution] If you modify a key in the *DataHub* or *PIM* modules, which is strongly discouraged, the key in the API changes as well. This means that the field may not be found when sending a request. In this case, you have to update the key, that is, the field, in your request body as well.
 
 
-## Create a variant to an existing master
+## Create a variant product
 
-Create a single or multiple variants at once to a existing master product.
+Create a single or multiple variant products at once to a existing master product.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
@@ -21,124 +21,80 @@ The required fields are marked in bold.
 | ----------- | ----------- | ---------- | 
 | **masterId**      | integer   |  Master product identification number |
 | **variantSetId**   | integer  | Variant set identification number |
-| **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
+| **variants** | array of objects | It contains the required field **definingAttributeValues**, and the optional *differingAttributeValues* and *additionalFields*. | 
 
 
 You have to include all required fields in the JSON file and provide them with a value. The **masterId** and **variantSetId** values must be existing values in *DataHub*. To find out the entity ID, see [Entity ID](./02_Basics.md#entity-id). 
 
-Depending on the data you want to specify, you have to add the corresponding fields in your request. For a complete list of the fields relevant for the variant set of the variant you want to add, you can check the corresponding variant set in the *PIM* module under *PIM > Settings > Variant sets*. Alternatively, you can find a list of the existing variants, if any, and the assigned variant set for a specific product under *PIM > Products > Select a master product > Tab Variants*.
+Depending on the data you want to specify, you have to add the corresponding fields in your request. For a complete list of the fields relevant for the variant set of the variant product you want to add, you can check the corresponding variant set in the *PIM* module under *PIM > Settings > Variant sets*. Alternatively, you can find a list of the existing variant products, if any, and the assigned variant set for a specific master product under *PIM > Products > Select a master product > Tab Variants*.
 
 [comment]: <> (Stimmt das? Sinnvoll zu erklären?)
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
 
-### Request samples  
-
-#### Create a single variant
+### Sample: Create a single variant product
 
     {
-        "masterId": 872,
-        "variantSetId": 32,
+        "masterId": 881,
+        "variantSetId": 91,
         "variants": [
             {
                 "definingAttributeValues": {
-                    "_pim_collar_size": 47
+                    "_pim_ean": 123456789
                 },
-                "additionalFields": {
-                    "sku": "variant-47"
-                }
+                "additionalFields": null
             }
         ]
     }
 
-#### Create multiple variants 
+
+### Sample: Create multiple variant products 
 
 
     {
-        "masterId": 872,
-        "variantSetId": 32,
+        "masterId": 881,
+        "variantSetId": 91,
         "variants": [
             {
                 "definingAttributeValues": {
-                    "_pim_collar_size": 47
+                    "_pim_ean": 234567890
                 },
-                "additionalFields": {
-                    "sku": "variant-47"
-                }
+                "additionalFields": null
             },
             {
                 "definingAttributeValues": {
-                    "_pim_collar_size": 48
+                    "_pim_ean": 345678912
                 },
-                "additionalFields": {
-                    "sku": "variant-48"
-                }
-          }
-      ]
+                "additionalFields": null
+            }
+        ]
     }
 
 
 
-## Edit a variant
+## Edit a variant product
 
-To edit a variant, see [Edit a product](./03_Products.md#edit-a-product).
+You can edit a single o multiple variant products at once via API, for example, to add an image or update the price. 
+To edit a variant product, see [Edit a product](./03_Products.md#edit-a-product).
 
-[comment]: <> (Stimmt das so?)
+Bear in mind that only variant-specific attributes, such as EAN code, image, color, or size, can be modified in the variants. Values that are inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
 
----
-
-You can edit a variant via API, for example to add an image or update a value.
-
-> [Info] Bear in mind that only variant-specific attributes, such as EAN code, image, color, or size, can be modified in the variants. Values that have been inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
-
-[comment]: <> (Überhaupt möglich? Stimmt das so? Use case?)
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.save
-
-[comment]: <> (Gibt es das überhaupt? In meiner API-Doku in DOP nicht gefunden! Oder ist es eher via Create product?)
+The variant-specific attributes must be included in the variant set.
 
 
-### Definitions
+## Delete a variant product
 
-The required fields are marked in bold.
-
-| Attribute      | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **masterId**      | integer   |  Master product identification number |
-| **variantSetId**   | integer  | PIM variant set identification number |
-| **variants** | array of objects | It contains the fields *definingAttributeValues*, *differingAttributeValues*, and *additionalFields*. | 
-
-### Request samples
-
-#### Edit a variant to add an image
+To delete a variant product, see [Delete a product](./05_Products.md#delete-a-product).
 
 
-    {
-      "masterId": 0,
-      "variantSetId": 0,
-      "variants": [
-        {
-          "definingAttributeValues": {},
-          "differingAttributeValues": {},
-          "additionalFields": "string"
-        }
-      ]
-    }
+## List variants to a master product
 
+[comment]: <> (Überhaupt möglich???)
 
-[comment]: <> (Sinnvolle use cases?)
+Get a list of variants to a master product. You can set one or more filters.
 
-
-## List variants
-
-Get a list of variants. You can set one or more filters.
-
-[comment]: <> (Sinnvoll für Kunden?)
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
-
-[comment]: <> (oder /Actindo.Modules.Actindo.PIM.PIM.listProducts?)
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
 
 ### Definitions
@@ -189,18 +145,6 @@ Get a list of variants. You can set one or more filters.
     }
 
 
-
-{
-/*    "filter": [
-        {
-            "property": "variantStatus",
-            "operator": "like",
-            "value": "child"
-        }
-    ],*/
-    "start": 0,
-    "limit": 5000
-}
 
 
 

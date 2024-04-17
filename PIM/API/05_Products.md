@@ -83,10 +83,12 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 Create a new product. 
 
-You can create thee types of product:
- - a single product
- - a master product
- - a variant product, see [Create a variant](./06_Variants.md#create-a-variant)
+You can create three types of product:
+ - a single product, that is, a product without variations, such as a game 
+ - a master product, that is, a product with variations, for example, in size or color
+ - a variant product, that is, each of the variations of a master product 
+ 
+ For detailed information, see [Create a variant](./06_Variants.md#create-a-variant).
 
 Depending on the type of product, the required fields vary.
 
@@ -100,23 +102,6 @@ Depending on the type of product, the required fields vary.
 | **variantSet**   | object  | It contains the required field **id**.  |
 | **_pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
 
-Beispiel aus Console
-
-        "_pim_variants": {
-                        "variantSetId": 42,
-                        "isMasterEntity": true,
-                        "childrenIds": {
-                            "572": 572,
-                            "582": 582,
-                            "592": 592,
-                            "602": 602,
-                            "612": 612,
-                            "622": 622,
-                            "632": 632,
-                            "642": 642,
-                            "652": 652
-                        },
-
 
 ### Sample: Single product
 
@@ -127,9 +112,7 @@ Beispiel aus Console
         }
     }
 
-
 ### Sample: Single product in two languages
-
 
     {
         "product": {
@@ -153,66 +136,35 @@ Beispiel aus Console
         }
     }
 
-
 ### Sample: Master product
 
-
-      {
-          "product": {
-              "sku": "MASTER1",
-              "attributeSetId": 622,
-              "variantStatus": "master"
-          }
-      }
-
-[comment]: <> (Wie kann ich ein Master anlegen? So ist es single!)
+    {
+        "product": {
+            "sku": "Master-product",
+            "attributeSetId": 102,
+            "variantStatus": "master",
+            "_pim_variants": {
+                "isMasterEntity": true,
+                "variantSetId": 91
+            }
+        }
+    }
 
 ### Sample: Variant product
 
     {
       "product": 
         {
-          "sku": "VARIANT-Shirt_38",
-          "attributeSetId": 622,
+          "sku": "Variant-product-1",
+          "attributeSetId": 102,
           "variantStatus": "child",
           "variantSet": {
-            "id": 32
+            "id": 91
           }
         }
     }
 
-[comment]: <> (Achtung! Wenn ich sie so erstelle, werden nur als "single" betrachtet. "_pim_variants" object immer notwendig?)
-
-### Sample: Master product
-
-
-      {
-          "product": {
-              "sku": "MASTER1",
-              "attributeSetId": 622,
-              "variantStatus": "master",
-              "_pim_variants": [
-                    "isMasterEntity": 1,
-                    "variantSetId": 2,
-                    "childrenIds": null
-              ]
-          }
-      }
-
-
-### Sample: Variant product
-
-    {
-      "product": 
-        {
-          "sku": "VARIANT-Shirt_38",
-          "attributeSetId": 622,
-          "variantStatus": "child",
-          "variantSet": {
-            "id": 32
-          }
-        }
-    }
+[comment]: <> (child erstellt ABER defining attributes müssen via SAVE definiert werden, sonst keine Verknüpfung möglich! Geht nicht! Zwei save calls nötig? Einmal add variant set und einmal set defining attributes?)
 
 
 
@@ -233,8 +185,6 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | **id**      | integer    |  Product identification number  |
 
 
-
-
 ### Sample: Update product status (from single to master/variant)
 
         {
@@ -243,47 +193,26 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
             "price": "65.00",
             "_pim_images": "string",
             }
-    }
+        }
 
 
+### Sample: Add an image to a product
+
+"_pim_images" must be included in the variant set! Achtung! _pim_images is an object.
 
 
-
-### Sample: Update price and add images request
-
-    {
-        "product": {
-            "id": 456,
-            "price": "65.00",
-            "_pim_images": "string",
-            }
-    }
-
-Wie werden die images hochgeladen/verbunden? Wo befinden sich die images? "_pim_images" ist ein Objekt mit required field "Id"? Id ist Pfad auf ECM (Bild-Location)? 
-
-Beispiel aus Console: 
-
+{
+    "product": {
+        "id": 891,
         "_pim_images": {
-                        "id": null,
-                        "images": [
-                            {
-                                "id": "\/EcmFileImage\/PIM Product\/Hosen\/IDS_FROM_501_TO_1000\/ACTT_actindotrousers-black",
-                                "title": "",
-                                "caption": "",
-                                "altText": "",
-                                "imageTags": "",
-                                "sortOrder": "0",
-                                "metaData": {
-                                    "metadataEnriched": "1669987520.136604"
-                                },
-                                "created": "2022-12-02 14:25:32",
-                                "modified": "2022-12-02 14:25:32",
-                                "size": 1773,
-                                "mimeType": "image\/png",
-                                "rawThumbnail": "data:image\/png;base64,\/9j\/4AAQSkZJRgABAQAAZABkAAD\/...",
-                                "_E": 4266546725
-                            }
-                        ],
+            "images": [
+                {
+                    "id": "/EcmFileImage/PIM Product/Hosen/IDS_FROM_1_TO_500/632_actindotrousers-blue"
+                }
+            ]
+        }
+    }
+}    
 
 
 ### Sample: Add the product name in different languages request
@@ -309,9 +238,6 @@ Beispiel aus Console:
             }
         }
     }
-
-  [comment]: <> (Response: success, aber keine Änderung in CHILD1. Warum?)
-
 
 
 ## Add variants to master product
@@ -438,7 +364,7 @@ Get a list of all products including the ones in the archive or recycle bin. You
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
-#### Definitions
+### Definitions
 
 The required fields are marked in bold.
 
@@ -455,7 +381,7 @@ The required fields are marked in bold.
 | limit | integer | Pagination: Pagination limit |
 
 
-### Sample: List products by creation date request
+### Sample: List products by creation date
 
     {
       "filter": [
@@ -466,104 +392,12 @@ The required fields are marked in bold.
         }
       ],
       "start": 0,
-      "limit": 10
+      "limit": 500
     }
 
-### Sample: List products by create date response
 
-    {
-        "data": [
-            {
-                "id": 822,
-                "sku": "Shirt_123",
-                "created": "2024-03-26 13:38:39",
-                "createdBy": 220741,
-                "createdByUsername": "User Name (username)",
-                "modified": "2024-03-26 13:38:39",
-                "modifiedBy": 220741,
-                "modifiedByUsername": "User Name (username)",
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 622,
-                "attributeSetName": "Hemden",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "single",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 832,
-                "sku": "Shirt_456",
-                "created": "2024-03-26 13:43:37",
-                "createdBy": 220741,
-                "createdByUsername": "User Name (username)",
-                "modified": "2024-03-26 13:43:37",
-                "modifiedBy": 220741,
-                "modifiedByUsername": "User Name (username)",
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 622,
-                "attributeSetName": "Hemden",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "single",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 852,
-                "sku": "VARIANT-Shirt_38",
-                "created": "2024-03-26 13:51:25",
-                "createdBy": 220741,
-                "createdByUsername": "User Name (username)",
-                "modified": "2024-03-26 14:46:51",
-                "modifiedBy": 220741,
-                "modifiedByUsername": "User Name (username)",
-                "lifecycleStatusChangedAt": "2024-03-26 14:46:51",
-                "lifecycleStatusChangedBy": 220741,
-                "lifecycleStatusChangedByUsername": "User Name (username)",
-                "attributeSetId": 622,
-                "attributeSetName": "Hemden",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "single",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            }
-        ],
-        "n_rows": 3,
-        "success": true,
-        "displayMessage": null,
-        "displayMessageTitle": null,
-        "error": null,
-        "job_id": null
-    }
 
-  
-[comment]: <> (Komisch! Alle als single, obwohl ein single, ein master und ein child)
-
-### Sample: List variant products request
+### Sample: List variant products
 
     {
      "filter": [
@@ -574,150 +408,13 @@ The required fields are marked in bold.
         }
     ],
     "start": 0,
-    "limit": 5
-}
-
-
-### Sample: List variant products response
-
-
-    {
-        "data": [
-            {
-                "id": 12,
-                "sku": "IP13-pink-128GB",
-                "created": "2022-12-02 14:23:08",
-                "createdBy": 225622,
-                "createdByUsername": null,
-                "modified": "2022-12-02 14:32:15",
-                "modifiedBy": 225622,
-                "modifiedByUsername": null,
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 592,
-                "attributeSetName": "Smartphones",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "child",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 22,
-                "sku": "IP13-pink-256GB",
-                "created": "2022-12-02 14:23:10",
-                "createdBy": 225622,
-                "createdByUsername": null,
-                "modified": "2022-12-02 14:32:22",
-                "modifiedBy": 225622,
-                "modifiedByUsername": null,
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 592,
-                "attributeSetName": "Smartphones",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "child",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 32,
-                "sku": "IP13-pink-512GB",
-                "created": "2022-12-02 14:23:11",
-                "createdBy": 225622,
-                "createdByUsername": null,
-                "modified": "2022-12-02 14:32:22",
-                "modifiedBy": 225622,
-                "modifiedByUsername": null,
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 592,
-                "attributeSetName": "Smartphones",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "child",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 42,
-                "sku": "IP13-blue-128GB",
-                "created": "2022-12-02 14:23:12",
-                "createdBy": 225622,
-                "createdByUsername": null,
-                "modified": "2022-12-02 14:32:23",
-                "modifiedBy": 225622,
-                "modifiedByUsername": null,
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 592,
-                "attributeSetName": "Smartphones",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "child",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            },
-            {
-                "id": 52,
-                "sku": "IP13-blue-256GB",
-                "created": "2022-12-02 14:23:14",
-                "createdBy": 225622,
-                "createdByUsername": null,
-                "modified": "2022-12-02 14:32:23",
-                "modifiedBy": 225622,
-                "modifiedByUsername": null,
-                "lifecycleStatusChangedAt": null,
-                "lifecycleStatusChangedBy": null,
-                "lifecycleStatusChangedByUsername": null,
-                "attributeSetId": 592,
-                "attributeSetName": "Smartphones",
-                "mappedAttributeSetIds": null,
-                "variantStatus": "child",
-                "lifecycleStatus": "active",
-                "isFrozenByMe": false,
-                "frozenDate": null,
-                "frozenByUid": null,
-                "frozenByName": null,
-                "frozenSesskey": null,
-                "frozenRequestId": null,
-                "entityId": 2617111665,
-                "_E": 2617111665
-            }
-        ],
-        "n_rows": 63,
-        "success": true,
-        "displayMessage": null,
-        "displayMessageTitle": null,
-        "error": null,
-        "job_id": null
+    "limit": 500
     }
+
+> [Info] Similarly, you can list all master and all single products by changing the value to "master" and "single" respectively. 
+
+
+
+
+
+
