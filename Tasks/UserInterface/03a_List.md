@@ -38,7 +38,7 @@ The following functions and fields are available in this view:
 - *Obsolete/Active*  
     Indication whether the event is **Active** or **Obsolete**. 
 
-[comment]: <> (Sebi: Was bedeutet es, wenn ein Event Obsolete ist? Nicht mehr in Gebrauch? Wie geht das? Man kann nirgendwo deaktivieren, oder?)
+    > [Info] If an event has the status *Obsolete*, it means that it was once active but is currently not in use. That can be the case, for example, for events that are created automatically when installing a plugin, such as Omni-Channel. If an Omni-Channel connection no longer exists or is currently not in use, the corresponding event is marked as *Obsolete*. Events cannot be deleted, since there are related data stored in the database. Besides, the event can be relevant again if the related connection or plugin is used again.  
 
 - *Identifier*  
     Event identifier. The event identifier is similar to a key and therefore must be system-wide unique.

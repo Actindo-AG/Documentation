@@ -5,7 +5,8 @@
 The *EMAIL SETTINGS* tab allows you configure how a user is notified per email when a task is created. It contains a menu on the left with two settings entries: *General settings* and
 *Email sending per event*.
 
-To configure the email general settings, see [Configure the general settings](#configure-the-general-settings). To configure the email notification settings, see [Configure the email sending per event](#configure-the-email-sending-per-event).
+To configure the email general settings, see [Configure the general settings](#configure-the-general-settings).  
+To configure the email notification settings, see [Configure the email sending per event](#configure-the-email-sending-per-event).
 
 > [Info] This tab is only displayed if the *Email* module (1.6.1 version or higher) is installed. 
 
@@ -36,7 +37,7 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 3. Click the *Driver* drop-down list and select the desired driver, for example, **SMTP**. All available drivers are displayed in the list.   
 
-    > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use it.    
+    > [Info] Drivers must be purchased from the main account and then be installed separately in each sandbox or account where you want to use them.    
 
     The *Credentials* section is displayed below the drop-down list. 
 
@@ -56,9 +57,9 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 ## Create an email type in the email connection
 
-For every email connection configured, you can define an unlimited number of email types. An email type is a categorization that indicates the purpose of the email, for example, delivery status update, return refund, or payment reminder.
+For every email connection configured, you can define an unlimited number of email types. 
 
-[comment]: <> (Korrigieren!)
+[comment]: <> (Wie kann man hier Emyil type sinnvoll und einfach definieren? Man kann nur einen für Tasks auswählen. Email type und Email Attributsatz sind verbunden. Wenn man ein Email type in Email-Modul erstellt, wird auch ein Email Attributsatz automatisch erstellt, aber nicht umgekehrt. Daher ist es schon eine Art von Email, aber in Tasks kann man nur ein Email-Type auswählen. Es ist einfach so programmiert laut JS. RS mit SA noch offen. Einige Email attributes set kommen von GDM, via driver, vermutlich, andere von Email, vermutlich manuell erstellt. S. auch https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/370868232/Email+types)
 
 #### Prerequisites
 
