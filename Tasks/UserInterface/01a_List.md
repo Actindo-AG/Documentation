@@ -25,7 +25,7 @@ The list displays an overview of all tasks created in the current instance. You 
     - **Unassigned**  
         Select this option to display the tasks that are not assigned to any user or group.
 
-[comment]: <> (Es sollte Assigned to me directly ODER via groups sein! RS mit Modulexperten) 
+[comment]: <> (Entwicklung: Es sollte Assigned to me directly ODER via groups sein! RS mit Modulexperten) 
 
 - *Events*  
     Click the drop-down list to filter the list of tasks by event. All events created in the *Events* menu entry are displayed.
@@ -110,7 +110,7 @@ The task details view contains all related information to the selected task. It 
 - [Dependencies](#tasks-–-dependencies)
 - [ETL processes](#tasks-–-etl-processes)
 
-[comment]: <> (Sebi/Entwicklung: Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
+[comment]: <> (Entwicklung: Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
 
 The following fields and functions are available in this view:
 

@@ -7,9 +7,7 @@ An event is an occurrence that originates a task. For example, when inconsistenc
 
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
-When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This means that a task is created by default every time an error occurs in any action of the process. If a specific event is set in an individual process action, then the task is created for the set event when the as long as no other event is configured in the process action where the error occurs. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
-
-[comment]: <> (Check Task event in Workflows, usw.)
+When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This means that a task is created by default every time an error occurs in any action of the process. If a specific event is configured in an individual process action, a task is created for the configured event when an error occurs in this individual process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
 [comment]: <> (Link anpassen, wenn veröffentlicht: For detailed information, see Track the workflow process in the Process Orchestration documentation. ActindoWorkFlow/Operation/09_TrackWorkflowProcess.md)
 
@@ -53,9 +51,7 @@ No prerequisites to fulfill.
 
 6. Alternatively, click the *Responsible user group* drop-down list and select the user group to which you want to assign the event, and the related tasks, by default. All user groups that are registered in the current instance are displayed in the list.
 
-    > [Info] If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
-
-[comment]: <> (Sebi: Muss man oder kann man ein responsible user und responsible user group hier auswählen? Was passiert, wenn die Task keinem User/keiner Gruppe zugewiesen ist? Keine Email-Benachrichtigung geschickt? Oder wohin wird die Email geschickt, wenn eingestellt?)
+    > [Info] You can select a responsible user, a responsible user group, or both for the event. The responsible user does not need to be included in the responsible user group. In any case, it is strongly recommended to define at least one of both fields. Otherwise, the task will be created but no one is responsible for it. If necessary, you can further assign an individual task to a specific user in the *Tasks* menu entry, see [Assign a task](./02_ManageTasks.md#assign-a-task).
 
 7. Click the [SAVE] button.  
     A confirmation message is displayed. The event has been saved. The *Create event* view is closed.  

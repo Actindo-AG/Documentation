@@ -58,6 +58,8 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 For every email connection configured, you can define an unlimited number of email types. An email type is a categorization that indicates the purpose of the email, for example, delivery status update, return refund, or payment reminder.
 
+[comment]: <> (Korrigieren!)
+
 #### Prerequisites
 
 At least one email connection has been established, see [Create a connection in the *Email* module](#create-a-connection-in-the-email-module).
@@ -130,6 +132,3 @@ The general settings have been configured, see [Configure the general settings](
 
 3. Click the [SAVE] button.  
     A confirmation message is displayed. The email sending settings have been saved.
-
-
-[comment]: <> (Wo kann man die E-Mail-Text erfassen? Oder hier ist immer gleich, egal welches Event/task, also nur eine "Benachrichtigung"?S. Email-Module.)

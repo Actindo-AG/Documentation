@@ -23,7 +23,6 @@ You can define the user and/or user group who, by default, are responsible for a
 
 You can assign tasks to yourself or to other users registered in your current instance.
 
-[comment]: <> (instance in Glossar aufnehmen und definieren? Oder anders nennen?)
 
 ### Assign a task to yourself
 
