@@ -41,7 +41,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         "variants": [
             {
                 "definingAttributeValues": {
-                    "_pim_ean": 123456789
+                    "_pim_ean": "123456789"
                 },
                 "additionalFields": null
             }
@@ -58,13 +58,13 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
         "variants": [
             {
                 "definingAttributeValues": {
-                    "_pim_ean": 234567890
+                    "_pim_ean": "234567890"
                 },
                 "additionalFields": null
             },
             {
                 "definingAttributeValues": {
-                    "_pim_ean": 345678912
+                    "_pim_ean": "345678912"
                 },
                 "additionalFields": null
             }

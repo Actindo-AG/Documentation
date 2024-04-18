@@ -32,7 +32,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modified	| string | Date and time of last modification <br> Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer| User ID |
 | attributeSet | object | Product attribute set. It contains the required field **id**. |
-| variantStatus | string | Product status. It indicates whether a product is a *single*, *master* or a *variant*. |
+| variantStatus | string | Product status. It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
 | _pim_variants | object | It defines a variant product to a master product. It contains the required fields **variantSetId**, **masterId** and **definingValues**. |
 | _pim_art_name | string | Product name |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language (if attribute multi-scope and multi-language) |
@@ -72,7 +72,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_products_bundle | object | It adds products that can be sold in a bundle with the selected product. It contains the required fields **entity** and **quantity**. |
 | _pim_products_relations | string | Adds related products, e.g. for product recommendation. |
 | _pim_completeness | string | Required attributes completeness. This attribute is for internal use only. |
-| _pim_images | string | It allows to upload images. |
+| _pim_images | object | It allows to upload images. It contains the required field **id**. You need |
 | _pim_files | string | It allows to upload files. |
 | _pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> |
 | _pim_stock_germany | number | Stock level in warehouse (Germany) |
@@ -81,14 +81,20 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 ## Create a product
 
-Create a new product. 
-
-You can create three types of product:
+In the *PIM* module, you can create three types of product:
  - a single product, that is, a product without variations, such as a game 
  - a master product, that is, a product with variations, for example, in size or color
  - a variant product, that is, each of the variations of a master product 
- 
- For detailed information, see [Create a variant](./06_Variants.md#create-a-variant).
+
+There are two possible ways to create a master-variant product structure:
+
+1. Create all products independently and link them all at once at a later stage, as described below: 
+
+    - Create a single or master product, see [Sample: Simple product](#sample-single-product) or [Sample: Master product](#sample-master-product).
+    - Add relevant information to variant products, see [Sample: Add variant defining attributes](#sample-add-variant-defining-attributes).
+    - Create a variant-master product structure, see [Create a variant-master product structure](#create-a-variant-master-product-structure) 
+
+2. Create a single or master product and add any numbers of variants at once to it at a later stage. For detailed information, see [Create a variant](./06_Variants.md#create-a-variant).
 
 Depending on the type of product, the required fields vary.
 
@@ -98,17 +104,17 @@ Depending on the type of product, the required fields vary.
 | ----------- | ----------- | ----------- | 
 | **sku**      | string   |  Product SKU | 
 | **attributeSetId**   | integer  | Attribute set identification number |
-| **variantStatus**   | string  | Indicates whether it is a *single*, *master* or *child*  |
+| *variantStatus*   | string  | Indicates whether it is a *single*, *master* or *child*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
 | **variantSet**   | object  | It contains the required field **id**.  |
-| **_pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), **childrenIds** (required?). |
+| **_pim_variants** | object  | It contains the required fields **variantSetId**, **isMasterEntity** (true/false), *childrenIds*. |
 
 
 ### Sample: Single product
 
     {
         "product": {
-            "sku": "Shirt_123",
-            "attributeSetId": 622
+            "sku": "Single_123",
+            "attributeSetId": 102
         }
     }
 
@@ -116,10 +122,10 @@ Depending on the type of product, the required fields vary.
 
     {
         "product": {
-            "sku": "Shirt_456",
-            "attributeSetId": 622,
-            "_pim_art_name__actindo_basic__en_US": "Shirt",
-            "_pim_art_name__actindo_basic__de_DE": "Hemd",
+            "sku": "Single_123",
+            "attributeSetId": 102,
+            "_pim_art_name__actindo_basic__en_US": "Product",
+            "_pim_art_name__actindo_basic__de_DE": "Produkt",
             "_pim_products_description__actindo_basic__en_US": "This is a product description.",
             "_pim_products_description__actindo_basic__de_DE": "Das ist eine Produktbeschreibung."
         }
@@ -150,27 +156,13 @@ Depending on the type of product, the required fields vary.
         }
     }
 
-### Sample: Variant product
-
-    {
-      "product": 
-        {
-          "sku": "Variant-product-1",
-          "attributeSetId": 102,
-          "variantStatus": "child",
-          "variantSet": {
-            "id": 91
-          }
-        }
-    }
-
-[comment]: <> (child erstellt ABER defining attributes müssen via SAVE definiert werden, sonst keine Verknüpfung möglich! Geht nicht! Zwei save calls nötig? Einmal add variant set und einmal set defining attributes?)
+If you want to create one or multiple variant products to a master product at once, see [Create a variant product](./06_Variants.md#create-a-variant-product).
 
 
 
 ## Edit a product
 
-You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.
+You can edit a product via API to modify any number of field values at a time. You can also add attributes to an existing product.  
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
@@ -183,66 +175,44 @@ To get a list of all your attributes, see [List of all attributes](#to-be-determ
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
 | **id**      | integer    |  Product identification number  |
-
-
-### Sample: Update product status (from single to master/variant)
-
-        {
-        "product": {
-            "id": 456,
-            "price": "65.00",
-            "_pim_images": "string",
-            }
-        }
+| **attributeSetId**   | integer  | Attribute set identification number |
+| *variantStatus*   | string  | Indicates whether it is a *single*, *master* or *child*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
+| **variantSet**   | object  | It contains the required field **id**.  |
+| **_pim_variants** | object  | It contains the required fields **variantSetId** and **isMasterEntity** (true/false). |
 
 
 ### Sample: Add an image to a product
 
-"_pim_images" must be included in the variant set! Achtung! _pim_images is an object.
-
-
-{
-    "product": {
-        "id": 891,
-        "_pim_images": {
-            "images": [
-                {
-                    "id": "/EcmFileImage/PIM Product/Hosen/IDS_FROM_1_TO_500/632_actindotrousers-blue"
-                }
-            ]
+    {
+        "product": {
+            "id": 891,
+            "_pim_images": {
+                "images": [
+                    {
+                        "id": "/EcmFileImage/PIM Product/Hosen/IDS_FROM_1_TO_500/632_actindotrousers-blue"
+                    }
+                ]
+            }
         }
-    }
-}    
+    }    
 
+> [Info] The images are stored in the *ECM* module. To upload images via API, you need to provide the image path you want to upload. If you are uploading an image to a variant product, the "_pim_images" attribute must be included in the variant set. 
 
-### Sample: Add the product name in different languages request
+### Sample: Add variant defining attributes
 
     {
         "product": {
-            "id": 456,
-            "_pim_art_name__actindo_basic__en_US": "Product name",
-            "_pim_art_name__actindo_basic__de_DE": "Produktname"
-            }
-    }
-
-
-### Sample: Add variant defining attributes request
-
-    {
-        "product": {
-            "id": 782,
-            "_pim_variants": {
-                "3,892": "Pink",
-                "3,902": "256",
-                "149": "1,989"
-            }
+            "id": "961",
+            "_pim_ean": "Variant-2"
         }
     }
 
+[comment]: <> (variant-to-be single, oder master-to-be single: Felder VariantSetId and definingAttributes müssen definiert sein, um Verknüpfen zu können)
 
-## Add variants to master product
 
-Once you have created your master and variant products, you can add them to the corresponding master product. You ca also move a variant product to another master product. The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
+## Create a variant-master product structure
+
+Once you have created your products, you can create a variant-master structure between them. You can also move a variant product to another master product. 
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
 
@@ -256,26 +226,22 @@ The required fields are marked in bold. For a list of *PIM* attributes, see [The
 | **parentProduct**       | object    |  It contains the required field **id**.  |
 | **variantSet**          | object    |  It contains the required field **id**.  |
 
+> [Info] The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
 
-### Sample: Add a variant to master product request
+### Sample: Add a variant to master product
 
       {
         "variantProduct": {
-          "id": 852
+          "id": 951
         },
         "parentProduct": {
-          "id": 842
+          "id": 941
         },
         "variantSet": {
-          "id": 32
+          "id": 91
         }
       }
 
-"error": "Call to a member function getVariantSet() on a non-object (null)",
-
-### Sample: Add a variant to master product response
-
-[comment]: <> (Add multiple variants to a master product at a time?)
 
 
 ## Delete a product
