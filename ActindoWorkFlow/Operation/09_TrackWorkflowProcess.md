@@ -285,18 +285,19 @@ For example, a process may have taken a long time to be executed. Here you can s
 
     - **Error**   
     The process action failed finally.
+<!--- zurzeit noch nicht aktiv-
+5. Check the *Profile* column to see if a profile has been created for a process action. This might have been the reason for a longer processing time. If desired, open the profile. For detailed information, see [Profile](../UserInterface/06d_Profile.md).-->
 
-5. Check the *Profile* column to see if a profile has been created for a process action. This might have been the reason for a longer processing time. If desired, open the profile. For detailed information, see [Profile](../UserInterface/06d_Profile.md).
+5. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
-6. Check the *Queue type* to see the queue type with which the process action was performed. Maybe the process action was throttled and this was the reason for a long processing time. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
+6. Check the *Worker number* to see the number of workers who performed the process action. 
 
-7. Check the *Worker number* to see the number of workers who performed the process action. 
-
-8. Check the *Transition* column to see the name of the transition.
+7. Check the *Transition* column to see the label and key of the transition.
 
 ## Make a user decision
 
-A process will be paused if a manual action is waiting for a user decision, for example, if a business transaction needs an approval. Make a user decision, so that the workflow process can continue.  For detailed information on the *Manual action* core action, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
+Make a user decision, so that the workflow process can continue. This is necessary if a process is waiting for a user decision, for example, because a business transaction needs an approval.     
+User decisions are implemented by the *Manual action* core action, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
 
 
 #### Prerequisites
@@ -312,7 +313,7 @@ A process will be paused if a manual action is waiting for a user decision, for 
 ![Processes overview](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualAction.png "[Processes overview]")
 
 1. Enable the ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") *Manual processes* toggle.    
-    Only those processes that require manual actions are displayed. They have the **In progress** status and a warning sign ![Warning](../../Assets/Icons/Warning.png) in the *Has a manual action* column.
+    Only processes requiring a manual action are displayed. They have the **In progress** status and a warning sign ![Warning](../../Assets/Icons/Warning.png) in the *Has a manual action* column.
 
 2. Click a desired process.      
     The *Process ID* view is displayed. In the workflow diagram, the manual action is displayed in yellow.

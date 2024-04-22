@@ -4,7 +4,7 @@
 
 ![Execution statistics](../../Assets/Screenshots/ActindoWorkFlow/Logs/ExecutionStatistics.png)
 
-The list displays the average processing time in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify process actions that take longer than average and to use this information for further analysis of your workflow.   
+The list displays the average execution time in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify process actions that take longer than average. You can use this information for further analysis of your workflow.   
 
 The following functions and fields are available for this list:
 
@@ -18,22 +18,22 @@ The following functions and fields are available for this list:
    Click this button to display the statistic.
    
 - *Number of executions per outcome*   
-    Specifies how often a process action has been processed per outcome.
+    Specifies how often a process action has been executed per outcome.
 
 - *Error rate*    
     Specifies the percentage of failed process actions. 
 
 - *Average duration*   
-   If a process action was processed by more than one process, the average processing time in seconds per outcome.
+   If a process action was performed by more than one process, it shows the average execution time in seconds per outcome.
 
 - *Max duration*     
-   The longest processing time in seconds per outcome.
+   The longest execution time in seconds per outcome.
 
 - *Min duration*   
-   The shortest processing time in seconds per outcome.
+   The shortest execution time in seconds per outcome.
 
 - *Workflow*   
    Name of the workflow that was run through.
 
 - *Transition*   
-   Transition that has been executed.
+   Label and key of the transition that has been executed.

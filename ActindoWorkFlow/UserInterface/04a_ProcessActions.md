@@ -91,10 +91,10 @@ The following functions and fields are available in the list.
 
 - *Execution end*   
     End time of the execution.
-
+<!-- zurzeit noch nicht aktiv
 - *Profile*   
     Click the *Profile* link that was created for the action.   
-    The run report is displayed in a new browser window. For detailed information, see [Profile](06d_Profile.md).
+    The run report is displayed in a new browser window. For detailed information, see [Profile](06d_Profile.md).-->
 
 - *Created*  
     Date and time of creation.

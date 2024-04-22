@@ -46,7 +46,7 @@ The *Change process priority* core action has two input ports:
 
 ![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
 
-The *Extract value* core action is used to extract a specific value and to use this as input for further processing. For example, you extract a specific value from a business document position such as the *pimProduct* field of the **Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentPosition** data model, or you extract a certain position of a business document. 
+The *Extract value* core action is used to extract a specific value and to use it as input for further processing. For example, you extract a specific value from a business document position such as the *pimProduct* field of the **Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentPosition** data model, or you extract a certain position of a business document. 
 
 You define the value to be extracted in the *Path to value* field in the configuration. 
 
@@ -76,8 +76,8 @@ Enter the absolute priority number or add the relative number to the existing pr
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is stopped until the user has done the decision.      
-For example, it allows you to implement approval procedures in your workflows such as that each purchase order that exceeds a certain amount is to be checked by a user, before it is released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
+For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
 
 
 ### Configuration
@@ -89,15 +89,11 @@ For example, it allows you to implement approval procedures in your workflows su
 - *Output ports 0-8*   
     Define up to 9 submissions to control the decision-making process. For each submission, a different workflow path may than be taken. For example, for a simple approval process you will need two output ports: **Accept** and **Reject**.
 
-**Static inputs**    
+**Static inputs**   
+   
 The *Manual action* core action has two input ports:
-- data_input: Entity that can be used to make a decision, for example a business document. 
+- data_input: Entity that can be used to make a decision, such as a business document. 
 - event-id: ID of the task event that can be used to make a decision.   
-
-It is possible to include a static input via the unconnected input port. You can use the *data_input* or the *event_id* input port to define a static input in the *Static inputs* section in the settings sidebar. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
-
-
-
 
 
 

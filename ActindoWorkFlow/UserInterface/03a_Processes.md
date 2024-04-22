@@ -234,6 +234,6 @@ The following functions are available in this view.
 ![Execution log](../../Assets/Screenshots/ActindoWorkFlow/Processes/ExecutionLog.png "[Execution log]")
 
 The list displays all execution logs that have been created for each transition of the selected process. It allows you to analyze what each worker did and how long it took to execute an action.   
-For example, a process may have taken a long time to be executed. Here you can see if a certain action has caused the delay, perhaps sending an email, or if the process had to wait a long time for execution. For detailed information, see [Check the execution log](../Operation/09_TrackWorkflowProcess.md#check-the-execution-log). 
+For example, a process may have taken a long time to be executed. Here you can see if a certain action has caused the delay, or if the process had to wait a long time for execution. For detailed information, see [Check the execution log](../Operation/09_TrackWorkflowProcess.md#check-the-execution-log). 
 
 For detailed information on fields and functions of this list, see [Execution log](06b_ExecutionLog.md).

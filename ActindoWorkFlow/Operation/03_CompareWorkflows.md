@@ -43,6 +43,9 @@ The *Workflow versions* view is displayed.
     The workflow editor is displayed.
 
 2. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.  
+    The workflow context menu is displayed.
+
+    ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 3. Select the *Show changes* menu entry.  
     The comparison window is displayed. 

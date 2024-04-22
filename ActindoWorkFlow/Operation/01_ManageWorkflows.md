@@ -328,17 +328,12 @@ Edit a transition to define its settings.
 
         Click the [Apply changes] button to add your documentation.
 
-    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed, for example, an email is sent to all persons assigned to this event. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed, for example, an email is sent to all persons assigned to this event. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it. For detailed information see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. For detailed information, see [Insert a static input](06_InsertStaticInput.md). This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
 
     + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. 
     + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
-
-
-
-[comment]: <> (Add a link to the Tasks module/task events when documented > still no plans to document it 21.02.2024)
-
 
 
 

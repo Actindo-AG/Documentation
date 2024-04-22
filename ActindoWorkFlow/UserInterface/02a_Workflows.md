@@ -194,7 +194,7 @@ The workflow diagram includes the following elements:
         Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).
 
     - *Priority*   
-        Priority is most relevant in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+        The *Priority* field is used in high performance scenarios. It can be used to speed up a critical path when there are many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
     - *Max tries*   
         Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
@@ -206,13 +206,13 @@ The workflow diagram includes the following elements:
             Use any suitable php function to define the retry time.
 
         - **Custom**   
-            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered 3 in the Max tries field.
+            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
 
         - **Exponential**   
             Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
 
         - **Linear**   
-            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered 3 in the Max tries field.
+            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
 
         - **Quadratic**   
             Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
@@ -220,12 +220,13 @@ The workflow diagram includes the following elements:
         Select the retry strategy and enter the required value in minutes in the *Strategy config value* field.
 
     - *Task event*  
-        Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
+        Click the drop-down list and select the applicable task event. All available task events are displayed.   
+        This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights. 
 
         > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module. For detailed information, see [Manage the events](Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     - *Long description*   
-        If desired, edit a long text to document the transition. The *Edit long description* window is displayed. You can add a long text using a simple markdown editor.
+        If desired, edit a long text to document the transition. The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
 
     - *Configuration*  
         Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
@@ -233,7 +234,8 @@ The workflow diagram includes the following elements:
         > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
     - *Static inputs*  
-        All unlinked inputs are listed in this section. You can user static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert static input](./06_InsertStaticInput.md). 
+        All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
+        Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert static input](./06_InsertStaticInput.md). 
 
     For detailed information, see [Transitions](../Overview/04_WorkflowProcessElements.md#transitions).
 
@@ -347,7 +349,7 @@ The *Edit trigger for workflow "workflow name"* window allows you to determine a
 - [APPLY CHANGES]  
     Click this button to save all changes made to the trigger(s).
 
-## Workflow &ndash; Compare workflow version
+## Workflow &ndash; Compare workflow versions
 
 *Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Show changes*
 
@@ -357,9 +359,24 @@ The *Edit trigger for workflow "workflow name"* window allows you to determine a
 
 **Workflows**
 
-The *Workflow* window displays to versions of a workflow configuration.
+The *Workflow* window displays two versions of a workflow configuration.
 
 The following fields and functions are available in this window:
+
+- *Workflow*   
+    Click this drop-down list to select the workflow you want to use for comparison.
+
+- ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS]   
+    Click this button to swap the versions displayed.
+
+- ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE]   
+    Click this button to compare the lines of code and puts them in the same order, so that order differences are no longer highlighted.
+
+- ![All properties](../../Assets/Icons/Toggle.png "[All properties]") (All properties)   
+    Enable this toggle to compare all changes. This includes properties which have no functional impact such as the version number or the positioning of the nodes.
+
+- *Version*   
+    Click this drop-down list to select the workflow version that is to be displayed. The drop-down list contains all versions available for the workflow selected in the *Workflow* field.
 
 
 
