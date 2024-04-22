@@ -125,35 +125,10 @@ The following graphic visualizes the attribute and variant set structure, the in
 
 An entity is an object containing data, for instance a *PIM* product, an *Omni-Channel* offer, a *DataHub* attribute, or an attribute set. Every entity has a unique ID, which is automatically assigned by the system for internal purposes. When accessing the system via API, you need the entity ID of all the fields that are required in your request for the system to be able to recognize the entity. 
 
-You can find out the ID via user interface, see [Entity ID via user interface](#entity-id-via-user-interface).
+You can find out the ID via user interface or via API:
 
-To find out the entity ID, and other entity information, via API, see [Entity ID via API](06_Entities.md#entity-id-via-api).
-
-
-### Entity ID via user interface
-
-You can find out any entity ID via user interface as follows:
-
-1. Go to the module where the entity "lives", for example *DataHub > Data models > Attribute sets* to find out an attribute set ID.
-
-2. Locate the entity whose ID you need.
-
-3. Check the ID in the *ID* column. 
-
-    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to display it. 
-
-
-    ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
-
-Alternatively, you can find out the entity ID in the URL as follows:
-
-1. Click the entity whose ID you need.  
-    The *Edit "entity"* view is displayed.
-
-2. Check the site URL in your browser.  
-    The selected entity ID is located at the end of the URL, as in the following example: 
-
-    ![Entity ID in URL](../../Assets/Screenshots/PIM/API/EntityID_URL.png "[Entity ID in URL]")
+- To find out the entity via user interface, see [Entity ID via user interface](./04_EntityData.md#entity-id-via-user-interface).  
+- To find out the entity ID, and other entity information, via API, see [Entity ID via API](./04_EntityData.md#entity-id-via-api).
 
 
 ## Mapping

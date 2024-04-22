@@ -1,4 +1,32 @@
-# Get entity data via API
+# Entity data
+
+## Entity ID via user interface
+
+You can find out any entity ID via user interface as follows:
+
+1. Go to the module where the entity "lives", for example *DataHub > Data models > Attribute sets* to find out an attribute set ID.
+
+2. Locate the entity whose ID you need.
+
+3. Check the ID in the *ID* column. 
+
+    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to display it. 
+
+
+    ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
+
+Alternatively, you can find out the entity ID in the URL as follows:
+
+1. Click the entity whose ID you need.  
+    The *Edit "entity"* view is displayed.
+
+2. Check the site URL in your browser.  
+    The selected entity ID is located at the end of the URL, as in the following example: 
+
+    ![Entity ID in URL](../../Assets/Screenshots/PIM/API/EntityID_URL.png "[Entity ID in URL]")
+
+
+## Entity ID via API
 
 You can get all entity data you need via API. All entity data are provided in the response to your requests. Depending on the entity data you need, the endpoint you have to address may vary. 
 
@@ -10,6 +38,7 @@ attributeSetId
 variantSetId 
 Product ID
 Attributes ID
+
 
 ## Get product data
 
@@ -67,7 +96,7 @@ Frage: wie für Attribute ID Kein Endpoint in AttributeController?
     }
 
 
-## Get a list of attributes in an attribute set
+## List attributes in attribute set
 
 Get a list of all attributes contained in an attribute set. If desired, you can also set filters.
 
