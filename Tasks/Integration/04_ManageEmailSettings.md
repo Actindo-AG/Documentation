@@ -57,9 +57,17 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 ## Create an email type in the email connection
 
-For every email connection configured, you can define an unlimited number of email types. 
+For every email connection configured, you can create different email types depending on the email purpose, for example, a payment reminder, a delivery status update, or an invoice.
 
-[comment]: <> (Wie kann man hier Emyil type sinnvoll und einfach definieren? Man kann nur einen für Tasks auswählen. Email type und Email Attributsatz sind verbunden. Wenn man ein Email type in Email-Modul erstellt, wird auch ein Email Attributsatz automatisch erstellt, aber nicht umgekehrt. Daher ist es schon eine Art von Email, aber in Tasks kann man nur ein Email-Type auswählen. Es ist einfach so programmiert laut JS. RS mit SA noch offen. Einige Email attributes set kommen von GDM, via driver, vermutlich, andere von Email, vermutlich manuell erstellt. S. auch https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/370868232/Email+types)
+For every email type you create in the *Email* module, the corresponding attribute set is automatically created in the *DataHub* module. All email attribute sets contain by default a number of basic email attributes, such as *To*, *From*, *CC*, *Subject*, or *Body*. If necessary, you can add additional attributes to include other fields. 
+
+For every email type attribute set you can have different ETL mappings to determine which information is contained in a specific email. For example, in an invoice email you will need to include the invoice number, whereas in a payment reminder email you need to specify the bank details. The data contained in the different emails can be configured via ETL mapping in the *DataHub* module under *DataHub > ETL > Tab MAPPINGS*. For detailed information on ETL mappings, see [ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+
+Besides, you can further customize the email body in the *DataHub* module if desired under *DataHub > Settings > HTML templates*. For detailed information, see [Manage the HTML templates](../../DataHub/Operation/03_ManageHTMLTemplates.md) in the *DataHub* documentation. 
+
+[comment]: <> (Sebi: Kannst du bitte gegenprüfen, dass alles fachlich korrekt ist? Ich finde es zu lang; es gehört eher in Email-Modul Dokumentation, aber sie ist noch nicht vorhanden.)
+
+For the task email notification purposes, a simple email type containing the standard attributes is sufficient, as explained in the following procedure. 
 
 #### Prerequisites
 
