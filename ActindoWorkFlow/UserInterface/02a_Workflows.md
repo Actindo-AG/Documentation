@@ -172,7 +172,7 @@ The workflow diagram includes the following elements:
     - *Key*  
         Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
 
-    - *Data container*  
+    - *Data container*   
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
         For detailed information, see [Start and end place](../Overview/04_WorkflowProcessElements.md#start-and-end-place).
 

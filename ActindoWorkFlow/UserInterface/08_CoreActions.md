@@ -29,8 +29,9 @@ In the following, the core actions, their use and their settings are described i
 
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
 
-The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running. The data runs via the *loop_through* input port into the process action and is output via the *p* output port without any changes. The data is only output when data has also been incoming via the *priority* input port.  
-In contrast to the [Manipulate process priority](#manipulate-process-priority) core action, here you define the new priority by an input port. This means that the priority is set dynamically and can be determined within the process or by a trigger. For detailed information, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
+The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running, whereby the new process priority is multiplied with the original process priority. For example, the original process priority is 5, and you enter a 6 as new priority in the transition. After that, the process is running with priority 30.   
+The data runs via the *loop_through* input port into the process action and is output via the *p* output port without any changes. The data is only output when data has also been incoming via the *priority* input port.  
+In contrast to the [Manipulate process priority](#manipulate-process-priority) core action, here you define the new priority by an input port. This means that the priority is set dynamically and can be determined within the process, for example, when a certain event occurs or certain data is determined within the process.
 
 ### Configuration   
 
@@ -40,6 +41,17 @@ The *Change process priority* core action has two input ports:
 
 - loop through
 - priority: Enter the priority. The input value of the *priority* input port must be an integer. This integer will be used as the new priority. 
+
+## Multiply input action
+
+![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
+
+The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
+The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.
+
+### Configuration 
+
+This core action has no further configuration settings.
 
 
 ## Extract value
@@ -53,7 +65,7 @@ You define the value to be extracted in the *Path to value* field in the configu
 ### Configuration
 
 *Path to value*   
-Search for the parameter name of the objects's data model that is available in the input port of the transition, copy the required parameter name, and enter it in the *Path to value* field, for example **pimProduct.pim.variants**.
+Search for the parameter name of the objects' data model that is available in the input port of the transition, copy the required parameter name, and enter it in the *Path to value* field, for example **pimProduct.pim.variants**.
 
 
 

@@ -42,7 +42,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-    > [Info] The list of places is filtered for your keyword as you type. To select the data type, see the data models at *Dev Tools > API > Tab Data Model* and search for the data model that matches your needs. For example, if you want to process business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
+    > [Info] The list of places is filtered for your keyword as you type. To decide on the data type, see the data models at *Dev Tools > API > Tab Data Model* and find the data model that matches your needs. For example, if you want to process business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
 
 5. Select the start place you want to add in the list of places.    
 

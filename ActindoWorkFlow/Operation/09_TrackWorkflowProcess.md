@@ -8,7 +8,7 @@
 # Track the workflow process
 
 A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a further workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
-<!---Lieber Technischer Reviewer, diesen Abschnitt bitte prüfen, mir ist nicht ganz klar, was er sagen möchte (for every single operation, ??)-->
+<!---Lieber Technischer Reviewer, diesen Abschnitt bitte prüfen, mir ist nicht ganz klar, was er sagen möchte, er ist auch sehr abstrakt (for every single operation, ??)-->
 
 <!--- > Alternativ-Vorschlag: Process menu entry als zentrales Tool im Workflow darstellen, um die Konfiguration zu testen, und wenn ein Workflow auf einen Fehler läuft, die Fehlerursache zu finden.... Man kann den Process real-time beobachten und manual actions ausführen-->
 
@@ -81,8 +81,6 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 4. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
 
-    >[Info] Scroll the mouse wheel to zoom in or out. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
-
     ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
 
     + Click the [Info] button to read the documentation.  
@@ -110,7 +108,7 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Aborted**   
         The action has been manually aborted. You can rerun this action.
     -  **Manual**  
-       The action is waiting for a user decision. Make your user decision, see [Make a user decision](#make-a-user-decision).
+       The action waits for a user decision, before continuing the execution of the process, see [Make a user decision](#make-a-user-decision).
       
 7. Check the number of tries for the action in the *Tries* column.
 
@@ -125,7 +123,7 @@ The *Process ID* view displays a diagram of the selected process including all p
 11. If necessary, select the checkbox of an action for which you want to perform further operations.   
    The editing toolbar is displayed. The functions available for this specific action status are displayed, for example, the functions retry, abort, or rerun.
 
-12. Continue with checking the [logs](#check-the-logs), the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log).
+12. Continue with checking the [logs](#check-the-logs), the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log). If desired, add a [comment](#add-process-comments).
 
 > [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
 
@@ -252,7 +250,7 @@ The execution log can be used to monitor the execution of individual process act
 The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action caused the delay, such as sending an email, or if the process had to wait a long time for execution.
 
- > [Info] Note that the execution log only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Configure logging settings](../Integration/02_ConfigureLoggingSettings.md).
+ > [Info] Note that the execution log only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Lifetime execution log in days](../UserInterface/07a_Settings.md#lifetime-execution-log-in-days).
 
 #### Prerequisites
 
