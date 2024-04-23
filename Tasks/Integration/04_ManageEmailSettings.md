@@ -59,15 +59,15 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 For every email connection configured, you can create different email types depending on the email purpose, for example, a payment reminder, a delivery status update, or an invoice.
 
-For every email type you create in the *Email* module, the corresponding attribute set is automatically created in the *DataHub* module. All email attribute sets contain by default a number of basic email attributes, such as *To*, *From*, *CC*, *Subject*, or *Body*. If necessary, you can add additional attributes to include other fields. 
+For every email type you create in the *Email* module, the corresponding attribute set is automatically created in the *DataHub* module. All email attribute sets contain by default a number of basic email attributes, such as *To*, *From*, *CC*, *Subject*, or *Body*. Depending on the email connection, the basic email attributes may vary. If necessary, you can add additional attributes to include other fields to a specific email type. 
 
-For every email type attribute set you can have different ETL mappings to determine which information is contained in a specific email. For example, in an invoice email you will need to include the invoice number, whereas in a payment reminder email you need to specify the bank details. The data contained in the different emails can be configured via ETL mapping in the *DataHub* module under *DataHub > ETL > Tab MAPPINGS*. For detailed information on ETL mappings, see [ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
+For every email type attribute set you can have different ETL mappings to determine which data is contained in a specific email. For example, in an invoice email you will need to include the invoice number, whereas in a payment reminder email you need to specify the bank details. The data contained in the different emails can be configured via ETL mapping in the *DataHub* module under *DataHub > ETL > Tab MAPPINGS*. For detailed information on ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
 
 Besides, you can further customize the email body in the *DataHub* module if desired under *DataHub > Settings > HTML templates*. For detailed information, see [Manage the HTML templates](../../DataHub/Operation/03_ManageHTMLTemplates.md) in the *DataHub* documentation. 
 
-[comment]: <> (Sebi: Kannst du bitte gegenprüfen, dass alles fachlich korrekt ist? Ich finde es zu lang; es gehört eher in Email-Modul Dokumentation, aber sie ist noch nicht vorhanden.)
+[comment]: <> (Sebi: Kannst du bitte gegenprüfen, ob alles fachlich korrekt ist? Muss man auch die Mappings zwischen dem Tasks-Attributsatz auf den jeweiligen Email-Type-Attributsatz noch manuell erstellen?)
 
-For the task email notification purposes, a simple email type containing the standard attributes is sufficient, as explained in the following procedure. 
+For the task email notification purposes, a simple email type containing the basic attributes is sufficient, as explained in the following procedure. 
 
 #### Prerequisites
 
