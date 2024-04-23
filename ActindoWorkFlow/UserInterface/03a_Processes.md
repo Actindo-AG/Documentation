@@ -207,6 +207,8 @@ The list displays all tokens if the *Hide processed* toggle is disabled. Dependi
 
 ![Saved comment](../../Assets/Screenshots/ActindoWorkFlow/Processes/CommentSaved.png "[Saved comment]")
 
+Use the *Comments* tab to add process-specific comments.   
+
 The following functions are available in this view.
 
 - [ADD COMMENT]   
@@ -217,7 +219,7 @@ The following functions are available in this view.
     Click this button to close the *Add comment* or the *Edit comment* window.
 
 - [SAVE]   
-    Click this button to save your newly added notes or the changes to them.
+    Click this button to save your newly added comments or changes to them.
 
 - [EDIT]   
     Click this button to edit an existing comment. After you have saved your changes, your name and username as well as the date and time of the change is displayed. 

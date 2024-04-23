@@ -194,7 +194,7 @@ The workflow diagram includes the following elements:
         Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).
 
     - *Priority*   
-        The *Priority* field is used in high performance scenarios. It can be used to speed up a critical path when there are many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+        The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
     - *Max tries*   
         Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
@@ -226,7 +226,8 @@ The workflow diagram includes the following elements:
         > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module. For detailed information, see [Manage the events](Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     - *Long description*   
-        If desired, edit a long text to document the transition. The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
+        If desired, edit a long text to document the transition.   
+        The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
 
     - *Configuration*  
         Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
@@ -322,7 +323,7 @@ The *Edit trigger for workflow "workflow name"* window allows you to determine a
 - *Property*  
     Enter the applicable property for the selected prefix.
 
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*<!--- Man muss doch den Wert nicht mit geschweiften Klammern eingeben? Wäre _pim_tax_zone.id richtig?-->. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
 
 - *Operator*  
     Click the drop-down list and selected the appropriate option. The following options are available:
@@ -388,7 +389,7 @@ The following fields and functions are available in this window:
 
 The *Import JSON* window displays the workflow source code in JSON format. Configuration changes can be made in this view and applied with the [IMPORT JSON] button.
 
-    > [Info] To modify the source code, in-depth programming knowledge is needed.
+> [Info] To modify the source code, in-depth programming knowledge is needed.
 
 - [CLOSE]  
     Click this button to close the window and reject all changes.

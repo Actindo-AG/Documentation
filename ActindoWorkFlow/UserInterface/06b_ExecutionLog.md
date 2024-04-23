@@ -56,9 +56,8 @@ The following functions and fields are available for this list:
 - *Transition*   
    Key of the transition.
 
-- *Process*    
-   <!--- Hallo Julian, Spalte ist leer, was sollte hier angezeigt werden? -->   
+- *Process*   
+   ID of the process in which the action has been processed. <!--- Hallo Julian, Spalte ist leer, was sollte hier angezeigt werden? -->   
    
-
 - *ID*   
    Sequential ID of the execution log.

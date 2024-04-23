@@ -29,7 +29,7 @@ In the following, the core actions, their use and their settings are described i
 
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
 
-The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running, whereby the new process priority is multiplied with the original process priority. For example, the original process priority is 5, and you enter a 6 as new priority in the transition. After that, the process is running with priority 30.   
+The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running. The new process priority is multiplied with the original process priority. For example, the original process priority is 5, and you enter a 6 as new priority in the transition. After that, the process is running with priority 30.   
 The data runs via the *loop_through* input port into the process action and is output via the *p* output port without any changes. The data is only output when data has also been incoming via the *priority* input port.  
 In contrast to the [Manipulate process priority](#manipulate-process-priority) core action, here you define the new priority by an input port. This means that the priority is set dynamically and can be determined within the process, for example, when a certain event occurs or certain data is determined within the process.
 
@@ -39,14 +39,14 @@ In contrast to the [Manipulate process priority](#manipulate-process-priority) c
 
 The *Change process priority* core action has two input ports:
 
-- loop through
+- loop through: The data run through the transition without any changes.
 - priority: Enter the priority. The input value of the *priority* input port must be an integer. This integer will be used as the new priority. 
 
 ## Multiply input action
 
 ![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
 
-The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
+The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
 The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.
 
 ### Configuration 
@@ -60,7 +60,7 @@ This core action has no further configuration settings.
 
 The *Extract value* core action is used to extract a specific value and to use it as input for further processing. For example, you extract a specific value from a business document position such as the *pimProduct* field of the **Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentPosition** data model, or you extract a certain position of a business document. 
 
-You define the value to be extracted in the *Path to value* field in the configuration. 
+You define the value to be extracted in the *Path to value* field in the configuration section. 
 
 ### Configuration
 
@@ -73,7 +73,7 @@ Search for the parameter name of the objects' data model that is available in th
 
 ![Manipulate process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManipulateProcessPriority.png "[Manipulate process priority]")
 
-The *Manipulate process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Change process priority](#change-process-priority) core action, here you define the new priority by a user input. This means that the priority is set statically and not dynamically as with the Change process priority transition.
+The *Manipulate process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Change process priority](#change-process-priority) core action, here you define the new priority by a user input. This means that the priority is set statically and not dynamically as with the *Change process priority* transition.
 
 > [Info] The process priority can be defined in the workflow configuration by a trigger, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
 
@@ -88,7 +88,7 @@ Enter the absolute priority number or add the relative number to the existing pr
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken. If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken,see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision) If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
 For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
 
 

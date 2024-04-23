@@ -294,7 +294,7 @@ For example, a process may have taken a long time to be executed. Here you can s
 
 ## Make a user decision
 
-Make a user decision, so that the workflow process can continue. This is necessary if a process is waiting for a user decision, for example, because a business transaction needs an approval.     
+When a process is waiting for a user interaction, such as when a business transaction requires approval, you can make a user decision to allow workflow process to continue.       
 User decisions are implemented by the *Manual action* core action, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
 
 
@@ -302,7 +302,7 @@ User decisions are implemented by the *Manual action* core action, see [Manual a
 
 - A workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - A workflow process has been initiated.
-- The workflow process requires a user decision because it contains a *Manual action* core action.
+- The workflow process requires a user decision.
 
 #### Procedure
 

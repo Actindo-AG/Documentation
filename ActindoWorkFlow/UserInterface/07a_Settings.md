@@ -55,7 +55,7 @@ The following functions are available for all menu entries:
 ![Lifetime execution log in days](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Lifetime execution log in days]")
 
 - *Lifetime execution log in days*   
-    Enter the number of days for which the execution log history should be available. For detailed information, see [EXECUTION LOG](06b_ExecutionLog.md). This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the execution log history should be available. For detailed information, see [EXECUTION LOG](06b_ExecutionLog.md). The field is locked when the *Apply from default* toggle is active.
 
 
 

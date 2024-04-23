@@ -81,7 +81,7 @@ The following functions and fields are available in the list.
     > [Info] A different queue type can be selected by editing an action in the workflow editor.
 
 - *Defer until*  
-    Next point in time when the action is being tried. This setting depends on the action and is not available in all actions. It is also filled if a user executes a manual action and sets a follow-up date.
+    Next point in time when the action is being tried. This setting depends on the action and is not available in all actions. It is also filled when a user performs a manual action and sets a follow-up date.
 
 -  *Duration*   
     Processing time of the process action in seconds.
