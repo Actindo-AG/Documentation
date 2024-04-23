@@ -13,5 +13,6 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Kill workers](./01_ConfigureQueueTypes.md#kill-workers)
         - [Kill the workers of a single queue type](./01_ConfigureQueueTypes.md#kill-the-workers-of-a-single-queue-type)
         - [Kill all workers](./01_ConfigureQueueTypes.md#kill-all-workers)
+        - [Start workers](./01_ConfigureQueueTypes.md#start-workers)
 
 - [Configure the logging settings](./02_ConfigureLoggingSettings.md)

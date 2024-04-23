@@ -6,9 +6,9 @@ It is recommended that you do not use this function in a production system.
 #### Prerequisites
 
 - You are in the testing phase. 
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](./01_ManageWorkflows.md#select-a-workflow).
 - In the current version, you have not added any additional transitions, nor you have made any other changes to the structure.
 
 #### Procedure

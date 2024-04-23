@@ -59,7 +59,7 @@ Compare a workflow version with any other version available on the current insta
 
 #### Prerequisites
 
-- At least two versions of a workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least two versions of a workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow.
 - You have opened the comparison window, see [Open the comparison window](#open-the-comparison-window).
 
@@ -100,7 +100,7 @@ Compare a workflow version with any other version available on another instance.
 
 #### Prerequisites
 
-- At least one workflow has been created in each required instance, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created in each required instance, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow in each of the instances.
 - You have opened the comparison window, see [Open the comparison window](#open-the-comparison-window).
 - You are logged in to the instance, from which you want to retrieve the desired workflow version.
@@ -165,7 +165,7 @@ Change the workflow to be compared without leaving the comparison  window.
 
 5. Repeat step 3 and 4 for the right column.
 
-6. Compare the workflow versions. If desired, use the assistant functions, see [Compare the workflow](#compare-the-versions). 
+6. Compare the workflow versions. If desired, use the assistant functions, see [Compare the versions](#compare-the-versions). 
 
 7. Click the [X CLOSE] button to close the comparison window.
 

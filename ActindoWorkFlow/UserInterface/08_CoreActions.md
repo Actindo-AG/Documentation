@@ -177,14 +177,14 @@ The criterion to be compared with is defined in the configuration.
 
 ![Start subprocess](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/StartSubprocess.png "[Start subprocess]")
 
-The *Start subprocess* core action is used to start a different subprocess within the currently running process.       
-The data runs via the *p* input port into the process action and is output via the *p* output port. However, the action does not wait until the subprocess has been finished, but outputs the data after having started the subprocess. The input data is also the data put in the start place of the subprocess.   
-The subprocess to be started is defined in the configuration.
+The *Start subprocess* core action is used to start a different sub process within the currently running process.       
+The data runs via the *p* input port into the process action and is output via the *p* output port. However, the action does not wait until the sub process has been finished, but outputs the data after having started the sub process. The input data is also the data put in the start place of the sub process.   
+The sub process to be started is defined in the configuration.
 
 ### Configuration
 
-- *Process orchestration Key*   
-    Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
+- *Workflow key*   
+    Enter the key of the workflow that will be started as a sub process. Always the latest published version of the specified workflow will be started.
 
 
 
@@ -194,7 +194,7 @@ The subprocess to be started is defined in the configuration.
 
 The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any match by a separate branch.    
 The data runs via the *in* input port into the process action and can be output via each connected output port. The *origin* output port must be connected and the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
-The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise all remaining cases are evaluated.
+The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise, all remaining cases are evaluated.
 
 ### Configuration  
 
@@ -312,5 +312,5 @@ This period of time is defined in the configuration.
 ### Configuration  
 
 - *Wait time modifier*   
-    Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"** .    
-    For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php).
+    Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"**.    
+    For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php) on the PHP website.

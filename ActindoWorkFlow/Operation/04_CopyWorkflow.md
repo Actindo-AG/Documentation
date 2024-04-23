@@ -9,7 +9,7 @@ Export the JSON code of an existing workflow that you want to copy.
 
 #### Prerequisites
 
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -53,9 +53,9 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
 #### Prerequisites
 
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least one workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow.
-- The JSON code of the workflow to copy has been exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-JSON-code).
+- The JSON code of the workflow to copy has been exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-json-code).
 
 #### Procedure
 
@@ -63,7 +63,7 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
-1. [Create a new workflow](#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
+1. [Create a new workflow](./01_ManageWorkflows.md#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
   The *Workflow versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")

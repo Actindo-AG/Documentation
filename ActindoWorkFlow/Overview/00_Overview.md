@@ -4,15 +4,15 @@ In this part of the *Process Orchestration* documentation, you will find the fol
 
 - [General information](./01_General.md)
     - [Benefits](./01_General.md#benefits)
-    - [Prerequisites](./01_General.md#prerequisites)
+    - [Further information](./01_General.md#further-information)
 
 
 - [Key features](./02_Features.md)
-    - [Efficient workflow management](./02_Features.md#prerequisites#efficient-workflow-management)
-    - [The duo for successful digitization](./02_Features.md#prerequisites#the-duo-for-successful-digitization)
+    - [Efficient workflow management](./02_Features.md#efficient-workflow-management)
+    - [The duo for successful digitization](./02_Features.md#the-duo-for-successful-digitization)
 
 
-- [Processes](./03_Processes.md)
+- [Processes overview](./03_Processes.md)
 
 
 - [Workflow and process elements](./04_WorkflowProcessElements.md)

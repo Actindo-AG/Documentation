@@ -196,7 +196,7 @@ You can change the ports of the place by deleting an existing arc and creating a
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#select-a-workflow).
 
 #### Procedure
 
@@ -231,7 +231,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#select-a-workflow).
 
 #### Procedure
 
@@ -260,7 +260,7 @@ Add one or several transitions to the workflow to define or expand the desired b
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#select-a-workflow).
 
 #### Procedure
 
@@ -300,7 +300,7 @@ Edit a transition to define its settings.
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow has been selected, see [Select a workflow](#select-a-workflow).
 
 #### Procedure
 
@@ -332,7 +332,8 @@ Edit a transition to define its settings.
     + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned. For example, a process action has failed and an email is sent to all persons assigned to the event.   
     All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it. For detailed information, see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
-    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition.     This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
+    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition.     
+    This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
 
     + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. For detailed information on static inputs, see [Insert a static input](06_InsertStaticInput.md).
     + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. 

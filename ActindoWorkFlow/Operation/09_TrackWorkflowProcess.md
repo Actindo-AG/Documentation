@@ -116,7 +116,7 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 9. Check the assigned queue type in the *Queue type* column.
 
-    > [Info] The queue type is assigned to an action when editing a workflow, see [Edit an action](./01_ManageWorkflows.md#edit-an-action).
+    > [Info] The queue type is assigned to a transition when editing a workflow, see [Edit a transition](./01_ManageWorkflows.md#edit-a-transition).
 
 10. Check when the action will be executed next time in the *Defer until* column. This function depends on the action configuration and is not available in all actions. It is also filled when a user executes a manual action and sets a follow-up date.
 
@@ -125,7 +125,7 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 12. Continue with checking the [logs](#check-the-logs), the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log). If desired, add a [comment](#add-process-comments).
 
-> [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. For detailed information, see [Process actions](ActindoWorkFlow/UserInterface/04a_ProcessActions.md).
+> [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. For detailed information, see [Process actions](../UserInterface/04a_ProcessActions.md).
 
 
 

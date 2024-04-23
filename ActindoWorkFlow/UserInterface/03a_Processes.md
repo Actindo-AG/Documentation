@@ -152,7 +152,7 @@ For detailed information on the available functions and fields in this tab, see 
 
 The list displays all logs that are matching the selected log level. Depending on the settings, the displayed columns may vary. All fields are read-only. Click a log to display the *Log ID* view, see [Log ID](#log-id).
 
-This list contains the logs for the selected process only. For a detailed description of this window, the corresponding functions and fields, see [Overview (Logs)](./06a_Logs.md).
+This list contains the logs for the selected process only. For a detailed description of this window, the corresponding functions and fields, see [LOG MESSAGES](./06a_Logs.md).
 
 
 ### Log ID

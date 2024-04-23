@@ -10,7 +10,7 @@
 **Process actions**   
 The list displays all actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Click an action to display the corresponding process in the *Process ID* view, see [Process ID](./03a_Processes.md#process-id).
 
-> [Info] When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process actions* menu entry. Click the *Logs* tab in the *Process ID* view for detailed information about the selected process actions, see [Logs](./06a_Logs.md).
+> [Info] When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view. The *Actions* tab of the *Process ID* view is, in fact, an excerpt of the *Process actions* menu entry. Click the *Logs* tab in the *Process ID* view for detailed information about the selected process actions, see [LOG MESSAGES](./06a_Logs.md).
 
 - *Status*  
     Click the drop-down list to select an action status. The following options are available:  
@@ -64,7 +64,8 @@ The following functions and fields are available in the list.
     - **Done** (green)   
     - **Error** (red)     
     - **Suspended** (dark gray)  
-    - **Process aborted** (black)   
+    - **Process aborted** (black)
+    - **Manual** (yellow)   
 
 - *Transition*  
     Transition key.

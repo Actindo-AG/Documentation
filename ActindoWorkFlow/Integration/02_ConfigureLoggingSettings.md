@@ -2,7 +2,7 @@
 
 # Configure the logging settings
 
-Define in the logging settings how long the different log types are stored. 
+Define in the logging settings how long the different log types are stored. For a detailed description of the different log types, see [Logging settings](../UserInterface/07a_Settings.md).
 
 #### Prerequisites
 

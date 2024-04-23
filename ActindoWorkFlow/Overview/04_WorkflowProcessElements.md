@@ -78,7 +78,7 @@ The transition settings sidebar is located to the right of the workspace and all
 
 - *Static inputs*  
     All unlinked input ports are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted, for example text ("text"), numbers ("42") or JSON objects ({"dispatchNote": {"id": 42}}). When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.
-    For detailed information, see [Insert a static input](./06_InsertStaticInput.md).
+    For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md).
 
 
 
@@ -145,7 +145,7 @@ For detailed information, see [Check the token status and content](../Operation/
 
 The end place is the final stage of the workflow. It is represented by a circle with an outcoming arrow coming from one or more actions being executed in the last stage(s) of the workflow. Similarly to a place, when clicking it in the workflow editor, the end place becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-The end place settings sidebar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the [place](#place).
+The end place settings sidebar is located to the right of the workspace and allows to define the end place settings. The fields are identical to those of the place, see [Places](#places).
 
 When clicking an end place in the workflow process diagram, the *Tokens* tab is displayed.   
 For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
