@@ -301,7 +301,7 @@ The workflows are disabled. Disable the workflows before you kill the workers to
 
 ## Start workers
 
-Sometimes it may be necessary to start the process actions manually. For example, you can use it if you have disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel, and you want the workers to start immediately.
+Sometimes it may be necessary to start the process actions manually. For example, if you have previously disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel, and you want the workers to start immediately.
 
 
 #### Prerequisites

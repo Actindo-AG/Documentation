@@ -42,7 +42,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-    > [Info] The list of places is filtered for your keyword as you type. See the data models at *Dev Tools > API > Tab Data Model* and search for the data model that matches your needs. For example, if you want to process specific business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
+    > [Info] The list of places is filtered for your keyword as you type. To select the data type, see the data models at *Dev Tools > API > Tab Data Model* and search for the data model that matches your needs. For example, if you want to process business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
 
 5. Select the start place you want to add in the list of places.    
 
@@ -80,7 +80,7 @@ The basic settings of the workflow have been defined, and the workflow editor is
 
 2. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
-    > [Info] The list of transitions is filtered for your keyword as you type. For each API endpoint of the installed modules a transition is available. For detailed information, see the API list under *Dev Tools > API > Tab API*
+    > [Info] The list of transitions is filtered for your keyword as you type. For each API endpoint of the installed modules a transition is available. For detailed information, see the API list under *Dev Tools > API > Tab API*.
 
 3. Click the transition you want to add in the list of transitions.   
     The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
@@ -108,6 +108,8 @@ Connect the transition to the place to create a valid workflow.
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the transition.    
     A new place connected with an arc to the selected output port is displayed.
 
+    >[Info] To zoom in or out, scroll the mouse wheel. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
+
     ![First place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
 
 2. Add further transitions by following the procedure [Create an action](#create-an-action) or connect the place with the end place as described in the following step.
@@ -123,7 +125,6 @@ Connect the transition to the place to create a valid workflow.
 
 Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
 
->[Info] Scroll the mouse wheel to zoom in or out. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
 ### Select a workflow
 
@@ -141,7 +142,7 @@ Select an existing workflow to edit it.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. Click the workflow you want to edit in the list of workflows.   
-    The *Process orchestration versions* view with all versions of the selected workflow is displayed.
+    The *Workflow versions* view with all versions of the selected workflow is displayed.
 
     ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 
@@ -318,7 +319,7 @@ Edit a transition to define its settings.
 
     + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
-    + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
+    + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default, the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
     + Click the *Long description* field if you want to document the process step you added.   
@@ -328,13 +329,13 @@ Edit a transition to define its settings.
 
         Click the [Apply changes] button to add your documentation.
 
-    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed, for example, an email is sent to all persons assigned to this event. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it. For detailed information see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
+    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned. For example, a process action has failed and an email is sent to all persons assigned to the event.   
+    All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it. For detailed information, see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
-    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. For detailed information, see [Insert a static input](06_InsertStaticInput.md). This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
+    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition.     This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
 
-    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. 
-    + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. For detailed information, see [Insert static input](./06_InsertStaticInput.md).   
-
+    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. For detailed information on static inputs, see [Insert a static input](06_InsertStaticInput.md).
+    + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. 
 
 
 

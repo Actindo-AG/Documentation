@@ -64,7 +64,7 @@ Import the exported JSON code to an existing or new workflow to copy it.
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
 1. [Create a new workflow](#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
-  The *Process orchestration versions* view with all versions of the selected workflow is displayed.
+  The *Workflow versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
 

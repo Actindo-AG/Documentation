@@ -1,12 +1,12 @@
 # Compare the workflows versions
 
 The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the relevant code lines are highlighted.  
-You can use this function to do the following 
+
+You can use this function to do the following: 
 - Compare a specific workflow version to any other version of that workflow available on the current instance.
 - Compare a specific workflow version to any workflow version available on another instance. 
-- Because you can edit the JSON code directly, you can change, insert, or delete code lines.   
-
-You can use this function for displaying change logs as well as to be able to do software-audits.
+- Because you can edit the JSON code directly, you can change, insert, or delete code lines.  
+- Display change logs. By doing it, you are able to do software-audits.
 
 ## Open the comparison window
 
@@ -71,7 +71,7 @@ Compare a workflow version with any other version available on the current insta
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
    
 1. Compare the versions.   
-    The left column highlights the differences in red, the right column in green. Inserts that are not available in the other version are highlighted as a gray shaded area. The scrollbar on the right highlights all differences in red or green, so you can quickly scroll to a position with differences.
+    The left column highlights the differences in red, the right column in green. Inserts that are not available in the other version are highlighted as a gray shaded area. The scrollbar on the right highlights all differences in red or green, so you can quickly scroll to a line with differences.
     
 2. If desired, use one of the following assistant functions:   
 
@@ -82,7 +82,8 @@ Compare a workflow version with any other version available on the current insta
         Click the ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS] button to swap the versions displayed. 
        
     - Format code  
-        Click the ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE] button to smooth the comparison. The function compares the lines of code and puts them in the same order, so that order differences are no longer highlighted.
+        Click the ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE] button to smooth the comparison.   
+        The function compares the lines of code and puts them in the same order, so that order differences are no longer highlighted.
 
     - All properties   
        Click the ![All properties](../../Assets/Icons/Toggle.png "[All properties]") (All properties) toggle to compare all changes. This includes properties which have no functional impact such as the version number or the positioning of the nodes.

@@ -47,10 +47,10 @@ The following procedure shows an example of how to edit the static inputs by add
 
     ![Add JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputAdd.png "[Add JSON code]").
     
-7. Enter the copied JSON code. By doing it, delete the quotes.   
+7. Enter the copied JSON code. By doing it, delete the quotes that are available by default.   
     The complex code has been added to the input parameter. 
 
-    > [Info] If you add a simple string, do not delete the quotes. Instead, use the following syntax, for example: **"U_ACTIO"**.
+    > [Info] If you add a simple string or text, do not delete the quotes. Instead, use the following syntax, for example: **"U_ACTIO"**.
     
 8. Enter the required value after the colon.    
     A small arrow without a place is displayed in front of the input port with the defined static input value. 
