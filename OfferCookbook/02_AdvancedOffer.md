@@ -6,8 +6,20 @@
 
 For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
 
+Ideal case: 
+Trigger PIMProduct + Condition Completeness changes -> starts workflow
 
 ## How to
+
+7. Click ADD Conditions
+    New Conditions input line
+
+8. Conditions input line:   
+    Case 1: When completeness is/changes to 100 % (geht momentan nicht, da Completeness ein komplexer Wert ist)
+    - Prefix: changeset.
+    - Property: _pim_completeness
+    - Operator: Equals
+    - Value: 100
 
 
 ## JSON
