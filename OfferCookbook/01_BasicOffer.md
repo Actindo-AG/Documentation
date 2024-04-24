@@ -20,9 +20,10 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 
 
-## How to create a basic offer 
+## Create an offer from a product (basic workflow)
 
 #### Prerequisites
+
 
 
 #### Procedure

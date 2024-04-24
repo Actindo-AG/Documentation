@@ -1,6 +1,6 @@
 # Advanced offer
 
-![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
+The advanced offer requires some more in-depth knowledge of the actions involved and its configurations possibilities.
 
 ## Description
 
@@ -9,9 +9,9 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 Ideal case: 
 Trigger PIMProduct + Condition Completeness changes -> starts workflow
 
-## How to
+## Create an offer of PIM product with 100% completeness
 
-Use case: *Omni-Channel* Offer is created when a *PIM* product total completeness is 100%
+You want to create an *Omni-Channel* Offer when all required attributes of a *PIM* product are set (total completeness is 100 %).
 
 ![Simple advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer_Split-Create.png "[Simple advanced offer]")
 
@@ -39,7 +39,7 @@ Use case: *Omni-Channel* Offer is created when a *PIM* product total completenes
     Output: data (anyValue)
 
 
-## How to (several connections)
+## Create an offer of a PIM product in multiple connections
 
 ![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
 
