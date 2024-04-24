@@ -11,15 +11,49 @@ Trigger PIMProduct + Condition Completeness changes -> starts workflow
 
 ## How to
 
-7. Click ADD Conditions
-    New Conditions input line
+Use case: *Omni-Channel* Offer is created when a *PIM* product total completeness is 100%
 
-8. Conditions input line:   
-    Case 1: When completeness is/changes to 100 % (geht momentan nicht, da Completeness ein komplexer Wert ist)
-    - Prefix: changeset.
-    - Property: _pim_completeness
-    - Operator: Equals
-    - Value: 100
+![Simple advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer_Split-Create.png "[Simple advanced offer]")
+
+1. [NEW ACTION]: Split by criterion  
+    Configuration:
+    - *Path*: _pim_completeness.totalCompleteness
+    - *Operator*: >=
+    - *Value*: 100
+
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *in*  | PIMProduct| - | *match* | PIMProduct |
+    | -     |          | - | *noMatch* | (to end place)   |
+    
+
+2. [NEW ACTION]: Create offer  
+    Static inputs:
+    - *pimProduct* input port: pimProduct 
+    - connection: { "id": 2 } (static input)
+    - changeTracking: -
+    - initialStatus: "inactive"
+    - destinationAttributeSet: -
+    - unique: "1"
+
+    Output: data (anyValue)
+
+
+## How to (several connections)
+
+![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
+
+1. [NEW ACTION]: Split by criterion  
+    - Completeness 
+    - Additional feature: Price is set 
+
+2. [NEW ACTION]: Multiply input action
+
+3. [NEW ACTION]: Create offer  
+
+
+
+
 
 
 ## JSON
