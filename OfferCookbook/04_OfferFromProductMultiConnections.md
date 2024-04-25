@@ -1,45 +1,4 @@
-# Advanced offer
-
-The advanced offer requires some more in-depth knowledge of the actions involved and its configurations possibilities.
-
-## Description
-
-For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
-
-Ideal case: 
-Trigger PIMProduct + Condition Completeness changes -> starts workflow
-
-## Create an offer of PIM product with 100% completeness
-
-You want to create an *Omni-Channel* Offer when all required attributes of a *PIM* product are set (total completeness is 100 %).
-
-![Simple advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer_Split-Create.png "[Simple advanced offer]")
-
-1. [NEW ACTION]: Split by criterion  
-    Configuration:
-    - *Path*: _pim_completeness.totalCompleteness
-    - *Operator*: >=
-    - *Value*: 100
-
-    | Input ports     | Value | -  | Output ports | Value    |
-    | --------------- | --- | ---| -------------- | ----  |
-    | *in*  | PIMProduct| - | *match* | PIMProduct |
-    | -     |          | - | *noMatch* | (to end place)   |
-    
-
-2. [NEW ACTION]: Create offer  
-    Static inputs:
-    - *pimProduct* input port: pimProduct 
-    - connection: { "id": 2 } (static input)
-    - changeTracking: -
-    - initialStatus: "inactive"
-    - destinationAttributeSet: -
-    - unique: "1"
-
-    Output: data (anyValue)
-
-
-## Create an offer of a PIM product in multiple connections
+# Create offer from product for multiple connections
 
 ![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
 
@@ -50,8 +9,6 @@ You want to create an *Omni-Channel* Offer when all required attributes of a *PI
 2. [NEW ACTION]: Multiply input action
 
 3. [NEW ACTION]: Create offer  
-
-
 
 
 

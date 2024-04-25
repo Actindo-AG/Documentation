@@ -1,7 +1,6 @@
-# Basic offer
+# Create an offer from a product
 
 ![Basic offer](../Assets/Screenshots/OfferCookbook/BasicOffer.png "[Basic offer]")
-
 
 
 ## Description
@@ -19,8 +18,6 @@
 For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
 
 
-
-## Create an offer from a product (basic workflow)
 
 #### Prerequisites
 
