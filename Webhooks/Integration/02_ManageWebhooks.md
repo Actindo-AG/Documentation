@@ -18,18 +18,26 @@ Create a webhook to send messages to your business partners.
 <!--- Wo kriege ich den her? Beschreiben, wie man da dran kommt.-->
 3. Enter the URL of the message receiver in the *URL* field.
 
-4. Click the *Event* drop-down list and click the checkbox for each event that you want to trigger the webhook.   
+4. Click the *Event* drop-down list and click the checkbox for each event that you want to trigger the webhook. The following events are available:
+
+    - **Post persist**   
+        A new database entry has been added such as a new offer.      
+    - **Post update**   
+        An existing database entry has been changed, for example, the name of an offer has been changed.   
+    - **Post remove**   
+        An existing database entry has been deleted, for example, if an offer is no longer available.
+
     The selected events are added to the *Event* field.
 
     ![Select event](../../Assets/Screenshots/Webhooks/Webhooks/SelectEvent.png "[Select event]")
 
-5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later when editing the worker. For detailed information, see [Create worker](./03_ManageWorkers.md#create-worker).
+5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker. For detailed information, see [Create worker](./03_ManageWorkers.md#create-worker).
    
 6. Click the [CREATE] button.   
     <!---Ergänzen, wenn UI da. Was passiert dann?-->
 
 
-## Edit the webhook
+## Edit webhook
 
 Edit the webhook to add the number of retries, the workers, or optional properties.
 

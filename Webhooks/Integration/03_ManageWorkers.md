@@ -1,4 +1,4 @@
-## Manage workers
+# Manage workers
 
 The workers define the way in which the webhooks waiting in the queue are to be executed. They define the retry algorithm, which specifies both the number of retries and if the webhook messages in the queue are processed sequentially or in parallel.
 

@@ -1,1 +1,180 @@
 # Webhooks
+
+*Webhooks > Webhooks*
+
+![Webhooks](../../Assets/Screenshots/Webhooks/Webhooks/Webhooks.png "[Webhooks]")
+
+The list displays all available webhooks. Depending on the settings, the displayed columns may vary. All fields are read-only.
+
+The following functions are available for the editing toolbar:
+
+- [x]    
+    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.
+    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.
+
+- [ACTIVATE] <!---Icon ergänzen-->   
+    Click this button to activate the selected webhooks. You can activate several webhooks at once. 
+
+- [![Delete](../../Assets/Icons/Trash01.png "[Delete]") DELETE]    
+    Click this button to delete a webhook. <!---You can delete several webhooks at once?-->
+
+The following fields and functions are available in the list:
+
+- *Active*   
+    Status of the webhook. The following statuses are available:
+    
+    - ![Active](../../Assets/Icons/Check.png "[Active]") <!---Icon-->**Active**  
+        The webhook can be used for data transfer.
+
+    - ![Inactive](../../Assets/Icons/Cross03.png "[Inactive]") <!---Icon-->**Inactive**   
+        The webhook is inactive and cannot be used for data transfer.
+
+- *Event*  
+    The *event* column displays all events that trigger the sending of webhook messages. 
+
+- *URL*  
+    URL to which the webhook notifications are to be sent, URL of the receiver.
+
+- *Fully qualified class name*   
+
+- *Retries*  
+    Number of retries the worker should make to successfully send the message.
+
+- *Execution worker*   
+    Job that processes the queue and sends webhook messages to the recipients.
+    <!---Überprüfen, Julian fragen-->
+
+- *Conditions*   
+    Conditions that must be met before a webhook message is sent.
+
+-  ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)     
+   Click this button to create a new webhook.
+
+## Create webhook
+
+*Webhooks > Webhooks > Add webhook*
+
+![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
+
+- *Fully qualified class name*   
+<!---To be enhanced-->
+
+- *URL*  
+    URL to which the webhook notifications are to be sent; URL of the recipient.
+
+- *Event*  
+    Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. 
+
+- *Worker*   
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+
+- [CANCEL]
+    Click this button to cancel creating a webhook. The *Create webhook* window is closed. The *Webhooks* view is displayed.
+
+- [CREATE]
+    Click this button to create a new webhook. The *Create webhook* window is closed. The *Webhooks* view is displayed.
+
+
+## Edit webhook
+
+*Webhooks > Webhooks > Select webhook*
+
+![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
+
+The view displays on the left side the fields, with which you can define a webhook. On the right side, important administrative data are displayed.
+
+The following fields and functions are available:
+
+- [ ![Delete](../../Assets/Icons/Trash01.png "[Delete]") <!---Icon-->DELETE]   
+    Click this button to delete the webhook.
+
+- [SAVE CHANGES]   
+    Click this button to save any changes.
+
+- *Fully qualified class name*   
+
+- *URL*  
+    URL to which the webhook notifications are to be sent, URL of the receiver.
+
+- *Event*  
+    Use the *event* drop-down list to select the events that you want to trigger the sending of webhook messages. The following events are available:
+
+    - **Post persist**   
+        A new database entry has been added such as a new offer.      
+    - **Post update**   
+        An existing database entry has been changed, for example, the name of an offer has been changed.   
+    - **Post remove**   
+        An existing database entry has been deleted, for example, if an offer is no longer available.
+
+- *Retries*   
+    Enter the number of retries. For example, an entry of 5 means the worker tries to successfully send the message a maximum of 5 times. If the second try is successful, the worker completes the webhook.
+
+- *Worker*   
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+
+- *Optional properties*   
+    Enter JSON code to define optional properties, if desired. For example <!---Beispiel: Was könnte eine optional property sein?-->
+
+**Administrative data**
+
+- *ID*   
+    ID of the webhook.
+
+- *Authentication*   
+    Authentication method used by the webhook.
+
+- *Created on date*   
+    Date of creation.
+
+- *Created on time*   
+    Time of creation.
+
+- *Created by*   
+    Name (and username) of the person, who has created the webhook.
+
+- *Created by RqID*   
+    Request ID of the webhook creation.
+
+- *Modified on date*   
+    Date of modification.
+
+- *Modified on time*   
+    Time of modification.
+
+- *Modified by*   
+    Name (and username) of the person, who has modified the webhook.
+
+- *Modified by RqID*   
+    Request ID of the webhook modification.
+
+## Conditions
+
+*Webhooks > Webhooks > Select webhook*
+
+![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
+
+The *Conditions* section is used to define an unlimited amount of conditions that must be met before a webhook is sent.
+
+The following fields and functions are available:
+
+- ![Check](../../Assets/Icons/Check.png)<!---Icon--> *All conditions required*   
+    Select the checkbox, if all conditions in the list must be met before the webhook is sent. If the checkbox is not selected, only one of the conditions available must be met. 
+
+- [![Add](../../Assets/Icons/Plus04.png "[Add]") ADD CONDITION]  
+    Click this button to add a new condition.
+
+- *Property*   
+    Property of the entity to be sent. 
+
+- *Operator*   
+    Click the drop-down list to select an operator. The operator describes the relation between an entity and a value. The relation must be met in order to meet a condition. For example: Entity(xxx) is equal 15. The condition is met, if the Entity (xxx) has the value 15.   
+    The following operators are available:   
+    - **Equal**   
+       The entity must have the value defined in the *Value* field.   
+    - **Not equal**    
+        The entity must not have the value defined in the *Value field*.
+    <!--- to be enhanced-->
+    
+- *Value*   
+    Enter the value with which you want to define the relation.
+
