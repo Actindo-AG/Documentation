@@ -1,6 +1,6 @@
-# Create an offer from a product
+# Create an offer from a product (basic)
 
-![Offer from product static inputs](../Assets/Screenshots/OfferCookbook/OfferFromProduct.png "[Offer from product static inputs]")
+![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
 
 
 ## Description
@@ -21,7 +21,8 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 #### Prerequisites
 
-
+- You have create a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
+- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
 

@@ -1,6 +1,6 @@
 # Create offer from product for multiple connections
 
-![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
+![Advanced offer](../Assets/Screenshots/OfferCookbook/OfferFromProductMultiConnection.png "[Advanced offer]")
 
 ## Description
 
