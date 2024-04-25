@@ -2,6 +2,19 @@
 
 ![Advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer.png "[Advanced offer]")
 
+## Description
+
+| **Summary** |       |
+| ----------- |------ |
+
+
+#### Prerequisites
+
+
+
+#### Procedure
+
+
 1. [NEW ACTION]: Split by criterion  
     - Completeness 
     - Additional feature: Price is set 

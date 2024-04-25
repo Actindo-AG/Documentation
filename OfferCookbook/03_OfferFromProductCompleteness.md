@@ -8,7 +8,7 @@ You want to create an *Omni-Channel* offer when all required attributes of a *PI
 
 [comment]: <> (Short description, Workflow overview, Overview)
 
-![Simple advanced offer](../Assets/Screenshots/OfferCookbook/AdvancedOffer_Split-Create.png "[Simple advanced offer]")
+![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
 
 | Action | Short description | API endpoint |
 | ------ | ----------------- | ------------ |

@@ -1,6 +1,6 @@
 # Create an offer from a product
 
-![Offer from product static inputs](../Assets/Screenshots/OfferCookbook/OfferFromProduct.png "[Offer from product static inputs]")
+![Offer from product](../Assets/Screenshots/OfferCookbook/OfferFromProduct.png "[Offer from product]")
 
 
 ## Description
