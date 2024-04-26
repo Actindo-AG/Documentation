@@ -164,12 +164,12 @@ Some offers are not suitable for children and young people, for example offers s
 
 ## Add product options
 
-There are products where the customer has the option of customizing them. For example, shirts with an optional flocking, or photos with an optional printing on cups or other objects. In these cases, a specific service is associated to an offer. This service is optionally available for the customers and can be purchased additionally.
+There are products where the buyer has the option of customizing them. If a store has the appropriate technical capabilities, this could be shirts with optional flocking, for example, or photos that a customer can have printed on mugs or other items. In these cases, a specific service is associated to an offer. This service is optional for customers and can be purchased additionally.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- Offers relevant to product options have been associated to the offers to which they are related.
+- Offers relevant to product options have been associated to the offers to which they are related, see [Create product options](../Integration/07_ManageOffers.md#create-product-options).
 
 #### Procedure
 
@@ -178,19 +178,20 @@ There are products where the customer has the option of customizing them. For ex
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select an offer.   
-    If a product option is associated to the offer, the *Choose options* window is displayed.
+    If a product option is associated to the offer and your store offers this service, the *Choose options* window is displayed.
 
     ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption.png "[Choose options]")
 
 2. Present the various options to the customer.   
-    + If the customer do not want to use the service, click the [CANCEL] button.
+    + If the customer do not want to use the service, click the [CANCEL] button.   
+    The *Choose options* window is closed.
     + If the customer want to use the service, continue.  
-        Depending on the option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. 
+        Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. 
 
-3. Enter the name or other information that might be required.
+3. If applicable, enter the name or other information that might be required.
 
 4. Click the [SAVE] button.  
-    The *Choose options* window is closed. The product option and the additionally edited information is added to the bill list.
+    The *Choose options* window is closed. The product option and the additionally edited information are added to the bill list.
 
     ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductOptionBillList.png "[Bill list]")
 

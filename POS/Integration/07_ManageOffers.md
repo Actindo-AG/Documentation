@@ -19,17 +19,13 @@ To create an offer for POS, it is recommended to create products in the *PIM* mo
 
 #### Prerequisites
 
-<!---Neu-->
-If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a customer is specified. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
+No prerequisites to fulfill.
 
 #### Procedure
 
 Create the product in the *PIM* module. For detailed information, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
 
-<!---Neu-->
-## Create product options 
 
-There are products that can be customized. For example, t-shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.
 
 
 ## Create a product type
@@ -336,3 +332,17 @@ You need to define the created product as a voucher to use it in the *POS* store
 The voucher is saved. The *Edit offer* view is closed.
 
     > [Info] When a voucher-offer is sold, a voucher code is created and printed on the receipt. The value of the voucher corresponds to the price of the voucher before discounts are applied.
+
+<!---Neu-->
+## Add an age rating to a product
+
+If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a buyer is specified. For detailed information on configuring this feature, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
+
+
+
+<!---Neu-->
+## Create a product option 
+
+You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
+
+From a technical point of view, you have to associate a product/service to an existing product.

@@ -72,6 +72,9 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Create a voucher product](./07_ManageOffers.md#create-a-voucher-product)
         - [Define the voucher setting](./07_ManageOffers.md#define-the-voucher-setting)
 
+    - [Add an age rating to a product](./07_ManageOffers.md#add-an-age-rating-to-a-product)
+    - [Create a product option](./07_ManageOffers.md#create-a-product-option)
+
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)
     - [Check the stock allocation](./08_ManageWarehouse.md#check-the-stock-allocation)
