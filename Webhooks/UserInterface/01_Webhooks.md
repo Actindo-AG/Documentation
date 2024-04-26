@@ -6,11 +6,11 @@
 
 The list displays all available webhooks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following functions are available for the editing toolbar:
+The following functions are available for the row above the list header:
 
-- [x]    
-    Select the checkbox to the left of one list entry to display the editing toolbar for this single entry.
-    If you click the checkbox in the header, all entries in the list are selected. The editing toolbar shows then all actions you can perform on several entries.
+- ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->      
+    Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
+    If you click the checkbox in the list header, all entries in the list are selected. 
 
 - [ACTIVATE] <!---Icon ergänzen-->   
     Click this button to activate the selected webhooks. You can activate several webhooks at once. 
@@ -18,7 +18,7 @@ The following functions are available for the editing toolbar:
 - [![Delete](../../Assets/Icons/Trash01.png "[Delete]") DELETE]    
     Click this button to delete a webhook. <!---You can delete several webhooks at once?-->
 
-The following fields and functions are available in the list:
+The following fields are available in the list:
 
 - *Active*   
     Status of the webhook. The following statuses are available:
