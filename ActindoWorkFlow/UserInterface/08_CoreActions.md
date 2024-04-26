@@ -88,8 +88,8 @@ Enter the absolute priority number or add the relative number to the existing pr
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken,see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision) If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
-For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document amounts for which a manual action is required.   
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision). If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
+For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document total amount for which a manual action is required.   
 
 
 ### Configuration
@@ -99,7 +99,7 @@ For example, it allows you to incorporate approval procedures into your workflow
      Use PHP code to define the time period. For detailed information, see the [strtotime.php function](https://www.php.net/manual/en/function.strtotime.php "https://www.php.net/manual/en/function.strtotime.php ") on the PHP foundation website.
       
 - *Output ports 0-8*   
-    Define up to 9 submissions to control the decision-making process. For each submission, a different workflow path may than be taken. For example, for a simple approval process you will need two output ports: **Accept** and **Reject**.
+    Define up to 9 decision paths to control the decision-making process. For each decition path, a different workflow path may than be taken. For example, for a simple approval process you will need two output ports: **Accept** and **Reject**.
 
 **Static inputs**   
    

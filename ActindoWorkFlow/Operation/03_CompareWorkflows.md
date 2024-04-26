@@ -5,12 +5,12 @@ The comparison function of the workflow enables to compare different workflow ve
 You can use this function to do the following: 
 - Compare a specific workflow version to any other version of that workflow available on the current instance.
 - Compare a specific workflow version to any workflow version available on another instance. 
-- Because you can edit the JSON code directly, you can change, insert, or delete code lines.  
+- Change, insert, or delete code lines. This is possible, because you can edit the JSON code directly.  
 - Display change logs. By doing it, you are able to do software-audits.
 
 ## Open the comparison window
 
-Open the comparison window to compare different workflow versions. There are two different ways to open the comparison window.
+Open the comparison window to compare different workflow versions. There are two different ways to open it.
 
 #### Prerequisites
 
@@ -76,7 +76,7 @@ Compare a workflow version with any other version available on the current insta
 2. If desired, use one of the following assistant functions:   
 
    - Version   
-        Click the version drop-down list on top of a column and select the desired version number to use another version for comparison.
+        To change a displayed version, click the *Version* drop-down list on top of a column and select the desired version number.
 
     - Swap versions   
         Click the ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS] button to swap the versions displayed. 
@@ -133,7 +133,7 @@ Compare a workflow version with any other version available on another instance.
 
 
 
-## Change to the workflow to be compared 
+## Change the workflow to be compared 
 
 Change the workflow to be compared without leaving the comparison  window.
 

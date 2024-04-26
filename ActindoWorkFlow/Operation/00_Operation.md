@@ -29,7 +29,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Open the comparison window](./03_CompareWorkflows.md#open-the-comparison-window)
     - [Compare the versions](./03_CompareWorkflows.md#compare-the-versions)
     - [Compare versions of different instances](./03_CompareWorkflows.md#compare-versions-of-different-instances)
-    - [Change to the workflow to be compared](./03_CompareWorkflows.md#change-to-the-workflow-to-be-compared)
+    - [Change the workflow to be compared](./03_CompareWorkflows.md#change-the-workflow-to-be-compared)
     
     
 - [Copy a workflow](./04_CopyWorkflow.md)

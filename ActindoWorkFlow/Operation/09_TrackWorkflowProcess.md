@@ -245,7 +245,7 @@ You can write the comments in Markdown syntax.
 
 ## Check the execution log
 
-The execution log can be used to monitor the execution of individual process actions and, if necessary, to detect and to resolve transition-related issues, that is issues in the workflow configuration or in subsequent processing operations.
+The execution log can be used to monitor the execution of individual process actions. You can detect issues in the workflow configuration or in subsequent processing operations.
 
 The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action caused the delay, such as sending an email, or if the process had to wait a long time for execution.
@@ -294,7 +294,7 @@ For example, a process may have taken a long time to be executed. Here you can s
 
 ## Make a user decision
 
-When a process is waiting for a user interaction, such as when a business transaction requires approval, you can make a user decision to allow workflow process to continue.       
+When a process is waiting for a user interaction, such as when a business transaction requires approval, you can make a user decision to allow the workflow process to continue.       
 User decisions are implemented by the *Manual action* core action, see [Manual action](../UserInterface/08_CoreActions.md#manual-action).
 
 
