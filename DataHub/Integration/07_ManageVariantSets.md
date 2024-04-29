@@ -63,7 +63,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 ### Add defining attributes
 
-A defining attribute is the characteristic that defines the variation of an entity. For example, in the case of a *PIM* product, such as a piece of clothing, color or size can be defining attributes. 
+A defining attribute is the characteristic that defines the variation within a master entity and differentiates the variant entity from other variant entities of the same master. For example, in the case of a *PIM* product, such as a piece of clothing, color or size can be defining attributes, as we have shirts in color red, blue, or black, or in size S, M, or L. There cannot be two variants of the same master entity with exact the same defining attribute value(s).  
 
 You have to select at least one defining attribute to create a variant set. Bear in mind that only attributes with the following data types can be selected as defining attributes: String, Float, Integer, TreeNode, and UnitValue. Besides, you can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
 
@@ -89,7 +89,7 @@ You have to select at least one defining attribute to create a variant set. Bear
 2. Select the checkboxes of the attributes you want to be a defining attribute for the selected variant.   
     The editing toolbar is displayed above the attribute list.
 
-    > [Info] The defining attributes are those attributes that characterize the variant, so those attributes that are defining the variants of the master product.
+    > [Info] In the case of the *Color* variant set, for example, the defining attribute will be *color*. 
 
 3. Click the [ADD AND GO BACK] button.     
     The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
@@ -105,9 +105,7 @@ You have to select at least one defining attribute to create a variant set. Bear
 
 ### Add changeable attributes
 
-Unlike defining attributes, changeable attributes do not define the variation within a master entity. They are simply additional characteristics that can differ between the different variants entities. For example, in the case of a *PIM* product, EAN code, stock amount, image, or price can be changeable attributes.
-
-You can select changeable attributes for a variant set. If you want to define an attribute for the variants whose value may differ from its master product value, you have to define this attribute as a changeable attribute.
+Unlike defining attributes, changeable attributes do not define the variation within a master entity. They are simply additional characteristics that can differ between the different variant entities. For example, in the case of a *PIM* product, EAN code, stock amount, image, or price can be changeable attributes.
 
 #### Prerequisites
 
@@ -130,8 +128,6 @@ You can select changeable attributes for a variant set. If you want to define an
 
 2. Select the checkboxes of the attributes you want to be a changeable attribute for the selected variant.   
     The editing toolbar is displayed above the attribute list.
-
-    > [Info] Generally, a variant inherits all attribute values from its master product. These attribute values are locked in the variant and can only be edited in the master product. Attribute values that differ from the master product and must be maintained individually in the variant itself must be added to the list of changeable attributes.
 
 3. Click the [ADD AND GO BACK] button.   
     The *Add changeable attributes* view is closed. The selected attributes are displayed in the *Changeable attributes* box.
