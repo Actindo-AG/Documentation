@@ -7,9 +7,9 @@ A scope is needed to create offers for a certain connection.
 By default, the *Actindo Basic* scope is predefined.
 If you want to maintain multiple scopes, for example to market your products in your own web shop and other retailer platforms, you have to create and activate the respective scopes.
 
-> [Info] A scope does not equal a sales channel or web store connection. It is just a dimension that can be added to the multi-scope attributes, so that you can provide them with different values in the different scopes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
+> [Info] A scope does not equal a sales channel or web store connection. It is just a "dimension" that can be added to the multi-scope attributes, so that you can provide them with different values in the different scopes. For detailed information about creating a connection to a sales channel or web store, see [Create a connection in Omni-Channel](../../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
-[comment]: <> (zu prüfen)
+
 
 ## Create a scope
 

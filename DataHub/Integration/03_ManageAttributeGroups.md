@@ -4,7 +4,7 @@
 
 # Manage an attribute group
 
-The attribute groups serve the logical organization of the product attributes. Attribute groups are organized in a tree structure with a maximum depth of two levels.
+The attribute groups serve the logical organization of the entity attributes. Attribute groups are organized in a tree structure with a maximum depth of two levels.
 
 Note that attributes can only be added to leaf-groups, that means either to an attribute group without sub-groups or to the sub-group(s) of an attribute group.
 Once a sub-group has been created for an attribute group, attributes can no longer be assigned to the attribute group but only to the sub-groups.

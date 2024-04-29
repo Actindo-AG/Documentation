@@ -7,8 +7,6 @@
 
 An attribute defines a characteristic to describe an entity, for example, a *PIM* product or a *Fulfillment* dispatch note. When describing a product, you need attributes such as *Name*, *Price*, and *SKU*. To describe a dispatch note, on the other hand, you may use attributes such as *Carrier*, *Shipment status*, and *Tracking number*. The entity attributes are then provided with a value in the specific entity, such as an individual product. For example, a black shirt in size M has a name (Actindo shirt), a price (50.00 EUR), and an SKU (BLK-ACT-SHIRT-M), all its specific attributes and values that describe that individual product. 
 
-[comment]: <> (Simon: Bitte prüfen und bestätigen)
-
 You can create attributes, edit attributes, and deactivate or delete attributes that are not in use. Further, you can add attributes to an attribute set or remove them from an attribute set.  
 In the *DataHub* module, attributes from all plugins are displayed.
 
@@ -35,8 +33,6 @@ No prerequisites to fulfill.
 
     > [Info] If you want to provide the attribute name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
 
-[comment]: <> (Simon: Bitte prüfen) 
-
 3. Select a data type in the *Data type* drop-down list.   
     Depending on the selected data type, the *Contains sensitive data* toggle and the *CONFIGURATION* section are displayed. For detailed information about all data types, see [Data type list](../UserInterface/05_DataTypeList.md). 
 
@@ -49,7 +45,7 @@ No prerequisites to fulfill.
 
     > [Info] In order to facilitate the assignment of attributes in the further process (for instance in the ETL mapping), it is recommended to add the prefix **datahub_** to all attributes created in the *DataHub* module.     
 
-[comment]: <> (UPDATE KEY button hier abbauen!)
+[comment]: <> (Entwicklung: UPDATE KEY button hier abbauen!)
 
 5. If desired, enable the *Multi-language* toggle to assign values in multiple languages to the attribute or enable the *Multi-scope* toggle to assign different attribute values in different scopes.
 
@@ -86,8 +82,6 @@ After you have created an attribute, you can edit it. However, only some attribu
 The attribute key is locked but can be modified in exceptional cases, for example, if you have named it wrongly. 
 
 > [Caution] Attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
-
-[comment]: <> (Simon: Bitte prüfen)
 
 The assignment of an attribute to an attribute set must be changed in the attribute set itself, see [Edit an attribute set](./02_ManageAttributeSets.md#edit-an-attribute-set).   
 
@@ -163,7 +157,7 @@ At least one attribute has been created, see [Create an attribute](#create-an-at
 
 You can move an attribute to the *DELETED ATTRIBUTES* tab if it is no longer needed. Attributes that are assigned as defining attributes to any variant set cannot be deleted. For detailed information on variant sets, see [Manage a variant set](./07_ManageVariantSets.md). 
 
-As there are usually dependencies on an attribute, for example, through an attribute set or created products, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
+As there are usually dependencies on an attribute, for example, through an attribute set or created entities, it is strongly recommended not to delete an attribute. Instead, you can deactivate an attribute and thus prevent its use, see [Deactivate an attribute](#deactivate-an-attribute).
 
 #### Prerequisites
 

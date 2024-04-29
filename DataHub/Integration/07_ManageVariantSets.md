@@ -1,4 +1,4 @@
-[!!User interface Variant sets](../UserInterface/03g_VariantSets.md)
+[!!User interface Variant sets](../UserInterface/08_VariantSets.md)
 [!!Manage the variants](../Operation/02_ManageVariants.md)
 [!!Manage an attribute set](./02_ManageAttributeSets.md)
 
@@ -9,7 +9,6 @@ You can create a variant set for a *PIM* product or an *Omni-Channel* offer. A v
 
 You can manage the variant sets both in the *PIM* and the *Omni-Channel* modules depending on your specific module configuration, since the two modules are independent of each other. If both the *Omni-Channel* and the *PIM* modules are used, there is a predefined mapping that automatically applies the variant sets from *PIM* to *Omni-Channel*. Otherwise, you can manage the variant sets directly in your *Omni-Channel* module. The data displayed differ slightly, as only the attributes that are relevant for *PIM* or *Omni-Channel* are displayed in the respective module. The functionality itself, however, is based on the data models defined in the *DataHub* module. 
 
-[comment]: <> (Simon: Bitte prüfen:)
 
 
 ## Create a variant set
@@ -24,7 +23,7 @@ Define the basic inputs, such as name and attribute set, for the variant set.
 
 An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
+> [Info] By default, the *PIM basic set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 
@@ -49,9 +48,7 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 4. If desired, enable the *Copy values of changeable attributes to variant when creating a new variant* toggle. It is recommended to enable it.
 
-    > [Info] This feature makes it easier for you to link independently created products and establish a master-variant relationship between them. For example, if you have the same T-shirt in different colors, all the colored T-shirts should be subordinated as variants to a master T-shirt. If this toggle is enabled, the changeable attributes values, which are different per variant, are copied from the parent entity when creating a new variant, so that you just have to update the values if necessary. 
-
-[comment]: <> (Simon: Bitte prüfen: Kopiert vom Master-Entität ist richtig? Bitte prüfen und ggf. korrigieren/ergänzen.)
+    > [Info] This feature makes it easier for you to link independently created products and establish a master-variant relationship between them. For example, if you have the same T-shirt in different colors, all the colored T-shirts should be subordinated as variants to a master T-shirt. If this toggle is enabled, the changeable attributes values, which are different per variant, are copied from the master entity when creating a new variant, so that you just have to update the values if necessary. 
 
 5. Enter a formula for the variants SKU in the *Formula for SKU* field using the displayed placeholders. By default, you can enter the formula **{master}-{L}**.   
 
@@ -68,16 +65,14 @@ An attribute set has been created, see [Create an attribute set](./02_ManageAttr
 
 A defining attribute is the characteristic that defines the variation of an entity. For example, in the case of a *PIM* product, such as a piece of clothing, color or size can be defining attributes. 
 
-[comment]: <> (Simon: Bitte prüfen und ggf. ergänzen/verbessern)
-
-You have to select at least one defining attribute to create a variant set. You can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
+You have to select at least one defining attribute to create a variant set. Bear in mind that only attributes with the following data types can be selected as defining attributes: String, Float, Integer, TreeNode, and UnitValue. Besides, you can only select attributes as defining attributes that are neither multi-language nor multi-channel and that are assigned to the selected attribute set.
 
 #### Prerequisites
 
 - An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
+> [Info] By default, the *PIM basic set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 
@@ -112,8 +107,6 @@ You have to select at least one defining attribute to create a variant set. You 
 
 Unlike defining attributes, changeable attributes do not define the variation within a master entity. They are simply additional characteristics that can differ between the different variants entities. For example, in the case of a *PIM* product, EAN code, stock amount, image, or price can be changeable attributes.
 
-[comment]: <> (Simon: Bitte prüfen und ggf. ergänzen/verbessern)
-
 You can select changeable attributes for a variant set. If you want to define an attribute for the variants whose value may differ from its master product value, you have to define this attribute as a changeable attribute.
 
 #### Prerequisites
@@ -121,7 +114,7 @@ You can select changeable attributes for a variant set. If you want to define an
 - An attribute set has been created, see [Create an attribute set](./02_ManageAttributeSets.md#create-an-attribute-set).
 - The basic data of the variant set has been defined, see [Define the variant set basic data](#define-the-variant-set-basic-data).
 
-> [Info] By default, the *PIM Basic Set* attribute set has been created when installing the *PIM* module.
+> [Info] By default, the *PIM basic set* attribute set has been created when installing the *PIM* module.
 
 #### Procedure
 
@@ -177,15 +170,12 @@ At least one variant set has been created, see [Create a variant set](#create-a-
 
     > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.    
 
-[comment]: <> (I have to refresh the list to apply the changes -> FETA-21)
 
 
 
 ## Remove an attribute from the variant set
 
-You can remove defining and changeable attributes from the variant set. Note that at least one defining attribute must be assigned. However, you can remove all of the changeable attributes.
-
-[comment]: <> (Bug reported -> BUG-141)
+You can remove defining and changeable attributes from the variant set. Note that defining attributes can only be removed, if no product or offer has already been created using the variant set. Besides, at least one defining attribute must always be assigned. You can remove all of the changeable attributes though.
 
 #### Prerequisites
 
@@ -214,4 +204,4 @@ A variant set has been created, see [Create a variant set](#create-a-variant-set
 
     > [Info] If the changes are not yet displayed in the list of variant sets, click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button in the top right corner to update the list of variant sets.  
 
-[comment]: <> (I have to refresh the list to apply the changes -> FETA-21)
+

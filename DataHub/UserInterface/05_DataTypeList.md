@@ -59,7 +59,7 @@ In the following, the available data types, their use and their configuration an
 ![Textfield](../../Assets/Screenshots/DataHub/DataTypes/Textfield.png "[Textfield]")
 
 The *Textfield* data type is used for long texts, for example for descriptions. You can configure the text length and select to use a basic editor or an WYSIWYG editor (HTML editor).
-In the *PIM Basic Set*, the following attributes have the *Textfield* data type:
+In the *PIM basic set*, the following attributes have the *Textfield* data type:
 - Product short description
 - Product description
 - Long text
@@ -91,7 +91,7 @@ The *DataHub* plugin owns this data type.
 
 ![Checkbox](../../Assets/Screenshots/DataHub/DataTypes/Checkbox.png "[Checkbox]")
 
-The *Checkbox* data type is used to indicate a statement that is either true or false, for example if a product is a digital or a real product. The checkbox is displayed by a toggle. In the *PIM Basic Set*, the following attributes have the *Checkbox* data type:
+The *Checkbox* data type is used to indicate a statement that is either true or false, for example if a product is a digital or a real product. The checkbox is displayed by a toggle. In the *PIM basic set*, the following attributes have the *Checkbox* data type:
 - Sale item
 - 18+
 - Digital item
@@ -161,7 +161,7 @@ The *DataHub* plugin owns this data type.
 
 ![String](../../Assets/Screenshots/DataHub/DataTypes/String.png "[String]")
 
-The *String* data type is used for short texts or alphanumeric information, for example keywords. You can configure the string length and define regular expressions for the string. In the *PIM Basic Set*, the following attributes have the *String* data type:
+The *String* data type is used for short texts or alphanumeric information, for example keywords. You can configure the string length and define regular expressions for the string. In the *PIM basic set*, the following attributes have the *String* data type:
 - Product name
 - EAN-code
 - Customs tariff number
@@ -224,7 +224,7 @@ The *DataHub* plugin owns this data type.
 
 ![Country](../../Assets/Screenshots/DataHub/DataTypes/Country.png "[Country]")
 
-The *Country* data type is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the *PIM Basic Set*, the *Country of origin* attribute has the *Country* data type.
+The *Country* data type is used to indicate a country. A drop-down list with all countries in the system is displayed in the product view. In the *PIM basic set*, the *Country of origin* attribute has the *Country* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -280,7 +280,7 @@ The *DataHub* plugin owns this data type.
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 The data type is used to show the completeness of a product, according to the required fields in the attribute set.
-In the *PIM Basic Set*, the *Completeness* attribute has the *Completeness* data type.
+In the *PIM basic set*, the *Completeness* attribute has the *Completeness* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -290,7 +290,7 @@ The *DataHub* plugin owns this data type.
 
 ![Number with Unit](../../Assets/Screenshots/DataHub/DataTypes/NumberUnit.png "[Number with Unit]")
 
-The *Number with Unit* is used for numerical specifications of a certain unit of measurement, for example weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the following attributes have the *Number with Unit* data type:
+The *Number with Unit* is used for numerical specifications of a certain unit of measurement, for example weight specifications. You can configure the applicable dimension and unit of measurement. Depending on the selected dimension, the options for the unit are adapted. In the *PIM basic set*, the following attributes have the *Number with Unit* data type:
 - Length
 - Width
 - Depth
@@ -314,7 +314,7 @@ The *DataHub* plugin owns this data type.
 
 ![DateTime](../../Assets/Screenshots/DataHub/DataTypes/DateTime.png "[DateTime]")
 
-The *DateTime* data type is used to indicate a date and/or a time. You can configure whether to display or not the date and the time, and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the *PIM Basic Set*, the *Expiration date* attribute has the *DateTime* data type.
+The *DateTime* data type is used to indicate a date and/or a time. You can configure whether to display or not the date and the time, and you can select a date and time format. A calendar widget to select the date is displayed in the product view. In the *PIM basic set*, the *Expiration date* attribute has the *DateTime* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -348,7 +348,7 @@ The *DataHub* plugin owns this data type.
 
 ![Sales Unit Value](../../Assets/Screenshots/DataHub/DataTypes/SalesUnitValue.png "[Sales Unit Value]")
 
-The *Sales Unit Value* data type is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the *PIM Basic Set*, the *Sale unit* attribute has the *Sales Unit Value* data type.
+The *Sales Unit Value* data type is used to define a dimension and a unit. Two drop-down lists to select the applicable dimension and unit are displayed in the product view. Depending on the selected dimension, the options for the unit are adapted. In the *PIM basic set*, the *Sale unit* attribute has the *Sales Unit Value* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -390,7 +390,7 @@ The *DataHub* plugin owns this data type.
 
 ![Stock Value](../../Assets/Screenshots/DataHub/DataTypes/StockValue.png "[Stock Value]")
 
-The *Stock Value* data type is used to indicate the number of stock values. You can configure the number of decimal places. A new target scope for this stock is created in the *Warehouse* module for the inventory assignment. In the *PIM Basic Set*, the *Stock* attribute has the *Stock value* data type.
+The *Stock Value* data type is used to indicate the number of stock values. You can configure the number of decimal places. A new target scope for this stock is created in the *Warehouse* module for the inventory assignment. In the *PIM basic set*, the *Stock* attribute has the *Stock value* data type.
 
 The *DataHub* plugin owns this data type.
 
@@ -476,7 +476,7 @@ This data type has no further configuration settings.
 
 ![Images](../../Assets/Screenshots/DataHub/DataTypes/Images.png "[Images]")
 
-The *Images* data type is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the *PIM Basic Set*, the *Images* attribute has the *Images* data type.     
+The *Images* data type is used to attach images. You can configure the filename prefix of the uploaded image, the allowed number of images and the file extensions. A preview of the uploaded images is displayed in the product view. In the *PIM basic set*, the *Images* attribute has the *Images* data type.     
 
 The *ECM Integration in DataHub* plugin owns this data type.
 
@@ -502,7 +502,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 
 ![Files](../../Assets/Screenshots/DataHub/DataTypes/Files.png "[Files]")
 
-The *Files* data type is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the *PIM Basic Set*, the *Files* attribute has the *Files* data type.    
+The *Files* data type is used to attach files. You can configure the filename prefix of the uploaded file, the allowed number of files and the file extensions. The uploaded files are displayed in a list in the product view. In the *PIM basic set*, the *Files* attribute has the *Files* data type.    
 
 The *ECM Integration in DataHub* plugin owns this data type.
 
@@ -527,7 +527,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 ## PIM-Channels connection (internal, not editable)
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
-In the *PIM Basic Set*, the *PIM Omni-Channel Connection* attribute has the *PIM-Channels Connection* data type.
+In the *PIM basic set*, the *PIM Omni-Channel Connection* attribute has the *PIM-Channels Connection* data type.
 
 The *PIM Channels Connection* plugin owns this data type.
 
@@ -543,7 +543,7 @@ The *UCS Product Sync* plugin owns this data type.
 
 ## PIM product variants
 
-This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge. In the *PIM Basic Set*, the *Product variants* attribute has the *PIM product variants* data type.
+This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge. In the *PIM basic set*, the *Product variants* attribute has the *PIM product variants* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -672,7 +672,7 @@ The *Global Driver Management* plugin owns this data type.
 
 ![Related products](../../Assets/Screenshots/DataHub/DataTypes/RelatedProducts.png "[Related products]")
 
-The *Related products* data type is used to connect other products to the selected product, for example for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the *PIM Basic Set*, the *Product relations* attribute has the *Related products* data type.
+The *Related products* data type is used to connect other products to the selected product, for example for product recommendations. You can configure the allowed number of related products. You can select each created product as a related product in the product view. In the *PIM basic set*, the *Product relations* attribute has the *Related products* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -692,7 +692,7 @@ The *PIM* plugin owns this data type.
 
 ![PIM Price Field](../../Assets/Screenshots/DataHub/DataTypes/PIMPriceField.png "[PIM Price Field]")
 
-The *PIM Price Field* data type is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the *Simple price field* data type, the *PIM Price Field* data type offers more setting options and therefore also a more detailed and extended price specification. In the *PIM Basic Set*, the *Price* attribute has the *PIM Price Field* data type.
+The *PIM Price Field* data type is used to indicate a price. You can configure the number of decimals for the price and the supported currencies. In the product view, you must select a tax class for price calculation. Additionally, you can define a MSRP, scale prices and promotion periods. Unlike the *Simple price field* data type, the *PIM Price Field* data type offers more setting options and therefore also a more detailed and extended price specification. In the *PIM basic set*, the *Price* attribute has the *PIM Price Field* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -728,7 +728,7 @@ The *UCS Product Sync* plugin owns this data type.
 
 ![Base price](../../Assets/Screenshots/DataHub/DataTypes/BasePrice.png "[Base price]")
 
-The *Base price* data type is used to indicate a base price. The base price is necessary to calculate the price per unit, which is mandatory in the EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM Basic Set*, the *Base unit (Base price)* attribute has the *Base price* data type.
+The *Base price* data type is used to indicate a base price. The base price is necessary to calculate the price per unit, which is mandatory in the EU. Two drop-down lists to select the applicable dimension and unit and a field to enter the corresponding amount of the product are displayed in the product view. In the *PIM basic set*, the *Base unit (Base price)* attribute has the *Base price* data type.
 
 The *PIM* plugin owns this data type.
 
@@ -742,7 +742,7 @@ This data type has no further configuration settings.
 
 ![Product bundle](../../Assets/Screenshots/DataHub/DataTypes/ProductBundle.png "[Product bundle]")
 
-The *Product bundle* data type is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, for example at a promotional price, without forming a packaging unit. That means that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM Basic Set*, the *Bundle* attribute has the *Product bundle* data type.
+The *Product bundle* data type is used to define products that can be sold in a bundle with the selected product. In a product bundle, several different products are sold together, for example at a promotional price, without forming a packaging unit. That means that each product has still its own EAN-code and can also be purchased by itself. You can configure the number of allowed products in a product bundle. In the *PIM basic set*, the *Bundle* attribute has the *Product bundle* data type.
 
 The *PIM* plugin owns this data type.
 

@@ -1,6 +1,8 @@
 [!!Data type list](./05_DataTypeList.md)
 [!!Manage an attribute](../Integration/01_ManageAttributes.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
+[!!Manage the ETL mappings](../Operation/01_ManageETLMappings.md)
+
 
 # Attributes
 
@@ -34,7 +36,7 @@ The following functions and fields are available in this view:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
 
-[comment]: <> (Spalte sollte Status heißen. Kommt das hier aus den Translation files?)
+[comment]: <> (Terminologie: Spalte sollte Status heißen)
 
 - *Group*   
     Attribute group to which the attributes are assigned. If the attribute is not assigned to any attribute group, *not assigned* is displayed.
@@ -59,7 +61,7 @@ The following functions and fields are available in this view:
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
-[comment]: <> (Es soll noch eine Spalte zu Contains sensitive data hinzugefügt werden.)
+[comment]: <> (Entwicklung: Es soll noch eine Spalte zu Contains sensitive data hinzugefügt werden.)
 
 - *Plugin*   
     Module or plugin that owns the attribute.
@@ -123,8 +125,6 @@ The *Create attribute* view contains all fields and configurations that define t
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
-
-[comment]: <> (UPDATE KEY -> Bitte aus Create attribute view abbauen!)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Multi-language*   
     Enable this toggle to create a multi-language attribute. Disable the toggle to create a single language attribute. By default, this toggle is disabled.
@@ -248,9 +248,8 @@ The list displays all attributes. Depending on the settings, the displayed colum
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is a calculated field.   
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is no calculated field.
 
-    > [Info] The value of an attribute marked as "Calculated field" is not manually modified. Instead of that, the value is calculated, through an ETL mapping, from other attribute or attributes in the same entity.
+    > [Info] The value of an attribute marked as "Calculated field" is not manually modified. Instead of that, the value is calculated, through an ETL mapping, from other attribute or attributes in the same entity. For detailed information, see [Manage the ETL mappings](../Operation/01_ManageETLMappings.md).
 
-[comment]: <> (Simon: Bitte prüfen. Kann man das im UI einstellen? Oder Ist ein Interner Datentyp?)
 
 ### Update attribute key
 

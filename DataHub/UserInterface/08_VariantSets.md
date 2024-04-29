@@ -24,7 +24,7 @@ The following functions are available for the editing toolbar:
     For detailed information, see [Edit a variant set](../Integration/07_ManageVariantSets.md#edit-a-variant-set).
 
 - [DELETE]     
-    Click this button to delete the selected variant sets. A variant set can only be deleted if no dependencies are existing. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
+    Click this button to delete the selected variant sets. A variant set can only be deleted if no entities are using the variant set. Otherwise, an error message is displayed. This button is only displayed if the checkbox of at least one variant set is selected.
 
 The following functions and fields are available in this view:
 

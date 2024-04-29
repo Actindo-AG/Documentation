@@ -183,7 +183,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun all mappings
 
-[comment]: <> (Julian: Stimmt Screenshot hier? Keine Mappings in terminologie-einspielen2 vorhanden)
+[comment]: <> (Entwicklung: Stimmt Screenshot hier? Keine Mappings in terminologie-einspielen2 vorhanden)
 
 *DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Button RERUN MAPPINGS*
 
@@ -201,7 +201,7 @@ The *Configuration* section displays the additional configuration for the mappin
 
 ### Rerun single mapping
 
-[comment]: <> (Julian: Stimmt Screenshot hier? Keine Mappings in terminologie-einspielen2 vorhanden)
+[comment]: <> (Entwicklung: Stimmt Screenshot hier? Keine Mappings in terminologie-einspielen2 vorhanden)
 
 *DataHub > ETL > Tab MAPPINGS > Select attribute set mapping > Select attribute mapping > Button RERUN SELECTED MAPPING*
 

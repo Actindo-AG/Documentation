@@ -31,7 +31,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
     ![Create ETL attribute set mapping](../../Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
 
-[comment]: <> (Abweichung in Screenshot: Create mapping of ETL attribute set sollte Create ETL attribute set mapping sein oder Create attribute set ETL mapping -> Translation files zu korrigieren)
+[comment]: <> (Terminologie: Abweichung in Screenshot. Create mapping of ETL attribute set sollte Create ETL attribute set mapping sein oder Create attribute set ETL mapping -> Translation files zu korrigieren)
 
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
@@ -65,9 +65,7 @@ You can edit the attribute mappings within an attribute set mapping, add a custo
 
 When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
 
- > [Info] The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically or after the approval of another user. 
-
-[comment]: <> (Simon: Bitte prüfen)
+ > [Info] The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically, or after the approval of another user. 
 
 #### Prerequisites
 
@@ -270,7 +268,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
 
 
-[comment]: <> (Rerun selected mapping und Rerun mappings jetzt anders in terminologie-einspielen sandbox. S. Screenshots)
+[comment]: <> (Terminologie: Abweichung in Screenshot. Rerun selected mapping und Rerun mappings jetzt anders in terminologie-einspielen sandbox. S. Screenshots)
 
 
 ### Rerun an attribute set mapping

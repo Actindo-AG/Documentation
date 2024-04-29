@@ -114,7 +114,7 @@ The *Create attribute set* view contains all the fields and configurations that 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the attribute set status to active. Disable the toggle to set the status to inactive. By default, this toggle is enabled.
 
-[comment]: <> (Locked toggle bitte hier abbauen!)
+[comment]: <> (Entwicklung: Locked toggle bitte hier abbauen!)
 
 - *Entity type*   
     Click the drop-down list to select the appropriate entity type. All available entity types are displayed in the list.

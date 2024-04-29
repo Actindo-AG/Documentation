@@ -133,7 +133,7 @@ This extension is used to apply a certain logic to the mapping. Define the equat
 - ![Add](../../Assets/Icons/Plus03.png "[Add]") (Add)   
     Click this button to add another equation. If the value of the first equation is empty, the second equation is used as a fallback value. You can add an unlimited number of equations.
 
-[comment]: <> (Simon: Bitte kontrollieren und ggf. anpassen/weiter ausführen. Die Kommentare in dieser Datei kommen noch vom 1. Version von DataHub, von Hannah erstellt. Bitte durchgehen und Fragen beantworten!)
+[comment]: <> (Entwicklung: Bitte kontrollieren und ggf. anpassen/weiter ausführen. Die Kommentare in dieser Datei kommen noch vom 1. Version von DataHub. Bitte durchgehen und Fragen beantworten!)
 
 
 ## Basic mapping
