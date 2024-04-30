@@ -1,159 +1,146 @@
 # Entity data
 
+You can retrieve any specific entity data via API. 
+
+To make API calls, for example, you usually need to provide some entity IDs in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity. 
+
+You can find out an entity ID via user interface or via API.
+
+
 ## Entity ID via user interface
 
 You can find out any entity ID via user interface as follows:
 
-1. Go to the module where the entity "lives", for example *DataHub > Data models > Attribute sets* to find out an attribute set ID.
+1. Go to the module where the entity originates, for example *PIM > Products > LIST* to find out a product ID.
 
 2. Locate the entity whose ID you need.
 
 3. Check the ID in the *ID* column. 
 
-    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to display it. 
-
+    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to learn how to display it. 
 
     ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
 
-Alternatively, you can find out the entity ID in the URL as follows:
-
-1. Click the entity whose ID you need.  
-    The *Edit "entity"* view is displayed.
-
-2. Check the site URL in your browser.  
-    The selected entity ID is located at the end of the URL, as in the following example: 
-
-    ![Entity ID in URL](../../Assets/Screenshots/PIM/API/EntityID_URL.png "[Entity ID in URL]")
 
 
 ## Entity ID via API
 
-You can get all entity data you need via API. All entity data are provided in the response to your requests. Depending on the entity data you need, the endpoint you have to address may vary. 
+Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-In the following, a few request samples for the most common use cases are provided.
+If desired, you can also set filters to narrow down your request response, see [List products](./05_Products.md#list-products) for the filter definitions and sample requests.
 
-Required fields:
-
-attributeSetId 
-variantSetId 
-Product ID
-Attributes ID
+In the following, a few useful use cases, with their corresponding sample requests, are provided.
 
 
-## Get product data
+### List the attribute sets
 
-Get all data stored in the database for a specific entity, for example, a product. If desired, you can also set filters. For detailed information on how to set a filter, see []()
+Get a list of all attribute sets in your current instance, including the attribute set IDs.
 
-**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.get
+[comment]: <> (Attribute sets ID)
 
-### Definitions
+#### Definitions
+
+| Attribute      | Data type | Description | 
+| ---------------|-----------|-------------| 
+| **dataType**   | string    | Entity data type |   
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getListOfAttributeSets
+
+#### Sample request
+
+        {
+        "dataType": "Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue"
+        }
+
+> [Info] Since the attribute set ID is a whole number, you have to provide the data type *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue*.  
+
+[comment]: <> (Check!)
+
+### List the attributes in an attribute set
+
+Get a list of all attributes contained in an attribute set, including all attribute IDs. 
+
+[comment]: <> (Attributes ID)
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getList
+ 
+#### Definitions
 
 | Attribute      | Data type | Description |  
 | ---------------|-----------|-------------|
-| **Id** | integer | Entity identification number |
+| **attributeSetId** | integer | Attribute set identification number | 
 
-### Request sample  
+#### Sample request
+
+    {
+      "attributeSetId": 592
+    }
+
+
+### List the variant sets for an attribute set
+
+Get a list of all variant sets assigned to an attribute set, including all variant set IDs.
+
+[comment]: <> (variantSetId)
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
+
+#### Descriptions
+
+| Attribute      | Data type | Description |   
+| ---------------|-----------|-------------|
+| **attributeSetId** | integer | Attribute set identification number | 
+
+#### Sample request
+
+        {
+        "attributeSetId": 102
+        }
+
+
+### Get variant set data 
+
+Get the data contained in a variant set, including the underlying attribute set and ID, and the variant set defining and changeable attributes. 
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.get
+
+[comment]: <> (Unterschied zu /Actindo.Modules.Actindo.PIM.Variants.getColumnConfigurationsAndVariantSet?)
+
+#### Definitions
+
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| **Id** | integer | Variant set identification number |
+
+#### Sample request
+
+
+        {
+        "id": 91
+        }
+
+
+### Get product data
+
+Get data for a specific product. 
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.Products.get
+
+#### Definitions
+
+| Attribute      | Data type | Description |  
+| ---------------|-----------|-------------|
+| **Id** | integer | Product identification number |
+
+To find out the desired product ID via API, see [List products](./05_Products.md#list-products). 
+
+#### Sample request  
 
         {
             "product": {
                 "id": "862"
             }
         }
-
-
-
-
-### Definitions
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| **entityId** | integer | Entity identification number |
-
-
-### Request sample
-
-    {
-        "entityId": 12
-    }
-
-
-## Attribute sets ID
-
-**Endpoint:** /Actindo.Modules.Actindo.PIM.AttributeController.getListOfAttributeSets
-
-Frage: wie für Attribute ID Kein Endpoint in AttributeController? 
-
-### Definitions
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-
-
-### Request sample
- 
-    {
-       
-    }
-
-
-## List attributes in attribute set
-
-Get a list of all attributes contained in an attribute set. If desired, you can also set filters.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getList
- 
-### Definitions
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| **attributeSetId** | integer | Attribute set identification number |
-
-### Request sample
-
-    {
-      "attributeSetId": 592,
-      "start": 0,
-      "limit": 100
-    }
-
-
-
-## Product ID
-
-## List variant sets
-
-Get a list of variant sets. You can set one or more filters.
-
-**Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
-
-### Definitions
-
-The required fields are marked in bold.
-
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| **attributeSetId** | array of integer | Attribute set identification number |
-| query | string | Quick search for a query string |
-| fields | array of strings | Quick Search for query fields; null to search for all fields |
-| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
-| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
-| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
-| start | integer | Pagination: Pagination start (from 0) |
-| limit | integer | Pagination: Pagination limit |
-
-
-### List variant sets request
-
-    {
-      "attributeSetId": 622,
-      "start": 0,
-      "limit": 5
-    }
-
-
-### List variant sets response
-
-[comment]: <> (Response ist absurd lang... Abstract oder ohne response?)
 
 
 

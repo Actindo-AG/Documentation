@@ -5,7 +5,7 @@ To send requests to the *Actindo Core1 Platform* API endpoints, you need to use 
 Before you can send requests to the Core1 with Postman, you have to set it up to communicate with your system.  
 
 
-### Define the headers  
+### Define the headers
 
 Headers must be defined, so that the data is transferred to the Core1 in the appropriate format and responses are transmitted back to the user. To do so, follow the procedure below:
 
@@ -16,7 +16,7 @@ Headers must be defined, so that the data is transferred to the Core1 in the app
 3. Enter "application/json" in the *Value* column for both rows. This setting specifies that the data being sent in the request body is in JSON format.
 
 
-### Set the session cookie  
+### Set the session cookie
 
 Before you can communicate with the Core 1, you have to set a session cookie. To do so, follow the procedure below:
 

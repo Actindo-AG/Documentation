@@ -8,7 +8,7 @@ You can find out an entity ID via user interface or via API, see [Entity data](.
 
 Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes included in the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
 
-If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [Get a list of attributes in an attribute set](./04_EntityData.md#list-attributes-in-attribute-set).
+If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
 
 For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
@@ -77,7 +77,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (_pim_origin: id and/or code3digit required? Es funktioniert nicht. Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objecst?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
+[comment]: <> (_pim_origin: id and/or code3digit required? Es funktioniert nicht. Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objects?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
 
 ## Create a product
 
@@ -135,8 +135,8 @@ Depending on the type of product, the required fields vary.
 
     {
         "product": {
-            "sku": "ABC_1234",
-            "attributeSetId": 123,
+            "sku": "Single-product",
+            "attributeSetId": 102,
             "_pim_price__webshop": "50.00",
             "_pim_price__retailer_platform": "60.00",
         }
@@ -170,7 +170,7 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
-To get a list of all your attributes, see [List of all attributes](#to-be-determined).
+To get a list of all your attributes, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
 
 | Attribute      | Type | Description |  
 | ----------- | ----------- | ---------- | 
@@ -229,7 +229,7 @@ The required fields are marked in bold. For a list of standard *PIM* attributes,
 
 > [Info] The *variantSet* parameter is only necessary if the master-to-be is not a master product yet.
 
-### Sample: Add a single variant to master product
+### Sample: Link a single variant to master product
 
       {
         "variantProduct": {
@@ -243,7 +243,7 @@ The required fields are marked in bold. For a list of standard *PIM* attributes,
         }
       }
 
-### Sample: Add multiple variants to master product
+### Sample: Link multiple variants to master product
 
         [
             {
@@ -284,12 +284,12 @@ You can delete a product if it is no longer needed. If it is a master product, t
 
 The required fields are marked in bold.
 
-| Attribute   | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product identification number |
+| Attribute   | Type | Description | Comments |  
+| ----------- | ----------- | ---------- | ---- |
+| **id**      | integer    |  Product identification number | |
 
 
-### Sample: Delete a product request
+### Sample: Delete a product
 
     {
       "product": {
@@ -308,12 +308,12 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 The required fields are marked in bold.
 
-| Attribute   | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product identification number |
+| Attribute   | Type | Description | Comments |  
+| ----------- | ----------- | ---------- | ---- |
+| **id**      | integer    |  Product identification number | |
 
 
-### Sample: Move product to recycle bin request
+### Sample: Move product to recycle bin
 
     {
       "product": {
@@ -334,12 +334,12 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 The required fields are marked in bold.
 
-| Attribute   | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product identification number |
+| Attribute   | Type | Description | Comments |  
+| ----------- | ----------- | ---------- | --- |
+| **id**      | integer    |  Product identification number | | 
 
 
-### Sample: Move product to archive request
+### Sample: Move product to archive
 
     {
       "product": {
@@ -361,18 +361,19 @@ Get a list of all products including the ones in the archive or recycle bin. You
 
 The required fields are marked in bold.
 
-| Attribute      | Data type | Description |  
-| ---------------|-----------|-------------|
-| scopeId | integer | Filter for multi-scope attributes |
-| languageId | integer | Filter for multi-language attributes |
-| query | string | Quick search for a query string |
-| fields | array of strings | Quick search for query fields; null to search for all fields |
-| filter | array of objects | To set a filter. It contains the required fields **property** (field to filter), **operator**, and **value**. |
-| hints | array of objects | It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
-| sort | array of objects | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending).  |
-| start | integer | Pagination: Pagination start (from 0) |
-| limit | integer | Pagination: Pagination limit |
+| Attribute      | Data type | Description | Comments | 
+| ---------------|-----------|-------------|--------- |
+| scopeId | integer | Scope identification number | Filter for multi-scope attributes |
+| languageId | integer | Language key/code | Filter for multi-language attributes <br> The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml), e.g. en, en_US, en-US. |
+| query | string | Query string | Quick search for a string |
+| fields | array of strings | Query field | Quick search for a field <br> Enter null to search for all fields |
+| filter | array of objects | Property value filter | It contains the required fields **property** (field to filter), **operator**, and **value**. Usual filter operators are allowed, e.g. >, <, like, and so on.  |
+| hints | array of objects | Query hint | Set query hints to modify the execution of the query, e.g. get data from non-authoritative resources. It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
+| sort | array of objects | Results sorting order  | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending). |
+| start | integer | Pagination start | From 0 |
+| limit | integer | Pagination limit |   |
 
+[comment]: <> (Useful? Was für filter sinnvoll? Hints and query Beispiele?)
 
 ### Sample: List products by creation date
 
@@ -390,7 +391,7 @@ The required fields are marked in bold.
 
 
 
-### Sample: List variant products
+### Sample: List products by status
 
     {
      "filter": [
@@ -405,9 +406,6 @@ The required fields are marked in bold.
     }
 
 > [Info] Similarly, you can list all master and all single products by changing the value to "master" and "single" respectively. 
-
-
-
 
 
 
