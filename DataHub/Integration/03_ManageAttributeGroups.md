@@ -66,7 +66,8 @@ You can create attribute sub-groups, change the order of attribute groups, add a
 
 ### Create an attribute sub-group
 
-Create an attribute sub-group to organize the attributes in special groups, for instance depending on product-related categories in the case a *PIM* product.
+Create an attribute sub-group to organize the attributes in special groups depending on the type of the entity-related data. For example, in the case of a *PIM* product, you can organize the product attributes in different groups, such as product data, description, prices, and dimensions. 
+
 If the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
 
 Attribute groups are organized in a tree structure with a maximum depth of two levels. That means that a maximum of one sub-group level can be added to an attribute group.
@@ -120,9 +121,9 @@ At least one attribute group has been created, see [Create an attribute group](#
 
 ### Change the order of attribute groups
 
-The order of attribute groups in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes groups displayed when clicking on an entity, for example, in the product view in the *PIM* module.
+The order of attribute groups in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes groups displayed when clicking on an entity in the corresponding module, for example, in the product view in the *PIM* module.
 
-You can change the order to display an attribute group in a different place when creating or editing an entity.
+You can change the order to display an attribute group in a different place in the entity view.
 
 The procedure to change the order of attribute groups and sub-groups is identical.
 Just select the attribute sub-group instead of the group and follow the steps described below.
@@ -234,7 +235,7 @@ If you add an attribute to an attribute group that is already added to another g
 ### Change the order of attributes within a group
 
 The order of attributes within an attribute group in the *ATTRIBUTE GROUPS* tab corresponds to the order of attributes within a group in the entity view, for example, in a product view in the *PIM* module.
-You can change the order to display a certain attribute in a different place in the attribute group when creating or editing an entity.   
+You can change the order to display a certain attribute in a different place in the attribute group in the entity view.   
 
 The procedure to change the order of attributes within attribute groups and sub-groups is identical.
 Just select the attribute sub-group instead of the group and follow the steps described below.
@@ -274,7 +275,7 @@ Just select the attribute sub-group instead of the group and follow the steps de
 
 You can remove an attribute from an attribute group if it is no longer in use.
 Note that you just remove the attribute from the attribute group but you do not delete the attribute itself.
-Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the entity view, for example, in the product in the *PIM* module.    
+Alternatively, you can [deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute) so it is no longer displayed in the entity view, for example, in the product view in the *PIM* module.    
 
 The procedure to remove attributes from attribute groups or sub-groups is identical.
 Just select the attribute sub-group instead of the group and follow the steps described below.

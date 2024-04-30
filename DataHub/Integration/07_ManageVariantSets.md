@@ -15,6 +15,8 @@ You can manage the variant sets both in the *PIM* and the *Omni-Channel* modules
 
 Create a variant set to be able to create variants to products or offers. A variant set is always assigned to a certain attribute set. When a variant set is created to an attribute set, you can create variants to all products or offers with this attribute set. You must assign at least one defining attribute to a variant set. Moreover, you can assign further defining and changeable attributes.   
 
+> [Info] Generally, a variant inherits all attribute values from its master entity. These inherited attribute values are locked in the variant and can only be edited in the master entity. Attribute values that differ from the master entity and must be maintained individually in the variant itself must be added to the list of defining and changeable attributes in the variant set.
+
 ### Define the variant set basic data
 
 Define the basic inputs, such as name and attribute set, for the variant set.
@@ -89,7 +91,7 @@ You have to select at least one defining attribute to create a variant set. Bear
 2. Select the checkboxes of the attributes you want to be a defining attribute for the selected variant.   
     The editing toolbar is displayed above the attribute list.
 
-    > [Info] In the case of the *Color* variant set, for example, the defining attribute will be *color*. 
+    > [Info] In the case of the *Color* variant set, for example, the defining attribute would be *Color*. 
 
 3. Click the [ADD AND GO BACK] button.     
     The *Add defining attributes* view is closed. The selected attributes are displayed in the *Defining attributes* box. A placeholder for the added attribute is displayed in the *Formulas* section.   
