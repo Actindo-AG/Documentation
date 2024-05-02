@@ -20,6 +20,10 @@ The following functions are available for the editing toolbar:
   
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
     Click this button to edit the selected store. This button is only displayed, when the checkbox of a store is selected. Alternatively, you can click directly a row in the table to edit a store.
+<!---Neu-->
+- [REBUILD CACHE]   
+<!---To be enhanced-->
+
 
 The following functions and fields are available in this view:
 

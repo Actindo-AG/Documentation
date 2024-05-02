@@ -162,14 +162,14 @@ Some offers are not suitable for children and young people, for example offers s
     The offer is not added to the bill list.
 
 
-## Add product options
+## Add a product option
 
 There are products where the buyer has the option of customizing them. If a store has the appropriate technical capabilities, this could be shirts with optional flocking, for example, or photos that a customer can have printed on mugs or other items. In these cases, a specific service is associated to an offer. This service is optional for customers and can be purchased additionally.
 
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- Offers relevant to product options have been associated to the offers to which they are related, see [Create product options](../Integration/07_ManageOffers.md#create-product-options).
+- Offers relevant to product options have been associated to the offers to which they are related, see [Create a product option](../Integration/07_ManageOffers.md#create-a-product-option).
 
 #### Procedure
 
@@ -183,9 +183,9 @@ There are products where the buyer has the option of customizing them. If a stor
     ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption.png "[Choose options]")
 
 2. Present the various options to the customer.   
-    + If the customer do not want to use the service, click the [CANCEL] button.   
+    + If the customer does not want to use the service, click the [CANCEL] button.   
     The *Choose options* window is closed.
-    + If the customer want to use the service, continue.  
+    + If the customer wants to use the service, continue.  
         Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. 
 
 3. If applicable, enter the name or other information that might be required.

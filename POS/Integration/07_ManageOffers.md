@@ -346,3 +346,7 @@ If you want to use the *Age rating* feature, the attribute set assigned to the P
 You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
 
 From a technical point of view, you have to associate a product/service to an existing product.
+
+### Create product option variant set
+Zusätzlich zum Variantenset für Filiale braucht man eines für Produktoptionen. HIerfür kann man Options-Basic set als referenz nehmen
+In addition to the store-specific variant set you must create a variant set for the product option. Use the *Basic Product option* variant set for reference. 
