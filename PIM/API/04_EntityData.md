@@ -11,7 +11,7 @@ You can find out an entity ID via user interface or via API.
 
 You can find out any entity ID via user interface as follows:
 
-1. Go to the module where the entity originates, for example *PIM > Products > LIST* to find out a product ID.
+1. Go to the module where the entity originates, for example, *PIM > Products > LIST* to find out a product ID.
 
 2. Locate the entity whose ID you need.
 
@@ -21,15 +21,16 @@ You can find out any entity ID via user interface as follows:
 
     ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
 
+4. Write down the product ID. You will need to provide it when sending your request.
 
 
 ## Entity ID via API
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-If desired, you can also set filters to narrow down your request response, see [List products](./05_Products.md#list-products) for the filter definitions and sample requests.
+If desired, you can also set filters to narrow down your request response, see [List products](./05_Products.md#list-products) for the filter definitions and request samples.
 
-In the following, a few useful use cases, with their corresponding sample requests, are provided.
+In the following, a few useful use cases, with their corresponding request samples, are provided.
 
 
 ### List the attribute sets
@@ -46,7 +47,7 @@ Get a list of all attribute sets in your current instance, including the attribu
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getListOfAttributeSets
 
-#### Sample request
+#### Request sample
 
         {
         "dataType": "Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue"
@@ -54,7 +55,7 @@ Get a list of all attribute sets in your current instance, including the attribu
 
 > [Info] Since the attribute set ID is a whole number, you have to provide the data type *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue*.  
 
-[comment]: <> (Check!)
+[comment]: <> (Stimmt das so? Response scheint zu stimmen)
 
 ### List the attributes in an attribute set
 
@@ -70,7 +71,7 @@ Get a list of all attributes contained in an attribute set, including all attrib
 | ---------------|-----------|-------------|
 | **attributeSetId** | integer | Attribute set identification number | 
 
-#### Sample request
+#### Request sample
 
     {
       "attributeSetId": 592
@@ -91,12 +92,17 @@ Get a list of all variant sets assigned to an attribute set, including all varia
 | ---------------|-----------|-------------|
 | **attributeSetId** | integer | Attribute set identification number | 
 
-#### Sample request
+#### Request sample
 
         {
         "attributeSetId": 102
         }
 
+
+
+## Additional entity data
+
+You can obtain any data available in the database via API, such as product data or variant set data. 
 
 ### Get variant set data 
 
@@ -104,7 +110,7 @@ Get the data contained in a variant set, including the underlying attribute set 
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.get
 
-[comment]: <> (Unterschied zu /Actindo.Modules.Actindo.PIM.Variants.getColumnConfigurationsAndVariantSet?)
+[comment]: <> (Unterschied zu /Actindo.Modules.Actindo.PIM.Variants.getColumnConfigurationsAndVariantSet? Required: variantSetId)
 
 #### Definitions
 
@@ -112,7 +118,7 @@ Get the data contained in a variant set, including the underlying attribute set 
 | ---------------|-----------|-------------|
 | **Id** | integer | Variant set identification number |
 
-#### Sample request
+#### Request sample
 
 
         {
@@ -134,7 +140,7 @@ Get data for a specific product.
 
 To find out the desired product ID via API, see [List products](./05_Products.md#list-products). 
 
-#### Sample request  
+#### Request sample
 
         {
             "product": {
@@ -144,3 +150,15 @@ To find out the desired product ID via API, see [List products](./05_Products.md
 
 
 
+[comment]: <> (Evtl. TreeNode IDs, dimensions IDs...)
+
+---
+--- Bitte ignorieren ---
+
+Add. ID info?
+
+    "_pim_baseprice": {
+                                "amount": 1,
+                                "unitId": 382,
+                                "dimensionId": 22
+                            },

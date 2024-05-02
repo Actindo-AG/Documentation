@@ -12,9 +12,34 @@ The Core1 is highly configurable and expandable, using not only the Actindo App 
 
 The *Actindo Core1 Platform* supports two workflows of the OAuth 2.0 protocol to retrieve an access token to make authenticated requests. For detailed information on the authentication flow, see [OAuth authorization flow](02_GetStarted.md#oauth-authorization-flow).
 
-## Methods 
+## Methods
 
 The *POST* method is always used for all *Actindo Core1 OpenAPI* endpoints. All other methods are not relevant for communication with the Core1 platform.
+
+## URI
+
+URI stands for Uniform Resource Identifier. It represents the location of a web resource. 
+
+In the *Actindo Core1 OpenAPI*, the URI has the following structure:
+
+**https://your-workspace.actindo.com/API.endpoint**
+
+- *your-workspace* represents the name of your instance.
+- *API.endpoint* represents the API endpoint as described in this API reference documentation.
+
+## Headers
+
+Headers contain metadata in key-value pairs that are sent along with HTTP requests and responses. They are essential for the API calls, as they provide additional information for communication between client and server.
+
+The following headers are required for communication with the *Actindo Core1 OpenAPI*:
+
+| Key | Value |
+|-----|-------|
+| Content-Type  | application/json |
+| Accept        | application/json |
+| Authorization  | access token <br> See [Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token) |
+
+[comment]: <> (Unsicher, ob das stimmt, und wie authentication/authorization via header/request body funktioniert)
 
 ## Response codes
 
@@ -31,7 +56,7 @@ Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to in
 
 For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
 
-## Format  
+## Format
 
 The *Actindo Core1 Platform API* accepts and returns json body requests. 
 
@@ -41,24 +66,13 @@ You can use different software tools to submit your requests, either your own to
 
 Regardless of how you submit your requests, you always have to provide the following information:
 
-- URI: **https://[your-wokspace]/API.endpoint**
-
-- HTTP method, see [Methods](#methods) 
-
+- URI
+- HTTP method 
 - Headers
-
-    | Key | Value |
-    |-----|-------|
-    | Content-Type  | application/json |
-    | Accept        | application/json |
-    | Bearer token  | s. [Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token) |
-
 - Request body
 
-[comment]: <> (In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktionert es sonst?)
+[comment]: <> (In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktioniert es sonst?)
 
 
-
-
-[comment]: <> (Glossary? Headers, URIs?)
+[comment]: <> (Glossary?)
 [comment]: <> (API architecture, API request workflow?)

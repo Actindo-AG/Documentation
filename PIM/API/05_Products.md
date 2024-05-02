@@ -2,11 +2,11 @@
 
 You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products. 
 
-Keys are customer-defined. Therefore, the fields displayed in the following request samples should just serve as an example. You have to include all required fields in your request and provide them with a value. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module.  
+Keys are customer-defined. Therefore, the fields displayed in the following request samples should just serve as an example. You have to include all required fields in your request and provide them with a value. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module. You can find out an entity ID via user interface or via API, see [Entity data](./04_EntityData.md).
 
-You can find out an entity ID via user interface or via API, see [Entity data](./04_EntityData.md).
+Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *PIM > Settings > Attributes*.
 
-Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes included in the attribute set of the product you want to add, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *DataHub > Settings > Attributes*.
+[comment]: <> (PIM > Settings > Attribute sets / PIM > Settings > Attributes)
 
 If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
 
@@ -15,10 +15,9 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
 > [Caution] In the latest version of the *DataHub* and *PIM* modules, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
 
 
-
 ## The product object
 
-Products represent the goods and services you offer to your customer. They are defined through a set of attributes. 
+Products represent the goods and services you offer to your customers. They are defined through a set of attributes. 
 
 The following table displays a list of all attributes contained in the *PIM basic set* (_pim_attribute_name) with their default data types and configuration. Additional fields, such as created and modified, are set by default in all entities and can be used to set filters. The required fields are marked in bold. 
 
@@ -32,7 +31,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modifiedBy |integer | User ID | To find a user ID, go to *Settings > Users and groups > User management*. |
 | attributeSet | object | Product attribute set | It contains the required field **id**. |
 | variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
-| _pim_variants | object | It defines variant product(s) to a master product. | It contains the following fields: <br> **variantSetId** (integer), isMasterEntity (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
+| _pim_variants | object | Master or variant product definition | It contains the following fields: <br> **variantSetId** (integer), isMasterEntity (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
 | _pim_art_name | string | Product name | |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language | If attribute is multi-scope and multi-language |
 | _pim_catalog | string / object ? | Product categories | It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
@@ -40,7 +39,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_long_text__language | string | Product long name in a specific language | If attribute is multi-language |
 | _pim_ean | string | Product EAN code | |
 | _pim_customs_number | string | Customs tariff number | |
-| _pim_origin | object / Country ? | Country of origin | It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. |
+| _pim_origin | object | Country of origin | It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. |
 | _pim_valid_until | string | Expiration date | Format: YYYY-MM-DD HH:MM:SS |
 | _pim_is_sale | boolean | The product is a sale item. | Options are *true* or *false*. |
 | _pim_fsk18 | boolean | Suitable for persons above 18 | Options are *true* or *false*. |
@@ -69,15 +68,73 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_products_short_description | string | Product short description | |
 | _pim_products_short_description__scope__language | string | Product short description in a specific scope and language | If attribute is multi-scope and multi-language | 
 | _pim_products_bundle | object / array of objects ? | It adds products that can be sold in a bundle with the selected product. | It contains the required fields/objects? **entity** and **quantity**.  |
-| _pim_products_relations | string | Adds related products, e.g. for product recommendation. | |
-| _pim_completeness | string | Required attributes completeness | This attribute is for internal use only. |
+| _pim_products_relations | string / object ? | Adds related products, e.g. for product recommendation. | |
+| _pim_completeness | object | Required attributes completeness | This attribute is for internal use only. |
 | _pim_images | object | It allows to upload images. | It contains the required field **id**. You need the path to the file location. | 
 | _pim_files | string | It allows to upload files. | It contains the required field **id**. You need the path to the file location. |
-| _pim_channels_connection | string, number, integer, boolean, object | It allows to connect a *PIM* product to an *Omni-Channel* offer. <-- Any of -- Bedeutung? --> | |
+| _pim_channels_connection | Object ? | Connection definition from *PIM* to *Omni-Channel* | It allows to connect a *PIM* product to an *Omni-Channel* offer. |
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
 [comment]: <> (_pim_origin: id and/or code3digit required? Es funktioniert nicht. Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objects?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
+
+[comment]: <> (_pim_variants: fields vary depending on product status, i.e. variant or master. S. unten - in Doku übernehmen!)
+
+--- Bitte ignorieren. Ich muss es noch in Doku evtl. übernehmen. ---
+
+Master _pim_variants:
+
+
+        "_pim_variants": {
+                        "variantSetId": 91,
+                        "isMasterEntity": true,
+                        "childrenIds": {
+                            "1151": 1151,
+                            "1161": 1161,
+                            "1141": 1141
+                        },
+                        "numberOfChildren": 3,
+                        "toCreate": []
+                    },
+
+Variant _pim_variants:
+
+        "_pim_variants": {
+                        "variantSetId": 91,
+                        "isMasterEntity": false,
+                        "masterId": 1121,
+                        "definingValues": [
+                            {
+                                "attributeName": "EAN-Code",
+                                "value": "child-1-1121"
+                            }
+                        ]
+                    },
+
+Master/Variant (geerbt) pim_origin:
+
+        "_pim_origin": {
+                        "id": 76,
+                        "codeNumeric": 76,
+                        "code3digit": "BRA",
+                        "code2digit": "BR",
+                        "codeKfz": "BR",
+                        "continentCode": "SA",
+                        "isEu": false,
+                        "name": "Brasilien",
+                        "_E": 2905170383
+                    },
+
+
+_pim_product_relations: 
+
+        "_pim_products_relations": {
+                                    "id": "8b1989c738d4b489ffcef0d3a93e9448",
+                                    "ids": [],
+                                    "entityData": [],
+                                    "stringRepresentation": "",
+                                    "_E": 4049651496
+                                },
 
 ## Create a product
 
@@ -106,7 +163,7 @@ Depending on the type of product, the required fields vary.
 | **attributeSetId**   | integer  | Attribute set identification number | |
 | variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
 | **variantSet**    | object  | Set containing the attributes for product variation | It contains the required field **id**.  |
-| **_pim_variants** | object | It defines variant product(s) to a master product. | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
+| **_pim_variants** | object | Master of variant product definition | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
 
 
 ### Sample: Single product
@@ -178,7 +235,7 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **attributeSetId**   | integer  | Attribute set identification number | |
 | variantStatus   | string  | Product status | Indicates whether it is a *single*, *master* or *child*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
-| **_pim_variants** | object | It defines variant product(s) to a master product. | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
+| **_pim_variants** | object | Master or variant product definition | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
 
 
 ### Sample: Add an image to a product

@@ -2,14 +2,14 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine übergeordnete Ebene verschieben)
 
-This API reference documentation provides general information on the main resources, such as products, and sample requests to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 openAPI* works. 
+This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 openAPI* works. 
 
-A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 openAPI* documentation are the ones relevant to your current instance.
+A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 openAPI* documentation are the ones relevant for your current instance.
 
 
 ## Using the request samples
 
-The request samples provided in this documentation are complete and ready to use as they are, but they require some customization. 
+The request samples provided in this documentation are complete and ready to use, but they require some customization. 
 
 Let's take the following request sample: 
 
@@ -25,20 +25,20 @@ Let's take the following request sample:
         }
     }
 
-Let's say you want to create a single product (without variants), for example, a handbag. You market your products in your online shop to an English and Spanish speaking audience.
+Let's say you want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to an English and Spanish speaking audience.
 
 
 | Product       | Information  | Attribute      | Value    |
 |---------------|--------------|----------------|----------| 
 | **SKU**       | HNDBG-1      | sku            | HNDBG-1  |
 | **Type**      | Accessories  | attributeSetId | 412 (s. notes) |
-| **English Name** | Handbag   | _pim_art_name_en_US  | Handbag  |
-| **Spanish Name** | Bolso     | _pim_art_name_es_ES  | Bolso |
+| **English Name** | Handbag   | _pim_art__online_shop__name_en_US  | Handbag  |
+| **Spanish Name** | Bolso     | _pim_art__online_shop__name_es_ES  | Bolso |
 | **English description**| Vegan leather crossbody handbag | _pim_products_description__online_shop__en_US | Vegan leather crossbody handbag |
 | **Spanish description**| Bolso bandolera de cuero vegano | _pim_products_description__online_shop__de_DE | Bolso bandolera de cuero vegano |
 
 
-The exemplary attributes and values provided should be customized as follows: 
+The exemplary attributes and values provided in the request sample should be customized as follows: 
 
     {
         "product": {

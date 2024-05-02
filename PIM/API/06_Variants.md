@@ -21,7 +21,7 @@ The required fields are marked in bold.
 | ----------- | ----------- | ---------- | ------ | 
 | **masterId**      | integer   |  Master product identification number | |
 | **variantSetId**   | integer  | Variant set identification number | |
-| **variants** | array of objects | It contains the required field | |**definingAttributeValues**, and the optional *differingAttributeValues* and *additionalFields*. |  |
+| **variants** | array of objects | Variant product definition | It contains the required field **definingAttributeValues**, and the optional *differingAttributeValues* and *additionalFields*. | 
 
 
 You have to include all required fields in the JSON file and provide them with a value. The **masterId** and **variantSetId** values must be existing values in *DataHub*. To find out the entity ID, see [Entity ID](./02_Basics.md#entity-id). 
@@ -92,7 +92,7 @@ To delete a variant product, see [Delete a product](./05_Products.md#delete-a-pr
 
 Get a list of master products with its variants, including the variant IDs. You can set one or more filters.
 
-[comment]: <> (Useful? Was für filter sinnvoll? Hints and query Beispiele?)
+[comment]: <> (Useful? Nicht ganz: master ergibt ChildrenId, aber man kann auch request auf Children schicken... Was für filter sinnvoll? Hints and query Beispiele?)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
 
@@ -116,7 +116,7 @@ Get a list of master products with its variants, including the variant IDs. You 
         "ids": [881]
     }
 
-### Sample: List variants to a master product
+### Sample: List variants to multiple master product
 
     {
         "ids": [881, 1121]
