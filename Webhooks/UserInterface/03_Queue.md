@@ -4,7 +4,7 @@
 
 ![Workers](../../Assets/Screenshots/Webhooks/Queue/Queue.png "[workers]")
 
-The list displays all webhooks waiting for execution/sending in the queue. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The list shows all webhooks in the queue that are waiting to be executed/sent, as well as all those that have been sent successfully and those that have failed. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
 The following functions are available for the row above the list header:
 
@@ -31,11 +31,17 @@ The following fields are available in the list:
 - *Execution worker*   
     Name of the worker.
 
-- *Entry status*
+- *Entry status*   
     Status of the queue entry. The following statuses are available:
 
-    - **Ready to be sent**   
+    - **0 = Ready to be sent**   
         The webhook is waiting to be sent.
+    - **1 = Success**   
+        The webhook was sent successfully
+    - **2 = Failed**   
+        The sending of the webhook failed and the amount of tries reached the maximum. This entry must be handled manually.   
+    - **3 - Pre remove**   
+        This entry has been created during preremove. This status will be set to *Ready to be sent* during the postRemove event.<!--????nachfragen-->
 
 - *Event*   
     Event that has triggered the webhook.

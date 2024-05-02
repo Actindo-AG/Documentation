@@ -64,4 +64,4 @@ A webhook has been created, see [Create webhook](#create-webhook).
 
 
 
-## Remove worker assignment
+## Remove associated worker
