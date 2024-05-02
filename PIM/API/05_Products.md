@@ -98,12 +98,12 @@ There are two possible ways to create a master-variant product structure:
 
 Depending on the type of product, the required fields vary.
 
-### Definitions
+#### Definitions
 
 | Attribute       | Data type   | Description | Comments |
 | ----------- | ----------- | ----------- | ------------ |
 | **sku**      | string   |  Product SKU | |
-| **attributeSetId**   | integer  | Attribute set identification number |
+| **attributeSetId**   | integer  | Attribute set identification number | |
 | variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
 | **variantSet**    | object  | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | It defines variant product(s) to a master product. | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
@@ -166,18 +166,18 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.save
 
-### Definitions
+#### Definitions
 
 For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
 To get a list of all your attributes, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
 
-| Attribute      | Type | Description |  
-| ----------- | ----------- | ---------- | 
-| **id**      | integer    |  Product identification number  |
-| **attributeSetId**   | integer  | Attribute set identification number |
-| *variantStatus*   | string  | Indicates whether it is a *single*, *master* or *child*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
-| **variantSet**    | object  | Set containing the attributes for product variation | It contains the required field **id**.  |
+| Attribute      | Type | Description | Comments | 
+| ----------- | ----------- | ---------- |-------| 
+| **id**      | integer    |  Product identification number  | 
+| **attributeSetId**   | integer  | Attribute set identification number | |
+| variantStatus   | string  | Product status | Indicates whether it is a *single*, *master* or *child*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
+| **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | It defines variant product(s) to a master product. | It contains the following fields: <br> **variantSetId** (integer), *isMasterEntity* (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
 
 
@@ -217,7 +217,7 @@ Once you have created your products, you can create a variant-master structure b
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold. For a list of standard *PIM* attributes, see [The product object](#the-product-object). 
 
@@ -280,7 +280,7 @@ You can delete a product if it is no longer needed. If it is a master product, t
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.delete
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -304,7 +304,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -330,7 +330,7 @@ You can delete a product temporarily by archiving it of moving it to the recycle
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -357,7 +357,7 @@ Get a list of all products including the ones in the archive or recycle bin. You
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.getList
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 

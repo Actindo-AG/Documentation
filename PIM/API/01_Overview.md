@@ -2,19 +2,11 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
 
-## Introduction
-
-The *Actindo Core1 Platform* is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
+The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
 
 The Core1 is highly configurable and expandable, using not only the Actindo App Store, but also including self-developed modules and extensions. Therefore, every Actindo Core1 account is unique in its API configuration due to the individual construction of the installed and extended modules.
 
-On this documentation, you will find a general API specification of the platform itself, as well as common API use cases and examples for different Actindo modules and extensions in the specified versions. Individual accounts have different module versions and vendor profiles. To access the full API documentation specific to you instance, log in to your Core1 instance and navigate to *Dev Tools > API*.
-
-[comment]: <> (Double-check info. Wo kommt es her?)
-
-The *Actindo Core1 Platform API* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). 
-
-[comment]: <> (Supports REST, SOAP, welche andere? Relevant hier?)
+[comment]: <> (Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
 
 ## Authentication
 
@@ -26,7 +18,7 @@ The *POST* method is always used for all *Actindo Core1 OpenAPI* endpoints. All 
 
 ## Response codes
 
-Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to indicate the success of failure of the API requests.  The most usual response codes returned are as follows: 
+Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to indicate the success of failure of the API requests. The most usual response codes returned are as follows: 
 
 | Code | Description | Notes |
 | ---- | ----------- | ------ |
@@ -43,15 +35,30 @@ For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/
 
 The *Actindo Core1 Platform API* accepts and returns json body requests. 
 
-## Basic API architecture
+## Tools
 
-[comment]: <> (Graphik)
+You can use different software tools to submit your requests, either your own tool or a third-party tool, such as Postman. For a detailed description on how to set up Postman, see [Set up Postman](./07_SetUpPostman.md). 
 
-## Basic API request workflow
+Regardless of how you submit your requests, you always have to provide the following information:
 
-[comment]: <> (Graphik)
+- URI: **https://[your-wokspace]/API.endpoint**
+
+- HTTP method, see [Methods](#methods) 
+
+- Headers
+
+    | Key | Value |
+    |-----|-------|
+    | Content-Type  | application/json |
+    | Accept        | application/json |
+    | Bearer token  | s. [Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token) |
+
+- Request body
+
+[comment]: <> (In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktionert es sonst?)
 
 
 
 
-
+[comment]: <> (Glossary? Headers, URIs?)
+[comment]: <> (API architecture, API request workflow?)

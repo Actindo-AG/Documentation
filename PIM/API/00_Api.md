@@ -2,24 +2,22 @@
 
 In this part of the *PIM* documentation, you will find the following chapters:
 
-- [Introduction](./01_Introduction.md)
-    - [Authentication](./01_Introduction.md#using-the-api)
-    - [Methods](./01_Introduction.md#format)
-    - [Response codes](./01_Introduction.md#methods)
-    - [Format](./01_Introduction.md#authorization)
-    - [Basic API architecture](./01_Overview.md#tools)
-    - [Basic API request workflow](./01_Overview.md#tools)
+- [Overview](./01_Overview.md)
+    - [Authentication](./01_Overview.md#authentication)
+    - [Methods](./01_Overview.md#methods)
+    - [Response codes](./01_Overview.md#response-codes)
+    - [Format](./01_Overview.md#format)
+    - [Tools](./01_Overview.md#tools)
 
 
 - [Get started](./02_GetStarted.md)
-    - [Using the Actindo Core1 API](./02_GetStarted.md#using-the-actindo-core1-api)
+    - [Using the request samples](./02_GetStarted.md#using-the-request-samples)
     - [OAuth authorization flow](./02_GetStarted.md#oauth-authorization-flow)
         - [Step 1: Register your app](./02_GetStarted.md#step-1-register-your-app)
         - [Step 2: Get an authorization code](./02_GetStarted.md#step-2-get-an-authorization-code)
         - [Step 3: Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token)
         - [Step 4: Send a test authentication request](./02_GetStarted.md#step-4-send-a-test-authentication-request)
         - [Step 5: Generate an access token from refresh token](./02_GetStarted.md#step-5-generate-an-access-token-from-refresh-token)
-    - [Send your first request](./02_GetStarted.md#send-your-first-request)
 
 
 - [Key concepts](./03_KeyConcepts.md)
@@ -28,7 +26,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Master and variant products](./03_KeyConcepts.md#master-and-variant-products)
     - [Variant sets](./03_KeyConcepts.md#variant-sets)
     - [Entities](./03_KeyConcepts.md#entities)
-    - [Mapping](./03_KeyConcepts.md#variant-sets#mapping)
+    - [Mapping](./03_KeyConcepts.md#mapping)
 
 
 - [Entity data](./04_EntityData.md)
@@ -73,7 +71,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Delete a variant product](./06_Variants.md#delete-a-variant-product)
     - [List variants to master products](./06_Variants.md#list-variants-to-master-products)
 
-- [Set up Postman for the *Actindo Core1 Platform*](./07_SetUpPostman.md)
+- [Set up Postman for the *Actindo Core1 OpenAPI*](./07_SetUpPostman.md)
     - [Define the headers](./07_SetUpPostman.md#define-the-headers)
     - [Set the session cookie](./07_SetUpPostman.md#set-the-session-cookie)
     - [Best practices](./07_SetUpPostman.md#best-practices)

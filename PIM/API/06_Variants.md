@@ -13,7 +13,7 @@ Create a single or multiple variant products at once to a existing master produc
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.create
 
-### Definitions
+#### Definitions
 
 The required fields are marked in bold.
 
@@ -96,7 +96,7 @@ Get a list of master products with its variants, including the variant IDs. You 
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Variants.listChildren
 
-### Definitions
+#### Definitions
 
 | Attribute      | Data type | Description | Comments |
 | ---------------|-----------|-------------|---------- |

@@ -2,16 +2,68 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine übergeordnete Ebene verschieben)
 
+This API reference documentation provides general information on the main resources, such as products, and sample requests to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 openAPI* works. 
 
-## Using the Actindo Core1 API
+A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 openAPI* documentation are the ones relevant to your current instance.
 
-API documentation in Core1: *Dev Tools > API > Module name*
+
+## Using the request samples
+
+The request samples provided in this documentation are complete and ready to use as they are, but they require some customization. 
+
+Let's take the following request sample: 
+
+
+    {
+        "product": {
+            "sku": "Single-product",
+            "attributeSetId": 102,
+            "_pim_art_name__actindo_basic__en_US": "Single product",
+            "_pim_art_name__actindo_basic__de_DE": "Einzelprodukt",
+            "_pim_products_description__actindo_basic__en_US": "This is a product description.",
+            "_pim_products_description__actindo_basic__de_DE": "Das ist eine Produktbeschreibung."
+        }
+    }
+
+Let's say you want to create a single product (without variants), for example, a handbag. You market your products in your online shop to an English and Spanish speaking audience.
+
+
+| Product       | Information  | Attribute      | Value    |
+|---------------|--------------|----------------|----------| 
+| **SKU**       | HNDBG-1      | sku            | HNDBG-1  |
+| **Type**      | Accessories  | attributeSetId | 412 (s. notes) |
+| **English Name** | Handbag   | _pim_art_name_en_US  | Handbag  |
+| **Spanish Name** | Bolso     | _pim_art_name_es_ES  | Bolso |
+| **English description**| Vegan leather crossbody handbag | _pim_products_description__online_shop__en_US | Vegan leather crossbody handbag |
+| **Spanish description**| Bolso bandolera de cuero vegano | _pim_products_description__online_shop__de_DE | Bolso bandolera de cuero vegano |
+
+
+The exemplary attributes and values provided should be customized as follows: 
+
+    {
+        "product": {
+            "sku": "HNDBG-1",
+            "attributeSetId": 412,
+            "_pim_art_name__online_shop__en_US": "Handbag",
+            "_pim_art_name__online_shop__es_ES": "Bolso",
+            "_pim_products_description__online_shop__en_US": "Vegan leather crossbody handbag",
+            "_pim_products_description__online_shop__es_ES": "Bolso bandolera de cuero vegano"
+        }
+    }
+
+**Notes**
+
+- The *sku* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_Products.md#the-product-object).
+- The *attributeSetId* represents the product type and is required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets).
+-  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created you own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).   
+- The scope (in this case, online shop) and languages (en_US and es_ES) must also be specified accordingly. 
+
 
 ## OAuth authorization flow
 
 The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. 
 
-### Prerequisites
+#### Prerequisites
 
 - An app for client access is available. 
 - A user has been created.
@@ -57,7 +109,7 @@ If you want to gain access to the Core1 from your app via API, first of all you 
     Make sure you copy it!
 
 
-## Step 2: Get an authorization code
+### Step 2: Get an authorization code
 
 To be able to generate an access token for authentication, you need to get an authorization code first. 
 
@@ -99,9 +151,11 @@ Following the example provided in [Step 1: Register you app](#step-1-register-yo
     ![Core1 Login](../../Assets/Screenshots/PIM/API/Core1Login.png "[Core1 Login]")
 
 
-## Step 3: Generate an access token
+### Step 3: Generate an access token
 
 Once you have obtained an authorization code, you can generate an access token for authentication.
+
+For the following steps, a command line tool curl is used.
 
 The following parameters are required: 
 - Authorization code
@@ -128,7 +182,7 @@ The following parameters are required:
 3. Write down your access token and your refresh token. 
     > [Info]  Access (also called bearer) tokens are short-lived. You can generate further access tokens with your refresh token.
 
-## Step 4: Send an authentication test request
+### Step 4: Send a test authentication request
 
 You can now send a request to your Core1 instance to check that the access token is valid. For exemplary purposes, we are using a simple "ping-pong" authentication test. 
 
@@ -152,7 +206,7 @@ You can now send a request to your Core1 instance to check that the access token
 
 
 
-## Step 5: Generate an access token from refresh token
+### Step 5: Generate an access token from refresh token
 
 Access tokens are valid for a limited period of time. If your access token is expired, you can get a new one using your refresh token.
 
@@ -181,16 +235,4 @@ Access tokens are valid for a limited period of time. If your access token is ex
         
 
 
-## Send your first request
-
-1. Authorization (Authorization header mit Bearer)   
-2. Header/Format  (Header mit Format application/json?)  
-3. Find out required fields   
-4. Find out required fields id   
-5. Send request   
-
-[comment]: <> (to be completed)
-
-[comment]: <> (Architecture of the API, Workflow -> several calls needed to complete a task. Get list of IDs first, then create product. )
-
-[comment]: <> (Diagrams -> Architecture diagram, Workflow diagram)
+[comment]: <> (Send your first request?)

@@ -1,11 +1,11 @@
-## Set up Postman for the *Actindo Core1 Platform* 
+# Set up Postman for the *Actindo Core1 OpenAPI* 
 
-To send requests to the *Actindo Core1 Platform* API endpoints, you need to use an external API tool, such as Postman. For detailed information on download, configuration and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
+To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
 Before you can send requests to the Core1 with Postman, you have to set it up to communicate with your system.  
 
 
-### Define the headers
+## Define the headers
 
 Headers must be defined, so that the data is transferred to the Core1 in the appropriate format and responses are transmitted back to the user. To do so, follow the procedure below:
 
@@ -16,7 +16,7 @@ Headers must be defined, so that the data is transferred to the Core1 in the app
 3. Enter "application/json" in the *Value* column for both rows. This setting specifies that the data being sent in the request body is in JSON format.
 
 
-### Set the session cookie
+## Set the session cookie
 
 Before you can communicate with the Core 1, you have to set a session cookie. To do so, follow the procedure below:
 
@@ -73,5 +73,5 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 ## Best practices
 
-We recommend that you create collection and predefine API calls using the templates provided. This way you can reuse your API calls, export them and even share them with other colleagues in the Cloud. For detailed information, refer to the Postman documentation in the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
+We recommend that you create collection and predefine API calls using the templates provided. This way you can reuse your API calls, export them, and even share them with other colleagues in the Cloud. For detailed information, refer to the Postman documentation in the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
