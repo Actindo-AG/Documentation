@@ -72,8 +72,8 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Edit a variant product](./06_Variants.md#edit-a-variant-product)
     - [Delete a variant product](./06_Variants.md#delete-a-variant-product)
     - [List variants to master products](./06_Variants.md#list-variants-to-master-products)
-         - [Sample: List variants to a master product](./06_Variants.md#sample-list-variants-to-a-master-product)
-          - [Sample: List variants to multiple master product](./06_Variants.md#sample-list-variants-to-multiple-master-product)
+        - [Sample: List variants to a master product](./06_Variants.md#sample-list-variants-to-a-master-product)
+        - [Sample: List variants to multiple master product](./06_Variants.md#sample-list-variants-to-multiple-master-product)
 
 - [Set up Postman for the *Actindo Core1 OpenAPI*](./07_SetUpPostman.md)
     - [Define the headers](./07_SetUpPostman.md#define-the-headers)
