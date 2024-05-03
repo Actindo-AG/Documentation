@@ -39,7 +39,7 @@ You have the required rights to edit a workflow.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired entity in the *Model* field, for example the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. The model should be equivalent to the *Data model* defined in the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
+5. Enter the applicable namespace of the desired entity in the *Model* field, for example the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. Make sure that the model defined in the trigger is used as the data container for the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
     The entered namespace is displayed to the right of the trigger name above the trigger input line.
 
     > [Info] You can take the data models from the related data models under *Dev Tools > API > Tab DATA MODELS*.
@@ -72,8 +72,6 @@ You have the required rights to edit a workflow.
 10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
 
     > [Info] Repeat the steps **3** to **10** to add a further trigger. You can add an unlimited number of triggers to a workflow.
-
-11. Make sure that the model defined in the trigger is used as the data container for the start place of the workflow.
 
 12. Click the [APPLY CHANGES] button.  
     The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
