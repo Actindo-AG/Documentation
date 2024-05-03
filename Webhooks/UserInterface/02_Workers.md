@@ -34,6 +34,7 @@ The following fields are available:
         The worker is active and can be used to send webhook messages.
     - ![Inactive](../../Assets/Icons/Cross03.png "[Inactive]") <!---Icon-->   
         The worker is inactive. It cannot be used to send webhook messages.
+
 - *Name*   
     Name of the worker.
 
@@ -48,3 +49,6 @@ The following fields are available:
 
 - *Retry algorithm*   
     Time intervals in minutes in which the worker execution should be retried after a webhook message could not be sent successfully. 
+
+
+**Detail screens**

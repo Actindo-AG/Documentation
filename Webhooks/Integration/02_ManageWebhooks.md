@@ -5,6 +5,13 @@
 
 Create a webhook to send messages to your business partners.
 
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
 *Webhooks > Webhooks*
 
 ![Webhooks](../../Assets/Screenshots/Webhooks/Webhooks/Webhooks.png "[Webhooks]")
@@ -48,7 +55,7 @@ Edit the webhook to add the number of retries, the workers, or optional properti
 
 ### Prerequisites
 
-A webhook has been created, see [Create webhook](#create-webhook).
+At least one webhook has been created, see [Create webhook](#create-webhook).
 
 ### Procedure
 
@@ -89,7 +96,7 @@ Define the conditions that must be met to trigger the creation of a webhook mess
 
 #### Prerequisites
 
-A webhook has been created, see [Create webhook](#create-webhook).
+At least one webhook has been created, see [Create webhook](#create-webhook).
 
 #### Procedure
 
@@ -108,12 +115,42 @@ A webhook has been created, see [Create webhook](#create-webhook).
     - connection.id (Channels)
     - _channels_order_deliver_status (DataHub)
 
+3. Select the operator in the *Operator* drop-down list. The operator defines the relation that must exist between the property and the value for a condition to be fulfilled. The following operators are available:
+    - **Not equal**
+    - **Equal**
+
+4. Define the value in the *Value* field. This describes a value that the property can have. For example, it can be the connection ID or the order delivery status.
+
+5. If you want that the condition applies in the change set, click the checkbox in the *Apply on change set* column.<!---Was bedeutet das?-->
+
 5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus04.png "[Add condition]") ADD CONDITION] button.
 
-6. Define whether all conditions must be met to trigger the sending of the webhook message. If all conditions must be met, click the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
+6. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, click the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
 
+7. If desired, delete a condition line by clicking on the ![Delete](../../Assets/Icons/Trash08.png "[Delete]")(Delete) button at the right end of the line.
 
+8. Click the [SAVE CHANGES] button in the top right corner.
 
 
 
 ## Remove associated worker
+
+Remove an associated worker from a webhook, for example, if you want to delete a worker.
+
+##### Prerequisites
+
+- At least one webhook has been created, see [Create webhook](#create-webhook).
+- At least one worker has been created, see [Create worker](./01_ManageWorkers.md#create-worker)
+
+#### Procedure
+
+*Webhooks > Webhooks > Select a webhook*
+
+![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
+
+1. Select another worker in the *Worker* drop-down list.
+
+2. Click the [SAVE CHANGES] button in the top right corner.   
+    The webhook association at the worker is no longer displayed.
+    
+    ![Associated webhooks](../../Assets/Screenshots/Webhooks/Workers/WebhooksWorker.png "[Associated webhooks]")
