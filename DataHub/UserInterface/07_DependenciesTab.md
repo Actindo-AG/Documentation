@@ -37,9 +37,7 @@ The following functions are available for the editing toolbar:
 - [RERUN MAPPING]   
     Click this button to rerun the ETL mapping of the selected entity or entities. This button is only displayed if the checkbox of at least one dependency is selected.
     
-    >  [Caution] When rerunning an ETL mapping, it is possible to overwrite the data in the dependent entity. This is especially relevant for manual change tracking mode, since . This function should therefore be used with extreme caution and being fully aware of the consequences.
-
-[comment]: <> (Reformulate!)
+    >  [Caution] When rerunning an ETL mapping, it is possible to overwrite the data in the dependent entity. This is especially relevant for manual change tracking mode, because in manual change tracking mode, changes in the source entity are not transferred to the destination entity automatically. If you click on [RERUN MAPPING], any possible changes in the source entity will be transferred to the destination entity, thereby possibly overwriting data in the destination attribute. This function should therefore be used with extreme caution and being fully aware of the consequences.
 
 - [DELETE DEPENDENCY]  
     Click this button to delete the dependency of the selected entity. This button is only displayed if the checkbox of one dependency is selected. 
