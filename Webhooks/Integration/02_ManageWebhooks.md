@@ -77,6 +77,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 4. If desired, select another worker in the *Worker* drop-down list.
 
 5. If desired, define optional properties in the *Optional properties* section. By doing this, you can narrow the entity for which the webhook is used. You can enter all DataHub entities as well as any database field. The following prerequisites must be fulfilled:   
+    - DataHub entities must have a leading underscore.
     - The property must be part of the model you have entered in the *Fully qualified class name* field.    
     - The data must be passed as array.  
     
@@ -116,8 +117,12 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
     - _channels_order_deliver_status (DataHub)
 
 3. Select the operator in the *Operator* drop-down list. The operator defines the relation that must exist between the property and the value for a condition to be fulfilled. The following operators are available:
-    - **Not equal**
-    - **Equal**
+    - **Not equal**   
+        The value of the property is not the value defined in the *Value* field.
+    - **Equal**   
+        The value of the property is the value defined in the *Value* field.
+    - **Is set**   
+        There is a value available for this property.
 
 4. Define the value in the *Value* field. This describes a value that the property can have. For example, it can be the connection ID or the order delivery status.
 
@@ -148,7 +153,7 @@ Remove an associated worker from a webhook, for example, if you want to delete a
 
 ![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
 
-1. Select another worker in the *Worker* drop-down list.
+1. Select another worker in the *Worker* drop-down list to remove the current association. <!--- Pflichtfeld oder kann man auch leer lassen?-->
 
 2. Click the [SAVE CHANGES] button in the top right corner.   
     The webhook association at the worker is no longer displayed.

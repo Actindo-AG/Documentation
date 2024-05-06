@@ -6,7 +6,7 @@
 
 The list shows all webhooks in the queue that are waiting to be executed/sent, as well as all those that have been sent successfully and those that have failed. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following functions are available for the row above the list header:
+The following functions are available in the row above the list header:
 
 - ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->   
    Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
@@ -41,7 +41,7 @@ The following fields are available in the list:
     - **2 = Failed**   
         The sending of the webhook failed and the amount of tries reached the maximum. This entry must be handled manually.   
     - **3 - Pre remove**   
-        This entry has been created during preremove. This status will be set to *Ready to be sent* during the postRemove event.<!--????nachfragen-->
+        This entry was created during the preRemove event. It is set to *Ready to be sent* during the postRemove event.<!--????nachfragen-->
 
 - *Event*   
     Event that has triggered the webhook.

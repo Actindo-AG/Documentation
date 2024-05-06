@@ -35,13 +35,13 @@ No prerequisites to fulfill.
 3. Define whether you want this worker for sequential execution. In this case, click the *Sequential execution* checkbox.   
     The *Number of jobs* field is hidden, because in sequential execution only one worker executes the webhooks.
 
-2. Enter a name for the worker in the *Name* field. It is recommended, to describe the execution mode and the retry algorithm in the name for better identification later.
+2. Enter a name for the worker in the *Name* field. It is recommended to describe the execution mode and the retry algorithm in the name for better identification later.
 
-3. Define the retry algorithm comma-separated in the *Retry algorithm* field. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You can let the field empty. In this case, the default is used: 1, 2, 3, 4 [1 => 60 sec, 2 => 120 sec, 3 => 300 sec, 4 => 600 sec] You have the following options: <!---Ergänzen-->
+3. Define the retry algorithm comma-separated in the *Retry algorithm* field. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You can let the field empty. In this case, the default is used: 1, 2, 3, 4 (1 => 60 sec, 2 => 120 sec, 3 => 300 sec, 4 => 600 sec) You have the following options: <!---Ergänzen-->
 
-4. Define the number of jobs in case you have chosen parallel processing.  
+4. Define the number of jobs in case you have decided for parallel processing.  
 
-5. Click the [CREATE] button.
+5. Click the [CREATE] button.   
     The *Create worker* view is closed and the *Workers* view is displayed.
 
 ## Activate worker
@@ -58,7 +58,7 @@ At least one worker has been created, see [Create worker](#create-worker).
 
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
-1. Click the checkbox at the worker(s) you want to activate. 
+1. Click the checkbox at the worker(s) you want to activate.   
     The [ACTIVATE] button on the top left is highlighted.
 
 2. Click the [ACTIVATE] button.   
@@ -81,10 +81,10 @@ At least one worker has been created, see [Create worker](#create-worker).
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
 
-1. Ensure that no unwanted webhook is associated with the worker(s), you want to deactivate. To do this, select the worker for which you want to check the webhook association.   
+1. Ensure that no unwanted webhook is associated with the worker(s) you want to deactivate. To do this, select the worker for which you want to check the webhook association.   
     The *DETAILS* tab of the webhook is displayed.
 
-2. Click the *WEBHOOKS* tab. 
+2. Click the *WEBHOOKS* tab.   
     All webhooks associated with the worker are displayed.
 
     ![Associated webhooks](../../Assets/Screenshots/Webhooks/Workers/WebhooksWorker.png "[Associated webhooks]")
@@ -101,7 +101,7 @@ At least one worker has been created, see [Create worker](#create-worker).
 
 ## Disable execution of workers
 
-Disable the workers so that no new workers are executing the queue, which may be necessary to edit the workers or webhooks.
+Disable the workers so that no new workers are executing the queue. This might be necessary when editing the workers or webhooks.
 
 #### Prerequisites
 
@@ -126,11 +126,12 @@ Sometimes it may be necessary to stop the current execution of the queue for spe
 
 ### Shut down single worker
 
-Sometimes it may be necessary to stop the execution of the queue for a specific worker, for example, if you want to edit the worker or associated webhooks. Therefore, you have to shut down a worker to avoid that the associated webhooks are executed by this worker. <!---wie starte ich einen worker wieder?-->
+Shut down a single worker to avoid that the associated webhooks are executed by it. <!---wie starte ich einen worker wieder?-->
 
 #### Prerequisites
 
- At least one worker has been created, see [Create worker](#create-worker).
+- At least one worker has been created, see [Create worker](#create-worker).
+- At least one worker is active.
 
 #### Procedure
 
@@ -138,7 +139,7 @@ Sometimes it may be necessary to stop the execution of the queue for a specific 
 
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
-1. Click the checkbox at the worker you want to shut down.    
+1. Click the checkbox at the active worker you want to shut down.    
     The [![Shut down](../../Assets/Icons/Cross03.png "[Shut down]")<!---Icon-->SHUT DOWN] button is enabled.
 
 2. Click the [![Shut down](../../Assets/Icons/Cross03.png "[Shut down]")<!---Icon-->SHUT DOWN] button.   
@@ -197,6 +198,8 @@ At least one worker has been created, see [Create worker](#create-worker).
 
 8. Click the [![DELETE](../../Assets/Icons/Trash04.png "[DELETE]")<!---Icon-->DELETE] button.   
     The worker is deleted.
+
+
 
 
 

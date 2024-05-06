@@ -36,6 +36,7 @@ The following fields are available in the list:
     URL to which the webhook notifications are to be sent, URL of the receiver.
 
 - *Fully qualified class name*   
+    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. 
 
 - *Retries*  
     Number of retries the worker should make to successfully send the message.
@@ -57,22 +58,24 @@ The following fields are available in the list:
 ![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
 
 - *Fully qualified class name*   
-<!---To be enhanced-->
+    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. This field is required.
 
 - *URL*  
-    URL to which the webhook notifications are to be sent; URL of the recipient.
+    URL to which the webhook notifications are to be sent; URL of the recipient. This field is required.
 
 - *Event*  
-    Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. 
+    Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. This field is required.
 
 - *Worker*   
-    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker). This field is not required.
 
-- [CANCEL]
-    Click this button to cancel creating a webhook. The *Create webhook* window is closed. The *Webhooks* view is displayed.
+- [CANCEL]    
+    Click this button to cancel creating a webhook.   
+    The *Create webhook* window is closed. The *Webhooks* view is displayed.
 
-- [CREATE]
-    Click this button to create a new webhook. The *Create webhook* window is closed. The *Webhooks* view is displayed.
+- [CREATE]   
+    Click this button to create a new webhook.   
+    The *Create webhook* window is closed. The *Webhooks* view is displayed.
 
 
 ## Edit webhook
@@ -81,7 +84,7 @@ The following fields are available in the list:
 
 ![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
 
-The view displays on the left side the fields, with which you can define a webhook. On the right side, important administrative data are displayed.
+The view displays on the left side the fields, with which you can define a webhook. On the right side, important administrative data is displayed.
 
 The following fields and functions are available:
 
@@ -91,7 +94,8 @@ The following fields and functions are available:
 - [SAVE CHANGES]   
     Click this button to save any changes.
 
-- *Fully qualified class name*   
+- *Fully qualified class name*  
+    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference.  
 
 - *URL*  
     URL to which the webhook notifications are to be sent, URL of the receiver.
@@ -113,7 +117,7 @@ The following fields and functions are available:
     Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
 
 - *Optional properties*   
-    Enter JSON code to define optional properties, if desired. For example <!---Beispiel: Was könnte eine optional property sein?-->
+    If desired, enter optional properties, see [Edit webhook](../Integration/02_ManageWebhooks.md#edit-webhook).
 
 **Administrative data**
 
