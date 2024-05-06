@@ -2,17 +2,15 @@
 
 ![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
 
-## Use case
+## Overview
 
 You want to create an *Omni-Channel* offer when all required attributes of a *PIM* product are set (total completeness is 100 %).
-
-## Overview
 
 | **Summary** |       |
 | ----------- |------ |
 | **Purpose** | Create an *Omni-Channel* offer from a *PIM* product with 100% completeness |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
-| **Included plugins** | Workflows <br> PIM <br> Omni-Channel |
+| **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none/optional | 
 | **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
 
@@ -41,7 +39,7 @@ For detailed information on how to create a workflow, see [Create a workflow](..
 
 #### Prerequisites
 
-- You have create a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
+- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
@@ -106,7 +104,7 @@ Select the *Split by criterion* action and configure it with the following setti
 
 It is recommended to change the name in the *Label* field to a descriptive name, for example, **Completeness 100** in this case.
 
-### Create an offer
+### Create offer
 
 ![Create offer](../Assets/Screenshots/OfferCookbook/CreateOfferAction.png "[Create offer]")
 

@@ -9,7 +9,7 @@
 | ----------- |------ |
 | **Purpose** | Create an *Omni-Channel* offer from a *PIM* product. |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Readonly.Modules.Actindo.Channels.Models.ConnectionContainer <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
-| **Included plugins** | Workflows <br> PIM <br> Omni-Channel |
+| **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | optional | 
 | **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
 | **Start** | Modules.Actindo.PIM.Models.PIMProduct |
@@ -21,7 +21,7 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 #### Prerequisites
 
-- You have create a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
+- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
 #### Procedure
