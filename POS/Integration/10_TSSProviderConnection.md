@@ -5,14 +5,15 @@ The TSS (Technical security system) must fulfill certain requirements and needs 
 Actindo currently works with fiskaly&trade;, which is a cloud provider for TSS. It allows to register the transactions via API calls after everything is set up.   
 Actindo has the license to fiskaly&trade; and a master account. Each Actindo customer receives a sub-account of it. Each sub-account can have multiple TSS', for example, for each location one TSS. In turn, each TSS can have multiple clients that correspond to the paydesks.
 
-You use this procedure to create a connection to your sub account of the 
+You use this procedure to create a connection to your sub-account of the 
 fiskaly&trade; Actindo master account. Usually you have only one TSS connection.
 
 https://actindo.atlassian.net/wiki/spaces/DEVELOPMEN/pages/374505795/TSE 
 
 #### Prerequisites
 
-The Fiskaly Cloud plugin as of version xxx is installed.
+- The *Fiskaly Cloud* plugin as of version 1.0.1 is installed.
+- The *Global Driver Management* plugin as of version xxx is installed. <!---Stimmt das?-->
 
 #### Procedure
 
@@ -24,3 +25,14 @@ The Fiskaly Cloud plugin as of version xxx is installed.
     The *Create Connection* view is displayed.  
 
     ![Create connection](../../Assets/Screenshots/POS/Management/TSSProviders/CreateConnection.png "[Create connection]")
+
+2. Select *Fiskaly* in the *Driver* drop-down list.   
+    The *Credentials* section is displayed.
+
+    ![Fiskaly connection](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[Fiskaly connection]") <!---Screenshot neu machen-->
+
+3. Enter the API key you have got for your sub-account from Actindo in the *API-Key* field.   
+
+4. Enter the API secret your have got for your sub-account from Actindo in the *API secret* field.
+
+5. Click the [SAVE] button.
