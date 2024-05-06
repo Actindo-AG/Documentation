@@ -1,22 +1,12 @@
 # Create offer from product with completeness
 
-You want to create an *Omni-Channel* offer when all required attributes of a *PIM* product are set (total completeness is 100 %).
-
-[comment]: <> (Purpose, use case...)
-
-**Short description**
-
-[comment]: <> (Description, Workflow overview, Overview)
-
 ![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
 
-| Action | Short description | API endpoint |
-| ------ | ----------------- | ------------ |
-| split by criterion | Input value is compared to a criterion and split based on match/no match principle. It is a core action. | None |
-| createFromPimProduct  | Create an offer from a product | /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+## Use case
 
-For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
+You want to create an *Omni-Channel* offer when all required attributes of a *PIM* product are set (total completeness is 100 %).
 
+## Overview
 
 | **Summary** |       |
 | ----------- |------ |
@@ -24,28 +14,43 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | Workflows <br> PIM <br> Omni-Channel |
 | **Included third party software** | none/optional | 
-| **Start place** | Modules.Actindo.PIM.Models.PIMProduct |
 | **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
-| **Core actions** | Split by action |
 
 **Included steps**
 
+- Verification if a *PIM* product completeness is 100 %
+- Creation of an *Omni-Channel* for a PIM product 
+
+**Necessary actions**
+
+| Action | Short description | API endpoint |
+| ------ | ----------------- | ------------ |
+| split by criterion | Input value is compared to a criterion and split based on match/no match principle | Core action |
+| createFromPimProduct  | Create an offer from a product | /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+
+For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md) in the *Process Orchestration* documentation.
+ 
+
+## How to set up an offer from product workflow
+
+To set up any workflow, you have to create a new workflow and define the basic settings first. For detailed information, see [Define workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings). 
+
+For detailed information on how to create a workflow, see [Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
+
+[comment]: <> (gleich für alle! Unter Basic und darauf verweisen!)
 
 #### Prerequisites
 
 - You have create a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
 
-
 #### Procedure
-
-For detailed information on how to create a workflow, see [Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
 *Process Orchestration > Workflows > Tab OVERVIEW*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *New workflow* window is displayed.
 
     ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
@@ -61,102 +66,10 @@ For detailed information on how to create a workflow, see [Create a workflow](..
 6. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.
 
-7. Select the newly created workflow to edit it. 
-    The workflow editor is displayed.
 
-8. Create a *PIM Product saved* trigger to create an offer when a product is updated. For detailed information on how to create a trigger, see [Create a trigger](../ActindoWorkFlow/Operation/03_ManageTriggers.md#create-a-trigger).
+## Description of the offer from product with completeness workflow
 
-    Configure the following settings for the *PIM Product saved* trigger:
-
-    | Triggers ||
-    |----|----|
-    |**Name** | PIM product saved |
-    |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
-    |**Event** | After saving | 
-    |**Condition fulfillment** | If all are met |   
-    |**Status** | Active |
-    |**Process priority** | 10 | 
-    | **Unique check** | No |
-
-
-9. Click the [NEW ACTION] button.  
-    A window with a list of actions is displayed. 
-
-    For detailed information on how to create a transition, see [Create a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition).
-
-10. Select the *Split by criterion* action and configure the following settings:
-    Configuration:
-    - *Path*: _pim_completeness.totalCompleteness
-    - *Operator*: >=
-    - *Value*: 100
-
-    | Input ports     | Value | -  | Output ports | Value    |
-    | --------------- | --- | ---| -------------- | ----  |
-    | *in*  | PIMProduct| - | *match* | PIMProduct |
-    | -     |          | - | *noMatch* | (to end place)   |
-    
-...
-
-12. [NEW ACTION]: Create offer  
-    Static inputs:
-    - *pimProduct* input port: pimProduct 
-    - connection: { "id": 2 } (static input)
-    - changeTracking: -
-    - initialStatus: "inactive"
-    - destinationAttributeSet: -
-    - unique: "1"
-
-    Output: data (anyValue)
-
-
-
-
----
-### Set up the basic workflow
-
-[comment]: <> (gleich für alle! Unter Basic und darauf verweisen!)
-
-#### Prerequisites
-
-- You have create a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
-- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
-
-#### Procedure
-
-*Process Orchestration > Workflows > Tab OVERVIEW*
-
-![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
-
-1. Create a new workflow and define the following workflow basic settings. For detailed information on how to create a workflow, see [Define the workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings).
-
-    | Setting | Value |
-    | ------- | ----- |
-    | *Select a name for your new workflow* | Create offer from complete PIM product |
-    | *Select a unique key for your new workflow* | create_offer_from_complete_pim_product |
-    | *Choose the data type of your start place* |   \_\_\_WorkflowAutogen___\Actindo\Modules\Actindo\PIM\Models\PIMProduct |
-    | *Choose the data type of your end place* | Arbitrary Data |
-
-[comment]: <> (Warum nicht end place Channels.Offer?)
-
-2. Create a *PIM Product saved* trigger to create an offer when a product is updated. For detailed information on how to create a trigger, see [Create a trigger](../ActindoWorkFlow/Operation/03_ManageTriggers.md#create-a-trigger).
-
-    Configure the following settings for the *PIM Product saved* trigger:
-
-    | Triggers ||
-    |----|----|
-    |**Name** | PIM product saved |
-    |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
-    |**Event** | After saving | 
-    |**Condition fulfillment** | If all are met |   
-    |**Status** | Active |
-    |**Process priority** | 10 | 
-    | **Unique check** | No |
-
-
-[comment]: <> (Configure the workflow; trigger/s auch gleich für alle, auf Basic und darauf verweisen!)
-
-
-### Description of the offer from product with completeness workflow
+Once you have set up a basic workflow, you can edit it to add the necessary steps. 
 
 #### Prerequisites
 
@@ -164,33 +77,90 @@ You have have set up the basic workflow, see [Set up the basic workflow](#set-up
 
 #### Procedure
 
-1. Select the *Split by criterion* action and configure the following settings:
+1. Select the newly created workflow to edit it.  
+    The workflow editor is displayed.
 
-    Configuration:
-    - *Path*: _pim_completeness.totalCompleteness
-    - *Operator*: >=
-    - *Value*: 100
+2. Create a *PIM Product saved* trigger to create an offer when a product is updated.  
+    A new trigger input line is displayed.
+
+    For detailed information on how to create a trigger, see [Create a trigger](../ActindoWorkFlow/Operation/03_ManageTriggers.md#create-a-trigger).
+
+3. Configure the following settings for the *PIM Product saved* trigger:
+
+    | Triggers ||
+    |----|----|
+    |**Name** | PIM product saved |
+    |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
+    |**Event** | After saving | 
+    |**Condition fulfillment** | If all are met |   
+    |**Status** | Active |
+    |**Process priority** | 10 | 
+    | **Unique check** | No |
+
+[comment]: <> (Configure the workflow; trigger/s auch gleich für alle, auf Basic und darauf verweisen!)
+
+4. Click the [NEW ACTION] button.  
+    A window with a list of actions is displayed. 
+
+    For detailed information on how to create a transition, see [Create a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition).
+
+4. Select the *Split by criterion* action.  
+    The selected action is displayed in the workflow editor.
+
+5. Configure the *Split by criterion* action with the following settings:  
+
+    | Configuration ||
+    |----|----|
+    | **Path** | _pim_completeness.totalCompleteness |
+    | **Operator** | >= |
+    | **Value** | 100 |
 
     
-2. Join the input port to... and the output port ... 
+6. Join the input port to... and the output port ... 
 
-3. [NEW ACTION]: Create offer  
-    Static inputs:
-    - *pimProduct* input port: pimProduct 
-    - connection: { "id": 2 } (static input)
-    - changeTracking: -
-    - initialStatus: "inactive"
-    - destinationAttributeSet: -
-    - unique: "1"
+    The *Split by criterion* action contains/has the following data/structure: 
+    
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *in*  | PIMProduct| - | *match* | PIMProduct |
+    | -     |          | - | *noMatch* | (to end place)   |
+    
 
+7. Click the [NEW ACTION] button.  
+    A window with a list of actions is displayed.
+    
+8. Select the *Create offer* action.
+    The selected action is displayed in the workflow editor.
+
+9. Configure the *Create offer* action with the following settings:
+
+    | Static inputs | |
+    |---------------|-|
+    | **connection** | { "id": 2 } (static input) |
+    | **changeTracking** | - |
+    | **initialStatus** | "inactive" |
+    | **destinationAttributeSet** | - |
+    | **unique** | "1" |
+
+10. Join the input port to... and the output port ... 
+
+    The *Create offer* action contains/has the following data/structure: 
+    
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *in*  | PIMProduct| - | *match* | PIMProduct |
+    | -     |          | - | *noMatch* | (to end place)   |
+
+    *pimProduct* input port: pimProduct 
     Output: data (anyValue)
+
 
 
 
 ## Potential variations and extensions
 
 - Use case 1: Add multiple connections, see [Create offer from product for multiple connections](./04_OfferFromProductMultiConnections.md)
-- Use case 2: 
+- Use case 2: ...
 
 
 
