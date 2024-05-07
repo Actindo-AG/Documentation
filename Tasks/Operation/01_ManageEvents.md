@@ -3,7 +3,7 @@
 
 # Manage the events
 
-An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to check the stock inconsistencies manually.
+An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to assure somebody checks the stock inconsistencies manually.
 
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 

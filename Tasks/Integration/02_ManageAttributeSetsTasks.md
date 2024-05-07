@@ -3,7 +3,7 @@
 
 # Manage an attribute set for tasks
 
-An attribute set consists of multiple attributes to classify certain entity type, in this case, a task. You may need to define different type of tasks, such as a basic task, a payment task, or an order task, such as the ones displayed in the example. 
+An attribute set consists of multiple attributes to classify a certain entity type, in this case, a task. You may need to define different types of tasks, such as a basic task, a payment task, or an order task, such as the ones displayed in the example. 
 
 ![Tasks attribute sets](../../Assets/Screenshots/Tasks/Settings/AttributeSets/AttributeSetsTasks.png "[Tasks attribute sets]")
 

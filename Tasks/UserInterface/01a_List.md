@@ -85,7 +85,7 @@ The following fields are available in this view:
     Link to the task in the corresponding owner module or plugin.
 
 - *Done date*  
-    Date and time when the task has been done.
+    Date and time when the task has been marked as done.
 
 - *Assignee*  
     User to which the task is assigned.

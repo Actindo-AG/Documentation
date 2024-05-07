@@ -45,7 +45,7 @@ A task has been created.
     The task(s) is/are assigned to yourself. Your username is displayed as assignee in the *Assignee* column of the selected task(s).
 
 
-### Assign a task to other user
+### Assign a task to another user
 
 You can assign one or several tasks at once to other users registered in your current instance.
 
