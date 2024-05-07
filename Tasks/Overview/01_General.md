@@ -1,14 +1,10 @@
 # General information
 
-The *Tasks* module offers an overview of all tasks that need to be performed manually by a user. The filter function allows you to configure the view and display only the tasks that are relevant to you. It integrates seamlessly with the *Process Orchestration* module and supports the automatic creation of tasks when a certain event occurs. It also allows you to define your own events and assign them to a responsible user or user group.
+The *Tasks* module is a simple but effective tool to manage your tasks centrally. It offers an overview of all tasks created in the system and provides practical features to manage your to-do list easily. A multiple filter functionality allows you to filter the tasks by various criteria, such as assigned user or user group, task status or event, which can also be combined to narrow down your results.
 
-[comment]: <> (Needs reworking)
+It integrates seamlessly with the *Process Orchestration* module and supports the automatic creation of tasks based on configurable events. You can also define your own events and assign them to a responsible user or user group. Additionally, the *Email* module integration (plugin version 1.1.0) allows you to configure the email notifications per event every time a task is created.
 
-The *Tasks* module helps you to further customize your business processes to meet your specific needs, to automate them to reduce errors and optimize resources, and to keep a closer control of them.  
-
-Besides, the *Email* module integration (*Task Tracker Email Connection* plugin 1.1.0) allows you to configure the email notifications per event every time a task is created.
-
-This documentation refers to the *Tasks* (*Task Tracker*) module version 1.7.0. There may be differences in the UI, features and operation if your *Tasks* module is installed in a different version.
+This documentation refers to the *Tasks* module version 1.7.0. There may be differences in the UI, features and operation if your *Tasks* module is installed in a different version.
 
 ## Benefits
 
@@ -22,3 +18,5 @@ The *Tasks* module offers the following benefits:
 ## Further information
 
 Refer to our [Actindo Core1 Platform](../../Core1Platform/BasicPhilosophy/01_General.md) documentation for information on general features and functions, standard buttons, UI elements, and how to use the Actindo documentation.
+
+

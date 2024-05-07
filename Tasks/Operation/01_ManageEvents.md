@@ -3,11 +3,11 @@
 
 # Manage the events
 
-An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to assure somebody checks the stock inconsistencies manually.
+An event is an occurrence that originates a task. For example, when inconsistencies in stock are found, the *Differences in stock* event creates a task to assure a user checks the stock inconsistencies manually.
 
 You can create events manually in the *Tasks* module. However, most events are automatically created by the system when installing a plugin or module, such as the *Actindo Workflow Process Execution Failed*. 
 
-When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This means that a task is created by default every time an error occurs in any action of the process. If a specific event is configured in an individual process action, a task is created for the configured event when an error occurs in this individual process action. The workflow process in the *Process Orchestration* module is then paused until the specified task is performed manually by the responsible user. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
+When the *Process Orchestration* module is installed, the *Actindo Workflow Process Execution Failed* event is automatically created in the *Tasks* module. This means that a task is created by default every time an error occurs in any action of the process. If a specific event is configured in an individual process action, a task is created for the configured event when an error occurs in this individual process action. The workflow process in the *Process Orchestration* module goes then into *Error* status and it remains in this state until a user retries the faulty process action. The task, in this case, is just a notification that the workflow process has encountered an error. For detailed information about the workflow processes, see the [Process Orchestration](../../ActindoWorkFlow/Overview/01_General.md) documentation. 
 
 [comment]: <> (Link anpassen, wenn veröffentlicht: For detailed information, see Track the workflow process in the Process Orchestration documentation. ActindoWorkFlow/Operation/09_TrackWorkflowProcess.md)
 

@@ -3,7 +3,7 @@
 
 # Manage an attribute for tasks
 
-A task is an entity type. Like all entity types, a task is defined through a series of attributes. 
+A task is an entity type. Like all entity types, a task is described through a series of attributes. 
 
 Tasks contain by default a number of fields, such as *Title*, *Description*, *Event*, and *Assignee*, to specify how the task is called, what it entails, in which scenario it needs to be performed, and who is the person responsible for it. These fields are internally predefined.
 
