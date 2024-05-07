@@ -63,7 +63,9 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
     The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.    
     The *Pay desks* wizard window is displayed when the store is created. The following entities have been automatically created:
-    - *DataHub* module: The following attribute sets have been created<!--- Ist das richtig?-->:
+    The following entities have been automatically created:
+    - *DataHub* module:   
+        The following attribute sets have been created<!--- Ist das richtig?-->:
         - Set for POS store "Name of new store"
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
@@ -72,13 +74,15 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
         - Returns connection POS Store "Name of the new store"
         - Return line item channel POS Store "Name of the new store"
         - Redeem voucher item channel POS Store "Name of the new store"
-        - Service items channel POS Store "Name of the new store"
+        - Service items channel POS Store "Name of the new store"   
     - *PIM* module   
         Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
-    - *Omni-Channel* module: The following attribute sets have been created:    
+    - *Omni-Channel* module   
+    The following attribute sets have been created:    
         - A connection *POS store "Name of new store"*
         - A variant set *Set for POS for "Name of the new store"* 
         - A variant set *Offer option set for POS store "Name of the new store"*
+
     
 
 

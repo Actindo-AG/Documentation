@@ -92,4 +92,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Add the conditions](09_WorkflowAdjustments.md#add-the-conditions)
         - [Add a transition](09_WorkflowAdjustments.md#add-a-transition)
 
+- [Create connection to TSS provider](./10_TSSProviderConnection.md)
+    - [Assign the TSS provider connection to the stores](./10_TSSProviderConnection.md#assign-the-tss-provider-connection-to-the-stores)
+
 

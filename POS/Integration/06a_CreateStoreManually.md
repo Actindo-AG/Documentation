@@ -56,8 +56,8 @@ Create a store manually, if you do not want to use the wizard.
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
     The following entities have been automatically created:
-    - *DataHub* module   
-        The following attribute sets have been created:
+    - *DataHub* module:   
+        The following attribute sets have been created<!--- Ist das richtig?-->:
         - Set for POS store "Name of new store"
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
@@ -69,8 +69,11 @@ Create a store manually, if you do not want to use the wizard.
         - Service items channel POS Store "Name of the new store"
     - *PIM* module   
         Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
-    - *Omni-Channel* module    
-        A connection *POS store "Name of new store"* has been created.
+    - *Omni-Channel* module   
+    The following attribute sets have been created:    
+        - A connection *POS store "Name of new store"*
+        - A variant set *Set for POS for "Name of the new store"* 
+        - A variant set *Offer option set for POS store "Name of the new store"*
 
 
 ## Configure the store details
@@ -89,6 +92,8 @@ In the store details, you give some detailed information about your store. Furth
 ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
 1. Enter a short description of the store in the *Short description* field.
+
+2. Click the *TSS connection* drop-down list and select the required TSS connection. For detailed information on TSS connections, see [Create connection to TSS Provider](./10_TSSProviderConnection.md).
 
 2. Click the [ADD] button in the *Store manager* box.   
     The *Store managers* window is displayed.

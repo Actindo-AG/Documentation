@@ -22,7 +22,8 @@ The following functions are available for the editing toolbar:
     Click this button to edit the selected store. This button is only displayed, when the checkbox of a store is selected. Alternatively, you can click directly a row in the table to edit a store.
 <!---Neu-->
 - [REBUILD CACHE]   
-<!---To be enhanced-->
+    Click this button to rebuild the cache for all offer data.
+    > In general, the cache for the offer data is only changed in case that a single offer has changed. In this case, only the cache for the changed offer is rebuild. You can use this function to rebuild the data of all offers if it is necessary.
 
 
 The following functions and fields are available in this view:
