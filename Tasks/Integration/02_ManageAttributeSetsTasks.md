@@ -11,6 +11,6 @@ The fields you may want to include in each type of task will probably differ. Fo
 
 The *ATTRIBUTE SETS* tab in the *Tasks* module equals the *ATTRIBUTE SETS* tab contained in the *DataHub* module. In the *Tasks* module, however, you can only manage the tasks-related attribute sets, as only the task-relevant attribute sets are displayed.
 
-For detailed information on how to manage an attribute set, see [Manage an attribute](../../DataHub/Integration/02_ManageAttributeSets.md) in the *DataHub* documentation.
+For detailed information on how to manage an attribute set, see [Manage an attribute set](../../DataHub/Integration/02_ManageAttributeSets.md) in the *DataHub* documentation.
 
 [comment]: <> (Entwicklung: Bitte LOCK-Button aus Editing Toolbar abbauen!)
