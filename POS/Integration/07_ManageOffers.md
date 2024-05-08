@@ -349,4 +349,5 @@ From a technical point of view, you have to associate a product/service to an ex
 
 ### Create product option variant set
 Zusätzlich zum Variantenset für Filiale braucht man eines für Produktoptionen. HIerfür kann man Options-Basic set als referenz nehmen
-In addition to the store-specific variant set you must create a variant set for the product option. Use the *Basic Product option* variant set for reference. 
+In addition to the store-specific variant set you must create a variant set for the product option. Use the *Basic Product option* variant set for reference.
+
