@@ -1,4 +1,4 @@
-# Products
+# Manage products 
 
 You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products. 
 
@@ -268,9 +268,15 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 [comment]: <> (variant-to-be single, oder master-to-be single: Felder VariantSetId and definingAttributes müssen definiert sein, um Verknüpfen zu können)
 
 
-## Create a variant-master product structure
+## Create a product family
 
-Once you have created your products, you can create a variant-master structure between them. You can also move a variant product to another master product. 
+[comment]: <> (Oder Create a variant-master product structure?)
+
+Once you have created your products, you can link them together to create a product family. A product family is a group of products comprising a master product and its variant products. You can also move a variant product to another product family, that is, link it to a different master product. 
+
+A product family reflects your product structure...
+
+[comment]: <> (Wozu brauche ich das?)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
 

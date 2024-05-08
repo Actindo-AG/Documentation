@@ -2,21 +2,27 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
 
-The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
+In this section, an API documentation for the *Actindo Core1 Platform* is provided...
 
-The Core1 is highly configurable and expandable, using not only the Actindo App Store, but also including self-developed modules and extensions. Therefore, every Actindo Core1 account is unique in its API configuration due to the individual construction of the installed and extended modules.
+Use case - what it is used for
+
+The *Actindo Core1 Platform* is highly configurable and expandable, using not only the Actindo App Store, but also including self-developed modules and extensions. Therefore, every *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules.
+
+The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
 
 [comment]: <> (Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
 
-## Authentication
+## API general requirements/setup / How the API works 
+
+### Authentication
 
 The *Actindo Core1 Platform* supports two workflows of the OAuth 2.0 protocol to retrieve an access token to make authenticated requests. For detailed information on the authentication flow, see [OAuth authorization flow](02_GetStarted.md#oauth-authorization-flow).
 
-## Methods
+### Methods
 
 The *POST* method is always used for all *Actindo Core1 OpenAPI* endpoints. All other methods are not relevant for communication with the Core1 platform.
 
-## URI
+### URI
 
 URI stands for Uniform Resource Identifier. It represents the location of a web resource. 
 
@@ -27,7 +33,7 @@ In the *Actindo Core1 OpenAPI*, the URI has the following structure:
 - *your-workspace* represents the name of your instance.
 - *API.endpoint* represents the API endpoint as described in this API reference documentation.
 
-## Headers
+### Headers
 
 Headers contain metadata in key-value pairs that are sent along with HTTP requests and responses. They are essential for the API calls, as they provide additional information for communication between client and server.
 
@@ -41,7 +47,7 @@ The following headers are required for communication with the *Actindo Core1 Ope
 
 [comment]: <> (Unsicher, ob das stimmt, und wie authentication/authorization via header/request body funktioniert)
 
-## Response codes
+### Response codes
 
 Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to indicate the success of failure of the API requests. The most usual response codes returned are as follows: 
 
@@ -56,9 +62,9 @@ Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to in
 
 For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes "[https://en.wikipedia.org/wiki/List_of_HTTP_status_codes]").
 
-## Format
+### Format
 
-The *Actindo Core1 Platform API* accepts and returns json body requests. 
+The *Actindo Core1 Platform OpenAPI* accepts and returns json body requests. 
 
 ## Tools
 

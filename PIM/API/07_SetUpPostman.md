@@ -1,6 +1,6 @@
 # Set up Postman for the *Actindo Core1 OpenAPI* 
 
-To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
+To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration, and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
 Before you can send requests to the Core1 with Postman, you have to set it up to communicate with your system.  
 

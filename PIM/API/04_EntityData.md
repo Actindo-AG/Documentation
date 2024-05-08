@@ -1,4 +1,8 @@
-# Entity data
+# Retrieve entity data
+
+[comment]: <> (Was bedeutet dieses Kapitel? Vielleicht den Titel spezifischer?
+Eine kurze Einführung, was mich in dem Kapitel erwartet …. Anleitung, spezielle Produktinformationen zu erhalten….
+Ansonsten, sehr anschaulich beschrieben)
 
 You can retrieve any specific entity data via API. 
 
@@ -7,11 +11,11 @@ To make API calls, for example, you usually need to provide some entity IDs in y
 You can find out an entity ID via user interface or via API.
 
 
-## Entity ID via user interface
+## Discover entity ID via user interface
 
 You can find out any entity ID via user interface as follows:
 
-1. Go to the module where the entity originates, for example, *PIM > Products > LIST* to find out a product ID.
+1. Select the module where the entity originates, for example, *PIM > Products > LIST* to find out a product ID.
 
 2. Locate the entity whose ID you need.
 
@@ -24,7 +28,7 @@ You can find out any entity ID via user interface as follows:
 4. Write down the product ID. You will need to provide it when sending your request.
 
 
-## Entity ID via API
+## Discover entity ID via API
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 

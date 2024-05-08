@@ -13,7 +13,9 @@ For an overview of the Actindo data model, see [Data model](../../DataHub/Overvi
 
 An attribute defines a characteristic to describe an entity, for example, a product in the case of the *PIM* module. All attributes are created and maintained in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, product-specific attributes can be created and maintained in the *PIM* module. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attributes may be created via driver.
 
-All attributes have a key. This key is required for API access and therefore must be system wide unique. 
+[comment]: <> (All attributes ... bis PIM module umformulieren. Gleiches gilt für attribute sets)
+
+All attributes have a key. This key is required for API access and therefore must be system-wide unique. 
 
 You can define your own attribute keys, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
 
@@ -32,7 +34,7 @@ Some attributes apply to all products, as every product needs to have a name, a 
 
 Every attribute has a defined data type, which determines the type of value the attribute may contain, for example a series of characters (data type: string) or a whole number (data type: integer). For detailed information about the data types, see [Data type list](../../DataHub/UserInterface/04_DataTypeList.md).
 
-You can create you own attributes in your Core1 system via the user interface, as well as edit or deactivate existing attributes. For detailed information, see [Manage the attributes](../../DataHub/Integration/01_ManageAttributes.md).
+You can create your own attributes in your Core1 system via the user interface, as well as edit or deactivate existing attributes. For detailed information, see [Manage the attributes](../../DataHub/Integration/01_ManageAttributes.md).
 
 
 The following examples are based on predefined *PIM* attributes. If you have created your own attributes in your system, the names and keys may differ.
@@ -58,7 +60,7 @@ The following graphic visualizes a series of attributes, within an attribute set
 
 An attribute set includes a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. All attribute sets are created and maintained in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, product-specific attribute sets can be created and maintained in the *PIM* module. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attribute sets may be created via driver.
 
-All attribute sets have a key. This key is required for API access and therefore must be system wide unique. 
+All attribute sets have a key. This key is required for API access and therefore must be system-wide unique. 
 
 You can define your own attribute set keys, but we strongly recommend that you follow consistent naming conventions for the sake of clarity, such as follows: 
 
@@ -80,7 +82,7 @@ The following examples are based on predefined *PIM* attribute sets. If you have
 
 Apart from the *PIM basic set*, you can create other sets to define a specific type of product, such as shirts or notebooks. These product-specific attribute sets will usually be based on the *PIM basic set*, that is, will inherit the attributes included in it, and contain additional attributes needed to define the specific product type, such as a piece of clothing or a computer.  
 
-You can create you own attribute sets in your Core1 system via the user interface, as well as edit or deactivate existing attribute sets. For detailed information, see [Manage the attribute sets](../../DataHub/Integration/02_ManageAttributeSets.md).
+You can create your own attribute sets in your Core1 system via the user interface, as well as edit or deactivate existing attribute sets. For detailed information, see [Manage the attribute sets](../../DataHub/Integration/02_ManageAttributeSets.md) in the *DataHub* documentation.
 
 
 The following graphic visualizes the attribute set structure and the inheritance principle, and how the set attributes define a specific product:
@@ -94,7 +96,7 @@ In the *PIM* module, you can create three types of products:
 
 - *Single product*: A standalone product with no variations to it, for example, a computer game. 
 - *Master product*: A product that has variations to it, for example, a shirt, which has different options in size and color. A master product is the "parent" entity to a family of products.
-- *Variant product*: A product with a special characteristic that differentiates it from other products of the same type, for example, color or size. A shirt, for instance, is usually sold in different colors. The blue shirt and the red shirt are variants of the so-called master product shirt, which is just an the abstract definition of the product type shirt. 
+- *Variant product*: A product with a special characteristic that differentiates it from other products of the same type, for example, color or size. A shirt, for instance, is usually sold in different colors. The blue shirt and the red shirt are variants of the so-called master product shirt, which is just an abstract definition of the product type shirt. 
 
 Variant products are created and managed in the *PIM* module. To be able to create variant products, you have to create a variant set first to determine the attributes that will define the variant product. For detailed information, see [Variant set](#variant-set).
 

@@ -51,7 +51,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Edit a product](./05_Products.md#edit-a-product)
         - [Sample: Add an image to a product](./05_Products.md#sample-add-an-image-to-a-product)
         - [Sample: Add variant defining attributes](./05_Products.md#sample-add-variant-defining-attributes)
-    - [Create a variant-master product structure](./05_Products.md#create-a-variant-master-product-structure)
+    - [Create a product family](./05_Products.md#create-a-product-family)
         - [Sample: Link a single variant to master product](./05_Products.md#sample-link-a-single-variant-to-master-product)
         - [Sample: Link a multiple variants to master product](./05_Products.md#sample-link-a-multiple-variants-to-master-product)
     - [Delete a product](./05_Products.md#delete-a-product)

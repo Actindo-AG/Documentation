@@ -1,4 +1,4 @@
-# Variant products
+# Manage variant products
 
 You can create, edit, delete, and list *PIM* variant products via API. The endpoint */Actindo.Modules.Actindo.PIM.Variants.create* allows you to manage variant products within an existing master product. 
 

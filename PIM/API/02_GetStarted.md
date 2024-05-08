@@ -2,9 +2,9 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine übergeordnete Ebene verschieben)
 
-This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 openAPI* works. 
+This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 Platform OpenAPI* works. 
 
-A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 openAPI* documentation are the ones relevant for your current instance.
+A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 OpenAPI* documentation are the ones relevant for your current instance.
 
 
 ## Using the request samples
@@ -55,11 +55,11 @@ The exemplary attributes and values provided in the request sample should be cus
 
 - The *sku* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_Products.md#the-product-object).
 - The *attributeSetId* represents the product type and is required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets).
--  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created you own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).   
+-  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created your own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).   
 - The scope (in this case, online shop) and languages (en_US and es_ES) must also be specified accordingly. 
 
 
-## OAuth authorization flow
+## Set up OAuth authorization
 
 The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. 
 
@@ -69,11 +69,9 @@ The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client a
 - A user has been created.
 - The user has the appropriate rights.
 
-For detailed information on user rights, see [User rights](to-be-determined) in the Core1 documentation.
-
 ### Step 1: Register your app
 
-If you want to gain access to the Core1 from your app via API, first of all you have to register your app in the developer portal. 
+If you want to gain access to the Core1 from any external app via API, first of all you have to register your app in the developer portal. 
 
 *Dev Tools > Tab APP REGISTRATIONS*
 
@@ -113,15 +111,17 @@ If you want to gain access to the Core1 from your app via API, first of all you 
 
 To be able to generate an access token for authentication, you need to get an authorization code first. 
 
+[comment]: <> (Check, ob das stimmt und ob hier nötig: Bear in mind that you need to get an authorization code for every instance you want to use)
+
+> [Caution]  
+    Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
+
 Following the example provided in [Step 1: Register you app](#step-1-register-your-app), we describe the process in the https://oauthdebugger.com/ website. You can also use other third-party website or your own system. 
 
 *OAuth debugger*
 
 ![OAuth debugger](../../Assets/Screenshots/PIM/API/OAuthDebugger.png "[OAuth debugger]")
 
-> [Caution]  
-    Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
-    
 1. Enter the authorization URI (Uniform Resource Identifier) in the *Authorize URI (required)* field. In this case, your URI should look like this:
 
     **https://your-workspace.actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
@@ -150,12 +150,14 @@ Following the example provided in [Step 1: Register you app](#step-1-register-yo
 
     ![Core1 Login](../../Assets/Screenshots/PIM/API/Core1Login.png "[Core1 Login]")
 
+[comment]: <> (Imogens Frage: Ist dann nicht Step 2: Create technical user for API access?)
+
 
 ### Step 3: Generate an access token
 
 Once you have obtained an authorization code, you can generate an access token for authentication.
 
-For the following steps, a command line tool curl is used.
+For the following steps, a cURL command line tool is used.
 
 The following parameters are required: 
 - Authorization code
@@ -179,7 +181,7 @@ The following parameters are required:
 
         {"access_token":"EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"37e521b0ec5f035c86f0a2db09fe73cda934235e"}
 
-3. Write down your access token and your refresh token. 
+3. Copy and save your access token and your refresh token. 
     > [Info]  Access (also called bearer) tokens are short-lived. You can generate further access tokens with your refresh token.
 
 ### Step 4: Send a test authentication request
