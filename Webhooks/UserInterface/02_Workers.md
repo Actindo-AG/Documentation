@@ -54,7 +54,7 @@ The following fields are available in the view:
     Time intervals in minutes in which the worker execution should be retried after a webhook message could not be sent successfully. 
 
 
-## DETAILS
+## Details of worker
 
 *Webhooks > Workers > Select worker*
 

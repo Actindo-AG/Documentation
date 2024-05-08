@@ -76,9 +76,10 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 4. If desired, select another worker in the *Worker* drop-down list.
 
-5. If desired, define optional properties in the *Optional properties* section. By doing this, you can narrow the entity for which the webhook is used. You can enter all DataHub entities as well as any database field. The following prerequisites must be fulfilled:   
-    - DataHub entities must have a leading underscore.
-    - The property must be part of the model you have entered in the *Fully qualified class name* field.    
+5. If desired, define optional properties in the *Optional properties* section. This allows you to add additional data to the webhook message you want to send. For example, DataHub attributes are not added to the payload by default, so you can add them here. You can enter DataHub entities as well as any database field. The following prerequisites must be fulfilled:   
+    
+    - The properties must be part of the model you have entered in the *Fully qualified class name* field.  
+    - DataHub entities must have a leading underscore.  
     - The data must be passed as array.  
     
     See the following examples:   
@@ -135,6 +136,22 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 7. If desired, delete a condition line by clicking on the ![Delete](../../Assets/Icons/Trash08.png "[Delete]")(Delete) button at the right end of the line.
 
 8. Click the [SAVE CHANGES] button in the top right corner.
+
+9. Clear the tenant cache, see [Clear tenant cache](#clear-tenant-cache).
+
+
+
+## Clear tenant cache
+
+For performance reasons, all webhooks are part of the tenant cache. After you have created a new webhook or have changed an existing one, you must ensure, that the tenant cache is rebuild.
+
+#### Prerequisites
+
+You have administrator rights for the related instance.
+
+#### Procedure
+
+For detailed information on how to clear the tenant cache, see [Clear tenant cache](../../Core1Platform/AdministratingCore1/05_EngineRoom.md#clear-tenant-cache) in the Core1 Platform documentation.
 
 
 

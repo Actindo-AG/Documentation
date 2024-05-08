@@ -16,4 +16,5 @@ In this part of the *Webhooks* documentation, you will find the following chapte
     - [Create webhook](./02_ManageWebhooks.md#create-webhook)
     - [Edit webhook](./02_ManageWebhooks.md#edit-webhook)
     - [Define Webhook conditions](./02_ManageWebhooks.md#define-webhook-conditions)
+    - [Clear tenant cache](./02_ManageWebhooks.md#clear-tenant-cache)
     - [Remove associated worker](./02_ManageWebhooks.md#remove-associated-worker)
