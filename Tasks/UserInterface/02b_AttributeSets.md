@@ -7,7 +7,7 @@
 
 ![Attribute sets](../../Assets/Screenshots/Tasks/Settings/AttributeSets/AttributeSetsTasks.png "[Attribute sets]")
 
-The *ATTRIBUTE SETS* tab in the *Tasks* module equals the *ATTRIBUTE SETS* tab contained in the *DataHub* module. In the *Tasks* module, however, only the tasks-relevant attribute sets are displayed. 
+The *ATTRIBUTE SETS* tab in the *Tasks* module equals the *ATTRIBUTE SETS* tab contained in the *DataHub* module. In the *Tasks* module, however, only the task-relevant attribute sets are displayed. 
 
 For a detailed description of this view, see [Attribute sets](../../DataHub/UserInterface/01b_AttributeSets.md) in the *DataHub* documentation.
 

@@ -7,7 +7,7 @@
 
 A task is an activity that needs to be completed by a responsible user. Tasks are defined and configured in the *Process Orchestration* module. 
 
-[comment]: <> (Evtl. Link auf Workflows)
+[comment]: <> (Evtl. Link auf Workflows, wenn Tasks ausführlich da beschrieben)
 
 Most tasks are created automatically by modules, such as *Omni-Channel* or *Process Orchestration*, for example, when a process fails. Tasks can also be added during the handling of processes in the *Process Orchestration* module, for instance, for manual clearance of suspicious orders or approving refunds. Tasks are related to an event, which can be assigned by default to a user as well as a user group. Many events are created automatically when installing a module or plugin, but you can also define your own events in the *Tasks* module. For detailed information, see [Manage the events](./01_ManageEvents.md).
 
@@ -34,7 +34,7 @@ A task has been created.
 
 #### Procedure
 
-*Tasks > Menu entry Tasks > Tab LIST*
+*Tasks > Tasks > Tab LIST*
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
@@ -55,7 +55,7 @@ A task has been created.
 
 #### Procedure
 
-*Tasks > Menu entry Tasks > Tab LIST*
+*Tasks > Tasks > Tab LIST*
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
@@ -65,7 +65,7 @@ A task has been created.
 2. Click the *Unassigned* drop-down list.  
     All users registered in the current instance are displayed in the list.
 
-3. Select the user to whom you want to assign the task.
+3. Select the user to whom you want to assign the task(s).
     
 4. Click the [ASSIGN] button.  
     The username of the new responsible user is displayed as assignee in the *Assignee* column of the selected task(s).
@@ -73,7 +73,7 @@ A task has been created.
 
 ## Check the assigned tasks
 
-You can filter the tasks by different criteria using the drop-down menus provided in the list view. You can combine the different filters to narrow down your results. For a detailed description, see [User Interface Tasks](../UserInterface/01a_List.md).
+You can filter the tasks by different criteria using the drop-down menus provided in the tasks list view. You can combine the different filters to narrow down your results. For a detailed description, see [User Interface Tasks](../UserInterface/01a_List.md).
 
 In the following, an example procedure on how to check and filter your assigned tasks is explained.
 
@@ -83,7 +83,7 @@ A task has been assigned to you, see [Assign a task](#assign-a-task).
 
 #### Procedure
 
-*Tasks > Menu entry Tasks > Tab LIST*
+*Tasks > Tasks > Tab LIST*
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
@@ -113,7 +113,7 @@ A task has been assigned to you, see [Assign a task](#assign-a-task).
 
 #### Procedure
 
-*Tasks > Menu entry Tasks > Tab LIST*
+*Tasks > Tasks > Tab LIST*
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 
@@ -135,7 +135,7 @@ As task has been marked as done, see [Mark a task as done](#mark-a-task-as-done)
 
 #### Procedure
 
-*Tasks > Menu entry Tasks > Tab LIST*
+*Tasks > Tasks > Tab LIST*
 
 ![List of tasks](../../Assets/Screenshots/Tasks/Tasks/ListTasks.png "[List of tasks]")
 

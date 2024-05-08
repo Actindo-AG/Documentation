@@ -11,7 +11,7 @@ You can create any number of attributes you need to add fields to your tasks and
 
 ![Tasks attributes](../../Assets/Screenshots/Tasks/Settings/Attributes/AttributesTasks.png "[Tasks attributes]")
 
-The *ATTRIBUTES* tab in the *Tasks* module equals the *ATTRIBUTES* tab contained in the *DataHub* module. In the *Tasks* module, however, you can only manage tasks-related attributes, as only the task-relevant attributes are displayed. 
+The *ATTRIBUTES* tab in the *Tasks* module equals the *ATTRIBUTES* tab contained in the *DataHub* module. In the *Tasks* module, however, you can only manage task-related attributes, as only the task-relevant attributes are displayed. 
 
 For detailed information on how to manage an attribute, see [Manage an attribute](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation.
 

@@ -59,13 +59,13 @@ The *Email* module (1.6.1 version or higher) is installed.
 
 For every email connection configured, you can create different email types depending on the email purpose, for example, a payment reminder, a delivery status update, or an invoice.
 
-For every email type you create in the *Email* module, the corresponding attribute set is automatically created in the *DataHub* module. All email attribute sets contain by default a number of basic email attributes, such as *To*, *From*, *CC*, *Subject*, or *Body*. Depending on the email connection, the basic email attributes may vary. If necessary, you can add additional attributes to include other fields to a specific email type. 
+For every email type you create in the *Email* module, the corresponding attribute set is automatically created in the *DataHub* module. All email attribute sets contain by default a number of basic email attributes, such as *To*, *From*, *CC*, *Subject*, or *Body*. Depending on the email connection, the basic email attributes may vary, as different drivers may need different fields to work with. If necessary, you can add additional attributes to include other fields to a specific email type. 
 
 For every email type attribute set, you can have different ETL mappings to determine which data is contained in a specific email. For example, in an invoice email you will need to include the invoice number, whereas in a payment reminder email you need to specify the bank details. The data contained in the different emails must be configured via ETL mapping in the *DataHub* module under *DataHub > ETL > Tab MAPPINGS*. In the case of the *Tasks-Email* connection, an ETL mapping from the desired task attribute set to the corresponding email type attribute set must be created. For detailed information on ETL mappings, see [Manage the ETL mappings](../../DataHub/Operation/01_ManageETLMappings.md).
 
 Besides, you can further customize the email body in the *DataHub* module if desired under *DataHub > Settings > HTML templates*. For detailed information, see [Manage the HTML templates](../../DataHub/Operation/03_ManageHTMLTemplates.md) in the *DataHub* documentation. 
 
-For the task email notification purposes, a simple email type containing the basic attributes is sufficient, as explained in the following procedure. 
+For task email notification purposes, a simple email type containing the basic attributes is sufficient, as explained in the following procedure. 
 
 #### Prerequisites
 
@@ -107,11 +107,12 @@ At least one email type has been created in the email connection, see [Create an
 
 1. Click the *Email type* drop-down list in the *General settings* view and select the desired option. All available email types are displayed in the list.
 
-2. Click the *From* field and enter a valid email address, such as in the following example. This will be displayed as the sender email address in the email.
+2. Click the *From* field and enter a valid email address, such as in the following example.  
+This email address will be displayed as sender in the email notifications.
 
     ![General settings example](../../Assets/Screenshots/Tasks/Settings/EmailSettings/EmailSettingsGeneralExample.png "[General settings example]")
 
-3. If necessary, click the *Email sending per event* menu entry to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, continue with step 4.
+3. If necessary, click the *Email sending per event* menu entry to configure further settings, see [Configure the email sending per event](#configure-the-email-sending-per-event). Otherwise, continue with step **4**.
 
 4. Click the [SAVE] button.  
     A confirmation message is displayed. The email general settings have been saved.
