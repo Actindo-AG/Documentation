@@ -6,7 +6,7 @@
 
 The list displays all available workers. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following functions are available in the row above the list header:
+The following worker related functions are available in the view header:
 
 - ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->   
    Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
@@ -28,7 +28,7 @@ The following functions are available in the row above the list header:
 - ![Shutdown all](../../Assets/Icons/Stop.png "[Shutdown all]") SHUTDOWN ALL] <!---Icon-->  
     Click this button to shut down all active workers.
 
-The following fields are available:
+The following fields are available in the view:
 
 - *Active*
     Status of the worker. The following statuses are available:

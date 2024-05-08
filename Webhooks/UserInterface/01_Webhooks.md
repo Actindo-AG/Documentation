@@ -6,7 +6,7 @@
 
 The list displays all available webhooks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following functions are available for the row above the list header:
+The following webhook related functions are available in the list header:
 
 - ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->      
     Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
