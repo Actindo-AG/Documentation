@@ -12,7 +12,7 @@ To configure the email notification settings, see [Configure the email sending p
 
 [comment]: <> (Email procedures zur Email-Doku hinzufügen, wenn verfügbar, und von hier aus darauf verweisen)
 
-## Create a connection in the *Email* module
+## Create a connection in the Email module
 
 To be able to set up the email notifications, you have to create a connection to an email server in the *Email* module first.
 
@@ -69,7 +69,7 @@ For task email notification purposes, a simple email type containing the basic a
 
 #### Prerequisites
 
-At least one email connection has been established, see [Create a connection in the *Email* module](#create-a-connection-in-the-email-module).
+At least one email connection has been established, see [Create a connection in the Email module](#create-a-connection-in-the-email-module).
 
 #### Procedure
 
