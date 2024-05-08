@@ -106,9 +106,9 @@ The following fields are available in this view:
 
 The task details view contains all related information to the selected task. It includes the following tabs:
 
-- [Attributes](#task--attributes)
-- [Dependencies](#task--dependencies)
-- [ETL processes](#task--etl-processes)
+- [Attributes](#task-–-attributes)
+- [Dependencies](#task-–-dependencies)
+- [ETL processes](#task-–-etl-processes)
 
 [comment]: <> (Entwicklung: Diese Ansicht hat keinen Namen. Es sollte Task 1234 oder XYZ heißen o.ä. Gibt es schon einen FETA Ticket dazu?)
 
