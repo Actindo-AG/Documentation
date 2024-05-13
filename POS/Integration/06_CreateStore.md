@@ -66,22 +66,23 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The following entities have been automatically created:
     - *DataHub* module:   
         The following attribute sets have been created<!--- Ist das richtig?-->:
-        - Set for POS store "Name of new store"
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
         - Payment items channel POS Store "Name of new store"
         - Discount items channel POS Store "Name of new store" 
         - Returns connection POS Store "Name of the new store"
-        - Return line item channel POS Store "Name of the new store"
+        - Return line items channel POS Store "Name of the new store"
         - Redeem voucher item channel POS Store "Name of the new store"
-        - Service items channel POS Store "Name of the new store"   
+        - Service items channel POS Store "Name of the new store"  
+        - Set for POS store "Name of new store"
+        - Offer option set for POS store "Name of the new store" 
     - *PIM* module   
         Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
     - *Omni-Channel* module   
     The following attribute sets have been created:    
         - A connection *POS store "Name of new store"*
         - A variant set *Set for POS for "Name of the new store"* 
-        - A variant set *Offer option set for POS store "Name of the new store"*
+        - A variant set *Offer option set for POS store "Name of the new store"* <!--- bei meinem letzten Store "Actindo2" hat er den jetzt nicht erstellt??-->
 
     
 

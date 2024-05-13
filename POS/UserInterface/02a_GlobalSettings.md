@@ -14,8 +14,8 @@ In principle, the more specific setting always overrides the more general settin
 
 In the left part of the page, the selection list *Settings* is displayed. The list is divided in the following sections:
 - [GENERAL](#general)
-- [VAT ID](#vat-id)
 - [CURRENCIES](#currencies)
+- [PRICING](#pricing)
 - [RETURNS](#returns)
 - [RECEIPT PRINTING](#receipt-printing)
 - [DATA TRANSFER ORDER MANAGEMENT](#data-transfer-order-management)
@@ -174,35 +174,6 @@ In POS, you can specify for statistical purposes which payment method was used f
     Click this button to add a new payment method. A new line for a payment method is displayed.
 
 
-### Automatic discount
-
-*POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
-
-![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
-
-Define a discount that is automatically applied above a certain amount.
-
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
-    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
-
-- [Save]    
-    Click this button to save any changes.
-
-
-- *As of amount*   
-    Enter the amount from which the discount is granted.
-
-- *Discount in %*   
-    Enter the amount of the discount in percent.
-
-    > [Info] If you leave the fields blank, no automatic discount will be granted.
-
-- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
-    Click this button to delete the discount left to the button.
-
-- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)  
-    Click this button to add a new discount. A new line for a discount is displayed.
-
 
 ### Open drawer at cash payment
 
@@ -243,7 +214,7 @@ Enable or disable the option to open the cash drawer for cashless payment.
 
 
 
-## VAT ID
+### VAT ID
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
@@ -392,34 +363,14 @@ This setting allows the cashiers to suggest additional offers to the customer du
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
     Click this button to add an SKU. A new line for an SKU is displayed.
 
+<!--- Neu-->
+## Regex for customer-code
 
-<!--- NEU-->
-### Customer-specific discount
+*POS > Management > Tab GLOBAL SETTINGS > Entry Regex for customer-code*
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
+![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
-![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
-
-This setting allows you to define discounts that are valid for specific customers. You can use it as a global or a store-related setting.  
-A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired. For detailed information, see [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount).    
-
-The following prerequisites must be met to use this feature: 
-
-- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
-- This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
-<!---Links gehen auf DataHub2 und gehen daher nicht-->
-
-The following fields and features are available for this window:   
-
-- [Save]   
-    Click this button to save any changes.
-
-- *Discount attribute*    
-    Click this drop-down list to select one of the following options:
-    - [ID of your customer-specific attribute]    
-        The value of the selected attribute will be applied as discount to a receipt on selection of the customer.
-
-
+<!--- to be enhanced-->
 
 ## CURRENCIES
 
@@ -538,7 +489,7 @@ Edit the settings of an existing currency.
 
 - ![Coin](../../Assets/Icons/Coin.png "[Coin]") (Coin)   
     The coin icon indicates which coins are defined for the respective currency. The number in the middle indicates the amount of the coin.   
-    When you hover over a coin icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the  button to delete the coin.
+    When you hover over a coin icon, the ![Delete Currency](../../Assets/Icons/Cross05.png "[Delete Currency]") (Delete) button is displayed in the upper right corner of the coin. Click the button to delete the coin.
     The coin icon is displayed only if a coin is defined for the currency.
 
 - *Amount*   
@@ -577,7 +528,81 @@ Select all currencies that are used in your POS system and define a default curr
 - *Default*   
     Click the drop-down list to select the currency that is used as default currency. All available currencies are displayed in the drop-down list. When you select a default currency that is not yet selected as used currency, that currency is automatically selected as used currency.
 
+## PRICING
 
+#### Automatic discount
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
+
+![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
+
+Define a discount that is automatically applied above a certain amount.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]    
+    Click this button to save any changes.
+
+
+- *As of amount*   
+    Enter the amount from which the discount is granted.
+
+- *Discount in %*   
+    Enter the amount of the discount in percent.
+
+    > [Info] If you leave the fields blank, no automatic discount will be granted.
+
+- ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete)   
+    Click this button to delete the discount left to the button.
+
+- ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)  
+    Click this button to add a new discount. A new line for a discount is displayed.
+
+
+<!--- NEU-->
+### Customer-specific discount
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
+
+![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
+
+This setting allows you to define discounts that are valid for specific customers. You can use it as a global or a store-related setting.  
+A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired. For detailed information, see [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount).    
+
+The following prerequisites must be met to use this feature: 
+
+- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
+- This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
+<!---Links gehen auf DataHub2 und gehen daher nicht-->
+
+The following fields and features are available for this window:   
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Discount attribute*    
+    Click this drop-down list to select one of the following options:
+    - [ID of your customer-specific attribute]    
+        The value of the selected attribute will be applied as discount to a receipt on selection of the customer.
+
+<!---Neu-->
+## Active price groups
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
+
+![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
+
+<!--- to be enhanced-->
+
+
+
+<!---Neu-->
+## Field for price group
+
+![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
+
+<!--- to be enhanced-->
 
 ## RETURNS
 

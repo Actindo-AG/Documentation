@@ -27,7 +27,6 @@ Create the product in the *PIM* module. For detailed information, see [Create a 
 
 
 
-
 ## Create a product type
 
 To improve the product classification, you can create a product type and use it in POS. To do this, you create an attribute set in the *PIM* module.  
@@ -232,9 +231,8 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 - At least one QuickSelect attribute has been created, see [Define a QuickSelect attribute](#define-a-quickselect-attribute).
 - At least one offer is created for *POS*, see [Create an offer for POS](#create-an-offer-for-pos).
 
-
-
 #### Procedure
+
 *Omni-Channel > Offers > Tab OFFERS*
 
 ![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
@@ -346,6 +344,7 @@ If you want to use the *Age rating* feature, the attribute set assigned to the P
 You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
 
 From a technical point of view, you have to associate a product/service to an existing product.
+
 
 ### Create product option variant set
 Zusätzlich zum Variantenset für Filiale braucht man eines für Produktoptionen. HIerfür kann man Options-Basic set als referenz nehmen
