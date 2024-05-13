@@ -34,8 +34,8 @@ Let's say you want to create a single product (that is, without variants), for e
 | **Type**      | Accessories  | attributeSetId | 412 (s. notes) |
 | **English Name** | Handbag   | _pim_art__online_shop__name_en_US  | Handbag  |
 | **Spanish Name** | Bolso     | _pim_art__online_shop__name_es_ES  | Bolso |
-| **English description**| Vegan leather crossbody handbag | _pim_products_description__online_shop__en_US | Vegan leather crossbody handbag |
-| **Spanish description**| Bolso bandolera de cuero vegano | _pim_products_description__online_shop__de_DE | Bolso bandolera de cuero vegano |
+| **English description** | Vegan leather crossbody handbag | _pim_products_description__online_shop__en_US | Vegan leather crossbody handbag |
+| **Spanish description** | Bolso bandolera de cuero vegano | _pim_products_description__online_shop__de_DE | Bolso bandolera de cuero vegano |
 
 
 The exemplary attributes and values provided in the request sample should be customized as follows: 
@@ -59,7 +59,7 @@ The exemplary attributes and values provided in the request sample should be cus
 - The scope (in this case, online shop) and languages (en_US and es_ES) must also be specified accordingly. 
 
 
-## Set up OAuth authorization
+## Set up the OAuth authorization
 
 The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. 
 
@@ -234,7 +234,13 @@ Access tokens are valid for a limited period of time. If your access token is ex
     You also get a new refresh token.  
     Make sure you keep it safely for future reference!
 
-        
 
+## Send a request workflow
 
-[comment]: <> (Send your first request?)
+| Step   | Description | Further information |
+| :----: | ------------------ | ------------ |
+| 1      | Check the relevant endpoint | S. relevant use case in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name* |
+| 2      | Check the required attributes | S. relevant use case definitions in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md).  For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 3      | Discover the required entity ID(s) | S. [Retrieve entity data](./04_EntityData.md) | 
+| 4      | Create your request payload | S. the relevant request samples in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md).
+| 5      | Send your request payload | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |

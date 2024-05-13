@@ -31,7 +31,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modifiedBy |integer | User ID | To find a user ID, go to *Settings > Users and groups > User management*. |
 | attributeSet | object | Product attribute set | It contains the required field **id**. |
 | variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
-| _pim_variants | object | Master or variant product definition | It contains the following fields: <br> **variantSetId** (integer), isMasterEntity (true/false), **masterId** (integer) and the object **definingValues**. The object **definingValues** is an array of objects, where at least an **attributeName** and a **value** must be defined. |
+| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variants already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *child-1* respectively. |
 | _pim_art_name | string | Product name | |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language | If attribute is multi-scope and multi-language |
 | _pim_catalog | string / object ? | Product categories | It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
@@ -78,38 +78,10 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 [comment]: <> (_pim_origin: id and/or code3digit required? Es funktioniert nicht. Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objects?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
 
-[comment]: <> (_pim_variants: fields vary depending on product status, i.e. variant or master. S. unten - in Doku übernehmen!)
+[comment]: <> (_pim_variants: fields vary depending on product status, i.e. variant or master. S. unten - in Doku übernehmen! If parent, isMasterEntity true, variantSetId, childrenIds, and numberOfChildren, if variants available. If variant... )
 
 --- Bitte ignorieren. Ich muss es noch in Doku evtl. übernehmen. ---
 
-Master _pim_variants:
-
-
-        "_pim_variants": {
-                        "variantSetId": 91,
-                        "isMasterEntity": true,
-                        "childrenIds": {
-                            "1151": 1151,
-                            "1161": 1161,
-                            "1141": 1141
-                        },
-                        "numberOfChildren": 3,
-                        "toCreate": []
-                    },
-
-Variant _pim_variants:
-
-        "_pim_variants": {
-                        "variantSetId": 91,
-                        "isMasterEntity": false,
-                        "masterId": 1121,
-                        "definingValues": [
-                            {
-                                "attributeName": "EAN-Code",
-                                "value": "child-1-1121"
-                            }
-                        ]
-                    },
 
 Master/Variant (geerbt) pim_origin:
 
@@ -472,3 +444,18 @@ The required fields are marked in bold.
 
 
 
+Filter all products
+PIM.Products.getList
+
+{
+
+
+}
+
+
+PIM.AttributeSetController.getList
+
+filter
+property: key
+operation: (gleich)
+value: _pim_base_set

@@ -2,17 +2,26 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine überordnete Ebene verschieben)
 
-In this section, an API documentation for the *Actindo Core1 Platform* is provided...
+In this section, an API reference documentation for the *Actindo Core1 Platform* is provided. 
 
-Use case - what it is used for
+It includes the following information:
 
-The *Actindo Core1 Platform* is highly configurable and expandable, using not only the Actindo App Store, but also including self-developed modules and extensions. Therefore, every *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules.
+- A brief description of the *Actindo Core1 OpenAPI* and its basic requirements, see [About the Actindo Core1 OpenAPI](#about-the-actindo-core-openapi).
+- A quick guide to set up the API, see [Get started](./02_GetStarted.md).
+- A brief but detailed explanation of the data structure that underlies the system, see [Key concepts](./03_KeyConcepts.md).
+- A number of practical use cases with request samples to manage products via API, see [Manage products](./05_Products.md) and [Manage product variants](./06_Variants.md).
 
-The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It is built based on the API-first approach. With over 500 API endpoints, the Core1 is fully connective and integrative. Every part of the application is accessible through a set of documented API endpoints, which are all accessible through a variety of protocols. 
+[comment]: <> (Through a number of practical use cases, ...)
+
+
+## About the Actindo Core OpenAPI
 
 [comment]: <> (Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
 
-## API general requirements/setup / How the API works 
+The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It uses resource-oriented URIs, accepts and returns JSON-encoded requests, and uses standard HTTP response codes. For detailed information, see the subchapters below.
+
+You can use the API both in staging and production instances of your *Actindo Core1 Platform*. Bear in mind that every *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules, and therefore the addressable endpoints and fields may vary.  
+
 
 ### Authentication
 
@@ -64,7 +73,7 @@ For detailed information, see [HTTP status codes](https://en.wikipedia.org/wiki/
 
 ### Format
 
-The *Actindo Core1 Platform OpenAPI* accepts and returns json body requests. 
+The *Actindo Core1 Platform OpenAPI* accepts and returns JSON body requests. 
 
 ## Tools
 

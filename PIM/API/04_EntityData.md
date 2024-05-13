@@ -1,14 +1,10 @@
 # Retrieve entity data
 
-[comment]: <> (Was bedeutet dieses Kapitel? Vielleicht den Titel spezifischer?
-Eine kurze Einführung, was mich in dem Kapitel erwartet …. Anleitung, spezielle Produktinformationen zu erhalten….
-Ansonsten, sehr anschaulich beschrieben)
+As indicated in the [Send a request workflow](02_GetStarted.md#send-a-request-workflow) chapter, to send an API call, you usually need to provide at least one entity ID in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity.
 
-You can retrieve any specific entity data via API. 
+For example, when you want to create a product, you need to send an *attributeSetId*, that is, the identification number of the attribute set of the product you want to create. You can find out an entity ID via user interface or via API. Besides, you can also retrieve other specific entity data via API if desired.
 
-To make API calls, for example, you usually need to provide some entity IDs in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity. 
-
-You can find out an entity ID via user interface or via API.
+In the following, a few examples to retrieve entity data via user interface and via API are provided. 
 
 
 ## Discover entity ID via user interface
