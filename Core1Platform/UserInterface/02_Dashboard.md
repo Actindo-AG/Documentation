@@ -164,7 +164,7 @@ Click this button to edit the tab. The *Edit tab* view is displayed.
     - *Orders*  
             Displays the number of orders for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.
     - *Dispatched Orders (via AIQS)*   
-            <!---Julian, was ist AIQS?--> 
+            Displays the number of dispatched orders for the specified time interval created via AIQS.   
     - *New customers*   
             Displays the number of new customers for the specified time interval. In addition, it shows the ratio in percent compared to the previous month.  
     - *Average order size (EUR)*   

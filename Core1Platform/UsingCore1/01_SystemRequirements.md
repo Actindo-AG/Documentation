@@ -3,8 +3,8 @@
 The *Actindo Core1 Platform* requires an active internet connection, and up-to-date software. If you meet the recommended system requirements below, you will get the best overall experience. 
 
 - **Operating system**
-   - Microsoft Windows&trade; as of version <!---Julian, haben wir hier eine Version-->
-   - Android&trade; as of version <!---Julian, haben wir hier eine Version-->
+   - Microsoft Windows&trade; 
+   - Android&trade; 
       > [Info] Since the *Chrome*&trade; app for IOS does not support the *Chrome browser engine*, the *Actindo Core1 Platform* does not run on Apple&trade; devices.
 
 - **Memory**  
