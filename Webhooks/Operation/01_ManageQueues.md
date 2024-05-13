@@ -1,21 +1,15 @@
 # Manage queues
 
-The *Queues* menu entry shows all webhooks in the queue that are waiting to be executed/sent by the worker, as well as all those that have been sent successfully and those that have failed.
+The *Queues* menu entry shows the following webhooks:
+<!--- Nochmal nachfragen -->
+ - Wait to be executed/sent by the worker after the conditions have been successfully passed (status *Ready to be sent*)
+ - For performance reasons, all webhooks for which changes have been made to the data of the model for which it is defined (status *Pre remove*).
+ - All those that have been sent successfully (status *Success*).
+ - Those that have been finally failed after the last retry (status *Failed*).
 
 >[Info] The *Queues* view contains all queue entries created for the webhooks. Only queue entries with status *Success* are automatically deleted after ten days.
 
 You can retry failed webhooks, reset the execution, and delete no longer needed or finally failed webhooks.
-
-
-
-0 = Ready to be sent
-The webhook is waiting to be sent.
-1 = Success
-The webhook was sent successfully
-2 = Failed
-The sending of the webhook failed and the amount of tries reached the maximum. This entry must be handled manually.
-3 - Pre remove
-This entry was created during the preRemove event. It is set to Ready to be sent during the postRemove event.
 
 
 
