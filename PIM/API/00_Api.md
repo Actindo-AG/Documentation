@@ -3,13 +3,22 @@
 In this part of the *PIM* documentation, you will find the following chapters:
 
 - [Overview](./01_Overview.md)
+    - [About the Actindo Core OpenAPI](./01_Overview.md#about-the-actindo-core-openapi)
+    - [Request bodies](01_Overview.md#request-bodies)
+        - [URI](./01_Overview.md#uri)
+        - [Headers](./01_Overview.md#headers)
+        - [Methods](./01_Overview.md#methods)
+        - [Format](./01_Overview.md#format)
+    - [Response bodies](./01_Overview.md#response-bodies)
+        - [Sample: Success, product created](./01_Overview.md#sample-success-product-created)
+        - [Sample: Error, required field missing or empty](./01_Overview.md#sample-error-required-field-missing-or-empty)
+        - [Response codes](./01_Overview.md#response-codes)
     - [Authentication](./01_Overview.md#authentication)
-    - [Methods](./01_Overview.md#methods)
-    - [URI](./01_Overview.md#uri)
-    - [Headers](./01_Overview.md#headers)
-    - [Response codes](./01_Overview.md#response-codes)
-    - [Format](./01_Overview.md#format)
     - [Tools](./01_Overview.md#tools)
+    - [Set up Postman for the Actindo Core1 OpenAPI](./01_Overview.md#set-up-postman-for-the-actindo-core1-openapi)
+        - [Define the headers](./01_Overview.md#define-the-headers)
+        - [Set the session cookie](./01_Overview.md#set-the-session-cookie)
+        - [Best practices](./01_Overview.md#best-practices)
 
 
 - [Get started](./02_GetStarted.md)
@@ -75,7 +84,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Sample: List variants to a master product](./06_Variants.md#sample-list-variants-to-a-master-product)
         - [Sample: List variants to multiple master product](./06_Variants.md#sample-list-variants-to-multiple-master-product)
 
-- [Set up Postman for the *Actindo Core1 OpenAPI*](./07_SetUpPostman.md)
+- [Set up Postman for the Actindo Core1 OpenAPI](./07_SetUpPostman.md)
     - [Define the headers](./07_SetUpPostman.md#define-the-headers)
     - [Set the session cookie](./07_SetUpPostman.md#set-the-session-cookie)
     - [Best practices](./07_SetUpPostman.md#best-practices)

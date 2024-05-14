@@ -61,7 +61,7 @@ The exemplary attributes and values provided in the request sample should be cus
 
 ## Set up the OAuth authorization
 
-The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. 
+The *Actindo Core1 Platform* supports the OAuth 2.0 open protocol to handle client authorization for API access. 
 
 #### Prerequisites
 
@@ -69,9 +69,9 @@ The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client a
 - A user has been created.
 - The user has the appropriate rights.
 
-### Step 1: Register your app
+### Step 1: Register the client app
 
-If you want to gain access to the Core1 from any external app via API, first of all you have to register your app in the developer portal. 
+If you want to gain access to the Core1 from any external app via API, first of all you have to register the client app in the developer portal. 
 
 *Dev Tools > Tab APP REGISTRATIONS*
 
@@ -82,7 +82,7 @@ If you want to gain access to the Core1 from any external app via API, first of 
 
     ![Create app registration](../../Assets/Screenshots/PIM/API/CreateAppRegistration.png "[Create app registration]")
 
-2. Enter a name for your app registration in the *Name* field. For the application name, it is recommended to use the third-party app name.
+2. Enter a name for the app registration in the *Name* field. For the application name, it is recommended to use the client app name.
 
 3. Enter a valid client ID in the *Application (client) ID* field. You can freely define your client ID, although it is recommended to use a UUID generator tool, such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]"), to generate a UUID (universally unique identifier).
 
@@ -109,14 +109,14 @@ If you want to gain access to the Core1 from any external app via API, first of 
 
 ### Step 2: Get an authorization code
 
-To be able to generate an access token for authentication, you need to get an authorization code first. 
+To be able to generate an access token for authentication, you need to get an authorization code first.
 
-[comment]: <> (Check, ob das stimmt und ob hier nötig: Bear in mind that you need to get an authorization code for every instance you want to use)
+[comment]: <> (Check, ob das stimmt und ob hier nötig:  Bear in mind that you need to get an authorization code for every instance you want to use.)
 
 > [Caution]  
     Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
 
-Following the example provided in [Step 1: Register you app](#step-1-register-your-app), we describe the process in the https://oauthdebugger.com/ website. You can also use other third-party website or your own system. 
+Following the example provided in [Step 1: Register the client app](#step-1-register-your-app), we describe the process in the https://oauthdebugger.com/ website. You can also use other third-party website or your own system. 
 
 *OAuth debugger*
 
@@ -130,7 +130,7 @@ Following the example provided in [Step 1: Register you app](#step-1-register-yo
 
 2. Enter **https://oauthdebugger.com/debug** in the *Redirect URI (required)* field.
 
-3. Enter your client ID in the *Client ID (required)* field. You have defined your client ID previously in the app registration.
+3. Enter your client ID in the *Client ID (required)* field. You have defined your client ID previously in the client app registration.
 
 4. Enter **profile** in the *Scope (required)* field.
 
@@ -237,10 +237,12 @@ Access tokens are valid for a limited period of time. If your access token is ex
 
 ## Send a request workflow
 
+Once the the authentication flow is set up, you are now ready to send your first request. You can follow the step-by-step workflow below: 
+
 | Step   | Description | Further information |
 | :----: | ------------------ | ------------ |
-| 1      | Check the relevant endpoint | S. relevant use case in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name* |
-| 2      | Check the required attributes | S. relevant use case definitions in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md).  For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
-| 3      | Discover the required entity ID(s) | S. [Retrieve entity data](./04_EntityData.md) | 
-| 4      | Create your request payload | S. the relevant request samples in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md).
+| 1      | Check the relevant endpoint | Find the relevant use case, e.g. in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, e.g. in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 3      | Discover the required entity ID(s) | See [Retrieve entity data](./04_EntityData.md). | 
+| 4      | Create your request payload | Find practical request samples in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). |
 | 5      | Send your request payload | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |

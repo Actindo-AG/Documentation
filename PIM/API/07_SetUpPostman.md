@@ -1,4 +1,4 @@
-# Set up Postman for the *Actindo Core1 OpenAPI* 
+# Set up Postman for the Actindo Core1 OpenAPI 
 
 To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration, and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
@@ -53,7 +53,7 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 7. Copy the cookie value from the *Cookie Value* section.  
 
-8. Switch to *Postman* and click the *Cookies* button located under the *Send* button.  
+8. Switch to *Postman* and click the [Cookies] button located under the [Send] button.  
     The *Cookies* window is displayed.
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookiesWindowPostman.png "[Cookies in console]")
@@ -64,7 +64,7 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 10. Replace the current cookie value with the cookie value you have previously copied in the console.
 
-11. Click the *Save* button and close the *Cookies* window.  
+11. Click the [Save] button and close the *Cookies* window.  
     The session cookie has been saved. You can start sending API requests.
 
 
