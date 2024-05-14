@@ -7,7 +7,7 @@ This API reference documentation provides general information on the main resour
 A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 OpenAPI* documentation are the ones relevant for your current instance.
 
 
-## Using the request samples
+## How to use the request samples
 
 The request samples provided in this documentation are complete and ready to use, but they require some customization. 
 
@@ -235,14 +235,17 @@ Access tokens are valid for a limited period of time. If your access token is ex
     Make sure you keep it safely for future reference!
 
 
-## Send a request workflow
+## Make an API call
 
-Once the the authentication flow is set up, you are now ready to send your first request. You can follow the step-by-step workflow below: 
+Once the the authentication flow is set up, you are now ready to make API calls. 
+
+You can follow the step-by-step instructions below: 
 
 | Step   | Description | Further information |
 | :----: | ------------------ | ------------ |
-| 1      | Check the relevant endpoint | Find the relevant use case, e.g. in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 1      | Find the endpoint you want to address | Find the relevant use case, e.g. in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
 | 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, e.g. in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
 | 3      | Discover the required entity ID(s) | See [Retrieve entity data](./04_EntityData.md). | 
 | 4      | Create your request payload | Find practical request samples in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). |
-| 5      | Send your request payload | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |
+| 5      | Send your request | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |
+| 6      | Interpret the response | See [Response bodies](./01_Overview.md#response-bodies) |
