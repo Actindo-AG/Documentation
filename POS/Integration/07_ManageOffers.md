@@ -346,7 +346,51 @@ You might want to associate additional services to an offer. If your store has t
 From a technical point of view, you have to associate a product/service to an existing product.
 
 
-### Create product option variant set
-Zusätzlich zum Variantenset für Filiale braucht man eines für Produktoptionen. HIerfür kann man Options-Basic set als referenz nehmen
-In addition to the store-specific variant set you must create a variant set for the product option. Use the *Basic Product option* variant set for reference.
+
+### Define a product option
+Define a product option that describes the additional service to an offer, for example, photo print or flocking.
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
+*POS > Management > Tab PRODUCT OPTIONS*
+
+![Product options](../../Assets/Screenshots/POS/Management/Product%20options/ProductOptions.png "[Product options]")
+
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+    The *Create option attribute* window is opened.
+
+2. Enter a name for the product option in the *Name* field.
+
+3. Enter a key for the product option in the *Key* field.
+
+4. Click the [SAVE] button.    
+    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *Set for POS Store ("Name of the store")* and the *POS base set* attribute sets. Since the *POS base set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
+
+5. If desired, add additional product options.
+
+
+### Add additional attributes
+
+You might want to have the possibility to specify a product option more precisely. For example, you want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text or select a predefined text. 
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
+Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
+
+Test option zu Set for Actindo2 hinzugefügt
+
+
+### Create an offer option set for store
+
+In addition to the store-specific variant set you must create an offer option variant set for the product option. 
+Here you can add additional attributes, for example, attributes for editing a name.
+> [Info] The variant set for your store has been automatically created when creating the store. It is inherited from the  
 
