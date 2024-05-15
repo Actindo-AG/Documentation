@@ -75,7 +75,10 @@ The modified price is related to each item of the offer entry in the bill list. 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
 4. Click the [Save] button in the bottom right corner to apply the price change.   
-    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer.
+    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---Neu-->The old price is listed one line below and crossed out. The price difference is stored for later analyzes.
+
+    ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillListChangedPrice.png "[Bill list]")
+
 
 
 
@@ -197,7 +200,9 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 ### Assign a purchase to an existing customer
 
-Assign the current purchase to a registered customer.
+Assign the current purchase to a registered customer.   
+
+Alternatively, if the customer has a customer or member card, you can scan the customer via barcode, see [Assign a purchase to an existing customer via barcode scan](#assign-a-purchase-to-an-existing-customer-via-barcode-scan).
 
 #### Prerequisites
 
@@ -226,3 +231,35 @@ Assign the current purchase to a registered customer.
     The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.
 
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.
+
+
+## Assign a purchase to an existing customer via barcode scan
+
+Assign the current purchase to a registered customer, who has a customer or a member card.  
+
+Alternatively, you can search for the customer name, see [Assign a purchase to an existing customer](#assign-a-purchase-to-an-existing-customer).
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one customer is already registered, see [Register a customer](#register-a-customer) or has a customer or member card.
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the ![Scan](../../Assets/Icons/Scan.png "[Scan]") (Scan) button next to *Add Customer*.   
+    The *Customer details* window is displayed.
+
+    ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails.png "[Customer details]")
+
+2. Scan the customer code.    
+    The code is automatically added to the search field and the customer details are displayed.
+
+    ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails2.png "[Customer details]")
+
+3. Click the ![Customer](../../Assets/Icons/Customer03.png "[Customer]") (Customer) button.
+    The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.

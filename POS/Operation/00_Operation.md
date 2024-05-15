@@ -23,6 +23,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Assign a purchase to a customer](./03_EditBillList.md#assign-a-purchase-to-a-customer)
         - [Register a customer](./03_EditBillList.md#register-a-customer)
         - [Assign a purchase to an existing customer](./03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
+        - [Assign a purchase to an existing customer via barcode scan](./03_EditBillList.md#assign-a-purchase-to-an-existing-customer-via-barcode-scan)
 
 
 - [Complete a purchase](./04_CompletePurchase.md)

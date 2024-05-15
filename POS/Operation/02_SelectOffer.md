@@ -24,9 +24,9 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 1. Enable the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")*Single scan* toggle in the bill list on the right side of the pay desk interface.   
 
-    > [Info] The single scan works from the moment it is enabled. It does not apply backwards to products that were already on the bill list at the time of activation.
+    > [Info] The single scan works from the moment it is enabled. It does not apply backwards to offers that were already on the bill list at the time of activation.
 
-    Even if the single scan function is active, you can edit the quantity of products manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
+    Even if the single scan function is active, you can edit the quantity of offers manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
 2. Select an offer, see [Select an offer](02_SelectOffer.md#select-an-offer).   
     The product is listed in the bill list.
@@ -120,10 +120,46 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your number as you type.
 
 
-3. Select the desired offer by clicking the corresponding product in the list.   
+3. Select the desired offer by clicking the corresponding offer in the list.   
     The offer is added to the bill list on the right side if no age rating prevents this, see [Verify the age](#verify-the-age).   
     
-    > [Info] The number remains in the search bar when you add a product to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
+    > [Info] The number remains in the search bar when you add an offer to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
+
+
+### Select a voucher offer 
+
+Scan the barcode printed on a voucher card to add an additional amount to the voucher.
+
+#### Prerequisites
+
+- Your company uses the KNISTR integration.
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+
+1. Click the *Find offer by nam...* search bar in the upper left part of the tab.  
+    The cursor is displayed in the search bar.
+
+2. Enter the name or the SKU of the voucher you are searching for in the search bar.
+    The offers that match the search are displayed in a list below the search bar.
+
+    > [Info] The search already provides you with proposals as you type.
+
+3. Select the desired voucher by clicking the corresponding offer in the list.   
+    The *Voucher details* window is displayed.
+
+    ![Voucher details](../../Assets/Screenshots/POS/Sales/Cashpoint/VoucherDetails.png "[Voucher details]")
+
+4. Scan the voucher code with the barcode scanner.     
+    If the barcode was successfully scanned, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
+
+5. Enter the amount in the *Amount* field. Note that this amount will be added to any amount already on the voucher.
+
+6. Click the [SAVE] button.   
+    The entered amount is added to the bill list.
 
 
 <!--- NEU-->
