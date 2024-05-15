@@ -256,14 +256,66 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 [comment]: <> (JULIAN: Hier könnten man noch unterbringen wie man zusätzliche Felder mapped aus PIM raus oder Felder aus Omni-Channel ins PIM übernimmt)
 
 
+## Create a voucher (KNISTR integration)
 
-## Create a voucher
+A *Knistr&trade;* integration is available for vouchers. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
+
+Vouchers created with the KNISTR&trade; integration have the following special features:
+- The voucher ID can be entered via barcode scan.
+- When creating a voucher product, you do not need to define a fixed price. When a voucher is created, the cashier can individually charge the voucher card with any amount.
+- The amount entered when creating the voucher is added to the amount already existing on the voucher card.
+- The voucher is created store-specific in the *Omni-Channel* module.
+
+### Create a voucher product (KNISTR)
+
+Create a voucher product that uses the KNISTR&trade; integration.
+
+Note that the *Set for POS Store "Name of the store"*, which is inherited from the *POS base set*, contains the *Voucher* attribute, which allows you to classify a product as a voucher. For this reason, create the voucher product in the *Omni-Channel* module for each store in which you want to offer this service.
+
+#### Prerequisites
+
+- The voucher attribute is added to the *Set for POS Store "Name of the store"* attribute set.
+
+#### Procedure
+
+*Omni-Channel > Offers > Tab OFFERS*
+
+![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
+
+1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
+    The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button are displayed.
+
+    ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
+
+2. Click the [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button.   
+    The *Create offer* window is displayed.
+
+    ![Create manual offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateManualOffer.png "[Create manual offer]")
+
+3. Enter the desired SKU in the *SKU* field.
+
+4. Click the *Select connection* drop-down list and select the connection for the store for which you want to create the voucher. All available connections are displayed in the list.   
+
+5. Click the *Select attribute set* dropdown-list and select the *Set for POS Store "Name of the store"* for your store.
+
+6. Click the [SAVE] button.   
+     The *Edit offer "Name of the voucher"* view is displayed.
+
+7. Define the voucher. Proceed as follows:  
+    - Enter the name of the voucher in the *Product name* field.
+    - Enter **voucher** in the *Barcode* field.
+    - Enter a default value in the *Price* field. This value can be overwritten individually in the cashpoint when selling the voucher.
+
+![PIM Products](../../Assets/Screenshots/POS/Management/Product%20options/test.png "[PIM Products]")
+
+
+## Create a voucher 
 
 If you want to sell vouchers in your POS system, you have to create them first.
 
 ### Create a voucher product
 
-To create a voucher, you need to create a product that you can define as a voucher.
+To create a voucher, you need to create a product that you define as a voucher.
 
 #### Prerequisites
 
@@ -391,6 +443,6 @@ Test option zu Set for Actindo2 hinzugefügt
 ### Create an offer option set for store
 
 In addition to the store-specific variant set you must create an offer option variant set for the product option. 
-Here you can add additional attributes, for example, attributes for editing a name.
+Here you can add additional attributes, for example, attributes for editing a text to be printed on an item.
 > [Info] The variant set for your store has been automatically created when creating the store. It is inherited from the  
 
