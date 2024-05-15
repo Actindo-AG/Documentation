@@ -442,7 +442,7 @@ The required fields are marked in bold.
 
 > [Info] Similarly, you can list all master and all single products by changing the value to "master" and "single" respectively. 
 
-
+---
 
 Filter all products
 PIM.Products.getList

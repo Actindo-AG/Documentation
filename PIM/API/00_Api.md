@@ -3,18 +3,11 @@
 In this part of the *PIM* documentation, you will find the following chapters:
 
 - [Overview](./01_Overview.md)
-    - [About the Actindo Core OpenAPI](./01_Overview.md#about-the-actindo-core-openapi)
-    - [Request bodies](01_Overview.md#request-bodies)
-        - [URI](./01_Overview.md#uri)
-        - [Headers](./01_Overview.md#headers)
-        - [Methods](./01_Overview.md#methods)
-        - [Format](./01_Overview.md#format)
-    - [Response bodies](./01_Overview.md#response-bodies)
-        - [Sample: Success, product created](./01_Overview.md#sample-success-product-created)
-        - [Sample: Error, required field missing or empty](./01_Overview.md#sample-error-required-field-missing-or-empty)
-        - [Response codes](./01_Overview.md#response-codes)
-    - [Authentication](./01_Overview.md#authentication)
-    - [Tools](./01_Overview.md#tools)
+    - [About the Actindo Core1 OpenAPI](./01_Overview.md#about-the-actindo-core1-openapi)
+        - [Request bodies](01_Overview.md#request-bodies)
+        - [Response bodies](./01_Overview.md#response-bodies)
+        - [Authentication](./01_Overview.md#authentication)
+        - [Tools](./01_Overview.md#tools)
     - [Set up Postman for the Actindo Core1 OpenAPI](./01_Overview.md#set-up-postman-for-the-actindo-core1-openapi)
         - [Define the headers](./01_Overview.md#define-the-headers)
         - [Set the session cookie](./01_Overview.md#set-the-session-cookie)
@@ -24,7 +17,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
 - [Get started](./02_GetStarted.md)
     - [How to use the request samples](./02_GetStarted.md#how-to-use-the-request-samples)
     - [Set up the OAuth authorization](./02_GetStarted.md#set-up-the-oauth-authorization)
-        - [Step 1: Register your app](./02_GetStarted.md#step-1-register-your-app)
+        - [Step 1: Register the client app](./02_GetStarted.md#step-1-register-the-client-app)
         - [Step 2: Get an authorization code](./02_GetStarted.md#step-2-get-an-authorization-code)
         - [Step 3: Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token)
         - [Step 4: Send a test authentication request](./02_GetStarted.md#step-4-send-a-test-authentication-request)
@@ -41,17 +34,18 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Mapping](./03_KeyConcepts.md#mapping)
 
 
-- [Entity data](./04_EntityData.md)
-    - [Entity ID via user interface](./04_EntityData.md#entity-id-via-user-interface)
-    - [Entity ID via API](./04_EntityData.md#entity-id-via-api)
+- [Retrieve entity data](./04_EntityData.md)
+    - [Discover entity ID via user interface](./04_EntityData.md#discover-entity-id-via-user-interface)
+    - [Discover entity ID via API](./04_EntityData.md#discover-entity-id-via-api)
         - [List the attribute sets](./04_EntityData.md#list-the-attribute-sets)
         - [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set)
         - [List the variant sets for an attribute set](./04_EntityData.md#list-the-variant-sets-for-an-attribute-set)
+    - [Additional entity data](./04_EntityData.md#additional-entity-data)
         - [Get variant set data](./04_EntityData.md#get-variant-set-data)
         - [Get product data](./04_EntityData.md#get-product-data)
 
 
-- [Products](./05_Products.md)
+- [Manage products](./05_Products.md)
     - [The product object](./05_Products.md#the-product-object)
     - [Create a product](./05_Products.md#create-a-product)
         - [Sample: Single product](./05_Products.md#sample-single-product)
@@ -75,7 +69,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Sample: List products by status](./05_Products.md#sample-list-products-by-status)
 
 
-- [Variant products](./06_Variants.md)
+- [Manage variant products](./06_Variants.md)
     - [Create a variant product](./06_Variants.md#create-a-variant-product)
         - [Sample: Create a single variant product](./06_Variants.md#sample-create-a-single-variant-product)
         - [Sample: Create multiple variant products](./06_Variants.md#sample-create-multiple-variant-products)
@@ -85,10 +79,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Sample: List variants to a master product](./06_Variants.md#sample-list-variants-to-a-master-product)
         - [Sample: List variants to multiple master product](./06_Variants.md#sample-list-variants-to-multiple-master-product)
 
-- [Set up Postman for the Actindo Core1 OpenAPI](./07_SetUpPostman.md)
-    - [Define the headers](./07_SetUpPostman.md#define-the-headers)
-    - [Set the session cookie](./07_SetUpPostman.md#set-the-session-cookie)
-    - [Best practices](./07_SetUpPostman.md#best-practices)
+
 
 
 
