@@ -2,7 +2,7 @@
 
 You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products. 
 
-To manage your products via API, you need to provide the required key-value pairs in your requests. The following elements are essential in a request: 
+To manage your products via API, you need to provide the required key-value pairs in your requests. The following elements are essential: 
 
 **Attribute key**
 
@@ -14,7 +14,7 @@ Bear in mind that keys are customer-defined. Therefore, the fields displayed in 
 
 > [Caution] In the latest version of the *PIM* and *DataHub* modules, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *PIM* or *DataHub* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
 
-**Entity IDs**
+**Entity ID**
 
 You may need to provide an entity ID value to a specific attribute key. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module. You can find out an entity ID via user interface or via API. For detailed information, see [Retrieve entity data](./04_RetrieveEntityData.md).
 
@@ -22,7 +22,7 @@ You may need to provide an entity ID value to a specific attribute key. Any ID v
 
 The value you can give a specific attribute depends on the attribute's data type. For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
-
+[comment]: <> (Imogen: Was denkst du? Attribute keys in kursiv oder nicht? Also *_pim_color* oder _pim_color, usw. Jetzt habe ich in anderen Dateien es so gemacht, aber hier hatte ich so nicht gemacht. Bin unentschieden, daher noch nicht alles geändert. Oder doch im Fließtext, damit es hervorgehoben ist, aber nicht in den Tabellen...)
 
 ## The product object
 
@@ -33,14 +33,14 @@ The following table displays a list of all attributes contained in the *PIM basi
 | Attribute   | Data type   | Description | Comments |
 | ----------- | ----------- | ----------- | -------- | 
 | **sku**      | string   |  Product SKU |          |
-| **attributeSetId**   | integer  | Attribute set identification number | |
+| **attributeSetId**   | integer  | Product attribute set identification number | |
 | created	 | string | Date and time of creation | Format: YYYY-MM-DD HH:MM:SS |
 | createdBy | integer | User ID |  To find a user ID, go to *Settings > Users and groups > User management*. |
 | modified	| string | Date and time of last modification | Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer | User ID | To find a user ID, go to *Settings > Users and groups > User management*. |
 | attributeSet | object | Product attribute set | It contains the required field **id**. |
-| variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a variant is added to a master product, that is, it cannot be manually updated. |
-| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variants already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *child-1* respectively. |
+| variantStatus | string | Product status | It indicates whether a product is a *single*, *master* or a *variant*. This field is updated automatically when a product status changes, e.g. when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
+| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *child-1* respectively. |
 | _pim_art_name | string | Product name | |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language | If attribute is multi-scope and multi-language |
 | _pim_catalog | string / object ? | Product categories | It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
@@ -119,12 +119,12 @@ _pim_product_relations:
 
 ## Create a product
 
-In the *PIM* module, you can create three types of product:
+In the *PIM* module, you can create three sort of product:
  - a single product, that is, a product without variations, such as a game 
  - a master product, that is, a product with variations, for example, in size or color
  - a variant product, that is, each of the variations of a master product 
 
-There are two possible ways to create a master-variant product structure:
+There are two possible ways to create a master-variant product family:
 
 1. Create all products independently first and then link them all at once, as described below: 
 
