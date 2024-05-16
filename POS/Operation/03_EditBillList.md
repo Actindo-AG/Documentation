@@ -251,7 +251,7 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the ![Scan](../../Assets/Icons/Scan.png "[Scan]") (Scan) button next to *Add Customer*.   
+1. Click the ![Customer details](../../Assets/Icons/Scan.png "[Customer details]") (Customer details) button next to *Add Customer*.   
     The *Customer details* window is displayed.
 
     ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails.png "[Customer details]")

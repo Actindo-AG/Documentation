@@ -38,6 +38,25 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
 
 
 
+## Product options
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
+
+[Product options](../../Assets/Screenshots/POS/Sales/Cashpoint/)
+
+
+<!---NEU-->
+## Suggest an offer to the customer
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer > Click [PAY]*
+
+ ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
+
+ - [PROCEED]  
+   Click this button after you have suggested the offer to the customer. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
+
+
+
 ## Bill list
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
@@ -104,15 +123,6 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
     Click this button to start the payment process. The payment view is displayed in the bill list. The total gross amount of the purchase is displayed at the right of the [PAY] button.
 
 
-<!---NEU-->
-## Suggest an offer to the customer
-
-*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer > Click [PAY]*
-
- ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
-
- - [PROCEED]  
-   Click this button after you have suggested the offer to the customer. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
 
 
 
@@ -330,7 +340,17 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Customer details*
 
-![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/)
+![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails.png "[Customer details]")
+
+- *Search customer by code*    
+    Scan the customer number by a barcode scan or enter the customer number manually.    
+    The customer's details are displayed. This is the name and address, but can also be the price group to which a customer is assigned or the discount granted.
+
+- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
+    Click this button to start the search.
+
+- ![Customer](../../Assets/Icons/Customer03.png "[Customer]")   
+    Click this button to apply the customer data to the bill list.
 
 
 ## Create customer
