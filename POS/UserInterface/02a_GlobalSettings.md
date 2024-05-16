@@ -596,7 +596,7 @@ The following fields and features are available for this window:
 ![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
 
 This setting allows you to activate the price groups you currently want to use for your customers. You can use it as a global or a store-related setting.   
-The price group is part of the customer master data
+The price group is assigned to the customer master data
 
 The following fields and features are available for this window:   
 

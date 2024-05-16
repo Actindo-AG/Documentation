@@ -52,7 +52,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, you 
 
 ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
-The *Count cash* pop-up window is used to faciliate the calculation of the cash count.
+The *Count cash* window is used to faciliate the calculation of the cash count.
 
 - *Type*   
     Type of coins or banknotes of the default currency. The displayed types of coins and banknotes are defined by the currencies in the global settings. For detailed information, see [Currencies](./02a_GlobalSettings.md#currencies).

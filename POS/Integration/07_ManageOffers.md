@@ -395,7 +395,39 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a buyer is specified. Refer to the *PIM Basic set* attribute set for this.     
 For detailed information on configuring this feature, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
+<!---NEU-->
+## Create a price group
 
+Price groups are used to classify different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners.
+
+### Define the price group attribute
+
+Define the price group attribute that is assigned to the customer master data later and in which the price group of the customer is stored. In addition, the attribute must be assigned to any product, to which a price group-specific price should apply.
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
+*DataHub > Settings > Tab ATTRIBUTES*
+
+![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
+
+Create the attributes that represent the price groups. They must be of the *Floating point number* data type.
+
+For detailed information, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute) in the *DataHub* documentation.
+
+### Add the price group to the POS basis set
+so that is is used when the sets for the stores are created.
+
+
+
+
+### Add price group price to offers
+
+
+###
 
 <!---NEU-->
 ## Create a product option 

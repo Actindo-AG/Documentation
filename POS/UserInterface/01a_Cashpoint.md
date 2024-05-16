@@ -28,7 +28,7 @@
 
 ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
 
-The *Age verification* pop-up window is displayed if a selected offer is not suitable for children and young people. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
+The *Age verification* window is displayed if a selected offer is not suitable for children and young people. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
 
 - [AGE OF BUYER CONFIRMED]   
    Click this button if f the customer is allowed to buy this offer.        
@@ -37,12 +37,25 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
    Click this button if the customer is too young to buy this offer.
 
 
-
-## Product options
+<!---NEU-->
+## Choose options
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
 
-[Product options](../../Assets/Screenshots/POS/Sales/Cashpoint/)
+![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption.png "[Choose option]")
+
+The *Choose options* window is displayed if a selected offer has additional product options that represent a service. For detailed information, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option). 
+
+- Additional field   
+    Enter additional information to a single option, if applicable. This can be a text or a name that should be printed on a shirt or another item.
+
+- [CANCEL]   
+    Click this button if the customer do not want to purchase the option.
+
+- [SAVE]   
+    Click this button if the customer want to purchase the option.   
+    The option is added to the bill list.
+
 
 
 <!---NEU-->
@@ -124,8 +137,6 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
 
 
 
-
-
 ## Pay bill list
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the PAY button*
@@ -173,11 +184,22 @@ This section is only displayed when no voucher has been redeemed.
 
 - *Total:*   
     Total gross<!--- Hier stand net--> amount of the bill. This field is read-only.
+
+
 <!---NEU-->
 **Down payment**
 
 - [+ ADD DOWN PAYMENT]   
     Click this button to collect a down payment. For detailed information, see [Add down payment](#add-down-payment). This button is only available, if the *Down payment allowed* setting is activated in the *Global settings*, see [Down payment allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
+
+<!---NEU-->
+**Price group**
+
+- *Price group*    
+    Click the drop-down list and select the desired price group, which is customer-specific. You can also select the **None** entry to remove the granted price group. 
+
+- [SAVE]   
+    Click this button to confirm the price group assignment. If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed.
 
 
 **Select Payment**
@@ -335,7 +357,7 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
     Click this button to register a customer. The *Create Customer* view is displayed.
 
 
-
+<!---NEU-->
 ## Customer details
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Customer details*
