@@ -1,17 +1,17 @@
 # Retrieve entity data
 
-As indicated in the [Make an API call](02_GetStarted.md#make-an-api-call) chapter, to send an API call, you usually need to provide at least one entity ID in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity.
+To make an API call to the *Actindo Core OpenAPI*, you usually need to provide one or several entity IDs in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity.
 
 For example, when you want to create a product, you need to send an *attributeSetId*, that is, the identification number of the attribute set of the product you want to create. You can find out an entity ID via user interface or via API. Besides, you can also retrieve other specific entity data via API if desired.
 
 In the following, a few examples to retrieve entity data via user interface and via API are provided. 
 
 
-## Discover entity ID via user interface
+## Discover an entity ID via user interface
 
 You can find out any entity ID via user interface as follows:
 
-1. Select the module where the entity originates, for example, *PIM > Products > LIST* to find out a product ID.
+1. Select the module where the entity originates from, for example, *PIM > Products > LIST* to find out a product ID.
 
 2. Locate the entity whose ID you need.
 
@@ -21,23 +21,21 @@ You can find out any entity ID via user interface as follows:
 
     ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
 
-4. Write down the product ID. You will need to provide it when sending your request.
+4. Write down the entity ID. You will need to provide it when sending your request.
 
 
-## Discover entity ID via API
+## Discover an entity ID via API
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-If desired, you can also set filters to narrow down your request response, see [List products](./05_Products.md#list-products) for the filter definitions and request samples.
+If desired, you can also set filters to narrow down your request response. See [List products](./05_Products.md#list-products) for the filter definitions and request samples.
 
-In the following, a few useful use cases, with their corresponding request samples, are provided.
+In the following, a few useful use cases, with their corresponding request samples, are provided.  Refer to the API documentation in your instance under *Dev Tools > API > Module name* for a complete list of endpoints.
 
 
-### List the attribute sets
+### List the PIM attribute sets
 
-Get a list of all attribute sets in your current instance, including the attribute set IDs.
-
-[comment]: <> (Attribute sets ID)
+Get a list of all *PIM* attribute sets in your current instance, including the attribute set IDs.
 
 #### Definitions
 
@@ -57,11 +55,10 @@ Get a list of all attribute sets in your current instance, including the attribu
 
 [comment]: <> (Stimmt das so? Response scheint zu stimmen)
 
+
 ### List the attributes in an attribute set
 
 Get a list of all attributes contained in an attribute set, including all attribute IDs. 
-
-[comment]: <> (Attributes ID)
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.AttributeController.getList
  
@@ -82,8 +79,6 @@ Get a list of all attributes contained in an attribute set, including all attrib
 
 Get a list of all variant sets assigned to an attribute set, including all variant set IDs.
 
-[comment]: <> (variantSetId)
-
 **Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.getList
 
 #### Descriptions
@@ -99,18 +94,67 @@ Get a list of all variant sets assigned to an attribute set, including all varia
         }
 
 
+### List tree node values
+
+Get a list of all tree node values, including their IDs, for a specific attribute with the  tree node data type. 
+
+> [Info] Tree node IDs are relevant if you need to create or edit variant products defined by a tree node attribute, such as color or size. 
+
+**Endpoint**: /Actindo.Modules.Actindo.DataHub.TreeNodeValueController.getTree
+
+#### Descriptions
+
+| Attribute      | Data type | Description |   
+| ---------------|-----------|-------------|
+| **languageId** | integer | Language identification number |
+| **scopeId**    | integer | Scope identification number |
+| **attributeId** | integer | Attribute identification number |
+
+#### Request sample
+
+        {
+            "languageId": 12,
+            "scopeId": 12,
+            "attributeId": 3982
+        }
+
+> [Info] You can find the language and scope IDs in the corresponding tab in the *DataHub* module under *DataHub > Settings*.
+
+
+### List all units by dimension
+
+Get a list of all units by dimension, including their IDs.  
+
+> [Info] Unit IDs are relevant if you need to create or edit products containing dimension attributes, such as length or weight. 
+
+**Endpoint**: /Actindo.Modules.Actindo.DataHub.Units.getByDimension
+
+#### Descriptions
+
+| Attribute      | Data type | Description |   
+| ---------------|-----------|-------------|
+| **dimensionId** | integer | Dimension identification number |
+
+#### Request sample
+
+        {
+            "dimensionId": 149
+        }
+
+> [Info] You can also find the IDs for these entities via user interface under *DataHub > Settings > Tab UNITS AND DIMENSIONS*. For detailed information, see [Discover an entity ID via user interface](#discover-an-entity-id-via-user-interface).  
+
+
 
 ## Additional entity data
 
 You can obtain any data available in the database via API, such as product data or variant set data. 
 
+
 ### Get variant set data 
 
-Get the data contained in a variant set, including the underlying attribute set and ID, and the variant set defining and changeable attributes. 
+Get the data contained in a variant set, including the underlying attribute set, the variant set defining and changeable attributes, and their IDs. 
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.VariantSetController.get
-
-[comment]: <> (Unterschied zu /Actindo.Modules.Actindo.PIM.Variants.getColumnConfigurationsAndVariantSet? Required: variantSetId)
 
 #### Definitions
 
@@ -138,7 +182,7 @@ Get data for a specific product.
 | ---------------|-----------|-------------|
 | **Id** | integer | Product identification number |
 
-To find out the desired product ID via API, see [List products](./05_Products.md#list-products). 
+> [Info] To find out the desired product ID via API, see [List products](./05_Products.md#list-products). Alternatively, you can discover a product ID via user interface, see [Discover an entity ID via user interfacce](#discover-an-entity-id-via-user-interface).
 
 #### Request sample
 
@@ -148,17 +192,3 @@ To find out the desired product ID via API, see [List products](./05_Products.md
             }
         }
 
-
-
-[comment]: <> (Evtl. TreeNode IDs, dimensions IDs...)
-
----
---- Bitte ignorieren ---
-
-Add. ID info?
-
-    "_pim_baseprice": {
-                                "amount": 1,
-                                "unitId": 382,
-                                "dimensionId": 22
-                            },

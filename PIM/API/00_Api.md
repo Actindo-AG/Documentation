@@ -35,11 +35,13 @@ In this part of the *PIM* documentation, you will find the following chapters:
 
 
 - [Retrieve entity data](./04_EntityData.md)
-    - [Discover entity ID via user interface](./04_EntityData.md#discover-entity-id-via-user-interface)
-    - [Discover entity ID via API](./04_EntityData.md#discover-entity-id-via-api)
-        - [List the attribute sets](./04_EntityData.md#list-the-attribute-sets)
+    - [Discover an entity ID via user interface](./04_EntityData.md#discover-an-entity-id-via-user-interface)
+    - [Discover an entity ID via API](./04_EntityData.md#discover-an-entity-id-via-api)
+        - [List the PIM attribute sets](./04_EntityData.md#list-the-pim-attribute-sets)
         - [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set)
         - [List the variant sets for an attribute set](./04_EntityData.md#list-the-variant-sets-for-an-attribute-set)
+        - [List tree node values](./04_EntityData.md#list-tree-node-values)
+        - [List all units by dimension](./04_EntityData.md#list-all-units-by-dimension)
     - [Additional entity data](./04_EntityData.md#additional-entity-data)
         - [Get variant set data](./04_EntityData.md#get-variant-set-data)
         - [Get product data](./04_EntityData.md#get-product-data)

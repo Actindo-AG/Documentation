@@ -241,9 +241,9 @@ Access tokens are valid for a limited period of time. If your access token is ex
 
 ## Make an API call
 
-Once the authentication flow is successfully completed, you are ready to start making API calls. 
+Once the authorization flow is successfully completed, you are ready to start making API calls. 
 
-To make an API call to the *Actindo Core1 OpenAPI*, you usually need to follow the step-by-step sequence below: 
+To make an API call to the *Actindo Core1 OpenAPI*, you need to follow the step-by-step sequence below: 
 
 | Step   | Description | Further information |
 | :----: | ------------------ | ------------ |

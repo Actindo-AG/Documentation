@@ -125,8 +125,8 @@ An entity is an object containing data, for instance, a *PIM* product, an *Omni-
 
 You can find out the ID via user interface or via API:
 
-- To find out the entity via user interface, see [Discover entity ID via user interface](./04_EntityData.md#discover-entity-id-via-user-interface).  
-- To find out the entity ID, and other entity information, via API, see [Discover entity ID via API](./04_EntityData.md#discover-entity-id-via-api).
+- To find out the entity via user interface, see [Discover an entity ID via user interface](./04_EntityData.md#discover-an-entity-id-via-user-interface).  
+- To find out the entity ID, and other entity information, via API, see [Discover an entity ID via API](./04_EntityData.md#discover-an-entity-id-via-api).
 
 
 
