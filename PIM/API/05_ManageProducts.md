@@ -2,17 +2,26 @@
 
 You can manage your products via API. You can create, edit, delete, both permanently and temporary, and list *PIM* products. 
 
-Keys are customer-defined. Therefore, the fields displayed in the following request samples should just serve as an example. You have to include all required fields in your request and provide them with a value. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module. You can find out an entity ID via user interface or via API, see [Entity data](./04_EntityData.md).
+To manage your products via API, you need to provide the required key-value pairs in your requests. The following elements are essential in a request: 
 
-Depending on the data you want to specify, you have to add the corresponding field to your request. For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding attribute set in the *DataHub* module under *DataHub > Settings > Attribute sets*. Alternatively, you can find a list of all existing PIM attributes under *PIM > Settings > Attributes*.
+**Attribute key**
 
-[comment]: <> (PIM > Settings > Attribute sets / PIM > Settings > Attributes)
+Depending on the data you want to specify, you have to add the corresponding attribute, in its form as attribute key, to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
 
-If necessary, you can get a list of all attributes you have created in the *DataHub* module, both in the user interface and via API. To obtain a list in the user interface, go to *DataHub > Attributes* and filter the attribute list by any criteria you wish, e.g. by attribute name starting with *"pim_"*. To get a list of all pim attributes via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
+For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding *PIM* attribute set under *PIM > Settings > Attribute sets*. Alternatively, you can find a list of all existing *PIM* attributes under *PIM > Settings > Attributes*. Alternatively, you can get a list of attributes via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
 
-For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
+Bear in mind that keys are customer-defined. Therefore, the fields displayed in the following request samples should just serve as an example. For a practical example on how to use the request samples, see [How to use the request samples](./02_GetStarted.md#how-to-use-the-request-samples). 
 
-> [Caution] In the latest version of the *DataHub* and *PIM* modules, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *DataHub* or *PIM* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
+> [Caution] In the latest version of the *PIM* and *DataHub* modules, it is possible to modify the attribute key. However, this is strongly discouraged and has far-reaching consequences. If you modify a key in the *PIM* or *DataHub* modules, the key in the API changes as well. This means that you also have to update the key, that is, the field, in your request body. Otherwise, the field will not be found when sending a request. 
+
+**Entity IDs**
+
+You may need to provide an entity ID value to a specific attribute key. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module. You can find out an entity ID via user interface or via API. For detailed information, see [Retrieve entity data](./04_RetrieveEntityData.md).
+
+**Data type**
+
+The value you can give a specific attribute depends on the attribute's data type. For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
+
 
 
 ## The product object
@@ -123,7 +132,7 @@ There are two possible ways to create a master-variant product structure:
     - Add relevant information to variant products, see [Sample: Add variant defining attributes](#sample-add-variant-defining-attributes).
     - Create a variant-master product structure, see [Create a variant-master product structure](#create-a-variant-master-product-structure). 
 
-2. Create a single or master product first and then add to it any numbers of variants at once. For detailed information, see [Create a variant product](./06_Variants.md#create-a-variant-product).
+2. Create a single or master product first and then add to it any numbers of variants at once. For detailed information, see [Create a variant product](./06_ManageVariantProducts.md#create-a-variant-product).
 
 Depending on the type of product, the required fields vary.
 
@@ -185,7 +194,7 @@ Depending on the type of product, the required fields vary.
         }
     }
 
-If you want to create one or multiple variant products to a master product at once, see [Create a variant product](./06_Variants.md#create-a-variant-product).
+If you want to create one or multiple variant products to a master product at once, see [Create a variant product](./06_ManageVariantProducts.md#create-a-variant-product).
 
 
 
@@ -199,7 +208,7 @@ You can edit a product via API to modify any number of field values at a time. Y
 
 For a list of standard *PIM* attributes, see [The product object](#the-product-object). The required fields are marked in bold. 
 
-To get a list of all your attributes, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).
+To get a list of all your attributes, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
 
 | Attribute      | Type | Description | Comments | 
 | ----------- | ----------- | ---------- |-------| 

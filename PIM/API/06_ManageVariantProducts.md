@@ -76,7 +76,7 @@ For detailed information on the data types, see [Data types](../../DataHub/UserI
 ## Edit a variant product
 
 You can edit a single o multiple variant products at once via API, for example, to add an image or update the price. 
-To edit a variant product, see [Edit a product](./05_Products.md#edit-a-product).
+To edit a variant product, see [Edit a product](./05_ManageProducts.md#edit-a-product).
 
 Bear in mind that only variant-specific attributes, such as EAN code, image, color, or size, can be modified in the variants. Values that are inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
 
@@ -85,7 +85,7 @@ The variant-specific attributes must be included in the variant set.
 
 ## Delete a variant product
 
-To delete a variant product, see [Delete a product](./05_Products.md#delete-a-product).
+To delete a variant product, see [Delete a product](./05_ManageProducts.md#delete-a-product).
 
 
 ## List variants to master products

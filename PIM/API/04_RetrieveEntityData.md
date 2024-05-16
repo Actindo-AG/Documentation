@@ -28,7 +28,7 @@ You can find out any entity ID via user interface as follows:
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-If desired, you can also set filters to narrow down your request response. See [List products](./05_Products.md#list-products) for the filter definitions and request samples.
+If desired, you can also set filters to narrow down your request response. See [List products](./05_ManageProducts.md#list-products) for the filter definitions and request samples.
 
 In the following, a few useful use cases, with their corresponding request samples, are provided.  Refer to the API documentation in your instance under *Dev Tools > API > Module name* for a complete list of endpoints.
 
@@ -182,7 +182,7 @@ Get data for a specific product.
 | ---------------|-----------|-------------|
 | **Id** | integer | Product identification number |
 
-> [Info] To find out the desired product ID via API, see [List products](./05_Products.md#list-products). Alternatively, you can discover a product ID via user interface, see [Discover an entity ID via user interfacce](#discover-an-entity-id-via-user-interface).
+> [Info] To find out the desired product ID via API, see [List products](./05_ManageProducts.md#list-products). Alternatively, you can discover a product ID via user interface, see [Discover an entity ID via user interfacce](#discover-an-entity-id-via-user-interface).
 
 #### Request sample
 

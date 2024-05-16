@@ -7,7 +7,7 @@ In this section, an API reference documentation for the *Actindo Core1 Platform*
 - A brief description of the *Actindo Core1 OpenAPI* and its basic requirements, see [About the Actindo Core1 OpenAPI](#about-the-actindo-core1-openapi).
 - A quick guide to set up the API, see [Get started](./02_GetStarted.md).
 - A brief but detailed explanation of the data structure that underlies the system, see [Key concepts](./03_KeyConcepts.md).
-- A number of practical use cases with request samples to manage products via API, see for instance [Manage products](./05_Products.md) and [Manage product variants](./06_Variants.md).
+- A number of practical use cases with request samples to manage products via API, see for instance [Manage products](./05_ManageProducts.md) and [Manage product variants](./06_ManageVariantProducts.md).
 
 [comment]: <> (Wenn andere Module dazukommen, letzter Punkt evtl. dementsprechend anpassen!)
 
@@ -93,7 +93,7 @@ The following examples display two response samples. These response samples are 
             "job_id": null
         }
 
-> [Info] For a complete list of attributes contained in the product object, see [The product object](./05_Products.md#the-product-object).
+> [Info] For a complete list of attributes contained in the product object, see [The product object](./05_ManageProducts.md#the-product-object).
 
 #### Sample: Error, required field missing or empty
 

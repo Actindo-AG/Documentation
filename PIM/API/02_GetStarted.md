@@ -53,9 +53,9 @@ The exemplary attributes and values provided in the request sample should be cus
 
 **Notes**
 
-- The *sku* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_Products.md#the-product-object).
-- The *attributeSetId* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any entity, ID, see [Retrieve entity data](./04_EntityData.md).
--  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created your own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_EntityData.md#list-the-attributes-in-an-attribute-set).   
+- The *sku* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_ManageProducts.md#the-product-object).
+- The *attributeSetId* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any entity, ID, see [Retrieve entity data](./04_RetrieveEntityData.md).
+-  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created your own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).   
 - The scope (in this case, online shop) and languages (en_US and es_ES) must also be specified accordingly. 
 
 
@@ -247,9 +247,9 @@ To make an API call to the *Actindo Core1 OpenAPI*, you need to follow the step-
 
 | Step   | Description | Further information |
 | :----: | ------------------ | ------------ |
-| 1      | Find the endpoint you want to address | Find the relevant use case, for instance in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
-| 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, for instance in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
-| 3      | Discover the required entity ID(s) | See [Retrieve entity data](./04_EntityData.md). | 
-| 4      | Create your request payload | Find practical request samples, for instance in [Create products](./05_Products.md) or [Create variant products](./06_Variants.md). |
+| 1      | Find the endpoint you want to address | Find the relevant use case, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 3      | Discover the required entity ID(s) | See [Retrieve entity data](./04_RetrieveEntityData.md). | 
+| 4      | Create your request payload | Find practical request samples, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). |
 | 5      | Send your request | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |
 | 6      | Interpret the response | See [Response bodies](./01_Overview.md#response-bodies). |
