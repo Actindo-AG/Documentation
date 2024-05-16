@@ -85,26 +85,9 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (_pim_origin: id and/or code3digit required? Es funktioniert nicht. Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objects?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
+[comment]: <> (Andere Felder: _pim_product_relations ist wahrscheinlich ein Objekt, _pim_products_bundle ist object/array of objects?, _pim_catalogs ist object? _pim_channels_connection weglassen hier?)
 
 [comment]: <> (_pim_variants: fields vary depending on product status, i.e. variant or master. S. unten - in Doku übernehmen! If parent, isMasterEntity true, variantSetId, childrenIds, and numberOfChildren, if variants available. If variant... )
-
---- Bitte ignorieren. Ich muss es noch in Doku evtl. übernehmen. ---
-
-
-Master/Variant (geerbt) pim_origin:
-
-        "_pim_origin": {
-                        "id": 76,
-                        "codeNumeric": 76,
-                        "code3digit": "BRA",
-                        "code2digit": "BR",
-                        "codeKfz": "BR",
-                        "continentCode": "SA",
-                        "isEu": false,
-                        "name": "Brasilien",
-                        "_E": 2905170383
-                    },
 
 
 _pim_product_relations: 
