@@ -332,26 +332,22 @@ You need to define the created product as a voucher to use it in the *POS* store
     > [Info] When a voucher-offer is sold, a voucher code is created and printed on the receipt. The value of the voucher corresponds to the price of the voucher before discounts are applied.
 
 
+<!---NEU-->
+## Create an offer for pre&dash;printed vouchers
 
-## Create a voucher with KNISTR integration
+A *Knistr&trade;* integration is available for vouchers, with which pre-printed voucher cards can be used. The codes of these vouchers can be entered via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
 
-A *Knistr&trade;* integration is available for vouchers. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
+Pre-printed vouchers have the following special features:
 
-Vouchers created with the KNISTR&trade; integration have the following special features:
-- The voucher ID can be entered via barcode scan.
-- The gift cards can be used as refill cards, so that you do not need to define a fixed price for the voucher. When it is created, the cashier can individually load the voucher card with any amount.
+- The voucher cards can be used as refill cards, so that you do not need to define a fixed price for the voucher. When it is created, the cashier can individually load the voucher card with any amount.
 - The amount entered when creating the voucher is added to the amount already existing on the voucher card.
 - The voucher is created store-specific in the *Omni-Channel* module.
 
-### Create a voucher offer with KNISTR integration
-
-Create a voucher product that uses the KNISTR&trade; integration.
-
-Note that the *Set for POS Store "Name of the store"*, which is inherited from the *POS base set*, contains the *Voucher* attribute, which allows you to classify a product as a voucher. For this reason, create the voucher product in the *Omni-Channel* module for each store in which you want to offer this service.
+Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *POS base set*, contains the *Voucher* attribute, which allows you to classify an offer as a voucher. Since the voucher is store-specific, create the voucher offer in the *Omni-Channel* module.
 
 #### Prerequisites
 
-- The voucher attribute is added to the *Set for POS Store "Name of the store"* attribute set.
+- The *Voucher* attribute is added to the *Set for POS Store "Name of the store"* attribute set.
 
 #### Procedure
 
@@ -379,10 +375,12 @@ Note that the *Set for POS Store "Name of the store"*, which is inherited from t
      The *Edit offer "Name of the voucher"* view is displayed.
 
 7. Define the voucher. Note the following:
-    > Info This description relates to the *POS base set*.
+
+    > [Info] This description relates to the *POS base set*. 
+
     - Enter **voucher** in the *Barcode* field.
     - Enter a default value in the *Price* field. This value can be overwritten individually when selling the voucher.
-    - Enter the value **0** in the *Tax rate* field, and select **Nullsatz** in the *Tax class* drop-down field, because vouchers are tax-free.
+    - Since vouchers are tax-free, enter the value **0** in the *Tax rate* field and select **Nullsatz** in the *Tax class* drop-down field.
     - Enable the *Voucher* toggle to classify the offer as a voucher.
 
 8. Click the [SAVE] button.
@@ -391,7 +389,7 @@ Note that the *Set for POS Store "Name of the store"*, which is inherited from t
     
 
 
-<!---Neu-->
+<!---NEU-->
 ## Add an age rating to a product
 
 If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a buyer is specified. Refer to the *PIM Basic set* attribute set for this.     
@@ -399,7 +397,7 @@ For detailed information on configuring this feature, see [Display age rating](.
 
 
 
-<!---Neu-->
+<!---NEU-->
 ## Create a product option 
 
 You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   

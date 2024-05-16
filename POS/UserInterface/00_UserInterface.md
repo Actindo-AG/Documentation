@@ -19,7 +19,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Add customer](./01a_Cashpoint.md#add-customer)
     - [Create customer](./01a_Cashpoint.md#create-customer)
     - [Discount on bill](./01a_Cashpoint.md#discount-on-bill)
-    - [Product details](./01a_Cashpoint.md#product-details)
+    - [Offer details](./01a_Cashpoint.md#offer-details)
 
 - [HISTORY](./01b_History.md)
 
@@ -46,6 +46,7 @@ In this part of the *POS* documentation, you will find the following chapters:
 - [GLOBAL SETTINGS](./02a_GlobalSettings.md)
     - [GENERAL](./02a_GlobalSettings.md#general)
         - [Format of sequential number](./02a_GlobalSettings.md#format-of-sequential-number)
+        - [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed)
         - [Always print the receipt](./02a_GlobalSettings.md#always-print-the-receipt)
         - [Number of vouchers per order](./02a_GlobalSettings.md#number-of-vouchers-per-order)
         - [Payment methods (manual payment terminal)](./02a_GlobalSettings.md#payment-methods-manual-payment-terminal)
@@ -57,7 +58,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Skim to amount](./02a_GlobalSettings.md#skim-to-amount)
         - [Hide expected amount](./02a_GlobalSettings.md#hide-expected-amount)
         - [Display age rating](./02a_GlobalSettings.md#display-age-rating)
-        - [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed)
+       
         - [Remind of offers](./02a_GlobalSettings.md#remind-of-offers)
         - [Regex for customer code](./02a_GlobalSettings.md#regex-for-customer-code)
 

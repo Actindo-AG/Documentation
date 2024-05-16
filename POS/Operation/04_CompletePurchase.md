@@ -178,6 +178,36 @@ If your company supports the delivery of an offer, you can easily initiate a del
 2. Click the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle in the *Settlement* section.  
     The delivery is initiated.
 
+<!---NEU-->
+## Assign a price group
+
+A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners. For example, an assigned price group can reduce the price for specific offers. It is stored in the customer master data, so that some offers may cost less.  
+
+#### Prerequisites
+
+- A price group price has been assigned to the related offers.
+
+#### Procededure
+
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Add the customer. For detailed information, see [Assign a purchase to a customer](../Operation/03_EditBillList.md#assign-a-purchase-to-a-customer).   
+    The customer data are displayed at the top.
+
+2. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. <!---noch mal prüfen in bill list, wenn Add customer wieder geht.-->
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+3. If desired, select the price group manually, for example, if you know the customer. To do this, click the *Price group* drop-down list and select the price group.
+
+4. Click the [SAVE] button next to the *Price group* field.   
+    If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed. The old amount is crossed out, and the new amount is calculated.
+
+    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillListChangedPrice.png "[Changed price]")
+
 
 
 ## Pay cash

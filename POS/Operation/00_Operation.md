@@ -10,6 +10,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Select an offer by QuickSelect](./02_SelectOffer.md#select-an-offer-by-quickselect)
         - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)
         - [Select an offer by number](./02_SelectOffer.md#select-an-offer-by-number)
+        - [Select a pre&dash;printed voucher offer](./02_SelectOffer.md#select-a-preprinted-voucher-offer)
     - [Verify the age](./02_SelectOffer.md#verify-the-age)
     - [Add product options](./02_SelectOffer.md#add-product-options)
 

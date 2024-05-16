@@ -75,7 +75,7 @@ The modified price is related to each item of the offer entry in the bill list. 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
 4. Click the [Save] button in the bottom right corner to apply the price change.   
-    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---Neu-->The old price is listed one line below and crossed out. The price difference is stored for later analyzes.
+    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for later analyzes.
 
     ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillListChangedPrice.png "[Bill list]")
 
@@ -160,7 +160,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 ## Assign a purchase to a customer
 
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
-You can either assign the purchase to an [existing customer](#assign-a-purchase-to-a-customer) or [register a new customer](#register-a-customer) if the customer is not yet registered in the system.
+You can either assign the purchase to an [existing customer] by searching for his/her name, see [Assign a purchase to a customer](#assign-a-purchase-to-a-customer), or by the customer number, see . If the customer is not yet registered in the system, you can [register a new customer](#register-a-customer).
 
 >[INFO] It is possible to assign a customer-specific discount to a customer. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list. For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
@@ -202,7 +202,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 Assign the current purchase to a registered customer.   
 
-Alternatively, if the customer has a customer or member card, you can scan the customer via barcode, see [Assign a purchase to an existing customer via barcode scan](#assign-a-purchase-to-an-existing-customer-via-barcode-scan).
+Alternatively, if the customer has a customer or member card, you can select the customer via customer number, see [Assign a purchase to an existing customer via customer number](#assign-a-purchase-to-an-existing-customer-via-customer-number).
 
 #### Prerequisites
 
@@ -233,9 +233,9 @@ Alternatively, if the customer has a customer or member card, you can scan the c
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.
 
 
-## Assign a purchase to an existing customer via barcode scan
+## Assign a purchase via customer number
 
-Assign the current purchase to a registered customer, who has a customer or a member card.  
+Assign the current purchase to a registered customer, who has a customer or a member card, on which the customer number is printed.  
 
 Alternatively, you can search for the customer name, see [Assign a purchase to an existing customer](#assign-a-purchase-to-an-existing-customer).
 
@@ -243,7 +243,7 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
-- At least one customer is already registered, see [Register a customer](#register-a-customer) or has a customer or member card.
+- At least one customer is already registered, see [Register a customer](#register-a-customer) and has a customer or member card.
 
 #### Procedure
 
@@ -256,10 +256,10 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
     ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails.png "[Customer details]")
 
-2. Scan the customer code.    
-    The code is automatically added to the search field and the customer details are displayed.
+2. Scan the customer code with the barcode scanner or enter the number manually.    
+    The number is automatically added to the search field and the customer's details are displayed. This is the name and address, but can also be the price group to which a customer is assigned or the discount granted.
 
     ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails2.png "[Customer details]")
 
-3. Click the ![Customer](../../Assets/Icons/Customer03.png "[Customer]") (Customer) button.
+3. Click the ![Customer](../../Assets/Icons/Customer03.png "[Customer]") (Customer) button.   
     The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.

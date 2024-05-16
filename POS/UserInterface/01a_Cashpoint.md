@@ -43,9 +43,12 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer*
 
 ![Bill List](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillList.png "[Bill List]")
+<!---NEU-->
+- ![Customer details](../../Assets/Icons/Scan.png "[Customer details]")(Customer details)      
+    Click this button to scan a customer code with a barcode scanner or to enter the customer number manually, see [Assign a purchase via customer number](../Operation/03_EditBillList.md#assign-a-purchase-via-customer-number).
 
-- ![Add Customer](../../Assets/Icons/Customer02.png "[Add Customer]") (Add Customer)   
-    Click this button to assign the bill to a certain customer. The *Add Customer* view is displayed.
+- ![Add customer](../../Assets/Icons/Customer02.png "[Add customer]") (Add Customer)   
+    Click this button to assign the bill to a certain customer. The *Add Customer* view is displayed, see [Add customer](#add-customer).
 
 - *Customer Name and Address*   
     The customer name and address is displayed, when the bill list is assigned to a customer. This field is read-only.
@@ -60,12 +63,16 @@ The *Age verification* pop-up window is displayed if a selected offer is not sui
     Offer name. This field is displayed only when an offer is added to the bill list.
 
 - *Price*   
-    Total gross price of the offers(s).<!--- Hier stand net price. Bei mir ist aber der gross price--> This field is displayed only when an offer is added to the bill list.   
-    By default, the price is displayed in black. If the price has been modified, it will be displayed differently as follows.
+    Total gross price of the single offer(s).<!--- Hier stand net price. Bei mir ist aber der gross price--> This field is displayed only when an offer is added to the bill list.   
+    By default, the price is displayed in black. If the price has been modified, it will be displayed differently as follows:
     - Price is written in red and followed by an amount/a percentage in brackets   
         The price is a discount price, the discount is indicated in brackets, either as a fixed discount or percentage.
     - Price is written in italics   
         The price itself has been modified.
+    - Price is crossed out and is displayed below the price that is charged  
+        The price have been changed directly without a discount (new price is written in italics) or the price is a price group-specific price, see [Assign a price group](../Operation/04_CompletePurchase.md#assign-a-price-group).
+<!--- noch prüfen, was ist mit Customer-specific discount?-->
+    
 
 - ![Remove Offer](../../Assets/Icons/Cross02.png "[Remove Product]") (Remove Product)   
     Click this button to remove an offer from the bill list. This field is displayed only when an offer is added to the bill list.
@@ -319,6 +326,13 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 
 
+## Customer details
+
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Customer details*
+
+![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/)
+
+
 ## Create customer
 
 *POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button Add Customer > Button Create Customer*
@@ -400,11 +414,11 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 
 
 
-## Product details
+## Offer details
 
-*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select Product in the Bill List*
+*POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select offer in the bill list*
 
-![Product Details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Product Details]")
+![Offer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer details]")
 
 - *Quantity*   
     Quantity of the selected product in the bill list.

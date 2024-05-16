@@ -126,13 +126,13 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The number remains in the search bar when you add an offer to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
-### Select a voucher offer 
+### Select a pre&dash;printed voucher offer 
 
-Scan the barcode printed on a voucher card to add an additional amount to the voucher.
+Select a voucher offer that allows you to identify and charge a pre-printed voucher. You can then scan the voucher code with a barcode scanner or add the card code manually. 
 
 #### Prerequisites
 
-- Your company uses the KNISTR integration.
+- Your company uses the KNISTR integration or another integration, with which vouchers can be pre-printed.
 
 #### Procedure
 
@@ -153,8 +153,8 @@ Scan the barcode printed on a voucher card to add an additional amount to the vo
 
     ![Voucher details](../../Assets/Screenshots/POS/Sales/Cashpoint/VoucherDetails.png "[Voucher details]")
 
-4. Scan the voucher code with the barcode scanner.     
-    If the barcode was successfully scanned, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
+4. Scan the voucher code with the barcode scanner or enter the code manually.     
+    If the barcode was successfully scanned or the code manually entered, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
 
 5. Enter the amount in the *Amount* field. Note that this amount will be added to any amount already on the voucher.
 
@@ -167,13 +167,11 @@ Scan the barcode printed on a voucher card to add an additional amount to the vo
 
 Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary before the offer is added to the bill list.
 
-
 #### Prerequisites
 
 - Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - An age restriction for the offer is defined, for example 18 or 16.    
 - The *Display age rating* setting is activated. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
-
 
 #### Procedure
 

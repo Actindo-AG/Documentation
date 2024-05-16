@@ -364,13 +364,15 @@ This setting allows the cashiers to suggest additional offers to the customer du
     Click this button to add an SKU. A new line for an SKU is displayed.
 
 <!--- Neu-->
-## Regex for customer-code
+## Regex for customer code
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Regex for customer-code*
 
 ![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
-<!--- to be enhanced-->
+Define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.
+
+
 
 ## CURRENCIES
 
@@ -582,27 +584,43 @@ The following fields and features are available for this window:
     Click this button to save any changes.
 
 - *Discount attribute*    
-    Click this drop-down list to select one of the following options:
-    - [ID of your customer-specific attribute]    
-        The value of the selected attribute will be applied as discount to a receipt on selection of the customer.
+    Click the drop-down list to select the attribute, in which the discount is stored.
 
-<!---Neu-->
+
+
+<!---NEU-->
 ## Active price groups
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
+*POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*
 
 ![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
 
-<!--- to be enhanced-->
+This setting allows you to activate the price groups you currently want to use for your customers. You can use it as a global or a store-related setting.   
+The price group is part of the customer master data
+
+The following fields and features are available for this window:   
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are disabled. By default, this toggle is enabled.
+
+- ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *"Name of the price group"*   
+    Enable the toggle at the price groups you want to use.    
+    The price groups are active after saving.
 
 
 
-<!---Neu-->
+<!---NEU-->
 ## Field for price group
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Field for price group*
 
 ![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
 
-<!--- to be enhanced-->
+
+
 
 ## RETURNS
 

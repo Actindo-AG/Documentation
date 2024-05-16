@@ -71,8 +71,8 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Create a voucher](./07_ManageOffers.md#create-a-voucher)
         - [Create a voucher product](./07_ManageOffers.md#create-a-voucher-product)
         - [Define the voucher setting](./07_ManageOffers.md#define-the-voucher-setting)
-    - [Create a voucher with KNISTR integration](./07_ManageOffers.md#create-a-voucher-with-knistr-integration)
-        - [Create a voucher offer with KNISTR integration](./07_ManageOffers.md#create-a-voucher-offer-with-knistr-integration)
+    - [Create an offer for pre&dash;printed vouchers](./07_ManageOffers.md#create-an-offer-for-preprinted-vouchers)
+        
 
     - [Add an age rating to a product](./07_ManageOffers.md#add-an-age-rating-to-a-product)
     - [Create a product option](./07_ManageOffers.md#create-a-product-option)
