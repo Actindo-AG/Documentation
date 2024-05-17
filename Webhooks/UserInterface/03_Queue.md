@@ -8,17 +8,17 @@ The list shows all webhooks in the queue that are waiting to be executed/sent, a
 
 The following functions are available in the row above the list header:
 
-- ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->   
+- ![Select](../../Assets/Icons/Checkbox03.png "[Select]") 
    Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
     If you click the checkbox in the list header, all entries in the list are selected. 
 
-- [![Retry](../../Assets/Icons/Retry01.png "[Retry]") RETRY]<!---Icon-->    
+- [![Retry](../../Assets/Icons/Replay.png "[Retry]") RETRY]      
     Click this button to retry sending the webhook. 
 
-- [![Reset](../../Assets/Icons/Reset.png "[Reset]") RESET]<!---Icon-->   
+- [![Reset](../../Assets/Icons/ResetTV.png "[Reset]") RESET] 
     Click this button to reset the amount of tries, so that the system again tries to send the webhooks, depending on the *Retry algorithm* defined in the worker. The button is disabled, if the number of tries is equal to zero.
 
-- [![Delete](../../Assets/Icons/Trash01.png "[Delete]") DELETE]    
+- [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
     Click this button to delete a queue entry. <!---You can delete several webhooks at once?-->
 
 The following fields are available in the list:
@@ -66,13 +66,13 @@ The following queue related functions are available in the view header:
 - Status icon    
     Status of the selected queue entry.
 
-- [![Retry](../../Assets/Icons/Retry01.png "[Retry]") RETRY]<!---Icon-->    
+- [![Retry](../../Assets/Icons/Replay.png "[Retry]") RETRY]   
     Click this button to retry sending the webhook. 
 
-- [![Reset](../../Assets/Icons/Reset.png "[Reset]") RESET]<!---Icon-->   
+- [![Reset](../../Assets/Icons/ResetTV.png "[Reset]") RESET]    
     Click this button to reset the amount of tries, so that the system again tries to send the webhook, depending on the *Retry algorithm* defined in the worker. The button is disabled, if the number of tries in the *Tries* field is equal to zero.
 
-- [![Delete](../../Assets/Icons/Trash01.png "[Delete]") DELETE]    
+- [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
     Click this button to delete the queue entry. 
 
 The following fields and functions are available on the left part of this view:

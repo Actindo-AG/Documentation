@@ -16,7 +16,7 @@ No prerequisites to fulfill.
 
 ![Webhooks](../../Assets/Screenshots/Webhooks/Webhooks/Webhooks.png "[Webhooks]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+1. Click the ![Add](../../Assets/Icons/Plus08.png "[Add]") (Add) button in the bottom right corner.    
     The *Create webhook* view is displayed.
 
     ![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
@@ -69,7 +69,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
     ![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
 
 2. If desired, edit the events. Proceed as follows: 
-    - To remove an event from the *Event* field, click the ![Remove](../../Assets/Icons/Cross03.png "[Remove]")<!---Icon--> button at the event name.
+    - To remove an event from the *Event* field, click the ![Remove](../../Assets/Icons/Cross08.png "[Remove]") button at the event name.
     - To add an event, click the *Event* drop-down list and select the event you want to add.
 
 3. If desired, enter the number of retries in the *Workers* field. This number should fit to the *Retry algorithm* specified in the worker definition.

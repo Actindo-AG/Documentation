@@ -29,7 +29,7 @@ Retry sending the webhook.
 
 1. Select the desired queue entries with status *Failed*.
 
-2. Click the [![Retry](../../Assets/Icons/Retry01.png "[Retry]") RETRY]<!---Icon--> button.
+2. Click the [![Retry](../../Assets/Icons/Replay.png "[Retry]") RETRY] button.
     The workers are started to retry sending the webhooks. If the retry is successful, the related queue entries change their status to *Success*. If the retry fails again, the related queue entries remain in the status *Failed*.   
 
 3. Analyze the log for the entries remained in the status *Failed*. For detailed information, see <!---To be enhanced-->

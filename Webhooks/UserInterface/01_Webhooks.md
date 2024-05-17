@@ -8,14 +8,14 @@ The list displays all available webhooks. Depending on the settings, the display
 
 The following webhook related functions are available in the list header:
 
-- ![Select](../../Assets/Icons/Checkbox.png "[Select]") <!--- Icon-->      
+- ![Select](../../Assets/Icons/Checkbox03.png "[Select]")      
     Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
     If you click the checkbox in the list header, all entries in the list are selected. 
 
-- [ACTIVATE] <!---Icon ergänzen-->   
+- [[Activate](../../Assets/Icons/PlayCircle.png "[Activate] ACTIVATE]    
     Click this button to activate the selected webhooks. You can activate several webhooks at once. 
 
-- [![Delete](../../Assets/Icons/Trash01.png "[Delete]") DELETE]    
+- [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
     Click this button to delete a webhook. <!---You can delete several webhooks at once?-->
 
 The following fields are available in the list:
@@ -23,10 +23,10 @@ The following fields are available in the list:
 - *Active*   
     Status of the webhook. The following statuses are available:
     
-    - ![Active](../../Assets/Icons/Check.png "[Active]") <!---Icon-->**Active**  
+    - ![Active](../../Assets/Icons/Check02.png "[Active]") **Active**  
         The webhook can be used for data transfer.
 
-    - ![Inactive](../../Assets/Icons/Cross03.png "[Inactive]") <!---Icon-->**Inactive**   
+    - ![Inactive](../../Assets/Icons/Cross08.png "[Inactive]") **Inactive**   
         The webhook is inactive and cannot be used for data transfer.
 
 - *Event*  
@@ -48,7 +48,7 @@ The following fields are available in the list:
 - *Conditions*   
     Conditions that must be met before a webhook message is sent.
 
--  ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)     
+-  ![Add](../../Assets/Icons/Plus08.png "[Add]") (Add)     
    Click this button to create a new webhook.
 
 ## Create webhook
@@ -88,7 +88,7 @@ The view displays on the left side the fields, with which you can define a webho
 
 The following fields and functions are available:
 
-- [ ![Delete](../../Assets/Icons/Trash01.png "[Delete]") <!---Icon-->DELETE]   
+- [ ![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]   
     Click this button to delete the webhook.
 
 - [SAVE CHANGES]   
@@ -161,10 +161,10 @@ The *Conditions* section is used to define an unlimited amount of conditions tha
 
 The following fields and functions are available:
 
-- ![Check](../../Assets/Icons/Check.png)<!---Icon--> *All conditions required*   
+- ![Check](../../Assets/Icons/Checkbox03.png) *All conditions required*   
     Select the checkbox, if all conditions in the list must be met before the webhook is sent. If the checkbox is not selected, only one of the conditions available must be met. 
 
-- [![Add](../../Assets/Icons/Plus04.png "[Add]") ADD CONDITION]  
+- [![Add](../../Assets/Icons/Plus08.png "[Add]") ADD CONDITION]  
     Click this button to add a new condition.
 
 - *Property*   

@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.    
+1. Click the ![Add](../../Assets/Icons/Plus08.png "[Add]") (Add) button in the bottom right corner.    
     The *Create worker* view is displayed.
 
     ![Create worker](../../Assets/Screenshots/Webhooks/Workers/CreateWorker.png "[Create worker]")
@@ -62,7 +62,7 @@ At least one worker has been created, see [Create worker](#create-worker).
     The [ACTIVATE] button on the top left is highlighted.
 
 2. Click the [ACTIVATE] button.   
-    The status of the worker(s) in the *Active* column has switched to ![Active](../../Assets/Icons/Check.png "[Active]") (Active). <!---Icon-->
+    The status of the worker(s) in the *Active* column has switched to ![Active](../../Assets/Icons/Check02.png "[Active]") (Active). 
 
 
 
@@ -95,7 +95,7 @@ At least one worker has been created, see [Create worker](#create-worker).
     The [DEACTIVATE] button on the top left is highlighted.
 
 4. Click the [DEACTIVATE] button.   
-    The status of the worker(s) in the *Active* column has switched to ![Inactive](../../Assets/Icons/Cross03.png "[Inactive]") (Inactive). <!---Icon-->   
+    The status of the worker(s) in the *Active* column has switched to ![Inactive](../../Assets/Icons/Cross08.png "[Inactive]") (Inactive).    
 
 
 
@@ -109,15 +109,17 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 #### Procedure
 
-*Actindo Core1 Platform > Any workspace> Click the engine room button*
+*Actindo Core1 Platform > Any workspace> Click the engine room button > System information*
 
-<!---Screenshot von Engine room-->
+![Feature flags](../../Assets/Screenshots/Webhooks/Webhooks/DisableWebhook.png "[Feature flags]")
 
-1. Enable the *Disable workers* toggle in the *Webhooks* box.<!---Namen prüfen--> For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
-    The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable workers* toggle is enabled.
+1. Enable the *Disable workers* toggle in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
+    The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable webhooks* toggle is enabled.
 
-2. Disable the *Disable workers* toggle in the *Webhooks* box after you have finished editing the workers or webhooks.   
+2. Disable the *Disable webhooks* toggle in the *Webhooks* section after you have finished editing the workers or webhooks.   
     The execution of the queue will be continued after one minute. 
+
+
 
 ## Shut down workers
 
@@ -140,9 +142,9 @@ Shut down a single worker to avoid that the associated webhooks are executed by 
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
 1. Click the checkbox at the active worker you want to shut down.    
-    The [![Shut down](../../Assets/Icons/Cross03.png "[Shut down]")<!---Icon-->SHUT DOWN] button is enabled.
+    The [![Shut down](../../Assets/Icons/StopCircle.png "[Shut down]") SHUT DOWN] button is enabled.
 
-2. Click the [![Shut down](../../Assets/Icons/Cross03.png "[Shut down]")<!---Icon-->SHUT DOWN] button.   
+2. Click the [![Shut down](../../Assets/Icons/StopCircle.png "[Shut down]") SHUT DOWN] button.   
     The worker is stopped. The associated webhooks in the queue are no longer executed.
 
 
@@ -161,7 +163,7 @@ At least one worker has been created, see [Create worker](#create-worker).
 
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
-Click the [![SHUT DOWN ALL](../../Assets/Icons/Cross03.png "[SHUT DOWN ALL]")<!---Icon-->SHUT DOWN] button to right.   
+Click the [![SHUT DOWN ALL](../../Assets/Icons/StopCircle.png "[SHUT DOWN ALL]") SHUT DOWN] button top right.   
 The execution of all currently running workers is stopped.
 
 
@@ -194,9 +196,9 @@ At least one worker has been created, see [Create worker](#create-worker).
 6. Return to the *Workers* view.
 
 7. Select the worker(s) you want to delete.   
-    The [![DELETE](../../Assets/Icons/Trash04.png "[DELETE]")<!---Icon-->DELETE] button is highlighted.
+    The [![DELETE](../../Assets/Icons/Trash10.png "[DELETE]") DELETE] button is highlighted.
 
-8. Click the [![DELETE](../../Assets/Icons/Trash04.png "[DELETE]")<!---Icon-->DELETE] button.   
+8. Click the [![DELETE](../../Assets/Icons/Trash10.png "[DELETE]") DELETE] button.   
     The worker is deleted.
 
 
