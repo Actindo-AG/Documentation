@@ -71,11 +71,17 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Create a voucher](./07_ManageOffers.md#create-a-voucher)
         - [Create a voucher product](./07_ManageOffers.md#create-a-voucher-product)
         - [Define the voucher setting](./07_ManageOffers.md#define-the-voucher-setting)
-    - [Create an offer for pre&dash;printed vouchers](./07_ManageOffers.md#create-an-offer-for-preprinted-vouchers)
-        
-
+        - [Create an offer for pre&dash;printed vouchers](./07_ManageOffers.md#create-an-offer-for-preprinted-vouchers)
     - [Add an age rating to a product](./07_ManageOffers.md#add-an-age-rating-to-a-product)
+    - [Create a price group for POS](./07_ManageOffers.md#create-a-price-group-for-pos)
+        - [Create the POS price group attributes](./07_ManageOffers.md#create-the-pos-price-group-attributes)
+        - [Declare price group attribute for customer master data](07_ManageOffers.md#assign-price-group-attribute-to-customer-master-data)
+        - [Activate the price groups](07_ManageOffers.md#activate-the-price-groups)
+        - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
     - [Create a product option](./07_ManageOffers.md#create-a-product-option)
+        - [Define a product option](07_ManageOffers.md#define-a-product-option)
+        - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
+        - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)
@@ -84,7 +90,7 @@ In this part of the *POS* documentation, you will find the following chapters:
     - [Manage the warehouse logistics for POS products](./08_ManageWarehouse.md#manage-the-warehouse-logistics-for-pos-products)
     - [Manage the stock for POS products](./08_ManageWarehouse.md#manage-the-stock-for-pos-products)
 
-- [Prepare workflows](./09_WorkflowAdjustments.md)
+- [Prepare the workflows](./09_WorkflowAdjustments.md)
    - [Extend the Import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-the-import-channels-order-in-oms-workflow)
         - [Split the order confirmation and cash invoice processing](./09_WorkflowAdjustments.md#split-the-order-confirmation-and-cash-invoice-processing)
         - [Insert the payments synchronization](./09_WorkflowAdjustments.md#insert-the-payments-synchronization)

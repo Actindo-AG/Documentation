@@ -91,6 +91,8 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Default customer](./02a_GlobalSettings.md#default-customer)
         <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv) - ist noch im System
         <!---Obsolete? [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)-->
+    - [KNISTR](./02a_GlobalSettings.md#knistr)
+        - [KNISTR credentials](./02a_GlobalSettings.md#knistr-credentials)
 
 - [STORES](./02b_Stores.md)
     - [Create store](./02b_Stores.md#create-store)

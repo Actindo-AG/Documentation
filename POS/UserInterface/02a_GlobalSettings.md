@@ -931,6 +931,25 @@ Define an invoice address for a default customer to connect the POS system with 
 - *Country*   
     Enter the country name of the customer's address.
 
+<!---NEU-->
+## KNISTR
+
+### KNISTR credentials
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry KNISTR credentials*
+
+![KNISTR credentials](../../Assets/Screenshots/POS/Management/GlobalSettings/KnistrCredentials.png "[KNISTR credentials]")
+
+- [Save]    
+    Click this button to save any changes.
+
+- *App name*
+    Name of the *KNISTR-PoS-Integration* API used for the connection of the current instance to Knistr&trade;. <!---Stimmt das?>
+
+- *HMAC key*
+    HMAC key used for authentication. 
+
+
  <!---Obsolet  
 ### Store deliveries active
 

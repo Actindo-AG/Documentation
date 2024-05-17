@@ -333,7 +333,7 @@ You need to define the created product as a voucher to use it in the *POS* store
 
 
 <!---NEU-->
-## Create an offer for pre&dash;printed vouchers
+### Create an offer for pre&dash;printed vouchers
 
 A *Knistr&trade;* integration is available for vouchers, with which pre-printed voucher cards can be used. The codes of these vouchers can be entered via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
 
@@ -347,6 +347,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 
 #### Prerequisites
 
+- The credentials for the Knistr&trade;connection have been specified. For detailed information, see [KNISTR credentials](../UserInterface/02a_GlobalSettings.md#knistr-credentials).
 - The *Voucher* attribute is added to the *Set for POS Store "Name of the store"* attribute set.
 
 #### Procedure
@@ -400,9 +401,9 @@ For detailed information on configuring this feature, see [Display age rating](.
 
 Price groups are used to classify different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners.
 
-### Create the POS price group attributes
+### Create attributes for the POS price group
 
-Define the POS price group attribute that is assigned to the customer master data later and in which the price group of the customer is stored. Assign this attribute to the customer master data attribute set. In addition, define the POS price attribute, with which you can define the price valid for this price group later. Assign this attribute to the related store-specific attribute set.
+Define the attribute that is assigned to the customer master data later and in which the price group of the customer is stored. Assign this attribute to the customer master data attribute set. In addition, define the attribute that contains the POS price group. Assign this attribute to the related store-specific attribute set.
 
 #### Prerequisites
 
@@ -418,17 +419,40 @@ No prerequisites to fulfill.
 
 2. Assign this attribute to the *RetailSuite Customer* attribute set. 
 
-3. Create the attribute, with which you can define the special price for the offers later, for example the *pos_member_price* attribute. It must be of the *Floating point number* data type. 
+3. Create the attribute(s), with which you define the price group itself, for example the *pos_member_price* attribute. You can assign this price group to offers later to be able to define a special price for customers assigned to this price group. It must be of the *Floating point number* data type. 
 
 3. Assign this attribute to the *POS base set* attribute set.
 
 For detailed information, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute) in the *DataHub* documentation.
 
-### Assign price group attribute to customer master data
 
-General setting
+### Declare the price group attribute for customer master data
 
-### Add price group price to offers
+Declare the field in which the price group is stored in the customer master data. 
+
+#### Prerequisites
+
+*POS > Management > General setting > Entry Field for price group*
+
+![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
+
+Click the *Price group* drop-down list and select the field you want to use for storing the price group in the customer master data.
+
+
+### Activate the price groups
+
+Activate the price groups you want to use in your stores. You can also activate the price groups store-specific.
+
+*POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*   
+*POS > Management > Tab STORES > Tab Admin settings > Entry Active price group*
+
+![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
+
+Enable the toggles next to the desired price groups.
+
+
+
+### Add the price group price to offers
 
  Assign the attribute for defining the price group-related price, for example the *pos_member_price* attribute, to each offer, to which a price group-specific price should apply.   
 
