@@ -396,13 +396,13 @@ If you want to use the *Age rating* feature, the attribute set assigned to the P
 For detailed information on configuring this feature, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
 <!---NEU-->
-## Create a price group
+## Create a price group for POS
 
 Price groups are used to classify different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners.
 
-### Define the price group attribute
+### Create the POS price group attributes
 
-Define the price group attribute that is assigned to the customer master data later and in which the price group of the customer is stored. In addition, the attribute must be assigned to any product, to which a price group-specific price should apply.
+Define the POS price group attribute that is assigned to the customer master data later and in which the price group of the customer is stored. Assign this attribute to the customer master data attribute set. In addition, define the POS price attribute, with which you can define the price valid for this price group later. Assign this attribute to the related store-specific attribute set.
 
 #### Prerequisites
 
@@ -414,20 +414,50 @@ No prerequisites to fulfill.
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/Attributes/Attributes.png "[Attributes]")
 
-Create the attributes that represent the price groups. They must be of the *Floating point number* data type.
+1. Create the attribute that represent the POS price group, for example the *pos_price_group* attribute. It must be of the *string* data type. 
+
+2. Assign this attribute to the *RetailSuite Customer* attribute set. 
+
+3. Create the attribute, with which you can define the special price for the offers later, for example the *pos_member_price* attribute. It must be of the *Floating point number* data type. 
+
+3. Assign this attribute to the *POS base set* attribute set.
 
 For detailed information, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute) in the *DataHub* documentation.
 
-### Add the price group to the POS basis set
-so that is is used when the sets for the stores are created.
+### Assign price group attribute to customer master data
 
-
-
+General setting
 
 ### Add price group price to offers
 
+ Assign the attribute for defining the price group-related price, for example the *pos_member_price* attribute, to each offer, to which a price group-specific price should apply.   
 
-###
+ Because you added the price group attribute to the *POS base set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
+
+#### Prerequisites
+
+The attribute for defining the price group-related price has been defined in the *DataHub* module.
+
+#### Procedure
+
+*Omni-Channel > Offers*
+
+![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png)
+
+1. Click the *Connections* drop-down list and select the connection to the store, for which you want to assign the price group price to the offers.
+
+2. Select an offer, for which a special price group price should apply. If the offer has a master offer with variants, select this one. This allows that the price is automatically inherited by all variants.    
+    The *Edit offer "offer name"* view is displayed. The *Attributes* tab is displayed by default. Only the *Unassigned Group* is available.
+
+    ![Edit offer](../../Assets/Screenshots/POS/Management/Customizing/PriceGroupOffer.png "[Edit offer]")
+
+3. Scroll down to the attribute you have created, see [Create the POS price group attributes](#create-the-pos-price-group-attributes).
+
+4. Enter the price.
+
+5. Click the [SAVE] button.
+
+
 
 <!---NEU-->
 ## Create a product option 
@@ -449,7 +479,7 @@ No prerequisites to fulfill.
 
 *POS > Management > Tab PRODUCT OPTIONS*
 
-![Product options](../../Assets/Screenshots/POS/Management/Product%20options/ProductOptions.png "[Product options]")
+![Product options](../../Assets/Screenshots/POS/Management/Customizing/ProductOptions.png "[Product options]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create option attribute* window is opened.
