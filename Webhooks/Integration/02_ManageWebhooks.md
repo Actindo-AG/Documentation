@@ -106,7 +106,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 ![Edit webhook](../../Assets/Screenshots/Webhooks/Webhooks/EditWebhook.png "[Edit webhook]")
 
-1. Click the [![Add condition](../../Assets/Icons/Plus04.png "[Add condition]") ADD CONDITION] in the top right corner of the *Conditions* section.    
+1. Click the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] in the top right corner of the *Conditions* section.    
     A new condition input line is displayed.
 
     ![Condition input line](../../Assets/Screenshots/Webhooks/Webhooks/WebhookCondition.png "[Condition input line]")
@@ -129,7 +129,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 5. If you want that the condition applies in the change set, click the checkbox in the *Apply on change set* column.<!---Was bedeutet das?-->
 
-5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus04.png "[Add condition]") ADD CONDITION] button.
+5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] button.
 
 6. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, click the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
 
