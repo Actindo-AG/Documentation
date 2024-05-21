@@ -19,6 +19,7 @@ In the left part of the page, the selection list *Settings* is displayed. The li
 - [RETURNS](#returns)
 - [RECEIPT PRINTING](#receipt-printing)
 - [DATA TRANSFER ORDER MANAGEMENT](#data-transfer-order-management)
+- [KNISTR](#knistr)
 
 In the right part of the page, a view of the selected setting is displayed when clicking on it.
 
@@ -67,7 +68,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 ![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
 
-The deliveries allowed setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
+The *Deliveries allowed* setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
@@ -87,7 +88,7 @@ The deliveries allowed setting enables the cashiers to initiate a delivery durin
 
 ![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
 
-By default, down payments are not allowed.
+The *Down payments allowed* setting allows cashiers to accept down payments. For detailed information, see [Initiate a down payment](../Operation/04_CompletePurchase.md#initiate-a-down-payment).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. 
@@ -326,7 +327,7 @@ The following fields and features are available in the window:
     Click this button to save any changes
 
 - *Mode*   
-   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age). The following settings are available:
+   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. The following settings are available:
 
    - **Always**    
     The cashier will always be asked when an offer is added to the basket that requires an age verification.
@@ -346,7 +347,7 @@ The following fields and features are available in the window:
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
 
-This setting allows the cashiers to suggest additional offers to the customer during the payment process. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
+The *Remind of offers* setting allows the cashiers to suggest additional offers to the customer during the payment process. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Remind of offers* feature is not activated.  
@@ -628,6 +629,7 @@ This setting specifies the attribute in the customer master data from which the 
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are disabled. By default, this toggle is enabled.
 
 - *Price group attribute*
+    Click the *Price group attribute* drop-down list and select the attribute, in which the customer's price group is stored. 
 
 
 ## RETURNS
@@ -939,8 +941,12 @@ Define an invoice address for a default customer to connect the POS system with 
 - *Country*   
     Enter the country name of the customer's address.
 
+
 <!---NEU-->
 ## KNISTR
+
+In this section, you define all settings concerning the KNISTR integration. For detailed information, see the [KNISTR](https://www.knistr.com "[https://www.knistr.com]") website.
+
 
 ### KNISTR credentials
 

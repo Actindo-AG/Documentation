@@ -9,7 +9,8 @@ The list shows the connections that have been created to use the Fiskaly&trade; 
 The following functions are available for the editing toolbar:
 
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)  
-    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit the corresponding connection. The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
+    Click this button to edit the selected connection. This button is only displayed if a single checkbox in the list of connections is selected. Alternatively, you can directly click a row in the list to edit the corresponding connection.    
+    The *Edit connection* view is displayed, see [Edit connection](#edit-connection).
 
 The following fields are available:
 
@@ -17,7 +18,7 @@ The following fields are available:
     Name of the connection to Fiskaly&trade;.
 
 - *Driver*   
-    Name of the driver, currently only Fiskaly&trade; is supported.
+    Name of the driver, currently only the **Fiskaly&trade;** driver is supported.
 
 
 
@@ -25,8 +26,6 @@ The following fields are available:
 
 ![TSS PROVIDERS](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[TSS PROVIDERS]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create connection* view and return to the list of connections. All changes are rejected.
 
 - *Name*   
     Enter a connection name.
@@ -47,7 +46,7 @@ The following fields are available:
 
 **Credentials**
 
-The fields displayed in the *Credentials* section vary depending on thSe selected driver. 
+The fields displayed in the *Credentials* section vary depending on the selected driver. 
 
 - *API key*   
     API key of the connection. You get this data from the Actindo support. <!--- Stimmt das?-->

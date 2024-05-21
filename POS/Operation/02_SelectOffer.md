@@ -154,12 +154,12 @@ Select a voucher offer that allows you to identify and charge a pre-printed vouc
     ![Voucher details](../../Assets/Screenshots/POS/Sales/Cashpoint/VoucherDetails.png "[Voucher details]")
 
 4. Scan the voucher code with the barcode scanner or enter the code manually.     
-    If the barcode was successfully scanned or the code manually entered, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
+    If the barcode was successfully scanned, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
 
 5. Enter the amount in the *Amount* field. Note that this amount will be added to any amount already on the voucher.
 
 6. Click the [SAVE] button.   
-    The entered amount is added to the bill list.
+    The voucher with its newly created amount is added to the bill list.
 
 
 <!--- NEU-->

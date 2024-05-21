@@ -163,7 +163,7 @@ If your company supports the delivery of an offer, you can easily initiate a del
 
 - At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 - The *Deliveries allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
-- The purchase is assigned to a customer and an address (delivery address) is available, see [Assign a purchase to an existing customer](03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
+- The purchase is assigned to a customer, and the address (delivery address) is available, see [Assign a purchase to a customer](03_EditBillList.md#assign-a-purchase-to-a-customer).
 
 #### Procedure
 *POS > Sales > Select store and pay desk > Tab CASHPOINT*
@@ -380,7 +380,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
-2. Click the *Voucher code* field at the top in the *Vouchers* section and enter the voucher code.   
+2. Click the *Voucher code* field at the top in the *Vouchers* section and enter the voucher code or scan it with a barcode scanner.   
 
 3. Click the [REDEEM] button to the right of the *Voucher code* field.   
     The voucher is indicated in the *Settlement* section of the bill list.

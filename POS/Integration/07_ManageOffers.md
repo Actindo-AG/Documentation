@@ -513,7 +513,7 @@ No prerequisites to fulfill.
 3. Enter a key for the product option in the *Key* field.
 
 4. Click the [SAVE] button.    
-    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *Set for POS Store ("Name of the store")* and the *POS base set* attribute sets. Since the *POS base set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
+    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *POS base set* attribute set. Since the *POS base set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
 
 5. If desired, add additional product options.
 
@@ -529,8 +529,6 @@ No prerequisites to fulfill.
 #### Procedure
 
 Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
-
-Test option zu Set for Actindo2 hinzugefügt
 
 
 ### Create an offer option set for store

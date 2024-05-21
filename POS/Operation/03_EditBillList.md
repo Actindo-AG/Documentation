@@ -233,7 +233,7 @@ Alternatively, if the customer has a customer or member card, you can select the
     > [Info] If you want to unassign the customer from the purchase, click the ![Delete](../../Assets/Icons/Trash01.png "[Delete]") (Delete) button to the right of the selected customer in the upper right corner of the bill list.
 
 <!--NEU-->
-## Assign a purchase via customer number
+### Assign a purchase via customer number
 
 Assign the current purchase to a registered customer, who has a customer or a member card, on which the customer number is printed or can be scanned via barcode scanner.  
 
