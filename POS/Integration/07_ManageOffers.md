@@ -381,7 +381,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 
     - Enter **voucher** in the *Barcode* field.
     - Enter a default value in the *Price* field. This value can be overwritten individually when selling the voucher.
-    - Since vouchers are tax-free, enter the value **0** in the *Tax rate* field and select **Nullsatz** in the *Tax class* drop-down field.
+    - Enter the tax rate value in the *Tax rate* field and select the required tax class in the *Tax class* drop-down field.
     - Enable the *Voucher* toggle to classify the offer as a voucher.
 
 8. Click the [SAVE] button.

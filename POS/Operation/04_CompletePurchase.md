@@ -84,7 +84,7 @@ A combination of several discount options is not allowed. For example, you canno
 <!--- NEU-->
 ## Check the customer-specific discount
 
-If your company uses the Customer-specific discount feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
+If your company uses the *Customer-specific discount* feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
 > [Info] If a customer has a customer-specific discount, other discount options are not allowed.
 
 #### Prerequisites
@@ -113,7 +113,7 @@ If your company uses the Customer-specific discount feature, a specific discount
 <!--- NEU-->
 ## Initiate a down payment
 
-If your company uses the Down payment allowed feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed or if the full amount is not due until the offers are delivered or collected.   
+If your company uses the *Down payment allowed* feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed or if the full amount is not due until the offers are delivered or collected.   
 
 #### Prerequisites
 
@@ -181,11 +181,14 @@ If your company supports the delivery of an offer, you can easily initiate a del
 <!---NEU-->
 ## Assign a price group
 
-A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners. For example, an assigned price group can reduce the price for specific offers. It is stored in the customer master data, so that some offers may cost less.  
+A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners. For example, an assigned price group can reduce the price for specific offers. It is stored in the customer master data, so that some offers may cost less.   
+
+If your company supports this feature, the price will be automatically reduced for the customers concerned. You can also assign the price group manually. 
 
 #### Prerequisites
 
 - A price group price has been assigned to the related offers.
+- A price group has been assigned to a customer.
 
 #### Procededure
 

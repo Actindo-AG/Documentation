@@ -364,7 +364,7 @@ This setting allows the cashiers to suggest additional offers to the customer du
     Click this button to add an SKU. A new line for an SKU is displayed.
 
 <!--- Neu-->
-## Regex for customer code
+### Regex for customer code
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Regex for customer-code*
 
@@ -532,7 +532,7 @@ Select all currencies that are used in your POS system and define a default curr
 
 ## PRICING
 
-#### Automatic discount
+### Automatic discount
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
 
@@ -589,7 +589,7 @@ The following fields and features are available for this window:
 
 
 <!---NEU-->
-## Active price groups
+### Active price groups
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*
 
@@ -613,13 +613,21 @@ The following fields and features are available for this window:
 
 
 <!---NEU-->
-## Field for price group
+### Field for price group
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Field for price group*
 
 ![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
 
+This setting specifies the attribute in the customer master data from which the system should read the customer's price group.
 
+- [Save]   
+    Click this button to save any changes.
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are disabled. By default, this toggle is enabled.
+
+- *Price group attribute*
 
 
 ## RETURNS
