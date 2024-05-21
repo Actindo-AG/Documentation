@@ -182,7 +182,7 @@ Get data for a specific product.
 | ---------------|-----------|-------------|
 | **Id** | integer | Product identification number |
 
-> [Info] To find out the desired product ID via API, see [List products](./05_ManageProducts.md#list-products). Alternatively, you can discover a product ID via user interface, see [Discover an entity ID via user interfacce](#discover-an-entity-id-via-user-interface).
+> [Info] To find out the desired product ID via API, see [List products](./05_ManageProducts.md#list-products). Alternatively, you can discover a product ID via user interface, see [Discover an entity ID via user interface](#discover-an-entity-id-via-user-interface).
 
 #### Request sample
 
@@ -190,5 +190,24 @@ Get data for a specific product.
             "product": {
                 "id": "862"
             }
+        }
+
+
+### Get entity data
+
+Get all data for a specific entity, for example, a product. If it is a master product, all its variants, including their IDs, are listed. If it is a variant product, its master product and its defining values are listed.
+
+**Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
+
+#### Definitions
+
+| Attribute key  | Data type | Description |  
+| ---------------|-----------|-------------|
+| **entityId** | integer | Product identification number |
+
+#### Request sample 
+
+        {
+        "entityId": 141
         }
 

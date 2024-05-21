@@ -45,15 +45,16 @@ In this part of the *PIM* documentation, you will find the following chapters:
     - [Additional entity data](./04_RetrieveEntityData.md#additional-entity-data)
         - [Get variant set data](./04_RetrieveEntityData.md#get-variant-set-data)
         - [Get product data](./04_RetrieveEntityData.md#get-product-data)
+        - [Get entity data](./04_RetrieveEntityData.md#get-entity-data)
 
 
 - [Manage products](./05_ManageProducts.md)
     - [The product object](./05_ManageProducts.md#the-product-object)
     - [Create a product](./05_ManageProducts.md#create-a-product)
-        - [Sample: Single product](./05_ManageProducts.md#sample-single-product)
-        - [Sample: Single product in two languages](./05_ManageProducts.md#sample-single-product-in-two-languages)
-        - [Sample: Single product with different prices pro scope](./05_ManageProducts.md#sample-single-product-with-different-prices-pro-scope)
-        - [Sample: Master product](./05_ManageProducts.md#sample-master-product)
+        - [Sample: Create a single product](./05_ManageProducts.md#sample-create-a-single-product)
+        - [Sample: Create a single product in two languages](./05_ManageProducts.md#sample-create-a-single-product-in-two-languages)
+        - [Sample: Create a single product with different prices pro scope](./05_ManageProducts.md#sample-create-a-single-product-with-different-prices-pro-scope)
+        - [Sample: Create a master product](./05_ManageProducts.md#sample-create-a-master-product)
     - [Edit a product](./05_ManageProducts.md#edit-a-product)
         - [Sample: Add an image to a product](./05_ManageProducts.md#sample-add-an-image-to-a-product)
         - [Sample: Add variant defining attributes](./05_ManageProducts.md#sample-add-variant-defining-attributes)
@@ -77,7 +78,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Sample: Create multiple variant products](./06_ManageVariantProducts.md#sample-create-multiple-variant-products)
     - [Edit a variant product](./06_ManageVariantProducts.md#edit-a-variant-product)
     - [Delete a variant product](./06_ManageVariantProducts.md#delete-a-variant-product)
-    - [List variants products](./06_ManageVariantProducts.md#list-variants-to-master-products)
+    - [List variants products](./06_ManageVariantProducts.md#list-variant-products)
         
 
 

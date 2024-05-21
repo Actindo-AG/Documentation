@@ -47,7 +47,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *Variant-1* respectively. |
 | _pim_art_name | string | Product name | |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language | If attribute is multi-scope and multi-language |
-| _pim_catalog | string / object ? | Product categories | It contains the required field **id**. <!-- Frage: In Payload nur string, in product object Tabelle Any of...? --> |
+| _pim_catalog | object | Product categories | It contains the required field **id**.  |
 | _pim_long_text | string | Product long name | |
 | _pim_long_text__language | string | Product long name in a specific language | If attribute is multi-language |
 | _pim_ean | string | Product EAN code | |
@@ -103,7 +103,7 @@ There are two possible ways to create a master-variant product family:
 
 1. Create all products independently first and then link them all at once, as described below: 
 
-    - Create a single or master product, see [Sample: Simple product](#sample-single-product) or [Sample: Master product](#sample-master-product).
+    - Create a single or master product, see [Sample: Create a simple product](#sample-create-a-single-product) or [Sample: Create a master product](#sample-create-a-master-product).
     - Add relevant information to variant products, see [Sample: Add variant defining attributes](#sample-add-variant-defining-attributes).
     - Create a variant-master product family, see [Create a product family](#create-a-product-family). 
 
@@ -122,7 +122,7 @@ Depending on the sort of product, the required fields vary.
 | _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *child-1* respectively. |
 
 
-### Sample: Single product
+### Sample: Create a single product
 
     {
         "product": {
@@ -131,7 +131,7 @@ Depending on the sort of product, the required fields vary.
         }
     }
 
-### Sample: Single product in two languages
+### Sample: Create a single product in two languages
 
     {
         "product": {
@@ -144,7 +144,7 @@ Depending on the sort of product, the required fields vary.
         }
     }
 
-### Sample: Single product with different prices pro scope
+### Sample: Create a single product with different prices pro scope
 
     {
         "product": {
@@ -155,7 +155,7 @@ Depending on the sort of product, the required fields vary.
         }
     }
 
-### Sample: Master product
+### Sample: Create a master product
 
     {
         "product": {
