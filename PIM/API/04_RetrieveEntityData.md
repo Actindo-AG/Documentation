@@ -39,7 +39,7 @@ Get a list of all *PIM* attribute sets in your current instance, including the a
 
 #### Definitions
 
-| Attribute      | Data type | Description | 
+| Attribute key  | Data type | Description | 
 | ---------------|-----------|-------------| 
 | **dataType**   | string    | Entity data type |   
 
@@ -64,7 +64,7 @@ Get a list of all attributes contained in an attribute set, including all attrib
  
 #### Definitions
 
-| Attribute      | Data type | Description |  
+| Attribute key  | Data type | Description |  
 | ---------------|-----------|-------------|
 | **attributeSetId** | integer | Attribute set identification number | 
 
@@ -83,7 +83,7 @@ Get a list of all variant sets assigned to an attribute set, including all varia
 
 #### Descriptions
 
-| Attribute      | Data type | Description |   
+| Attribute key  | Data type | Description |   
 | ---------------|-----------|-------------|
 | **attributeSetId** | integer | Attribute set identification number | 
 
@@ -104,7 +104,7 @@ Get a list of all tree node values, including their IDs, for a specific attribut
 
 #### Descriptions
 
-| Attribute      | Data type | Description |   
+| Attribute key  | Data type | Description |   
 | ---------------|-----------|-------------|
 | **languageId** | integer | Language identification number |
 | **scopeId**    | integer | Scope identification number |
@@ -131,7 +131,7 @@ Get a list of all units by dimension, including their IDs.
 
 #### Descriptions
 
-| Attribute      | Data type | Description |   
+| Attribute key  | Data type | Description |   
 | ---------------|-----------|-------------|
 | **dimensionId** | integer | Dimension identification number |
 
@@ -158,7 +158,7 @@ Get the data contained in a variant set, including the underlying attribute set,
 
 #### Definitions
 
-| Attribute      | Data type | Description |  
+| Attribute key  | Data type | Description |  
 | ---------------|-----------|-------------|
 | **Id** | integer | Variant set identification number |
 
@@ -178,7 +178,7 @@ Get data for a specific product.
 
 #### Definitions
 
-| Attribute      | Data type | Description |  
+| Attribute key  | Data type | Description |  
 | ---------------|-----------|-------------|
 | **Id** | integer | Product identification number |
 

@@ -28,7 +28,7 @@ Let's take the following request sample:
 Let's say you want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to an English and Spanish speaking audience.
 
 
-| Product       | Information  | Attribute      | Value    |
+| Product       | Information  | Attribute key     | Value    |
 |---------------|--------------|----------------|----------| 
 | **SKU**       | HNDBG-1      | sku            | HNDBG-1  |
 | **Type**      | Accessories  | attributeSetId | 412 (s. **Notes**) |

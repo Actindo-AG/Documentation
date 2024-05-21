@@ -77,10 +77,8 @@ In this part of the *PIM* documentation, you will find the following chapters:
         - [Sample: Create multiple variant products](./06_ManageVariantProducts.md#sample-create-multiple-variant-products)
     - [Edit a variant product](./06_ManageVariantProducts.md#edit-a-variant-product)
     - [Delete a variant product](./06_ManageVariantProducts.md#delete-a-variant-product)
-    - [List variants to master products](./06_ManageVariantProducts.md#list-variants-to-master-products)
-        - [Sample: List variants to a master product](./06_ManageVariantProducts.md#sample-list-variants-to-a-master-product)
-        - [Sample: List variants to multiple master product](./06_ManageVariantProducts.md#sample-list-variants-to-multiple-master-product)
-
+    - [List variants products](./06_ManageVariantProducts.md#list-variants-to-master-products)
+        
 
 
 
