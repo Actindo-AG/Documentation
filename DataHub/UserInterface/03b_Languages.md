@@ -8,28 +8,20 @@
 
 **Language list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a language.
+The list displays all languages. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of languages.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all languages in the list are selected.
 
 - [EDIT]   
-    Click this button to edit the selected language. This button is only displayed if a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
+    Click this button to edit the selected language. The *Edit language* view is displayed, see [Edit language](#edit-language). This button is only displayed if a single checkbox of a language is selected. Alternatively, you can click directly a row in the list to edit a language.
 
 - [DELETE]   
     Click this button to delete the selected language. This button is only displayed if the checkbox of at least one language is selected.       
 
-The list displays all language. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Key*   
     Language key.
@@ -53,7 +45,7 @@ The list displays all language. Depending on the settings, the displayed columns
     Name and username of the user who created the language.
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
-    Click this button to create a language. The *Create language* view is displayed.   
+    Click this button to create a language. The *Create language* view is displayed, see [Create language](#create-language).   
 
 
 
@@ -65,8 +57,7 @@ The list displays all language. Depending on the settings, the displayed columns
 
 **Create language**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Create language* view and return to the language list. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -80,12 +71,14 @@ The list displays all language. Depending on the settings, the displayed columns
     Enter a language name in the selected language.
 
 - *Key*   
-    Enter a language key. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    Enter a language key. The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
     - **en**
     - **en_US**
     - **en-US**
 
     > [Info] It is recommended to use the two-letter ISO 639-1 code for the language separated by a hyphen with the two-letter ISO 3166-1 code for the country, for instance en-US for English (United States), en-UK for English (United Kingdom) or de-DE for German (Germany).
+
+[comment]: <> (Terminologie: In der 1. Version heißt es Key im UI, aber hier Language code. Auch Key in 2. Version in Create/Edit language. UI vereinheitlichen!)
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the language status to active. Disable the toggle to set the language status to inactive. By default, this toggle is disabled.
@@ -100,8 +93,7 @@ The list displays all language. Depending on the settings, the displayed columns
 
 **Edit language**
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)   
-    Click this button to close the *Edit Language* view and return to the language list. All changes are rejected.
+The following functions and fields are available in this view:
 
 - *"Language name"*   
     Click the drop-down list and select the system language in which the *Name (Language)* and *Description (Language)* fields are displayed. By default, the following options are available:
@@ -116,7 +108,7 @@ The list displays all language. Depending on the settings, the displayed columns
 
 - *Key*   
     Click the field to edit the language key. It is not recommended to change the language key after creation.   
-    The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
     - **en**
     - **en_US**
     - **en-US**
@@ -125,3 +117,5 @@ The list displays all language. Depending on the settings, the displayed columns
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Active*   
     Enable this toggle to set the language status to active. Disable the toggle to set the language to inactive. By default, this toggle is disabled.
+
+

@@ -1,13 +1,17 @@
-[!!Manage the attributes](./01_ManageAttributes.md)
-[!!User interface Attribute sets](../UserInterface/02b_AttributeSets.md)
+[!!Manage an attribute](./01_ManageAttributes.md)
+[!!DataHub Basics](../Overview/04_Basics.md)
+[!!User interface Attribute sets](../UserInterface/01b_AttributeSets.md)
+[!!User interface Attribute set locks](../UserInterface/01d_AttributeSetLocks.md)
 
 # Manage an attribute set
 
-An attribute set consists of multiple attributes to classify certain products according to demand or production contexts.
-Several plugins may bring their own attribute sets as a starting point for the tenant's configuration, such as the *PIM* module.
+An attribute set consists of multiple attributes to classify entities, such as the different types of products, according to demand or production contexts. For example, if you are selling clothes, you may need to define an attribute set for shirts and another one for trousers. The attributes contained in each attribute set will differ, as the shirts will include the attribute *Collar size*, whereas the trousers will have the attribute *Waist size*. The same is valid for other entities, such as dispatch notes or packaging types. You can define different types of these entities depending on your specific needs.
+
+Several plugins may bring their own attribute sets as a starting point for the tenant's configuration, such as *PIM basic set* in the *PIM* module or the *Packaging type basic set* in the *Fulfillment* module.
 
 You can create attribute sets, edit existing attribute sets and deactivate attribute sets that are not in use.
 You can add attributes to or remove attributes from an attribute set and change the required attributes within an attribute set.
+
 
 
 ## Create an attribute set
@@ -15,8 +19,7 @@ You can add attributes to or remove attributes from an attribute set and change 
 Create an attribute set to define a new attribute set with different attributes to the predefined attribute sets.
 
 Several plugins have their own configuration user interface, where only those attributes and attribute sets are listed that belong to the specific plugin.
-When using the plugin-specific user interface, several options may be restricted or not available.
-
+When using the plugin-specific user interface, several options may be restricted or not available. For example, in the *PIM* module, only *PIM* relevant attributes, attribute sets, and functions are displayed.
 
 ### Define the attribute set basic data
 
@@ -28,7 +31,7 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attribute sets](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attribute sets]")
 
@@ -39,16 +42,18 @@ Additional attributes for the attribute set have been created, see [Create an at
 
 2. Enter a name for the attribute set in the *Name* field and, if desired, add an attribute set description in the *Description* field.
 
-3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system wide unique. An attribute set key must fulfill the following criteria:
+    > [Info] If you want to provide the attribute set name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
+
+3. Enter a key for the attribute set in the *Key* field. The key is required for API access and must be system-wide unique. An attribute set key must fulfill the following criteria:
     - valid characters are **a-z** (upper and lower case), **0-9** and the underscore ( **_** )
     - the key must not start with a number
     - a double underscore ( **___** ) and a trailing underscore are forbidden
 
-    > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahubset_** to all attribute sets created in the *DataHub* module.
+    > [Info] In order to facilitate the assignment of sets in the further process, it is recommended to add the prefix **datahub_** to all attribute sets created in the *DataHub* module. 
 
 4. Click the *Entity type* drop-down list and select the appropriate entity type. The list of options may differ depending on the system configuration.
 
-    > Entity types are all classes interacting with the *DataHub* module.
+    > [Info] Entity types are all classes interacting with the *DataHub* module. For detailed information on entity types, see [DataHub Basics](../Overview/04_Basics.md).
 
 5. For the next steps to create an attribute set, follow the appropriate procedure:   
     - [Create an attribute set without attribute inheritance](#create-an-attribute-set-without-attribute-inheritance)
@@ -68,7 +73,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -76,9 +81,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
     The *Inherit configuration* toggle and the *Inherit/Copy values* drop-down list are locked.
 
 2. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")   
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 3. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -96,7 +99,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -107,9 +110,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Inherit** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -118,7 +119,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 When you create an attribute set with attribute copying, you copy all attributes from the selected attribute set once.
 After copying, the attribute set behaves like an attribute set without attribute inheritance.
-Further changes in the copied attribute set or not affecting the created attribute set.   
+Further changes in the copied attribute set are not affecting the created attribute set.   
 
 #### Prerequisites
 
@@ -126,7 +127,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS > Button Add*
+*DataHub > Data model > Tab ATTRIBUTE SETS > Button Add*
 
 ![Create attribute set inheritance](../../Assets/Screenshots/DataHub/Settings/AttributeSets/CreateAttributeSetInheritance.png "[Create attribute set inheritance]")
 
@@ -137,9 +138,7 @@ The basic data of the attribute set has been completed, see [Define the attribut
 3. Select the **Copy once** option in the *Inherit/Copy values* drop-down list.
 
 4. Click the [SAVE] button.   
-    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. The *Attribute set created* pop-up window is displayed.   
-
-    ![Attribute set created](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSetCreated.png "[Attribute set created]")     
+    The new attribute set has been saved. The *Create attribute set* view changes to the *Edit attribute set* view. A confirmation message is displayed.   
 
 5. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the upper left corner to return to the list of attribute sets or proceed to [edit the attribute set](#edit-an-attribute-set).
 
@@ -151,11 +150,14 @@ After you have created an attribute set, you can edit it.
 Depending on the selected inheritance type, only a certain number of attributes may be editable.
 However, you can add further attributes to an attribute set or remove unmapped attributes from an attribute set.
 
+> [Info] If the *Locked* toggle is enabled, this means that the attribute set is currently undergoing maintenance. No entity that is assigned to this attribute set can be read or written as long as the lock is in place. An overview of all locked attribute sets is displayed in the *SET LOCKS* tab, see [Attribute set locks](../UserInterface/01d_AttributeSetLocks.md).
+
+[comment]: <> (Entwicklung: LOCK-Button im Editing Toolbar abbauen?)
 
 ### Add an attribute to the set
 
 Add a new attribute to an attribute set to define any further specifications.
-In the *DataHub* module all available attributes can be added to the different attribute sets.
+In the *DataHub* module, all available attributes can be added to the different attribute sets.
 
 #### Prerequisites
 
@@ -164,7 +166,7 @@ In the *DataHub* module all available attributes can be added to the different a
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -186,7 +188,7 @@ In the *DataHub* module all available attributes can be added to the different a
 4. Click the [ADD] button in the editing toolbar.   
     The selected attributes have been added to the attribute set. The *Add attributes* view is closed. The *Edit attribute set* view is displayed again. The added attributes are displayed in the *Assigned attributes* section.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+    > [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
 
 
 ### Remove an attribute from the set
@@ -201,7 +203,7 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -214,25 +216,18 @@ Inherited attributes or mapped attributes cannot be removed from an attribute se
     The editing toolbar is displayed above the list.
 
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
-
-    > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
-
     The selected attributes have been removed from the attribute set. The list of attributes is updated.
 
-> [Info] Any changes to the assigned attributes are automatically saved in the attribute set.
+    > [Info] If the selected attributes cannot be removed from the attribute set, an error message is displayed in the upper right corner.
 
 
 ### Change the required attributes in the set
 
-The product completeness is calculated depending on the required attributes within an attribute set.
-All required attributes are marked with a *(required)* indication in the product view.
-Note that entities can be saved even if not all *(required)* attributes are completed.   
+The entity completeness, which is mostly used to determine the product completeness in the *PIM* module, is calculated depending on the required attributes within an attribute set. All required attributes are marked with a *(required)* indication in the product view in the *PIM* module. Note that entities can be saved even if not all *(required)* attributes are completed.  
 
-You can define whether an attribute should be required or not.
-Note that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   
+You can define whether an attribute should be required or not. Bear in mind that inherited attributes can only be changed in the origin attribute set and the required status is also inherited to the linked attribute sets.   
 
-Be aware that the activation or deactivation of languages affects the completeness calculation.
-Further, deactivated attributes are not included in the completeness calculation even if they are required.
+Be aware that the activation or deactivation of languages and scopes affects the completeness calculation. Further, deactivated attributes are not included in the completeness calculation even if they are required.
 
 #### Prerequisites
 
@@ -240,7 +235,7 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 
@@ -268,7 +263,7 @@ An attribute set has been created, see [Create an attribute set](#create-an-attr
 ## Deactivate an attribute set
 
 If an attribute set is no longer used, it is recommended to deactivate the attribute set to prevent any problems because of existing dependencies.
-If you deactivate an attribute set, it is no longer available when creating attributes or products.
+If you deactivate an attribute set, it is no longer available when creating attributes or other entities.
 
 #### Prerequisites
 
@@ -276,7 +271,7 @@ At least one attribute set has been created, see [Create an attribute set](#crea
 
 #### Procedure
 
-*DataHub > Settings > Tab ATTRIBUTE SETS*
+*DataHub > Data model > Tab ATTRIBUTE SETS*
 
 ![Attributes](../../Assets/Screenshots/DataHub/Settings/AttributeSets/AttributeSets.png "[Attributes]")
 

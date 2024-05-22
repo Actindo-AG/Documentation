@@ -1,25 +1,18 @@
-[!!Data type list](./04_DataTypeList.md)
-[!!Manage the attributes](../Integration/01_ManageAttributes.md)
+[!!Data type list](./05_DataTypeList.md)
+[!!Manage an attribute](../Integration/01_ManageAttributes.md)
 
 # Deleted attributes
 
-*DataHub > Settings > Tab DELETED ATTRIBUTES*
+*DataHub > Data model > Tab DELETED ATTRIBUTES*
 
 ![Deleted attributes](../../Assets/Screenshots/DataHub/Settings/DeletedAttributes/DeletedAttributes.png "[Deleted attributes]")
 
+
 **Deleted attributes list**
 
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
-    Click this button to display the search bar and search for a deleted attribute.
+The list displays all attributes that have been deleted. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)   
-    Click this button to update the list of deleted attributes.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)   
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)   
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
+The following functions are available for the editing toolbar:
 
 - [x]     
     Select the checkbox to display the editing toolbar. Alternatively, you can click directly a row in the list to select the attribute and display the editing toolbar. If you click the checkbox in the header, all attributes in the list are selected.
@@ -30,7 +23,7 @@
 - [DELETE]   
     Click this button to irretrievably delete the selected attribute. This button is only displayed if the checkbox of an attribute is selected.       
 
-The list displays all deleted attributes. Depending on the settings, the displayed columns may vary. All fields are read-only.
+The following functions and fields are available in this view:
 
 - *Name*   
     Attribute name.
@@ -49,10 +42,10 @@ The list displays all deleted attributes. Depending on the settings, the display
     - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-language.  
     - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single language.
 
-- *Multi-channel*   
-    Indication whether the attribute is multi-channel or not:
-    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-channel.  
-    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single channel.
+- *Multi-scope*   
+    Indication whether the attribute is multi-scope or not:
+    - ![Check](../../Assets/Icons/Check.png "[Check]") (Checkmark): The attribute is multi-scope.  
+    - ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross): The attribute is single scope.
 
 - *Plugin*   
     Module or plugin that owns the attribute.
@@ -60,7 +53,7 @@ The list displays all deleted attributes. Depending on the settings, the display
 - *ID*   
     Attribute identification number. The ID number is automatically assigned by the system.
 
-- *Active*   
+- *Status*   
     Attribute status. The following statuses are available:
     - ![Status](../../Assets/Icons/Status01.png "[Status]") **Active**
     - ![Status](../../Assets/Icons/Status04.png "[Status]") **Inactive**   
@@ -76,3 +69,5 @@ The list displays all deleted attributes. Depending on the settings, the display
 
 - *Created by*   
     Name and username of the user who created the attribute.
+
+

@@ -13,6 +13,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 - [Processes overview](./03_Processes.md)
 
-- [DataHub Basics](./04_Basics.md)
+- [DataHub basics](./04_Basics.md)
     - [Data model](./04_Basics.md#data-model)
     - [ETL process](./04_Basics.md#etl-process)

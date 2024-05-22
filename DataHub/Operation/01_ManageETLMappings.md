@@ -1,8 +1,8 @@
 [!!Manage the ETL processes](./02_ManageETLProcesses.md)
 [!!Manage an attribute set](../Integration/02_ManageAttributeSets.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
-[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
-[!!Data type list](../UserInterface/04_DataTypeList.md)
+[!!User interface mappings](../UserInterface/02a_Mappings.md)
+[!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
+[!!Data type list](../UserInterface/05_DataTypeList.md)
 
 # Manage the ETL mappings
 
@@ -22,7 +22,7 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -30,6 +30,8 @@ At least two attribute sets have been created, see [Create an attribute set](../
     The *Create ETL attribute set mapping* window is displayed.
 
     ![Create ETL attribute set mapping](../../Assets/Screenshots//DataHub/Settings/ETL/CreateETLAttributeSetMapping.png "[Create ETL attribute set mapping]")
+
+[comment]: <> (Terminologie: Abweichung in Screenshot. Create mapping of ETL attribute set sollte Create ETL attribute set mapping sein oder Create attribute set ETL mapping -> Translation files zu korrigieren)
 
 2. Select a source attribute set in the *Source attribute set* drop-down list. All active attribute sets are displayed in the drop-down list.
 
@@ -40,9 +42,9 @@ At least two attribute sets have been created, see [Create an attribute set](../
 
     > [Info] The selected language defines the language from which the value of a multi-language attribute is taken when mapping it to a single language attribute.
 
-5. Select a channel in the *Channel* drop-down list. All active channels are displayed in the drop-down list.
+5. Select a scope in the *Scope* drop-down list. All active scopes are displayed in the drop-down list.
 
-    > [Info] The selected channel defines the channel from which the value of a multi-channel attribute is taken when mapping it to a single channel attribute.
+    > [Info] The selected scope defines the scope from which the value of a multi-scope attribute is taken when mapping it to a single scope attribute.
 
 6. If desired, select an existing ETL attribute set mapping in the *Copy ETL attribute set mapping* drop-down list. All attribute set mappings whose destination attribute set matches or has inheritance relations to the selected destination attribute set are displayed in the drop-down list.
 
@@ -63,13 +65,15 @@ You can edit the attribute mappings within an attribute set mapping, add a custo
 
 When editing an ETL attribute mapping, you can create a mapping to an unmapped destination attribute, change the source attribute or the change tracking mode of an existing mapping.  
 
+ > [Info] The change tracking mode determines the way the data is synchronized between the mapped attributes when a value is changed. This can take place manually, automatically, semi-automatically, or after the approval of another user. 
+
 #### Prerequisites
 
 At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -90,8 +94,8 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 3. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
     If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).    
-    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
+    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/05_DataTypeList.md).    
+    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/04_ETLExtensions.md).
 
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following options are available:
     - **Use default**   
@@ -119,47 +123,47 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 ### Add a custom mapping for a destination attribute
 
-When creating an ETL attribute set mapping, you define the language and the channel from which the values are taken for multi-language and multi-channel source attributes.
-Within an attribute set mapping, you can define custom channel and language attribute mappings for multi-language and multi-channel destination attributes.
+When creating an ETL attribute set mapping, you define the language and the scope from which the values are taken for multi-language and multi-scope source attributes.
+Within an attribute set mapping, you can define custom scope and language attribute mappings for multi-language and multi-scope destination attributes.
 
 #### Prerequisites
 
-At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
-- The destination attribute is multi-language and/or multi-channel.
+- At least one ETL attribute set mapping has been created, see [Create an ETL attribute set mapping](#create-an-etl-attribute-set-mapping).
+- The destination attribute is multi-language and/or multi-scope.
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
-1. Click the attribute set mapping to which you want to add a differing language or channel attribute mapping for a certain destination attribute.   
+1. Click the attribute set mapping to which you want to add a custom language or scope attribute mapping for a certain destination attribute.   
     The *Mapping from "Source attribute set name" to "Destination attribute set name"* view is displayed.
 
     ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Select the checkbox of the attribute mapping to which you want to add a differing mapping for another language or channel.
+2. Select the checkbox of the attribute mapping to which you want to add a custom mapping for another language or scope.
     The editing toolbar is displayed above the attribute mappings.
 
     ![Mapping selected](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSelected.png "[Mapping selected]")
 
-3. Click the [CUSTOM DESTINATION ATTRIBUTE CHANNEL AND LANGUAGE] button in the editing toolbar. This button is only displayed if the destination attribute of the selected mapping is multi-language or multi-channel.
+3. Click the [CUSTOM DESTINATION ATTRIBUTE SCOPE AND LANGUAGE] button in the editing toolbar. This button is only displayed if the destination attribute of the selected mapping is multi-language or multi-scope.
     The *Settings* section is displayed on the right side.
 
     ![Custom mapping](../../Assets/Screenshots/DataHub/Settings/ETL/CustomMapping.png "[Custom mapping]")
 
     > [Info] Depending on the destination attribute, the additional drop-down lists displayed in the *Settings* section differ:
     - If the destination attribute is multi-language, the *Language* drop-down list is displayed additionally below the destination attribute.
-    - If the destination attribute is multi-channel, the *Channel* drop-down list is displayed additionally below the destination attribute.
-    - If the destination attribute is multi-language and multi-channel, the *Language* and the *Channel* drop-down lists are additionally displayed below the destination attribute.
+    - If the destination attribute is multi-scope, the *Scope* drop-down list is displayed additionally below the destination attribute.
+    - If the destination attribute is multi-language and multi-scope, the *Language* and the *Scope* drop-down lists are additionally displayed below the destination attribute.
 
-4. Select the appropriate language in the *Language* and/or the appropriate channel in the *Channel* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Channel* drop-down list, all active channels are displayed.    
+4. Select the appropriate language in the *Language* and/or the appropriate scope in the *Scope* drop-down list in the *Settings* section. In the *Language* drop-down list, all active languages are displayed. In the *Scope* drop-down list, all active scopes are displayed.    
 
 5. Select the appropriate option in the *Extension* drop-down list in the *Settings* section. All extensions that are matching the data type of the destination attribute are displayed in the drop-down list.   
     If the selected extension requires further configuration settings, the *Configuration* section is displayed below the *Settings* section.
 
-    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/04_DataTypeList.md).   
-    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/03_ETLExtensions.md).
+    > [Info] For detailed information about the data types, see [Data type list](../UserInterface/05_DataTypeList.md).   
+    For detailed information about the ETL extensions, see [ETL extensions list](../UserInterface/04_ETLExtensions.md).
 
 6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **Use default** option is preselected. The following modes are available:
     - **Use default**   
@@ -178,7 +182,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 8. If required, select or enter the corresponding configuration settings in the *Configuration* section.   
 
 9. Click the [SAVE] button in the upper right corner.   
-    The mapping has been created and is added to the list of attribute mappings on the left side. The selected language and/or channel is indicated in brackets behind the destination attribute. The *Settings* section is hidden.
+    The mapping has been created and is added to the list of attribute mappings on the left side. The selected language and/or scope is indicated in brackets behind the destination attribute. The *Settings* section is hidden.
 
 
 ### Delete an ETL attribute mapping
@@ -191,7 +195,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -208,7 +212,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 3. Click the ![Delete](../../Assets/Icons/Trash03.png "[Delete]") (Delete) button in the editing toolbar.   
     The attribute mapping has been deleted from the list.
 
-    > [Info] When deleting an attribute mapping, the mapping to the destination attribute, but not the destination attribute itself, is deleted from the attribute mapping list. The destination attribute is only deleted if the attribute mapping was a custom language or channel mapping. In this case, the original destination attribute without customized language or channel is still available in the list of attribute mappings.
+    > [Info] When deleting an attribute mapping, the mapping to the destination attribute, but not the destination attribute itself, is deleted from the attribute mapping list. The destination attribute is only deleted if the attribute mapping was a custom language or scope mapping. In this case, the original destination attribute without customized language or scope is still available in the list of attribute mappings.
 
 4. Repeat the steps **2** and **3** for all attributes you want to delete.
 
@@ -234,7 +238,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -258,12 +262,13 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
     > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 5. Click the [SAVE] button in the *Rerun single mapping* window.   
-    The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
-
-    ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+    The mapping rerun has been started. A confirmation message is displayed.
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.   
-    For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+    For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
+
+
+[comment]: <> (Terminologie: Abweichung in Screenshot. Rerun selected mapping und Rerun mappings jetzt anders in terminologie-einspielen sandbox. S. Screenshots)
 
 
 ### Rerun an attribute set mapping
@@ -278,7 +283,7 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL*
+*DataHub > ETL > Tab MAPPINGS*
 
 ![Attribute set mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Attribute set mappings]")
 
@@ -290,16 +295,14 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 2. Click the [RERUN MAPPINGS] button in the upper right corner.   
     The *Rerun all mappings* window is displayed.
 
-    ![Rerun all mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunSingleMapping.png "[Rerun single mapping]")
+    ![Rerun all mapping](../../Assets/Screenshots/DataHub/Settings/ETL/RerunAllMappings.png "[Rerun all mappings]")
 
 3. If desired, enable the *Also rerun mapping for entities with manual change tracking (or if the change tracking override of this mapping is manual)?* toggle.
 
-    > [Info] If you enable the *Also rerun mapping for entities with manual change tracking (or if the change-tracking override of this mapping is manual)?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
+    > [Info] If you enable the *Also rerun mappings for entities with manual change tracking?* toggle, the mapping will rerun regardless of the selected change tracking mode.     
 
 4. Click the [SAVE] button in the *Rerun single mapping* window.   
-    The mapping rerun has been started. A pop-up window is displayed to inform that the job has been triggered.
-
-    ![Job triggered](../../Assets/Screenshots/DataHub/Settings/ETL/JobMappingTriggered.png "[Job triggered]")
+    The mapping rerun has been started. A confirmation message is displayed.
 
     The current status of the job is displayed in the *ETL PROCESSES* tab.    
-    For detailed information, see [Check the ETL processes](./02_ManageETLProcesses.md#check-the-etl-processes).
+    For detailed information, see [Check the ETL process status](./02_ManageETLProcesses.md#check-the-etl-process-status).
