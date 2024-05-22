@@ -1414,7 +1414,7 @@ This extension is used to map a text to a country attribute. This mapping is mai
 
 ![String to number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToNumber.png "[String to number]")
 
-This extension is used to map a string attribute to a number. The value is mapped unchanged, only the data type of the attribute changes. In contrast to the *String to absolute number* extension, both decimal and absolute numbers can be mapped to the destination attribute.
+This extension is used to map a string attribute to a number. The value is mapped unchanged, only the data type of the attribute changes. In contrast to the *String to absolute number* extension, both positive and negative numbers can be mapped to the destination attribute.
 
 [comment]: <> (Check!)
 
@@ -1718,7 +1718,7 @@ This ETL extension has no further configuration settings.
 
 ![Unit value to number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToNumber.png "[Unit value to number]")
 
-This extension is used to map a unit attribute to a number. Both decimal and absolute numbers are allowed in the destination attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is converted into the unit of the destination attribute. Define the unit in the configuration.
+This extension is used to map a unit attribute to a number. Both decimal and whole numbers are allowed in the destination attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is converted into the unit of the destination attribute. Define the unit in the configuration.
 
 ### Possible data type mappings
 
