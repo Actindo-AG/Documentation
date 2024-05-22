@@ -1716,7 +1716,7 @@ This ETL extension has no further configuration settings.
 
 ![Unit value to number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/UnitValueToNumber.png "[Unit value to number]")
 
-This extension is used to map a unit attribute to a number. Both decimal and whole numbers are allowed in the destination attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is converted into the unit of the destination attribute. Define the unit in the configuration.
+This extension is used to map a unit attribute to a number. Both whole and decimal numbers are allowed in the destination attribute. A unit attribute always includes a unit and a quantity. Only the quantity value is mapped to the destination attribute. To map the quantity value in the correct unit, the quantity is converted into the unit of the destination attribute. Define the unit in the configuration.
 
 ### Possible data type mappings
 
