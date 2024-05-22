@@ -5,9 +5,7 @@ This enables companies to customize their individual data fields and sources for
 The *Actindo Data Hub (DataHub)* module is therefore the system’s central data hub.
 Its flexible data model enables complex and varying data to be mapped, transformed and transferred to other modules as well as external systems – all of this fully automated via ETL.
 
-This documentation refers to the *DataHub* module version 4.6.0. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
-
-[comment]: <> (Entwicklung: Stimmt die Version hier? In terminologie-einspielen2 Sandbox ist die Version 4.8.0 pre-release)
+This documentation refers to the *DataHub* module version 4.8.0. There may be differences in the UI, features and operation if your *DataHub* module is installed in a different version.
 
 
 ## Benefits
