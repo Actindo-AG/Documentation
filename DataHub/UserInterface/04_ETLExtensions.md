@@ -237,7 +237,7 @@ This extension is used to map a Cloudinary image to a string attribute. Select a
 
 ![Constant value](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/ConstantValue.png "[Constant value]")
 
-This extension is used to map a constant value to a destination attribute. The fixed source value is defined in the configuration and never changes. This extension is often used according to receipts, for instance to define the receipt type.
+This extension is used to map a constant value to a destination attribute. The fixed source value is defined in the configuration and never changes. This extension is often used according to business documents, for instance to define the business document type.
 
 ### Possible data type mappings
 
@@ -773,7 +773,7 @@ This extension is used to map an attribute with one or more fallback attributes 
 
 ![Number to string](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToString.png "[Number to string]")
 
-This extension is used to map a number to text. Both absolute and decimal number values are allowed in the source attribute. The value is mapped unchanged, only the data type of the attribute changes.
+This extension is used to map a number to text. Both whole and decimal number values are allowed in the source attribute. The value is mapped unchanged, only the data type of the attribute changes.
 
 ### Possible data type mappings
 
@@ -794,7 +794,7 @@ This ETL extension has no further configuration settings.
 
 ![Number to unit value](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/NumberToUnitValue.png "[Number to unit value]")
 
-This extension is used to map a number to a unit attribute. Both absolute and decimal number values are allowed in the source attribute. A unit attribute always includes a quantity and a unit value. This mapping is used to map a source attribute, which is maintained in a certain unit and therefore does not include the unit in the source attribute, to a unit attribute. Define the unit settings in the configuration.
+This extension is used to map a number to a unit attribute. Both whole and decimal number values are allowed in the source attribute. A unit attribute always includes a quantity and a unit value. This mapping is used to map a source attribute, which is maintained in a certain unit and therefore does not include the unit in the source attribute, to a unit attribute. Define the unit settings in the configuration.
 
 ### Possible data type mappings
 
@@ -887,7 +887,7 @@ This ETL extension has no further configuration settings.
 
 ![PIM base price to VPE reference unit](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/PIMBasePriceToVPEReferenceUnit.png "[PIM base price to VPE reference unit]")
 
-This extension is used to map a PIM base price attribute to a number. Both absolute and decimal number values are allowed in the destination attribute. The PIM base price is Actindo-specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the relevant amount is taken and the corresponding reference amount is mapped to the destination attribute. By default, the reference amount equals **0,1** for all amounts smaller than **0,25** and to the specified amount for all amounts greater than **0,25**.
+This extension is used to map a PIM base price attribute to a number. Both whole and decimal number values are allowed in the destination attribute. The PIM base price is Actindo-specific and contains the dimension, the unit and the relevant amount for the base price. Each of this data is extracted from the PIM base price attribute by the corresponding extension. In this case, the relevant amount is taken and the corresponding reference amount is mapped to the destination attribute. By default, the reference amount equals **0,1** for all amounts smaller than **0,25** and to the specified amount for all amounts greater than **0,25**.
 
 ### Possible data type mappings
 
@@ -1284,7 +1284,7 @@ This extension is used to map a date within a string attribute to a text attribu
 
 ![String to image](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToImage.png "[String to image]")
 
-This extension is used to map multiple string attributes to an image attribute. At least one string attribute containing the image URL must be selected for the mapping and up to eight source attributes can be mapped. You can define the image attribute separator in the configuration. To each image you can define one or several tags. 
+This extension is used to map multiple string attributes to an image attribute. At least one string attribute containing the image URL must be selected for the mapping and up to eight source attributes can be mapped. To map several image URLs within one source attribute, define a separator in the configuration. To each image you can define one or several tags. 
 
 ### Possible data type mappings
 
@@ -1305,7 +1305,7 @@ This extension is used to map multiple string attributes to an image attribute. 
 
 ![String concat to string](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringConcatToString.png "[String concat to string]")
 
-This extension is used to map multiple string attributes to a single string attribute. This extension is often used in the receipt management, for instance to combine the receipt type and the receipt number, which are stored in different source attributes, in a single destination attribute. At least two source attributes must be selected and up to ten attributes can be selected. The source attribute values are written one after the other in the destination attribute without separation. Define a connector or separator in the configuration.
+This extension is used to map multiple string attributes to a single string attribute. This extension is often used in the business document management, for instance to combine the business document type and the business document number, which are stored in different source attributes, in a single destination attribute. At least two source attributes must be selected and up to ten attributes can be selected. The source attribute values are written one after the other in the destination attribute without separation. Define a connector or separator in the configuration.
 
 ### Possible data type mappings
 
@@ -1326,7 +1326,7 @@ This extension is used to map multiple string attributes to a single string attr
 
 ![String to absolute number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToAbsoluteNumber.png "[String to absolute number]")
 
-This extension is used to map a string attribute to an absolute number, that is, a positive number. The value is mapped unchanged, except for the sign, and only the data type of the attribute changes. For example, if **-1.2** is contained in the source attribute, it will be converted to **1.2** in the destination attribute. 
+This extension is used to map a string attribute to an absolute number, that is, a positive number. The value is mapped unchanged, except for the sign, and only the data type of the attribute changes. For example, if **-1.2** is contained in the source attribute, it will be converted to **1.2** in the destination attribute. To map negative numbers, use the *String to number* extension.
 
 ### Possible data type mappings
 
@@ -1415,8 +1415,6 @@ This extension is used to map a text to a country attribute. This mapping is mai
 ![String to number](../../Assets/Screenshots/DataHub/Settings/ETL/Extensions/StringToNumber.png "[String to number]")
 
 This extension is used to map a string attribute to a number. The value is mapped unchanged, only the data type of the attribute changes. In contrast to the *String to absolute number* extension, both positive and negative numbers can be mapped to the destination attribute.
-
-[comment]: <> (Check!)
 
 ### Possible data type mappings
 
