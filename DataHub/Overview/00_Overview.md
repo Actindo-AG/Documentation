@@ -4,7 +4,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 - [General information](./01_General.md)
     - [Benefits](./01_General.md#benefits)
-    - [Prerequisites](./01_General.md#prerequisites)
+    - [Further information](./01_General.md#further-information)
 
 - [Key features](./02_Features.md)
     - [What is ETL](./02_Features.md#what-is-etl)

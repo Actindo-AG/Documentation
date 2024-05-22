@@ -9,6 +9,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Edit attribute](./01a_Attributes.md#edit-attribute)
            - [Edit attribute &ndash; Data](./01a_Attributes.md#edit-attribute-–-data)
             - [Edit attribute &ndash; Attribute set assignments](./01a_Attributes.md#edit-attribute-–-attribute-set-assignments)
+            - [Update attribute key](./01a_Attributes.md#update-attribute-key)
 
     - [ATTRIBUTE SETS](./01b_AttributeSets.md)
         - [Create attribute set](./01b_AttributeSets.md#create-attribute-set)
@@ -59,7 +60,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [Attributes](./06_AttributesTab.md)  
 
 - [Dependencies](./07_DependenciesTab.md)   
-   - [Dependencies  &ndash; Rerun mapping](./07_DependenciesTab.md#dependencies-–-rerun-mapping)   
 
 - [Variant sets](./08_VariantSets.md)   
     - [Create variant set](./08_VariantSets.md#create-variant-set)
