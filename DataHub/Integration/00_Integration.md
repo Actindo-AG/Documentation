@@ -7,8 +7,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Edit an attribute](./01_ManageAttributes.md#edit-an-attribute)
     - [Deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute)
     - [Delete an attribute](./01_ManageAttributes.md#delete-an-attribute)
-    - [Recover an attribute](./01_ManageAttributes.md#recover-an-attribute)
-    - [Permanently delete an attribute](./01_ManageAttributes.md#permanently-delete-an-attribute)
 
 
 - [Manage an attribute set](./02_ManageAttributeSets.md)  

@@ -9,6 +9,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Edit attribute](./01a_Attributes.md#edit-attribute)
            - [Edit attribute &ndash; Data](./01a_Attributes.md#edit-attribute-–-data)
             - [Edit attribute &ndash; Attribute set assignments](./01a_Attributes.md#edit-attribute-–-attribute-set-assignments)
+            - [Update attribute key](./01a_Attributes.md#update-attribute-key)
 
     - [ATTRIBUTE SETS](./01b_AttributeSets.md)
         - [Create attribute set](./01b_AttributeSets.md#create-attribute-set)
@@ -59,7 +60,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
 - [Attributes](./06_AttributesTab.md)  
 
 - [Dependencies](./07_DependenciesTab.md)   
-   - [Dependencies  &ndash; Rerun mapping](./07_DependenciesTab.md#dependencies-–-rerun-mapping)   
 
 - [Variant sets](./08_VariantSets.md)   
     - [Create variant set](./08_VariantSets.md#create-variant-set)
@@ -168,7 +168,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [PIM-Channels connection](./05_DataTypeList.md#pim-scopes-connection-internal-not-editable)
     - [UCS product bundle](./05_DataTypeList.md#ucs-product-bundle-internal-not-editable)
     - [PIM product variants](./05_DataTypeList.md#pim-product-variants)
-    - [URLs](./05_DataTypeList.md#urls-internal-not-editable)
+    - [URLs](./05_DataTypeList.md#urls)
     - [Cloudinary image](./05_DataTypeList.md#cloudinary-image)
     - [Cloudinary video](./05_DataTypeList.md#cloudinary-video)
     - [XML](./05_DataTypeList.md#xml-internal-not-editable)
