@@ -1,6 +1,6 @@
 # General
 
-Webhooks are an easy way to send data to recipients. With Actindo's *Webhooks* module, you can not only define explicitly the data to be transferred, but also the events that trigger the sending of webhooks messages, as well as the way in which the data is to be sent.
+Webhooks are an easy way to send data to recipients. With Actindo's *Webhooks* module, you cannot only define explicitly the data to be transferred, but also the events that trigger the sending of webhooks messages, as well as the way in which the data is to be sent.
 
 
 
@@ -12,13 +12,12 @@ Events that are not triggered by a request from your side, for example when a sh
 
 Receive important updates related to your account (Adyen).
 
-Bis 25:00
+
 
 ## Benefits
 
 - Specify what and how to transfer data for each recipient
-
-- Optional authentification
+- Optional authentication
 - Webhooks for sequential or parallel processing
 
 

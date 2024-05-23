@@ -1,7 +1,7 @@
 # Key features
 
 - Execution workers    
-    Each webhook is given how it should be processed. It is a combination of itself with an execution worker, which defines how the webhooks are to be sent. The webhook defines the recipient and the data that should trigger the events, the worker identifies the webhooks in the queue. 
+    Each webhook is given how it should be processed. It is a combination of itself with an execution worker, which defines how the webhooks are to be sent. The webhook defines the recipient and the data that should trigger the events, the execution worker identifies the affected webhooks in the queue. 
 
 - Retries   
     If the recipient is currently down or other situations prevent a webhook from being successfully sent: It will be retried as many times you have specified in the execution workers until the recipient confirms receiving the message.
@@ -10,11 +10,10 @@
     If you have customer-specific DataHub entities that should trigger an event, you can add them to the webhook definition.
 
 - Conditions    
-     You can strictly narrow the circumstances under which a webhook is to be sent, for example, if a stock level has changed.
+    You can strictly narrow the circumstances under which a webhook is to be sent, for example, if a stock level has changed.
 
 - Authentification
-     You can optionally use an authentification, whereby you can choose between xxxx or a secret key (standard hash algorithm **sha265**)
-    
+    You can optionally use an authentication, whereby you can choose between xxxx or a secret key (standard hash algorithm **sha265**).    
 
 
 
