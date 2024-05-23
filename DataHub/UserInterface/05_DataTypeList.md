@@ -35,7 +35,7 @@ In the following, the available data types, their use and their configuration an
 - [PIM-Channels connection](#pim-scopes-connection-internal-not-editable)
 - [UCS product bundle](#ucs-product-bundle-internal-not-editable)
 - [PIM product variants](#pim-product-variants)
-- [URLs](#urls)
+- [URLs](#urls-internal-not-editable)
 - [Cloudinary image](#cloudinary-image)
 - [Cloudinary video](#cloudinary-video)
 - [XML](#xml-internal-not-editable)
