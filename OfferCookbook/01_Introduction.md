@@ -8,7 +8,16 @@ After a product has been created in the *PIM* module, an offer for that product 
 Entities and actions involved
 
 
+Links to Process Orchestration
+
+[Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow)
+[Define the workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings)
+[Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition)
+
+
 ## How to set up an offer from product basic workflow
+
+
 
 To set up a workflow, you have to create a new workflow and define the basic settings first. For detailed information, see [Define workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings). 
 
