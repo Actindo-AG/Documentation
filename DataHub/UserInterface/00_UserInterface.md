@@ -168,7 +168,7 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [PIM-Channels connection](./05_DataTypeList.md#pim-scopes-connection-internal-not-editable)
     - [UCS product bundle](./05_DataTypeList.md#ucs-product-bundle-internal-not-editable)
     - [PIM product variants](./05_DataTypeList.md#pim-product-variants)
-    - [URLs](./05_DataTypeList.md#urls-internal-not-editable)
+    - [URLs](./05_DataTypeList.md#urls)
     - [Cloudinary image](./05_DataTypeList.md#cloudinary-image)
     - [Cloudinary video](./05_DataTypeList.md#cloudinary-video)
     - [XML](./05_DataTypeList.md#xml-internal-not-editable)
