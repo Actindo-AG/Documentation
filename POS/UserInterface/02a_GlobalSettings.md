@@ -364,6 +364,7 @@ The *Remind of offers* setting allows the cashiers to suggest additional offers 
 - ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add)   
     Click this button to add an SKU. A new line for an SKU is displayed.
 
+
 <!--- Neu-->
 ### Regex for customer code
 
@@ -371,7 +372,26 @@ The *Remind of offers* setting allows the cashiers to suggest additional offers 
 
 ![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
-Define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.
+The *Regex for customer-code* settings allows you to define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Regex for customer-code*   
+    Enter a regular expression that the system can use to uniquely identify a customer-code. For detailed information about regular expressions, see [https://regex101.com/](https://regex101.com/ "[https://regex101.com/]") on the *regular expressions 101* website.
+
+
+
+<!---NEU-->
+### Allow negative quantities
+
+*POS > Management > Tab GLOBAL SETTINGS > Allow negative quantities*
+
+![Allow negative quantities](../../Assets/Screenshots/POS/Management/GlobalSettings/AllowNegativeQuantities.png "[Allow negative quantities]")
+
+The *Allow negative quantities* allows your cashiers to accept a return and to refund the amount due. For detailed information, see 
+
+
 
 
 

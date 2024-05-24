@@ -6,7 +6,6 @@
 The *POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
 
 
-
 ## Use single scan
 
 If the same offer is selected more than once, it is displayed in the bill list as one line item with the corresponding quantity indication.     
@@ -14,7 +13,8 @@ Optionally, you can activate the single scan feature before you select the offer
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- There is no offer in the bill list yet.
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -35,6 +35,41 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     The same product is listed in an own entry in the bill list.
 
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
+
+
+
+## Record a return
+
+Record a return, so that a negative quantity is posted in the bill list, and you can hand over the money to the customer. You can add multiple different offers as well as the required quantity of a single offer.   
+
+Note hat when you edit a return, all posts on the bill list must be returns. You cannot combine purchases and returns in one bill list. 
+
+#### Prerequisite
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Your company uses the *Allow negative quantities* setting. For detailed information, see [Allow negative quantities](../UserInterface/02a_GlobalSettings.md#allow-negative-quantities).
+- There is no offer in the bill list yet.
+
+
+#### Procedure
+
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
+
+1. Enable the *Negative quantity* toggle.   
+    The *Negative quantity* toggle is displayed in red.
+
+    ![Negative quantity](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListNegativeQuantity.png "[Negative quantity]")
+
+2. Select the offer(s), see [Select an offer](#select-an-offer).   
+    The offers are added to the bill list with a negative amount on the right side.   
+    ![Negative amount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListNegativeAmount.png "[Negative amount]")
+
+3. Complete the purchase, see [Complete a purchase](./04_CompletePurchase.md).
+
+4. Hand over the money to the customer.
+    
 
 
 ## Select an offer
@@ -121,8 +156,8 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding offer in the list.   
-    The offer is added to the bill list on the right side if no age rating prevents this, see [Verify the age](#verify-the-age).   
-    
+    The offer is added to the bill list on the right side.  
+
     > [Info] The number remains in the search bar when you add an offer to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
