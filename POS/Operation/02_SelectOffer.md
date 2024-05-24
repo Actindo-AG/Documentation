@@ -60,7 +60,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 3. Select the desired offer by clicking the corresponding product in the list.   
     The offer is added to the bill list on the right side.
 
-    > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the  search results list for this keyword is displayed again.
+    > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
 
 
