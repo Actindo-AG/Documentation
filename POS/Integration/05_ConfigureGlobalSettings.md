@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
-![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
+![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
 1. Click the *Default customer* entry in the list of settings in the left column.   
     The *Default customer* view is displayed on the right side.
@@ -52,7 +52,7 @@ No prerequisites to fulfill.
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
-![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT ID]")
+![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
 1. Click the *VAT ID* entry in the list of settings in the left column.   
     The *VAT ID* view is displayed on the right side.
