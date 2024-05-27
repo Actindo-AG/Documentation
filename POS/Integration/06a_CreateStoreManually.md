@@ -435,7 +435,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 *POS > Management > Tab GLOBAL SETTINGS > Entry Account assignment*
 
-![Assign accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Assign accounts global settings]")
+![Assign accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignment.png "[Assign accounts global settings]")
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
 For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
@@ -458,7 +458,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 *POS > Management > Tab STORES > Select Store > Tab Admin Settings > Entry Account assignment*
 
-![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts Store Settings]")
+![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts Store Settings]")
 
 > [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings. 
 
@@ -486,7 +486,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 *POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Entry Account assignment*
 
-![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings07.png "[Assign accounts pay desk settings]")
+![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts pay desk settings]")
 
 > [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings.   
 
