@@ -2,7 +2,7 @@
 
 *POS > Management > Tab TSS PROVIDERS*
 
-![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProvidersFiskalyConn.png "[TSS Providers]")
+![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 
 The list shows the connections that have been created to use the Fiskaly&trade; solution for TSS.
 

@@ -34,7 +34,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 2. Click the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount or select the **EUR** option to apply a fixed amount discount to the offer.   
     The selected option is displayed in the drop-down list.
 
-        > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
+    > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 

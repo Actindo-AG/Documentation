@@ -511,7 +511,8 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
-Except for the following settings, all settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md)
+All settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md)
+
 
 **Settings not part of the global settings**
 
