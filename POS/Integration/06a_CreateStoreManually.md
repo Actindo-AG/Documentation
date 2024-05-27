@@ -51,7 +51,7 @@ Create a store manually, if you do not want to use the wizard.
 3. Enter a store name in the *Name* field.
 
 4. Click the [CREATE] button.   
-    The *Creating Store* message is displayed. The new store is displayed in the *STORES* tab. The *Basic settings* tab is displayed by default.
+    The *Creating Store* message is displayed. The new store is displayed in the *STORES* tab. The *Basic data* tab is displayed by default.
 
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
