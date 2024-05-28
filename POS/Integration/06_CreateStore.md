@@ -27,7 +27,7 @@ The store wizard guides you through all steps to create a store and its full fun
 
 #### Procedure
 
-*POS > Management > Tab STORES*
+*Venduo POS > Management > Tab STORES*
 
 ![Stores](../../Assets/Screenshots/POS/Management/Stores/Stores.png "[Stores]")
 
@@ -48,7 +48,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 1*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 1*
 
 ![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard]")
 
@@ -80,7 +80,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
         Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
     - *Omni-Channel* module   
     The following attribute sets have been created:    
-        - A connection *POS store "Name of new store"*
+        - A connection *Venduo POS store "Name of new store"*
         - A variant set *Set for POS for "Name of the new store"* 
         - A variant set *Offer option set for POS store "Name of the new store"* <!--- bei meinem letzten Store "Actindo2" hat er den jetzt nicht erstellt??-->
 
@@ -97,7 +97,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 2*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 2*
 
 ![Wizard 02](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Store Wizard, STEP 2]")
 
@@ -125,7 +125,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 3*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 3*
 
 ![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard]")
 
@@ -158,7 +158,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 4*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 4*
 
 ![Wizard 04](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Store Wizard]")
 
@@ -180,7 +180,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 5*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 5*
 
 ![Wizard 05](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Store Wizard]")
 
@@ -210,7 +210,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 6*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 6*
 
 ![Wizard 06](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Store Wizard]")
 
@@ -231,7 +231,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 7*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 7*
 
 ![Wizard 07](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07a.png "[Store Wizard]")
 
@@ -263,7 +263,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 #### Procedure
 
-*POS > Management > Tab STORES > Button Add > Store Wizard - Step 8*
+*Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 8*
 
 ![Wizard 08](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Store Wizard]")
 

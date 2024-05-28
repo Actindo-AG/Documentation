@@ -19,7 +19,7 @@ To perform any operation on the pay desk, you must first open one.
 
 #### Procedure
 
-*POS > Sales > Tab CASHPOINT*
+*Venduo POS > Sales > Tab CASHPOINT*
 
 ![POS Sales Select](../../Assets/Screenshots/POS/Sales/Select.png "[POS Sales Select]")
 

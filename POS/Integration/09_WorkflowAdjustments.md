@@ -14,11 +14,11 @@ The following describes in detail how to perform these two different operations 
 
 Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
 
-The order workflow is used to post an order confirmation business document (RB) to the *Order Management* module. There, further processing is initiated, such as postings to the *Warehousing* and the *Accounting* modules. When using the *POS* module, the order confirmation generates an open item in the customer's account in the *Accounting* module. In order to clear this open item, a cash invoice business document (RB) must be created in addition. This is then used to post cash payments in the *Accounting* module. For this reason, you must extend your order workflow, so that the cash invoice business document is posted to the *Accounting* module.
+The order workflow is used to post an order confirmation business document (RB) to the *Order Management* module. There, further processing is initiated, such as postings to the *Warehousing* and the *Accounting* modules. When using the *Venduo POS* module, the order confirmation generates an open item in the customer's account in the *Accounting* module. In order to clear this open item, a cash invoice business document (RB) must be created in addition. This is then used to post cash payments in the *Accounting* module. For this reason, you must extend your order workflow, so that the cash invoice business document is posted to the *Accounting* module.
 
 The following procedures describe step-for-step how you can include the relevant processing for sales-related POS postings into your existing order workflow.
 
-> [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *POS* module are not available in the standard, the processing is not part of this standard workflow.
+> [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *Venduo POS* module are not available in the standard, the processing is not part of this standard workflow.
 
 
 ### Split the order confirmation and cash invoice processing

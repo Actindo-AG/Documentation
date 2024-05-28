@@ -1,6 +1,6 @@
 # TSS Providers
 
-*POS > Management > Tab TSS PROVIDERS*
+*Venduo POS > Management > Tab TSS PROVIDERS*
 
 ![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 

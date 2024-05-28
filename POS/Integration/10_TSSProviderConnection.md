@@ -1,4 +1,4 @@
-# Create connection to TSS Provider
+# Create a connection to a TSS provider
 
 In Germany, the Kassensicherungsverordnung (KassenSichV) is an ordinance that define the technical requirements for electronic recording and security systems in business transactions. It enforces that merchants record all transactions in a non-manipulable manner.   
 The TSS (Technical security system) must fulfill certain requirements and needs certification. It must generate certain data like a sequence number, digital signing, and much more. This information must be either printed on the receipt in a human-readable form or encoded in a QR code that can be scanned to reveal the information.   
@@ -15,7 +15,7 @@ fiskaly&trade; Actindo master account. Usually you have only one TSS connection.
 
 #### Procedure
 
-*POS > Management > Tab TSS PROVIDERS*
+*Venduo POS > Management > Tab TSS PROVIDERS*
 
 ![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 
@@ -27,7 +27,7 @@ fiskaly&trade; Actindo master account. Usually you have only one TSS connection.
 2. Select *Fiskaly* in the *Driver* drop-down list.   
     The *Credentials* section is displayed.
 
-    ![Fiskaly connection](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[Fiskaly connection]") <!---Screenshot neu machen-->
+    ![Fiskaly connection](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[Fiskaly connection]") 
 
 3. Enter the API key you have got for your sub-account from Actindo in the *API-Key* field.   
 

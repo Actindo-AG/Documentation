@@ -4,7 +4,7 @@
 
 # Cash register
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -15,7 +15,7 @@ The *Cash Register* tab is divided into two boxes:
 
 ## Payment tally
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Payment tally box*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Payment tally box*
 
 ![Payment tally](../../Assets/Screenshots/POS/Sales/CashRegister/PaymentTally.png "[Payment tally]")
 
@@ -48,7 +48,7 @@ The *Payment tally* box is used to close the pay desk. To close a pay desk, you 
 
 ### Count cash
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Calculator*
 
 ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
@@ -82,7 +82,7 @@ The *Count cash* window is used to faciliate the calculation of the cash count.
 
 ## Cash in&frasl;out
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
 
 ![Cash in/out](../../Assets/Screenshots/POS/Sales/CashRegister/CashInOut.png "[Cash In/Out]")
 
@@ -113,7 +113,7 @@ The *Cash in/out* box is used to post sales independent cash ins and cash outs. 
 
 ### Cash in
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash in*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash in*
 
 ![Cash In](../../Assets/Screenshots/POS/Sales/CashRegister/CashIn.png "[Cash In]")
 
@@ -138,7 +138,7 @@ The *Cash in* box is used to deposit sales-independent cash at the pay desk. In 
 
 ### Cash out
 
-*POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash out*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Button Cash out*
 
 ![Cash Out](../../Assets/Screenshots/POS/Sales/CashRegister/CashOut.png "[Cash Out]")
 

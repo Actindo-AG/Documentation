@@ -3,7 +3,7 @@
 
 # Record the purchase
 
-The *POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
+The *Venduo POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
 
 
 ## Use single scan
@@ -18,7 +18,7 @@ Optionally, you can activate the single scan feature before you select the offer
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -53,7 +53,7 @@ Note hat when you edit a return, all posts on the bill list must be returns. You
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -91,7 +91,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
 1. Select the desired category by clicking the corresponding tab below the search bar.  
@@ -112,7 +112,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -142,7 +142,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -171,7 +171,7 @@ Select a voucher offer that allows you to identify and charge a pre-printed vouc
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -210,7 +210,7 @@ Some offers are not suitable for children and young people, for example offers s
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
@@ -242,7 +242,7 @@ There are products where the buyer has the option of customizing them. If a stor
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT* 
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT* 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 

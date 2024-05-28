@@ -1,6 +1,6 @@
 # Vouchers
 
-*POS > Sales > Tab VOUCHERS*
+*Venduo POS > Sales > Tab VOUCHERS*
 
 ![Vouchers](../../Assets/Screenshots/POS/Sales/Vouchers/Vouchers.png "[Vouchers]")
 

@@ -24,7 +24,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
@@ -50,7 +50,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
 ![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
@@ -70,7 +70,7 @@ By default, the payment methods debit card, credit card, and PayPal are predefin
 
 ### Create a payment method in Order Management
 
-If the existing payment methods in *POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Order Management* module first.
+If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Order Management* module first.
 
 #### Prerequisites
 
@@ -99,7 +99,7 @@ No prerequisites to fulfill.
 
 ### Create a payment method in POS
 
-If the existing payment methods in *POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *POS* module based on the payment method created in the *Order Management* module.
+If the existing payment methods in *Venduo POS* are not appropriate for your special needs, you can create a custom payment method. Therefore, you have to create a new payment method in the *Venduo POS* module based on the payment method created in the *Order Management* module.
 
 #### Prerequisites
 
@@ -108,14 +108,14 @@ If the existing payment methods in *POS* are not appropriate for your special ne
 
 #### Procedure
 
-*POS > Management > Tab GLOBAL SETTINGS*
+*Venduo POS > Management > Tab GLOBAL SETTINGS*
 
 ![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
 
 1. Click the *Payment methods (manual terminal payment)* setting in the list of settings.   
     The *Payment methods (manual terminal payment)* view is displayed.
 
-    ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
+    ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
     A new row for a payment method is displayed.
@@ -124,7 +124,7 @@ If the existing payment methods in *POS* are not appropriate for your special ne
 
 4. Enter a name for the payment method in POS in the *Name* field.   
 
-    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order Management* module. It is only necessary that the ID (key) of the payment method in *POS* and *Order Management* match.
+    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order Management* module. It is only necessary that the ID (key) of the payment method in *Venduo POS* and *Order Management* match.
 
 5. Click the [Save] button in the upper right corner.   
     The new payment method is saved in POS.
@@ -140,7 +140,7 @@ If you have created a new payment method in POS, you need to map the payment met
 #### Prerequisites
 
 - A payment method has been created in the *Order Management* module, see [Create a payment method in Order Management](#create-a-payment-method-in-order-management).
-- A payment method has been created in the *POS* module, see [Create a payment method in POS](#create-a-payment-method-in-pos).
+- A payment method has been created in the *Venduo POS* module, see [Create a payment method in POS](#create-a-payment-method-in-pos).
 - At least, one store has been created so that the relevant attribute set is available in the *DataHub* module, see [Configure the store details](./06_CreateStore.md#configure-the-store-details).
 
 #### Procedure
@@ -162,7 +162,7 @@ If you have created a new payment method in POS, you need to map the payment met
 4. Click the *Source attribute* drop-down list in the *Settings* section and select the **Payment methods** option.   
     The mapping table for the selected mapping is displayed in the *Configuration* section.
 
-5. Search for the *Order Management* name of the new payment method in the *Source value* column, click the drop-down list in the same row in the *Destination value* column and select the *POS* name of the new payment method.
+5. Search for the *Order Management* name of the new payment method in the *Source value* column, click the drop-down list in the same row in the *Destination value* column and select the *Venduo POS* name of the new payment method.
 
 6. Click the [SAVE] button in the upper right corner.   
     The *Submitting data...* message is displayed in the right part of the *Mapping* view. The mapping is saved, when nothing is displayed in the right part of the *Mapping* view.

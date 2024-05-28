@@ -43,7 +43,7 @@ To print receipts, invoices, shift summaries etc., you must configure a printer 
 
 7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
-8. Click the *Module* drop-down list and select **POS** in the list of modules.
+8. Click the *Module* drop-down list and select **Venduo POS** in the list of modules.
 
 9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks, as displayed in the example below.
 

@@ -1,6 +1,6 @@
 # Product Options
 
-*POS > Management > Tab PRODUCT OPTIONS*
+*Venduo POS > Management > Tab PRODUCT OPTIONS*
 
 ![Options attributes](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Options attributes]")
 

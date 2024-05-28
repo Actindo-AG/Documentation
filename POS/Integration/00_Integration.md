@@ -1,6 +1,6 @@
 # Integration
 
-In this part of the *POS* documentation, you will find the following chapters:
+In this part of the *Venduo POS* documentation, you will find the following chapters:
 
 - [Configure the warehouse for POS](./01_ConfigureWarehouse.md)
     - [Create a warehouse group](./01_ConfigureWarehouse.md#create-a-warehouse-group)
@@ -100,7 +100,7 @@ In this part of the *POS* documentation, you will find the following chapters:
         - [Add the conditions](09_WorkflowAdjustments.md#add-the-conditions)
         - [Add a transition](09_WorkflowAdjustments.md#add-a-transition)
 
-- [Create connection to TSS provider](./10_TSSProviderConnection.md)
+- [Create a connection to  a TSS provider](./10_TSSProviderConnection.md)
     - [Assign the TSS provider connection to the stores](./10_TSSProviderConnection.md#assign-the-tss-provider-connection-to-the-stores)
 
 

@@ -2,7 +2,7 @@
 
 # Global settings
 
-*POS > Management > Tab GLOBAL SETTINGS*
+*Venduo POS > Management > Tab GLOBAL SETTINGS*
 
 In the *GLOBAL SETTINGS* tab, you define basic settings for all your stores.
 
@@ -34,7 +34,7 @@ In this section, you define all pay desk and payment settings.
 
 ### Format of sequential number 
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
 
 ![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
 
@@ -64,7 +64,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 <!--- NEU-->
 ### Deliveries allowed
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Deliveries allowed*
 
 ![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
 
@@ -84,7 +84,7 @@ The *Deliveries allowed* setting enables the cashiers to initiate a delivery dur
 <!--- NEU-->
 ### Down payments allowed
 
-*POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
 
 ![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
 
@@ -103,7 +103,7 @@ The *Down payments allowed* setting allows cashiers to accept down payments. For
 
 ### Always print the receipt
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Always print the receipt*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Always print the receipt*
 
 Activate or disable the option to print the cash receipt.
 
@@ -123,7 +123,7 @@ Activate or disable the option to print the cash receipt.
 
 ### Number of vouchers per order
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Number of vouchers per order*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Number of vouchers per order*
 
 Define how many vouchers may be redeemed per order.
 
@@ -147,7 +147,7 @@ Define how many vouchers may be redeemed per order.
 
 ### Payment methods (manual payment terminal)
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Payment methods (manual payment terminal)*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Payment methods (manual payment terminal)*
 
 If you use an external terminal that is not connected to POS, cashless payment is completed manually through that terminal.
 In POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
@@ -178,7 +178,7 @@ In POS, you can specify for statistical purposes which payment method was used f
 
 ### Open drawer at cash payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
 
 
 ![Open drawer at cash payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Open drawer at cash payment]")
@@ -197,7 +197,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 ### Open drawer at cashless payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cashless payment*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cashless payment*
 
 
 ![Open drawer at cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Open drawer at cashless payment]")
@@ -217,7 +217,7 @@ Enable or disable the option to open the cash drawer for cashless payment.
 
 ### VAT ID
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
 
 ![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT ID]")
@@ -233,7 +233,7 @@ Enter the VAT ID of your company, which is mandatory to be indicated on receipts
 
 ### Cashless payment
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Cashless payment*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Cashless payment*
 
 ![Cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS09.png "[Cashless payment]")  
 
@@ -254,7 +254,7 @@ Activate or deactivate the options for cashless payment.
 
 ### Bind cash journal to user
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Bind cash journal to user*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Bind cash journal to user*
 
 ![Bind cash journal to user](../../Assets/Screenshots/POS/Management/GlobalSettings/GS10.png "[Bind cash journal to user]")
 
@@ -274,7 +274,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 ### Skim to amount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
 
 ![Skim to amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Skim to amount]")
 
@@ -289,7 +289,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 ### Hide expected amount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Hide expected amount*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Hide expected amount*
 
 ![Hide expected amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS12.png "[Hide expected amount]")
 
@@ -308,7 +308,7 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 <!--- NEU-->
 ### Display age rating
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Display age rating*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Display age rating*
 
 ![Display age rating](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age rating]")
 
@@ -343,7 +343,7 @@ The following fields and features are available in the window:
 <!--- NEU-->
 ### Remind of offers
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Remind of offers*
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
 
@@ -368,7 +368,7 @@ The *Remind of offers* setting allows the cashiers to suggest additional offers 
 <!--- Neu-->
 ### Regex for customer code
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Regex for customer-code*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Regex for customer-code*
 
 ![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
@@ -385,7 +385,7 @@ The *Regex for customer-code* settings allows you to define a regular expression
 <!---NEU-->
 ### Allow negative quantities
 
-*POS > Management > Tab GLOBAL SETTINGS > Allow negative quantities*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Allow negative quantities*
 
 ![Allow negative quantities](../../Assets/Screenshots/POS/Management/GlobalSettings/AllowNegativeQuantities.png "[Allow negative quantities]")
 
@@ -402,7 +402,7 @@ In this section, you define all settings concerning the currencies in your POS s
 
 ### Available currencies
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies*
 
 Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar, and British Pound are predefined.
 
@@ -446,7 +446,7 @@ The following fields and functions are available in this window:
 
 ### Create currency
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
 
 ![Create currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Create currency]")
 
@@ -490,7 +490,7 @@ Add a new currency to the list of available currencies and define the coins and 
 
 ### Edit currency
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
 
 ![Edit currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Edit currency]")
 
@@ -533,7 +533,7 @@ Edit the settings of an existing currency.
 
 ### Used currencies
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Used currencies*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Used currencies*
 
 ![Used currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/GS14.png "[Used currencies]")
 
@@ -555,7 +555,7 @@ Select all currencies that are used in your POS system and define a default curr
 
 ### Automatic discount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
 
 ![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
 
@@ -586,7 +586,7 @@ Define a discount that is automatically applied above a certain amount.
 <!--- NEU-->
 ### Customer-specific discount
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Customer-specific discount*
 
 ![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
 
@@ -612,7 +612,7 @@ The following fields and features are available for this window:
 <!---NEU-->
 ### Active price groups
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*
 
 ![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
 
@@ -636,7 +636,7 @@ The following fields and features are available for this window:
 <!---NEU-->
 ### Field for price group
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Field for price group*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Field for price group*
 
 ![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
 
@@ -659,7 +659,7 @@ In this section, you define all settings concerning returns.
 
 ### Return reasons
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Return reasons*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Return reasons*
 
 ![Return reasons](../../Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Return reasons]")
 
@@ -683,7 +683,7 @@ Define the return reasons that are available in the POS system.
 
 ### Refund only on the same payment method
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Refund only on the same payment method*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Refund only on the same payment method*
 
 ![Refund payment method](../../Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund payment method]")
 
@@ -701,7 +701,7 @@ Activate or deactivate the refund to the same payment method for returns.
 
 ### Return only in the same store
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Return only in the same store*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Return only in the same store*
 
 ![Return store](../../Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Return store]")
 
@@ -724,7 +724,7 @@ In this section, you define all settings concerning the receipt printing.
 
 ### Print merchant receipt
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
 
 ![Print merchant receipt](../../Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Print merchant receipt]")
 
@@ -742,7 +742,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 ### Logo print compatibility mode
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Logo print compatibility mode*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo print compatibility mode*
 
 ![Logo print](../../Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo print]")
 
@@ -760,7 +760,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 ### Receipt format
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
 
 ![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Receipt format]")
 
@@ -783,7 +783,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 ### Number format
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Number format*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Number format*
 
 ![Number format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS22.png "[Number format]")
 
@@ -809,7 +809,7 @@ Define the number format on the receipt.
 
 ### Logo
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
 
 ![Logo](../../Assets/Screenshots/POS/Management/GlobalSettings/GS23.png "[Logo]")
 
@@ -839,7 +839,7 @@ In this section, you define all settings concerning the connection to the *Order
 
 ### Account allocation accounting
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation accounting*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation accounting*
 
 ![Account allocation accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Account allocation accounting]")
 
@@ -878,7 +878,7 @@ The number of accounts to be assigned depends on the number of available currenc
 
 ### Reverse posting on source warehouse
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
 
 ![Reverse posting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Reverse posting]")
 
@@ -896,7 +896,7 @@ Activate or deactivate the reverse posting to the original warehouse. Any discre
 
 ### Return warehouse (Storage area for blocked stock)
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Return warehouse (Storage area for blocked stock)*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Return warehouse (Storage area for blocked stock)*
 
 [comment]: <> (need information; Is that right?)
 
@@ -918,7 +918,7 @@ Define a shelf in the storage area for blocked stock for returns with defects.
 
 ### Default customer
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
 
@@ -970,7 +970,7 @@ In this section, you define all settings concerning the KNISTR integration. For 
 
 ### KNISTR credentials
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry KNISTR credentials*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry KNISTR credentials*
 
 ![KNISTR credentials](../../Assets/Screenshots/POS/Management/GlobalSettings/KnistrCredentials.png "[KNISTR credentials]")
 
@@ -987,7 +987,7 @@ In this section, you define all settings concerning the KNISTR integration. For 
  <!---Obsolet  
 ### Store deliveries active
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Shop deliveries active*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Shop deliveries active*
 
 ![Shop deliveries active](../../Assets/Screenshots/POS/Management/GlobalSettings/GS28.png "[Shop deliveries active]")
 
@@ -1009,7 +1009,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 ## Kundendaten aus RetailSuite übernehmen
 
-*POS > Management > Tab GLOBAL SETTINGS > Entry Kundendaten aus RetailSuite übernehmen*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Kundendaten aus RetailSuite übernehmen*
 
 
 

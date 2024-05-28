@@ -22,7 +22,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -58,7 +58,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -93,7 +93,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -123,7 +123,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -143,7 +143,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -176,7 +176,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -212,7 +212,7 @@ Alternatively, if the customer has a customer or member card, you can select the
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -247,7 +247,7 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

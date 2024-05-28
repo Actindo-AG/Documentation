@@ -18,7 +18,7 @@ To access the tabs (except for the *VOUCHERS* and the *WISHLISTS* tab), you firs
 
 ## Select store and pay desk
 
-*POS > Sales*
+*Venduo POS > Sales*
 
 ![Sales](../../Assets/Screenshots/POS/Sales/Select.png "[Sales]")
 
@@ -34,7 +34,7 @@ To access the tabs (except for the *VOUCHERS* and the *WISHLISTS* tab), you firs
 
 ## Select opening float
 
-*POS > Sales > Select Store and Pay Desk*
+*Venduo POS > Sales > Select Store and Pay Desk*
 
 ![Sales](../../Assets/Screenshots/POS/Sales/OpeningFloat.png "[Sales]")
 

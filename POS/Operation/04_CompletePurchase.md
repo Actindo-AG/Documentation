@@ -20,7 +20,7 @@ If your company wants you to suggest additional offers to complete the customer'
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -54,7 +54,7 @@ A combination of several discount options is not allowed. For example, you canno
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -95,7 +95,7 @@ If your company uses the *Customer-specific discount* feature, a specific discou
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -122,7 +122,7 @@ If your company uses the *Down payment allowed* feature, you can reduce the enti
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -166,7 +166,7 @@ If your company supports the delivery of an offer, you can easily initiate a del
 - The purchase is assigned to a customer, and the address (delivery address) is available, see [Assign a purchase to a customer](03_EditBillList.md#assign-a-purchase-to-a-customer).
 
 #### Procedure
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -192,7 +192,7 @@ If your company supports this feature, the price will be automatically reduced f
 
 #### Procededure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -228,7 +228,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -261,7 +261,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -298,7 +298,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -316,7 +316,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -327,7 +327,7 @@ Click the [![Open drawer](../../Assets/Icons/Drawer.png "[Open drawer]") Open dr
 
 ## Pay cashless at the terminal
 
-If a customer wants to pay cashless, the payment process in the pay desk of the *POS* module must be completed as described below. Currently, it is not possible to connect an external terminal to the *POS* module.   
+If a customer wants to pay cashless, the payment process in the pay desk of the *Venduo POS* module must be completed as described below. Currently, it is not possible to connect an external terminal to the *Venduo POS* module.   
 You can complete the entire payment process with the pay desk at your desktop. If you have external terminals in use, you must complete the payment process at them. Nevertheless, you can post the payment in your pay desk for the statistics and for posting it into your accounts.  
 
 #### Prerequisites
@@ -336,7 +336,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -371,7 +371,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -413,7 +413,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -444,7 +444,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/ParkedBill.png "[Cashpoint]")
 
@@ -481,7 +481,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
 
 #### Procedure
 
-*POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
