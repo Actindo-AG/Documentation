@@ -19,6 +19,8 @@ The following functions and fields are available in this list:
 
 ## Create option attribute
 
+*Venduo POS > Management > Tab PRODUCT OPTIONS > Click Add*
+
 ![Create option attribute](../../Assets/Screenshots/POS/Management/ProductOptions/CreateOptionAttribute.png "[Create option attribute]")
 
 The following functions and fields are available in this window:

@@ -24,6 +24,8 @@ The following fields are available:
 
 ## Edit connection
 
+*Venduo POS > Management > Tab TSS PROVIDERS > Select connection*
+
 ![TSS PROVIDERS](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[TSS PROVIDERS]")
 
 

@@ -518,9 +518,13 @@ All settings are also available as Global setting. Note that if you change a set
 
 #### Customer number of store for reordering
 
-Define a customer ID for the store to restrict the reorder query to the selected store.
 
-![Shop-Kundennummer](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Shop-Kundennummer]")
+
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+
+![Customer number](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Customer number]")
+
+Define a customer ID for the store to restrict the reorder query to the selected store.
 
 - *Customer ID*   
     Enter a customer ID for the store. Only orders assigned to this ID can be queried. If you leave the field blank, all orders can be queried.
@@ -531,6 +535,8 @@ Define a customer ID for the store to restrict the reorder query to the selected
 
 #### Stock assignments of orders
 
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+
 Change or define the warehouse from which to take the stock.
 
 ![Warehouse assignment](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings10.png "[Warehouse assignment]")
@@ -538,9 +544,9 @@ Change or define the warehouse from which to take the stock.
 - *Warehouse*   
     Click the drop-down list and select the warehouse you want to take the stock from. By default, the following entries are available:
     - **Own warehouse** 
-    - **Field warehouse**   
-    Note that you can create your own warehouses that are then displayed in this drop-down list.   
-    For detailed information on creating warehouses, see [Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md).
+    - **Field warehouse**    
+     
+    Note that you can create your own warehouses that are then displayed in this drop-down list. For detailed information on creating warehouses, see [Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md).
 
 - [REFRESH LIST]   
     Click this button to update the drop-down list *Warehouse*.
