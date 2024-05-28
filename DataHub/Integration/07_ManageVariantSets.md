@@ -1,7 +1,9 @@
-[!!User interface Variant sets](../UserInterface/08_VariantSets.md)
-[!!Manage the variants](../Operation/02_ManageVariants.md)
 [!!Manage an attribute set](./02_ManageAttributeSets.md)
+[!!User interface Variant sets](../UserInterface/08_VariantSets.md)
+[!!Manage the variants in PIM](../../PIM/Operation/02_ManageVariants.md)
+[!!Manage the offers in Omni-Channel](../../Channels/Operation/01_ManageOffers.md)
 
+[comment]: <> (Links aktualisieren, wenn PIM & OC updated)
 
 # Manage a variant set
 
