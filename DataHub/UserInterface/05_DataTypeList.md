@@ -18,39 +18,39 @@ In the following, the available data types, their use and their configuration an
 - [Language](#language)
 - [Country](#country)
 - [TreeNode](#treenode)
-- [Completeness](#completeness-internal-not-editable)
+- [Completeness](#completeness)
 - [Number with unit](#number-with-unit)
 - [DateTime](#datetime)
 - [Sales unit value](#sales-unit-value)
 - [Simple price field](#simple-price-field)
 - [Stock value](#stock-value)
-- [EntityCollectionValue](#entitycollectionvalue-internal-not-editable)
-- [IntegerCollectionValue](#integercollectionvalue-internal-not-editable)
-- [StringCollectionValue](#stringcollectionvalue-internal-not-editable)
-- [JSON](#json-internal-not-editable)
+- [EntityCollectionValue](#entitycollectionvalue)
+- [IntegerCollectionValue](#integercollectionvalue)
+- [StringCollectionValue](#stringcollectionvalue)
+- [JSON](#json)
 - [Taxclass](#taxclass)
 - [Taxzone](#taxzone)
 - [Images](#images)
 - [Files](#files)
-- [PIM-Channels connection](#pim-scopes-connection-internal-not-editable)
-- [UCS product bundle](#ucs-product-bundle-internal-not-editable)
+- [PIM-Channels connection](#pim-scopes-connection)
+- [UCS product bundle](#ucs-product-bundle)
 - [PIM product variants](#pim-product-variants)
 - [URLs](#urls)
 - [Cloudinary image](#cloudinary-image)
 - [Cloudinary video](#cloudinary-video)
-- [XML](#xml-internal-not-editable)
+- [XML](#xml)
 - [Offer bundle](#offer-bundle)
-- [Object](#object-internal-not-editable)
-- [Encrypted value](#encrypted-value-internal-not-editable)
+- [Object](#object)
+- [Encrypted value](#encrypted-value)
 - [Related products](#related-products)
 - [PIM price field](#pim-price-field)
-- [Product variants](#product-variants-internal-not-editable)
+- [Product variants](#product-variants)
 - [Base price](#base-price)
 - [Product bundle](#product-bundle)
 - [Packaging unit](#packaging-unit)
-- [Offer variants](#offer-variants-internal-not-editable)
-- [Feed offer variants](#feed-offer-variants-internal-not-editable)
-- [Multiple errors](#multiple-errors-internal-not-editable)
+- [Offer variants](#offer-variants)
+- [Feed offer variants](#feed-offer-variants)
+- [Multiple errors](#multiple-errors)
 
 
 
@@ -276,7 +276,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## Completeness (internal, not editable)
+## Completeness
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 The data type is used to show the completeness of a product, according to the required fields in the attribute set.
@@ -408,7 +408,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## EntityCollectionValue (internal, not editable)
+## EntityCollectionValue
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -416,7 +416,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## IntegerCollectionValue (internal, not editable)
+## IntegerCollectionValue
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -424,7 +424,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## StringCollectionValue (internal, not editable)
+## StringCollectionValue
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -432,7 +432,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## JSON (internal, not editable)
+## JSON
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -524,7 +524,7 @@ The *ECM Integration in DataHub* plugin owns this data type.
 
 
 
-## PIM-Channels connection (internal, not editable)
+## PIM-Channels connection
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 In the *PIM basic set*, the *PIM Omni-Channel Connection* attribute has the *PIM-Channels Connection* data type.
@@ -533,7 +533,7 @@ The *PIM Channels Connection* plugin owns this data type.
 
 
 
-## UCS product bundle (internal, not editable)
+## UCS product bundle
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -549,7 +549,7 @@ The *PIM* plugin owns this data type.
 
 
 
-## URLs (internal, not editable)
+## URLs
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -625,7 +625,7 @@ The *DataHub* plugin owns this data type.
 
 
 
-## XML (internal, not editable)
+## XML
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -652,7 +652,7 @@ The *Omni-Channel* plugin owns this data type.
     Enter the maximum number of offers that can be related for an offer bundle.
 
 
-## Object (internal, not editable)
+## Object
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -660,7 +660,7 @@ The *Fulfillment* plugin owns this data type.
 
 
 
-## Encrypted value (internal, not editable)
+## Encrypted value
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.
 
@@ -716,7 +716,7 @@ The *PIM* plugin owns this data type.
 
 
 
-## Product variants (internal, not editable)
+## Product variants
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 
@@ -772,7 +772,7 @@ This data type has no further configuration settings.
 
 
 
-## Offer variants (internal, not editable)
+## Offer variants
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 
@@ -780,7 +780,7 @@ The *Omni-Channel* plugin owns this data type.
 
 
 
-## Feed offer variants (internal, not editable)
+## Feed offer variants
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 
@@ -788,7 +788,7 @@ The *Omni-Channel* plugin owns this data type.
 
 
 
-## Multiple errors (internal, not editable)
+## Multiple errors
 
 This data type is for internal use only. It is strongly advised not to use this data type without the required knowledge.   
 
