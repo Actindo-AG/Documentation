@@ -9,6 +9,8 @@
 - DataHub properties  
     If you have customer-specific DataHub entities that should trigger an event, you can add them to the webhook definition.
 
+- 
+
 - Conditions    
     You can strictly narrow the circumstances under which a webhook is to be sent, for example, if a stock level has changed.
 
@@ -33,4 +35,5 @@ Im Unterschied zum API wollen wir wissen, was mit den Daten passiert, bei WEbhoo
 
 - Data that can be sent via the *Webhook* module, must follow the Actindo data models and is restricted to them. 
 - Since the events are processed in the doctrine layer, a layer between the code and the databases, direct database accesses cannot be processed.
+- Webhooks are not suitable for a large data volumes such as order statistics, but very flexible for 
 

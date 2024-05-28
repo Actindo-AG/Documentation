@@ -1,6 +1,18 @@
 # General
 
-Webhooks are an easy way to send data to recipients. With Actindo's *Webhooks* module, you cannot only define explicitly the data to be transferred, but also the events that trigger the sending of webhooks messages, as well as the way in which the data is to be sent.
+Webhooks are an easy way to send data to recipients. With Actindo's *Webhooks* module, you cannot only define explicitly the data to be transferred, but also specify the events that trigger the sending of webhooks messages, as well as the way in which the data is to be sent.
+
+
+
+Webhooks are very useful when you want to send messages with changes to single entities such as updated/created offers. You have a direct link to your shop system and are informed down to the minute about order or stock level changes
+
+Webhooks are a flexible alternative to APIs. As a customer, you can use the data sent as you want. In contrast to API controlled transfers, no configuration from Actindo is necessary, and you save the time and money required for the creation of customer-specific APIs.
+You no longer need to create exports to get data out of the Actindo system and can decide what you want to do with the data. For example, you can connect to any third-party providers.
+
+Since you can go through DataHub and customize attribute sets, you can quickly add attributes that you still want to have and are therefore much more flexible than an API
+
+
+
 
 
 Webhooks für singuläre Entitäten fokussiert, zum Beispiel, wenn es zu Entitäten änderungen gibt
@@ -22,9 +34,8 @@ Wofür es sich eignet, muss man genau überlegen, wo die Vorteile der Webhooks g
 GANZ WICHTIGER PUNKT Da man über DataHub gehen kann und Attributssets anpassen kann, kann man schnell Attribute hinzufügen, die man noch haben möchte und ist dadurch gegen ein API viel flexibler
 
 
-Events that are not triggered by a request from your side, for example when a shopper initiated a chargeback, or when a new report becomes available (Adyen).
 
-Receive important updates related to your account (Adyen).
+
 
 
 
