@@ -1,13 +1,16 @@
 # Manage queues
 
 The *Queues* menu entry shows the following webhooks:
-<!--- Nochmal nachfragen -->
- - Wait to be executed/sent by the worker after the conditions have been successfully passed (status *Ready to be sent*)
- - For performance reasons, all webhooks for which changes have been made to the data of the model for which it is defined (status *Pre remove*).
- - All those that have been sent successfully (status *Success*).
- - Those that have been finally failed after the last retry (status *Failed*).
+ - Status *Ready to be sent*:     
+    Webhook messages that wait to be executed/sent by the worker. Note, that not all webhook messages in the queue with this status are sent by the worker. Before sending, the worker identifies those webhook messages that meet the conditions defined. Messages that do not meet the conditions, are automatically removed from the queue. In addition, all webhooks that are waiting to be retried are in this list.
+ - Status *Pre remove*   
+    Internal status that is used to temporarily store data that is to be removed.
+ - Status *Sucess*   
+    All webhook messages that have been sent successfully.
+ - Status *Failed*    
+    Webhooks messages that have been finally failed at the last retry.
 
->[Info] The *Queues* view contains all queue entries created for the webhooks. Only queue entries with status *Success* are automatically deleted after ten days.
+>[Info] The *Queues* view contains all queue entries ever created for the webhooks. Only queue entries with status *Success* are automatically deleted after ten days.
 
 You can retry failed webhooks, reset the execution, and delete no longer needed or finally failed webhooks.
 
@@ -42,7 +45,7 @@ Retry sending the webhook.
 
 ## Reset queue entry
 
-Reset the number of retries to start again following the retry algorithmtegy. You can only retry queue entries that have a number in the *Tries* column that is not 0.
+Reset the number of retries to start again following the retry algorithm. You can only retry queue entries that have a number in the *Tries* column that is not 0.
 
 #### Prerequisites
 

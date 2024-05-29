@@ -102,10 +102,10 @@ The following fields and functions are available on the left part of this view:
 The following fields and functions are available on the right side in this view:
 
 - *Change set*   
-    Webhook message that is to be sent/has been sent.
+    Native webhook message that is to be sent/has been sent. Use the scroll bar on the right to see the whole message.
 
 - *Prepared change set*   
-    <!---was ist das-->
+    More readable version of the change set created by the system during first execution. This prepared change set replaces database IDs with keys to make an entry easier to understand. Use the scroll bar on the right to see the whole message.
 
 - *Entity*   
     Detail information in JSON code about the worker who shall send/has sent the message.

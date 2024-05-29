@@ -127,7 +127,15 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 4. Define the value in the *Value* field. This describes a value that the property can have. For example, it can be the connection ID or the order delivery status.
 
-5. If you want that the condition applies in the change set, click the checkbox in the *Apply on change set* column.<!---Was bedeutet das?-->
+5. If you want that the condition applies to the change set, select the checkbox in the *Apply on change set* column.    
+    For example, you may want to send a webhook message when the price of an offer for a particular channel has changed. To set this up, you need two conditions that both are required. One that identifies the channel, and one that applies on the change set, where the new price is stored. For all of these conditions that apply to the change set, you must select the *Apply on change set* checkbox.
+
+    **x All conditions required** 
+    |Property |Operator|Value|Apply on change set|
+    |-------|------|------|-------|
+    |connection ID|equal|[connection ID]|    |
+    |channels_price|is set|true|   x  |
+<!--- Eventuell im Screenshot zeigen, wenn wieder da-->
 
 5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] button.
 

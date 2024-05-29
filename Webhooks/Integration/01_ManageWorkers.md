@@ -37,7 +37,9 @@ No prerequisites to fulfill.
 
 2. Enter a name for the worker in the *Name* field. It is recommended to describe the execution mode and the retry algorithm in the name for better identification later.
 
-3. Define the retry algorithm comma-separated in the *Retry algorithm* field. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You can let the field empty. In this case, the default is used: 1, 2, 3, 4 (1 => 60 sec, 2 => 120 sec, 3 => 300 sec, 4 => 600 sec) You have the following options: <!---Ergänzen-->
+3. Define the retry algorithm comma-separated in the *Retry algorithm* field. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You have the following options: 
+    -   You can let the field empty. <!--- Stimmt das?-->In this case, the following default is used: First try = 60 sec, second try = 120 sec, third try = 300 sec, fourth try = 600 sec. 
+    - You can define up to 4 time intervals in seconds, for example **60, 300, 600, 6000**. Each time intervall is counted from the time of the first try.<!---Stimmt das ?-->
 
 4. Define the number of jobs in case you have decided for parallel processing.  
 
@@ -105,35 +107,37 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 #### Prerequisites
 
-- You have the permission to enable/disable feature flags in the engine room.
-
+- You have the permission to enable/disable feature flags in the engine room. For detailed information on feature flags, see [Switch on/off single feature flags](../../Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-onoff-single-feature-flags) in the *Core1 Platform documtenation*.
 #### Procedure
 
-*Actindo Core1 Platform > Any workspace> Click the engine room button > System information*
+*Actindo Core1 Platform > Any workspace> Click the Engine room button > System information*
 
 ![Feature flags](../../Assets/Screenshots/Webhooks/Webhooks/DisableWebhook.png "[Feature flags]")
 
-1. Enable the *Disable workers* toggle in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
-    The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable webhooks* toggle is enabled.
+1. Select the *Disable workers* checkbox in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
+    The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable webhooks* checkbox is selected.
 
-2. Disable the *Disable webhooks* toggle in the *Webhooks* section after you have finished editing the workers or webhooks.   
+2. Clear the *Disable webhooks* checkbox in the *Webhooks* section after you have finished editing workers or webhooks.   
     The execution of the queue will be continued after one minute. 
 
 
 
 ## Shut down workers
 
-Sometimes it may be necessary to stop the current execution of the queue for specific workers, for example, if you want to edit the worker or associated webhooks. Therefore, you have to shut down a worker to avoid that the associated webhooks are executed by this worker. Alternatively, you can shut down all workers. <!---wie starte ich einen worker wieder?-->    
+After you have disabled the execution of workers, see [Disable execution of workers](#disable-execution-of-workers), it may be necessary to stop the current execution of the queue for workers that are currently running. In this case, you can shut down a single worker or shut down all workers at once.  
+
+If you enable the execution of workers again, it will be start again after about 1 minute. Any workers that were previously stopped will also be restarted so that no data is lost.
 
 
 ### Shut down single worker
 
-Shut down a single worker to avoid that the associated webhooks are executed by it. <!---wie starte ich einen worker wieder?-->
+Shut down a single worker to avoid that the associated webhooks are executed by it. 
 
 #### Prerequisites
 
 - At least one worker has been created, see [Create worker](#create-worker).
 - At least one worker is active.
+- The execution of workers is disabled.
 
 #### Procedure
 
@@ -144,18 +148,22 @@ Shut down a single worker to avoid that the associated webhooks are executed by 
 1. Click the checkbox at the active worker you want to shut down.    
     The [![Shut down](../../Assets/Icons/StopCircle.png "[Shut down]") SHUT DOWN] button is enabled.
 
+    <!--- Noch prüfen, ob man auch mehrere ankreuzen kann-->
+
 2. Click the [![Shut down](../../Assets/Icons/StopCircle.png "[Shut down]") SHUT DOWN] button.   
     The worker is stopped. The associated webhooks in the queue are no longer executed.
 
 
 ### Shut down all workers
 
-Shut down all workers to stop the current execution of all webhooks in the queue. <!---In welchen Situation würde ich das tun? wie starte ich einen worker wieder?-->   
-To avoid, that workers are started again by an event, you must disable the workers, see [Disable workers](#disable-workers).
+Shut down all workers to stop the current execution of all webhooks in the queue.
 
 #### Prerequisites
 
-At least one worker has been created, see [Create worker](#create-worker).
+- At least one worker has been created, see [Create worker](#create-worker).
+- At least one worker is active.
+- The execution of webhooks is disabled.
+
 
 #### Procedure
 
