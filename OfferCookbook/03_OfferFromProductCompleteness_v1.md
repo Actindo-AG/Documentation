@@ -12,7 +12,7 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none | 
-| **Trigger** | The process is triggered by the update of a *PIM* product. |
+| **Trigger** | *PIM* product saved |
 
 **Included steps**
 
@@ -23,92 +23,40 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 
 | Action | Short description | API endpoint |
 | ------ | ----------------- | ------------ |
-| split by criterion | Input value is compared to a criterion and split based on match/no match principle | Core action |
+| split by criterion | Input value is compared to a criterion and split based on match/no match principle | Core action <br> For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). |
 | createFromPimProduct  | Creation of an offer from a product | /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 
-For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md) in the *Process Orchestration* documentation.
-
-
-## How to set up an offer from product with completeness workflow
-
-To set up an offer from product workflow, see [How to set up an offer from product basic workflow](./01_Introduction.md#how-to-set-up-an-offer-from-product-basic-workflow). 
-
-For detailed description on how to create a workflow and all elements involved, see [Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow) in the *Process Orchestration* documentation.
-
-<details><summary>Click to see complete procedure</summary>
+[comment]: <> (Ist /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct eine Entität oder eher eine Action? Was ist richtiger? Beides ist verwirrend!)
 
 #### Prerequisites
 
-- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
-- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
+- You have have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
 
 #### Procedure
 
-*Process Orchestration > Workflows > Tab OVERVIEW*
 
-![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+*Process Orchestration > Workflows > Tab OVERVIEW > Select your new workflow > Select a workflow version*
 
-1. Click the ![Add](../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The *New workflow* window is displayed.
+![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-    ![New workflow](../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
+1. Create a *PIM Product saved* trigger to create an offer every time a product is updated.  
+    For detailed information, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
-2. Enter **Create offer from complete PIM product** in the *Select a name for your new workflow* field.
-
-3.  Enter **create_offer_from_complete_pim_product** in the *Select a unique key for your new workflow* field. The key is required for API access and must be unique within the workflow version.
-
-4.  Select the **___WorkflowAutogen___\Actindo\Modules\Actindo\PIM\Models\PIMProduct** option as start place type in the *Choose the data type of your start place* field.
-
-5. Select the **Arbitrary Data** option as end place type in the *Choose the data type of your end place* field.
-
-6. Click the [CREATE] button in the bottom right corner.   
-    The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.
-
-
-</details>
-
-
-## Description of the offer from product with completeness workflow
-
-Once you have set up a basic workflow, you can edit it to add the necessary steps. 
-
-#### Prerequisites
-
-You have have set up an offer from product basic workflow, see [How to set up an offer from product basic workflow](./01_Introduction.md#how-to-set-up-an-offer-from-product-basic-workflow).
-
-#### Procedure
-
-1. Select the newly created workflow to edit it.  
-    The workflow editor is displayed.
-
-2. Create a *PIM Product saved* trigger to create an offer when a product is updated.  
-    A new trigger input line is displayed.
-
-    For detailed information on how to create a trigger, see [Create a trigger](../ActindoWorkFlow/Operation/03_ManageTriggers.md#create-a-trigger).
-
-3. Configure the following settings for the *PIM Product saved* trigger:
-
-    | Triggers ||
-    |----|----|
-    |**Name** | PIM product saved |
-    |**Model** | Actindo\Modules\Actindo\PIM\Models\PIMProduct |
-    |**Event** | After saving | 
-    |**Condition fulfillment** | If all are met |   
-    |**Status** | Active |
-    |**Process priority** | 10 | 
-    | **Unique check** | No |
-
-[comment]: <> (Configure the workflow; trigger/s auch gleich für alle, auf Basic und darauf verweisen!)
-
-4. Click the [NEW ACTION] button.  
+2. Click the [NEW ACTION] button in the upper right corner of the workflow editor.  
     A window with a list of actions is displayed. 
+
+    ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Workflow editor]")
 
     For detailed information on how to add a transition, see [Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition).
 
-5. Select the *Split by criterion* action.  
+3. Select the *Split by criterion* action. 
     The selected action is displayed in the workflow editor.
 
-6. Configure the *Split by criterion* action with the following settings:  
+    ![Split by criterion](../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SplitByCriterion.png "[Split by criterion]")
+
+    > [Info] This action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. In this case, we want to check if the total completeness value of the input *PIM* product is greater than or equal to 100 or not.  
+
+4. Configure the *Split by criterion* action with the following settings:  
 
     | Configuration ||
     |----|----|
@@ -118,34 +66,49 @@ You have have set up an offer from product basic workflow, see [How to set up an
 
     It is recommended to change the name in the *Label* field to a descriptive name, for example, **Completeness 100?** in this case.
 
-7. Connect the input port to the start place. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+    ![Workflow editor](../Assets/Screenshots/OfferCookbook/Completeness100Action.png "[Workflow editor]")
+
+5. Connect the input port to the start place. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
 
     After setting it up, the *Split by criterion* action has the following structure: 
     
     | Input ports     | Value | -  | Output ports | Value    |
     | --------------- | --- | ---| -------------- | ----  |
-    | *in*  | PIMProduct| - | *match* | PIMProduct |
+    | *in*  | PIMProduct | - | *match* | PIMProduct |
     | -     |          | - | *noMatch* | (to end place)   |
+
+    [comment]: <> (Unsicher, ob das hier passt)
     
-8. Click the [NEW ACTION] button.  
-    A window with a list of actions is displayed.
+6. Click the [NEW ACTION] button.  
+    The window with the list of actions is displayed again.
     
-9. Select the *Create offer* action.
+7. Select the *Create offer from PIM product* action.
     The selected action is displayed in the workflow editor.
 
-10. Connect the first input port to the *match* output port from the *Completeness 100?* action. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+    ![Create offer from PIM product](../Assets/Screenshots/OfferCookbook/CreateOfferFromPimProduct.png "[Create offer from PIM product]")
 
-11. Configure the *Create offer* action static inputs as follows:
+    It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
+
+8. Connect the first input port to the *match* output port from the *Completeness 100?* action. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+
+9. Configure the *Create offer* action static inputs as follows:
 
     | Static inputs | |
     |---------------|-|
-    | **connection** | { "id": 2 } (static input) |
+    | **connection** | { "id": 2 } |
     | **changeTracking** | - |
     | **initialStatus** | "inactive" |
     | **destinationAttributeSet** | - |
     | **unique** | "1" |
 
-12. Click on [DEPLOY] to publish the workflow.  
+    > [Info] To discover the connection ID, ... 
+
+    ![Workflow editor](../Assets/Screenshots/OfferCookbook/CreateOfferConfiguration.png "[Workflow editor]")
+
+
+    ![Workflow editor](../Assets/Screenshots/OfferCookbook/CreateOfferAction.png "[Workflow editor]")
+
+10. Click on [DEPLOY] to publish the workflow.  
     The workflow is published and will be used from now on.
 
 

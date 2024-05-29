@@ -3,11 +3,11 @@
 In the *Omni-Channel offer cookbook*, you will find the following chapters:
 
 - [Introduction](./01_Introduction.md)
-    - [Entities and actions involved](./01_Introduction.md#ingredients)
-    - [How to set up an offer from product workflow](./01_Introduction.md#how-to-set-up-an-offer-from-product-workflow)
-    - [PIM product saved trigger](./01_Introduction.md#pim-product-saved-trigger)
-    - [PIM product created trigger](./01_Introduction.md#pim-product-created-trigger)
-    - [Potential workflow extensions](./01_Introduction.md#potential-workflow-extensions)
+    - [Main entities and actions involved](./01_Introduction.md#ingredients)
+    - [Set up an offer from product workflow](./01_Introduction.md#set-up-the-offer-from-product-workflow)
+    - [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger)
+    - [Add a condition](./01_Introduction.md#add-a-condition)
+    - [Possible workflow variations](./01_Introduction.md#possible-workflow-variations)
 
 
 - [Create an offer from a product](./02_OfferFromProductBasic_1.md)
