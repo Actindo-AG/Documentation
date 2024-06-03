@@ -1,16 +1,18 @@
-[!!Tasks](../../Tasks/Overview/01_General.md)
 [!!User interface Workflows](../UserInterface/02a_Workflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
-[!!Compare the workflow versions](./03_CompareWorkflows.md)
-[!!Copy a workflow](./04_CopyWorkflow.md)
-[!!Update a deployed version](05_UpdateDeployedVersion.md)
-[!!Insert a static input](06_InsertStaticInput.md)
 [!!Track a workflow process](./09_TrackWorkflowProcess.md)
+[!!Tasks](../../Tasks/Overview/01_General.md)
 
 # Manage the workflows
 
 The *Process Orchestration* module allows you to define customer-specific business processes, such as orders, shipments, returns, etc.
 The workflows can be created individually in the workflow editor, they can be edited subsequently, and the usage can be controlled by publishing and unpublishing a workflow.
+
+See also the following procedures, which describe further options for editing the workflow:
+- [Compare the workflow versions](./03_CompareWorkflows.md)
+- [Copy a workflow](./04_CopyWorkflow.md)
+- [Update a deployed version](05_UpdateDeployedVersion.md)
+- [Insert a static input](06_InsertStaticInput.md)
 
 
 ## Create a workflow
@@ -23,7 +25,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 #### Prerequisites
 
-- You have the required rights to edit a workflow.
+You have the required rights to edit a workflow.
 
 #### Procedure
 
@@ -42,7 +44,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-    > [Info] The list of places is filtered for your keyword as you type. To decide on the data type, see the data models at *Dev Tools > API > Tab Data Model* and find the data model that matches your needs. For example, if you want to process business document types, check the data models in the *Fakturierung* section and search for **BusinessDocument**.
+    > [Info] The list of places is filtered for your keyword as you type. To decide on the data type, see the data models at *Dev Tools > API > Tab DATA MODEL* and find the data model that matches your needs. For example, if you want to process business document types, check the data models in the *RETAILSUITEFAKTBASE* (Order Management) section or search for **BusinessDocument**.
 
 5. Select the start place you want to add in the list of places.    
 
@@ -50,7 +52,7 @@ In a first step to create a workflow, you have to define the basic settings of t
 
     > [Info] The list of places is filtered for your keyword as you type.
 
-7. Click the end place you want to add in the list of places.  
+7. Select the end place you want to add in the list of places.  
 
 8. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
@@ -65,7 +67,7 @@ Create a transition to define the desired business process.
 
 #### Prerequisites
 
-The basic settings of the workflow have been defined, and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
+The basic settings of the workflow have been defined and the workflow editor is displayed, see [Define the workflow basic settings](#define-the-workflow-basic-settings).
 
 #### Procedure
 
@@ -117,18 +119,18 @@ Connect the transition to the place to create a valid workflow.
     > [Info] A workflow must contain at least one transition and can contain an unlimited number of transitions.
 
 3. Click the place, drag it over the place to which you want to connect it and drop it.     
-    The places are merged, and the new connection has been created.
+    The places are merged and the new connection has been created.
 
 
 
-## Edit a workflow
+## Edit a workflow version
 
-Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
+Edit a workflow version to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
 
 
-### Select a workflow
+### Select a workflow version
 
-Select an existing workflow to edit it.
+Select an existing workflow version to edit it.
 
 #### Prerequisites
 
@@ -169,6 +171,7 @@ Edit the place settings to change or define the place data type.
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
+- A workflow version has been selected, see [Select a workflow version](#edit-a-workflow-version).
 
 #### Procedure
 
@@ -196,7 +199,7 @@ You can change the ports of the place by deleting an existing arc and creating a
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#select-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
@@ -231,7 +234,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#select-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
@@ -249,7 +252,7 @@ Delete a place that is no longer needed, for instance if a transition is removed
 3. Press the **Delete** key to remove the selected place.    
     The selected place and its arcs have been deleted.
 
-    > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
+    > [Info] If one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
 
 
 ### Add a transition
@@ -260,7 +263,7 @@ Add one or several transitions to the workflow to define or expand the desired b
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#select-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
@@ -300,7 +303,7 @@ Edit a transition to define its settings.
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#select-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
@@ -322,15 +325,39 @@ Edit a transition to define its settings.
     + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default, the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
+    + If desired, enter the priority in the *Priority* field. It is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog.     
+    You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+
+    + If desired, in the *Max tries* field, enter the number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* a drop-down list is displayed. When you select a retry time strategy, the *Strategy config value* drop-down list is displayed. Depending on the retry time strategy you select, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
+        
+        - **Constant**   
+            Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
+
+        - **CustomFunction**  
+            Use any suitable php function to define the retry time.
+
+        - **Custom**   
+            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
+
+        - **Exponential**   
+            Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
+
+        - **Linear**   
+            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
+
+        - **Quadratic**   
+            Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
+
     + Click the *Long description* field if you want to document the process step you added.   
     The *Edit long description* window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
 
         ![Edit long description](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditLongDescription.png "[Edit long description]")
 
-        Click the [Apply changes] button to add your documentation.
+        Click the [APPLY CHANGES] button to add your documentation.
 
-    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned. For example, a process action has failed and an email is sent to all persons assigned to the event.   
-    All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it. For detailed information, see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
+    + If desired, click the *Task event* drop-down list and select an event connected to the transition. All available task events are displayed in the drop-down list.
+ 
+        >[Info] This setting causes a task to be created when the selected event occurs. If you do not select any task event for a specific action, the "ActindoWorkflow process execution failed" applies. For detailed information, see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
     + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition.     
     This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
@@ -338,11 +365,65 @@ Edit a transition to define its settings.
     + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. For detailed information on static inputs, see [Insert a static input](06_InsertStaticInput.md).
     + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. 
 
+## Deploy a workflow version
+
+When you have finished editing the workflow, you can deploy the workflow. Your changes are automatically saved then, and a new workflow version is created and published.
+
+> [Info] Note that in exceptional cases during the test phase, you may want to update a specific workflow version during the testing phase, see [Update a deployed version](05_UpdateDeployedVersion.md).
+
+
+#### Prerequisites
+
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- You have the required rights to edit a workflow.
+- You have edited a workflow, [Edit a workflow version](#edit-a-workflow-version).
+
+#### Procedure
+
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
+
+![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
+
+1. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+    The workflow context menu is displayed.
+
+    ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
+
+2. Click the *Deploy* menu entry in the context menu.   
+    The changes to the workflow version are stored in a new version. The new version is automatically published.
+
+
+
+## Unpublish a workflow version
+
+A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published.   
+
+Unpublish a workflow version if the workflow is still under construction or being used for testing purposes and may not yet be used for processes.
+
+#### Prerequisites
+
+- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
+- At least one workflow version is published, see [Publish a workflow version](#publish-a-workflow-version).
+
+#### Procedure
+
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
+
+  ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
+
+1. Select the checkbox of the workflow version you want to unpublish.      
+  The editing toolbar is displayed.
+
+2. Click the [UNPUBLISH] button in the editing toolbar.   
+  The selected workflow version has been unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
+
+  ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
+
 
 
 ## Publish a workflow version
 
-A workflow can only be used for processes if it is published. If multiple versions of a workflow exist, the highest published version is taken for upcoming workflow processes. Therefore you have to publish a workflow to use it for workflow processes. By default, a workflow is automatically published when it is created or when a new workflow version is deployed. You can manually publish or [unpublish](#unpublish-a-workflow-version) workflow versions.
+Publish a workflow version when you have unpublished it before, for example, if a new workflow version is completed and ready for use.
 
 #### Prerequisites
 
@@ -365,25 +446,3 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 
 
-## Unpublish a workflow version
-
-A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published. You can manually [publish](#publish-a-workflow-version) or unpublish workflow versions. Unpublish a workflow version if the workflow is still in work or used for testing purposes and the workflow should not yet be used for processes.
-
-#### Prerequisites
-
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
-- At least one workflow version has been published, see [Publish a workflow version](#publish-a-workflow-version).
-
-#### Procedure
-
-*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
-
-  ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
-
-1. Select the checkbox of the workflow version you want to unpublish.      
-  The editing toolbar is displayed.
-
-2. Click the [UNPUBLISH] button in the editing toolbar.   
-  The selected workflow version has been unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
-
-  ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")

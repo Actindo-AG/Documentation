@@ -9,7 +9,7 @@ Configure an arbitrary number of individual queue types to be able to execute ce
 A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
 For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
 *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
-For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md##check-vcores) in the *Core1 Platform* documentation.  
+For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md#check-vcores) in the *Core1 Platform* documentation.  
 
 The *Default* queue type is predefined and is assigned to all transitions by default. It can be manually overridden by individual queue types. A different queue type may be assigned for each transition.
 
@@ -44,10 +44,10 @@ No prerequisites to fulfill.
     - **Executable actions of oldest process**   
         The executable actions within the oldest process are executed first by the workers.
 
-5. If you want to create a queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
+5. If you want to create a queue type to throttle a process, enable the *Throttling* toggle.   
    The fields below are ready for input.
-     - Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
-     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60 means 1000 actions per hour.  
+     - Specify the maximum number of actions to be executed in the *Throttle action limit* field.   
+     - Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example, if the maximum number of actions is 1000 and the throttle period is 60, (it means that) 1000 actions are executed per hour. 
     Note that these numbers refer to a queue type. If a queue type is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
 6. Click the [SAVE] button in the upper right corner.   
@@ -83,7 +83,7 @@ The user has the required rights to edit the developer settings in the engine ro
 2. Click the arrow right to the *Developer mode*.   
     The developer mode settings are displayed.
 
-3. Enable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box.   
+3. Enable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section.   
     The workflows have been disabled. No new workflow processes will start as long as the *Disable workflow* toggle is enabled.
 
     ![Disable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/DisableWorkflow.png "[Disable workflow]")
@@ -91,7 +91,7 @@ The user has the required rights to edit the developer settings in the engine ro
 4. Click the flag at the bottom of the engine room.    
     The engine room panel is folded.
 
-[Info] To re-enable the automatic start of workflow processes, unfold the engine room panel and disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section.
+> [Info] To re-enable the automatic start of workflow processes, unfold the engine room panel and disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section.
 
 
 
@@ -160,7 +160,7 @@ To achieve this, you must either wait until all running workers are finished or 
 3. If you want to use the queue type to throttle a process, enable the ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling) toggle.   
    The fields below are ready for input.
 
-    + Specify the maximum number of actions to be executed by this action in the *Throttle action limit* field.   
+    + Specify the maximum number of actions to be executed in the *Throttle action limit* field.   
     + Specify the period in minutes in which the maximum number of actions are to be executed in the *Throttle period (minutes)* field. For example: Maximum number of actions = 1000, Throttle period = 60 means that a maximum of 1000 actions can be processed in one hour. 
     Note that these numbers refer to a worker. If a worker is associated with multiple transitions, the number is divided among all the actions concerned. In addition, if more than one worker is configured for a queue type, there may be minimal deviations (one/two in a thousand) from the specified numbers due to parallel processing. 
 
@@ -171,7 +171,7 @@ To achieve this, you must either wait until all running workers are finished or 
 
     ![Maximum total workers](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/MaximumTotalWorkers.png "[Maximum total workers]")  
 
-5. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.   
+5. To restart the workers again, unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section and fold the engine room panel again.   
     The workflow processes will start automatically after one minute. If you do not want to wait this time, see [Start workers](#start-workers).
 
     ![Enable workflow](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/EnableWorkflow.png "[Enable workflow]")
@@ -218,10 +218,10 @@ You can delete a queue type that is obsolete to release workers for other queue 
 
 #### Prerequisites
 
-- An additional queue type has been created, see [Create a queue type](#create-a-queue-type).
+- At least one queue type has been created, see [Create a queue type](#create-a-queue-type).
 - The workflows have been disabled, see [Disable the workflows](#disable-the-workflows).
 - No more workers are running.
-- You have checked your workflow transitions to see if the queue type you want to delete is assigned to any of them. Tip: Use the *Ececution log* to identify transitions using a specific queue type, see [Execution log](../UserInterface/06b_ExecutionLog.md).
+- You have checked your workflow transitions to see if the queue type you want to delete is assigned to any of them. Tip: Use the *Execution log* to identify transitions using a specific queue type, see [Execution log](../UserInterface/06b_ExecutionLog.md).
 
 #### Procedure
 
@@ -241,8 +241,8 @@ You can delete a queue type that is obsolete to release workers for other queue 
 
 ## Kill workers
 
-Sometimes it may be necessary to stop certain process actions. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless of their queue type.
-The killed workers will be restarted automatically if the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel is disabled.
+Sometimes it may be necessary to stop certain processes. Therefore, you have to kill the workers to avoid that these actions are executed. You can either kill the workers of a single queue type or kill all workers regardless of their queue type.
+The killed workers will be restarted automatically if the *Disable workflow* toggle in the *Actindo Work Flow Engine* section of the engine room panel is disabled.
 
 > [Caution] Problems may occur when killing workers. Only kill the workers when you are qualified to restart the stopped process actions.  
 
@@ -254,7 +254,7 @@ Kill the workers of a single queue type to stop all running actions of a certain
 
 #### Prerequisites
 
-The workflows are disabled. Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
+ The workflows have been disabled, see [Disable the workflows](#disable-the-workflows).
 
 #### Procedure
 
@@ -271,7 +271,7 @@ The workflows are disabled. Disable the workflows before you kill the workers to
 2. Click the [KILL WORKER OF THIS QUEUE TYPE] button in the toolbar.   
   The workers of the selected queue type have been killed. The process actions of the selected queue type will not continue until you restart the workflow processes. A confirmation message is displayed.
 
-3. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
+3. To restart the worker again, unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section and fold the engine room panel again.
     The workflow processes will start automatically after one minute.
 
 
@@ -282,7 +282,7 @@ Kill all workers to stop all currently running actions.
 
 #### Prerequisites
 
-The workflows are disabled. Disable the workflows before you kill the workers to prevent an automatic restart of the workflow processes, see [Disable the workflows](#disable-the-workflows).
+The workflows have been disabled, see [Disable the workflows](#disable-the-workflows).
 
 
 #### Procedure
@@ -294,19 +294,19 @@ The workflows are disabled. Disable the workflows before you kill the workers to
 1. Click the [KILL WORKER] button above the queue types list.    
     All workers have been killed. The process actions will not continue until you restart the workflow processes. A confirmation message is displayed.
 
-2. Unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* box and fold the engine room panel again.
+2. To restart the workers again, unfold the engine room panel, disable the *Disable workflow* toggle in the *Actindo Work Flow Engine* section and fold the engine room panel again.
     The workflow processes will start automatically after one minute.
 
 
 
 ## Start workers
 
-Sometimes it may be necessary to start the process actions manually. For example, if you have previously disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* box of the engine room panel, and you want the workers to start immediately.
+Sometimes it may be necessary to restart the workers manually. For example, if you have previously disabled the *Disable workflow* toggle in the *Actindo Work Flow Engine* section of the engine room panel, and you want the workers to start immediately.
 
 
 #### Prerequisites
 
-- The workers have been killed before, or the workflow has been disabled. 
+The workers have been killed before, or the workflow has been disabled. 
 
 #### Procedure
 

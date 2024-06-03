@@ -5,8 +5,8 @@ The comparison function of the workflow enables to compare different workflow ve
 You can use this function to do the following: 
 - Compare a specific workflow version to any other version of that workflow available on the current instance.
 - Compare a specific workflow version to any workflow version available on another instance. 
-- Change, insert, or delete code lines. This is possible, because you can edit the JSON code directly.  
-- Display change logs. By doing it, you are able to do software-audits.
+- Change, insert, or delete code lines. This is possible because you can edit the JSON code directly.  
+- Display change logs, for example, to do software audits.
 
 ## Open the comparison window
 
@@ -39,7 +39,7 @@ The *Workflow versions* view is displayed.
 
 **Open the comparison window in the workflow editor**   
 
-1. Select the workflow version.   
+1. Select a workflow version.   
     The workflow editor is displayed.
 
 2. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.  
@@ -82,7 +82,7 @@ Compare a workflow version with any other version available on the current insta
         Click the ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS] button to swap the versions displayed. 
        
     - Format code  
-        Click the ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE] button to smooth the comparison.   
+        Click the ![Format code](../../Assets/Icons/Code.png "[Format code]") [FORMAT CODE] button to smooth the comparison.   
         The function compares the lines of code and puts them in the same order, so that order differences are no longer highlighted.
 
     - All properties   
@@ -100,10 +100,10 @@ Compare a workflow version with any other version available on another instance.
 
 #### Prerequisites
 
-- At least one workflow has been created in each required instance, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
+- At least one workflow has been created in each instance, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow in each of the instances.
-- You have opened the comparison window, see [Open the comparison window](#open-the-comparison-window).
 - You are logged in to the instance, from which you want to retrieve the desired workflow version.
+- You have opened the comparison window, see [Open the comparison window](#open-the-comparison-window).
 
 #### Procedure
 
@@ -112,30 +112,33 @@ Compare a workflow version with any other version available on another instance.
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
 
-1. Copy the JSON code from the workflow version you want to use as source for the comparison.
+1. Copy the JSON code from the workflow version you want to use as source for the comparison. To do this, you can copy the code with **Ctrl C** or use the export function, see [Export the workflow JSON code](./04_CopyWorkflow.md#export-the-workflow-json-code).
 
-2. Change to the instance on which you want to perform the comparison. 
+2. Log out from this system and log in to the instance on which you want to perform the comparison. 
 
-2. Delete the JSON code in the desired target version.   
+3. Open the workflow version that you want to compare with the version you have just copied, see [Open the comparison window](#open-the-comparison-window).
+
+2. Delete the JSON code in the column that is not the desired target version.   
     The column contains no longer any code.
+
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparisonAnotherInstance.png "[Workflow]")
 
-3. Paste the copied source JSON code to the target version.   
+4. Paste the copied source JSON code to the empty column.   
     The comparison is displayed again.
     
     ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")
     
-4. Compare the versions. If desired, use the assistant functions, see [Compare the versions](#compare-the-versions). 
+5. Compare the versions. If desired, use the assistant functions, see [Compare the versions](#compare-the-versions). 
 
-5. If desired, copy missing code from the source to the target version or delete unnecessary code in the target. 
+6. If desired, copy missing code from the source to the target version or delete unnecessary code in the target. 
 
-5. Click the [X CLOSE] button to close the comparison window.
+7. Click the [X CLOSE] button to close the comparison window.
 
 
 
 ## Change the workflow to be compared 
 
-Change the workflow to be compared without leaving the comparison  window.
+Change the workflow to be compared without leaving the comparison window.
 
 #### Prerequisites
 
@@ -160,10 +163,10 @@ Change the workflow to be compared without leaving the comparison  window.
 3. Select the desired workflow version by clicking on the *Version* drop-down list of the left column.  
     A list of all available workflow versions available for the selected workflow is displayed.
 
-4. Select the desired version.
+4. Select the desired version.   
    The column is filled with JSON code.
 
-5. Repeat step 3 and 4 for the right column.
+5. Repeat step **3** and **4** for the right column.
 
 6. Compare the workflow versions. If desired, use the assistant functions, see [Compare the versions](#compare-the-versions). 
 

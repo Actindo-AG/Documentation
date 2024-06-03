@@ -2,17 +2,22 @@
 [!!User interface Processes](../UserInterface/03a_Processes.md)
 [!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
 [!!User interface EXECUTION LOG](../UserInterface/06b_ExecutionLog.md)
-[!!Retry a process action](../Troubleshooting/01_RetryProcessAction.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
+[!!Retry a process action](../Troubleshooting/01_RetryProcessAction.md)
 
 # Track the workflow process
 
-A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a further workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.
+<!---A process is an instance of a workflow. When an operation is performed, a data entity is generated, for example an invoice, which in turn initiates a further workflow process. Therefore, for every single operation performed, an individual instance of the corresponding workflow, that is, a process, is initiated.-->
 <!---Lieber Technischer Reviewer, diesen Abschnitt bitte prüfen, mir ist nicht ganz klar, was er sagen möchte, er ist auch sehr abstrakt (for every single operation, ??)-->
 
 <!--- > Alternativ-Vorschlag: Process menu entry als zentrales Tool im Workflow darstellen, um die Konfiguration zu testen, und wenn ein Workflow auf einen Fehler läuft, die Fehlerursache zu finden.... Man kann den Process real-time beobachten und manual actions ausführen-->
 
-A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/04_WorkflowProcessElements.md).
+<!---A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/04_WorkflowProcessElements.md).-->
+
+The menu entry *Processes* contains a powerful tool that allows you to monitor the execution of a workflow process in real time. At a glance, you can see the status of all processes and suspend or abort processes. The graphical user interface allows you to see the details of a process execution. You can see which transition has run into an error, is not yet executed, or waits for a user interaction. If the workflow contains branches, you can see which branch has been executed.
+A list of all actions of the workflow process provides you with information on the status and gives detail information. 
+
+For detailed information on processes, see [Workflow and process elements](../Overview/03_Processes.md).
 
 Track the workflow process to check the status of a whole process or of individual actions, the status and the content of a token, to perform manual actions, or to analyze the execution of the actions.
 
@@ -48,7 +53,7 @@ The *OVERVIEW* tab in the *Processes* menu entry displays a list of all processe
 
 ## Check the process action status
 
-The process action status can be checked to monitor what actions have already been executed, whether problems have occurred and at what place, or whether manual actions are awaiting a user decision. If the process is currently active, you can observe the process execution in real time.  
+The process action status can be checked to monitor what actions have already been executed, whether problems have occurred and at what action, or whether manual actions are awaiting a user decision. If the process is currently active, you can monitor the process execution in real time.  
 
 The *Process ID* view displays a diagram of the selected process including all places and actions. More details about the process actions, tokens, and logs included in the diagram are displayed in separate tabs at the bottom of the *Process ID* view.
 
@@ -79,7 +84,9 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Pending** (white)
     - **Manual action** (yellow), see [Make a user decision](#make-a-user-decision)
 
-4. If desired, display the transition documentation that might have been added when creating the workflow. You can identify the documentation by a small [Info] button.
+    > [Info] You can zoom in/out with your mouse wheel, and move within the graphic by dragging it with your mouse.
+
+4. If desired, display the transition documentation that might have been added when creating the workflow, see [Edit a transition](./01_ManageWorkflows.md#edit-a-transition). You can identify the documentation by a small [Info] button.
 
     ![Transition documentation](../../Assets/Screenshots/ActindoWorkFlow/Processes/CheckDocumention.png "[Transition documentation]")
 

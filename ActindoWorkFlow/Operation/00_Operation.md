@@ -7,16 +7,18 @@ In this part of the *Process Orchestration* documentation, you will find the fol
         - [Define the workflow basic settings](./01_ManageWorkflows.md#define-the-workflow-basic-settings)
         - [Create a transition](./01_ManageWorkflows.md#create-a-transition)
         - [Connect the transition](./01_ManageWorkflows.md#Connect-the-transition)
-    - [Edit a workflow](./01_ManageWorkflows.md#edit-a-workflow)
-        - [Select a workflow](./01_ManageWorkflows.md#select-a-workflow)
+    - [Edit a workflow version](./01_ManageWorkflows.md#edit-a-workflow-version)
+        - [Select a workflow version](./01_ManageWorkflows.md#select-a-workflow-version-version)
         - [Edit the place data type](./01_ManageWorkflows.md#edit-the-place-data-type)
         - [Change the place ports](./01_ManageWorkflows.md#change-the-place-ports)
         - [Delete a place](./01_ManageWorkflows.md#delete-a-place)
         - [Add a transition](./01_ManageWorkflows.md#add-a-transition)
         - [Edit a transition](./01_ManageWorkflows.md#edit-a-transition)
+        - [Deploy a workflow version](01_ManageWorkflows.md#deploy-a-workflow-version)
     
-    - [Publish a workflow version](./01_ManageWorkflows.md#publish-a-workflow-version)
+    
     - [Unpublish a workflow version](./01_ManageWorkflows.md#unpublish-a-workflow-version)
+    - [Publish a workflow version](./01_ManageWorkflows.md#publish-a-workflow-version)
 
 - [Manage the triggers](./02_ManageTriggers.md)
     - [Create a trigger](./02_ManageTriggers.md#create-a-trigger)

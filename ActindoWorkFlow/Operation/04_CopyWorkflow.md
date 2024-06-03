@@ -53,9 +53,8 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
 #### Prerequisites
 
-- At least one workflow has been created, see [Create a workflow](./01_ManageWorkflows.md#create-a-workflow).
 - You have the required rights to edit a workflow.
-- The JSON code of the workflow to copy has been exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-json-code).
+- The JSON code of the workflow to copy has been copied to the clipboard, see [Export the workflow JSON code](#export-the-workflow-json-code).
 
 #### Procedure
 
@@ -63,7 +62,7 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
-1. [Create a new workflow](./01_ManageWorkflows.md#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
+1. Create a new workflow (see [Define the workflow basic settings](01_ManageWorkflows.md#define-the-workflow-basic-settings)) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
   The *Workflow versions* view with all versions of the selected workflow is displayed.
 
   ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
@@ -85,12 +84,12 @@ Import the exported JSON code to an existing or new workflow to copy it.
 
    ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
-5. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
+5. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.    
   The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
 
     ![Workflow editor copied](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
 
-    > [Info] You can edit the workflow as desired before deploying it.
+    > [Info] You can edit the workflow as desired before deploying it, see [Edit a workflow version](./01_ManageWorkflows.md#edit-a-workflow-version).
 
 6. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
   The workflow context menu is displayed.
