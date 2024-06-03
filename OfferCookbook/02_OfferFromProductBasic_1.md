@@ -47,15 +47,33 @@ For detailed information on how to create a workflow, see [Create a workflow](..
 
 #### Procedure
 
-*Process Orchestration > Workflows > Select basic offer from product workflow > Select a workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select a workflow version*
 
-1. Click the [NEW ACTION] button to add a new transition to your workflow.  
-    The window with all transitions is display. 
+![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-2. Select **Multiply input action**.  
-    The *Multiply input action* transition is displayed in your workflow editor.
+1. Click the [NEW ACTION] button in the upper right corner of the workflow editor.  
+    A window with a list of actions is displayed.  
 
-    When set up, the transition structure is as follows: 
+    ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Workflow editor]")
+
+2. Select *Multiply input action*.  
+    The selected action is displayed in the workflow editor.
+
+    ![Multiply input action](../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
+
+    > [Info] This action is used to ...
+
+3. Configure the *Multiply input action* action with the following settings:  
+
+    | Configuration ||
+    |----|----|
+    | **** |  |
+    | **** |  |
+    | **** |  |
+
+4. Connect the input port to the start place. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+
+    After setting it up, the *Multiply input action* action has the following structure:
 
     | Input ports     | Value | -  | Output ports | Value    |
     | --------------- | --- | ---| -------------- | ----  |
@@ -64,60 +82,94 @@ For detailed information on how to create a workflow, see [Create a workflow](..
 
 [comment]: <> (in P1 output port ist anyValue, aber warum? Sollte es nicht auch PIMProduct sein, vgl. Core action description: The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.)
 
-3. Click the [NEW ACTION] button.
+
+5. Click the [NEW ACTION] button and select the *Execute PHP code* action.
+    The selected action is displayed in the workflow editor.
+
+    ![Execute PHP code](../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExecutePHPCode.png "[Execute PHP code]")
+
+    > [Info] This action is used to ...
+
+    It is recommended to change the name in the *Label* field to a descriptive name, for example, **Determine connection** in this case.
+
+6. Configure the *Determine connection* action as follows:
+
+    | **Configuration** | |
+    |-------------------|-------------| 
+    | **PHP code** | `return [new Actindo\Modules\Actindo\ActindoWorkFlow\Components\Containers\ScalarValueContainer($in1)];` |
+    | **Static inputs** | | 
+    | *in1* | "2" |
+
+    - Join input port...
+
+    After setting it up, the *Determine connection* action has the following structure:
+
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *in0*  | anyValue | - | *out0* | anyValue |
+    | *in1*  |   2  (static input)     | - | - | -   |
+
+7. Click the [NEW ACTION] button and select the *Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer* action.
+    The selected action is displayed in the workflow editor.
+
+    ![Create connection container](../Assets/Screenshots/OfferCookbook/CreateConnectionContainer.png "[Create connection container]")
+
+    It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create con. container** in this case.
 
 
-4. Select Execute PHP code (Core action)
-    - Label: Determine connection
-    - Queue type: Default
-    - Priority: 0
-    - Max Tries: 1
-    - Configuration 
-        - PHP Code  
-        
-                <?php
-                
-                return [new Actindo\Modules\Actindo\ActindoWorkFlow\Components\Containers\ScalarValueContainer($in1)];
+8. Configure the *Create connection container* action as follows:
 
-    - Static inputs
-        - in1: "2"
+    - Join input port...  
+
+    After setting it up, the *Determine connection* action has the following structure:
+
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *id*  | scalarValue | - | *out* | ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
+
+9. Click the [NEW ACTION] button and select the *Create offer from PIM product* action.
+    The selected action is displayed in the workflow editor.
+
+    ![Create offer from PIM product](../Assets/Screenshots/OfferCookbook/CreateOfferFromPimProduct.png "[Create offer from PIM product]")
+
+    It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
+
+10. Configure the *Create offer* action as follows:
+
+    | **Configuration** | |
+    |-------------------|-------------| 
+    | **Static inputs** | | 
+    | *unique* | "1" |
+
+    After setting it up, the *Create offer* action has the following structure:
+
+    | Input ports     | Value | -  | Output ports | Value    |
+    | --------------- | --- | ---| -------------- | ----  |
+    | *pimProduct*  | (linked to *p0* output port from *Multiply input action*) | - | *data* | anyValue |
+    | *connection*  | (linked to *out* output port from *CreateConnectionContainer*) |  | - |  |
+    | *changeTracking*  | - | - | | |
+    | *initialStatus*  | - | - | | | 
+    | *destinationAttributeSet*  | - | - | | |
+    | *unique*  | 1 | - |  |  |
+
     
-    - *in0* input port: anyValue
-    - *in1* input port: 2 (static input)
-    - *out0* output port: anyValue
-
-9. [NEW ACTION]: Create ConnectionContainer
-    - *id* input port: scalarValue
-    - *out* output port: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer
-
-10. [NEW ACTION]: createFromPimProduct | Create offer from pim product (/Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct)
-
-    - Label: Create offer
-    - Queue type: Default
-    - Priority: 0
-    - Max Tries: 1
-
-    -  Status inputs
-        - pimProduct (linked to *p0* output port from *Multiply input action*)
-        - connection (linked to *out* output port from *CreateConnectionContainer*)
-        - changeTracking
-        - initialStatus
-        - destinationAttributeSet
-        - unique: "1"  
-        (to avoid creation of duplicate offers)
-
-    - *out* output port: data (anyValue)
-
 [comment]: <> (Warum geht es technisch nicht connection id als static input einzugeben? Warum kann man nicht "id: 2" eingeben? Die ganzen Actions dazwischen, um nur id: 2 anzugeben...?)
 
 [comment]: <> (Was ist besser: Unique check bei dem PIMProduct Trigger oder unique 1 als static input bei Create Offer? Ist es das gleiche, also, um Duplicate vermeiden? Pros/cons von beiden Methoden. Was ist unsere Empfehlung?)
 
+11. Click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner to display the context menu.
+
+12. Click on [DEPLOY] menu entry in the context menu to publish the workflow.  
+    The workflow is published and will be used from now on.
+
+
+
 ## JSON
 
         {
-            "key": "create_offer_from_complete_pim_product",
+            "key": "create_offer_from_pim_product_basic",
             "version": 10,
-            "name": "Create Offer from complete PIM product",
+            "name": "Create offer from complete PIM product basic",
             "published": true,
             "places": {
                 "input": "Modules.Actindo.PIM.Models.PIMProduct",

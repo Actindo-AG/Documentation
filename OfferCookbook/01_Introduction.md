@@ -14,7 +14,7 @@ In this chapter, you will find the following information and processes:
 - [Main entities and actions involved](#main-entities-and-actions-involved)
 - [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow)
 - [Create a PIM product trigger](#create-a-pim-product-trigger)
-- [Add a conditions](#add-a-condition)
+- [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger)
 
 
 
@@ -133,16 +133,11 @@ You have set up an offer from product workflow, see [Set up an offer from produc
         | **Unique check** | No |
 
 
-        | Triggers | | | | | | |
-        |----|----|-----|----|----|----|----|
-        | **Name** | **Model** | **Event** | **Condition fulfillment** | **Status** | **Process priority** | **Unique check** |
-        |PIM product created | Actindo\Modules\Actindo\PIM\Models\PIMProduct | After creating  |If all are met |  Active | 10 |  No |
-
-3. If desired, you can add conditions to a trigger to define more precisely when a process is executed, see [Add a condition to PIM product trigger](#add-a-condition-to-pim-product-trigger).
+3. If desired, you can add conditions to a trigger to define more precisely when a process is executed, see [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger).
 
 
 
-## Add a condition to PIM product trigger
+## Add a condition to a PIM product trigger
 
 [comment]: <> (Letztes Mal hat es nicht funktioniert. Mit Stefan prüfen)
 

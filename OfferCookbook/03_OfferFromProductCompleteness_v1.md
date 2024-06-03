@@ -12,7 +12,7 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none | 
-| **Trigger** | *PIM* product saved |
+| **Trigger** | The process is triggered when a *PIM* product is created or saved. |
 
 **Included steps**
 
@@ -30,33 +30,32 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 
 #### Prerequisites
 
-- You have have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
+- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
+- You have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
 #### Procedure
 
-
-*Process Orchestration > Workflows > Tab OVERVIEW > Select your new workflow > Select a workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select a workflow version*
 
 ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. Create a *PIM Product saved* trigger to create an offer every time a product is updated.  
-    For detailed information, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
-
-2. Click the [NEW ACTION] button in the upper right corner of the workflow editor.  
+1. Click the [NEW ACTION] button in the upper right corner of the workflow editor.  
     A window with a list of actions is displayed. 
 
     ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Workflow editor]")
 
     For detailed information on how to add a transition, see [Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition).
 
-3. Select the *Split by criterion* action. 
+2. Select the *Split by criterion* action. 
     The selected action is displayed in the workflow editor.
 
     ![Split by criterion](../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SplitByCriterion.png "[Split by criterion]")
 
     > [Info] This action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. In this case, we want to check if the total completeness value of the input *PIM* product is greater than or equal to 100 or not.  
 
-4. Configure the *Split by criterion* action with the following settings:  
+3. Configure the *Split by criterion* action with the following settings:  
 
     | Configuration ||
     |----|----|
@@ -68,9 +67,9 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 
     ![Workflow editor](../Assets/Screenshots/OfferCookbook/Completeness100Action.png "[Workflow editor]")
 
-5. Connect the input port to the start place. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+4. Connect the input port to the start place. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
 
-    After setting it up, the *Split by criterion* action has the following structure: 
+    After setting it up, the *Completeness 100?* action has the following structure: 
     
     | Input ports     | Value | -  | Output ports | Value    |
     | --------------- | --- | ---| -------------- | ----  |
@@ -79,19 +78,16 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 
     [comment]: <> (Unsicher, ob das hier passt)
     
-6. Click the [NEW ACTION] button.  
-    The window with the list of actions is displayed again.
-    
-7. Select the *Create offer from PIM product* action.
+5. Click the [NEW ACTION] button and select the *Create offer from PIM product* action.
     The selected action is displayed in the workflow editor.
 
     ![Create offer from PIM product](../Assets/Screenshots/OfferCookbook/CreateOfferFromPimProduct.png "[Create offer from PIM product]")
 
     It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
 
-8. Connect the first input port to the *match* output port from the *Completeness 100?* action. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
+6. Connect the *pimProduct* input port to the *match* output port from the *Completeness 100?* action. For detailed information, see [Connect the transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#connect-the-transition).
 
-9. Configure the *Create offer* action static inputs as follows:
+7. Configure the *Create offer* action static inputs as follows:
 
     | Static inputs | |
     |---------------|-|
@@ -101,22 +97,20 @@ You can create an *Omni-Channel* offer automatically when all required attribute
     | **destinationAttributeSet** | - |
     | **unique** | "1" |
 
-    > [Info] To discover the connection ID, ... 
+    **Comments**
+    - You can find out the connection ID in the *ID* column of the *Connections* view under *Omni-Channel > Settings > Connections*. If the *ID* column is hidden, see [Add or remove columns](../Core1Platform/UsingCore1/05_WorkWithLists.md#add-or-remove-columns) in the *Core1* documentation.
+    - To insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
+    - Offers can have three different initial status: **active**, **inactive**, and **offline**. For detailed information, see [Create an offer from a PIM product](../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
+    - The static input *unique* prevents the creation of duplicate offers. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). 
 
-    ![Workflow editor](../Assets/Screenshots/OfferCookbook/CreateOfferConfiguration.png "[Workflow editor]")
+8. Connect the *data* output port to the end place.
+    
+    ![Create offer linked](../Assets/Screenshots/OfferCookbook/CreateOfferLinked.png "[Create offer linked]")
 
+9. Click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner to display the context menu.
 
-    ![Workflow editor](../Assets/Screenshots/OfferCookbook/CreateOfferAction.png "[Workflow editor]")
-
-10. Click on [DEPLOY] to publish the workflow.  
+10. Click on [DEPLOY] menu entry in the context menu to publish the workflow.  
     The workflow is published and will be used from now on.
-
-
-
-## Potential variations and extensions
-
-- Use case 1: Add multiple connections, see [Create offer from product for multiple connections](./04_OfferFromProductMultiConnections.md)
-- Use case 2: ...
 
 
 

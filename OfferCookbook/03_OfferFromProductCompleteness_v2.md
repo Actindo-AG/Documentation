@@ -39,7 +39,7 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 #### Procedure
 
-*Process Orchestration > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select a workflow version*
 
 ![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 

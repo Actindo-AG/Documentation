@@ -8,25 +8,21 @@
 | **Summary** |       |
 | ----------- |------ |
 | **Purpose** | Create an *Omni-Channel* offer from a *PIM* product. |
-| **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Readonly.Modules.Actindo.Channels.Models.ConnectionContainer <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+| **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | optional | 
-| **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
+| **Trigger** | The process is triggered when a *PIM* product is created or saved. |
 
 
 **Included steps**
 
-
+- Creation of an offer for a given *PIM* product and connection.
 
 **Necessary actions**
 
 | Action | Short description | API endpoint |
 | ------ | ----------------- | ------------ |
-| **Core actions** | Multiply input action <br> Execute PHP Code |
-
-
-For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
-
+| Create offer | Create an offer from a product | Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 
 
 #### Prerequisites
@@ -39,163 +35,60 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 #### Procedure
 
-*Process Orchestration > Workflows*
+*Process Orchestration > Workflows > Select offer from product workflow > Select a workflow version*
 
-1. Button ADD  
-    New workflow view displayed
+![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-2. Enter name and unique key, select start (PIM.Product) and end place (any value)
+1. Click the [NEW ACTION] button in the upper right corner of the workflow editor.  
+    A window with a list of actions is displayed.  
 
-[comment]: <> (sinnvoll zu definieren, z.B. Channels.Offer, wenn ein anderes Workflow daraus anfangen soll?)
+    ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Workflow editor]")
 
-3. Click [CREATE]  
-    New workflow displayed in the list of workflows (version no. e.g. 1)
+2. Select *Create offer from PIM product*.  
+    The selected action is displayed in the workflow editor.
 
-4. Click version number you want to edit  
-    Edit Workflow "Workflow name" view displayed
+    ![Create offer from PIM product](../Assets/Screenshots/OfferCookbook/CreateOfferFromPimProduct.png "[Create offer from PIM product]")
 
-5. Click [NEW ACTION]  
-    List of actions displayed
+    > [Info] This action is used to ...
 
-[comment]: <> (For initial workflow setup, link to Workflows and/or process documentation)
----
+    It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
 
-Case 1: Create offer from *PIM* product basic workflow (no condition)
+3. Configure the *Create offer* action as follows:
 
-1. New workflow:  
-    - Name: Create Offer from complete PIM product  
-    - Key: create_offer_from_complete_pim_product 
-    - Start place: Actindo\Modules\Actindo\PIM\Models\PIMProduct
-    - End place: Arbitrary data
+    | Static inputs | |
+    |---------------|-|
+    | **connection** | { "id": 2 } |
+    | **changeTracking** | - |
+    | **initialStatus** | "inactive" |
+    | **destinationAttributeSet** | - |
+    | **unique** | "1" |
 
-2. Click [CREATE]
-
-3. Select newly created workflow from the list of workflows; select version to edit (V1 in this case)
-    Workflow editor opens
-
-4. Points button > Triggers to add a trigger
-    (Link to add trigger for detailed info)
-    Edit trigger for workflow "Workflow name"
-
-5. Click ADD button
-    New trigger input line
-
-6. Trigger input line:
-    - Name: PIM Product Saved
-    - Model: Actindo\Modules\Actindo\PIM\Models\PIMProduct
-    - Event: After saving
-    - Condition fulfillment: If all are met
-    - Status: Active
-    - Process priority: 10
-    - Unique check: Yes
-
-    > [Info] Model equals start place but replacing points by backslash. You can also find them in the API documentation under * API > Data models*... (nicht immer, warum?)
-
-7. [NEW ACTION]: Multiply input action (Core action)
-    - *p* input port: PIMProduct
-    - *p0* output port: PIMProduct
-    - *p1* output port: anyValue 
-    
-    | Input ports     | Value | -  | Output ports | Value    |
-    | --------------- | --- | ---| -------------- | ----  |
-    | *p*:  | PIMProduct| - | *p0* | PIMProduct |
-    | -     |          | - | *p1* | anyValue   |
-
-
-[comment]: <> (in P1 output port ist anyValue, aber warum? Sollte es nicht auch PIMProduct sein, vgl. Core action description: The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.)
-
-8. [NEW ACTION]: Execute PHP code (Core action)
-    - Label: Determine connection
-    - Queue type: Default
-    - Priority: 0
-    - Max Tries: 1
-    - Configuration 
-        - PHP Code  
-        
-                <?php
-                
-                return [new Actindo\Modules\Actindo\ActindoWorkFlow\Components\Containers\ScalarValueContainer($in1)];
-
-    - Static inputs
-        - in1: "2"
-    
-    - *in0* input port: anyValue
-    - *in1* input port: 2 (static input)
-    - *out0* output port: anyValue
-
-9. [NEW ACTION]: Create ConnectionContainer
-    - *id* input port: scalarValue
-    - *out* output port: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer
-
-10. [NEW ACTION]: createFromPimProduct | Create offer from pim product (/Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct)
-
-    - Label: Create offer
-    - Queue type: Default
-    - Priority: 0
-    - Max Tries: 1
-
-    -  Status inputs
-        - pimProduct (linked to *p0* output port from *Multiply input action*)
-        - connection (linked to *out* output port from *CreateConnectionContainer*)
-        - changeTracking
-        - initialStatus
-        - destinationAttributeSet
-        - unique: "1"  
-        (to avoid creation of duplicate offers)
-
-    - *out* output port: data (anyValue)
-
-[comment]: <> (Warum geht es technisch nicht connection id als static input einzugeben? Warum kann man nicht "id: 2" eingeben? Die ganzen Actions dazwischen, um nur id: 2 anzugeben...?)
+    **Comments**
+    - You can find out the connection ID in the *ID* column of the *Connections* view under *Omni-Channel > Settings > Connections*. If the *ID* column is hidden, see [Add or remove columns](../Core1Platform/UsingCore1/05_WorkWithLists.md#add-or-remove-columns) in the *Core1* documentation.
+    - To insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
+    - Offers can have three different initial status: **active**, **inactive**, and **offline**. For detailed information, see [Create an offer from a PIM product](../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
+    - The static input *unique* prevents the creation of duplicate offers. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). 
 
 [comment]: <> (Was ist besser: Unique check bei dem PIMProduct Trigger oder unique 1 als static input bei Create Offer? Ist es das gleiche, also, um Duplicate vermeiden? Pros/cons von beiden Methoden. Was ist unsere Empfehlung?)
+
+4. Click the ![Points](../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner to display the context menu.
+
+5. Click on [DEPLOY] menu entry in the context menu to publish the workflow.   
+    The workflow is published and will be used from now on.
 
 ## JSON
 
         {
-            "key": "create_offer_from_complete_pim_product",
-            "version": 10,
-            "name": "Create Offer from complete PIM product",
+            "key": "create_offer_from_pim_product_static_inputs",
+            "version": 3,
+            "name": "Create offer from PIM product static inputs",
             "published": true,
             "places": {
                 "input": "Modules.Actindo.PIM.Models.PIMProduct",
-                "output": "anyValue",
-                "p-connection-0": "ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer",
-                "p-id-0": "scalarValue",
-                "p-p1-0": "anyValue",
-                "p-pimProduct-0": "ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer"
+                "output": "anyValue"
             },
             "comment": null,
             "transitions": [
-                {
-                    "maxTries": 1,
-                    "queueType": "1",
-                    "key": "t-Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer-0",
-                    "action": "Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer",
-                    "priority": 0,
-                    "comment": null,
-                    "description": "Create ConnectionContainer"
-                },
-                {
-                    "maxTries": 1,
-                    "queueType": "1",
-                    "key": "t-deprecated_duplicate_input-0",
-                    "action": "deprecated_duplicate_input",
-                    "priority": 0,
-                    "comment": null,
-                    "description": "Multiply input action"
-                },
-                {
-                    "maxTries": 1,
-                    "queueType": "1",
-                    "key": "t-determine_connection_php_code",
-                    "action": "executePHP",
-                    "priority": 0,
-                    "comment": null,
-                    "config": {
-                        "code": "return [new Actindo\\Modules\\Actindo\\ActindoWorkFlow\\Components\\Containers\\ScalarValueContainer($in1)];"
-                    },
-                    "description": "Determine Connection"
-                },
                 {
                     "maxTries": 1,
                     "queueType": "1",
@@ -203,26 +96,19 @@ Case 1: Create offer from *PIM* product basic workflow (no condition)
                     "action": "Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct",
                     "priority": 0,
                     "comment": null,
-                    "description": "Create Offer"
+                    "description": "Create offer"
                 }
             ],
             "arcs": [
-                "p-id-0 -> t-Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer-0(id)",
-                "t-Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer-0(out) -> p-connection-0",
-                "input -> t-deprecated_duplicate_input-0(p)",
-                "t-deprecated_duplicate_input-0(p0) -> p-pimProduct-0",
-                "t-deprecated_duplicate_input-0(p1) -> p-p1-0",
-                "p-p1-0 -> t-determine_connection_php_code(in0)",
-                "t-determine_connection_php_code(out0) -> p-id-0",
-                "p-pimProduct-0 -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(pimProduct)",
+                "input -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(pimProduct)",
                 "t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(data) -> output",
-                "p-connection-0 -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(connection)",
-                "\"2\" -> t-determine_connection_php_code(in1)",
-                "\"1\" -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(unique)"
+                "{\"id\":2} -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(connection)",
+                "\"1\" -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(unique)",
+                "\"inactive\" -> t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0(initialStatus)"
             ],
             "triggers": [
                 {
-                    "name": "PIM Product Saved",
+                    "name": "New triggerPIM product saved",
                     "event": "postUpdate",
                     "active": true,
                     "unique": false,
@@ -234,44 +120,16 @@ Case 1: Create offer from *PIM* product basic workflow (no condition)
             ],
             "nodePositions": {
                 "input": {
-                    "x": -660,
-                    "y": -60
+                    "x": 0,
+                    "y": 0
                 },
                 "output": {
-                    "x": 870,
-                    "y": -30
+                    "x": 1000,
+                    "y": 0
                 },
                 "t-Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct-0": {
-                    "x": 470,
-                    "y": -10
-                },
-                "p-connection-0": {
-                    "x": 300,
-                    "y": 40
-                },
-                "t-Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer-0": {
-                    "x": 200,
-                    "y": 40
-                },
-                "p-id-0": {
-                    "x": 80,
-                    "y": 40
-                },
-                "t-determine_connection_php_code": {
-                    "x": -90,
-                    "y": 80
-                },
-                "p-pimProduct-0": {
-                    "x": 302,
-                    "y": -110
-                },
-                "t-deprecated_duplicate_input-0": {
-                    "x": -460,
-                    "y": -50
-                },
-                "p-p1-0": {
-                    "x": -280,
-                    "y": 30
+                    "x": 550,
+                    "y": -60
                 }
             }
         }

@@ -8,7 +8,7 @@ In the *Omni-Channel offer cookbook*, you will find the following chapters:
         - [Actions](./01_Introduction.md#actions)  
     - [Set up an offer from product workflow](./01_Introduction.md#set-up-the-offer-from-product-workflow)
     - [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger)
-    - [Add a condition](./01_Introduction.md#add-a-condition)
+    - [Add a condition to a PIM product trigger](./01_Introduction.md#add-a-condition-to-a-pim-product-trigger)
 
 
 - [Create an offer from a product](./02_OfferFromProductBasic_1.md)
