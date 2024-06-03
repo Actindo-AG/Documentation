@@ -1,9 +1,9 @@
-# Create an offer from a product (static inputs)
+# Create an offer from product workflow with static inputs
 
 ![Offer from product with static inputs](../Assets/Screenshots/OfferCookbook/OfferFromProductStaticInputs.png "[Offer from product with static inputs]")
 
 
-## Description
+## Overview
 
 | **Summary** |       |
 | ----------- |------ |
@@ -12,8 +12,18 @@
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | optional | 
 | **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
-| **Start** | Modules.Actindo.PIM.Models.PIMProduct |
+
+
+**Included steps**
+
+
+
+**Necessary actions**
+
+| Action | Short description | API endpoint |
+| ------ | ----------------- | ------------ |
 | **Core actions** | Multiply input action <br> Execute PHP Code |
+
 
 For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
 
@@ -23,6 +33,9 @@ For a detailed description of the core actions, see [Core actions](../ActindoWor
 
 - You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
+- You have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
+
 
 #### Procedure
 

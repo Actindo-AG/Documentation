@@ -1,22 +1,39 @@
-# Create an offer from a product (basic)
+# Create a basic offer from a product
 
 ![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
 
 
-## Description
+## Overview
+
+You want to create an *Omni-Channel* offer for a *PIM* product. 
 
 | **Summary** |       |
 | ----------- |------ |
 | **Purpose** | Create an *Omni-Channel* offer from a *PIM* product. |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Readonly.Modules.Actindo.Channels.Models.ConnectionContainer <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
-| **Included third party software** | optional | 
-| **Trigger** | The process is triggered by the creation or the update of a *PIM* product. |
-| **Start** | Modules.Actindo.PIM.Models.PIMProduct |
-| **Core actions** | Multiply input action <br> Execute PHP Code |
+| **Included third party software** | none | 
+| **Trigger** | The process is triggered when a *PIM* product is created or saved. |
+
+
+**Included steps**
+
+- Multiply input to create two different workflow branches with the same start data 
+- Determine the connection to the sales channel where you want to create the offer
+- Create a connection container to transfer the connection ID to the create offer action
+- Create offer from the *PIM* product input in the start place
+
+**Necessary actions**
+
+| Action | Short description | API endpoint |
+| ------ | ----------------- | ------------ |
+| Multiply input action | Input data coming in via one input port is output two output ports  | Core action |
+| Execute PHP Code | Allows to configure custom PHP code to define complex actions | Core action |
+| Create connection container | ? | Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
+| Create offer | Create an offer from a product | Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+
 
 For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
-
 
 For detailed information on how to create a workflow, see [Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow).
 
@@ -25,75 +42,32 @@ For detailed information on how to create a workflow, see [Create a workflow](..
 
 - You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
+- You have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
 #### Procedure
 
-*Process Orchestration > Workflows*
+*Process Orchestration > Workflows > Select basic offer from product workflow > Select a workflow version*
 
-1. Button ADD  
-    New workflow view displayed
+1. Click the [NEW ACTION] button to add a new transition to your workflow.  
+    The window with all transitions is display. 
 
-2. Enter name and unique key, select start (PIM.Product) and end place (any value)
+2. Select **Multiply input action**.  
+    The *Multiply input action* transition is displayed in your workflow editor.
 
-[comment]: <> (sinnvoll zu definieren, z.B. Channels.Offer, wenn ein anderes Workflow daraus anfangen soll?)
+    When set up, the transition structure is as follows: 
 
-3. Click [CREATE]  
-    New workflow displayed in the list of workflows (version no. e.g. 1)
-
-4. Click version number you want to edit  
-    Edit Workflow "Workflow name" view displayed
-
-5. Click [NEW ACTION]  
-    List of actions displayed
-
-[comment]: <> (For initial workflow setup, link to Workflows and/or process documentation)
----
-
-Case 1: Create offer from *PIM* product basic workflow (no condition)
-
-1. New workflow:  
-    - Name: Create Offer from complete PIM product  
-    - Key: create_offer_from_complete_pim_product 
-    - Start place: Actindo\Modules\Actindo\PIM\Models\PIMProduct
-    - End place: Arbitrary data
-
-2. Click [CREATE]
-
-3. Select newly created workflow from the list of workflows; select version to edit (V1 in this case)
-    Workflow editor opens
-
-4. Points button > Triggers to add a trigger
-    (Link to add trigger for detailed info)
-    Edit trigger for workflow "Workflow name"
-
-5. Click ADD button
-    New trigger input line
-
-6. Trigger input line:
-    - Name: PIM Product Saved
-    - Model: Actindo\Modules\Actindo\PIM\Models\PIMProduct
-    - Event: After saving
-    - Condition fulfillment: If all are met
-    - Status: Active
-    - Process priority: 10
-    - Unique check: Yes
-
-    > [Info] Model equals start place but replacing points by backslash. You can also find them in the API documentation under * API > Data models*... (nicht immer, warum?)
-
-7. [NEW ACTION]: Multiply input action (Core action)
-    - *p* input port: PIMProduct
-    - *p0* output port: PIMProduct
-    - *p1* output port: anyValue 
-    
     | Input ports     | Value | -  | Output ports | Value    |
     | --------------- | --- | ---| -------------- | ----  |
     | *p*:  | PIMProduct| - | *p0* | PIMProduct |
     | -     |          | - | *p1* | anyValue   |
 
-
 [comment]: <> (in P1 output port ist anyValue, aber warum? Sollte es nicht auch PIMProduct sein, vgl. Core action description: The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.)
 
-8. [NEW ACTION]: Execute PHP code (Core action)
+3. Click the [NEW ACTION] button.
+
+
+4. Select Execute PHP code (Core action)
     - Label: Determine connection
     - Queue type: Default
     - Priority: 0

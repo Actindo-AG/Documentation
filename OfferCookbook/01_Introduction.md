@@ -1,6 +1,21 @@
 # Introduction
 
-After a product has been created in the *PIM* module, an offer for that product can be created automatically in the *Omni-Channel* module. From the *Omni-Channel* module, the offer will then be transferred to one or multiple connected sales channels. You can automate this process by using the *Process Orchestration* module and building a workflow...
+The *Actindo Core1 Platform* offers you the possibility to create an offer automatically in the *Omni-Channel* module for every product managed in the *PIM* module. From *Omni-Channel*, the offer will then be transferred to one or multiple connected sales channels. You can automate this process with a workflow in the *Process Orchestration* module.
+
+This *Omni-Channel offer cookbook* documentation aims to ... and contains the following information:
+
+- an overview of the main components you need to create an offer from product workflow
+- a detailed description of the processes involved
+- a few workflow examples, from the most basic to most complex use cases 
+- JSON templates for every workflow example provided   
+
+In this chapter, you will find the following information and processes:
+
+- [Main entities and actions involved](#main-entities-and-actions-involved)
+- [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow)
+- [Create a PIM product trigger](#create-a-pim-product-trigger)
+- [Add a conditions](#add-a-condition)
+
 
 
 ## Main entities and actions involved
@@ -8,36 +23,32 @@ After a product has been created in the *PIM* module, an offer for that product 
 ### Entities
 
 **PIM product**  
-A *PIM* product is ... 
 
-For detailed information, see [Manage a product](../PIM/Operation/01_ManageProducts.md).  
+A *PIM* product (Modules.Actindo.PIM.Models.PIMProduct) is the entity representing the goods and services you sell. You can manage all your products in the *PIM* module. For detailed information, see [Manage a product](../PIM/Operation/01_ManageProducts.md).  
 
 **Omni-Channel connection**  
-A *Omni-Channel* connection is ... 
+
+An *Omni-Channel* connection is ... 
 For detailed information, see [Manage the connections](../Channels/Integration/01_ManageConnections.md).
+
+
+
+Readonly.Modules.Actindo.Channels.Models.ConnectionContainer
+
+Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct
 
 
 ### Actions
 
-Endpoints 
+A workflow is composed of a series of actions, or to be exact, transitions. A transition performed an action with the data it is input through an input port and it outputs in the same or a different form, depending on the transition configuration. For detailed information, see [Transitions](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#transitions).
 
-Core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
+There are two types of actions you can add to your workflow:
 
----
+- Core actions, available in all *Actindo Core1 Platform* instances, regardless of your specific module configuration. For detailed information, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
 
-Links to Process Orchestration
+- Instance-specific actions where the endpoints available in your instance are addressed, which depends on your specific module configuration.
 
-[comment]: <> (check wenn Struktur geändert!)
-
-[Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow)  
-[Define the workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings)  
-[Create a trigger](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Create-a-trigger)  
-
-[Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Add-a-condition) 
-
-[Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition)  
-
-[Insert a static input](../ActindoWorkFlow/Operation/06_InsertStaticInput.md)  
+[comment]: <> (Das gilt auch für die Entities... Undeutlich für mich. Wie kann ich sinnvoll unterscheiden?)
 
 
 ## Set up an offer from product workflow
@@ -55,7 +66,7 @@ To set up a workflow, you have to create a new workflow and define the basic set
 
 ![Workflows](../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
-1. See [Define workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings) for a general description.
+1. See [Define workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings) in the *Process Orchestration* documentation for a general description.
 
 2. Create a workflow and define the following workflow basic settings:
 
@@ -81,7 +92,7 @@ For the offer from product workflow, two main types of triggers apply:
 
 #### Prerequisites
 
-You have have set up an offer from product workflow, see [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow).
+You have set up an offer from product workflow, see [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow).
 
 #### Procedure
 
@@ -89,7 +100,7 @@ You have have set up an offer from product workflow, see [Set up an offer from p
 
 ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. See [Create a trigger](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings) for a general description.
+1. See [Create a trigger](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings) in the *Process Orchestration* documentation for a general description.
 
 2. Create a trigger and configure the following settings depending on the trigger you want to use:
 
@@ -121,17 +132,23 @@ You have have set up an offer from product workflow, see [Set up an offer from p
         |**Process priority** | 10 | 
         | **Unique check** | No |
 
-3. If desired, you can add conditions to it to define more precisely when a process is executed, see [Add a condition](#add-a-condition).
+
+        | Triggers | | | | | | |
+        |----|----|-----|----|----|----|----|
+        | **Name** | **Model** | **Event** | **Condition fulfillment** | **Status** | **Process priority** | **Unique check** |
+        |PIM product created | Actindo\Modules\Actindo\PIM\Models\PIMProduct | After creating  |If all are met |  Active | 10 |  No |
+
+3. If desired, you can add conditions to a trigger to define more precisely when a process is executed, see [Add a condition to PIM product trigger](#add-a-condition-to-pim-product-trigger).
 
 
 
-## Add a condition
+## Add a condition to PIM product trigger
 
 [comment]: <> (Letztes Mal hat es nicht funktioniert. Mit Stefan prüfen)
 
-You can add conditions to your triggers to define more precisely when a process is executed.  
+You can add conditions to a trigger to define more precisely when a process is executed.  
 
-In the case of the offer from product workflow, for example, you can determine that a new process is started only when a *PIM* product is saved and, for example, it is put on sale. This means that a new offer will be created in *Omni-Channel* only when the product price in the *PIM* module has been changed. 
+In the case of the offer from product workflow, for example, you can determine that a new process is started only when a *PIM* product is saved (trigger) and, for example, it is put on sale (condition). This means that a new offer will be created in *Omni-Channel* only when the product price in the *PIM* module has been changed. 
 
 [comment]: <> (if the price has been modified, -> Ist das möglich mit _pim_price? Und was wäre Value? Oder mit Is set?)
 
@@ -149,7 +166,7 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 > [Info] You have to select the trigger to which you want to add a condition.
 
-1. See [Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Add-a-condition) for a general description.
+1. See [Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Add-a-condition) in the *Process Orchestration* documentation for a general description.
 
 2. Add a condition and configure the following settings:
 
@@ -164,5 +181,19 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 
 
-## Possible workflow variations
 
+---
+
+Links to Process Orchestration
+
+[comment]: <> (check wenn Struktur geändert!)
+
+[Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow)  
+[Define the workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings)  
+[Create a trigger](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Create-a-trigger)  
+
+[Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Add-a-condition) 
+
+[Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition)  
+
+[Insert a static input](../ActindoWorkFlow/Operation/06_InsertStaticInput.md)  
