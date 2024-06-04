@@ -50,7 +50,7 @@ The list displays all workflows. Depending on the settings, the displayed column
     Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
 
     > [Info] The list of places is filtered for your keyword as you type.
-
+git sta
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
     Click this button to clear the search bar field for the start place.
 
