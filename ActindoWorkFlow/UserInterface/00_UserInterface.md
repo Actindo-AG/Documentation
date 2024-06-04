@@ -19,7 +19,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Workflow versions](./02a_Workflows.md#workflow-versions)
     - [Workflow editor](./02a_Workflows.md#workflow-editor)
         - [Workflow diagram](./02a_Workflows.md#workflow-diagram)
-    - [Edit trigger for workflow "Workflow name"](./02a_Workflows.md#edit-trigger-for-workflow-workflow-name)
+    - [Edit trigger for workflow](./02a_Workflows.md#edit-trigger-for-workflow)
     - [Workflow &ndash; Compare workflow versions](./02a_Workflows.md#workflow-–-compare-workflow-versions)
     - [Import JSON](./02a_Workflows.md#import-json)
     - [Export JSON](./02a_Workflows.md#export-json)
@@ -29,15 +29,14 @@ In this part of the *Process Orchestration* documentation, you will find the fol
 
 - [Processes](./03_Processes.md)
 
-- [OVERVIEW (Processes)](./03a_Processes.md)
-    - [Process ID](./03a_Processes.md#process-id)   
-        - [Process diagram](./03a_Processes.md#process-diagram)
-        - [Actions](./03a_Processes.md#actions)
-        - [Logs](./03a_Processes.md#logs)
-        - [Log ID](./03a_Processes.md#log-id)
-        - [Tokens](./03a_Processes.md#tokens)
-        - [Comments](./03a_Processes.md#comments)
-        - [Execution log](./03a_Processes.md#execution-log)
+- [OVERVIEW (Processes)](./03a_Processes.md)  
+        - [Process diagram](./03a_Processes.md#process-diagram)  
+        - [Actions](./03a_Processes.md#actions)  
+        - [Logs](./03a_Processes.md#logs)  
+        - [Log ID](./03a_Processes.md#log-id)  
+        - [Tokens](./03a_Processes.md#tokens)   
+        - [Comments](./03a_Processes.md#comments)  
+        - [Execution log](./03a_Processes.md#execution-log)   
         
 - [Process actions](./04_ProcessActions.md)
 

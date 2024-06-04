@@ -105,25 +105,19 @@ The following functions and fields are available in this list:
 
 
 
-## Process ID
+## Process diagram
 
 *Process Orchestration > Processes > Tab OVERVIEW > Select a process*
 
 ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process ID]")
 
-**Process ID**
+The diagram displays a visualization of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
 - *Process ID*  
     Process identification number. The ID number is automatically assigned by the system.
 
 - *Process orchestration*  
     Name of the workflow.
-
-
-
-### Process diagram
-
-The diagram displays a visualization of the selected process including all places and actions. If the process is currently active, the process execution can be observed in real time.
 
 - ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
     Click this button to update the diagram to see the current processing status.

@@ -102,6 +102,9 @@ The following functions are available for the editing toolbar:
 - [x]   
     Select the checkbox to display the editing toolbar.
 
+- [COMPARE]   
+    Click this button to open the window for comparing workflow versions. For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
+
 - [PUBLISH]   
     Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished.    
 
@@ -122,14 +125,14 @@ The following functions are available for the editing toolbar:
     Click this button to the right of the workflow name to display the context menu. The following menu entries are available:
 
     - *Triggers*  
-        Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow-workflow-name).
+        Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow).
 
     - *Show changes*   
         Click this entry to compare two versions of a workflow to see the differences (insertions/deletions). For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
     - *Import JSON*  
         Click this entry to import a workflow in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
-        Import the exported JSON code to an existing or new workflow to copy it.
+        
 
     - *Export JSON*  
         Click this entry to export a workflow in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
@@ -151,6 +154,11 @@ The following functions are available for the editing toolbar:
 
 ### Workflow diagram
 
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
+
+![Workflow diagram](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Workflow diagram]")
+
+
 In the following, the workflow elements and their fields and functions are described. The workflow diagram includes the following elements:  
 
 **Place** 
@@ -161,7 +169,7 @@ If you click a place in the workflow editor, it becomes highlighted and the corr
 ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
 
 - *Key*  
-    Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. <!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
+    Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. 
 
 - *Data container*  
     Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
@@ -235,13 +243,13 @@ The transition settings sidebar is located to the right of the workspace and all
         The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
 
 - *Configuration*  
-    Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
+    Depending on the transition, there might be configuration options, for instance, defining an email where a business document must be sent. Editing the transition configuration may require basic programming knowledge.
 
     > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
 - *Static inputs*  
-    All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
-    Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md). 
+    You can define a static input by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button next to the desired input port. All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. This section is only displayed, if the selected transition has at least one unlinked input port.     
+    Only valid JSON values are accepted, for example text ("text"), numbers ("42"), or JSON objects ({"dispatchNote": {"id": 42}}). When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md). 
 
 
 **Input/output port**
@@ -256,7 +264,7 @@ For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#a
 
 
 
-## Edit trigger for workflow "Workflow name"  
+## Edit trigger for workflow  
 
 *Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
 *Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*

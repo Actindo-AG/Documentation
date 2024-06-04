@@ -32,8 +32,7 @@ In the *DASHBOARDS* tab, the custom tabs with composable dashlets are displayed.
 
 **Import existing tab**
 
-The *Import existing tab* tab is locked. It is only available in the *Actindo Dashboard*. For detailed information, see [Import dashboard](../../Core1Platform/UsingCore1
-/06_ManageDashboard.md#Import-dashboard)
+The *Import existing tab* tab is locked. It is only available in the *Actindo Dashboard*. For detailed information, see [Import dashboard](../../Core1Platform/UsingCore1/06_ManageDashboard.md#Import-dashboard)
 
 [comment]: <> (Link zu Actindo dashboard einfügen sobald beschrieben > DONE)
 
