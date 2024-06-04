@@ -3,7 +3,6 @@
 ![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
 
 
-
 ## Overview
 
 | **Summary** |       |
@@ -33,7 +32,7 @@
 
 ## Detailed description
 
-Within a workflow, several actions are performed. In the following, all single transitions within the workflow are described in detail, specifying their function and functional settings.
+Within a workflow, several actions are performed. In the following, all single actions within the workflow are described in detail, specifying their function and functional settings.
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
@@ -41,33 +40,28 @@ For detailed information on how to manage a workflow, see [Manage a workflow](..
 
 ### Split by criterion
 
-![Completeness 100](../Assets/Screenshots/OfferCookbook/Completeness100.png "[Completeness 100]")
+![Completeness 100](../Assets/Screenshots/OfferCookbook/SplitByCriterionCompleteness100.png "[Completeness 100]")
 
-The *Split by criterion* transition is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). 
+The *Split by criterion* action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). 
 
-In this use case, you need to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. To do so, the *Split by criterion* transition must be configured as follows:
+In this use case, you need to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. 
 
----
+To do so, the *Split by criterion* action must be configured as follows:
 
 **Settings**
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long description* fields have no functional meaning for the action.
+The *Description*, *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long description* fields have no functional meaning for the action.
 
-It is recommended to change the name in the *Label* field to a descriptive name, for example, **Completeness 100?** in this case.
+| Setting | Value | Comments | 
+|---------|-------|----------|
+| Description | Split by criterion | Core action |
+| *Key* | splitByCriterion-0 | The key must be unique within a workflow. |
+| *Label* | Completeness 100 | It is recommended to enter a short descriptive name in the *Label* field. |
+| *Queue type* | Default | |
+| *Priority* | 0 | |
+| *Max tries* | 1 | |
+| *Long description* | - | |
 
----
-
-| Settings | |
-|---------|----|
-| Description | Split by criterion |
-| *Key* | splitByCriterion |
-| *Label* | Completeness 100? |
-| *Queue type* | Default |
-| *Priority* | 0 |
-| *Max tries* | 1 |
-| *Long description* | - |
-
-> [Info] It is recommended to change the name in the *Label* field to a descriptive name, for example, **Completeness 100?** in this case.
 
 | Configuration ||
 |----|----|
@@ -75,78 +69,56 @@ It is recommended to change the name in the *Label* field to a descriptive name,
 | *Operator* | >= |
 | *Value* | 100 |
 
-Once configured, the *Completeness 100?* transition presents the following structure:
+
+Once configured, the *Completeness 100* action presents the following structure:
 
 | Input ports     | Value | -  | Output ports | Value    |
 | --------------- | --- | ---| -------------- | ----  |
 | *in*  | PIMProduct (from start place) | - | *match* | PIMProduct |
 | -     |          | - | *noMatch* | (to end place)   |
 
-
 The *PIM* product in the start place is input via the *in* port. If the *PIM* product completeness input is greater than or equal to 100, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place.
+
 
 
 ### Create offer from PIM product
 
 ![Create offer](../Assets/Screenshots/OfferCookbook/CreateOffer.png "[Create offer]")
 
-The *Create offer from PIM product* transition creates an offer in the *Omni-Channel* module from a *PIM* product.  
+The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
-In this use case, you want to create an offer for the *PIM* product with 100 % completeness output via the *match* port of the previous transition.  
+In this use case, you want to create an offer for the *PIM* product with 100 % completeness output via the *match* port of the previous action.  
 
-To do so, configure the *Create offer from PIM product* transition as follows:
+To do so, configure the *Create offer from PIM product* action as follows:
 
 **Settings**
 
-The *Description* field contains the API endpoint that is addressed in this action. The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long description* fields have no functional meaning for the action.
+ The *Key*, *Label*, *Queue type*, *Priority*, *Max tries* and *Long description* fields have no functional meaning for the action.
 
-It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
-
----
-
----
-
-| Settings | |
-|---------|----|
-| Description | .createFromPimProduct | Create offer for pim product (/Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct) |
-| *Key* | splitByCriterion |
-| *Label* | Completeness 100? |
-| *Queue type* | Default |
-| *Priority* | 0 |
-| *Max tries* | 1 |
-| *Long description* | - |
-
-> [Info] It is recommended to change the name in the *Label* field to a descriptive name, for example, **Create offer** in this case.
-
----
-
-| Static inputs | |
-|---------------|-|
-| **connection** | { "id": 2 } |
-| **changeTracking** | - |
-| **initialStatus** | "inactive" |
-| **destinationAttributeSet** | - |
-| **unique** | "1" |
+| Setting | Value      | Comments |
+|---------|------------|----------|
+| Description | .createFromPimProduct <br> Create offer for pim product (/Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct) | This field contains the API endpoint that is addressed in this action. |
+| *Key* | splitByCriterion-0 | The key must be unique within a workflow. |
+| *Label* | Completeness 100 | It is recommended to enter a short descriptive name in the *Label* field. |
+| *Queue type* | Default | |
+| *Priority* | 0 | |
+|  *Max tries* | 1 | |
+| *Long description* | - |  |
 
 
-**Comments**
+**Static inputs**
 
-- You can find out the connection ID in the *ID* column of the *Connections* view under *Omni-Channel > Settings > Connections*. If the *ID* column is hidden, see [Add or remove columns](../Core1Platform/UsingCore1/05_WorkWithLists.md#add-or-remove-columns) in the *Core1* documentation.
-- To insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
-- Offers can have three different initial status: **active**, **inactive**, and **offline**. For detailed information, see [Create an offer from a PIM product](../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
-- The static input *unique* prevents the creation of duplicate offers. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). 
+| Static input | Value | Comments |
+|---------------|------|----------|
+| *connection* | { "id": 2 } | You can find out the connection ID in the *ID* column of the *Connections* view under *Omni-Channel > Settings > Connections*. <br> If the *ID* column is hidden, see [Add or remove columns](../Core1Platform/UsingCore1/05_WorkWithLists.md#add-or-remove-columns) in the *Core1* documentation. |
+| *changeTracking* | - |
+| *initialStatus* | "inactive" | Offers can have three different initial status: **active**, **inactive**, and **offline**. <br> For detailed information, see [Create an offer from a PIM product](../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product). |
+| *destinationAttributeSet* | - |
+| *unique* | "1" | The static input *unique* prevents the creation of duplicate offers. This is a boolean value, where "1" equals true and no value equals false. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). |
 
+> [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-After configuring it, the *Create offer* transition presents the following structure:
-
-| Input ports     | Value | -  | Output ports | Value    |
-| --------------- | --- | --- | -------------- | ----  |
-| *pimProduct*  |  PIM product with 100 completeness | - | *data* | (to end place)  |
-| *connection*  | ID: 2         | - | *success* | -   | 
-| *changeTracking*  | -         | - | *displayM* | -   |
-| *initialStatus*  |  inactive        | - | *displayM* | -   |
-| *destination*  | -         | - | *error* | -   |
-| *unique*  |  1        | - | *job_id* | -   |
+[comment]: <> (Stimmt unique as boolean? Stimmt Unique check info?)
 
 
 
@@ -185,7 +157,7 @@ After configuring it, the *Create offer* transition presents the following struc
                         "operator": ">=",
                         "value": 100
                     },
-                    "description": "Completeness 100?"
+                    "description": "Completeness 100"
                 }
             ],
             "arcs": [

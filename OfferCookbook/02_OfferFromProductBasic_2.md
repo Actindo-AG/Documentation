@@ -7,25 +7,20 @@
 
 | **Summary** |       |
 | ----------- |------ |
-| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product. |
+| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
-| **Included third party software** | optional | 
+| **Included third party software** | none | 
 | **Trigger** | The process is triggered when a *PIM* product is created or saved. |
 
 
 **Included steps**
 
-- Creation of an offer for a given *PIM* product and connection.
-
-**Necessary actions**
-
-| Action | Short description | API endpoint |
-| ------ | ----------------- | ------------ |
-| Create offer | Create an offer from a product | Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+- Creation of an offer for a given *PIM* product and connection
 
 
-#### Prerequisites
+
+## Prerequisites
 
 - You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
 - You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
@@ -33,7 +28,11 @@
 - You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
 
-#### Procedure
+## Detailed description
+
+Within a workflow, several actions are performed. In the following, all single actions within the workflow are described in detail, specifying their function and functional settings.
+
+For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
 *Process Orchestration > Workflows > Select offer from product workflow > Select a workflow version*
 
