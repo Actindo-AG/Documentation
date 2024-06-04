@@ -1,4 +1,4 @@
-# Create an offer from a product with completeness
+# Create an offer from a product with completeness workflow
 
 ![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
 
@@ -27,6 +27,19 @@ You can create an *Omni-Channel* offer automatically when all required attribute
 | createFromPimProduct  | Creation of an offer from a product | /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 
 [comment]: <> (Ist /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct eine Entität oder eher eine Action? Was ist richtiger? Beides ist verwirrend!)
+
+---
+
+**Necessary actions**
+
+| Action | Short description | API endpoint |
+| ------ | ----------------- | ------------ |
+| split by criterion | Input value is compared to a criterion and split based on match/no match principle | Core action |
+| createFromPimProduct  | Create an offer from a product | /Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
+
+For a detailed description of the core actions, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md) in the *Process Orchestration* documentation.
+
+---
 
 #### Prerequisites
 

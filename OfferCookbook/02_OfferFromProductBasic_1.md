@@ -1,4 +1,4 @@
-# Create a basic offer from a product
+# Create a basic offer from a product workflow
 
 ![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
 
