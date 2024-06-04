@@ -115,7 +115,7 @@ The *Process ID* view displays a diagram of the selected process including all p
     - **Aborted**   
         The action has been manually aborted. You can rerun this action.
     -  **Manual**  
-       The action waits for a user decision, before continuing the execution of the process, see [Make a user decision](#make-a-user-decision).
+       The action waits for a user decision before continuing the execution of the process, see [Make a user decision](#make-a-user-decision).
       
 7. Check the number of tries for the action in the *Tries* column.
 
@@ -128,8 +128,8 @@ The *Process ID* view displays a diagram of the selected process including all p
 10. Check when the action will be executed next time in the *Defer until* column. This function depends on the action configuration and is not available in all actions. It is also filled when a user executes a manual action and sets a follow-up date.
 
 11. If necessary, select the checkbox of an action for which you want to perform further operations.   
-   The editing toolbar is displayed. The functions available for this specific action status are displayed, for example, the functions retry, abort, or rerun.
-
+   The editing toolbar is displayed. The functions available for this specific action status are displayed, for example, the functions suspend ![Suspend](../../Assets/Icons/Pause.png), retry ![Retry](../../Assets/Icons/Retry01.png), abort ![Abort](../../Assets/Icons/Stop.png), or start ![Rerun](../../Assets/Icons/Play.png).
+ 
 12. Continue with checking the [logs](#check-the-logs), the [token status and content](#check-the-token-status-and-content), and the [execution log](#check-the-execution-log). If desired, add a [comment](#add-process-comments).
 
 > [Info] You can also display a list of all actions in the *Process actions* tab, regardless of the process they are part of. For detailed information, see [Process actions](../UserInterface/04a_ProcessActions.md).
@@ -138,7 +138,7 @@ The *Process ID* view displays a diagram of the selected process including all p
 
 ## Check the logs
 
-The log can be checked to identify issues that may be caused by a faulty workflow configuration or other issues with the process.
+The logs can be checked to identify issues that may be caused by a faulty workflow configuration or other issues with the process.
 
 #### Prerequisites
 
@@ -151,7 +151,7 @@ The log can be checked to identify issues that may be caused by a faulty workflo
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Workflow]")
 
-1. Click the *logs* tab.  
+1. Click the *Logs* tab.  
     The *Logs* tab with a list of all logs created for the selected process is displayed.
 
 2. Click the *Log level* drop-down list and select the log level you want to check.  
@@ -257,7 +257,7 @@ The execution log can be used to monitor the execution of individual process act
 The *Execution log* allows you to analyze what each worker did and how long it took to execute a process action.   
 For example, a process may have taken a long time to be executed. Here you can see if a certain process action caused the delay, such as sending an email, or if the process had to wait a long time for execution.
 
- > [Info] Note that the execution log only displays data, if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Lifetime execution log in days](../UserInterface/07a_Settings.md#lifetime-execution-log-in-days).
+ > [Info] Note that the execution log only displays data if the execution date of the process does not exceed the time period defined for the *Lifetime execution log in days* setting. For detailed information, see [Lifetime execution log in days](../UserInterface/07a_Settings.md#lifetime-execution-log-in-days).
 
 #### Prerequisites
 
@@ -320,7 +320,7 @@ User decisions are implemented by the *Manual action* core action, see [Manual a
 1. Enable the ![Manual processes](../../Assets/Icons/Toggle.png "[Manual processes]") *Manual processes* toggle.    
     Only processes requiring a manual action are displayed. They have the **In progress** status and a warning sign ![Warning](../../Assets/Icons/Warning.png) in the *Has a manual action* column.
 
-2. Click a desired process.      
+2. Click the desired process.      
     The *Process ID* view is displayed. In the workflow diagram, the manual action is displayed in yellow.
 
    ![Process ID](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionProcessID.png "[Process ID]")
@@ -329,12 +329,12 @@ User decisions are implemented by the *Manual action* core action, see [Manual a
     The editing toolbar is displayed.
 
 4. Click the [TAKE DECISION] button.   
-   The *Take decision* window is displayed.
+   The *Take decision* window is displayed. See the following sample configuration:
    
    ![Take decision](../../Assets/Screenshots/ActindoWorkFlow/Processes/ManualActionsTakeDecision.png "[Take decision]")
 
 5. If you want the process to continue directly, click the *Select output* drop-down list, select the desired decision, and click the [SET DECISION] button.   
-    The workflow process changes to the *In progress* status and proceeds. 
+    The workflow action changes to the *In progress* status and proceeds. 
 
 6. If you want to postpone the decision to a later date, click the ![Calendar](../../Assets/Icons/Calendar.png "[Calendar]") (Calendar) button, select the desired date and click the [SET FOLLOWUP DATE] button.   
-    The workflow process remains in the *Manual* status. In the *Actions* tab, the follow-up date is included in the *Defer until* column.
+    The workflow action remains in the *Manual* status. In the *Actions* tab, the follow-up date is included in the *Defer until* column.

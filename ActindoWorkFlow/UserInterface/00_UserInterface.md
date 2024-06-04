@@ -18,6 +18,7 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [New workflow](./02a_Workflows.md#new-workflow)
     - [Workflow versions](./02a_Workflows.md#workflow-versions)
     - [Workflow editor](./02a_Workflows.md#workflow-editor)
+        - [Workflow diagram](./02a_Workflows.md#workflow-diagram)
     - [Edit trigger for workflow "Workflow name"](./02a_Workflows.md#edit-trigger-for-workflow-workflow-name)
     - [Workflow &ndash; Compare workflow versions](./02a_Workflows.md#workflow-–-compare-workflow-versions)
     - [Import JSON](./02a_Workflows.md#import-json)

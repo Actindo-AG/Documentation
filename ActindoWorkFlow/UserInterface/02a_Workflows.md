@@ -149,104 +149,110 @@ The following functions are available for the editing toolbar:
 - [NEW ACTION]  
     Click this button to add a transition. The *Search for an action* window is displayed, see [Search for an action](#search-for-an-action).
 
-The workflow diagram includes the following elements:  
+### Workflow diagram
 
-- Place    
-    Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions. For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).   
-    If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
+In the following, the workflow elements and their fields and functions are described. The workflow diagram includes the following elements:  
 
-    ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
+**Place** 
 
-    - *Key*  
-        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. <!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
+Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions. For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).   
+If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    - *Data container*  
-        Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
+
+- *Key*  
+    Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. <!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
+
+- *Data container*  
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
         
-- Start/end place   
-    Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
-    If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
+**Start/end place**
 
-    ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
+Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
+If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    - *Key*  
+![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
+
+- *Key*  
         Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
 
-    - *Data container*   
+- *Data container*   
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
         For detailed information, see [Start and end place](../Overview/04_WorkflowProcessElements.md#start-and-end-place).
 
-- Transition  
-    Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
-    When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
+**Transition**
+ 
+Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
+When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    ![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
 
-    The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
+The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
-    - *Key*  
-        Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Was ist damit gemeint? und wenn ich eine transition mehrfach einfüge?...-->
+- *Key*  
+    Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Was ist damit gemeint? und wenn ich eine transition mehrfach einfüge?...-->
 
-    - *Label*  
-        Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the transition rectangle in the diagram.
+- *Label*  
+    Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the transition rectangle in the diagram.
 
-    - *Queue type*  
-        Click the drop-down list to select the applicable queue type, see [Queue types](05_QueueTypes.md).
+- *Queue type*  
+    Click the drop-down list to select the applicable queue type. All available queue types are displayed in the list.  You can select a different queue type for each action.  
+    For detailed information, see [Queue types](05_QueueTypes.md).
 
-    - *Priority*   
-        The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+- *Priority*   
+    The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
-    - *Max tries*   
-        Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
+- *Max tries*   
+    Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
 
-        - **Constant**   
-            Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
+    - **Constant**   
+        Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
 
-        - **CustomFunction**  
-            Use any suitable php function to define the retry time.
+    - **CustomFunction**  
+        Use any suitable php function to define the retry time.
 
-        - **Custom**   
-            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
+    - **Custom**   
+        Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
 
-        - **Exponential**   
-            Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
+    - **Exponential**   
+        Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
 
-        - **Linear**   
-            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
+    - **Linear**   
+        Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
 
-        - **Quadratic**   
-            Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
+    - **Quadratic**   
+        Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
 
         Select the retry strategy and enter the required value in minutes in the *Strategy config value* field.
 
-    - *Task event*  
-        Click the drop-down list and select the applicable task event. All available task events are displayed.   
-        This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights. 
+- *Task event*  
+    Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights. For detailed information see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
-        > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module. For detailed information, see [Manage the events](Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
+    > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
-    - *Long description*   
-        If desired, edit a long text to document the transition.   
+- *Long description*   
+    If desired, edit a long text to document the transition.   
         The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
 
-    - *Configuration*  
-        Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
+- *Configuration*  
+    Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
 
-        > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+    > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
 
-    - *Static inputs*  
-        All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
-        Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md). 
+- *Static inputs*  
+    All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. You can define it by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button.   
+    Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.  For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md). 
 
-    For detailed information, see [Transitions](../Overview/04_WorkflowProcessElements.md#transitions).
 
-- Input/output port  
-    Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.   
+**Input/output port**
+
+Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.   
     For detailed information, see [Input and output ports](../Overview/04_WorkflowProcessElements.md#input-and-output-ports).
 
-- Arc  
-    The arcs are the links connecting a place with the input and output port(s) of a transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs*.   
-    For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
+**Arc**
+
+The arcs are the links connecting a place with the input and output port(s) of a transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs*.   
+For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
 
 
 

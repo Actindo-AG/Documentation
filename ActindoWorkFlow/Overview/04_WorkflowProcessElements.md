@@ -2,7 +2,9 @@
 
 ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Workflow]")
 
-The *Process Orchestration* module allows you to model your own processes to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
+## Workflows
+
+The *Process Orchestration* module allows you to model your own workflows to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
 
 For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md). For a detailed step-by-step description of how to use the workflow objects presented below in practice, see [Prepare the Workflows](../../POS/Integration/09_WorkflowAdjustments.md) in the *POS* documentation.
 
@@ -15,6 +17,10 @@ A workflow must contain at least one transition between the start and the end pl
 The *Process Orchestration* module is linked to different system modules and plugins, such as *Order management*, *Email*, *Omni-Channel* and *Tasks*. The transitions available to create workflows depend on the modules installed in the system.
 
 Since business processes, and the workflows that map them, evolve over time, workflows can be versioned. While every workflow can be uniquely identified through its key, there may be any number of versions of it. Several versions of the same workflow can be published at the same time. However, when a process for a given workflow is to be started, the latest published version of the workflow, that is, the one with the highest version number, is used. <!---der Abschnitt ist verwirrend. Ist das wichtig oder hat es eine bestimmte Funktion, dass es mehrere veröffentlichte Versionen geben kann?-->  
+
+
+
+## Processes
 
 ![Process](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Process]")
 
@@ -31,9 +37,9 @@ Workflow processes, as well as the workflows itself, consists of certain element
 - [Actions](#actions)
 - [Tokens](#tokens)
 
+## Workflow elements
 
-
-## Transitions
+### Transitions
 
 ![Transition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Transition]")
 
@@ -82,7 +88,7 @@ The transition settings sidebar is located to the right of the workspace and all
 
 
 
-## Places
+### Places
 
 ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
@@ -118,7 +124,7 @@ For detailed information, see [Check the token status and content](../Operation/
 
 
 
-## Start and end place
+### Start and end place
 
 ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflow.png "[Start and end place]")
 
@@ -126,8 +132,7 @@ Every workflow starts with a single start place and ends with a single end place
 
 The start place can only hold one token. The end place is the final result of all actions executed in the process and can contain any number of tokens, but at least one. A process is marked as *Done* when all tokens have reached the end place.
 
-
-### Start place
+**Start place**
 
 ![Start place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start place]")
 
@@ -139,7 +144,7 @@ When clicking a start place in the workflow process diagram, the *Tokens* tab is
 For detailed information, see [Check the token status and content](../Operation/09_TrackWorkflowProcess.md#check-the-token-status-and-content).
 
 
-### End place
+**End place**
 
 ![End place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EndPlace.png "[End place]")
 
@@ -152,7 +157,7 @@ For detailed information, see [Check the token status and content](../Operation/
 
 
 
-## Arcs
+### Arcs
 
 ![Arcs](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ArrowInput.png "[Arcs]")
 
@@ -160,7 +165,7 @@ The arcs are the links connecting a place with the input and output port(s) of a
 
 
 
-## Input and output ports
+### Input and output ports
 
 ![Input and output ports](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewPlace.png "[Input and output ports]")
 
@@ -177,8 +182,9 @@ Both, input and output ports, can be of two types:
     Optional ports are displayed with an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button next to each of them. By clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button a new place is added, which can in turn be linked to a new transition. For detailed information about adding new transitions, see [Add a transition](../Operation/01_ManageWorkflows.md#add-a-transition).
 
 
+## Process elements
 
-## Actions
+### Actions
 
 ![Action](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Action]")
 
@@ -188,7 +194,7 @@ For an action to be executable in a workflow process, all connected inputs and o
 
 
 
-## Tokens
+### Tokens
 
 ![Tokens](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Tokens.png "[Tokens]")
 

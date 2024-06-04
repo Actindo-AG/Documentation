@@ -19,8 +19,6 @@ In this part of the *Process Orchestration* documentation, you will find the fol
     - [Transitions](./04_WorkflowProcessElements.md#transitions)
     - [Places](./04_WorkflowProcessElements.md#places)
     - [Start and end place](./04_WorkflowProcessElements.md#start-and-end-place)
-        - [Start place](./04_WorkflowProcessElements.md#start-place)
-        - [End place](./04_WorkflowProcessElements.md#end-place)
     - [Arcs](./04_WorkflowProcessElements.md#arcs)
     - [Input and output ports](./04_WorkflowProcessElements.md#input-and-output-ports)
     - [Actions](./04_WorkflowProcessElements.md#actions)
