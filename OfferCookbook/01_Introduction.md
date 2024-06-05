@@ -11,44 +11,9 @@ This *Omni-Channel offer cookbook* documentation aims to ... and contains the fo
 
 In this chapter, you will find the following information and processes:
 
-- [Main entities and actions involved](#main-entities-and-actions-involved)
 - [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow)
 - [Create a PIM product trigger](#create-a-pim-product-trigger)
 - [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger)
-
-
-
-## Main entities and actions involved
-
-### Entities
-
-**PIM product**  
-
-A *PIM* product (Modules.Actindo.PIM.Models.PIMProduct) is the entity representing the goods and services you sell. You can manage all your products in the *PIM* module. For detailed information, see [Manage a product](../PIM/Operation/01_ManageProducts.md).  
-
-**Omni-Channel connection**  
-
-An *Omni-Channel* connection is ... 
-For detailed information, see [Manage the connections](../Channels/Integration/01_ManageConnections.md).
-
-
-
-Readonly.Modules.Actindo.Channels.Models.ConnectionContainer
-
-Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct
-
-
-### Actions
-
-A workflow is composed of a series of actions, or to be exact, transitions. A transition performed an action with the data it is input through an input port and it outputs in the same or a different form, depending on the transition configuration. For detailed information, see [Transitions](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#transitions).
-
-There are two types of actions you can add to your workflow:
-
-- Core actions, available in all *Actindo Core1 Platform* instances, regardless of your specific module configuration. For detailed information, see [Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md).
-
-- Instance-specific actions where the endpoints available in your instance are addressed, which depends on your specific module configuration.
-
-[comment]: <> (Das gilt auch für die Entities... Undeutlich für mich. Wie kann ich sinnvoll unterscheiden?)
 
 
 ## Set up an offer from product workflow
@@ -70,7 +35,7 @@ To set up a workflow, you have to create a new workflow and define the basic set
 
 2. Create a workflow and define the following workflow basic settings:
 
-| Setting | Value |
+| Field | Value |
 | ------- | ----- |
 | *Select a name for your new workflow* | Create offer from complete PIM product |
 | *Select a unique key for your new workflow* | create_offer_from_complete_pim_product |
@@ -175,20 +140,3 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 [comment]: <> (check!)
 
 
-
-
----
-
-Links to Process Orchestration
-
-[comment]: <> (check wenn Struktur geändert!)
-
-[Create a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#create-a-workflow)  
-[Define the workflow basic settings](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#define-the-workflow-basic-settings)  
-[Create a trigger](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Create-a-trigger)  
-
-[Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#Add-a-condition) 
-
-[Add a transition](../ActindoWorkFlow/Operation/01_ManageWorkflows.md#add-a-transition)  
-
-[Insert a static input](../ActindoWorkFlow/Operation/06_InsertStaticInput.md)  
