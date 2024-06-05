@@ -144,7 +144,7 @@ To do so, you must configure the *Create connection container* action as follows
 | Field | Value | Comments | 
 |---------|-------|----------|
 | *Description* | Create connection container | Create (#/components/schemas/RequestHydrationReadonly.Modules.Actindo.Channels.Models.ConnectionContainer) |
-| *Key* | determine_connection_php_code | The key must be unique within a workflow. |
+| *Key* | Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer-0 | The key must be unique within a workflow. |
 | *Label* | Create con. container | It is recommended to enter a short descriptive name in the *Label* field. |
 | *Queue type* | Default | For detailed information on all action settings, see [Transitions](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#transitions). |
 | *Priority* | 0 | |
