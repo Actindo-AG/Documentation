@@ -17,7 +17,7 @@ You can find out any entity ID via user interface as follows:
 
 3. Check the ID in the *ID* column. 
 
-    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) to learn how to display it. 
+    > [Info] If the *ID* column is hidden, see [Add or remove columns](../../Core1Platform//UsingCore1/05_WorkWithLists.md#add-or-remove-columns) in the *Actindo Core1 Platform* documentation to learn how to display it. 
 
     ![Entity ID in user interface](../../Assets/Screenshots/PIM/API/EntityID_UI.png "[Entity ID in user interface]")
 
@@ -30,7 +30,7 @@ Generally, you can get all entity data you need via API. The entity data is prov
 
 If desired, you can also set filters to narrow down your request response. See [List products](./05_ManageProducts.md#list-products) for the filter definitions and request samples.
 
-In the following, a few useful use cases, with their corresponding request samples, are provided.  Refer to the API documentation in your instance under *Dev Tools > API > Module name* for a complete list of endpoints.
+In the following, a few helpful use cases are provided with their corresponding request samples. Refer to the API documentation in your instance under *Dev Tools > API > Module name* for a complete list of endpoints.
 
 
 ### List the PIM attribute sets
@@ -51,7 +51,7 @@ Get a list of all *PIM* attribute sets in your current instance, including the a
         "dataType": "Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue"
         }
 
-> [Info] Since the attribute set ID is a whole number, you have to include the data type *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue* in your request.  
+> [Info] Since the attribute set ID is a whole number, you have to include the *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue* data type in your request.  
 
 [comment]: <> (Stimmt das so? Response scheint zu stimmen)
 
@@ -96,7 +96,7 @@ Get a list of all variant sets assigned to an attribute set, including all varia
 
 ### List tree node values
 
-Get a list of all tree node values, including their IDs, for a specific attribute with the  tree node data type. 
+Get a list of all tree node values, including their IDs, for a specific attribute with the tree node data type. 
 
 > [Info] Tree node IDs are relevant if you need to create or edit variant products defined by a tree node attribute, such as color or size. 
 
@@ -195,7 +195,7 @@ Get data for a specific product.
 
 ### Get entity data
 
-Get all data for a specific entity, for example, a product. If it is a master product, all its variants, including their IDs, are listed. If it is a variant product, its master product and its defining values are listed.
+Get all data for a specific entity, for example, a product. If it is a master product, all its variants are listed, including their IDs. If it is a variant product, its master product and its defining values are listed.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.PIM.get
 

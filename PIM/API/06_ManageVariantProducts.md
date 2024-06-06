@@ -4,7 +4,7 @@ You can create a single or multiple variant products to an existing master or a 
 
 To edit and delete *PIM* variant products via API, see [Manage products](./05_ManageProducts.md). 
 
-> [Caution] In the latest version of the *PIM* and *DataHub* modules, it is possible to modify the attribute key. Bear in mind, though, that attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
+> [Caution] In the latest version of the *PIM* and *DataHub* modules, it is possible to modify the attribute key. Bear in mind, though, that attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. This means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 [comment]: <> (Evtl. Manage variant products in Manage products integrieren)
 
@@ -83,10 +83,10 @@ Depending on the data you want to specify, you need to add the corresponding att
 
 ## Edit a variant product
 
-You can edit a single o multiple variant products at once via API, for example, to add an image or update the price. 
+You can edit a single or multiple variant products at once via API, for example, to add an image or update the price. 
 To edit a variant product, see [Edit a product](./05_ManageProducts.md#edit-a-product).
 
-Bear in mind that only variant-specific attributes, such as EAN code, image, color, or size, can be modified in the variants. Values that are inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
+Bear in mind that only variant-specific attributes such as EAN code, image, color, or size, can be modified in the variants. Values that are inherited from the master product, such as product name, description, or tax class, can only be updated in the parent product. 
 
 The variant-specific attributes must be included in the variant set.
 
@@ -100,7 +100,7 @@ To delete a variant product, see [Delete a product](./05_ManageProducts.md#delet
 
 ## List variant products
 
-To get a list of variant product, see [List products](./05_ManageProducts.md#list-products).
+To get a list of variant products, see [List products](./05_ManageProducts.md#list-products).
 
 
 

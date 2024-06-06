@@ -10,7 +10,7 @@ To manage your products via API, you need to provide the required key-value pair
 
 **Attribute key**
 
-Depending on the data you want to specify, you have to add the corresponding attribute, in its form as attribute key, to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
+Depending on the data you want to specify, you have to add the corresponding attribute  in its form as an attribute key to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
 
 For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding *PIM* attribute set under *PIM > Settings > Attribute sets*. Alternatively, you can find a list of all existing *PIM* attributes under *PIM > Settings > Attributes*. Alternatively, you can get a list of attributes via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
 
@@ -20,7 +20,7 @@ Bear in mind that keys are customer-defined. Therefore, the fields displayed in 
 
 **Entity ID**
 
-You may need to provide an entity ID value to a specific attribute key. Any ID values you need, for example, the **attributeSetId**, must be an existing value in the *DataHub* module. You can find out an entity ID via user interface or via API. For detailed information, see [Retrieve entity data](./04_RetrieveEntityData.md).
+You may need to provide an entity ID value to a specific attribute key. Any ID values you need must be an existing value in the *DataHub* module, for example, the **attributeSetId**. You can find out an entity ID via user interface or via API. For detailed information, see [Retrieve entity data](./04_RetrieveEntityData.md).
 
 **Data type**
 
@@ -30,7 +30,7 @@ The value you can give a specific attribute depends on the attribute's data type
 
 ## The product object
 
-Products represent the goods and services you offer to your customers. They are described through a set of attributes. 
+Products represent the goods and services you offer to your customers. They are described by a set of attributes. 
 
 The following table displays a list of all attributes contained in the *PIM basic set* (_pim_attribute_name) with their default data types and configuration. Additional fields, such as created and modified, are set by default in all entities and can be used to set filters. The required fields are marked in bold. 
 
@@ -94,7 +94,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 
 ## Create a product
 
-In the *PIM* module, you can create three sorts of products:
+In the *PIM* module, you can create the following kinds of products via API:
  - a single product, that is, a product without variations, such as a game 
  - a master product, that is, a product with variations, for example, in size or color
  - a variant product, that is, each of the variations of a master product 
@@ -109,7 +109,7 @@ There are two possible ways to create a master-variant product family:
 
 2. Create a single or master product first and then add to it any number of variants at once. For detailed information, see [Create a variant product](./06_ManageVariantProducts.md#create-a-variant-product).
 
-Depending on the sort of product, the required fields vary.
+Depending on the kind of product, the required fields vary.
 
 #### Definitions
 
@@ -144,7 +144,7 @@ Depending on the sort of product, the required fields vary.
         }
     }
 
-### Sample: Create a single product with different prices pro scope
+### Sample: Create a single product with different prices per scope
 
     {
         "product": {
@@ -189,7 +189,7 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | ---------------- | ----------- | ---------- |-------| 
 | **id**      | integer    |  Product identification number  |  |
 | **attributeSetId**   | integer  | Attribute set identification number | |
-| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, e.g. when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
+| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, for example, when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *Variant-1* respectively. |
 
@@ -228,9 +228,9 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 
 [comment]: <> (Oder Create a variant-master product structure?)
 
-Once you have created your products, you can link them together to create a product family. A product family is a group of products comprising a master product and its variant products. You can also move a variant product to another product family, that is, link it to a different master product. 
+Once you have created your products, you can link them together to create a product family. A product family is a group of products comprising a master product and its variant products. You can also move a variant product to another product family by linking it to a different master product. 
 
-A product family reflects your product structure. It makes it easier for you to manage your products, as master and variants share certain properties they all have in common. Besides, you can clearly determine the property or properties that define the variants, e.g. color, and differentiate the variants from each other, e.g. red, blue, and so on.
+A product family reflects your product structure. It makes it easier for you to manage your products, as master and variants share certain properties they all have in common. Besides, you can clearly determine the property or properties that define the variants, for example, the color, and differentiate the variants from each other, for example, red, blue, and so on.
 
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.changeVariantMaster
@@ -365,7 +365,7 @@ The required fields are marked in bold.
       }
     }
 
-> [Info] You can restore the product sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
+> [Info] You can restore the product by sending the same request to the following API endpoint: /Actindo.Modules.Actindo.PIM.Products.restoreFromArchive
 
 
 
@@ -382,11 +382,11 @@ The required fields are marked in bold.
 | Attribute      | Data type | Description | Comments | 
 | ---------------|-----------|-------------|--------- |
 | scopeId | integer | Scope identification number | Filter for multi-scope attributes |
-| languageId | integer | Language key/code | Filter for multi-language attributes <br> The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml), e.g. en, en_US, en-US. |
+| languageId | integer | Language key/code | Filter for multi-language attributes <br> The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml), for example, en, en_US, en-US. |
 | query | string | Query string | Quick search for a string |
 | fields | array of strings | Query field | Quick search for a field <br> Enter null to search for all fields |
-| filter | array of objects | Property value filter | It contains the required fields **property** (field to filter), **operator**, and **value**. Usual filter operators are allowed, e.g. >, <, like, and so on.  |
-| hints | array of objects | Query hint | Set query hints to modify the execution of the query, e.g. get data from non-authoritative resources. It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
+| filter | array of objects | Property value filter | It contains the required fields **property** (field to filter), **operator**, and **value**. Usual filter operators are allowed, for example, >, <, like, and so on.  |
+| hints | array of objects | Query hint | Set query hints to modify the execution of the query, for example, get data from non-authoritative resources. It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
 | sort | array of objects | Results sorting order  | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending). |
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |

@@ -31,7 +31,7 @@ Let's say you want to create a single product (that is, without variants), for e
 | Product       | Information  | Attribute key     | Value    |
 |---------------|--------------|----------------|----------| 
 | **SKU**       | HNDBG-1      | sku            | HNDBG-1  |
-| **Type**      | Accessories  | attributeSetId | 412 (s. **Notes**) |
+| **Type**      | Accessories  | attributeSetId | 412 (see **Notes** below) |
 | **English name** | Handbag   | _pim_art_name__online_shop__en_US  | Handbag  |
 | **Spanish name** | Bolso     | _pim_art_name__online_shop__es_ES  | Bolso |
 | **English description** | Vegan leather crossbody handbag | _pim_products_description__online_shop__en_US | Vegan leather crossbody handbag |
@@ -84,16 +84,16 @@ If you want to gain access to the Core1 from any external app via API, first of 
 
 2. Enter a name for the app registration in the *Name* field. For the sake of clarity, it is recommended to use the client app name.
 
-3. Enter a valid client ID in the *Application (client) ID* field. You can freely define your client ID, although it is recommended to use a UUID generator tool, such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]"), to generate a UUID (universally unique identifier).
+3. Enter a valid client ID in the *Application (client) ID* field. You can freely define your client ID, but it is recommended to use a UUID generator tool, such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]"), to generate a UUID (universally unique identifier).
 
-    The client ID for the Core1 must comply with the following requirements:
+    The client ID for the *Actindo Core1 Platform* must comply with the following requirements:
     - between 4 and a 31 characters long  
     - allowed characters include upper and lower cases letters, numbers, and underscore
     - beginning with a letter  
 
 [comment]: <> (Wahrscheinlich auch mit einer Zahl am Anfang möglich laut Oli. Evtl. von Devs oder ImSpecs testen/bestätigen lassen und dementsprechend anpassen! UI muss verbessert werden, da Toggle darunter auch nicht funktioniert.)
 
-4. If available in your version, leave the toggle *Only authentication scopes open ID profile email. You will not be able to call any methods besides getting profile data" disabled.
+4. If available in your version, leave the *Only authentication scopes open ID profile email. You will not be able to call any methods besides getting profile data* toggle disabled.
 
 5. Enter an appropriate redirect URI in the *Redirect URI* field. For exemplary purposes, we are using https://oauthdebugger.com/debug. See the following screenshot for reference.
 
@@ -109,14 +109,14 @@ If you want to gain access to the Core1 from any external app via API, first of 
 
 ### Step 2: Get an authorization code
 
-To be able to generate an access token for authentication, you need to get an authorization code first. Bear in mind that you need to get an authorization code for every instance you want to access via API.
+To be able to generate an access token for authentication, you need to get an authorization code first. Bear in mind that you need to get an authorization code for each instance you want to access via API.
 
 [comment]: <> (Check, ob das stimmt und ob hier nötig!)
 
 > [Caution]  
     Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
 
-Following the example provided in [Step 1: Register the client app](#step-1-register-the-client-app), we describe the process in the https://oauthdebugger.com/ website. You can also use other third-party website or your own system. 
+Following the example provided in [Step 1: Register the client app](#step-1-register-the-client-app), we describe the process in the https://oauthdebugger.com/ website. You can also use another third-party website or your own system. 
 
 *OAuth debugger*
 

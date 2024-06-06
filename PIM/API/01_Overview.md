@@ -20,7 +20,7 @@ The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specific
 
 The *Actindo Core1 OpenAPI* supports the  standard *Actindo Core1 Platform* operations, such as create, edit, and delete products. In addition to the standard features available via user interface, it offers advanced functionalities to manage resources more quickly and efficiently. For example, you can create or maintain multiple products simultaneously, and move one or several variant products to another master product just with one API call. 
 
-You can use the API both in staging and production instances of your *Actindo Core1 Platform*. Bear in mind that every *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules, and therefore the addressable endpoints and fields may vary.  
+You can use the API both in staging and production instances of your *Actindo Core1 Platform*. Bear in mind that each *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules, and therefore the addressable endpoints and fields may vary.  
 
 In the following, you will find a detailed description of the *Actindo Core1 OpenAPI* basic requirements.
 
@@ -71,7 +71,7 @@ The *Actindo Core1 OpenAPI* only accepts and returns JSON body requests.
 
 An API response is a reply to an API call. In other words, for every request body sent, a response body is returned. 
 
-In the *Actindo Core1 OpenAPI*, the response body contains a JSON object, which always includes the boolean field `"success"` indicating if the request has been successful (`true`) or has failed (`false`). 
+In the *Actindo Core1 OpenAPI*, the response body contains a JSON object, which always includes the boolean field `"success"` indicating whether the request has been successful (`true`) or has failed (`false`). 
 
 In a successful call, the response includes the information requested or the details of the resources created, edited, or deleted. In an unsuccessful call, the response includes an error code and at least a brief description of the reason why the call failed. 
 
@@ -132,7 +132,7 @@ The *Actindo Core1 Platform* supports two workflows of the OAuth 2.0 protocol to
 
 ### Tools
 
-You can use different software tools to submit your requests, either your own tool or a third-party tool, such as Postman. For a detailed description on how to set up Postman, see [Set up Postman for the Actindo Core1 OpenAPI](#set-up-postman-for-the-actindo-core1-openapi). 
+You can use different software tools to submit your requests, either your own tool or a third-party tool such as Postman. For a detailed description on how to set up Postman, see [Set up Postman for the Actindo Core1 OpenAPI](#set-up-postman-for-the-actindo-core1-openapi). 
 
 Regardless of how you submit your requests, you always need to provide the following information:
 
@@ -164,7 +164,7 @@ Headers must be defined, so that the data is transferred to the *Actindo Core1 O
 
 ### Set the session cookie
 
-Before you can communicate with the Core 1, you have to set a session cookie. To do so, follow the procedure below:
+Before you can communicate with the *Actindo Core1 Platform*, you have to set a session cookie. To do so, follow the procedure below:
 
 1. Send a request via the [Send] button.  
     You receive the following response:
@@ -180,7 +180,7 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 2. Switch to the browser where you are logged into your *Actindo Core1 Platform* instance. 
 
-3. Open the console in the browser developer tools. Depending on the browser you use, the access shortcut or key may differ. For example, in Chrome you can access the console pressing the **F12** key.
+3. Open the console in the browser developer tools. Depending on the browser you use, the access shortcut or key may differ. For example, in *Chrome&trade;* you can access the console pressing the **F12** key.
 
 4. In the browser developer tools console, click the *Application* tab and expand the *Cookies* option in the left menu under the *Storage* section.  
     The URL of your current *Actindo Core1 Platform* instance is displayed.

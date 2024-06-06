@@ -23,7 +23,7 @@ You can define your own attribute keys, but we strongly recommend that you follo
 | :------- | :------- |
 | **Plugin** | Plugin or module where the attribute originates from. If an attribute originates in the *PIM* module, its key should start with *_pim*. |
 | **Attribute short name** | Any descriptive name you want to give to an attribute, such as *attributeSetId* or *art_name*. No spaces are allowed here, therefore you have to write the attribute name in one word or join the different parts with a **single** underscore. |
-| **Scope** | For multi-scope attributes, key of the scope in which the attribute is used. You can use an attribute, e.g. *_pim_products_description*, in different scopes, for instance, in your web shop and in a reseller platform, such as Amazon. This way, your product description can be different in your web shop and in the reseller platform. In this case, the attribute is multi-scope and must be accordingly defined in its key. Note that the scope is separated with a **double** underscore in the attribute key. The attribute key would therefore be *_pim_products_description__webshop* and *_pim_products_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
+| **Scope** | For multi-scope attributes, key of the scope in which the attribute is used. You can use an attribute in different scopes, for example, *_pim_products_description* in your web shop and in a reseller platform such as Amazon. This way, your product description can be different in your web shop and in the reseller platform. In this case, the attribute is multi-scope and must be accordingly defined in its key. Note that the scope is separated with a **double** underscore in the attribute key. The attribute key would therefore be *_pim_products_description__webshop* and *_pim_products_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
 | **Language** | For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain an attribute, e.g. *_pim_products_description* in different languages, for instance, in English (United States) and in German (Germany). In this case, the attribute is multi-language and must be accordingly defined in its key. The attribute key would therefore be *_pim_products_description__en-US* and *_pim_products_description__de-DE*. Note that the language is separated with a **double** underscore in the attribute key. For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
 
 Depending on the nature of your products, you will need to create different attributes. For example, if you are selling shirts, you will need to define the material, type of fit or the collar size (example attribute keys: *_pim_material*, *_pim_fit*, *_pim_collar_size*). However, if you sell smartphones, you need to specify the storage, the screen size, or the case color (example attribute keys: *_pim_storage*, *_pim_screen_size*, *_pim_case_color*). 
@@ -91,13 +91,13 @@ The following graphic visualizes the attribute set structure and the inheritance
 
 ## Master and variant products 
 
-In the *PIM* module, you can create three sort of products:
+In the *PIM* module, you can create the following kinds of products:
 
 - *Single product*: A standalone product with no variations to it, for example, a computer game. 
 - *Master product*: A product that has variations to it, for example, a shirt, which has different options in size and color. A master product is the "parent" entity to a family of products.
 - *Variant product*: A product with a special characteristic that differentiates it from other products of the same type, for example, color or size. A shirt, for instance, is usually sold in different colors. A blue shirt and a red shirt are variant products of a shirt master product, which is just an abstract definition of the shirt product type. 
 
-All thee sort of products are created and managed in the *PIM* module. You can create single products, with no variations, and master products with their corresponding variants. To be able to create variant products to a master product, you have to create a so-called variant set first to determine the attributes that will define the variant product. For detailed information, see [Variant sets](#variant-sets).
+These kinds of products are all created and managed in the *PIM* module. You can create single products with no variants and master products with their corresponding variants. To be able to create variant products to a master product, you have to create a so-called variant set first to determine the attributes that will define the variant product. For detailed information, see [Variant sets](#variant-sets).
 
 You can create any number of variant products in your instance via user interface, as well as edit existing variant products. For detailed information, see [Manage the variants](../Operation/02_ManageVariants.md).
 
@@ -109,7 +109,7 @@ The following graphic visualizes a series of attributes, within an attribute set
 
 ## Variant sets
 
-A variant set includes the attributes needed to define a variant product. A variant set must be therefore assigned to an attribute set, that is, to the type of product to which you want to create the variants. For example, if you want to create color variants for the product "shirt", you have to create the variant set *Color* containing the defining attribute *_pim_color* and assign it to the attribute set *_pim_shirts*. 
+A variant set includes the attributes needed to define a variant product. Therefore, a variant set must be assigned to an attribute set, that is, to the type of product to which you want to create the variants. For example, if you want to create color variants for the product "shirt", you have to create the variant set *Color* containing the defining attribute *_pim_color* and assign it to the attribute set *_pim_shirts*. 
 
 Like the variant products, variant sets are created and managed in the *PIM* module. You can create variant sets for a product type in your instance via user interface, as well as edit existing variant sets. For detailed information, see [Manage the variant sets](../Integration/07_ManageVariantSets.md).
 
@@ -126,7 +126,7 @@ An entity is an object containing data, for instance, a *PIM* product, an *Omni-
 You can find out the ID via user interface or via API:
 
 - To find out the entity via user interface, see [Discover an entity ID via user interface](./04_RetrieveEntityData.md#discover-an-entity-id-via-user-interface).  
-- To find out the entity ID, and other entity information, via API, see [Discover an entity ID via API](./04_RetrieveEntityData.md#discover-an-entity-id-via-api).
+- To find out the entity ID and other entity information via API, see [Discover an entity ID via API](./04_RetrieveEntityData.md#discover-an-entity-id-via-api).
 
 
 
