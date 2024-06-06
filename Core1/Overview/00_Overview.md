@@ -32,7 +32,7 @@ In this part of the *Actindo Core1 Platform* documentation you will find the fol
      - [Order Management](./04_ModuleOverview.md#order-management)
 
 - [Basic order management process](./05_BasicOrderManagementProcess.md)
-     - [Basic principles](./05_BasicOrderManagementProcess.md)
+     - [Basic principles](./05_BasicOrderManagementProcess.md#basic-principles)
      - [Modules and systems involved](./05_BasicOrderManagementProcess.md#modules-and-systems-involved)
      - [Basic process structure](./05_BasicOrderManagementProcess.md#basic-process-structure) 
           - [1. From the shop to the Actindo Core1 Platform](./05_BasicOrderManagementProcess.md#1-from-the-shop-to-the-actindo-core1-platform)
