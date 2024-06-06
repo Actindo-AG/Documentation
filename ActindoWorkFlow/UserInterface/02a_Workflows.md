@@ -319,6 +319,9 @@ The *Edit trigger for workflow "Workflow name"* window allows you to determine a
 - *Process priority*  
     Enter the priority for the process execution. The priority is specified with a positive integer. The greater the number, the higher the priority.  
 
+- *Unique check*   
+    Click the drop-down list and select, if processes using this workflow configuration and the entity should only be executed onetime. 
+
     > [Info] As soon as all trigger fields are completed, the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed below the trigger input line.
 
 - ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag)  
