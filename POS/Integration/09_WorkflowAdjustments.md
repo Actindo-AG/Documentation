@@ -290,7 +290,7 @@ Add a transition with which the synchronization of the non-sales-related POS pos
 
     ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-2. Click the *Search for an action* field and enter the name **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem**.
+2. Click the *Search for an action* field and enter  **syncJournalItem** and select the **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem** entry.
 
     ![Sync journal item action](../../Assets/Screenshots/POS/Sales/Workflow/SearchActionJournalItem.png "[Sync journal item action]")
 

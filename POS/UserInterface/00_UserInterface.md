@@ -108,7 +108,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Transactions &ndash; Pay desk](./02b_Stores.md#transactions-–-pay-desk)
 
 - [PRODUCT OPTIONS](./02e_ProductOptions.md)
-    - [Create option attribute](./02e_ProductOptions.md#create-option-attribute)
+    - [Create an option attribute](./02e_ProductOptions.md#create-an-option-attribute)
 
 - [MAPPING FROM PIM](./02c_MappingFromPIM.md)
 

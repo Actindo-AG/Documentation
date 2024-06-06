@@ -17,7 +17,7 @@ The following functions and fields are available in this list:
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to create a new product option.
 
-## Create option attribute
+## Create an option attribute
 
 *Venduo POS > Management > Tab PRODUCT OPTIONS > Click Add*
 
