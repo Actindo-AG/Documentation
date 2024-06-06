@@ -100,14 +100,15 @@ At least one ETL attribute set mapping has been created, see [Create an ETL attr
 4. Select the appropriate tracking mode in the *Override change tracking mode* drop-down list. By default, the **Use default** option is preselected. The following options are available:
     - **Use default**   
         The mapping configured in the dependency of the specific entities is applied.
-    - **Automatic**   
-        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semiautomatic**   
-        The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
-    - **Semiautomatic, changes must be confirmed by another user**   
-        The initial mapping as well as values changes or reruns are applied after confirmation by another user.
-    - **Manual**   
+    - **0 - Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+    - **1 - Semiautomatic**   
+        The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+    - **2 - Automatic**   
+        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+    - **3 - Semiautomatic, changes must be confirmed by another user**   
+        The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+    
 
 5. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 
@@ -168,14 +169,15 @@ Within an attribute set mapping, you can define custom scope and language attrib
 6. Select the appropriate tracking mode in the drop-down list *Override change tracking mode*. By default, the **Use default** option is preselected. The following modes are available:
     - **Use default**   
         The mapping configured in the dependency of the specific entities is applied.
-    - **Automatic**   
-        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semiautomatic**   
-        The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
-    - **Semiautomatic, changes must be confirmed by another user**   
-        The initial mapping as well as values changes or reruns are applied after confirmation by another user.
-    - **Manual**   
+    - **0 - Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+    - **1 - Semiautomatic**   
+        The initial mapping is automatically applied. Values changes or reruns are applied after confirmation.
+    - **2 - Automatic**   
+        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+    - **3 - Semiautomatic, changes must be confirmed by another user**   
+        The initial mapping as well as values changes or reruns are applied after confirmation by another user.
+    
 
 7. Select the appropriate attribute that you want to assign to the destination attribute in the *Source attribute* drop-down list. All attributes with a data type that matches the selected ETL extension are displayed in the drop-down list.
 

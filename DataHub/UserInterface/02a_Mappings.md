@@ -164,14 +164,15 @@ The following functions and fields are available in the *Settings* section:
     Click the drop-down list and select the change tracking mode of the mapping. By default, the **Use default** option is selected. The following modes are available:
     - **Use default**   
         The mapping configured in the dependency of the specific entities is applied.
-    - **Automatic**   
-        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
-    - **Semiautomatic**   
-        The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
-    - **Semiautomatic, changes must be confirmed by another user**   
-        The initial mapping as well as value changes or reruns are applied after confirmation by another user.
-    - **Manual**   
+    - **0 - Manual**   
         The initial mapping is automatically applied. Afterwards, the changes in the mapping must be triggered manually to be applied.
+    - **1 - Semiautomatic**   
+        The initial mapping is automatically applied. Value changes or reruns are applied after confirmation.
+    - **2 -  Automatic**   
+        The initial mapping is automatically applied. All value changes or reruns are applied automatically in the mapping.  
+    - **3 - Semiautomatic, changes must be confirmed by another user**   
+        The initial mapping as well as value changes or reruns are applied after confirmation by another user.
+    
 
 - *Source attribute*   
     Click the drop-down list within the arrow box and select the appropriate source attribute for the mapping. Depending on the selected ETL extension, one or several *Source attribute* arrow boxes are displayed. The selection in the drop-down list depends on the selected ETL extension, which defines the required data type of the source attribute(s).    

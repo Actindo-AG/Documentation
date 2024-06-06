@@ -67,12 +67,12 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 ## Confirm an ETL process
 
-If the selected change tracking mode of an ETL mapping equals **Semiautomatic** or **Semiautomatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
+If the selected change tracking mode of an ETL mapping equals **1 - Semiautomatic** or **3 - Semiautomatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
 
 #### Prerequisites
 
 - An ETL process has been triggered, for instance by a rerun of mapping, see [Rerun an ETL mapping](./01_ManageETLMappings.md#rerun-an-etl-mapping).
-- At least one of the triggered ETL processes has the change tracking mode **Semiautomatic** or **Semiautomatic, changes must be confirmed by another user**.
+- At least one of the triggered ETL processes has the change tracking mode **1 - Semiautomatic** or **3 - Semiautomatic, changes must be confirmed by another user**.
 
 #### Procedure
 
@@ -82,7 +82,7 @@ If the selected change tracking mode of an ETL mapping equals **Semiautomatic** 
 
 1. Check the list for the appropriate ETL process to make sure that the ETL process has been triggered.
 
-    > [Info] ETL processes whose mappings have a **Semiautomatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **Semiautomatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
+    > [Info] ETL processes whose mappings have a **1 - Semiautomatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **3 - Semiautomatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
 
 2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING*.      
     The *SEMIAUTOMATIC MAPPING* tab is displayed.
