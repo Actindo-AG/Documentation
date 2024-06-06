@@ -130,7 +130,7 @@ The diagram displays a visualization of the selected process including all place
 
 ![Actions](../../Assets/Screenshots/ActindoWorkFlow/Processes/Actions.png "[Actions]")
 
-**Actions tab**
+**Actions**
 
 The *Actions* tab is selected by default when selecting a process. This tab is an excerpt of the *Process actions* menu entry, which displays a list of all process actions. When clicking an action in the *Process actions* view, the selected action is displayed in the *Actions* tab of the corresponding *Process ID* view.  
 The list displays all executed actions that are matching the selected status. Depending on the settings, the displayed columns may vary. All fields are read-only. Depending on the process status, the editing toolbar may display different options. 
@@ -207,7 +207,15 @@ The following functions are available in this view.
 
 - [ADD COMMENT]   
     Click this button to add a comment in Markdown syntax.    
-    The Add comment view is displayed.
+    The Add comment window is displayed.
+
+- [EDIT]   
+    Click this button to edit an existing comment. After you have saved your changes, your name and username as well as the date and time of the change is displayed. 
+
+- [DELETE]   
+    Click this button to delete the comment.
+
+**Add/edit comment window**
 
 - [CLOSE]   
     Click this button to close the *Add comment* or the *Edit comment* window.
@@ -215,11 +223,7 @@ The following functions are available in this view.
 - [SAVE]   
     Click this button to save your newly added comments or changes to them.
 
-- [EDIT]   
-    Click this button to edit an existing comment. After you have saved your changes, your name and username as well as the date and time of the change is displayed. 
 
-- [DELETE]   
-    Click this button to delete the comment.
 
 
 

@@ -1,8 +1,8 @@
 [!!Manage the workflows](../Operation/01_ManageWorkflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
+[!!Tasks module](../../Tasks/Overview/01_General.md)
 
-[comment]: < add link to Tasks module if available (Currently not available 21.02.2024)>
 
 # OVERVIEW (Workflow)
 
@@ -50,7 +50,7 @@ The list displays all workflows. Depending on the settings, the displayed column
     Enter the name of the start place or a keyword to search for and select the appropriate place in the list of places.
 
     > [Info] The list of places is filtered for your keyword as you type.
-git sta
+
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
     Click this button to clear the search bar field for the start place.
 
@@ -158,7 +158,6 @@ The following functions are available for the editing toolbar:
 
 ![Workflow diagram](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Workflow diagram]")
 
-
 In the following, the workflow elements and their fields and functions are described. The workflow diagram includes the following elements:  
 
 **Place** 
@@ -182,7 +181,7 @@ If you click the start/end place, it becomes highlighted and the corresponding e
 ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
 
 - *Key*  
-        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Stimmt das, dass er unique sein muss? Beim Import Channels order..ist der Key nicht unique.. p-out-0, p-id-0p-businessDocument-0...-->
+        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
 - *Data container*   
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
@@ -198,7 +197,7 @@ When clicking a transition in the workflow editor, it becomes highlighted and th
 The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
 - *Key*  
-    Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.<!--- Was ist damit gemeint? und wenn ich eine transition mehrfach einfüge?...-->
+    Transition key. This field is automatically created. It is required for API access and must be unique within the workflow version.
 
 - *Label*  
     Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the transition rectangle in the diagram.
@@ -208,13 +207,16 @@ The transition settings sidebar is located to the right of the workspace and all
     For detailed information, see [Queue types](05_QueueTypes.md).
 
 - *Priority*   
-    The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+    The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: The higher the number, the higher the priority. For example, priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
 - *Max tries*   
-    Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, you can select a retry time strategy from a drop-down list. Depending on this retry time strategy, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
+    Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* drop-down list is displayed. 
+
+- *Retry time strategy*
+    This field is only displayed when the *Max tries* field has a value greater than 1. Click the drop-down list and select a retry time strategy. The following values are available:
 
     - **Constant**   
-        Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
+        Define a constant value. For example, a constant value of **3** means to retry the action every 3 minutes depending on what you specified in the *Max tries* field.
 
     - **CustomFunction**  
         Use any suitable php function to define the retry time.
@@ -231,12 +233,15 @@ The transition settings sidebar is located to the right of the workspace and all
     - **Quadratic**   
         Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
 
-        Select the retry strategy and enter the required value in minutes in the *Strategy config value* field.
+    After you have selected a retry time strategy, the *Strategy config value* field is displayed.
+
+- *Strategy config value*   
+    This field is only displayed when you have selected a retry time strategy. Enter the required value in minutes. 
 
 - *Task event*  
     Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights. For detailed information see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
-    > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+    > [Info] The *Actindo Workflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
 
 - *Long description*   
     If desired, edit a long text to document the transition.   
@@ -271,7 +276,7 @@ For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#a
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
-The *Edit trigger for workflow "workflow name"* window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
+The *Edit trigger for workflow "Workflow name"* window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add trigger)  
     Click this button to add a trigger. A trigger input line is displayed.
@@ -288,7 +293,7 @@ The *Edit trigger for workflow "workflow name"* window allows you to determine a
     Enter a descriptive name for the new trigger. The entered name is displayed above the trigger input line.
 
 - *Model*  
-    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line. Ensure that the name space of the model corresponds to the  
+    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line. Ensure that the namespace of the model corresponds to the data container specified in the start place. 
 
 - *Event*  
     Click the drop-down list and select the appropriate event. The following options are available:    
@@ -366,15 +371,14 @@ The *Edit trigger for workflow "workflow name"* window allows you to determine a
 
 ## Workflow &ndash; Compare workflow versions
 
-*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Show changes*
-
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Show changes*   
 *Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Click COMPARE button*
 
   ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")  
 
-**Workflows**
+**Comparison window**
 
-The *Workflow* window displays two versions of a workflow configuration.
+The comparison window displays two versions of a workflow configuration.
 
 The following fields and functions are available in this window:
 
@@ -384,11 +388,11 @@ The following fields and functions are available in this window:
 - ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS]   
     Click this button to swap the versions displayed.
 
-- ![Format code](../../Assets/Icons/Swap.png "[Format code]") [FORMAT CODE]   
-    Click this button to compare the lines of code and puts them in the same order, so that order differences are no longer highlighted.
+- ![Format code](../../Assets/Icons/Code.png "[Format code]") [FORMAT CODE]   
+    Click this button to compare the lines of code and put them in the same order, so that order differences are no longer highlighted.
 
 - ![All properties](../../Assets/Icons/Toggle.png "[All properties]") (All properties)   
-    Enable this toggle to compare all changes. This includes properties which have no functional impact such as the version number or the positioning of the nodes.
+    Enable this toggle to compare all changes. This includes properties which have no functional impact, such as the version number or the positioning of the nodes.
 
 - *Version*   
     Click this drop-down list to select the workflow version that is to be displayed. The drop-down list contains all versions available for the workflow selected in the *Workflow* field.
@@ -428,14 +432,14 @@ The *Export JSON* window displays all workflow source code in JSON format. This 
 
 ## Search for an action
 
-*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*  
 *Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
 ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
 The *Search for an action* window displays a list of possible transitions for the selected place.   
 
-> [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
+> [Info] If you click the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
 
 
 - *Search for an action* (search bar)  
