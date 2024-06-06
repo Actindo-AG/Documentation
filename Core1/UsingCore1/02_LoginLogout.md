@@ -1,5 +1,5 @@
   
-[!!Log in via U2F](./01b_U2FLogin.md)
+[!!Log in via U2F](./02b_U2FLogin.md)
 
 # Login and logout of the Actindo Core1 Platform 
 

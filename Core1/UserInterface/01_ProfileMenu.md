@@ -1,4 +1,4 @@
-[!!Edit profile settings](../UsingCore1/02_EditProfileSettings.md)
+[!!Edit profile settings](../UsingCore1/03_EditProfileSettings.md)
 
 # Profile menu
 

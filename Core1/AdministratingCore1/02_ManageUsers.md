@@ -112,7 +112,7 @@ Assigning users to a user group is necessary to activate a user on a current ins
 
 ## Edit user
 
-Users can only be edited in the main account they have been created. Users can change their own personal information in any account, see [Edit profile settings](../UsingCore1/02_EditProfileSettings.md).
+Users can only be edited in the main account they have been created. Users can change their own personal information in any account, see [Edit profile settings](../UsingCore1/03_EditProfileSettings.md).
 
 #### Prerequisites
 
