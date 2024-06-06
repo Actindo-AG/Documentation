@@ -193,11 +193,9 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 | *changeTracking* | - |  | 
 | *initialStatus* | - |  |
 | *destinationAttributeSet* | - |
-| *unique* | "1" | The static input *unique* prevents the creation of duplicate offers. This is a boolean value, where "1" equals true and no value equals false. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). |
+| *unique* | "1" | The static input *unique* prevents the creation of duplicate offers. This is a boolean value, where "1" equals true and "0" or no value equals false. |
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
-
-[comment]: <> (Stimmt unique as boolean? Stimmt Unique check info?)
 
   
 [comment]: <> (Warum geht es technisch nicht connection id als static input einzugeben? Warum kann man nicht "id: 2" eingeben? Die ganzen Actions dazwischen, um nur id: 2 anzugeben...?)

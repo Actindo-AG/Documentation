@@ -100,7 +100,7 @@ You have set up an offer from product workflow, see [Set up an offer from produc
 
 3. If desired, you can add conditions to a trigger to define more precisely when a process is executed, see [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger).
 
-
+[comment]: <> (Unique check bezieht sich hier auf Prozess, also Prozess wird nur einmal für ein bestimmtes Produkt durchgeführt, wenn Setting auf Ja gesetzt, egal was man ändert und wie viel man was ändert.)
 
 ## Add a condition to a PIM product trigger
 
@@ -133,10 +133,10 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 | Conditions ||
 |----|----|
 |**Prefix** | changeset. |
-|**Property** | $entity._pim_price_sale |
+|**Property** | _pim_price_sale |
 |**Operator** | Is set | 
 |**Value** | - |   
    
-[comment]: <> (check!)
+
 
 
