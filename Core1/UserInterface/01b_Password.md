@@ -1,4 +1,4 @@
-[!!Edit profile settings](../UsingCore1/02_EditProfileSettings.md)
+[!!Edit profile settings](../UsingCore1/03_EditProfileSettings.md)
 
 # Password
 
@@ -9,7 +9,7 @@
 **Change password**
 
 - [SAVE]   
-    Click this button to save the new password. The notice *Submitting data...* is displayed. If the entered password is not fulfilling the requirements for a valid password, an error message is displayed, and you must edit the password.If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
+    Click this button to save the new password. The notice *Submitting data...* is displayed. If the entered password is not fulfilling the requirements for a valid password, an error message is displayed, and you must edit the password. If the entered password is valid, it is saved and the *Password saved* pop-up window is displayed.
 
 - *Current password*   
     Enter your current password.

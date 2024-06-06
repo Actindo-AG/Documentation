@@ -6,7 +6,7 @@ In this part of the *Actindo Core1 Platform* documentation, you will find the fo
     - [Login to the Actindo Core1 Platform](./01_LoginLogout.md#login-to-the-actindo-core1-platform)    
     - [Logout from the Actindo Core1 Platform](./01_LoginLogout.md#logout-from-the-actindo-core1-platform)    
     - [Set up U2F from the user side](./01a_UserSetupActindo.md)   
-    - [Log in via U2F](./01b_U2FLogin.md#log-in-via-u2f)   
+    - [Log in via U2F](./02b_U2FLogin.md#log-in-via-u2f)   
 
 
 - [Edit profile settings](./02_EditProfileSettings.md)   
