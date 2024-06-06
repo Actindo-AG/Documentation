@@ -20,10 +20,10 @@ Depending on the settings, the displayed columns may vary.
 
 - *Change tracking mode*   
     Change tracking mode (ETL mode) of the dependent entity. The following options are available:
-    - **Manual**
-    - **Semiautomatic**
-    - **Semiautomatic, changes must be confirmed by another user**   
-    - **Automatic**
+    - **0 - Manual**
+    - **1 - Semiautomatic**
+    - **2 - Automatic**
+    - **3 - Semiautomatic, changes must be confirmed by another user**   
 
 - *Dependent entity friendly identifier*   
     Another more descriptive identifier of the dependent entity such as the SKU number or an invoice number.
@@ -46,10 +46,10 @@ The following functions are available for the editing toolbar:
     
 - *Change tracking mode*   
     Select the *Change tracking mode (ETL mode)* drop-down list of the dependent entity. This drop-down list is only displayed if the checkbox of one dependency is selected. The following options are available:
-    - **Manual**
-    - **Semiautomatic**
-    - **Semiautomatic, changes must be confirmed by another user**   
-    - **Automatic**
+    - **0 - Manual**
+    - **1 - Semiautomatic**
+    - **2 - Automatic**
+    - **3 - Semiautomatic, changes must be confirmed by another user**   
 
 
 
