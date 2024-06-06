@@ -1,7 +1,7 @@
 # Overview 
 
 In this part of the *Actindo Core1 Platform* documentation you will find the following chapters:
-<
+
 - [General information](./01_General.md)  
 
 
