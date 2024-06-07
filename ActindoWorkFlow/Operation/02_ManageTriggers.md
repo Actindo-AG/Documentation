@@ -63,9 +63,14 @@ You have the required rights to edit a workflow.
         Select this option to deactivate the trigger temporarily.  
 
 9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+<!---NEU bitte prüfen,-->
+10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. This might be an issue in asynchronous processing.  To do this, click the *Unique check* drop-down list. You have the following options:
+    - **Yes**   
+        There are no other processes for this entity and this workflow.
+    - **No**   
+        There may be other processes for this entity and this workflow.
 
     > [Info] As soon as all fields are completed, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to add a condition is displayed.  
-
     
     ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
