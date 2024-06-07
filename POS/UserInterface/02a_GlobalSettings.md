@@ -448,7 +448,7 @@ The following fields and functions are available in this window:
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Add*
 
-![Create currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13b.png "[Create currency]")
+![Create currency](../../Assets/Screenshots/POS/Management/GlobalSettings/CreateCurrency.png "[Create currency]")
 
 Add a new currency to the list of available currencies and define the coins and banknotes of the new currency.
 
@@ -492,7 +492,7 @@ Add a new currency to the list of available currencies and define the coins and 
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Available Currencies > Button Edit*
 
-![Edit currency](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13c.png "[Edit currency]")
+![Edit currency](../../Assets/Screenshots/POS/Management/GlobalSettings/EditCurrency.png "[Edit currency]")
 
 Edit the settings of an existing currency.
 
@@ -535,7 +535,7 @@ Edit the settings of an existing currency.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Used currencies*
 
-![Used currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/GS14.png "[Used currencies]")
+![Used currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/AutomaticDiscount.png "[Used currencies]")
 
 Select all currencies that are used in your POS system and define a default currency.
 
