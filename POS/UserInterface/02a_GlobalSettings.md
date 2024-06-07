@@ -557,7 +557,7 @@ Select all currencies that are used in your POS system and define a default curr
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Automatic discount*
 
-![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS05.png "[Automatic discount]")
+![Automatic discount](../../Assets/Screenshots/POS/Management/GlobalSettings/AutomaticDiscount.png "[Automatic discount]")
 
 Define a discount that is automatically applied above a certain amount.
 
@@ -597,7 +597,7 @@ The following prerequisites must be met to use this feature:
 
 - You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
 - This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
-<!---Links gehen auf DataHub2 und gehen daher nicht-->
+
 
 The following fields and features are available for this window:   
 
@@ -661,7 +661,7 @@ In this section, you define all settings concerning returns.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Return reasons*
 
-![Return reasons](../../Assets/Screenshots/POS/Management/GlobalSettings/GS15.png "[Return reasons]")
+![Return reasons](../../Assets/Screenshots/POS/Management/GlobalSettings/ReturnReasons.png "[Return reasons]")
 
 Define the return reasons that are available in the POS system.
 
@@ -685,7 +685,7 @@ Define the return reasons that are available in the POS system.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Refund only on the same payment method*
 
-![Refund payment method](../../Assets/Screenshots/POS/Management/GlobalSettings/GS16.png "[Refund payment method]")
+![Refund payment method](../../Assets/Screenshots/POS/Management/GlobalSettings/RefundOnSamePaymentMethod.png "[Refund payment method]")
 
 Activate or deactivate the refund to the same payment method for returns.
 
@@ -724,9 +724,9 @@ In this section, you define all settings concerning the receipt printing.
 
 ### Print merchant receipt
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Händler-Beleg drucken*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Print merchant receipt*
 
-![Print merchant receipt](../../Assets/Screenshots/POS/Management/GlobalSettings/GS18.png "[Print merchant receipt]")
+![Print merchant receipt](../../Assets/Screenshots/POS/Management/GlobalSettings/PrintMerchantReceipt.png "[Print merchant receipt]")
 
 Activate or deactivate the printing of a merchant receipt for cashless payment.
 
@@ -744,7 +744,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo print compatibility mode*
 
-![Logo print](../../Assets/Screenshots/POS/Management/GlobalSettings/GS20.png "[Logo print]")
+![Logo print](../../Assets/Screenshots/POS/Management/GlobalSettings/LogoPrintCompMode.png "[Logo print]")
 
 Activate or deactivate the compatibility mode for logo printing. As some receipt printer have issues with printing logos, it may help to activate this option.
 
@@ -755,7 +755,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
     Click this button to save any changes.
 
 - [x] *Logo print compatibility mode*   
-    Choose whether or not to use the compatibility mode for logo printing. By default, this option is inactive.
+    Choose whether you want to use the compatibility mode for logo printing or not. By default, this option is inactive.
 
 
 ### Receipt format
@@ -785,7 +785,7 @@ Define the width of the receipt, as it may vary depending on the printer.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Number format*
 
-![Number format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS22.png "[Number format]")
+![Number format](../../Assets/Screenshots/POS/Management/GlobalSettings/NumberFormat.png "[Number format]")
 
 Define the number format on the receipt.
 
@@ -811,7 +811,7 @@ Define the number format on the receipt.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Logo*
 
-![Logo](../../Assets/Screenshots/POS/Management/GlobalSettings/GS23.png "[Logo]")
+![Logo](../../Assets/Screenshots/POS/Management/GlobalSettings/Logo.png "[Logo]")
 
 Upload a logo for your receipts.
 
@@ -837,11 +837,11 @@ Upload a logo for your receipts.
 In this section, you define all settings concerning the connection to the *Order Management* module. The settings are only displayed if the accounting is correctly configured.
 
 
-### Account allocation accounting
+### Account assignment accounting
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation accounting*
 
-![Account allocation accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS24.png "[Account allocation accounting]")
+![Account assignment accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Account assignment accounting]")
 
 Assign the accounts to which you want to post the payments. The accounts are assigned for all stores, unless they are overwritten in the store or pay desk admin settings.
 For more information, see [Admin Settings - Store](./02b_Stores.md#admin-settings-–-store) or [Admin Settings - Pay Desk](./02b_Stores.md#admin-settings-–-pay-desk).
@@ -878,9 +878,9 @@ The number of accounts to be assigned depends on the number of available currenc
 
 ### Reverse posting on source warehouse
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Korrekturbuchung auf Ursprungslager*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Reverse posting on source warehouse*
 
-![Reverse posting](../../Assets/Screenshots/POS/Management/GlobalSettings/GS25.png "[Reverse posting]")
+![Reverse posting](../../Assets/Screenshots/POS/Management/GlobalSettings/ReversePostingSourceWarehse.png "[Reverse posting]")
 
 Activate or deactivate the reverse posting to the original warehouse. Any discrepancies in store deliveries are automatically posted back to the original warehouse. 
 
@@ -900,7 +900,7 @@ Activate or deactivate the reverse posting to the original warehouse. Any discre
 
 [comment]: <> (need information; Is that right?)
 
-![Return warehouse](../../Assets/Screenshots/POS/Management/GlobalSettings/GS26.png "[Return warehouse]")
+![Return warehouse](../../Assets/Screenshots/POS/Management/GlobalSettings/ReturnWarehouse.png "[Return warehouse]")
 
 Define a shelf in the storage area for blocked stock for returns with defects.
 
@@ -920,7 +920,7 @@ Define a shelf in the storage area for blocked stock for returns with defects.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
 
-![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/GS27.png "[Default customer]")
+![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
 Define an invoice address for a default customer to connect the POS system with the *Order Management* module. The invoice address of this default customer is used for all occasional customers.
 
@@ -977,10 +977,10 @@ In this section, you define all settings concerning the KNISTR integration. For 
 - [Save]    
     Click this button to save any changes.
 
-- *App name*
+- *App name*   
     Name of the *KNISTR-PoS-Integration* API used for the connection of the current instance to Knistr&trade;. <!---Stimmt das?>
 
-- *HMAC key*
+- *HMAC key*  
     HMAC key used for authentication. 
 
 

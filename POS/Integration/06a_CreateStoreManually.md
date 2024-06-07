@@ -433,12 +433,12 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account assignment*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation Accounting*
 
-![Assign accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignment.png "[Assign accounts global settings]")
+![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAllocAccounting.png "[Allocate accounts global settings]")
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
-For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
+    For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
 
 2. Click the [Save] button in the bottom right corner of the window.   
     A confirmation message is displayed. The account assignment is saved.
@@ -458,7 +458,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Entry Account assignment*
 
-![Assign accounts Store Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts Store Settings]")
+![Assign accounts in store settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts in store settings]")
 
 > [Info] In the top right corner, the *Apply from global* toggle is displayed. Activate the toggle to apply the account assignment from the global settings. 
 
