@@ -235,7 +235,7 @@ Enter the VAT ID of your company, which is mandatory to be indicated on receipts
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Cashless payment*
 
-![Cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS09.png "[Cashless payment]")  
+![Cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/CashlessPayment.png "[Cashless payment]")  
 
 Activate or deactivate the options for cashless payment.
 
@@ -703,7 +703,7 @@ Activate or deactivate the refund to the same payment method for returns.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Return only in the same store*
 
-![Return store](../../Assets/Screenshots/POS/Management/GlobalSettings/GS17.png "[Return store]")
+![Return store](../../Assets/Screenshots/POS/Management/GlobalSettings/ReturnOnlySameStore.png "[Return store]")
 
 Activate or deactivate the return to the same store.
 
@@ -762,7 +762,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Receipt format*
 
-![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/GS21.png "[Receipt format]")
+![Receipt format](../../Assets/Screenshots/POS/Management/GlobalSettings/ReceiptFormat.png "[Receipt format]")
 
 Define the width of the receipt, as it may vary depending on the printer.
 
@@ -839,7 +839,7 @@ In this section, you define all settings concerning the connection to the *Order
 
 ### Account assignment accounting
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation accounting*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account assignment accounting*
 
 ![Account assignment accounting](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Account assignment accounting]")
 
