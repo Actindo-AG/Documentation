@@ -36,7 +36,7 @@ In this section, you define all pay desk and payment settings.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
 
-![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GS01.png "[Format of sequential number]")
+![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[Format of sequential number]")
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order Management* module and is therefore selected from a different number range to be defined here.
 
@@ -107,7 +107,7 @@ The *Down payments allowed* setting allows cashiers to accept down payments. For
 
 Activate or disable the option to print the cash receipt.
 
-![Bon immer ausdrucken](../../Assets/Screenshots/POS/Management/GlobalSettings/GS02.png "[Bon immer ausdrucken]")
+![Bon immer ausdrucken](../../Assets/Screenshots/POS/Management/GlobalSettings/AlwaysPrintReceipt.png "[Bon immer ausdrucken]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -127,7 +127,7 @@ Activate or disable the option to print the cash receipt.
 
 Define how many vouchers may be redeemed per order.
 
-![Number of vouchers per order](../../Assets/Screenshots/POS/Management/GlobalSettings/GS03.png "[Number of vouchers per order]")
+![Number of vouchers per order](../../Assets/Screenshots/POS/Management/GlobalSettings/NumberVoucherPerOrder.png "[Number of vouchers per order]")
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
@@ -152,7 +152,7 @@ Define how many vouchers may be redeemed per order.
 If you use an external terminal that is not connected to POS, cashless payment is completed manually through that terminal.
 In POS, you can specify for statistical purposes which payment method was used for the cashless payment. You define the different payment methods in this setting.
 
-![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/GS04.png "[Payment methods]")
+![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
 
 > [Info] By default, the payments methods *debit card*, *credit card* and *PayPal* are preset.
 
@@ -181,7 +181,7 @@ In POS, you can specify for statistical purposes which payment method was used f
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cash payment*
 
 
-![Open drawer at cash payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS06.png "[Open drawer at cash payment]")
+![Open drawer at cash payment](../../Assets/Screenshots/POS/Management/GlobalSettings/OpenDrawerCashPayment.png "[Open drawer at cash payment]")
 
 Activate or deactivate the option to open the cash drawer for cash payment.
 
@@ -200,7 +200,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Open drawer at cashless payment*
 
 
-![Open drawer at cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/GS07.png "[Open drawer at cashless payment]")
+![Open drawer at cashless payment](../../Assets/Screenshots/POS/Management/GlobalSettings/OpenDrawerCashlessPayment.png "[Open drawer at cashless payment]")
 
 Enable or disable the option to open the cash drawer for cashless payment.
 
@@ -220,7 +220,7 @@ Enable or disable the option to open the cash drawer for cashless payment.
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
 
 
-![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/GS08.png "[VAT ID]")
+![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
 Enter the VAT ID of your company, which is mandatory to be indicated on receipts in some countries.
 
@@ -256,7 +256,7 @@ Activate or deactivate the options for cashless payment.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Bind cash journal to user*
 
-![Bind cash journal to user](../../Assets/Screenshots/POS/Management/GlobalSettings/GS10.png "[Bind cash journal to user]")
+![Bind cash journal to user](../../Assets/Screenshots/POS/Management/GlobalSettings/BindCashJournalUser.png "[Bind cash journal to user]")
 
 When a pay desk is opened, it is linked to a specific user. This user is the only one who can use the pay desk until he closes it again. To allow that several users can access the same pay desk without closing it, you can deactivate the option to link the cash register to a specific user.
 
@@ -276,7 +276,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Skim to amount*
 
-![Skim to amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS11.png "[Skim to amount]")
+![Skim to amount](../../Assets/Screenshots/POS/Management/GlobalSettings/SkimToAmount.png "[Skim to amount]")
 
 Define an amount up to which the pay desk is skimmed after the pay desk closes. The amount is automatically entered in the cash register and taken as the opening float.
 
@@ -291,7 +291,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Hide expected amount*
 
-![Hide expected amount](../../Assets/Screenshots/POS/Management/GlobalSettings/GS12.png "[Hide expected amount]")
+![Hide expected amount](../../Assets/Screenshots/POS/Management/GlobalSettings/HideExpectedAmount.png "[Hide expected amount]")
 
 By default, the expected amount in the pay desk is indicated. Deactivate this option to hide the expected amount from the cashier in order to prevent the concealment of shortfalls.
 
@@ -406,7 +406,7 @@ In this section, you define all settings concerning the currencies in your POS s
 
 Define the currencies that are available in your POS system as well as the coins and bills that exist in each currency. By default, the four currencies Euro, Swiss Franc, US Dollar, and British Pound are predefined.
 
-![Available currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/GS13.png "[Available currencies]")
+![Available currencies](../../Assets/Screenshots/POS/Management/GlobalSettings/AvailableCurrencies.png "[Available currencies]")
 
 **Available Currencies**
 
