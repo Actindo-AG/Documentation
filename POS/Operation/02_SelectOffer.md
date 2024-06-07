@@ -38,7 +38,7 @@ Optionally, you can activate the single scan feature before you select the offer
 
 
 
-## Record a return
+## Create a return
 
 Record a return, so that a negative quantity is posted in the bill list, and you can hand over the money to the customer. You can add multiple different offers as well as the required quantity of a single offer.   
 

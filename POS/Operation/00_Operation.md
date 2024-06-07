@@ -6,6 +6,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 - [Record the purchase](./02_SelectOffer.md)
     - [Use single scan](./02_SelectOffer.md#use-single-scan)
+    - [Create a return](./02_SelectOffer.md#create-a-return)
     - [Select an offer](./02_SelectOffer.md#select-an-offer)
         - [Select an offer by QuickSelect](./02_SelectOffer.md#select-an-offer-by-quickselect)
         - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)

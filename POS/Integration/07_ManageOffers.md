@@ -165,7 +165,7 @@ Create a QuickSelect category for POS for faster access to favorite offers at th
 
 The following image shows how QuickSelects can organize the most requested offers:
 <!---Marina, ich habe hier ein Bild eingefügt, damit die Kunden überhaupt wissen, worum es sich bei dieser Funktion handelt-->
-![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/QuickSelect.png "[QuickSelect in the cashpoint]")
+![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/CashPoint.png "[QuickSelect in the cashpoint]")
 
 ### Define a QuickSelect attribute
 
@@ -473,7 +473,7 @@ The attribute for defining the price group-related price has been defined in the
 2. Select an offer, for which a special price group price should apply. If the offer has a master offer with variants, select this one. This allows that the price is automatically inherited by all variants.    
     The *Edit offer "offer name"* view is displayed. The *Attributes* tab is displayed by default. Only the *Unassigned Group* is available.
 
-    ![Edit offer](../../Assets/Screenshots/POS/Management/Customizing/PriceGroupOffer.png "[Edit offer]")
+    ![Edit offer](../../Assets/Screenshots/POS/Management/PriceGroups/PriceGroupOffer.png "[Edit offer]")
 
 3. Scroll down to the attribute you have created. 
 
@@ -503,10 +503,12 @@ No prerequisites to fulfill.
 
 *Venduo POS > Management > Tab PRODUCT OPTIONS*
 
-![Product options](../../Assets/Screenshots/POS/Management/Customizing/ProductOptions.png "[Product options]")
+![Product options](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Product options]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
     The *Create option attribute* window is opened.
+
+    ![Product options](../../Assets/Screenshots/POS/Management/ProductOptions/CreateOptionAttribute.png "[Product options]")
 
 2. Enter a name for the product option in the *Name* field.
 
