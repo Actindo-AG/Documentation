@@ -63,7 +63,7 @@ The process depicted below is a standard approach that can be completely configu
 
 **Legend**   
 
-| Color    | Meaning     |
+| Color | Meaning     |
 |-------|-------------|
 | Gray | External systems |  
 | Green | Actindo modules |  
