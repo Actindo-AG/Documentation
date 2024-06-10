@@ -10,7 +10,7 @@
 
 **Processes**
 
-The list displays all processes that are matching the selected values (status and workflow type). Depending on the settings, the displayed columns may vary. All fields are read-only. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
+The list displays the processes available on the current instance. You can filter the processes to be displayed with the *Status* and the *Workflow* drop-down lists. Depending on the settings, the displayed columns may vary. Click a process in the list to display the *Process ID* view with a process diagram and detailed information about the selected process.
 
 The following fields and functions are available on top of the list:
 

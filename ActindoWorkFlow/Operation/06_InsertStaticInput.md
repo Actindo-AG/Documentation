@@ -1,9 +1,9 @@
 # Insert a static input
 
 With the static input function, you can use an input port to pass customer-specific data to a transition, with which you want to process it. Only valid JSON values are accepted such as text ("text"), numbers ("42"), or JSON objects ({"dispatchNote": {"id": 42}}).  
-For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start place and to pass it through the entire workflow, you can input this information to a transition that then passes the sales channel information to an API endpoint.   
+For example, you want to send offer data to a specific sales channel. Since it is not possible to input a sales channel to a start place and to pass it through the entire workflow, you can input this information to a static input of a transition that then passes the sales channel information to an API endpoint.   
 
-The following procedure shows an example of how to edit the static inputs by adding a sales channel information that requires complex JSON code. 
+The following procedure shows an example of how to edit the static inputs by adding a sales channel connection number that requires complex JSON code. 
 
 #### Prerequisites
 
@@ -17,19 +17,19 @@ The following procedure shows an example of how to edit the static inputs by add
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. Add the desired transition. For detailed information, see [Add a transition](./01_ManageWorkflows.md#add-a-transition).   
+1. Add the desired transition,  For detailed information, see [Add a transition](./01_ManageWorkflows.md#add-a-transition).   
     The transition is added. It has several input ports which are listed in the *Static inputs* section of the transition settings sidebar. 
 
     ![Input ports](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionInputPorts.png)
 
-2. Check the API used in the API documentation. To do this, select *Dev Tools > API > Select API tab* and select the desired API.    
+2. Check the API used in the API documentation. To do this, select *Dev Tools > API > Select API tab* and select the desired API, for example, the *PIM Channels Connection* API and the *Actindo.Extensions.Actindo.PimChannelsConnection.Offers* resource.    
     The API documentation is displayed. On the left side, the API list is displayed. The middle column contains the parameters. The right side shows the JSON code of the API parameters. 
       
     ![API documentation](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowAPIDocumentation.png "[API documentation]")
 
     
 3. Check the parameters of the API.    
-    All required parameters are indicated. You must fill the required parameters to ensure a smooth data transfer.
+    All required parameters are indicated. You must fill the required parameters to ensure a successful data transfer.
      
    ![API parameters](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputParameters.png "[API parameters]")
    
@@ -47,12 +47,12 @@ The following procedure shows an example of how to edit the static inputs by add
 
     ![Add JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputAdd.png "[Add JSON code]").
     
-7. Enter the copied JSON code. By doing it, delete the quotes that are available by default.   
+7. Enter the copied complex JSON code. By doing it, delete the quotes that are available by default.   
     The complex code has been added to the input parameter. 
 
-    > [Info] If you add a simple string or text, do not delete the quotes. Instead, use the following syntax, for example: **"U_ACTIO"**.
+    > [Info] If you add a simple string or text, do not delete the quotes. Instead, use the following syntax text and strings, for example: **"U_ACTIO"**. For detailed information on JSON syntax rules see the [W3Schools](https://www.w3schools.com/js/js_json_syntax.asp "[https://www.w3schools.com/js/js_json_syntax.asp]") website, for example.
     
-8. Enter the required value after the colon.    
+8. Enter the required value after the colon. To do this, open the related *Actindo Core1 Platform* menu entry in which the required value of the entity is displayed.   
     A small arrow without a place is displayed in front of the input port with the defined static input value. 
 
     ![Insert JSON code](../../Assets/Screenshots/ActindoWorkFlow/Workflows/TransitionStaticInputInsert.png "[Insert JSON code]")
