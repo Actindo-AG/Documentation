@@ -1,59 +1,16 @@
 [!!Manage the workflows](../Operation/01_ManageWorkflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 [!!Configure the queue types](../Integration/01_ConfigureQueueTypes.md)
+[!!Tasks module](../../Tasks/Overview/01_General.md)
 
-[comment]: <> (add link to Tasks module if available)
 
-# Overview
+# OVERVIEW (Workflow)
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Overview](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Overview]")
 
 **Workflows**
-
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
-
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
-
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-      
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow.
-
-    > [Info] The search function can be used to search for a workflow name and key. At least three characters must be entered.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflows.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The *x* indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The *x* indicates the number of filters that are currently active.
 
 The list displays all workflows. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -79,7 +36,7 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 ## New workflow
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add*
 
 ![New workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/NewWorkflow.png "[New workflow]")
 
@@ -115,57 +72,11 @@ The list displays all workflows. Depending on the settings, the displayed column
 
 ## Workflow versions
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
-[comment]: <> (subject/path to change, but correct for now -> check in the future)
+[comment]: <> (subject/path to change, but correct for now -> check in the future > still available 21.02.2024)
 
 ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
-
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-    Click this button to close the *Workflow versions* view and return to the *Workflows* view. All changes are rejected.
-
-- *VIEW*  
-    Click the drop-down list to select the view. All created views are displayed in the drop-down list. Click the ![Points](../../Assets/Icons/Points01.png "[Points]") (Points) button to the right of the *VIEW* drop-down list to display the context menu and create a view.   
-
-    - ![Points](../../Assets/Icons/Points01.png "[Points]") (Points)      
-        Click this button to the right of the *View* drop-down list to display the context menu. The following menu entries are available:
-
-      - ![Create](../../Assets/Icons/Plus06.png "[Create]") create  
-          Click this entry to create a view. The *Create view* window is displayed, see [Create view](#create-view).
-
-      - ![Rename](../../Assets/Icons/Edit02.png "[Rename]") rename  
-          Click this entry to rename the selected view. The *Rename view* window is displayed, see [Rename view](#rename-view). This menu entry is only displayed if a view has been selected.
-
-      - ![Reset](../../Assets/Icons/Reset.png "[Reset]") reset  
-          Click this entry to reset all unsaved changes to the settings of the selected view. This menu entry is only displayed if a view has been selected and any changes have been made to the view settings.
-
-      - ![Publish](../../Assets/Icons/Publish.png "[Publish]") publish  
-          Click this entry to publish the view. This menu entry is only displayed if a view has been selected and unpublished.
-
-      - ![Unpublish](../../Assets/Icons/Unpublish.png "[Unpublish]") unpublish  
-          Click this entry to unpublish the view. This menu entry is only displayed if a view has been selected and published.
-
-      - ![Save](../../Assets/Icons/Save.png "[Save]") save  
-          Click this entry to save the current view settings in the selected view. This menu entry is only displayed if a view has been selected.
-
-          > [Info] When the settings of a view have been changed, an asterisk is displayed next to the view name. The asterisk is hidden as soon as the changes have been saved.
-
-      - ![Delete](../../Assets/Icons/Trash01.png "[Delete]") delete  
-          Click this entry to delete the selected view. A confirmation window to confirm the deletion is displayed. This menu entry is only displayed if a view has been selected.
-
-- ![Search](../../Assets/Icons/Search.png "[Search]") (Search)  
-    Click this button to display the search bar and search for a workflow version.
-
-    > [Info] The search function can be used to search for a workflow version ID. At least three characters must be entered.
-
-- ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh)  
-    Click this button to update the list of workflow versions.
-
-- ![Columns](../../Assets/Icons/Columns.png "[Columns]") Columns (x)  
-    Click this button to display the columns bar and customize the displayed columns and the order of columns in the list. The x indicates the number of columns that are currently displayed in the list.
-
-- ![Filter](../../Assets/Icons/Filter.png "[Filter]") Filter (x)  
-    Click this button to display the filter bar and customize the active filters. The x indicates the number of filters that are currently active.
 
 The list displays all workflow versions of the selected workflow. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
@@ -179,8 +90,20 @@ The list displays all workflow versions of the selected workflow. Depending on t
 - *ID*  
     Identification number of the workflow version. The ID number is automatically assigned by the system when the workflow version is created.
 
+- *Created*   
+    Date and time the version was created.
+
+- *Modified*   
+    Date and time the version was modified.
+
+
+The following functions are available for the editing toolbar:
+
 - [x]   
     Select the checkbox to display the editing toolbar.
+
+- [COMPARE]   
+    Click this button to open the window for comparing workflow versions. For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
 - [PUBLISH]   
     Click this button to publish a workflow version. This button is only displayed if the selected workflow version is unpublished.    
@@ -192,24 +115,30 @@ The list displays all workflow versions of the selected workflow. Depending on t
 
 ## Workflow editor
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-- ![Back](../../Assets/Icons/Back02.png "[Back]") (Back)  
-    Click this button to close the workflow editor and return to the list of workflows. All changes are rejected.
+>[Info] Scroll the mouse wheel to zoom in or out. Make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
 - ![Points](../../Assets/Icons/Points02.png "[Points]") (Points)  
     Click this button to the right of the workflow name to display the context menu. The following menu entries are available:
 
     - *Triggers*  
-        Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow-workflow-name).
+        Click this entry to add triggers and conditions. The *Edit trigger for workflow "Workflow name"* window is displayed, see [Edit trigger for workflow "Workflow name"](#edit-trigger-for-workflow).
+
+    - *Show changes*   
+        Click this entry to compare two versions of a workflow to see the differences (insertions/deletions). For detailed information, see [Compare the workflow versions](../Operation/03_CompareWorkflows.md).
 
     - *Import JSON*  
-        Click this entry to import data in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
+        Click this entry to import a workflow in JSON format. The *Import JSON* window is displayed, see [Import JSON](#import-json).
+        
 
     - *Export JSON*  
-        Click this entry to export data in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
+        Click this entry to export a workflow in JSON format. The *Export JSON* window is displayed, see [Export JSON](#export-json).
+
+    - *Update deployed version*   
+        In the test phase, click this entry to update the current workflow version without creating a new version. For detailed information, see [Update a deployed version](../Operation/05_UpdateDeployedVersion.md). 
 
     - *Deploy*  
         Click this entry to publish a new workflow version with the current state.
@@ -223,89 +152,136 @@ The list displays all workflow versions of the selected workflow. Depending on t
 - [NEW ACTION]  
     Click this button to add a transition. The *Search for an action* window is displayed, see [Search for an action](#search-for-an-action).
 
-The workflow diagram includes the following elements:  
+### Workflow diagram
 
-- Place    
-    Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions.   
-    If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
-    ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings side bar]")
+![Workflow diagram](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Workflow diagram]")
 
-    - *Key*  
+In the following, the workflow elements and their fields and functions are described. The workflow diagram includes the following elements:  
+
+**Place** 
+
+Intermediate stage in the workflow, represented by a circle, usually provided with incoming and/or outcoming arcs. It serves as link between two transitions. For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).   
+If you click a place in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
+
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar01.png "[Settings sidebar]")
+
+- *Key*  
+    Place key. This field is read-only. The key is required for API access and must be unique within the workflow version. 
+
+- *Data container*  
+    Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
+        
+**Start/end place**
+
+Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
+If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
+
+![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
+
+- *Key*  
         Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
 
-    - *Data container*  
-        Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
-        For detailed information, see [Places](../Overview/04_WorkflowProcessElements.md#places).
-
-- Start/end place   
-    Special types of places at the beginning and at the end of a workflow. Every workflow starts with a single place and ends with a single place.   
-    If you click the start/end place, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
-
-    ![Start and end place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/StartPlace.png "[Start and end place]")
-
-    - *Key*  
-        Place key. This field is read-only. The key is required for API access and must be unique within the workflow version.
-
-    - *Data container*  
+- *Data container*   
         Use this field to define the data type to be used in the place. If necessary, click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to display the whole list of available data types. Enter a search text for the desired data type. The list of transitions is filtered for your search text as you type. Select the radio button of the appropriate option.   
         For detailed information, see [Start and end place](../Overview/04_WorkflowProcessElements.md#start-and-end-place).
 
-- Transition  
-    Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
-    When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings side bar.
+**Transition**
+ 
+Building blocks that are chained together through places to configure a workflow, represented by a rectangle. All transitions contain a certain, predefined number of input and output ports, represented by a small square to the left and the right of the transition.   
+When clicking a transition in the workflow editor, it becomes highlighted and the corresponding element settings are displayed in the settings sidebar.
 
-    ![Settings side bar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings side bar]")
+![Settings sidebar](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SettingsSideBar02.png "[Settings sidebar]")
 
-    The transition settings side bar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
+The transition settings sidebar is located to the right of the workspace and allows to define the transition settings. The following fields are displayed:
 
-    - *Key*  
-        Transition key. This field is read-only. The key is required for API access and must be unique within the workflow version.
+- *Key*  
+    Transition key. This field is automatically created. It is required for API access and must be unique within the workflow version.
 
-    - *Label*  
-        Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings side bar and in the transition rectangle in the diagram.
+- *Label*  
+    Transition label defined by the user. It can be used to specify or simplify the transition name. When editing the transition label, it is changed both at the top of the settings sidebar and in the transition rectangle in the diagram.
 
-    - *Queue type*  
-        Click the drop-down list to select the applicable queue type.   
+- *Queue type*  
+    Click the drop-down list to select the applicable queue type. All available queue types are displayed in the list.  You can select a different queue type for each action.  
+    For detailed information, see [Queue types](05_QueueTypes.md).
 
-    - *Task event*  
-        Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights.
+- *Priority*   
+    The *Priority* field is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog. You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: The higher the number, the higher the priority. For example, priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
-        > [Info] The *ActindoWorkflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+- *Max tries*   
+    Number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* drop-down list is displayed. 
 
-    - *Configuration*  
-        Depending on the transition, there might be configuration options, for instance, defining an email where a receipt or document must be sent. Editing the transition configuration may require basic programming knowledge.
+- *Retry time strategy*
+    This field is only displayed when the *Max tries* field has a value greater than 1. Click the drop-down list and select a retry time strategy. The following values are available:
 
-        > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+    - **Constant**   
+        Define a constant value. For example, a constant value of **3** means to retry the action every 3 minutes depending on what you specified in the *Max tries* field.
 
-    - *Static inputs*  
-        All unlinked inputs are listed in this section. Static inputs can be used to configure static values for certain inputs. They can be defined by the user clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button. Only valid JSON values are accepted. When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. This section is only displayed, if the selected transition has at least one unlinked input port.   
+    - **CustomFunction**  
+        Use any suitable php function to define the retry time.
 
-    For detailed information, see [Transitions](../Overview/04_WorkflowProcessElements.md#transitions).
+    - **Custom**   
+        Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
 
-- Input/output port  
-    Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.   
+    - **Exponential**   
+        Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
+
+    - **Linear**   
+        Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
+
+    - **Quadratic**   
+        Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
+
+    After you have selected a retry time strategy, the *Strategy config value* field is displayed.
+
+- *Strategy config value*   
+    This field is only displayed when you have selected a retry time strategy. Enter the required value in minutes. 
+
+- *Task event*  
+    Click the drop-down list and select the applicable task event. All available task events are displayed. This option is linked to the *Tasks* module. The drop-down list is only displayed if the *Tasks* module is installed and the user has the necessary rights. For detailed information see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
+
+    > [Info] The *Actindo Workflow Process Execution Failed* task is preconfigured by default. A list of all existing task events is displayed in the *Events* menu entry of the *Tasks* module.
+
+- *Long description*   
+    If desired, edit a long text to document the transition.   
+        The *Edit long description* window is displayed. You can add a long text using a simple Markdown editor.
+
+- *Configuration*  
+    Depending on the transition, there might be configuration options, for instance, defining an email where a business document must be sent. Editing the transition configuration may require basic programming knowledge.
+
+    > [Info] Most transitions are preconfigured and do not include configuration options. In this case, the *Configuration* section is not displayed.
+
+- *Static inputs*  
+    You can define a static input by clicking the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button next to the desired input port. All unlinked inputs are listed in this section. You can use static inputs to configure static values for certain inputs. This section is only displayed, if the selected transition has at least one unlinked input port.     
+    Only valid JSON values are accepted, for example text ("text"), numbers ("42"), or JSON objects ({"dispatchNote": {"id": 42}}). When used, static inputs are displayed by a small arrow in front of the input ports in the workflow diagram. For detailed information, see [Insert a static input](../Operation/06_InsertStaticInput.md). 
+
+
+**Input/output port**
+
+Represented by a small square positioned to the left (input) and to the right (output) of the transition, they are defined with a descriptive name, such as origin, data or destination. They can be mandatory or optional. If optional, an ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed next to them.   
     For detailed information, see [Input and output ports](../Overview/04_WorkflowProcessElements.md#input-and-output-ports).
 
-- Arc  
-    The arcs are the links connecting a place with the input and output port(s) of an transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs* .   
-    For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
+**Arc**
+
+The arcs are the links connecting a place with the input and output port(s) of a transition to model the flow of information. The arcs are represented by arrows. Arcs connecting a place to an input port are called *incoming arcs*, arcs connecting an output port to a place are called *outcoming arcs*.   
+For detailed information, see [Arcs](../Overview/04_WorkflowProcessElements.md#arcs).
 
 
 
-## Edit trigger for workflow "Workflow name"  
+## Edit trigger for workflow  
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
+
+The *Edit trigger for workflow "Workflow name"* window allows you to determine a specific model, such as a product or a dispatch note, to initiate a process. For detailed information, see [Manage the triggers](../Operation/02_ManageTriggers.md).
 
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add trigger)  
     Click this button to add a trigger. A trigger input line is displayed.
 
     > [Info] The following fields are only displayed when a trigger has been added.
-
-**"Trigger name"**
 
 - ![Collapse](../../Assets/Icons/Up.png "[Collapse]") (Collapse)  
     Click this button to collapse the trigger box.
@@ -317,7 +293,7 @@ The workflow diagram includes the following elements:
     Enter a descriptive name for the new trigger. The entered name is displayed above the trigger input line.
 
 - *Model*  
-    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line.
+    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line. Ensure that the namespace of the model corresponds to the data container specified in the start place. 
 
 - *Event*  
     Click the drop-down list and select the appropriate event. The following options are available:    
@@ -342,6 +318,9 @@ The workflow diagram includes the following elements:
 
 - *Process priority*  
     Enter the priority for the process execution. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+
+- *Unique check*   
+    Click the drop-down list and select, if processes using this workflow configuration and the entity should only be executed onetime. 
 
     > [Info] As soon as all trigger fields are completed, the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button is displayed below the trigger input line.
 
@@ -373,11 +352,13 @@ The workflow diagram includes the following elements:
     - **Equals**  
         Select this option if the property value must equal the value specified in the *Value* field for the trigger to be executed. This option is preselected by default.
     - **Does not equal**  
-        Select this option if the property value must not equal the value specified in the *Value* field for the trigg er to be executed.
+        Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
     - **Is set**  
-        Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
+        Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field. A toggle is available instead of a value:   
+        - Enable the toggle to define that a property value must be set for the condition to be met.
+        - Disable the toggle to define that a property value must not be set for the condition to be met.
 
-[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist)
+<!--ICBPM-204 eingebaut-->
 
 - *Value*  
     Enter the applicable value.
@@ -391,17 +372,45 @@ The workflow diagram includes the following elements:
 - [APPLY CHANGES]  
     Click this button to save all changes made to the trigger(s).
 
+## Workflow &ndash; Compare workflow versions
+
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Show changes*   
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Click COMPARE button*
+
+  ![Workflow](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowComparison.png "[Workflow]")  
+
+**Comparison window**
+
+The comparison window displays two versions of a workflow configuration.
+
+The following fields and functions are available in this window:
+
+- *Workflow*   
+    Click this drop-down list to select the workflow you want to use for comparison.
+
+- ![Swap](../../Assets/Icons/Swap.png "[Swap]") [SWAP VERSIONS]   
+    Click this button to swap the versions displayed.
+
+- ![Format code](../../Assets/Icons/Code.png "[Format code]") [FORMAT CODE]   
+    Click this button to compare the lines of code and put them in the same order, so that order differences are no longer highlighted.
+
+- ![All properties](../../Assets/Icons/Toggle.png "[All properties]") (All properties)   
+    Enable this toggle to compare all changes. This includes properties which have no functional impact, such as the version number or the positioning of the nodes.
+
+- *Version*   
+    Click this drop-down list to select the workflow version that is to be displayed. The drop-down list contains all versions available for the workflow selected in the *Workflow* field.
+
 
 
 ## Import JSON
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Import JSON*
 
 ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
 
 The *Import JSON* window displays the workflow source code in JSON format. Configuration changes can be made in this view and applied with the [IMPORT JSON] button.
 
-    > [Info] To modify the source code, in-depth programming knowledge is needed.
+> [Info] To modify the source code, in-depth programming knowledge is needed.
 
 - [CLOSE]  
     Click this button to close the window and reject all changes.
@@ -413,7 +422,7 @@ The *Import JSON* window displays the workflow source code in JSON format. Confi
 
 ## Export JSON
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Points > Menu entry Export JSON*
 
 ![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
 
@@ -426,64 +435,20 @@ The *Export JSON* window displays all workflow source code in JSON format. This 
 
 ## Search for an action
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*
-*Workflows > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button NEW ACTION*  
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version > Button Add next to a place*
 
 ![Search for an action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search for an action]")
 
-The *Search for an action* window displays a list of possible transitions for the selected place.
+The *Search for an action* window displays a list of possible transitions for the selected place.   
 
-    > [Info] If clicking the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
+> [Info] If you click the [NEW ACTION] button, all existing transitions are displayed. If clicking the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only the compatible transitions for that place are displayed, as specified in the information message of the *Search for an action* window below the search bar.
 
 
 - *Search for an action* (search bar)  
-    Click this field to enter the name of the transition or a keyword to search for. Select an transition in the list of transitions to add the selected transition to the workflow.   
+    Click this field to enter the name of the transition or a keyword to search for. Select a transition in the list of transitions to add the selected transition to the workflow.   
 
     > [Info] The list of transitions is filtered for your keyword as you type.
 
 - ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete)  
     Click this button to clear the search bar field.
-
-
-
-## Create view
-
-*Workflows > Workflows > Tab OVERVIEW > Button Points > Menu entry create*
-
-![Create view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CreateView.png "[Create view]")
-
-- *Name*  
-    Enter a name for the view.
-
-- [CANCEL]  
-    Click this button to cancel creating a view. The *Create view* window is closed.
-
-- [SAVE]  
-    Click this button to save the new view. The *Create view* window is closed. The view is saved and displayed in the *View* drop-down list.
-
-This window can also be accessed from the following tabs in the user interface:
-- [OVERVIEW (Processes)](./03a_Processes.md#create-view)
-- [OVERVIEW (Process actions)](./04a_ProcessActions.md#create-view)
-- [OVERVIEW (Logs)](./06a_Logs.md#create-view)
-
-
-
-## Rename view
-
-*Workflows > Processes > Tab OVERVIEW > Button Points > Menu entry rename*
-
-![Rename view](../../Assets/Screenshots/ActindoWorkFlow/Workflows/RenameView.png "[Rename view]")
-
-- *Name*  
-    Click the field to edit the view name.
-
-- [CANCEL]  
-    Click this button to cancel renaming a view. The *Rename view* window is closed.
-
-- [SAVE]  
-    Click this button to save the changes to the view name. The *Rename view* window is closed. The new name for the view is saved and displayed in the *View* drop-down list.
-
-This window can also be accessed from the following tabs in the user interface:
-- [OVERVIEW (Processes)](./03a_Processes.md#rename-view)
-- [OVERVIEW (Process actions)](./04a_ProcessActions.md#rename-view)
-- [OVERVIEW (Logs)](./06a_Logs.md#rename-view)

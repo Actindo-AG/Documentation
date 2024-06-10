@@ -2,8 +2,8 @@
 
 # Manage the triggers
 
-When designing a workflow to map a business process, the *Triggers* function allows the user to determine a specific model, such as a product or a dispatch note, to initiate a process. Any model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, multiple conditions can be configured for a trigger to recreate all possible variants of a workflow.   
-You can create one or several triggers for a workflow, define conditions, edit the triggers or delete them.
+When designing a workflow to map a business process, the *Triggers* function allows you to determine a specific data model, such as a product or a dispatch note, to initiate a process. Any data model, together with the occurrence of a related event, can trigger a process, for instance a product being created or a product attribute being changed. Besides, you can configure multiple conditions for a trigger to recreate all possible variants of a workflow.   
+You can create one or several triggers for a workflow, define conditions, edit the triggers, or delete them.
 
 
 ## Create a trigger
@@ -12,12 +12,12 @@ Create a trigger to determine a business object to initiate a process and the re
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+You have the required rights to edit a workflow.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*   
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*   
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorWorkflows.png "[Workflow editor]")
 
@@ -39,18 +39,16 @@ No prerequisites to fulfill.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired model in the *Model* field, for example a PIM product.   
+5. Enter the applicable namespace of the desired entity in the *Model* field, for example, the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. Make sure that the model defined in the trigger is used as the data container for the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
     The entered namespace is displayed to the right of the trigger name above the trigger input line.
 
-    > [Info] The data models can be taken from the relevant API documentation.
-
-[comment]: <> (Update as soon as menu entry for models exists in Dev Tools)  
+    > [Info] You can take the namespace from the related data models under *Dev Tools > API > Tab DATA MODELS*.
 
 6. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
     - **After creation**   
-        Select this option for the trigger to be executed after the model has been created. This option is preselected by default.
+        Select this option for the trigger to be executed after the entity represented by the model has been created. This option is preselected by default.
     - **After saving**   
-        Select this option for the trigger to be executed after the model has been saved.
+        Select this option for the trigger to be executed after the entity represented by the model has been saved.
 
 7. Click the *Condition fulfillment* drop-down list and select the appropriate option. The following options are available:
     - **If all are met**  
@@ -65,10 +63,16 @@ No prerequisites to fulfill.
         Select this option to deactivate the trigger temporarily.  
 
 9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+<!---NEU bitte prüfen,-->
+10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. This might be an issue in asynchronous processing.  To do this, click the *Unique check* drop-down list. You have the following options:
+    - **Yes**   
+        There are no other processes for this entity and this workflow.
+    - **No**   
+        There may be other processes for this entity and this workflow.
 
     > [Info] As soon as all fields are completed, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to add a condition is displayed.  
-
-    ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddcondition.png "[Add condition]")
+    
+    ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
 10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
 
@@ -89,8 +93,8 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
@@ -107,7 +111,11 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 3. Enter the applicable property in the *Property* field.  
 
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.
+    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*.<!--- Man muss doch den Wert nicht mit geschweiften Klammern eingeben? Wäre _pim_tax_zone.id richtig?--> The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.  
+
+    See the following example:
+
+    ![Condition example](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerConditionExample.png)
 
 4. Click the *Operator* drop-down list and select the appropriate option. The following options are available:  
     - **Equals**   
@@ -115,15 +123,17 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
     - **Does not equal**   
         Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
     - **Is set**  
-        Select this option if any property value must be set for the trigger to be executed. No value must be entered in the *Value* field.
+        Select this option if any property value must be set for the trigger to be executed. A toggle is available to define the condition:   
+        - Enable the toggle to define that a property value must be set for the condition to be met.
+        - Disable the toggle to define that a property value must not be set for the condition to be met.
 
-[comment]: <> (Option is set anpassen, nachdem ICBPM-204 fertig ist)
+<!--ICBPM-204 eingebaut-->
 
-5. If necessary, enter the corresponding value in the *Value* field.
+5. If necessary, enter the corresponding value in the *Value* field or enable/disable the toggle.
 
-    > [Info] Repeat the steps **1** to **5** to add a further condition to the trigger. You can add an unlimited number of conditions.
+6. If desired, repeat the steps **1** to **5** to add further conditions to the trigger. You can add an unlimited number.
 
-6. Click the [APPLY CHANGES] button.  
+7. Click the [APPLY CHANGES] button.  
     The condition has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
@@ -138,8 +148,8 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*   
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*   
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerTrigger.png "[Trigger]")
 
@@ -165,14 +175,16 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*    
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 
 1. Click and hold the ![Drag](../../Assets/Icons/Points03.png "[Drag]") (Drag) button to the left of the trigger you want to move to another position in the list.   
 
 2. By using drag and drop, move the selected trigger to the desired position in the list.
+
+    ![Change order of trigger](../../Assets/Screenshots/ActindoWorkFlow/Workflows/OrderChangeTrigger.png "[Change order of trigger]")
 
 3. If necessary, repeat the steps **1** and **2** for all triggers that need to be repositioned.
 
@@ -185,7 +197,7 @@ At least two triggers have been created in the workflow version, see [Create a t
 
 You can delete a trigger that is no longer relevant.
 
-> [Caution] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing status to *Inactive* in the *Status* drop-down list.
+> [Caution] Be aware that any deletion is permanent and cannot be undone. You can deactivate the trigger temporarily by changing the status to *Inactive* in the *Status* drop-down list.
 
 #### Prerequisites
 
@@ -193,8 +205,8 @@ At least one trigger has been created, see [Create a trigger](#create-a-trigger)
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*     
-*Workflows > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE > Button Points > Menu entry Triggers*     
+*Process Orchestration > Workflows > Tab OVERVIEW > Select a workflow > Select a workflow version > Button Points > Menu entry Triggers*
 
 ![Triggers](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerMultipleTriggers.png "[Triggers]")
 

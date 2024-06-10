@@ -1,6 +1,6 @@
 [!!User interface Processes](../UserInterface/03a_Processes.md)
 [!!User interface Process actions](../UserInterface/04a_ProcessActions.md)
-[!!Track a workflow process](../Operation/02_TrackWorkflowProcess)
+[!!Track a workflow process](../Operation/09_TrackWorkflowProcess)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
 
 # Retry process action
@@ -24,7 +24,7 @@ The cause of the faulty process action has been fixed.
 
 #### Procedure
 
-*Workflows > Processes > Tab OVERVIEW*
+*Process Orchestration > Processes > Tab OVERVIEW*
 
 ![Faulty process](../../Assets/Screenshots/ActindoWorkFlow/Processes/FaultyProcess.png "[Faulty process]")
 
@@ -44,9 +44,7 @@ The cause of the faulty process action has been fixed.
     ![Error action selected](../../Assets/Screenshots/ActindoWorkFlow/Processes/ErrorActionSelected.png "[Error action selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-    The process action has been restarted. The status of the restarted process action changes to **In Progress**. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
-
-    ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
+    The process action has been restarted. The status of the restarted process action changes to **In Progress**. A confirmation message is displayed.
 
 
 
@@ -68,7 +66,7 @@ The cause of the faulty process actions has been fixed.
 
 *Workflows > Process actions > Tab OVERVIEW*
 
-[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process actions > Tab OVERVIEW*)
+[comment]: <> (Vor nächster Version prüfen; bald neuer Pfad: *Workflows > Process actions > Tab OVERVIEW* > pfad is ok 21.02.2024)
 
 ![Process actions](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ProcessActions.png "[Process actions]")
 
@@ -83,9 +81,7 @@ The cause of the faulty process actions has been fixed.
     ![Error actions selected](../../Assets/Screenshots/ActindoWorkFlow/ProcessActions/ErrorActionsSelected.png "[Error actions selected]")
 
 4. Click the ![Retry](../../Assets/Icons/Retry01.png "[Retry]") (Retry) button in the editing toolbar.     
-    All selected process actions have been restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. The *Status change successful* pop-up window indicating the number of restarted process actions is displayed.
-
-    ![Status change successful](../../Assets/Screenshots/ActindoWorkFlow/Processes/StatusChangeSuccessful.png "[Status change successful]")
+    All selected process actions have been restarted. The status of the restarted process actions changes to **In Progress**. The actions are removed from the *Error* status list. A confirmation message is displayed.
 
 
 

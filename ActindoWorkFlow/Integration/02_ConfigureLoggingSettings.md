@@ -2,7 +2,7 @@
 
 # Configure the logging settings
 
-Define in the logging settings how long the different log types are stored. By default, all logs are automatically deleted after one day. You can edit the log lifetime and define a custom lifetime.
+Define in the logging settings how long the different log types are stored. For a detailed description of the different log types, see [Logging settings](../UserInterface/07a_Settings.md).
 
 #### Prerequisites
 
@@ -10,19 +10,21 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Workflows > Settings > Tab SETTINGS*
+*Process Orchestration > Settings > Tab SETTINGS*
 
 ![Settings](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Settings]")
 
-1. Select the log lifetime type you want to edit in the *LOG LIFETIMES* section of the left *Settings* side menu. The following log types are available:
-    - **Emergency-log lifetime**
-    - **Alert-log lifetime**
-    - **Critical-log lifetime**
-    - **Error-log lifetime**
-    - **Warning-log lifetime**
-    - **Notice-log lifetime**
-    - **Info-log lifetime**
-    - **Debug-log lifetime**
+1. Select the log lifetime type you want to edit in the left *Settings* side menu. The following log types are available:
+    - **Lifetime execution log in days**
+    - **LOG LIFETIMES**
+        - **Emergency-log lifetime**
+        - **Alert-log lifetime**
+        - **Critical-log lifetime**
+        - **Error-log lifetime**
+        - **Warning-log lifetime**
+        - **Notice-log lifetime**
+        - **Info-log lifetime**
+        - **Debug-log lifetime**
 
     The lifetime view of the selected log type is displayed on the right side.
 
@@ -38,6 +40,4 @@ No prerequisites to fulfill.
     ![New log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/NewLogLifetime.png "[New log lifetime]")
 
 4. Click the [SAVE] button in the upper right corner.   
-    The changes have been saved. The *Saving successful* pop-up window is displayed.
-
-    ![Saving successful](../../Assets/Screenshots/ActindoWorkFlow/Settings/SavingSuccessful.png "[Saving successful]")
+    The changes have been saved. A confirmation message is displayed.

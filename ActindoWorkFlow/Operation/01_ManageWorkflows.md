@@ -1,17 +1,23 @@
-[!!Tasks](../../Tasks/Overview/01_General.md)
 [!!User interface Workflows](../UserInterface/02a_Workflows.md)
 [!!Workflow and process elements](../Overview/04_WorkflowProcessElements.md)
-[!!Track a workflow process](./02_TrackWorkflowProcess.md)
+[!!Track a workflow process](./09_TrackWorkflowProcess.md)
+[!!Tasks](../../Tasks/Overview/01_General.md)
 
 # Manage the workflows
 
-The *Workflows* module allows the customers to define their own business processes, such as orders, shipments, returns, etc.
-The workflows can be created individually in the workflow editor, they can be edited subsequently and by publishing and unpublishing a workflow, the usage can be controlled.
+The *Process Orchestration* module allows you to define customer-specific business processes, such as orders, shipments, returns, etc.
+The workflows can be created individually in the workflow editor, they can be edited subsequently, and the usage can be controlled by publishing and unpublishing a workflow.
+
+See also the following procedures, which describe further options for editing the workflow:
+- [Compare the workflow versions](./03_CompareWorkflows.md)
+- [Copy a workflow](./04_CopyWorkflow.md)
+- [Update a deployed version](05_UpdateDeployedVersion.md)
+- [Insert a static input](06_InsertStaticInput.md)
 
 
 ## Create a workflow
 
-Create a workflow to define a new process.
+Create a workflow in order to map a new business process.
 
 ### Define the workflow basic settings
 
@@ -19,11 +25,11 @@ In a first step to create a workflow, you have to define the basic settings of t
 
 #### Prerequisites
 
-No prerequisites to fulfill.
+You have the required rights to edit a workflow.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
@@ -38,19 +44,19 @@ No prerequisites to fulfill.
 
 4. Click the *Choose the data type of your start place* field and enter the name of the place or a keyword you are searching for.
 
-    > [Info] The list of places is filtered for your keyword as you type.
+    > [Info] The list of places is filtered for your keyword as you type. To decide on the data type, see the data models at *Dev Tools > API > Tab DATA MODEL* and find the data model that matches your needs. For example, if you want to process business document types, check the data models in the *RETAILSUITEFAKTBASE* (Order Management) section or search for **BusinessDocument**.
 
-5. Click the start place you want to add in the list of places.    
+5. Select the start place you want to add in the list of places.    
 
 6. Click the *Choose the data type of your end place* field and enter the name of the place or a keyword you are searching for.
 
     > [Info] The list of places is filtered for your keyword as you type.
 
-7. Click the end place you want to add in the list of places.  
+7. Select the end place you want to add in the list of places.  
 
 8. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
-
+ 
     ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
 
@@ -65,7 +71,7 @@ The basic settings of the workflow have been defined and the workflow editor is 
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
 
 ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
 
@@ -76,9 +82,9 @@ The basic settings of the workflow have been defined and the workflow editor is 
 
 2. Click the *Search for an action* field and enter the name of the transition or a keyword you are searching for. If you have clicked the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to a place, only those transitions that are compatible with the data type of the place are displayed in the list.
 
-    > [Info] The list of transitions is filtered for your keyword as you type.
+    > [Info] The list of transitions is filtered for your keyword as you type. For each API endpoint of the installed modules a transition is available. For detailed information, see the API list under *Dev Tools > API > Tab API*.
 
-3. Click the transition you want to add in the list of transitions.
+3. Click the transition you want to add in the list of transitions.   
     The transition has been added to the workflow. If the transition has been added from a place which requires a certain input data type, the arc from the place will be automatically connected to the corresponding input port of the transition.
 
     ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
@@ -88,7 +94,7 @@ The basic settings of the workflow have been defined and the workflow editor is 
 
 ### Connect the transition
 
-Connect the transition to the a place to create a valid workflow.
+Connect the transition to the place to create a valid workflow.
 
 #### Prerequisites
 
@@ -97,12 +103,14 @@ Connect the transition to the a place to create a valid workflow.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
+*Process Orchestration > Workflows > Tab OVERVIEW > Button Add > Button CREATE*
 
 ![First action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstAction.png "[First action]")
 
 1. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button next to an output port of the transition.    
     A new place connected with an arc to the selected output port is displayed.
+
+    >[Info] To zoom in or out, scroll the mouse wheel. By doing it, make sure that the mouse pointer is placed on a workflow element. If necessary, change your scroll wheel settings to adjust the zoom levels.
 
     ![First place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/FirstPlace.png "[First place]")
 
@@ -115,13 +123,14 @@ Connect the transition to the a place to create a valid workflow.
 
 
 
-## Edit a workflow
+## Edit a workflow version
 
-Edit a workflow to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
+Edit a workflow version to modify elements within the workflow, to extend the workflow by adding further transitions or to reduce the workflow by removing transitions.
 
-### Select a workflow
 
-Select an existing workflow to edit it.
+### Select a workflow version
+
+Select an existing workflow version to edit it.
 
 #### Prerequisites
 
@@ -130,7 +139,7 @@ Select an existing workflow to edit it.
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW*
 
 ![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
 
@@ -144,11 +153,12 @@ Select an existing workflow to edit it.
 
     ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
+[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time -  version view still visible 21.02.2024)
 
 3. Make the desired changes in the workflow. The following procedures are described in detail below:
     - [Edit the place data type](#edit-the-place-data-type)
     - [Change the place ports](#change-the-place-ports)
+    - [Delete a place](#delete-a-place)
     - [Add a transition](#add-a-transition)
     - [Edit a transition](#edit-a-transition)
 
@@ -161,21 +171,22 @@ Edit the place settings to change or define the place data type.
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
+- A workflow version has been selected, see [Select a workflow version](#edit-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-[comment]: <> (New screenshot with transition in it)
+[comment]: <> (New screenshot with transition in it >??)
 
 1. Click the place you want to edit.    
-    The place is highlighted and its settings are displayed in the settings side bar on the right.
+    The place is highlighted and its settings are displayed in the settings sidebar on the right.
 
     ![Place](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Place.png "[Place]")
 
-2. Click the *Data container* field in the settings side bar and select the appropriate data type in the list of data types.
+2. Click the *Data container* field in the settings sidebar and select the appropriate data type in the list of data types.
 
     > [Info] Only values of those data types that match with the connected output and input port of the selected place are displayed in the list.     
 
@@ -188,11 +199,11 @@ You can change the ports of the place by deleting an existing arc and creating a
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -223,11 +234,11 @@ Delete a place that is no longer needed, for instance if a transition is removed
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -241,22 +252,22 @@ Delete a place that is no longer needed, for instance if a transition is removed
 3. Press the **Delete** key to remove the selected place.    
     The selected place and its arcs have been deleted.
 
-    > [Info] If a one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
+    > [Info] If one of the arcs has been connected to a mandatory input or output port, a new place connected to this port will be automatically displayed.
 
 
 ### Add a transition
 
-Add one or several transition to the workflow to define or expand the desired business process.
+Add one or several transitions to the workflow to define or expand the desired business process.
 
 #### Prerequisites
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow > Select version*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -292,148 +303,127 @@ Edit a transition to define its settings.
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
-- A workflow has been selected, see [Select a workflow](#create-a-workflow).
+- A workflow version has been selected, see [Select a workflow](#select-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
 1. Click the transition you want to edit.  
-    The transition is highlighted and its settings are displayed in the settings side bar on the right.
+    The transition is highlighted and its settings are displayed in the settings sidebar on the right.
 
     ![Action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Action.png "[Action]")
 
-    > [Info] The settings displayed in the settings side bar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
+    > [Info] The settings displayed in the settings sidebar may differ depending on the respective transition. The sections *Configuration* and *Static Inputs* are only available for certain transitions.     
 
-2. Edit the settings field in the settings side bar. You can change the label, the queue type, the task event, the configuration and the static inputs as described below:
+2. Edit the settings fields in the settings sidebar. You can change the label, the queue type, the task event, the configuration, and the static inputs as described below:
 
     + Click the *Label* field and edit the name of the transition displayed in the workflow editor.
 
-    + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
+    + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default, the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
-    + Click the *Task event* drop-down list and select an event connected to the transition. The event is triggered and the corresponding task is assigned when the process action has failed. All available task events are displayed in the drop-down list. By default, the *ActindoWorkflow process execution failed* event is preselected. The drop-down list is only displayed when the *Task* module is installed and the current user has the required rights to configure it.
+    + If desired, enter the priority in the *Priority* field. It is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog.     
+    You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: The greater the number, the higher the priority. Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
 
-    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition. This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition.
+    + If desired, in the *Max tries* field, enter the number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* a drop-down list is displayed. When you select a retry time strategy, the *Strategy config value* drop-down list is displayed. Depending on the retry time strategy you select, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
+        
+        - **Constant**   
+            Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
 
-    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. All input ports that are not yet connected to a place are displayed in this section. Enter the appropriate value in the text field below the input name. The value entered must be a valid JSON value. Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions.
+        - **CustomFunction**  
+            Use any suitable php function to define the retry time.
 
-        > [Info] Input ports with a static input value cannot be connected to a place. Therefore, a small arrow without a place is displayed in front of an input port with a static input value. Delete the static input value from the port to be able to connect it with a place.     
+        - **Custom**   
+            Enter the number of minutes, separated by commas, to define the time after which the action should be retried. For example, 2,7,9 means to retry after 2, 7, and 9 minutes, if you have entered **3** in the *Max tries* field.
 
-[comment]: <> (Check the design of static input before next version is released; design possibly changes)
-[comment]: <> (Add a link to the Tasks module/task events when documented)
+        - **Exponential**   
+            Enter an exponential function to define the amount of time the process should wait for the next execution of the retry. For example, 2^Y.
 
+        - **Linear**   
+            Enter a linear sequence for the process to wait for the next retry execution. For example, 1,2,3 means to retry after 1, 2, and 3 minutes, if you have entered **3** in the *Max tries* field.
 
+        - **Quadratic**   
+            Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
 
-## Copy a workflow  
+    + Click the *Long description* field if you want to document the process step you added.   
+    The *Edit long description* window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 
 
-Copy a workflow by exporting and importing the JSON code to create a new workflow based on an existing workflow.
+        ![Edit long description](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditLongDescription.png "[Edit long description]")
 
+        Click the [APPLY CHANGES] button to add your documentation.
 
-### Export the workflow JSON code
+    + If desired, click the *Task event* drop-down list and select an event connected to the transition. All available task events are displayed in the drop-down list.
+ 
+        >[Info] This setting causes a task to be created when the selected event occurs. If you do not select any task event for a specific action, the "ActindoWorkflow process execution failed" applies. For detailed information, see [Manage the events](../../Tasks/Operation/01_ManageEvents.md) in the *Tasks* documentation.
 
-Export the JSON code of an existing workflow that you want to copy.
+    + Edit the field(s) in the *Configuration* section to define further configuration settings to the selected transition.     
+    This section is only displayed for certain transitions. The fields displayed in the *Configuration* section depend on the selected transition. 
+
+    + Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button right to an input name in the *Static inputs* section to add a static data value to the corresponding input. For detailed information on static inputs, see [Insert a static input](06_InsertStaticInput.md).
+    + Click the ![Delete](../../Assets/Icons/Trash07.png "[Delete]") (Delete) button right to a value to delete it. This section is only displayed for certain transitions. 
+
+## Deploy a workflow version
+
+When you have finished editing the workflow, you can deploy the workflow. Your changes are automatically saved then, and a new workflow version is created and published.
+
+> [Info] Note that in exceptional cases during the test phase, you may want to update a specific workflow version during the testing phase, see [Update a deployed version](05_UpdateDeployedVersion.md).
+
 
 #### Prerequisites
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
 - You have the required rights to edit a workflow.
+- You have edited a workflow, [Edit a workflow version](#edit-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
-1. Click the workflow you want to copy in the list of workflows.   
-    The *Workflow versions* view with all versions of the selected workflow is displayed.
-
-    ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
-
-2. Click the workflow version you want to copy in the list of workflow versions.  
-    The workflow editor is displayed in the workspace.
-
-    ![Workflow editor](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
-
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
-
-3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
+1. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
     The workflow context menu is displayed.
 
     ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
-4. Click the *Export JSON ..* menu entry in the context menu.   
-    The *Export JSON* window with the JSON code for the current workflow is displayed.
-
-    ![Export JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ExportJSON.png "[Export JSON]")
-
-5. Select the complete JSON code in the window, copy it to the clipboard and click the [CLOSE] button in the bottom right corner.   
-    The *Export JSON* window is closed.
-
-6. Click the ![Back](../../Assets/Icons/Back02.png "[Back]") (Back) button in the workflow editor.  
-    The workflow editor is closed and the list of workflows is displayed again.
+2. Click the *Deploy* menu entry in the context menu.   
+    The changes to the workflow version are stored in a new version. The new version is automatically published.
 
 
-### Import the workflow JSON code
 
-Import the exported JSON code to an existing or new workflow to copy it.
+## Unpublish a workflow version
+
+A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published.   
+
+Unpublish a workflow version if the workflow is still under construction or being used for testing purposes and may not yet be used for processes.
 
 #### Prerequisites
 
 - At least one workflow has been created, see [Create a workflow](#create-a-workflow).
-- You have the required rights to edit a workflow.
-- The JSON code of the workflow to copy has been exported to the clipboard, see [Export the workflow JSON code](#export-the-workflow-JSON-code).
+- At least one workflow version is published, see [Publish a workflow version](#publish-a-workflow-version).
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
-![Workflows](../../Assets/Screenshots/ActindoWorkFlow/Workflows/Workflows.png "[Workflows]")
+  ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
 
-1. [Create a new workflow](#create-a-workflow) or click the workflow in the list of workflows to which you want to import the copied JSON code.   
-  The *Workflow versions* view with all versions of the selected workflow is displayed.
+1. Select the checkbox of the workflow version you want to unpublish.      
+  The editing toolbar is displayed.
 
-  ![Workflow versions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersions.png "[Workflow versions]")
+2. Click the [UNPUBLISH] button in the editing toolbar.   
+  The selected workflow version has been unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
 
-2. Click the workflow version you want to edit in the list of workflow versions.  
-  The workflow editor is displayed in the workspace.
-
-  ![Workflow editor new](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorNew.png "[Workflow editor new]")
-
-[comment]: <> (Step 2 as well as the screenshot workflow versions is possibly not needed in the next workflows version as the version view will disappear and clicking the workflow will take you to the editor directly, check next time)
-
-3. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
-
-  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
-
-4. Click the *Import JSON ..* menu entry in the context menu.   
-  The *Import JSON* window with the JSON code for the current workflow is displayed.
-
-  ![Import JSON](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ImportJSON.png "[Import JSON]")
-
-5. Select the complete JSON code in the window, replace it by the JSON code in your clipboard and click the [IMPORT JSON] button in the bottom right corner.
-  The *Import JSON* window is closed. The copied workflow is displayed in the workflow editor.
-
-  ![Workflow editor copied](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditorCopied.png "[Workflow editor copied]")
-
-  > [Info] You can edit the workflow as desired before deploying it.
-
-6. Click the ![Points](../../Assets/Icons/Points02.png "[Points]") (Points) button in the upper left corner next to the workflow name.   
-  The workflow context menu is displayed.
-
-  ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
-
-7. Click the *Deploy* menu entry in the context menu.   
-  The copied workflow has been deployed and published.
+  ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 
 
 
 ## Publish a workflow version
 
-A workflow can only be used for processes if it is published. If multiple versions of a workflow exist, the highest published version is taken for upcoming workflow processes. Therefore you have to publish a workflow to use it for workflow processes. By default, a workflow is automatically published when it is created or when a new workflow version is deployed. You can manually publish or [unpublish](#unpublish-a-workflow-version) workflow versions.
+Publish a workflow version when you have unpublished it before, for example, if a new workflow version is completed and ready for use.
 
 #### Prerequisites
 
@@ -442,7 +432,7 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 #### Procedure
 
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select workflow*
 
 ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")
 
@@ -456,25 +446,3 @@ A workflow can only be used for processes if it is published. If multiple versio
 
 
 
-## Unpublish a workflow version
-
-A workflow can only be used for processes if it is published. By default, a created workflow or a deployed workflow version is automatically published. You can manually [publish](#publish-a-workflow-version) or unpublish workflow versions. Unpublish a workflow version if the workflow is still in work or used for testing purposes and the workflow should not yet be used for processes.
-
-#### Prerequisites
-
-- At least one workflow has been created, see [Create a workflow](#create-a-workflow).
-- At least one workflow version has been published, see [Publish a workflow version](#publish-a-workflow-version).
-
-#### Procedure
-
-*Workflows > Workflows > Tab OVERVIEW > Select workflow*
-
-  ![Workflow versions published](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsPublished.png "[Workflow versions published]")
-
-1. Select the checkbox of the workflow version you want to unpublish.      
-  The editing toolbar is displayed.
-
-2. Click the [UNPUBLISH] button in the editing toolbar.   
-  The selected workflow version has been unpublished. The icon in the *Published* column changes from ![Checkmark](../../Assets/Icons/Check.png "[Checkmark]") (Checkmark) to ![Cross](../../Assets/Icons/Cross02.png "[Cross]") (Cross).
-
-  ![Workflow versions unpublished](../../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowVersionsUnpublished.png "[Workflow versions unpublished]")

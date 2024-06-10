@@ -4,15 +4,18 @@
 
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 
-To create a workflow, you must include one or several workflow actions.   
-In the *Workflows* module, a certain number of workflow actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
-Other workflow actions are available depending on the plugins installed in the current system.   
+To create a workflow, you must include one or several process actions.   
+In the *Process Orchestration* module, a certain number of process actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
+Other process actions are available depending on the plugins installed in the current system.   
 
 In the following, the core actions, their use and their settings are described in detail:
 
 - [Change process priority](#change-process-priority)
 - [Multiply input action](#multiply-input-action)
 - [Execute PHP code](#execute-php-code)
+- [Extract value](#extract-value)
+- [Manipulate process priority](#manipulate-process-priority)
+- [Manual action](#manual-action)
 - [Split by criterion](#split-by-criterion)
 - [Start subprocess](#start-subprocess)
 - [Switch case action](#switch-case-action)
@@ -26,29 +29,83 @@ In the following, the core actions, their use and their settings are described i
 
 ![Change process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ChangeProcessPriority.png "[Change process priority]")
 
-The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running.   
-The data runs via the *loop_through* input port into the workflow action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *priority* input port. The input value of the *priority* input port must be an integer. This integer will be used as the new priority.
-
-[comment]: <> (ticket ICBPM-199 in arbeit: static inputs sollen im priority input port möglich sein, ändern sobald möglich)
+The *Change process priority* core action is used to change the preconfigured priority of the process while the process is already running. The new process priority is multiplied with the original process priority. For example, the original process priority is 5, and you enter a 6 as new priority in the transition. After that, the process is running with priority 30.   
+The data runs via the *loop_through* input port into the process action and is output via the *p* output port without any changes. The data is only output when data has also been incoming via the *priority* input port.  
+In contrast to the [Manipulate process priority](#manipulate-process-priority) core action, here you define the new priority by an input port. This means that the priority is set dynamically and can be determined within the process, for example, when a certain event occurs or certain data is determined within the process.
 
 ### Configuration   
 
-This core action has no further configuration settings.
+**Static inputs**
 
+The *Change process priority* core action has two input ports:
 
+- loop through: The data run through the transition without any changes.
+- priority: Enter the priority. The input value of the *priority* input port must be an integer. This integer will be used as the new priority. 
 
 ## Multiply input action
 
 ![Multiply input action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/MultiplyInputAction.png "[Multiply input action]")
 
-The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input) .   
-The data runs via the *p* input port into the workflow action and is output via both the *p0* and the *p1* output ports.
+The *Multiply input action* core action is used to output the data coming in via one input port to two output ports. This core action is often used when the same data is needed for two different purposes. To merge the duplicated data again, the *Wait for parallel input* core action can be used, see [Wait for parallel input](#wait-for-parallel-input).   
+The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.
 
-[comment]: <> (ticket ICBPM-200 in arbeit: mehr als zwei output port sollen hinzukommen)
-
-### Configuration   
+### Configuration 
 
 This core action has no further configuration settings.
+
+
+## Extract value
+
+![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
+
+The *Extract value* core action is used to extract a specific value and to use it as input for further processing. For example, you extract a specific value from a business document position such as the *pimProduct* field of the **Actindo.Modules.RetailSuite.RetailSuiteFaktBase.Models.BusinessDocumentPosition** data model, or you extract a certain position of a business document. 
+
+You define the value to be extracted in the *Path to value* field in the configuration section. 
+
+### Configuration
+
+*Path to value*   
+Search for the parameter name of the objects' data model that is available in the input port of the transition, copy the required parameter name, and enter it in the *Path to value* field, for example **pimProduct.pim.variants**.
+
+
+
+## Manipulate process priority
+
+![Manipulate process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManipulateProcessPriority.png "[Manipulate process priority]")
+
+The *Manipulate process priority* core action is used to change the preconfigured priority of the process while the process is already running. In contrast to the [Change process priority](#change-process-priority) core action, here you define the new priority by a user input. This means that the priority is set statically and not dynamically as with the *Change process priority* transition.
+
+> [Info] The process priority can be defined in the workflow configuration by a trigger, see [Create a trigger](../Operation/02_ManageTriggers.md#create-a-trigger).
+
+**Configuration**
+
+*User input priority*   
+Enter the absolute priority number or add the relative number to the existing process priority, for example, +2 (increase the existing priority, that is the process gets a higher priority) or -3 (decrease the existing priority, that is the process gets a lower priority).
+
+
+
+## Manual action
+
+![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
+
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision). If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
+For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document total amount for which a manual action is required.   
+
+
+### Configuration
+
+- *Time out*   
+    Define a time period within which the user decision must be made. If this time period is exceeded, you can use the output port **timeout** to define a default/fallback action.   
+     Use PHP code to define the time period. For detailed information, see the [strtotime.php function](https://www.php.net/manual/en/function.strtotime.php "https://www.php.net/manual/en/function.strtotime.php ") on the PHP foundation website.
+      
+- *Output ports 0-8*   
+    Define up to 9 decision paths to control the decision-making process. For each decition path, a different workflow path may than be taken. For example, for a simple approval process you will need two output ports: **Accept** and **Reject**.
+
+**Static inputs**   
+   
+The *Manual action* core action has two input ports:
+- data_input: Entity that can be used to make a decision, such as a business document. 
+- event-id: ID of the task event that can be used to make a decision.   
 
 
 
@@ -58,8 +115,8 @@ This core action has no further configuration settings.
 
 The *Execute PHP code* core action is used to execute a custom PHP code defined in the configuration.
 As the complete functionality of the PHP code is accessible, this core action enables complete variability in programming. Therefore, it is often used when more complex actions which require more logic need be executed within a workflow step.   
-Depending on which ports are connected to the places and which ports are defined in the PHP code, the data runs via the *in0* to *in9* input ports into the workflow action and is output via the *out0* to *out9* output ports.   
-It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings side bar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
+Depending on which ports are connected to the places and which ports are defined in the PHP code, the data runs via the *in0* to *in9* input ports into the process action and is output via the *out0* to *out9* output ports.   
+It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings sidebar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
 
 > [Info] It is recommended to give the action a name that describes what the PHP code does.
 
@@ -77,7 +134,7 @@ It is also possible to include a static input via the unconnected input ports. T
 ![Split by criterion](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SplitByCriterion.png "[Split by criterion]")
 
 The core action *Split by criterion* is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not.
-The data runs via the *in* input port into the workflow action and is output either via the *match* output port if the input value matches the criterion to be compared with, or via the *noMatch* output port if the input value does not match the criterion to be compared with.   
+The data runs via the *in* input port into the process action and is output either via the *match* output port if the input value matches the criterion to be compared with, or via the *noMatch* output port if the input value does not match the criterion to be compared with.   
 The criterion to be compared with is defined in the configuration.
 
 > [Info] It is recommended to give the action a name that describes with which criterion the input value is compared.
@@ -95,6 +152,14 @@ The criterion to be compared with is defined in the configuration.
         It is a match if the input value equals the defined value.
     - **!=**    
         It is a match if the input value does not equal the defined value.
+    - **<=**   
+        It is a match if the input value is less than / equal to the defined value.
+    - **<**   
+        It is a match if the input value is less the defined value.
+    - **>=**   
+        It is a match if the input value is greater than / equal to the defined value.
+    - **>**   
+        It is a match if the input value is greater the defined value.
     - **in**    
         It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
     - **notIn**   
@@ -106,22 +171,20 @@ The criterion to be compared with is defined in the configuration.
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
-
 
 
 ## Start subprocess
 
 ![Start subprocess](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/StartSubprocess.png "[Start subprocess]")
 
-The *Start subprocess* core action is used to start a different subprocess within the currently running process.       
-The data runs via the *p* input port into the workflow action and is output via the *p* output port. However, the action does not wait until the subprocess has been finished, but outputs the data after having started the subprocess. The input data is also the data put in the start place of the subprocess.   
-The subprocess to be started is defined in the configuration.
+The *Start subprocess* core action is used to start a different sub process within the currently running process.       
+The data runs via the *p* input port into the process action and is output via the *p* output port. However, the action does not wait until the sub process has been finished, but outputs the data after having started the sub process. The input data is also the data put in the start place of the sub process.   
+The sub process to be started is defined in the configuration.
 
 ### Configuration
 
-- *Workflow Key*   
-    Enter the workflow key of the workflow that will be started as a subprocess. Always the latest published version of the specified workflow will be started.
+- *Workflow key*   
+    Enter the key of the workflow that will be started as a sub process. Always the latest published version of the specified workflow will be started.
 
 
 
@@ -130,8 +193,8 @@ The subprocess to be started is defined in the configuration.
 ![Switch case action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SwitchCaseAction.png "[Switch case action]")
 
 The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any match by a separate branch.    
-The data runs via the *in* input port into the workflow action and can be output via each connected output port. The *origin* output port must be connected and the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
-The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise all remaining cases are evaluated.
+The data runs via the *in* input port into the process action and can be output via each connected output port. The *origin* output port must be connected and the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
+The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise, all remaining cases are evaluated.
 
 ### Configuration  
 
@@ -154,7 +217,7 @@ The criteria to be compared with are defined in the configuration. Further, you 
 ![Update process name and search string](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/UpdateProcessNameAndSearchString.png "[Update process name and search string]")
 
 The *Update process name and search string* core action is used to change the preconfigured name of a process and its search string while the process is already running.  
-The data runs via the input port into the workflow action. The input value must be a string representation, which is replacing the current process name and its corresponding search string. The new string representation is output via the output port.
+The data runs via the input port into the process action. The input value must be a string representation, which is replacing the current process name and its corresponding search string. The new string representation is output via the output port.
 
 ### Configuration
 
@@ -167,7 +230,7 @@ This core action has no further configuration settings.
 ![Wait for criterion](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/WaitForCriterion.png "[Wait for criterion]")
 
 The *Wait for criterion* core action is used to insert a breakpoint when you must wait that the data input matches a certain criterion.   
-The data runs via the *in* input port into the workflow action and is output via the *match* output port once the input value matches the criterion to be compared with. If the input value does not match the criterion to be compared with after a defined timeout, the data is, depending on the configuration, output via the *timeout* output port, or the actions fails.   
+The data runs via the *in* input port into the process action and is output via the *match* output port once the input value matches the criterion to be compared with. If the input value does not match the criterion to be compared with after a defined timeout, the data is, depending on the configuration, output via the *timeout* output port, or the actions fails.   
 The criterion to be compared with as well as the wait time settings are defined in the configuration.
 
 > [Info] It is recommended to give the action a name that describes which input value the criterion is waiting for.
@@ -199,6 +262,14 @@ The criterion to be compared with as well as the wait time settings are defined 
         It is a match if the input value equals the defined value.
     - **!=**    
         It is a match if the input value does not equal the defined value.
+    - **<=**   
+        It is a match if the input value is less than / equal to the defined value.
+    - **<**   
+        It is a match if the input value is less the defined value.
+    - **>=**   
+        It is a match if the input value is greater than / equal to the defined value.
+    - **>**   
+        It is a match if the input value is greater the defined value.
     - **in**    
         It is a match if the input value is included within the defined values. For this operator, it is possible to enter an array in the *Value* field.
     - **notIn**   
@@ -210,8 +281,6 @@ The criterion to be compared with as well as the wait time settings are defined 
 - *Value*   
     Enter the value to be compared with the input value. The value must be valid JSON and is type strict, for example a string must be specified as a string (**\"example\"**), an integer as an integer (**123**), and so on.
 
-[comment]: <> (Ticket ICBPM-197 in Arbeit: Weitere operatoren geplant: <=, <, >=, >)
-
 
 
 ## Wait for parallel input
@@ -219,11 +288,17 @@ The criterion to be compared with as well as the wait time settings are defined 
 ![Wait for parallel input](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/WaitForParallelInput.png "[Wait for parallel input]")
 
 The *Wait for parallel input* core action is used to insert a breakpoint when you must wait for certain data in order to synchronize branches running in parallel in a workflow.  
-The data runs via the *p_data* input port into the workflow action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *p_trigger* input port.
+The data runs via the *p_data* input port into the process action and is output via the *p* output port. However, the data is only output when data has also been incoming via the *p_trigger* input port.
 
 ### Configuration  
 
-This core action has no further configuration settings.
+**Static inputs**  
+
+The *Wait for parallel input* core action has two input ports:
+- p_data  
+- p_trigger
+
+
 
 
 
@@ -231,11 +306,11 @@ This core action has no further configuration settings.
 
 ![Waiting action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/WaitingAction.png "[Waiting action]")
 
-The *Waiting action* core action is used to insert a breakpoint when you want to wait for a certain time before proceeding to the next action within the process. The data runs via the *p* input port into the workflow action and is output via the *p* output port. However, the data is only output after a defined period of time.    
+The *Waiting action* core action is used to insert a breakpoint when you want to wait for a certain time before proceeding to the next action within the process. The data runs via the *p* input port into the process action and is output via the *p* output port. However, the data is only output after a defined period of time.    
 This period of time is defined in the configuration.
 
 ### Configuration  
 
 - *Wait time modifier*   
-    Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"** .    
-    For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php).
+    Enter the period of time the action must wait before the value is output. The modifier must be a valid PHP date and time format, for example **"+ 1 day"**.    
+    For detailed information about the valid PHP modifiers, see [Supported PHP DateTime formats](https://www.php.net/manual/en/datetime.formats.php) on the PHP website.

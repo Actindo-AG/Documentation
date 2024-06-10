@@ -1,6 +1,6 @@
 # User Interface
 
-In this part of the *Workflows* documentation, you will find the following chapters:
+In this part of the *Process Orchestration* documentation, you will find the following chapters:
 
 - [Overview](./01_Overview.md)
 
@@ -18,51 +18,49 @@ In this part of the *Workflows* documentation, you will find the following chapt
     - [New workflow](./02a_Workflows.md#new-workflow)
     - [Workflow versions](./02a_Workflows.md#workflow-versions)
     - [Workflow editor](./02a_Workflows.md#workflow-editor)
-    - [Edit trigger for workflow "Workflow name"](./02a_Workflows.md#edit-trigger-for-workflow-workflow-name)
+        - [Workflow diagram](./02a_Workflows.md#workflow-diagram)
+    - [Edit trigger for workflow](./02a_Workflows.md#edit-trigger-for-workflow)
+    - [Workflow &ndash; Compare workflow versions](./02a_Workflows.md#workflow-–-compare-workflow-versions)
     - [Import JSON](./02a_Workflows.md#import-json)
     - [Export JSON](./02a_Workflows.md#export-json)
     - [Search for an action](./02a_Workflows.md#search-for-an-action)
-    - [Create view](./02a_Workflows.md#create-view)  
-    - [Rename view](./02a_Workflows.md#rename-view)
+   
 
 
 - [Processes](./03_Processes.md)
 
-- [OVERVIEW (Processes)](./03a_Processes.md)
-    - [Process ID](./03a_Processes.md#process-id)
-        - [Actions](./03a_Processes.md#actions)
-        - [Logs](./03a_Processes.md#logs)
-        - [Log ID](./03a_Processes.md#log-id)
-        - [Tokens](./03a_Processes.md#tokens)
-        - [Create view](./03a_Processes.md#create-view)  
-        - [Rename view](./03a_Processes.md#rename-view)
-
-
+- [OVERVIEW (Processes)](./03a_Processes.md)  
+        - [Process diagram](./03a_Processes.md#process-diagram)  
+        - [Actions](./03a_Processes.md#actions)  
+        - [Logs](./03a_Processes.md#logs)  
+        - [Log ID](./03a_Processes.md#log-id)  
+        - [Tokens](./03a_Processes.md#tokens)   
+        - [Comments](./03a_Processes.md#comments)  
+        - [Execution log](./03a_Processes.md#execution-log)   
+        
 - [Process actions](./04_ProcessActions.md)
 
 - [OVERVIEW (Process actions)](./04a_ProcessActions.md)
-    - [Create view](./04a_ProcessActions.md#create-view)  
-    - [Rename view](./04a_ProcessActions.md#rename-view)
-
-
+    
 - [Queue types](./05_QueueTypes.md)
 
-- [OVERVIEW](./05a_QueueTypes.md)
-    - [Create queue type](./05a_QueueTypes.md#create-queue-type)  
-    - [Edit queue type](./05a_QueueTypes.md#edit-queue-type)
-
+- [OVERVIEW (Queue types)](./05a_QueueTypes.md)
+    - [Create a queue type](./05a_QueueTypes.md#create-a-queue-type)  
+    - [Edit a queue type](./05a_QueueTypes.md#edit-a-queue-type)
 
 - [Logs](./06_Logs.md)
 
-- [OVERVIEW (Logs)](./06a_Logs.md)
+- [LOG MESSAGES](./06a_Logs.md)
     - [Log ID](./06a_Logs.md#log-id)
-    - [Create view](./06a_Logs.md#create-view)  
-    - [Rename view](./06a_Logs.md#rename-view)
 
+- [EXECUTION LOG](06b_ExecutionLog.md)
 
+- [EXECUTION STATISTICS](./06c_ExecutionStatistics.md)
+   
 - [Settings](./07_Settings.md)
 
 - [SETTINGS](./07a_Settings.md)
+    - [Lifetime execution log in days](./07a_Settings.md#lifetime-execution-log-in-days)
     - [Emergency-log lifetime](./07a_Settings.md#emergency-log-lifetime)
     - [Alert-log lifetime](./07a_Settings.md#alert-log-lifetime)
     - [Critical-log lifetime](./07a_Settings.md#critical-log-lifetime)
@@ -76,6 +74,9 @@ In this part of the *Workflows* documentation, you will find the following chapt
 - [Workflow core actions](./08_CoreActions.md)
     - [Change process priority](./08_CoreActions.md#change-process-priority)
     - [Multiply input action](./08_CoreActions.md#multiply-input-action)
+    - [Extract value](./08_CoreActions.md#extract-value)
+    - [Manual action](./08_CoreActions.md#manual-action)
+    - [Manipulate process priority](./08_CoreActions.md#manipulate-process-priority)
     - [Execute PHP code](./08_CoreActions.md#execute-php-code)
     - [Split by criterion](./08_CoreActions.md#split-by-criterion)
     - [Start subprocess](./08_CoreActions.md#start-subprocess)
