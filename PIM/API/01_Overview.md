@@ -18,7 +18,7 @@ In this section, an API reference documentation for the *Actindo Core1 Platform*
 
 The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It uses resource-oriented URIs, accepts and returns JSON-encoded requests, and uses standard HTTP status codes. For detailed information, see [Request bodies](#request-bodies) and [Responses bodies](#response-bodies).
 
-The *Actindo Core1 OpenAPI* supports the  standard *Actindo Core1 Platform* operations, such as create, edit, and delete products. In addition to the standard features available via user interface, it offers advanced functionalities to manage resources more quickly and efficiently. For example, you can create or maintain multiple products simultaneously, and move one or several variant products to another master product just with one API call. 
+The *Actindo Core1 OpenAPI* supports the standard *Actindo Core1 Platform* operations, such as create, edit, and delete products. In addition to the standard features available via user interface, it offers advanced functionalities to manage resources more quickly and efficiently. For example, you can create or maintain multiple products simultaneously, and move one or several variant products to another master product just with one API call. 
 
 You can use the API both in staging and production instances of your *Actindo Core1 Platform*. Bear in mind that each *Actindo Core1 Platform* account is unique in its API configuration due to the individual construction of the installed and extended modules, and therefore the addressable endpoints and fields may vary.  
 
@@ -36,10 +36,10 @@ URI stands for Uniform Resource Identifier. It represents the location of a web 
 
 In the *Actindo Core1 OpenAPI*, the URI has the following structure:
 
-**https://your-workspace.actindo.com/API.endpoint**
+**https://[your-workspace].actindo.com/[API.endpoint]**
 
-- *your-workspace* represents the name of your instance.
-- *API.endpoint* represents the API endpoint as described in this API reference documentation.
+- *[your-workspace]* represents the name of your instance.
+- *[API.endpoint]* represents the API endpoint as described in this API reference documentation.
 
 
 #### Headers
@@ -104,7 +104,9 @@ The following examples display two response samples. These response samples are 
             "trace": "<pre> (Actindo\\Modules\\Actindo\\PIM\\Exception\\CreateProductFailedException) in ... \/pre>"
         }
 
-> [Info] For a response schema, refer to the API documentation in your *Actindo Core1 Platform* instance under *Dev Tools > API > Module name > API endpoint*.
+> [Info] For a specific response schema, refer to the API documentation in your *Actindo Core1 Platform* instance under *Dev Tools > API*. For example, select *PIM - Product Information Management* API documentation, then the entry *Actindo.Modules.Actindo.PIM.Products* to access the PIM product controller, then *.get* for the specific endpoint to get product data. The responses schemas are listed with their corresponding responses samples.
+
+![Response schema](../../Assets/Screenshots/PIM/API/ResponseSchema.png "[Response schema]")
 
 [comment]: <> (Add a "general" response schema? Depends on response, ok or error, and resource...)
 
@@ -115,7 +117,7 @@ Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to in
 | Code | Description | Notes |
 | ---- | ----------- | ------ |
 | 200  | OK          |  Everything worked as expected      |
-| 400  | Bad request | Unacceptable request, often due to missing required parameter or  header, e.g. Content-Type: application/json, or malformed json |
+| 400  | Bad request | Unacceptable request, often due to missing required parameter or header, e.g. Content-Type: application/json, or malformed json |
 | 401  | Unauthorized | Authentication has failed, e.g. due to invalid or missing authentication credentials |
 | 429  | Too many requests   | You sent too many requests in a given amount of time |
 | 530  | Site frozen | The tenant is currently frozen due to maintenance work, module installations or updates |
@@ -134,7 +136,7 @@ The *Actindo Core1 Platform* supports two workflows of the OAuth 2.0 protocol to
 
 You can use different software tools to submit your requests, either your own tool or a third-party tool such as Postman. For a detailed description on how to set up Postman, see [Set up Postman for the Actindo Core1 OpenAPI](#set-up-postman-for-the-actindo-core1-openapi). 
 
-Regardless of how you submit your requests, you always need to provide the following information:
+Regardless of the tool you use to submit, you always need to provide the following information:
 
 - URI
 - HTTP method 
@@ -153,64 +155,99 @@ Before you can send requests to the *Actindo Core1 OpenAPI* with Postman, you ha
 
 ### Define the headers
 
-Headers must be defined, so that the data is transferred to the *Actindo Core1 OpenAPI* in the appropriate format and responses are transmitted back to the user. To do so, follow the procedure below:
+Define the headers so that the data is transferred to the *Actindo Core1 OpenAPI* in the appropriate format and responses are transmitted back to the user. 
 
-1. Click the *Headers* tab. 
+#### Prerequisites
 
-2. Enter "Content-Type" and "Accept" in two different rows the *Key* column. 
+- You have installed Postman.
+- You have created a Workspace in Postman.   
+    For detailed information, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
-3. Enter "application/json" in the *Value* column for both rows. This setting specifies that the data being sent in the request body is in JSON format.
+#### Procedure
+
+*Postman Workspace*
+
+![Postman Workspace](../../Assets/Screenshots/PIM/API/PostmanWorkspace.png "[Postman Workspace]")
+
+1. Click the [New] button on the left sidebar, next to your workspace name. 
+    A window to select a new request is displayed.
+
+    ![New HTTP](../../Assets/Screenshots/PIM/API/PostmanNewHTTP.png "[New HTTP]")
+
+2. Select *HTTP*.
+    The *Untitled Request* view is displayed. The *Params* tab is preselected by default.
+
+    ![Untitled Request](../../Assets/Screenshots/PIM/API/PostmanUntitledRequest.png "[Untitled Request]")
+3. Click the *Headers* tab. 
+
+4. Enter "Content-Type" and "Accept" in two different rows the *Key* column. 
+
+5. Enter "application/json" in the *Value* column for both rows. This setting specifies that the data being sent in the request body is in JSON format.
+
+    ![Headers](../../Assets/Screenshots/PIM/API/PostmanHeaders.png "[Headers]")
 
 
 ### Set the session cookie
 
-Before you can communicate with the *Actindo Core1 Platform*, you have to set a session cookie. To do so, follow the procedure below:
+Before you can communicate with the *Actindo Core1 Platform*, you have to set a session cookie. 
 
-1. Send a request via the [Send] button.  
+#### Prerequisites
+
+You have defined the headers, see [Define the headers](#define-the-headers).
+
+#### Procedure
+
+*Postman Workspace > Button New > Select HTTP > Untitled request*
+
+![Headers](../../Assets/Screenshots/PIM/API/PostmanHeaders.png "[Headers]")
+
+1. Enter an endpoint in the address bar, for example *https://[your-workspace].actindo.com/Actindo.Modules.Actindo.PIM.Products.get*, replacing *[your-workspace]* with the name of your instance. At this time, you do not need to enter a request body.
+
+2. Click [Send] button.
     You receive the following response:
 
         {
         "success": false,
         "errno": 10000,
-        "error": "Not  logged in",
+        "error": "Not logged in",
         "trace": ""
         }
     
     This response indicates that the request failed because you are not logged into your *Actindo Core1 Platform* instance in Postman. The API request must include the session ID from the *Actindo Core1 Platform* instance in which you are currently logged in.
 
-2. Switch to the browser where you are logged into your *Actindo Core1 Platform* instance. 
+3. Switch to the browser where you are logged into your *Actindo Core1 Platform* instance. 
 
-3. Open the console in the browser developer tools. Depending on the browser you use, the access shortcut or key may differ. For example, in *Chrome&trade;* you can access the console pressing the **F12** key.
+4. Open the console in the browser developer tools. Depending on the browser you use, the access shortcut or key may differ. For example, in *Chrome&trade;* you can access the console pressing the **F12** key.
 
-4. In the browser developer tools console, click the *Application* tab and expand the *Cookies* option in the left menu under the *Storage* section.  
+5. In the browser developer tools console, click the *Application* tab and expand the *Cookies* option in the left menu under the *Storage* section.  
     The URL of your current *Actindo Core1 Platform* instance is displayed.
 
-5. Click the URL of your current *Actindo Core1 Platform* instance.  
+6. Click the URL of your current *Actindo Core1 Platform* instance.  
     All cookies are displayed on the right.
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookiesConsole.png "[Cookies in console]")
 
-6. Select the session cookie of the *Actindo Core1 Platform* instance you want to access via API. There are two types of cookies:
+7. Select the session cookie of the *Actindo Core1 Platform* instance you want to access via API. There are two types of cookies:
     - **ACTINDOTHREE**  
         Select this cookie if your instance is a live system.
     - **ACTINDOTHREEEXTR**  
         Select this cookie if your instance is a sandbox.  
     The cookie value is displayed in the *Cookie Value* section.
 
-7. Copy the cookie value from the *Cookie Value* section to your clipboard.  
+8. Copy the cookie value from the *Cookie Value* section to your clipboard.  
 
-8. Switch to *Postman* and click the [Cookies] button located under the [Send] button.  
+9. Switch to *Postman* and click the [Cookies] button located under the [Send] button.  
     The *Cookies* window is displayed.
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookiesWindowPostman.png "[Cookies in console]")
 
-9. Click the existing cookie to display the current cookie values.
+10. Click the existing cookie to display the current cookie values.
 
     ![Cookies in console](../../Assets/Screenshots/PIM/API/CookieValuePostman.png "[Cookies in console]")
 
-10. Replace the current cookie value with the cookie value you have previously copied from the console.
+11. Replace the current cookie value with the cookie value you have previously copied from the console.
 
-11. Click the [Save] button and close the *Cookies* window.  
+12. Click the [Save] button and close the *Cookies* window.  
     The session cookie has been saved. You can start sending API requests.
 
 
@@ -223,5 +260,5 @@ We recommend that you create collections and predefine API calls using the templ
 
 
 
-[comment]: <> (In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktioniert es sonst?)
+[comment]: <> (Andreas: In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktioniert es sonst? Kannst du es mir zeigen?)
 

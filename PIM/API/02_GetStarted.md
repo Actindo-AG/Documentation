@@ -2,7 +2,7 @@
 
 [comment]: <> (Diese Info gilt für alle APIs bzw. alle Module. Falls andere Module dokumentiert, darauf verweisen oder auf eine übergeordnete Ebene verschieben)
 
-This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be comprehensive but to provide you with a starting point to understand how the *Actindo Core1 OpenAPI* works. 
+This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be exhaustive, but to provide you with a starting point to understand how the *Actindo Core1 OpenAPI* works. 
 
 A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 OpenAPI* documentation are the ones relevant for your current instance.
 
@@ -25,7 +25,7 @@ Let's take the following request sample:
         }
     }
 
-Let's say you want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to an English and Spanish speaking audience.
+You want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to English and Spanish-speaking customers.
 
 
 | Product       | Information  | Attribute key     | Value    |
@@ -53,11 +53,12 @@ The exemplary attributes and values provided in the request sample should be cus
 
 **Notes**
 
-- The *sku* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_ManageProducts.md#the-product-object).
-- The *attributeSetId* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any entity, ID, see [Retrieve entity data](./04_RetrieveEntityData.md).
+- The *"sku"* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_ManageProducts.md#the-product-object).
+- The *"attributeSetId"* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any entity, ID, see [Retrieve entity data](./04_RetrieveEntityData.md).
 -  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created your own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).   
-- The scope (in this case, online shop) and languages (en_US and es_ES) must also be specified accordingly. 
+- The scope (with the key *online_shop* in this example) and languages (language codes *en_US* and *es_ES*) must also be specified accordingly. 
 
+[comment]: <> (AttributeSetId jetzt als Object? AttributeSet/Id? Check!)
 
 ## Set up the OAuth authorization
 
@@ -69,9 +70,11 @@ The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client a
 - A user has been created.
 - The user has the appropriate rights.
 
-### Step 1: Register the client app
+### Step 1 &ndash; Register the client app
 
-If you want to gain access to the Core1 from any external app via API, first of all you have to register the client app in the developer portal. 
+If you want to gain access to the *Actindo Core1 Platform* from an external app via API, first of all you have to register your client app in the developer portal. 
+
+[comment]: <> (Andreas: Hättest du ein gutes Beispiel für mich zu client app?)
 
 *Dev Tools > Tab APP REGISTRATIONS*
 
@@ -91,11 +94,13 @@ If you want to gain access to the Core1 from any external app via API, first of 
     - allowed characters include upper and lower cases letters, numbers, and underscore
     - beginning with a letter  
 
-[comment]: <> (Wahrscheinlich auch mit einer Zahl am Anfang möglich laut Oli. Evtl. von Devs oder ImSpecs testen/bestätigen lassen und dementsprechend anpassen! UI muss verbessert werden, da Toggle darunter auch nicht funktioniert.)
+[comment]: <> (Wahrscheinlich auch mit einer Zahl am Anfang möglich laut Oli. UI muss verbessert werden, da Toggle darunter auch nicht funktioniert. Nach Andreas Feedback Text anpassen!)
+
+[comment]: <> (Andreas: Kannst du es bitte testen bzw. bestätigen?)
 
 4. If available in your version, leave the *Only authentication scopes open ID profile email. You will not be able to call any methods besides getting profile data* toggle disabled.
 
-5. Enter an appropriate redirect URI in the *Redirect URI* field. For exemplary purposes, we are using https://oauthdebugger.com/debug. See the following screenshot for reference.
+5. Enter an appropriate redirect URI in the *Redirect URI* field. For exemplary purposes, we are using [https://oauthdebugger.com/debug](https://oauthdebugger.com/debug/ "[https://oauthdebugger.com/debug]"). See the following screenshot for reference.
 
     ![App registration example](../../Assets/Screenshots/PIM/API/AppRegistrationExample.png "[App registration example]")
 
@@ -107,7 +112,7 @@ If you want to gain access to the Core1 from any external app via API, first of 
     Make sure you copy it and keep it safe for future reference.
 
 
-### Step 2: Get an authorization code
+### Step 2 &ndash; Get an authorization code
 
 To be able to generate an access token for authentication, you need to get an authorization code first. Bear in mind that you need to get an authorization code for each instance you want to access via API.
 
@@ -116,7 +121,7 @@ To be able to generate an access token for authentication, you need to get an au
 > [Caution]  
     Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
 
-Following the example provided in [Step 1: Register the client app](#step-1-register-the-client-app), we describe the process in the https://oauthdebugger.com/ website. You can also use another third-party website or your own system. 
+Following the example provided in [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app), we describe the process in the [https://oauthdebugger.com/](https://oauthdebugger.com/ "[https://oauthdebugger.com/]") website. You can also use another third-party website or your own system. 
 
 *OAuth debugger*
 
@@ -124,9 +129,9 @@ Following the example provided in [Step 1: Register the client app](#step-1-regi
 
 1. Enter the authorization URI (Uniform Resource Identifier) in the *Authorize URI (required)* field. In this case, your URI should look like this:
 
-    **https://your-workspace.actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
+    **https://[your-workspace].actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
 
-    Replace *your-workspace* with the name of your instance. Bear in mind that the authorization is account-specific.
+    Replace *[your-workspace]* with the name of your instance. Bear in mind that the authorization is account-specific.
 
 2. Enter **https://oauthdebugger.com/debug** in the *Redirect URI (required)* field.
 
@@ -152,20 +157,22 @@ Following the example provided in [Step 1: Register the client app](#step-1-regi
 
 [comment]: <> (Stimmt der letzter Schritt? Verstehe nicht ganz, wie es funktioniert.)
 
-[comment]: <> (Imogens Frage: Ist dann nicht Step 2: Create technical user for API access? Unsicher, ob hier noch einen Zwischenschritt fehlt. User ist schon erstellt, aber muss er bestimmte Rechte haben? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
+[comment]: <> (Imogens Frage: Ist dann nicht Step 2 - Create technical user for API access? Unsicher, ob hier noch einen Zwischenschritt fehlt. User ist schon erstellt, aber muss er bestimmte Rechte haben? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
 
 
-### Step 3: Generate an access token
+### Step 3 &ndash; Generate an access token
 
 Once you have obtained an authorization code, you can generate an access token for authentication.
 
-For the following steps, a cURL command line tool is used.
+Use a cURL command line tool for the following steps.
 
-The following parameters are required: 
-- Client ID, defined by you when registering the client app
-- Client secret, generated when saving the app registration, see [Step 1: Register the client app](#step-1-register-the-client-app)
-- Authorization code, obtained in [Step 2: Get an authorization code](#step-2-get-an-authorization-code)
+#### Prerequisites
 
+- You have your client ID. You have defined it when registering the client app.
+- Your have your client secret. You have generated it when saving the app registration, see [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app).
+- You have your authorization code. You have obtained it in [Step 2 &ndash; Get an authorization code](#step-2-–-get-an-authorization-code).
+
+#### Procedure
 
 1. Send the token URL request to generate your access token, as displayed in the following request sample.  
 
@@ -178,22 +185,28 @@ The following parameters are required:
 
     Replace *[your-workspace]* with the name of your instance, and the example values with your client ID, client secret, and authorization code. 
 
-2. An access token and a refresh token are returned, as displayed in the following response sample. 
+    An access token and a refresh token are returned, as displayed in the following response sample. 
 
     **Response sample**
 
         {"access_token":"EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2","expires_in":3600,"token_type":"bearer","scope":"none","refresh_token":"37e521b0ec5f035c86f0a2db09fe73cda934235e"}
 
-3. Copy and save your access token and your refresh token. 
+2. Copy and save your access token and your refresh token. 
 
     > [Info]  Access (also called bearer) tokens are short-lived. You can generate further access tokens with your refresh token. Make sure you keep it safe for future reference.
 
 
-### Step 4: Send a test authentication request
+### Step 4 &ndash; Send a test authentication request
 
 You can now send a request to your *Actindo Core1 Platform* instance to check that the access token is valid. For exemplary purposes, we are using a simple "ping-pong" authentication test. 
 
 [comment]: <> (ping-pong method/test? Übliche standard Test-Prozedur? Hat das einen konkreten Namen?)
+
+#### Prerequisites
+
+You have an access token, see [Step 3 &ndash; Generate an access token](#step-3-–-generate-an-access-token).
+
+#### Procedure
 
 1. Send an authentication test request, as displayed in the following request sample.  
 
@@ -203,18 +216,24 @@ You can now send a request to your *Actindo Core1 Platform* instance to check th
         -H 'Authorization: Bearer EYqSCcJOoBgbOxgHJpU3stvliosc+EGEFQ60QplUPjNuCOTfoebG2kvUg5sb574TjI94aEUMBG0I2DS+LulBQj+sXGIl3FX+3QFICEDb1Sw+HzfO1K34QhB60rkULlN2' \
         'https://[your-workspace].actindo.com/Actindo.CoreModules.Tools.TenantTest.ping?ping=42'
 
-    Replace *your-workspace* with the name of your instance, and the example values with your access (bearer) token that you have obtained in [Step 3: Generate an access token](#step-3-generate-an-access-token). 
+    Replace *[your-workspace]* with the name of your instance, and the example values with your access (bearer) token that you have obtained in [Step 3 &ndash; Generate an access token](#step-3-–-generate-an-access-token). 
 
-2. If the access token is valid, a success response is returned, as displayed in the following response sample.
+    If the access token is valid, a success response is returned, as displayed in the following response sample.
 
     **Response sample**
 
         {"pong":"42","success":true,"displayMessage":null,"displayMessageTitle":null,"error":null,"job_id":null}'
 
 
-### Step 5: Generate an access token from refresh token
+### Step 5 &ndash; Generate an access token from refresh token
 
 Access tokens are valid for a limited period of time. If your access token is expired, you can get a new one using your refresh token.
+
+#### Prerequisites
+
+You have a refresh token. You have obtained it when generating an access token, see [Step 3 &ndash; Generate an access token](#step-3-–-generate-an-access-token).
+
+#### Procedure
 
 1. Send the token URL request to generate your access token, as displayed in the following request sample.  
     
@@ -225,10 +244,10 @@ Access tokens are valid for a limited period of time. If your access token is ex
         -H 'cache-control: no-cache' \
         -d 'grant_type=refresh_token&client_id=myclientid&client_secret=1U-YdJpAD67huXxmy0c7Cg__&refresh_token=37e521b0ec5f035c86f0a2db09fe73cda934235e'
 
-    Replace *your-workspace* with the name of your instance, and the example values with your client ID, client secret, and the refresh token that you have obtained in [Step 3: Generate an access token](#step-3-generate-an-access-token).  
+    Replace *[your-workspace]* with the name of your instance, and the example values with your client ID, client secret, and the refresh token that you have obtained in [Step 3 &ndash; Generate an access token](#step-3-–-generate-an-access-token).  
 
 
-2. The access token is generated, as displayed in the following response sample. 
+    The access token is generated, as displayed in the following response sample. 
 
     **Response sample** 
 

@@ -28,7 +28,7 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
         {
         "success": false,
         "errno": 10000,
-        "error": "Not  logged in",
+        "error": "Not logged in",
         "trace": ""
         }
     

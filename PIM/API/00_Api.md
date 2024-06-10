@@ -17,11 +17,11 @@ In this part of the *PIM* documentation, you will find the following chapters:
 - [Get started](./02_GetStarted.md)
     - [How to use the request samples](./02_GetStarted.md#how-to-use-the-request-samples)
     - [Set up the OAuth authorization](./02_GetStarted.md#set-up-the-oauth-authorization)
-        - [Step 1: Register the client app](./02_GetStarted.md#step-1-register-the-client-app)
-        - [Step 2: Get an authorization code](./02_GetStarted.md#step-2-get-an-authorization-code)
-        - [Step 3: Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token)
-        - [Step 4: Send a test authentication request](./02_GetStarted.md#step-4-send-a-test-authentication-request)
-        - [Step 5: Generate an access token from refresh token](./02_GetStarted.md#step-5-generate-an-access-token-from-refresh-token)
+        - [Step 1 &ndash; Register the client app](./02_GetStarted.md#step-1-–-register-the-client-app)
+        - [Step 2 &ndash; Get an authorization code](./02_GetStarted.md#step-2-–-get-an-authorization-code)
+        - [Step 3 &ndash; Generate an access token](./02_GetStarted.md#step-3-–-generate-an-access-token)
+        - [Step 4 &ndash; Send a test authentication request](./02_GetStarted.md#step-4-–-send-a-test-authentication-request)
+        - [Step 5 &ndash; Generate an access token from refresh token](./02_GetStarted.md#step-5-–-generate-an-access-token-from-refresh-token)
     - [Make an API call](./02_GetStarted.md#make-an-api-call)
 
 

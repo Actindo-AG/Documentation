@@ -10,7 +10,7 @@ To manage your products via API, you need to provide the required key-value pair
 
 **Attribute key**
 
-Depending on the data you want to specify, you have to add the corresponding attribute  in its form as an attribute key to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
+Depending on the data you want to specify, you have to add the corresponding attribute in its form as an attribute key to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
 
 For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding *PIM* attribute set under *PIM > Settings > Attribute sets*. Alternatively, you can find a list of all existing *PIM* attributes under *PIM > Settings > Attributes*. Alternatively, you can get a list of attributes via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
 
@@ -387,7 +387,7 @@ The required fields are marked in bold.
 | fields | array of strings | Query field | Quick search for a field <br> Enter null to search for all fields |
 | filter | array of objects | Property value filter | It contains the required fields **property** (field to filter), **operator**, and **value**. Usual filter operators are allowed, for example, >, <, like, and so on.  |
 | hints | array of objects | Query hint | Set query hints to modify the execution of the query, for example, get data from non-authoritative resources. It contains the required fields **name** (name of the hint) and **value** (value of the hint). |
-| sort | array of objects | Results sorting order  | It contains  the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending). |
+| sort | array of objects | Results sorting order  | It contains the required fields **field** (field to sort) and **order** ("ASC" for ascending and "DESC" for descending). |
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |
 
