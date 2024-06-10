@@ -35,13 +35,13 @@ In this part of the *Actindo Core1 Platform* documentation you will find the fol
      - [Basic principles](./05_BasicOrderManagementProcess.md#basic-principles)
      - [Modules and systems involved](./05_BasicOrderManagementProcess.md#modules-and-systems-involved)
      - [Basic process structure](./05_BasicOrderManagementProcess.md#basic-process-structure) 
-          - [1 - From the shop to the Actindo Core1 Platform](./05_BasicOrderManagementProcess.md#1--from-the-shop-to-the-actindo-core1-platform)
-          - [2 - Order confirmation and stock reservation](./05_BasicOrderManagementProcess.md#2--order-confirmation-and-stock-reservation)
-          - [3 - Initiation of the delivery process](./05_BasicOrderManagementProcess.md#3--initiation-of-the-delivery-process)
-          - [4 - Sales transaction posting](./05_BasicOrderManagementProcess.md#4--sales-transaction-posting)
-          - [5 - Payment handling](./05_BasicOrderManagementProcess.md#5--payment-handling)
-          - [6 - From the warehouse to the customer via fulfiller](./05_BasicOrderManagementProcess.md#6--from-the-warehouse-to-the-customer-via-fulfiller)
-          - [7 - Final delivery to the customer](./05_BasicOrderManagementProcess.md#7--final-delivery-to-the-customer)    
+          - [1 &ndash; From the shop to the Actindo Core1 Platform](./05_BasicOrderManagementProcess.md#1-–-from-the-shop-to-the-actindo-core1-platform)
+          - [2 &ndash; Order confirmation and stock reservation](./05_BasicOrderManagementProcess.md#2-–-order-confirmation-and-stock-reservation)
+          - [3 &ndash; Initiation of the delivery process](./05_BasicOrderManagementProcess.md#3-–-initiation-of-the-delivery-process)
+          - [4 &ndash; Sales transaction posting](./05_BasicOrderManagementProcess.md#4-–-sales-transaction-posting)
+          - [5 &ndash; Payment handling](./05_BasicOrderManagementProcess.md#5-–-payment-handling)
+          - [6 &ndash; From the warehouse to the customer via fulfiller](./05_BasicOrderManagementProcess.md#6-–-from-the-warehouse-to-the-customer-via-fulfiller)
+          - [7 &ndash; Final delivery to the customer](./05_BasicOrderManagementProcess.md#7-–-final-delivery-to-the-customer)    
      
 
       
