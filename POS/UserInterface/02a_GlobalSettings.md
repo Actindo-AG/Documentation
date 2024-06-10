@@ -372,7 +372,7 @@ The *Remind of offers* setting allows the cashiers to suggest additional offers 
 
 ![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
-The *Regex for customer-code* settings allows you to define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.
+The *Regex for customer-code* settings allows you to define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.    
 
 - [Save]   
     Click this button to save any changes.
@@ -389,8 +389,17 @@ The *Regex for customer-code* settings allows you to define a regular expression
 
 ![Allow negative quantities](../../Assets/Screenshots/POS/Management/GlobalSettings/AllowNegativeQuantities.png "[Allow negative quantities]")
 
-The *Allow negative quantities* allows your cashiers to accept a return and to refund the amount due. For detailed information, see 
+The *Allow negative quantities* allows your cashiers to accept a return and to refund the amount due. Enable this setting, if you want to use this function. For detailed information, see [Create a return](../Operation/02_SelectOffer.md#create-a-return). 
 
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
+    Enable this toggle to apply the default settings or disable this toggle to use this feature. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Allow negative quantities* feature is not activated.  
+
+- [Save]   
+    Click this button to save any changes.
+
+- [x]   
+    Select the checkbox to use the *Allow negative quantities* feature.   
+    The *Negative quantity* toggle is available now in the bill list.
 
 
 

@@ -72,7 +72,7 @@ The following functions and fields are available in this view:
 
 *Venduo POS > Management > Tab STORES > Click the Add button > Click the Create store via wizard button*
 
-### Step 1 - Create store
+### Step 1 &ndash; Create store
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
 
@@ -108,7 +108,7 @@ The table displays all users who are assigned to the POS store manager group. Yo
     Click this button to create the store and proceed to the next step in the store wizard. The *Creating Store* window is displayed. When the store is created, the *Pay desks* wizard window is displayed.
 
 
-### Step 2 - Pay desks
+### Step 2 &ndash; Pay desks
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW02.png "[Create Store]")
 
@@ -153,7 +153,7 @@ The table displays all users who are assigned to the POS cashier group. All fiel
     Click this button to create the pay desks and proceed to the next step in the store wizard. The *Printing* wizard window is displayed.
 
 
-### Step 3 - Printing
+### Step 3 &ndash; Printing
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Create Store]")
 
@@ -195,7 +195,7 @@ For each pay desk, a tab with the printer settings below is displayed.
     Click this button to save the printer settings for the pay desks and proceed to the next step in the store wizard.  The *Store Address* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
 
-### Step 4 - Store address
+### Step 4 &ndash; Store address
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Create Store]")
 
@@ -234,7 +234,7 @@ For each store, at least enter the country and the ZIP code must be specified.
     Click this button to save the store address and proceed to the next step in the store wizard. The *Stock* wizard window is displayed. The *Saving successful* message is displayed in the upper right corner of the wizard window.
 
 
-### Step 5 - Stock
+### Step 5 &ndash; Stock
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
 
@@ -263,7 +263,7 @@ For each store, at least enter the country and the ZIP code must be specified.
     Click this button to save the stock settings and proceed to the next step in the store wizard. The *Saving...* window is displayed. When the saving is completed, the *Inventory assignment* wizard window is displayed.
 
 
-### Step 6 - Stock level assignment
+### Step 6 &ndash; Stock level assignment
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
@@ -287,7 +287,7 @@ For each store, at least enter the country and the ZIP code must be specified.
 
 
 
-### Step 7 - Accounting
+### Step 7 &ndash; Accounting
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
 
@@ -337,7 +337,7 @@ The list of accounts is displayed either when you deactivate the *Account per pa
     Click this button to assign the accounts and proceed to the next step in the store wizard. The *Loading...* window is displayed. When the saving is completed, the *Summary* wizard window is displayed.
 
 
-### Step 8 - Summary
+### Step 8 &ndash; Summary
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Create Store]")
 

@@ -72,7 +72,7 @@ Create a store manually, if you do not want to use the wizard.
         Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
     - *Omni-Channel* module   
     The following attribute sets have been created:    
-        - A connection *Venduo POS store "Name of new store"*
+        - A connection *POS store "Name of new store"*
         - A variant set *Set for POS for "Name of the new store"* 
         - A variant set *Offer option set for POS store "Name of the new store"* <!--- bei meinem letzten Store "Actindo2" hat er den jetzt nicht erstellt??-->
 
@@ -435,7 +435,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation Accounting*
 
-![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAllocAccounting.png "[Allocate accounts global settings]")
+![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Allocate accounts global settings]")
 
 1. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies.    
     For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).

@@ -64,7 +64,7 @@ At least one new product type has been created, see [Create an attribute set](..
 
 ## Create an offer for POS
 
-Create an offer in the *Omni-Channel* module or a product in the *PIM* module, so you can offer and select the products/offers in the *Venduo POS* store.
+Create an offer in the *Omni-Channel* module or a product in the *PIM* module, so you can offer and select the products/offers in the POS store.
 
 If you have the *PIM* module in use, it is recommended to create/edit the products in the *PIM* module. Changes to the *PIM* product are automatically transferred (via ETL) to the offers available in the *Omni-Channel* module.  
 Especially if you want to exchange your product data available in the *PIM* module with your stores, you must additionally create the ETL mappings and processes for the data transfer between the PIM product data and the Omni-Channel offer data.
@@ -169,7 +169,7 @@ The following image shows how QuickSelects can organize the most requested offer
 
 ### Define a QuickSelect attribute
 
-When creating a POS store, a QuickSelect attribute is automatically created in the *DataHub* module. Edit the QuickSelect attribute to specify the different QuickSelect elements for a *Venduo POS* offer.
+When creating a POS store, a QuickSelect attribute is automatically created in the *DataHub* module. Edit the QuickSelect attribute to specify the different QuickSelect elements for a POS offer.
 
 #### Prerequisites
 
@@ -306,7 +306,7 @@ No prerequisites to fulfill.
 
 ### Define the voucher setting
 
-You need to define the created product as a voucher to use it in the *Venduo POS* store.
+You need to define the created product as a voucher to use it in the POS store.
 
 #### Prerequisites
 
@@ -343,7 +343,7 @@ Pre-printed vouchers have the following special features:
 - The amount entered when creating the voucher is added to the amount already existing on the voucher card.
 - The voucher is created store-specific in the *Omni-Channel* module.
 
-Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *Venduo POS base set*, contains the *Voucher* attribute, which allows you to classify an offer as a voucher. Since the voucher is store-specific, create the voucher offer in the *Omni-Channel* module.
+Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *POS basic set*, contains the *Voucher* attribute, which allows you to classify an offer as a voucher. Since the voucher is store-specific, create the voucher offer in the *Omni-Channel* module.
 
 #### Prerequisites
 
@@ -377,7 +377,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 
 7. Define the voucher. Note the following:
 
-    > [Info] This description relates to the *Venduo POS base set*. 
+    > [Info] This description relates to the *POS basic set*. 
 
     - Enter **voucher** in the *Barcode* field.
     - Enter a default value in the *Price* field. This value can be overwritten individually when selling the voucher.
@@ -395,6 +395,26 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 
 If you want to use the *Age rating* feature, the attribute set assigned to the PIM product should contain an age rating attribute in which the required minimum age of a buyer is specified. Refer to the *PIM Basic set* attribute set for this.     
 For detailed information on configuring this feature, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
+
+
+<!---NEU-->
+## Define promotions for POS
+You can define promotions for POS by adding a promotion price and a validity period to a POS offer.  
+For this feature, the following attributes have been added to the POS basic set:
+- Special price: Attribute with which a promotions price can be specified.
+- Special price start: Attribute, with which the start date of a promotion can be specified.
+- Special price end: Attribute, with which the end date of a promotion can be specified.
+
+
+### Add attributes to offer option set
+
+Add these attributes to your offer option set to have them available in your stores.
+
+
+
+
+
+
 
 <!---NEU-->
 ## Create a price group for POS
@@ -421,14 +441,14 @@ No prerequisites to fulfill.
 
 3. Create the attribute(s), with which you define the price group itself, for example the *pos_member_price* attribute. You can assign this price group to offers later to be able to define a special price for customers assigned to this price group. It must be of the *Floating point number* data type. 
 
-3. Assign this attribute to the *Venduo POS base set* attribute set.
+3. Assign this attribute to the *POS basic set* attribute set.
 
 For detailed information, see [Create an attribute](../../DataHub/Integration/01_ManageAttributes.md#create-an-attribute) in the *DataHub* documentation.
 
 
 ### Declare the price group attribute for customer master data
 
-Declare the field in which the price group is stored in the customer master data. 
+In the customer master data, declare the field in which the price group is stored. 
 
 #### Prerequisites
 
@@ -441,7 +461,9 @@ Click the *Price group* drop-down list and select the field you want to use for 
 
 ### Activate the price groups
 
-Activate the price groups you want to use in your stores. You can also activate the price groups store-specific.
+Activate the price groups you want to use in your stores. In this case, the price group attributes must have been included in the *POS basic set* attribute set.
+
+> [Info] You can also activate the price groups store-specific, see [Admin settings &ndash; store](/POS/UserInterface/02b_Stores.md#admin-settings---store).    
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*   
 *Venduo POS > Management > Tab STORES > Tab Admin settings > Entry Active price group*
@@ -451,12 +473,13 @@ Activate the price groups you want to use in your stores. You can also activate 
 Enable the toggles next to the desired price groups.
 
 
-
 ### Add the price group price to offers
 
  Assign the attribute for defining the price group-related price, for example the *pos_member_price* attribute, to each offer, to which a price group-specific price should apply.   
 
- Because you added the price group attribute to the *Venduo POS base set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
+ Because you added the price group attribute to the *POS basic set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
+
+ > [Info] also want to offer the price groups for product options, you must also assign the price group attribute to the *Offer option set for POS "Name of the store"*. 
 
 #### Prerequisites
 
@@ -470,8 +493,8 @@ The attribute for defining the price group-related price has been defined in the
 
 1. Click the *Connections* drop-down list and select the connection to the store, for which you want to assign the price group price to the offers.
 
-2. Select an offer, for which a special price group price should apply. If the offer has a master offer with variants, select this one. This allows that the price is automatically inherited by all variants.    
-    The *Edit offer "offer name"* view is displayed. The *Attributes* tab is displayed by default. Only the *Unassigned Group* is available.
+2. Select an offer, for which a special price group price should apply. If the offer has a master offer with variants, select this one. This allows that the price group price is automatically inherited by all variants.    
+    The *Edit offer "offer name"* view is displayed. The *Attributes* tab is displayed by default. Only the *Unassigned Group* is available, in which you can enter store-specific values for this offer.
 
     ![Edit offer](../../Assets/Screenshots/POS/Management/PriceGroups/PriceGroupOffer.png "[Edit offer]")
 
@@ -515,7 +538,7 @@ No prerequisites to fulfill.
 3. Enter a key for the product option in the *Key* field.
 
 4. Click the [SAVE] button.    
-    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *Venduo POS base set* attribute set. Since the *Venduo POS base set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
+    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
 
 5. If desired, add additional product options.
 
