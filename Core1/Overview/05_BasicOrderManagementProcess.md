@@ -71,7 +71,7 @@ The process depicted below is a standard approach that can be completely configu
 | Blue | Business process step |
 
 
-### 1 &dash; From the shop to the Actindo Core1 Platform
+### 1 &ndash; From the shop to the Actindo Core1 Platform
 
 ![From shop to Actindo Core1 Platform](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_1.jpg "[From shop to Actindo Core1 Platform]")
 
@@ -86,7 +86,7 @@ The order contains, at least, the following basic data:
     - Applicable discounts and ancillary services, for example, gift wrapping or express delivery 
 
 
-### 2 &dash; Order confirmation and stock reservation
+### 2 &ndash; Order confirmation and stock reservation
 
 ![Order confirmation and stock reservation](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_2.jpg "[Order confirmation and stock reservation]")
 
@@ -97,7 +97,7 @@ The order is then further processed in the *Order Management* module, which gene
 Since a company may have several warehouses, the stock withdrawal matrix determines the warehouse where the material is taken from based on different criteria, such as geographical location, ordered quantity or available stock, among others. For detailed information, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* module documentation.
 
 
-### 3 &dash; Initiation of the delivery process
+### 3 &ndash; Initiation of the delivery process
 
 ![Initiation of the delivery process](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_3.jpg "[Initiation of the delivery process]")
 
@@ -108,7 +108,7 @@ In order for a delivery note to be created, the stock level in the applicable st
 For detailed information on the different warehouse posting types, see [Posting types](../../RetailSuiteWarehousing/UserInterface/04_PostingTypes.md) in the *Warehousing* module documentation.
 
 
-### 4 &dash; Sales transaction posting
+### 4 &ndash; Sales transaction posting
 
 ![Sales transaction posting](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_4.jpg "[Sales transaction posting]")
 
@@ -119,7 +119,7 @@ Once the invoice is created, an open item is posted to the customer account in t
 > [Info] The tax rate to be applied depends on the ship-to country, the tax zone, and the product type. Based on these parameters, a decision matrix automatically determines the tax rate to be applied in the invoice. This decision matrix is configured in the *Taxes* module, see [Manage the decision matrix](../../Taxes/Operation/01_ManageDecisionMatrix.md).
 
 
-### 5 &dash; Payment handling
+### 5 &ndash; Payment handling
 
 ![Payment handling](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_5.jpg "[Payment handling]")
 
@@ -130,7 +130,7 @@ The payment is then sent to the *Accounting* module via the *Payment processing*
 > [Info] The *Payment processing* module serves as link between any available payment source and the *Accounting* module. Other payment methods, such as bank transfer or direct debit, can also be configured, as long as the necessary process steps are defined in a workflow. 
 
 
-### 6 &dash; From the warehouse to the customer via fulfiller
+### 6 &ndash; From the warehouse to the customer via fulfiller
 
 ![From warehouse to customer via fulfiller](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_6.jpg "[From warehouse to customer via fulfiller]")
 
@@ -143,7 +143,7 @@ The fulfiller confirms receival of the dispatch note and begins processing the r
 > [Info] If your company has an internally managed warehouse, the *Fulfillment* module is not necessary and this process step is omitted altogether. In this case, the *Order Management* module allows you to create pick lists based on the delivery notes. Additionally, you can use the Actindo *IQS* (Intelligent Quick Shipment) module for warehouse management tasks, such as picking and packing, and the printout of labels and relevant business documents, such as the delivery note.    
 
 
-### 7 &dash; Final delivery to the customer
+### 7 &ndash; Final delivery to the customer
 
 ![Final delivery to the customer](../../Assets/Screenshots/Core1Platform/BasicPhilosophy/OrderManagementProcess_7.jpg "[Final delivery to the customer]")
 
