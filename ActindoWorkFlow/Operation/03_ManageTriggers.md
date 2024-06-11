@@ -74,7 +74,8 @@ No prerequisites to fulfill.
 
     > [Info] Repeat the steps **3** to **10** to add a further trigger. You can add an unlimited number of triggers to a workflow.
 
-11. Edit trigger for workflow Journal item
+11. Click the [APPLY CHANGES] button.  
+    The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
 

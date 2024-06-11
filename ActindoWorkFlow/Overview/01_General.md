@@ -9,7 +9,7 @@ This documentation refers to *Workflows* module version 1.4.0. There may be diff
 
 The *Workflows* module offers the following benefits:
 - More efficiency and flexibility via business processes overview
-- Maximum control via real time process display and detailed log
+- Maximum control via real-time process display and detailed log
 - Fully customizable through user-defined workflows
 - Define specific business rules for any process or scenario
 

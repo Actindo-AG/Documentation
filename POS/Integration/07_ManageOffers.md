@@ -10,7 +10,7 @@
 
 To offer products in POS, it is recommended to create the products in advance in the *PIM* module and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
 <!---Ich glaube das versteht man so nicht. Vorschlag:
-To offer products in POS, it is recommended to create the products in the *PIM* module first and then import them later into the *Omni-Channel* module. From there, the *Venduo POS* module receives its offers.-->
+To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.-->
 
 
 ## Create products for POS
@@ -103,8 +103,8 @@ Create an offer manually. For detailed information, see [Create a manual offer](
 
 ### Create a single channel offer in PIM
 
-You can create an offer for a single sales channel for the selected product in the *PIM* module.
-<!---Warum würde ich das tun wollen? Use case?-->
+You can create an offer for a single sales channel for the selected product in the *PIM* module. This allows you to offer specials in your stores.
+
 
 
 #### Prerequisites
@@ -201,7 +201,7 @@ No prerequisites to fulfill.
 
 5. Enter a name in the *Name* field.
 
-    > [Info] The entered name equals the name of the QuickSelect element that will be displayed in POS.
+    > [Info] The entered name equals the name of the QuickSelect element that will be displayed in Venuo POS.
 
 6. If desired, enter a key in the *Key* field.
 <!---Link war tot. Gibt es das noch?
@@ -229,7 +229,7 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 #### Prerequisites
 
 - At least one QuickSelect attribute has been created, see [Define a QuickSelect attribute](#define-a-quickselect-attribute).
-- At least one offer is created for *Venduo POS*, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one offer is created for POS, see [Create an offer for POS](#create-an-offer-for-pos).
 
 #### Procedure
 
@@ -245,7 +245,6 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 2. Scroll down in the *Attribute* tab and select the QuickSelect element in the *QuickSelect Category* drop-down list.
 
     ![Define QuickSelect](../../Assets/Screenshots/POS/Sales/Cashpoint/OfffersQuickSelectAttribute.png "[Define Quickselect]")
-
 
 3. Click the [SAVE] button in the upper right corner.    
     The *Edit offer* view is closed. The offer with the QuickSelect element is saved.

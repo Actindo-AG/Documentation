@@ -65,7 +65,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
     The *Pay desks* wizard window is displayed when the store is created.  
     The following entities have been automatically created:  
     - *DataHub* module:   
-        The following attribute sets have been created<!--- Ist das richtig? Sollte man hier vielleicht eine Tabelle einfügen und erklären, was sie einzelnen Sets bedeuten und was die Kunden damit machen können?-->:
+        The following attribute sets have been created<!--- Julian, Ist das richtig? Sollte man hier vielleicht eine Tabelle einfügen und erklären, was sie einzelnen Sets bedeuten und was die Kunden damit machen können?-->:
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
         - Payment items channel POS Store "Name of new store"

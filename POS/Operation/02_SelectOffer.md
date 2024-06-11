@@ -3,7 +3,7 @@
 
 # Record the purchase
 
-The *Venduo POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list &ndash; and to ensure the protection of minors.  
+The *Venduo POS* module offers several ways to select an offer and to search for it. Additionally, you can prepare further actions for editing the bill list, to ensure the protection of minors, to create returns, and to add product options.  
 
 
 ## Use single scan

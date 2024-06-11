@@ -37,19 +37,20 @@ To print receipts, invoices, shift summaries etc., you must configure a printer 
 
 5. If necessary, click the *Tray* drop-down list and select the appropriate tray. By default, the tray is automatically selected.
 
-6. Select the portrait or the landscape format in the *LAYOUT* section.
+6. Select the portrait or the landscape format in the *LAYOUT* section by clicking on the required rectangle.
 
     > [Info] For receipt printers always select *Portrait* format.
 
 7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
+<!----Hallo Julian, auf der rechten Seite gibt es diese beiden Felder nicht mehr (Screenshot neu gemacht) nicht mehr in dem Modul, nicht?>
 8. Click the *Module* drop-down list and select **Venduo POS** in the list of modules.
 
 9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks, as displayed in the example below.
 
     > [Info] Bear in mind that it may take some time for newly created pay desks to be displayed in the *Event* drop-down list.
 
-    ![Print settings example](../../Assets/Screenshots/Printing/Settings/PrintSettingsExample.png "[Print settings example]")
+    ![Print settings example](../../Assets/Screenshots/Printing/Settings/PrintSettingsExample.png "[Print settings example]")-->
 
 10. Click the [SAVE] button in the bottom right corner of the window.   
     The printer is configured for the selected pay desk. The *Print settings* window is closed. The *Settings for group Global* view is displayed again. The new setting is displayed in the list of settings.

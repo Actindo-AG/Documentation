@@ -84,7 +84,7 @@ Manage the warehouse logistics for POS offers to ensure that these are active fo
 
 #### Procedure
 
-Activate the warehouse logistics for the POS offers. For detailed information see [Activate the warehouse logistics for a product](../../RetailSuiteWarehousing/Integration/06_ActivateWarehouseLogistics.md) in the *Warehousing* documentation.
+Activate the warehouse logistics for the POS offers. For detailed information, see [Activate the warehouse logistics for a product](../../RetailSuiteWarehousing/Integration/06_ActivateWarehouseLogistics.md) in the *Warehousing* documentation.
 
 
 
