@@ -85,6 +85,7 @@ A combination of several discount options is not allowed. For example, you canno
 ## Check the customer-specific discount
 
 If your company uses the *Customer-specific discount* feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
+
 > [Info] If a customer has a customer-specific discount, other discount options are not allowed.
 
 #### Prerequisites
@@ -181,16 +182,16 @@ If your company supports the delivery of an offer, you can easily initiate a del
 <!---NEU-->
 ## Assign a price group
 
-A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners. For example, an assigned price group can reduce the price for specific offers. It is stored in the customer master data, so that some offers may cost less.   
+A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example members or business partners. For example, an assigned price group can reduce the price for a specific offer. The price group is stored in the customer master data, so that some offers may cost less.   
 
 If your company supports this feature, the price will be automatically reduced for the customers concerned. You can also assign the price group manually. 
 
 #### Prerequisites
 
-- A price group price has been assigned to the related offers.
+- A price group price has been assigned to the related offers, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
 - A price group has been assigned to a customer.
 
-#### Procededure
+#### Procedure
 
 *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
@@ -201,7 +202,7 @@ If your company supports this feature, the price will be automatically reduced f
 
 2. Click the [PAY] button at the bottom of the bill list.   
     The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. <!---noch mal prüfen in bill list, wenn Add customer wieder geht.-->
-
+    <!---Screenshot neu machen, wenn add customer geht-->
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 3. If desired, select the price group manually, for example, if you know the customer. To do this, click the *Price group* drop-down list and select the price group.
@@ -209,7 +210,7 @@ If your company supports this feature, the price will be automatically reduced f
 4. Click the [SAVE] button next to the *Price group* field.   
     If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed. The old amount is crossed out, and the new amount is calculated.
 
-    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillListChangedPrice.png "[Changed price]")
+    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Changed price]")
 
 
 

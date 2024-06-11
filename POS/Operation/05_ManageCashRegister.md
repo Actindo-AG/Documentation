@@ -88,7 +88,9 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
     > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the *Counted* column in the *Payment tally* box.
 
-2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5].[+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each peace is specified in the *Type* column.
+2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5].[+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each peace is specified in the *Amount* column.
+
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash2.png "[Count Cash]")
 
 3. Click the next row and continue entering the number of coins or banknotes in the *Amount* column input field. Repeat this step for all rows.
 

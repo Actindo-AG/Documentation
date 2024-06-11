@@ -8,7 +8,7 @@ The *Venduo POS* module offers several ways to select an offer and to search for
 
 ## Use single scan
 
-If the same offer is selected more than once, it is displayed in the bill list as one line item with the corresponding quantity indication.     
+If you select the same offer more than once, it is displayed in the bill list as one line item with the corresponding quantity indication. This means that the individual offer with the quantity 1 is not displayed in the invoice list.   
 Optionally, you can activate the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
 
 #### Prerequisites
@@ -98,7 +98,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
     All offers assigned to the selected category are displayed.
 
 2. Select the desired offer by clicking the corresponding button.   
-    The offer is added to the bill list if no age rating prevents this, see [Verify the age](#verify-the-age).   
+    The offer is added to the bill list if no further features such as an [age verification](#verify-the-age) or a [product option](#add-a-product-option) are interposed.
     
 
 
@@ -125,7 +125,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The search already provides you with proposals for your keyword as you type.
 
 3. Select the desired offer by clicking the corresponding product in the list.   
-    The offer is added to the bill list on the right side if no age rating prevents this, see [Verify the age](#verify-the-age). 
+    The offer is added to the bill list on the right side if no further features such as an [age verification](#verify-the-age) or a [product option](#add-a-product-option) are interposed.
      
     > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
@@ -156,7 +156,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
 
 3. Select the desired offer by clicking the corresponding offer in the list.   
-    The offer is added to the bill list on the right side.  
+    The offer is added to the bill list if no further features such as an [age verification](#verify-the-age) or a [product option](#add-a-product-option) are interposed. 
 
     > [Info] The number remains in the search bar when you add an offer to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
@@ -249,13 +249,16 @@ There are products where the buyer has the option of customizing them. If a stor
 1. Select an offer.   
     If a product option is associated to the offer and your store offers this service, the *Choose options* window is displayed.
 
-    ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption.png "[Choose options]")
+    ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption1.png "[Choose options]")
 
 2. Present the various options to the customer.   
-    + If the customer does not want to use the service, click the [CANCEL] button.   
-    The *Choose options* window is closed.
-    + If the customer wants to use the service, continue.  
-        Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. 
+    + If the customer does not want to use the service, click the [SAVE] button.   
+        The *Choose options* window is closed and the selected offer is added to the bill list.
+    + If the customer wants to use the service, select the required service.  
+        Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. In this case, a field for adding this information is displayed.  
+
+        ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption2.png "[Choose options]")
+        
 
 3. If applicable, enter the name or other information that might be required.
 
