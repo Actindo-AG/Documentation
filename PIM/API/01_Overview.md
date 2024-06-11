@@ -117,8 +117,8 @@ Generally, the *Actindo Core1 OpenAPI* uses the standard HTTP status codes to in
 | Code | Description | Notes |
 | ---- | ----------- | ------ |
 | 200  | OK          |  Everything worked as expected      |
-| 400  | Bad request | Unacceptable request, often due to missing required parameter or header, e.g. Content-Type: application/json, or malformed json |
-| 401  | Unauthorized | Authentication has failed, e.g. due to invalid or missing authentication credentials |
+| 400  | Bad request | Unacceptable request, often due to missing required parameter or header, for example, Content-Type: application/json, or malformed json |
+| 401  | Unauthorized | Authentication has failed, for example, due to invalid or missing authentication credentials |
 | 429  | Too many requests   | You sent too many requests in a given amount of time |
 | 530  | Site frozen | The tenant is currently frozen due to maintenance work, module installations or updates |
 | default | Generic error | - | 

@@ -11,7 +11,7 @@ For an overview of the Actindo data model, see [Data model](../../DataHub/Overvi
 
 ## Attributes
 
-An attribute defines a characteristic to describe an entity, for example, a product in the case of the *PIM* module. All attributes can be created and maintained in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, some entity-specific attributes, such as product-related attributes or offer-related attributes, can be created and maintained in the corresponding module, that is, in *PIM* or *Omni-Channel* respectively. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attributes may be created via driver.
+An attribute defines a characteristic to describe an entity, for example, a product in the case of the *PIM* module. You can create and manage all attributes in the *DataHub* module. Therefore, all attributes available in the system are displayed in *DataHub*. Besides, you can create and manage entity-specific attributes, such as product-related attributes, in the corresponding module, in this case in *PIM*. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attributes may be created by the driver.
 
 All attributes have a key. This key is required for API access and therefore must be system-wide unique. 
 
@@ -23,8 +23,8 @@ You can define your own attribute keys, but we strongly recommend that you follo
 | :------- | :------- |
 | **Plugin** | Plugin or module where the attribute originates from. If an attribute originates in the *PIM* module, its key should start with *_pim*. |
 | **Attribute short name** | Any descriptive name you want to give to an attribute, such as *attributeSetId* or *art_name*. No spaces are allowed here, therefore you have to write the attribute name in one word or join the different parts with a **single** underscore. |
-| **Scope** | For multi-scope attributes, key of the scope in which the attribute is used. You can use an attribute in different scopes, for example, *_pim_products_description* in your web shop and in a reseller platform such as Amazon. This way, your product description can be different in your web shop and in the reseller platform. In this case, the attribute is multi-scope and must be accordingly defined in its key. Note that the scope is separated with a **double** underscore in the attribute key. The attribute key would therefore be *_pim_products_description__webshop* and *_pim_products_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
-| **Language** | For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain an attribute, e.g. *_pim_products_description* in different languages, for instance, in English (United States) and in German (Germany). In this case, the attribute is multi-language and must be accordingly defined in its key. The attribute key would therefore be *_pim_products_description__en-US* and *_pim_products_description__de-DE*. Note that the language is separated with a **double** underscore in the attribute key. For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
+| **Scope** | For multi-scope attributes, key of the scope in which the attribute is used. You can use an attribute, such as *_pim_products_description*, in different scopes, for example, in your web shop and in a reseller platform. This way, you can create different product descriptions for your web shop and for the reseller platform. In this case, the attribute is multi-scope and you must define it accordingly in its key. Note that the scope is separated with a **double** underscore in the attribute key. The attribute key would therefore be *_pim_products_description__webshop* and *_pim_products_description__reseller_platform*. For detailed information, see [Configure the scopes settings](../Integration/05_ConfigureChannels.md) and [Manage the scopes in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
+| **Language** | For multi-language attributes, key of the language (ISO language code) in which the attribute is maintained. You can maintain an attribute, such as *_pim_products_description*, in different languages, for example, in English (United States) and in German (Germany). In this case, the attribute is multi-language and your must define it accordingly in its key. The attribute key would therefore be *_pim_products_description__en-US* and *_pim_products_description__de-DE*. Note that the language is separated with a **double** underscore in the attribute key. For detailed information, see [Configure the language settings](../Integration/05_ConfigureLanguages.md) and [Manage the languages in DataHub](../../DataHub/Integration/04_ManageChannels.md). |
 
 Depending on the nature of your products, you will need to create different attributes. For example, if you are selling shirts, you will need to define the material, type of fit or the collar size (example attribute keys: *_pim_material*, *_pim_fit*, *_pim_collar_size*). However, if you sell smartphones, you need to specify the storage, the screen size, or the case color (example attribute keys: *_pim_storage*, *_pim_screen_size*, *_pim_case_color*). 
 
@@ -41,12 +41,12 @@ The following examples are based on predefined *PIM* attributes. If you have cre
 |------------------|-----------------------------|-----------|
 | Name             | *_pim_art_name*             | string    |
 | Price                                             | *_pim_price*                                        | PIM price field   |
-| Tax class                                         | *_taxes_tax_class*                                  | taxclass |
+| Tax class                                         | *_pim_tax_class*                                    | TreeNode |
 | Product description                               | *_pim_products_description*                         | textfield    |
 | Product description (multi-scope, multi-language) | *_pim_products_description__scope__language_code*   | textfield    |
 
 
-[comment]: <> (Frage: Tax class can be data type "tax class" and "tree node", i.e. Standard, ermäßigt. Was ist data type taxclass? Wieso ist es nicht zu finden in API products? Owning module ist Taxes? Ähnlich wie pim_price and PIM price field data type. Warum nicht data type number?)
+[comment]: <> (Andreas: In meiner Sandbox kann Tax class Datentyp "TaxClass" und "TreeNode" (Standard, ermäßigt) haben. Wenn Datentyp TaxClass ist, ist der owning module UCSProductSync. Wenn Datentyp TreeNode ist, ist owning module Omni-Channel (key startet mit _channels_tax_class...). Für dieses Beispiel, wäre es sinnvoll, ein Tax class attribute so wie in der Tabelle zu definieren? Oder was wäre standarmäßig der owning module für tax class? Taxes?)
 
 The following graphic visualizes a series of attributes, within an attribute set, maintained in different scopes and languages, and how these attributes define a specific product: 
 
@@ -56,7 +56,7 @@ The following graphic visualizes a series of attributes, within an attribute set
 
 ## Attribute sets
 
-An attribute set includes a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. All attribute sets can be created and maintained in the *DataHub* module. Therefore, all attribute sets available in the system are displayed in *DataHub*. Besides, some entity-specific attribute sets, such as a product-related attribute sets or offer-related attribute sets, can be created and maintained in the corresponding module, that is, in *PIM* or *Omni-Channel* respectively. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attribute sets may be created via driver.
+An attribute set includes a number of attributes that define an entity type, for example, a specific type of product in the case of the *PIM* module. You can create and manage all attribute sets in the *DataHub* module. Therefore, all attribute sets available in the system are displayed in *DataHub*. Besides, you can create and manage entity-specific attribute sets, such as product-related attribute sets, in the corresponding module, in this case in *PIM*. If you install additional plugins to communicate with third-party systems, such as external sales channels or service providers, other attribute sets may be created by the driver.
 
 All attribute sets have a key. This key is required for API access and therefore must be system-wide unique. 
 
@@ -78,7 +78,7 @@ The following examples are based on predefined *PIM* attribute sets. If you have
 | PIM electronics    | *_pim_electronics*  |
 | PIM shirts         | *_pim_shirts*       |
 
-Apart from the *PIM basic set*, you can create other sets to define other types of products, such as shirts or notebooks. These product-specific attribute sets will usually be based on the *PIM basic set*, that is, will inherit the attributes included in it, and contain additional attributes needed to define the specific product type, such as a piece of clothing or a computer.  
+Apart from the *PIM basic set*, you can create other sets to define other types of products, such as shirts or notebooks. These product-specific attribute sets are usually based on the *PIM basic set*, that is, inherit the attributes included in it. Besides, they contain additional attributes needed to define the specific product type, such as a piece of clothing or a computer.  
 
 You can create your own attribute sets in your instance via user interface, as well as edit or deactivate existing attribute sets. For detailed information, see [Manage the attribute sets](../../DataHub/Integration/02_ManageAttributeSets.md) in the *DataHub* documentation.
 
@@ -89,7 +89,7 @@ The following graphic visualizes the attribute set structure and the inheritance
 
 
 
-## Master and variant products 
+## Master and variant products
 
 In the *PIM* module, you can create the following kinds of products:
 
@@ -111,7 +111,7 @@ The following graphic visualizes a series of attributes, within an attribute set
 
 A variant set includes the attributes needed to define a variant product. Therefore, a variant set must be assigned to an attribute set, that is, to the type of product to which you want to create the variants. For example, if you want to create color variants for the product "shirt", you have to create the variant set *Color* containing the defining attribute *_pim_color* and assign it to the attribute set *_pim_shirts*. 
 
-Like the variant products, variant sets are created and managed in the *PIM* module. You can create variant sets for a product type in your instance via user interface, as well as edit existing variant sets. For detailed information, see [Manage the variant sets](../Integration/07_ManageVariantSets.md).
+Like the variant products, you can create and manage variant sets for product types via user interface in the *PIM* module. For detailed information, see [Manage the variant sets](../Integration/07_ManageVariantSets.md).
 
 The following graphic visualizes the attribute and variant set structure, the inheritance principle, and how the attribute set and variant set attributes define a specific product:
 
@@ -121,7 +121,7 @@ The following graphic visualizes the attribute and variant set structure, the in
 
 ## Entities
 
-An entity is an object containing data, for instance, a *PIM* product, an *Omni-Channel* offer, a *DataHub* attribute, or an attribute set. Every entity has a unique ID, which is automatically assigned by the system for internal purposes. When accessing the system via API, you need the entity ID of all the fields that are required in your request for the system to be able to recognize the entity. 
+An entity is an object containing data, such as a *PIM* product, an *Omni-Channel* offer, a *DataHub* attribute, or an attribute set. Each entity has a unique ID that is automatically assigned by the system for internal purposes. When accessing the system via API, you need the entity ID of all the fields that are required in your request for the system to be able to recognize the entity. 
 
 You can find out the ID via user interface or via API:
 

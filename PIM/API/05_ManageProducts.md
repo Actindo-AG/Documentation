@@ -43,8 +43,8 @@ The following table displays a list of all attributes contained in the *PIM basi
 | modified	| string | Date and time of last modification | Format: YYYY-MM-DD HH:MM:SS |
 | modifiedBy |integer | User ID | To find a user ID, go to *Settings > Users and groups > User management*. |
 | attributeSet | object | Product attribute set | It contains the required field **id**. |
-| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, e.g. when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
-| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *Variant-1* respectively. |
+| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, for example, when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
+| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 | _pim_art_name | string | Product name | |
 | _pim_art_name__scope__language | string | Product name in a specific scope and language | If attribute is multi-scope and multi-language |
 | _pim_catalog | object | Product categories | It contains the required field **id**.  |
@@ -52,7 +52,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_long_text__language | string | Product long name in a specific language | If attribute is multi-language |
 | _pim_ean | string | Product EAN code | |
 | _pim_customs_number | string | Customs tariff number | |
-| _pim_origin | object | Country of origin | It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, e.g. DEU for Germany. |
+| _pim_origin | object | Country of origin | It contains the required field **code3digit**. <br> Country code format: ISO 3166-A3, for example, DEU for Germany. |
 | _pim_valid_until | string | Expiration date | Format: YYYY-MM-DD HH:MM:SS |
 | _pim_is_sale | boolean | The product is a sale item. | Options are *true* or *false*. |
 | _pim_fsk18 | boolean | Suitable for persons above 18 | Options are *true* or *false*. |
@@ -81,7 +81,7 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_products_short_description | string | Product short description | |
 | _pim_products_short_description__scope__language | string | Product short description in a specific scope and language | If attribute is multi-scope and multi-language | 
 | _pim_products_bundle | array of objects | Products offered in a bundle with the addressed product | It contains the required object **entity**, which contains in turn the required field **id**, that is, the bundled product, and **quantity**, the amount of it.  |
-| _pim_products_relations | object | Product associations | It adds related products to the addressed product, e.g. for product recommendation. |
+| _pim_products_relations | object | Product associations | It adds related products to the addressed product, for example, for product recommendation. |
 | _pim_completeness | object | Required attributes completeness | This attribute is for internal use only. |
 | _pim_images | object | Product image | It allows to upload images. It contains the required field **id**. You need the path to the file location. | 
 | _pim_files | string | Product-related file | It allows to upload files. It contains the required field **id**. You need the path to the file location. |
@@ -117,9 +117,9 @@ Depending on the kind of product, the required fields vary.
 | ------------- | ----------- | ----------- | ------------ |
 | **sku**      | string   |  Product SKU | |
 | **attributeSetId**   | integer  | Attribute set identification number | |
-| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, e.g. when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
+| variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, for example, when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
 | **variantSet**    | object  | Set containing the attributes for product variation | It contains the required field **id**.  |
-| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *child-1* respectively. |
+| _pim_variants | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *child-1* respectively. |
 
 
 ### Sample: Create a single product
@@ -191,7 +191,7 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **attributeSetId**   | integer  | Attribute set identification number | |
 | variantStatus | string | Product status | It indicates whether a product is *single*, *master* or *variant*. This field is updated automatically when a product status changes, for example, when adding variants to a product, thus becoming a master. Therefore, it cannot be manually updated. |
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
-| **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, e.g. *_pim_ean* and *Variant-1* respectively. |
+| **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 
 ### Sample: Add an image to a product
 

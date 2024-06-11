@@ -64,17 +64,20 @@ The exemplary attributes and values provided in the request sample should be cus
 
 The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client authorization for API access. To make authenticated API requests, you need to set up the OAuth authorization first.
 
-#### Prerequisites
-
-- An app for client access is available. 
-- A user has been created.
-- The user has the appropriate rights.
 
 ### Step 1 &ndash; Register the client app
 
 If you want to gain access to the *Actindo Core1 Platform* from an external app via API, first of all you have to register your client app in the developer portal. 
 
 [comment]: <> (Andreas: Hättest du ein gutes Beispiel für mich zu client app?)
+
+#### Prerequisites
+
+- An app for client access is available. 
+- A user has been created.
+- The user has the appropriate rights.
+
+#### Procedure
 
 *Dev Tools > Tab APP REGISTRATIONS*
 
@@ -118,10 +121,18 @@ To be able to generate an access token for authentication, you need to get an au
 
 [comment]: <> (Check, ob das stimmt und ob hier nötig!)
 
+[comment]: <> (Imogens comment: ich bin jetzt auch gerade abgehängt: Für welche Kommunikationsrichtung brauche ich das? von externem System zu Actindo-Instanz,? was ist der use case dahinter?)
+
 > [Caution]  
     Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
 
 Following the example provided in [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app), we describe the process in the [https://oauthdebugger.com/](https://oauthdebugger.com/ "[https://oauthdebugger.com/]") website. You can also use another third-party website or your own system. 
+
+#### Prerequisites
+
+You have registered the client app, see [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app).
+
+#### Procedure
 
 *OAuth debugger*
 

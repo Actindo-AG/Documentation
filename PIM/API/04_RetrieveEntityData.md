@@ -1,6 +1,6 @@
 # Retrieve entity data
 
-To make an API call to the *Actindo Core OpenAPI*, you usually need to provide one or several entity IDs in your request body, such as product ID or attribute set ID, for the system to recognize the entity you are addressing. The ID, that is, the entity identification number, is automatically assigned by the system when creating an entity.
+To make an API call to the *Actindo Core OpenAPI*, you usually need to provide one or several entity IDs in your request body for the system to recognize the entity you are addressing. The entity identification number (ID) is automatically assigned by the system when creating an entity.
 
 For example, when you want to create a product, you need to send an *attributeSetId*, that is, the identification number of the attribute set of the product you want to create. You can find out an entity ID via user interface or via API. Besides, you can also retrieve other specific entity data via API if desired.
 
@@ -28,6 +28,8 @@ You can find out any entity ID via user interface as follows:
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
+[comment]: <> (Andreas: Ist es sinnvoll zu erklären, was ein endpoint ist? Und ein Resource? Und der Unterschied zwischen den beiden? Könntest du ggf. eine kurze Definition vorschlagen? Manchmal sind mir beide Begriffe sehr nah. Ich verstehe es so: Resources sind die data objects an sich, z.B. Produkt, Angebot, usw. Endpoints sind die Art und Weise, wie man die "adressiert", zum Erstellen, Editieren, usw.? Aber hier in unserer API, mit .get, .create, .save Endpoints, überschneiden sich für mich beide Begriffe ein wenig, oder?)
+
 If desired, you can also set filters to narrow down your request response. See [List products](./05_ManageProducts.md#list-products) for the filter definitions and request samples.
 
 In the following, a few helpful use cases are provided with their corresponding request samples. Refer to the API documentation in your instance under *Dev Tools > API > Module name* for a complete list of endpoints.
@@ -53,7 +55,7 @@ Get a list of all *PIM* attribute sets in your current instance, including the a
 
 > [Info] Since the attribute set ID is a whole number, you have to include the *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue* data type in your request.  
 
-[comment]: <> (Stimmt das so? Response scheint zu stimmen)
+[comment]: <> (Andreas: Stimmt das so? Response scheint zu stimmen)
 
 
 ### List the attributes in an attribute set
