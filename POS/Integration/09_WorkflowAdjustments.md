@@ -2,7 +2,7 @@
 
 # Prepare the workflows
 
-To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing Import channels order in OMS workflow.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
+To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing *Import channels order in OMS workflow*.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
 
 ![POS with other modules](../../Assets/Screenshots/POS/POSBusinessProcess.png "[POS with other modules]")
 
@@ -12,18 +12,18 @@ The following describes in detail how to perform these two different operations 
 
 ## Extend the Import channels order in OMS workflow
 
-Use your order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
+Use your customer-sprecific order workflow to transfer all sales-related POS postings to the *Order Management* and the *Accounting* module. 
 
 The order workflow is used to post an order confirmation business document (RB) to the *Order Management* module. There, further processing is initiated, such as postings to the *Warehousing* and the *Accounting* modules. When using the *Venduo POS* module, the order confirmation generates an open item in the customer's account in the *Accounting* module. In order to clear this open item, a cash invoice business document (RB) must be created in addition. This is then used to post cash payments in the *Accounting* module. For this reason, you must extend your order workflow, so that the cash invoice business document is posted to the *Accounting* module.
 
 The following procedures describe step-for-step how you can include the relevant processing for sales-related POS postings into your existing order workflow.
 
-> [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *Venduo POS* module are not available in the standard, the processing is not part of this standard workflow.
+> [Info] The *Import channels order in OMS and create delivery note* workflow is available as example workflow in the standard. But because transitions of the *Venduo POS* module are not available in the standard, the processing described here is not part of this standard workflow.
 
 
 ### Split the order confirmation and cash invoice processing
 
-Include the necessary cash invoice processing in your Import channels order in OMS workflow. To do this, you must include a special processing for the cash invoice business document (RB).   
+Include the necessary cash invoice processing into your *Import channels order in OMS* workflow. To do this, you must include a special processing for the cash invoice business document (RB).   
 The following procedure shows how to include a workflow transition that separates the processing of the cash invoice business document from the processing of the order confirmation business document (AB).
 
 #### Prerequisites
@@ -63,7 +63,7 @@ The following procedure shows how to include a workflow transition that separate
 
     ![Is RB?](../../Assets/Screenshots/POS/Sales/Workflow/IsRB.png "[Is RB?]")
 
-5. Insert the Split by criterion transition into your workflow. To do this, create more space to insert the Is RB? transition into the flow by moving the previous and the following transitions. Tips:   
+5. Insert the Split by criterion transition into your workflow. To do this, create more space to insert the *Is RB?* transition into the flow by moving the previous and the following transitions. Tips:   
     - Move the start and end place, so that more free space is available.   
     - Move the places and transitions separately, so that an orderly overall picture is created.
 
@@ -76,7 +76,7 @@ The following procedure shows how to include a workflow transition that separate
 
     ![Connect places](../../Assets/Screenshots/POS/Sales/Workflow/ConnectPlaces.png "[Connect places]")
 
-8. Join the *Is RB?* transition in the flow.
+8. Join the *Is RB?* transition into the flow.
 
     ![Join in flow](../../Assets/Screenshots/POS/Sales/Workflow/JoinInFlow.png "[Join in flow]")
 
@@ -100,7 +100,7 @@ Include a transition in your workflow that posts cash payments in the *Accountin
 #### Prerequisites
 - You have the required rights to edit a workflow.
 - The *UCS Sync for POS* plugin is installed.
-- You have included a Split by criterion transition in your order workflow, see [Split the order confirmation and cash invoice processing](#split-the-order-confirmation-and-cash-invoice-processing).
+- You have included a *Split by criterion* transition in your order workflow, see [Split the order confirmation and cash invoice processing](#split-the-order-confirmation-and-cash-invoice-processing).
 
 #### Procedure
 
@@ -165,10 +165,11 @@ Create the workflow needed to post non-sales-related POS postings in the *Accoun
   
     > [Info] If you want to add this one-step workflow to an existing workflow, you can add it by calling the **Actindo.Extensions.Actindo.UCSSyncPos.Workflows.addWorkflow** API end point.<!---Muss man dafür Start subprocess core action einfügen und dort den API endpoint eintragen?-->
 
-5. Select the start place in the search result list. 
+5. Select the data type for the start place in the search result list. 
 
 6. Click the *Choose the data type of your end place* field and enter **Modules.Actindo.POS.Models.JournalItem**.
-7. Select the end place in the search result list.  
+
+7. Select the data type for the end place in the search result list.  
 
 8. Click the [CREATE] button in the bottom right corner.   
     The new workflow has been created. The *New workflow* window is closed. The workflow editor with the defined start and end places is displayed.  
@@ -182,7 +183,7 @@ Create the workflow needed to post non-sales-related POS postings in the *Accoun
 
 #### Prerequisites
 
-- The Synchronize cash journal workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
+- The *Synchronize cash journal* workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -230,11 +231,11 @@ Create the workflow needed to post non-sales-related POS postings in the *Accoun
 
 ### Add the conditions 
 
-Add the conditions that define the triggers that initiate the Synchronize cash journal workflow.
+Add the conditions that define the triggers that should initiate the *Synchronize cash journal* workflow.
 
 #### Prerequisites
 
-- The Synchronize cash journal workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
+- The *Synchronize cash journal* workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -276,7 +277,7 @@ Add a transition with which the synchronization of the non-sales-related POS pos
 
 #### Prerequisites
 
-- The Synchronize cash journal workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
+- The *Synchronize cash journal* workflow has been created, see [Create the Synchronize cash journal workflow](#create-the-synchronize-cash-journal-workflow).
 - You have the required rights to edit a workflow.
 
 #### Procedure
@@ -290,7 +291,7 @@ Add a transition with which the synchronization of the non-sales-related POS pos
 
     ![Search action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/SearchAction.png "[Search action]")
 
-2. Click the *Search for an action* field and enter  **syncJournalItem** and select the **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem** entry.
+2. Click the *Search for an action* field, enter **syncJournalItem**, and select the **/Actindo.Extensions.Actindo.UCSSyncPos.JournalSync.syncJournalItem** entry.
 
     ![Sync journal item action](../../Assets/Screenshots/POS/Sales/Workflow/SearchActionJournalItem.png "[Sync journal item action]")
 
@@ -308,7 +309,7 @@ Add a transition with which the synchronization of the non-sales-related POS pos
 
     ![New place added](../../Assets/Screenshots/POS/Sales/Workflow/AddNewPlace.png) 
 
-6. Click the new place and drag and drop it on the end place.
+6. Click the new place and drag and drop it onto the end place.
 
     ![Workflow finalized](../../Assets/Screenshots/POS/Sales/Workflow/WorkflowFinalized.png "[Workflow finalized]") 
 
@@ -318,7 +319,7 @@ Add a transition with which the synchronization of the non-sales-related POS pos
     ![Context menu](../../Assets/Screenshots/ActindoWorkFlow/Workflows/ContextMenu.png "[Context menu]")
 
 8. Click the *Deploy* menu entry.   
-    A confirmation message is displayed. The workflow is finalized and deployed.
+    A confirmation message is displayed. The workflow configuration is finalized and deployed.
 
 
 

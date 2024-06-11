@@ -17,7 +17,10 @@ Successfully digitize your point of sale:
     All sales data including products, turnover, and means of payment from your cash registers are transmitted directly and in real-time to accounting and billing in the *Actindo Core1 Platform*. Orders and returns from stores are thus displayed together with your online sales channels.  
 
 - Independence through cloud POS    
-    The *Venduo POS* system is cloud-based and therefore available from anywhere on mobile devices. Physical cash drawers and payment terminals <!---Payment terminals können doch noch nicht angeschlossen werden, nicht?--> can also be controlled from the cloud POS.  
+    The *Venduo POS* system is cloud-based and therefore available from anywhere on mobile devices. Physical cash drawers and payment terminals <!---Payment terminals können doch noch nicht angeschlossen werden, nicht?--> can also be controlled from the cloud POS. 
+
+- TSS provider connection   
+    The *Venduo POS* module offers an interface and licenses to the *fiskaly&trade; cloud TSS* to fulfill the technical requirements for electronic recording and security systems in business transactions (Kassensicherungsverordnung (KassenSichV Germany). 
 
 
 ## Create unified customer experiences

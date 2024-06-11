@@ -51,7 +51,7 @@ Create a store manually, if you do not want to use the wizard.
 3. Enter a store name in the *Name* field.
 
 4. Click the [CREATE] button.   
-    The *Creating Store* message is displayed. The new store is displayed in the *STORES* tab. The *Basic data* tab is displayed by default.
+    The *Creating Store...* message is displayed. It may take several minutes until the creation is completed. The new store is displayed in the *STORES* tab. The *Basic data* tab is displayed by default.
 
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
@@ -74,7 +74,7 @@ Create a store manually, if you do not want to use the wizard.
     The following attribute sets have been created:    
         - A connection *POS store "Name of new store"*
         - A variant set *Set for POS for "Name of the new store"* 
-        - A variant set *Offer option set for POS store "Name of the new store"* <!--- bei meinem letzten Store "Actindo2" hat er den jetzt nicht erstellt??-->
+        - A variant set *Offer option set for POS store "Name of the new store"* 
 
 
 ## Configure the store details

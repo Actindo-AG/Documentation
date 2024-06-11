@@ -165,7 +165,7 @@ Create a QuickSelect category for POS for faster access to favorite offers at th
 
 The following image shows how QuickSelects can organize the most requested offers:
 <!---Marina, ich habe hier ein Bild eingefügt, damit die Kunden überhaupt wissen, worum es sich bei dieser Funktion handelt-->
-![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/CashPoint.png "[QuickSelect in the cashpoint]")
+![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[QuickSelect in the cashpoint]")
 
 ### Define a QuickSelect attribute
 
@@ -335,15 +335,14 @@ You need to define the created product as a voucher to use it in the POS store.
 <!---NEU-->
 ### Create an offer for pre&dash;printed vouchers
 
-A *Knistr&trade;* integration is available for vouchers, with which pre-printed voucher cards can be used. The codes of these vouchers can be entered via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
+If a *Knistr&trade;* integration is available for pre-printed vouchers in the standard. If the connection is established, the cashiers can record the codes of these vouchers via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
 
 Pre-printed vouchers have the following special features:
 
-- The voucher cards can be used as refill cards, so that you do not need to define a fixed price for the voucher. When it is created, the cashier can individually load the voucher card with any amount.
-- The amount entered when creating the voucher is added to the amount already existing on the voucher card.
-- The voucher is created store-specific in the *Omni-Channel* module.
+- The voucher cards can be used as refill cards, so that you do not define a price when creating the pre-printed voucher offer. When it is created in Actindo, the cashier can individually load the voucher card with any amount. The amount entered when recording the voucher is added to the amount already existing on the voucher card.
+- The pre-printed voucher offer is not created in the *PIM* module, it is created store-specific in the *Omni-Channel* module.
 
-Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *POS basic set*, contains the *Voucher* attribute, which allows you to classify an offer as a voucher. Since the voucher is store-specific, create the voucher offer in the *Omni-Channel* module.
+Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *POS basic set*, contains the *Voucher* attribute, which allows you to classify an offer as a pre-printed voucher. 
 
 #### Prerequisites
 
@@ -357,7 +356,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 ![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]") ] button are displayed.
+    The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]")] button are displayed.
 
     ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
 
@@ -439,7 +438,7 @@ No prerequisites to fulfill.
 
 2. Assign this attribute to the *RetailSuite Customer* attribute set. 
 
-3. Create the attribute(s), with which you define the price group itself, for example the *pos_member_price* attribute. You can assign this price group to offers later to be able to define a special price for customers assigned to this price group. It must be of the *Floating point number* data type. 
+3. Create the attribute(s), with which you define the price group itself, for example the *pos_member_price* attribute. You assign this attribute to offers later to be able to define a special price for customers assigned to this price group. It must be of the *Floating point number* data type. 
 
 3. Assign this attribute to the *POS basic set* attribute set.
 
@@ -448,7 +447,7 @@ For detailed information, see [Create an attribute](../../DataHub/Integration/01
 
 ### Declare the price group attribute for customer master data
 
-In the customer master data, declare the field in which the price group is stored. 
+Declare the field in which the price group is stored in the customer master data. 
 
 #### Prerequisites
 
@@ -470,7 +469,7 @@ Activate the price groups you want to use in your stores. In this case, the pric
 
 ![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
 
-Enable the toggles next to the desired price groups.
+Enable the toggles next to the desired price groups and click the [Save] button.
 
 
 ### Add the price group price to offers
@@ -483,7 +482,7 @@ Enable the toggles next to the desired price groups.
 
 #### Prerequisites
 
-The attribute for defining the price group-related price has been defined in the *DataHub* module, see [Create the POS price group attributes](#create-the-pos-price-group-attributes).
+The attribute for specifying the price group-related price has been defined in the *DataHub* module, see [Create the POS price group attributes](#create-the-pos-price-group-attributes).
 
 #### Procedure
 

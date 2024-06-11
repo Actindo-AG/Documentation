@@ -115,10 +115,10 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Admin settings &ndash; Pay desk](./02b_Stores.md#admin-settings-–-pay-desk)
         - [Transactions &ndash; Pay desk](./02b_Stores.md#transactions-–-pay-desk)
 
-- [PRODUCT OPTIONS](./02e_ProductOptions.md)
-    - [Create an option attribute](./02e_ProductOptions.md#create-an-option-attribute)
+- [PRODUCT OPTIONS](./02c_ProductOptions.md)
+    - [Create an option attribute](./02c_ProductOptions.md#create-an-option-attribute)
 
-- [MAPPING FROM PIM](./02c_MappingFromPIM.md)
+- [MAPPING FROM PIM](./02d_MappingFromPIM.md)
 
-- [TSS PROVIDERS](./02d_TSSProviders.md)
-    - [Edit connection](./02d_TSSProviders.md#edit-connection)
+- [TSS PROVIDERS](./02e_TSSProviders.md)
+    - [Edit connection](./02e_TSSProviders.md#edit-connection)
