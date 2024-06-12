@@ -68,7 +68,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
     - [PRICING](./02a_GlobalSettings.md#pricing)
         - [Automatic discount](./02a_GlobalSettings.md#automatic-discount)
-        - [Customer-specific discount](./02a_GlobalSettings.md#customer-specific-discount)
+        - [Customer-specific discount](./02a_GlobalSettings.md#customer--specific-discount)
         - [Active price groups](./02a_GlobalSettings.md#active-price-groups)
         - [Field for price group](./02a_GlobalSettings.md#field-for-price-group)
 
@@ -122,3 +122,4 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 - [TSS PROVIDERS](./02e_TSSProviders.md)
     - [Edit connection](./02e_TSSProviders.md#edit-connection)
+

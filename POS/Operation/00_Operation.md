@@ -32,6 +32,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Suggest an offer to the customer](./04_CompletePurchase.md#suggest-an-offer-to-the-customer)
     - [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase)
     - [Check the customer&dash;specific discount](./04_CompletePurchase.md#check-the-customer‐specific-discount)
+    - [Assign a price group](./04_CompletePurchase.md#assign-a-price-group)
     - [Initiate a down payment](./04_CompletePurchase.md#initiate-a-down-payment)
     - [Initiate a delivery](./04_CompletePurchase.md#initiate-a-delivery)
     - [Pay cash](./04_CompletePurchase.md#pay-cash)

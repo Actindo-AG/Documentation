@@ -100,7 +100,13 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Add the conditions](09_WorkflowAdjustments.md#add-the-conditions)
         - [Add a transition](09_WorkflowAdjustments.md#add-a-transition)
 
-- [Create a connection to  a TSS provider](./10_TSSProviderConnection.md)
+- [Create a connection to a TSS provider](./10_TSSProviderConnection.md)
     - [Assign the TSS provider connection to the stores](./10_TSSProviderConnection.md#assign-the-tss-provider-connection-to-the-stores)
 
+- [Discount options](./11_DiscountOptions.md)
+    - [Automatic discount](./11_DiscountOptions.md#automatic-discount)
+    - [Manually granted discount](./11_DiscountOptions.md#manually-granted-discount)
+    - [Customer-specific discount](./11_DiscountOptions.md#customer-specific-discount)
+    - [Discount based on price group](./11_DiscountOptions.md#discount-based-on-price-group)
+    - [Discount based on promotion prices](./11_DiscountOptions.md#discount-based-on-promotion-prices)
 
