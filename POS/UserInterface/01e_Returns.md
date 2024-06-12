@@ -65,24 +65,24 @@ The *Add return* view is used to select the bill number of the offer that a cust
 
 **Bill number**
 
-The *Bill number* view is used specify the return reason and the condition of the offer to be returned and to initiate the refund.
+The *Bill number* view is used to specify the return reason and the condition of the offer to be returned and to initiate the refund.
 
 - Bill number   
     Number of the bill that documents the sale of the offer.
 
 - *Payment method*   
-    Method by which the payment was made. This field is read only.
+    Method by which the payment was made. This field is read-only.
 
 - *Currency*  
-    Currency in which the offer was purchased. This field is read only.
+    Currency in which the offer was purchased. This field is read-only.
 
 **Items that will be returned**
 
 - *Offer*   
-    ID of the offer that was purchased. This field is read only.
+    ID of the offer that was purchased. This field is read-only.
 
 - *Price*   
-    Selling price of the bill, that means the price of the offer at the time of sale. This field is read only.
+    Selling price of the bill, that means the price of the offer at the time of sale. This field is read-only.
 
 - *Condition*   
     Click the drop-down list and select the condition of the offer that the customer wants to return.
@@ -91,7 +91,7 @@ The *Bill number* view is used specify the return reason and the condition of th
     Indicate the reason that prompted the buyer to return the offer.
 
 - *Action*  
-    Action that results in the return, such as money-back. This field is read only.
+    Action that results in the return, such as money-back. This field is read-only.
 
 - [CANCEL]    
     Click this button to cancel the process and close the *Bill number* view.
@@ -108,7 +108,7 @@ The *Bill number* view is used specify the return reason and the condition of th
 The *Summary of the return (Amount)* view is used to define the refund method and to finalize the return.
 
 - *Payment method*   
-    Method by which the payment was made. This field is read only.
+    Method by which the payment was made. This field is read-only.
 
 - *Currency*   
     Currency in which the offer was purchased
@@ -116,10 +116,10 @@ The *Summary of the return (Amount)* view is used to define the refund method an
 **Items that will be returned**
 
 - *Offer*   
-    ID of the offer that was purchased. This field is read only.
+    ID of the offer that was purchased. This field is read-only.
 
 - *Price*   
-    Selling price of the bill, that means the price of the offer at the time of sale. This field is read only.
+    Selling price of the bill, that means the price of the offer at the time of sale. This field is read-only.
 
 - *Condition*   
     Click the drop-down list and select the condition of the offer that the customer wants to return.
@@ -128,10 +128,10 @@ The *Summary of the return (Amount)* view is used to define the refund method an
     Indicate the reason that prompted the buyer to return the offer.
 
 - *Action*  
-    Action that results in the return, such as money-back. This field is read only
+    Action that results in the return, such as money-back. This field is read-only
 
 - *Payment type*   
-    Method by which the refund is to be made. This drop-down list is read only if the [Refund only on the same payment method](../UserInterface/02a_GlobalSettings.md#refund-only-on-the-same-payment-method) setting is active.
+    Method by which the refund is to be made. This drop-down list is read-only if the [Refund only on the same payment method](../UserInterface/02a_GlobalSettings.md#refund-only-on-the-same-payment-method) setting is active.
     The following values are available:
     - Manual payment at terminal
     - Bar

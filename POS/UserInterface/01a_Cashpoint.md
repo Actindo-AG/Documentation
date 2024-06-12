@@ -109,10 +109,10 @@ The *Choose options* window is displayed if a selected offer has additional prod
         The price have been changed directly without a discount (new price is written in italics) or the price is a price group price, see [Assign a price group](../Operation/04_CompletePurchase.md#assign-a-price-group).
 
 - ![Remove Offer](../../Assets/Icons/Cross02.png "[Remove Product]") (Remove offer)   
-    Click this button to remove an offer from the bill list. This field is displayed only when an offer is added to the bill list.
+    Click this button to remove an offer from the bill list. This field is displayed only when an offer has been added to the bill list.
 
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Single scan*   
-    Activate this toggle to use the single scan feature.
+    Activate this toggle to use the single scan feature, see [Use single scan](../Operation/02_SelectOffer.md#use-single-scan).
 
     > [Info] If the same offer is selected more than once, and you use the single scan feature, each offer is listed as a single offer in the bill list. This allows you to treat each offer in the posting individually. 
 
@@ -131,7 +131,7 @@ The *Choose options* window is displayed if a selected offer has additional prod
 - [![Park](../../Assets/Icons/Park.png "[Park]") Park]   
     Click this button to park the current bill list to a later time.
 
-- ![Delete Bill List](../../Assets/Icons/Trash02.png "[Delete Bill List]") (Delete Bill List)   
+- ![Delete bill list](../../Assets/Icons/Trash02.png "[Delete bill list]") (Delete bill list)   
     Click this button to delete the current bill list.
 
 - [PAY]   
@@ -176,7 +176,9 @@ This section is only displayed when no voucher has been redeemed.
     Click this button to remove the discount. The button is only displayed when a discount is selected.
 
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Delivery*   
-    Enable this toggle if the offer is to be delivered to the customer. Disable this toggle if no delivery is necessary. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery). This toggle is only available, if the *Delivery allowed* setting is activated in the *Global settings*. For detailed information, see [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed). 
+    Enable this toggle if the offer is to be delivered to the customer. Disable this toggle if no delivery is necessary. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).  
+
+    This toggle is only available, if the *Delivery allowed* setting is activated in the *Global settings*. For detailed information, see [Deliveries allowed](./02a_GlobalSettings.md#deliveries-allowed). 
 
 - *Voucher (xxxxxxx)*   
     Redeemed voucher with the voucher code in brackets. The remaining amount of the voucher is displayed on the left, the amount of the voucher to be credited on the right. This field is read-only.
@@ -198,7 +200,7 @@ This section is only displayed when no voucher has been redeemed.
 **Price group**
 
 - *Price group*    
-    Click the drop-down list and select the desired price group, which is customer-specific. You can also select the **None** entry to remove the granted price group. 
+    Click the drop-down list and select the desired price group, which is customer-specific. You can also select the **None** entry to remove the automatically granted price group. 
 
 - [SAVE]   
     Click this button to confirm the price group assignment. If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed.
@@ -236,7 +238,7 @@ This section is only displayed when no voucher has been redeemed.
     Enable this toggle if you want to determine the down payment via a percentage amount. Disable the toggle to enter a fixed amount.
 
 - *Percent*   
-    Enter the percentage amount. This field is displayed only if you have enabled the *Calculated via percentage* toggle. In the field below the down payment amount is displayed.
+    Enter the percentage amount. This field is only displayed if you have previously enabled the *Calculated via percentage* toggle. In the field below the down payment amount is displayed.
 
 - Field for amount   
     Enter the fixed amount. This field is only displayed if you have disabled the *Calculated via percentage* toggle. 
@@ -486,12 +488,14 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
 - *Price*   
     Price of the selected offer in the bill list.
 
-- [SHOW STOCK LEVELS]   
-    Click this button to display the stock level of the selected offer in all other stores of your company.   
-    The *Stock levels* window is displayed. It provides a list of the stock levels of this offer in all stores.
+
 
 -  ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)   
     Click this button to unlock the price field and edit the price of the selected offer.
+
+- [SHOW STOCK LEVELS]   
+    Click this button to display the stock level of the selected offer in all other stores of your company.   
+    The *Stock levels* window is displayed. It provides a list of the stock levels of this offer in all stores.
 
 - ![Back](../../Assets/Icons/Back01.png "[Back]") (Back)   
     Click this button to cancel the changes to the offer and return to the bill list.

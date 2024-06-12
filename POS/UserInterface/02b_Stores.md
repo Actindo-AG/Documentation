@@ -272,7 +272,7 @@ For each store, at least enter the country and the ZIP code must be specified.
 
 
 - *Select existing inventory source*   
-    Click the drop-down list and select a stock level source for the POS store. The stock level source specifies how the stock lebel  available in the POS system is calculated. All available stock level sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
+    Click the drop-down list and select a stock level source for the POS store. The stock level source specifies how the stock level available in the POS system is calculated. All available stock level sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Stock* wizard window is displayed.

@@ -4,7 +4,7 @@
 
 ![Settings](../../Assets/Screenshots/POS/Sales/Settings/Settings.png "[Settings]")
 
-In this tab you can configure the settings for the cash drawer:
+In this tab, you can configure the settings for the cash drawer:
 - [Open drawer for cash payment](#open-drawer-for-cash-payment)
 - [Open drawer after cashless payment](#open-drawer-after-cashless-payment)
 

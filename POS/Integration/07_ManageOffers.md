@@ -334,7 +334,7 @@ You need to define the created product as a voucher to use it in the POS store.
 <!---NEU-->
 ### Create an offer for pre-printed vouchers
 
-If a *Knistr&trade;* integration is available for pre-printed vouchers in the standard. If the connection is established, the cashiers can record the codes of these vouchers via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
+A *Knistr&trade;* integration is available in the standard. You can use this integration to offer pre-printed vouchers. If the connection is established, the cashiers can record the codes of these vouchers via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
 
 Pre-printed vouchers have the following special features:
 
@@ -355,11 +355,11 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 ![Offers](../../Assets/Screenshots/Channels/Offers/Offers/Offers.png "[Offers]")
 
 1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]")] button are displayed.
+    The [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]")] button and the [Create from PIM product ![Create from PIM product](../../Assets/Icons/Package.png "[Create from PIM product]")] button are displayed.
 
     ![Add offer](../../Assets/Screenshots/Channels/Offers/Offers/AddOffer.png "[Add offer]")
 
-2. Click the [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]") ] button.   
+2. Click the [Manual offer ![Manual offer](../../Assets/Icons/Document.png "[Manual offer]")] button.   
     The *Create offer* window is displayed.
 
     ![Create manual offer](../../Assets/Screenshots/Channels/Offers/Offers/CreateManualOffer.png "[Create manual offer]")
@@ -377,7 +377,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 
     > [Info] This description relates to the *POS basic set*. 
 
-    - Enter **voucher** in the *Barcode* field.
+    - Enter **"Name of the voucher** in the *Barcode* field.
     - Enter a default value in the *Price* field. This value can be overwritten individually when selling the voucher.
     - Enter the tax rate value in the *Tax rate* field and select the required tax class in the *Tax class* drop-down field.
     - Enable the *Voucher* toggle to classify the offer as a voucher.
@@ -385,6 +385,23 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
 8. Click the [SAVE] button.
 
 9. Activate the new offer.
+
+
+### Declare the name of the pre-printed voucher
+
+Declare the voucher name in the *Global settings*.
+
+#### Prerequisites
+You have created an offer for pre-printed vouchers, see [Create an offer for pre-printed vouchers](#create-an-offer-for-pre-printed-vouchers).
+
+#### Procedure
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Voucher SKU*
+
+![Voucher SKU](../../Assets/Screenshots/POS/Management/GlobalSettings/VoucherSKU.png "[Voucher SKU]")
+
+1. Enter the SKU of the offer for the pre-printed voucher in the *Voucher SKU* field.
+
+2. Click the [Save] button.
     
 
 

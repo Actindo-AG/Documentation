@@ -4,7 +4,7 @@
 
 ![Options attributes](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Options attributes]")
 
-The *Options attributes* list shows all attributes that specifies product options. For detailed information, see [Create a product option](../Integration/07_ManageOffers.md#create-a-product-option).
+The *Options attributes* list shows all attributes that specify product options. For detailed information, see [Create a product option](../Integration/07_ManageOffers.md#create-a-product-option).
 
 The following functions and fields are available in this list:
 

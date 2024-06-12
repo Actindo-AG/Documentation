@@ -26,7 +26,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 - [CASH REGISTER](./01c_CashRegister.md)
     - [Payment tally](./01c_CashRegister.md#payment-tally)
         - [Count cash](./01c_CashRegister.md#count-cash)
-    - [Cash in/out](./01c_CashRegister.md#cash-inout)
+    - [Cash in Cash out](./01c_CashRegister.md#cash-in-cash-out)
         - [Cash in](./01c_CashRegister.md#cash-in)
         - [Cash out](./01c_CashRegister.md#cash-out)
 
@@ -61,6 +61,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
        
         - [Remind of offers](./02a_GlobalSettings.md#remind-of-offers)
         - [Regex for customer code](./02a_GlobalSettings.md#regex-for-customer-code)
+        - [Field for customer lock](./02a_GlobalSettings.md#field-for-customer-lock)
 
     - [CURRENCIES](./02a_GlobalSettings.md#währungen)
         - [Available Currencies](./02a_GlobalSettings.md#available-currencies)
@@ -93,6 +94,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         <!---Obsolete? [Kundendaten aus RetailSuite übernehmen](./02a_GlobalSettings.md#kundendaten-aus-retailsuite-übernehmen)-->
     - [KNISTR](./02a_GlobalSettings.md#knistr)
         - [KNISTR credentials](./02a_GlobalSettings.md#knistr-credentials)
+        - [Voucher SKU](./02a_GlobalSettings.md#voucher-sku)
 
 - [STORES](./02b_Stores.md)
     - [Create store](./02b_Stores.md#create-store)

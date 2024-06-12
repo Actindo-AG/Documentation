@@ -10,7 +10,7 @@
 
 The *Cash Register* tab is divided into two boxes:
 - [Payment Tally](#payment-tally)
-- [Cash In/Out](#cash-in⁄out)
+- [Cash in/out](#cash-in-cash-out)
 
 
 ## Payment tally
@@ -80,7 +80,7 @@ The *Count cash* window is used to faciliate the calculation of the cash count.
 
 
 
-## Cash in&frasl;out
+## Cash in Cash out
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
 

@@ -68,7 +68,7 @@ Configure the details of the POS specific cash receipt number. The cash receipt 
 
 ![Deliveries allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DeliveriesAllowed.png "[Deliveries allowed]")
 
-The *Deliveries allowed* setting enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
+Enables the cashiers to initiate a delivery during the payment process. For detailed information, see [Initiate a delivery](../Operation/04_CompletePurchase.md#initiate-a-delivery).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.   
@@ -77,7 +77,7 @@ The *Deliveries allowed* setting enables the cashiers to initiate a delivery dur
     Click this button to save any changes
 
 - *Deliveries allowed*   
-    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the payment view. By default, this setting is not activated.   
+    Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the pay bill list. By default, this setting is not activated.   
     Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
 
 
@@ -88,7 +88,7 @@ The *Deliveries allowed* setting enables the cashiers to initiate a delivery dur
 
 ![Down payments allowed](../../Assets/Screenshots/POS/Management/GlobalSettings/DownPaymentsAllowed.png "[Down payments allowed]")
 
-The *Down payments allowed* setting allows cashiers to accept down payments. For detailed information, see [Initiate a down payment](../Operation/04_CompletePurchase.md#initiate-a-down-payment).
+Allows your cashiers to accept down payments. For detailed information, see [Initiate a down payment](../Operation/04_CompletePurchase.md#initiate-a-down-payment).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. 
@@ -97,7 +97,7 @@ The *Down payments allowed* setting allows cashiers to accept down payments. For
     Click this button to save any changes
 
 - *Down payments allowed*   
-    Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the *Pay bill* list.
+    Activate this setting if it is allowed to down pay sales. By default, this setting is not activated. If you activate this setting, the *Down payment* section with the [+ ADD DOWN PAYMENT] button is displayed in the pay bill list.
     <!---Muss man hier dafür sorgen, dass ein bestimmtes Konto gefüllt wird im Accounting bei Anzahlungen? Oder muss man den Workflow anpassen?-->
 
 
@@ -312,11 +312,14 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 
 ![Display age rating](../../Assets/Screenshots/POS/Management/GlobalSettings/DisplayAgeVerification.png "[Display age rating]")
 
-By default, offers with an age rating can only be added to the basket if the cashier confirms explicitly that s/he has checked the age of the customer. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
+Prevent the cashiers from selling offers to children or young people that are not suitable for them.  
+
+By default, offers with an age verification can only be added to the basket if the cashier confirms explicitly that s/he has checked the age of the customer. For detailed information, see [Verify the age](../Operation/02_SelectOffer.md#verify-the-age).
+
 The following prerequisites must be met to use this feature:   
-- You have assigned the *Age rating* attribute to the offer-related attribute set in the *Omni-Channel* module. See the POS basic set for reference. 
+- You have assigned the *Age rating* attribute to the offer-related attribute set in the *Omni-Channel* module. See the *POS basic set* for reference. 
 - You have specified the age rating for an offer, such as 16 or 18, if necessary. Actindo uses the number (of years) to calculate the birthdate that must not be undercut and that is displayed in the *Age verification* window.
-- If you want to display an explanatory text in addition, add an *Age rating description* attribute with which you can create the text. See the POS basic set for reference. Actindo uses the text to display it in the *Age verification window*.    
+- If you want to display an explanatory text in addition, add an *Age rating description* attribute with which you can create the text. See the *POS basic set* for reference. Actindo uses the text to display it in the *Age verification window*.    
 
 The following fields and features are available in the window:
 
@@ -327,7 +330,7 @@ The following fields and features are available in the window:
     Click this button to save any changes
 
 - *Mode*   
-   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age rating. The following settings are available:
+   Click this drop-down list to select if and when to display the *Age verification* window when selecting an offer with age verification. The following settings are available:
 
    - **Always**    
     The cashier will always be asked when an offer is added to the basket that requires an age verification.
@@ -347,7 +350,7 @@ The following fields and features are available in the window:
 
 ![Remind of offers](../../Assets/Screenshots/POS/Management/GlobalSettings/RemindofOffers.png "[Remind of offers]")
 
-The *Remind of offers* setting allows the cashiers to suggest additional offers to the customer during the payment process. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
+Allow your cashiers to suggest additional offers to the customer during the payment process. For detailed information, see [Suggest an offer to the customer](../Operation/04_CompletePurchase.md#suggest-an-offer-to-the-customer).
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Remind of offers* feature is not activated.  
@@ -372,7 +375,7 @@ The *Remind of offers* setting allows the cashiers to suggest additional offers 
 
 ![Regex for customer-code](../../Assets/Screenshots/POS/Management/GlobalSettings/RegexForCustomCode.png "[Regex for customer-code]")
 
-The *Regex for customer-code* settings allows you to define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.    
+Define a regular expression for the customer code, with which the system is able to clearly distinguish a customer number from an offer number. This is necessary, if you use a barcode scanner to scan both customer and offer data.    
 
 - [Save]   
     Click this button to save any changes.
@@ -389,7 +392,7 @@ The *Regex for customer-code* settings allows you to define a regular expression
 
 ![Allow negative quantities](../../Assets/Screenshots/POS/Management/GlobalSettings/AllowNegativeQuantities.png "[Allow negative quantities]")
 
-The *Allow negative quantities* allows your cashiers to accept a return and to refund the amount due. Enable this setting, if you want to use this function. For detailed information, see [Create a return](../Operation/02_SelectOffer.md#create-a-return). 
+Allow your cashiers to accept a return and to refund the amount due. Enable this setting, if you want to use this feature. For detailed information, see [Create a return](../Operation/02_SelectOffer.md#create-a-return). 
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")  
     Enable this toggle to apply the default settings or disable this toggle to use this feature. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled and the *Allow negative quantities* feature is not activated.  
@@ -397,11 +400,17 @@ The *Allow negative quantities* allows your cashiers to accept a return and to r
 - [Save]   
     Click this button to save any changes.
 
-- [x]   
+- [x] *Allow negative quantities*   
     Select the checkbox to use the *Allow negative quantities* feature.   
     The *Negative quantity* toggle is available now in the bill list.
 
+<!---NEU-->
+### Field for customer lock
 
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Field for customer lock*
+
+![Field for customer lock](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForCustomerLock.png "[Field for customer lock]")
+<!--- to be enhanced-->
 
 
 ## CURRENCIES
@@ -599,8 +608,8 @@ Define a discount that is automatically applied above a certain amount.
 
 ![Customer-specific discount](../../Assets/Screenshots/POS/Management/GlobalSettings/CustomerSpecificDiscount.png "[Customer-specific discount]")
 
-This setting allows you to define discounts that are valid for specific customers. You can use it as a global or a store-related setting.  
-A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's basic data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired. For detailed information, see [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount).    
+Define discounts that are valid for specific customers.  You can use it as a global or a store-related setting.  
+A customer-specific discount is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's master data, purchases an offer. The cashier can remove the discount manually from the pay bill list, if desired. For detailed information, see [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount).    
 
 The following prerequisites must be met to use this feature: 
 
@@ -625,8 +634,7 @@ The following fields and features are available for this window:
 
 ![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
 
-This setting allows you to activate the price groups you currently want to use for your customers. You can use it as a global or a store-related setting.   
-The price group is assigned to the customer master data
+Define the price groups you want to use for your stores. The *Active price group* setting allows you to activate the price groups you currently want to use for your customers and offers. You can use it as a global or a store-related setting. The price group is assigned to the customer master data. For detailed information, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
 
 The following fields and features are available for this window:   
 
@@ -649,7 +657,7 @@ The following fields and features are available for this window:
 
 ![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
 
-This setting specifies the attribute in the customer master data from which the system should read the customer's price group.
+Define the field to be used to store the price group. The *Field for price group* setting specifies the attribute in the customer master data from which the system should read the customer's price group, see [Active price groups](#active-price-groups). For detailed information, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
 
 - [Save]   
     Click this button to save any changes.
@@ -985,6 +993,8 @@ In this section, you define all settings concerning the KNISTR integration. For 
 
 ![KNISTR credentials](../../Assets/Screenshots/POS/Management/GlobalSettings/KnistrCredentials.png "[KNISTR credentials]")
 
+Define the KNISTR credentials.
+
 - [Save]    
     Click this button to save any changes.
 
@@ -993,6 +1003,23 @@ In this section, you define all settings concerning the KNISTR integration. For 
 
 - *HMAC key*  
     HMAC key used for authentication. 
+
+
+### Voucher SKU
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Voucher SKU*
+
+![Voucher SKU](../../Assets/Screenshots/POS/Management/GlobalSettings/VoucherSKU.png "[Voucher SKU]")
+
+Enter the SKU of the voucher that you want to use for pre-pinted vouchers.
+
+- [Save]    
+    Click this button to save any changes.
+
+- *Voucher SKU*   
+    Enter the name of the voucher that you have created for pre-printed vouchers. For detailed information, see [Create an offer for pre-printed vouchers](../Integration/07_ManageOffers.md#create-an-offer-for-pre-printed-vouchers).
+
+<!--- to be enhanced>
 
 
  <!---Obsolet  
