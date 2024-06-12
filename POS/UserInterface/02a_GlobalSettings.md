@@ -36,7 +36,7 @@ In this section, you define all pay desk and payment settings.
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Format of sequential number*
 
-![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[Format of sequential number]")
+![Format of sequential number](../../Assets/Screenshots/POS/Management/GlobalSettings/FormatSeqNo.png "[Format of sequential number]")
 
 Configure the details of the POS specific cash receipt number. The cash receipt number is independent of the receipt number in the *Order Management* module and is therefore selected from a different number range to be defined here.
 
