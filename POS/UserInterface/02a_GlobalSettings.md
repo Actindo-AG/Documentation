@@ -604,8 +604,8 @@ A customer-specific discount is automatically added to the pay bill list when a 
 
 The following prerequisites must be met to use this feature: 
 
-- You have added an attribute for the auto-discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
-- This attribute must be of the Floating point number or Integer data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
+- You have added an attribute for the customer-specific discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
+- This attribute must be of the *Floating point number* or *Integer* data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 
 
 The following fields and features are available for this window:   
@@ -974,6 +974,8 @@ Define an invoice address for a default customer to connect the POS system with 
 <!---NEU-->
 ## KNISTR
 
+The KNISTR integration allows you to identify and charge a pre-printed voucher, see [Create an offer for pre‐printed vouchers](../Integration/07_ManageOffers.md#create-an-offer-for-pre-printed-vouchers).    
+
 In this section, you define all settings concerning the KNISTR integration. For detailed information, see the [KNISTR](https://www.knistr.com "[https://www.knistr.com]") website.
 
 
@@ -987,7 +989,7 @@ In this section, you define all settings concerning the KNISTR integration. For 
     Click this button to save any changes.
 
 - *App name*   
-    Name of the *KNISTR-PoS-Integration* API used for the connection of the current instance to Knistr&trade;. <!---Stimmt das?>
+    Name of the *KNISTR-PoS-Integration* API used for the connection of the current instance to Knistr&trade;. <!---Stimmt das?-->
 
 - *HMAC key*  
     HMAC key used for authentication. 

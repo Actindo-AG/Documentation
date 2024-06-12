@@ -77,7 +77,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 4. Click the [Save] button in the bottom right corner to apply the price change.   
     The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for later analyzes.
 
-    ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillListChangedPrice.png "[Bill list]")
+    ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Bill list]")
 
 
 
@@ -109,6 +109,35 @@ You can change the quantity of an offer in your bill list by increasing or decre
 3. Click the [SAVE] button in the bottom right corner to apply the quantity change.   
     The detail view of the offer is closed. The bill list is displayed again. The selected quantity is displayed to the left of the offer.
 
+
+## Check the stock level
+
+You can check the stock level respectively the availability of an offer for the current store or all other stores of your company.
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the offer in the bill list whose stock level you want to check.   
+    The detail view of the offer is displayed in the bill list.
+
+    ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
+
+2. Click the [SHOW STOCK LEVELS] button.   
+    The *Stock levels* window is displayed. 
+
+    ![Stock levels](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/StockLevels.png "[Stock levels]")
+
+3. Check the availability of the offer.
+
+4. Click the [Esc] key to close the window.
 
 
 ## Delete an offer from the bill list

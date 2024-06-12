@@ -332,7 +332,7 @@ You need to define the created product as a voucher to use it in the POS store.
 
 
 <!---NEU-->
-### Create an offer for pre&dash;printed vouchers
+### Create an offer for pre-printed vouchers
 
 If a *Knistr&trade;* integration is available for pre-printed vouchers in the standard. If the connection is established, the cashiers can record the codes of these vouchers via barcode scan or manually. For detailed information, see the [Knistr](https://www.knistr.com "[//https:knistr.com]") website.   
 

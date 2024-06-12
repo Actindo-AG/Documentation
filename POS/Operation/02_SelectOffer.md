@@ -8,7 +8,7 @@ The *Venduo POS* module offers several ways to select an offer and to search for
 
 ## Use single scan
 
-If you select the same offer more than once, it is displayed in the bill list as one line item with the corresponding quantity indication. This means that the individual offer with the quantity 1 is not displayed in the invoice list.   
+If you select the same offer more than once, it is displayed in the bill list as one line item with the corresponding quantity indication. This means that the individual offer with the quantity 1 is not displayed in the bill list.   
 Optionally, you can activate the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
 
 #### Prerequisites
@@ -161,7 +161,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
     > [Info] The number remains in the search bar when you add an offer to the bill list. When you click the search bar with that number again, the search results list for this number is displayed again.
 
 
-### Select a pre&dash;printed voucher offer 
+### Select a pre-printed voucher offer 
 
 Select a voucher offer that allows you to identify and charge a pre-printed voucher. You can then scan the voucher code with a barcode scanner or add the card code manually. 
 
