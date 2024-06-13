@@ -7,8 +7,6 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Edit an attribute](./01_ManageAttributes.md#edit-an-attribute)
     - [Deactivate an attribute](./01_ManageAttributes.md#deactivate-an-attribute)
     - [Delete an attribute](./01_ManageAttributes.md#delete-an-attribute)
-    - [Recover an attribute](./01_ManageAttributes.md#recover-an-attribute)
-    - [Permanently delete an attribute](./01_ManageAttributes.md#permanently-delete-an-attribute)
 
 
 - [Manage an attribute set](./02_ManageAttributeSets.md)  
@@ -35,11 +33,11 @@ In this part of the *DataHub* documentation, you will find the following chapter
         - [Remove attributes from a group](./03_ManageAttributeGroups.md#remove-attributes-from-a-group)
 
 
-- [Manage the channels](./04_ManageChannels.md)
-    - [Create a channel](./04_ManageChannels.md#create-a-channel)
-    - [Edit a channel](./04_ManageChannels.md#edit-a-channel)
-    - [Deactivate a channel](./04_ManageChannels.md#deactivate-a-channel)
-    - [Delete a channel](./04_ManageChannels.md#delete-a-channel)
+- [Manage the scopes](./04_ManageScopes.md)
+    - [Create a scope](./04_ManageScopes.md#create-a-scope)
+    - [Edit a scope](./04_ManageScopes.md#edit-a-scope)
+    - [Deactivate a scope](./04_ManageScopes.md#deactivate-a-scope)
+    - [Delete a scope](./04_ManageScopes.md#delete-a-scope)
 
 
 - [Manage the languages](./05_ManageLanguages.md)
@@ -47,3 +45,15 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Edit a language](./05_ManageLanguages.md#edit-a-language)
     - [Deactivate a language](./05_ManageLanguages.md#deactivate-a-language)
     - [Delete a language](./05_ManageLanguages.md#delete-a-language)
+
+- [Manage the units and dimensions](./06_ManageUnitsDimensions.md)
+   - [Deactivate a unit](./06_ManageUnitsDimensions.md#deactivate-a-unit)
+   - [Activate a unit](./06_ManageUnitsDimensions.md#activate-a-unit)
+
+- [Manage a variant set](./07_ManageVariantSets.md)
+    - [Create a variant set](./07_ManageVariantSets.md#create-a-variant-set)
+        - [Define the variant set basic data](./07_ManageVariantSets.md#define-the-variant-set-basic-data)
+        - [Add defining attributes](./07_ManageVariantSets.md#add-defining-attributes)
+        - [Add changeable attributes](./07_ManageVariantSets.md#add-changeable-attributes)
+    - [Edit a variant set](./07_ManageVariantSets.md#edit-a-variant-set)
+    - [Remove an attribute from the variant set](./07_ManageVariantSets.md#remove-an-attribute-from-the-variant-set)
