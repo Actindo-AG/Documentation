@@ -100,7 +100,7 @@ If your company uses the *Customer-specific discount* feature, a specific discou
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Add an existing customer to the bill list. For detailed information, see [Assign a purchase to an existing customer](../Operation/03_EditBillList.md#assign-a-purchase-to-an-existing-customer)
+1. Add an existing customer to the bill list. For detailed information, see [Assign a purchase to an existing customer](../Operation/03_EditBillList.md#assign-a-purchase-to-an-existing-customer).
 
 2. Click the [PAY] button at the bottom of the bill list.   
     The pay bill list is displayed. A discount is added automatically to the pay bill list. 
@@ -114,12 +114,13 @@ If your company uses the *Customer-specific discount* feature, a specific discou
 <!---NEU-->
 ## Assign a price group
 
-A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example club members or business partners. For example, an assigned price group can reduce the price for a specific offer. The price group is stored in the customer master data, so that some offers may cost less.   
+A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example club members or business partners. For example, an assigned price group can reduce the price for a specific offer. The price group is stored in the customer master data.      
 
 If your company supports this feature, the price will be automatically reduced for the customers concerned. You can also assign the price group manually. 
 
 #### Prerequisites
 
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 - A price group price has been assigned to the related offers, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
 - A price group has been assigned to a customer.
 
@@ -135,7 +136,7 @@ If your company supports this feature, the price will be automatically reduced f
 2. Click the [PAY] button at the bottom of the bill list.   
     The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. <!---noch mal prüfen in bill list, wenn Add customer wieder geht.-->
     <!---Screenshot neu machen, wenn add customer geht-->
-    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/PayPriceGroup.png "[Pay]")
 
 3. If desired, select the price group manually, for example, if you know the customer. To do this, click the *Price group* drop-down list and select the price group.
 
@@ -274,7 +275,7 @@ At least one offer is added to the bill list, see [Select an offer](./02_SelectO
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 2. Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.  
-    The *Payment pending* view is displayed while the payment is being processed. The total of the bill, the given amount, and the change amount is listed.  
+    The *Payment pending* view is displayed while the payment is being processed. The total of the bill, the given amount, and the change amount are listed.  
     The *Payment successful* view is displayed when the payment is completed.   
 
     ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")

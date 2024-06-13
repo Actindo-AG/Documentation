@@ -74,15 +74,17 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Create an offer for pre-printed vouchers](./07_ManageOffers.md#create-an-offer-for-preprinted-vouchers)
         - [Declare the name of the pre-printed voucher](./07_ManageOffers.md#declare-the-name-of-the-pre-printed-voucher)
     - [Add an age rating to a product](./07_ManageOffers.md#add-an-age-rating-to-a-product)
+    - [Define promotions for POS](./07_ManageOffers.md#define-promotions-for-pos)
     - [Create a price group for POS](./07_ManageOffers.md#create-a-price-group-for-pos)
         - [Create the POS price group attributes](./07_ManageOffers.md#create-the-pos-price-group-attributes)
         - [Declare price group attribute for customer master data](07_ManageOffers.md#assign-price-group-attribute-to-customer-master-data)
         - [Activate the price groups](07_ManageOffers.md#activate-the-price-groups)
         - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
+    <!---
     - [Create a product option](./07_ManageOffers.md#create-a-product-option)
         - [Define a product option](07_ManageOffers.md#define-a-product-option)
         - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
-        - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)
+        - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)-->
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)

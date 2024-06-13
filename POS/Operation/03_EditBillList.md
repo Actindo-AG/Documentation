@@ -9,11 +9,13 @@ The bill list on the right side of the *Cashpoint* tab displays all offers added
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-The discount is related to the offer entry in the bill list. That means, if the quantity of an offer in the bill list is greater than one, the discount is applied to all offers of this entry. 
+If you add a discount to a single offer, the discount is applied to an offer entry in the bill list. This means that if the quantity of an offer entry is greater than one because a customer wants to purchase the  offer , the discount will be applied to all offers in this entry.   
+
 If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
+
 You can also apply a discount to the whole purchase. For detailed information, see [Add a discount to the purchase](./04_CompletePurchase.md#add-a-discount-to-the-purchase).
 
-> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
+> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the whole purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts on this offer are not allowed.
 
 #### Prerequisites
 
@@ -38,7 +40,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
-4. Click the [SAVE] button in the bottom right corner to apply the discount.   
+4. Click the [Save] button in the bottom right corner to apply the discount.   
     The detail view of the offer is closed. The bill list is displayed again. The reduced price of the offer is displayed in red. The discount is displayed below the price.
 
     ![Offer discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDiscountBillList.png "[Offer discount]")
@@ -62,7 +64,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the offer in the bill list whose amount you want to change.   
+1. Click the offer in the bill list whose price you want to edit.   
     The detail view of the offer is displayed in the bill list.
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
@@ -75,7 +77,7 @@ The modified price is related to each item of the offer entry in the bill list. 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
 4. Click the [Save] button in the bottom right corner to apply the price change.   
-    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for later analyzes.
+    The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for future analysis.
 
     ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Bill list]")
 
@@ -104,15 +106,15 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 2. To the right of the *Quantity* field, click the ![Plus](../../Assets/Icons/Plus03.png "[Plus]") (Plus) button to increase the quantity or click the ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button to decrease the quantity of the selected offer. Alternatively, you can directly enter a number in the input field to the left of the buttons.
 
-    > [Info] You have to enter a quantity higher than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is higher than one. If you want to set the quantity to zero, remove the offer from the bill list, see [Delete an offer from the bill list](03_EditBillList.md#delete-an-offer-from-the-bill-list).
+    > [Info] You have to enter a quantity greater than 0. The ![Minus](../../Assets/Icons/Minus.png "[Minus]") (Minus) button is only active if the quantity is greater than one. If you want to set the quantity to zero, remove the offer from the bill list, see [Delete an offer from the bill list](03_EditBillList.md#delete-an-offer-from-the-bill-list).
 
-3. Click the [SAVE] button in the bottom right corner to apply the quantity change.   
+3. Click the [Save] button in the bottom right corner to apply the quantity change.   
     The detail view of the offer is closed. The bill list is displayed again. The selected quantity is displayed to the left of the offer.
 
 
 ## Check the stock level
 
-You can check the stock level respectively the availability of an offer for the current store or all other stores of your company.
+You can check the number of items in stock respectively the availability of an offer for the current store or all other stores of your company.
 
 #### Prerequisites
 
@@ -135,7 +137,7 @@ You can check the stock level respectively the availability of an offer for the 
 
     ![Stock levels](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/StockLevels.png "[Stock levels]")
 
-3. Check the availability of the offer.
+3. Check the number of units/items in stock for the desired offer.
 
 4. Click the [Esc] key to close the window.
 
@@ -156,7 +158,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the offer you want to delete from the bill list.   
+1. Click the ![Delete](../../Assets/Icons/Cross02.png "[Delete]") (Delete) button to the right of the offer you want to delete from the bill list.   
     The offer entry is deleted from the list.
 
 
@@ -191,7 +193,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
 You can either assign the purchase to an existing customer by searching for his/her name, see [Assign a purchase to a customer](#assign-a-purchase-to-a-customer), or by the customer number, see [Assign a purchase via customer number](#assign-a-purchase-via-customer-number). If the customer is not yet registered in the system, you can [register a new customer](#register-a-customer).
 
->[INFO] It is possible to assign a customer-specific discount to a customer in his/her master data. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list. For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
+>[Info] It is possible to assign a customer-specific discount to a customer in his/her master data. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list. For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
 
 ### Register a customer
@@ -231,7 +233,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 Assign the current purchase to a registered customer.   
 
-Alternatively, if the customer has a customer or member card, you can select the customer via customer number, see [Assign a purchase to an existing customer via customer number](#assign-a-purchase-to-an-existing-customer-via-customer-number).
+Alternatively, if the customer has a customer or member card, you can select the customer via customer number, see [Assign a purchase via customer number](#assign-a-purchase-via-customer-number).
 
 #### Prerequisites
 
@@ -264,7 +266,7 @@ Alternatively, if the customer has a customer or member card, you can select the
 <!--NEU-->
 ### Assign a purchase via customer number
 
-Assign the current purchase to a registered customer, who has a customer or a member card, on which the customer number is printed or can be scanned via barcode scanner.  
+Assign the current purchase to a registered customer who has a customer or a member card with the customer number is printed on it or can be scanned via barcode scanner.  
 
 Alternatively, you can search for the customer name, see [Assign a purchase to an existing customer](#assign-a-purchase-to-an-existing-customer).
 

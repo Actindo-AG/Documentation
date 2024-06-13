@@ -4,16 +4,17 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 - [Open a pay desk](./01_OpenPayDesk.md)
 
-- [Record the purchase](./02_SelectOffer.md)
-    - [Use single scan](./02_SelectOffer.md#use-single-scan)
-    - [Create a return](./02_SelectOffer.md#create-a-return)
+- [Add an offer to the bill list](./02_SelectOffer.md)
+    
     - [Select an offer](./02_SelectOffer.md#select-an-offer)
         - [Select an offer by QuickSelect](./02_SelectOffer.md#select-an-offer-by-quickselect)
         - [Select an offer by name](./02_SelectOffer.md#select-an-offer-by-name)
         - [Select an offer by number](./02_SelectOffer.md#select-an-offer-by-number)
-        - [Select a pre-printed voucher offer](./02_SelectOffer.md#select-a-preprinted-voucher-offer)
+        - [Select and charge a pre-printed voucher offer](./02_SelectOffer.md#select-and-charge-a-pre-printed-voucher-offer)
+    - [Select an offer with single scan](./02_SelectOffer.md#select-an-offer-with-single-scan)
+    - [Add a return to the bill list](./02_SelectOffer.md#add-a-return-to-the-bill-list)
     - [Verify the age](./02_SelectOffer.md#verify-the-age)
-    - [Add product options](./02_SelectOffer.md#add-product-options)
+    - [Add a product option](./02_SelectOffer.md#add-a-product-option)
 
 
 - [Edit the bill list](./03_EditBillList.md)

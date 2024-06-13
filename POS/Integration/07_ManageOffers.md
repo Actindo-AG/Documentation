@@ -415,20 +415,57 @@ For detailed information on configuring this feature, see [Display age rating](.
 <!---NEU-->
 ## Define promotions for POS
 You can define promotions for POS by adding a promotion price and a validity period to a POS offer.  
-For this feature, the following attributes have been added to the POS basic set:
+
+For this feature, the following attributes have been added to the POS basic set and are available in the offer's attributes of your stores:
 - Special price: Attribute with which a promotions price can be specified.
 - Special price start: Attribute, with which the start date of a promotion can be specified.
-- Special price end: Attribute, with which the end date of a promotion can be specified.
+- Special price end: Attribute, with which the end date of a promotion can be specified.   
 
+As the POS basic set is automatically inherited to your offers, these attributes are available for your offers.
 
-### Add attributes to offer option set
+In the following, the procedure of the standard delivery is described. It may differ if your system has a different configuration.
 
-Add these attributes to your offer option set to have them available in your stores.
+### Prerequisites
 
+- At least one product has been created, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
+ - The product has been created as an offer in the *Omni-Channel* module. For detailed information, see [Create an offer in PIM](../../PIM/Operation/01_ManageProducts.md#create-an-offer-in-pim) in the PIM module.
 
+*PIM > Products > Tab LIST*
 
+![Product list](../../Assets/Screenshots/PIM/Products/List/Products.png "[Product list]")
 
+1. Click the product you want to edit in the list of products.   
+    The *Edit product* view is displayed. The *Attributes* tab is preselected.
 
+    ![Attributes](../../Assets/Screenshots/PIM/Products/List/Attributes/AttributesEdit.png "[Attributes]")
+
+2. Click then *Prices* entry in the *Basic Data* tree.  
+    The *Prices (EUR)* window is displayed.
+
+    ![Prices (EUR)](../../Assets/Screenshots/POS/Management/Promotions/Prices.png "[Prices (EUR)]")
+
+3. Click the [ADD] button.   
+    The *Edit promotion or scale price* window is opened.
+
+    ![Edit promotions](../../Assets/Screenshots/POS/Management/Promotions/PromotionScalerPrice.png "[Edit promotion]")
+
+4. Select the *Price* radio button if you want to define a new price for the promotion. Enable the *gross* toggle, if the price is a gross price.
+
+5. Select the radio button to enter a percentage if you want to reduce the price by a percentage. You can enter the value with a scale or by entering the percentage value.
+
+6. Enter a description for the promotion in the *Description* field.
+
+7. Enter the quantity in the *From Quantity* field. This field is required.
+
+8. Enter the start date of the promotion in the *From date* field. Use the ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") button.
+
+9. Enter the end date of the promotion in the *To date* field. Use the ![Calendar](../../Assets/Icons/Calendar02.png "[Calendar]") button.
+
+10. Click the [SAVE] button.  
+    The *Edit product* view is displayed.
+
+11. Click the [SAVE] button.  
+    The *Submitting data..* message is displayed and the *Products* view is displayed. It may take some time until the changes are transferred to the offer in the *Omni-Channel* module and the new price is available in your stores.
 
 
 <!---NEU-->
@@ -465,27 +502,18 @@ For detailed information, see [Create an attribute](../../DataHub/Integration/01
 
 Declare the field in which the price group is stored in the customer master data. 
 
-#### Prerequisites
+For detailed information, see [Field for price group](../UserInterface/02a_GlobalSettings.md#field-for-price-group) in the Global settings.
 
-*Venduo POS > Management > General setting > Entry Field for price group*
-
-![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
-
-Click the *Price group* drop-down list and select the field you want to use for storing the price group in the customer master data.
 
 
 ### Activate the price groups
 
 Activate the price groups you want to use in your stores. In this case, the price group attributes must have been included in the *POS basic set* attribute set.
 
-> [Info] You can also activate the price groups store-specific, see [Admin settings &ndash; store](/POS/UserInterface/02b_Stores.md#admin-settings---store).    
+> [Info] You can also activate the price groups store-specific, see [Admin settings &ndash; store](/POS/UserInterface/02b_Stores.md#admin-settings---store). 
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Active price group*   
-*Venduo POS > Management > Tab STORES > Tab Admin settings > Entry Active price group*
+For detailed information, see [Active price groups](../UserInterface/02a_GlobalSettings.md#active-price-groups) in the Global settings. 
 
-![Active price groups](../../Assets/Screenshots/POS/Management/GlobalSettings/ActivePriceGroups.png "[Active price groups]")
-
-Enable the toggles next to the desired price groups and click the [Save] button.
 
 
 ### Add the price group price to offers
@@ -494,7 +522,7 @@ Enable the toggles next to the desired price groups and click the [Save] button.
 
  Because you added the price group attribute to the *POS basic set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
 
- > [Info] also want to offer the price groups for product options, you must also assign the price group attribute to the *Offer option set for POS "Name of the store"*. 
+ > [Info] If you also want to offer the price groups for product options, you must also assign the price group attribute to the *Offer option set for POS "Name of the store"*. 
 
 #### Prerequisites
 
@@ -557,6 +585,36 @@ No prerequisites to fulfill.
 
 5. If desired, add additional product options.
 
+<!---
+
+### Create a product for product option
+
+Create a product which describes the additional service, for example the logo to be printed on a shirt or a cup.
+
+#### Prerequisites
+No prerequisites to fulfill.
+
+#### Procedure
+
+1. Create the product. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
+
+2. Transfer the product to the *Omni-Channel* module. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
+
+
+
+### Assign a product to offer option set for store
+
+In addition to the store-specific variant set you must assign the product option to the offer option set for store. 
+
+> [Info] The offer option set for your store has been automatically created when creating the store. It is inherited from the  
+
+
+
+
+### Assign product option to product
+
+
+
 
 ### Add additional attributes
 
@@ -569,11 +627,5 @@ No prerequisites to fulfill.
 #### Procedure
 
 Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
-
-
-### Create an offer option set for store
-
-In addition to the store-specific variant set you must create an offer option variant set for the product option. 
-Here you can add additional attributes, for example, attributes for editing a text to be printed on an item.
-> [Info] The variant set for your store has been automatically created when creating the store. It is inherited from the  
+-->
 
