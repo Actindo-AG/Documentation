@@ -37,7 +37,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 - [Create a POS store manually](./06a_CreateStoreManually.md)   
     - [Create a store manually](./06a_CreateStoreManually.md#create-a-store-manually)  
-    - [Configure the store details](./06a_CreateStoreManually.md#configure-the-store-details-1)  
+    - [Configure the store details](./06a_CreateStoreManually.md#configure-the-store-details)  
     - [Create a pay desk](./06a_CreateStoreManually.md#create-a-pay-desk)   
     - [Configure the pay desk details](./06a_CreateStoreManually.md#configure-the-pay-desk-details)     
     - [Define a printer](./06a_CreateStoreManually.md#define-a-printer)   

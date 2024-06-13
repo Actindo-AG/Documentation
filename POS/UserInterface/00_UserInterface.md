@@ -104,7 +104,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Step 3 &ndash; Printing](./02b_Stores.md#step-3---printing)
         - [Step 4 &ndash; Store address](./02b_Stores.md#step-4---store-address)
         - [Step 5 &ndash; Stock](./02b_Stores.md#step-5---stock)
-        - [Step 6 &ndash; Stock level assignment](/02b_Stores.md#step-6---stock-level-assignments)
+        - [Step 6 &ndash; Stock level assignment](./02b_Stores.md#step-6---stock-level-assignment)
         - [Step 7 &ndash; Accounting](./02b_Stores.md#step-7---accounting)
         - [Step 8 &ndash; Summary](./02b_Stores.md#step-8---summary)
     - [Create store manually](./02b_Stores.md#create-store-manually)
