@@ -103,7 +103,7 @@ Select a voucher offer that allows you to identify and charge a pre-printed vouc
 
 #### Prerequisites
 
-Your company uses the KNISTR integration, with which vouchers can be pre-printed.
+Your company uses the KNISTR&trade; integration, with which vouchers can be pre-printed.
 
 #### Procedure
 

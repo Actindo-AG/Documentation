@@ -2,6 +2,8 @@
 
 This section provides you with an overview on the various discount options that are available for the *POS* module.
 
+> [Info] A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
+
 
 ## Automatic discount
 
@@ -16,7 +18,7 @@ For detailed information, see [Automatic discount](../UserInterface/02a_GlobalSe
 Discount that the cashier grants when editing the bill list or completing the purchase.
 
 For detailed information, see the following:
-- [Add a discount to the purchase](../Operation//Operation/04_CompletePurchase.md#add-a-discount-to-the-purchase)
+- [Add a discount to the purchase](../Operation/04_CompletePurchase.md#add-a-discount-to-the-purchase)
 - [Add a discount to a single offer](../Operation/03_EditBillList.md#add-a-discount-to-a-single-offer)
 
 
@@ -24,8 +26,6 @@ For detailed information, see the following:
 ## Customer-specific discount
 
 Customer-specific discount that is automatically added to the pay bill list when a customer, for whom a discount is defined in the customer's master data, purchases an offer.   
-
->[Info] If a customer has a customer-specific discount, other discount options are not allowed.
 
 For detailed information, see the following:
 - Configuration: [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount)

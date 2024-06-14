@@ -112,6 +112,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
     The detail view of the offer is closed. The bill list is displayed again. The selected quantity is displayed to the left of the offer.
 
 
+
 ## Check the stock level
 
 You can check the number of items in stock respectively the availability of an offer for the current store or all other stores of your company.
@@ -140,6 +141,7 @@ You can check the number of items in stock respectively the availability of an o
 3. Check the number of units/items in stock for the desired offer.
 
 4. Click the [Esc] key to close the window.
+
 
 
 ## Delete an offer from the bill list
@@ -266,7 +268,7 @@ Alternatively, if the customer has a customer or member card, you can select the
 <!--NEU-->
 ### Assign a purchase via customer number
 
-Assign the current purchase to a registered customer who has a customer or a member card with the customer number is printed on it or can be scanned via barcode scanner.  
+Assign the current purchase to a registered customer who has a customer or a member card. This card has the customer number printed on it or a barcode that can be scanned with a barcode scanner.  
 
 Alternatively, you can search for the customer name, see [Assign a purchase to an existing customer](#assign-a-purchase-to-an-existing-customer).
 
