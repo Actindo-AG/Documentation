@@ -1,7 +1,7 @@
 # Key features
 
 - Central management of item and order data
-- Automatic reconciliation of stock levels in real time
+- Automatic reconciliation of stock levels in real-time
 - More efficient processing of orders received via Shopware 6 through automated processes
 
 ## How it works

@@ -11,6 +11,7 @@ Before creating a new store in the POS system, you should configure the followin
 
 - Configure a default customer whose billing address will be added to all future POS bills to establish a connection to the *Order Management* module. For detailed information, see [Configure a default customer](#configure-a-default-customer).
 - Configure the VAT ID for POS for the printing on receipts, which is mandatory in most countries. For detailed information, see [Configure the VAT ID in POS](#configure-the-vat-id-in-pos).
+- If desired, define additional payment methods for POS, see [Define a new payment method for POS](#define-a-new-payment-method-for-pos).
 
 
 ## Configure a default customer
@@ -28,14 +29,11 @@ No prerequisites to fulfill.
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
-1. Click the *Default customer* entry in the list of settings in the left column.   
-    The *Default customer* view is displayed on the right side.
-
-2. Enter the fields for the default customer.
+1. Enter the data for the default customer.
 
     > [Info] You must at least enter the country and an e-mail address for the default customer.
 
-3. Click the [Save] button in the upper right corner.   
+2. Click the [Save] button in the upper right corner.   
     A confirmation message is displayed. The default customer is saved for all stores.
 
 
@@ -54,10 +52,7 @@ No prerequisites to fulfill.
 
 ![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
-1. Click the *VAT ID* entry in the list of settings in the left column.   
-    The *VAT ID* view is displayed on the right side.
-
-2. Enter the VAT ID in the *VAT ID* field.
+1. Enter the VAT ID in the *VAT ID* field.
 
 3. Click the [Save] button in the upper right corner.   
     A confirmation message is displayed. The VAT ID is saved for all stores.
@@ -87,9 +82,9 @@ No prerequisites to fulfill.
 
     ![Edit payment method](../../Assets/Screenshots/RetailSuiteFaktBase/Settings/PaymentMethods/EditPaymentMethod.png "[Edit payment method]")
 
-2. Enter a name for the payment method in the *Title* field.   
+2. Enter a name for the payment method in the *Title* field, for example, Credit card. In the *POS* module, the title is displayed in the *Name* field.  
 
-3. Enter an ID for the payment method in the *ID* field.   
+3. Enter a unique ID for the payment method in the *ID* field, for example, credit_card. In the *POS* module, the ID is displayed in the *Key* field.  
 
 4. Click the [SAVE] button in the bottom right corner of the window.   
     The *Saving...* window is displayed.
@@ -124,7 +119,7 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 
 4. Enter a name for the payment method in POS in the *Name* field.   
 
-    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order Management* module. It is only necessary that the ID (key) of the payment method in *Venduo POS* and *Order Management* match.
+    > [Info] The name of the payment method in POS can differ from the name of the payment method in the *Order Management* module. It is only necessary that the ID of the payment method in *Order Management* matches with the *Key* in *Venduo POS*.
 
 5. Click the [Save] button in the upper right corner.   
     The new payment method is saved in POS.
@@ -149,13 +144,13 @@ If you have created a new payment method in POS, you need to map the payment met
 
 ![Mappings](../../Assets/Screenshots/DataHub/Settings/ETL/AttributeSetMappings.png "[Mappings]")
 
-1. Click the **Order channel POS Store "Name of the store"** attribute set mapping of the corresponding store in the *Source attribute set* column.   
+1. Click the **Orders channel POS Store "Name of the store"** attribute set mapping in the *Source attribute set* column.   
     The *Mapping* view of the selected attribute set is displayed.
 
 2. Click the attribute mapping with the **Payment method** attribute in the *Destination attribute* column.   
     The *Settings* section is displayed in the right part of the tab.
 
-    ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping]")
+    ![Mapping](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethodMapping.png "[Mapping]")
 
 3. Click the *Extension* drop-down list in the *Settings* section and select the **Mapping table** option.
 

@@ -1,6 +1,5 @@
 [!!Create a store in POS](./06_CreateStore.md)
-[!! Create user group](../../Core1Platform/AdministratingCore1/03_ManageGroups.md#create-user-group)
-[!! Add user to user group](../../Core1Platform/AdministratingCore1/03_ManageGroups.md#add-user-to-user-group)
+[!! Manage the user groups](../../Core1/AdministratingCore1/03_ManageGroups.md)
 
 
 
@@ -20,11 +19,11 @@ The users that belong to a POS group must be assigned to a pay desk or store in 
 
 #### Prerequisites
 
-- The users have been registered.
+- The users have been created.
 - You have the system admin rights to create groups as well as to assign users to a group.
 
 
 #### Procedure
 
-For detailed information, see [Create user group](../../Core1Platform/AdministratingCore1/03_ManageGroups.md#create-user-group) and [Add user to user group](../../Core1Platform/AdministratingCore1/03_ManageGroups.md#add-user-to-user-group) in the *Core1 Platform* documentation.
+For detailed information, see [Create user group](../../Core1/AdministratingCore1/03_ManageGroups.md#create-user-group) and [Add user to user group](../../Core1/AdministratingCore1/03_ManageGroups.md#add-user-to-user-group) in the *Core1 Platform* documentation.
 

@@ -1,6 +1,8 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!Manage the POS warehouse](./08_ManageWarehouse.md)
 [!!Handle an out-of-stock order](../Troubleshooting/01_OutOfStockOrder.md)
+[!!configure the warehouse groups](../../RetailSuiteWarehousing/Integration/01_ConfigureWarehouseGroups.md)
+[!!Configure the warehouses](../../RetailSuiteWarehousing/Integration/02_ConfigureWarehouses.md)
 
 
 # Configure the warehouse for POS
@@ -11,7 +13,7 @@ Therefore, it is recommended to create a new warehouse group and integrate all w
 
 ## Create a warehouse group
 
-Create a warehouse group to which you can assign all specific warehouses for your POS store, for instance a sales warehouse, a returns warehouse, and a quarantine warehouse.
+Create a warehouse group to which you can assign all specific warehouses for your POS store, for instance a sales warehouse, a returns warehouse, and a storage area for blocked stock.
 
 #### Prerequisites
 

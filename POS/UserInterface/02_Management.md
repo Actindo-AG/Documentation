@@ -7,5 +7,5 @@ The POS *Management* menu entry is used to create new stores and configure all s
 The *Management* user interface is composed of the following tabs:
 - [GLOBAL SETTINGS](./02a_GlobalSettings.md)
 - [STORES](./02b_Stores.md)
-- [MAPPING FROM PIM](./02c_MappingFromPIM.md)
-- [TSS PROVIDERS](./02d_TSSProviders.md)
+- [MAPPING FROM PIM](./02d_MappingFromPIM.md)
+- [TSS PROVIDERS](./02e_TSSProviders.md)
