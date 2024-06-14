@@ -53,7 +53,8 @@ The *Choose options* window is displayed if a selected offer has additional prod
     Enter additional information to a single option, if applicable. This can be a text or a name that should be printed on a shirt or another item.
 
 - [CANCEL]   
-    Click this button if the customer no longer wants to purchase the offer associated with the product option.
+    Click this button if the customer no longer wants to purchase the offer associated with the product option.   
+    The offer is not added to the bill list.
 
 - [SAVE]   
     Click this button if the customer wants to purchase the offer, or both the offer and the product option.   
@@ -86,7 +87,7 @@ The *Choose options* window is displayed if a selected offer has additional prod
 - ![Add customer](../../Assets/Icons/Customer02.png "[Add customer]") (Add Customer)   
     Click this button to assign the bill to a certain customer. The *Add customer* view is displayed, see [Add customer](#add-customer).
 
-- *Customer Name and Address*   
+- Customer Name and Address   
     The customer name and address is displayed when the bill list is assigned to a customer. This field is read-only.
 
 - ![Unassign customer](../../Assets/Icons/Trash01.png "[Unassign customer]") (Unassign Customer)  
@@ -112,9 +113,13 @@ The *Choose options* window is displayed if a selected offer has additional prod
     Click this button to remove an offer from the bill list. This field is displayed only when an offer has been added to the bill list.
 
 - *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Single scan*   
-    Activate this toggle to use the single scan feature, see [Use single scan](../Operation/02_SelectOffer.md#use-single-scan).
+    Enable this toggle to use the single scan feature, see [Use single scan](../Operation/02_SelectOffer.md#use-single-scan).
 
     > [Info] If the same offer is selected more than once, and you use the single scan feature, each offer is listed as a single offer in the bill list. This allows you to treat each offer in the posting individually. 
+
+- *![Toggle](../../Assets/Icons/ToggleRed.png "[Toggle]") Negative quantity*   
+    Enable the toggle if you want to create a return. If you enable the toggle, the enabled toggle is displayed in red. For detailed information, see [Add a return to the bill list](../Operation/02_SelectOffer.md).
+
 
 - *Sub total*   
     Net<!---Hier stand "Gross"--> amount of all offers in the bill list. This field is read-only.
@@ -186,7 +191,7 @@ This section is only displayed when no voucher has been redeemed.
 - ![Remove Voucher](../../Assets/Icons/Cross06.png "[Remove Voucher]") (Remove Voucher)    
     Click this button to remove the voucher. The button is only displayed when a voucher is redeemed.
 
-- *Total:*   
+- *Total*   
     Total gross<!--- Hier stand net--> amount of the bill. This field is read-only.
 
 
@@ -240,14 +245,14 @@ This section is only displayed when no voucher has been redeemed.
 - *Percent*   
     Enter the percentage amount. This field is only displayed if you have previously enabled the *Calculated via percentage* toggle. In the field below the down payment amount is displayed.
 
-- Field for amount   
+- Amount   
     Enter the fixed amount. This field is only displayed if you have disabled the *Calculated via percentage* toggle. 
 
 
 
 ## Cash payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Select the [PAY] button > Select the [CASH] button*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] button > [CASH] button*
 
 ![Cash payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashPayment.png "[Cash payment]")
 
@@ -308,7 +313,7 @@ The *Payment Successful* view is automatically displayed when the cash payment p
 
 ## Cashless payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > [PAY] > [MANUELLES ZAHLEN AM TERMINAL]*
+*Venduo POS > Sales > Select Store and Pay Desk > Tab CASHPOINT > Button[PAY] > Button [MANUELLES ZAHLEN AM TERMINAL]*
 
 ![Cashless payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")  
 

@@ -340,8 +340,8 @@ No prerequisites to fulfill.
 
 ### Configure the stock allocation
 
-Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration
-/04_ConfigureStockAllocation.md "[Configure the stock allocation]")
+Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration/04_ConfigureStockAllocation.md "[Configure the stock allocation]").
+
 
 #### Prerequisites
 
