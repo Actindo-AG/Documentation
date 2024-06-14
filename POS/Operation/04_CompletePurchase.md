@@ -134,8 +134,8 @@ If your company supports this feature, the price will be automatically reduced f
     The customer data are displayed at the top.
 
 2. Click the [PAY] button at the bottom of the bill list.   
-    The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. <!---noch mal prüfen in bill list, wenn Add customer wieder geht.-->
-    <!---Screenshot neu machen, wenn add customer geht-->
+    The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. 
+
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/PayPriceGroup.png "[Pay]")
 
 3. If desired, select the price group manually, for example, if you know the customer. To do this, click the *Price group* drop-down list and select the price group.
@@ -143,7 +143,7 @@ If your company supports this feature, the price will be automatically reduced f
 4. Click the [SAVE] button next to the *Price group* field.   
     If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed. The old amount is crossed out, and the new amount is calculated.
 
-    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Changed price]")
+    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PriceGroupChangedPrice.png "[Changed price]")
 
 
 
@@ -184,7 +184,7 @@ If your company uses the *Down payment allowed* feature, you can reduce the enti
     - Disable the *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage* toggle.
     - Enter the fixed value the line below. You can use the ![Plus minus](../../Assets/Icons/PlusMinus.png "[Plus minus]") (Plus minus) button as input help.
 
-4. Click the [SAVE] button.
+4. Click the [SAVE] button.   
     The *Down payment of "value/currency"* is noted in the pay bill list.   
     The total amount of the pay bill list remains at the original price. When you now initiate the payment, only the down payment amount is due.
 

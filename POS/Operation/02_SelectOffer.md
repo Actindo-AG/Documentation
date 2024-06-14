@@ -125,7 +125,7 @@ Your company uses the KNISTR integration, with which vouchers can be pre-printed
     ![Voucher details](../../Assets/Screenshots/POS/Sales/Cashpoint/VoucherDetails.png "[Voucher details]")
 
 4. Scan the voucher code with the barcode scanner or enter the code manually.     
-    If the barcode was successfully scanned, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, where a default value is provided, which you can overwrite.
+    If the barcode was successfully scanned, the voucher code is automatically added to the *Voucher code* field. The cursor is placed in the *Amount* field, which has a default value that you can overwrite.
 
 5. Enter the amount in the *Amount* field. Note that this amount will be added to any amount already on the voucher.
 
@@ -135,8 +135,9 @@ Your company uses the KNISTR integration, with which vouchers can be pre-printed
 
 ## Select an offer with single scan
 
-If you select the same offer more than once, it is displayed in the bill list as one line item with the corresponding quantity indication. This means that the individual offer with the quantity 1 is not displayed in the bill list.   
-Optionally, you can activate the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. This allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.
+The single scan feature allows you to treat each offer in the bill list individually, for instance, to apply an individual discount.    
+In general, if you select the same offer more than once, it is displayed in the bill list as one single item with the corresponding quantity. This means that if one offer is added more than once to the bill list, an entry with the quantity 1 is not displayed in the bill list.   
+Optionally, you can activate the single scan feature before you select the offers. By using it, each offer is listed as a single line item in the bill list, even if it is the same offer. 
 
 #### Prerequisites
 
@@ -251,20 +252,16 @@ There are products where the buyer has the option of customizing them. If a stor
 
     ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption1.png "[Choose options]")
 
-2. Present the various options to the customer.   
-    + If the customer does not want to use the service, click the [SAVE] button.   
-        The *Choose options* window is closed and the selected offer is added to the bill list.
-    + If the customer wants to use the service, select the required service.  
-        Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. In this case, a field for adding this information is displayed.  
+2. Present the various options to the customer. 
+    + If the customer does not want to use the service, click the [SAVE] button.    
+        The *Choose options* window is closed and the previously selected offer is added to the bill list.  
+    + If the customer wants to use the service, select the required service in the *Choose options* windows. Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. In this case, a field for adding this information is displayed that you can edit.  
 
         ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption2.png "[Choose options]")
         
-
-3. If applicable, enter the name or other information that might be required.
-
-4. Click the [SAVE] button.  
+      Click the [SAVE] button.  
     The *Choose options* window is closed. The offer, the product option and the additional edited information are added to the bill list.
 
-    ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductOptionBillList.png "[Bill list]")
+        ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductOptionBillList.png "[Bill list]")
 
 
