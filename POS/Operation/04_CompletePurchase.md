@@ -2,21 +2,21 @@
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
 
+
 # Complete a purchase
 
-To complete a purchase, you need to initiate the payment. At the Venduo POS pay desk, you have several options to complete the payment process, for instance by cash payment, by cashless payment or by voucher. You can also assign a discount to one or more items on the bill list or park a payment for a later time.
+To complete a purchase, you need to initiate the payment. At the POS pay desk, you have several options to modify the payment process such as suggesting additional offers, adding a discount, initiating a delivery or a down payment, or parking a payment for a later time. Further, you have several options to finalize the payment process, for instance by cash payment, by cashless payment, or by voucher. 
 
-## Pay cash
 
-If a customer wishes to pay in cash, the payment process in the pay desk must be completed as follows.
+<!--- NEU-->
+## Suggest an offer to the customer
 
-### Manual input of the cash amount
-
-To enter a cash payment, you can select the cash amount for the payment manually.
+If your company wants you to suggest additional offers to complete the customer's shopping experience, there is a feature that reminds you to offer additional items to the customer.   
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- The *Remind of offers* setting is activated. For detailed information, see [Remind of offers](../UserInterface/02a_GlobalSettings.md#remind-of-offers).
 
 #### Procedure
 
@@ -25,11 +25,223 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The *Suggest the following offers to the customer* window is displayed, presenting some additional offers.
+
+    ![Suggest offers](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductReminder.png "[Suggest offer]")
+
+2. Suggest the offers to the customer.
+
+3. Click an offer, if a customer wants it.  
+    The offer is added to the bill list.
+
+4. Click the [PROCEED] button.   
+    The pay bill list is displayed. If you have not previously clicked on a suggested offer, only the offer(s) you originally selected will be charged.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
-2. In the *Select payment* section you can complete the cash payment by two different ways:   
+
+
+## Add a discount to the purchase
+
+You can add a discount to the whole purchase of your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. The discount to the purchase is always a percentage discount.  
+
+> [Info] You can also add a discount to a single offer of the bill list. For detailed information, see [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer). 
+ 
+A combination of several discount options is not allowed. For example, you cannot give a discount on a single offer and a discount on the purchase. If a customer has a customer-specific discount that is automatically added to the pay bill list, manually applied discounts are not allowed.
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed. 
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the [+ DISCOUNT] button above the total.   
+    The *Discount on bill* view is displayed.
+
+    ![Discount on bill](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DiscountBill.png "[Discount on bill]")
+
+3. Enter a description in the *Description* field to specify the discount, for example, campaign, defect.
+
+4. Enter the percentage in the input field to the right of the *Description* field or select a percentage by clicking the number buttons in the lower area.   
+    The reduced price of the purchase is displayed below the percentage field.
+
+5. Click the [APPLY DISCOUNT] button in the bottom right corner.   
+    The bill discount view is closed. The pay bill list is displayed again. The discount is indicated both as a percentage and as a fixed amount above the reduced total.
+
+    ![Pay Discount](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PayDiscount.png "[Pay Discount]")
+
+    > [Info] To the right of the indicated discount, on the edge of the bill list, the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag is displayed. Click the flag to delete the discount, if required.
+
+
+<!--- NEU-->
+## Check the customer-specific discount
+
+If your company uses the *Customer-specific discount* feature, a specific discount might be defined for a customer. The discount is automatically deducted as soon as a customer purchases an offer. You can remove the discount, if required.
+
+> [Info] If a customer has a customer-specific discount, other discount options are not allowed.
+
+#### Prerequisites
+
+- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- The *Customer-specific discount* setting is activated. For detailed information, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Add an existing customer to the bill list. For detailed information, see [Assign a purchase to an existing customer](../Operation/03_EditBillList.md#assign-a-purchase-to-an-existing-customer).
+
+2. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed. A discount is added automatically to the pay bill list. 
+
+    ![Check discount](../../Assets/Screenshots/POS/Sales/Cashpoint/CustomerSpecificDiscount.png)
+
+3. If the customer should not receive a discount, click the ![Remove](../../Assets/Icons/Cross06.png "[Remove]") (Remove) flag.    
+    The customer-specific discount is removed.
+
+
+<!---NEU-->
+## Assign a price group
+
+A price group classifies different prices that apply to customers to whom the same pricing criteria are applied, for example club members or business partners. For example, an assigned price group can reduce the price for a specific offer. The price group is stored in the customer master data.      
+
+If your company supports this feature, the price will be automatically reduced for the customers concerned. You can also assign the price group manually. 
+
+#### Prerequisites
+
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- A price group price has been assigned to the related offers, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
+- A price group has been assigned to a customer.
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Add the customer. For detailed information, see [Assign a purchase to a customer](../Operation/03_EditBillList.md#assign-a-purchase-to-a-customer).   
+    The customer data are displayed at the top.
+
+2. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed. If the customer is assigned to a specific price group, it is preselected. 
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/PayPriceGroup.png "[Pay]")
+
+3. If desired, select the price group manually, for example, if you know the customer. To do this, click the *Price group* drop-down list and select the price group.
+
+4. Click the [SAVE] button next to the *Price group* field.   
+    If there are offers on the bill list for which a price group-specific price has been defined, the amounts on the bill list are changed. The old amount is crossed out, and the new amount is calculated.
+
+    ![Changed price](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PriceGroupChangedPrice.png "[Changed price]")
+
+
+
+<!--- NEU-->
+## Initiate a down payment
+
+If your company uses the *Down payment allowed* feature, you can reduce the entire total amount of the bill to a specific down payment, for example, if a down payment has been agreed or if the full amount is not due until the offers are delivered or collected.   
+
+#### Prerequisites
+
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).   
+- The *Down payment allowed* setting is activated. For detailed information, see [Down payments allowed](../UserInterface/02a_GlobalSettings.md#down-payments-allowed).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed.
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the [+ ADD DOWN PAYMENT] button in the *Settlement* section.   
+    The *Add down payment* window is displayed.
+
+    ![Add down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/AddDownPayment.png)
+
+3. Define the down payment. You can enter a percentage value or a fixed amount.
+   
+   **Enter a percentage value**
+    - Enable the *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage* toggle.
+    - Enter the desired percentage value in the *Percent* field.  
+        The down payment amount is displayed below.
+
+    **Enter a fixed value**
+    - Disable the *![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") Calculated via percentage* toggle.
+    - Enter the fixed value the line below. You can use the ![Plus minus](../../Assets/Icons/PlusMinus.png "[Plus minus]") (Plus minus) button as input help.
+
+4. Click the [SAVE] button.   
+    The *Down payment of "value/currency"* is noted in the pay bill list.   
+    The total amount of the pay bill list remains at the original price. When you now initiate the payment, only the down payment amount is due.
+
+    ![Down payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/DownPaymentInList.png)
+
+
+<!--- NEU-->
+## Initiate a delivery
+
+If your company supports the delivery of an offer, you can easily initiate a delivery.  
+
+#### Prerequisites
+
+- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- The *Deliveries allowed* setting is activated. For detailed information, see [Deliveries allowed](../UserInterface/02a_GlobalSettings.md#deliveries-allowed).
+- The purchase is assigned to a customer, and the address (delivery address) is available, see [Assign a purchase to a customer](03_EditBillList.md#assign-a-purchase-to-a-customer).
+
+#### Procedure
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed.
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
+
+2. Click the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle in the *Settlement* section.  
+    The delivery is initiated.
+
+
+
+## Pay cash
+
+If a customer wants to pay cash, the payment process in the pay desk must be completed as follows.
+
+
+### Manual input of the cash amount
+
+To enter a cash payment, you can select the cash amount for the payment manually.
+
+#### Prerequisites
+
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+
+#### Procedure
+
+*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+
+![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
+
+1. Click the [PAY] button at the bottom of the bill list.   
+    The pay bill list is displayed.
+
+    ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
 3. Click the [Cash] button.   
     The *Cash payment* view is displayed.
@@ -39,15 +251,9 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 4. Enter the cash payment amount in the *Amount* field or select an amount by clicking the number buttons in the lower area.
 
 5. Click the [Pay] button in the bottom right corner.   
-    The *Payment pending* view is displayed while the payment is being processed.   
+    The *Payment pending* view is displayed while the payment is being processed. After that, a confirmation window is displayed. 
 
-    ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
-
-    The *Payment successful* view is displayed when the payment is completed.   
-
-    ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
-
-6. Click the [Done] button.   
+6. Click the [Done] button to confirm the payment.   
     The purchase is completed. The bill list is displayed again.
 
 
@@ -57,7 +263,7 @@ To enter a cash payment, you can select the cash amount for the payment by using
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -66,22 +272,17 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
-2. In the *Select payment* section you can complete the cash payment by two different ways:   
-
-3. Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.   
-    The *Payment pending* view is displayed while the payment is being processed.   
-
-    ![Payment pending](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentPending.png "[Payment pending]")
-
+2. Click one of the buttons in the *Quick select* section. The offered amounts on the buttons vary depending on the amount of the purchase and the denomination of the currency defined in the global settings.  
+    The *Payment pending* view is displayed while the payment is being processed. The total of the bill, the given amount, and the change amount are listed.  
     The *Payment successful* view is displayed when the payment is completed.   
 
     ![Payment Successful](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentSuccessful.png "[Payment Successful]")
 
-4. Click the [Done] button.   
+4. After you have returned the change, click the [Done] button.   
     The purchase is completed. The bill list is displayed again.
 
 
@@ -91,6 +292,7 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 Generally, you open the cash drawer when you accept a cash payment or when you want to store the receipt in the drawer for a cashless payment.
 In case of cash or cashless payment, the option to open the drawer can be activated or deactivated in the settings.
 If you want to open the drawer independently of a payment process, for instance to change money, you can do so as follows.
+
 
 ### Open the drawer in the cashpoint
 
@@ -106,7 +308,7 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-Click the [ ![Open Drawer](../../Assets/Icons/Drawer.png "[Open Drawer]") Open Drawer] button at the bottom part of the bill list.   
+Click the [![Open Drawer](../../Assets/Icons/Drawer.png "[Open Drawer]") Open Drawer] button at the bottom part of the bill list.   
     The drawer opens.
 
 
@@ -124,20 +326,19 @@ A pay desk is opened, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
-Click the [ ![Open drawer](../../Assets/Icons/Drawer.png "[Open drawer]") Open drawer] button at the top of the *Cash In/Out* section.   
+Click the [![Open drawer](../../Assets/Icons/Drawer.png "[Open drawer]") Open drawer] button at the top of the *Cash In/Out* section.   
     The drawer opens.
 
 
 
 ## Pay cashless at the terminal
 
-[comment]: <> (need more information!)
-
-If a customer wishes to pay cashless, the payment process in the pay desk must be completed as follows. Currently, it's not possible to connect an external terminal to POS. The payment process itself has to be completed at the external terminal. Nevertheless, you can book the payment in your pay desk for the statistic and to transfer it in your accounts.  
+If a customer wants to pay cashless, the payment process in the pay desk of the *Venduo POS* module must be completed as described below. Currently, it is not possible to connect an external terminal to the *Venduo POS* module.   
+You can complete the entire payment process with the pay desk at your desktop. If you have external terminals in use, you must complete the payment process at them. Nevertheless, you can post the payment in your pay desk for the statistics and for posting it into your accounts.  
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -146,7 +347,7 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
@@ -155,15 +356,11 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 
     ![Cashless payment](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CashlessPayment.png "[Cashless payment]")
 
-3. Select the card type in the drop-down list *Card type*.
+3. Select the card type in the *Card type* drop-down list.
     The selected card type is displayed in the drop-down list.
 
-[comment]: <> (Is card type correct? It could also be Paypal, or another cardless method...)
-
 4. Click the [Finalize payment process] button.   
-    The *Payment at terminal* view is displayed when the payment is completed.
-
-    ![Payment at terminal](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/PaymentTerminal.png "[Payment at terminal]")
+    A confirmation window is displayed.
 
 5. Click the [Done] button.   
     The purchase is completed. The bill list is displayed again.
@@ -176,7 +373,7 @@ In addition to cash and cashless payment, customers can also pay with vouchers.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -185,11 +382,11 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the [PAY] button at the bottom of the bill list.   
-    The payment view is displayed in the bill list.
+    The pay bill list is displayed.
 
     ![Pay](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Pay.png "[Pay]")
 
-2. Click the *Voucher code* field at the top in the *Vouchers* section and enter the voucher code.   
+2. Click the *Voucher code* field at the top in the *Vouchers* section and enter the voucher code or scan it with a barcode scanner.   
 
 3. Click the [REDEEM] button to the right of the *Voucher code* field.   
     The voucher is indicated in the *Settlement* section of the bill list.
@@ -218,7 +415,7 @@ Park a bill to defer it for a later date.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -249,7 +446,7 @@ If you have parked a purchase, you can resume it as follows.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -270,7 +467,7 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 3. Click the [Resume] button.   
     The purchase is resumed. The parked bill list is displayed again.
 
-    ![Bill list product](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill list product]")
+    ![Bill list offer](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/Product.png "[Bill list offer]")
 
 4. Complete the purchase by editing the bill list or paying the remaining total either by cash or cashless payment:
     - For cash payment, see [Pay cash](#pay-cash).
@@ -282,10 +479,11 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 ## Cancel a purchase
 
 You can cancel a purchase, for instance if a customer decides against the purchase at short notice.   
+Note that you cannot undo a cancellation.
 
 #### Prerequisites
 
-At least one product is added to the bill list, see [Select an offer](./02_SelectOffer.md).
+At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -296,4 +494,4 @@ At least one product is added to the bill list, see [Select an offer](./02_Selec
 Click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button at the bottom of the bill list.   
     The current purchase is canceled. The bill list is empty.
 
-> [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button the entire purchase is canceled without further query. The cancellation cannot be undone.
+> [Info] If you click the ![Delete](../../Assets/Icons/Trash02.png "[Delete]") (Delete) button, the entire purchase is canceled without further query.
