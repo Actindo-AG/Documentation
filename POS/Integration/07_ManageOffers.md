@@ -337,7 +337,7 @@ A *Knistr&trade;* integration is available in the standard. You can use this int
 
 Pre-printed vouchers have the following special features:
 
-- The voucher cards can be used as refill cards, so that you do not define a price when creating the pre-printed voucher offer. When it is created in Actindo, the cashier can individually load the voucher card with any amount. The amount entered when recording the voucher is added to the amount already existing on the voucher card.
+- The voucher cards can be used as refill cards, so that you define a price proposal only when creating the pre-printed voucher offer. When it is created in Actindo, the cashier can individually load the voucher card with any amount. The amount entered when recording the voucher is added to the amount already existing on the voucher card.
 - The pre-printed voucher offer is not created in the *PIM* module, it is created store-specific in the *Omni-Channel* module.
 
 Note that the *Set for POS Store "Name of the store"* attribute set, which is inherited from the *POS basic set*, contains the *Voucher* attribute, which allows you to classify an offer as a pre-printed voucher. 
@@ -377,7 +377,7 @@ Note that the *Set for POS Store "Name of the store"* attribute set, which is in
     > [Info] This description relates to the *POS basic set*. 
 
     - Enter **"Name of the voucher** in the *Barcode* field.
-    - Enter a default value in the *Price* field. This value can be overwritten individually when selling the voucher.
+    - Enter a proposal in the *Price* field. This value can be overwritten individually when selling the voucher.
     - Enter the tax rate value in the *Tax rate* field and select the required tax class in the *Tax class* drop-down field.
     - Enable the *Voucher* toggle to classify the offer as a voucher.
 
@@ -413,12 +413,12 @@ For detailed information on configuring this feature, see [Display age rating](.
 
 <!---NEU-->
 ## Define promotions for POS
-You can define promotions for POS by adding a promotion price and a validity period to a POS offer.  
+You can define promotions for POS by adding a promotion price and a validity period to a POS offer that have been previously defined as promotion price in the *PIM* module.  
 
 For this feature, the following attributes have been added to the POS basic set and are available in the offer's attributes of your stores:
-- Special price: Attribute with which a promotions price can be specified.
-- Special price start: Attribute, with which the start date of a promotion can be specified.
-- Special price end: Attribute, with which the end date of a promotion can be specified.   
+- actindo_pos_special_price: Attribute with which a promotions price can be specified.
+- actindo_pos_special_price_start: Attribute, with which the start date of a promotion can be specified.
+- actindo_pos_special_price_end: Attribute, with which the end date of a promotion can be specified.   
 
 As the POS basic set is automatically inherited to your offers, these attributes are available for your offers.
 
@@ -464,7 +464,7 @@ In the following, the procedure of the standard delivery is described. It may di
     The *Edit product* view is displayed.
 
 11. Click the [SAVE] button.  
-    The *Submitting data..* message is displayed and the *Products* view is displayed. It may take some time until the changes are transferred to the offer in the *Omni-Channel* module and the new price is available in your stores.
+    The *Submitting data..* message is displayed and the *Products* view is displayed. It may take some time until the changes are transferred to the offer in the *Omni-Channel* module and the promotion price is available in your stores.
 
 
 <!---NEU-->
@@ -474,7 +474,7 @@ Price groups are used to classify different prices that apply to customers to wh
 
 ### Create attributes for the POS price group
 
-Define the attribute that is assigned to the customer master data later and in which the price group of the customer is stored. Assign this attribute to the customer master data attribute set. In addition, define the attribute that contains the POS price group. Assign this attribute to the related store-specific attribute set.
+Define the attribute that is assigned to the customer master data later and in which the price group of a customer is stored. Assign this attribute to the attribute set that you use for your customer master data. In addition, define the attribute that contains the POS price group. Assign this attribute to the related store-specific attribute set.
 
 #### Prerequisites
 
@@ -517,9 +517,7 @@ For detailed information, see [Active price groups](../UserInterface/02a_GlobalS
 
 ### Add the price group price to offers
 
- Assign the attribute for defining the price group-related price, for example the *pos_member_price* attribute, to each offer, to which a price group-specific price should apply.   
-
- Because you added the price group attribute to the *POS basic set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
+ Assign the attribute for defining the price group-related price, for example the *pos_member_price* attribute, to each offer, to which a price group-specific price should apply. Because you added the price group attribute to the *POS basic set*, the attribute is automatically inherited by all *Set for POS "Name of the store"* attribute groups. This means that it is available for all of your store-specific offers.
 
  > [Info] If you also want to offer the price groups for product options, you must also assign the price group attribute to the *Offer option set for POS "Name of the store"*. 
 
@@ -548,7 +546,7 @@ The attribute for specifying the price group-related price has been defined in t
 
 
 
-<!---NEU-->
+<!---NEU
 ## Create a product option 
 
 You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
