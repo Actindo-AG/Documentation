@@ -224,9 +224,6 @@ Some offers are not suitable for children and young people, for example offers s
 
 2. Check the age of the customer. The *Age verification* window provides you with both the minimum age required and the date of birth that the customer must meet or fall below. Eventually, an explanatory text has been added.
 
-    ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
-    
-
 3. Click the [AGE OF BUYER CONFIRMED] button if the customer is allowed to buy this offer, or click the [CANCEL] button if the customer is too young to buy this offer.  
     If the customer is old enough, the offer is added to the bill list. If the customer is too young, the offer is not added to the bill list.
 
@@ -258,7 +255,7 @@ There are products where the buyer has the option of customizing them. If a stor
     + If the customer wants to use the service, select the required service in the *Choose options* windows. Depending on the service option, additional information might be required, for example, if a customer wants to have his/her name printed on a shirt. In this case, a field for adding this information is displayed that you can edit.  
 
         ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption2.png "[Choose options]")
-        
+
       Click the [SAVE] button.  
     The *Choose options* window is closed. The offer, the product option and the additional edited information are added to the bill list.
 
