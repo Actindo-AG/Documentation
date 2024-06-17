@@ -1,7 +1,6 @@
 [!!Open a pay desk](./01_OpenPayDesk.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
 [!!User interface Stores](../UserInterface/02b_Stores.md)
-<!---Error-->
 
 # Manage the cash register
 
@@ -91,11 +90,13 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5].[+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each peace is specified in the *Amount* column.
 
-    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash2.png "[Count Cash]")
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 3. Click the next row and continue entering the number of coins or banknotes in the *Amount* column input field. Repeat this step for all rows.
 
     > [Info] The total of cash counted is displayed at the bottom of the *Count cash* box.
+
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash2.png "[Count Cash]")
 
 4. Click the [OK] button in the bottom right corner.  
     The *Count cash* box is closed. The total of cash counted is displayed in the field of the *Counted* column in the *Payment tally* box.

@@ -1,7 +1,6 @@
 # Operation
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
-<!---Error-->
 
 - [Open a pay desk](./01_OpenPayDesk.md)
 
@@ -22,7 +21,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer)
     - [Edit the price of an offer](./03_EditBillList.md#edit-the-price-of-an-offer)
     - [Edit the quantity of an offer](./03_EditBillList.md#edit-the-quantity-of-an-offer)
-    - [Check the stock level](./03_EditBillList.md#check-the-stock-level)
+    - [Check the stock](./03_EditBillList.md#check-the-stock-level)
     - [Delete an offer from the bill list](./03_EditBillList.md#delete-an-offer-from-the-bill-list)
     - [Add a sale note](./03_EditBillList.md#add-a-sale-note)
     - [Assign a purchase to a customer](./03_EditBillList.md#assign-a-purchase-to-a-customer)

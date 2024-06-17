@@ -3,7 +3,6 @@
 # Establish the RetailSuite connection
 
 #### Error description
-<!---Error-->
 
 <!---Ist das hier noch aktuell?-->
 The RetailSuite is not connected to *Venduo POS*. The *DATA TRANSFER RETAILSUITE ORDER MANAGEMENT* section is not displayed in the global settings.

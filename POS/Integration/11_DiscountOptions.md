@@ -31,7 +31,6 @@ For detailed information, see the following:
 - Configuration: [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount)
 - Use: [Check the customer-specific discount](../Operation/04_CompletePurchase.md#check-the-customer-specific-discount)
 
-<!---Error-->
 
 
 ## Discount based on price group

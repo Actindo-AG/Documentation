@@ -3,7 +3,6 @@
 [!!User interface Stores](../UserInterface/02b_Stores.md)
 [!!User interface PIM Attributes](../../PIM/UserInterface/03a_Attributes.md)
 [!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
-<!---Error-->
 
 # Create a POS store manually
 
@@ -56,9 +55,11 @@ Create a store manually, if you do not want to use the wizard.
 
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
-    The following entities have been automatically created:
+    The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.    
+      
+    The following entities have been automatically created:  
     - *DataHub* module:   
-        The following attribute sets have been created<!--- Ist das richtig?-->:
+        The following attribute sets have been created<!--- Julian, Ist das richtig? Sollte man hier vielleicht eine Tabelle einfügen und erklären, was sie einzelnen Sets bedeuten und was die Kunden damit machen können?-->:
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
         - Payment items channel POS Store "Name of new store"
@@ -69,13 +70,15 @@ Create a store manually, if you do not want to use the wizard.
         - Service items channel POS Store "Name of the new store"  
         - Set for POS store "Name of new store"
         - Offer option set for POS store "Name of the new store" 
+
     - *PIM* module   
-        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*  
+
     - *Omni-Channel* module   
-    The following attribute sets have been created:    
-        - A connection *POS store "Name of new store"*
-        - A variant set *Set for POS for "Name of the new store"* 
-        - A variant set *Offer option set for POS store "Name of the new store"* 
+        The following attribute sets have been created:     
+        - A connection *Venduo POS store "Name of new store"*  
+        - A variant set *Set for POS for "Name of the new store"*   
+        - A variant set *Offer option set for POS store "Name of the new store"*   
 
 
 ## Configure the store details
@@ -257,10 +260,10 @@ To connect the warehouse management and the stock management to your POS, you ha
 3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
 For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
-   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
+   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a storage shelf is defined for them. By default, a storage shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a storage shelf. The products get a storage shelf the first time the corresponding channels offer is activated.    
+   This automation only works if you have enabled the storage of multiple items per storage shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
-4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
+4. Enter a storage shelf number for the products in the *Shelf* field. The storage shelf number can be any arbitrary number.
 
 5. Click the [Save] button in the upper right corner.   
     A confirmation message is displayed. The warehouse assignment is saved.
@@ -268,7 +271,7 @@ For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 ## Configure the stock withdrawal matrix
 
-Define in the stock withdrawal matrix from which warehouses defined in the system the stock level is taken from.  
+Define in the stock withdrawal matrix from which warehouses defined in the system the stock is taken from.  
 For detailed information on the stock withdrawal matrix, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* documentation.
 
 #### Prerequisites

@@ -1,7 +1,6 @@
 # Overview
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
-<!---Error-->
 
 - [General information](./01_General.md)
     - [Benefits](./01_General.md#benefits)

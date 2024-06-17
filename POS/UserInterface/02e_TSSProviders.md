@@ -1,7 +1,6 @@
 # TSS Providers
 
 *Venduo POS > Management > Tab TSS PROVIDERS*
-<!---Error-->
 
 ![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 

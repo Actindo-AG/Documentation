@@ -1,5 +1,4 @@
 [!!Manage the offers for POS](../Integration/07_ManageOffers.md)
-<!---Error-->
 
 # Mapping from PIM
 

@@ -1,15 +1,14 @@
 # Key features
-<!---Error-->
 
 Successfully digitize your point of sale:
 - Complete checkout system   
     The *Venduo POS* module of Actindo offers a complete checkout system with all necessary functions, such as flexible payment methods, returns management or voucher handling. It also enables a digital connection to all your physical stores.  
 
 - Follow stocks centrally and in real time   
-    By connecting the *Venduo POS* system to the *Actindo Core1 Platform*, stock changes are always displayed in real-time and you have an overview of all stock levels in one central location.
+    By connecting the *Venduo POS* system to the *Actindo Core1 Platform*, stock changes are always displayed in real-time and you have an overview of all stocks in one central location.
 
 - Connect all stores and cash registers   
-    You have the option to link all your stores and cash registers and manage them centrally via the platform. This allows you to see your stock level in real time and to track every sale. You can easily connect pop-up stores. The assortment for each store can then be controlled from our *PIM* module. You can assign a complete user history, such as log-in and log-out data, sales data, and stocks to the individual POS systems as well as to users.
+    You have the option to link all your stores and cash registers and manage them centrally via the platform. This allows you to see your stock in real time and to track every sale. You can easily connect pop-up stores. The assortment for each store can then be controlled from our *PIM* module. You can assign a complete user history, such as log-in and log-out data, sales data, and stocks to the individual POS systems as well as to users.
 
 - Central data management   
     With automatic data storage and retention, the *Venduo POS* module generates your sales, stuff, and customer data and makes it available centrally on the platform. This way, you can analyze product data and customer purchasing behavior holistically and evaluate them more efficiently.  

@@ -1,8 +1,6 @@
 # Integration
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
-<!---Error-->
-
 
 - [Configure the warehouse for POS](./01_ConfigureWarehouse.md)
     - [Create a warehouse group](./01_ConfigureWarehouse.md#create-a-warehouse-group)
@@ -26,8 +24,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 
 - [Create a store in POS using the wizard](./06_CreateStore.md)
-    - [Create a store using the wizard](./06_CreateStore.md#create-a-store-using-the-wizard)
-    - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
+        - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
     - [Configure the store details](./06_CreateStore.md#configure-the-store-details)
     - [Configure the pay desk](./06_CreateStore.md#configure-the-pay-desk)
     - [Select a printer](./06_CreateStore.md#select-a-printer)

@@ -1,5 +1,4 @@
 [!!Configure the global settings for POS](../Integration/05_ConfigureGlobalSettings.md)
-<!---Error-->
 
 # Global settings
 
@@ -920,7 +919,7 @@ Activate or deactivate the reverse posting to the original warehouse. Any discre
 
 ![Return warehouse](../../Assets/Screenshots/POS/Management/GlobalSettings/ReturnWarehouse.png "[Return warehouse]")
 
-Define a shelf in the storage area for blocked stock for returns with defects.
+Define a storage shelf in the storage area for blocked stock for returns with defects.
 
 - [Save]   
     Click this button to save any changes.
@@ -928,10 +927,10 @@ Define a shelf in the storage area for blocked stock for returns with defects.
 - *Warehouse ID*   
     Enter the number of the storage area for blocked stock.
 
-[comment]: <> (Is shelf name right? Not number of the shelf?)
+[comment]: <> (Is storage shelf name right? Not number of the storage shelf?)
 
 - *Shelf name*   
-    Enter the name of the shelf for the defect returns.
+    Enter the name of the storage shelf for the defect returns.
 
 
 ### Default customer

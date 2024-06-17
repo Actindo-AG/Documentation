@@ -1,13 +1,12 @@
 [!!User interface Omni-Channel Orders](../../Channels/UserInterface/05a_Orders.md)
 
 [comment]: <> (add link to Warehouse module if available)
-<!---Error-->
 
 # Handle an out-of-stock order
 
 #### Error message
 
-Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*. (Error when creating the warehouse postings: The stock level for item *x* in warehouse *x* is only 0.00, *x* would be required.)
+Error booking bill: [stage: lager_book] Fehler beim Erzeugen der Lagerbuchungen: Der Bestand für Artikel *x* im Lager *x* ist nur 0.00, benötigt würden *x*. (Error when creating the warehouse postings: The stock for item *x* in warehouse *x* is only 0.00, *x* would be required.)
 
 Follow the instructions below if this error message is displayed.
 
@@ -31,7 +30,7 @@ No prerequisites to fulfill.
 
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock level for the POS offer, if a warehouse is assigned.
+    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS offer, if a warehouse is assigned.
 
 3. Click the [ADD BOOKING] button at the bottom of the *Stocks* section.   
     A window to enter the posting is displayed.
@@ -53,16 +52,16 @@ No prerequisites to fulfill.
         - **Problem**
         - **Pre-reserve**
 
-    + Enter the number by which the stock level should be changed in the *Change* field.
+    + Enter the number by which the stock should be changed in the *Change* field.
 
-        > [Info] For a stock level increase, enter a positive number. For a stock level decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock level and a preview of the new stock level are displayed.  
+        > [Info] For a stock increase, enter a positive number. For a stock decrease, enter a negative number with a minus sign as a prefix. In the right column of the window, the old stock and a preview of the new stock are displayed.  
 
-    + If desired, select the date on which the stock level change will be posted in the *Posting date* field. By default, the current date is preselected.
+    + If desired, select the date on which the stock change will be posted in the *Posting date* field. By default, the current date is preselected.
 
     + If desired, enter a comment in the *Comment* field.
 
 5. Click the [SAVE & NEW] button in the bottom right corner of the window.   
-    The window is closed. The new stock level is displayed in the *Stocks* section.
+    The window is closed. The new stock is displayed in the *Stocks* section.
 
 6. Switch to the *Omni-Channel* module: *Omni-Channel > Orders and Returns > Tab ORDERS*.    
     The *ORDERS* tab is displayed.

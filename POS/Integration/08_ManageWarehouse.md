@@ -3,13 +3,12 @@
 [comment]: <> (add link to Warehouse if available)
 <!---Marina, kannst Du hier gucken wegen Terminologie,ob es das so überhaupt noch gibt und ob man links setzen kann?-->
 # Manage the POS warehouse
-<!---Error-->
 
 Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken from and posted. The warehouse specifies where exactly the stock is taken from when a product is sold.
 
 ## Check the stock allocation
 
-Check if the stock allocation is correctly configured so that the store stock level is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
+Check if the stock allocation is correctly configured so that the store stock is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
 
 #### Prerequisites
 
@@ -36,7 +35,7 @@ Check if the stock allocation is correctly configured so that the store stock le
     > [Info] Select for each warehouse whether it should be included or not.
 
 3. Click the [SAVE] button in the bottom right corner.   
-    The stock allocation is saved. The stock level is calculated from all selected warehouses.
+    The stock allocation is saved. The stock is calculated from all selected warehouses.
 
 
 
@@ -91,14 +90,14 @@ Activate the warehouse logistics for the POS offers. For detailed information, s
 
 ## Manage the stock for POS products
 
-You can adjust the stock level quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
+You can adjust the stock quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
 
 #### Prerequisites
 
 - A POS store is created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
 - A POS offer is created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 - The warehouse logistics for the POS article is active, see [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products).
-- A warehouse with a defined shelf is assigned to the POS product.
+- A warehouse with a defined storage shelf is assigned to the POS product.
 
 #### Procedure
 

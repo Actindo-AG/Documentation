@@ -1,8 +1,6 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!! Manage the user groups](../../Core1/AdministratingCore1/03_ManageGroups.md)
 
-<!---Error-->
-
 
 # Assign users to the POS groups
 

@@ -1,5 +1,4 @@
 # Troubleshooting
-<!---Error-->
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
 

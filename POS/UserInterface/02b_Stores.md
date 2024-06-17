@@ -2,7 +2,6 @@
 [!!Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md)
 [!!Manage the cash register](../Operation/05_ManageCashRegister.md)
 [!!Remove an inactive cashier from the pay desk](../Troubleshooting/03_RemoveInactiveCashier.md)
-<!---Error-->
 
 # Stores
 
@@ -247,10 +246,10 @@ For each store, at least enter the country and the ZIP code must be specified.
     Click this button to update the *Warehouse* drop-down list.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically assign product to warehouse when activated in store*   
-    Activate this toggle to automate the assignment process of materials to a shelf in a warehouse. It is recommended to activate this option.
+    Activate this toggle to automate the assignment process of materials to a storage shelf in a warehouse. It is recommended to activate this option.
 
 - *Shelf*   
-    Enter a shelf number in the warehouse to which the stock is to be assigned.
+    Enter a storage shelf number in the warehouse to which the stock is to be assigned.
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Store Address* wizard window is displayed.
@@ -269,11 +268,11 @@ For each store, at least enter the country and the ZIP code must be specified.
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create new inventory source*   
-    Activate this toggle to add a new stock source that only considers the stock level of the warehouse selected in the previous step for calculating the warehouse stock level. Deactivate this toggle to select an existing stock level source in the *Select existing inventory source* drop-down list, or to add no inventory source. This drop-down list is only displayed when the *Create new inventory source* toggle is disabled.  
+    Activate this toggle to add a new stock source that only considers the stock of the warehouse selected in the previous step for calculating the warehouse stock. Deactivate this toggle to select an existing stock source in the *Select existing inventory source* drop-down list, or to add no inventory source. This drop-down list is only displayed when the *Create new inventory source* toggle is disabled.  
 
 
 - *Select existing inventory source*   
-    Click the drop-down list and select a stock level source for the POS store. The stock level source specifies how the stock level available in the POS system is calculated. All available stock level sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
+    Click the drop-down list and select a stock source for the POS store. The stock source specifies how the stock available in the POS system is calculated. All available stock sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Stock* wizard window is displayed.
@@ -553,10 +552,10 @@ Change or define the warehouse from which to take the stock.
     Click this button to update the drop-down list *Warehouse*.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically assign product to warehouse when activated in store*   
-    Enable this toggle to automate the assignment process of products to a shelf in a warehouse. It is recommended to activate this option.
+    Enable this toggle to automate the assignment process of products to a storage shelf in a warehouse. It is recommended to activate this option.
 
 - *Shelf*   
-    Enter a shelf number in the warehouse to which the stock is to be assigned.
+    Enter a storage shelf number in the warehouse to which the stock is to be assigned.
 
 - [Save]   
     Click this button to save any changes.

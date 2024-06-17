@@ -1,7 +1,5 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
-<!---Error-->
-
 
 # Add an offer to the bill list
 
@@ -218,8 +216,8 @@ Some offers are not suitable for children and young people, for example offers s
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Select an offer that requires an age verification.   
-    The *Age verification* window is displayed.
+1. Select an offer.   
+    If the offer requires an age verification, the *Age verification* window is displayed.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
 

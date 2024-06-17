@@ -1,6 +1,5 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
-<!---Error-->
 
 # Edit the bill list
 
@@ -114,7 +113,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 
 
-## Check the stock level
+## Check the stock
 
 You can check the number of items in stock respectively the availability of an offer for the current store or all other stores of your company.
 
@@ -129,7 +128,7 @@ You can check the number of items in stock respectively the availability of an o
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the offer in the bill list whose stock level you want to check.   
+1. Click the offer in the bill list whose stock you want to check.   
     The detail view of the offer is displayed in the bill list.
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")

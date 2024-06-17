@@ -1,7 +1,6 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
 [!!User interface DataHub MAPPINGS](../../DataHub/UserInterface/02a_Mappings.md)
-<!---Error-->
 
 
 # Configure the global settings for POS
@@ -104,14 +103,9 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Payment methods (manual terminal payment)*
 
-![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
-
-1. Click the *Payment methods (manual terminal payment)* setting in the list of settings.   
-    The *Payment methods (manual terminal payment)* view is displayed.
-
-    ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
+![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
     A new row for a payment method is displayed.
