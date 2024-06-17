@@ -3,6 +3,7 @@
 [!!User interface Stores](../UserInterface/02b_Stores.md)
 [!!User interface PIM Attributes](../../PIM/UserInterface/03a_Attributes.md)
 [!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
+<!---Error-->
 
 # Create a POS store manually
 

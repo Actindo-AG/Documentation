@@ -1,6 +1,7 @@
 # Operation
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
+<!---Error-->
 
 - [Open a pay desk](./01_OpenPayDesk.md)
 

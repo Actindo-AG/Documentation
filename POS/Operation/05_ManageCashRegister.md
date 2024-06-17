@@ -1,6 +1,7 @@
 [!!Open a pay desk](./01_OpenPayDesk.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
 [!!User interface Stores](../UserInterface/02b_Stores.md)
+<!---Error-->
 
 # Manage the cash register
 

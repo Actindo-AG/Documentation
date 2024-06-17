@@ -2,6 +2,7 @@
 [!!Record the purchase](../Operation/02_SelectOffer.md)
 [!!Edit the bill list](../Operation/03_EditBillList.md)
 [!!Complete a purchase](../Operation/04_CompletePurchase.md)
+<!---Error-->
 
 # Cashpoint
 

@@ -1,6 +1,7 @@
 [!!Manage the workflows](../../ActindoWorkFlow/Operation/01_ManageWorkflows.md)
 
 # Prepare the workflows
+<!---Error-->
 
 To make payment data from the POS available to other modules such as the *Accounting* or the *Order Management* module, you need to add the business-document-related cash payments of this sales channel to your existing *Import channels order in OMS workflow*.  In addition, non-sales-related postings, such as cash in and cash out, must be processed by an additional workflow so that they can be posted in the *Accounting* module to a transit account.
 

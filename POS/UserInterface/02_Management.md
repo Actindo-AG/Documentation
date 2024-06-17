@@ -1,6 +1,7 @@
 # Management  
 
 *Venduo POS > Management*
+<!---Error-->
 
 The POS *Management* menu entry is used to create new stores and configure all settings concerning your stores, your pay desks, the connection to the accounting and to the warehouse management.
 

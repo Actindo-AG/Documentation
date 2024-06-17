@@ -3,6 +3,7 @@
 # Sales
 
 The POS *Sales* menu entry is used for all transactions in the stores and pay desks.
+<!---Error-->
 
 The *Sales* user interface is composed of the following tabs:
 - [CASHPOINT](./01a_Cashpoint.md)

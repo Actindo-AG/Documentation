@@ -3,6 +3,7 @@
 [comment]: <> (add link to Warehouse if available)
 <!---Marina, kannst Du hier gucken wegen Terminologie,ob es das so überhaupt noch gibt und ob man links setzen kann?-->
 # Manage the POS warehouse
+<!---Error-->
 
 Manage the warehouse settings to assign one or more specific warehouses to the POS from which the stock is taken from and posted. The warehouse specifies where exactly the stock is taken from when a product is sold.
 

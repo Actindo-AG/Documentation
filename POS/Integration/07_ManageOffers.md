@@ -4,6 +4,7 @@
 [!!User interface Omni-Channel Offers](../../Channels/UserInterface/02a_Offers.md)
 [!!User interface DataHub Attributes](../../DataHub/UserInterface/01a_Attributes.md)
 [!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
+<!---Error-->
 
 # Manage offers for POS
 

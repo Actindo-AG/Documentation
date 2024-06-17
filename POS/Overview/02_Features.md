@@ -1,4 +1,5 @@
 # Key features
+<!---Error-->
 
 Successfully digitize your point of sale:
 - Complete checkout system   

@@ -5,6 +5,7 @@
 [!!User interface DataHub ETL](../../DataHub/UserInterface/02a_Mappings.md)
 
 [comment]: <> (add link to Warehouse, Accounting, Settings module if available)
+<!---Error-->
 
 # Create a store in POS using the wizard
 

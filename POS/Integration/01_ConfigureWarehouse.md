@@ -4,6 +4,7 @@
 [!!configure the warehouse groups](../../RetailSuiteWarehousing/Integration/01_ConfigureWarehouseGroups.md)
 [!!Configure the warehouses](../../RetailSuiteWarehousing/Integration/02_ConfigureWarehouses.md)
 
+<!---Error-->
 
 # Configure the warehouse for POS
 

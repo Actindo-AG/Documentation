@@ -2,6 +2,8 @@
 
 # Restart a faulty export
 
+<!---Error-->
+
 #### Error description
 
 An error occurred while trying to export an offer to OMS.

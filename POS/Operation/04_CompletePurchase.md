@@ -1,7 +1,7 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 [!!User interface Cash register](../UserInterface/01c_CashRegister.md)
-
+<!---Error-->
 
 # Complete a purchase
 

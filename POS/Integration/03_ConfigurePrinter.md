@@ -1,6 +1,7 @@
 [!!Create a store in POS](./06_CreateStore.md)
 
 [comment]: <> (add link to Install the APS, link to Printing module if available)
+<!---Error-->
 
 # Configure the printer client for POS
 

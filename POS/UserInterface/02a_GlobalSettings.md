@@ -1,4 +1,5 @@
 [!!Configure the global settings for POS](../Integration/05_ConfigureGlobalSettings.md)
+<!---Error-->
 
 # Global settings
 

@@ -3,7 +3,7 @@
 [!!Manage the cash register](../Operation/05_ManageCashRegister.md)
 
 # Cash register
-
+<!---Error-->
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")

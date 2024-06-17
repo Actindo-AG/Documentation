@@ -3,6 +3,7 @@
 # Remove an inactive cashier from the pay desk
 
 #### Error description
+<!---Error-->
 
 A cashier forgot to unassign from a pay desk. The pay desk is locked and cannot be operated by other cashiers.
 

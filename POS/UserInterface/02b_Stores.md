@@ -2,6 +2,7 @@
 [!!Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md)
 [!!Manage the cash register](../Operation/05_ManageCashRegister.md)
 [!!Remove an inactive cashier from the pay desk](../Troubleshooting/03_RemoveInactiveCashier.md)
+<!---Error-->
 
 # Stores
 

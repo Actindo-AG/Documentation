@@ -1,5 +1,6 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
+<!---Error-->
 
 
 # Add an offer to the bill list

@@ -2,6 +2,7 @@
 [!!User interface Sales](../UserInterface/01_Sales.md)
 
 # Open a pay desk
+<!---Error-->
 
 The pay desk is the most important tool in the *Venduo POS* module.
 For instance, in the pay desk you can select offers, make payments, give discounts, choose between different payment methods and have the possibility to park purchases for a later date.

@@ -1,4 +1,5 @@
 # General information
+<!---Error-->
 
 With the cloud-based POS system of the *Actindo Core1 Platform*, you can not only control your online channels via Actindo, but also easily integrate your offline stores. The *Venduo POS* module enables digital and centralized management of your physical stores directly through the platform, dissolving obstructive boundaries between digital and classic commerce.  
 

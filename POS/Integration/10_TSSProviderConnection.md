@@ -1,4 +1,5 @@
 # Create a connection to a TSS provider
+<!---Error-->
 
 In Germany, the Kassensicherungsverordnung (KassenSichV) is an ordinance that define the technical requirements for electronic recording and security systems in business transactions. It enforces that merchants record all transactions in a non-manipulable manner.   
 The TSS (Technical security system) must fulfill certain requirements and needs certification. It must generate certain data like a sequence number, digital signing, and much more. This information must be either printed on the receipt in a human-readable form or be encoded in a QR code that can be scanned to reveal the information.   

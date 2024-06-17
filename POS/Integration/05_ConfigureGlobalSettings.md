@@ -1,6 +1,7 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Global settings](../UserInterface/02a_GlobalSettings.md)
 [!!User interface DataHub MAPPINGS](../../DataHub/UserInterface/02a_Mappings.md)
+<!---Error-->
 
 
 # Configure the global settings for POS

@@ -1,5 +1,6 @@
 [!!Create a store in POS](./06_CreateStore.md)
 [!!User interface Accounts](../../RetailSuiteAccounting/UserInterface/02b_Accounts.md)
+<!---Error-->
 
 
 # Manage the accounts for POS
