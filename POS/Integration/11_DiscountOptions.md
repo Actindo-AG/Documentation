@@ -47,10 +47,3 @@ For detailed information, see the following:
 
 
 
-## Discount based on promotion prices 
-
-Discount that is automatically added to the bill list when the cashier has selected an offer, for which a promotion price has been assigned.  
-
-For detailed information, see the following:
-
-- Configuration: [Define promotions for POS](../Integration/07_ManageOffers.md#define-promotions-for-pos)
