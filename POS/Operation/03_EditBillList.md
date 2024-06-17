@@ -9,7 +9,7 @@ The bill list on the right side of the *Cashpoint* tab displays all offers added
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-If you add a discount to a single offer, the discount is applied to an offer entry in the bill list. This means that if the quantity of an offer entry is greater than one because a customer wants to purchase the offer, the discount will be applied to all offers in this entry.   
+If you add a discount to a single offer, the discount is applied to an offer entry in the bill list. This means that if the quantity of an offer entry is greater than one because a customer wants to purchase the offer more than once, the discount will be applied to all offers in this entry.   
 
 If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
 
@@ -19,7 +19,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers for POS have been created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
@@ -36,7 +36,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 2. Click the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount, or select the **EUR** option to apply a fixed amount discount to the offer.   
     The selected option is displayed in the drop-down list.
 
-    > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
+    > [Info] The currency displayed in the drop-down list corresponds to the default currency configured in the *Global Settings*.
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
@@ -65,7 +65,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the offer in the bill list whose price you want to edit.   
-    The detail view of the offer is displayed in the bill list.
+    The detail view of the offer is displayed.
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 

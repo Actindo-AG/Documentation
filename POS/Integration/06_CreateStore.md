@@ -87,7 +87,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
         - A variant set *Set for POS for "Name of the new store"*   
         - A variant set *Offer option set for POS store "Name of the new store"*   
 
-    The *Pay desks* wizard window is displayed when the store is created.
+    The *Pay desks* wizard window is displayed when the store has been created.
     
 
 
@@ -116,7 +116,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE PAYDESKS] button in the bottom right corner of the window.   
-    The *Printing* wizard window is displayed when the pay desk is created.
+    The *Printing* wizard window is displayed when the pay desk has been created.
 
 
 ## Select a printer

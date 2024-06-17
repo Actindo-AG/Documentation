@@ -78,7 +78,7 @@ Enables the cashiers to initiate a delivery during the payment process. For deta
 
 - *Deliveries allowed*   
     Activate this setting if you deliver sales to customers. If you activate this setting, the ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Delivery* toggle is available in the pay bill list. By default, this setting is not activated.   
-    Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
+    Do not forget to adjust your order workflow accordingly, so that a delivery note has been created in case a delivery is initiated.<!---stimmt das?--> 
 
 
 <!--- NEU-->

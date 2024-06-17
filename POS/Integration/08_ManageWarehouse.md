@@ -12,7 +12,7 @@ Check if the stock allocation is correctly configured so that the store stock is
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
+- A POS store has been created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
 - The stock allocation is configured, see [Configure the stock allocation](./06a_CreateStoreManually.md#configure-the-stock-allocation).
 
 #### Procedure
@@ -45,7 +45,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
+- A POS store has been created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
 - The stock withdrawal matrix is configured, see [Configure the stock withdrawal matrix](./06a_CreateStoreManually.md#configure-the-stock-withdrawal-matrix).
 
 #### Procedure
@@ -79,8 +79,8 @@ Manage the warehouse logistics for POS offers to ensure that these are active fo
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
-- A POS offer is created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
+- A POS store has been created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
+- A POS offer has been created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 
 #### Procedure
 
@@ -94,8 +94,8 @@ You can adjust the stock quantity of your POS products, for instance because of 
 
 #### Prerequisites
 
-- A POS store is created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
-- A POS offer is created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
+- A POS store has been created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
+- A POS offer has been created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 - The warehouse logistics for the POS article is active, see [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products).
 - A warehouse with a defined storage shelf is assigned to the POS product.
 

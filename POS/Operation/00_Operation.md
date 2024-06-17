@@ -13,7 +13,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Select and charge a pre-printed voucher offer](./02_SelectOffer.md#select-and-charge-a-pre-printed-voucher-offer)
     - [Select an offer with single scan](./02_SelectOffer.md#select-an-offer-with-single-scan)
     - [Add a return to the bill list](./02_SelectOffer.md#add-a-return-to-the-bill-list)
-    - [Verify the age](./02_SelectOffer.md#verify-the-age)
+    - [Verify the age of the customer](./02_SelectOffer.md#verify-the-age-of-the-customer)
     - [Add a product option](./02_SelectOffer.md#add-a-product-option)
 
 

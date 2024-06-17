@@ -37,7 +37,7 @@ For detailed information on how to create an attribute set, see [Create an attri
 
 ## Map a new product type in POS
 
-When a new product type is created, it must be mapped before offers with this product type can be created for the POS.
+When a new product type has been created, it must be mapped before offers with this product type can be created for the POS.
 
 #### Prerequisites
 
@@ -229,7 +229,7 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 #### Prerequisites
 
 - At least one QuickSelect attribute has been created, see [Define a QuickSelect attribute](#define-a-quickselect-attribute).
-- At least one offer is created for POS, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one offer has been created for POS, see [Create an offer for POS](#create-an-offer-for-pos).
 
 #### Procedure
 
