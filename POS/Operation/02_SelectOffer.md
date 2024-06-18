@@ -21,7 +21,7 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - A QuickSelect Category for POS has been created, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 #### Procedure
@@ -43,7 +43,7 @@ You may select an offer or search for it by entering its name in the search bar.
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -73,7 +73,7 @@ You may select an offer or search for it by entering its offer number in the sea
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -141,7 +141,7 @@ Optionally, you can activate the single scan feature before you select the offer
 #### Prerequisites
 
 - There is no offer in the bill list yet.
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -173,7 +173,7 @@ Note that when you edit a return, all posts on the bill list must be returns. Yo
 
 #### Prerequisite
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - Your company uses the *Allow negative quantities* setting. For detailed information, see [Allow negative quantities](../UserInterface/02a_GlobalSettings.md#allow-negative-quantities).
 - There is no offer in the bill list yet.
 
@@ -206,7 +206,7 @@ Some offers are not suitable for children and young people, for example offers s
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - An age restriction for the offer is defined, for example 18 or 16.    
 - The *Display age rating* setting is activated. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
@@ -234,7 +234,7 @@ There are products where the buyer has the option of customizing them. If a stor
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - Product options have been associated to the offers for which a specific service is offered as additional option.<!---, see [Create a product option](../Integration/07_ManageOffers.md#create-a-product-option)-->.
 
 #### Procedure

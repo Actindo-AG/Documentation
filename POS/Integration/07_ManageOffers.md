@@ -425,10 +425,12 @@ As the POS basic set is automatically inherited to your offers, these attributes
 
 In the following, the procedure of the standard delivery is described. It may differ if your system has a different configuration.
 
-### Prerequisites
+#### Prerequisites
 
 - At least one product has been created, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
  - The product has been created as an offer in the *Omni-Channel* module. For detailed information, see [Create an offer in PIM](../../PIM/Operation/01_ManageProducts.md#create-an-offer-in-pim) in the PIM module.
+
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
