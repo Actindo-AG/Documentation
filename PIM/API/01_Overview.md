@@ -14,7 +14,7 @@ In this section, an API reference documentation for the *Actindo Core1 Platform*
 
 ## About the Actindo Core1 OpenAPI
 
-[comment]: <> (Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
+[comment]: <> (Andreas: Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
 
 The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It uses resource-oriented URIs, accepts and returns JSON-encoded requests, and uses standard HTTP status codes. For detailed information, see [Request bodies](#request-bodies) and [Responses bodies](#response-bodies).
 
@@ -54,7 +54,7 @@ The following headers are required for communication with the *Actindo Core1 Ope
 | Accept        | application/json |
 | Authorization | access token <br> See [Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token). |
 
-[comment]: <> (Unsicher, ob das stimmt, und wie authentication/authorization via header/request body funktioniert)
+[comment]: <> (Andreas: Ich bin unsicher, ob das stimmt, und wie authentication/authorization via header/request body funktioniert. Kannst du es mir evtl. zeigen oder Info hier ggf. ergänzen?)
 
 
 #### Methods
@@ -146,7 +146,7 @@ Regardless of the tool you use to submit, you always need to provide the followi
 
 ## Set up Postman for the Actindo Core1 OpenAPI
 
-[comment]: <> (Imogen: Das ist ein Versuch zu deinem Vorschlag, dass diese Info unter Overview/Setup kommen sollte. Besser so oder in einer separaten Datei? Trotzdem weiß ich nicht, ob das bleibt, da Julian gesagt hat, es wäre nicht unbedingt nötig... Daher habe ich auch separat woanders geparkt.)
+[comment]: <> (Noch zu klären, ob diese Info nötig ist.)
 
 To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration, and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
@@ -251,7 +251,7 @@ You have defined the headers, see [Define the headers](#define-the-headers).
     The session cookie has been saved. You can start sending API requests.
 
 
-[comment]: <> (Ref: https://actindo.atlassian.net/wiki/spaces/CW/pages/33193985/How+to+configure+postman+and+make+an+API+call)
+[comment]: <> (Quelle: https://actindo.atlassian.net/wiki/spaces/CW/pages/33193985/How+to+configure+postman+and+make+an+API+call)
 
 
 ### Best practices
@@ -260,5 +260,5 @@ We recommend that you create collections and predefine API calls using the templ
 
 
 
-[comment]: <> (Andreas: In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktioniert es sonst? Kannst du es mir zeigen?)
+[comment]: <> (Andreas: In Postman habe ich die session cookie eingestellt, daher brauche keine authentication mehr. Wie funktioniert es sonst? Kannst du es mir zeigen?)
 

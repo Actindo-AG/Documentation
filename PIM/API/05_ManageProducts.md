@@ -4,8 +4,6 @@ You can manage your products via API. You can create, edit, delete, both permane
 
 > [Info] This documentation refers to the *PIM* module version 4.8.0. There may be differences in the addressable endpoints and attribute keys if your *PIM* module is installed in a different version.
 
-[comment]: <> (CHECK!)
-
 To manage your products via API, you need to provide the required key-value pairs in your requests. The following elements are essential: 
 
 **Attribute key**
@@ -89,7 +87,11 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (Zu prüfen: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Nicht geschafft via API.)
+[comment]: <> (Andreas: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben? _pim)
+
+[comment]: <> (Andreas: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes. Sind alle drei hier relevant, oder nur _pim_stock_value?)
+
+[comment]: <> (Andreas: _pim_stock_germany und _pim_stock_foreign sind auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
 
 
 ## Create a product
@@ -193,6 +195,8 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 
+[comment]: <> (Imogen: Unterschied zwischen Feld und Attribut)
+
 ### Sample: Add an image to a product
 
     {
@@ -291,7 +295,7 @@ The required fields are marked in bold. For a list of standard *PIM* attributes,
 
 ## Delete a product
 
-You can delete a product if it is no longer needed. If it is a master product, that is, with a product with variants, all variants will also be deleted. If it is a variant product, only the addressed variant will be deleted.
+You can permanently delete a product if it is no longer needed. If it is a master product with variants, all variants will also be deleted. If it is a variant product, only the addressed variant will be deleted.
 
 > [Caution] **Loss of data**   
   Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
@@ -318,7 +322,7 @@ The required fields are marked in bold.
 
 ## Move a product to recycle bin
 
-You can delete a product temporarily by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product, that is, with a product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
+You can temporarily delete a product by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToRecycleBin
 
@@ -344,7 +348,7 @@ The required fields are marked in bold.
 
 ## Move a product to archive
 
-You can delete a product temporarily by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product, that is, with a product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
+You can temporarily delete a product by archiving it of moving it to the recycle bin. These products can be subsequently restored if necessary. If it is a master product with variants, all variants will also be archived/moved. If it is a variant product, only the addressed variant will be archived/moved.
 
 **Endpoint**: /Actindo.Modules.Actindo.PIM.Products.moveToArchive
 
@@ -391,7 +395,7 @@ The required fields are marked in bold.
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |
 
-[comment]: <> (Useful? Was für filter sinnvoll? Hints and query Beispiele?)
+[comment]: <> (Andreas: Was für filter sinnvoll? Kannst du mir Beispiele für Hints und Query geben?)
 
 ### Sample: List products by creation date
 

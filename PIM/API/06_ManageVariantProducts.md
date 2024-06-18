@@ -6,7 +6,7 @@ To edit and delete *PIM* variant products via API, see [Manage products](./05_Ma
 
 > [Caution] In the latest version of the *PIM* and *DataHub* modules, it is possible to modify the attribute key. Bear in mind, though, that attribute keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all affected entities where this attribute is included. This means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
-[comment]: <> (Evtl. Manage variant products in Manage products integrieren)
+
 
 ## Create a variant product
 
@@ -104,7 +104,7 @@ To get a list of variant products, see [List products](./05_ManageProducts.md#li
 
 
 
-[comment]: <> (Kann man Variants to ein Master auflisten? Sinnvoll? Bisher nur via PIM.PIM.Get -> entityId geschafft)
+[comment]: <> (Andreas: Kann man alle Variants zu einem Master auflisten? Sinnvoll/Hilfreich? Bisher nur via PIM.PIM.Get -> entityId geschafft. Geht es anders?)
 
 
 
