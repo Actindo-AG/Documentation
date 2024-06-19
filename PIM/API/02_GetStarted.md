@@ -4,14 +4,15 @@
 
 This API reference documentation provides general information on the main resources, such as products, and request samples to perform the most usual API calls. It is not meant to be exhaustive, but to provide you with a starting point to understand how the *Actindo Core1 OpenAPI* works. 
 
-A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 OpenAPI* documentation are the ones relevant for your current instance.
+A complete API documentation, organized by module, is available in the *Actindo Core1 Platform* under *Dev Tools > API > Tab API > Module name*. The API documentation is automatically generated based on your specific module configuration. Therefore, the available modules, endpoints, and attributes contained in your *Actindo Core1 OpenAPI* documentation are the ones relevant for your current instance.
 
 
 ## How to use the request samples
 
 The request samples provided in this documentation are complete and ready to use, but they require some customization. 
 
-Let's take the following request sample: 
+In the following, an example is given using one of the request samples provided in the API reference documentation. 
+
 
 
     {
@@ -25,7 +26,7 @@ Let's take the following request sample:
         }
     }
 
-You want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to English and Spanish-speaking customers.
+You want to create a single product (that is, without variants), for example, a handbag. You market your products in your online shop to English and Spanish-speaking customers. 
 
 
 | Product       | Information  | Attribute key     | Value    |
@@ -39,6 +40,7 @@ You want to create a single product (that is, without variants), for example, a 
 
 
 The exemplary attributes and values provided in the request sample should be customized as follows: 
+
 
     {
         "product": {
@@ -54,11 +56,11 @@ The exemplary attributes and values provided in the request sample should be cus
 **Notes**
 
 - The *"sku"* is a required attribute to create a product. You can choose it freely depending on your SKU structure, as long it is a string, that is, a sequence of characters. For detailed information, see [The product object](./05_ManageProducts.md#the-product-object).
-- The *"attributeSetId"* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any entity, ID, see [Retrieve entity data](./04_RetrieveEntityData.md).
+- The *"attributeSetId"* represents the product type and is a required attribute to create a product. Attribute sets must be previously created in the *PIM* or the *DataHub* modules based on your product structure. For detailed information, see [Attribute sets](./03_KeyConcepts.md#attribute-sets). To find out the attribute set, or any other entity, ID, see [Retrieve entity data](./04_RetrieveEntityData.md).
 -  The attributes provided are the standard Actindo attributes contained in the *PIM basic set*. If you have created your own attributes and attribute sets, the attribute names will probably differ. If desired, you can get a list of all attributes created in an attribute set via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).   
 - The scope (with the key *online_shop* in this example) and languages (language codes *en_US* and *es_ES*) must also be specified accordingly. 
 
-[comment]: <> (AttributeSetId jetzt als Object? AttributeSet/Id? Check!)
+
 
 ## Set up the OAuth authorization
 
@@ -67,9 +69,9 @@ The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client a
 
 ### Step 1 &ndash; Register the client app
 
-If you want to gain access to the *Actindo Core1 Platform* from an external app via API, first of all you have to register your client app in the developer portal. 
+If you want to gain access to the *Actindo Core1 Platform* from an external app via API, first of all you have to register the client app in the developer portal. 
 
-[comment]: <> (Andreas: Hättest du ein praktisches Beispiel zu einer client app für mich?)
+[comment]: <> (Fachreviewer: Hättest du ein praktisches Beispiel zu einer client app für mich?)
 
 #### Prerequisites
 
@@ -79,11 +81,11 @@ If you want to gain access to the *Actindo Core1 Platform* from an external app 
 
 #### Procedure
 
-*Dev Tools > Tab APP REGISTRATIONS*
+*Dev Tools > API > Tab APP REGISTRATIONS*
 
 ![App registrations](../../Assets/Screenshots/PIM/API/AppRegistrations.png "[App registrations]")
 
-1. Click the ![App registrations](../../Assets/Icons/Plus01.png "[App registrations]") button to add an app registration.
+1. Click the ![App registrations](../../Assets/Icons/Plus01.png "[App registrations]") button to add an app registration.  
     The *Create* view is displayed.
 
     ![Create app registration](../../Assets/Screenshots/PIM/API/CreateAppRegistration.png "[Create app registration]")
@@ -93,15 +95,15 @@ If you want to gain access to the *Actindo Core1 Platform* from an external app 
 3. Enter a valid client ID in the *Application (client) ID* field. You can freely define your client ID, but it is recommended to use a UUID generator tool, such as [UUID Generator](https://www.uuidgenerator.net/version4 "[https://www.uuidgenerator.net/version4]"), to generate a UUID (universally unique identifier).
 
     The client ID for the *Actindo Core1 Platform* must comply with the following requirements:
-    - between 4 and a 31 characters long  
+    - between 4 and 31 characters long  
     - allowed characters include upper and lower cases letters, numbers, and underscore
     - beginning with a letter  
 
-[comment]: <> (Andreas: Kannst du es bitte die Information oben bestätigen bzw. verbessern? Laut Oli ist es wahrscheinlich auch mit einer Zahl am Anfang möglich. UI muss verbessert werden, da Toggle darunter auch nicht wirklich funktioniert.)
+[comment]: <> (Fachreviewer: Kannst du bitte die Information oben bestätigen bzw. verbessern? Laut Oli ist es wahrscheinlich auch mit einer Zahl am Anfang möglich. UI muss verbessert werden, da Toggle darunter auch nicht wirklich funktioniert.)
 
 4. If available in your version, leave the *Only authentication scopes open ID profile email. You will not be able to call any methods besides getting profile data* toggle disabled.
 
-5. Enter an appropriate redirect URI in the *Redirect URI* field. For exemplary purposes, we are using [https://oauthdebugger.com/debug](https://oauthdebugger.com/debug/ "[https://oauthdebugger.com/debug]"). See the following screenshot for reference.
+5. Enter an appropriate redirect URI in the *Redirect URI* field. For exemplary purposes, [https://oauthdebugger.com/debug](https://oauthdebugger.com/debug/ "[https://oauthdebugger.com/debug]") is used. See the following screenshot for reference.
 
     ![App registration example](../../Assets/Screenshots/PIM/API/AppRegistrationExample.png "[App registration example]")
 
@@ -115,14 +117,16 @@ If you want to gain access to the *Actindo Core1 Platform* from an external app 
 
 ### Step 2 &ndash; Get an authorization code
 
-To be able to generate an access token for authentication, you need to get an authorization code first. Bear in mind that you need to get an authorization code for each instance you want to access via API.
+An authorization code is a temporary code provided by an authorization server. This code is then used by the client app to exchange for an access token. In other words, you need to get an authorization code to obtain an access token to be able to send authenticated requests. 
 
-[comment]: <> (Imogens comment: Für welche Kommunikationsrichtung brauche ich das? von externem System zu Actindo-Instanz,? was ist der use case dahinter?)
+[comment]: <> (Reformulate!)
+
+Bear in mind that you need to get an authorization code for each instance you want to access via API.
 
 > [Caution]  
-    Before continuing, make sure you are not logged into your account. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
+    Before continuing, make sure you are not logged into your system instance. Otherwise, the authorization code will be linked to your user profile. That means that any API requests made subsequently will be made on your user's behalf.
 
-Following the example provided in [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app), we describe the process in the [https://oauthdebugger.com/](https://oauthdebugger.com/ "[https://oauthdebugger.com/]") website. You can also use another third-party website or your own system. 
+Following the example provided in [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app), the process is described using the [https://oauthdebugger.com/](https://oauthdebugger.com/ "[https://oauthdebugger.com/]") website. You can also use another third-party website or your own system. 
 
 #### Prerequisites
 
@@ -138,7 +142,7 @@ You have registered the client app, see [Step 1 &ndash; Register the client app]
 
     **https://[your-workspace].actindo.com/Actindo.CoreModules.Auth.OAuth2.authorize**
 
-    Replace *[your-workspace]* with the name of your instance. Bear in mind that the authorization is account-specific.
+    Replace *[your-workspace]* with the name of your instance. Bear in mind that the authorization is instance-specific.
 
 2. Enter **https://oauthdebugger.com/debug** in the *Redirect URI (required)* field.
 
@@ -146,14 +150,14 @@ You have registered the client app, see [Step 1 &ndash; Register the client app]
 
 4. Enter **profile** in the *Scope (required)* field.
 
-5. The *State* and *Nonce* fields are automatically generated.
+5. Leave the *State* and *Nonce* fields as they are. They are automatically generated.
 
 6. Click the *code* checkbox in the *Response type (required)* section.
 
 7. Select the *form_post* radio button in the *Response mode (required)* section. 
 
 8. Click the [SEND REQUEST] button.  
-    If the authentication flow is successful, OAuth debugger displays a success message with an authorization code, such as in the following screenshot: 
+    If the authorization flow is successful, OAuth debugger displays a success message with an authorization code, such as in the following screenshot: 
 
     ![OAuth debugger success](../../Assets/Screenshots/PIM/API/OAuthDebuggerSuccess.png "[OAuth debugger success]")
     
@@ -162,9 +166,8 @@ You have registered the client app, see [Step 1 &ndash; Register the client app]
 
     ![Core1 Login](../../Assets/Screenshots/PIM/API/Core1Login.png "[Core1 Login]")
 
-[comment]: <> (Andreas: Stimmt der letzter Schritt? Ich verstehe nicht ganz, wie es funktioniert.)
+[comment]: <> (Fachreviewer: Stimmt der letzter Schritt? Ich verstehe nicht ganz, wie es funktioniert. Braucht man sonst einen Schritt dazwischen, z.B. Benutzer mit speziellen Rechten erstellen? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
 
-[comment]: <> (Imogens Frage: Ist dann nicht Step 2 - Create technical user for API access? Unsicher, ob hier noch einen Zwischenschritt fehlt. User ist schon erstellt, aber muss er bestimmte Rechte haben? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
 
 
 ### Step 3 &ndash; Generate an access token
@@ -176,7 +179,7 @@ Use a cURL command line tool for the following steps.
 #### Prerequisites
 
 - You have your client ID. You have defined it when registering the client app.
-- Your have your client secret. You have generated it when saving the app registration, see [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app).
+- Your have your client secret. It is displayed when saving the app registration, see [Step 1 &ndash; Register the client app](#step-1-–-register-the-client-app).
 - You have your authorization code. You have obtained it in [Step 2 &ndash; Get an authorization code](#step-2-–-get-an-authorization-code).
 
 #### Procedure
@@ -207,7 +210,7 @@ Use a cURL command line tool for the following steps.
 
 You can now send a request to your *Actindo Core1 Platform* instance to check that the access token is valid. For exemplary purposes, we are using a simple "ping-pong" authentication test. 
 
-[comment]: <> (Andreas: ping-pong method/test? Übliche standard Test-Prozedur? Hat das einen konkreten Namen?)
+[comment]: <> (Fachreviewer: ping-pong method/test? Übliche standard Test-Prozedur? Hat das einen konkreten Namen?)
 
 #### Prerequisites
 
@@ -273,8 +276,8 @@ To make an API call to the *Actindo Core1 OpenAPI*, you need to follow the step-
 
 | Step   | Description | Further information |
 | :----: | ------------------ | ------------ |
-| 1      | Find the endpoint you want to address | Find the relevant use case, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
-| 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Module name*. |
+| 1      | Find the endpoint you want to address | Find the relevant use case, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of endpoints, refer to the API documentation of your instance under *Dev Tools > API > Tab API > Module name*. |
+| 2      | Check the required attributes | Find the relevant definitions depending on the request you want to send, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). <br> For a complete list of attributes, refer to the API documentation of your instance under *Dev Tools > API > Tab API > Module name*. |
 | 3      | Discover the required entity ID(s) | See [Retrieve entity data](./04_RetrieveEntityData.md). | 
 | 4      | Create your request payload | Find practical request samples, for instance in [Create products](./05_ManageProducts.md) or [Create variant products](./06_ManageVariantProducts.md). |
 | 5      | Send your request | If using an external tool, such as Postman, you need to set it up first. For detailed information, see [Set up Postman](07_SetUpPostman.md). |

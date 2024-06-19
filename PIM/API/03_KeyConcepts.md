@@ -39,14 +39,14 @@ The following examples are based on predefined *PIM* attributes. If you have cre
 
 | Attribute        | Attribute key               | Data type |
 |------------------|-----------------------------|-----------|
-| Name             | *_pim_art_name*             | string    |
-| Price                                             | *_pim_price*                                        | PIM price field   |
-| Tax class                                         | *_pim_tax_class*                                    | TreeNode |
-| Product description                               | *_pim_products_description*                         | textfield    |
-| Product description (multi-scope, multi-language) | *_pim_products_description__scope__language_code*   | textfield    |
+| Name             | _pim_art_name*             | string    |
+| Price                                             | _pim_price*                                        | PIM price field   |
+| Tax class                                         | _pim_tax_class*                                    | TreeNode |
+| Product description                               | _pim_products_description*                         | textfield    |
+| Product description (multi-scope, multi-language) | _pim_products_description__scope__language_code*   | textfield    |
 
 
-[comment]: <> (Andreas: In meiner Sandbox kann Tax class Datentyp "TaxClass" und "TreeNode" (Standard, ermäßigt) haben. Wenn Datentyp TaxClass ist, ist der owning module UCSProductSync. Wenn Datentyp TreeNode ist, ist owning module Omni-Channel (key startet mit _channels_tax_class...). Für dieses Beispiel, wäre es sinnvoll, ein Tax class attribute so wie in der Tabelle zu definieren? Oder was wäre standarmäßig der owning module für tax class? Taxes?)
+[comment]: <> (Fachreviewer: In meiner Sandbox kann Tax class Datentyp "TaxClass" und "TreeNode", z.B. Standard, ermäßigt, haben. Wenn Datentyp TaxClass ist, ist der owning module UCSProductSync. Wenn Datentyp TreeNode ist, ist owning module Omni-Channel, i.e. key startet mit _channels_tax_class... Für dieses Beispiel, wäre es sinnvoll, ein Tax class attribute so wie in der Tabelle zu definieren? Oder was wäre standarmäßig der owning module für tax class? Taxes?)
 
 The following graphic visualizes a series of attributes, within an attribute set, maintained in different scopes and languages, and how these attributes define a specific product: 
 
@@ -74,9 +74,9 @@ The following examples are based on predefined *PIM* attribute sets. If you have
 
 | Attribute set      | Attribute set key   |
 |--------------------|---------------------|
-| PIM basic set      | *_pim_base_set*     |
-| PIM electronics    | *_pim_electronics*  |
-| PIM shirts         | *_pim_shirts*       |
+| PIM basic set      | _pim_base_set*     |
+| PIM electronics    | _pim_electronics*  |
+| PIM shirts         | _pim_shirts*       |
 
 Apart from the *PIM basic set*, you can create other sets to define other types of products, such as shirts or notebooks. These product-specific attribute sets are usually based on the *PIM basic set*, that is, inherit the attributes included in it. Besides, they contain additional attributes needed to define the specific product type, such as a piece of clothing or a computer.  
 

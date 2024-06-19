@@ -24,7 +24,7 @@ You may need to provide an entity ID value to a specific attribute key. Any ID v
 
 The value you can give a specific attribute depends on the attribute's data type. For detailed information on the data types, see [Data types](../../DataHub/UserInterface/04_DataTypeList.md).
 
-[comment]: <> (Zu prüfen: Attribute keys in kursiv oder nicht? Also *_pim_color* oder _pim_color, usw. In anderen Dateien es so gemacht, aber hier zu umständlich/verwirrend. Evtl. doch im Fließtext, damit es hervorgehoben ist, aber nicht in den Tabellen...)
+
 
 ## The product object
 
@@ -87,11 +87,11 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (Andreas: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben? _pim)
+[comment]: <> (Fachreviewer: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben? _pim)
 
-[comment]: <> (Andreas: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes. Sind alle drei hier relevant, oder nur _pim_stock_value?)
+[comment]: <> (Fachreviewer: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes. Sind alle drei hier relevant, oder nur _pim_stock_value?)
 
-[comment]: <> (Andreas: _pim_stock_germany und _pim_stock_foreign sind auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
+[comment]: <> (Fachreviewer: _pim_stock_germany und _pim_stock_foreign sind auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
 
 
 ## Create a product
@@ -195,7 +195,7 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 
-[comment]: <> (Imogen: Unterschied zwischen Feld und Attribut)
+[comment]: <> (Check Feld vs Attribut)
 
 ### Sample: Add an image to a product
 
@@ -395,7 +395,7 @@ The required fields are marked in bold.
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |
 
-[comment]: <> (Andreas: Was für filter sinnvoll? Kannst du mir Beispiele für Hints und Query geben?)
+[comment]: <> (Fachreviewer: Was für filter sinnvoll? Kannst du mir Beispiele für Hints und Query geben?)
 
 ### Sample: List products by creation date
 
