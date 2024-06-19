@@ -89,6 +89,7 @@ In the store details, you give some detailed information about your store. Furth
 
 - A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store using the wizard](./06_CreateStore.md#create-a-store-using-the-wizard).
 - The users are assigned to the POS groups, see [Assign users to the POS groups](./04_AssignUsers.md).
+- The connection to the TSS provider has been created, see [Create connection to TSS provider](./10_TSSProviderConnection.md#create-a-connection-to-a-tss-provider).
 
 #### Procedure
 
@@ -98,7 +99,7 @@ In the store details, you give some detailed information about your store. Furth
 
 1. Enter a short description of the store in the *Short description* field.
 
-2. Click the *TSS connection* drop-down list and select the required TSS connection. For detailed information on TSS connections, see [Create connection to TSS Provider](./10_TSSProviderConnection.md).
+2. Click the *TSS connection* drop-down list and select the required TSS connection. 
 
 2. Click the [ADD] button in the *Store manager* box.   
     The *Store managers* window is displayed.
@@ -177,7 +178,7 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
     > [Info] The cashiers list displays all users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.  
 
-    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md)
+    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 4. Click the [Add] button in the upper right corner of the window.   
     The selected cashier is added to the box.
@@ -257,10 +258,9 @@ To connect the warehouse management and the stock management to your POS, you ha
 
 2. Select the warehouse you want to take the material from in the *Warehouse* drop-down list.
 
-3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
-For detailed information, see [Stores](../UserInterface/02b_Stores.md).
+3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option. For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a storage shelf is defined for them. By default, a storage shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a storage shelf. The products get a storage shelf the first time the corresponding channels offer is activated.    
+   > [Info] A product must be in stock in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a storage shelf is defined for them. By default, a storage shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a storage shelf. The products get a storage shelf the first time the corresponding channels offer is activated.    
    This automation only works if you have enabled the storage of multiple items per storage shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
 4. Enter a storage shelf number for the products in the *Shelf* field. The storage shelf number can be any arbitrary number.
@@ -344,8 +344,7 @@ No prerequisites to fulfill.
 
 ### Configure the stock allocation
 
-Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration
-/04_ConfigureStockAllocation.md "[Configure the stock allocation]")
+Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration/04_ConfigureStockAllocation.md "[Configure the stock allocation]")
 
 #### Prerequisites
 
@@ -437,7 +436,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation Accounting*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Account allocation Accounting*
 
 ![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Allocate accounts global settings]")
 
@@ -460,7 +459,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Entry Account assignment*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts in store settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts in store settings]")
 
@@ -488,7 +487,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Entry Account assignment*
+*Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts pay desk settings]")
 

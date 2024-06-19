@@ -20,7 +20,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 #### Prerequisites
 
 - Offers for POS have been created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -56,7 +56,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -76,7 +76,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
-4. Click the [Save] button in the bottom right corner to apply the price change.   
+4. Click the [SAVE] button in the bottom right corner to apply the price change.   
     The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for future analysis.
 
     ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Bill list]")
@@ -91,7 +91,7 @@ You can change the quantity of an offer in your bill list by increasing or decre
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -120,7 +120,7 @@ You can check the number of items in stock respectively the availability of an o
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -152,7 +152,7 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -172,7 +172,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -205,7 +205,7 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -240,7 +240,7 @@ Alternatively, if the customer has a customer or member card, you can select the
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 
 #### Procedure
@@ -275,7 +275,7 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 #### Prerequisites
 
 - Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 - At least one customer is already registered, see [Register a customer](#register-a-customer) and has a customer or member card.
 
 #### Procedure

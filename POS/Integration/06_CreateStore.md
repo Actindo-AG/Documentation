@@ -133,22 +133,23 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard STEP 3]")
 
-> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured.   
-For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
+> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured. For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
 
-1. Click the *Client* drop-down list and select a client for the pay desk.
+1. Select the paydesk by clicking on the corresponding tab.
 
-2. Click the *Printer* drop-down list and select a printer for the pay desk.
+2. Click the *Client* drop-down list and select a client for the pay desk.
 
-3. Click the *Tray* drop-down list and select a tray.
+3. Click the *Printer* drop-down list and select a printer for the pay desk.
 
-4. Select a layout for printing. By default, portrait layout is preselected for receipt printing.
+4. Click the *Tray* drop-down list and select a tray.
 
-5. Click the [SAVE PAYDESK] button in the bottom to save the printing settings for the selected pay desk.
+5. Select a layout for printing. By default, portrait layout is preselected for receipt printing.
+
+6. Click the [SAVE PAYDESK] button in the bottom to save the printing settings for the selected pay desk.
 
     > [Info] If you created multiple pay desks, you can switch to another pay desk by clicking the tab with the name of the respective pay desk. You may configure different print settings for each pay desk.
 
-6. Click the [CONTINUE] button in the bottom right corner of the window.   
+7. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Store Address* wizard window is displayed when the printer is configured.
 
 

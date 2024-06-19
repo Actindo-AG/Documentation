@@ -9,7 +9,7 @@
 
 The table displays the history of sales. Depending on the settings, the displayed columns may vary.
 
-- *Bill Number*   
+- *Bill number*   
     Bill number of the sale in POS. This field is read-only.
 
 - *Date*   
@@ -36,7 +36,7 @@ The table displays the history of sales. Depending on the settings, the displaye
 - *Receivable*   
     Click the [![Printer](../../Assets/Icons/Printer.png "[Printer]") Print receipt] button to print the sales receipt. The button is only displayed when the sale is finalized. When no receipt is available, a dash (*-*) is displayed.
 
-    > [Info] The printer must be configured to print the sales receipt.
+    > [Info] The printer must be configured to print the sales receipt. For detailed information, see [Configure the printer client for POS](../Integration/03_ConfigurePrinter.md).
 
 - *ID*   
     Sales ID.

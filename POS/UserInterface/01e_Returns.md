@@ -9,7 +9,7 @@
 The table displays all returns. Depending on the settings, the displayed columns may vary.
 
 - *Bill number*   
-    POS bill number of the return. This field is read-only.
+    POS bill number of items that are returned. This field is read-only.
 
 - *Customer*   
     Name of the customer who has returned the items. This field is read-only.
@@ -44,7 +44,7 @@ The *Add return* view is used to select the bill number of the offer that a cust
 
 
 - *![Clipboard](../../Assets/Icons/Clipboard.png "[Clipboard]") Please enter a valid bill number*    
-    Enter the bill number of the return to be added to the returns list.
+    Enter the bill number of the offer to be added to the returns list.
 
 - ![Search](../../Assets/Icons/Search.png "[Search]") (Search)   
     Click this button to start the search for the entered bill number.
@@ -65,7 +65,7 @@ The *Add return* view is used to select the bill number of the offer that a cust
 
 **Bill number**
 
-The *Bill number* view is used to specify the return reason and the condition of the offer to be returned and to initiate the refund.
+The *Bill number* view is used to specify the return reason and the condition of the offer to be returned, and to initiate the refund.
 
 - Bill number   
     Number of the bill that documents the sale of the offer.
@@ -78,8 +78,8 @@ The *Bill number* view is used to specify the return reason and the condition of
 
 **Items that will be returned**
 
-- *Offer*   
-    ID of the offer that was purchased. This field is read-only.
+- *Product*   
+    Name of the offer that was purchased. This field is read-only.
 
 - *Price*   
     Selling price of the bill, that means the price of the offer at the time of sale. This field is read-only.
@@ -91,7 +91,7 @@ The *Bill number* view is used to specify the return reason and the condition of
     Indicate the reason that prompted the buyer to return the offer.
 
 - *Action*  
-    Action that results in the return, such as money-back. This field is read-only.
+    Action resulting from the return, such as money-back. This field is read-only.
 
 - [CANCEL]    
     Click this button to cancel the process and close the *Bill number* view.
@@ -111,15 +111,15 @@ The *Summary of the return (Amount)* view is used to define the refund method an
     Method by which the payment was made. This field is read-only.
 
 - *Currency*   
-    Currency in which the offer was purchased
+    Currency in which the offer was purchased.
 
 **Items that will be returned**
 
-- *Offer*   
+- *Product*   
     ID of the offer that was purchased. This field is read-only.
 
 - *Price*   
-    Selling price of the bill, that means the price of the offer at the time of sale. This field is read-only.
+    Selling price on the bill, that means the price of the offer at the time of sale. This field is read-only.
 
 - *Condition*   
     Click the drop-down list and select the condition of the offer that the customer wants to return.
@@ -128,7 +128,7 @@ The *Summary of the return (Amount)* view is used to define the refund method an
     Indicate the reason that prompted the buyer to return the offer.
 
 - *Action*  
-    Action that results in the return, such as money-back. This field is read-only
+    Action that results from the return, such as money-back. This field is read-only.
 
 - *Payment type*   
     Method by which the refund is to be made. This drop-down list is read-only if the [Refund only on the same payment method](../UserInterface/02a_GlobalSettings.md#refund-only-on-the-same-payment-method) setting is active.
@@ -137,7 +137,7 @@ The *Summary of the return (Amount)* view is used to define the refund method an
     - Bar
 
 - *Card type*     
-    Click the drop-down list to select the card type. It is only available if the payment was made with the Manual payment at terminal method. It determines how the refund should be transferred.
+    Click the drop-down list to select the card type. It is only available if the payment was made with the *Manual payment at terminal* method. It determines how the refund should be transferred.
 
 - [FINALIZE RETURN]   
     Click this drop-down list to finalize the return.

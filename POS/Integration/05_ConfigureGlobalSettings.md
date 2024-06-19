@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Default customer*
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
@@ -48,7 +48,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry VAT ID*
 
 ![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
@@ -103,7 +103,7 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Payment methods (manual terminal payment)*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Payment methods (manual terminal payment)*
 
 ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
 
