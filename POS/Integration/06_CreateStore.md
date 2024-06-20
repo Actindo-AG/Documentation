@@ -199,15 +199,15 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 3. Enter a storage shelf number for the products in the *Shelf* field. The storage shelf number can be any arbitrary number.
 
-4. Activate the *Configure stock withdrawal matrix* toggle to automate the configuration of the stock withdrawal matrix. It is recommended to activate this option.
+4. Activate the *Inventory assignment* toggle to automate the configuration of the stock withdrawal matrix. It is recommended to activate this option.
 
 5. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Stock allocation* wizard window is displayed when the warehouse assignment is saved.
 
 
-## Assign a stock source
+## Configure the stock allocation
 
-In this step you assign the stock source to manage the store stock. The stock source specifies how the stock value in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
+In this step, you configure the stock allocation. The stock allocation specifies how the stock value in the POS system is calculated. In most cases, the calculated stock value and the stock level in the warehouse are identical, but they can also differ.
 
 #### Prerequisites
 
@@ -219,11 +219,11 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ![Wizard 06](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Store Wizard STEP 6]")
 
-1. Activate the *Create new stock source* toggle to add a new stock source that only considers the stock of the warehouse selected in the previous step. It is recommended to activate this option.     
-    The *Select existing stock Source* drop-down list is hidden.
+1. Activate the *Create new stock source* toggle to add a new stock allocation that only considers the stock level of the warehouse selected in the previous step. It is recommended to activate this option.     
+    The *Select existing stock source* drop-down list is hidden.
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
-    The *Accounting* wizard window is displayed when the stock source assignment is saved.     
+    The *Accounting* wizard window is displayed when the stock allocation assignment is saved.     
 
 
 ## Assign an account

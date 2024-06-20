@@ -3,7 +3,6 @@
 *Venduo POS > Sales > Tab HISTORY*
 
 ![History](../../Assets/Screenshots/POS/Sales/History/History.png "[History]")
-<!---Error-->
 
 **List of sales**
 

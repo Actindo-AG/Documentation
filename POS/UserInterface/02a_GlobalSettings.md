@@ -51,9 +51,7 @@ Configure the details of the POS-specific cash receipt number. The cash receipt 
     Define the format of the sequential number. It is mandatory to include the store identifier (S) and the sequential number (L). The placeholders are indicated on the right side.
 
 - *Length of the sequential number*   
-    Define the number of digits of the sequential number.
-    <!--- Stimmt das so? Digits oder characters?--->    
-
+    Define the number of characters of the sequential number.
 
 - ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Reset after time interval*   
     Choose whether or not to reset the sequential number after the time interval.
@@ -407,7 +405,14 @@ Allow your cashiers to accept a return and to refund the amount due. Enable this
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Field for customer lock*
 
 ![Field for customer lock](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForCustomerLock.png "[Field for customer lock]")
-<!--- to be enhanced-->
+
+Define the field to be used to identify a customer as locked for the stores. The *Field for customer lock* setting specifies the attribute in the customer's master data from which the system should read information about whether a customer is locked. See the *customer_locked* attribute in the *RetailSuite Customer* attribute set for reference.   
+
+The following prerequisites must be met to use this feature: 
+ 
+- You have added an attribute *customer_locked* for the customer lock to the attribute sets with which you define customer master data. See the *RetailSuite customer* attribute set for reference. 
+- This attribute must be of the *Floating point number* or *Integer* data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
+
 
 
 ## CURRENCIES
@@ -610,7 +615,7 @@ A customer-specific discount is automatically added to the pay bill list when a 
 
 The following prerequisites must be met to use this feature: 
 
-- You have added an attribute for the customer-specific discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
+- You have added an attribute *customer_auto_discount* for the customer-specific discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
 - This attribute must be of the *Floating point number* or *Integer* data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 
 
@@ -1015,9 +1020,7 @@ Enter the SKU of the voucher that you want to use for pre-printed vouchers.
     Click this button to save any changes.
 
 - *Voucher SKU*   
-    Enter the name of the voucher that you have created for pre-printed vouchers. For detailed information, see [Create an offer for pre-printed vouchers](../Integration/07_ManageOffers.md#create-an-offer-for-pre-printed-vouchers).
-
-<!--- to be enhanced>
+    Enter the SKU of the voucher that you have created for pre-printed vouchers. For detailed information, see [Create an offer for pre-printed vouchers](../Integration/07_ManageOffers.md#create-an-offer-for-pre-printed-vouchers).
 
 
  <!---Obsolet  

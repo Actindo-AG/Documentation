@@ -8,9 +8,7 @@
 
 # Manage offers for POS
 
-To offer products in POS, it is recommended to create the products in advance in the *PIM* module and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
-<!---Ich glaube das versteht man so nicht. Vorschlag:
-To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.-->
+To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.
 
 
 ## Create products for POS
@@ -164,7 +162,7 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 Create a QuickSelect category for POS for faster access to favorite offers at the cashpoint.  
 
 The following image shows how QuickSelects can organize the most requested offers:
-<!---Marina, ich habe hier ein Bild eingefügt, damit die Kunden überhaupt wissen, worum es sich bei dieser Funktion handelt-->
+
 ![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[QuickSelect in the cashpoint]")
 
 ### Define a QuickSelect attribute
@@ -416,12 +414,12 @@ For detailed information on configuring this feature, see [Display age rating](.
 ## Define promotions for POS
 You can define promotions for POS by adding a promotion price and a validity period to a POS offer that have been previously defined as promotion price in the *PIM* module.  
 
-For this feature, the following attributes have been added to the POS basic set and are available in the offer's attributes of your stores:
+For this feature, the following attributes have been added to the *POS basic set* attribute set and are available in the offer's attributes of your stores:
 - actindo_pos_special_price: Attribute with which a promotions price can be specified.
 - actindo_pos_special_price_start: Attribute, with which the start date of a promotion can be specified.
 - actindo_pos_special_price_end: Attribute, with which the end date of a promotion can be specified.   
 
-As the POS basic set is automatically inherited to your offers, these attributes are available for your offers.
+As the *POS basic set* is automatically inherited to your offers, these attributes are available for your offers.
 
 In the following, the procedure of the standard delivery is described. It may differ if your system has a different configuration.
 
@@ -548,17 +546,18 @@ The attribute for specifying the price group-related price has been defined in t
 5. Click the [SAVE] button.
 
 
+<!--->
 
-<!---NEU
 ## Create a product option 
 
-You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
+You may want to combine additional services with an offer. If your store has the appropriate technical capabilities, you may want to offer shirts with an optional flocking, or photos with an optional printing on mugs and other objects. In these cases, a specific service is associated to an offer. For detailed information on how the product options are handled at the cash point, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option).
 
-From a technical point of view, you have to associate a product/service to an existing product.
+From a technical point of view, you have to associate a product or service to an existing product.
 
 
 
 ### Define a product option
+
 Define a product option that describes the additional service to an offer, for example, photo print or flocking.
 
 #### Prerequisites
@@ -578,14 +577,14 @@ No prerequisites to fulfill.
 
 2. Enter a name for the product option in the *Name* field.
 
-3. Enter a key for the product option in the *Key* field.
+3. Enter a unique key for the product option in the *Key* field.
 
 4. Click the [SAVE] button.    
-    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
+    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and is added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
 
 5. If desired, add additional product options.
 
-<!---
+
 
 ### Create a product for product option
 
@@ -596,23 +595,63 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-1. Create the product. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
+1. Create the product. Assign this product to the *Product options* attribute set. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
 
-2. Transfer the product to the *Omni-Channel* module. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
-
-
-
-### Assign a product to offer option set for store
-
-In addition to the store-specific variant set you must assign the product option to the offer option set for store. 
-
-> [Info] The offer option set for your store has been automatically created when creating the store. It is inherited from the  
+2. Transfer this product to the *Omni-Channel* module. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product). By doing this, assign the offer directly to the *Offer option set for POS store "Name of the store"*
 
 
 
 
-### Assign product option to product
 
+POS options basic set.
+da kommen alle attribute rein, die für die zusätzlichen Dienstleistungen gewünscht werden
+
+
+
+### Associate the product option with offer
+
+Associate the product option with the products for which you want to offer the additional service. Because the additional service may only apply to certain stores, the association is made to the Omni-Channel offer.    
+In the *Unassigned Group* 
+
+#### Prerequisites
+
+- The product option has been created and is transferred to the *Omni-Channel* module.
+- The product to which the product option will be associated has been created. 
+
+#### Procedure
+
+*Omni-Channel > Offers*
+
+![offers](../../Assets/Screenshots/POS/Management/ProductOptions/SelectOffer.png)
+
+1. Select the desired connection respectively the desired store in the *All connections* drop-down list.    
+    A list of all offers in the desired store is displayed.
+
+2. Select the offer with which you want to associate the product option. If applicable, select the master offer so that the product option association is inherited by all variants of the master offer.   
+    The *Edit offer "SKU"* view is displayed. The *Attributes* tab is preselected by default. Only the *Unassigned* group is available.
+
+    ![Edit offer](../../Assets/Screenshots/POS/Management/ProductOptions/EditOffer.png "[Edit offer]")
+
+3. Scroll down the *Unassigned group* until you reach the product option to which you want to assign the offer you have created as product option.
+
+    ![Edit offer](../../Assets/Screenshots/POS/Management/ProductOptions/EditOffer.png "[Edit offer]")
+
+4. Click the [ADD] button in the top right corner of the product option box.   
+    The *Filter list of products* window is displayed.
+
+    ![Filter list of products](../../Assets/Screenshots/POS/Management/ProductOptions/FilterListProducts.png "[Filter list of products]")
+
+5. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]")(Refresh) button in the top right corner.   
+    A list of all offers available in the store is displayed.
+
+6. Click the checkbox of the desired offer previously created as product option.   
+    The editing toolbar is displayed.
+
+7. Click the [SAVE] button in the top right corner of the *Filter list of products* window.   
+    The *Edit offer "SKU"* view is displayed.  
+
+8. Click the [SAVE] button in the top right corner of the *Edit offer "SKU"* view.   
+    The product option offer is now associated to an offer of your store.
 
 
 
@@ -627,5 +666,6 @@ No prerequisites to fulfill.
 #### Procedure
 
 Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
--->
 
+
+-->

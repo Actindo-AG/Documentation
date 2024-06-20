@@ -280,7 +280,7 @@ A warehouse for POS is configured, see [Configure the warehouse for POS](./01_Co
 
 #### Procedure
 
-*Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
 ![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
@@ -300,9 +300,9 @@ A warehouse for POS is configured, see [Configure the warehouse for POS](./01_Co
     The new assignment in the stock withdrawal matrix is saved.
 
 
-## Assign the stock source
+## Configure the stock allocation
 
-Assign a stock source to manage the store stock. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
+Configure the stock allocation to manage the store stock. The stock allocation specifies how the stock available in the POS system is calculated. In most cases, the calculated stock value and the stock level in eht warehouse are identical, but they can also differ.   
 
 ### Create a stock attribute
 
@@ -323,7 +323,7 @@ No prerequisites to fulfill.
 
     ![Create attribute](../../Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-2. Enter an appropriate name for the attribute in the *Name* field, for instance **Stock test store**.
+2. Enter an appropriate name for the attribute in the *Name* field, for instance **Stock value test store**.
 
 3. Enter an appropriate key in the *Key* field.
 
@@ -342,9 +342,9 @@ No prerequisites to fulfill.
 8. Press the **F5** key to initialize the *Core1 Platform*.
 
 
-### Configure the stock allocation
+### Assign the stock allocation
 
-Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration/04_ConfigureStockAllocation.md "[Configure the stock allocation]")
+Assign the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration/04_ConfigureStockAllocation.md "[Configure the stock allocation]").
 
 #### Prerequisites
 
@@ -359,10 +359,10 @@ Configure the stock allocation. For detailed information, see also [Configure th
 
 1. Select the row with the stock allocation attributes name.
 
-2. Double-click the field with the **Default (Calculation, stock)** option in the *Stock calculation* column.   
+2. Double-click the field with the **Default (Calculation, stock value)** option in the *Stock calculation* column.   
     A drop-down list is displayed.
 
-3. Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
+3. Select the **Calculation, stock value** option in the drop-down list in the *Stock calculation* column.   
     The fields in the warehouse columns are unlocked.
 
 4. Double-click the option in a warehouse column to display the drop-down list.
@@ -372,7 +372,7 @@ Configure the stock allocation. For detailed information, see also [Configure th
     > [Info] Select for each warehouse whether it should be included or not.
 
 6. Click the [Save] button in the bottom right corner.   
-    The stock allocation is saved. When the stock in a warehouse that is included in the formula is changed, the stock will be entered automatically in the stock field.
+    The stock allocation is saved. When the stock level in a warehouse that is included in the formula is changed, the stock will be updated automatically in the stock value field.
 
 
 ### Map the attribute to the stock of the store
@@ -393,14 +393,14 @@ Configure the stock allocation. For detailed information, see also [Configure th
 
     ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Click the row with the destination attribute **Stock** in the list of mappings.   
+2. Click the row with the destination attribute **Stock value** in the list of mappings.   
     The *Settings* section is displayed on the right side.
 
     ![Mapping Settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping Settings]")
 
 3. Select the **Basic Mapping** option in the *Extension* drop-down list in the *Settings* section.
 
-4. Select the stock attribute in the *Source attribute* drop-down list.
+4. Select the stock value attribute in the *Source attribute* drop-down list.
 
 5. Click the [SAVE] button in the upper right corner.   
     The mapping is saved.

@@ -32,7 +32,7 @@ The table displays all returns. Depending on the settings, the displayed columns
 - ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add)   
     Click this button to add a return to the list. The *Add Return* view is displayed.
 
-<!--- Ab hier zuende dokumentiert-->
+
 
 ## Add return
 

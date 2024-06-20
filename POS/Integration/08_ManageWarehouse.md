@@ -7,7 +7,7 @@ Manage the warehouse settings to assign one or more specific warehouses to the P
 
 ## Check the stock allocation
 
-Check if the stock allocation is correctly configured so that the store stock value is correctly assigned to the warehouse. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
+Check if the stock allocation is correctly configured so that the store stock value is correctly assigned to the warehouse. The stock allocation specifies how the stock available in the POS system is calculated. In most cases, the stock value and the stock level in the warehouse are identical, but they can also differ.   
 
 #### Prerequisites
 
@@ -16,7 +16,7 @@ Check if the stock allocation is correctly configured so that the store stock va
 
 #### Procedure
 
-*Warehouse > Settings > Tab WAREHOUSE > Tab Stock allocation*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Stock allocation*
 
 ![Stock allocation](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockAllocation/StockAllocation.png "[Stock allocation]")
 
@@ -24,7 +24,7 @@ Check if the stock allocation is correctly configured so that the store stock va
 
 2. If necessary, edit the settings as described in the following:
 
-    + Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
+    + Select the **Calculation, stock value** option in the drop-down list in the *Stock calculation* column.   
         The fields in the warehouse columns are unlocked.
 
     + Double-click the option in a warehouse column to display the drop-down list.
@@ -34,7 +34,7 @@ Check if the stock allocation is correctly configured so that the store stock va
     > [Info] Select for each warehouse whether it should be included or not.
 
 3. Click the [SAVE] button in the bottom right corner.   
-    The stock allocation is saved. The stock is calculated from all selected warehouses.
+    The stock allocation is saved. The stock level is calculated from all selected warehouses.
 
 
 
@@ -49,7 +49,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 #### Procedure
 
-*Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
 ![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
@@ -59,7 +59,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
     + Select the option **--all--** in the drop-down list in the *Product group* column.
 
-    + Select the output channel via which you want to create offers in the drop-down list in the *Marketplace* column.
+    + Select the output channel via which you want to create offers in the drop-down list in the *Sales channel* column.
 
     + Select the option **--all--** in the drop-down list in the *Sub-account* column.
 
@@ -72,7 +72,7 @@ Check if the stock withdrawal matrix is correctly configured so that a specific 
 
 
 
-## Manage the warehouse logistics for POS products
+## Manage the warehouse logistics for POS offers
 
 Manage the warehouse logistics for POS offers to ensure that these are active for warehousing.
 
@@ -87,20 +87,20 @@ Activate the warehouse logistics for the POS offers. For detailed information, s
 
 
 
-## Manage the stock for POS products
+## Manage the stock for POS offers
 
-You can adjust the stock quantity of your POS products, for instance because of a stock, a purchasing or an ordering.
+You can adjust the stock quantity of your POS offers, for instance because of a stock, a purchasing or an ordering.
 
 #### Prerequisites
 
 - A POS store has been created, see [Create a store via wizard](./06_CreateStore.md#create-a-store-in-pos-using-the-wizard) or [Create a store manually](./06a_CreateStoreManually.md#create-a-pos-store-manually).
 - A POS offer has been created, see [Create an offer for POS](./07_ManageOffers.md#create-an-offer-for-pos).
 - The warehouse logistics for the POS article is active, see [Manage the warehouse logistics for POS products](#manage-the-warehouse-logistics-for-pos-products).
-- A warehouse with a defined storage shelf is assigned to the POS product.
+- A warehouse with a defined storage shelf is assigned to the POS offer.
 
 #### Procedure
 
-*Warehouse > Quick Booking > Tab QUICK BOOKING > Tab Product list*
+*Warehousing > Quick posting > Tab QUICK POSTING > Tab Product list*
 
 ![Product list](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/ProductList.png "[Product list]")
 
@@ -113,11 +113,11 @@ You can adjust the stock quantity of your POS products, for instance because of 
     ![Basic data](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/BasicData/BasicData.png "[Basic data]")
 
 2. Click the *Warehouse / Suppliers* tab.   
-    The the *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
+    The *Warehouse / Suppliers* tab is displayed. The *Warehouse management* sub-tab is preselected.
 
     ![Warehouse management](../../Assets/Screenshots/RetailSuiteWarehousing/QuickBooking/WarehouseSuppliers/WarehouseManagement/WarehouseManagement.png "[Warehouse management]")
 
-    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS article, if a warehouse is assigned.
+    > [Info] Check if a warehouse is displayed in the *Storage locations* section. You can only change the stock for the POS offers if a warehouse is assigned.
 
 3. Click the [ADD POSTING] button at the bottom of the *Stocks* section.   
     A window to enter the posting is displayed.
