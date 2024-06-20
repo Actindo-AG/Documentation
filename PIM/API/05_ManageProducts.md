@@ -10,7 +10,7 @@ To manage your products via API, you need to provide the required key-value pair
 
 Depending on the data you want to specify, you have to add the corresponding attribute in its form as an attribute key to your request. For detailed information on the attribute key structure, see [Attributes](./03_KeyConcepts.md#attributes). 
 
-For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding *PIM* attribute set under *PIM > Settings > Attribute sets*. Alternatively, you can find a list of all existing *PIM* attributes under *PIM > Settings > Attributes*. Alternatively, you can get a list of attributes via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
+For a complete list of the attributes included in the attribute set of the product you want to address, you can check the corresponding *PIM* attribute set under *PIM > Settings > Attribute sets*. You can also find a list of all existing *PIM* attributes under *PIM > Settings > Attributes*. Alternatively, you can get a list of attributes via API, see [List the attributes in an attribute set](./04_RetrieveEntityData.md#list-the-attributes-in-an-attribute-set).
 
 Bear in mind that keys are customer-defined. Therefore, the fields displayed in the following request samples should just serve as an example. For a practical example on how to use the request samples, see [How to use the request samples](./02_GetStarted.md#how-to-use-the-request-samples). 
 
@@ -87,11 +87,11 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (Fachreviewer: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben? _pim)
+[comment]: <> (Fachreviewer: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben?)
 
-[comment]: <> (Fachreviewer: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes. Sind alle drei hier relevant, oder nur _pim_stock_value?)
+[comment]: <> (Fachreviewer: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes? Sind alle drei hier relevant, oder nur _pim_stock_value?)
 
-[comment]: <> (Fachreviewer: _pim_stock_germany und _pim_stock_foreign sind auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
+[comment]: <> (Fachreviewer: Sind _pim_stock_germany und _pim_stock_foreign auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
 
 
 ## Create a product
@@ -195,7 +195,7 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 
-[comment]: <> (Check Feld vs Attribut)
+[comment]: <> (Check Field vs Attribut)
 
 ### Sample: Add an image to a product
 
@@ -395,7 +395,7 @@ The required fields are marked in bold.
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |
 
-[comment]: <> (Fachreviewer: Was für filter sinnvoll? Kannst du mir Beispiele für Hints und Query geben?)
+[comment]: <> (Fachreviewer: Welche Filter sind sinnvoll/nützlich? Kannst du mir Beispiele für Hints und Query geben?)
 
 ### Sample: List products by creation date
 

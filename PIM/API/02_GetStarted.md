@@ -117,9 +117,7 @@ If you want to gain access to the *Actindo Core1 Platform* from an external app 
 
 ### Step 2 &ndash; Get an authorization code
 
-An authorization code is a temporary code provided by an authorization server. This code is then used by the client app to exchange for an access token. In other words, you need to get an authorization code to obtain an access token to be able to send authenticated requests. 
-
-[comment]: <> (Reformulate!)
+An authorization code is a temporary code provided by an authorization server. This code is then used by the client app to exchange for an access token. Once you have the access token, you can send authenticated requests and access the information via API. 
 
 Bear in mind that you need to get an authorization code for each instance you want to access via API.
 
