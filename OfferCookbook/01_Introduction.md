@@ -2,18 +2,20 @@
 
 The *Actindo Core1 Platform* offers you the possibility to create an offer automatically in the *Omni-Channel* module for every product managed in the *PIM* module. From *Omni-Channel*, the offer will then be transferred to one or multiple connected sales channels. You can automate this process with a workflow in the *Process Orchestration* module.
 
-This *Omni-Channel offer cookbook* documentation aims to ... and contains the following information:
+This *Omni-Channel offer cookbook* documentation intends to provide you with detailed instructions to configure your own workflows. It contains the following information:
 
-- an overview of the main components you need to create an offer from product workflow
-- a detailed description of the processes involved
-- a few workflow examples, from the most basic to most complex use cases 
-- JSON templates for every workflow example provided   
+- An overview of the main components you need to create an offer from product workflow
+- A detailed description of the processes involved
+- A few workflow examples, from the most basic to most complex use cases
+- JSON templates for every workflow example provided
 
-In this chapter, you will find the following information and processes:
+In the following, the following workflow setup procedures are described: 
 
 - [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow)
 - [Create a PIM product trigger](#create-a-pim-product-trigger)
 - [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger)
+
+Theses procedures are common to all workflows to create an *Omni-Channel* offer from a *PIM* product.
 
 
 ## Set up an offer from product workflow
@@ -55,13 +57,15 @@ For the offer from product workflow, two main types of triggers apply:
 1. *PIM product created*: to initiate your process every time a product is created
 2. *PIM product saved*: to initiate your process every time a product is changed and saved
 
+You can add several triggers to a workflow. Bear in mind that the triggers work as a priority list, that is, a list of items arranged in descending order based on their priority. Therefore, the correct order of the triggers is crucial, as the system goes through the triggers in the order they are listed, starting from the top, and stops checking them as soon as a matching trigger is found. That means that the triggers must be organized from specific to general to cover all possible relevant cases.
+ 
 #### Prerequisites
 
 You have set up an offer from product workflow, see [Set up an offer from product workflow](#set-up-an-offer-from-product-workflow).
 
 #### Procedure
 
-*Process Orchestration > Workflows > Tab OVERVIEW > Select the offer from product workflow > Select a workflow version*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select workflow version*
 
 ![Workflow editor](../Assets/Screenshots/ActindoWorkFlow/Workflows/WorkflowEditor.png "[Workflow editor]")
 
@@ -108,11 +112,13 @@ You have set up an offer from product workflow, see [Set up an offer from produc
 
 You can add conditions to a trigger to define more precisely when a process is executed.  
 
-In the case of the offer from product workflow, for example, you can determine that a new process is started only when a *PIM* product is saved (trigger) and, for example, it is put on sale (condition). This means that a new offer will be created in *Omni-Channel* only when the product price in the *PIM* module has been changed. 
+In the case of the offer from product workflow, for example, you can determine that a new process is started only when a *PIM* product is saved (trigger) and it is put on sale (condition). This means that a new offer will be created in *Omni-Channel* only when the *PIM* product is marked as a sale item (the *Sale item* toggle in the *Product data* is enabled) and saved. 
 
-[comment]: <> (if the price has been modified, -> Ist das möglich mit _pim_price? Und was wäre Value? Oder mit Is set?)
+[comment]: <> (_pim_is_sale ist boolean -> Wie wäre die Condition? _pim_price ist string -> Wie wäre die Condition? Und was wäre Value? Oder mit Is set?)
 
-You can add several conditions to a trigger. 
+You can add several conditions to a trigger. Bear in mind that the conditions work as a priority list, that is, a list of items arranged in descending order based on their priority. Therefore, the correct order of the conditions is crucial, as the system goes through the conditions in the order they are listed, starting from the top, and stops checking them as soon as a matching condition is found. That means that the conditions must be organized from specific to general to cover all possible relevant cases.
+
+[comment]: <> (Stimmt das auch bei den Conditions?)
 
 #### Prerequisites
 
@@ -120,9 +126,9 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 #### Procedure
 
-*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select a workflow version > Button Points > Menu entry Triggers*
+*Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select workflow version > Button Points > Menu entry Triggers*
 
-![Workflow editor](../Assets/Screenshots/OfferCookbook/ConditionPimPriceSale.png "[Workflow editor]")
+![Workflow editor](../Assets/Screenshots/OfferCookbook/ConditionEntityPimIsSale.png "[Workflow editor]")
 
 > [Info] You have to select the trigger to which you want to add a condition.
 
@@ -133,10 +139,11 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 | Conditions ||
 |----|----|
 |**Prefix** | changeset. |
-|**Property** | _pim_price_sale |
+|**Property** | _pim_is_sale |
 |**Operator** | Is set | 
 |**Value** | - |   
-   
+
+[comment]: <> (Unsicher, check conditions mit Stefan)
 
 
 
