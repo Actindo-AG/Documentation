@@ -111,7 +111,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Create store manually](./02b_Stores.md#create-store-manually)
     - [Store](./02b_Stores.md#store)
         - [Basic data &ndash; Store](./02b_Stores.md#basic-data-–-store)
-        - [Settings](./02b_Stores.md#settings)
+        - [Settings &ndash; Store](./02b_Stores.md#settings-–-store)
         - [Admin settings &ndash; Store](./02b_Stores.md#admin-settings-–-store)
     - [Pay desk](./02b_Stores.md#pay-desk)
         - [Basic data &ndash; Pay desk](./02b_Stores.md#basic-data-–-pay-desk)

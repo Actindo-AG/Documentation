@@ -402,7 +402,7 @@ The wizard window displays a summary of the store configuration. Missing data or
     Click this button to save any changes.
 
 
-### Basic data &ndash; Store
+### Basic data &ndash; store
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
@@ -411,13 +411,16 @@ The wizard window displays a summary of the store configuration. Missing data or
 - *Short Description*   
     Enter a short description to the store.
 
+- *TSS connection*  
+    Click the drop-down list and select the required TSS connection.
+
 - [SAVE]   
     Click this button to save any changes.
 
 **Store Manager**
 
 - [Add]      
-    Click this button to add a store manager to the store. The *Store Managers* window is displayed.
+    Click this button to add a store manager to the store. The *Create pay desk* window is displayed, see [Store managers](#store-managers).
 
 - *First Name*   
     First name of the store manager.
@@ -434,7 +437,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 **Pay desks**
 
 - [Add]  
-    Click this button to add a pay desk to the store. The *Create pay desk* window is displayed.
+    Click this button to add a pay desk to the store. The *Create pay desk* window is displayed, see [Create pay desk](#create-pay-desk).
 
 - *Name*   
     Name of the pay desk.
@@ -496,7 +499,7 @@ The table displays all available store managers. All fields are read-only. Depen
     Click this button to add the pay desk to the list of pay desks.
 
 
-### Settings
+### Settings &ndash; Store
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
 
@@ -512,16 +515,14 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
-All settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md)
+All settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md).
 
 
 **Settings not part of the global settings**
 
 #### Customer number of store for reordering
 
-
-
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Customer number of store for reordering*
 
 ![Customer number](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Customer number]")
 
@@ -534,9 +535,9 @@ Define a customer ID for the store to restrict the reorder query to the selected
     Click this button to save any changes.
 
 
-#### Stock assignments of orders
+#### Stock allocation of orders
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Stock allocation of orders*
 
 Change or define the warehouse from which to take the stock.
 
@@ -682,7 +683,7 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 The table displays the shift summaries of all shifts on the selected pay desk. Depending on the settings, the displayed columns may vary.
 
-> [Info] A shift starts, when a pay desk is opened. It ends when the pay desk is closed.
+> [Info] A shift starts when a pay desk is opened. It ends when the pay desk is closed.
 
 - *Print Shift Summary*    
     Click the link to print the selected shift summary. The shift summary is displayed in a new browser tab.   
@@ -705,7 +706,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 - *Opening diffs*   
     Cash difference at the shift start. This field is read-only.
 
-- *Revenue*
+- *Revenue*  
     Cash revenue of the shift. This field is read-only.
 
 - *End*   
