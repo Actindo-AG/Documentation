@@ -79,11 +79,11 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Declare price group attribute for customer master data](07_ManageOffers.md#assign-price-group-attribute-to-customer-master-data)
         - [Activate the price groups](07_ManageOffers.md#activate-the-price-groups)
         - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
-    <!---
-    - [Create a product option](./07_ManageOffers.md#create-a-product-option)
-        - [Define a product option](07_ManageOffers.md#define-a-product-option)
-        - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
-        - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)-->
+    
+<!--- [Manage product options](./07a_ManageProductOption.md)
+    - [Define a product option](07_ManageOffers.md#define-a-product-option)
+    - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
+    - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)-->
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)
