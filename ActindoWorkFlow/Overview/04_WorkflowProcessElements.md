@@ -6,7 +6,7 @@
 
 The *Process Orchestration* module allows you to model your own workflows to match your business processes. A workflow consists of a number of fixed elements that are chained together, each of them having specific characteristics. These elements are used to design the workflow, which can be edited as necessary according to customer needs.    
 
-For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md). For a detailed step-by-step description of how to use the workflow objects presented below in practice, see [Prepare the Workflows](../../POS/Integration/09_WorkflowAdjustments.md) in the *POS* documentation.
+For detailed information, see [Manage the workflows](../Operation/01_ManageWorkflows.md). For a detailed step-by-step description of how to use the workflow objects presented below in practice, see [Prepare the workflows](../../POS/Integration/09_WorkflowAdjustments.md) in the *POS* documentation.
 
 <!--- Grafik ist neu, bitte prüfen-->
 ![Workflow configuration](../../Assets/Screenshots/ActindoWorkFlow/Overview/WorkflowConfiguration.png "[Workflow configuration]")

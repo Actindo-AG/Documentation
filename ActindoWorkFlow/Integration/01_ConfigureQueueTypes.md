@@ -9,7 +9,7 @@ Configure an arbitrary number of individual queue types to be able to execute ce
 A worker is a job executing the actions within a process. One worker can only execute one action at the same time. By assigning multiple workers to a queue type, this queue type may execute several actions at the same time. Consequently, actions with a queue type with more workers are executed faster than actions with queue types with fewer workers. The total number of workers of all queue types depends on the number of booked vCores.   
 For one worker, 4 vCores are needed. Additionally, 10 % of the booked vCores, but at least 4 vCores are blocked for the daily business and cannot be used for workers. The number of vCores needed always refers to the total number of workers in all queue types. For example, for a queue type with 2 workers and a queue type of 4 workers, 28 vCores are needed:   
 *4 vCores per worker (4 \* 6 = 24) plus 4 vCores blocked for the daily business (24 + 4 = 28)*   
-For detailed information on vCores, see [Check vCores](../../Core1Platform/AdministratingCore1/05_EngineRoom.md#check-vcores) in the *Core1 Platform* documentation.  
+For detailed information on vCores, see [Check vCores](../../Core1/AdministratingCore1/05_EngineRoom.md#check-vcores) in the *Core1 Platform* documentation.  
 
 The *Default* queue type is predefined and is assigned to all transitions by default. It can be manually overridden by individual queue types. A different queue type may be assigned for each transition.
 
