@@ -4,7 +4,7 @@
 
 ![Execution statistics](../../Assets/Screenshots/ActindoWorkFlow/Logs/ExecutionStatistics.png)
 
-The list displays the average execution time in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify process actions that take longer than average. You can use this information to further analyze a workflow configuration.   
+The list displays the average execution time and other metrics in seconds for each process action over a specific time period. For example, you can use it to review your workflow processes to identify process actions that take longer than average. You can use this information to further analyze a workflow configuration.   
 
 The following functions and fields are available for this list:
 

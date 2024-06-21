@@ -325,10 +325,11 @@ Edit a transition to define its settings.
     + Click the *Queue type* drop-down list and select the appropriate queue type for the transition. All available queue types are displayed in the drop-down list. By default, the *Default* queue type is selected. You can define a different queue type for each transition within the workflow.   
     For detailed information about the queue types, see [Configure the queue types](../Integration/01_ConfigureQueueTypes.md).
 
-    + If desired, enter the priority in the *Priority* field. It is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog.     
-    You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: The greater the number, the higher the priority. Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.
+    + If desired, change the priority in the *Priority* field. It is used in high performance scenarios. You can use it to speed up a critical path when there are so many actions to be processed that they cannot be processed in parallel, and they pile up in the backlog.     
+    You do this by prioritizing the actions that are in the critical path. For example, a critical path might be when an order has been received and needs to be sent to shipping, while other actions such as sending emails are not as time-critical. Note: The greater the number, the higher the priority. Priority 10 increases the processing probability by a factor of 10 over priority 1, and priority 8 increases the processing probability by a factor of 4 over priority 2.  
+    By default, the priority is set to **1**.
 
-    + If desired, in the *Max tries* field, enter the number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* a drop-down list is displayed. When you select a retry time strategy, the *Strategy config value* drop-down list is displayed. Depending on the retry time strategy you select, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
+    + If desired, in the *Max tries* field, change the number of times the action execution should be retried after an error has occurred. This setting depends on the transition and is usually preconfigured. If you change this setting to a value greater than 1, the *Retry time strategy* drop-down list is displayed. When you select a retry time strategy, the *Strategy config value* drop-down list is displayed. Depending on the retry time strategy you select, the value in the *Strategy config value* field is used to perform the number of retries specified in the *Max tries* field. The following retry time strategies are available:
         
         - **Constant**   
             Define a constant value. For example, a constant value of 3 means to retry the action every 3 minutes.
@@ -347,6 +348,8 @@ Edit a transition to define its settings.
 
         - **Quadratic**   
             Enter a square value to define the time in minutes after which the action should be retried, for example, Y^2.
+        
+        By default, the *Max tries* field is set to **1**.
 
     + Click the *Long description* field if you want to document the process step you added.   
     The *Edit long description* window is displayed. You can add a long text using a simple markdown editor. Keep in mind that there is a limit to the amount of space that can be displayed on the screen without scrolling. 

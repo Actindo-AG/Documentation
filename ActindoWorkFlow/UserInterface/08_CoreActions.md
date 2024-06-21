@@ -4,9 +4,9 @@
 
 ![Core actions](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/CoreActions.png "[Core actions]")
 
-To create a workflow, you must include one or several process actions.   
-In the *Process Orchestration* module, a certain number of process actions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
-Other process actions are available depending on the plugins installed in the current system.   
+To create a workflow, you must include one or several transitions.   
+In the *Process Orchestration* module, a certain number of transitions is always preconfigured, the so-called *Core actions*. These core actions are used to build control flow structures in a workflow.   
+Other process actions are available depending on the plugins installed in the current instance.   
 
 In the following, the core actions, their use and their settings are described in detail:
 
@@ -40,7 +40,7 @@ In contrast to the [Manipulate process priority](#manipulate-process-priority) c
 The *Change process priority* core action has two input ports:
 
 - loop through: The data run through the transition without any changes.
-- priority: Enter the priority. The input value of the *priority* input port must be an integer. This integer will be used as the new priority. 
+- priority: Enter the priority. The input value of the *priority* input port must be an integer. 
 
 ## Multiply input action
 
@@ -88,8 +88,8 @@ Enter the absolute priority number or add the relative number to the existing pr
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
 
-The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration >Processes > Process ID* view, a different workflow path may than be taken, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision). If a workflow contains a manual action, the corresponding process is paused until the user has done the decision.      
-For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. For this example, you can use the [Split by criterion](#split-by-criterion) action before to define the business document total amount for which a manual action is required.   
+The *Manual action* core action is used to control the workflow by a manual user interaction. Depending on the user's decision made in the *Process orchestration > Processes > Process ID* view, a different workflow path may then be taken, see [Make a user decision](../Operation/09_TrackWorkflowProcess.md#make-a-user-decision). If a workflow contains a manual action, the corresponding process is paused until the user has made the decision.      
+For example, it allows you to incorporate approval procedures into your workflows, such as requiring any purchase order over a certain amount to be reviewed by a user before it can be released or canceled. In this case, you can use the [Split by criterion](#split-by-criterion) action before to define the business document total amount for which a manual action is required.   
 
 
 ### Configuration
@@ -116,7 +116,7 @@ The *Manual action* core action has two input ports:
 The *Execute PHP code* core action is used to execute a custom PHP code defined in the configuration.
 As the complete functionality of the PHP code is accessible, this core action enables complete variability in programming. Therefore, it is often used when more complex actions which require more logic need be executed within a workflow step.   
 Depending on which ports are connected to the places and which ports are defined in the PHP code, the data runs via the *in0* to *in9* input ports into the process action and is output via the *out0* to *out9* output ports.   
-It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings sidebar, see [Transitions](../Overview/04_WorkflowProcessElements#transitions).
+It is also possible to include a static input via the unconnected input ports. These inputs must be defined in the *Static inputs* section in the settings sidebar, see [Insert a static input](../Operation/06_InsertStaticInput.md).
 
 > [Info] It is recommended to give the action a name that describes what the PHP code does.
 
@@ -144,7 +144,7 @@ The criterion to be compared with is defined in the configuration.
 - *Path*   
     Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation.
+    > [Info] The properties of an entity you can refer to are described in the relevant model documentation, see *Dev Tools > API > Data model > Modul > Select name of the data model*.
 
 - *Operator*   
     Enter the applicable operator for the comparison. The following operators are available:
@@ -177,14 +177,14 @@ The criterion to be compared with is defined in the configuration.
 
 ![Start subprocess](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/StartSubprocess.png "[Start subprocess]")
 
-The *Start subprocess* core action is used to start a different sub process within the currently running process.       
-The data runs via the *p* input port into the process action and is output via the *p* output port. However, the action does not wait until the sub process has been finished, but outputs the data after having started the sub process. The input data is also the data put in the start place of the sub process.   
-The sub process to be started is defined in the configuration.
+The *Start subprocess* core action is used to start a different sub-process within the currently running process.       
+The data runs via the *p* input port into the process action and is output via the *p* output port. However, the action does not wait until the sub-process has been finished, but outputs the data after having started the sub-process. The input data is also the data put in the start place of the sub-process.   
+The sub-process to be started is defined in the configuration.
 
 ### Configuration
 
 - *Workflow key*   
-    Enter the key of the workflow that will be started as a sub process. Always the latest published version of the specified workflow will be started.
+    Enter the key of the workflow that will be started as a sub-process. Always the latest published version of the specified workflow will be started.
 
 
 
@@ -192,7 +192,11 @@ The sub process to be started is defined in the configuration.
 
 ![Switch case action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/SwitchCaseAction.png "[Switch case action]")
 
-The *Switch case action* core action is used to compare the input value with up to 6 criteria and output this value via a different branch for each case. Additionally, this core action enables to output the input value via a separate branch if the input value does not match any of the specified cases or to output the input value without any match by a separate branch.    
+The *Switch case action* core action is used to compare the input value with up to 6 criteria to do the following:
+- To output this value via a different branch for each case. 
+- To output the input value via a separate branch if the input value does not match any of the specified cases.
+- To output the input value without any match by a separate branch. 
+
 The data runs via the *in* input port into the process action and can be output via each connected output port. The *origin* output port must be connected and the input value is always output via this port without any further action. Additionally, if one or several of the *case1* to *case6* output ports are connected, the input value is compared with the criterion specified in the respective case and output via the output port of the case where the criterion matches the input value. If no criterion of the cases matches the input value, the input value is output via the *default* output port, or, if the *default* output port is not connected, the action fails.    
 The criteria to be compared with are defined in the configuration. Further, you can set the comparison to be stopped after a match. Otherwise, all remaining cases are evaluated.
 

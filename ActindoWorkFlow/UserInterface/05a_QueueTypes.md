@@ -23,7 +23,8 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar.
 
 - [DELETE]   
-    Click this button to delete the selected queue type. A confirmation message is displayed. The *Default* queue type cannot be deleted.  
+    Click this button to delete the selected queue type. Note that the *Default* queue type cannot be deleted.   
+    A confirmation message is displayed.   
 
 - [KILL WORKER OF THIS QUEUE TYPE]   
     Click this button to stop all workers that are currently executing an action of the selected queue type.   
@@ -53,11 +54,11 @@ The following functions and fields are available in the list:
 
 
 
-## Create a queue type
+## Create queue type
 
 *Process Orchestration > Queue types > Tab OVERVIEW > Button Add*
 
-![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue types]")
+![Create queue type](../../Assets/Screenshots/ActindoWorkFlow/QueueTypes/CreateQueueType.png "[Create queue type]")
 
 - [SAVE]   
     Click this button to save the new queue type.
@@ -78,7 +79,7 @@ The following functions and fields are available in the list:
     - **Executable actions of oldest process**   
         The executable actions within the oldest process are executed first by the workers.
 
-- ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") (Throttling)   
+- ![Throttling](../../Assets/Icons/Toggle.png "[Throttling]") Throttling   
     Enable this toggle if you want to use the queue type to throttle a process.    
     The *Throttle action limit* and *Throttle period (minutes)* fields are ready for input. For detailed information, see [Create a queue type](../Integration/01_ConfigureQueueTypes.md#create-a-queue-type).
 
@@ -89,7 +90,7 @@ The following functions and fields are available in the list:
     Specify the period in minutes in which the maximum number of actions are to be executed.
 
 
-## Edit a queue type
+## Edit queue type
 
 *Process Orchestration > Queue types > Tab OVERVIEW > Select queue type*
 

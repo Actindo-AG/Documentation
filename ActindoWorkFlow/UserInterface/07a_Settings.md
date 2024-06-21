@@ -77,7 +77,7 @@ The following functions are available for all menu entries:
 ![Alert-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/AlertLogLifetime.png "[Alert-log lifetime]")
 
 - *Alert-log lifetime (in days)*   
-    Enter the number of days for which alert log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the alert log history should be available. This field is locked when the *Apply from default* toggle is active.
 
 
 

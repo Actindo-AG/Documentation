@@ -46,13 +46,13 @@ The following functions are available for the editing toolbar. Depending on the 
     Click this button to abort the action. This button is displayed if the action status is *Error* or *In progress*.
 
 - ![Suspend](../../Assets/Icons/Pause.png "[Suspend]") (Suspend)  
-    Click this button to temporarily suspend the action, for example, if you want to evaluate a process in detail and want to pause the process execution. This button is displayed if the action status is *In progress*<!---Status "In progress" gibt es nicht mehr. Status Active?-->. When clicking this button, the action status changes to *Suspended*.
+    Click this button to temporarily suspend the action, for example, if you want to evaluate a process in detail and want to pause the process execution. This button is displayed if the action status is *Active*. When clicking this button, the action status changes to *Suspended*.
 
 - ![Start](../../Assets/Icons/Play.png "[Start]") (Start)  
-    Click this button to resume the action. This button is displayed if the action status is *Suspended*. When clicking this button, the action status changes again to *In progress*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
+    Click this button to resume the action. This button is displayed if the action status is *Suspended*. When clicking this button, the action status changes again to *Active*. The warning sign in the *Suspended actions* column of the *Processes* view is no longer displayed.
 
 - [REMOVE DEFER TIME]  
-    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed if the action status is *In progress*<!---Status "In progress" gibt es nicht mehr. Status Active?-->.
+    Click this button to skip the defer time preconfigured in the action, if any. The action is then executed immediately. This button is displayed if the action status is *Active*.
 
     > [Info] The defer time is preconfigured per action in the system. If the defer time is removed once, the action is executed immediately. If the action gives an error again, it will be retried once that preconfigured defer time has elapsed.
 
@@ -61,7 +61,7 @@ The following functions and fields are available in the list.
 
 - *Status*  
     Status of the action. The different process statuses are displayed in different colors. The following statuses are possible:   
-    - **In progress** (blue)   
+    - **Active** (blue)   
     - **Done** (green)   
     - **Error** (red)     
     - **Suspended** (dark gray)  
@@ -80,7 +80,7 @@ The following functions and fields are available in the list.
 - *Queue type*  
     Queue type assigned to the action. By default, the *Default* queue type is assigned.
 
-    > [Info] A different queue type can be selected by editing an action in the workflow editor.
+    > [Info] You can select another queue type by editing an action in the workflow editor.
 
 - *Defer until*  
     Next point in time when the action is being tried. This setting depends on the action and is not available in all actions. It is also filled when a user performs a manual action and sets a follow-up date.

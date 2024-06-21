@@ -86,7 +86,7 @@ The following fields and functions are available in this view:
 
 **Log message**  
 
-In the *Log message* window, detailed information about the log is displayed. All fields are read-only.
+In the *Log message* view, detailed information about the log is displayed. All fields are read-only.
 
 - *Log level*    
     Log level type. The following levels are available:

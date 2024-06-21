@@ -62,13 +62,15 @@ You have the required rights to edit a workflow.
     - **Inactive**  
         Select this option to deactivate the trigger temporarily.  
 
-9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The greater the number, the higher the priority.  
+9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The higher the number, the higher the priority that a process has. When the workers take a new process for processing, they first check which waiting process has the highest priority. The process with the highest priority is then processed first.  
 <!---NEU bitte prüfen,-->
-10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. This might be an issue in asynchronous processing.  To do this, click the *Unique check* drop-down list. You have the following options:
+10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. For example, this might be an issue in asynchronous processing.   
+
+    Click the *Unique check* drop-down list. You have the following options:
     - **Yes**   
-        There are no other processes for this entity and this workflow.
+        Select **Yes**, if you want to ensure that this is the only process available for this entity and this workflow.
     - **No**   
-        There may be other processes for this entity and this workflow.
+        Select **No**, if you are okay with other processes processing this entity and this workflow.
 
     > [Info] As soon as all fields are completed, the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button to add a condition is displayed.  
     
@@ -76,7 +78,7 @@ You have the required rights to edit a workflow.
 
 10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
 
-    > [Info] Repeat the steps **3** to **10** to add a further trigger. You can add an unlimited number of triggers to a workflow.
+    > [Info] Repeat the steps **3** to **10** to add further triggers. You can add an unlimited number of triggers to a workflow.
 
 11. Click the [APPLY CHANGES] button.  
     The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
