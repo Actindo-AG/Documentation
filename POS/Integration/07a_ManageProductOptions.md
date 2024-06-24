@@ -5,7 +5,7 @@ You may want to combine additional services with an offer. If your store has the
 From a technical point of view, you have to associate a product or service to an existing product.
 
 
-### Create a product option
+## Create a product option
 
 Define a product option that describes the additional service to an offer, for example, photo print or flocking.
 
@@ -35,7 +35,7 @@ No prerequisites to fulfill.
 
 
 
-### Create a product for product option
+## Create a product for product option
 
 Create a product which describes the additional service, for example the logo to be printed on a shirt or a cup.
 
@@ -56,7 +56,7 @@ No prerequisites to fulfill.
         ![Review and finalize](../../Assets/Screenshots/POS/Management/ProductOptions/ReviewAndFinalize.png "[Review and finalize]")
 
 
-### Associate the product option with offer
+## Associate the product option with offer
 
 Associate the product option with the products for which you want to offer the additional service. Because the additional service may only apply to certain stores, the association is made to the Omni-Channel offer.     
 
@@ -106,10 +106,21 @@ Associate the product option with the products for which you want to offer the a
     ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption1.png "[Choose options]")
 
 
+## Add additional attributes
 
-### Add additional attributes
+You may want to add additional text to y a product option that the cashiers can enter manually or select via a drop-down list. You have the following options: 
 
-You might want to have the possibility to specify a product option more precisely. For example, you want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text or select a predefined text. 
+- Add individual text:   
+    You might want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text. For detailed information, see [Add additional text attributes](#add-additional-text-attributes).
+
+- Define texts with predefined values   
+    You may want to offer to print a predefined text on a shirt or a cup such as a printing of the names of famous athletes with their club player number. In this case, you must create variants to the product option product, which the cashiers can than easily select with a drop-down list. For detailed information, see [Add predefined text options](#add-predefined-text-options).
+
+
+
+### Add attributes for individual texts
+
+Add additional text attributes with which the cashier can input an individual text to be printed on a shirt or a cup.
 
 #### Prerequisites
 
@@ -117,11 +128,49 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
+
+1. In the *DataHub* module under *Data model > Attributes*, create the additional attributes you require. For detailed information, see [Manage an attribute](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
+    - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
+    - Assign the *String* data type to the attributes.
+
+2.  In the *DataHub* module under *Data model > Attribute sets*, assign the attributes to the following attribute sets:
+    - *Offer option set for POS store "Name of the store"* for all stores in which you want to offer the product option.
+    - *Product option*    
+
+    For detailed information, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set) in the *DataHub* documentation.
 
 
-Attribut den Attribut sets Produkt-optionen und Offer option set for... zuordnen
 
-Variantenset für Flock anlegen -> Spieler nummer, Spielername defining product number changing
 
-Wenn man _Wertehilfe haben möchte -> müssen entsprechende Varianten der Produkt option offer angelegt werden
+### Add predefined text options
+
+Create attributes with which you can specify predefined texts that the cashier can select with a drop-down list. You need these attributes to specify the variants of the product option product.
+
+
+#### Prerequisites
+
+No prerequisites to fulfill.
+
+#### Procedure
+
+1. In the *DataHub* module under *Data model > Attributes*, create the additional attributes you require. This means, create an attribute in which you can enter a text for the variant to be created. For detailed information, see [Manage an attribute](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
+    - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
+    - Assign the *String* data type to the attributes.
+
+
+2. In the *Omni-Channel* module under *Settings > Tab Variant sets*, create a variant set with these attributes. For detailed information, see [Manage the variant sets](../../Channels/Integration/02_ManageVariantSets.md) in the *Omni-Channel* documentation.   
+
+    >[Info] This procedure shows how to create the product options for specific stores. If you want to have your product option available for all stores, create the variant set in the *PIM* module. For detailed information, see [Manage a variant set](../../PIM/Integration/07_ManageVariantSets.md#manage-a-variant-set) in the *PIM* documentation. In this case, assign the variant set the *Product options* attribute set.
+
+
+    - Assign the variant set to the *Offer option set for POS store "Name of the store"*.
+    - Assign the previously created attributes as defining attributes.
+    - Assign the *actindo_pos_art_name* (product name) attribute as changing attribute.   
+    The attributes are now available for all offers that you have created for the store. They are variant defining.
+
+        ![Variant sets](../../Assets/Screenshots/POS/Management/ProductOptions/Variantset.png "[Variant sets]")
+
+    > [Info] General information: The *actindo_pos_art_name* attribute is part of the *POS options basic set* attribute set.  This attribute set is available if you want to provide additional attributes for your product option products such as price fields or discount options. The attribute set is automatically inherited when you create a product option product.    
+    On the other hand, the *Product options* attribute set (pim_product_options) inherits the *POS basic set* attribute set, so you have the same attributes available for your product options products as for normal products. 
+
+3. In the *Omni-Channel* module under *Offers > Tab Offers*, create variants of your product option offer. By doing it, enter the predefined texts in the attributes of your variants. For example, enter the names of the famous athletes with their club player number. For detailed information, see  
