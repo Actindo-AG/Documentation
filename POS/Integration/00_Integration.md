@@ -80,10 +80,10 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Activate the price groups](07_ManageOffers.md#activate-the-price-groups)
         - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
     
-<!--- [Manage product options](./07a_ManageProductOption.md)
-    - [Define a product option](07_ManageOffers.md#define-a-product-option)
-    - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
-    - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)-->
+- [Manage the product options](./07a_ManageProductOptions.md)
+    - [Create a product for product option](./07a_ManageProductOptions.md#create-a-product-for-product-option)
+    - [Associate the product option with offer](./07a_ManageProductOptions.md#associate-the-product-option-with-offer)
+    - [Add additional attributes](./07a_ManageProductOptions.md#add-additional-attributes)
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)

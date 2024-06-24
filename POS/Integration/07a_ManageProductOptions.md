@@ -1,6 +1,6 @@
 # Manage the product options
 
-You may want to combine additional services with an offer. If your store has the appropriate technical capabilities, you may want to offer shirts with an optional flocking, or photos with an optional printing on mugs and other objects. In these cases, a specific service is associated to an offer. For detailed information on how the product options are handled at the cash point, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option).
+You may want to combine additional services with an offer. If your store has the appropriate technical capabilities, you may want to offer shirts with an optional flocking, or photos with an optional printing on mugs and other objects. In these cases, a specific service is associated to an offer. For detailed information on how the product options are handled at the cashpoint, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option).
 
 From a technical point of view, you have to associate a product or service to an existing product.
 
@@ -29,7 +29,7 @@ No prerequisites to fulfill.
 3. Enter a unique key for the product option in the *Key* field.
 
 4. Click the [SAVE] button.    
-    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and is added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
+    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and is added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets for your POS offers, it is also available for each store.
 
 5. If desired, add additional product options.
 
@@ -46,10 +46,10 @@ No prerequisites to fulfill.
 
 1. Create the product. Assign this product to the *Product options* attribute set. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
 
-2. Transfer this product to the *Omni-Channel* module. It is recommended to do this individual for each product option product, so that you are able to assign the new offer directly to the correct attribute set. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product). 
-    Note the following:
-    - Select the store for which you want to offer the product option product.
-    - Assign the product option product directly to the *Offer option set for POS store "Name of the store"*.
+2. Transfer this product to the *Omni-Channel* module. It is recommended to do this individual for each product option product, so that you are able to assign the new offer directly to the correct attribute set. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).    
+    When creating the offer from a PIM product, note the following:
+    - In the *Connection* drop-down list, select the store for which you want to offer the product option product.
+    - Assign the product option product directly to the *Offer option set for POS store "Name of the store"* in the *Map attribute sets* section of the "Review and finalize" wizard step.
 
         *Omni-Channel > Offers > Button ADD > Select product option product > Wizard step 3*
 
