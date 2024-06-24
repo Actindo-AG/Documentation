@@ -1,3 +1,9 @@
+[!!Introduction](./01_Introduction.md)
+[!!Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+[!!Workflow and process elements](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md)
+[!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
+[!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
+
 # Create an offer from product with completeness workflow
 
 ![Offer from product with completeness](../Assets/Screenshots/OfferCookbook/OfferFromProductCompleteness.png "[Offer from product with completeness]")
@@ -20,30 +26,19 @@
 - Creation of an *Omni-Channel* offer for a PIM product
 
 
-## Set up an offer from product workflow
 
-To set up any workflow, you have to create a new workflow and define the basic settings first. 
+## Workflow setup
 
+- To set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- To create a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger).  
 
-#### Prerequisites
-
-- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
-- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
-
-
-#### Procedure 
-
-1. Set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
-
-2. Create a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
-
-[comment]: <> (Struktur: H4 Overview, H2 Set up H4 Prereq H3 Procedure mit Verweis auf Set up offer from product und Create a PIM product trigger vs. Overview, Prereq, Workflow description)
+[comment]: <> (Alte Struktur: S. bkp files)
 
 
 
 ## Workflow description
 
-Within a workflow, several actions are performed. In the following, all single actions within the workflow are described in detail, specifying their function and functional settings.
+Within a workflow, several actions are performed. In the following, all actions within the workflow are described in detail, specifying their function and functional settings.
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
@@ -55,11 +50,13 @@ For detailed information on how to manage a workflow, see [Manage a workflow](..
 
 The *Split by criterion* action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). 
 
-In this use case, you need to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. 
+In this use case, this action is used to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. 
+
+The *PIM* product in the start place is input via the *in* port. If the *PIM* product total completeness input is greater than or equal to 100, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place. This second branch results in no offer being created.
 
 To do so, you must configure the *Split by criterion* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -70,7 +67,6 @@ To do so, you must configure the *Split by criterion* action as follows:
 | *Priority* | 0 | |
 | *Max tries* | 1 | |
 | *Long description* | - | |
-
 
 **Configuration**
 
@@ -88,8 +84,6 @@ Once configured, the *Completeness 100* action presents the following structure:
 | *in*  | PIM product (from start place) | - | *match* | PIM product |
 | -     |          | - | *noMatch* | (to end place)   |
 
-The *PIM* product in the start place is input via the *in* port. If the *PIM* product total completeness input is greater than or equal to 100, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place.
-
 
 
 ### Create offer from PIM product
@@ -99,6 +93,8 @@ The *PIM* product in the start place is input via the *in* port. If the *PIM* pr
 The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
 In this use case, you need to create an offer for the *PIM* product with 100 % completeness output via the *match* port of the previous action.  
+
+In this use case, the *PIM* product input from the *Completeness 100* action via the *match* port is used, together with the connection ID, to create an offer for one of the sales channel configured in the *Omni-Channel* module. 
 
 To do so, you must configure the *Create offer from PIM product* action as follows:
 
@@ -123,11 +119,11 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 | *changeTracking* | - |
 | *initialStatus* | "inactive" | Offers can have three different initial status: **active**, **inactive**, and **offline**. <br> For detailed information, see [Create an offer from a PIM product](../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product). |
 | *destinationAttributeSet* | - |
-| *unique* | "1" | The static input *unique* prevents the creation of duplicate offers. This is a boolean value, where "1" equals true and no value equals false. This setting can be configured at this point or in the workflow trigger (*Unique check* setting). |
+| *unique* | "1" | The static input *unique* prevents the creation of duplicate offers. This is a boolean value, where "1" equals true and no value equals false. |
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-[comment]: <> (Stimmt unique as boolean? Stimmt Unique check info?)
+[comment]: <> (Stimmt unique as boolean?)
 
 
 

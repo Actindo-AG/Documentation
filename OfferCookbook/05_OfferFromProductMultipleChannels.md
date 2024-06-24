@@ -1,3 +1,9 @@
+[!!Introduction](./01_Introduction.md)
+[!!Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+[!!Workflow and process elements](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md)
+[!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
+[!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
+
 # Create an offer from product workflow in multiple channels
 
 ![Offer from product in multiple channels](../Assets/Screenshots/OfferCookbook/OfferFromProductMultiConnection.png "[Offer from product in multiple channels]")
@@ -13,10 +19,8 @@
 | **Trigger** | The process is triggered when a *PIM* product is created or saved. |
 
 
-## Prerequisites
+## Workflow setup
 
-- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
-- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
 - You have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
 - You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
@@ -24,7 +28,7 @@
 
 ## Workflow description
 
-Within a workflow, several actions are performed. In the following, all single actions within the workflow are described in detail, specifying their function and functional settings.
+Within a workflow, several actions are performed. In the following, all actions within the workflow are described in detail, specifying their function and functional settings.
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
@@ -35,11 +39,13 @@ For detailed information on how to manage a workflow, see [Manage a workflow](..
 
 The *Split by criterion* action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). 
 
-In this use case, you need to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. 
+In this use case, this action is used to check whether the total completeness value of the *PIM* product coming from the start place via the *in* port is greater than or equal to 100. 
+
+The *PIM* product in the start place is input via the *in* port. If the *PIM* product total completeness input is greater than or equal to 100, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place. This second branch results in no offer being created.
 
 To do so, you must configure *Split by criterion* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -62,16 +68,6 @@ To do so, you must configure *Split by criterion* action as follows:
 | *Value* | 100 | |
 
 
-Once configured, the *Completeness 100* action presents the following structure:
-
-| Input port     | Value | -  | Output port | Value |
-| --------------- | ----- | ---| ------------ | ----  |
-| *in*  | PIMProduct (from start place) | - | *match* | PIMProduct |
-| -     |          | - | *noMatch* | (to end place)   |
-
-The *PIM* product in the start place is input via the *in* port. If the *PIM* product completeness input is greater than or equal to 100, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place. 
-
-
 
 ### Multiply input action
 
@@ -81,7 +77,7 @@ The *PIM* product in the start place is input via the *in* port. If the *PIM* pr
 
 The *Multiply input action* is used to output the data coming in via one input port to two output ports. For detailed information, see [Multiply input action](../ActindoWorkFlow/UserInterface/08_CoreActions.md#multiply-input-action). 
 
-In this use case, you need to output the value (*PIM* product) coming via the *p* input port from the *match* output port (*Completeness 100*) of the previous action into two output ports, in order to create two different offers, one per sales channel.
+In this use case, *PIM* product coming from the *match* output port of the *Completeness 100* action via the *p* input port must be duplicated and output into two output ports, in order to create two different offers, one per sales channel. The *p0* output port will be connected to a sales channel A, for instance, your online shop. The *p1* output port will be connected to a sales channel B, for example, the POS system in your retail store. From this point on, the workflow splits in two branches which must be configured separately.
 
 To do so, you must configure the *Multiply input action* action as follows:
 
@@ -105,8 +101,6 @@ Once configured, the *Duplicate product* action presents the following structure
 | *p*  | PIM product with 100 completeness | - | *p0* | PIM product (for channel A)|
 | -     |          | - | *p1* | PIM product  (for channel B) |
 
-The *p0* output port will be connected to a sales channel A, for instance, your online shop. The *p1* output port will be connected to a sales channel B, for example, the POS system in your retail store. From this point on, the workflow splits in two branches which must be configured separately.
-
 
 
 ### Split by criterion
@@ -115,11 +109,13 @@ The *p0* output port will be connected to a sales channel A, for instance, your 
 
 The *Split by criterion* action is used to compare the input value with a defined criterion and output it via a different branch depending on whether the input value matches or not. For detailed information, see [Split by criterion](../ActindoWorkFlow/UserInterface/08_CoreActions.md#split-by-criterion). 
 
-In this use case, you want to check whether the price of the *PIM* product coming from the previous action via the *in* port is set, or in other words, it is greater than 0, before creating an offer for your POS system. 
+In this use case, you want to check whether price of the *PIM* product coming from the *Duplicate product* action via the *in* port is set before creating an offer for your POS system (channel B). 
+
+The *PIM* product in *p1* of the *Duplicate product* action is input via the *in* port. If the *PIM* price is set, that is, it is greater than 0, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place. This second branch results in no offer being created for the channel B.
 
 To do so, your must configure the *Split by criterion* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -147,15 +143,15 @@ Once configured, the *Price set* action presents the following structure:
 | *in*  | PIM product  | - | *match* | PIM product |
 | -     |          | - | *noMatch* | (to end place)   |
 
-The *PIM* product in *p1* of the previous action is input via the *in* port. If the *PIM* price is set, that is, it is greater than 0, the *PIM* product is output via the *match* port. Otherwise, the *PIM* product is output via the *noMatch* port, in this case, to the end place.
 
 
 ### Create offer from PIM product
 
 The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
-In this use case, you need to create an offer for a *PIM* product in two different sales channels: your [online shop](#create-shop-offer) and the [POS system](#create-pos-offer) in your retail store.
+In this use case, you want to create an offer for a *PIM* product in two different sales channels: your [online shop](#create-shop-offer) (channel A) and the [POS system](#create-pos-offer) in your retail store (channel B).
 
+[comment]: <> (Wie kann man weitere Verkaufskanäle hinzufügen? Weitere Split by action? Wo/Wie?)
 
 ### Create shop offer
 
@@ -163,7 +159,7 @@ In this use case, you need to create an offer for a *PIM* product in two differe
 
 To create an offer for your online shop, configure the *Create offer from PIM product* action in the respective branch as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value      | Comments |
 |---------|------------|----------|
@@ -196,7 +192,7 @@ To create an offer for your online shop, configure the *Create offer from PIM pr
 
 To create an offer for the POS system in your retail store, configure the *Create offer from PIM product* action in the respective branch as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value      | Comments |
 |---------|------------|----------|

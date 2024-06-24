@@ -1,3 +1,9 @@
+[!!Introduction](./01_Introduction.md)
+[!!Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md)
+[!!Workflow and process elements](../ActindoWorkFlow/Overview/04_WorkflowProcessElements.md)
+[!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
+[!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
+
 # Create a basic offer from a product workflow
 
 ![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
@@ -5,11 +11,9 @@
 
 ## Overview
 
-You want to create an *Omni-Channel* offer for a *PIM* product. 
-
 | **Summary** |       |
 | ----------- |------ |
-| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product. |
+| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Readonly.Modules.Actindo.Channels.Models.ConnectionContainer <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none | 
@@ -21,46 +25,50 @@ You want to create an *Omni-Channel* offer for a *PIM* product.
 - Multiply input to create two different workflow branches with the same start data 
 - Determine the connection to the sales channel where you want to create the offer
 - Create a connection container to transfer the connection ID to the create offer action
-- Create offer from the *PIM* product input in the start place
+- Create an offer from the *PIM* product input in the start place
 
 
 
-## Prerequisites
+## Workflow setup
 
-- You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
-- You have created a connection to a sales channel, see [Create a connection](../Channels/Integration/01_ManageConnections.md#create-a-connection).
-- You have set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
-- You have created a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
+- To set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
+- To create a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger). 
 
 
 
 ## Workflow description
 
-Within a workflow, several actions are performed. In the following, all single actions within the workflow are described in detail, specifying their function and functional settings.
+Within a workflow, several actions are performed. If a certain number of actions are executed in a specific order with a common objective that can only be achieved by executing all of these actions, we speak of a so-called *snippet*. In the following, all snippets and single actions within the process are described in detail, specifying their function and functional settings.
+
+To create an offer, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you have two possibilities: 
+
+1. Insert a static input in the subsequent *Create offer* action with the desired connection ID in JSON format. For detailed information, see [Create an offer from product workflow with static inputs](./03_OfferFromProductStaticInputs.md). 
+2. Determine the connection ID through a set of intermediate actions, that is, a snippet, see [Determine the connection ID](#determine-the-connection-id). 
+
+[comment]: <> (Schwer, diesen parallelen Zweig zu erklären/rechtfertigen, wenn sowieso nächste PHP-Aktion ein static input schon hat. Oder gibt es andere Gründe?)
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
 
+## Determine the connection ID
+
+To determine a connection ID, the following actions are required:
+
+- [Multiply input action](#multiply-input-action)
+- [Execute PHP code](#execute-php-code)
+- [Create connection container](#create-connection-container)
+
 ### Multiply input action
 
-![Price set](../Assets/Screenshots/OfferCookbook/MutiplyInputDuplicateProduct2.png "[Price set]")
-
-[comment]: <> (Deprecated in Key??? Check!)
+![Duplicate product](../Assets/Screenshots/OfferCookbook/MutiplyInputDuplicateProduct2.png "[Duplicate product]")
 
 The *Multiply input action* is used to output the data coming in via one input port to two output ports. For detailed information, see [Multiply input action](../ActindoWorkFlow/UserInterface/08_CoreActions.md#multiply-input-action). 
 
-In this use case, you need to output the value (*PIM* product) coming via the *p* input port from the start place into two output ports. 
-
-To create an offer, you must provide the connection ID. You can do this in two ways: 
-
-- Insert a static input in the *Create offer* action with the desired connection ID in JSON format. For detailed information, see [Create an offer from product workflow with static inputs](./03_OfferFromProductStaticInputs.md). 
-- Provide the connection through a parallel workflow branch using additional intermediate actions.
-
-The *Multiply input action* provides the necessary data for parallel workflow branch.
+In this use case, the *PIM* product input via the *p* port is duplicated and output via the *p0* and the *p1* ports. The *PIM* product output via *p0* is used to create the offer later on. The *PIM* product output via *p1* is needed to determine the connection in the subsequent action. From this point on, the workflow splits in two branches which must be configured separately.
 
 To do so, you must configure the *Multiply input action* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -72,8 +80,10 @@ To do so, you must configure the *Multiply input action* action as follows:
 | *Max tries* | 1 | |
 | *Long description* | - | |
 
+[comment]: <> (Deprecated in Key??? Das sieht verwirrend aus! Check!)
 
-Once configured, the *Determine connection* action presents the following structure:
+
+Once configured, the *Duplicate product* action presents the following structure:
 
 | Input port   | Value | -  | Output port | Value    |
 | --------------- | --- | --- | -------------- | ----  |
@@ -82,10 +92,7 @@ Once configured, the *Determine connection* action presents the following struct
 
 [comment]: <> (in P1 output port ist anyValue, aber warum? Sollte es nicht auch PIMProduct sein, vgl. Core action description: The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.)
 
-The *p0* output port will be connected to a *Create offer* action later on. The *p1* output port will be connected to an *Execute PHP code* action to determine the connection ID, which will be input to the *Create offer* action later on. From this point on, the workflow splits in two branches which must be configured separately.
-
-
-[comment]: <> (Determine connection and Create connection container ist ein snippet? Zusammen beschreiben? Mehr Info benötigt)
+[comment]: <> (Determine connection and Create connection container ist ein snippet? S. https://github.com/Actindo-AG/Documentation/blob/ACD-831/HandleDeliveryNotes/HandleDeliveryNotes.md Zusammen beschreiben? Snippet: Multiply input + PHP code determine connection + CreateConnectionContainer?)
 
 ### Execute PHP code
 
@@ -93,11 +100,9 @@ The *p0* output port will be connected to a *Create offer* action later on. The 
 
 The *Execute PHP code* is used to execute a custom PHP code defined in the configuration. For detailed information, see [Execute PHP code](../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). 
 
-In this use case, you need to determine the connection to be used to create the offer later on. 
+In this use case, this action is used to determine the connection ID of the sales channel where the offer needs to be created. To do so, you must configure the *Execute PHP code* action as follows:
 
-To do so, you must configure the *Execute PHP code* action as follows:
-
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -121,11 +126,11 @@ To do so, you must configure the *Execute PHP code* action as follows:
 |---------|-------|----------|
 | *in0* | PIM product | Output from previous action |
 | *in1* | "2" |  | |
-| *in2*-*in9* | - | No further configuration needed.
+| *in2*-*in9* | - | No further configuration needed |
 
 [comment]: <> (WHY in1: 2? Das ist auch ein Static input... Verstehe nicht. Dieses Beispiel passt so nicht mit static value Erklärung.)
 
-The *in0* contains the PIM product output via the *p1* of the *Duplicate product* action. The *in1* is a static input with value "2", which means... 
+The *in0* contains the *PIM* product output via the *p1* of the *Duplicate product* action. The *in1* is a static input with value "2", which means... 
 The connection data is output via the *out0* port, which will be connected to a *Create connection container* action. 
 
 
@@ -139,7 +144,7 @@ In this use case, you need to create a container for the connection determined i
 
 To do so, you must configure the *Create connection container* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value | Comments | 
 |---------|-------|----------|
@@ -172,7 +177,7 @@ In this use case, you need to create an offer for the *PIM* product input via th
 
 To do so, you must configure the *Create offer from PIM product* action as follows:
 
-**Settings**
+#### Settings
 
 | Field | Value      | Comments |
 |---------|------------|----------|
@@ -188,8 +193,8 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 
 | Field | Value | Comments |
 |---------------|------|----------|
-| *pimProduct* | PIM product | Connected to *match* output port from previous action | 
-| *connection* | Connection container (ID: 2 )| Connected to *out* port from previous action |
+| *pimProduct* | PIM product | Connected to *match* output port from *Duplicate product* action | 
+| *connection* | Connection container (ID: 2 )| Connected to *out* port from *Create con. container* action |
 | *changeTracking* | - |  | 
 | *initialStatus* | - |  |
 | *destinationAttributeSet* | - |
