@@ -108,7 +108,7 @@ Associate the product option with the products for which you want to offer the a
 
 ## Add additional attributes
 
-You may want to add additional text to y a product option that the cashiers can enter manually or select via a drop-down list. You have the following options: 
+You may want to add additional text to a product option that the cashiers can enter manually or select via a drop-down list. You have the following options: 
 
 - Add individual text:   
     You might want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text. For detailed information, see [Add additional text attributes](#add-additional-text-attributes).
@@ -128,8 +128,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-
-1. In the *DataHub* module under *Data model > Attributes*, create the additional attributes you require. For detailed information, see [Manage an attribute](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
+1. In the *PIM* module under *Settings > Attributes*, create the additional attributes you require. For detailed information, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute) in the *PIM* documentation. 
     - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
     - Assign the *String* data type to the attributes.
 
