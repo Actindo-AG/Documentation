@@ -135,10 +135,8 @@ No prerequisites to fulfill.
 
 2.  In the *DataHub* module under *Data model > Attribute sets*, assign the attributes to the following attribute sets:
     - *Offer option set for POS store "Name of the store"* for all stores in which you want to offer the product option.
-    - *Product option*    
-
+   
     For detailed information, see [Add an attribute to the set](../../DataHub/Integration/02_ManageAttributeSets.md#add-an-attribute-to-the-set) in the *DataHub* documentation.
-
 
 
 
@@ -156,17 +154,24 @@ No prerequisites to fulfill.
 1. In the *PIM* module under *Settings > Tab Attributes*, create the additional attributes you require. This means, create an attribute in which you can enter a text for the variants to be created. For detailed information, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation. 
     - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
     - Assign the *String* data type to the attributes.
-    - Assign the attribute to the *Product options* attribute set.
+    - Assign the attributes to the *Product options* attribute set.
 
 2. In the *PIM* module under *Settings > Tab Variant sets*, create a variant set with these attributes. For detailed information, see [Manage a variant set](../../PIM/Integration/07_ManageVariantSets.md) in the *PIM* documentation.   
     - Assign the variant set to the *Product options* attribute set.
     - Assign the previously created attributes as defining attributes.
     - Assign the *pim_art_name* (Product name) attribute as changing attribute.   
-    The attributes are now available for all offers that you have created for the store. They are variant defining.
 
         ![Variant sets](../../Assets/Screenshots/POS/Management/ProductOptions/Variantset.png "[Variant sets]")
 
 
-3. In the *PIM* module under *Products > Tab List*, create variants of your product option product. 
+3. In the *PIM* module under *Products > Tab List*, create variants of your product option product. By doing it, use the *Add single variant* option. For detailed information, see [Create a single variant](../../PIM/Operation/02_ManageVariants.md#create-a-single-variant) in the *PIM* documentation.   
+    
+4. Assign the previously under step 2 created variant set in the *Variant set* field. 
+    ![Create variants](../../Assets/Screenshots/POS/Management/ProductOptions/CreateVariants.png "[Create Variants]")
 
-4. Transfer the variants to the *Omni-Channel* module.
+5. Click the ADD button.   
+    The *Add single variant* window is displayed. The attributes you have previously created are part of the variant definition. You can enter individual text that will be displayed later as a drop-down list when you select the product option product.
+
+    ![Add single variant](../../Assets/Screenshots/POS/Management/ProductOptions/AddSingleVariant.png "[Add single variant]")
+ 
+6. Transfer the variants to the *Omni-Channel* module.
