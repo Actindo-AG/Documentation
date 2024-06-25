@@ -406,7 +406,8 @@ Allow your cashiers to accept a return and to refund the amount due. Enable this
 
 ![Field for customer lock](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForCustomerLock.png "[Field for customer lock]")
 
-Define the field to be used to identify a customer as locked for the stores. The *Field for customer lock* setting specifies the attribute in the customer's master data from which the system should read information about whether a customer is locked. See the *customer_locked* attribute in the *RetailSuite Customer* attribute set for reference.   
+Define the field to be used to identify a customer as locked for the stores. Customers can be locked, for example, if they are banned from entering the store, or they can be banned from receiving member discounts because they have not paid their membership fees.   
+The *Field for customer lock* setting specifies the attribute in the customer's master data from which the system should read information about whether a customer is locked. See the *customer_locked* attribute in the *RetailSuite Customer* attribute set for reference.   
 
 The following prerequisites must be met to use this feature: 
  

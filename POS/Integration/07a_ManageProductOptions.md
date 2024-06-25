@@ -131,6 +131,7 @@ No prerequisites to fulfill.
 1. In the *PIM* module under *Settings > Attributes*, create the additional attributes you require. For detailed information, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md#create-an-attribute) in the *PIM* documentation. 
     - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
     - Assign the *String* data type to the attributes.
+    - Assign the attribute to the *Product options* attribute set.
 
 2.  In the *DataHub* module under *Data model > Attribute sets*, assign the attributes to the following attribute sets:
     - *Offer option set for POS store "Name of the store"* for all stores in which you want to offer the product option.
@@ -152,24 +153,20 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-1. In the *DataHub* module under *Data model > Attributes*, create the additional attributes you require. This means, create an attribute in which you can enter a text for the variant to be created. For detailed information, see [Manage an attribute](../../DataHub/Integration/01_ManageAttributes.md) in the *DataHub* documentation. 
+1. In the *PIM* module under *Settings > Tab Attributes*, create the additional attributes you require. This means, create an attribute in which you can enter a text for the variants to be created. For detailed information, see [Create an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation. 
     - Use a key that starts with **pim_** to indicate that the attributes are product-related. 
     - Assign the *String* data type to the attributes.
+    - Assign the attribute to the *Product options* attribute set.
 
-
-2. In the *Omni-Channel* module under *Settings > Tab Variant sets*, create a variant set with these attributes. For detailed information, see [Manage the variant sets](../../Channels/Integration/02_ManageVariantSets.md) in the *Omni-Channel* documentation.   
-
-    >[Info] This procedure shows how to create the product options for specific stores. If you want to have your product option available for all stores, create the variant set in the *PIM* module. For detailed information, see [Manage a variant set](../../PIM/Integration/07_ManageVariantSets.md#manage-a-variant-set) in the *PIM* documentation. In this case, assign the variant set the *Product options* attribute set.
-
-
-    - Assign the variant set to the *Offer option set for POS store "Name of the store"*.
+2. In the *PIM* module under *Settings > Tab Variant sets*, create a variant set with these attributes. For detailed information, see [Manage a variant set](../../PIM/Integration/07_ManageVariantSets.md) in the *PIM* documentation.   
+    - Assign the variant set to the *Product options* attribute set.
     - Assign the previously created attributes as defining attributes.
-    - Assign the *actindo_pos_art_name* (product name) attribute as changing attribute.   
+    - Assign the *pim_art_name* (Product name) attribute as changing attribute.   
     The attributes are now available for all offers that you have created for the store. They are variant defining.
 
         ![Variant sets](../../Assets/Screenshots/POS/Management/ProductOptions/Variantset.png "[Variant sets]")
 
-    > [Info] General information: The *actindo_pos_art_name* attribute is part of the *POS options basic set* attribute set.  This attribute set is available if you want to provide additional attributes for your product option products such as price fields or discount options. The attribute set is automatically inherited when you create a product option product.    
-    On the other hand, the *Product options* attribute set (pim_product_options) inherits the *POS basic set* attribute set, so you have the same attributes available for your product options products as for normal products. 
 
-3. In the *Omni-Channel* module under *Offers > Tab Offers*, create variants of your product option offer. By doing it, enter the predefined texts in the attributes of your variants. For example, enter the names of the famous athletes with their club player number. For detailed information, see  
+3. In the *PIM* module under *Products > Tab List*, create variants of your product option product. 
+
+4. Transfer the variants to the *Omni-Channel* module.
