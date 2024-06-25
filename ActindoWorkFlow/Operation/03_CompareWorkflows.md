@@ -1,5 +1,5 @@
 # Compare the workflow versions
-
+<!---NEU Neues Kapitel-->
 The comparison function of the workflow enables to compare different workflow versions. By doing this, you can compare the JSON code lines of two different workflow versions, whereby all differences between the relevant code lines are highlighted.  
 
 You can use this function to do the following: 

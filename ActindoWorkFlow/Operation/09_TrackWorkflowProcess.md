@@ -14,8 +14,8 @@
 
 <!---A process has a start and an end place, as well as different stages (places and actions) which the initial data goes through in order to be processed. For a detailed description of the workflow elements, see [Workflow and process elements](../Overview/04_WorkflowProcessElements.md).-->
 
-The menu entry *Processes* contains a powerful tool that allows you to monitor the execution of a workflow process in real time. At a glance, you can see the status of all processes and suspend or abort processes. The graphical user interface allows you to see the details of a process execution. You can see which transition has run into an error, is not yet executed, or waits for a user interaction. If the workflow contains branches, you can see which branch has been executed.
-A list of all actions of the workflow process provides you with information on the status and gives detail information. 
+The menu entry *Processes* contains a powerful tool that allows you to monitor the execution of a workflow process in real time. At a glance, you can see the status of all processes and suspend or abort processes. The graphical user interface allows you to see the details of a process execution. You can see which action has run into an error, was not yet executed, or is waiting for a user interaction. If the workflow contains branches, you can see which branch was executed.
+A list of all actions of the workflow process provides you with information on the status and gives detail information and logs. 
 
 For detailed information on processes, see [Workflow and process elements](../Overview/03_Processes.md).
 

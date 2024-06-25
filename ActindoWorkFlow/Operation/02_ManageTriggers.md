@@ -39,10 +39,10 @@ You have the required rights to edit a workflow.
 4. Enter a descriptive name for the trigger in the *Name* field.   
     The entered name is displayed above the trigger input line.
 
-5. Enter the applicable namespace of the desired entity in the *Model* field, for example, the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. Make sure that the model defined in the trigger is used as the data container for the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
-    The entered namespace is displayed to the right of the trigger name above the trigger input line.
+5. Enter the fully classified class name of the desired entity in the *Model* field, for example, the entity PIM product corresponds to the data model Actindo.Modules.Actindo.PIM.Models.PIMProduct. Make sure that the model defined in the trigger is used as the data container for the start place of the workflow, see [Create a workflow](../Operation/01_ManageWorkflows.md#create-a-workflow). By entering the model, replace the dots with backslashes, for example **Actindo\Modules\Actindo\PIM\Models\PIMProduct**.   
+    The entered model is displayed to the right of the trigger name above the trigger input line.
 
-    > [Info] You can take the namespace from the related data models under *Dev Tools > API > Tab DATA MODELS*.
+    > [Info] You can take the fully classified name space from the related data models under *Dev Tools > API > Tab DATA MODELS*.
 
 6. Click the *Event* drop-down list and select the appropriate option. The following options are available:  
     - **After creation**   
@@ -64,8 +64,7 @@ You have the required rights to edit a workflow.
 
 9. Enter the priority for the process execution in the *Process priority* field. The priority is specified with a positive integer. The higher the number, the higher the priority that a process has. When the workers take a new process for processing, they first check which waiting process has the highest priority. The process with the highest priority is then processed first.  
 <!---NEU bitte prüfen,-->
-10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. For example, this might be an issue in asynchronous processing.   
-
+10. Specify whether there may only be one single process for this workflow and this entity. This allows you to prevent a single entity from being edited multiple times by a process. For example, this might be an issue in asynchronous processing.  
     Click the *Unique check* drop-down list. You have the following options:
     - **Yes**   
         Select **Yes**, if you want to ensure that this is the only process available for this entity and this workflow.
@@ -76,11 +75,11 @@ You have the required rights to edit a workflow.
     
     ![Add condition](../../Assets/Screenshots/ActindoWorkFlow/Workflows/EditTriggerAddCondition.png "[Add condition]")
 
-10. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
+11. If desired, add one or several conditions to the trigger, see [Add a condition](#add-a-condition). You can also create a trigger without adding a single condition.
 
     > [Info] Repeat the steps **3** to **10** to add further triggers. You can add an unlimited number of triggers to a workflow.
 
-11. Click the [APPLY CHANGES] button.  
+12. Click the [APPLY CHANGES] button.  
     The trigger has been saved. The *Edit trigger for workflow "Workflow name"* window is closed.
 
 
@@ -111,9 +110,7 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
     - **changeset.**   
         Select this option if you want to refer to a property that has been changed. Only properties that have been changed are included to the change set.
 
-3. Enter the applicable property in the *Property* field.  
-
-    > [Info] The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point *.* at a time, for instance *{$entity._pim_tax_zone.id}*.<!--- Man muss doch den Wert nicht mit geschweiften Klammern eingeben? Wäre _pim_tax_zone.id richtig?--> The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.  
+3. Enter the applicable property in the *Property* field. The properties of an entity you can refer to are described in the relevant API documentation. To include a deeper level of the data field, enter a point at a time, for instance *_pim_tax_zone.id*. The first point is already included in the *Prefix* field, so you can start with the property name without adding a point at the beginning.  
 
     See the following example:
 
@@ -121,9 +118,9 @@ All trigger fields have been completed, see [Create a trigger](#create-a-trigger
 
 4. Click the *Operator* drop-down list and select the appropriate option. The following options are available:  
     - **Equals**   
-        Select this option if the property value must equal the value specified in the *Value* field for the trigger to be executed.
+        Select this option if the property value must match the value specified in the *Value* field for the trigger to be executed.
     - **Does not equal**   
-        Select this option if the property value must not equal the value specified in the *Value* field for the trigger to be executed.
+        Select this option if the property value must not match the value specified in the *Value* field for the trigger to be executed.
     - **Is set**  
         Select this option if any property value must be set for the trigger to be executed. A toggle is available to define the condition:   
         - Enable the toggle to define that a property value must be set for the condition to be met.

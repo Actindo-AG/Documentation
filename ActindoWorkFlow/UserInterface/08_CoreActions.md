@@ -53,7 +53,7 @@ The data runs via the p input port into the workflow action and is output via bo
 
 This core action has no further configuration settings.
 
-
+<!---NEU-->
 ## Extract value
 
 ![Extract value action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ExtractValue.png "[Extract value action]")
@@ -68,7 +68,7 @@ You define the value to be extracted in the *Path to value* field in the configu
 Search for the parameter name of the objects' data model that is available in the input port of the transition, copy the required parameter name, and enter it in the *Path to value* field, for example **pimProduct.pim.variants**.
 
 
-
+<!---NEU-->
 ## Manipulate process priority
 
 ![Manipulate process priority](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManipulateProcessPriority.png "[Manipulate process priority]")
@@ -83,7 +83,7 @@ The *Manipulate process priority* core action is used to change the preconfigure
 Enter the absolute priority number or add the relative number to the existing process priority, for example, +2 (increase the existing priority, that is the process gets a higher priority) or -3 (decrease the existing priority, that is the process gets a lower priority).
 
 
-
+<!---NEU-->
 ## Manual action
 
 ![Manual action](../../Assets/Screenshots/ActindoWorkFlow/Workflows/CoreActions/ManualAction.png "[Manual action]")
@@ -145,7 +145,7 @@ The criterion to be compared with is defined in the configuration.
     Enter the path to the property of the input object to be compared with. If the input data is of a primitive type, for instance *string* or *number*, you can also leave the path blank to compare the input data directly.
 
     > [Info] The properties of an entity you can refer to are described in the relevant model documentation, see *Dev Tools > API > Data model > Modul > Select name of the data model*.
-
+<!---NEU-->
 - *Operator*   
     Enter the applicable operator for the comparison. The following operators are available:
     - **=**  

@@ -293,7 +293,7 @@ The *Edit trigger for workflow "Workflow name"* window allows you to determine a
     Enter a descriptive name for the new trigger. The entered name is displayed above the trigger input line.
 
 - *Model*  
-    Enter the applicable namespace of the model. The entered namespace is displayed to the right of the name above the trigger input line. Ensure that the namespace of the model corresponds to the data container specified in the start place. 
+    Enter the applicable fully classified class name of the model. The entered model is displayed to the right of the name above the trigger input line. Ensure that the model corresponds to the data container specified in the start place. 
 
 - *Event*  
     Click the drop-down list and select the appropriate event. The following options are available:    

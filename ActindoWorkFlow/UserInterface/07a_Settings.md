@@ -9,7 +9,7 @@
 **Settings**
 
 The side menu displays the different log types. The log lifetime view on the right side changes to the corresponding log type when another entry is selected in the side menu.
-
+<!---NEU-->
 - *Lifetime execution log in days*   
     Click this menu entry to display the *Lifetime execution log in days* on the right side.
 
