@@ -5,11 +5,10 @@
 [!!User interface DataHub Attributes](../../DataHub/UserInterface/01a_Attributes.md)
 [!!User interface PIM List](../../PIM/UserInterface/02a_List.md)
 
+
 # Manage offers for POS
 
-To offer products in POS, it is recommended to create the products in advance in the *PIM* module and create the corresponding offers afterwards in order to be able to distribute them properly in the system.
-<!---Ich glaube das versteht man so nicht. Vorschlag:
-To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.-->
+To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.
 
 
 ## Create products for POS
@@ -36,7 +35,7 @@ For detailed information on how to create an attribute set, see [Create an attri
 
 ## Map a new product type in POS
 
-When a new product type is created, it must be mapped before offers with this product type can be created for the POS.
+When a new product type has been created, it must be mapped before offers with this product type can be created for the POS.
 
 #### Prerequisites
 
@@ -163,7 +162,7 @@ At least one offer has been created, see [Create an offer for POS](#create-an-of
 Create a QuickSelect category for POS for faster access to favorite offers at the cashpoint.  
 
 The following image shows how QuickSelects can organize the most requested offers:
-<!---Marina, ich habe hier ein Bild eingefügt, damit die Kunden überhaupt wissen, worum es sich bei dieser Funktion handelt-->
+
 ![QuickSelect in the cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[QuickSelect in the cashpoint]")
 
 ### Define a QuickSelect attribute
@@ -228,7 +227,7 @@ An offer is assigned to a certain QuickSelect category when you assign the creat
 #### Prerequisites
 
 - At least one QuickSelect attribute has been created, see [Define a QuickSelect attribute](#define-a-quickselect-attribute).
-- At least one offer is created for POS, see [Create an offer for POS](#create-an-offer-for-pos).
+- At least one offer has been created for POS, see [Create an offer for POS](#create-an-offer-for-pos).
 
 #### Procedure
 
@@ -415,19 +414,21 @@ For detailed information on configuring this feature, see [Display age rating](.
 ## Define promotions for POS
 You can define promotions for POS by adding a promotion price and a validity period to a POS offer that have been previously defined as promotion price in the *PIM* module.  
 
-For this feature, the following attributes have been added to the POS basic set and are available in the offer's attributes of your stores:
+For this feature, the following attributes have been added to the *POS basic set* attribute set and are available in the offer's attributes of your stores:
 - actindo_pos_special_price: Attribute with which a promotions price can be specified.
 - actindo_pos_special_price_start: Attribute, with which the start date of a promotion can be specified.
 - actindo_pos_special_price_end: Attribute, with which the end date of a promotion can be specified.   
 
-As the POS basic set is automatically inherited to your offers, these attributes are available for your offers.
+As the *POS basic set* is automatically inherited to your offers, these attributes are available for your offers.
 
 In the following, the procedure of the standard delivery is described. It may differ if your system has a different configuration.
 
-### Prerequisites
+#### Prerequisites
 
 - At least one product has been created, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
  - The product has been created as an offer in the *Omni-Channel* module. For detailed information, see [Create an offer in PIM](../../PIM/Operation/01_ManageProducts.md#create-an-offer-in-pim) in the PIM module.
+
+#### Procedure
 
 *PIM > Products > Tab LIST*
 
@@ -543,86 +544,3 @@ The attribute for specifying the price group-related price has been defined in t
 4. Enter the price.
 
 5. Click the [SAVE] button.
-
-
-
-<!---NEU
-## Create a product option 
-
-You might want to associate additional services to an offer. If your store has the appropriate technical capabilities, you might want to offer shirts with an optional flocking, or photos with an optional printing on cups and other objects. In these cases, a specific service is associated to an offer.   
-
-From a technical point of view, you have to associate a product/service to an existing product.
-
-
-
-### Define a product option
-Define a product option that describes the additional service to an offer, for example, photo print or flocking.
-
-#### Prerequisites
-
-No prerequisites to fulfill.
-
-#### Procedure
-
-*Venduo POS > Management > Tab PRODUCT OPTIONS*
-
-![Product options](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Product options]")
-
-1. Click the ![Add](../../Assets/Icons/Plus01.png "[Add]") (Add) button in the bottom right corner.   
-    The *Create option attribute* window is opened.
-
-    ![Product options](../../Assets/Screenshots/POS/Management/ProductOptions/CreateOptionAttribute.png "[Product options]")
-
-2. Enter a name for the product option in the *Name* field.
-
-3. Enter a key for the product option in the *Key* field.
-
-4. Click the [SAVE] button.    
-    The new attribute is saved. It is automatically saved in the *DataHub* module with the *Related offers* data type and added to the *POS basic set* attribute set. Since the *POS basic set* attribute set is inherited automatically to the *Set for POS Store ("Name of the store")* attribute sets, it is also available for each newly created store.
-
-5. If desired, add additional product options.
-
-<!---
-
-### Create a product for product option
-
-Create a product which describes the additional service, for example the logo to be printed on a shirt or a cup.
-
-#### Prerequisites
-No prerequisites to fulfill.
-
-#### Procedure
-
-1. Create the product. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
-
-2. Transfer the product to the *Omni-Channel* module. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).
-
-
-
-### Assign a product to offer option set for store
-
-In addition to the store-specific variant set you must assign the product option to the offer option set for store. 
-
-> [Info] The offer option set for your store has been automatically created when creating the store. It is inherited from the  
-
-
-
-
-### Assign product option to product
-
-
-
-
-### Add additional attributes
-
-You might want to have the possibility to specify a product option more precisely. For example, you want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text or select a predefined text. 
-
-#### Prerequisites
-
-No prerequisites to fulfill.
-
-#### Procedure
-
-Create the additional attributes you require. For detailed information, see [Manage an attribute](../../PIM/Integration/01_ManageAttributes.md) in the *PIM* documentation.
--->
-

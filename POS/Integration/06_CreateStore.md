@@ -8,12 +8,13 @@
 
 # Create a store in POS using the wizard
 
-There are two ways to create a store in POS: via wizard that is described in this topic and is highly recommended, or manually, see [Create a store manually](./06a_CreateStoreManually.md).  
-
-
-## Create a store using the wizard
+There are two ways to create a store in POS: 
+- Via wizard that is described in this topic. This option is highly recommended.
+- Manually, see [Create a store manually](./06a_CreateStoreManually.md).  
 
 The store wizard guides you through all steps to create a store and its full functionality. 
+
+
 
 ## Start the store wizard
 
@@ -50,7 +51,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 1*
 
-![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard]")
+![Wizard 01](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Store Wizard STEP 1]")
 
 1. Enter a store name in the *Store name* field and add a short description if desired.
 
@@ -62,7 +63,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 3. Click the [CREATE STORE] button in the bottom right corner of the window.   
     The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.    
-    The *Pay desks* wizard window is displayed when the store is created.  
+      
     The following entities have been automatically created:  
     - *DataHub* module:   
         The following attribute sets have been created<!--- Julian, Ist das richtig? Sollte man hier vielleicht eine Tabelle einfügen und erklären, was sie einzelnen Sets bedeuten und was die Kunden damit machen können?-->:
@@ -76,14 +77,17 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
         - Service items channel POS Store "Name of the new store"  
         - Set for POS store "Name of new store"
         - Offer option set for POS store "Name of the new store" 
-- PIM module
-    Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
-    - *Omni-Channel* module   
-    The following attribute sets have been created:    
-        - A connection *Venduo POS store "Name of new store"*
-        - A variant set *Set for POS for "Name of the new store"* 
-        - A variant set *Offer option set for POS store "Name of the new store"* 
 
+    - *PIM* module   
+        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*  
+
+    - *Omni-Channel* module   
+        The following attribute sets have been created:     
+        - A connection *Venduo POS store "Name of new store"*  
+        - A variant set *Set for POS for "Name of the new store"*   
+        - A variant set *Offer option set for POS store "Name of the new store"*   
+
+    The *Pay desks* wizard window is displayed when the store has been created.
     
 
 
@@ -112,7 +116,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 3. Click the [CREATE PAYDESKS] button in the bottom right corner of the window.   
-    The *Printing* wizard window is displayed when the pay desk is created.
+    The *Printing* wizard window is displayed when the pay desk has been created.
 
 
 ## Select a printer
@@ -127,24 +131,25 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 3*
 
-![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard]")
+![Wizard 03](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW03.png "[Store Wizard STEP 3]")
 
-> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured.   
-For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
+> [Info] To select a printer, the printer client *APS (Actindo Print System)* must be installed and configured. For detailed information, see [Configure the printer client for POS](./03_ConfigurePrinter.md).
 
-1. Click the *Client* drop-down list and select a client for the pay desk.
+1. Select the paydesk by clicking on the corresponding tab.
 
-2. Click the *Printer* drop-down list and select a printer for the pay desk.
+2. Click the *Client* drop-down list and select a client for the pay desk.
 
-3. Click the *Tray* drop-down list and select a tray.
+3. Click the *Printer* drop-down list and select a printer for the pay desk.
 
-4. Select a format for printing. By default, portrait format is preselected for receipt printing.
+4. Click the *Tray* drop-down list and select a tray.
 
-5. Click the [SAVE PAYDESK] button in the bottom to save the printing settings for the selected pay desk.
+5. Select a layout for printing. By default, portrait layout is preselected for receipt printing.
+
+6. Click the [SAVE PAYDESK] button in the bottom to save the printing settings for the selected pay desk.
 
     > [Info] If you created multiple pay desks, you can switch to another pay desk by clicking the tab with the name of the respective pay desk. You may configure different print settings for each pay desk.
 
-6. Click the [CONTINUE] button in the bottom right corner of the window.   
+7. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Store Address* wizard window is displayed when the printer is configured.
 
 
@@ -160,7 +165,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 4*
 
-![Wizard 04](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Store Wizard]")
+![Wizard 04](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW04.png "[Store Wizard STEP 4]")
 
 1. Enter the store address in the fields.
 
@@ -172,7 +177,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 ## Assign a POS warehouse 
 
-In this wizard step, you assign the warehouse from which you want to take the stock from, you assign the shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is posted out when a product is sold.
+In this wizard step, you assign the warehouse from which you want to take the stock from, you assign the storage shelf, and you configure the stock withdrawal matrix. The warehouse specifies where exactly the stock is posted out when a product is sold.
 
 #### Prerequisites
 
@@ -182,27 +187,27 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 5*
 
-![Wizard 05](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Store Wizard]")
+![Wizard 05](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Store Wizard STEP 5]")
 
 1. Click the *Warehouse* drop-down list and select the warehouse you want to take the stock from.
 
 2. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.
 
-    > [Info] A product must have a stock level in a warehouse in order to be sold from that warehouse. Products only have stock level in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding sales channels offer is activated. 
+    > [Info] A product must have a stock in a warehouse in order to be sold from that warehouse. Products only have stock in a warehouse if a storage shelf is defined for them. By default, a storage shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a storage shelf. The products get a storage shelf the first time the corresponding sales channels offer is activated. 
 
-    This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
+    This automation only works if you have enabled the storage of multiple items per storage shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
-3. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
+3. Enter a storage shelf number for the products in the *Shelf* field. The storage shelf number can be any arbitrary number.
 
-4. Activate the *Configure stock withdrawal matrix* toggle to automate the configuration of the stock withdrawal matrix. It is recommended to activate this option.
+4. Activate the *Inventory assignment* toggle to automate the configuration of the stock withdrawal matrix. It is recommended to activate this option.
 
 5. Click the [CONTINUE] button in the bottom right corner of the window.   
     The *Stock allocation* wizard window is displayed when the warehouse assignment is saved.
 
 
-## Assign a stock source
+## Configure the stock allocation
 
-In this step you assign the stock source to manage the store stock level. The stock source specifies how the stock level in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.
+In this step, you configure the stock allocation. The stock allocation specifies how the stock value in the POS system is calculated. In most cases, the calculated stock value and the stock level in the warehouse are identical, but they can also differ.
 
 #### Prerequisites
 
@@ -212,13 +217,13 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 6*
 
-![Wizard 06](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Store Wizard]")
+![Wizard 06](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Store Wizard STEP 6]")
 
-1. Activate the *Create new stock source* toggle to add a new stock source that only considers the stock of the warehouse selected in the previous step. It is recommended to activate this option.     
-    The *Select existing stock Source* drop-down list is hidden.
+1. Activate the *Create new stock source* toggle to add a new stock allocation that only considers the stock level of the warehouse selected in the previous step. It is recommended to activate this option.     
+    The *Select existing stock source* drop-down list is hidden.
 
 2. Click the [CONTINUE] button in the bottom right corner of the window.   
-    The *Accounting* wizard window is displayed when the stock source assignment is saved.     
+    The *Accounting* wizard window is displayed when the stock allocation assignment is saved.     
 
 
 ## Assign an account
@@ -242,7 +247,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 2. Select the respective pay desk in the *Select Pay Desk* drop-down list.     
     A table to assign the accounts is displayed in the window.
 
-    ![Wizard 07](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Store Wizard]")
+    ![Wizard 07](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Store Wizard STEP 7]")
 
 
 3. Select the respective account in the *Account* column and enter the corresponding account numbers for the different payment types and currencies. For detailed information, see [Manage the accounts for POS](./02_ManageAccounts.md).
@@ -265,7 +270,7 @@ The store wizard has been started, see [Start the store wizard](#start-the-store
 
 *Venduo POS > Management > Tab STORES > Button Add > Store Wizard - Step 8*
 
-![Wizard 08](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Store Wizard]")
+![Wizard 08](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW08.png "[Store Wizard STEP 8]")
 
 1. Check the summary.     
 

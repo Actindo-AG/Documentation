@@ -2,6 +2,7 @@
 [!!Record the purchase](../Operation/02_SelectOffer.md)
 [!!Edit the bill list](../Operation/03_EditBillList.md)
 [!!Complete a purchase](../Operation/04_CompletePurchase.md)
+<!---Error-->
 
 # Cashpoint
 
@@ -494,8 +495,8 @@ The *Payment at terminal* view is automatically displayed when the cash payment 
     Click this button to unlock the price field and edit the price of the selected offer.
 
 - [SHOW STOCK LEVELS]   
-    Click this button to display the stock level of the selected offer in all other stores of your company.   
-    The *Stock levels* window is displayed. It provides a list of the stock levels of this offer in all stores.
+    Click this button to display the stock of the selected offer in all other stores of your company.   
+    The *Stock levels* window is displayed. It provides a list of the stocks of this offer in all stores.
 
 - ![Back](../../Assets/Icons/Back01.png "[Back]") (Back)   
     Click this button to cancel the changes to the offer and return to the bill list.

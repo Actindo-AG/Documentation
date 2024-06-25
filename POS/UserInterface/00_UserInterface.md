@@ -1,6 +1,7 @@
 # User interface
 
 In this part of the *Venduo POS* documentation, you will find the following chapters:
+<!---Error-->
 
 - [Sales](./01_Sales.md)
     - [Select store and pay desk](./01_Sales.md#select-store-and-pay-desk)
@@ -26,7 +27,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 - [CASH REGISTER](./01c_CashRegister.md)
     - [Payment tally](./01c_CashRegister.md#payment-tally)
         - [Count cash](./01c_CashRegister.md#count-cash)
-    - [Cash in Cash out](./01c_CashRegister.md#cash-in-cash-out)
+    - [Cash in/Cash out](./01c_CashRegister.md#cash-incash-out)
         - [Cash in](./01c_CashRegister.md#cash-in)
         - [Cash out](./01c_CashRegister.md#cash-out)
 
@@ -87,7 +88,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
     - [DATA TRANSFER ORDER MANAGEMENT](./02a_GlobalSettings.md#data-transfer-order-management)
         - [Account allocation accounting](./02a_GlobalSettings.md#account-allocation-accounting)
-        - [Reverse posting on source warehouse](./02a_GlobalSettings.md#reverse-posting-on-source-warehouse)
+        - [Adjustment posting on source warehouse](./02a_GlobalSettings.md#adjustment-posting-on-source-warehouse)
         - [Return warehouse (Storage area for blocked stock)](./02a_GlobalSettings.md#return-warehouse-storage-area-for-blocked-stock)
         - [Default customer](./02a_GlobalSettings.md#default-customer)
         <!---obsolete- [Store delivery active](./02a_GlobalSettings.md#shop-lieferungen-aktiv) - ist noch im System
@@ -110,7 +111,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Create store manually](./02b_Stores.md#create-store-manually)
     - [Store](./02b_Stores.md#store)
         - [Basic data &ndash; Store](./02b_Stores.md#basic-data-–-store)
-        - [Settings](./02b_Stores.md#settings)
+        - [Settings &ndash; Store](./02b_Stores.md#settings-–-store)
         - [Admin settings &ndash; Store](./02b_Stores.md#admin-settings-–-store)
     - [Pay desk](./02b_Stores.md#pay-desk)
         - [Basic data &ndash; Pay desk](./02b_Stores.md#basic-data-–-pay-desk)

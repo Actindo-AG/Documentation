@@ -30,7 +30,7 @@ Create one or more specific warehouses for your POS store from which the stock i
 
 #### Prerequisites
 
-A warehouse group is created.
+A warehouse group has been created.
 
 #### Procedure
 

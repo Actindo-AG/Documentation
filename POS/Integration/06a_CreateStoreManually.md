@@ -55,9 +55,11 @@ Create a store manually, if you do not want to use the wizard.
 
     ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
-    The following entities have been automatically created:
+    The *Creating Store...* message is displayed. It may take several minutes until the creation is completed.    
+      
+    The following entities have been automatically created:  
     - *DataHub* module:   
-        The following attribute sets have been created<!--- Ist das richtig?-->:
+        The following attribute sets have been created<!--- Julian, Ist das richtig? Sollte man hier vielleicht eine Tabelle einfügen und erklären, was sie einzelnen Sets bedeuten und was die Kunden damit machen können?-->:
         - Orders channel POS Store "Name of new store"
         - Line items channel POS Store "Name of new store"
         - Payment items channel POS Store "Name of new store"
@@ -68,13 +70,15 @@ Create a store manually, if you do not want to use the wizard.
         - Service items channel POS Store "Name of the new store"  
         - Set for POS store "Name of new store"
         - Offer option set for POS store "Name of the new store" 
+
     - *PIM* module   
-        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*
+        Your customer-specific PIM attribute sets have been created for the new store with a destination attribute set *Set for POS store "Name of the new store"*  
+
     - *Omni-Channel* module   
-    The following attribute sets have been created:    
-        - A connection *POS store "Name of new store"*
-        - A variant set *Set for POS for "Name of the new store"* 
-        - A variant set *Offer option set for POS store "Name of the new store"* 
+        The following attribute sets have been created:     
+        - A connection *Venduo POS store "Name of new store"*  
+        - A variant set *Set for POS for "Name of the new store"*   
+        - A variant set *Offer option set for POS store "Name of the new store"*   
 
 
 ## Configure the store details
@@ -85,6 +89,7 @@ In the store details, you give some detailed information about your store. Furth
 
 - A store has been created, see [Create a store manually](#create-a-store-manually) or [Create a store using the wizard](./06_CreateStore.md#create-a-store-using-the-wizard).
 - The users are assigned to the POS groups, see [Assign users to the POS groups](./04_AssignUsers.md).
+- The connection to the TSS provider has been created, see [Create connection to TSS provider](./10_TSSProviderConnection.md#create-a-connection-to-a-tss-provider).
 
 #### Procedure
 
@@ -94,7 +99,7 @@ In the store details, you give some detailed information about your store. Furth
 
 1. Enter a short description of the store in the *Short description* field.
 
-2. Click the *TSS connection* drop-down list and select the required TSS connection. For detailed information on TSS connections, see [Create connection to TSS Provider](./10_TSSProviderConnection.md).
+2. Click the *TSS connection* drop-down list and select the required TSS connection. 
 
 2. Click the [ADD] button in the *Store manager* box.   
     The *Store managers* window is displayed.
@@ -173,7 +178,7 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
     > [Info] The cashiers list displays all users who are assigned to the POS cashier group. You may select multiple users as cashiers. Only cashiers who are assigned to a certain pay desk can use the pay desk.  
 
-    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md)
+    For detailed information, see [Assign users to the POS groups](./04_AssignUsers.md).
 
 4. Click the [Add] button in the upper right corner of the window.   
     The selected cashier is added to the box.
@@ -253,13 +258,12 @@ To connect the warehouse management and the stock management to your POS, you ha
 
 2. Select the warehouse you want to take the material from in the *Warehouse* drop-down list.
 
-3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option.   
-For detailed information, see [Stores](../UserInterface/02b_Stores.md).
+3. Activate the *Automatically assign product to warehouse when activated in store* toggle to automate the assignment process. It is recommended to activate this option. For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
-   > [Info] A product must have stock allocation in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a shelf is defined for them. By default, a shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a shelf. The products get a shelf the first time the corresponding channels offer is activated.    
-   This automation only works if you have enabled the storage of multiple items per shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
+   > [Info] A product must be in stock in a warehouse in order to be sold from that warehouse. Products only have a stock in a warehouse if a storage shelf is defined for them. By default, a storage shelf is not defined for products. Therefore, each product that is to be sold in the POS system must first get a storage shelf. The products get a storage shelf the first time the corresponding channels offer is activated.    
+   This automation only works if you have enabled the storage of multiple items per storage shelf when creating the warehouse. For detailed information, see [Configure the warehouse for POS](./01_ConfigureWarehouse.md).
 
-4. Enter a shelf number for the products in the *Shelf* field. The shelf number can be any arbitrary number.
+4. Enter a storage shelf number for the products in the *Shelf* field. The storage shelf number can be any arbitrary number.
 
 5. Click the [Save] button in the upper right corner.   
     A confirmation message is displayed. The warehouse assignment is saved.
@@ -267,7 +271,7 @@ For detailed information, see [Stores](../UserInterface/02b_Stores.md).
 
 ## Configure the stock withdrawal matrix
 
-Define in the stock withdrawal matrix from which warehouses defined in the system the stock level is taken from.  
+Define in the stock withdrawal matrix from which warehouses defined in the system the stock is taken from.  
 For detailed information on the stock withdrawal matrix, see [Configure the stock withdrawal matrix](../../RetailSuiteWarehousing/Integration/05_ConfigureStockWithdrawalMatrix.md) in the *Warehousing* documentation.
 
 #### Prerequisites
@@ -276,7 +280,7 @@ A warehouse for POS is configured, see [Configure the warehouse for POS](./01_Co
 
 #### Procedure
 
-*Warehouse > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
+*Warehousing > Settings > Tab WAREHOUSE > Tab Stock withdrawal matrix*
 
 ![Stock withdrawal matrix](../../Assets/Screenshots/RetailSuiteWarehousing/Settings/Warehouse/StockWithdrawalMatrix/StockWithdrawalMatrix.png "[Stock withdrawal matrix]")
 
@@ -296,9 +300,9 @@ A warehouse for POS is configured, see [Configure the warehouse for POS](./01_Co
     The new assignment in the stock withdrawal matrix is saved.
 
 
-## Assign the stock source
+## Configure the stock allocation
 
-Assign a stock source to manage the store stock. The stock source specifies how the stock available in the POS system is calculated. In most cases, the stock source and the warehouse are identical, but they can also differ.   
+Configure the stock allocation to manage the store stock. The stock allocation specifies how the stock available in the POS system is calculated. In most cases, the calculated stock value and the stock level in eht warehouse are identical, but they can also differ.   
 
 ### Create a stock attribute
 
@@ -319,7 +323,7 @@ No prerequisites to fulfill.
 
     ![Create attribute](../../Assets/Screenshots/PIM/Settings/Attributes/CreateAttribute.png "[Create attribute]")
 
-2. Enter an appropriate name for the attribute in the *Name* field, for instance **Stock test store**.
+2. Enter an appropriate name for the attribute in the *Name* field, for instance **Stock value test store**.
 
 3. Enter an appropriate key in the *Key* field.
 
@@ -338,10 +342,9 @@ No prerequisites to fulfill.
 8. Press the **F5** key to initialize the *Core1 Platform*.
 
 
-### Configure the stock allocation
+### Assign the stock allocation
 
-Configure the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration
-/04_ConfigureStockAllocation.md "[Configure the stock allocation]")
+Assign the stock allocation. For detailed information, see also [Configure the stock allocation](../../RetailSuiteWarehousing/Integration/04_ConfigureStockAllocation.md "[Configure the stock allocation]").
 
 #### Prerequisites
 
@@ -356,10 +359,10 @@ Configure the stock allocation. For detailed information, see also [Configure th
 
 1. Select the row with the stock allocation attributes name.
 
-2. Double-click the field with the **Default (Calculation, stock)** option in the *Stock calculation* column.   
+2. Double-click the field with the **Default (Calculation, stock value)** option in the *Stock calculation* column.   
     A drop-down list is displayed.
 
-3. Select the **Calculation, stock** option in the drop-down list in the *Stock calculation* column.   
+3. Select the **Calculation, stock value** option in the drop-down list in the *Stock calculation* column.   
     The fields in the warehouse columns are unlocked.
 
 4. Double-click the option in a warehouse column to display the drop-down list.
@@ -369,7 +372,7 @@ Configure the stock allocation. For detailed information, see also [Configure th
     > [Info] Select for each warehouse whether it should be included or not.
 
 6. Click the [Save] button in the bottom right corner.   
-    The stock allocation is saved. When the stock in a warehouse that is included in the formula is changed, the stock will be entered automatically in the stock field.
+    The stock allocation is saved. When the stock level in a warehouse that is included in the formula is changed, the stock will be updated automatically in the stock value field.
 
 
 ### Map the attribute to the stock of the store
@@ -390,14 +393,14 @@ Configure the stock allocation. For detailed information, see also [Configure th
 
     ![Mapping](../../Assets/Screenshots/DataHub/Settings/ETL/Mapping.png "[Mapping]")
 
-2. Click the row with the destination attribute **Stock** in the list of mappings.   
+2. Click the row with the destination attribute **Stock value** in the list of mappings.   
     The *Settings* section is displayed on the right side.
 
     ![Mapping Settings](../../Assets/Screenshots/DataHub/Settings/ETL/MappingSettings.png "[Mapping Settings]")
 
 3. Select the **Basic Mapping** option in the *Extension* drop-down list in the *Settings* section.
 
-4. Select the stock attribute in the *Source attribute* drop-down list.
+4. Select the stock value attribute in the *Source attribute* drop-down list.
 
 5. Click the [SAVE] button in the upper right corner.   
     The mapping is saved.
@@ -433,7 +436,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Account allocation Accounting*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Account allocation Accounting*
 
 ![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Allocate accounts global settings]")
 
@@ -456,7 +459,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Entry Account assignment*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts in store settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts in store settings]")
 
@@ -484,7 +487,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Entry Account assignment*
+*Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts pay desk settings]")
 

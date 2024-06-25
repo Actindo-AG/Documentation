@@ -30,10 +30,10 @@ The following fields are available:
 
 
 - *Name*   
-    Enter a connection name.
+    Name of the connection. Click the [Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit) button to the right of the name to edit it.
 
 - ![Check](../../Assets/Icons/Check.png "[Check]") (Apply)  
-    Click this button to apply the entered connection name. This button is only displayed if the connection name has not yet been confirmed.
+    Click this button to apply the entered connection name. This button is only displayed if you are editing the connection name.
 
 - ![Edit](../../Assets/Icons/Edit02.png "[Edit]") (Edit)  
     Click this button to edit the connection name. This button is only displayed if the connection name has been confirmed.
@@ -41,7 +41,7 @@ The following fields are available:
 - *Driver*  
     Click the drop-down list and select the desired driver. All installed drivers are displayed. 
 
-    > [Info] Drivers are licensed and must be acquired via the app store. Currently only the Fiskaly&trade; driver is supported.
+    > [Info] Drivers are licensed and must be acquired via the app store. Currently, only the Fiskaly&trade; driver is supported.
 
 - *Created DD/MM/YYYY*  
     Creation date of the connection. This field is read-only.

@@ -13,7 +13,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Select and charge a pre-printed voucher offer](./02_SelectOffer.md#select-and-charge-a-pre-printed-voucher-offer)
     - [Select an offer with single scan](./02_SelectOffer.md#select-an-offer-with-single-scan)
     - [Add a return to the bill list](./02_SelectOffer.md#add-a-return-to-the-bill-list)
-    - [Verify the age](./02_SelectOffer.md#verify-the-age)
+    - [Verify the age of the customer](./02_SelectOffer.md#verify-the-age-of-the-customer)
     - [Add a product option](./02_SelectOffer.md#add-a-product-option)
 
 
@@ -21,7 +21,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Add a discount to a single offer](./03_EditBillList.md#add-a-discount-to-a-single-offer)
     - [Edit the price of an offer](./03_EditBillList.md#edit-the-price-of-an-offer)
     - [Edit the quantity of an offer](./03_EditBillList.md#edit-the-quantity-of-an-offer)
-    - [Check the stock level](./03_EditBillList.md#check-the-stock-level)
+    - [Check the stock](./03_EditBillList.md#check-the-stock-level)
     - [Delete an offer from the bill list](./03_EditBillList.md#delete-an-offer-from-the-bill-list)
     - [Add a sale note](./03_EditBillList.md#add-a-sale-note)
     - [Assign a purchase to a customer](./03_EditBillList.md#assign-a-purchase-to-a-customer)

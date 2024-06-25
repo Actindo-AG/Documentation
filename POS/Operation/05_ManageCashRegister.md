@@ -39,7 +39,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ## Cash out the register
 
-If you withdraw cash without a purchase being made, for instance if you take out a partial amount before closing time, you must log that in the cash register.
+If you withdraw cash, for example, because you are withdrawing change for another cash register, you must log that in the cash register.
 
 #### Prerequisites
 
@@ -88,20 +88,24 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
     > [Info] Alternatively to using the *Count cash* function, you can enter the total amount of cash directly in the field of the *Counted* column in the *Payment tally* box.
 
-2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5].[+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each peace is specified in the *Amount* column.
+2. Enter the number in the *Amount* column input field per each type of coin or banknote, for example in euros the number of 1-cent coins, of 2-cent coins and so on. If desired, you can use the [+1], [+5], [+10], or [+50] buttons to quickly enter the amount, but you can also enter the value manually. The total of each piece is specified in the *Amount* column.
 
-    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash2.png "[Count Cash]")
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash.png "[Count Cash]")
 
 3. Click the next row and continue entering the number of coins or banknotes in the *Amount* column input field. Repeat this step for all rows.
 
     > [Info] The total of cash counted is displayed at the bottom of the *Count cash* box.
 
+    ![Count Cash](../../Assets/Screenshots/POS/Sales/CashRegister/CountCash2.png "[Count Cash]")
+
 4. Click the [OK] button in the bottom right corner.  
     The *Count cash* box is closed. The total of cash counted is displayed in the field of the *Counted* column in the *Payment tally* box.
 
-5. If desired, enter an amount up to which the pay desk is skimmed after closing in the field of the *Skim to* column in the *Payment tally* section.
+    ![Payment tally](../../Assets/Screenshots/POS/Sales/CashRegister/PaymentTally2.png "[Payment tally]")
 
-    > [Info] You can set an amount up to which the pay desk is skimmed after closing in the *Global Settings* tab. If you have predefined a skimming amount, the field of the column *Skim to* is preset with this amount. The field can be overwritten in the *Cash Register* tab when closing the pay desk.
+5. If desired, enter an amount up to which the pay desk is skimmed after closing in the field of the *Skim to* column in the *Payment tally* box.
+
+    > [Info] You can set an amount up to which the pay desk is skimmed after closing in the *Global Settings* tab. If you have predefined a skimming amount, the field of the column *Skim to* is preset with this amount. The field can be overwritten in the *Payment tally* box when closing the pay desk.
 
 6. Click the [Close Register] button in the upper right corner of the *Payment tally* section.   
     A confirmation window whether the pay desk should really be closed is displayed.
@@ -113,7 +117,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 ## Manage the shift summary
 
-The shift summary is an overview of all the transactions made within a shift. A shift starts, when a pay desk is opened and ends, when the pay desk is closed. You can check the shift summary or print it.
+The shift summary is an overview of all the transactions made within a shift. A shift starts when a pay desk is opened and ends when the pay desk is closed. You can check the shift summary or print it.
 
 #### Prerequisites
 
@@ -121,7 +125,7 @@ At least one shift has ended, and the pay desk has been closed, see [Close a pay
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select Pay Desk > Tab Transactions*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Edit Pay Desk > Tab Transactions*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 

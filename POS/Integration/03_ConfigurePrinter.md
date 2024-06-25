@@ -2,6 +2,7 @@
 
 [comment]: <> (add link to Install the APS, link to Printing module if available)
 
+
 # Configure the printer client for POS
 
 [comment]: <> (Need more information about the APS)

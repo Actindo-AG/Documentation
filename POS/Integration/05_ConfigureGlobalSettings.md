@@ -25,7 +25,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry Default customer*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Default customer*
 
 ![Default customer](../../Assets/Screenshots/POS/Management/GlobalSettings/DefaultCustomer.png "[Default customer]")
 
@@ -48,7 +48,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Entry VAT ID*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry VAT ID*
 
 ![VAT ID](../../Assets/Screenshots/POS/Management/GlobalSettings/VATID.png "[VAT ID]")
 
@@ -103,14 +103,9 @@ If the existing payment methods in *Venduo POS* are not appropriate for your spe
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Payment methods (manual terminal payment)*
 
-![GlobalSettings](../../Assets/Screenshots/POS/Management/GlobalSettings/GlobalSettings.png "[GlobalSettings]")
-
-1. Click the *Payment methods (manual terminal payment)* setting in the list of settings.   
-    The *Payment methods (manual terminal payment)* view is displayed.
-
-    ![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
+![Payment methods](../../Assets/Screenshots/POS/Management/GlobalSettings/PaymentMethods.png "[Payment methods]")
 
 2. Click the ![Add](../../Assets/Icons/Plus04.png "[Add]") (Add) button.
     A new row for a payment method is displayed.

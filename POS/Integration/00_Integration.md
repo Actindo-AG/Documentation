@@ -24,14 +24,13 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 
 
 - [Create a store in POS using the wizard](./06_CreateStore.md)
-    - [Create a store using the wizard](./06_CreateStore.md#create-a-store-using-the-wizard)
-    - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
+        - [Start the store wizard](./06_CreateStore.md#start-the-store-wizard)
     - [Configure the store details](./06_CreateStore.md#configure-the-store-details)
     - [Configure the pay desk](./06_CreateStore.md#configure-the-pay-desk)
     - [Select a printer](./06_CreateStore.md#select-a-printer)
     - [Enter the store address](./06_CreateStore.md#enter-the-store-address)
     - [Assign a POS warehouse](./06_CreateStore.md#assign-a-pos-warehouse)
-    - [Assign a stock source](./06_CreateStore.md#assign-a-stock-source)
+    - [Assign a stock source](./06_CreateStore.md#configure-the-stock-allocation)
     - [Assign an account](./06_CreateStore.md#assign-an-account)
     - [Finalize the wizard](./06_CreateStore.md#finalize-the-wizard)
 
@@ -44,7 +43,7 @@ In this part of the *Venduo POS* documentation, you will find the following chap
     - [Define the store address](./06a_CreateStoreManually.md#define-the-store-address)   
     - [Assign the POS warehouse](./06a_CreateStoreManually.md#assign-the-pos-warehouse)   
     - [Configure the stock withdrawal matrix](./06a_CreateStoreManually.md#configure-the-stock-withdrawal-matrix)  
-    - [Assign the stock source](./06a_CreateStoreManually.md#assign-the-stock-source)   
+    - [Assign the stock allocation](./06a_CreateStoreManually.md#assign-the-stock-allocation)   
         - [Create a stock attribute](./06a_CreateStoreManually.md#create-a-stock-attribute)   
         - [Configure the stock allocation](./06a_CreateStoreManually.md#configure-the-stock-allocation)
         - [Map the attribute to the stock of the store](./06a_CreateStoreManually.md#map-the-attribute-to-the-stock-of-the-store)   
@@ -80,18 +79,18 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Declare price group attribute for customer master data](07_ManageOffers.md#assign-price-group-attribute-to-customer-master-data)
         - [Activate the price groups](07_ManageOffers.md#activate-the-price-groups)
         - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
-    <!---
-    - [Create a product option](./07_ManageOffers.md#create-a-product-option)
-        - [Define a product option](07_ManageOffers.md#define-a-product-option)
-        - [Add additional attributes](07_ManageOffers.md#add-additional-attributes)
-        - [Create an offer option set for store](07_ManageOffers.md#create-an-offer-option-set-for-store)-->
+    
+- [Manage the product options](./07a_ManageProductOptions.md)
+    - [Create a product for product option](./07a_ManageProductOptions.md#create-a-product-for-product-option)
+    - [Associate the product option with offer](./07a_ManageProductOptions.md#associate-the-product-option-with-offer)
+    - [Add additional attributes](./07a_ManageProductOptions.md#add-additional-attributes)
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)
     - [Check the stock allocation](./08_ManageWarehouse.md#check-the-stock-allocation)
     - [Check the stock withdrawal matrix](./08_ManageWarehouse.md#check-the-stock-withdrawal-matrix)
-    - [Manage the warehouse logistics for POS products](./08_ManageWarehouse.md#manage-the-warehouse-logistics-for-pos-products)
-    - [Manage the stock for POS products](./08_ManageWarehouse.md#manage-the-stock-for-pos-products)
+    - [Manage the warehouse logistics for POS offers](./08_ManageWarehouse.md#manage-the-warehouse-logistics-for-pos-offers)
+    - [Manage the stock for POS offers](./08_ManageWarehouse.md#manage-the-stock-for-pos-offers)
 
 - [Prepare the workflows](./09_WorkflowAdjustments.md)
    - [Extend the Import channels order in OMS workflow](./09_WorkflowAdjustments.md#extend-the-import-channels-order-in-oms-workflow)

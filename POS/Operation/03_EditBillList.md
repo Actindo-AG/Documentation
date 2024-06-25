@@ -9,7 +9,7 @@ The bill list on the right side of the *Cashpoint* tab displays all offers added
 ## Add a discount to a single offer
 
 You can add a discount to single offers in your bill list, for instance, because of a campaign, defects in the offers, for loyal customers, or from a certain quantity of offers. 
-If you add a discount to a single offer, the discount is applied to an offer entry in the bill list. This means that if the quantity of an offer entry is greater than one because a customer wants to purchase the offer, the discount will be applied to all offers in this entry.   
+If you add a discount to a single offer, the discount is applied to an offer entry in the bill list. This means that if the quantity of an offer entry is greater than one because a customer wants to purchase the offer more than once, the discount will be applied to all offers in this entry.   
 
 If you want to apply a discount to a single one of several offers in an entry, you have to use the [single scan function](./02_SelectOffer.md#use-single-scan) first to add an offer as a single entry in the bill list.   
 
@@ -19,8 +19,8 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers for POS have been created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -36,7 +36,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 2. Click the drop-down list to the right of the *Discount* field and select the **%** option if you want to apply a percentage discount, or select the **EUR** option to apply a fixed amount discount to the offer.   
     The selected option is displayed in the drop-down list.
 
-    > [Info] The currency displayed in the drop-down list corresponds to the default currency in the tab *Global Settings*.
+    > [Info] The currency displayed in the drop-down list corresponds to the default currency configured in the *Global Settings*.
 
 3. Enter a number in the text field to the right of the *Discount* field. The number indicates the amount of the discount, depending on the selection in the drop-down list as a percentage or as a fixed amount.
 
@@ -55,8 +55,8 @@ The modified price is related to each item of the offer entry in the bill list. 
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -65,7 +65,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
 1. Click the offer in the bill list whose price you want to edit.   
-    The detail view of the offer is displayed in the bill list.
+    The detail view of the offer is displayed.
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
 
@@ -76,7 +76,7 @@ The modified price is related to each item of the offer entry in the bill list. 
 
     > [Info] If you want to restore the original price, click the ![Reject](../../Assets/Icons/Cross03.png "[Reject]") (Reject) button in the *Price (mod.)* field.
 
-4. Click the [Save] button in the bottom right corner to apply the price change.   
+4. Click the [SAVE] button in the bottom right corner to apply the price change.   
     The detail view of the offer is closed. The bill list is displayed again. The modified price is displayed in italics to the right of the offer. <!---NEU-->The old price is listed one line below and crossed out. The price difference is stored for future analysis.
 
     ![Bill list](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/BillListChangedPrice.png "[Bill list]")
@@ -90,8 +90,8 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -113,14 +113,14 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 
 
-## Check the stock level
+## Check the stock
 
 You can check the number of items in stock respectively the availability of an offer for the current store or all other stores of your company.
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -128,7 +128,7 @@ You can check the number of items in stock respectively the availability of an o
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
-1. Click the offer in the bill list whose stock level you want to check.   
+1. Click the offer in the bill list whose stock you want to check.   
     The detail view of the offer is displayed in the bill list.
 
     ![Offer detail](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/ProductDetails.png "[Offer detail]")
@@ -151,8 +151,8 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -171,8 +171,8 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -193,7 +193,7 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 ## Assign a purchase to a customer
 
 You can assign a customer to a purchase in order to track customer buying behavior or loyalty.   
-You can either assign the purchase to an existing customer by searching for his/her name, see [Assign a purchase to a customer](#assign-a-purchase-to-a-customer), or by the customer number, see [Assign a purchase via customer number](#assign-a-purchase-via-customer-number). If the customer is not yet registered in the system, you can [register a new customer](#register-a-customer).
+You can assign the purchase to an existing customer by searching for his/her name, see [Assign a purchase to a customer](#assign-a-purchase-to-a-customer) or by identifying him/her by the customer number, see [Assign a purchase via customer number](#assign-a-purchase-via-customer-number). If the customer is not yet registered in the system, you can [register a new customer](#register-a-customer).
 
 >[Info] It is possible to assign a customer-specific discount to a customer in his/her master data. In this case, the discount is automatically added to all offers the customer purchases. It is deducted from the total amount and displayed in the pay bill list. For detailed information on this setting, see [Customer-specific discount](../UserInterface/02a_GlobalSettings.md#customer-specific-discount).
 
@@ -204,8 +204,8 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
@@ -239,9 +239,9 @@ Alternatively, if the customer has a customer or member card, you can select the
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
-- At least one customer is already registered, see [Register a customer](#register-a-customer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+
 
 #### Procedure
 
@@ -274,8 +274,8 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- At least one offer is added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 - At least one customer is already registered, see [Register a customer](#register-a-customer) and has a customer or member card.
 
 #### Procedure
@@ -294,5 +294,5 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
     ![Customer details](../../Assets/Screenshots/POS/Sales/Cashpoint/BillList/CustomerDetails2.png "[Customer details]")
 
-3. Click the ![Customer](../../Assets/Icons/Customer03.png "[Customer]") (Customer) button.   
+3. Click the ![Add customer](../../Assets/Icons/Customer03.png "[Add customer]") (Add customer) button.   
     The search view is closed. The bill list is displayed again. The customer's name and address is displayed on top of the bill list.

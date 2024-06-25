@@ -4,6 +4,7 @@
 
 # Cash register
 
+
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
@@ -80,7 +81,7 @@ The *Count cash* window is used to faciliate the calculation of the cash count.
 
 
 
-## Cash in Cash out
+## Cash in/Cash out
 
 *Venduo POS > Sales > Select Store and Pay Desk > Tab CASH REGISTER > Cash in/out box*
 

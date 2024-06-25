@@ -19,11 +19,12 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar.
   
 - ![Edit](../../Assets/Icons/Edit01.png "[Edit]") (Edit)   
-    Click this button to edit the selected store. This button is only displayed, when the checkbox of a store is selected. Alternatively, you can click directly a row in the table to edit a store.
+    Click this button to edit the selected store. This button is only displayed when the checkbox of a store is selected. Alternatively, you can click directly a row in the table to edit a store.
 <!---NEU-->
 - [REBUILD CACHE]   
     Click this button to rebuild the cache for all offer data.
-    > In general, the cache for the offer data is only changed in case that a single offer has changed. In this case, only the cache for the changed offer is rebuild. You can use this function to rebuild the data of all offers if it is necessary.
+
+    > [Info] In general, the cache for the offer data is only changed in case that a single offer has changed. In this case, only the cache for the changed offer is rebuilt. You can use this function to rebuild the data of all offers if it is necessary.
 
 
 The following functions and fields are available in this view:
@@ -53,7 +54,7 @@ The following functions and fields are available in this view:
 
 ## Create store
 
-*Venduo POS > Management > Tab STORES > Click Add button*
+*Venduo POS > Management > Tab STORES > Button Add*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
 
@@ -70,19 +71,19 @@ The following functions and fields are available in this view:
 
 ## Create store via wizard
 
-*Venduo POS > Management > Tab STORES > Click the Add button > Click the Create store via wizard button*
+*Venduo POS > Management > Tab STORES > Button Add > Button Create store via wizard*
 
 ### Step 1 &ndash; Create store
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW01.png "[Create Store]")
 
-- *Store-Name*   
+- *Store name*   
     Enter the store name.
 
 - *Short description*   
     Enter a short description to the store.
 
-**Select Store Managers**
+**Select store managers**
 
 The table displays all users who are assigned to the POS store manager group. You may select multiple users as store managers. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -149,7 +150,7 @@ The table displays all users who are assigned to the POS cashier group. All fiel
 
     > [Info] If you cancel the wizard now, the store is nevertheless created, but you have to configure the further store settings manually.
 
-- [CREATE PAYDESKS]   
+- [CREATE PAY DESKS]   
     Click this button to create the pay desks and proceed to the next step in the store wizard. The *Printing* wizard window is displayed.
 
 
@@ -239,17 +240,17 @@ For each store, at least enter the country and the ZIP code must be specified.
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW05.png "[Create Store]")
 
 - *Warehouse*   
-    Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Sales warehouse**, **Own warehouse**, and **Field warehouse**. Further, you can create your own warehouses, that are displayed in this drop-down list.   
+    Click the drop-down list and select the warehouse you want to take the stock from. By default, you can select the warehouses **Sales warehouse**, **Own warehouse**, and **Field warehouse**. Further, you can create your own warehouses that are displayed in this drop-down list.   
     For detailed information, see [Configure the warehouse for POS](../Integration/01_ConfigureWarehouse.md).
 
 - [REFRESH LIST]   
     Click this button to update the *Warehouse* drop-down list.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically assign product to warehouse when activated in store*   
-    Activate this toggle to automate the assignment process of materials to a shelf in a warehouse. It is recommended to activate this option.
+    Activate this toggle to automate the assignment process of materials to a storage shelf in a warehouse. It is recommended to activate this option.
 
-- *Shelf*   
-    Enter a shelf number in the warehouse to which the stock is to be assigned.
+- *Storage shelf*   
+    Enter a storage shelf number in the warehouse to which the stock is to be assigned.
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Store Address* wizard window is displayed.
@@ -263,16 +264,16 @@ For each store, at least enter the country and the ZIP code must be specified.
     Click this button to save the stock settings and proceed to the next step in the store wizard. The *Saving...* window is displayed. When the saving is completed, the *Inventory assignment* wizard window is displayed.
 
 
-### Step 6 &ndash; Stock level assignment
+### Step 6 &ndash; Stock allocation
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW06a.png "[Create Store]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Create new inventory source*   
-    Activate this toggle to add a new stock source that only considers the stock level of the warehouse selected in the previous step for calculating the warehouse stock level. Deactivate this toggle to select an existing stock level source in the *Select existing inventory source* drop-down list, or to add no inventory source. This drop-down list is only displayed when the *Create new inventory source* toggle is disabled.  
+    Activate this toggle to add a new stock source that only considers the stock of the warehouse selected in the previous step for calculating the warehouse stock. Deactivate this toggle to select an existing stock source in the *Select existing inventory source* drop-down list, or to add no inventory source. This drop-down list is only displayed when the *Create new inventory source* toggle is disabled.  
 
 
 - *Select existing inventory source*   
-    Click the drop-down list and select a stock level source for the POS store. The stock level source specifies how the stock level available in the POS system is calculated. All available stock level sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
+    Click the drop-down list and select a stock source for the POS store. The stock source specifies how the stock available in the POS system is calculated. All available stock sources are displayed in the list. This drop-down list is only displayed when the *Create new inventory source* toggle is enabled.  
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Stock* wizard window is displayed.
@@ -292,14 +293,14 @@ For each store, at least enter the country and the ZIP code must be specified.
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/StoreWizard/SW07b.png "[Create Store]")
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Account per pay desk*   
-    Activate this toggle to assign the accounts to each pay desk individually. Deactivate the toggle to assign the accounts for the entire store. When you activate this toggle, the *Select Pay Desk* drop-down list is hidden. By default, this toggle is active.
+    Enable this toggle to assign the accounts to each pay desk individually. Disable the toggle to assign the accounts for the entire store. When you disable this toggle, the *Select Pay Desk* drop-down list is hidden. By default, this toggle is enabled.
 
 - *Select Pay Desk*   
-    Click the drop-down list and select the pay desk for which you want to assign the accounts. All accounts are displayed below the drop-down list for each available currency. This drop-down list is only displayed when the *Account per pay desk* toggle is active.
+    Click the drop-down list and select the pay desk for which you want to assign the accounts. All accounts are displayed below the drop-down list for each available currency. This drop-down list is only displayed when the *Account per pay desk* toggle is active.  
+    If applicable, repeat this procedure for each created pay desk.
 
-    > [Info] If you have multiple pay desks, switch the pay desk in the drop-down list after defining the accounts to define also the accounts for this pay desk. Repeat this procedure for all created pay desks.
-
-The list of accounts is displayed either when you deactivate the *Account per pay desk* toggle or when you select a pay desk in the *Select Pay Desk* drop-down list.
+ 
+The list of accounts is displayed either when you disable the *Account per pay desk* toggle or when you select a pay desk in the *Select Pay Desk* drop-down list.
 
 - *Type*   
     In this column, the account type is indicated. Six accounts are displayed per currency. The currency of the account is indicated in brackets after the account type name. The fields are display fields only. They cannot be changed.
@@ -308,13 +309,13 @@ The list of accounts is displayed either when you deactivate the *Account per pa
         This type of account serves as a cash account for cash payments.
 
     - *Redeem Voucher*    
-        This type of account serves as an accrual account, in which the sale of vouchers is posted.<!---Bitte prüfen-->
+        This type of account serves as an accrual account in which the sale of vouchers is posted.<!---Bitte prüfen-->
 
     - *Contra account Cash-In*   
         This type of account serves as a contra account against which cash deposits without customers are posted.
 
     - *Contra account Cash-Out*   
-        This type of account serves as a contra account against which cash withdrawals without customers are posted.
+        This type of account serves as a contra account against which cash withdrawals without a related sale transaction are posted.
 
     - *Refund of voucher (refund only)*   
         This type of account serves as a refund account for refunds of cashless payments.
@@ -323,7 +324,7 @@ The list of accounts is displayed either when you deactivate the *Account per pa
         This type of account serves as a cash account for cashless payments.
 
 - *Account*   
-    Enter the account number for the corresponding account types. You can assign another account number for each account type.
+    Enter the account number for the corresponding account types.
 
 - [< BACK]   
     Click this button to go back to the previous step. The *Inventory assignment* wizard window is displayed.
@@ -401,7 +402,7 @@ The wizard window displays a summary of the store configuration. Missing data or
     Click this button to save any changes.
 
 
-### Basic data &ndash; Store
+### Basic data &ndash; store
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
@@ -410,13 +411,16 @@ The wizard window displays a summary of the store configuration. Missing data or
 - *Short Description*   
     Enter a short description to the store.
 
+- *TSS connection*  
+    Click the drop-down list and select the required TSS connection.
+
 - [SAVE]   
     Click this button to save any changes.
 
 **Store Manager**
 
 - [Add]      
-    Click this button to add a store manager to the store. The *Store Managers* window is displayed.
+    Click this button to add a store manager to the store. The *Create pay desk* window is displayed, see [Store managers](#store-managers).
 
 - *First Name*   
     First name of the store manager.
@@ -433,7 +437,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 **Pay desks**
 
 - [Add]  
-    Click this button to add a pay desk to the store. The *Create pay desk* window is displayed.
+    Click this button to add a pay desk to the store. The *Create pay desk* window is displayed, see [Create pay desk](#create-pay-desk).
 
 - *Name*   
     Name of the pay desk.
@@ -454,7 +458,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ![Store Managers](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
 
-The *Store Manager* list displays the persons who are assigned to the POS store manager group.
+The *Store Managers* list displays the persons who are assigned to the POS store manager group.
 
 The following functions are available for the editing toolbar:
 
@@ -462,7 +466,7 @@ The following functions are available for the editing toolbar:
     Select the checkbox to display the editing toolbar. If you click the checkbox in the header, all users are selected.
 
 - [Add]   
-    Click this button to add the selected user to the list of store managers. This button is only displayed, when the checkbox of a user is selected.
+    Click this button to add the selected user to the list of store managers. This button is only displayed when the checkbox of a user is selected.
 
 The table displays all available store managers. All fields are read-only. Depending on the settings, the displayed columns may vary.
 
@@ -481,7 +485,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 #### Create pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Pay Desk*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Button Add*
 
 ![Create pay desk](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
 
@@ -495,7 +499,7 @@ The table displays all available store managers. All fields are read-only. Depen
     Click this button to add the pay desk to the list of pay desks.
 
 
-### Settings
+### Settings &ndash; Store
 
 *Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
 
@@ -511,16 +515,14 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
-All settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md)
+All settings are also available as Global setting. Note that if you change a setting via this tab, it will apply only to the selected store. For detailed information, see the documentation of the [Global settings](./02a_GlobalSettings.md).
 
 
 **Settings not part of the global settings**
 
 #### Customer number of store for reordering
 
-
-
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Customer number of store for reordering*
 
 ![Customer number](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Customer number]")
 
@@ -533,9 +535,9 @@ Define a customer ID for the store to restrict the reorder query to the selected
     Click this button to save any changes.
 
 
-#### Stock assignments of orders
+#### Stock allocation of orders
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Stock allocation of orders*
 
 Change or define the warehouse from which to take the stock.
 
@@ -552,10 +554,10 @@ Change or define the warehouse from which to take the stock.
     Click this button to update the drop-down list *Warehouse*.
 
 - ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]") *Automatically assign product to warehouse when activated in store*   
-    Enable this toggle to automate the assignment process of products to a shelf in a warehouse. It is recommended to activate this option.
+    Enable this toggle to automate the assignment process of products to a storage shelf in a warehouse. It is recommended to activate this option.
 
 - *Shelf*   
-    Enter a shelf number in the warehouse to which the stock is to be assigned.
+    Enter a storage shelf number in the warehouse to which the stock is to be assigned.
 
 - [Save]   
     Click this button to save any changes.
@@ -681,7 +683,7 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 The table displays the shift summaries of all shifts on the selected pay desk. Depending on the settings, the displayed columns may vary.
 
-> [Info] A shift starts, when a pay desk is opened. It ends when the pay desk is closed.
+> [Info] A shift starts when a pay desk is opened. It ends when the pay desk is closed.
 
 - *Print Shift Summary*    
     Click the link to print the selected shift summary. The shift summary is displayed in a new browser tab.   
@@ -704,7 +706,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 - *Opening diffs*   
     Cash difference at the shift start. This field is read-only.
 
-- *Revenue*
+- *Revenue*  
     Cash revenue of the shift. This field is read-only.
 
 - *End*   

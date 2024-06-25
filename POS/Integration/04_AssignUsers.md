@@ -2,7 +2,6 @@
 [!! Manage the user groups](../../Core1/AdministratingCore1/03_ManageGroups.md)
 
 
-
 # Assign users to the POS groups
 
 Users must belong to a specific POS group in order to be registered as a cashier or store manager in the POS.

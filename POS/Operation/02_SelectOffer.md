@@ -1,7 +1,6 @@
 [!!Manage offers for POS](../Integration/07_ManageOffers.md)
 [!!User interface Cashpoint](../UserInterface/01a_Cashpoint.md)
 
-
 # Add an offer to the bill list
 
 The *Venduo POS* module offers several ways to add an offer to the bill list and to select an offer. You can prepare further actions for editing the bill list, to ensure the protection of minors, to create returns, and to add product options.  
@@ -22,8 +21,8 @@ The QuickSelect option offers you the possibility to select an offer by clicking
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
-- A QuickSelect Category for POS is created, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- A QuickSelect Category for POS has been created, see [Create a QuickSelect Category](../Integration/07_ManageOffers.md#create-a-quickselect-category).
 
 #### Procedure
 
@@ -44,7 +43,7 @@ You may select an offer or search for it by entering its name in the search bar.
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -60,10 +59,10 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 
     > [Info] The search already provides you with proposals for your keyword as you type.
 
-3. Select the desired offer by clicking the corresponding product in the list.   
+3. Select the desired offer by clicking the corresponding offer in the list.   
     The offer is added to the bill list on the right side if no further features such as an [age verification](#verify-the-age) or a [product option](#add-a-product-option) are interposed.
      
-    > [Info] The keyword remains in the search bar when you add a product to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
+    > [Info] The keyword remains in the search bar when you add an offer to the bill list. When you click the search bar with that keyword again, the search results list for this keyword is displayed again.
 
 
 
@@ -74,7 +73,7 @@ You may select an offer or search for it by entering its offer number in the sea
 
 #### Prerequisites
 
-Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -88,7 +87,7 @@ Offers for POS are created, see [Manage offers for POS](../Integration/07_Manage
 2. Enter the number of the offer you are searching for in the search bar.
     The offers that match the search are displayed in a list below the search bar.
 
-    > [Info] The search already provides you with proposals for your number as you type.
+    > [Info] The search already provides you with proposals for the number as you type.
 
 
 3. Select the desired offer by clicking the corresponding offer in the list.   
@@ -142,7 +141,7 @@ Optionally, you can activate the single scan feature before you select the offer
 #### Prerequisites
 
 - There is no offer in the bill list yet.
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 
 #### Procedure
 
@@ -157,10 +156,10 @@ Optionally, you can activate the single scan feature before you select the offer
     Even if the single scan function is active, you can edit the quantity of offers manually in the bill list, see [Edit the quantity of a product](./03_EditBillList.md#edit-the-quantity-of-a-product).
 
 2. Select an offer, see [Select an offer](02_SelectOffer.md#select-an-offer).   
-    The product is listed in the bill list.
+    The offer is listed in the bill list.
 
 3. Select the same offer again.   
-    The same product is listed in an own entry in the bill list.
+    The same offer is listed in an own entry in the bill list.
 
     ![Product single scan](../../Assets/Screenshots/POS/Sales/Cashpoint/ProductSingleScan.png "[Product single scan]")
 
@@ -174,7 +173,7 @@ Note that when you edit a return, all posts on the bill list must be returns. Yo
 
 #### Prerequisite
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - Your company uses the *Allow negative quantities* setting. For detailed information, see [Allow negative quantities](../UserInterface/02a_GlobalSettings.md#allow-negative-quantities).
 - There is no offer in the bill list yet.
 
@@ -201,13 +200,13 @@ Note that when you edit a return, all posts on the bill list must be returns. Yo
     
 
 <!--- NEU-->
-## Verify the age
+## Verify the age of the customer
 
 Some offers are not suitable for children and young people, for example offers such as alcoholic beverages, cigarettes, or energy drinks. When you select an offer, Actindo checks whether an age verification is necessary before the offer is added to the bill list.
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - An age restriction for the offer is defined, for example 18 or 16.    
 - The *Display age rating* setting is activated. For detailed information, see [Display age rating](../UserInterface/02a_GlobalSettings.md#display-age-rating).
 
@@ -217,8 +216,8 @@ Some offers are not suitable for children and young people, for example offers s
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Cashpoint.png "[Cashpoint]")
 
-1. Select an offer that requires an age verification.   
-    The *Age verification* window is displayed.
+1. Select an offer.   
+    If the offer requires an age verification, the *Age verification* window is displayed.
 
     ![Age verification](../../Assets/Screenshots/POS/Sales/Cashpoint/AgeVerification.png "[Age verification]")
 
@@ -235,7 +234,7 @@ There are products where the buyer has the option of customizing them. If a stor
 
 #### Prerequisites
 
-- Offers for POS are created, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - Product options have been associated to the offers for which a specific service is offered as additional option.<!---, see [Create a product option](../Integration/07_ManageOffers.md#create-a-product-option)-->.
 
 #### Procedure

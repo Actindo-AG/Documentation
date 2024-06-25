@@ -46,7 +46,6 @@ For detailed information, see the following:
 - Use: [Assign a price group](../Operation/04_CompletePurchase.md#assign-a-price-group)
 
 
-
 ## Discount based on promotion prices 
 
 Discount that is automatically added to the bill list when the cashier has selected an offer, for which a promotion price has been assigned.  
@@ -54,3 +53,5 @@ Discount that is automatically added to the bill list when the cashier has selec
 For detailed information, see the following:
 
 - Configuration: [Define promotions for POS](../Integration/07_ManageOffers.md#define-promotions-for-pos)
+
+
