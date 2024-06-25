@@ -28,8 +28,6 @@ You can find out any entity ID via user interface as follows:
 
 Generally, you can get all entity data you need via API. The entity data is provided in the response to your request. Depending on the entity data you need, the endpoint you have to address may vary. 
 
-[comment]: <> (Fachreviewer: Ist es sinnvoll zu erklären, was ein endpoint ist? Und ein Resource? Und der Unterschied zwischen den beiden? Könntest du ggf. eine kurze Definition vorschlagen? Manchmal sind mir beide Begriffe sehr nah. Ich verstehe es so: Resources sind die data objects an sich, z.B. Produkt, Angebot, usw. Endpoints sind die Art und Weise, wie man die "adressiert", zum Erstellen, Editieren, usw.? Aber hier in unserer API, mit .get, .create, .save Endpoints, überschneiden sich für mich beide Begriffe ein wenig, oder?)
-
 If desired, you can also set filters to narrow down your request response. See [List products](./05_ManageProducts.md#list-products) for the filter definitions and request samples.
 
 In the following, a few helpful use cases are provided with their corresponding request samples. Refer to the API documentation in your instance under *Dev Tools > API > Tab API > Module name* for a complete list of endpoints.
@@ -54,8 +52,6 @@ Get a list of all *PIM* attribute sets in your current instance, including the a
         }
 
 > [Info] Since the attribute set ID is a whole number, you have to include the *Actindo\\Modules\\Actindo\\DataHub\\DataTypes\\IntegerValue* data type in your request.  
-
-[comment]: <> (Fachreviewer: Stimmt das so? Response scheint zu stimmen)
 
 
 ### List the attributes in an attribute set

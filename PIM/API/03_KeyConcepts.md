@@ -46,8 +46,6 @@ The following examples are based on predefined *PIM* attributes. If you have cre
 | Product description (multi-scope, multi-language) | _pim_products_description__scope__language_code   | textfield    |
 
 
-[comment]: <> (Fachreviewer: In meiner Sandbox kann Tax class Datentyp "TaxClass" und "TreeNode", z.B. Standard, ermäßigt, haben. Wenn Datentyp TaxClass ist, ist der owning module UCSProductSync. Wenn Datentyp TreeNode ist, ist owning module Omni-Channel, i.e. key startet mit _channels_tax_class... Für dieses Beispiel, wäre es sinnvoll, ein Tax class attribute so wie in der Tabelle zu definieren? Oder was wäre standarmäßig der owning module für tax class? Taxes?)
-
 The following graphic visualizes a series of attributes, within an attribute set, maintained in different scopes and languages, and how these attributes define a specific product: 
 
 ![Attribute](../../Assets/Screenshots/PIM/API/Attribute.png "[Attribute]")

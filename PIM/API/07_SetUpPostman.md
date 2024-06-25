@@ -1,6 +1,6 @@
 # Set up Postman for the Actindo Core1 OpenAPI
 
-[comment]: <> (Fachreviewer: Diese Datei ist auch unter Overview. Ich muss noch klären, ob/wo es hingehört. Du brauchst es also nicht doppelt zu lesen.)
+[comment]: <> (Diese Datei ist auch unter Overview. Ich muss noch klären, ob/wo es hingehört. Du brauchst es also nicht doppelt zu lesen.)
 
 To send requests to the *Actindo Core1 Platform* API endpoints, you can use an external API tool, such as Postman. For detailed information on download, configuration, and basic functions, see the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
@@ -77,6 +77,3 @@ Before you can communicate with the Core 1, you have to set a session cookie. To
 
 We recommend that you create collections and predefine API calls using the templates provided. This way you can reuse your API calls, export them, and even share them with other colleagues in the Cloud. For detailed information, refer to the Postman documentation in the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
-
-
-[comment]: <> (In Postman habe ich session cookie eingestellt, daher brauche authentication nicht mehr. Wie funktioniert es sonst?)

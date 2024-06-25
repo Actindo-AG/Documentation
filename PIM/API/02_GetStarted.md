@@ -71,8 +71,6 @@ The *Actindo Core1 Platform* uses the OAuth 2.0 open protocol to handle client a
 
 If you want to gain access to the *Actindo Core1 Platform* from an external app via API, first of all you have to register the client app in the developer portal. 
 
-[comment]: <> (Fachreviewer: Hättest du ein praktisches Beispiel zu einer client app für mich?)
-
 #### Prerequisites
 
 - An app for client access is available. 
@@ -99,7 +97,7 @@ If you want to gain access to the *Actindo Core1 Platform* from an external app 
     - allowed characters include upper and lower cases letters, numbers, and underscore
     - beginning with a letter  
 
-[comment]: <> (Fachreviewer: Kannst du bitte die Information oben bestätigen bzw. verbessern? Laut Oli ist es wahrscheinlich auch mit einer Zahl am Anfang möglich. UI muss verbessert werden, da Toggle darunter auch nicht wirklich funktioniert.)
+[comment]: <> (Andreas: Kannst du bitte die Information oben bestätigen bzw. verbessern? Laut Oli ist es wahrscheinlich auch mit einer Zahl am Anfang möglich. UI muss verbessert werden, da Toggle darunter auch nicht wirklich funktioniert.)
 
 4. If available in your version, leave the *Only authentication scopes open ID profile email. You will not be able to call any methods besides getting profile data* toggle disabled.
 
@@ -164,7 +162,7 @@ You have registered the client app, see [Step 1 &ndash; Register the client app]
 
     ![Core1 Login](../../Assets/Screenshots/PIM/API/Core1Login.png "[Core1 Login]")
 
-[comment]: <> (Fachreviewer: Stimmt der letzter Schritt? Ich verstehe nicht ganz, wie es funktioniert. Braucht man sonst einen Schritt dazwischen, z.B. Benutzer mit speziellen Rechten erstellen? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
+[comment]: <> (Andreas: Stimmt der letzter Schritt? Braucht man sonst einen Schritt dazwischen, z.B. Benutzer mit speziellen Rechten erstellen? Oder solange ein beliebiger Benutzer den authorization flow durchgeführt hat, kann er danach API requests senden?)
 
 
 
@@ -207,8 +205,6 @@ Use a cURL command line tool for the following steps.
 ### Step 4 &ndash; Send a test authentication request
 
 You can now send a request to your *Actindo Core1 Platform* instance to check that the access token is valid. For exemplary purposes, we are using a simple "ping-pong" authentication test. 
-
-[comment]: <> (Fachreviewer: ping-pong method/test? Übliche standard Test-Prozedur? Hat das einen konkreten Namen?)
 
 #### Prerequisites
 

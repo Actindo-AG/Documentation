@@ -14,8 +14,6 @@ In this section, an API reference documentation for the *Actindo Core1 Platform*
 
 ## About the Actindo Core1 OpenAPI
 
-[comment]: <> (Fachreviewer: Andere Kompatibilität? SOAP und andere unterstützt? Erwähnenswert? Allgemeine API info, die man noch erwähnen sollte?)
-
 The *Actindo Core1 OpenAPI* is a web REST API that uses the OpenAPI 3.0 Specification (OAS). It uses resource-oriented URIs, accepts and returns JSON-encoded requests, and uses standard HTTP status codes. For detailed information, see [Request bodies](#request-bodies) and [Responses bodies](#response-bodies).
 
 The *Actindo Core1 OpenAPI* supports the standard *Actindo Core1 Platform* operations, such as create, edit, and delete products. In addition to the standard features available via user interface, it offers advanced functionalities to manage resources more quickly and efficiently. For example, you can create or maintain multiple products simultaneously, and move one or several variant products to another master product just with one API call. 
@@ -53,8 +51,6 @@ The following headers are required for communication with the *Actindo Core1 Ope
 | Content-Type  | application/json |
 | Accept        | application/json |
 | Authorization | access token <br> See [Generate an access token](./02_GetStarted.md#step-3-generate-an-access-token). |
-
-[comment]: <> (Fachreviewer: Ich bin unsicher, ob das stimmt, und wie authentication/authorization via header/request body funktioniert. Kannst du es mir evtl. zeigen oder Info hier ggf. ergänzen?)
 
 
 #### Methods
@@ -108,7 +104,6 @@ The following examples display two response samples. These response samples are 
 
 ![Response schema](../../Assets/Screenshots/PIM/API/ResponseSchema.png "[Response schema]")
 
-[comment]: <> (Fachreviewer: Wäre eine "allgemeine" Response schema sinnvoll oder reicht es so? Response schema ist abhängig von Response, ob ok oder error, und von Resource/Endpunkt, daher schwer zu verallgemeinern. Was meinst du?)
 
 #### Response codes
 
@@ -261,6 +256,4 @@ You have defined the headers, see [Define the headers](#define-the-headers).
 We recommend that you create collections and predefine API calls using the templates provided. This way you can reuse your API calls, export them, and even share them with other colleagues in the Cloud. For detailed information, refer to the Postman documentation in the [Postman](https://www.postman.com/ "[https://www.postman.com/]") website.
 
 
-
-[comment]: <> (Fachreviewer: In Postman habe ich die session cookie eingestellt, daher brauche keine authentication mehr. Wie funktioniert es sonst? Kannst du es mir zeigen?)
 

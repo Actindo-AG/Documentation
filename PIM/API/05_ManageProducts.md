@@ -87,11 +87,11 @@ The following table displays a list of all attributes contained in the *PIM basi
 | _pim_stock_germany | number | Stock level in warehouse (Germany) | |
 | _pim_stock_foreign | number | Stock level in warehouse (other countries) | |
 
-[comment]: <> (Fachreviewer: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Die scheinen "komplexe" Objekte zu sein aber in der API-Doku in der Core1 ist nicht ausführlich beschrieben. Welche Felder braucht man, um diese via API zu pflegen? Stimmen die Infos oben?)
+[comment]: <> (Andreas: Ich habe Probleme mit folgenden Feldern: _pim_product_relations, _pim_products_bundle, _pim_catalogs, _pim_channels_connection. Sie sind in der API-Doku in der Core1 nicht ausführlich beschrieben. Weißt du, welche Felder man im Payload angeben muss, um diese Felder via API zu pflegen? Stimmen die Infos oben?)
 
-[comment]: <> (Fachreviewer: _pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number, wie in API-Doku beschrieben, oder Stock Value, wie in PIM Attributes? Sind alle drei hier relevant, oder nur _pim_stock_value?)
+[comment]: <> (_pim_stock_value, _pim_stock_germany und _pim_stock_foreign haben Data type number. Quelle: JS)
 
-[comment]: <> (Fachreviewer: Sind _pim_stock_germany und _pim_stock_foreign auch berechnete Werte vom Bestandszuteilung-Matrix in Lager, oder zeigen sie das reale Bestand im jeweiligen Lager?)
+[comment]: <> (_pim_stock_germany und _pim_stock_foreign sind berechnete Werte vom Bestandszuteilung. Quelle: JS)
 
 
 ## Create a product
@@ -195,7 +195,6 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 | **variantSet**    | object | Set containing the attributes for product variation | It contains the required field **id**.  |
 | **_pim_variants** | object | Master or variant product definition | Depending on the product status (master or variant product), the fields contained vary. <br> A master product contains the following fields: <br> **variantSetId** (integer), **isMasterEntity** (true), and, if variant products already available,  **childrenIds** and **numberOfChildren**. <br> A variant product contains the following fields: <br>  **variantSetId** (integer), **isMasterEntity** (false), **masterId** (integer), and the object **definingValues**. The object **definingValues** is an array of objects, where at least one **attributeName** and one **value** must be defined, for example, *_pim_ean* and *Variant-1* respectively. |
 
-[comment]: <> (Check Field vs Attribut)
 
 ### Sample: Add an image to a product
 
@@ -229,8 +228,6 @@ To get a list of all your attributes, see [List the attributes in an attribute s
 
 
 ## Create a product family
-
-[comment]: <> (Oder Create a variant-master product structure?)
 
 Once you have created your products, you can link them together to create a product family. A product family is a group of products comprising a master product and its variant products. You can also move a variant product to another product family by linking it to a different master product. 
 
@@ -395,7 +392,7 @@ The required fields are marked in bold.
 | start | integer | Pagination start | From 0 |
 | limit | integer | Pagination limit |   |
 
-[comment]: <> (Fachreviewer: Welche Filter sind sinnvoll/nützlich? Kannst du mir Beispiele für Hints und Query geben?)
+[comment]: <> (Andreas: Welche Filter sind sinnvoll/nützlich? Hättest du andere Beispiele? Kannst du auch Beispiele für Hints und Query geben?)
 
 ### Sample: List products by creation date
 

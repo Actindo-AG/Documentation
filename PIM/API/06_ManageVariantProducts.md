@@ -104,7 +104,7 @@ To get a list of variant products, see [List products](./05_ManageProducts.md#li
 
 
 
-[comment]: <> (Fachreviewer: Kann man alle Variants zu einem Master auflisten? Sinnvoll/Hilfreich? Bisher nur via PIM.PIM.Get -> entityId geschafft. Geht es anders?)
+[comment]: <> (Andreas: Kann man alle Variants zu einem Master auflisten? Sinnvoll/Hilfreich? Bisher nur via PIM.PIM.Get -> entityId geschafft. Geht es anders?)
 
 
 
