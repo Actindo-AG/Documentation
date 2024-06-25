@@ -1,4 +1,4 @@
-[!!User interface Languages](../UserInterface/02f_Languages.md)
+[!!User interface Languages](../UserInterface/03b_Languages.md)
 [!!Configure the language settings in PIM](../../PIM/Integration/04_ConfigureLanguages.md)
 
 # Manage the languages
@@ -27,9 +27,11 @@ No prerequisites to fulfill.
 
     ![Create language](../../Assets/Screenshots/DataHub/Settings/Languages/CreateLanguage.png "[Create language]")
 
-2. Enter a name for the language in the *Name* field.
+2. Enter a name for the language in the *Name* field.  
 
-3. Enter a key for the language in the *Key* field. The key is required for API access and must be system wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml). For instance, keys with the following structure are valid:
+    > [Info] If you want to provide the language name and description in different languages in the system, you can select the desired system language in the "Language" drop-down list on top of this view. By default, the following options are currently available: English (United States) and Deutsch (Deutschland). 
+
+3. Enter a key for the language in the *Key* field. The key is required for API access and must be system-wide unique. The language key must fulfill the criteria of the language codes according to [RFC 4646](https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml "[https://www.heise.de/netze/rfc/rfcs/rfc4646.shtml]"). For instance, keys with the following structure are valid:
     - en
     - en_US
     - en-US
@@ -46,6 +48,8 @@ No prerequisites to fulfill.
 ## Edit a language
 
 After you have created a language, you can edit its name or key.
+
+> [Caution] Bear in mind that a language key (language code) can be part of an attribute key. Keys are used for API access. Changing the attribute key, which is strongly discouraged, has an impact on the API naming for all entities where this attribute is included. That means that all external API consumers, workflows, webhooks, or other custom code need to be adjusted accordingly in case any of them address this attribute.
 
 #### Prerequisites
 
@@ -103,9 +107,7 @@ At least one language has been created, see [Create a language](#create-a-langua
 
 ## Delete a language
 
-You can delete a language if it is no longer needed.
-As there are usually existing dependencies, it is highly recommended not to delete a language.
-Instead, you can deactivate a language and thus prevent its use, see [Deactivate a language](#deactivate-a-language).
+You can delete a language if it is no longer needed. As there are usually existing dependencies, it is highly recommended not to delete a language. Instead, you can deactivate a language and thus prevent its use, see [Deactivate a language](#deactivate-a-language).
 
 #### Prerequisites
 
@@ -122,7 +124,9 @@ At least one language has been created, see [Create a language](#create-a-langua
 1. Select the checkbox of the language you want to delete in the list of languages.    
     The editing toolbar is displayed above the language list.
 
-2. Click the [Delete] button in the editing toolbar.  
+    > [Caution] Deleting will permanently remove the selected data. The deletion cannot be undone and the deleted data cannot be restored. Problems may occur due to unresolved dependencies. Make sure you really want to delete the selected data.
+
+2. Click the [DELETE] button in the editing toolbar.  
     The language has been deleted. The deletion cannot be undone.
 
-    > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the languages use, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).
+    > [Info] If the selected language cannot be deleted, an error message is displayed in the upper right corner. To prevent the language from being used, it is recommended to deactivate the language instead of deleting it, see [Deactivate a language](#deactivate-a-language).

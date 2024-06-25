@@ -1,8 +1,8 @@
 [!!Manage the ETL mappings](./01_ManageETLMappings.md)
 [!!Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
-[!!User interface ETL](../UserInterface/02d_ETL.md)
-[!!User interface ETL processes](../UserInterface/02h_ETLProcesses.md)
-[!!ETL extensions list](../UserInterface/03_ETLExtensions.md)
+[!!User interface ETL](../UserInterface/02a_Mappings.md)
+[!!User interface processes](../UserInterface/02b_Processes.md)
+[!!ETL extensions list](../UserInterface/04_ETLExtensions.md)
 [!!User interface Semiautomatic mapping](../../Channels/UserInterface/02c_SemiAutomaticMapping.md)
 
 # Manage the ETL processes
@@ -32,7 +32,7 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > ETL > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
@@ -61,30 +61,30 @@ An ETL process has been triggered, for instance by a rerun of mapping, see [Reru
 3. Depending on the status of the ETL process, continue with one of the following actions:
     - [Confirm an ETL process](#confirm-an-etl-process)
     - [Retry a faulty ETL process](../Troubleshooting/01_RetryFaultyETLProcess.md)
-    - [Return to the ETL Mapping](./01_ManageETLMappings.md)
+  
 
 
 
 ## Confirm an ETL process
 
-If the selected change tracking mode of an ETL mapping equals **Semiautomatic** or **Semiautomatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
+If the selected change tracking mode of an ETL mapping equals **1 - Semiautomatic** or **3 - Semiautomatic, changes must be confirmed by another user**, the ETL process has to be confirmed before the mapping can be rerun.
 
 #### Prerequisites
 
 - An ETL process has been triggered, for instance by a rerun of mapping, see [Rerun an ETL mapping](./01_ManageETLMappings.md#rerun-an-etl-mapping).
-- At least one of the triggered ETL processes has the change tracking mode **Semiautomatic** or **Semiautomatic, changes must be confirmed by another user**.
+- At least one of the triggered ETL processes has the change tracking mode **1 - Semiautomatic** or **3 - Semiautomatic, changes must be confirmed by another user**.
 
 #### Procedure
 
-*DataHub > Settings > Tab ETL PROCESSES*
+*DataHub > ETL > Tab PROCESSES*
 
 ![ETL processes](../../Assets/Screenshots/DataHub/Settings/ETLProcesses/ETLProcesses.png "[ETL processes]")
 
 1. Check the list for the appropriate ETL process to make sure that the ETL process has been triggered.
 
-    > [Info] ETL processes whose mappings have a **Semiautomatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **Semiautomatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
+    > [Info] ETL processes whose mappings have a **1 - Semiautomatic** change tracking mode are listed with the *Awaiting confirmation* status, those having a **3 - Semiautomatic, changes must be confirmed by another user** change tracking mode are listed with the *Awaiting confirmation different user* status.
 
-2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING* .      
+2. Switch to the *Omni-Channel* module: *Omni-Channel > Offers > Tab SEMIAUTOMATIC MAPPING*.      
     The *SEMIAUTOMATIC MAPPING* tab is displayed.
 
 3. Click the ![Refresh](../../Assets/Icons/Refresh01.png "[Refresh]") (Refresh) button.   
