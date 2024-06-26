@@ -49,7 +49,7 @@ No prerequisites to fulfill.
     When creating the product for the product option, do the following:
     - Assign the product to the *Product options* attribute set.
 
-2. Transfer this product to the *Omni-Channel* module. It is recommended to do this individual for each product option product, so that you are able to assign the new offer directly to the correct attribute set. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).    
+2. Transfer this product to the *Omni-Channel* module. It is recommended to do this individually for each product option product, so that you can assign the new offer directly to the correct attribute set. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).    
     When creating the offer from a PIM product, note the following:
     - In the *Connection* drop-down list, select the store for which you want to offer the product option product.
     - Assign the product option product directly to the *Offer option set for POS store "Name of the store"* in the *Map attribute sets* section of the "Review and finalize" wizard step.
@@ -66,7 +66,7 @@ Associate the product option product with the offers for which you want to offer
 #### Prerequisites
 
 - The product option product has been created and transferred to the *Omni-Channel* module.
-- The product to which the product option product is to be associated has been created and transferred to the *Omni-Channel* module. 
+- The product with which the product option product is to be associated has been created and transferred to the *Omni-Channel* module. 
 
 #### Procedure
 
@@ -117,7 +117,7 @@ You may want to add additional text to a product option that the cashiers can en
     You might want to offer to print a text on a shirt or a cup. In this case, you must create one or more attributes, in which the cashiers can enter a text. For detailed information, see [Add additional text attributes](#add-additional-text-attributes).
 
 - Define texts with predefined values   
-    You may want to offer to print a predefined text on a shirt or a cup such as a printing of the names of famous athletes with their club player number. In this case, you must create variants to the product option product, which the cashiers can than easily select with a drop-down list. For detailed information, see [Add predefined text options](#add-predefined-text-options).
+    You may want to offer to print a predefined text on a shirt or a cup such as a printing of the names of famous athletes with their club player number. In this case, you must create variants to the product option product, which the cashiers can then easily select with a drop-down list. For detailed information, see [Add predefined text options](#add-predefined-text-options).
 
 
 
