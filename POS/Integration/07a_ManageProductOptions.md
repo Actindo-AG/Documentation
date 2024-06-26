@@ -1,11 +1,12 @@
 # Manage the product options
 
-You may want to combine additional services with an offer. If your store has the appropriate technical capabilities, you may want to offer shirts with an optional flocking, or photos with an optional printing on mugs and other objects. In these cases, a specific service is associated to an offer. For detailed information on how the product options are handled at the cashpoint, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option).
+You may want to combine additional services with an offer. If your store has the appropriate technical capabilities, you may want to offer shirts with an optional flocking, or photos with an optional printing on mugs and other objects. In these cases, a specific service is associated to an offer that is called product option. From a technical point of view, you have to associate a product or service to an existing product.  
+It is also possible to add additional text to a product option that the cashiers can enter manually or select via a drop-down list, see [Add additional attributes](#add-additional-attributes).
 
-From a technical point of view, you have to associate a product or service to an existing product.
+For detailed information on how the product options are handled at the cashpoint, see [Add a product option](../Operation/02_SelectOffer.md#add-a-product-option).
 
 
-## Create a product option
+## Define a product option
 
 Define a product option that describes the additional service to an offer, for example, photo print or flocking.
 
@@ -44,7 +45,9 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-1. Create the product. Assign this product to the *Product options* attribute set. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.
+1. Create the product. For detailed information on creating a product, see [Create a product](../../PIM/Operation/01_ManageProducts.md#create-a-product) in the *PIM* documentation.   
+    When creating the product for the product option, do the following:
+    - Assign the product to the *Product options* attribute set.
 
 2. Transfer this product to the *Omni-Channel* module. It is recommended to do this individual for each product option product, so that you are able to assign the new offer directly to the correct attribute set. For detailed information, see [Create an offer from a PIM product](../../Channels/Operation/01_ManageOffers.md#create-an-offer-from-a-pim-product).    
     When creating the offer from a PIM product, note the following:
@@ -58,12 +61,12 @@ No prerequisites to fulfill.
 
 ## Associate the product option with offer
 
-Associate the product option with the products for which you want to offer the additional service. Because the additional service may only apply to certain stores, the association is made to the Omni-Channel offer.     
+Associate the product option product with the offers for which you want to offer the additional service, for example a shirt or cup. Because the additional service may only apply to certain stores, the association is made to the Omni-Channel offer.     
 
 #### Prerequisites
 
 - The product option product has been created and transferred to the *Omni-Channel* module.
-- The product to which the product option product is to be associated has been created. 
+- The product to which the product option product is to be associated has been created and transferred to the *Omni-Channel* module. 
 
 #### Procedure
 
@@ -74,7 +77,7 @@ Associate the product option with the products for which you want to offer the a
 1. Select the desired connection respectively the desired store in the *All connections* drop-down list.    
     A list of all offers in the desired store is displayed.
 
-2. Select the offer with which you want to associate the product option. If applicable, select the master offer so that the product option association is inherited by all variants of the master offer.   
+2. Select the offer with which you want to associate the product option offer. If applicable, select the master offer so that the product option association is inherited by all variants of the master offer.   
     The *Edit offer "SKU"* view is displayed. The *Attributes* tab is preselected by default. Only the *Unassigned* group is available.
 
     ![Edit offer](../../Assets/Screenshots/POS/Management/ProductOptions/EditOffer.png "[Edit offer]")

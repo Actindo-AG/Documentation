@@ -52,8 +52,6 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Assign the accounts in the store settings](./06a_CreateStoreManually.md#assign-the-accounts-in-the-store-settings)   
         - [Assign the accounts in the pay desk settings](./06a_CreateStoreManually.md#assign-the-accounts-in-the-pay-desk-settings)   
 
-[comment]: <> (Define a printer incomplete)
-
 - [Manage offers for POS](./07_ManageOffers.md)
     - [Create products for POS](./07_ManageOffers.md#create-products-for-pos)
     - [Create a product type](./07_ManageOffers.md#create-a-product-type)
@@ -81,9 +79,12 @@ In this part of the *Venduo POS* documentation, you will find the following chap
         - [Add the price group price to offers](07_ManageOffers.md#add-price-group-price-to-offers)
     
 - [Manage the product options](./07a_ManageProductOptions.md)
+    - [Define a product option](./07a_ManageProductOptions.md#define-a-product-option)
     - [Create a product for product option](./07a_ManageProductOptions.md#create-a-product-for-product-option)
     - [Associate the product option with offer](./07a_ManageProductOptions.md#associate-the-product-option-with-offer)
     - [Add additional attributes](./07a_ManageProductOptions.md#add-additional-attributes)
+        - [Add attributes for individual texts](./07a_ManageProductOptions.md#add-attributes-for-individual-texts)
+        - [Add predefined text options](./07a_ManageProductOptions.md#add-predefined-text-options)
 
 
 - [Manage the POS warehouse](./08_ManageWarehouse.md)
