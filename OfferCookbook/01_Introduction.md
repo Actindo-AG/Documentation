@@ -47,8 +47,6 @@ To set up a workflow, you have to create a new workflow and define the basic set
 | *Choose the data type of your start place* |   \_\_\_WorkflowAutogen___\Actindo\Modules\Actindo\PIM\Models\PIMProduct |
 | *Choose the data type of your end place* | Arbitrary Data |
 
-[comment]: <> (Warum Arbitrary Data? Was bedeuten die unterschiedlichen Optionen? Verwirrend, dass end place nicht Channels.offer ist... Scalar value, arbitrary data, array value, process id, business document id + API endpoints. Sinnvoll zu erklären?)
-
 
 
 ## Create a PIM product trigger
@@ -84,12 +82,12 @@ You have set up an offer from product workflow, see [Set up an offer from produc
 
         | Field | Value | Comments | 
         |---------|-------|----------| 
-        |*Name* | PIM product saved | |
-        |*Model* | Actindo\Modules\Actindo\PIM\Models\PIMProduct |  |
-        |*Event* | After saving |  |
+        |*Name* | PIM product saved |  |
+        |*Model* | Actindo\Modules\Actindo\PIM\Models\PIMProduct | Path to data model, for example Actindo.Modules.PIM.Models.PIMProduct. For a list of data models, go to *Dev Tool > API > Data models*. |
+        |*Event* | After saving | The workflow is triggered every time a product is saved in *PIM*. |
         |*Condition fulfillment* | If all are met |    |
         |*Status* | Active |  |
-        |*Process priority* | 10 |  |
+        |*Process priority* | 10 | |
         | *Unique check* | No |  |
 
     2. *PIM product created* trigger
@@ -101,14 +99,14 @@ You have set up an offer from product workflow, see [Set up an offer from produc
         | Field | Value | Comments | 
         |---------|-------|----------|
         |*Name* | PIM product created |  |
-        |*Model* | Actindo\Modules\Actindo\PIM\Models\PIMProduct |  |
-        |*Event* | After creating |  |
-        |*Condition fulfillment* | If all are met |   |
+        |*Model* | Actindo\Modules\Actindo\PIM\Models\PIMProduct | Path to data model, for example Actindo.Modules.PIM.Models.PIMProduct. For a list of data models, go to *Dev Tool > API > Data models*. |
+        |*Event* | After creating | The workflow is triggered every time a product is created in *PIM*. |
+        |*Condition fulfillment* | If all are met |  |
         |*Status* | Active |  |
         |*Process priority* | 10 |  |
         |*Unique check* | No | |
 
-[comment]: <> (Unique check, process priority vs Action prio, unique id am Action input port)
+[comment]: <> (add in comments column: Model: path to data model, process priority + unique check refer to whole process -> or better add it to triggers in Process Orchestration doc)
 
 3. If desired, you can add conditions to a trigger to define more precisely when a process is executed, see [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger).
 
@@ -116,17 +114,11 @@ You have set up an offer from product workflow, see [Set up an offer from produc
 
 ## Add a condition to a PIM product trigger
 
-[comment]: <> (Letztes Mal hat es nicht funktioniert. Mit Stefan prüfen)
-
 You can add conditions to a trigger to define more precisely when a process is executed.  
 
 In the case of the offer from product workflow, for example, you can determine that a new process is started only when a *PIM* product is saved (trigger) and it is put on sale (condition). This means that a new offer will be created in *Omni-Channel* only when the *PIM* product is marked as a sale item (the *Sale item* toggle in the *Product data* is enabled) and saved. 
 
-[comment]: <> (_pim_is_sale ist boolean -> Wie wäre die Condition? _pim_price ist string -> Wie wäre die Condition? Und was wäre Value? Oder mit Is set?)
-
-You can add several conditions to a trigger. Bear in mind that the conditions work as a priority list, that is, a list of items arranged in descending order based on their priority. Therefore, the correct order of the conditions is crucial, as the system goes through the conditions in the order they are listed, starting from the top, and stops checking them as soon as a matching condition is found. That means that the conditions must be organized from specific to general to cover all possible relevant cases.
-
-[comment]: <> (Stimmt das auch bei den Conditions?)
+You can add several conditions to a trigger. Depending of the trigger *Condition fulfillment* setting, only one (**if any is met**) or all (**if all are met**) conditions will apply. 
 
 #### Prerequisites
 
@@ -136,7 +128,7 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 *Process Orchestration > Workflows > Tab OVERVIEW > Select offer from product workflow > Select workflow version > Button Points > Menu entry Triggers*
 
-![Workflow editor](../Assets/Screenshots/OfferCookbook/ConditionEntityPimIsSale.png "[Workflow editor]")
+![Condition product on sale](../Assets/Screenshots/OfferCookbook/ConditionChangeSetPimIsSale.png "[Condition product on sale]")
 
 1. See [Add a condition](../ActindoWorkFlow/Operation/02_ManageTriggers.md#add-a-condition) in the *Process Orchestration* documentation for a general description.
 
@@ -154,7 +146,6 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 |*Value* | - |   |
 
 
-[comment]: <> (Unsicher, check conditions mit Stefan)
 
 
 

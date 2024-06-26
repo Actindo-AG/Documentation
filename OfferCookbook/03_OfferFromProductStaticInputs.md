@@ -78,9 +78,6 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-[comment]: <> (Stimmt unique as boolean?)
-
-[comment]: <> (Was ist besser: Unique check bei dem PIMProduct Trigger oder unique 1 als static input bei Create Offer? Ist es das gleiche, also, um Duplicate vermeiden? Pros/cons von beiden Methoden. Was ist unsere Empfehlung?)
 
 
 

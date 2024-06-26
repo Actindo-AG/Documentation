@@ -123,7 +123,6 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-[comment]: <> (Stimmt unique as boolean?)
 
 
 

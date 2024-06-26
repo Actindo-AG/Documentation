@@ -73,7 +73,6 @@ To do so, you must configure *Split by criterion* action as follows:
 
 ![Price set](../Assets/Screenshots/OfferCookbook/MultiplyInputDuplicateProduct.png "[Price set]")
 
-[comment]: <> (Deprecated in Key??? Check!)
 
 The *Multiply input action* is used to output the data coming in via one input port to two output ports. For detailed information, see [Multiply input action](../ActindoWorkFlow/UserInterface/08_CoreActions.md#multiply-input-action). 
 
@@ -151,7 +150,7 @@ The *Create offer from PIM product* action creates an offer in the *Omni-Channel
 
 In this use case, you want to create an offer for a *PIM* product in two different sales channels: your [online shop](#create-shop-offer) (channel A) and the [POS system](#create-pos-offer) in your retail store (channel B).
 
-[comment]: <> (Wie kann man weitere Verkaufskanäle hinzufügen? Weitere Split by action? Wo/Wie?)
+[comment]: <> (Wie kann man weitere Verkaufskanäle hinzufügen? Weitere Split by action? Wo/Wie? S. Video)
 
 ### Create shop offer
 
@@ -185,7 +184,6 @@ To create an offer for your online shop, configure the *Create offer from PIM pr
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-[comment]: <> (Stimmt unique as boolean? Stimmt Unique check info?)
 
 
 ### Create POS offer

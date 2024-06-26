@@ -80,7 +80,7 @@ To do so, you must configure the *Multiply input action* action as follows:
 | *Max tries* | 1 | |
 | *Long description* | - | |
 
-[comment]: <> (Deprecated in Key??? Das sieht verwirrend aus! Check!)
+[comment]: <> (Deprecated in Key muss geändert werden. Es ist nicht deprecated.)
 
 
 Once configured, the *Duplicate product* action presents the following structure:
@@ -90,7 +90,6 @@ Once configured, the *Duplicate product* action presents the following structure
 | *p*  | PIM product | - | *p0* | PIM product |
 | -     |          | - | *p1* | PIM product  |
 
-[comment]: <> (in P1 output port ist anyValue, aber warum? Sollte es nicht auch PIMProduct sein, vgl. Core action description: The data runs via the p input port into the workflow action and is output via both the p0 and the p1 output ports.)
 
 [comment]: <> (Determine connection and Create connection container ist ein snippet? S. https://github.com/Actindo-AG/Documentation/blob/ACD-831/HandleDeliveryNotes/HandleDeliveryNotes.md Zusammen beschreiben? Snippet: Multiply input + PHP code determine connection + CreateConnectionContainer?)
 
@@ -161,9 +160,8 @@ After setting it up, the *Create con. container* action has the following struct
 
 | Input port     | Value | -  | Output port | Value    |
 | --------------- | --- | ---| -------------- | ----  |
-| *id*  | Connection ID ? | - | *out* | ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
+| *id*  | Connection ID | - | *out* | ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
 
-[comment]: <> (Verstehe nicht ganz. Weitere Info benötigt!)
 
 
 
@@ -205,7 +203,7 @@ To do so, you must configure the *Create offer from PIM product* action as follo
   
 [comment]: <> (Warum geht es technisch nicht connection id als static input einzugeben? Warum kann man nicht "id: 2" eingeben? Die ganzen Actions dazwischen, um nur id: 2 anzugeben...?)
 
-[comment]: <> (Was ist besser: Unique check bei dem PIMProduct Trigger oder unique 1 als static input bei Create Offer? Ist es das gleiche, also, um Duplicate vermeiden? Pros/cons von beiden Methoden. Was ist unsere Empfehlung?)
+[comment]: <> (Unique check beim Trigger vs unique als static input bei Create Offer. Zufall bei der Benennung. Process Prio vs. Action prio. Action prio overrides process prio, da spezifischer)
 
 
 
