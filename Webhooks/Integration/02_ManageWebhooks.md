@@ -1,5 +1,7 @@
 # Manage webhooks
 
+You can use webhooks to send messages to your business partners. Webhooks contain specific conditions that determine the event that should generate a webhook message.  
+A webhook is defined in conjunction with a worker. The webhook defines what and to whom the message is to be transferred. The worker defines how the messages are to be transferred.  
 
 ## Create webhook
 
@@ -21,7 +23,7 @@ No prerequisites to fulfill.
 
     ![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
 
-2. Enter the class name to be used for the webhook in the *Fully qualified class name* field. To get the names, see the data models under *Dev Tools > API > Tab DATA MODELS* for reference. Use the data model that contain the entities you want to send with a webhook. Copy the desired data model names and replace the dots with slashes. See the following examples:
+2. Enter the class name / data model to be used for the webhook in the *Fully qualified class name* field. To get the names, see the data models under *Dev Tools > API > Tab DATA MODELS* for reference. Use the data model that contain the entities you want to send with a webhook. Copy the desired data model names and replace the dots with slashes. See the following examples:
     - Actindo\Modules\Actindo\Channels\Models\Offer 
     - Actindo\Modules\Actindo\Channels\Models\Order
     - Actindo\Modules\Actindo\Channels\Models\Shipment
@@ -31,7 +33,7 @@ No prerequisites to fulfill.
 4. Click the *Event* drop-down list and click the checkbox for each event that you want to trigger the webhook. The following events are available:
 
     - **Post persist**   
-        A new database entry has been added such as a new offer.      
+        A new database entry has been added, for example, a new offer.      
     - **Post update**   
         An existing database entry has been changed, for example, the name of an offer has been changed.   
     - **Post remove**   
@@ -41,7 +43,9 @@ No prerequisites to fulfill.
 
     ![Select event](../../Assets/Screenshots/Webhooks/Webhooks/SelectEvent.png "[Select event]")
 
-5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker. For detailed information, see [Create worker](./03_ManageWorkers.md#create-worker).
+5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker <!--Nochmal am realen UI prüfen-->. For detailed information, see [Create worker](./03_ManageWorkers.md#create-worker).
+
+<!---Ergänzen, wenn UI vollständig  6. Select the Authentification method you want to use. The following methods are available:-->
    
 6. Click the [CREATE] button.   
     <!---Ergänzen, wenn UI da. Was passiert dann?-->
@@ -74,7 +78,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 3. If desired, enter the number of retries in the *Workers* field. This number should fit to the *Retry algorithm* specified in the worker definition.
 
-4. If desired, select another worker in the *Worker* drop-down list.
+4. If desired, select a worker in the *Worker* drop-down list.
 
 5. If desired, define optional properties in the *Optional properties* section. This allows you to add additional data to the webhook message you want to send. For example, DataHub attributes are not added to the payload by default, so you can add them here. You can enter DataHub entities as well as any database field. The following prerequisites must be fulfilled:   
     
@@ -128,7 +132,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 4. Define the value in the *Value* field. This describes a value that the property can have. For example, it can be the connection ID or the order delivery status.
 
 5. If you want that the condition applies to the change set, select the checkbox in the *Apply on change set* column.    
-    For example, you may want to send a webhook message when the price of an offer for a particular channel has changed. To set this up, you need two conditions that both are required. One that identifies the channel, and one that applies on the change set, where the new price is stored. For all of these conditions that apply to the change set, you must select the *Apply on change set* checkbox.
+    For example, you might want to send a webhook message when the price of an offer for a particular channel has changed. To set this up, you need two conditions that both are required. One that identifies the channel, and one that applies on the change set, where the new price is stored. For the condition that apply to the change set, you must select the *Apply on change set* checkbox.
 
     **x All conditions required** 
     |Property |Operator|Value|Apply on change set|
@@ -159,7 +163,7 @@ You have administrator rights for the related instance.
 
 #### Procedure
 
-For detailed information on how to clear the tenant cache, see [Clear tenant cache](../../Core1Platform/AdministratingCore1/05_EngineRoom.md#clear-tenant-cache) in the Core1 Platform documentation.
+For detailed information on how to clear the tenant cache, see [Clear tenant cache](../../Core1/AdministratingCore1/05_EngineRoom.md#clear-tenant-cache) in the *Core1 Platform* documentation.
 
 
 
@@ -167,7 +171,7 @@ For detailed information on how to clear the tenant cache, see [Clear tenant cac
 
 Remove an associated worker from a webhook, for example, if you want to delete a worker.
 
-##### Prerequisites
+#### Prerequisites
 
 - At least one webhook has been created, see [Create webhook](#create-webhook).
 - At least one worker has been created, see [Create worker](./01_ManageWorkers.md#create-worker)
@@ -181,6 +185,6 @@ Remove an associated worker from a webhook, for example, if you want to delete a
 1. Select another worker in the *Worker* drop-down list to remove the current association. <!--- Pflichtfeld oder kann man auch leer lassen?-->
 
 2. Click the [SAVE CHANGES] button in the top right corner.   
-    The webhook association at the worker is no longer displayed.
+    The webhook association at the worker is no longer displayed, see under *Workers > Select worker > Tab WEBHOOKS*.
     
     ![Associated webhooks](../../Assets/Screenshots/Webhooks/Workers/WebhooksWorker.png "[Associated webhooks]")

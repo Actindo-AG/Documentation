@@ -1,11 +1,11 @@
 # Manage workers
 
-The workers define how the webhooks waiting in the queue are to be executed. Since you need the workers for defining the webhooks, you must first create the workers. The workers define the retry algorithm, which specifies the number of retries as well as if the webhook messages in the queue are processed sequentially or in parallel.
+The workers define how the webhooks waiting in the queue are to be executed. You must first create the workers, because you need them to define the webhooks later. The workers define the retry algorithm, which specifies the number of retries. Additionally, they define if the webhook messages in the queue are processed sequentially or in parallel.
 
 **Sequential processing**   
 Sequential processing of webhooks is recommended for events that are related to status changes. For example, an order status change must be sent in the correct update sequence so that the status "Completed" is not overwritten by the status "Delivered". In sequential processing, only one worker processes the webhooks.<!---Wie heißen die korrekten Status für die Order?-->
 
-> [Info] When defining the webhooks, you can specify conditions such as special fields that are to be considered. For detailed information, see [Define webhook conditions](./02_ManageWebhooks.md#define-webhook-conditions).
+> [Info] When defining the webhooks, you can specify conditions such as special fields that are to be considered for triggering an event. For detailed information, see [Define webhook conditions](./02_ManageWebhooks.md#define-webhook-conditions).
 
 **Parallel processing**   
 Parallel processing of webhooks is recommended for events where there is no particular sequence to follow. For example, all post persist events are suitable for parallel processing. The advantage of parallel processing is that you can define the number of workers, so you can respond to high system loads.
@@ -30,21 +30,23 @@ No prerequisites to fulfill.
 
     ![Create worker](../../Assets/Screenshots/Webhooks/Workers/CreateWorker.png "[Create worker]")
 
-2. If you want to activate the worker directly when saving it, click the activate checkbox. Alternatively, you can activate the worker later, see [Activate worker](#activate-worker).
+2. If you want to activate the worker directly when saving it, click the *Active* checkbox. Alternatively, you can activate the worker later, see [Activate worker](#activate-worker).
 
 3. Define whether you want this worker for sequential execution. In this case, click the *Sequential execution* checkbox.   
     The *Number of jobs* field is hidden, because in sequential execution only one worker executes the webhooks.
 
 2. Enter a name for the worker in the *Name* field. It is recommended to describe the execution mode and the retry algorithm in the name for better identification later.
 
-3. Define the retry algorithm comma-separated in the *Retry algorithm* field. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You have the following options: 
-    -   You can let the field empty. <!--- Stimmt das?-->In this case, the following default is used: First try = 60 sec, second try = 120 sec, third try = 300 sec, fourth try = 600 sec. 
-    - You can define up to 4 time intervals in seconds, for example **60, 300, 600, 6000**. Each time intervall is counted from the time of the first try.<!---Stimmt das ?-->
+3. Specify the retry algorithm in the *Retry algorithm* field, separated by commas. It defines the time intervals in seconds in which the worker execution should be retried after a webhook message could not be sent successfully. You have the following options: 
+    -   You can leave the field empty. <!--- Stimmt das?-->In this case, the following default is used: First try = 60 sec, second try = 120 sec, third try = 300 sec, fourth try = 600 sec. 
+    - You can define up to 4 time intervals in seconds, for example **60, 300, 600, 6000**. Each interval is counted from the time of the first try.<!---Stimmt das ?-->
 
 4. Define the number of jobs in case you have decided for parallel processing.  
 
 5. Click the [CREATE] button.   
     The *Create worker* view is closed and the *Workers* view is displayed.
+
+
 
 ## Activate worker
 
@@ -107,14 +109,15 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 #### Prerequisites
 
-- You have the permission to enable/disable feature flags in the engine room. For detailed information on feature flags, see [Switch on/off single feature flags](../../Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-onoff-single-feature-flags) in the *Core1 Platform documtenation*.
+- You have the permission to enable/disable feature flags in the engine room. For detailed information on feature flags, see [Switch on/off single feature flags](../../Core1/AdministratingCore1/06_ExpertKnowledge.md#switch-onoff-single-feature-flags) in the *Core1 Platform documentation*.
+
 #### Procedure
 
 *Actindo Core1 Platform > Any workspace> Click the Engine room button > System information*
 
 ![Feature flags](../../Assets/Screenshots/Webhooks/Webhooks/DisableWebhook.png "[Feature flags]")
 
-1. Select the *Disable workers* checkbox in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
+1. Select the *Disable webhooks* checkbox in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
     The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable webhooks* checkbox is selected.
 
 2. Clear the *Disable webhooks* checkbox in the *Webhooks* section after you have finished editing workers or webhooks.   
@@ -124,9 +127,10 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 ## Shut down workers
 
-After you have disabled the execution of workers, see [Disable execution of workers](#disable-execution-of-workers), it may be necessary to stop the current execution of the queue for workers that are currently running. In this case, you can shut down a single worker or shut down all workers at once.  
+After you have disabled the execution of workers, it may be necessary to stop the current execution of the queue for workers that are currently running. In this case, you can shut down a single worker or shut down all workers at once.  
 
-If you enable the execution of workers again, it will be start again after about 1 minute. Any workers that were previously stopped will also be restarted so that no data is lost.
+If you have enabled the execution of workers again, it will be started after about 1 minute. Any workers that were previously stopped will also be restarted so that no data is lost.
+
 
 
 ### Shut down single worker
@@ -136,8 +140,7 @@ Shut down a single worker to avoid that the associated webhooks are executed by 
 #### Prerequisites
 
 - At least one worker has been created, see [Create worker](#create-worker).
-- At least one worker is active.
-- The execution of workers is disabled.
+- The execution of workers is disabled, see [Disable execution of workers](#disable-execution-of-workers).
 
 #### Procedure
 
@@ -161,8 +164,7 @@ Shut down all workers to stop the current execution of all webhooks in the queue
 #### Prerequisites
 
 - At least one worker has been created, see [Create worker](#create-worker).
-- At least one worker is active.
-- The execution of webhooks is disabled.
+- The execution of webhooks is disabled, see [Disable execution of workers](#disable-execution-of-workers).
 
 
 #### Procedure
@@ -190,24 +192,24 @@ At least one worker has been created, see [Create worker](#create-worker).
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
 1. Ensure that no webhook is associated with the worker(s), you want to delete. To do this, select the worker for which you want to check the webhook association.   
-    The *DETAILS* tab of the webhook is displayed.
+    The *DETAILS* tab of the worker is displayed.
 
 3. Click the *WEBHOOKS* tab. 
     All webhooks associated with the worker are displayed.
 
     ![Associated webhooks](../../Assets/Screenshots/Webhooks/Workers/WebhooksWorker.png "[Associated webhooks]")
 
-    <!--- Hallo Hendrik, hier sieht es so aus, als wenn ich hier einen Webhook löschen könnte. Aber ich will doch nur die Zuordnung löschen, oder nicht?-->
+    <!--- Prüfen, hier sieht es so aus, als wenn ich hier einen Webhook löschen könnte. Aber ich will doch nur die Zuordnung löschen, oder nicht?-->
 
 4. Remove the webhook association. For detailed information, see [Remove associated worker](./02_ManageWebhooks.md#remove-associated-worker). Do this for all workers that are listed in the *Webhooks* tab.
 
 6. Return to the *Workers* view.
 
-7. Select the worker(s) you want to delete.   
+7. Select the workers you want to delete.   
     The [![DELETE](../../Assets/Icons/Trash10.png "[DELETE]") DELETE] button is highlighted.
 
 8. Click the [![DELETE](../../Assets/Icons/Trash10.png "[DELETE]") DELETE] button.   
-    The worker is deleted.
+    The workers are deleted.
 
 
 
