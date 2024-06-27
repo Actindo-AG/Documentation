@@ -6,7 +6,7 @@
 
 The list displays all available workers. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following worker related functions are available in the view header:
+The following worker related functions are available in the list header:
 
 - ![Select](../../Assets/Icons/Checkbox03.png "[Select]")  
    Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
@@ -78,5 +78,49 @@ The following functions are available in the header row:
     Click this button to close the *DETAILS* view.  
     The *Workers* view is displayed.
 
+## Webhooks
+
+*Webhooks > Workers > Select worker > Tab WEBHOOKS*
+
+![WEBHOOKS](../../Assets/Screenshots/Webhooks/Workers/WebhooksTab.png "[WEBHOOKS]")
+
+The *DETAILS* view displays the data recorded for a worker.  All fields are ready for input.
+
+The following functions are available in the header row:   
+
+- [![Activate](../../Assets/Icons/PlayCircle.png "[Activate]") ACTIVATE]   
+    Click this button to activate the webhook association.   
+
+- [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
+    Click this button to delete a webhook association. <!---die Zuordnung oder den ganzen Webhook?-->   
+    
+The following fields are available in the header list: 
+
+- *Active*   
+
+- *Event*    
+    Events that trigger the sending of the webhook messages. The following events are available:
+
+    - **Post persist**   
+        A new database entry has been added, for example, a new offer.      
+    - **Post update**   
+        An existing database entry has been changed, for example, the name of an offer has been changed.   
+    - **Post remove**   
+        An existing database entry has been deleted, for example, if an offer is no longer available.
+
+- *URL*    
+    URL to which the webhook messages are to be sent, URL of the recipient.
+
+- *Fully classified class name*   
+    Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference.  
+
+- *Retries*   
+    Number of retries. For example, an entry of 5 means the worker tries to successfully send the message a maximum of 5 times. If the second try is successful, the worker completes the webhook.
+
+- *Execution worker*    
+    Execution worker which is used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+
+- *Conditions*
+<!--Prüfen wenn Sandbox da ist-->
 
 

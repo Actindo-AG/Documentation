@@ -6,13 +6,13 @@
 
 The list displays all available webhooks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following webhook related functions are available in the list header:
+The following functions are available in the list header:
 
 - ![Select](../../Assets/Icons/Checkbox03.png "[Select]")      
     Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
     If you click the checkbox in the list header, all entries in the list are selected. 
 
-- [[Activate](../../Assets/Icons/PlayCircle.png "[Activate] ACTIVATE]    
+- [![Activate](../../Assets/Icons/PlayCircle.png "[Activate]") ACTIVATE]    
     Click this button to activate the selected webhooks. You can activate several webhooks at once. 
 
 - [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
@@ -26,11 +26,12 @@ The following fields are available in the list:
     - ![Active](../../Assets/Icons/Check02.png "[Active]") **Active**  
         The webhook can be used for data transfer.
 
-    - ![Inactive](../../Assets/Icons/Cross08.png "[Inactive]") **Inactive**   
+    - ![Inactive](../../Assets/Icons/Cross08.png "[Inactive]") 
+    **Inactive**   
         The webhook is inactive and cannot be used for data transfer.
 
 - *Event*  
-    The *event* column displays all events that trigger the sending of webhook messages. 
+    Events that trigger the sending of a webhook message. 
 
 - *URL*  
     URL to which the webhook notifications are to be sent, URL of the receiver.
@@ -58,10 +59,10 @@ The following fields are available in the list:
 ![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
 
 - *Fully qualified class name*   
-    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. This field is required.
+    Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. This field is required.
 
 - *URL*  
-    URL to which the webhook notifications are to be sent; URL of the recipient. This field is required.
+    URL to which the webhook notifications are to be sent, that is the URL of the recipient. This field is required.
 
 - *Event*  
     Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. This field is required.
@@ -95,16 +96,16 @@ The following fields and functions are available:
     Click this button to save any changes.
 
 - *Fully qualified class name*  
-    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference.  
+    Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference.  
 
 - *URL*  
-    URL to which the webhook notifications are to be sent, URL of the receiver.
+    URL to which the webhook messages are to be sent, URL of the recipient.
 
 - *Event*  
     Use the *event* drop-down list to select the events that you want to trigger the sending of webhook messages. The following events are available:
 
     - **Post persist**   
-        A new database entry has been added such as a new offer.      
+        A new database entry has been added, for example, a new offer.      
     - **Post update**   
         An existing database entry has been changed, for example, the name of an offer has been changed.   
     - **Post remove**   
@@ -177,7 +178,8 @@ The following fields and functions are available:
        The entity must have the value defined in the *Value* field.   
     - **Not equal**    
         The entity must not have the value defined in the *Value field*.
-    <!--- to be enhanced-->
+    - **Is set**   
+        There is a value available for this property.
     
 - *Value*   
     Enter the value with which you want to define the relation.
