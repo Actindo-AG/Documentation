@@ -23,7 +23,7 @@ The following functions are available in the list header:
 
 - [![Delete](../../Assets/Icons/Trash10.png "[Delete]") DELETE]    
     Click this button to delete a worker. <!---You can delete several webhooks at once?-->   
-    You can only delete a worker, if it is not assigned to a webhook. For detailed information, see [Remove worker assignment](../Integration/02_ManageWebhooks.md#remove-worker-assignment).
+    You can only delete a worker, if it is not assigned to a webhook. For detailed information, see [Remove associated worker](../Integration/02_ManageWebhooks.md#remove-associated-worker).
 
 - ![Shutdown all](../../Assets/Icons/StopCircle.png "[Shutdown all]") SHUTDOWN ALL]   
     Click this button to shut down all active workers.
@@ -48,7 +48,7 @@ The following fields are available in the view:
     - ![Parallel](../../Assets/Icons/Cross08.png "[Parallel]")  
         Webhooks assigned to this worker are executed in parallel.  
 
-    For detailed information, see [Manage workers](../Integration/03_ManageWorkers.md).
+    For detailed information, see [Manage workers](../Integration/01_ManageWorkers.md).
 
 - *Retry algorithm*   
     Time intervals in minutes in which the worker execution should be retried after a webhook message could not be sent successfully. 
@@ -118,7 +118,7 @@ The following fields are available in the header list:
     Number of retries. For example, an entry of 5 means the worker tries to successfully send the message a maximum of 5 times. If the second try is successful, the worker completes the webhook.
 
 - *Execution worker*    
-    Execution worker which is used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+    Execution worker which is used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/01_ManageWorkers.md#create-worker).
 
 - *Conditions*
 <!--Prüfen wenn Sandbox da ist-->

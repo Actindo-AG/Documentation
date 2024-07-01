@@ -67,7 +67,7 @@ The following fields are available in the list:
     Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. This field is required.
 
 - *Worker*   
-    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker). <!---Ich nehme an, dass es gefüllt sein muss, um einen Webhook zu aktivieren >prüfen, wenn UI da.-->
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/01_ManageWorkers.md#create-worker). <!---Ich nehme an, dass es gefüllt sein muss, um einen Webhook zu aktivieren >prüfen, wenn UI da.-->
 
 - [CANCEL]    
     Click this button to cancel creating a webhook.   
@@ -114,7 +114,7 @@ The following fields and functions are available:
     Enter the number of retries. For example, an entry of 5 means the worker tries to successfully send the message a maximum of 5 times. If the second try is successful, the worker completes the webhook.
 
 - *Worker*   
-    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker).
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/01_ManageWorkers.md#create-worker).
 
 - *Optional properties*   
     If desired, enter optional properties, see [Edit webhook](../Integration/02_ManageWebhooks.md#edit-webhook).

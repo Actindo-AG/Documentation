@@ -43,7 +43,7 @@ No prerequisites to fulfill.
 
     ![Select event](../../Assets/Screenshots/Webhooks/Webhooks/SelectEvent.png "[Select event]")
 
-5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker <!--Nochmal am realen UI prüfen-->. For detailed information, see [Create worker](./03_ManageWorkers.md#create-worker).
+5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker <!--Nochmal am realen UI prüfen-->. For detailed information, see [Create worker](./01_ManageWorkers.md#create-worker).
 
 <!---Ergänzen, wenn UI vollständig  6. Select the Authentification method you want to use. The following methods are available:-->
    
