@@ -41,7 +41,7 @@ The side menu displays the different log types. The log lifetime view on the rig
 
 The following functions are available for all menu entries:
 
-- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+- *Apply from default hierarchy* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
     Enable this toggle to apply the default to the selected log type. Disable the toggle to unlock the field and to enter a different log lifetime. By default, this toggle is active.
 
 - [SAVE]   
@@ -55,7 +55,7 @@ The following functions are available for all menu entries:
 ![Lifetime execution log in days](../../Assets/Screenshots/ActindoWorkFlow/Settings/Settings.png "[Lifetime execution log in days]")
 
 - *Lifetime execution log in days*   
-    Enter the number of days for which the execution log history should be available. For detailed information, see [EXECUTION LOG](06b_ExecutionLog.md). The field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the execution log history should be available. For detailed information, see [EXECUTION LOG](06b_ExecutionLog.md). The field is locked when the *Apply from default hierchary* toggle is active.
 
 
 
@@ -66,7 +66,7 @@ The following functions are available for all menu entries:
 ![Emergency-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/EmergencyLogLifetime.png "[Emergency-log lifetime]")
 
 - *Emergency-log lifetime (in days)*   
-    Enter the number of days for which the emergency log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the emergency log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -77,7 +77,7 @@ The following functions are available for all menu entries:
 ![Alert-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/AlertLogLifetime.png "[Alert-log lifetime]")
 
 - *Alert-log lifetime (in days)*   
-    Enter the number of days for which the alert log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the alert log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -88,7 +88,7 @@ The following functions are available for all menu entries:
 ![Critical-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/CriticalLogLifetime.png "[Critical-log lifetime]")
 
 - *Critical-log lifetime (in days)*   
-    Enter the number of days for which the critical log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the critical log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -99,7 +99,7 @@ The following functions are available for all menu entries:
 ![Error-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/ErrorLogLifetime.png "[Error-log lifetime]")
 
 - *Error-log lifetime (in days)*   
-    Enter the number of days for which the error log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the error log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -110,7 +110,7 @@ The following functions are available for all menu entries:
 ![Warning-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/WarningLogLifetime.png "[Warning-log lifetime]")
 
 - *Warning-log lifetime (in days)*   
-    Enter the number of days for which the warning log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the warning log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -121,7 +121,7 @@ The following functions are available for all menu entries:
 ![Notice-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/NoticeLogLifetime.png "[Notice-log lifetime]")
 
 - *Notice-log lifetime (in days)*   
-    Enter the number of days for which the notice log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the notice log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -132,7 +132,7 @@ The following functions are available for all menu entries:
 ![Info-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/InfoLogLifetime.png "[Info-log lifetime]")
 
 - *Info-log lifetime (in days)*   
-    Enter the number of days for which the info log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the info log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
 
 
 
@@ -143,4 +143,4 @@ The following functions are available for all menu entries:
 ![Debug-log lifetime](../../Assets/Screenshots/ActindoWorkFlow/Settings/DebugLogLifetime.png "[Debug-log lifetime]")
 
 - *Debug-log lifetime (in days)*   
-    Enter the number of days for which the debug log history should be available. This field is locked when the *Apply from default* toggle is active.
+    Enter the number of days for which the debug log history should be available. This field is locked when the *Apply from default hierarchy* toggle is active.
