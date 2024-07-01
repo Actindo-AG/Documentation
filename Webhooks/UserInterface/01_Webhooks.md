@@ -6,7 +6,7 @@
 
 The list displays all available webhooks. Depending on the settings, the displayed columns may vary. All fields are read-only.
 
-The following functions are available in the list header:
+The following functions are available in row above the list header:
 
 - ![Select](../../Assets/Icons/Checkbox03.png "[Select]")      
     Select the checkbox to the left of a list entry. This allows you to select one or more entries for an action, which you can then perform by clicking a button in the upper left corner above the list header.
@@ -31,21 +31,20 @@ The following fields are available in the list:
         The webhook is inactive and cannot be used for data transfer.
 
 - *Event*  
-    Events that trigger the sending of a webhook message. 
+    Event that triggers the sending of a webhook message. 
 
 - *URL*  
-    URL to which the webhook notifications are to be sent, URL of the receiver.
+    URL to which the webhook notifications are to be sent, URL of the recipient.
 
 - *Fully qualified class name*   
-    - Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. 
+    Name of the data model that contains the entities you want to send with a webhook. See the data models under *Dev Tools > API > Tab DATA MODELS* for reference. 
 
 - *Retries*  
     Number of retries the worker should make to successfully send the message.
 
 - *Execution worker*   
     Job that processes the queue and sends webhook messages to the recipients.
-    <!---Überprüfen, Julian fragen-->
-
+    
 - *Conditions*   
     Conditions that must be met before a webhook message is sent.
 
@@ -68,7 +67,7 @@ The following fields are available in the list:
     Click the *Event* drop-down list and select the checkboxes at the events that should trigger the sending of webhook messages. This field is required.
 
 - *Worker*   
-    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker). This field is not required.
+    Click the *Worker* drop-down list to select the worker who are to be used to process the webhook. The list displays all available workers. For detailed information, see [Create worker](../Integration/03_ManageWorkers.md#create-worker). <!---Ich nehme an, dass es gefüllt sein muss, um einen Webhook zu aktivieren >prüfen, wenn UI da.-->
 
 - [CANCEL]    
     Click this button to cancel creating a webhook.   
@@ -135,7 +134,7 @@ The following fields and functions are available:
     Time of creation.
 
 - *Created by*   
-    Name (and username) of the person, who has created the webhook.
+    Name (and username) of the person who has created the webhook.
 
 - *Created by RqID*   
     Request ID of the webhook creation.
@@ -147,7 +146,7 @@ The following fields and functions are available:
     Time of modification.
 
 - *Modified by*   
-    Name (and username) of the person, who has modified the webhook.
+    Name (and username) of the person who has modified the webhook.
 
 - *Modified by RqID*   
     Request ID of the webhook modification.

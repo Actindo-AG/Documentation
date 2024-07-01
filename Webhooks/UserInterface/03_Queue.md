@@ -26,7 +26,7 @@ The following fields are available in the list:
     ID of the queue entry.
 
 - *Webhook*   
-    Class name of the webhook.
+    Fully classified class name of the webhook. For detailed information, see [Create webhook](../Integration/02_ManageWebhooks.md#create-webhook)
 
 - *Execution worker*   
     Name of the worker that is configured to execute the webhook.
@@ -59,7 +59,7 @@ The following fields are available in the list:
 
 The view shows the details of a selected queue entry.
 
-The following queue-related functions are available in the list header:
+The following fields and functions are available in the header:
 
 - *Queue entry ID*  
     ID of the queue entry.
@@ -79,7 +79,7 @@ The following queue-related functions are available in the list header:
 The following fields and functions are available on the left part of this view:
 
 - *Webhook*   
-    Class name of the webhook.
+    Fully classified class name of the webhook.
 
 - *Execution worker*   
     Name of the worker that is desired to execute the webhook or has executed it.
@@ -92,8 +92,10 @@ The following fields and functions are available on the left part of this view:
 
 - *Execute time*   
     <!---Date and time of the first webhook execution by a worker??.-->
+
 - *Execute after*   
     <!---??? Date and time of the next try to execute the webhook-->
+    
 - *Submitted at*   
     <!---Date and time of the change that has triggered the execution of the webhook.-->
 

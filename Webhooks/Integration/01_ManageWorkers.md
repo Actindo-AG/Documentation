@@ -26,7 +26,7 @@ No prerequisites to fulfill.
 ![Workers](../../Assets/Screenshots/Webhooks/Workers/Workers.png "[Workers]")
 
 1. Click the ![Add](../../Assets/Icons/Plus08.png "[Add]") (Add) button in the bottom right corner.    
-    The *Create worker* view is displayed.
+    The *Create worker* window is displayed.
 
     ![Create worker](../../Assets/Screenshots/Webhooks/Workers/CreateWorker.png "[Create worker]")
 
@@ -109,7 +109,7 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 #### Prerequisites
 
-- You have the permission to enable/disable feature flags in the engine room. For detailed information on feature flags, see [Switch on/off single feature flags](../../Core1/AdministratingCore1/06_ExpertKnowledge.md#switch-onoff-single-feature-flags) in the *Core1 Platform documentation*.
+- You have the permission to enable/disable feature flags in the engine room. For detailed information on feature flags, see [Switch on/off single feature flags](../../Core1/AdministratingCore1/06_ExpertKnowledge.md#switch-onoff-single-feature-flags) in the *Core1 Platform* documentation.
 
 #### Procedure
 
@@ -117,10 +117,10 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 ![Feature flags](../../Assets/Screenshots/Webhooks/Webhooks/DisableWebhook.png "[Feature flags]")
 
-1. Select the *Disable webhooks* checkbox in the *Webhooks* section. For detailed information, see [Switch on&frasl;off single feature flags](Core1Platform/AdministratingCore1/06_ExpertKnowledge.md#switch-on⁄off-single-feature-flags) in the *Core1 Platform* documentation.   
+1. Select the *Disable webhooks* checkbox in the *Webhooks* section.   
     The webhook workers have been disabled. No new webhooks will be sent as long as the *Disable webhooks* checkbox is selected.
 
-2. Clear the *Disable webhooks* checkbox in the *Webhooks* section after you have finished editing workers or webhooks.   
+2. After you have finished editing workers or webhooks, clear the *Disable webhooks* checkbox in the *Webhooks* section.
     The execution of the queue will be continued after one minute. 
 
 
@@ -129,7 +129,7 @@ Disable the workers so that no new workers are executing the queue. This might b
 
 After you have disabled the execution of workers, it may be necessary to stop the current execution of the queue for workers that are currently running. In this case, you can shut down a single worker or shut down all workers at once.  
 
-If you have enabled the execution of workers again, it will be started after about 1 minute. Any workers that were previously stopped will also be restarted so that no data is lost.
+[Info] If you later re-enable the execution of workers, it will be started after about 1 minute. Any workers that were previously stopped will also be restarted so that no data is lost.
 
 
 

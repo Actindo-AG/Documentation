@@ -28,7 +28,7 @@ No prerequisites to fulfill.
     - Actindo\Modules\Actindo\Channels\Models\Order
     - Actindo\Modules\Actindo\Channels\Models\Shipment
 
-3. Enter the URL of the message receiver in the *URL* field.
+3. Enter the URL of the message recipient in the *URL* field.
 
 4. Click the *Event* drop-down list and click the checkbox for each event that you want to trigger the webhook. The following events are available:
 
@@ -74,7 +74,7 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 2. If desired, edit the events. Proceed as follows: 
     - To remove an event from the *Event* field, click the ![Remove](../../Assets/Icons/Cross08.png "[Remove]") button at the event name.
-    - To add an event, click the *Event* drop-down list and select the event you want to add.
+    - To add an event, click the *Event* drop-down list and select the checkbox of the event you want to add.
 
 3. If desired, enter the number of retries in the *Workers* field. This number should fit to the *Retry algorithm* specified in the worker definition.
 
@@ -117,7 +117,6 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 2. Enter the property on the basis of which you want to trigger the sending of the webhook message. The property must be part of the model you have entered in the *Fully qualified class name* field. Note that DataHub entities need a leading underscore. See the following examples: 
     - _channels_order_deliver_status.oldValue (DataHub)
-    - importStatus.newValue.scalar (Channels)<!---ich finde es nicht in den Models?-->
     - connection.id (Channels)
     - _channels_order_deliver_status (DataHub)
 
@@ -143,13 +142,13 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 
 5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] button.
 
-6. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, click the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
+6. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, select the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
 
 7. If desired, delete a condition line by clicking on the ![Delete](../../Assets/Icons/Trash08.png "[Delete]")(Delete) button at the right end of the line.
 
 8. Click the [SAVE CHANGES] button in the top right corner.
 
-9. Clear the tenant cache, see [Clear tenant cache](#clear-tenant-cache).
+9. Clear the tenant cache, see [Clear tenant cache](#clear-tenant-cache) in the *Core1 Platform* documentation.
 
 
 
@@ -169,7 +168,7 @@ For detailed information on how to clear the tenant cache, see [Clear tenant cac
 
 ## Remove associated worker
 
-Remove an associated worker from a webhook, for example, if you want to delete a worker.
+Remove an associated worker from a webhook, for example, if you want to delete a worker. By doing it, you must assign another worker so that the webhook continue to be sent.
 
 #### Prerequisites
 

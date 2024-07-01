@@ -4,16 +4,16 @@
     Each Actindo webhook is given how it should be processed. It is a combination of itself with an execution worker, which defines how the webhooks are to be sent. The webhook defines the recipient and the data that should trigger the events, the execution worker identifies the affected webhooks in the queue. 
 
 - Definition of retries   
-    If the recipient is currently down or other situations prevent a webhook from being successfully sent: It will be retried as many times you have specified in the execution workers until the recipient confirms receiving the message.
+    If the recipient is currently down or other situations prevent a webhook from being successfully sent &ndash; It will be retried as many times you have specified in the execution workers until the recipient confirms receiving the message.
 
 - Conditions    
-    You can strictly narrow the circumstances under which a webhook message is to be sent. For example, a stock level change should trigger the sending of a message.  Message will be sent immediately, as soon as the described change has been made to an entity. There is no need to send a request to receive messages.
+    You can strictly narrow the circumstances under which a webhook message is to be sent. For example, a stock level change should trigger the sending of a message.  The message will be sent immediately, as soon as the described change has been made to an entity. There is no need to send a request to the target system to receive messages.
 
 - Using of DataHub properties  
-    The webhooks are much more flexible than an API that is restricted to a specific module entity. In the *DataHub* module, you can quickly add attributes that you want to have in addition to the default attributes. If you have customer-specific DataHub entities that should trigger an event, you can add them to the webhook definition.
+    Webhooks are much more flexible than an API that is restricted to a specific module entity. When configuring the Core1 Platform, you can quickly add attributes that you want to have in addition to the default attributes in the *DataHub* module. If you use customer-specific DataHub entities that should trigger an event, you can add them to the webhook definition. 
 
 - Authentication   
-    You can optionally use an authentication method, whereby you can choose between xxxx or a secret key (standard hash algorithm **sha265**).    
+    You can optionally use an authentication method, whereby you can choose between xxxx or a secret key (standard hash algorithm **sha265**).  <!---To BE ENHANCED-->  
 
 
 
