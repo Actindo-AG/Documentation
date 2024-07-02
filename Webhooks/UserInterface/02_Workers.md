@@ -1,3 +1,5 @@
+[!Manage workers](../Integration/01_ManageWorkers.md)
+
 # Workers
 
 *Webhooks > Workers*
@@ -25,7 +27,7 @@ The following functions are available in the list header:
     Click this button to delete a worker. <!---You can delete several webhooks at once?-->   
     You can only delete a worker, if it is not assigned to a webhook. For detailed information, see [Remove associated worker](../Integration/02_ManageWebhooks.md#remove-associated-worker).
 
-- ![Shutdown all](../../Assets/Icons/StopCircle.png "[Shutdown all]") SHUTDOWN ALL]   
+- [![Shutdown all](../../Assets/Icons/StopCircle.png "[Shutdown all]") SHUTDOWN ALL]   
     Click this button to shut down all active workers.
 
 The following fields are available in the view:

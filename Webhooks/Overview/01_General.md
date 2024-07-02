@@ -11,7 +11,7 @@ You no longer need to create exports to get data out of the Actindo system and c
 ## Benefits
 
 - Specify for each recipient what data will be transferred and how it will be transferred
-- Use optional an authentication method
+- Optional use of an authentication method
 - Use webhooks for sequential or parallel processing
 
 

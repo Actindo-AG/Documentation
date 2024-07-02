@@ -20,6 +20,6 @@
 ## Constraints
 
 - Data that can be sent via the *Webhook* module must follow the Actindo data models and is restricted to them. 
-- Direct database accesses cannot be processed, because the events are processed in the doctrine layer, a layer between the code and the databases.
+- Direct database accesses cannot be processed because the events are processed in the doctrine layer, a layer between the code and the databases.
 - Webhooks are not suitable for large data volumes such as order statistics, but very flexible for sending messages containing single changes.
 

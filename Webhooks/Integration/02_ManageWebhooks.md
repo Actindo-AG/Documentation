@@ -1,12 +1,20 @@
+[!Manage workers](./01_ManageWorkers.md)
+[!User Interface Webhooks](../UserInterface/01_Webhooks.md)
+
 # Manage webhooks
 
 You can use webhooks to send messages to your business partners. Webhooks contain specific conditions that determine the event that should generate a webhook message.  
 A webhook is defined in conjunction with a worker. The webhook defines what and to whom the message is to be transferred. The worker defines how the messages are to be transferred.  
 
+[comment]: <> (The webhook defines what and to whom the message is to be transferred. -> defines the content and the recipient of the message?)
+
+[comment]: <> (Wie genau definieren? A webhook is a type of event-driven API. Rather than sending information in response to another app's request, a webhook sends information or performs a specific function in response to a trigger—like the time of day, clicking a button, or receiving a form submission. Also: A webhook is a web-based message that is sent from one application, or platform, to another. Webhook also defined as HTTP request with a payload.)
+
+
+
 ## Create webhook
 
 Create a webhook to send messages to your business partners.
-
 
 #### Prerequisites
 
@@ -23,10 +31,14 @@ No prerequisites to fulfill.
 
     ![Create webhook](../../Assets/Screenshots/Webhooks/Webhooks/CreateWebhook.png "[Create webhook]")
 
-2. Enter the class name / data model to be used for the webhook in the *Fully qualified class name* field. To get the names, see the data models under *Dev Tools > API > Tab DATA MODELS* for reference. Use the data model that contain the entities you want to send with a webhook. Copy the desired data model names and replace the dots with slashes. See the following examples:
+2. Enter the class name / data model to be used for the webhook in the *Fully qualified class name* field. To get the names, see the data models under *Dev Tools > API > Tab DATA MODELS* for reference. Use the data model that contains the entities you want to send with a webhook. Copy the desired data model names and replace the dots with slashes. See the following examples:
     - Actindo\Modules\Actindo\Channels\Models\Offer 
     - Actindo\Modules\Actindo\Channels\Models\Order
     - Actindo\Modules\Actindo\Channels\Models\Shipment
+
+[comment]: <> (Stimmt das? The fully qualified class names are derived from the data models. For a complete list of the data models, go to...)
+
+[comment]: <> (Tabelle: Data model - Fully qualified class name)
 
 3. Enter the URL of the message recipient in the *URL* field.
 
@@ -43,7 +55,7 @@ No prerequisites to fulfill.
 
     ![Select event](../../Assets/Screenshots/Webhooks/Webhooks/SelectEvent.png "[Select event]")
 
-5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker <!--Nochmal am realen UI prüfen-->. For detailed information, see [Create worker](./01_ManageWorkers.md#create-worker).
+5. If applicable, click the *Worker* drop-down list and select the worker to process the webhook. You can also add this information later after you have created the worker. <!--Nochmal am realen UI prüfen--> For detailed information, see [Create worker](./01_ManageWorkers.md#create-worker).
 
 <!---Ergänzen, wenn UI vollständig  6. Select the Authentification method you want to use. The following methods are available:-->
    
@@ -53,15 +65,16 @@ No prerequisites to fulfill.
 7. Continue with [Edit webhook](#edit-webhook) to specify optional properties and conditions.
 
 
+
 ## Edit webhook
 
 Edit the webhook to add the number of retries, the workers, or optional properties.
 
-### Prerequisites
+#### Prerequisites
 
 At least one webhook has been created, see [Create webhook](#create-webhook).
 
-### Procedure
+#### Procedure
 
 *Webhooks > Webhooks*
 
@@ -131,30 +144,36 @@ At least one webhook has been created, see [Create webhook](#create-webhook).
 4. Define the value in the *Value* field. This describes a value that the property can have. For example, it can be the connection ID or the order delivery status.
 
 5. If you want that the condition applies to the change set, select the checkbox in the *Apply on change set* column.    
-    For example, you might want to send a webhook message when the price of an offer for a particular channel has changed. To set this up, you need two conditions that both are required. One that identifies the channel, and one that applies on the change set, where the new price is stored. For the condition that apply to the change set, you must select the *Apply on change set* checkbox.
+    For example, you might want to send a webhook message when the price of an offer for a particular sales channel has changed. To set this up, you need two conditions that are both required: one that identifies the sales channel and one that applies on the change set where the new price is stored. For the condition that applies to the change set, you must select the *Apply on change set* checkbox.
+
+    [comment]: <> (Folgendes Beispiel unter Schritt 7? Info zu All conditions required noch nicht angegeben zu diesem Zeitpunkt.)
 
     **x All conditions required** 
+
     |Property |Operator|Value|Apply on change set|
     |-------|------|------|-------|
     |connection ID|equal|[connection ID]|    |
     |channels_price|is set|true|   x  |
 <!--- Eventuell im Screenshot zeigen, wenn wieder da-->
 
-5. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] button.
+6. If desired, add further conditions by clicking the [![Add condition](../../Assets/Icons/Plus08.png "[Add condition]") ADD CONDITION] button.
 
-6. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, select the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
+7. Specify whether all conditions must be met to trigger the sending of the webhook message. If all must be met, select the [All conditions required] checkbox in the top right corner of the *Conditions* section. If you do not click the checkbox, at least one of the conditions must be met.
 
-7. If desired, delete a condition line by clicking on the ![Delete](../../Assets/Icons/Trash08.png "[Delete]")(Delete) button at the right end of the line.
+8. If desired, delete a condition line by clicking on the ![Delete](../../Assets/Icons/Trash08.png "[Delete]")(Delete) button at the right end of the line.
 
-8. Click the [SAVE CHANGES] button in the top right corner.
+9. Click the [SAVE CHANGES] button in the top right corner.
 
-9. Clear the tenant cache, see [Clear tenant cache](#clear-tenant-cache) in the *Core1 Platform* documentation.
+10. Clear the tenant cache, see [Clear tenant cache](#clear-tenant-cache) in the *Core1 Platform* documentation.
+
+
+[comment]: <> (change set oder changeset, wie in Workflows? Mit Devs klären)
 
 
 
 ## Clear tenant cache
 
-For performance reasons, all webhooks are part of the tenant cache. After you have created a new webhook or have changed an existing one, you must ensure, that the tenant cache is rebuild.
+For performance reasons, all webhooks are part of the tenant cache. After you have created a new webhook or have changed an existing one, you must ensure that the tenant cache is rebuild.
 
 #### Prerequisites
 
@@ -168,7 +187,9 @@ For detailed information on how to clear the tenant cache, see [Clear tenant cac
 
 ## Remove associated worker
 
-Remove an associated worker from a webhook, for example, if you want to delete a worker. By doing it, you must assign another worker so that the webhook continue to be sent.
+Remove an associated worker from a webhook, for example, if you want to delete a worker. By doing it, you must assign another worker so that the webhook messages continue to be sent.
+
+[comment]: <> (Alternativ: ... so that the webhook continues to send messages.)
 
 #### Prerequisites
 
