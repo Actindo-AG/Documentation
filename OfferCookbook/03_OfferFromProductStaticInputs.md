@@ -4,7 +4,7 @@
 [!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
 [!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
 
-# Create an offer from product workflow with static inputs
+# Create an offer from product workflow for a specific sales channel
 
 ![Offer from product with static inputs](../Assets/Screenshots/OfferCookbook/OfferFromProductStaticInputs.png "[Offer from product with static inputs]")
 
@@ -36,7 +36,9 @@
 
 Within a workflow, several actions are performed. In the following, all actions within the workflow are described in detail, specifying their function and functional settings.
 
-To create an offer, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you can insert the corresponding value in JSON format via a static input in the *Create offer* action.
+To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you can insert the corresponding value in JSON format via a static input in the *Create offer* action.
+
+In comparison to the previous use case (Basic offer from product workflow), this workflow is simpler but also more "rigid", as it can only create offers for the defined connection. 
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 

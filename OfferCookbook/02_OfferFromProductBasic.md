@@ -4,7 +4,7 @@
 [!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
 [!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
 
-# Create a basic offer from a product workflow
+# Create an offer from a product workflow for any sales channel
 
 ![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
 
@@ -40,14 +40,16 @@
 
 Within a workflow, several actions are performed. If a certain number of actions are executed in a specific order with a common objective that can only be achieved by executing all of these actions, we speak of a so-called *snippet*. In the following, all snippets and single actions within the process are described in detail, specifying their function and functional settings.
 
-To create an offer, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you have two possibilities: 
+To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you have two possibilities: 
 
-1. Insert a static input in the subsequent *Create offer* action with the desired connection ID in JSON format. For detailed information, see [Create an offer from product workflow with static inputs](./03_OfferFromProductStaticInputs.md). 
+1. Provide the desired connection ID in JSON format as a static input in the subsequent *Create offer* action. For detailed information, see [Create an offer from product workflow with static inputs](./03_OfferFromProductStaticInputs.md). 
 2. Determine the connection ID through a set of intermediate actions, that is, a snippet, see [Determine the connection ID](#determine-the-connection-id). 
 
-[comment]: <> (Schwer, diesen parallelen Zweig zu erklären/rechtfertigen, wenn sowieso nächste PHP-Aktion ein static input schon hat. Oder gibt es andere Gründe?)
+This workflow is slightly more complex but also much more flexible, as it allows to calculate dynamically which connection to take and creates a proper input token.
 
 For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
+
+[comment]: <> (the version before is the more flexible one as i could calculate which connection to take instead of always using the same, and also creates the proper input token. but now we look at a simplified version that works just as well if we do not need that. Here the static input is internally mapped to the correct type and a the connection token we manually created before is created on the fly just from the id)
 
 
 ## Determine the connection ID

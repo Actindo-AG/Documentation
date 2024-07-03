@@ -34,6 +34,8 @@
 
 [comment]: <> (Alte Struktur: S. bkp files)
 
+[comment]: <> (completeness is a specuial case and we can not use doctrine triggers for it as it is an automatically set value that is calculated during each pim product update as well, so it acts similar to the workflow trigegrs and they would interfere/not work together)
+
 
 
 ## Workflow description
