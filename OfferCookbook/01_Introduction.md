@@ -161,24 +161,32 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 [comment]: <> (Evtl. Workflows-Dokumentation ergänzen und von hier darauf verweisen)
 
-The actions you need to use depend on the type of data available to you and the type of data you need to output. Some actions can handle all data types, such as the *Execute PHP* action, while other have certain restrictions. 
+The actions you need to use depend on the type of data available to you and the type of data you need to be output. Some actions can handle all data types, such as the *Execute PHP* action, while other have certain restrictions. 
 
-When creating a workflow, you need to be know what data type you are starting with and what data type you need to obtain for certain actions to be performed. Therefore, it is convenient to be familiar with the different data types and their meaning.
+When creating a workflow, you must be aware of what data type you are starting with and what data type you need to obtain for certain actions to be performed. Therefore, it is convenient to be familiar with the different data types and their meaning.
+
+### Places data types 
 
 The following data types are available for the places (tokens) depending on the action you choose:
 
-| Data type          | Meaning            | Transition |
-|--------------------|--------------------|------------|
-| Arbitrary data     |                    |            |
-| Scalar value       |                    |            |
-| Array value        |                    |            |
-| Process ID         |                    |            |
-| Business document ID |                  |            |
-| Abstract             |                  |            |
+| Data type      | Meaning            | Beispiel | 
+|----------------|--------------------|----------|
+| Arbitrary data | Any data in any format  |           |  
+| Scalar value   | Variable that can hold only one value at a time, such as integers, floats, strings, and booleans | Connection ID |    
+| Array value    | Variable that can hold a collection of values. Arrays can contain values of any data type.| Example? |
+| Process ID     | Unique numerical identifier assigned to a running process on the system |            |
+| Business document ID | Unique numerical identifier assigned to a business document on the system |  Example?          |
+| Abstract       | Variable that holds a collection of data together with a set of operations on that data | List, queue, stack |
+
+Ist es sinnvoll, auch andere in Workflows zu erklären, z.B. BusinessDocumentContainer, ConnectionContainer?
+
+### Places data types in core actions
+
+Required input and output ports are marked in bold. When selecting any of these actions in the workflow editor, the required input/output ports are provided with a place by default, which cannot be deleted.
 
 | Core actions | Input data type(s) | Output data type(s) |
 | ------------ | ------------------ | ---------------- |
-| Change process priority | loop_through: Arbitrary Data <br> priority: Scalar value | p: Arbitrary Data |
+| Change process priority | **loop_through**: Arbitrary Data <br> priority: Scalar value | p: Arbitrary Data |
 | Multiply input action | p: Arbitrary Data | p0-05: Arbitrary Data |
 | Execute PHP code | in0-in9: Arbitrary Data | out0-out9: Arbitrary Data | 
 | Extract value | p: Arbitrary Data |  p: Arbitrary Data |
@@ -194,6 +202,13 @@ The following data types are available for the places (tokens) depending on the 
 | Waiting action | p: Arbitrary Data | p: Arbitrary Data |
 
 
-| API endpoint action | Input data type(s) | Output data type(s) |
-| ------------ | ------------------ | ---------------- |
-| createOffer  | connection: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer | success: Scalar Value <br> displayMessage: Scalar Value <br> displayMessageTitle: Scalar Value <br> error: Scalar Value <br> job_id: Scalar Value | 
+### Places data types in actions involved in offer from product workflow
+
+Required input and output ports are marked in bold. When selecting any of these actions in the workflow editor, the required input/output ports are provided with a place by default, which cannot be deleted.
+
+
+| Action      | API endpoint        | Input data type(s) | Output data type(s) |
+| ------------| ------------------- | ------------------ | ------------------- |
+| Create offer from PIM product | Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct | **pimProduct**: ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer <br> **connection**: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer <br> changeTracking: Scalar Value <br> initialStatus: Scalar Value <br> destinationAttributeSet: ReadOnly.Modules.Actindo.DataHub.Models.Tenant.AttributeSetContainer <br> unique: Scalar Value | data:Modules.Actindo.Channels.Models.Offer <br> success: Scalar Value <br> displayMessage: Scalar Value <br> displayMessageTitle: Scalar Value <br> error: Scalar Value <br> job_id: Scalar Value | 
+| Create connection container | Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer | p: Scalar Value | out: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
+| 

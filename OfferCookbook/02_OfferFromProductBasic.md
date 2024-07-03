@@ -80,7 +80,7 @@ To do so, you must configure the *Multiply input action* action as follows:
 | *Max tries* | 1 | |
 | *Long description* | - | |
 
-[comment]: <> (Deprecated in Key muss geändert werden. Es ist nicht deprecated.)
+[comment]: <> (Deprecated in Key muss geändert werden. Es ist nicht deprecated. SW)
 
 
 Once configured, the *Duplicate product* action presents the following structure:
