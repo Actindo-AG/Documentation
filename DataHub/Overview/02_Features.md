@@ -19,7 +19,7 @@ Intelligent data orchestration with the *DataHub* module
 
 **Easy data exchange thanks to an integrated ETL function**   
 ETL stands for *Extract, Transform, Load* and describes the integration process in which data from one or more data sources is read, prepared and transferred to the central *DataHub* module. The goal is to prepare the integrated data for further processing and make it available for downstream processes and applications.   
-In practice, a data hub with ETL means less customization effort. Data can be sent from one or more third-party systems to the *DataHub* module in any format. The *DataHub* module takes over the data transformation and aggregation and sends the adapted information to the target system. In this way, product and order management can be simplified across all channels. New marketplaces can be flexibly connected, and existing legacy systems can be integrated into modern e-commerce environments.
+In practice, a data hub with ETL means less customization effort. Data can be sent from one or more third-party systems to the *DataHub* module in any format. The *DataHub* module takes over the data transformation and aggregation and sends the adapted information to the target system. In this way, product and order management can be simplified across all scopes. New sales channels can be flexibly connected, and existing legacy systems can be integrated into modern e-commerce environments.
 
 ##  The new way to modernize
 
@@ -30,4 +30,4 @@ Traditional IT strategies for modernizing the IT landscape include either the co
 
 **Agile product data management**   
 The *DataHub* module enables a smooth flow of data through your entire IT landscape. One particularly important process for companies that is made much more efficient through the use of data hub and ETL is product data management. Together with the *PIM* module, the *DataHub* module forms the core of your unified commerce strategy: with the help of ETL, data can be extracted, modeled, refined and transferred to external systems completely automatically from a wide variety of data sources.  
-This makes it easy to centrally manage and control product data for all sales channels, from your own online store to international marketplaces and brick-and-mortar retail. This greatly simplifies the listing of your products in all your sales and marketing channels and saves you valuable time.
+This makes it easy to centrally manage and control product data for all sales channels, from your own online store to international sales channels and brick-and-mortar retail. This greatly simplifies the listing of your products in all your sales and marketing channels and saves you valuable time.

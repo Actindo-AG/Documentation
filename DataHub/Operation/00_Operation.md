@@ -20,8 +20,8 @@ In this part of the *DataHub* documentation, you will find the following chapter
 
 - [Manage the HTML templates](./03_ManageHTMLTemplates.md)
     - [Create an HTML template](./03_ManageHTMLTemplates.md#create-an-html-template)
-    - [Include HTML text](./03_ManageHTMLTemplates.md#include-smarty-templates)
-    - [Include Smarty templates](./03_ManageHTMLTemplates.md#include-html-text)
+    - [Include HTML text](./03_ManageHTMLTemplates.md#include-html-text)
+    - [Include Smarty templates](./03_ManageHTMLTemplates.md#include-smarty-templates)
         - [Include attribute variables](./03_ManageHTMLTemplates.md#include-attribute-variables)
         - [Include a tree node variable](./03_ManageHTMLTemplates.md#include-a-tree-node-variable)
         - [Include a language adjustable variable](./03_ManageHTMLTemplates.md#include-a-language-adjustable-variable)
@@ -29,12 +29,9 @@ In this part of the *DataHub* documentation, you will find the following chapter
     - [Display the possible variables](./03_ManageHTMLTemplates.md#display-the-possible-variables)
     - [Preview an HTML template](./03_ManageHTMLTemplates.md#preview-an-html-template)
 
+- [Manage the deleted attributes](./04_ManageDeletedAttributes.md)
+    - [Recover an attribute](./04_ManageDeletedAttributes.md#recover-an-attribute)
+    - [Permanently delete an attribute](./04_ManageDeletedAttributes.md#permanently-delete-an-attribute)
+    
 
-- [Manage the dashboards](./04_ManageDashboards.md)
-    - [Create a dashboard](./04_ManageDashboards.md#create-a-dashboard)
-    - [Customize a dashboard](./04_ManageDashboards.md#customize-a-dashboard)
-        - [Add a dashlet](./04_ManageDashboards.md#add-a-dashlet)
-        - [Change the viewport](./04_ManageDashboards.md#change-the-viewport)
-        - [Change the dashlets arrangement](./04_ManageDashboards.md#change-the-dashlets-arrangement)
-        - [Remove a dashlet](./04_ManageDashboards.md#remove-a-dashlet)
-    - [Delete a dashboard](./04_ManageDashboards.md#delete-a-dashboard)
+
