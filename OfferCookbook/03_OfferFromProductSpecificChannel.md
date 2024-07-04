@@ -4,16 +4,16 @@
 [!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
 [!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
 
-# Create an offer from product workflow for a specific sales channel
+# Create an offer from product workflow in a specific sales channel
 
-![Offer from product with static inputs](../Assets/Screenshots/OfferCookbook/OfferFromProductStaticInputs.png "[Offer from product with static inputs]")
+![Offer from product in specific sales channel](../Assets/Screenshots/OfferCookbook/OfferFromProductStaticInputs.png "[Offer from product in specific sales channel]")
 
 
 ## Overview
 
 | **Summary** |       |
 | ----------- |------ |
-| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product using static inputs|
+| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product for a specific sales channel |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none | 
@@ -36,11 +36,11 @@
 
 Within a workflow, several actions are performed. In the following, all actions within the workflow are described in detail, specifying their function and functional settings.
 
-To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you can insert the corresponding value in JSON format via a static input in the *Create offer* action.
+To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you can insert the corresponding value in JSON format via a static input in the *Create offer from PIM product* action.
 
-In comparison to the previous use case (Basic offer from product workflow), this workflow is simpler but also more "rigid", as it can only create offers for the defined connection. 
+In contrast to the use case [Create an offer from a product workflow in any sales channel](./02_OfferFromProductAnyChannel.md), this workflow is simpler but also more rigid, as it can only create offers for the defined connection. 
 
-For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
+For detailed information on how to build a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
 For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
@@ -51,7 +51,7 @@ For detailed information on how to insert a static input, see [Insert a static i
 
 The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
-In this use case, the *PIM* product input from the start place via the *pimProduct* port is used, together with the connection ID, to create an offer for one of the sales channel configured in the *Omni-Channel* module. 
+In this use case, the *PIM* product input from the start place via the *pimProduct* port is used, together with a specific connection ID, to create an offer for one of the sales channel configured in the *Omni-Channel* module. 
 
 To do so, you must configure the *Create offer from PIM product* action as follows:
 

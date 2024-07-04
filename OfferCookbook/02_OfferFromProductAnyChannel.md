@@ -4,7 +4,7 @@
 [!!Core actions](../ActindoWorkFlow/UserInterface/08_CoreActions.md)
 [!!Manage the offers](../Channels/Operation/01_ManageOffers.md)
 
-# Create an offer from a product workflow for any sales channel
+# Create an offer from a product workflow in any sales channel
 
 ![Offer from product basic](../Assets/Screenshots/OfferCookbook/OfferFromProductBasic.png "[Offer from product basic]")
 
@@ -13,7 +13,7 @@
 
 | **Summary** |       |
 | ----------- |------ |
-| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product |
+| **Purpose** | Create an *Omni-Channel* offer from a *PIM* product for any sales channel |
 | **Affected entities** | Modules.Actindo.PIM.Models.PIMProduct <br> Readonly.Modules.Actindo.Channels.Models.ConnectionContainer <br> Actindo.Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct |
 | **Included plugins** | *Process Orchestration* <br> *PIM* <br> *Omni-Channel* |
 | **Included third party software** | none | 
@@ -40,14 +40,14 @@
 
 Within a workflow, several actions are performed. If a certain number of actions are executed in a specific order with a common objective that can only be achieved by executing all of these actions, we speak of a so-called *snippet*. In the following, all snippets and single actions within the process are described in detail, specifying their function and functional settings.
 
-To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you have two possibilities: 
+To create an offer from a *PIM* product, you must provide the *PIM* product and the connection ID of the sales channel where the offer is going to be sold. The *PIM* product is input via the start place. To provide the connection ID, you have two possibilities: 
 
-1. Provide the desired connection ID in JSON format as a static input in the subsequent *Create offer* action. For detailed information, see [Create an offer from product workflow with static inputs](./03_OfferFromProductStaticInputs.md). 
+1. Provide the desired connection ID in JSON format as a static input in the *Create offer from PIM product* action. For detailed information, see [Create an offer from product workflow in a specific sales channel](./03_OfferFromProductSpecificChannel.md). 
 2. Determine the connection ID through a set of intermediate actions, that is, a snippet, see [Determine the connection ID](#determine-the-connection-id). 
 
 This workflow is slightly more complex but also much more flexible, as it allows to calculate dynamically which connection to take and creates a proper input token.
 
-For detailed information on how to manage a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
+For detailed information on how to build a workflow, see [Manage a workflow](../ActindoWorkFlow/Operation/01_ManageWorkflows.md).
 
 [comment]: <> (the version before is the more flexible one as i could calculate which connection to take instead of always using the same, and also creates the proper input token. but now we look at a simplified version that works just as well if we do not need that. Here the static input is internally mapped to the correct type and a the connection token we manually created before is created on the fly just from the id)
 
@@ -82,7 +82,7 @@ To do so, you must configure the *Multiply input action* action as follows:
 | *Max tries* | 1 | |
 | *Long description* | - | |
 
-[comment]: <> (Deprecated in Key muss geändert werden. Es ist nicht deprecated. SW)
+[comment]: <> (Deprecated in Key muss geändert werden. Es ist nicht deprecated. SW. Dementsprechend anpassen wenn UI updated.)
 
 
 Once configured, the *Duplicate product* action presents the following structure:
@@ -93,15 +93,13 @@ Once configured, the *Duplicate product* action presents the following structure
 | -     |          | - | *p1* | PIM product  |
 
 
-[comment]: <> (Determine connection and Create connection container ist ein snippet? S. https://github.com/Actindo-AG/Documentation/blob/ACD-831/HandleDeliveryNotes/HandleDeliveryNotes.md Zusammen beschreiben? Snippet: Multiply input + PHP code determine connection + CreateConnectionContainer?)
-
 ### Execute PHP code
 
 ![Determine connection](../Assets/Screenshots/OfferCookbook/ExecutePHPCodeDetermineConnection.png "[Determine connection]")
 
 The *Execute PHP code* is used to execute a custom PHP code defined in the configuration. For detailed information, see [Execute PHP code](../ActindoWorkFlow/UserInterface/08_CoreActions.md#execute-php-code). 
 
-In this use case, this action is used to determine the connection ID of the sales channel where the offer needs to be created. To do so, you must configure the *Execute PHP code* action as follows:
+In this use case, this action is used to determine the connection ID of the sales channel where the offer is going to be created. To do so, you must configure the *Execute PHP code* action as follows:
 
 #### Settings
 
@@ -126,22 +124,33 @@ In this use case, this action is used to determine the connection ID of the sale
 | Field | Value | Comments | 
 |---------|-------|----------|
 | *in0* | PIM product | Output from previous action |
-| *in1* | "2" |  | |
+| *in1* | "2" | ID of desired connection |
 | *in2*-*in9* | - | No further configuration needed |
 
-[comment]: <> (WHY in1: 2? Das ist auch ein Static input... Verstehe nicht. Dieses Beispiel passt so nicht mit static value Erklärung.)
+[comment]: <> (Fachreview: Muss man in in immer connection ID angeben? Geht das auch ohne? Wie? Wie wäre es, wenn man mehrere Verbindungen ermitteln will?)
 
-The *in0* contains the *PIM* product output via the *p1* of the *Duplicate product* action. The *in1* is a static input with value "2", which means... 
+Once configured, the *Determine connection* action presents the following structure:
+
+| Input port  | Value  | -  | Output port | Value    |
+| ----------- | ------ | -- | ----------- | -------  |
+| *in0*  | PIM product (any value ) | - | *out0* | Connection data (scalar value) |
+| *in1*  | "2"         | - |        |                 |
+
+The *in0* contains the *PIM* product output via the *p1* of the *Duplicate product* action.   
+The *in1* is a static input with value "2", which means... (?)  
 The connection data is output via the *out0* port, which will be connected to a *Create connection container* action. 
 
+[comment]: <> (Fachreview: Da fehlt mir Info/Kontext. Welche Daten kommen raus? Scalar value? Connection ID? Wozu braucht man dann PIM Produkt in in0?)
+
+[comment]: <> (Feedback: der input erwartet eigentlich ein Objekt vom typ connection. Wir geben ihm aber im static input nur ein array mit den noetigsten infos ["id": 2]. da der Workflow intern weiß das das ein Objekt vom typ connection sein soll sucht er anhand der infos das richtige Objekt.)
 
 ### Create connection container
 
 ![Create connection container](../Assets/Screenshots/OfferCookbook/CreateConnectionContainer.png "[Create connection container]")
 
-The *Create container container* action is used to create a container for the value input via the *id* port.
+The *Create connection container* action is used to create a container for the value input via the *id* port.
 
-In this use case, you need to create a container for the connection determined in the previous action. 
+In this use case, you need to create a container for the connection ID determined in the previous action. 
 
 To do so, you must configure the *Create connection container* action as follows:
 
@@ -166,14 +175,13 @@ After setting it up, the *Create con. container* action has the following struct
 
 
 
-
 ### Create offer from PIM product
 
 ![Create offer](../Assets/Screenshots/OfferCookbook/CreateOfferBasic.png "[Create offer]")
 
 The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
-In this use case, you need to create an offer for the *PIM* product input via the *match* port from the *Duplicate product* action. The connection ID output via the *out* port of the *Create connection container* action is input via the *connection* port.  
+In this use case, you create an offer for the *PIM* product input via the *match* port coming from the *Duplicate product* action. The connection ID output via the *out* port of the *Create con. container* action is input via the *connection* port.  
 
 To do so, you must configure the *Create offer from PIM product* action as follows:
 
@@ -202,8 +210,6 @@ To do so, you must configure the *Create offer from PIM product* action as follo
 
 > [Info] For detailed information on how to insert a static input, see [Insert a static input](../ActindoWorkFlow/Operation/to-be-completed).
 
-  
-[comment]: <> (Warum geht es technisch nicht connection id als static input einzugeben? Warum kann man nicht "id: 2" eingeben? Die ganzen Actions dazwischen, um nur id: 2 anzugeben...?)
 
 [comment]: <> (Unique check beim Trigger vs unique als static input bei Create Offer. Zufall bei der Benennung. Process Prio vs. Action prio. Action prio overrides process prio, da spezifischer)
 

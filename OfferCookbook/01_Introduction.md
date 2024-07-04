@@ -21,6 +21,9 @@ In this chapter, the basic setup procedures for an offer from product workflow a
 - [Create a PIM product trigger](#create-a-pim-product-trigger)
 - [Add a condition to a PIM product trigger](#add-a-condition-to-a-pim-product-trigger)
 
+Besides, a list of the usual place data types and their meaning is provided. For detailed information, see [Check the place data types](#check-the-place-data-types).
+
+
 
 ## Set up an offer from product workflow
 
@@ -51,8 +54,6 @@ To set up a workflow, you have to create a new workflow and define the basic set
 | *Choose the data type of your end place* | Arbitrary Data | |
 
 
-
-
 ## Create a PIM product trigger
 
 A trigger is the combination of a business object, such as a *PIM* product, and an event that initiates a process, that is, the execution of the workflow. You need to define a trigger for a process to start automatically every time a certain scenario takes place. Otherwise, your workflow will only be executed once.
@@ -63,8 +64,6 @@ For the offer from product workflow, two types of triggers apply:
 2. *PIM product saved*: to initiate your process every time a product is changed and saved
 
 You can add several triggers to a workflow. 
-
-[comment]: <> (Laut SW stimmt das nicht! -> Check mit Oli und ggf. Info in Workflows korrigieren! Bear in mind that the triggers work as a priority list, that is, a list of items arranged in descending order based on their priority. Therefore, the correct order of the triggers is crucial, as the system goes through the triggers in the order they are listed, starting from the top, and stops checking them as soon as a matching trigger is found. That means that the triggers must be organized from specific to general to cover all possible relevant cases.)
  
 #### Prerequisites
 
@@ -153,23 +152,18 @@ You have created a *PIM* product trigger, see [Create a PIM product trigger](#cr
 
 
 
-
-## Check the place data types for places
+## Check the place data types
 
 [comment]: <> (Evtl. Workflows-Dokumentation ergänzen und von hier darauf verweisen; /ActindoWorkFlow/Overview/04_WorkflowProcessElements.md)
 
-The transitions you need to use in a workflow depend on the type of data available and the type of data you need to be output. Some transitions can handle all data types, such as *Execute PHP code*, while other have certain data type restrictions. 
+The transitions you must use to build a workflow depend on the type of data available to you and the type of data you need to be output. Some transitions can handle all data types, such as *Execute PHP code*, while other have certain data type restrictions. 
 
-When creating a workflow, you must be aware of what data type you are starting with and what data type you need to obtain for certain actions to be performed. Therefore, it is convenient to be familiar with the different data types and their meaning.
+The place data type determines the kind of value a place can hold. The data contained in the place (token) is input into the transition through a input port. The token is then processed in the transition and output in the same or other form, depending on the transition logic, through the output port. For detailed information on these workflow elements, See [Places](../ActindoWorkFlow/ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#places) and [Input and output ports](../ActindoWorkFlow/ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#input-and-output-ports).
 
-[comment]: <> (Add info bzw. Workflows ergänzen und hier Verweis darauf)
-
-For detailed information, see:   
-[Places](../ActindoWorkFlow/ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#places)   
-[Input and output ports](../ActindoWorkFlow/ActindoWorkFlow/Overview/04_WorkflowProcessElements.md#input-and-output-ports)
+When creating a workflow, you must be aware of the data type contained in the different places and what data type you need to obtain for certain actions to be performed. Therefore, it is convenient to be familiar with the different data types and their meaning.
 
 
-### Places data types 
+### Place data types
 
 The following data types are available for the places (tokens) depending on the action you choose:
 
@@ -182,11 +176,11 @@ The following data types are available for the places (tokens) depending on the 
 | Business document ID | Unique numerical identifier assigned to a business document on the system |  Example?          |
 | Abstract       | Variable that holds a collection of data together with a set of operations on that data | List, queue, stack |
 
-[comment]: <> (Ist es sinnvoll, auch andere in Workflows zu erklären, z.B. BusinessDocumentContainer, ConnectionContainer?)
+[comment]: <> (Sind "standard" oder "core" data types? Dazu kommen noch die data types, die aus dem API-Transitions kommen? Ist es sinnvoll, auch andere in Workflows zu erklären, z.B. BusinessDocumentContainer, ConnectionContainer?)
 
 
 
-### Places data types in core actions
+### Place data types in core actions
 
 Mandatory input/output ports are marked in bold. When selecting any of these actions in the workflow editor, the required input/output ports are provided with a place by default, which cannot be deleted.
 
@@ -200,7 +194,7 @@ Mandatory input/output ports are marked in bold. When selecting any of these act
 | Manual action | data_input: Arbitrary Data <br> event_id: Scalar Value | out0-out8: Arbitrary Data <br> timeout_output: Arbitrary Data |
 | Split by criterion | in: Arbitrary Data | match: Arbitrary Data <br> noMatch: Arbitrary Data |
 | Start subprocess | p: Arbitrary Data |  p: Arbitrary Data |
-| Start subprocesses (core?) (Basic Petri net action) | p: Arbitrary Data <br> ignore: Arbitrary Data |  p: Arbitrary Data |
+| Start subprocesses (core?) (Basic Petri net action) | **p**: Arbitrary Data <br> ignore: Arbitrary Data |  p: Arbitrary Data |
 | Switch case action | in: Arbitrary Data | origin: Arbitrary Data <br> case1-case6: Arbitrary Data <br> default: Arbitrary Data |  
 | Update process name and search string | p: abstract | p: abstract |  
 | Wait for criterion | in: Arbitrary Data | match: Arbitrary Data <br> timeout: Arbitrary Data | 
@@ -208,7 +202,7 @@ Mandatory input/output ports are marked in bold. When selecting any of these act
 | Waiting action | p: Arbitrary Data | p: Arbitrary Data |
 
 
-### Places data types in actions involved in offer from product workflow
+### Place data types in offer from product workflow
 
 Mandatory input/output ports are marked in bold. When selecting any of these actions in the workflow editor, the required input/output ports are provided with a place by default, which cannot be deleted.
 

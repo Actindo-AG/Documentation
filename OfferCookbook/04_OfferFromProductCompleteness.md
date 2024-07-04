@@ -32,9 +32,9 @@
 - To set up an offer from product workflow, see [Set up an offer from product workflow](./01_Introduction.md#set-up-an-offer-from-product-workflow).
 - To create a *PIM* product trigger, see [Create a PIM product trigger](./01_Introduction.md#create-a-pim-product-trigger).  
 
-[comment]: <> (Alte Struktur: S. bkp files)
+    > [Info] The *Completeness* property (*_pim_completeness* attribute) is an automatically set value that is calculated during each *PIM* product update, so it acts similar to workflow triggers. Due to this similar behavior, you cannot use the *Completeness* property as a trigger.  
 
-[comment]: <> (completeness is a specuial case and we can not use doctrine triggers for it as it is an automatically set value that is calculated during each pim product update as well, so it acts similar to the workflow trigegrs and they would interfere/not work together)
+[comment]: <> (Fachreview: Check bitte Erklärung und ggf. verbessern/ergänzen.)
 
 
 
@@ -73,10 +73,10 @@ To do so, you must configure the *Split by criterion* action as follows:
 **Configuration**
 
  Field | Value | Comments | 
-|---------|-------|----------|
-| *Path* | _pim_completeness.totalCompleteness |
-| *Operator* | >= |
-| *Value* | 100 |
+|---------|-------|------ |
+| *Path* | _pim_completeness.totalCompleteness | The *_pim_completeness* attribute is a nested object, that is, it contains further objects and properties. To the access *totalCompleteness* property, you must specify the the path to it using dot notation. Every dot indicates an additional sub-level. | 
+| *Operator* | >= | Usual operators are allowed. |
+| *Value* | 100 | |
 
 
 Once configured, the *Completeness 100* action presents the following structure:
@@ -94,7 +94,7 @@ Once configured, the *Completeness 100* action presents the following structure:
 
 The *Create offer from PIM product* action creates an offer in the *Omni-Channel* module from a *PIM* product.  
 
-In this use case, you need to create an offer for the *PIM* product with 100 % completeness output via the *match* port of the previous action.  
+In this use case, you create an offer for the *PIM* product with 100 % total completeness output via the *match* port of the previous action.  
 
 In this use case, the *PIM* product input from the *Completeness 100* action via the *match* port is used, together with the connection ID, to create an offer for one of the sales channel configured in the *Omni-Channel* module. 
 
