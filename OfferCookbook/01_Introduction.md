@@ -29,8 +29,6 @@ Besides, a list of the usual place data types and their meaning is provided. For
 
 To set up a workflow, you have to create a new workflow and define the basic settings first.   
 
-[comment]: <> (SW: Are the data types of the places -or to be more precise tokens- explained in the workflow documentation? If not i would briefly mention what they mean)
-
 #### Prerequisites
 
 - You have created a *PIM* product, see [Create a product](../PIM/Operation/01_ManageProducts.md#create-a-product).
@@ -117,9 +115,7 @@ You have set up an offer from product workflow, see [Set up an offer from produc
 
 ## Add a condition to a PIM product trigger
 
-[comment]: <> (Maybe link the documentation of the workflow again for the different types of conditions changeset, vs entity, etc. Evtl. Workflows-Doku ergänzen)
-
-[comment]: <> (i would add the info in the beginning that the version before is the more flexible one as i could calculate which connection to take instead of always using the same,and also creates the proper input token, but now we look at a simplified version that works just as well if we do not need that. Here the static input is internally mapped to the correct type and a the connection token we manually created before is created on the fly just from the id.)
+[comment]: <> (Maybe link the documentation of the workflow again for the different types of conditions changeset, vs entity, etc. Evtl. Workflows-Doku ergänzen und hier verweisen)
 
 You can add conditions to a trigger to define more precisely when a process is executed.  
 
@@ -176,7 +172,7 @@ The following data types are available for the places (tokens) depending on the 
 | Business document ID | Unique numerical identifier assigned to a business document on the system |  Example?          |
 | Abstract       | Variable that holds a collection of data together with a set of operations on that data | List, queue, stack |
 
-[comment]: <> (Sind "standard" oder "core" data types? Dazu kommen noch die data types, die aus dem API-Transitions kommen? Ist es sinnvoll, auch andere in Workflows zu erklären, z.B. BusinessDocumentContainer, ConnectionContainer?)
+[comment]: <> (Fachreview: Ist die Info oben korrekt? Kannst du mir Beispiele geben, wo sie fehlen? Sind die oben aufgelistete Datentypen "standard" oder "core" data types? Dazu kommen noch die data types, die aus dem API-Transitions kommen? Ist es sinnvoll, auch andere in Workflows zu erklären, z.B. BusinessDocumentContainer, ConnectionContainer?)
 
 
 
@@ -194,7 +190,6 @@ Mandatory input/output ports are marked in bold. When selecting any of these act
 | Manual action | data_input: Arbitrary Data <br> event_id: Scalar Value | out0-out8: Arbitrary Data <br> timeout_output: Arbitrary Data |
 | Split by criterion | in: Arbitrary Data | match: Arbitrary Data <br> noMatch: Arbitrary Data |
 | Start subprocess | p: Arbitrary Data |  p: Arbitrary Data |
-| Start subprocesses (core?) (Basic Petri net action) | **p**: Arbitrary Data <br> ignore: Arbitrary Data |  p: Arbitrary Data |
 | Switch case action | in: Arbitrary Data | origin: Arbitrary Data <br> case1-case6: Arbitrary Data <br> default: Arbitrary Data |  
 | Update process name and search string | p: abstract | p: abstract |  
 | Wait for criterion | in: Arbitrary Data | match: Arbitrary Data <br> timeout: Arbitrary Data | 
@@ -212,3 +207,5 @@ Mandatory input/output ports are marked in bold. When selecting any of these act
 | Create offer from PIM product | Extensions.Actindo.PimChannelsConnection.Offers.createFromPimProduct | **pimProduct**: ReadOnly.Modules.Actindo.PIM.Models.PIMProductContainer <br> **connection**: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer <br> changeTracking: Scalar Value <br> initialStatus: Scalar Value <br> destinationAttributeSet: ReadOnly.Modules.Actindo.DataHub.Models.Tenant.AttributeSetContainer <br> unique: Scalar Value | data:Modules.Actindo.Channels.Models.Offer <br> success: Scalar Value <br> displayMessage: Scalar Value <br> displayMessageTitle: Scalar Value <br> error: Scalar Value <br> job_id: Scalar Value | 
 | Create connection container | Create-ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer | p: Scalar Value | out: ReadOnly.Modules.Actindo.Channels.Models.ConnectionContainer |
 | 
+
+[comment]: <> (Fachreview: Wäre diese Info, also place data types in den unterschiedlichen Transitions, nützlich/sinnvoll für den Benutzer?)

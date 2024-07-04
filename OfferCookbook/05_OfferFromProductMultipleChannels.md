@@ -150,7 +150,7 @@ The *Create offer from PIM product* action creates an offer in the *Omni-Channel
 
 In this use case, you create an offer for a *PIM* product in two different sales channels: your [online shop](#create-shop-offer) (channel A) and the [POS system](#create-pos-offer) in your retail store (channel B).
 
-[comment]: <> (Wie könnte man weitere Verkaufskanäle hinzufügen? Weitere Split by action? Wo/Wie? S. Video)
+[comment]: <> (Fachreview: Wie könnte man weitere Verkaufskanäle hinzufügen? Weitere Split by action? Wo/Wie? S. Video)
 
 ### Create shop offer
 
