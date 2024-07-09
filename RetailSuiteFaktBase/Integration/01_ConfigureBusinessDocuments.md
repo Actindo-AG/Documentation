@@ -1,14 +1,12 @@
 # Configure the business documents
 
-A business document is the proof of a business transaction that is categorized into different types (business document type) depending on the respective transaction (for example, order, delivery, or return). The creation and posting of a business document triggers certain processes in the workflow.
-
-Besides, in the *Actindo Core1 Platform*, a business document is a basic entity containing data on an order. Some of the most important business documents are the order confirmation, the delivery note, the invoice, and the dispatch note. Most business documents originate in the *Order Management* module, but not all of them. This is the case, for example, of the dispatch note, which is created in the *Fulfillment* module based on the delivery note from *Order Management*. The business documents are provided with logic, which allows them to trigger certain actions in the workflow based on the data they contain.
+A business document is the proof of a business transaction that is categorized into different types (business document type) depending on the respective transaction (for example, order, delivery, or return). Besides, business documents contain data on an order and are provided with logic, which allows them to trigger certain actions in the workflow based on the data they contain.
 
 Certain business documents may be assigned special functions, that of head document and/or delivery head. 
 
-A **head document** is the first document in the business document chain. It temporarily reserves stock in the warehouse (reservation posting). The rest of documents in the chain will be derived from it. It is freely configurable which document is to be used as a head document, although the logical sequence of the order process must be taken into account.
+A **head document** is the first document in the business document chain. The rest of documents in the chain will be derived from it. It temporarily reserves stock in the warehouse (reservation posting). It is freely configurable which document is to be used as a head document, although the logical sequence of the order process must be taken into account.
 
-The **deliver head** is a business document that permanently reserves stock in the warehouse (reserved for open delivery bills). It is freely configurable which document is to be used as the leading document for deliveries, although the logical sequence of the order process must be taken into account.
+The **deliver head** is a business document that permanently reserves stock in the warehouse (reserved for open delivery bills). It is freely configurable which document is to be used as the leading document for deliveries, although the logical sequence of the order process must be taken into account. For detailed information on the stock posting types, see [Posting types](../../RetailSuiteWarehousing/UserInterface/04_PostingTypes.md) in the *Warehousing* documentation.
 
 In the [Basic order management process](../../Core1/Overview/05_BasicOrderManagementProcess.md), the head document and the deliver head are the same document, in this case the order confirmation. Nevertheless, a different configuration is possible.
 
@@ -16,7 +14,7 @@ In the [Basic order management process](../../Core1/Overview/05_BasicOrderManage
 
 ## Business document types
 
-There are 16 business documents originating in the *Order Management* module. Based on them, other business documents can be created. This is the case of the dispatch note, created in the *Fulfillment* module and used to request an external fulfiller to pick, pack, and send an order and provide them with the necessary data. 
+There are 16 business documents originating in the *Order Management* module. Based on them, other business documents can be created. This is the case of the dispatch note, created in the *Fulfillment* module and used to request an external fulfiller to pick, pack, and send an order, and transfer any necessary data. 
 
 In the following, an overview of the *Order Management* business documents is provided:
 

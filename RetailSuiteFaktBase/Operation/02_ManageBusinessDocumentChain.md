@@ -54,5 +54,5 @@ The next step is the invoice. After the order has been confirmed, an invoice is 
 
 
 
-Aus welche Belege welche andere Belege erstellt werden können (Rechtsklick -> Context menu)
+[comment]: <> (Aus welchen Belegen welche andere Belege erstellt werden können mit Rechtsklick -> Context menu)
 
