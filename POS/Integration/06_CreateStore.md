@@ -15,7 +15,6 @@ There are two ways to create a store in POS:
 The store wizard guides you through all steps to create a store and its full functionality. 
 
 
-
 ## Start the store wizard
 
 #### Prerequisites

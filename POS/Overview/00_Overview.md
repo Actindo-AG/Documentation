@@ -5,8 +5,9 @@ In this part of the *Venduo POS* documentation, you will find the following chap
 - [General information](./01_General.md)
     - [Benefits](./01_General.md#benefits)
     - [Prerequisites](./01_General.md#prerequisites)
+    - [Further information](01_General.md#further-information)
 
-- [Key Features](./02_Features.md)
+- [Key features](./02_Features.md)
     - [Create unified customer experiences](./02_Features.md#create-unified-customer-experiences)
     - [Digitize all retail processes](./02_Features.md#digitize-all-retail-processes)
 
