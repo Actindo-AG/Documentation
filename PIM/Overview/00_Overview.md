@@ -4,7 +4,7 @@ In this part of the *PIM* documentation, you will find the following chapters:
 
 - [General information](./01_General.md)
     - [Benefits](./01_General.md#benefits)
-    - [Prerequisites](./01_General.md#prerequisites)
+    - [Using the *Actindo Core1 Platform*](./01_General.md#using-the-actindo-core1-platform)
 
 
 - [Key features](./02_Features.md)

@@ -1,8 +1,8 @@
 # Attribute sets
 
-Attribute sets are a fundamental component in organizing product data efficiently. The process of creating and managing these sets involves several key steps and considerations.
+Attribute sets are a fundamental component in organizing product data efficiently. The process of creating and managing these attribute sets involves several key steps and considerations.
 
-> [Info] By default, the *PIM Basic Set* is already created.
+> [Info] By default, the *PIM Basic Set* has been created.
 
 
 ## Create an attribute set
@@ -30,10 +30,14 @@ Attribute sets are a fundamental component in organizing product data efficientl
 
 ## Sample scenario &ndash; Create an attribute set
 
-The product catalog of company *ABC* includes shirts, pants, dresses, smartphones, and tablets. These products can be classified in two product types:
+The product catalog of company *ABC* includes shirts, pants, dresses, smartphones, and tablets. You can classify these products into two product types:
 - Clothes
 - Mobile devices
 
- For each product type, a single attribute set is created:
+ For each product type, create a single attribute set:
 
 [comment]: <> (add screenshot for both attribute sets)
+
+Select the *PIM basic set* as attribute set for inheritance to copy all attributes from the *PIM basic set* to the *Clothes* and the *Mobile devices* attribute set and adopt future changes on these attributes. In consequence, you only have to create the specific attributes for your attribute sets. 
+
+> [Info] The system allows for unlimited levels of inheritance, providing extensive flexibility in organizing complex product hierarchies. Additionally, the attribute set assigned to an article can be modified later if needed, offering adaptability as product structures evolve.
