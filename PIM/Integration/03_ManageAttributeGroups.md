@@ -187,12 +187,14 @@ At least one attribute group has been created, see [Create an attribute group](#
     The attribute group has been deleted. The *Edit attribute groups* view is closed.
 
 
-### Add attributes to a group
+### Add attributes to an attribute group
 
 You can add attributes to an attribute group or sub-group.
 Note that attributes can only be added to leaf-groups, that means either to an attribute group without sub-groups or to the sub-group(s) of an attribute group.
 Once a sub-group has been created for an attribute group, attributes can no longer be assigned to the attribute group but only to the sub-groups.
 If the attribute group already contained attributes, these attributes are automatically moved to first sub-group.
+
+> [Comment]: <> (You can add attributes to either an attribute group or its sub-groups. However, attributes can only be added to leaf groups, which means you can add them to an attribute group that does not have any sub-groups or to the sub-groups of an attribute group. Once you create a sub-group for an attribute group, you can no longer assign attributes directly to the attribute group. Instead, you must assign them to the sub-groups. If the main attribute group already contained attributes, those attributes will automatically be moved to the first sub-group upon its creation. This structure helps maintain a clear organization of attributes.)
 
 Be aware that an attribute can be assigned to one attribute group or sub-group only.
 If you add an attribute to an attribute group that is already added to another group, it is automatically removed from the former attribute group.
