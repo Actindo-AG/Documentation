@@ -53,13 +53,12 @@ Configure the details of the POS-specific cash receipt number. The cash receipt 
 - *Length of the sequential number*   
     Define the number of characters of the sequential number.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Reset after time interval*   
+- [x] *Reset after time interval*   
     Choose whether or not to reset the sequential number after the time interval.
 
 [comment]: <> (What does it mean?)
 
 
-<!--- NEU-->
 ### Deliveries allowed
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Deliveries allowed*
@@ -79,7 +78,6 @@ Enables the cashiers to initiate a delivery during the payment process. For deta
     Do not forget to adjust your order workflow accordingly, so that a delivery note is created in case a delivery is initiated.<!---stimmt das?--> 
 
 
-<!--- NEU-->
 ### Down payments allowed
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Down payments allowed*
@@ -113,7 +111,7 @@ Activate or disable the option to print the cash receipt.
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Always print the receipt*   
+- [x] *Always print the receipt*   
     Choose whether or not to print the cash receipt for each transaction. If the receipt printing is deactivated, you can still initiate the receipt printing manually via the order history.
 
     > [Info] Remember that receipt printing is mandatory in several countries. Inform yourself about the country-specific regulations before you disable this option.
@@ -173,7 +171,6 @@ In POS, you can specify for statistical purposes which payment method was used f
     Click this button to add a new payment method. A new line for a payment method is displayed.
 
 
-
 ### Open drawer at cash payment
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Open drawer at cash payment*
@@ -188,7 +185,7 @@ Enable or disable the option to open the cash drawer for cash payment.
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Open drawer at cash payment*   
+- [x] *Open drawer at cash payment*   
     Choose whether or not to open the cash drawer for cash payment. By default, this option is enabled.
 
 
@@ -206,9 +203,8 @@ Enable or disable the option to open the cash drawer for cashless payment.
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Open drawer*    
+- [x] *Open drawer*    
     Choose whether or not to open the cash drawer for cashless payment. By default, this option is enabled.
-
 
 
 ### VAT ID
@@ -240,10 +236,10 @@ Activate or deactivate the options for cashless payment.
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") ![Voucher](../../Assets/Icons/Voucher.png "Voucher") *Refund on voucher (refund only)*   
+- [x] ![Voucher](../../Assets/Icons/Voucher.png "Voucher") *Refund on voucher (refund only)*   
     Choose whether or not to refund cashless payments only on vouchers. By default, this option is inactive.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manual payment at terminal*   
+- [x] ![Terminal](../../Assets/Icons/Terminal.png "Terminal") *Manual payment at terminal*   
     Choose whether or not to allow cashless payments via manual payment at the terminal. If you use an external terminal that is not connected to POS, you need to enable that option. By default, this option is inactive.
 
 
@@ -261,7 +257,7 @@ When a pay desk is opened, it is linked to a specific user. This user is the onl
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Bind cash journal to user*   
+- [x] *Bind cash journal to user*   
     Choose whether or not to link the cash register to a special user. By default, this option is active.
 
     > [Info] Remember that even if you deactivate this option, a user must log out to allow another user to access the pay desk.
@@ -278,7 +274,7 @@ Define an amount up to which the pay desk is skimmed after the pay desk closes. 
 - [Save]  
     Click this button to save any changes.
 
-- *Skim to amont*    
+- *Skim to amount*    
     Enter the amount up to which the pay desk is skimmed after the pay desk closing.
 
 
@@ -296,11 +292,10 @@ By default, the expected amount in the pay desk is indicated. Deactivate this op
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Hide expected amount*   
+- [x] *Hide expected amount*   
     Choose whether or not to hide the expected amount in the pay desk from the cashier. By default, this option is inactive.
 
 
-<!--- NEU-->
 ### Display age rating
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Display age rating*
@@ -338,7 +333,6 @@ The following fields and features are available in the window:
     This setting is the default.
 
 
-<!--- NEU-->
 ### Remind of offers
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Remind of offers*
@@ -363,7 +357,6 @@ Allow your cashiers to suggest additional offers to the customer during the paym
     Click this button to add an SKU. A new line for an SKU is displayed.
 
 
-<!--- Neu-->
 ### Regex for customer code
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Regex for customer-code*
@@ -379,11 +372,9 @@ Define a regular expression for the customer code, with which the system is able
     Enter a regular expression that the system can use to uniquely identify a customer-code. For detailed information about regular expressions, see [https://regex101.com/](https://regex101.com/ "[https://regex101.com/]") on the *regular expressions 101* website.
 
 
-
-<!---NEU-->
 ### Allow negative quantities
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Allow negative quantities*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Allow negative quantities*
 
 ![Allow negative quantities](../../Assets/Screenshots/POS/Management/GlobalSettings/AllowNegativeQuantities.png "[Allow negative quantities]")
 
@@ -395,14 +386,14 @@ Allow your cashiers to accept a return and to refund the amount due. Enable this
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Allow negative quantities*   
+- [x] *Allow negative quantities*   
     Select the checkbox to use the *Allow negative quantities* feature.   
     The *Negative quantity* toggle is available now in the bill list.
 
-<!---NEU-->
+
 ### Field for customer lock
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Field for customer lock*
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Field for customer lock*
 
 ![Field for customer lock](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForCustomerLock.png "[Field for customer lock]")
 
@@ -414,12 +405,112 @@ The following prerequisites must be met to use this feature:
 - You have added an attribute *customer_locked* for the customer lock to the attribute sets with which you define customer master data. See the *RetailSuite customer* attribute set for reference. 
 - This attribute must be of the *Floating point number* or *Integer* data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 
+[comment]: <> (stimmt das? in datahub ist das nen checkbox attribut)
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Locked attribute*   
+    Click the drop-down list to select the corresponding attribute to lock a customer. The name of the displayed attribute(s) depends on what you have defined when creating the attribute(s).
+
+[comment]: <> (Ist es sinnvoll hier eine Drop-down liste zu haben? in welchem fall snd mehrere attribute sinnvoll? Falls nein -> warum nicht nur checkbox? Welche Attribute werden hier gezogen/angezeigt? bestimmter Datentyp?)
+
+
+
+[comment]: <> (check the following new entries)
+### SKU matching barcode scan
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry SKU matching barcode scan*
+
+[comment]: <> (add screenshot)
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]    
+    Click this button to save any changes.
+
+- [x] *Activate SKU matching*   
+    Choose whether or not to activate the SKU matching. If activated, the system will perform an additional check against the SKU if no matching EAN is found during a barcode scan. By default, this checkbox is selected.
+
+
+### Field for customer date of birth
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Field for customer date of birth*
+
+[comment]: <> (add screenshot)
+
+- [Save]   
+    Click this button to save any changes.
+
+- *Date of birth attribute*   
+    Click the drop-down list to select an attribute to display the customer's date of birth. The name of the displayed attribute(s) depends on what you have defined when creating the attribute(s).
+
+[comment]: <> (Ist es sinnvoll hier eine Drop-down liste zu haben? in welchem fall snd mehrere attribute sinnvoll? Falls nein -> warum nicht nur checkbox? Welche Attribute werden hier gezogen/angezeigt? bestimmter Datentyp?)
+
+
+### Add customers automatically
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Add customers automatically*
+
+[comment]: <> (add screenshot)
+
+- [Save]    
+    Click this button to save any changes.
+
+- *Immediately add customer on scan* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+    Activate this toggle to add an customer to the customers list immediately on scan. By default, this toggle is disabled.
+
+[comment]: <> (Was ist damit gemeint?)
+
+
+### Credentials Gutscheinwerft
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Credentials Gutscheinwerft*
+
+[comment]: <> (add screenshot)
+
+- [Save]    
+    Click this button to save any changes.
+
+- *URL*  
+    Enter the corresponding URL for the *Gutscheinwerft* acces.
+
+[comment]: <> (Ist das immer: https://gutscheinwerft.dev.digiwerft.de)
+
+- *User name*  
+    Enter the user name for the specified URL.
+
+[comment]: <> (Ist das immer: einloesen@actindo.com)
+
+- *Password*  
+    Enter the password for the specified URL.
+
+[comment]: <> (Ist das immer: _SECRET_)
+
+
+### Always generate QR code
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Always generate QR code*
+
+[comment]: <> (add screenshot)
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")   
+    Activate this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]    
+    Click this button to save any changes.
+
+- [x] *Always generate QR code*   
+    Choose whether or not to generate a QR code for each receipt. If selected, the system will create an QR code for each receipt. By default, this checkbox is selected.
+
+[comment]: <> (Falscher Erklärtext? Was passiert, wenn ich die Checkbox abwähle, wird dann nie ein QR-Code generiert oder kann ich das dann manuell einstellen bzw. bei jeder Rechnung/Bon entscheiden?)
+
 
 
 ## CURRENCIES
 
 In this section, you define all settings concerning the currencies in your POS system.
-
 
 ### Available currencies
 
@@ -435,7 +526,7 @@ The table displays all available currencies. All fields are read-only. Depending
 
 The following functions are available for the editing toolbar:
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]")     
+- [x]     
     Select the checkbox to display the editing toolbar and to edit or delete the selected currency.
 
 - [EDIT]   
@@ -566,13 +657,17 @@ Select all currencies that are used in your POS system and define a default curr
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Currency Name*   
+- [x] *Currency Name*   
     Choose whether or not to use this currency in your POS system.
 
 - *Default*   
     Click the drop-down list to select the currency that is used as default currency. All available currencies are displayed in the drop-down list. When you select a default currency that is not yet selected as used currency, that currency is automatically selected as used currency.
 
+
+
 ## PRICING
+
+In this section, you define all settings concerning pricing.
 
 ### Automatic discount
 
@@ -604,7 +699,6 @@ Define a discount that is automatically applied above a certain amount.
     Click this button to add a new discount. A new line for a discount is displayed.
 
 
-<!--- NEU-->
 ### Customer-specific discount
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Customer-specific discount*
@@ -619,18 +713,15 @@ The following prerequisites must be met to use this feature:
 - You have added an attribute *customer_auto_discount* for the customer-specific discount to the attribute sets with which you define customer and supplier basic data. See the *RetailSuite customer* or the *RetailSuite supplier* attribute set for reference. Currently, the customer-specific discount can only be retrieved via the _customer_auto_discount attribute of the Actindo.Modules.Actindo.POS.Customers API. <!---ist das richtig-->
 - This attribute must be of the *Floating point number* or *Integer* data type. For detailed information, see [Floating point number](../../DataHub/UserInterface/05_DataTypeList.md#floating-point-number) or [Integer](../../DataHub/UserInterface/05_DataTypeList.md#integer) in the *DataHub* documentation.
 
-
-The following fields and features are available for this window:   
-
 - [Save]   
     Click this button to save any changes.
 
 - *Discount attribute*    
     Click the drop-down list to select the attribute, in which the discount is stored.
 
+[comment]: <> (Welche Attribute werden hier gezogen/angezeigt? bestimmter Datentyp?)
 
 
-<!---NEU-->
 ### Active price groups
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Active price groups*
@@ -641,7 +732,7 @@ Define the price groups you want to use for your stores. The *Active price group
 
 The following fields and features are available for this window:   
 
--- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are disabled. By default, this toggle is enabled.  
 - [Save]   
     Click this button to save any changes.
@@ -650,9 +741,9 @@ The following fields and features are available for this window:
     Enable the toggle at the price groups you want to use.    
     The price groups are active after saving.
 
+[comment]: <> (Welche Preisgruppen werden hier angezeigt?)
 
 
-<!---NEU-->
 ### Field for price group
 
 *Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Field for price group*
@@ -660,8 +751,6 @@ The following fields and features are available for this window:
 ![Field for price group](../../Assets/Screenshots/POS/Management/GlobalSettings/FieldForPriceGroup.png "[Field for price group]")
 
 Define the field to be used to store the price group. The *Field for price group* setting specifies the attribute in the customer's master data from which the system should read the customer's price group, see [Active price groups](#active-price-groups). For detailed information, see [Create a price group for POS](../Integration/07_ManageOffers.md#create-a-price-group-for-pos).
-
-
 
 - *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
     Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are disabled. By default, this toggle is enabled.
@@ -672,11 +761,13 @@ Define the field to be used to store the price group. The *Field for price group
 - *Price group attribute*
     Click the *Price group attribute* drop-down list and select the attribute in which the customer's price group is stored. 
 
+[comment]: <> (Welche attribute werden hier angezeigt?)
+
+
 
 ## RETURNS
 
 In this section, you define all settings concerning returns.
-
 
 ### Return reasons
 
@@ -716,7 +807,7 @@ Activate or deactivate the refund to the same payment method for returns.
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Only on the same payment method*   
+- [x] *Only on the same payment method*   
     Choose whether or not a refund for a return can only be made to the same payment method. By default, this option is enabled.
 
 
@@ -734,14 +825,14 @@ Activate or deactivate the return to the same store.
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Return only in the same store*   
+- [x] *Return only in the same store*   
     Choose whether or not a return can only be made in the same store. By default, this option is inactive.
+
 
 
 ## RECEIPT PRINTING
 
 In this section, you define all settings concerning the receipt printing.
-
 
 ### Print merchant receipt
 
@@ -757,7 +848,7 @@ Activate or deactivate the printing of a merchant receipt for cashless payment.
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Print merchant receipt*   
+- [x] *Print merchant receipt*   
     Choose whether or not to print a merchant receipt in addition to the customer receipt for cashless payments. By default, this option is enabled.
 
 
@@ -775,7 +866,7 @@ Activate or deactivate the compatibility mode for logo printing. As some receipt
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Logo print compatibility mode*   
+- [x] *Logo print compatibility mode*   
     Choose whether you want to use the compatibility mode for logo printing or not. By default, this option is inactive.
 
 
@@ -851,6 +942,38 @@ Upload a logo for your receipts.
     The preview box displays the uploaded logo image. If a logo image is already displayed and you upload a new one, the current logo image will be overwritten by the new logo image.
     Remove a displayed logo by clicking the ![Remove](../../Assets/Icons/Cross03.png "[Remove]") (Remove) button in the upper right corner of the preview box.
 
+[comment]: <> (check the following entries)
+
+
+### Receipt footer text
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Receipt footer text*
+
+[comment]: <> (Add screenshot)
+
+- [Save]   
+    Click this button to save any changes.
+
+- Text field
+    Enter a text for the footer of your receipt.
+
+
+### Hide checkout image
+
+*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Hide checkout image*
+
+[comment]: <> (Add screenshot)
+
+- *Apply from default* ![Toggle](../../Assets/Icons/Toggle.png "[Toggle]")     
+    Enable this toggle to apply the default settings or disable this toggle to specify custom settings. When the toggle is enabled, all fields in the view are locked. By default, this toggle is enabled.
+
+- [Save]   
+    Click this button to save any changes.
+
+- [x] *Hide checkout image*   
+    Choose whether you want to hide the product image on the checkout list or not. By default, this option is inactive.
+
+[comment]: <> (Was ist die checkout list?)
 
 
 ## DATA TRANSFER ORDER MANAGEMENT
@@ -911,7 +1034,7 @@ Activate or deactivate the reverse posting to the original warehouse. Any discre
 - [Save]   
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Reverse posting on source warehouse*    
+- [x] *Reverse posting on source warehouse*    
     Choose whether or not to post discrepancies between the delivery receipt and the delivery are automatically posted back to the original warehouse. By default, this option is active.
 
 
@@ -1038,7 +1161,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 - [Save]    
     Click this button to save any changes.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Shop delivery active*   
+- [x] *Shop delivery active*   
     Choose whether or not to activate deliveries from the store. By default, this option is inactive.   
     When the store deliveries are active, the three new tabs [*ABGESCHLOSSENE LIEFERSCHEINE*](./02e_ProcessedDeliveryNotes.md), [*OFFENE LIEFERSCHEINE*](./02f_UnprocessedDeliveryNotes.md) and  [*WARENEINGANGS-SYNC*](./02g_WareneingangsSync.md) are displayed in the menu entry *Management* and the new tab [*WARENEINGANG*](./01g_Wareneingang.md) is displayed in the menu entry *Sales*.
 
@@ -1057,7 +1180,7 @@ Activate or deactivate the store deliveries. If the store deliveries are active,
 
 Enable or disable the application of customer data from RetailSuite.
 
-- ![Checkbox](../../Assets/Icons/Checkbox04.png "[Toggle]") *Kundendaten aus RetailSuite uebernehmen*   
+- [x] *Kundendaten aus RetailSuite uebernehmen*   
     Choose whether or not to apply customer data from RetailSuite when receipts are linked to a customer. By default, this option is active.
 
 - [Save]    
