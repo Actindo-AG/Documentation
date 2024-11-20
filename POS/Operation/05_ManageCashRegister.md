@@ -17,7 +17,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -47,7 +47,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -77,7 +77,7 @@ The pay desk is open, see [Open a pay desk](./01_OpenPayDesk.md).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASH REGISTER*
+*POS > Sales > Select store and pay desk > Tab CASH REGISTER*
 
 ![Cash Register](../../Assets/Screenshots/POS/Sales/CashRegister/CashRegister.png "[Cash Register]")
 
@@ -125,7 +125,7 @@ At least one shift has ended, and the pay desk has been closed, see [Close a pay
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Edit Pay Desk > Tab Transactions*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Edit Pay Desk > Tab Transactions*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 

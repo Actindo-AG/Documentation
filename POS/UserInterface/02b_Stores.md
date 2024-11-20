@@ -5,7 +5,7 @@
 
 # Stores
 
-*Venduo POS > Management > Tab STORES*
+*POS > Management > Tab STORES*
 
 ![Select Store](../../Assets/Screenshots/POS/Management/Stores/Stores.png "[Select Store]")
 
@@ -54,7 +54,7 @@ The following functions and fields are available in this view:
 
 ## Create store
 
-*Venduo POS > Management > Tab STORES > Button Add*
+*POS > Management > Tab STORES > Button Add*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/Add.png "[Create Store]")
 
@@ -71,7 +71,7 @@ The following functions and fields are available in this view:
 
 ## Create store via wizard
 
-*Venduo POS > Management > Tab STORES > Button Add > Button Create store via wizard*
+*POS > Management > Tab STORES > Button Add > Button Create store via wizard*
 
 ### Step 1 &ndash; Create store
 
@@ -359,7 +359,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ## Create store manually
 
-*Venduo POS > Management > Tab STORES > Button Add > Button Create Store*
+*POS > Management > Tab STORES > Button Add > Button Create Store*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/CreateStore.png "[Create Store]")
 
@@ -376,7 +376,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ## Store
 
-*Venduo POS > Management > Tab STORES > Select Store*
+*POS > Management > Tab STORES > Select Store*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
@@ -404,7 +404,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 ### Basic data &ndash; store
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Basic Data]")
 
@@ -454,7 +454,7 @@ The wizard window displays a summary of the store configuration. Missing data or
 
 #### Store managers
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Add Store Manager*
 
 ![Store Managers](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/StoreManagers.png "[Store Managers]")
 
@@ -485,7 +485,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 #### Create pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Button Add*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Button Add*
 
 ![Create pay desk](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/CreatePayDesk.png "[Create pay desk]")
 
@@ -501,7 +501,7 @@ The table displays all available store managers. All fields are read-only. Depen
 
 ### Settings &ndash; Store
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
+*POS > Management > Tab STORES > Select Store > Tab Settings*
 
 ![Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Settings Store]")
 
@@ -511,7 +511,7 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 ### Admin settings &ndash; Store
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
 ![Admin Settings Store](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Admin Settings Store]")
 
@@ -522,7 +522,7 @@ All settings are also available as Global setting. Note that if you change a set
 
 #### Customer number of store for reordering
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Customer number of store for reordering*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Customer number of store for reordering*
 
 ![Customer number](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings08.png "[Customer number]")
 
@@ -537,7 +537,7 @@ Define a customer ID for the store to restrict the reorder query to the selected
 
 #### Stock allocation of orders
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Stock allocation of orders*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Stock allocation of orders*
 
 Change or define the warehouse from which to take the stock.
 
@@ -566,7 +566,7 @@ Change or define the warehouse from which to take the stock.
 
 ## Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk*
+*POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk*
 
 ![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
@@ -605,7 +605,7 @@ Change or define the warehouse from which to take the stock.
 
 ### Basic data &ndash; Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk*
+*POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk*
 
 ![Pay Desk Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Pay Desk Basic Data]")
 
@@ -635,7 +635,7 @@ Change or define the warehouse from which to take the stock.
 
 #### Cashiers
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk > Tab Basic Data > Add Cashier*
+*POS > Management > Tab STORES > Select Store > Tab Basic data > Select pay desk > Edit Pay desk > Tab Basic Data > Add Cashier*
 
 ![Cashiers](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/Cashiers.png "[Cashiers]")
 
@@ -666,7 +666,7 @@ The following fields are available for the table:
 
 ### Admin settings &ndash; Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Admin Settings*
 
 ![Admin Settings Pay Desk](../../Assets/Screenshots/POS/Management/Stores/PayDesk/AdminSettings/AdminSettings.png "[Admin Settings Pay Desk]")
 
@@ -675,7 +675,7 @@ For detailed information, see the documentation of the [Global settings](./02a_G
 
 ### Transactions &ndash; Pay desk
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Transactions.png "[Transactions]")
 
@@ -724,7 +724,7 @@ The table displays the shift summaries of all shifts on the selected pay desk. D
 
 #### Transactions details
 
-*Venduo POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
+*POS > Management > Tab STORES > Select Store > Edit Pay Desk > Tab Transactions > Select Shift*
 
 ![Transactions](../../Assets/Screenshots/POS/Management/Stores/PayDesk/Transactions/Details.png "[Transactions]")
 

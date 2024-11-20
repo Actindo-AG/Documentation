@@ -1,6 +1,6 @@
 # TSS Providers
 
-*Venduo POS > Management > Tab TSS PROVIDERS*
+*POS > Management > Tab TSS PROVIDERS*
 
 ![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 
@@ -24,7 +24,7 @@ The following fields are available:
 
 ## Edit connection
 
-*Venduo POS > Management > Tab TSS PROVIDERS > Select connection*
+*POS > Management > Tab TSS PROVIDERS > Select connection*
 
 ![TSS PROVIDERS](../../Assets/Screenshots/POS/Management/TSSProviders/FiskalyConnection.png "[TSS PROVIDERS]")
 

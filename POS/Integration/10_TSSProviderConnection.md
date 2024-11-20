@@ -14,7 +14,7 @@ Create a connection to your subaccount of the fiskaly&trade; Actindo master acco
 
 #### Procedure
 
-*Venduo POS > Management > Tab TSS PROVIDERS*
+*POS > Management > Tab TSS PROVIDERS*
 
 ![TSS Providers](../../Assets/Screenshots/POS/Management/TSSProviders/TSSProviders.png "[TSS Providers]")
 

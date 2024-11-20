@@ -36,7 +36,7 @@ Create a store manually, if you do not want to use the wizard.
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES*
+*POS > Management > Tab STORES*
 
 ![Create Store](../../Assets/Screenshots/POS/Management/Stores/Stores.png "[Create Store]")
 
@@ -76,7 +76,7 @@ Create a store manually, if you do not want to use the wizard.
 
     - *Omni-Channel* module   
         The following attribute sets have been created:     
-        - A connection *Venduo POS store "Name of new store"*  
+        - A connection *POS store "Name of new store"*  
         - A variant set *Set for POS for "Name of the new store"*   
         - A variant set *Offer option set for POS store "Name of the new store"*   
 
@@ -93,7 +93,7 @@ In the store details, you give some detailed information about your store. Furth
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
@@ -119,7 +119,7 @@ In the store details, you give some detailed information about your store. Furth
 
 ## Create a pay desk
 
-Create at least one pay desk to be able to process any type of transaction via *Venduo POS*.
+Create at least one pay desk to be able to process any type of transaction via *POS*.
 
 A pay desk can be used in different manners. You can consider a pay desk as a physical unit and consequently create one pay desk per physically existing pay desk.   
 However, you can also create one pay desk per user, so that each pay desk is assigned to one specific cashier and can only be used by that cashier. In this way, you can also create several pay desks in the POS system for one physically existing pay desk.
@@ -130,7 +130,7 @@ However, you can also create one pay desk per user, so that each pay desk is ass
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data*
 
 ![Store Details](../../Assets/Screenshots/POS/Management/Stores/Store/BasicData/BasicData.png "[Store Details]")
 
@@ -163,7 +163,7 @@ In the pay desk details, you give some detailed information about the pay desk. 
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Basic Data > Select pay desk for editing*
+*POS > Management > Tab STORES > Select Store > Tab Basic Data > Select pay desk for editing*
 
 ![Basic Data](../../Assets/Screenshots/POS/Management/Stores/PayDesk/BasicData/BasicData.png "[Basic Data]")
 
@@ -217,7 +217,7 @@ A store has been created, see [Create a store manually](#create-a-store-manually
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Settings*
+*POS > Management > Tab STORES > Select Store > Tab Settings*
 
 ![Store Basic Data](../../Assets/Screenshots/POS/Management/Stores/Store/Settings/Settings.png "[Store Basic Data]")
 
@@ -247,7 +247,7 @@ To connect the warehouse management and the stock management to your POS, you ha
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings*
 
 ![Store Admin Settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AdminSettings.png "[Store Admin Settings]")
 
@@ -436,7 +436,7 @@ To assign the same accounts to all stores, you may enter the account numbers in 
 
 #### Procedure
 
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Menu entry Account allocation Accounting*
+*POS > Management > Tab GLOBAL SETTINGS > Menu entry Account allocation Accounting*
 
 ![Allocate accounts global settings](../../Assets/Screenshots/POS/Management/GlobalSettings/AccountAssignAccounting.png "[Allocate accounts global settings]")
 
@@ -459,7 +459,7 @@ To assign the accounts to a single store, you may enter the account numbers in t
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Account assignment*
+*POS > Management > Tab STORES > Select Store > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts in store settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts in store settings]")
 
@@ -487,7 +487,7 @@ To assign the accounts to a single pay desk, you may enter the account numbers i
 
 #### Procedure
 
-*Venduo POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Menu entry Account assignment*
+*POS > Management > Tab STORES > Select Store > Select Pay Desk > Tab Admin Settings > Menu entry Account assignment*
 
 ![Assign accounts pay desk settings](../../Assets/Screenshots/POS/Management/Stores/Store/AdminSettings/AccountAssignment.png "[Assign accounts pay desk settings]")
 

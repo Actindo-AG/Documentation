@@ -1,6 +1,6 @@
 # Integration
 
-In this part of the *Venduo POS* documentation, you will find the following chapters:
+In this part of the *POS* documentation, you will find the following chapters:
 
 - [Configure the warehouse for POS](./01_ConfigureWarehouse.md)
     - [Create a warehouse group](./01_ConfigureWarehouse.md#create-a-warehouse-group)

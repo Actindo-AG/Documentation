@@ -1,6 +1,6 @@
 # History
 
-*Venduo POS > Sales > Tab HISTORY*
+*POS > Sales > Tab HISTORY*
 
 ![History](../../Assets/Screenshots/POS/Sales/History/History.png "[History]")
 

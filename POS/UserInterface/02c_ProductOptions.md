@@ -1,6 +1,6 @@
 # Product Options
 
-*Venduo POS > Management > Tab PRODUCT OPTIONS*
+*POS > Management > Tab PRODUCT OPTIONS*
 
 ![Options attributes](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Options attributes]")
 
@@ -19,7 +19,7 @@ The following functions and fields are available in this list:
 
 ## Create an option attribute
 
-*Venduo POS > Management > Tab PRODUCT OPTIONS > Button Add*
+*POS > Management > Tab PRODUCT OPTIONS > Button Add*
 
 ![Create option attribute](../../Assets/Screenshots/POS/Management/ProductOptions/CreateOptionAttribute.png "[Create option attribute]")
 

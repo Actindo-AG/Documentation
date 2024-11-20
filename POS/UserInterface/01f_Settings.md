@@ -1,6 +1,6 @@
 # Settings
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab SETTINGS*
+*POS > Sales > Select Store and Pay Desk > Tab SETTINGS*
 
 ![Settings](../../Assets/Screenshots/POS/Sales/Settings/Settings.png "[Settings]")
 
@@ -11,7 +11,7 @@ In this tab, you can configure the settings for the cash drawer:
 
 ## Open drawer for cash payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab SETTINGS > Menu option Open drawer for cash payment*
+*POS > Sales > Select Store and Pay Desk > Tab SETTINGS > Menu option Open drawer for cash payment*
 
 ![Open drawer for cash payment](../../Assets/Screenshots/POS/Sales/Settings/Settings01.png "[Open drawer for cash payment]")
 
@@ -30,7 +30,7 @@ Activate or deactivate the option to open the cash drawer for cash payment.
 
 ## Open drawer after cashless payment
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab SETTINGS > Menu option Open drawer for cash payment*
+*POS > Sales > Select Store and Pay Desk > Tab SETTINGS > Menu option Open drawer for cash payment*
 
 ![Open drawer after cashless payment](../../Assets/Screenshots/POS/Sales/Settings/Settings02.png "[Open drawer after cashless payment]")
 

@@ -45,7 +45,7 @@ You must configure a printer for POS to print receipts, invoices, shift summarie
 7. Click the *Format* drop-down list and select the appropriate width of the receipt.
 
 <!----Hallo Julian, auf der rechten Seite gibt es diese beiden Felder nicht mehr (Screenshot neu gemacht) nicht mehr in dem Modul, nicht?>
-8. Click the *Module* drop-down list and select **Venduo POS** in the list of modules.
+8. Click the *Module* drop-down list and select **POS** in the list of modules.
 
 9. Click the *Event* drop-down list and select the appropriate pay desk and store in the list of pay desks, as displayed in the example below.
 

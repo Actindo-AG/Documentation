@@ -1,6 +1,6 @@
 # Returns
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETURNS*
+*POS > Sales > Select Store and Pay Desk > Tab RETURNS*
 
 ![Returns](../../Assets/Screenshots/POS/Sales/Retouren/Retouren.png "[Returns]")
 
@@ -36,7 +36,7 @@ The table displays all returns. Depending on the settings, the displayed columns
 
 ## Add return
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add*
+*POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add*
 
 ![Add return](../../Assets/Screenshots/POS/Sales/Retouren/Add.png "[Add return]")
 
@@ -59,7 +59,7 @@ The *Add return* view is used to select the bill number of the offer that a cust
 
 ## Define return
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add > Select bill number*
+*POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add > Select bill number*
 
 ![Define return](../../Assets/Screenshots/POS/Sales/Retouren/DefineReturn.png "[Define return]")
 
@@ -101,7 +101,7 @@ The *Bill number* view is used to specify the return reason and the condition of
 
 ## Summary of the return
 
-*Venduo POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add > Select bill number > Click [SUMMARY]*
+*POS > Sales > Select Store and Pay Desk > Tab RETURNS > Button Add > Select bill number > Click [SUMMARY]*
 
 ![Summary of the return](../../Assets/Screenshots/POS/Sales/Retouren/SummaryOFReturn.png "[Summary of the return]")
 

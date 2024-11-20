@@ -16,7 +16,7 @@ No prerequisites to fulfill.
 
 #### Procedure
 
-*Venduo POS > Management > Tab PRODUCT OPTIONS*
+*POS > Management > Tab PRODUCT OPTIONS*
 
 ![Product options](../../Assets/Screenshots/POS/Management/ProductOptions/ProductOptions.png "[Product options]")
 
@@ -104,7 +104,7 @@ Associate the product option product with the offers for which you want to offer
 8. Click the [SAVE] button in the top right corner of the *Edit offer "SKU"* view.   
     The product option offer is now associated to an offer of your store. When a cashier selects this offer during the sales process, the *Choose options* window will be displayed.
 
-    *Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT > Select offer associated with a product option*
+    *POS > Sales > Select store and pay desk > Tab CASHPOINT > Select offer associated with a product option*
 
     ![Choose options](../../Assets/Screenshots/POS/Sales/Cashpoint/ChooseOption1.png "[Choose options]")
 

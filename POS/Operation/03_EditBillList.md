@@ -24,7 +24,7 @@ You can also apply a discount to the whole purchase. For detailed information, s
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -55,12 +55,12 @@ The modified price is related to each item of the offer entry in the bill list. 
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -90,12 +90,12 @@ You can change the quantity of an offer in your bill list by increasing or decre
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -119,12 +119,12 @@ You can check the number of items in stock respectively the availability of an o
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -151,12 +151,12 @@ If you delete an offer from the bill list, the whole offer entry regardless of i
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -171,12 +171,12 @@ You can add a note to the purchase in your bill list to indicate if you have mad
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -204,12 +204,12 @@ If you want to assign a purchase to a customer who does not yet exist in the sys
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -239,13 +239,13 @@ Alternatively, if the customer has a customer or member card, you can select the
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 
@@ -274,13 +274,13 @@ Alternatively, you can search for the customer name, see [Assign a purchase to a
 
 #### Prerequisites
 
-- Offers have been created for the *Venduo POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
+- Offers have been created for the *POS* module, see [Manage offers for POS](../Integration/07_ManageOffers.md).
 - At least one offer has been added to the bill list, see [Select an offer](./02_SelectOffer.md#select-an-offer).
 - At least one customer is already registered, see [Register a customer](#register-a-customer) and has a customer or member card.
 
 #### Procedure
 
-*Venduo POS > Sales > Select store and pay desk > Tab CASHPOINT*
+*POS > Sales > Select store and pay desk > Tab CASHPOINT*
 
 ![Cashpoint](../../Assets/Screenshots/POS/Sales/Cashpoint/Product.png "[Cashpoint]")
 

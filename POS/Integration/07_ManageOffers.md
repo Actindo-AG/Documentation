@@ -8,7 +8,7 @@
 
 # Manage offers for POS
 
-To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *Venduo POS* module retrieves its offers.
+To offer products in POS, it is recommended to create the products in the *PIM* module first and import them later into the *Omni-Channel* module. From there, the *POS* module retrieves its offers.
 
 
 ## Create products for POS
@@ -43,7 +43,7 @@ At least one new product type has been created, see [Create an attribute set](..
 
 #### Procedure
 
-*Venduo POS > Management > Tab MAPPING FROM PIM*
+*POS > Management > Tab MAPPING FROM PIM*
 
 ![Mapping from PIM](../../Assets/Screenshots/POS/Management/MappingFromPIM/MappingFromPIM01.png "[Mapping from PIM]")
 
@@ -393,7 +393,7 @@ Declare the voucher name in the *Global settings*.
 You have created an offer for pre-printed vouchers, see [Create an offer for pre-printed vouchers](#create-an-offer-for-pre-printed-vouchers).
 
 #### Procedure
-*Venduo POS > Management > Tab GLOBAL SETTINGS > Voucher SKU*
+*POS > Management > Tab GLOBAL SETTINGS > Voucher SKU*
 
 ![Voucher SKU](../../Assets/Screenshots/POS/Management/GlobalSettings/VoucherSKU.png "[Voucher SKU]")
 

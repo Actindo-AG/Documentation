@@ -1,6 +1,6 @@
 # User interface
 
-In this part of the *Venduo POS* documentation, you will find the following chapters:
+In this part of the *POS* documentation, you will find the following chapters:
 <!---Error-->
 
 - [Sales](./01_Sales.md)
